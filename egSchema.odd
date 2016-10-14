@@ -1,90 +1,132 @@
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>TEI for Egyptian Gazette</title>
-<author>
-Matthew Miguez, FSU University Libraries, and Will Hanley
-</author>
-</titleStmt>
-<publicationStmt>
-<p>
-Available under CC0 license - https://creativecommons.org/publicdomain/zero/1.0/
-</p>
-</publicationStmt>
-<sourceDesc>
-<p>Information about the source</p>
-</sourceDesc>
-</fileDesc>
-</teiHeader>
-<text>
-<body>
-<schemaSpec ident="egSchema" start="TEI">
-<moduleRef key="header"/>
-<moduleRef key="core"/>
-<moduleRef key="tei"/>
-<moduleRef key="textstructure"/>
-<moduleRef key="linking"/>
-<moduleRef key="namesdates"/>
-<moduleRef key="figures"/>
-<elementSpec ident="div" mode="change">
-<attList>
-<attDef ident="type" usage="req" mode="change">
-<gloss>The div level must be typed.</gloss>
-<datatype>
-<rng:ref xmlns:rng="http://relaxng.org/ns/structure/1.0" name="datatype.Code"/>
-</datatype>
-<valList type="closed" mode="replace">
-<valItem ident="issue"/>
-<valItem ident="page"/>
-<valItem ident="section"/>
-<valItem ident="subsection"/>
-<valItem ident="article"/>
-<valItem ident="item"/>
-</valList>
-</attDef>
-<attDef ident="scope" usage="rec" mode="add">
-<datatype>
-<rng:ref xmlns:rng="http://relaxng.org/ns/structure/1.0" name="datatype.Code"/>
-</datatype>
-<valList type="closed" mode="add">
-<valItem ident="advertisement"/>
-<valItem ident="international"/>
-<valItem ident="local"/>
-<valItem ident="financial"/>
-<valItem ident="weather"/>
-<valItem ident="newspaper"/>
-<valItem ident="social"/>
-<valItem ident="sporting"/>
-<valItem ident="official"/>
-<valItem ident="maritime"/>
-<valItem ident="classifieds"/>
-<valItem ident="letters"/>
-<valItem ident="calendar"/>
-<valItem ident="measurements"/>
-<valItem ident="announcements"/>
-</valList>
-</attDef>
-<attDef ident="site" usage="rec" mode="change">
-<datatype>
-<rng:ref xmlns:rng="http://relaxng.org/ns/structure/1.0" name="datatype.Code"/>
-</datatype>
-<valList type="closed" mode="add">
-<valItem ident="Alexandria"/>
-<valItem ident="Cairo"/>
-<valItem ident="Suez"/>
-<valItem ident="Port Said"/>
-<valItem ident="Suakin"/>
-</valList>
-</attDef>
-<attDef ident="source" usage="rec" mode="add">
-<datatype>
-<rng:ref xmlns:rng="http://relaxng.org/ns/structure/1.0" name="datatype.Code"/>
-</datatype>
-<valList type="closed" mode="add">
-<valItem ident="local"/>
-<valItem ident="wire"/>
-</valList>
-</attDef>
-</attList>
-</elementSpec>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TEI for Egyptian Gazette</title>
+                <author> Matthew Miguez, FSU University Libraries, Will Hanley, and Sarah Stanley, Office of Digital Research and Scholarship </author>
+            </titleStmt>
+            <publicationStmt>
+                <p> Available under CC0 license - https://creativecommons.org/publicdomain/zero/1.0/
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p> 
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <schemaSpec ident="egSchema" start="TEI">
+                <moduleRef key="header"/>
+                <moduleRef key="core"/>
+                <moduleRef key="tei"/>
+                <moduleRef key="textstructure"/> <!-- exclude="div1 div2 div3 div4 div5 div6 div7" -->
+                <moduleRef key="linking"/>
+                <moduleRef key="namesdates"/>
+                <moduleRef key="figures"/>
+                <moduleRef key="gaiji" include="g glyph"/>
+                
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                <elementSpec ident="div" mode="change">
+                    <attList>
+                        <attDef ident="type" usage="req" mode="change">
+                            <gloss>The div level must be typed.</gloss>
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="replace">
+                                <valItem ident="issue"/>
+                                <valItem ident="page"/>
+                                <valItem ident="section"/>
+                                <valItem ident="subsection"/>
+                                <valItem ident="article"/>
+                                <valItem ident="item"/>
+                            </valList>
+                        </attDef>
+                        <attDef ident="scope" usage="rec" mode="add">
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="add">
+                                <valItem ident="advertisement"/>
+                                <valItem ident="international"/>
+                                <valItem ident="local"/>
+                                <valItem ident="financial"/>
+                                <valItem ident="weather"/>
+                                <valItem ident="newspaper"/>
+                                <valItem ident="social"/>
+                                <valItem ident="sporting"/>
+                                <valItem ident="official"/>
+                                <valItem ident="maritime"/>
+                                <valItem ident="classifieds"/>
+                                <valItem ident="letters"/>
+                                <valItem ident="calendar"/>
+                                <valItem ident="measurements"/>
+                                <valItem ident="announcements"/>
+                            </valList>
+                        </attDef>
+                        <attDef ident="site" usage="rec" mode="change">
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="add">
+                                <valItem ident="Alexandria"/>
+                                <valItem ident="Cairo"/>
+                                <valItem ident="Suez"/>
+                                <valItem ident="Port Said"/>
+                                <valItem ident="Suakin"/>
+                            </valList>
+                        </attDef>
+                        <attDef ident="source" usage="rec" mode="add">
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="add">
+                                <valItem ident="local"/>
+                                <valItem ident="wire"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                
+                <!--  -->
+                <!--  -->
+                <!--  -->
+                
+                <elementSpec ident="measure" module="core" mode="change">
+                    <attList>
+                        <attDef ident="unit" mode="replace">
+                            <datatype>
+                                <rng:ref name="data.enumerated"/>
+                            </datatype>
+                            <valList type="semi">
+                                <valItem ident="tal">
+                                    <desc>Talari</desc>
+                                </valItem>
+                                <valItem ident="qantar">
+                                    <desc></desc>
+                                </valItem> 
+                                <valItem ident="£">
+                                    <desc>Pound</desc>
+                                </valItem>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="cols" mode="add">
+                    <desc>Specifies the number of columns in a given section</desc>
+                    <classes>
+                        <memberOf key="model.milestoneLike"/>
+                        <memberOf key="att.global"/>
+                        <memberOf key="model.global"/>
+                    </classes>
+                    <content>
+                        <rng:empty/>
+                    </content>
+                </elementSpec>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>
