@@ -6,7 +6,7 @@ namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-10-14T11:52:39Z. .
+# Schema generated from ODD source 2016-10-19T14:22:45Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -1912,20 +1912,55 @@ measure =
     macro.phraseSeq,
     att.global.attributes,
     att.measurement.attribute.quantity,
-    att.measurement.attribute.commodity,
     
     ## 
-    ## Suggested values include: 1] tal; 2] qantar; 3] £
+    ## Suggested values include: 1] tal; 2] cantar; 3] £; 4] fcs; 5] sh; 6] LE; 7] balles; 8] ton; 9] dC; 10] mm; 11] pt; 12] min
     attribute unit {
       
       ## Talari
       "tal"
       | 
-        ##
-        "qantar"
+        ## qantar
+        "cantar"
       | 
-        ## Pound
+        ## British Pounds Sterling
         "£"
+      | 
+        ## francs
+        "fcs"
+      | 
+        ## shillings
+        "sh"
+      | 
+        ## Egyptian pounds (livres égyptien)
+        "LE"
+      | 
+        ## bales of cotton
+        "balles"
+      | 
+        ## tonnes
+        "ton"
+      | 
+        ## degrees celsius
+        "dC"
+      | 
+        ## millimeters
+        "mm"
+      | 
+        ## piasters tarif
+        "pt"
+      | 
+        ## minutes
+        "min"
+      | xsd:Name
+    }?,
+    
+    ## 
+    ## Suggested values include: 1] currency
+    attribute commodity {
+      
+      ##
+      "currency"
       | xsd:Name
     }?,
     
