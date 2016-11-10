@@ -6,7 +6,7 @@ namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-11-06T13:22:51Z. .
+# Schema generated from ODD source 2016-11-09T22:45:00Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -1914,7 +1914,7 @@ measure =
     att.measurement.attribute.quantity,
     
     ## 
-    ## Suggested values include: 1] tal; 2] cantar; 3] £; 4] fcs; 5] sh; 6] LE; 7] balles; 8] ton; 9] dC; 10] mm; 11] pt; 12] min
+    ## Suggested values include: 1] tal; 2] cantar; 3] £; 4] fcs; 5] sh; 6] LE; 7] balles; 8] ton; 9] dC; 10] mm; 11] pt; 12] min; 13] LE M
     attribute unit {
       
       ## Talari
@@ -1952,6 +1952,9 @@ measure =
       | 
         ## minutes
         "min"
+      | 
+        ## Egyptian pounds and millimes
+        "LE M"
       | xsd:Name
     }?,
     
