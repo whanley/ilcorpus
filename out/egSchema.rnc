@@ -6,7 +6,7 @@ namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-11-11T00:31:46Z. .
+# Schema generated from ODD source 2017-01-06T09:16:23Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -1065,7 +1065,8 @@ model.ptrLike = ptr | ref
 model.lPart = notAllowed
 model.global.meta =
   index | link | linkGrp | timeline | join | joinGrp | alt | altGrp
-model.milestoneLike = milestone | gb | pb | lb | cb | anchor | cols
+model.milestoneLike =
+  milestone | gb | pb | lb | cb | anchor | cols | colSpan
 model.gLike = g
 model.oddDecl = notAllowed
 model.oddDecl_alternation = notAllowed
@@ -1371,6 +1372,7 @@ model.global =
   | notatedMusic
   | figure
   | cols
+  | colSpan
 model.biblPart =
   model.respLike
   | model.imprintPart
@@ -3686,7 +3688,7 @@ floatingText =
     attribute type {
       
       ##
-      "issue"
+      "masthead"
       | 
         ##
         "page"
@@ -5312,4 +5314,8 @@ cols =
   
   ## Specifies the number of columns in a given section
   element cols { empty, att.global.attributes, empty }
+colSpan =
+  
+  ## Used to specifies the width of a div which spans multiple columns and cannot be accurately described using the cols and cb elements.
+  element colSpan { empty, att.global.attributes, empty }
 start = TEI

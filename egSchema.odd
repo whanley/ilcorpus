@@ -37,7 +37,7 @@
                                 <rng:ref name="datatype.Code"/>
                             </datatype>
                             <valList type="closed" mode="replace">
-                                <valItem ident="issue"/>
+                                <valItem ident="masthead"/>
                                 <valItem ident="page"/>
                                 <valItem ident="section"/>
                                 <valItem ident="subsection"/>
@@ -168,6 +168,17 @@
                 </elementSpec>
                 <elementSpec ident="cols" mode="add">
                     <desc>Specifies the number of columns in a given section</desc>
+                    <classes>
+                        <memberOf key="model.milestoneLike"/>
+                        <memberOf key="att.global"/>
+                        <memberOf key="model.global"/>
+                    </classes>
+                    <content>
+                        <rng:empty/>
+                    </content>
+                </elementSpec>
+                <elementSpec ident="colSpan" mode="add">
+                    <desc>Used to specifies the width of a div which spans multiple columns and cannot be accurately described using the cols and cb elements.</desc>
                     <classes>
                         <memberOf key="model.milestoneLike"/>
                         <memberOf key="att.global"/>
