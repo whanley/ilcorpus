@@ -3,7 +3,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-01-06T09:16:27Z. .
+Schema generated from ODD source 2017-01-07T12:20:20Z. .
 TEI Edition: Version 2.8.0. Last updated on
 	6th April 2015, revision 13197
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -3808,8 +3808,13 @@ Suggested values include: 1] currency</a:documentation>
          </optional>
          <optional>
             <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the type of measurement in any convenient typology.</a:documentation>
-               <ref name="data.enumerated"/>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
+Suggested values include: 1] indexNo</a:documentation>
+               <choice>
+                  <value>indexNo</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">number corresponding to indexing system for newspaper elements, especially paid advertisements</a:documentation>
+                  <data type="Name"/>
+               </choice>
             </attribute>
          </optional>
          <empty/>
