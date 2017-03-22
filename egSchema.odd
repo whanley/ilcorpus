@@ -44,6 +44,7 @@
                                 <valItem ident="article"/>
                                 <valItem ident="item"/>
                                 <valItem ident="wireReport"/>
+                                <valItem ident="advert"/>
                             </valList>
                         </attDef>
                         <attDef ident="scope" usage="rec" mode="add">
@@ -88,6 +89,79 @@
                             <valList type="closed" mode="add">
                                 <valItem ident="local"/>
                                 <valItem ident="wire"/>
+                            </valList>
+                        </attDef>
+                        <attDef ident="element" usage="rec" mode="add">
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="add">
+                                <valItem ident="weather">
+                                    <desc>Daily Weather Report</desc>
+                                </valItem>
+                                <valItem ident="wire">
+                                    <desc>Telegrams</desc>
+                                </valItem>
+                                <valItem ident="local">
+                                    <desc>Local and General</desc>
+                                </valItem>
+                                <valItem ident="sport">
+                                    <desc>Sport and Play</desc>
+                                </valItem>
+                                <valItem ident="social">
+                                    <desc>Personal and Social</desc>
+                                </valItem>
+                                <valItem ident="coce">
+                                    <desc>Calendar of Coming Events</desc>
+                                </valItem>
+                                <valItem ident="pass">
+                                    <desc>Passenger List</desc>
+                                </valItem>
+                                <valItem ident="visit">
+                                    <desc>Visitors' List</desc>
+                                </valItem>
+                                <valItem ident="letter">
+                                    <desc>Letters to the Editor</desc>
+                                </valItem>
+                                <valItem ident="khedive">
+                                    <desc>The Khedive</desc>
+                                </valItem>
+                                <valItem ident="army">
+                                    <desc>Army and Navy / Army of Occupation / Egyptian Army / Naval Notes</desc>
+                                </valItem>
+                                <valItem ident="londonLetter">
+                                    <desc>Our London Letter</desc>
+                                </valItem>
+                                <valItem ident="parisLetter">
+                                    <desc>Our Paris Letter</desc>
+                                </valItem>
+                                <valItem ident="notesPortSaid">
+                                    <desc>Notes from Port Said</desc>
+                                </valItem>
+                                <valItem ident="notesSuez">
+                                    <desc>Notes from Suez</desc>
+                                </valItem>
+                                <valItem ident="notesSuakin">
+                                    <desc>Notes from Suakin</desc>
+                                </valItem>
+                                <valItem ident="notesKhartoum">
+                                    <desc>Notes from Khartoum</desc>
+                                </valItem>
+                                <valItem ident="notesConstantinople">
+                                    <desc>Notes from Constantinople</desc>
+                                </valItem>
+                                <valItem ident="notesCyprus">
+                                    <desc>Notes from Cyprus</desc>
+                                </valItem>
+                                <valItem ident="notesSudan">
+                                    <desc>Notes from the Sudan</desc>
+                                </valItem>
+                                <valItem ident="notesFayoum">
+                                    <desc>Notes from Fayoum</desc>
+                                </valItem>
+                                <valItem ident="notesOther">
+                                    <desc>Notes from other places</desc>
+                                </valItem>
                             </valList>
                         </attDef>
                     </attList>
