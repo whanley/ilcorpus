@@ -6,7 +6,7 @@ namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-03-24T09:44:01Z. .
+# Schema generated from ODD source 2017-04-04T20:17:50Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -31,6 +31,7 @@ macro.specialPara =
    | model.inter
    | model.divPart
    | model.global)*
+macro.xtext = (text | model.gLike)*
 data.certainty = "high" | "medium" | "low" | "unknown"
 data.probability = xsd:double { minInclusive = "0" maxInclusive = "1" }
 data.numeric =
@@ -407,6 +408,9 @@ att.global.rendition.attribute.rendition =
 att.global.attributes =
   att.global.rendition.attributes,
   att.global.linking.attributes,
+  att.global.analytic.attributes,
+  att.global.facs.attributes,
+  att.global.change.attributes,
   att.global.responsibility.attributes,
   att.global.attribute.xmlid,
   att.global.attribute.n,
@@ -511,6 +515,21 @@ att.resourced.attribute.url =
   
   ## (uniform resource locator) specifies the URL from which the media concerned may be obtained.
   attribute url { data.pointer }
+att.interpLike.attributes =
+  att.source.attributes,
+  att.interpLike.attribute.type,
+  att.interpLike.attribute.inst
+att.interpLike.attribute.type =
+  
+  ## indicates what kind of phenomenon is being noted in the passage.
+  ## Sample values include: 1] image; 2] character; 3] theme; 4] allusion
+  attribute type { data.enumerated }?
+att.interpLike.attribute.inst =
+  
+  ## (instances) points to instances of the analysis or interpretation represented by the current element.
+  attribute inst {
+    list { data.pointer+ }
+  }?
 att.measurement.attributes =
   att.measurement.attribute.unit,
   att.measurement.attribute.quantity,
@@ -959,7 +978,7 @@ model.nameLike.agent_sequenceOptional = name?, orgName?, persName?
 model.nameLike.agent_sequenceOptionalRepeatable =
   name*, orgName*, persName*
 model.nameLike.agent_sequenceRepeatable = name+, orgName+, persName+
-model.segLike = seg
+model.segLike = s | cl | phr | w | m | c | pc | seg
 model.hiLike = hi
 model.hiLike_alternation = hi
 model.hiLike_sequence = hi
@@ -1064,7 +1083,18 @@ model.pPart.edit = model.pPart.editorial | model.pPart.transcriptional
 model.ptrLike = ptr | ref
 model.lPart = notAllowed
 model.global.meta =
-  index | link | linkGrp | timeline | join | joinGrp | alt | altGrp
+  index
+  | span
+  | spanGrp
+  | interp
+  | interpGrp
+  | link
+  | linkGrp
+  | timeline
+  | join
+  | joinGrp
+  | alt
+  | altGrp
 model.milestoneLike =
   milestone | gb | pb | lb | cb | anchor | cols | colSpan
 model.gLike = g
@@ -1098,35 +1128,35 @@ model.labelLike_sequenceOptional = desc?, label?
 model.labelLike_sequenceOptionalRepeatable = desc*, label*
 model.labelLike_sequenceRepeatable = desc+, label+
 model.listLike =
-  \list | listOrg | listEvent | listPerson | listPlace | listNym | table
+  \list | table | listOrg | listEvent | listPerson | listPlace | listNym
 model.listLike_alternation =
-  \list | listOrg | listEvent | listPerson | listPlace | listNym | table
+  \list | table | listOrg | listEvent | listPerson | listPlace | listNym
 model.listLike_sequence =
-  \list, listOrg, listEvent, listPerson, listPlace, listNym, table
+  \list, table, listOrg, listEvent, listPerson, listPlace, listNym
 model.listLike_sequenceOptional =
   \list?,
+  table?,
   listOrg?,
   listEvent?,
   listPerson?,
   listPlace?,
-  listNym?,
-  table?
+  listNym?
 model.listLike_sequenceOptionalRepeatable =
   \list*,
+  table*,
   listOrg*,
   listEvent*,
   listPerson*,
   listPlace*,
-  listNym*,
-  table*
+  listNym*
 model.listLike_sequenceRepeatable =
   \list+,
+  table+,
   listOrg+,
   listEvent+,
   listPerson+,
   listPlace+,
-  listNym+,
-  table+
+  listNym+
 model.noteLike = note
 model.lLike = l
 model.lLike_alternation = l
@@ -1422,13 +1452,7 @@ model.limitedPhrase =
   | model.pPart.data
 model.divLike = \div
 model.divGenLike = divGen
-model.div1Like = div1
-model.div2Like = div2
-model.div3Like = div3
-model.div4Like = div4
-model.div5Like = div5
-model.div6Like = div6
-model.div7Like = div7
+model.div1Like = notAllowed
 model.applicationLike = application
 model.teiHeaderPart = encodingDesc | profileDesc
 model.sourceDescPart = notAllowed
@@ -3902,109 +3926,6 @@ floatingText =
     }?,
     empty
   }
-div1 =
-  
-  ## (level-1 text division) contains a first-level subdivision of the front, body, or back of a text. [4.1.2. Numbered Divisions]
-  element div1 {
-    ((model.divTop | model.global)*,
-     ((((model.div2Like | model.divGenLike), model.global*)+
-       | ((model.common, model.global*)+,
-          ((model.div2Like | model.divGenLike), model.global*)*)),
-      (model.divBottom, model.global*)*)?),
-    att.global.attributes,
-    att.divLike.attributes,
-    att.typed.attributes,
-    att.declaring.attributes,
-    empty
-  }
-div2 =
-  
-  ## (level-2 text division) contains a second-level subdivision of the front, body, or back of a text. [4.1.2. Numbered Divisions]
-  element div2 {
-    ((model.divTop | model.global)*,
-     ((((model.div3Like | model.divGenLike), model.global*)+
-       | ((model.common, model.global*)+,
-          ((model.div3Like | model.divGenLike), model.global*)*)),
-      (model.divBottom, model.global*)*)?),
-    att.global.attributes,
-    att.divLike.attributes,
-    att.typed.attributes,
-    att.declaring.attributes,
-    empty
-  }
-div3 =
-  
-  ## (level-3 text division) contains a third-level subdivision of the front, body, or back of a text. [4.1.2. Numbered Divisions]
-  element div3 {
-    ((model.divTop | model.global)*,
-     ((((model.div4Like | model.divGenLike), model.global*)+
-       | ((model.common, model.global*)+,
-          ((model.div4Like | model.divGenLike), model.global*)*)),
-      (model.divBottom, model.global*)*)?),
-    att.global.attributes,
-    att.divLike.attributes,
-    att.typed.attributes,
-    att.declaring.attributes,
-    empty
-  }
-div4 =
-  
-  ## (level-4 text division) contains a fourth-level subdivision of the front, body, or back of a text. [4.1.2. Numbered Divisions]
-  element div4 {
-    ((model.divTop | model.global)*,
-     ((((model.div5Like | model.divGenLike), model.global*)+
-       | ((model.common, model.global*)+,
-          ((model.div5Like | model.divGenLike), model.global*)*)),
-      (model.divBottom, model.global*)*)?),
-    att.global.attributes,
-    att.divLike.attributes,
-    att.typed.attributes,
-    att.declaring.attributes,
-    empty
-  }
-div5 =
-  
-  ## (level-5 text division) contains a fifth-level subdivision of the front, body, or back of a text. [4.1.2. Numbered Divisions]
-  element div5 {
-    ((model.divTop | model.global)*,
-     ((((model.div6Like | model.divGenLike), model.global*)+
-       | ((model.common, model.global*)+,
-          ((model.div6Like | model.divGenLike), model.global*)*)),
-      (model.divBottom, model.global*)*)?),
-    att.global.attributes,
-    att.divLike.attributes,
-    att.typed.attributes,
-    att.declaring.attributes,
-    empty
-  }
-div6 =
-  
-  ## (level-6 text division) contains a sixth-level subdivision of the front, body, or back of a text. [4.1.2. Numbered Divisions]
-  element div6 {
-    ((model.divTop | model.global)*,
-     ((((model.div7Like | model.divGenLike), model.global*)+
-       | ((model.common, model.global*)+,
-          ((model.div7Like | model.divGenLike), model.global*)*)),
-      (model.divBottom, model.global*)*)?),
-    att.global.attributes,
-    att.divLike.attributes,
-    att.typed.attributes,
-    att.declaring.attributes,
-    empty
-  }
-div7 =
-  
-  ## (level-7 text division) contains the smallest possible subdivision of the front, body or back of a text, larger than a paragraph. [4.1.2. Numbered Divisions]
-  element div7 {
-    ((model.divTop | model.global)*,
-     ((model.common, model.global*)+,
-      (model.divBottom, model.global*)*)?),
-    att.global.attributes,
-    att.divLike.attributes,
-    att.typed.attributes,
-    att.declaring.attributes,
-    empty
-  }
 trailer =
   
   ## contains a closing title or footer appearing at the end of a division of a text. [4.2.4. Content of Textual Divisions 4.2. Elements Common to All Divisions]
@@ -4227,6 +4148,420 @@ back =
      (model.divBottomPart, (model.divBottomPart | model.global)*)?),
     att.global.attributes,
     att.declaring.attributes,
+    empty
+  }
+att.global.analytic.attributes = att.global.analytic.attribute.ana
+att.global.analytic.attribute.ana =
+  
+  ## (analysis) indicates one or more elements containing interpretations of the element on which the ana attribute appears.
+  attribute ana {
+    list { data.pointer+ }
+  }?
+s =
+  
+  ## (s-unit) contains a sentence-like division of a text. [17.1. Linguistic Segment Categories 8.4.1. Segmentation]
+  element s {
+    ((text
+      | model.gLike
+      | model.global
+      | binaryObject
+      | formula
+      | graphic
+      | media
+      | distinct
+      | emph
+      | foreign
+      | gloss
+      | mentioned
+      | soCalled
+      | term
+      | title
+      | hi
+      | address
+      | affiliation
+      | email
+      | date
+      | time
+      | geo
+      | measure
+      | measureGrp
+      | num
+      | name
+      | orgName
+      | persName
+      | geogFeat
+      | offset
+      | addName
+      | forename
+      | genName
+      | nameLink
+      | roleName
+      | surname
+      | bloc
+      | country
+      | district
+      | geogName
+      | placeName
+      | region
+      | settlement
+      | climate
+      | location
+      | population
+      | state
+      | terrain
+      | trait
+      | idno
+      | rs
+      | abbr
+      | choice
+      | expan
+      | add
+      | corr
+      | del
+      | orig
+      | reg
+      | sic
+      | unclear
+      | ptr
+      | ref
+      | c
+      | cl
+      | m
+      | pc
+      | phr
+      | seg
+      | w)*)
+    >> sch:pattern [
+         id = "egSchema-s-noNestedS-constraint-6"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:s"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "tei:s"
+             "You may not nest one s element within\x{a}" ~
+             "      another: use seg instead"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    att.global.attributes,
+    att.segLike.attributes,
+    att.typed.attributes,
+    empty
+  }
+cl =
+  
+  ## (clause) represents a grammatical clause. [17.1. Linguistic Segment Categories]
+  element cl {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.segLike.attributes,
+    att.typed.attributes,
+    empty
+  }
+phr =
+  
+  ## (phrase) represents a grammatical phrase. [17.1. Linguistic Segment Categories]
+  element phr {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.segLike.attributes,
+    att.typed.attributes,
+    empty
+  }
+w =
+  
+  ## (word) represents a grammatical (not necessarily orthographic) word. [17.1. Linguistic Segment Categories]
+  element w {
+    (text
+     | model.gLike
+     | seg
+     | w
+     | m
+     | c
+     | pc
+     | model.global
+     | model.lPart
+     | model.hiLike
+     | model.pPart.edit)*,
+    att.global.attributes,
+    att.segLike.attributes,
+    att.typed.attributes,
+    
+    ## provides a lemma for the word, such as an uninflected dictionary entry form.
+    attribute lemma { data.text }?,
+    
+    ## provides a pointer to a definition of the lemma for the word, for example in an online lexicon.
+    attribute lemmaRef { data.pointer }?,
+    empty
+  }
+m =
+  
+  ## (morpheme) represents a grammatical morpheme. [17.1. Linguistic Segment Categories]
+  element m {
+    (text | model.gLike | seg | m | c | model.global)*,
+    att.global.attributes,
+    att.segLike.attributes,
+    att.typed.attributes,
+    
+    ## supplies the morpheme's base form.
+    attribute baseForm { data.word }?,
+    empty
+  }
+c =
+  
+  ## (character) represents a character. [17.1. Linguistic Segment Categories]
+  element c {
+    macro.xtext,
+    att.global.attributes,
+    att.segLike.attributes,
+    att.typed.attributes,
+    empty
+  }
+pc =
+  
+  ## (punctuation character) contains a character or string of characters regarded as constituting a single punctuation mark. [17.1. Linguistic Segment Categories]
+  element pc {
+    (text | model.gLike | c | model.pPart.edit)*,
+    att.global.attributes,
+    att.segLike.attributes,
+    att.typed.attributes,
+    
+    ## indicates the extent to which this punctuation mark conventionally separates words or phrases
+    attribute force {
+      
+      ## the punctuation mark is a word separator
+      "strong"
+      | 
+        ## the punctuation mark is not a word separator
+        "weak"
+      | 
+        ## the punctuation mark may or may not be a word separator
+        "inter"
+    }?,
+    
+    ## provides a name for the kind of unit delimited by this punctuation mark.
+    attribute unit { data.enumerated }?,
+    
+    ## indicates whether this punctuation mark precedes or follows the unit it delimits.
+    attribute pre { data.truthValue }?,
+    empty
+  }
+span =
+  
+  ## associates an interpretative annotation directly with a span of text. [17.3. Spans and Interpretations]
+  element span {
+    macro.phraseSeq.limited
+    >> sch:pattern [
+         id = "egSchema-span-targetfrom-constraint-7"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:span"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@from and @target"
+             "\x{a}" ~
+             "Only one of the attributes @target and @from may be supplied on "
+             sch:name [ ]
+             "\x{a}" ~
+             "               "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "egSchema-span-targetto-constraint-8"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:span"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@to and @target"
+             "\x{a}" ~
+             "Only one of the attributes @target and @to may be supplied on "
+             sch:name [ ]
+             "\x{a}" ~
+             "               "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "egSchema-span-tonotfrom-constraint-9"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:span"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@to and not(@from)"
+             "\x{a}" ~
+             "If @to is supplied on "
+             sch:name [ ]
+             ", @from must be supplied as well"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "egSchema-span-tofrom-constraint-10"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:span"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "contains(normalize-space(@to),' ') or contains(normalize-space(@from),' ')"
+             "\x{a}" ~
+             "The attributes @to and @from on "
+             sch:name [ ]
+             " may each contain only a single value"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    att.global.attributes,
+    att.interpLike.attributes,
+    att.pointing.attributes,
+    
+    ## gives the identifier of the node which is the starting point of the span of text being annotated; if not accompanied by a to attribute, gives the identifier of the node of the entire span of text being annotated.
+    attribute from { data.pointer }?,
+    
+    ## gives the identifier of the node which is the end-point of the span of text being annotated.
+    attribute to { data.pointer }?,
+    empty
+  }
+spanGrp =
+  
+  ## (span group) collects together span tags. [17.3. Spans and Interpretations]
+  element spanGrp {
+    span*, att.global.attributes, att.interpLike.attributes, empty
+  }
+interp =
+  
+  ## (interpretation) summarizes a specific interpretative annotation which can be linked to a span of text. [17.3. Spans and Interpretations]
+  element interp {
+    (text | model.gLike | model.descLike | model.certLike)*,
+    att.global.attributes,
+    att.interpLike.attributes,
+    empty
+  }
+interpGrp =
+  
+  ## (interpretation group) collects together a set of related interpretations which share responsibility or type. [17.3. Spans and Interpretations]
+  element interpGrp {
+    (model.descLike*, interp+),
+    att.global.attributes,
+    att.interpLike.attributes,
+    empty
+  }
+table =
+  
+  ## contains text displayed in tabular form, in rows and columns. [14.1.1. TEI Tables]
+  element table {
+    ((model.headLike | model.global)*,
+     ((row, model.global*)+ | (model.graphicLike, model.global*)+),
+     (model.divBottom, model.global*)*),
+    att.global.attributes,
+    
+    ## indicates the number of rows in the table.
+    attribute rows { data.count }?,
+    
+    ## (columns) indicates the number of columns in each row of the table.
+    attribute cols { data.count }?,
+    empty
+  }
+row =
+  
+  ## contains one row of a table. [14.1.1. TEI Tables]
+  element row {
+    cell+, att.global.attributes, att.tableDecoration.attributes, empty
+  }
+cell =
+  
+  ## contains one cell of a table. [14.1.1. TEI Tables]
+  element cell {
+    macro.specialPara,
+    att.global.attributes,
+    att.tableDecoration.attributes,
+    empty
+  }
+formula =
+  
+  ## contains a mathematical or other formula. [14.2. Formulæ and
+  ## Mathematical Expressions]
+  element formula {
+    (text | model.graphicLike | model.hiLike)*,
+    att.global.attributes,
+    
+    ## names the notation used for the content of the element.
+    attribute notation { data.enumerated }?,
+    empty
+  }
+notatedMusic =
+  
+  ## encodes the presence of music notation in a text [14.3. Notated Music in Written Text]
+  element notatedMusic {
+    (model.labelLike | model.ptrLike | graphic | binaryObject)*,
+    att.global.attributes,
+    att.placement.attributes,
+    att.typed.attributes,
+    empty
+  }
+figure =
+  
+  ## groups elements representing or containing graphic information such as an illustration, formula, or figure. [14.4. Specific Elements for Graphic Images]
+  element figure {
+    (model.headLike
+     | model.common
+     | figDesc
+     | model.graphicLike
+     | model.global
+     | model.divBottom)*,
+    att.global.attributes,
+    att.placement.attributes,
+    att.typed.attributes,
+    empty
+  }
+figDesc =
+  
+  ## (description of figure) contains a brief prose description of the appearance or content of a graphic figure, for use when documenting an image without displaying it. [14.4. Specific Elements for Graphic Images]
+  element figDesc { macro.limitedContent, att.global.attributes, empty }
+g =
+  
+  ## (character or glyph) represents a glyph, or a non-standard character. [5. Characters, Glyphs, and Writing Modes]
+  element g {
+    text,
+    att.global.attributes,
+    att.typed.attributes,
+    
+    ## points to a description of the character or glyph intended.
+    attribute ref { data.pointer }?,
     empty
   }
 att.global.linking.attributes =
@@ -5176,7 +5511,7 @@ relation =
          "         "
        ]
     >> sch:pattern [
-         id = "egSchema-relation-activemutual-constraint-6"
+         id = "egSchema-relation-activemutual-constraint-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -5195,7 +5530,7 @@ relation =
          "         "
        ]
     >> sch:pattern [
-         id = "egSchema-relation-activepassive-constraint-7"
+         id = "egSchema-relation-activepassive-constraint-12"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -5356,90 +5691,20 @@ listNym =
     att.sortable.attributes,
     empty
   }
-table =
+att.global.facs.attributes = att.global.facs.attribute.facs
+att.global.facs.attribute.facs =
   
-  ## contains text displayed in tabular form, in rows and columns. [14.1.1. TEI Tables]
-  element table {
-    ((model.headLike | model.global)*,
-     ((row, model.global*)+ | (model.graphicLike, model.global*)+),
-     (model.divBottom, model.global*)*),
-    att.global.attributes,
-    
-    ## indicates the number of rows in the table.
-    attribute rows { data.count }?,
-    
-    ## (columns) indicates the number of columns in each row of the table.
-    attribute cols { data.count }?,
-    empty
-  }
-row =
+  ## (facsimile) points to all or part of an image which corresponds with the content of the element.
+  attribute facs {
+    list { data.pointer+ }
+  }?
+att.global.change.attributes = att.global.change.attribute.change
+att.global.change.attribute.change =
   
-  ## contains one row of a table. [14.1.1. TEI Tables]
-  element row {
-    cell+, att.global.attributes, att.tableDecoration.attributes, empty
-  }
-cell =
-  
-  ## contains one cell of a table. [14.1.1. TEI Tables]
-  element cell {
-    macro.specialPara,
-    att.global.attributes,
-    att.tableDecoration.attributes,
-    empty
-  }
-formula =
-  
-  ## contains a mathematical or other formula. [14.2. Formulæ and
-  ## Mathematical Expressions]
-  element formula {
-    (text | model.graphicLike | model.hiLike)*,
-    att.global.attributes,
-    
-    ## names the notation used for the content of the element.
-    attribute notation { data.enumerated }?,
-    empty
-  }
-notatedMusic =
-  
-  ## encodes the presence of music notation in a text [14.3. Notated Music in Written Text]
-  element notatedMusic {
-    (model.labelLike | model.ptrLike | graphic | binaryObject)*,
-    att.global.attributes,
-    att.placement.attributes,
-    att.typed.attributes,
-    empty
-  }
-figure =
-  
-  ## groups elements representing or containing graphic information such as an illustration, formula, or figure. [14.4. Specific Elements for Graphic Images]
-  element figure {
-    (model.headLike
-     | model.common
-     | figDesc
-     | model.graphicLike
-     | model.global
-     | model.divBottom)*,
-    att.global.attributes,
-    att.placement.attributes,
-    att.typed.attributes,
-    empty
-  }
-figDesc =
-  
-  ## (description of figure) contains a brief prose description of the appearance or content of a graphic figure, for use when documenting an image without displaying it. [14.4. Specific Elements for Graphic Images]
-  element figDesc { macro.limitedContent, att.global.attributes, empty }
-g =
-  
-  ## (character or glyph) represents a glyph, or a non-standard character. [5. Characters, Glyphs, and Writing Modes]
-  element g {
-    text,
-    att.global.attributes,
-    att.typed.attributes,
-    
-    ## points to a description of the character or glyph intended.
-    attribute ref { data.pointer }?,
-    empty
-  }
+  ## points to one or more change elements documenting a state or revision campaign to which the element bearing this attribute and its children have been assigned by the encoder.
+  attribute change {
+    list { data.pointer+ }
+  }?
 cols =
   
   ## Specifies the number of columns in a given section
@@ -5448,4 +5713,4 @@ colSpan =
   
   ## Used to specifies the width of a div which spans multiple columns and cannot be accurately described using the cols and cb elements.
   element colSpan { empty, att.global.attributes, empty }
-start = TEI
+start = TEI | teiCorpus

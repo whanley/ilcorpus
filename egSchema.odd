@@ -16,16 +16,17 @@
     </teiHeader>
     <text>
         <body>
-            <schemaSpec ident="egSchema" start="TEI">
-                <moduleRef key="header"/>
-                <moduleRef key="core"/>
-                <moduleRef key="tei"/>
-                <moduleRef key="textstructure"/> <!-- exclude="div1 div2 div3 div4 div5 div6 div7" -->
-                <moduleRef key="linking"/>
-                <moduleRef key="namesdates"/>
-                <moduleRef key="figures"/>
+            <schemaSpec ident="egSchema">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
+                <moduleRef key="analysis" except=""/>
+                <moduleRef key="figures" except=""/>
                 <moduleRef key="gaiji" include="g glyph"/>
-                
+                <moduleRef key="linking" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="transcr" include=""/>
                 <!--  -->
                 <!--  -->
                 <!--  -->
