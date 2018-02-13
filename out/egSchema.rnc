@@ -6,7 +6,7 @@ namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2017-04-08T15:12:40Z. .
+# Schema generated from ODD source 2018-02-13T15:53:14Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -3802,6 +3802,28 @@ floatingText =
       | 
         ##
         "wire"
+    }?,
+    
+    ## Used to specifies the width of a div which spans multiple columns and cannot be accurately described using the cols and cb elements.
+    attribute colSpan {
+      
+      ##
+      "1"
+      | 
+        ##
+        "2"
+      | 
+        ##
+        "3"
+      | 
+        ##
+        "4"
+      | 
+        ##
+        "5"
+      | 
+        ##
+        "6"
     }?,
     
     ##
