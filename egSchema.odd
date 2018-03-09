@@ -42,13 +42,13 @@
                                 <valItem ident="page"/>
                                 <valItem ident="section"/>
                                 <valItem ident="subsection"/>
-                                <valItem ident="article"/>
+                                <valItem ident="article"/><!-- now being deprecated -->
                                 <valItem ident="item"/>
                                 <valItem ident="wireReport"/>
                                 <valItem ident="advert"/>
                             </valList>
                         </attDef>
-                        <attDef ident="scope" usage="rec" mode="add">
+                        <attDef ident="scope" usage="rec" mode="add"><!-- now being deprecated -->
                             <datatype>
                                 <rng:ref name="datatype.Code"/>
                             </datatype>
@@ -71,7 +71,7 @@
                                 <valItem ident="municipality"/>
                             </valList>
                         </attDef>
-                        <attDef ident="site" usage="rec" mode="change">
+                        <attDef ident="site" usage="rec" mode="change"><!-- now being deprecated -->
                             <datatype>
                                 <rng:ref name="datatype.Code"/>
                             </datatype>
@@ -230,6 +230,12 @@
                                 </valItem>
                                 <valItem ident="notesOther">
                                     <desc>Notes from other places in Egypt, including Wadi Medani, Keneh, Kafr Zayat, Minet el Gamh, Akhmin </desc>
+                                </valItem>
+                                <valItem ident="egyptological">
+                                    <desc>Egyptological Notes</desc>
+                                </valItem>
+                                <valItem ident="circulaire">
+                                    <desc>Circulaire H. de Vries et Boutigny. Notes et Critiques</desc>
                                 </valItem>
                             </valList>
                         </attDef>
