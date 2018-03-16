@@ -3,7 +3,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-03-12T13:44:20Z. .
+Schema generated from ODD source 2018-03-16T12:26:17Z. .
 TEI Edition: Version 2.8.0. Last updated on
 	6th April 2015, revision 13197
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -6447,6 +6447,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>advert</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>nameplate</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>feature</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
          </attribute>
          <optional>
@@ -6454,8 +6458,6 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
                   <value>advertisement</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>international</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>local</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6469,17 +6471,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>sporting</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>official</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>maritime</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>classifieds</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>letters</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>calendar</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>measurements</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>announcements</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6520,6 +6512,97 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          </optional>
          <optional>
             <attribute name="element">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>weather</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Daily Weather Report</a:documentation>
+                  <value>wire</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Telegrams</a:documentation>
+                  <value>local</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Local and General</a:documentation>
+                  <value>sport</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sport and Play</a:documentation>
+                  <value>social</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Personal and Social</a:documentation>
+                  <value>comingEvents</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Calendar of Coming Events</a:documentation>
+                  <value>passList</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Passenger List</a:documentation>
+                  <value>visitList</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Visitors' List</a:documentation>
+                  <value>letters</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Letters to the Editor</a:documentation>
+                  <value>khedive</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The Khedive</a:documentation>
+                  <value>councilMinisters</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Council of Ministers</a:documentation>
+                  <value>steamerMovements</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Steamer Movements</a:documentation>
+                  <value>shippingMovements</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Shipping Movements / Mouvement Maritime</a:documentation>
+                  <value>navalNotes</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Naval Notes</a:documentation>
+                  <value>army</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Army and Navy / Army of Occupation / Egyptian Army / Naval Notes</a:documentation>
+                  <value>londonLetter</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Our London Letter</a:documentation>
+                  <value>parisLetter</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Our Paris Letter</a:documentation>
+                  <value>nativePress</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Native Press Comments</a:documentation>
+                  <value>homePapers</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Matters of Moment / Pith of the Press / Home Papers</a:documentation>
+                  <value>legal</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Chronique Judiciaire / Legal Notes</a:documentation>
+                  <value>chroniqueFinanciere</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Chronique Financiere</a:documentation>
+                  <value>bulletinBourse</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bulletin de la Bourse</a:documentation>
+                  <value>shareMarket</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Egyptian Share Market</a:documentation>
+                  <value>prepaidAdvertisements</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cheap Prepaid Advertisements</a:documentation>
+                  <value>bandPerformance</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Band Performance / Esbekieh Gardens</a:documentation>
+                  <value>exportManifests</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Export Manifests</a:documentation>
+                  <value>notesPortSaid</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from Port Said</a:documentation>
+                  <value>notesSuez</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from Suez</a:documentation>
+                  <value>notesSuakin</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from Suakin</a:documentation>
+                  <value>notesKhartoum</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from Khartoum</a:documentation>
+                  <value>notesConstantinople</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from Constantinople</a:documentation>
+                  <value>notesCyprus</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from Cyprus</a:documentation>
+                  <value>notesSudan</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from the Sudan</a:documentation>
+                  <value>notesFayoum</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from Fayoum</a:documentation>
+                  <value>notesAssiout</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from Assiout</a:documentation>
+                  <value>notesLuxor</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from Luxor</a:documentation>
+                  <value>notesMena</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from Mena</a:documentation>
+                  <value>notesHelouan</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from Helouan</a:documentation>
+                  <value>notesOther</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Notes from other places in Egypt, including Wadi Medani, Keneh, Kafr Zayat, Minet el Gamh, Akhmin </a:documentation>
+                  <value>egyptological</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Egyptological Notes</a:documentation>
+                  <value>circulaire</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Circulaire H. de Vries et Boutigny. Notes et Critiques</a:documentation>
+                  <value>theatre</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Chronique Theatrale / Abbas Helmy Theatre / Alhambra Theatre / Zizinia Theatre</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="feature">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
                   <value>weather</value>

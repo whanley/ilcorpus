@@ -6,7 +6,7 @@ namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-03-12T13:44:14Z. .
+# Schema generated from ODD source 2018-03-16T12:26:13Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -3740,6 +3740,12 @@ floatingText =
       | 
         ##
         "advert"
+      | 
+        ##
+        "nameplate"
+      | 
+        ##
+        "feature"
     },
     
     ##
@@ -3747,9 +3753,6 @@ floatingText =
       
       ##
       "advertisement"
-      | 
-        ##
-        "international"
       | 
         ##
         "local"
@@ -3770,22 +3773,7 @@ floatingText =
         "sporting"
       | 
         ##
-        "official"
-      | 
-        ##
-        "maritime"
-      | 
-        ##
-        "classifieds"
-      | 
-        ##
-        "letters"
-      | 
-        ##
         "calendar"
-      | 
-        ##
-        "measurements"
       | 
         ##
         "announcements"
@@ -3828,6 +3816,136 @@ floatingText =
     
     ##
     attribute element {
+      
+      ## Daily Weather Report
+      "weather"
+      | 
+        ## Telegrams
+        "wire"
+      | 
+        ## Local and General
+        "local"
+      | 
+        ## Sport and Play
+        "sport"
+      | 
+        ## Personal and Social
+        "social"
+      | 
+        ## Calendar of Coming Events
+        "comingEvents"
+      | 
+        ## Passenger List
+        "passList"
+      | 
+        ## Visitors' List
+        "visitList"
+      | 
+        ## Letters to the Editor
+        "letters"
+      | 
+        ## The Khedive
+        "khedive"
+      | 
+        ## Council of Ministers
+        "councilMinisters"
+      | 
+        ## Steamer Movements
+        "steamerMovements"
+      | 
+        ## Shipping Movements / Mouvement Maritime
+        "shippingMovements"
+      | 
+        ## Naval Notes
+        "navalNotes"
+      | 
+        ## Army and Navy / Army of Occupation / Egyptian Army / Naval Notes
+        "army"
+      | 
+        ## Our London Letter
+        "londonLetter"
+      | 
+        ## Our Paris Letter
+        "parisLetter"
+      | 
+        ## Native Press Comments
+        "nativePress"
+      | 
+        ## Matters of Moment / Pith of the Press / Home Papers
+        "homePapers"
+      | 
+        ## Chronique Judiciaire / Legal Notes
+        "legal"
+      | 
+        ## Chronique Financiere
+        "chroniqueFinanciere"
+      | 
+        ## Bulletin de la Bourse
+        "bulletinBourse"
+      | 
+        ## Egyptian Share Market
+        "shareMarket"
+      | 
+        ## Cheap Prepaid Advertisements
+        "prepaidAdvertisements"
+      | 
+        ## Band Performance / Esbekieh Gardens
+        "bandPerformance"
+      | 
+        ## Export Manifests
+        "exportManifests"
+      | 
+        ## Notes from Port Said
+        "notesPortSaid"
+      | 
+        ## Notes from Suez
+        "notesSuez"
+      | 
+        ## Notes from Suakin
+        "notesSuakin"
+      | 
+        ## Notes from Khartoum
+        "notesKhartoum"
+      | 
+        ## Notes from Constantinople
+        "notesConstantinople"
+      | 
+        ## Notes from Cyprus
+        "notesCyprus"
+      | 
+        ## Notes from the Sudan
+        "notesSudan"
+      | 
+        ## Notes from Fayoum
+        "notesFayoum"
+      | 
+        ## Notes from Assiout
+        "notesAssiout"
+      | 
+        ## Notes from Luxor
+        "notesLuxor"
+      | 
+        ## Notes from Mena
+        "notesMena"
+      | 
+        ## Notes from Helouan
+        "notesHelouan"
+      | 
+        ## Notes from other places in Egypt, including Wadi Medani, Keneh, Kafr Zayat, Minet el Gamh, Akhmin 
+        "notesOther"
+      | 
+        ## Egyptological Notes
+        "egyptological"
+      | 
+        ## Circulaire H. de Vries et Boutigny. Notes et Critiques
+        "circulaire"
+      | 
+        ## Chronique Theatrale / Abbas Helmy Theatre / Alhambra Theatre / Zizinia Theatre
+        "theatre"
+    }?,
+    
+    ##
+    attribute feature {
       
       ## Daily Weather Report
       "weather"
