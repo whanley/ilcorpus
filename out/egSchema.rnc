@@ -6,7 +6,7 @@ namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-03-18T16:31:43Z. .
+# Schema generated from ODD source 2018-04-17T17:00:16Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -3782,7 +3782,7 @@ floatingText =
         "municipality"
     }?,
     
-    ## Used to specifies the width of a div which spans multiple columns and cannot be accurately described using the cols and cb elements.
+    ## Used to specify the width of a div which spans multiple columns and cannot be accurately described using the cols and cb elements.
     attribute colSpan {
       
       ##
@@ -4074,6 +4074,25 @@ floatingText =
       | 
         ## Claims agains the Estate
         "claimsEstate"
+    }?,
+    
+    ## Used to indicate whether the contents of a div have been verified by an editor, and to indicate further details about the status of those contents.
+    attribute status {
+      
+      ## Complete and correct.
+      "verified"
+      | 
+        ## Has not been checked. (Do not use as default--leave out the attribute as a default).
+        "unverified"
+      | 
+        ## Div contains pasted OCR text that has not been corrected or formatted.
+        "uncorrectedOCR"
+      | 
+        ## Div contains valid content, but formatting differs from standard.
+        "irregularFormat"
+      | 
+        ## Div is identical to the template, and does not correspond to the content of the issue.
+        "templateDefault"
     }?,
     empty
   }
