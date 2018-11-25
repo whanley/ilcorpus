@@ -6,7 +6,7 @@ namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-11-25T13:06:28Z. .
+# Schema generated from ODD source 2018-11-25T13:53:40Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -221,7 +221,7 @@ att.datable.attribute.calendar =
   ## indicates the system or calendar to which the date represented by the content of this element belongs.
   attribute calendar { data.pointer }?
 sch:pattern [
-  id = "egSchema-att.datable-calendar-calendar-constraint-1"
+  id = "ILCorpusSchema-att.datable-calendar-calendar-constraint-1"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -675,7 +675,7 @@ att.typed.attribute.subtype =
   ## provides a sub-categorization of the element, if needed
   attribute subtype { data.enumerated }?
 sch:pattern [
-  id = "egSchema-att.typed-subtypeTyped-constraint-2"
+  id = "ILCorpusSchema-att.typed-subtypeTyped-constraint-2"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -704,7 +704,7 @@ att.pointing.attribute.targetLang =
   ## specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.
   attribute targetLang { data.language }?
 sch:pattern [
-  id = "egSchema-att.pointing-targetLang-targetLang-constraint-3"
+  id = "ILCorpusSchema-att.pointing-targetLang-targetLang-constraint-3"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -791,7 +791,7 @@ att.spanning.attribute.spanTo =
   ## indicates the end of a span initiated by the element bearing this attribute.
   attribute spanTo { data.pointer }?
 sch:pattern [
-  id = "egSchema-att.spanning-spanTo-spanTo-2-constraint-4"
+  id = "ILCorpusSchema-att.spanning-spanTo-spanTo-2-constraint-4"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -840,7 +840,7 @@ att.styleDef.attribute.schemeVersion =
   attribute schemeVersion { data.versionNumber }?
 sch:pattern [
   id =
-    "egSchema-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-5"
+    "ILCorpusSchema-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-5"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -2074,7 +2074,7 @@ ptr =
   element ptr {
     empty
     >> sch:pattern [
-         id = "egSchema-ptr-ptrAtts-constraint-1"
+         id = "ILCorpusSchema-ptr-ptrAtts-constraint-1"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2108,7 +2108,7 @@ ref =
   element ref {
     macro.paraContent
     >> sch:pattern [
-         id = "egSchema-ref-refAtts-constraint-2"
+         id = "ILCorpusSchema-ref-refAtts-constraint-2"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2148,7 +2148,8 @@ ref =
          (label, model.global*, item, model.global*)+)),
      (model.divBottom, model.global*)*)
     >> sch:pattern [
-         id = "egSchema-list-gloss-list-must-have-labels-constraint-6"
+         id =
+           "ILCorpusSchema-list-gloss-list-must-have-labels-constraint-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2573,7 +2574,7 @@ biblStruct =
       | citedRange)*)
     >> sch:pattern [
          id =
-           "egSchema-biblStruct-deprecate-altIdentifier-child-constraint-3"
+           "ILCorpusSchema-biblStruct-deprecate-altIdentifier-child-constraint-3"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2617,7 +2618,7 @@ relatedItem =
   element relatedItem {
     ((model.biblLike | model.ptrLike)?)
     >> sch:pattern [
-         id = "egSchema-relatedItem-targetorcontent1-constraint-4"
+         id = "ILCorpusSchema-relatedItem-targetorcontent1-constraint-4"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2639,7 +2640,7 @@ relatedItem =
          "         "
        ]
     >> sch:pattern [
-         id = "egSchema-relatedItem-targetorcontent1-constraint-7"
+         id = "ILCorpusSchema-relatedItem-targetorcontent1-constraint-7"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2686,7 +2687,7 @@ lg =
       | lg)*,
      (model.divBottom, model.global*)*)
     >> sch:pattern [
-         id = "egSchema-lg-atleast1oflggapl-constraint-8"
+         id = "ILCorpusSchema-lg-atleast1oflggapl-constraint-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3116,7 +3117,7 @@ quotation =
   element quotation {
     (model.pLike*)
     >> sch:pattern [
-         id = "egSchema-quotation-quotationContents-constraint-5"
+         id = "ILCorpusSchema-quotation-quotationContents-constraint-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3721,7 +3722,7 @@ floatingText =
       "masthead"
       | 
         ##
-        "page"
+        "issue"
       | 
         ##
         "section"
@@ -3734,9 +3735,6 @@ floatingText =
       | 
         ##
         "item"
-      | 
-        ##
-        "wireReport"
       | 
         ##
         "advert"
@@ -3802,136 +3800,6 @@ floatingText =
       | 
         ##
         "6"
-    }?,
-    
-    ##
-    attribute element {
-      
-      ## Daily Weather Report
-      "weather"
-      | 
-        ## Telegrams
-        "wire"
-      | 
-        ## Local and General
-        "local"
-      | 
-        ## Sport and Play
-        "sport"
-      | 
-        ## Personal and Social
-        "social"
-      | 
-        ## Calendar of Coming Events
-        "comingEvents"
-      | 
-        ## Passenger List
-        "passList"
-      | 
-        ## Visitors' List
-        "visitList"
-      | 
-        ## Letters to the Editor
-        "letters"
-      | 
-        ## The Khedive
-        "khedive"
-      | 
-        ## Council of Ministers
-        "councilMinisters"
-      | 
-        ## Steamer Movements
-        "steamerMovements"
-      | 
-        ## Shipping Movements / Mouvement Maritime
-        "shippingMovements"
-      | 
-        ## Naval Notes
-        "navalNotes"
-      | 
-        ## Army and Navy / Army of Occupation / Egyptian Army / Naval Notes
-        "army"
-      | 
-        ## Our London Letter
-        "londonLetter"
-      | 
-        ## Our Paris Letter
-        "parisLetter"
-      | 
-        ## Native Press Comments
-        "nativePress"
-      | 
-        ## Matters of Moment / Pith of the Press / Home Papers
-        "homePapers"
-      | 
-        ## Chronique Judiciaire / Legal Notes
-        "legal"
-      | 
-        ## Chronique Financiere
-        "chroniqueFinanciere"
-      | 
-        ## Bulletin de la Bourse
-        "bulletinBourse"
-      | 
-        ## Egyptian Share Market
-        "shareMarket"
-      | 
-        ## Cheap Prepaid Advertisements
-        "prepaidAdvertisements"
-      | 
-        ## Band Performance / Esbekieh Gardens
-        "bandPerformance"
-      | 
-        ## Export Manifests
-        "exportManifests"
-      | 
-        ## Notes from Port Said
-        "notesPortSaid"
-      | 
-        ## Notes from Suez
-        "notesSuez"
-      | 
-        ## Notes from Suakin
-        "notesSuakin"
-      | 
-        ## Notes from Khartoum
-        "notesKhartoum"
-      | 
-        ## Notes from Constantinople
-        "notesConstantinople"
-      | 
-        ## Notes from Cyprus
-        "notesCyprus"
-      | 
-        ## Notes from the Sudan
-        "notesSudan"
-      | 
-        ## Notes from Fayoum
-        "notesFayoum"
-      | 
-        ## Notes from Assiout
-        "notesAssiout"
-      | 
-        ## Notes from Luxor
-        "notesLuxor"
-      | 
-        ## Notes from Mena
-        "notesMena"
-      | 
-        ## Notes from Helouan
-        "notesHelouan"
-      | 
-        ## Notes from other places in Egypt, including Wadi Medani, Keneh, Kafr Zayat, Minet el Gamh, Akhmin 
-        "notesOther"
-      | 
-        ## Egyptological Notes
-        "egyptological"
-      | 
-        ## Circulaire H. de Vries et Boutigny. Notes et Critiques
-        "circulaire"
-      | 
-        ## Chronique Theatrale / Abbas Helmy Theatre / Alhambra Theatre / Zizinia Theatre
-        "theatre"
     }?,
     
     ##
@@ -4405,7 +4273,7 @@ s =
       | seg
       | w)*)
     >> sch:pattern [
-         id = "egSchema-s-noNestedS-constraint-6"
+         id = "ILCorpusSchema-s-noNestedS-constraint-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4532,7 +4400,7 @@ span =
   element span {
     macro.phraseSeq.limited
     >> sch:pattern [
-         id = "egSchema-span-targetfrom-constraint-7"
+         id = "ILCorpusSchema-span-targetfrom-constraint-7"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4554,7 +4422,7 @@ span =
          "         "
        ]
     >> sch:pattern [
-         id = "egSchema-span-targetto-constraint-8"
+         id = "ILCorpusSchema-span-targetto-constraint-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4576,7 +4444,7 @@ span =
          "         "
        ]
     >> sch:pattern [
-         id = "egSchema-span-tonotfrom-constraint-9"
+         id = "ILCorpusSchema-span-tonotfrom-constraint-9"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4597,7 +4465,7 @@ span =
          "         "
        ]
     >> sch:pattern [
-         id = "egSchema-span-tofrom-constraint-10"
+         id = "ILCorpusSchema-span-tofrom-constraint-10"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4792,7 +4660,7 @@ link =
   element link {
     empty
     >> sch:pattern [
-         id = "egSchema-link-linkTargets3-constraint-9"
+         id = "ILCorpusSchema-link-linkTargets3-constraint-9"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4933,7 +4801,7 @@ join =
   element join {
     ((model.descLike | model.certLike)*)
     >> sch:pattern [
-         id = "egSchema-join-joinTargets3-constraint-10"
+         id = "ILCorpusSchema-join-joinTargets3-constraint-10"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -5666,7 +5534,7 @@ relation =
   element relation {
     (desc?)
     >> sch:pattern [
-         id = "egSchema-relation-reforkeyorname-constraint-11"
+         id = "ILCorpusSchema-relation-reforkeyorname-constraint-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -5684,7 +5552,7 @@ relation =
          "         "
        ]
     >> sch:pattern [
-         id = "egSchema-relation-activemutual-constraint-11"
+         id = "ILCorpusSchema-relation-activemutual-constraint-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -5703,7 +5571,7 @@ relation =
          "         "
        ]
     >> sch:pattern [
-         id = "egSchema-relation-activepassive-constraint-12"
+         id = "ILCorpusSchema-relation-activepassive-constraint-12"
          "\x{a}" ~
          "            "
          sch:rule [
