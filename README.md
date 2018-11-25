@@ -1,2 +1,2 @@
 # resources
-Various resources for digital Egyptian Gazette
+Various resources for International Law corpus project
