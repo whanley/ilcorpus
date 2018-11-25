@@ -28,9 +28,6 @@
                 <moduleRef key="linking" except=""/>
                 <moduleRef key="namesdates" except=""/>
                 <moduleRef key="transcr" include=""/>
-                <!--  -->
-                <!--  -->
-                <!--  -->
                 <elementSpec ident="div" mode="change">
                     <attList>
                         <attDef ident="type" usage="req" mode="change">
@@ -48,192 +45,20 @@
                                 <valItem ident="advert"/>
                                 <valItem ident="nameplate"/>
                                 <valItem ident="feature"/>
+                                <valItem ident="frontMatter"/>
+                                <valItem ident="backMatter"/>
                             </valList>
                         </attDef>
-                        <attDef ident="scope" usage="rec" mode="add">
-                            <!-- now being deprecated -->
-                            <datatype>
-                                <rng:ref name="datatype.Code"/>
-                            </datatype>
-                            <valList type="closed" mode="add">
-                                <valItem ident="advertisement"/>
-                                <valItem ident="local"/>
-                                <valItem ident="financial"/>
-                                <valItem ident="weather"/>
-                                <valItem ident="newspaper"/>
-                                <valItem ident="social"/>
-                                <valItem ident="sporting"/>
-                                <valItem ident="calendar"/>
-                                <valItem ident="announcements"/>
-                                <valItem ident="municipality"/>
-                            </valList>
-                        </attDef>
-                        <attDef ident="colSpan" usage="rec" mode="add">
-                            <desc>Used to specify the width of a div which spans multiple columns
-                                and cannot be accurately described using the cols and cb
-                                elements.</desc>
-                            <datatype>
-                                <rng:ref name="datatype.Code"/>
-                            </datatype>
-                            <valList type="closed" mode="add">
-                                <valItem ident="1"/>
-                                <valItem ident="2"/>
-                                <valItem ident="3"/>
-                                <valItem ident="4"/>
-                                <valItem ident="5"/>
-                                <valItem ident="6"/>
-                            </valList>
-                        </attDef>
-                        
                         <attDef ident="feature" usage="rec" mode="add">
+                            <desc>Used to indicate whether the contents of a div have been verified
+                                by an editor, and to indicate further details about the status of
+                                those contents.</desc>
                             <datatype>
                                 <rng:ref name="datatype.Code"/>
                             </datatype>
                             <valList type="closed" mode="add">
-                                <valItem ident="weather">
-                                    <desc>Daily Weather Report</desc>
-                                </valItem>
-                                <valItem ident="wire">
-                                    <desc>Telegrams</desc>
-                                </valItem>
-                                <valItem ident="local">
-                                    <desc>Local and General</desc>
-                                </valItem>
-                                <valItem ident="sport">
-                                    <desc>Sport and Play</desc>
-                                </valItem>
-                                <valItem ident="social">
-                                    <desc>Personal and Social</desc>
-                                </valItem>
-                                <valItem ident="comingEvents">
-                                    <desc>Calendar of Coming Events</desc>
-                                </valItem>
-                                <valItem ident="passList">
-                                    <desc>Passenger List</desc>
-                                </valItem>
-                                <valItem ident="visitList">
-                                    <desc>Visitors' List</desc>
-                                </valItem>
-                                <valItem ident="letters">
-                                    <desc>Letters to the Editor</desc>
-                                </valItem>
-                                <valItem ident="khedive">
-                                    <desc>The Khedive</desc>
-                                </valItem>
-                                <valItem ident="councilMinisters">
-                                    <desc>Council of Ministers</desc>
-                                </valItem>
-                                <valItem ident="steamerMovements">
-                                    <desc>Steamer Movements</desc>
-                                </valItem>
-                                <valItem ident="shippingMovements">
-                                    <desc>Shipping Movements / Mouvement Maritime</desc>
-                                </valItem>
-                                <valItem ident="navalNotes">
-                                    <desc>Naval Notes</desc>
-                                </valItem>
-                                <valItem ident="army">
-                                    <desc>Army and Navy / Army of Occupation / Egyptian Army / Naval
-                                        Notes</desc>
-                                </valItem>
-                                <valItem ident="londonLetter">
-                                    <desc>Our London Letter</desc>
-                                </valItem>
-                                <valItem ident="parisLetter">
-                                    <desc>Our Paris Letter</desc>
-                                </valItem>
-                                <valItem ident="nativePress">
-                                    <desc>Native Press Comments</desc>
-                                </valItem>
-                                <valItem ident="homePapers">
-                                    <desc>Matters of Moment / Pith of the Press / Home Papers</desc>
-                                </valItem>
-                                <valItem ident="legal">
-                                    <desc>Chronique Judiciaire / Legal Notes</desc>
-                                </valItem>
-                                <valItem ident="chroniqueFinanciere">
-                                    <desc>Chronique Financiere</desc>
-                                </valItem>
-                                <valItem ident="bulletinBourse">
-                                    <desc>Bulletin de la Bourse</desc>
-                                </valItem>
-                                <valItem ident="shareMarket">
-                                    <desc>Egyptian Share Market</desc>
-                                </valItem>
-                                <valItem ident="prepaidAdvertisements">
-                                    <desc>Cheap Prepaid Advertisements</desc>
-                                </valItem>
-                                <valItem ident="bandPerformance">
-                                    <desc>Band Performance / Esbekieh Gardens</desc>
-                                </valItem>
-                                <valItem ident="exportManifests">
-                                    <desc>Export Manifests</desc>
-                                </valItem>
-                                <valItem ident="notesPortSaid">
-                                    <desc>Notes from Port Said</desc>
-                                </valItem>
-                                <valItem ident="notesSuez">
-                                    <desc>Notes from Suez</desc>
-                                </valItem>
-                                <valItem ident="notesSuakin">
-                                    <desc>Notes from Suakin</desc>
-                                </valItem>
-                                <valItem ident="notesKhartoum">
-                                    <desc>Notes from Khartoum</desc>
-                                </valItem>
-                                <valItem ident="notesConstantinople">
-                                    <desc>Notes from Constantinople</desc>
-                                </valItem>
-                                <valItem ident="notesCyprus">
-                                    <desc>Notes from Cyprus</desc>
-                                </valItem>
-                                <valItem ident="notesSudan">
-                                    <desc>Notes from the Sudan</desc>
-                                </valItem>
-                                <valItem ident="notesFayoum">
-                                    <desc>Notes from Fayoum</desc>
-                                </valItem>
-                                <valItem ident="notesAssiout">
-                                    <desc>Notes from Assiout</desc>
-                                </valItem>
-                                <valItem ident="notesLuxor">
-                                    <desc>Notes from Luxor</desc>
-                                </valItem>
-                                <valItem ident="notesMena">
-                                    <desc>Notes from Mena</desc>
-                                </valItem>
-                                <valItem ident="notesHelouan">
-                                    <desc>Notes from Helouan</desc>
-                                </valItem>
-                                <valItem ident="notesOther">
-                                    <desc>Notes from other places in Egypt, including Wadi Medani,
-                                        Keneh, Kafr Zayat, Minet el Gamh, Akhmin </desc>
-                                </valItem>
-                                <valItem ident="egyptological">
-                                    <desc>Egyptological Notes</desc>
-                                </valItem>
-                                <valItem ident="circulaire">
-                                    <desc>Circulaire H. de Vries et Boutigny. Notes et
-                                        Critiques</desc>
-                                </valItem>
-                                <valItem ident="theatre">
-                                    <desc>Chronique Theatrale / Abbas Helmy Theatre / Alhambra
-                                        Theatre / Zizinia Theatre</desc>
-                                </valItem>
-                                <valItem ident="masthead">
-                                    <desc>Egyptian Gazette masthead including date and
-                                        publisher</desc>
-                                </valItem>
-                                <valItem ident="cottonMarket">
-                                    <desc>The Cotton Market. Kearsley and Cunningham’s Weekly
-                                        Report.</desc>
-                                </valItem>
-                                <valItem ident="bureauPlacement">
-                                    <desc>Société Internationale des Employés d'Alexandrie Bureau de
-                                        Placement</desc>
-                                </valItem>
-                                <valItem ident="claimsEstate">
-                                    <desc>Claims agains the Estate</desc>
+                                <valItem ident="jurisprudence">
+                                    <desc>Jurisprudence</desc>
                                 </valItem>
                             </valList>
                         </attDef>
@@ -271,11 +96,6 @@
                         </attDef>
                     </attList>
                 </elementSpec>
-
-                <!--  -->
-                <!--  -->
-                <!--  -->
-
                 <elementSpec ident="measure" module="core" mode="change">
                     <attList>
                         <attDef ident="unit" mode="replace">
@@ -355,29 +175,6 @@
                             </valList>
                         </attDef>
                     </attList>
-                </elementSpec>
-                <elementSpec ident="cols" mode="add">
-                    <desc>Specifies the number of columns in a given section</desc>
-                    <classes>
-                        <memberOf key="model.milestoneLike"/>
-                        <memberOf key="att.global"/>
-                        <memberOf key="model.global"/>
-                    </classes>
-                    <content>
-                        <rng:empty/>
-                    </content>
-                </elementSpec>
-                <elementSpec ident="colSpan" mode="add">
-                    <desc>Used to specifies the width of a div which spans multiple columns and
-                        cannot be accurately described using the cols and cb elements.</desc>
-                    <classes>
-                        <memberOf key="model.milestoneLike"/>
-                        <memberOf key="att.global"/>
-                        <memberOf key="model.global"/>
-                    </classes>
-                    <content>
-                        <rng:empty/>
-                    </content>
                 </elementSpec>
             </schemaSpec>
         </body>
