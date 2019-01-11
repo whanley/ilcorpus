@@ -6,7 +6,7 @@ namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2019-01-10T12:42:48Z. .
+# Schema generated from ODD source 2019-01-11T14:25:58Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -1095,7 +1095,7 @@ model.global.meta =
   | joinGrp
   | alt
   | altGrp
-model.milestoneLike = milestone | gb | pb | lb | cb | anchor
+model.milestoneLike = milestone | gb | pb | lb | cb | anchor | fw
 model.gLike = g
 model.oddDecl = notAllowed
 model.oddDecl_alternation = notAllowed
@@ -5585,4 +5585,17 @@ att.global.change.attribute.change =
   attribute change {
     list { data.pointer+ }
   }?
+fw =
+  
+  ## (forme work) contains a running head (e.g. a header, footer), catchword, or similar material appearing on the current page. [11.6. Headers, Footers, and Similar Matter]
+  element fw {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.placement.attributes,
+    
+    ## classifies the material encoded according to some useful typology.
+    ## Sample values include: 1] header; 2] footer; 3] pageNum(page number) ; 4] lineNum(line number) ; 5] sig(signature) ; 6] catch(catchword) 
+    attribute type { data.enumerated }?,
+    empty
+  }
 start = TEI | teiCorpus
