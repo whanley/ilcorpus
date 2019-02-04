@@ -90,6 +90,68 @@
                                 </valItem>
                             </valList>
                         </attDef>
+                        <attDef ident="state" usage="rec" mode="add">
+                            <desc>ISO code indicating the state (country) named in the heading of the section.</desc>
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="add">
+                                <valItem ident="fr">
+                                    <desc>France</desc>
+                                </valItem>
+                                <valItem ident="eg">
+                                    <desc>Égypte</desc>
+                                </valItem>
+                                <valItem ident="gb-eng">
+                                    <desc>Angleterre</desc>
+                                </valItem>
+                                <valItem ident="de">
+                                    <desc>Allemagne</desc>
+                                </valItem>
+                                <valItem ident="be">
+                                    <desc>Belgique</desc>
+                                </valItem>
+                                <valItem ident="us">
+                                    <desc>États-Unis</desc>
+                                </valItem>
+                                <valItem ident="it">
+                                    <desc>Italie</desc>
+                                </valItem>
+                                <valItem ident="gr">
+                                    <desc>Grèce</desc>
+                                </valItem>
+                                <valItem ident="ch">
+                                    <desc>Suisse</desc>
+                                </valItem>
+                                <valItem ident="ru">
+                                    <desc>Russie</desc>
+                                </valItem>
+                                <valItem ident="at">
+                                    <desc>Autriche</desc>
+                                </valItem>
+                                <valItem ident="br">
+                                    <desc>Brésil</desc>
+                                </valItem>
+                                <valItem ident="cl">
+                                    <desc>Chili</desc>
+                                </valItem>
+                                <valItem ident="cn">
+                                    <desc>Chine</desc>
+                                </valItem>
+                                <valItem ident="dk">
+                                    <desc>Danemark</desc>
+                                </valItem>
+                                <valItem ident="es">
+                                    <desc>Espagne</desc>
+                                </valItem>
+                                <valItem ident="nl">
+                                    <desc>Pays-Bas</desc>
+                                </valItem>
+                                <valItem ident="ro">
+                                    <desc>Roumanie</desc>
+                                </valItem>
+                            </valList>
+                        </attDef>
                         <attDef ident="status" usage="rec" mode="add">
                             <desc>Used to indicate whether the contents of a div have been verified
                                 by an editor, and to indicate further details about the status of
@@ -126,71 +188,6 @@
                 </elementSpec>
                 <elementSpec ident="measure" module="core" mode="change">
                     <attList>
-                        <attDef ident="unit" mode="replace">
-                            <datatype>
-                                <rng:ref name="data.enumerated"/>
-                            </datatype>
-                            <valList type="semi">
-                                <valItem ident="tal">
-                                    <desc>Talari</desc>
-                                </valItem>
-                                <valItem ident="cantar">
-                                    <desc>qantar</desc>
-                                </valItem>
-                                <valItem ident="£">
-                                    <desc>British Pounds Sterling</desc>
-                                </valItem>
-                                <valItem ident="fcs">
-                                    <desc>francs</desc>
-                                </valItem>
-                                <valItem ident="sh">
-                                    <desc>shillings</desc>
-                                </valItem>
-                                <valItem ident="LE">
-                                    <desc>Egyptian pounds (livres égyptien)</desc>
-                                </valItem>
-                                <valItem ident="balles">
-                                    <desc>bales of cotton</desc>
-                                </valItem>
-                                <valItem ident="ton">
-                                    <desc>tonnes</desc>
-                                </valItem>
-                                <valItem ident="dC">
-                                    <desc>degrees celsius</desc>
-                                </valItem>
-                                <valItem ident="mm">
-                                    <desc>millimeters</desc>
-                                </valItem>
-                                <valItem ident="pt">
-                                    <desc>piasters tarif</desc>
-                                </valItem>
-                                <valItem ident="min">
-                                    <desc>minutes</desc>
-                                </valItem>
-                                <valItem ident="LE M">
-                                    <desc>Egyptian pounds and millimes</desc>
-                                </valItem>
-                                <valItem ident="ard">
-                                    <desc>ardeb</desc>
-                                </valItem>
-                                <valItem ident="$">
-                                    <desc>US dollars</desc>
-                                </valItem>
-                                <valItem ident="sack">
-                                    <desc>sacks</desc>
-                                </valItem>
-                            </valList>
-                        </attDef>
-                        <attDef ident="commodity" mode="replace">
-                            <datatype>
-                                <rng:ref name="data.enumerated"/>
-                            </datatype>
-                            <valList type="semi">
-                                <valItem ident="currency">
-                                    <desc/>
-                                </valItem>
-                            </valList>
-                        </attDef>
                         <attDef ident="type" mode="replace">
                             <datatype>
                                 <rng:ref name="data.enumerated"/>
