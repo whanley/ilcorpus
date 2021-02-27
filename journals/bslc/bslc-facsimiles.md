@@ -7,13 +7,13 @@ Year (Volume)|Issue|Source|Source|Source|Source|Source|Source|Source
  | |5|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k414844h)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
  | |6|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k414844h)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
  | |index|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5768188h)|
- |1870|1|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4150114)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
+ |1870 (1)|1|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4150114)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
  | |2|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4150114)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
  | |3|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4150114)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
  | |4|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4150114)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
- |1871|1|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4150114)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
+ |1871 (1)|1|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4150114)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
  | |extra|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k5768188h)|
- |1872|2|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k414845w)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
+ |1872 (1)|2|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k414845w)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
  | |3|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k414845w)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
  | |4|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k414845w)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
  | |5|[Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k414845w)|[Hathi Trust (Harvard)](https://hdl.handle.net/2027/hvd.hn4nbc)|[Hein](https://heinonline.org/HOL/P?h=hein.journals/bulslecmp1&i=1)|
