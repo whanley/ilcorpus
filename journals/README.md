@@ -1,13 +1,1 @@
-Master list of journals
 
-| Abbreviation | Title                                                                                                           | Start year | End year | files | Language | Place of Publication | TEI | Facsimile list | Indexes | Supplements |
-|--------------|-----------------------------------------------------------------------------------------------------------------|------------|----------|-------|----------|----------------------|-----|----------------|---------|-------------|
-| annidi       | Annuaire de l'Institut de droit international                                                                   | 1877       | 1937     | 40    | Fr       |                      | Y   |                |         |             |
-| bslc         | Bulletin de la Société de législation comparée                                                                  | 1869       | 1939     | 404   | Fr       |                      | y   | y              | y       | 2           |
-| clunet       | Journal du droit international privé et de la jurisprudence comparée (Clunet)                                   | 1874       | 1939     | 324   | Fr       |                      | y   |                | y       | 3           |
-| rdilc        | Revue de droit international et de législation comparée                                                         | 1869       | 1939     | 65    | Fr       |                      | y   |                | y       |             |
-| jtre         | Jurisprudence des tribunaux de la réforme en Égypte : recueil officiel / arrêts de la Cour d'appel d'Alexandrie | 1875       | 1906     | 31    | Fr       |                      |     |                |         |             |
-| blje         | Bulletin de législation et de jurisprudence égyptiennes                                                         | 1889       | 1922     | 34    | Fr       |                      |     |                |         |             |
-| gtme         | Gazette des Tribunaux mixtes d'Égypte                                                                           | 1910       | 1922     | 12    | Fr       |                      |     |                |         |             |
-| jtm          | Journal des Tribunaux mixte                                                                                     | 1921       | 1949     |       | Fr       |                      |     |                |         |             |
-| mrma         | Majmūʻah al-rasmīyah lil-maḥākim al-ahlīyah                                                                     | 1900       | 1922     | 23    | Ar       |                      |     |                |         |             |
