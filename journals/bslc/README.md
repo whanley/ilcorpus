@@ -23,3 +23,11 @@ This attribute describes discrete sections that recur from issue to issue, under
 - Séances, etc. (various meetings and official business of the societies)
 - Liste des Lois
 - Variétés
+
+### Changes over time
+- Early issues are almost entirely meeting minutes. Minutes end with time that meeting closed.
+- Table of Contents begins volume 2 (1873).
+- "Reunions/Travaux des Sections" section begins 3.3 (1874), initially containing Comptes Rendus and Chronique Legislative.
+- Vol 8 (1879) Comptes Rendus and Chronique become top level sections.
+- Conseil de Direction minutes are own section.
+- Volume 11 (1882) is first that does not include meeting minutes. At this point, minutes are in issues 1, 3, 5, and 7 of each volume.
