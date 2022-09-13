@@ -1,0 +1,1 @@
+This repository contains footnotes research in progress for International Law corpus project.
