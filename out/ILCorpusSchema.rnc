@@ -8,7 +8,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2022-03-09T18:57:38Z. .
+# Schema generated from ODD source 2022-09-15T17:15:15Z. .
 # TEI Edition: Version 4.1.0. Last updated on
 #	19th August 2020, revision b414ba550
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
@@ -2699,6 +2699,29 @@ note =
     att.pointing.attributes,
     att.typed.attributes,
     att.written.attributes,
+    
+    ## Classification of format of note contents.
+    attribute format {
+      
+      ## Single citation of a decision or piece of legislation.
+      "law"
+      | 
+        ## Single citation of a book or article or other piece of writing.
+        "work"
+      | 
+        ## Single citation using ibid. or op. cit. etc
+        "ibid"
+      | 
+        ## More than one citation
+        "multi"
+      | 
+        ## Contains text not including or additional to citation
+        "discussion"
+    }?,
+    
+    ## Used to indicate whether the contents of a note have been verified by an editor, and to indicate further details about the status of those contents.
+    ## Sample values include: 1] verified; 2] unverified; 3] uncorrectedOCR
+    attribute status { text }?,
     
     ## indicates whether the copy text shows the exact place of reference for the note.
     [ a:defaultValue = "true" ] attribute anchored { xsd:boolean }?,
