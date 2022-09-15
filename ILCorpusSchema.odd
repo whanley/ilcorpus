@@ -74,7 +74,8 @@
                                     <desc>Bulletin</desc>
                                 </valItem>
                                 <valItem ident="chronique">
-                                    <desc>Chronique de l'Actualité, Chronique Législative, etc. (various)</desc>
+                                    <desc>Chronique de l'Actualité, Chronique Législative, etc.
+                                        (various)</desc>
                                 </valItem>
                                 <valItem ident="commission">
                                     <desc>Commission d'étude</desc>
@@ -781,6 +782,57 @@
                                         template.</desc>
                                 </valItem>
                             </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="note" mode="change">
+                    <attList>
+                        <attDef ident="type" usage="rec" mode="add">
+                            <desc>Classification of format of note contents.</desc>
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="add">
+                                <valItem ident="law">
+                                    <desc>Single citation of a decision or piece of
+                                        legislation.</desc>
+                                </valItem>
+                                <valItem ident="work">
+                                    <desc>Single citation of a book or article or other piece of
+                                        writing.</desc>
+                                </valItem>
+                                <valItem ident="ibid">
+                                    <desc>Single citation using ibid. or op. cit. etc</desc>
+                                </valItem>
+                                <valItem ident="multi">
+                                    <desc>More than one citation</desc>
+                                </valItem>
+                                <valItem ident="discussion">
+                                    <desc>Contains text not including or additional to
+                                        citation</desc>
+                                </valItem>
+                            </valList>
+                        </attDef>
+                        <attDef ident="status" usage="rec" mode="add">
+                            <desc>Used to indicate whether the contents of a note have been verified
+                                by an editor, and to indicate further details about the status of
+                                those contents.</desc>
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="open" mode="add">
+                                <valItem ident="verified">
+                                    <desc>Complete and correct.</desc>
+                                </valItem>
+                                <valItem ident="unverified">
+                                    <desc>Has not been checked. (Do not use as default--leave out
+                                        the attribute as a default).</desc>
+                                </valItem>
+                                <valItem ident="uncorrectedOCR">
+                                    <desc>Div contains OCR text that has not been corrected
+                                        or formatted.</desc>
+                                </valItem>
+                             </valList>
                         </attDef>
                     </attList>
                 </elementSpec>
