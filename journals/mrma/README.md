@@ -1,4 +1,4 @@
-# _Revue de droit international et de législation comparée_
+# _Al-majmuʻah al-rasmiyah lil-mahakim al-ahliyah_
 
 - **Years**: 1900-1922
 - **Number of Volumes**: 22
