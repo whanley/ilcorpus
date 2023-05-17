@@ -1,6 +1,5 @@
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
 namespace ns1 = "http://www.w3.org/1999/xhtml"
-namespace ns2 = "http://www.isocat.org/ns/dcr"
 namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 default namespace tei = "http://www.tei-c.org/ns/1.0"
@@ -8,21 +7,15 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2022-09-15T17:15:15Z. .
-# TEI Edition: Version 4.1.0. Last updated on
-#	19th August 2020, revision b414ba550
-# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
+# Schema generated from ODD source 2023-05-17T15:06:58Z. .
+# TEI Edition: Version 4.5.0. Last updated on
+#         25th October 2022, revision 3e98e619e
+# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0/
 #
 
 #
-macro.paraContent =
-  (text
-   | model.gLike
-   | model.phrase
-   | model.inter
-   | model.global
-   | lg
-   | model.lLike)*
+macro.abContent = (text | model.paraPart | ab)*
+macro.paraContent = (text | model.paraPart)*
 macro.limitedContent = (text | model.limitedPhrase | model.inter)*
 macro.phraseSeq =
   (text
@@ -44,12 +37,28 @@ anyElement-xenoData =
     attribute * { text }*,
     (text | anyElement-xenoData)*
   }
+att.anchoring.attributes =
+  att.anchoring.attribute.anchored, att.anchoring.attribute.targetEnd
+att.anchoring.attribute.anchored =
+  
+  ## (anchored) indicates whether the copy text shows the exact place of reference for the note.
+  [ a:defaultValue = "true" ] attribute anchored { xsd:boolean }?
+att.anchoring.attribute.targetEnd =
+  
+  ## (target end) points to the end of the span to which the note is attached, if the note is not embedded in the text at that point.
+  attribute targetEnd {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
 att.ascribed.attributes = att.ascribed.attribute.who
 att.ascribed.attribute.who =
   
   ## indicates the person, or group of people, to whom the element content is ascribed.
   attribute who {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.ascribed.directed.attributes =
   att.ascribed.attributes, att.ascribed.directed.attribute.toWhom
@@ -57,7 +66,9 @@ att.ascribed.directed.attribute.toWhom =
   
   ## indicates the person, or group of people, to whom a speech act or action is directed.
   attribute toWhom {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.canonical.attributes =
   att.canonical.attribute.key, att.canonical.attribute.ref
@@ -69,7 +80,9 @@ att.canonical.attribute.ref =
   
   ## (reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
   attribute ref {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.ranging.attributes =
   att.ranging.attribute.atLeast,
@@ -194,7 +207,9 @@ att.written.attribute.hand =
       " element describing the hand considered responsible for the content of the element concerned."
     ]
   ]
-  attribute hand { xsd:anyURI }?
+  attribute hand {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 att.breaking.attributes = att.breaking.attribute.break
 att.breaking.attribute.break =
   
@@ -351,8 +366,12 @@ att.datable.attributes =
   att.datable.attribute.period
 att.datable.attribute.calendar =
   
-  ## indicates the system or calendar to which the date represented by the content of this element belongs.
-  attribute calendar { xsd:anyURI }?
+  ## indicates one or more systems or calendars to which the date represented by the content of this element belongs.
+  attribute calendar {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
 sch:pattern [
   id = "ILCorpusSchema-att.datable-calendar-calendar-constraint-rule-4"
   "\x{a}" ~
@@ -362,10 +381,10 @@ sch:pattern [
     "\x{a}" ~
     "         "
     sch:assert [
-      test = "string-length(.) gt 0"
-      " @calendar indicates the system or calendar to\x{a}" ~
-      "              which the date represented by the content of this element belongs, but this\x{a}" ~
-      "              "
+      test = "string-length( normalize-space(.) ) gt 0"
+      " @calendar indicates one or more\x{a}" ~
+      "            systems or calendars to which the date represented by the content of this element belongs,\x{a}" ~
+      "            but this "
       sch:name [ ]
       " element has no textual content."
     ]
@@ -376,22 +395,64 @@ sch:pattern [
   "   "
 ]
 att.datable.attribute.period =
-  
-  ## supplies a pointer to some location defining a named period of time within which the datable item is understood to have occurred.
-  attribute period { xsd:anyURI }?
+  [
+    a:documentation [
+      "supplies pointers to one or more definitions of named periods of time (typically "
+      ns1:code [ "<category>" ]
+      "s or "
+      ns1:code [ "<calendar>" ]
+      "s) within which the datable item is understood to have occurred."
+    ]
+  ]
+  attribute period {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
 att.datcat.attributes =
-  att.datcat.attribute.datcat, att.datcat.attribute.valueDatcat
+  att.datcat.attribute.datcat,
+  att.datcat.attribute.valueDatcat,
+  att.datcat.attribute.targetDatcat
 att.datcat.attribute.datcat =
-  
-  ## contains a PID (persistent identifier) that aligns the given element with the appropriate Data Category (or categories) in ISOcat.
-  attribute ns2:datcat {
-    list { xsd:anyURI+ }
+  [
+    a:documentation [
+      "provides a pointer to a definition of, and/or general information about, (a) an information container (element or attribute) or (b) a value of an information container (element content or attribute value), by referencing an external taxonomy or ontology. If "
+      ns1:code [ "@valueDatcat" ]
+      " is present in the immediate context, this attribute takes on role (a), while "
+      ns1:code [ "@valueDatcat" ]
+      " performs role (b)."
+    ]
+  ]
+  attribute datcat {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.datcat.attribute.valueDatcat =
-  
-  ## contains a PID (persistent identifier) that aligns the content of the given element or the value of the given attribute with the appropriate simple Data Category (or categories) in ISOcat.
-  attribute ns2:valueDatcat {
-    list { xsd:anyURI+ }
+  [
+    a:documentation [
+      "provides a definition of, and/or general information about a value of an information container (element content or attribute value), by reference to an external taxonomy or ontology. Used especially where a contrast with "
+      ns1:code [ "@datcat" ]
+      " is needed."
+    ]
+  ]
+  attribute valueDatcat {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+att.datcat.attribute.targetDatcat =
+  [
+    a:documentation [
+      "provides a definition of, and/or general information about, information structure of an object referenced or modeled by the containing element, by reference to an external taxonomy or ontology. This attribute has the characteristics of the "
+      ns1:code [ "@datcat" ]
+      " attribute, except that it addresses not its containing element, but an object that is being referenced or modeled by its containing element."
+    ]
+  ]
+  attribute targetDatcat {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.declarable.attributes = att.declarable.attribute.default
 att.declarable.attribute.default =
@@ -409,9 +470,11 @@ att.declarable.attribute.default =
 att.declaring.attributes = att.declaring.attribute.decls
 att.declaring.attribute.decls =
   
-  ## identifies one or more declarable elements within the header, which are understood to apply to the element bearing this attribute and its content.
+  ## (declarations) identifies one or more declarable elements within the header, which are understood to apply to the element bearing this attribute and its content.
   attribute decls {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.fragmentable.attributes = att.fragmentable.attribute.part
 att.fragmentable.attribute.part =
@@ -506,7 +569,9 @@ att.global.responsibility.attribute.resp =
   
   ## (responsible party) indicates the agency responsible for the intervention or interpretation, for example an editor or transcriber.
   attribute resp {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.editLike.attributes =
   att.editLike.attribute.evidence, att.editLike.attribute.instant
@@ -561,15 +626,53 @@ att.global.rendition.attribute.rendition =
   
   ## points to a description of the rendering or presentation used for this element in the source text.
   attribute rendition {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.global.source.attributes = att.global.source.attribute.source
 att.global.source.attribute.source =
   
   ## specifies the source from which some aspect of this element is drawn.
   attribute source {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
+sch:pattern [
+  id =
+    "ILCorpusSchema-att.global.source-source-only_1_ODD_source-constraint-rule-5"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@source]"
+    "\x{a}" ~
+    "         "
+    sch:let [
+      name = "srcs"
+      value = "tokenize( normalize-space(@source),' ')"
+    ]
+    "\x{a}" ~
+    "         "
+    sch:report [
+      test =
+        "( self::tei:classRef               | self::tei:dataRef               | self::tei:elementRef               | self::tei:macroRef               | self::tei:moduleRef               | self::tei:schemaSpec )               and               $srcs[2]"
+      "\x{a}" ~
+      "              When used on a schema description element (like\x{a}" ~
+      "              "
+      sch:value-of [ select = "name(.)" ]
+      "), the @source attribute\x{a}" ~
+      "              should have only 1 value. (This one has "
+      sch:value-of [ select = "count($srcs)" ]
+      ".)\x{a}" ~
+      "            "
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
 att.global.attributes =
   att.global.rendition.attributes,
   att.global.linking.attributes,
@@ -611,7 +714,9 @@ att.global.attribute.xmllang =
 att.global.attribute.xmlbase =
   
   ## provides a base URI reference with which applications can resolve relative URI references into absolute URI references.
-  attribute xml:base { xsd:anyURI }?
+  attribute xml:base {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 att.global.attribute.xmlspace =
   
   ## signals an intention about how white space should be managed by applications.
@@ -636,7 +741,9 @@ att.handFeatures.attribute.scribeRef =
     ]
   ]
   attribute scribeRef {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.handFeatures.attribute.script =
   
@@ -653,7 +760,9 @@ att.handFeatures.attribute.scriptRef =
     ]
   ]
   attribute scriptRef {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.handFeatures.attribute.medium =
   
@@ -697,7 +806,7 @@ att.media.attribute.width =
   attribute width {
     xsd:token {
       pattern =
-        "[\-+]?\d+(\.\d+)?(%|cm|mm|in|pt|pc|px|em|ex|gd|rem|vw|vh|vm)"
+        "[\-+]?\d+(\.\d+)?(%|cm|mm|in|pt|pc|px|em|ex|ch|rem|vw|vh|vmin|vmax)"
     }
   }?
 att.media.attribute.height =
@@ -706,7 +815,7 @@ att.media.attribute.height =
   attribute height {
     xsd:token {
       pattern =
-        "[\-+]?\d+(\.\d+)?(%|cm|mm|in|pt|pc|px|em|ex|gd|rem|vw|vh|vm)"
+        "[\-+]?\d+(\.\d+)?(%|cm|mm|in|pt|pc|px|em|ex|ch|rem|vw|vh|vmin|vmax)"
     }
   }?
 att.media.attribute.scale =
@@ -721,13 +830,33 @@ att.resourced.attributes = att.resourced.attribute.url
 att.resourced.attribute.url =
   
   ## (uniform resource locator) specifies the URL from which the media concerned may be obtained.
-  attribute url { xsd:anyURI }
-att.interpLike.attributes = att.interpLike.attribute.inst
+  attribute url {
+    xsd:anyURI { pattern = "\S+" }
+  }
+att.interpLike.attributes =
+  att.interpLike.attribute.type,
+  att.interpLike.attribute.subtype,
+  att.interpLike.attribute.inst
+att.interpLike.attribute.type =
+  
+  ## indicates what kind of phenomenon is being noted in the passage.
+  ## Sample values include: 1] image; 2] character; 3] theme; 4] allusion
+  attribute type {
+    xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+  }?
+att.interpLike.attribute.subtype =
+  
+  ## (subtype) provides a sub-categorization of the phenomenon is being noted in the passage, if needed
+  attribute subtype {
+    xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+  }?
 att.interpLike.attribute.inst =
   
   ## (instances) points to instances of the analysis or interpretation represented by the current element.
   attribute inst {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.measurement.attributes =
   att.measurement.attribute.unit,
@@ -736,7 +865,7 @@ att.measurement.attributes =
   att.measurement.attribute.commodity
 att.measurement.attribute.unit =
   
-  ## indicates the units used for the measurement, usually using the standard symbol for the desired units.
+  ## (unit) indicates the units used for the measurement, usually using the standard symbol for the desired units.
   ## Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (hertz); 5] Pa (pascal); 6] Ω (ohm); 7] L (litre); 8] t (tonne); 9] ha (hectare); 10] Å (ångström); 11] mL (millilitre); 12] cm (centimetre); 13] dB (decibel); 14] kbit (kilobit); 15] Kibit (kibibit); 16] kB (kilobyte); 17] KiB (kibibyte); 18] MB (megabyte); 19] MiB (mebibyte)
   attribute unit {
     
@@ -808,10 +937,12 @@ att.measurement.attribute.unitRef =
       " element that defines a unit of measure."
     ]
   ]
-  attribute unitRef { xsd:anyURI }?
+  attribute unitRef {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 att.measurement.attribute.quantity =
   
-  ## specifies the number of the specified units that comprise the measurement
+  ## (quantity) specifies the number of the specified units that comprise the measurement
   attribute quantity {
     xsd:double
     | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
@@ -819,7 +950,7 @@ att.measurement.attribute.quantity =
   }?
 att.measurement.attribute.commodity =
   
-  ## indicates the substance that is being measured
+  ## (commodity) indicates the substance that is being measured
   attribute commodity {
     list {
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
@@ -827,7 +958,7 @@ att.measurement.attribute.commodity =
   }?
 sch:pattern [
   id =
-    "ILCorpusSchema-att.measurement-att-measurement-unitRef-constraint-rule-5"
+    "ILCorpusSchema-att.measurement-att-measurement-unitRef-constraint-rule-6"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -861,7 +992,9 @@ att.naming.attribute.nymRef =
   
   ## (reference to the canonical name) provides a means of locating the canonical form (nym) of the names associated with the object named by the element bearing it.
   attribute nymRef {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.notated.attributes = att.notated.attribute.notation
 att.notated.attribute.notation =
@@ -874,21 +1007,18 @@ att.placement.attributes = att.placement.attribute.place
 att.placement.attribute.place =
   
   ## specifies where this item is placed.
-  ## Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6] overleaf; 7] above; 8] end; 9] inline; 10] inspace
+  ## Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf; 6] above; 7] right; 8] below; 9] left; 10] end; 11] inline; 12] inspace
   attribute place {
     list {
       (
-       ## below the line
-       "below"
+       ## at the top of the page
+       "top"
        | 
          ## at the foot of the page
          "bottom"
        | 
          ## in the margin (left, right, or both)
          "margin"
-       | 
-         ## at the top of the page
-         "top"
        | 
          ## on the opposite, i.e. facing, page
          "opposite"
@@ -898,6 +1028,15 @@ att.placement.attribute.place =
        | 
          ## above the line
          "above"
+       | 
+         ## to the right, e.g. to the right of a vertical line of text, or to the right of a figure
+         "right"
+       | 
+         ## below the line
+         "below"
+       | 
+         ## to the left, e.g. to the left of a vertical line of text, or to the left of a figure
+         "left"
        | 
          ## at the end of e.g. chapter or volume.
          "end"
@@ -920,12 +1059,12 @@ att.typed.attribute.type =
   }?
 att.typed.attribute.subtype =
   
-  ## provides a sub-categorization of the element, if needed
+  ## (subtype) provides a sub-categorization of the element, if needed
   attribute subtype {
     xsd:token { pattern = "[^\p{C}\p{Z}]+" }
   }?
 sch:pattern [
-  id = "ILCorpusSchema-att.typed-subtypeTyped-constraint-rule-6"
+  id = "ILCorpusSchema-att.typed-subtypeTyped-constraint-rule-7"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -969,7 +1108,7 @@ att.pointing.attribute.targetLang =
   }?
 sch:pattern [
   id =
-    "ILCorpusSchema-att.pointing-targetLang-targetLang-constraint-rule-7"
+    "ILCorpusSchema-att.pointing-targetLang-targetLang-constraint-rule-8"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -992,11 +1131,13 @@ att.pointing.attribute.target =
   
   ## specifies the destination of the reference by supplying one or more URI References
   attribute target {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.pointing.attribute.evaluate =
   
-  ## specifies the intended meaning when the target of a pointer is itself a pointer.
+  ## (evaluate) specifies the intended meaning when the target of a pointer is itself a pointer.
   attribute evaluate {
     
     ## if the element pointed to is itself a pointer, then the target of that pointer will be taken, and so on, until an element is found which is not a pointer.
@@ -1017,7 +1158,11 @@ att.pointing.group.attribute.domains =
   
   ## optionally specifies the identifiers of the elements within which all elements indicated by the contents of this element lie.
   attribute domains {
-    list { xsd:anyURI, xsd:anyURI, xsd:anyURI* }
+    list {
+      xsd:anyURI { pattern = "\S+" },
+      xsd:anyURI { pattern = "\S+" },
+      xsd:anyURI { pattern = "\S+" }*
+    }
   }?
 att.pointing.group.attribute.targFunc =
   [
@@ -1046,7 +1191,7 @@ att.segLike.attributes =
   att.segLike.attribute.function
 att.segLike.attribute.function =
   
-  ## characterizes the function of the segment.
+  ## (function) characterizes the function of the segment.
   attribute function {
     xsd:token { pattern = "[^\p{C}\p{Z}]+" }
   }?
@@ -1071,15 +1216,20 @@ att.edition.attribute.edRef =
   
   ## (edition reference) provides a pointer to the source edition in which the associated feature (for example, a page, column, or line break) occurs at this point in the text.
   attribute edRef {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.spanning.attributes = att.spanning.attribute.spanTo
 att.spanning.attribute.spanTo =
   
   ## indicates the end of a span initiated by the element bearing this attribute.
-  attribute spanTo { xsd:anyURI }?
+  attribute spanTo {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 sch:pattern [
-  id = "ILCorpusSchema-att.spanning-spanTo-spanTo-2-constraint-rule-8"
+  id =
+    "ILCorpusSchema-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-9"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -1135,7 +1285,7 @@ att.styleDef.attribute.schemeVersion =
   }?
 sch:pattern [
   id =
-    "ILCorpusSchema-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-rule-9"
+    "ILCorpusSchema-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-rule-10"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -1159,11 +1309,15 @@ att.timed.attributes =
 att.timed.attribute.start =
   
   ## indicates the location within a temporal alignment at which this element begins.
-  attribute start { xsd:anyURI }?
+  attribute start {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 att.timed.attribute.end =
   
   ## indicates the location within a temporal alignment at which this element ends.
-  attribute end { xsd:anyURI }?
+  attribute end {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 att.transcriptional.attributes =
   att.editLike.attributes,
   att.written.attributes,
@@ -1188,20 +1342,6 @@ att.transcriptional.attribute.seq =
   
   ## (sequence) assigns a sequence number related to the order in which the encoded features carrying this attribute are believed to have occurred.
   attribute seq { xsd:nonNegativeInteger }?
-att.translatable.attributes = att.translatable.attribute.versionDate
-att.translatable.attribute.versionDate =
-  
-  ## specifies the date on which the source text was extracted and sent to the translator
-  attribute versionDate {
-    xsd:date
-    | xsd:gYear
-    | xsd:gMonth
-    | xsd:gDay
-    | xsd:gYearMonth
-    | xsd:gMonthDay
-    | xsd:time
-    | xsd:dateTime
-  }?
 att.citing.attributes =
   att.citing.attribute.unit,
   att.citing.attribute.from,
@@ -1209,22 +1349,22 @@ att.citing.attributes =
 att.citing.attribute.unit =
   
   ## identifies the unit of information conveyed by the element, e.g. columns, pages, volume, entry.
-  ## Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] part; 7] column; 8] entry
+  ## Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line; 5] chapter (chapter); 6] part; 7] column; 8] entry
   attribute unit {
     
-    ## the element contains a volume number.
+    ## (volume) the element contains a volume number.
     "volume"
     | 
       ## the element contains an issue number, or volume and issue numbers.
       "issue"
     | 
-      ## the element contains a page number or page range.
+      ## (page) the element contains a page number or page range.
       "page"
     | 
       ## the element contains a line number or line range.
       "line"
     | 
-      ## the element contains a chapter indication (number and/or title)
+      ## (chapter) the element contains a chapter indication (number and/or title)
       "chapter"
     | 
       ## the element identifies a part of a book or collection.
@@ -1267,6 +1407,12 @@ model.nameLike.agent_sequenceOptionalRepeatable =
   name*, orgName*, persName*
 model.nameLike.agent_sequenceRepeatable = name+, orgName+, persName+
 model.segLike = s | cl | phr | w | m | c | pc | seg
+model.segLike_alternation = s | cl | phr | w | m | c | pc | seg
+model.segLike_sequence = s, cl, phr, w, m, c, pc, seg
+model.segLike_sequenceOptional = s?, cl?, phr?, w?, m?, c?, pc?, seg?
+model.segLike_sequenceOptionalRepeatable =
+  s*, cl*, phr*, w*, m*, c*, pc*, seg*
+model.segLike_sequenceRepeatable = s+, cl+, phr+, w+, m+, c+, pc+, seg+
 model.hiLike = hi | q
 model.hiLike_alternation = hi | q
 model.hiLike_sequence = hi, q
@@ -1321,6 +1467,17 @@ model.emphLike_sequenceRepeatable =
   term+,
   title+
 model.highlighted = model.hiLike | model.emphLike
+model.highlighted_alternation =
+  model.hiLike_alternation | model.emphLike_alternation
+model.highlighted_sequence =
+  model.hiLike_sequence, model.emphLike_sequence
+model.highlighted_sequenceOptional =
+  model.hiLike_sequenceOptional?, model.emphLike_sequenceOptional?
+model.highlighted_sequenceOptionalRepeatable =
+  model.hiLike_sequenceOptionalRepeatable*,
+  model.emphLike_sequenceOptionalRepeatable*
+model.highlighted_sequenceRepeatable =
+  model.hiLike_sequenceRepeatable+, model.emphLike_sequenceRepeatable+
 model.dateLike = date | time
 model.dateLike_alternation = date | time
 model.dateLike_sequence = date, time
@@ -1343,6 +1500,14 @@ model.egLike_sequenceOptional = empty
 model.egLike_sequenceOptionalRepeatable = empty
 model.egLike_sequenceRepeatable = notAllowed
 model.graphicLike = media | graphic | binaryObject | formula
+model.graphicLike_alternation = media | graphic | binaryObject | formula
+model.graphicLike_sequence = media, graphic, binaryObject, formula
+model.graphicLike_sequenceOptional =
+  media?, graphic?, binaryObject?, formula?
+model.graphicLike_sequenceOptionalRepeatable =
+  media*, graphic*, binaryObject*, formula*
+model.graphicLike_sequenceRepeatable =
+  media+, graphic+, binaryObject+, formula+
 model.offsetLike = offset | geogFeat
 model.offsetLike_alternation = offset | geogFeat
 model.offsetLike_sequence = offset, geogFeat
@@ -1350,6 +1515,11 @@ model.offsetLike_sequenceOptional = offset?, geogFeat?
 model.offsetLike_sequenceOptionalRepeatable = offset*, geogFeat*
 model.offsetLike_sequenceRepeatable = offset+, geogFeat+
 model.pPart.msdesc = notAllowed
+model.pPart.msdesc_alternation = notAllowed
+model.pPart.msdesc_sequence = empty
+model.pPart.msdesc_sequenceOptional = empty
+model.pPart.msdesc_sequenceOptionalRepeatable = empty
+model.pPart.msdesc_sequenceRepeatable = notAllowed
 model.pPart.editorial = choice | abbr | expan
 model.pPart.editorial_alternation = choice | abbr | expan
 model.pPart.editorial_sequence = choice, abbr, expan
@@ -1370,8 +1540,32 @@ model.pPart.transcriptional_sequenceOptionalRepeatable =
 model.pPart.transcriptional_sequenceRepeatable =
   sic+, corr+, reg+, orig+, add+, del+, unclear+
 model.pPart.edit = model.pPart.editorial | model.pPart.transcriptional
+model.pPart.edit_alternation =
+  model.pPart.editorial_alternation
+  | model.pPart.transcriptional_alternation
+model.pPart.edit_sequence =
+  model.pPart.editorial_sequence, model.pPart.transcriptional_sequence
+model.pPart.edit_sequenceOptional =
+  model.pPart.editorial_sequenceOptional?,
+  model.pPart.transcriptional_sequenceOptional?
+model.pPart.edit_sequenceOptionalRepeatable =
+  model.pPart.editorial_sequenceOptionalRepeatable*,
+  model.pPart.transcriptional_sequenceOptionalRepeatable*
+model.pPart.edit_sequenceRepeatable =
+  model.pPart.editorial_sequenceRepeatable+,
+  model.pPart.transcriptional_sequenceRepeatable+
 model.ptrLike = ptr | ref
+model.ptrLike_alternation = ptr | ref
+model.ptrLike_sequence = ptr, ref
+model.ptrLike_sequenceOptional = ptr?, ref?
+model.ptrLike_sequenceOptionalRepeatable = ptr*, ref*
+model.ptrLike_sequenceRepeatable = ptr+, ref+
 model.lPart = notAllowed
+model.lPart_alternation = notAllowed
+model.lPart_sequence = empty
+model.lPart_sequenceOptional = empty
+model.lPart_sequenceOptionalRepeatable = empty
+model.lPart_sequenceRepeatable = notAllowed
 model.global.meta =
   index
   | span
@@ -1385,7 +1579,81 @@ model.global.meta =
   | joinGrp
   | alt
   | altGrp
+model.global.meta_alternation =
+  index
+  | span
+  | spanGrp
+  | interp
+  | interpGrp
+  | link
+  | linkGrp
+  | timeline
+  | join
+  | joinGrp
+  | alt
+  | altGrp
+model.global.meta_sequence =
+  index,
+  span,
+  spanGrp,
+  interp,
+  interpGrp,
+  link,
+  linkGrp,
+  timeline,
+  join,
+  joinGrp,
+  alt,
+  altGrp
+model.global.meta_sequenceOptional =
+  index?,
+  span?,
+  spanGrp?,
+  interp?,
+  interpGrp?,
+  link?,
+  linkGrp?,
+  timeline?,
+  join?,
+  joinGrp?,
+  alt?,
+  altGrp?
+model.global.meta_sequenceOptionalRepeatable =
+  index*,
+  span*,
+  spanGrp*,
+  interp*,
+  interpGrp*,
+  link*,
+  linkGrp*,
+  timeline*,
+  join*,
+  joinGrp*,
+  alt*,
+  altGrp*
+model.global.meta_sequenceRepeatable =
+  index+,
+  span+,
+  spanGrp+,
+  interp+,
+  interpGrp+,
+  link+,
+  linkGrp+,
+  timeline+,
+  join+,
+  joinGrp+,
+  alt+,
+  altGrp+
 model.milestoneLike = milestone | gb | pb | lb | cb | anchor | fw
+model.milestoneLike_alternation =
+  milestone | gb | pb | lb | cb | anchor | fw
+model.milestoneLike_sequence = milestone, gb, pb, lb, cb, anchor, fw
+model.milestoneLike_sequenceOptional =
+  milestone?, gb?, pb?, lb?, cb?, anchor?, fw?
+model.milestoneLike_sequenceOptionalRepeatable =
+  milestone*, gb*, pb*, lb*, cb*, anchor*, fw*
+model.milestoneLike_sequenceRepeatable =
+  milestone+, gb+, pb+, lb+, cb+, anchor+, fw+
 model.gLike = g
 model.oddDecl = notAllowed
 model.oddDecl_alternation = notAllowed
@@ -1394,7 +1662,17 @@ model.oddDecl_sequenceOptional = empty
 model.oddDecl_sequenceOptionalRepeatable = empty
 model.oddDecl_sequenceRepeatable = notAllowed
 model.phrase.xml = notAllowed
+model.phrase.xml_alternation = notAllowed
+model.phrase.xml_sequence = empty
+model.phrase.xml_sequenceOptional = empty
+model.phrase.xml_sequenceOptionalRepeatable = empty
+model.phrase.xml_sequenceRepeatable = notAllowed
 model.specDescLike = notAllowed
+model.specDescLike_alternation = notAllowed
+model.specDescLike_sequence = empty
+model.specDescLike_sequenceOptional = empty
+model.specDescLike_sequenceOptionalRepeatable = empty
+model.specDescLike_sequenceRepeatable = notAllowed
 model.biblLike = bibl | biblStruct | listBibl | biblFull
 model.biblLike_alternation = bibl | biblStruct | listBibl | biblFull
 model.biblLike_sequence = bibl, biblStruct, listBibl, biblFull
@@ -1476,7 +1754,12 @@ model.listLike_sequenceRepeatable =
   listRelation+,
   listObject+,
   listNym+
-model.noteLike = note
+model.noteLike = note | noteGrp
+model.noteLike_alternation = note | noteGrp
+model.noteLike_sequence = note, noteGrp
+model.noteLike_sequenceOptional = note?, noteGrp?
+model.noteLike_sequenceOptionalRepeatable = note*, noteGrp*
+model.noteLike_sequenceRepeatable = note+, noteGrp+
 model.lLike = l
 model.lLike_alternation = l
 model.lLike_sequence = l
@@ -1497,7 +1780,12 @@ model.stageLike_sequenceOptionalRepeatable = stage*
 model.stageLike_sequenceRepeatable = stage+
 model.entryPart = notAllowed
 model.eventLike = event | listEvent
-model.global.edit = gap
+model.global.edit = gap | ellipsis
+model.global.edit_alternation = gap | ellipsis
+model.global.edit_sequence = gap, ellipsis
+model.global.edit_sequenceOptional = gap?, ellipsis?
+model.global.edit_sequenceOptionalRepeatable = gap*, ellipsis*
+model.global.edit_sequenceRepeatable = gap+, ellipsis+
 model.divPart = model.lLike | model.pLike | lg | sp
 model.persStateLike =
   persName
@@ -1506,10 +1794,12 @@ model.persStateLike =
   | education
   | faith
   | floruit
+  | gender
   | langKnowledge
   | nationality
   | occupation
   | persona
+  | persPronouns
   | residence
   | sex
   | socecStatus
@@ -1609,7 +1899,6 @@ model.publicationStmtPart.detail =
 model.availabilityPart = licence
 model.certLike = notAllowed
 model.descLike = desc
-model.glossLike = gloss
 model.quoteLike = quote | cit
 model.quoteLike_alternation = quote | cit
 model.quoteLike_sequence = quote, cit
@@ -1754,6 +2043,31 @@ model.pPart.data =
   | model.measureLike
   | model.addressLike
   | model.nameLike
+model.pPart.data_alternation =
+  model.dateLike_alternation
+  | model.measureLike_alternation
+  | model.addressLike_alternation
+  | model.nameLike_alternation
+model.pPart.data_sequence =
+  model.dateLike_sequence,
+  model.measureLike_sequence,
+  model.addressLike_sequence,
+  model.nameLike_sequence
+model.pPart.data_sequenceOptional =
+  model.dateLike_sequenceOptional?,
+  model.measureLike_sequenceOptional?,
+  model.addressLike_sequenceOptional?,
+  model.nameLike_sequenceOptional?
+model.pPart.data_sequenceOptionalRepeatable =
+  model.dateLike_sequenceOptionalRepeatable*,
+  model.measureLike_sequenceOptionalRepeatable*,
+  model.addressLike_sequenceOptionalRepeatable*,
+  model.nameLike_sequenceOptionalRepeatable*
+model.pPart.data_sequenceRepeatable =
+  model.dateLike_sequenceRepeatable+,
+  model.measureLike_sequenceRepeatable+,
+  model.addressLike_sequenceRepeatable+,
+  model.nameLike_sequenceRepeatable+
 model.inter =
   model.egLike
   | model.oddDecl
@@ -1774,6 +2088,14 @@ model.phrase =
   | model.phrase.xml
   | model.specDescLike
   | model.pPart.data
+  | ruby
+model.paraPart =
+  model.gLike
+  | model.lLike
+  | model.global
+  | model.inter
+  | model.phrase
+  | lg
 model.limitedPhrase =
   model.hiLike
   | model.emphLike
@@ -1831,16 +2153,30 @@ att.formula.attributes = att.formula.attribute.formula
 att.formula.attribute.formula =
   [
     a:documentation [
-      "An "
+      "A "
       ns1:code [ "@formula" ]
       " is provided to describe a mathematical calculation such as a conversion between measurement systems."
     ]
   ]
   attribute formula { text }?
+att.locatable.attributes = att.locatable.attribute.where
+att.locatable.attribute.where =
+  [
+    a:documentation [
+      "indicates one or more locations by pointing to a "
+      ns1:code [ "<place>" ]
+      " element or other canonical description."
+    ]
+  ]
+  attribute where {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
 model.correspActionPart =
-  model.dateLike | model.addressLike | model.nameLike | note
-model.correspContextPart = model.ptrLike | model.pLike | note
-model.correspDescPart = note | correspAction | correspContext
+  model.dateLike | model.addressLike | model.nameLike | note | noteGrp
+model.correspContextPart = model.ptrLike | model.pLike | note | noteGrp
+model.correspDescPart = note | noteGrp | correspAction | correspContext
 model.resource = \text | standOff
 model.describedResource = teiCorpus | TEI
 model.objectLike = object | listObject
@@ -1854,7 +2190,7 @@ att.personal.attribute.full =
   [ a:defaultValue = "yes" ]
   attribute full {
     
-    ## the name component is spelled out in full.
+    ## (yes) the name component is spelled out in full.
     "yes"
     | 
       ## (abbreviated) the name component is given in an abbreviated form.
@@ -1865,7 +2201,7 @@ att.personal.attribute.full =
   }?
 att.personal.attribute.sort =
   
-  ## specifies the sort order of the name component in relation to others within the name.
+  ## (sort) specifies the sort order of the name component in relation to others within the name.
   attribute sort { xsd:nonNegativeInteger }?
 model.placeLike = place
 att.milestoneUnit.attributes = att.milestoneUnit.attribute.unit
@@ -1932,7 +2268,7 @@ p =
     macro.paraContent
     >> sch:pattern [
          id =
-           "ILCorpusSchema-p-abstractModel-structure-p-constraint-report-5"
+           "ILCorpusSchema-p-abstractModel-structure-p-in-ab-or-p-constraint-report-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1941,7 +2277,7 @@ p =
            "               "
            sch:report [
              test =
-               "not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )"
+               "(ancestor::tei:ab or ancestor::tei:p) and not( ancestor::tei:floatingText |parent::tei:exemplum |parent::tei:item |parent::tei:note |parent::tei:q |parent::tei:quote |parent::tei:remarks |parent::tei:said |parent::tei:sp |parent::tei:stage |parent::tei:cell |parent::tei:figure )"
              "\x{a}" ~
              "        Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.\x{a}" ~
              "      "
@@ -1954,7 +2290,7 @@ p =
        ]
     >> sch:pattern [
          id =
-           "ILCorpusSchema-p-abstractModel-structure-l-constraint-report-6"
+           "ILCorpusSchema-p-abstractModel-structure-p-in-l-or-lg-constraint-report-7"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1963,9 +2299,9 @@ p =
            "               "
            sch:report [
              test =
-               "ancestor::tei:l[not(.//tei:note//tei:p[. = current()])]"
+               "(ancestor::tei:l or ancestor::tei:lg) and not( ancestor::tei:floatingText |parent::tei:figure |parent::tei:note )"
              "\x{a}" ~
-             "        Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab.\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.\x{a}" ~
              "      "
            ]
            "\x{a}" ~
@@ -1982,7 +2318,7 @@ p =
   }
 foreign =
   
-  ## identifies a word or phrase as belonging to some language other than that of the surrounding text. [3.3.2.1. Foreign Words or Expressions]
+  ## (foreign) identifies a word or phrase as belonging to some language other than that of the surrounding text. [3.3.2.1. Foreign Words or Expressions]
   element foreign { macro.phraseSeq, att.global.attributes, empty }
 emph =
   
@@ -2070,35 +2406,35 @@ q =
     att.global.attributes,
     att.ascribed.directed.attributes,
     
-    ## may be used to indicate whether the offset passage is spoken or thought, or to characterize it more finely.
-    ## Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] foreign; 6] distinct; 7] term; 8] emph; 9] mentioned
+    ## (type) may be used to indicate whether the offset passage is spoken or thought, or to characterize it more finely.
+    ## Suggested values include: 1] spoken (spoken); 2] thought (thought); 3] written (written); 4] soCalled (so called); 5] foreign (foreign); 6] distinct (distinct); 7] term; 8] emph (emph); 9] mentioned (mentioned)
     attribute type {
       
-      ## representation of speech
+      ## (spoken) representation of speech
       "spoken"
       | 
-        ## representation of thought, e.g. internal monologue
+        ## (thought) representation of thought, e.g. internal monologue
         "thought"
       | 
-        ## quotation from a written source
+        ## (written) quotation from a written source
         "written"
       | 
-        ## authorial distance
+        ## (so called) authorial distance
         "soCalled"
       | 
-        ##
+        ## (foreign) 
         "foreign"
       | 
-        ## linguistically distinct
+        ## (distinct) linguistically distinct
         "distinct"
       | 
         ## technical term
         "term"
       | 
-        ## rhetorically emphasized
+        ## (emph) rhetorically emphasized
         "emph"
       | 
-        ## refering to itself, not its normal referent
+        ## (mentioned) refering to itself, not its normal referent
         "mentioned"
       | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
     }?,
@@ -2127,16 +2463,16 @@ mentioned =
   element mentioned { macro.phraseSeq, att.global.attributes, empty }
 soCalled =
   
-  ## contains a word or phrase for which the author or narrator indicates a disclaiming of responsibility, for example by the use of scare quotes or italics. [3.3.3. Quotation]
+  ## (so called) contains a word or phrase for which the author or narrator indicates a disclaiming of responsibility, for example by the use of scare quotes or italics. [3.3.3. Quotation]
   element soCalled { macro.phraseSeq, att.global.attributes, empty }
 desc =
   
-  ## (description) contains a brief description of the object documented by its parent element, typically a documentation element or an entity. [22.4.1. Description of Components]
+  ## (description) contains a short description of the purpose, function, or use of its parent element, or when the parent is a documentation element, describes or defines the object being documented.  [22.4.1. Description of Components]
   element desc {
     macro.limitedContent
     >> sch:pattern [
          id =
-           "ILCorpusSchema-desc-deprecationInfo-only-in-deprecated-constraint-rule-10"
+           "ILCorpusSchema-desc-deprecationInfo-only-in-deprecated-constraint-rule-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2158,23 +2494,26 @@ desc =
          "         "
        ],
     att.global.attributes,
-    att.translatable.attributes,
     att.typed.attribute.subtype,
     
     ## characterizes the element in some sense, using any convenient classification scheme or typology.
+    ## Suggested values include: 1] deprecationInfo (deprecation information)
     attribute type {
-      xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+      
+      ## (deprecation
+      ##           information) This element describes why or how its parent element is being deprecated, typically including recommendations for alternate encoding.
+      "deprecationInfo"
+      | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
     }?,
     empty
   }
 gloss =
   
-  ## identifies a phrase or word used to provide a gloss or definition for some other word or phrase. [3.3.4. Terms, Glosses, Equivalents, and Descriptions 22.4.1. Description of Components]
+  ## (gloss) identifies a phrase or word used to provide a gloss or definition for some other word or phrase. [3.4.1. Terms and Glosses 22.4.1. Description of Components]
   element gloss {
     macro.phraseSeq,
     att.global.attributes,
     att.declaring.attributes,
-    att.translatable.attributes,
     att.typed.attributes,
     att.pointing.attributes,
     att.cReferencing.attributes,
@@ -2182,7 +2521,7 @@ gloss =
   }
 term =
   
-  ## contains a single-word, multi-word, or symbolic designation which is regarded as a technical term. [3.3.4. Terms, Glosses, Equivalents, and Descriptions]
+  ## (term) contains a single-word, multi-word, or symbolic designation which is regarded as a technical term. [3.4.1. Terms and Glosses]
   element term {
     macro.phraseSeq,
     att.global.attributes,
@@ -2194,13 +2533,113 @@ term =
     att.cReferencing.attributes,
     empty
   }
+ruby =
+  
+  ## (ruby container) contains a passage of base text along with its associated ruby gloss(es). [3.4.2. Ruby Annotations]
+  element ruby {
+    (rb, rt+), att.global.attributes, att.typed.attributes, empty
+  }
+rb =
+  
+  ## (ruby base) contains the base text annotated by a ruby gloss. [3.4.2. Ruby Annotations]
+  element rb {
+    macro.phraseSeq, att.global.attributes, att.typed.attributes, empty
+  }
+rt =
+  
+  ## (ruby text) contains a ruby text, an annotation closely associated with a passage of the main text. [3.4.2. Ruby Annotations]
+  element rt {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.typed.attributes,
+    att.placement.attributes,
+    att.transcriptional.attributes,
+    (
+     ## supplies a pointer to the base being glossed by this ruby text.
+     attribute target {
+       xsd:anyURI { pattern = "\S+" }
+     }?)
+    >> sch:pattern [
+         id =
+           "ILCorpusSchema-rt-target-rt-target-not-span-constraint-report-8"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:rt/@target"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "../@from | ../@to"
+             "When target= is\x{a}" ~
+             "            present, neither from= nor to= should be."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    (
+     ## points to the starting point of the span of text being glossed by this ruby text.
+     attribute from {
+       xsd:anyURI { pattern = "\S+" }
+     }?)
+    >> sch:pattern [
+         id = "ILCorpusSchema-rt-from-rt-from-constraint-assert-7"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:rt/@from"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "../@to"
+             "When from= is present, the to=\x{a}" ~
+             "            attribute of "
+             sch:name [ ]
+             " is required."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    (
+     ## points to the ending point of the span of text being glossed.
+     attribute to {
+       xsd:anyURI { pattern = "\S+" }
+     }?)
+    >> sch:pattern [
+         id = "ILCorpusSchema-rt-to-rt-to-constraint-assert-8"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:rt/@to"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "../@from"
+             "When to= is present, the from=\x{a}" ~
+             "            attribute of "
+             sch:name [ ]
+             " is required."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    empty
+  }
 sic =
   
-  ## (Latin for thus or so) contains text reproduced although apparently incorrect or inaccurate. [3.4.1. Apparent Errors]
+  ## (Latin for thus or so) contains text reproduced although apparently incorrect or inaccurate. [3.5.1. Apparent Errors]
   element sic { macro.paraContent, att.global.attributes, empty }
 corr =
   
-  ## (correction) contains the correct form of a passage apparently erroneous in the copy text. [3.4.1. Apparent Errors]
+  ## (correction) contains the correct form of a passage apparently erroneous in the copy text. [3.5.1. Apparent Errors]
   element corr {
     macro.paraContent,
     att.global.attributes,
@@ -2210,13 +2649,13 @@ corr =
   }
 choice =
   
-  ## groups a number of alternative encodings for the same point in a text. [3.4. Simple Editorial Changes]
+  ## (choice) groups a number of alternative encodings for the same point in a text. [3.5. Simple Editorial Changes]
   element choice {
     (model.choicePart | choice)+, att.global.attributes, empty
   }
 reg =
   
-  ## (regularization) contains a reading which has been regularized or normalized in some sense. [3.4.2. Regularization and
+  ## (regularization) contains a reading which has been regularized or normalized in some sense. [3.5.2. Regularization and
   ## Normalization 12. Critical Apparatus]
   element reg {
     macro.paraContent,
@@ -2227,12 +2666,12 @@ reg =
   }
 orig =
   
-  ## (original form) contains a reading which is marked as following the original, rather than being normalized or corrected. [3.4.2. Regularization and
+  ## (original form) contains a reading which is marked as following the original, rather than being normalized or corrected. [3.5.2. Regularization and
   ## Normalization 12. Critical Apparatus]
   element orig { macro.paraContent, att.global.attributes, empty }
 gap =
   
-  ## indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.4.3. Additions, Deletions, and Omissions]
+  ## (gap) indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.5.3. Additions, Deletions, and Omissions]
   element gap {
     (model.descLike | model.certLike)*,
     att.global.attributes,
@@ -2240,45 +2679,55 @@ gap =
     att.editLike.attributes,
     att.dimensions.attributes,
     
-    ## gives the reason for omission
-    ## Suggested values include: 1] cancelled; 2] deleted; 3] editorial; 4] illegible; 5] inaudible; 6] irrelevant; 7] sampling
+    ## (reason) gives the reason for omission
+    ## Suggested values include: 1] cancelled (cancelled); 2] deleted (deleted); 3] editorial (editorial); 4] illegible (illegible); 5] inaudible (inaudible); 6] irrelevant (irrelevant); 7] sampling (sampling)
     attribute reason {
       list {
         (
-         ##
+         ## (cancelled) 
          "cancelled"
          | 
-           ##
+           ## (deleted) 
            "deleted"
          | 
-           ## for features omitted from transcription due to editorial policy
+           ## (editorial) for features omitted from transcription due to editorial policy
            "editorial"
          | 
-           ##
+           ## (illegible) 
            "illegible"
          | 
-           ##
+           ## (inaudible) 
            "inaudible"
          | 
-           ##
+           ## (irrelevant) 
            "irrelevant"
          | 
-           ##
+           ## (sampling) 
            "sampling"
          | xsd:token { pattern = "[^\p{C}\p{Z}]+" })+
       }
     }?,
     
-    ## in the case of text omitted because of damage, categorizes the cause of the damage, if it can be identified.
-    ## Sample values include: 1] rubbing; 2] mildew; 3] smoke
+    ## (agent) in the case of text omitted because of damage, categorizes the cause of the damage, if it can be identified.
+    ## Sample values include: 1] rubbing (rubbing); 2] mildew (mildew); 3] smoke (smoke)
     attribute agent {
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }
     }?,
     empty
   }
+ellipsis =
+  
+  ## (deliberately marked omission) indicates a purposeful marking in the source document signalling that content has been omitted, and may also supply or describe the omitted content. [3.5.3. Additions, Deletions, and Omissions]
+  element ellipsis {
+    model.descLike?,
+    att.global.attributes,
+    att.dimensions.attributes,
+    att.timed.attributes,
+    empty
+  }
 add =
   
-  ## (addition) contains letters, words, or phrases inserted in the source text by an author, scribe, or a previous annotator or corrector. [3.4.3. Additions, Deletions, and Omissions]
+  ## (addition) contains letters, words, or phrases inserted in the source text by an author, scribe, or a previous annotator or corrector. [3.5.3. Additions, Deletions, and Omissions]
   element add {
     macro.paraContent,
     att.global.attributes,
@@ -2290,7 +2739,7 @@ add =
   }
 del =
   
-  ## (deletion) contains a letter, word, or passage deleted, marked as deleted, or otherwise indicated as superfluous or spurious in the copy text by an author, scribe, or a previous annotator or corrector. [3.4.3. Additions, Deletions, and Omissions]
+  ## (deletion) contains a letter, word, or passage deleted, marked as deleted, or otherwise indicated as superfluous or spurious in the copy text by an author, scribe, or a previous annotator or corrector. [3.5.3. Additions, Deletions, and Omissions]
   element del {
     macro.paraContent,
     att.global.attributes,
@@ -2301,7 +2750,7 @@ del =
   }
 unclear =
   
-  ## contains a word, phrase, or passage which cannot be transcribed with certainty because it is illegible or inaudible in the source. [11.3.3.1. Damage, Illegibility, and Supplied Text 3.4.3. Additions, Deletions, and Omissions]
+  ## (unclear) contains a word, phrase, or passage which cannot be transcribed with certainty because it is illegible or inaudible in the source. [11.3.3.1. Damage, Illegibility, and Supplied Text 3.5.3. Additions, Deletions, and Omissions]
   element unclear {
     macro.paraContent,
     att.global.attributes,
@@ -2309,23 +2758,23 @@ unclear =
     att.dimensions.attributes,
     
     ## indicates why the material is hard to transcribe.
-    ## Suggested values include: 1] illegible; 2] inaudible; 3] faded; 4] background_noise; 5] eccentric_ductus
+    ## Suggested values include: 1] illegible (illegible); 2] inaudible (inaudible); 3] faded (faded); 4] background_noise (background_noise); 5] eccentric_ductus (eccentric_ductus)
     attribute reason {
       list {
         (
-         ##
+         ## (illegible) 
          "illegible"
          | 
-           ##
+           ## (inaudible) 
            "inaudible"
          | 
-           ##
+           ## (faded) 
            "faded"
          | 
-           ##
+           ## (background_noise) 
            "background_noise"
          | 
-           ##
+           ## (eccentric_ductus) indicates illegibility due to an unusual, awkward, or incompetent execution of a glyph or glyphs 
            "eccentric_ductus"
          | xsd:token { pattern = "[^\p{C}\p{Z}]+" })+
       }
@@ -2340,7 +2789,7 @@ unclear =
   }
 name =
   
-  ## (name, proper noun) contains a proper noun or noun phrase. [3.5.1. Referring Strings]
+  ## (name, proper noun) contains a proper noun or noun phrase. [3.6.1. Referring Strings]
   element name {
     macro.phraseSeq,
     att.global.attributes,
@@ -2352,7 +2801,7 @@ name =
   }
 rs =
   
-  ## (referencing string) contains a general purpose name or referring string. [13.2.1. Personal Names 3.5.1. Referring Strings]
+  ## (referencing string) contains a general purpose name or referring string. [13.2.1. Personal Names 3.6.1. Referring Strings]
   element rs {
     macro.phraseSeq,
     att.global.attributes,
@@ -2362,11 +2811,11 @@ rs =
   }
 email =
   
-  ## (electronic mail address) contains an email address identifying a location to which email messages can be delivered. [3.5.2. Addresses]
+  ## (electronic mail address) contains an email address identifying a location to which email messages can be delivered. [3.6.2. Addresses]
   element email { macro.phraseSeq, att.global.attributes, empty }
 address =
   
-  ## contains a postal address, for example of a publisher, an organization, or an individual. [3.5.2. Addresses 2.2.4. Publication, Distribution, Licensing, etc. 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
+  ## (address) contains a postal address, for example of a publisher, an organization, or an individual. [3.6.2. Addresses 2.2.4. Publication, Distribution, Licensing, etc. 3.12.2.4. Imprint, Size of a Document, and Reprint Information]
   element address {
     (model.global*, (model.addrPart, model.global*)+),
     att.global.attributes,
@@ -2374,23 +2823,23 @@ address =
   }
 addrLine =
   
-  ## (address line) contains one line of a postal address. [3.5.2. Addresses 2.2.4. Publication, Distribution, Licensing, etc. 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
+  ## (address line) contains one line of a postal address. [3.6.2. Addresses 2.2.4. Publication, Distribution, Licensing, etc. 3.12.2.4. Imprint, Size of a Document, and Reprint Information]
   element addrLine { macro.phraseSeq, att.global.attributes, empty }
 street =
   
-  ## contains a full street address including any name or number identifying a building as well as the name of the street or route on which it is located. [3.5.2. Addresses]
+  ## contains a full street address including any name or number identifying a building as well as the name of the street or route on which it is located. [3.6.2. Addresses]
   element street { macro.phraseSeq, att.global.attributes, empty }
 postCode =
   
-  ## (postal code) contains a numerical or alphanumeric code used as part of a postal address to simplify sorting or delivery of mail. [3.5.2. Addresses]
+  ## (postal code) contains a numerical or alphanumeric code used as part of a postal address to simplify sorting or delivery of mail. [3.6.2. Addresses]
   element postCode { text, att.global.attributes, empty }
 postBox =
   
-  ## (postal box or post office box) contains a number or other identifier for some postal delivery point other than a street address. [3.5.2. Addresses]
+  ## (postal box or post office box) contains a number or other identifier for some postal delivery point other than a street address. [3.6.2. Addresses]
   element postBox { text, att.global.attributes, empty }
 num =
   
-  ## (number) contains a number, written in any form. [3.5.3. Numbers and
+  ## (number) contains a number, written in any form. [3.6.3. Numbers and
   ## Measures]
   element num {
     macro.phraseSeq,
@@ -2426,13 +2875,14 @@ num =
   }
 measure =
   
-  ## contains a word or phrase referring to some quantity of an object or commodity, usually comprising a number, a unit, and a commodity name. [3.5.3. Numbers and
+  ## (measure) contains a word or phrase referring to some quantity of an object or commodity, usually comprising a number, a unit, and a commodity name. [3.6.3. Numbers and
   ## Measures]
   element measure {
     macro.phraseSeq,
     att.global.attributes,
     att.typed.attribute.subtype,
     att.measurement.attributes,
+    att.ranging.attributes,
     
     ## 
     ## Suggested values include: 1] indexNo
@@ -2456,7 +2906,7 @@ measureGrp =
   }
 unit =
   
-  ## contains a symbol, a word or a phrase referring to a unit of measurement in any kind of formal or informal system. [3.5.3. Numbers and
+  ## contains a symbol, a word or a phrase referring to a unit of measurement in any kind of formal or informal system. [3.6.3. Numbers and
   ## Measures]
   element unit {
     macro.phraseSeq,
@@ -2467,7 +2917,7 @@ unit =
   }
 date =
   
-  ## contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.7. Dates and Times]
+  ## (date) contains a date in any format. [3.6.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.12.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.4. Dates]
   element date {
     (text | model.gLike | model.phrase | model.global)*,
     att.global.attributes,
@@ -2480,7 +2930,7 @@ date =
   }
 time =
   
-  ## contains a phrase defining a time of day in any format. [3.5.4. Dates and Times]
+  ## (time) contains a phrase defining a time of day in any format. [3.6.4. Dates and Times]
   element time {
     (text | model.gLike | model.phrase | model.global)*,
     att.global.attributes,
@@ -2493,14 +2943,14 @@ time =
   }
 abbr =
   
-  ## (abbreviation) contains an abbreviation of any sort. [3.5.5. Abbreviations and Their Expansions]
+  ## (abbreviation) contains an abbreviation of any sort. [3.6.5. Abbreviations and Their Expansions]
   element abbr {
     macro.phraseSeq,
     att.global.attributes,
     att.typed.attribute.subtype,
     
-    ## allows the encoder to classify the abbreviation according to some convenient typology.
-    ## Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscription; 5] acronym; 6] title; 7] organization; 8] geographic
+    ## (type) allows the encoder to classify the abbreviation according to some convenient typology.
+    ## Sample values include: 1] suspension (suspension); 2] contraction (contraction); 3] brevigraph; 4] superscription (superscription); 5] acronym (acronym); 6] title (title); 7] organization (organization); 8] geographic (geographic)
     attribute type {
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }
     }?,
@@ -2508,7 +2958,7 @@ abbr =
   }
 expan =
   
-  ## (expansion) contains the expansion of an abbreviation. [3.5.5. Abbreviations and Their Expansions]
+  ## (expansion) contains the expansion of an abbreviation. [3.6.5. Abbreviations and Their Expansions]
   element expan {
     macro.phraseSeq,
     att.global.attributes,
@@ -2517,11 +2967,11 @@ expan =
   }
 ptr =
   
-  ## (pointer) defines a pointer to another location. [3.6. Simple Links and Cross-References 16.1. Links]
+  ## (pointer) defines a pointer to another location. [3.7. Simple Links and Cross-References 16.1. Links]
   element ptr {
     empty
     >> sch:pattern [
-         id = "ILCorpusSchema-ptr-ptrAtts-constraint-report-7"
+         id = "ILCorpusSchema-ptr-ptrAtts-constraint-report-9"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2551,11 +3001,11 @@ ptr =
   }
 ref =
   
-  ## (reference) defines a reference to another location, possibly modified by additional text or comment. [3.6. Simple Links and Cross-References 16.1. Links]
+  ## (reference) defines a reference to another location, possibly modified by additional text or comment. [3.7. Simple Links and Cross-References 16.1. Links]
   element ref {
     macro.paraContent
     >> sch:pattern [
-         id = "ILCorpusSchema-ref-refAtts-constraint-report-8"
+         id = "ILCorpusSchema-ref-refAtts-constraint-report-10"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2586,7 +3036,7 @@ ref =
   }
 \list =
   
-  ## contains any sequence of items organized as a list. [3.7. Lists]
+  ## (list) contains any sequence of items organized as a list. [3.8. Lists]
   element list {
     ((model.divTop | model.global | desc*)*,
      ((item, model.global*)+
@@ -2596,7 +3046,7 @@ ref =
      (model.divBottom, model.global*)*)
     >> sch:pattern [
          id =
-           "ILCorpusSchema-list-gloss-list-must-have-labels-constraint-rule-11"
+           "ILCorpusSchema-list-gloss-list-must-have-labels-constraint-rule-12"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2617,28 +3067,28 @@ ref =
     att.sortable.attributes,
     att.typed.attribute.subtype,
     
-    ## describes the nature of the items in the list.
-    ## Suggested values include: 1] gloss; 2] index; 3] instructions; 4] litany; 5] syllogism
+    ## (type) describes the nature of the items in the list.
+    ## Suggested values include: 1] gloss (gloss); 2] index (index); 3] instructions (instructions); 4] litany (litany); 5] syllogism (syllogism)
     attribute type {
       [
         a:documentation [
-          "each list item glosses some term or concept, which is given by a "
+          "(gloss) each list item glosses some term or concept, which is given by a "
           ns1:code [ "<label>" ]
           " element preceding the list item."
         ]
       ]
       "gloss"
       | 
-        ## each list item is an entry in an index such as the alphabetical topical index at the back of a print volume.
+        ## (index) each list item is an entry in an index such as the alphabetical topical index at the back of a print volume.
         "index"
       | 
-        ## each list item is a step in a sequence of instructions, as in a recipe.
+        ## (instructions) each list item is a step in a sequence of instructions, as in a recipe.
         "instructions"
       | 
-        ## each list item is one of a sequence of petitions, supplications or invocations, typically in a religious ritual.
+        ## (litany) each list item is one of a sequence of petitions, supplications or invocations, typically in a religious ritual.
         "litany"
       | 
-        ## each list item is part of an argument consisting of two or more propositions and a final conclusion derived from them.
+        ## (syllogism) each list item is part of an argument consisting of two or more propositions and a final conclusion derived from them.
         "syllogism"
       | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
     }?,
@@ -2646,7 +3096,7 @@ ref =
   }
 item =
   
-  ## contains one component of a list. [3.7. Lists 2.6. The Revision Description]
+  ## (item) contains one component of a list. [3.8. Lists 2.6. The Revision Description]
   element item {
     macro.specialPara,
     att.global.attributes,
@@ -2655,7 +3105,7 @@ item =
   }
 label =
   
-  ## contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. [3.7. Lists]
+  ## (label) contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. [3.8. Lists]
   element label {
     macro.phraseSeq,
     att.global.attributes,
@@ -2683,15 +3133,15 @@ head =
   }
 headLabel =
   
-  ## (heading for list labels) contains the heading for the label or term column in a glossary list or similar structured list. [3.7. Lists]
+  ## (heading for list labels) contains the heading for the label or term column in a glossary list or similar structured list. [3.8. Lists]
   element headLabel { macro.phraseSeq, att.global.attributes, empty }
 headItem =
   
-  ## (heading for list items) contains the heading for the item or gloss column in a glossary list or similar structured list. [3.7. Lists]
+  ## (heading for list items) contains the heading for the item or gloss column in a glossary list or similar structured list. [3.8. Lists]
   element headItem { macro.phraseSeq, att.global.attributes, empty }
 note =
   
-  ## contains a note or annotation. [3.8.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.11.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]
+  ## (note) contains a note or annotation. [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]
   element note {
     macro.specialPara,
     att.global.attributes,
@@ -2699,6 +3149,7 @@ note =
     att.pointing.attributes,
     att.typed.attributes,
     att.written.attributes,
+    att.anchoring.attributes,
     
     ## Classification of format of note contents.
     attribute format {
@@ -2722,19 +3173,24 @@ note =
     ## Used to indicate whether the contents of a note have been verified by an editor, and to indicate further details about the status of those contents.
     ## Sample values include: 1] verified; 2] unverified; 3] uncorrectedOCR
     attribute status { text }?,
-    
-    ## indicates whether the copy text shows the exact place of reference for the note.
-    [ a:defaultValue = "true" ] attribute anchored { xsd:boolean }?,
-    
-    ## points to the end of the span to which the note is attached, if the note is not embedded in the text at that point.
-    attribute targetEnd {
-      list { xsd:anyURI+ }
-    }?,
+    empty
+  }
+noteGrp =
+  
+  ## (note group) contains a group of notes [3.9.1.1. Encoding Grouped Notes]
+  element noteGrp {
+    (desc*, (note | noteGrp)+),
+    att.global.attributes,
+    att.placement.attributes,
+    att.pointing.attributes,
+    att.typed.attributes,
+    att.written.attributes,
+    att.anchoring.attributes,
     empty
   }
 index =
   
-  ## (index entry) marks a location to be indexed for whatever purpose. [3.8.2. Index Entries]
+  ## (index entry) marks a location to be indexed for whatever purpose. [3.9.2. Index Entries]
   element index {
     (term, index?)*,
     att.global.attributes,
@@ -2746,7 +3202,7 @@ index =
   }
 media =
   
-  ## indicates the location of any form of external media such as an audio or video clip etc. [3.9. Graphics and Other Non-textual Components]
+  ## indicates the location of any form of external media such as an audio or video clip etc. [3.10. Graphics and Other Non-textual Components]
   element media {
     model.descLike*,
     att.typed.attributes,
@@ -2768,18 +3224,19 @@ media =
   }
 graphic =
   
-  ## indicates the location of a graphic or illustration, either forming part of a text, or providing an image of it. [3.9. Graphics and Other Non-textual Components 11.1. Digital Facsimiles]
+  ## (graphic) indicates the location of a graphic or illustration, either forming part of a text, or providing an image of it. [3.10. Graphics and Other Non-textual Components 11.1. Digital Facsimiles]
   element graphic {
     model.descLike*,
     att.global.attributes,
     att.media.attributes,
     att.resourced.attributes,
     att.declaring.attributes,
+    att.typed.attributes,
     empty
   }
 binaryObject =
   
-  ## provides encoded binary data representing an inline graphic, audio, video or other object. [3.9. Graphics and Other Non-textual Components]
+  ## provides encoded binary data representing an inline graphic, audio, video or other object. [3.10. Graphics and Other Non-textual Components]
   element binaryObject {
     text,
     att.global.attributes,
@@ -2802,7 +3259,7 @@ binaryObject =
   }
 milestone =
   
-  ## marks a boundary point separating any kind of section of a text, typically but not necessarily indicating a point at which some part of a standard reference system changes, where the change is not represented by a structural element. [3.10.3. Milestone
+  ## (milestone) marks a boundary point separating any kind of section of a text, typically but not necessarily indicating a point at which some part of a standard reference system changes, where the change is not represented by a structural element. [3.11.3. Milestone
   ## Elements]
   element milestone {
     empty,
@@ -2816,7 +3273,7 @@ milestone =
   }
 gb =
   
-  ## (gathering beginning) marks the beginning of a new gathering or quire in a transcribed codex. [3.10.3. Milestone
+  ## (gathering beginning) marks the beginning of a new gathering or quire in a transcribed codex. [3.11.3. Milestone
   ## Elements]
   element gb {
     empty,
@@ -2829,7 +3286,7 @@ gb =
   }
 pb =
   
-  ## (page beginning) marks the beginning of a new page in a paginated document. [3.10.3. Milestone
+  ## (page beginning) marks the beginning of a new page in a paginated document. [3.11.3. Milestone
   ## Elements]
   element pb {
     empty,
@@ -2842,7 +3299,7 @@ pb =
   }
 lb =
   
-  ## (line beginning) marks the beginning of a new (typographic) line in some edition or version of a text. [3.10.3. Milestone
+  ## (line beginning) marks the beginning of a new (typographic) line in some edition or version of a text. [3.11.3. Milestone
   ## Elements 7.2.5. Speech Contents]
   element lb {
     empty,
@@ -2855,7 +3312,7 @@ lb =
   }
 cb =
   
-  ## (column beginning) marks the beginning of a new column of a text on a multi-column page. [3.10.3. Milestone
+  ## (column beginning) marks the beginning of a new column of a text on a multi-column page. [3.11.3. Milestone
   ## Elements]
   element cb {
     empty,
@@ -2868,7 +3325,7 @@ cb =
   }
 analytic =
   
-  ## (analytic level) contains bibliographic elements describing an item (e.g. an article or poem) published within a monograph or journal and not as an independent publication. [3.11.2.1. Analytic, Monographic, and Series Levels]
+  ## (analytic level) contains bibliographic elements describing an item (e.g. an article or poem) published within a monograph or journal and not as an independent publication. [3.12.2.1. Analytic, Monographic, and Series Levels]
   element analytic {
     (author
      | editor
@@ -2884,7 +3341,7 @@ analytic =
   }
 monogr =
   
-  ## (monographic level) contains bibliographic elements describing an item (e.g. a book or journal) published as an independent item (i.e. as a separate physical object). [3.11.2.1. Analytic, Monographic, and Series Levels]
+  ## (monographic level) contains bibliographic elements describing an item (e.g. a book or journal) published as an independent item (i.e. as a separate physical object). [3.12.2.1. Analytic, Monographic, and Series Levels]
   element monogr {
     ((((author | editor | meeting | respStmt),
        (author | editor | meeting | respStmt)*,
@@ -2904,7 +3361,7 @@ monogr =
   }
 series =
   
-  ## (series information) contains information about the series in which a book or other bibliographic item has appeared. [3.11.2.1. Analytic, Monographic, and Series Levels]
+  ## (series information) contains information about the series in which a book or other bibliographic item has appeared. [3.12.2.1. Analytic, Monographic, and Series Levels]
   element series {
     (text
      | model.gLike
@@ -2922,19 +3379,27 @@ series =
   }
 author =
   
-  ## in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement]
+  ## (author) in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement]
   element author {
-    macro.phraseSeq, att.global.attributes, att.naming.attributes, empty
+    macro.phraseSeq,
+    att.global.attributes,
+    att.naming.attributes,
+    att.datable.attributes,
+    empty
   }
 editor =
   
-  ## contains a secondary statement of responsibility for a bibliographic item, for example the name of an individual, institution or organization, (or of several such) acting as editor, compiler, translator, etc. [3.11.2.2. Titles, Authors, and Editors]
+  ## contains a secondary statement of responsibility for a bibliographic item, for example the name of an individual, institution or organization, (or of several such) acting as editor, compiler, translator, etc. [3.12.2.2. Titles, Authors, and Editors]
   element editor {
-    macro.phraseSeq, att.global.attributes, att.naming.attributes, empty
+    macro.phraseSeq,
+    att.global.attributes,
+    att.naming.attributes,
+    att.datable.attributes,
+    empty
   }
 respStmt =
   
-  ## (statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organizations which have played a role in the production or distribution of a bibliographic work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
+  ## (statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organizations which have played a role in the production or distribution of a bibliographic work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
   element respStmt {
     (((resp+, model.nameLike.agent+) | (model.nameLike.agent+, resp+)),
      note*),
@@ -2944,7 +3409,7 @@ respStmt =
   }
 resp =
   
-  ## (responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role in the production or distribution of a work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
+  ## (responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role in the production or distribution of a work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
   element resp {
     macro.phraseSeq.limited,
     att.global.attributes,
@@ -2954,7 +3419,7 @@ resp =
   }
 title =
   
-  ## contains a title for any kind of work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]
+  ## (title) contains a title for any kind of work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]
   element title {
     macro.paraContent,
     att.global.attributes,
@@ -2990,16 +3455,17 @@ title =
   }
 meeting =
   
-  ## contains the formalized descriptive title for a meeting or conference, for use in a bibliographic description for an item derived from such a meeting, or as a heading or preamble to publications emanating from it. [3.11.2.2. Titles, Authors, and Editors]
+  ## contains the formalized descriptive title for a meeting or conference, for use in a bibliographic description for an item derived from such a meeting, or as a heading or preamble to publications emanating from it. [3.12.2.2. Titles, Authors, and Editors]
   element meeting {
     macro.limitedContent,
     att.global.attributes,
+    att.datable.attributes,
     att.canonical.attributes,
     empty
   }
 imprint =
   
-  ## groups information relating to the publication or distribution of a bibliographic item. [3.11.2.4. Imprint, Size of a Document, and Reprint Information]
+  ## groups information relating to the publication or distribution of a bibliographic item. [3.12.2.4. Imprint, Size of a Document, and Reprint Information]
   element imprint {
     ((classCode | catRef)*,
      ((model.imprintPart | model.dateLike), respStmt*, model.global*)+),
@@ -3008,7 +3474,7 @@ imprint =
   }
 publisher =
   
-  ## provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.11.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]
+  ## (publisher) provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.12.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]
   element publisher {
     macro.phraseSeq,
     att.global.attributes,
@@ -3017,13 +3483,13 @@ publisher =
   }
 biblScope =
   
-  ## (scope of bibliographic reference) defines the scope of a bibliographic reference, for example as a list of page numbers, or a named subdivision of a larger work. [3.11.2.5. Scopes and Ranges in Bibliographic Citations]
+  ## (scope of bibliographic reference) defines the scope of a bibliographic reference, for example as a list of page numbers, or a named subdivision of a larger work. [3.12.2.5. Scopes and Ranges in Bibliographic Citations]
   element biblScope {
     macro.phraseSeq, att.global.attributes, att.citing.attributes, empty
   }
 citedRange =
   
-  ## (cited range) defines the range of cited content, often represented by pages or other units [3.11.2.5. Scopes and Ranges in Bibliographic Citations]
+  ## (cited range) defines the range of cited content, often represented by pages or other units [3.12.2.5. Scopes and Ranges in Bibliographic Citations]
   element citedRange {
     macro.phraseSeq,
     att.global.attributes,
@@ -3033,13 +3499,13 @@ citedRange =
   }
 pubPlace =
   
-  ## (publication place) contains the name of the place where a bibliographic item was published. [3.11.2.4. Imprint, Size of a Document, and Reprint Information]
+  ## (publication place) contains the name of the place where a bibliographic item was published. [3.12.2.4. Imprint, Size of a Document, and Reprint Information]
   element pubPlace {
     macro.phraseSeq, att.global.attributes, att.naming.attributes, empty
   }
 bibl =
   
-  ## (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
+  ## (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
   element bibl {
     (text
      | model.gLike
@@ -3059,7 +3525,7 @@ bibl =
   }
 biblStruct =
   
-  ## (structured bibliographic citation) contains a structured bibliographic citation, in which only bibliographic sub-elements appear and in a specified order. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
+  ## (structured bibliographic citation) contains a structured bibliographic citation, in which only bibliographic sub-elements appear and in a specified order. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
   element biblStruct {
     (analytic*,
      (monogr, series*)+,
@@ -3073,12 +3539,13 @@ biblStruct =
   }
 listBibl =
   
-  ## (citation list) contains a list of bibliographic citations of any kind. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
+  ## (citation list) contains a list of bibliographic citations of any kind. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
   element listBibl {
     (model.headLike*,
      desc*,
-     (model.biblLike | model.milestoneLike)+,
-     (relation | listRelation)*),
+     (model.milestoneLike | relation | listRelation)*,
+     (model.biblLike+,
+      (model.milestoneLike | relation | listRelation)*)+),
     att.global.attributes,
     att.sortable.attributes,
     att.declarable.attributes,
@@ -3087,12 +3554,12 @@ listBibl =
   }
 relatedItem =
   
-  ## contains or references some other bibliographic item which is related to the present one in some specified manner, for example as a constituent or alternative version of it. [3.11.2.7. Related Items]
+  ## contains or references some other bibliographic item which is related to the present one in some specified manner, for example as a constituent or alternative version of it. [3.12.2.7. Related Items]
   element relatedItem {
     ((model.biblLike | model.ptrLike)?)
     >> sch:pattern [
          id =
-           "ILCorpusSchema-relatedItem-targetorcontent1-constraint-report-9"
+           "ILCorpusSchema-relatedItem-targetorcontent1-constraint-report-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3124,17 +3591,19 @@ relatedItem =
     att.typed.attributes,
     
     ## points to the related bibliographic element by means of an absolute or relative URI reference
-    attribute target { xsd:anyURI }?,
+    attribute target {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     empty
   }
 l =
   
-  ## (verse line) contains a single, possibly incomplete, line of verse. [3.12.1. Core Tags for Verse 3.12. Passages of Verse or Drama 7.2.5. Speech Contents]
+  ## (verse line) contains a single, possibly incomplete, line of verse. [3.13.1. Core Tags for Verse 3.13. Passages of Verse or Drama 7.2.5. Speech Contents]
   element l {
     ((text | model.gLike | model.phrase | model.inter | model.global)*)
     >> sch:pattern [
          id =
-           "ILCorpusSchema-l-abstractModel-structure-l-constraint-report-10"
+           "ILCorpusSchema-l-abstractModel-structure-l-in-l-constraint-report-12"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3160,7 +3629,7 @@ l =
   }
 lg =
   
-  ## (line group) contains one or more verse lines functioning as a formal unit, e.g. a stanza, refrain, verse paragraph, etc. [3.12.1. Core Tags for Verse 3.12. Passages of Verse or Drama 7.2.5. Speech Contents]
+  ## (line group) contains one or more verse lines functioning as a formal unit, e.g. a stanza, refrain, verse paragraph, etc. [3.13.1. Core Tags for Verse 3.13. Passages of Verse or Drama 7.2.5. Speech Contents]
   element lg {
     ((model.divTop | model.global)*,
      (model.lLike | model.stageLike | model.labelLike | lg),
@@ -3171,7 +3640,7 @@ lg =
       | lg)*,
      (model.divBottom, model.global*)*)
     >> sch:pattern [
-         id = "ILCorpusSchema-lg-atleast1oflggapl-constraint-assert-9"
+         id = "ILCorpusSchema-lg-atleast1oflggapl-constraint-assert-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3192,7 +3661,7 @@ lg =
        ]
     >> sch:pattern [
          id =
-           "ILCorpusSchema-lg-abstractModel-structure-l-constraint-report-11"
+           "ILCorpusSchema-lg-abstractModel-structure-lg-in-l-constraint-report-13"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3220,7 +3689,7 @@ lg =
   }
 sp =
   
-  ## (speech) contains an individual speech in a performance text, or a passage presented as such in a prose or verse text. [3.12.2. Core Tags for Drama 3.12. Passages of Verse or Drama 7.2.2. Speeches and Speakers]
+  ## (speech) contains an individual speech in a performance text, or a passage presented as such in a prose or verse text. [3.13.2. Core Tags for Drama 3.13. Passages of Verse or Drama 7.2.2. Speeches and Speakers]
   element sp {
     (model.global*,
      (speaker, model.global*)?,
@@ -3237,16 +3706,17 @@ sp =
   }
 speaker =
   
-  ## contains a specialized form of heading or label, giving the name of one or more speakers in a dramatic text or fragment. [3.12.2. Core Tags for Drama]
+  ## contains a specialized form of heading or label, giving the name of one or more speakers in a dramatic text or fragment. [3.13.2. Core Tags for Drama]
   element speaker { macro.phraseSeq, att.global.attributes, empty }
 stage =
   
-  ## (stage direction) contains any kind of stage direction within a dramatic text or fragment. [3.12.2. Core Tags for Drama 3.12. Passages of Verse or Drama 7.2.4. Stage Directions]
+  ## (stage direction) contains any kind of stage direction within a dramatic text or fragment. [3.13.2. Core Tags for Drama 3.13. Passages of Verse or Drama 7.2.4. Stage Directions]
   element stage {
     macro.specialPara,
     att.ascribed.directed.attributes,
     att.global.attributes,
     att.placement.attributes,
+    att.written.attributes,
     
     ## indicates the kind of stage direction.
     ## Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] novelistic; 6] delivery; 7] modifier; 8] location; 9] mixed
@@ -3287,7 +3757,7 @@ stage =
 teiCorpus =
   [
     a:documentation [
-      "contains the whole of a TEI encoded corpus, comprising a single corpus header and one or more "
+      "(TEI corpus) contains the whole of a TEI encoded corpus, comprising a single corpus header and one or more "
       ns1:code [ "<TEI>" ]
       " elements, each containing a single text header and a text. [4. Default Text Structure 15.1. Varieties of Composite Text]"
     ]
@@ -3297,7 +3767,7 @@ teiCorpus =
     att.global.attributes,
     att.typed.attributes,
     
-    ## specifies the version number of the TEI Guidelines against which this document is valid.
+    ## (version) specifies the version number of the TEI Guidelines against which this document is valid.
     attribute version {
       xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
     }?,
@@ -3305,7 +3775,7 @@ teiCorpus =
   }
 divGen =
   
-  ## (automatically generated text division) indicates the location at which a textual division generated automatically by a text-processing application is to appear. [3.8.2. Index Entries]
+  ## (automatically generated text division) indicates the location at which a textual division generated automatically by a text-processing application is to appear. [3.9.2. Index Entries]
   element divGen {
     model.headLike*,
     att.global.attributes,
@@ -3320,9 +3790,9 @@ divGen =
   }
 textLang =
   
-  ## (text language) describes the languages and writing systems identified within the bibliographic work being described, rather than its description. [3.11.2.4. Imprint, Size of a Document, and Reprint Information 10.6.6. Languages and Writing Systems]
+  ## (text language) describes the languages and writing systems identified within the bibliographic work being described, rather than its description. [3.12.2.4. Imprint, Size of a Document, and Reprint Information 10.6.6. Languages and Writing Systems]
   element textLang {
-    macro.phraseSeq,
+    macro.specialPara,
     att.global.attributes,
     
     ## (main language) supplies a code which identifies the chief language used in the bibliographic work.
@@ -3344,6 +3814,16 @@ textLang =
     }?,
     empty
   }
+att.citeStructurePart.attributes = att.citeStructurePart.attribute.use
+att.citeStructurePart.attribute.use =
+  [
+    a:documentation [
+      "(use) supplies an XPath selection pattern using the syntax defined in . The XPath pattern is relative to the context given in "
+      ns1:code [ "@match" ]
+      ", which will either be a sibling attribute in the case of `<citeStructure>` or on the parent `<citeStructure>` in the case of `<citeData>`."
+    ]
+  ]
+  attribute use { text }
 att.patternReplacement.attributes =
   att.patternReplacement.attribute.matchPattern,
   att.patternReplacement.attribute.replacementPattern
@@ -3390,11 +3870,12 @@ titleStmt =
   }
 sponsor =
   
-  ## specifies the name of a sponsoring organization or institution. [2.2.1. The Title Statement]
+  ## (sponsor) specifies the name of a sponsoring organization or institution. [2.2.1. The Title Statement]
   element sponsor {
     macro.phraseSeq.limited,
     att.global.attributes,
     att.canonical.attributes,
+    att.datable.attributes,
     empty
   }
 funder =
@@ -3404,6 +3885,7 @@ funder =
     macro.phraseSeq.limited,
     att.global.attributes,
     att.canonical.attributes,
+    att.datable.attributes,
     empty
   }
 principal =
@@ -3413,6 +3895,7 @@ principal =
     macro.phraseSeq.limited,
     att.global.attributes,
     att.canonical.attributes,
+    att.datable.attributes,
     empty
   }
 editionStmt =
@@ -3425,11 +3908,11 @@ editionStmt =
   }
 edition =
   
-  ## describes the particularities of one edition of a text. [2.2.2. The Edition Statement]
+  ## (edition) describes the particularities of one edition of a text. [2.2.2. The Edition Statement]
   element edition { macro.phraseSeq, att.global.attributes, empty }
 extent =
   
-  ## describes the approximate size of a text stored on some carrier medium or of some other object, digital or non-digital, specified in any convenient units. [2.2.3. Type and Extent of File 2.2. The File Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 10.7.1. Object Description]
+  ## (extent) describes the approximate size of a text stored on some carrier medium or of some other object, digital or non-digital, specified in any convenient units. [2.2.3. Type and Extent of File 2.2. The File Description 3.12.2.4. Imprint, Size of a Document, and Reprint Information 10.7.1. Object Description]
   element extent { macro.phraseSeq, att.global.attributes, empty }
 publicationStmt =
   
@@ -3443,7 +3926,7 @@ publicationStmt =
   }
 distributor =
   
-  ## supplies the name of a person or other agency responsible for the distribution of a text. [2.2.4. Publication, Distribution, Licensing, etc.]
+  ## (distributor) supplies the name of a person or other agency responsible for the distribution of a text. [2.2.4. Publication, Distribution, Licensing, etc.]
   element distributor {
     macro.phraseSeq,
     att.global.attributes,
@@ -3461,7 +3944,7 @@ authority =
   }
 idno =
   
-  ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
+  ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.12.2.4. Imprint, Size of a Document, and Reprint Information]
   element idno {
     (text | model.gLike | idno)*,
     att.global.attributes,
@@ -3490,8 +3973,16 @@ idno =
       | 
         ## Digital Object Identifier: a unique string of letters and numbers assigned to an electronic document.
         "DOI"
-      | 
-        ## Uniform Resource Identifier: a string of characters to uniquely identify a resource which usually contains indication of the means of accessing that resource, the name of its host, and its filepath.
+      | [
+          a:documentation [
+            "Uniform Resource Identifier: a string of characters to uniquely identify a resource, following the syntax of "
+            ns1:a [
+              href = "https://datatracker.ietf.org/doc/html/rfc3986"
+              "RFC 3986"
+            ]
+            "."
+          ]
+        ]
         "URI"
       | 
         ## A data number in the Virtual Internet Authority File assigned to link different names in catalogs around the world for the same entity.
@@ -3508,22 +3999,22 @@ idno =
   }
 availability =
   
-  ## supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. Publication, Distribution, Licensing, etc.]
+  ## (availability) supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. Publication, Distribution, Licensing, etc.]
   element availability {
     (model.availabilityPart | model.pLike)+,
     att.global.attributes,
     att.declarable.attributes,
     
-    ## supplies a code identifying the current availability of the text.
+    ## (status) supplies a code identifying the current availability of the text.
     attribute status {
       
-      ## the text is freely available.
+      ## (free) the text is freely available.
       "free"
       | 
-        ## the status of the text is unknown.
+        ## (unknown) the status of the text is unknown.
         "unknown"
       | 
-        ## the text is not freely available.
+        ## (restricted) the text is not freely available.
         "restricted"
     }?,
     empty
@@ -3566,7 +4057,7 @@ sourceDesc =
   }
 biblFull =
   
-  ## (fully-structured bibliographic citation) contains a fully-structured bibliographic citation, in which all components of the TEI file description are present. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2. The File Description 2.2.7. The Source Description 15.3.2. Declarable Elements]
+  ## (fully-structured bibliographic citation) contains a fully-structured bibliographic citation, in which all components of the TEI file description are present. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2. The File Description 2.2.7. The Source Description 15.3.2. Declarable Elements]
   element biblFull {
     (((titleStmt,
        editionStmt?,
@@ -3668,7 +4159,7 @@ correction =
   }
 normalization =
   
-  ## indicates the extent of normalization or regularization of the original source carried out in converting it to electronic form. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
+  ## (normalization) indicates the extent of normalization or regularization of the original source carried out in converting it to electronic form. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
   element normalization {
     model.pLike+,
     att.global.attributes,
@@ -3688,12 +4179,12 @@ normalization =
   }
 quotation =
   
-  ## specifies editorial practice adopted with respect to quotation marks in the original. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
+  ## (quotation) specifies editorial practice adopted with respect to quotation marks in the original. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
   element quotation {
     (model.pLike*)
     >> sch:pattern [
          id =
-           "ILCorpusSchema-quotation-quotationContents-constraint-report-12"
+           "ILCorpusSchema-quotation-quotationContents-constraint-report-14"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3732,7 +4223,7 @@ quotation =
   }
 hyphenation =
   
-  ## summarizes the way in which hyphenation in a source text has been treated in an encoded version of it. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
+  ## (hyphenation) summarizes the way in which hyphenation in a source text has been treated in an encoded version of it. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
   element hyphenation {
     model.pLike+,
     att.global.attributes,
@@ -3758,7 +4249,7 @@ hyphenation =
   }
 segmentation =
   
-  ## describes the principles according to which the text has been segmented, for example into sentences, tone-units, graphemic strata, etc. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
+  ## (segmentation) describes the principles according to which the text has been segmented, for example into sentences, tone-units, graphemic strata, etc. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
   element segmentation {
     model.pLike+,
     att.global.attributes,
@@ -3776,7 +4267,7 @@ stdVals =
   }
 interpretation =
   
-  ## describes the scope of any analytic or interpretive information added to the text in addition to the transcription. [2.3.3. The Editorial Practices Declaration]
+  ## (interpretation) describes the scope of any analytic or interpretive information added to the text in addition to the transcription. [2.3.3. The Editorial Practices Declaration]
   element interpretation {
     model.pLike+,
     att.global.attributes,
@@ -3833,10 +4324,11 @@ tagsDecl =
   }
 tagUsage =
   
-  ## documents the usage of a specific element within a specified document. [2.3.4. The Tagging Declaration]
+  ## (element usage) documents the usage of a specific element within a specified document. [2.3.4. The Tagging Declaration]
   element tagUsage {
     macro.limitedContent,
     att.global.attributes,
+    att.datcat.attributes,
     [
       a:documentation [
         "(generic identifier) specifies the name (generic identifier) of the element indicated by the tag, within the namespace indicated by the parent "
@@ -3860,18 +4352,20 @@ tagUsage =
   }
 \namespace =
   
-  ## supplies the formal name of the namespace to which the elements documented by its children belong. [2.3.4. The Tagging Declaration]
+  ## (namespace) supplies the formal name of the namespace to which the elements documented by its children belong. [2.3.4. The Tagging Declaration]
   element namespace {
     tagUsage+,
     att.global.attributes,
     
     ## specifies the full formal name of the namespace concerned.
-    attribute name { xsd:anyURI },
+    attribute name {
+      xsd:anyURI { pattern = "\S*" }
+    },
     empty
   }
 rendition =
   
-  ## supplies information about the rendition or appearance of one or more elements in the source text. [2.3.4. The Tagging Declaration]
+  ## (rendition) supplies information about the rendition or appearance of one or more elements in the source text. [2.3.4. The Tagging Declaration]
   element rendition {
     macro.limitedContent,
     att.global.attributes,
@@ -3906,9 +4400,106 @@ refsDecl =
   
   ## (references declaration) specifies how canonical references are constructed for this text. [2.3.6.3. Milestone Method 2.3. The Encoding Description 2.3.6. The Reference System Declaration]
   element refsDecl {
-    (model.pLike+ | cRefPattern+ | refState+),
+    (model.pLike+ | citeStructure+ | cRefPattern+ | refState+),
     att.global.attributes,
     att.declarable.attributes,
+    empty
+  }
+citeStructure =
+  
+  ## (citation structure) declares a structure and method for citing the current document. [3.11.4. Declaring Reference Systems 16.2.5.4. Citation Structures]
+  element citeStructure {
+    (citeData*, citeStructure*, model.descLike*),
+    att.global.attributes,
+    att.citeStructurePart.attributes,
+    
+    ## (delimiter) supplies a delimiting string preceding the structural component.
+    attribute delim {
+      xsd:string { pattern = ".+" }
+    }?,
+    [
+      a:documentation [
+        "(match) supplies an XPath selection pattern using the syntax defined in  which identifies a set of nodes which are citable structural components. The expression may be absolute (beginning with `/`) or relative. "
+        ns1:code [ "@match" ]
+        " on a "
+        ns1:code [ "<citeStructure>" ]
+        " without a "
+        ns1:code [ "<citeStructure>" ]
+        " parent must be an absolute XPath. If it is relative, its context is set by the "
+        ns1:code [ "@match" ]
+        " of the parent "
+        ns1:code [ "<citeStructure>" ]
+        "."
+      ]
+    ]
+    attribute match { text }
+    >> sch:pattern [
+         id =
+           "ILCorpusSchema-citeStructure-match-citestructure-outer-match-constraint-rule-13"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:citeStructure[not(parent::tei:citeStructure)]"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "starts-with(@match,'/')"
+             "An XPath in @match on the outer "
+             sch:name [ ]
+             " must start with '/'."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id =
+           "ILCorpusSchema-citeStructure-match-citestructure-inner-match-constraint-rule-14"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:citeStructure[parent::tei:citeStructure]"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "not(starts-with(@match,'/'))"
+             "An XPath in @match must not start with '/' except on the outer "
+             sch:name [ ]
+             "."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    [
+      a:documentation [
+        "(unit) describes the structural unit indicated by the "
+        ns1:code [ "<citeStructure>" ]
+        ".\x{a}" ~
+        "Sample values include: 1] book; 2] chapter; 3] entry; 4] poem; 5] letter; 6] line; 7] section; 8] verse; 9] volume"
+      ]
+    ]
+    attribute unit {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+    }?,
+    empty
+  }
+citeData =
+  
+  ## (citation data) specifies how information may be extracted from citation structures. [3.11.4. Declaring Reference Systems 16.2.5.4. Citation Structures]
+  element citeData {
+    empty,
+    att.global.attributes,
+    att.citeStructurePart.attributes,
+    
+    ## (property) A URI indicating a property definition.
+    attribute property {
+      xsd:anyURI { pattern = "\S+" }
+    },
     empty
   }
 cRefPattern =
@@ -3964,19 +4555,19 @@ classDecl =
   element classDecl { taxonomy+, att.global.attributes, empty }
 taxonomy =
   
-  ## defines a typology either implicitly, by means of a bibliographic citation, or explicitly by a structured taxonomy. [2.3.7. The Classification Declaration]
+  ## (taxonomy) defines a typology either implicitly, by means of a bibliographic citation, or explicitly by a structured taxonomy. [2.3.7. The Classification Declaration]
   element taxonomy {
     (((category | taxonomy)+
-      | ((model.glossLike | model.descLike)+, (category | taxonomy)*))
+      | ((model.descLike | gloss)+, (category | taxonomy)*))
      | (model.biblLike, (category | taxonomy)*)),
     att.global.attributes,
     empty
   }
 category =
   
-  ## contains an individual descriptive category, possibly nested within a superordinate category, within a user-defined taxonomy. [2.3.7. The Classification Declaration]
+  ## (category) contains an individual descriptive category, possibly nested within a superordinate category, within a user-defined taxonomy. [2.3.7. The Classification Declaration]
   element category {
-    ((catDesc+ | (model.descLike | model.glossLike)*),
+    ((catDesc+ | (model.descLike | gloss)*),
      category*),
     att.global.attributes,
     empty
@@ -4057,6 +4648,7 @@ conversion =
     att.global.attributes,
     att.datable.attributes,
     att.formula.attributes,
+    att.locatable.attributes,
     [
       a:documentation [
         "indicates a source unit of measure that is to be converted into another unit indicated in "
@@ -4064,7 +4656,9 @@ conversion =
         "."
       ]
     ]
-    attribute fromUnit { xsd:anyURI },
+    attribute fromUnit {
+      xsd:anyURI { pattern = "\S+" }
+    },
     [
       a:documentation [
         "the target unit of measurement for a conversion from a source unit referenced in "
@@ -4072,7 +4666,9 @@ conversion =
         "."
       ]
     ]
-    attribute toUnit { xsd:anyURI },
+    attribute toUnit {
+      xsd:anyURI { pattern = "\S+" }
+    },
     empty
   }
 appInfo =
@@ -4111,11 +4707,13 @@ abstract =
   
   ## contains a summary or formal abstract prefixed to an existing source document by the encoder. [2.4.4. Abstracts]
   element abstract {
-    (model.pLike | model.listLike)+, att.global.attributes, empty
+    (model.pLike | model.listLike | listBibl)+,
+    att.global.attributes,
+    empty
   }
 creation =
   
-  ## contains information about the creation of a text. [2.4.1. Creation 2.4. The Profile Description]
+  ## (creation) contains information about the creation of a text. [2.4.1. Creation 2.4. The Profile Description]
   element creation {
     (text | model.limitedPhrase | listChange)*,
     att.global.attributes,
@@ -4133,7 +4731,7 @@ langUsage =
   }
 language =
   
-  ## characterizes a single language or sublanguage used within a text. [2.4.2. Language Usage]
+  ## (language) characterizes a single language or sublanguage used within a text. [2.4.2. Language Usage]
   element language {
     macro.phraseSeq.limited,
     att.global.attributes,
@@ -4168,7 +4766,7 @@ textClass =
   }
 keywords =
   
-  ## contains a list of keywords or phrases identifying the topic or nature of a text. [2.4.3. The Text Classification]
+  ## (keywords) contains a list of keywords or phrases identifying the topic or nature of a text. [2.4.3. The Text Classification]
   element keywords {
     (term+ | \list),
     att.global.attributes,
@@ -4179,7 +4777,9 @@ keywords =
         " element, or by some other resource."
       ]
     ]
-    attribute scheme { xsd:anyURI }?,
+    attribute scheme {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     empty
   }
 classCode =
@@ -4195,7 +4795,9 @@ classCode =
         " element, or some other resource."
       ]
     ]
-    attribute scheme { xsd:anyURI },
+    attribute scheme {
+      xsd:anyURI { pattern = "\S+" }
+    },
     empty
   }
 catRef =
@@ -4212,7 +4814,9 @@ catRef =
         " element, or by some other resource."
       ]
     ]
-    attribute scheme { xsd:anyURI }?,
+    attribute scheme {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     empty
   }
 calendarDesc =
@@ -4221,14 +4825,13 @@ calendarDesc =
   element calendarDesc { calendar+, att.global.attributes, empty }
 calendar =
   
-  ## describes a calendar or dating system used in a dating formula in the text. [2.4.5. Calendar Description]
+  ## (calendar) describes a calendar or dating system used in a dating formula in the text. [2.4.5. Calendar Description]
   element calendar {
     model.pLike+, att.global.attributes, att.pointing.attributes, empty
   }
 correspDesc =
   
-  ## (correspondence
-  ##     description) contains a description of the actions related to one act of correspondence. [2.4.6. Correspondence Description]
+  ## (correspondence description) contains a description of the actions related to one act of correspondence. [2.4.6. Correspondence Description]
   element correspDesc {
     (model.correspDescPart+ | model.pLike+),
     att.declarable.attributes,
@@ -4295,7 +4898,7 @@ revisionDesc =
   }
 change =
   
-  ## documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.6. Identifying Changes and Revisions]
+  ## (change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]
   element change {
     macro.specialPara,
     att.ascribed.attributes,
@@ -4304,15 +4907,17 @@ change =
     att.global.attributes,
     att.typed.attributes,
     
-    ## points to one or more elements that belong to this change.
+    ## (target) points to one or more elements that belong to this change.
     attribute target {
-      list { xsd:anyURI+ }
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
     }?,
     empty
   }
 listChange =
   
-  ## groups a number of change descriptions associated with either the creation of a source text or the revision of an encoded text. [2.6. The Revision Description 11.6. Identifying Changes and Revisions]
+  ## groups a number of change descriptions associated with either the creation of a source text or the revision of an encoded text. [2.6. The Revision Description 11.7. Identifying Changes and Revisions]
   element listChange {
     (desc*, (listChange | change)+),
     att.global.attributes,
@@ -4361,7 +4966,7 @@ TEI =
   }
 \text =
   
-  ## contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]
+  ## (text) contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]
   element text {
     (model.global*,
      (front, model.global*)?,
@@ -4383,7 +4988,7 @@ body =
      (model.divGenLike, (model.global | model.divGenLike)*)?,
      ((model.divLike, (model.global | model.divGenLike)*)+
       | (model.div1Like, (model.global | model.divGenLike)*)+
-      | ((model.common, model.global*)+,
+      | (((model.common), model.global*)+,
          ((model.divLike, (model.global | model.divGenLike)*)+
           | (model.div1Like, (model.global | model.divGenLike)*)+)?)),
      (model.divBottom, model.global*)*),
@@ -4393,7 +4998,7 @@ body =
   }
 group =
   
-  ## contains the body of a composite text, grouping together a sequence of distinct texts (or groups of such texts) which are regarded as a unit for some purpose, for example the collected works of an author, a sequence of prose essays, etc. [4. Default Text Structure 4.3.1. Grouped Texts 15.1. Varieties of Composite Text]
+  ## (group) contains the body of a composite text, grouping together a sequence of distinct texts (or groups of such texts) which are regarded as a unit for some purpose, for example the collected works of an author, a sequence of prose essays, etc. [4. Default Text Structure 4.3.1. Grouped Texts 15.1. Varieties of Composite Text]
   element group {
     ((model.divTop | model.global)*,
      ((\text | group), (\text | group | model.global)*),
@@ -4405,7 +5010,7 @@ group =
   }
 floatingText =
   
-  ## contains a single text of any kind, whether unitary or composite, which interrupts the text containing it at any point and after which the surrounding text resumes. [4.3.2. Floating Texts]
+  ## (floating text) contains a single text of any kind, whether unitary or composite, which interrupts the text containing it at any point and after which the surrounding text resumes. [4.3.2. Floating Texts]
   element floatingText {
     (model.global*,
      (front, model.global*)?,
@@ -4423,12 +5028,12 @@ floatingText =
   element div {
     ((model.divTop | model.global)*,
      ((((model.divLike | model.divGenLike), model.global*)+
-       | ((model.common, model.global*)+,
+       | (((model.common), model.global*)+,
           ((model.divLike | model.divGenLike), model.global*)*)),
       (model.divBottom, model.global*)*)?)
     >> sch:pattern [
          id =
-           "ILCorpusSchema-div-abstractModel-structure-l-constraint-report-13"
+           "ILCorpusSchema-div-abstractModel-structure-div-in-l-or-lg-constraint-report-15"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4436,9 +5041,10 @@ floatingText =
            "\x{a}" ~
            "               "
            sch:report [
-             test = "ancestor::tei:l"
+             test =
+               "(ancestor::tei:l or ancestor::tei:lg) and not(ancestor::tei:floatingText)"
              "\x{a}" ~
-             "        Abstract model violation: Lines may not contain higher-level structural elements such as div.\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.\x{a}" ~
              "      "
            ]
            "\x{a}" ~
@@ -4449,7 +5055,7 @@ floatingText =
        ]
     >> sch:pattern [
          id =
-           "ILCorpusSchema-div-abstractModel-structure-p-constraint-report-14"
+           "ILCorpusSchema-div-abstractModel-structure-div-in-ab-or-p-constraint-report-16"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -4458,9 +5064,9 @@ floatingText =
            "               "
            sch:report [
              test =
-               "ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)"
+               "(ancestor::tei:p or ancestor::tei:ab) and not(ancestor::tei:floatingText)"
              "\x{a}" ~
-             "        Abstract model violation: p and ab may not contain higher-level structural elements such as div.\x{a}" ~
+             "        Abstract model violation: p and ab may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.\x{a}" ~
              "      "
            ]
            "\x{a}" ~
@@ -4541,6 +5147,9 @@ floatingText =
       | 
         ## Bibliographie
         "bibliographie"
+      | 
+        ## Bibliographie Systématique
+        "bibSystematique"
       | 
         ## Bulletin
         "bulletin"
@@ -5242,7 +5851,7 @@ trailer =
   }
 byline =
   
-  ## contains the primary statement of responsibility given for a work on its title page or at the head or end of the work. [4.2.2. Openers and Closers 4.5. Front Matter]
+  ## (byline) contains the primary statement of responsibility given for a work on its title page or at the head or end of the work. [4.2.2. Openers and Closers 4.5. Front Matter]
   element byline {
     (text | model.gLike | model.phrase | docAuthor | model.global)*,
     att.global.attributes,
@@ -5250,7 +5859,7 @@ byline =
   }
 dateline =
   
-  ## contains a brief description of the place, date, time, etc. of production of a letter, newspaper story, or other work, prefixed or suffixed to it as a kind of heading or trailer. [4.2.2. Openers and Closers]
+  ## (dateline) contains a brief description of the place, date, time, etc. of production of a letter, newspaper story, or other work, prefixed or suffixed to it as a kind of heading or trailer. [4.2.2. Openers and Closers]
   element dateline {
     (text | model.gLike | model.phrase | model.global | docDate)*,
     att.global.attributes,
@@ -5258,7 +5867,7 @@ dateline =
   }
 argument =
   
-  ## contains a formal list or prose description of the topics addressed by a subdivision of a text. [4.2. Elements Common to All Divisions 4.6. Title Pages]
+  ## (argument) contains a formal list or prose description of the topics addressed by a subdivision of a text. [4.2. Elements Common to All Divisions 4.6. Title Pages]
   element argument {
     ((model.global | model.headLike)*, (model.common, model.global*)+),
     att.global.attributes,
@@ -5266,13 +5875,13 @@ argument =
   }
 epigraph =
   
-  ## contains a quotation, anonymous or attributed, appearing at the start or end of a section or on a title page. [4.2.3. Arguments, Epigraphs, and Postscripts 4.2. Elements Common to All Divisions 4.6. Title Pages]
+  ## (epigraph) contains a quotation, anonymous or attributed, appearing at the start or end of a section or on a title page. [4.2.3. Arguments, Epigraphs, and Postscripts 4.2. Elements Common to All Divisions 4.6. Title Pages]
   element epigraph {
     (model.common | model.global)*, att.global.attributes, empty
   }
 opener =
   
-  ## groups together dateline, byline, salutation, and similar phrases appearing as a preliminary group at the start of a division, especially of a letter. [4.2. Elements Common to All Divisions]
+  ## (opener) groups together dateline, byline, salutation, and similar phrases appearing as a preliminary group at the start of a division, especially of a letter. [4.2. Elements Common to All Divisions]
   element opener {
     (text
      | model.gLike
@@ -5290,7 +5899,7 @@ opener =
   }
 closer =
   
-  ## groups together salutations, datelines, and similar phrases appearing as a final group at the end of a division, especially of a letter. [4.2.2. Openers and Closers 4.2. Elements Common to All Divisions]
+  ## (closer) groups together salutations, datelines, and similar phrases appearing as a final group at the end of a division, especially of a letter. [4.2.2. Openers and Closers 4.2. Elements Common to All Divisions]
   element closer {
     (text
      | model.gLike
@@ -5360,18 +5969,18 @@ docTitle =
   }
 titlePart =
   
-  ## contains a subsection or division of the title of a work, as indicated on a title page. [4.6. Title Pages]
+  ## (title part) contains a subsection or division of the title of a work, as indicated on a title page. [4.6. Title Pages]
   element titlePart {
     macro.paraContent,
     att.global.attributes,
     att.typed.attribute.subtype,
     
-    ## specifies the role of this subdivision of the title.
-    ## Suggested values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] short; 5] desc (descriptive)
+    ## (type) specifies the role of this subdivision of the title.
+    ## Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternate); 4] short (short); 5] desc (descriptive)
     [ a:defaultValue = "main" ]
     attribute type {
       
-      ## main title of the work
+      ## (main) main title of the work
       "main"
       | 
         ## (subordinate) subtitle of the work
@@ -5380,7 +5989,7 @@ titlePart =
         ## (alternate) alternative title of the work
         "alt"
       | 
-        ## abbreviated form of title
+        ## (short) abbreviated form of title
         "short"
       | 
         ## (descriptive) descriptive paraphrase of the work
@@ -5400,7 +6009,7 @@ docAuthor =
   }
 imprimatur =
   
-  ## contains a formal statement authorizing the publication of a work, sometimes required to appear on a title page or its verso. [4.6. Title Pages]
+  ## (imprimatur) contains a formal statement authorizing the publication of a work, sometimes required to appear on a title page or its verso. [4.6. Title Pages]
   element imprimatur { macro.paraContent, att.global.attributes, empty }
 docEdition =
   
@@ -5427,7 +6036,7 @@ docDate =
     macro.phraseSeq,
     att.global.attributes,
     
-    ## gives the value of the date in standard form, i.e. YYYY-MM-DD.
+    ## (when) gives the value of the date in standard form, i.e. YYYY-MM-DD.
     attribute when {
       xsd:date
       | xsd:gYear
@@ -5500,7 +6109,9 @@ att.linguistic.attribute.lemma =
 att.linguistic.attribute.lemmaRef =
   
   ## provides a pointer to a definition of the lemma for the word, for example in an online lexicon.
-  attribute lemmaRef { xsd:anyURI }?
+  attribute lemmaRef {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 att.linguistic.attribute.pos =
   
   ## (part of speech) indicates the part of speech assigned to a token (i.e. information on whether it is a noun, adjective, or verb), usually according to some official reference vocabulary (e.g. for German: STTS, for English: CLAWS, for Polish: NKJP, etc.).
@@ -5525,7 +6136,7 @@ att.linguistic.attribute.msd =
   attribute msd { xsd:string }?
 att.linguistic.attribute.join =
   
-  ## when present, it provides information on whether the token in question is adjacent to another, and if so, on which side. The definition of this attribute is adapted from ISO MAF (Morpho-syntactic Annotation Framework), ISO 24611:2012.
+  ## when present, provides information on whether the token in question is adjacent to another, and if so, on which side.
   attribute join {
     
     ## (the token is not adjacent to another) 
@@ -5553,7 +6164,9 @@ att.global.analytic.attribute.ana =
     ]
   ]
   attribute ana {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 s =
   
@@ -5561,7 +6174,7 @@ s =
   element s {
     macro.phraseSeq
     >> sch:pattern [
-         id = "ILCorpusSchema-s-noNestedS-constraint-report-15"
+         id = "ILCorpusSchema-s-noNestedS-constraint-report-17"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -5694,7 +6307,7 @@ span =
   element span {
     macro.phraseSeq.limited
     >> sch:pattern [
-         id = "ILCorpusSchema-span-targetfrom-constraint-report-16"
+         id = "ILCorpusSchema-span-targetfrom-constraint-report-18"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -5716,7 +6329,7 @@ span =
          "         "
        ]
     >> sch:pattern [
-         id = "ILCorpusSchema-span-targetto-constraint-report-17"
+         id = "ILCorpusSchema-span-targetto-constraint-report-19"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -5738,7 +6351,7 @@ span =
          "         "
        ]
     >> sch:pattern [
-         id = "ILCorpusSchema-span-tonotfrom-constraint-report-18"
+         id = "ILCorpusSchema-span-tonotfrom-constraint-report-20"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -5759,7 +6372,7 @@ span =
          "         "
        ]
     >> sch:pattern [
-         id = "ILCorpusSchema-span-tofrom-constraint-report-19"
+         id = "ILCorpusSchema-span-tofrom-constraint-report-21"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -5783,7 +6396,6 @@ span =
     att.global.attributes,
     att.interpLike.attributes,
     att.pointing.attributes,
-    att.typed.attributes,
     [
       a:documentation [
         "gives the identifier of the node which is the starting point of the span of text being annotated; if not accompanied by a "
@@ -5791,20 +6403,23 @@ span =
         " attribute, gives the identifier of the node of the entire span of text being annotated."
       ]
     ]
-    attribute from { xsd:anyURI }?,
+    attribute from {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     
     ## gives the identifier of the node which is the end-point of the span of text being annotated.
-    attribute to { xsd:anyURI }?,
+    attribute to {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     empty
   }
 spanGrp =
   
   ## (span group) collects together span tags. [17.3. Spans and Interpretations]
   element spanGrp {
-    span*,
+    (model.descLike*, span*),
     att.global.attributes,
     att.interpLike.attributes,
-    att.typed.attributes,
     empty
   }
 interp =
@@ -5814,7 +6429,6 @@ interp =
     (text | model.gLike | model.descLike | model.certLike)*,
     att.global.attributes,
     att.interpLike.attributes,
-    att.typed.attributes,
     empty
   }
 interpGrp =
@@ -5824,7 +6438,6 @@ interpGrp =
     (model.descLike*, interp+),
     att.global.attributes,
     att.interpLike.attributes,
-    att.typed.attributes,
     empty
   }
 att.tableDecoration.attributes =
@@ -5833,7 +6446,7 @@ att.tableDecoration.attributes =
   att.tableDecoration.attribute.cols
 att.tableDecoration.attribute.role =
   
-  ## indicates the kind of information held in this cell or in each cell of this row.
+  ## (role) indicates the kind of information held in this cell or in each cell of this row.
   ## Suggested values include: 1] label; 2] data
   [ a:defaultValue = "data" ]
   attribute role {
@@ -5847,7 +6460,7 @@ att.tableDecoration.attribute.role =
   }?
 att.tableDecoration.attribute.rows =
   
-  ## indicates the number of rows occupied by this cell or row.
+  ## (rows) indicates the number of rows occupied by this cell or row.
   [ a:defaultValue = "1" ] attribute rows { xsd:nonNegativeInteger }?
 att.tableDecoration.attribute.cols =
   
@@ -5855,7 +6468,7 @@ att.tableDecoration.attribute.cols =
   [ a:defaultValue = "1" ] attribute cols { xsd:nonNegativeInteger }?
 table =
   
-  ## contains text displayed in tabular form, in rows and columns. [14.1.1. TEI Tables]
+  ## (table) contains text displayed in tabular form, in rows and columns. [14.1.1. TEI Tables]
   element table {
     ((model.headLike | model.global)*,
      ((row, model.global*)+ | (model.graphicLike, model.global*)+),
@@ -5863,7 +6476,7 @@ table =
     att.global.attributes,
     att.typed.attributes,
     
-    ## indicates the number of rows in the table.
+    ## (rows) indicates the number of rows in the table.
     attribute rows { xsd:nonNegativeInteger }?,
     
     ## (columns) indicates the number of columns in each row of the table.
@@ -5872,13 +6485,13 @@ table =
   }
 row =
   
-  ## contains one row of a table. [14.1.1. TEI Tables]
+  ## (row) contains one row of a table. [14.1.1. TEI Tables]
   element row {
     cell+, att.global.attributes, att.tableDecoration.attributes, empty
   }
 cell =
   
-  ## contains one cell of a table. [14.1.1. TEI Tables]
+  ## (cell) contains one cell of a table. [14.1.1. TEI Tables]
   element cell {
     macro.specialPara,
     att.global.attributes,
@@ -5887,7 +6500,7 @@ cell =
   }
 formula =
   
-  ## contains a mathematical or other formula. [14.2. Formulæ and Mathematical Expressions]
+  ## (formula) contains a mathematical or other formula. [14.2. Formulæ and Mathematical Expressions]
   element formula {
     (text | model.graphicLike | model.hiLike)*,
     att.global.attributes,
@@ -5906,7 +6519,7 @@ notatedMusic =
   }
 figure =
   
-  ## groups elements representing or containing graphic information such as an illustration, formula, or figure. [14.4. Specific Elements for Graphic Images]
+  ## (figure) groups elements representing or containing graphic information such as an illustration, formula, or figure. [14.4. Specific Elements for Graphic Images]
   element figure {
     (model.headLike
      | model.common
@@ -5933,7 +6546,9 @@ g =
     att.typed.attributes,
     
     ## points to a description of the character or glyph intended.
-    attribute ref { xsd:anyURI }?,
+    attribute ref {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     empty
   }
 att.global.linking.attributes =
@@ -5949,49 +6564,65 @@ att.global.linking.attribute.corresp =
   
   ## (corresponds) points to elements that correspond to the current element in some way.
   attribute corresp {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.global.linking.attribute.synch =
   
   ## (synchronous) points to elements that are synchronous with the current element.
   attribute synch {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.global.linking.attribute.sameAs =
   
   ## points to an element that is the same as the current element.
-  attribute sameAs { xsd:anyURI }?
+  attribute sameAs {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 att.global.linking.attribute.copyOf =
   
   ## points to an element of which the current element is a copy.
-  attribute copyOf { xsd:anyURI }?
+  attribute copyOf {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 att.global.linking.attribute.next =
   
   ## points to the next element of a virtual aggregate of which the current element is part.
-  attribute next { xsd:anyURI }?
+  attribute next {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 att.global.linking.attribute.prev =
   
   ## (previous) points to the previous element of a virtual aggregate of which the current element is part.
-  attribute prev { xsd:anyURI }?
+  attribute prev {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 att.global.linking.attribute.exclude =
   
   ## points to elements that are in exclusive alternation with the current element.
   attribute exclude {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.global.linking.attribute.select =
   
   ## selects one or more alternants; if one alternant is selected, the ambiguity or uncertainty is marked as resolved. If more than one alternant is selected, the degree of ambiguity or uncertainty is marked as reduced by the number of alternants not selected.
   attribute select {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 link =
   
-  ## defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements. [16.1. Links]
+  ## (link) defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements. [16.1. Links]
   element link {
     empty
     >> sch:pattern [
-         id = "ILCorpusSchema-link-linkTargets3-constraint-assert-10"
+         id = "ILCorpusSchema-link-linkTargets3-constraint-assert-14"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -6020,19 +6651,19 @@ linkGrp =
   
   ## (link group) defines a collection of associations or hypertextual links. [16.1. Links]
   element linkGrp {
-    (link | ptr)+,
+    (model.descLike*, (link | ptr)+),
     att.global.attributes,
     att.pointing.group.attributes,
     empty
   }
 ab =
   
-  ## (anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. Blocks, Segments, and Anchors]
+  ## (anonymous block) contains any component-level unit of text, acting as a container for phrase or inter level elements analogous to, but without the same constraints as, a paragraph. [16.3. Blocks, Segments, and Anchors]
   element ab {
-    macro.paraContent
+    macro.abContent
     >> sch:pattern [
          id =
-           "ILCorpusSchema-ab-abstractModel-structure-ab-constraint-report-20"
+           "ILCorpusSchema-ab-abstractModel-structure-ab-in-l-or-lg-constraint-report-22"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -6041,30 +6672,9 @@ ab =
            "               "
            sch:report [
              test =
-               "not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum         |parent::tei:item         |parent::tei:note         |parent::tei:q         |parent::tei:quote         |parent::tei:remarks         |parent::tei:said         |parent::tei:sp         |parent::tei:stage         |parent::tei:cell         |parent::tei:figure)"
+               "(ancestor::tei:l or ancestor::tei:lg) and not( ancestor::tei:floatingText |parent::tei:figure |parent::tei:note )"
              "\x{a}" ~
-             "        Abstract model violation: ab may not occur inside paragraphs or other ab elements.\x{a}" ~
-             "      "
-           ]
-           "\x{a}" ~
-           "            "
-         ]
-         "\x{a}" ~
-         "         "
-       ]
-    >> sch:pattern [
-         id =
-           "ILCorpusSchema-ab-abstractModel-structure-l-constraint-report-21"
-         "\x{a}" ~
-         "            "
-         sch:rule [
-           context = "tei:ab"
-           "\x{a}" ~
-           "               "
-           sch:report [
-             test = "ancestor::tei:l or ancestor::tei:lg"
-             "\x{a}" ~
-             "        Abstract model violation: Lines may not contain higher-level divisions such as p or ab.\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level divisions such as p or ab, unless ab is a child of figure or note, or is a descendant of floatingText.\x{a}" ~
              "      "
            ]
            "\x{a}" ~
@@ -6165,18 +6775,22 @@ when =
         " element, which is obtained by adding the interval to the time of the reference point."
       ]
     ]
-    attribute since { xsd:anyURI }?,
+    attribute since {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     empty
   }
 timeline =
   
-  ## provides a set of ordered points in time which can be linked to elements of a spoken text to create a temporal alignment of that text. [16.4.2. Placing Synchronous Events in Time]
+  ## (timeline) provides a set of ordered points in time which can be linked to elements of a spoken text to create a temporal alignment of that text. [16.4.2. Placing Synchronous Events in Time]
   element timeline {
     when+,
     att.global.attributes,
     
     ## designates the origin of the timeline, i.e. the time at which it begins.
-    attribute origin { xsd:anyURI }?,
+    attribute origin {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     [
       a:documentation [
         "specifies the unit of time corresponding to the "
@@ -6221,11 +6835,11 @@ timeline =
   }
 join =
   
-  ## identifies a possibly fragmented segment of text, by pointing at the possibly discontiguous elements which compose it. [16.7. Aggregation]
+  ## (join) identifies a possibly fragmented segment of text, by pointing at the possibly discontiguous elements which compose it. [16.7. Aggregation]
   element join {
     ((model.descLike | model.certLike)*)
     >> sch:pattern [
-         id = "ILCorpusSchema-join-joinTargets3-constraint-assert-11"
+         id = "ILCorpusSchema-join-joinTargets3-constraint-assert-15"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -6284,7 +6898,7 @@ joinGrp =
     ]
   ]
   element joinGrp {
-    (model.glossLike*, (join | ptr)+),
+    ((gloss | model.descLike)*, (join | ptr)+),
     att.global.attributes,
     att.pointing.group.attributes,
     [
@@ -6311,7 +6925,11 @@ alt =
     
     ## specifies the destination of the reference by supplying one or more URI References
     attribute target {
-      list { xsd:anyURI, xsd:anyURI, xsd:anyURI* }
+      list {
+        xsd:anyURI { pattern = "\S+" },
+        xsd:anyURI { pattern = "\S+" },
+        xsd:anyURI { pattern = "\S+" }*
+      }
     }?,
     
     ## states whether the alternations gathered in this collection are exclusive or inclusive.
@@ -6346,7 +6964,7 @@ altGrp =
     ]
   ]
   element altGrp {
-    (alt | ptr)*,
+    (model.descLike*, (alt | ptr)*),
     att.global.attributes,
     att.pointing.group.attributes,
     
@@ -6369,7 +6987,7 @@ standOff =
     (model.standOffPart+)
     >> sch:pattern [
          id =
-           "ILCorpusSchema-standOff-nested_standOff_should_be_typed-constraint-assert-12"
+           "ILCorpusSchema-standOff-nested_standOff_should_be_typed-constraint-assert-16"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -6465,7 +7083,9 @@ annotation =
     
     ## specifies the destination of the reference by supplying one or more URI References
     attribute target {
-      list { xsd:anyURI+ }
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
     },
     
     ##
@@ -6565,7 +7185,9 @@ att.datable.custom.attribute.to-custom =
 att.datable.custom.attribute.datingPoint =
   
   ## supplies a pointer to some location defining a named point in time with reference to which the datable item is understood to have occurred
-  attribute datingPoint { xsd:anyURI }?
+  attribute datingPoint {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 att.datable.custom.attribute.datingMethod =
   [
     a:documentation [
@@ -6574,19 +7196,51 @@ att.datable.custom.attribute.datingMethod =
       " element or other means of interpreting the values of the custom dating attributes."
     ]
   ]
-  attribute datingMethod { xsd:anyURI }?
+  attribute datingMethod {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 model.persNamePart =
-  surname | forename | genName | nameLink | addName | roleName
+  surname
+  | forename
+  | genName
+  | nameLink
+  | addName
+  | roleName
+  | persPronouns
 model.persNamePart_alternation =
-  surname | forename | genName | nameLink | addName | roleName
+  surname
+  | forename
+  | genName
+  | nameLink
+  | addName
+  | roleName
+  | persPronouns
 model.persNamePart_sequence =
-  surname, forename, genName, nameLink, addName, roleName
+  surname, forename, genName, nameLink, addName, roleName, persPronouns
 model.persNamePart_sequenceOptional =
-  surname?, forename?, genName?, nameLink?, addName?, roleName?
+  surname?,
+  forename?,
+  genName?,
+  nameLink?,
+  addName?,
+  roleName?,
+  persPronouns?
 model.persNamePart_sequenceOptionalRepeatable =
-  surname*, forename*, genName*, nameLink*, addName*, roleName*
+  surname*,
+  forename*,
+  genName*,
+  nameLink*,
+  addName*,
+  roleName*,
+  persPronouns*
 model.persNamePart_sequenceRepeatable =
-  surname+, forename+, genName+, nameLink+, addName+, roleName+
+  surname+,
+  forename+,
+  genName+,
+  nameLink+,
+  addName+,
+  roleName+,
+  persPronouns+
 att.datable.iso.attributes =
   att.datable.iso.attribute.when-iso,
   att.datable.iso.attribute.notBefore-iso,
@@ -6689,7 +7343,7 @@ persName =
   }
 surname =
   
-  ## contains a family (inherited) name, as opposed to a given, baptismal, or nick name. [13.2.1. Personal Names]
+  ## (surname) contains a family (inherited) name, as opposed to a given, baptismal, or nick name. [13.2.1. Personal Names]
   element surname {
     macro.phraseSeq,
     att.global.attributes,
@@ -6699,7 +7353,7 @@ surname =
   }
 forename =
   
-  ## contains a forename, given or baptismal name. [13.2.1. Personal Names]
+  ## (forename) contains a forename, given or baptismal name. [13.2.1. Personal Names]
   element forename {
     macro.phraseSeq,
     att.global.attributes,
@@ -6735,7 +7389,7 @@ addName =
   }
 roleName =
   
-  ## contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank. [13.2.1. Personal Names]
+  ## (role name) contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank. [13.2.1. Personal Names]
   element roleName {
     macro.phraseSeq,
     att.global.attributes,
@@ -6745,7 +7399,7 @@ roleName =
   }
 placeName =
   
-  ## contains an absolute or relative place name. [13.2.3. Place Names]
+  ## (place name) contains an absolute or relative place name. [13.2.3. Place Names]
   element placeName {
     macro.phraseSeq,
     att.datable.attributes,
@@ -6757,7 +7411,7 @@ placeName =
   }
 bloc =
   
-  ## contains the name of a geo-political unit consisting of two or more nation states or countries. [13.2.3. Place Names]
+  ## (bloc) contains the name of a geo-political unit consisting of two or more nation states or countries. [13.2.3. Place Names]
   element bloc {
     macro.phraseSeq,
     att.global.attributes,
@@ -6768,7 +7422,7 @@ bloc =
   }
 country =
   
-  ## contains the name of a geo-political unit, such as a nation, country, colony, or commonwealth, larger than or administratively superior to a region and smaller than a bloc. [13.2.3. Place Names]
+  ## (country) contains the name of a geo-political unit, such as a nation, country, colony, or commonwealth, larger than or administratively superior to a region and smaller than a bloc. [13.2.3. Place Names]
   element country {
     macro.phraseSeq,
     att.global.attributes,
@@ -6779,7 +7433,7 @@ country =
   }
 region =
   
-  ## contains the name of an administrative unit such as a state, province, or county, larger than a settlement, but smaller than a country. [13.2.3. Place Names]
+  ## (region) contains the name of an administrative unit such as a state, province, or county, larger than a settlement, but smaller than a country. [13.2.3. Place Names]
   element region {
     macro.phraseSeq,
     att.global.attributes,
@@ -6790,7 +7444,7 @@ region =
   }
 settlement =
   
-  ## contains the name of a settlement such as a city, town, or village identified as a single geo-political or administrative unit. [13.2.3. Place Names]
+  ## (settlement) contains the name of a settlement such as a city, town, or village identified as a single geo-political or administrative unit. [13.2.3. Place Names]
   element settlement {
     macro.phraseSeq,
     att.global.attributes,
@@ -6801,7 +7455,7 @@ settlement =
   }
 district =
   
-  ## contains the name of any kind of subdivision of a settlement, such as a parish, ward, or other administrative or geographic unit. [13.2.3. Place Names]
+  ## (district) contains the name of any kind of subdivision of a settlement, such as a parish, ward, or other administrative or geographic unit. [13.2.3. Place Names]
   element district {
     macro.phraseSeq,
     att.global.attributes,
@@ -6812,7 +7466,7 @@ district =
   }
 offset =
   
-  ## marks that part of a relative temporal or spatial expression which indicates the direction of the offset between the two place names, dates, or times involved in the expression. [13.2.3. Place Names]
+  ## (offset) marks that part of a relative temporal or spatial expression which indicates the direction of the offset between the two place names, dates, or times involved in the expression. [13.2.3. Place Names]
   element offset {
     macro.phraseSeq,
     att.datable.attributes,
@@ -6850,7 +7504,7 @@ geogFeat =
   }
 affiliation =
   
-  ## contains an informal description of a person's present or past affiliation with some organization, for example an employer or sponsor. [15.2.2. The Participant Description]
+  ## (affiliation) contains an informal description of a person's present or past affiliation with some organization, for example an employer or sponsor. [15.2.2. The Participant Description]
   element affiliation {
     macro.phraseSeq,
     att.global.attributes,
@@ -6868,7 +7522,7 @@ affiliation =
   }
 age =
   
-  ## specifies the age of a person. [13.3.2.1. Personal Characteristics]
+  ## (age) specifies the age of a person. [13.3.2.1. Personal Characteristics]
   element age {
     macro.phraseSeq.limited,
     att.global.attributes,
@@ -6889,7 +7543,7 @@ age =
   }
 birth =
   
-  ## contains information about a person's birth, such as its date and place. [15.2.2. The Participant Description]
+  ## (birth) contains information about a person's birth, such as its date and place. [15.2.2. The Participant Description]
   element birth {
     macro.phraseSeq,
     att.global.attributes,
@@ -6908,7 +7562,7 @@ birth =
   }
 climate =
   
-  ## contains information about the physical climate of a place. [13.3.4.3. States, Traits, and Events]
+  ## (climate) contains information about the physical climate of a place. [13.3.4.3. States, Traits, and Events]
   element climate {
     (model.headLike*,
      (model.pLike+ | model.labelLike+),
@@ -6923,7 +7577,7 @@ climate =
   }
 death =
   
-  ## contains information about a person's death, such as its date and place. [15.2.2. The Participant Description]
+  ## (death) contains information about a person's death, such as its date and place. [15.2.2. The Participant Description]
   element death {
     macro.phraseSeq,
     att.datable.attributes,
@@ -6942,7 +7596,7 @@ death =
   }
 education =
   
-  ## contains a description of the educational experience of a person. [15.2.2. The Participant Description]
+  ## (education) contains a description of the educational experience of a person. [15.2.2. The Participant Description]
   element education {
     macro.phraseSeq,
     att.global.attributes,
@@ -6960,7 +7614,7 @@ education =
   }
 event =
   
-  ## contains data relating to any kind of significant event associated with a person, place, or organization. [13.3.1. Basic Principles]
+  ## (event) contains data relating to any kind of significant event associated with a person, place, or organization. [13.3.1. Basic Principles]
   element event {
     (idno*,
      model.headLike*,
@@ -6973,19 +7627,12 @@ event =
     att.typed.attributes,
     att.naming.attributes,
     att.sortable.attributes,
-    [
-      a:documentation [
-        "indicates the location of an event by pointing to a "
-        ns1:code [ "<place>" ]
-        " element"
-      ]
-    ]
-    attribute where { xsd:anyURI }?,
+    att.locatable.attributes,
     empty
   }
 faith =
   
-  ## specifies the faith, religion, or belief set of a person. [13.3.2.1. Personal Characteristics]
+  ## (faith) specifies the faith, religion, or belief set of a person. [13.3.2.1. Personal Characteristics]
   element faith {
     macro.phraseSeq,
     att.global.attributes,
@@ -7003,13 +7650,31 @@ faith =
   }
 floruit =
   
-  ## contains information about a person's period of activity. [13.3.2.1. Personal Characteristics]
+  ## (floruit) contains information about a person's period of activity. [13.3.2.1. Personal Characteristics]
   element floruit {
     macro.phraseSeq,
     att.global.attributes,
     att.datable.attributes,
     att.dimensions.attributes,
     att.editLike.attributes,
+    empty
+  }
+gender =
+  
+  ## (gender) specifies the gender identity of a person, persona, or character. [13.3.2.1. Personal Characteristics]
+  element gender {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.editLike.attributes,
+    att.datable.attributes,
+    att.typed.attributes,
+    
+    ## supplies a coded value for gender identity
+    attribute value {
+      list {
+        xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+      }
+    }?,
     empty
   }
 geo =
@@ -7079,8 +7744,8 @@ listOrg =
   element listOrg {
     (model.headLike*,
      desc*,
-     (org | listOrg)+,
-     (relation | listRelation)*),
+     (relation | listRelation)*,
+     ((org | listOrg)+, (relation | listRelation)*)+),
     att.global.attributes,
     att.typed.attributes,
     att.declarable.attributes,
@@ -7093,8 +7758,8 @@ listEvent =
   element listEvent {
     (model.headLike*,
      desc*,
-     model.eventLike+,
-     (relation | listRelation)*),
+     (relation | listRelation)*,
+     (model.eventLike+, (relation | listRelation)*)+),
     att.global.attributes,
     att.typed.attributes,
     att.declarable.attributes,
@@ -7107,8 +7772,8 @@ listPerson =
   element listPerson {
     (model.headLike*,
      desc*,
-     (model.personLike | listPerson)+,
-     (relation | listRelation)*),
+     (relation | listRelation)*,
+     ((model.personLike | listPerson)+, (relation | listRelation)*)+),
     att.global.attributes,
     att.typed.attributes,
     att.declarable.attributes,
@@ -7121,17 +7786,29 @@ listPlace =
   element listPlace {
     (model.headLike*,
      desc*,
-     (model.placeLike | listPlace)+,
-     (relation | listRelation)*),
+     (relation | listRelation)*,
+     ((model.placeLike | listPlace)+, (relation | listRelation)*)+),
     att.global.attributes,
     att.typed.attributes,
     att.declarable.attributes,
     att.sortable.attributes,
     empty
   }
+listRelation =
+  
+  ## provides information about relationships identified amongst people, places, and organizations, either informally as prose or as formally expressed relation links. [13.3.2.3. Personal Relationships]
+  element listRelation {
+    (model.headLike*,
+     desc*,
+     (model.pLike | (relation | listRelation)+)),
+    att.global.attributes,
+    att.typed.attributes,
+    att.sortable.attributes,
+    empty
+  }
 location =
   
-  ## defines the location of a place as a set of geographical coordinates, in terms of other named geo-political entities, or as an address. [13.3.4. Places]
+  ## (location) defines the location of a place as a set of geographical coordinates, in terms of other named geo-political entities, or as an address. [13.3.4. Places]
   element location {
     (model.labelLike
      | model.placeNamePart
@@ -7148,7 +7825,7 @@ location =
   }
 nationality =
   
-  ## contains an informal description of a person's present or past nationality or citizenship. [15.2.2. The Participant Description]
+  ## (nationality) contains an informal description of a person's present or past nationality or citizenship. [15.2.2. The Participant Description]
   element nationality {
     macro.phraseSeq,
     att.global.attributes,
@@ -7166,7 +7843,7 @@ nationality =
   }
 occupation =
   
-  ## contains an informal description of a person's trade, profession or occupation. [15.2.2. The Participant Description]
+  ## (occupation) contains an informal description of a person's trade, profession or occupation. [15.2.2. The Participant Description]
   element occupation {
     macro.specialPara,
     att.global.attributes,
@@ -7187,7 +7864,9 @@ occupation =
         " element, or pointing to some other resource."
       ]
     ]
-    attribute scheme { xsd:anyURI }?,
+    attribute scheme {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     [
       a:documentation [
         "identifies an occupation code defined within the classification system or taxonomy defined by the "
@@ -7195,7 +7874,9 @@ occupation =
         " attribute."
       ]
     ]
-    attribute code { xsd:anyURI }?,
+    attribute code {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     empty
   }
 org =
@@ -7224,21 +7905,9 @@ org =
     }?,
     empty
   }
-listRelation =
-  
-  ## provides information about relationships identified amongst people, places, and organizations, either informally as prose or as formally expressed relation links. [13.3.2.3. Personal Relationships]
-  element listRelation {
-    (model.headLike*,
-     desc*,
-     (model.pLike | (relation | listRelation)+)),
-    att.global.attributes,
-    att.typed.attributes,
-    att.sortable.attributes,
-    empty
-  }
 person =
   
-  ## provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a historical source. [13.3.2. The Person Element 15.2.2. The Participant Description]
+  ## (person) provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a historical source. [13.3.2. The Person Element 15.2.2. The Participant Description]
   element person {
     (model.pLike+ | (model.personPart | model.global | ptr)*),
     att.global.attributes,
@@ -7254,6 +7923,13 @@ person =
     
     ## specifies the sex of the person.
     attribute sex {
+      list {
+        xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+      }
+    }?,
+    
+    ## specifies the gender of the person.
+    attribute gender {
       list {
         xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
       }
@@ -7288,6 +7964,13 @@ persona =
       }
     }?,
     
+    ## specifies the gender of the persona.
+    attribute gender {
+      list {
+        xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+      }
+    }?,
+    
     ## specifies an age group for the persona.
     attribute age {
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }
@@ -7314,6 +7997,13 @@ personGrp =
       }
     }?,
     
+    ## specifies the gender of the participant group.
+    attribute gender {
+      list {
+        xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+      }
+    }?,
+    
     ## specifies the age group of the participants.
     attribute age {
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }
@@ -7327,13 +8017,49 @@ personGrp =
     }?,
     empty
   }
+persPronouns =
+  
+  ## (personal pronouns) indicates the personal pronouns used, or assumed to be used, by the individual being described. [13.3.2.1. Personal Characteristics]
+  element persPronouns {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.datable.attributes,
+    att.typed.attributes,
+    
+    ## (evidence) indicates support for the listed personal pronouns.
+    ## Suggested values include: 1] conjecture (conjecture); 2] selfIdentification (self identification); 3] trustedThirdParty (trusted third party)
+    attribute evidence {
+      
+      ## (conjecture) The given value was selected based on assumptions by someone besides the person to whom this pronoun applies. As a result, the value may be erroneous.
+      "conjecture"
+      | 
+        ## (self identification) The given value has been explicitly stated or confirmed by the person to whom this pronoun applies.
+        "selfIdentification"
+      | 
+        ## (trusted third party) The given value has been supplied by another individual trusted by the encoder to know the preferences of the person to whom this pronoun applies.
+        "trustedThirdParty"
+      | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+    }?,
+    
+    ## (value) supplies a regularized value for personal pronouns.
+    ## Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)
+    attribute value {
+      list {
+        xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+      }
+    }?,
+    empty
+  }
 place =
   
-  ## contains data about a geographic location [13.3.4. Places]
+  ## (place) contains data about a geographic location [13.3.4. Places]
   element place {
     (model.headLike*,
      (model.pLike*
-      | (model.labelLike | model.placeStateLike | model.eventLike)*),
+      | (model.labelLike
+         | model.placeStateLike
+         | model.eventLike
+         | name)*),
      (model.noteLike | model.biblLike | idno | ptr | linkGrp | link)*,
      (model.placeLike | listPlace)*),
     att.global.attributes,
@@ -7344,7 +8070,7 @@ place =
   }
 population =
   
-  ## contains information about the population of a place. [13.3.4.3. States, Traits, and Events]
+  ## (population) contains information about the population of a place. [13.3.4.3. States, Traits, and Events]
   element population {
     (model.headLike*,
      ((model.pLike+ | model.labelLike+),
@@ -7365,7 +8091,7 @@ relation =
     (desc?)
     >> sch:pattern [
          id =
-           "ILCorpusSchema-relation-reforkeyorname-constraint-assert-13"
+           "ILCorpusSchema-relation-reforkeyorname-constraint-assert-17"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -7384,7 +8110,7 @@ relation =
        ]
     >> sch:pattern [
          id =
-           "ILCorpusSchema-relation-activemutual-constraint-report-22"
+           "ILCorpusSchema-relation-activemutual-constraint-report-23"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -7403,7 +8129,7 @@ relation =
        ]
     >> sch:pattern [
          id =
-           "ILCorpusSchema-relation-activepassive-constraint-report-23"
+           "ILCorpusSchema-relation-activepassive-constraint-report-24"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -7434,23 +8160,29 @@ relation =
     (
      ## identifies the active participants in a non-mutual relationship, or all the participants in a mutual one.
      attribute active {
-       list { xsd:anyURI+ }
+       list {
+         xsd:anyURI { pattern = "\S+" }+
+       }
      }?
      | 
        ## supplies a list of participants amongst all of whom the relationship holds equally.
        attribute mutual {
-         list { xsd:anyURI+ }
+         list {
+           xsd:anyURI { pattern = "\S+" }+
+         }
        }?),
     
     ## identifies the passive participants in a non-mutual relationship.
     attribute passive {
-      list { xsd:anyURI+ }
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
     }?,
     empty
   }
 residence =
   
-  ## describes a person's present or past places of residence. [15.2.2. The Participant Description]
+  ## (residence) describes a person's present or past places of residence. [15.2.2. The Participant Description]
   element residence {
     macro.phraseSeq,
     att.global.attributes,
@@ -7468,19 +8200,13 @@ residence =
   }
 sex =
   
-  ## specifies the sex of a person. [13.3.2.1. Personal Characteristics]
+  ## (sex) specifies the sex of an organism. [13.3.2.1. Personal Characteristics]
   element sex {
     macro.phraseSeq,
     att.global.attributes,
     att.editLike.attributes,
     att.datable.attributes,
-    att.typed.attribute.subtype,
-    
-    ## characterizes the element in some sense, using any convenient classification scheme or typology.
-    ## Sample values include: 1] explicit; 2] implicit
-    attribute type {
-      xsd:token { pattern = "[^\p{C}\p{Z}]+" }
-    }?,
+    att.typed.attributes,
     
     ## supplies a coded value for sex
     attribute value {
@@ -7513,7 +8239,9 @@ socecStatus =
         " element or by supplying a URI for an externally-defined system."
       ]
     ]
-    attribute scheme { xsd:anyURI }?,
+    attribute scheme {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     [
       a:documentation [
         "identifies a status code defined within the classification system or taxonomy defined by the "
@@ -7521,12 +8249,14 @@ socecStatus =
         " attribute."
       ]
     ]
-    attribute code { xsd:anyURI }?,
+    attribute code {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     empty
   }
 state =
   
-  ## contains a description of some status or quality attributed to a person, place, or organization often at some specific time or for a specific date range. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]
+  ## (state) contains a description of some status or quality attributed to a person, place, or organization often at some specific time or for a specific date range. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]
   element state {
     (state+
      | (model.headLike*,
@@ -7543,7 +8273,7 @@ state =
   }
 terrain =
   
-  ## contains information about the physical terrain of a place. [13.3.4.3. States, Traits, and Events]
+  ## (terrain) contains information about the physical terrain of a place. [13.3.4.3. States, Traits, and Events]
   element terrain {
     (model.headLike*,
      (model.pLike+ | model.labelLike+),
@@ -7558,7 +8288,7 @@ terrain =
   }
 trait =
   
-  ## contains a description of some status or quality attributed to a person, place, or organization typically, but not necessarily, independent of the volition or action of the holder and usually not at some specific time or for a specific date range. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]
+  ## (trait) contains a description of some status or quality attributed to a person, place, or organization typically, but not necessarily, independent of the volition or action of the holder and usually not at some specific time or for a specific date range. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]
   element trait {
     (trait+
      | (model.headLike*,
@@ -7593,7 +8323,7 @@ object =
      model.headLike*,
      (model.pLike* | empty),
      (model.noteLike | model.biblLike | linkGrp | link)*,
-     object?),
+     object*),
     att.global.attributes,
     att.sortable.attributes,
     att.typed.attributes,
@@ -7608,8 +8338,8 @@ listObject =
   element listObject {
     (model.headLike*,
      desc*,
-     model.objectLike+,
-     (relation | listRelation)*),
+     (relation | listRelation)*,
+     (model.objectLike+, (relation | listRelation)*)+),
     att.global.attributes,
     att.typed.attributes,
     att.declarable.attributes,
@@ -7620,26 +8350,7 @@ objectIdentifier =
   
   ## (object identifier) groups one or more identifiers or pieces of locating information concerning a single object. [13.3.5. Objects]
   element objectIdentifier {
-    ((model.placeNamePart | idno | objectName | address)*)
-    >> sch:pattern [
-         id =
-           "ILCorpusSchema-objectIdentifier-objectIdentifier_minimal-constraint-report-24"
-         "\x{a}" ~
-         "            "
-         sch:rule [
-           context = "tei:objectIdentifier"
-           "\x{a}" ~
-           "               "
-           sch:report [
-             test = "not(count(*) gt 0)"
-             "An objectIdentifier must contain at minimum a single piece of locating or identifying information."
-           ]
-           "\x{a}" ~
-           "            "
-         ]
-         "\x{a}" ~
-         "         "
-       ],
+    (model.placeNamePart | idno | objectName | address)+,
     att.global.attributes,
     empty
   }
@@ -7654,7 +8365,9 @@ nym =
     
     ## points to constituent nyms
     attribute parts {
-      list { xsd:anyURI+ }
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
     }?,
     empty
   }
@@ -7664,8 +8377,8 @@ listNym =
   element listNym {
     (model.headLike*,
      desc*,
-     (nym | listNym)+,
-     (relation | listRelation)*),
+     (relation | listRelation)*,
+     ((nym | listNym)+, (relation | listRelation)*)+),
     att.global.attributes,
     att.typed.attributes,
     att.declarable.attributes,
@@ -7675,9 +8388,11 @@ listNym =
 att.global.facs.attributes = att.global.facs.attribute.facs
 att.global.facs.attribute.facs =
   
-  ## (facsimile) points to all or part of an image which corresponds with the content of the element.
+  ## (facsimile) points to one or more images, portions of an image, or surfaces which correspond to the current element.
   attribute facs {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 att.global.change.attributes = att.global.change.attribute.change
 att.global.change.attribute.change =
@@ -7689,11 +8404,13 @@ att.global.change.attribute.change =
     ]
   ]
   attribute change {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 fw =
   
-  ## (forme work) contains a running head (e.g. a header, footer), catchword, or similar material appearing on the current page. [11.5. Headers, Footers, and Similar Matter]
+  ## (forme work) contains a running head (e.g. a header, footer), catchword, or similar material appearing on the current page. [11.6. Headers, Footers, and Similar Matter]
   element fw {
     macro.phraseSeq,
     att.global.attributes,
@@ -7702,6 +8419,7 @@ fw =
     att.written.attributes,
     
     ## classifies the material encoded according to some useful typology.
+    ## Sample values include: 1] header; 2] footer; 3] pageNum (page number); 4] lineNum (line number); 5] sig (signature); 6] catch (catchword)
     attribute type {
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }
     }?,
