@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2023-05-17T15:06:58Z. .
+# Schema generated from ODD source 2023-05-21T17:54:27Z. .
 # TEI Edition: Version 4.5.0. Last updated on
 #         25th October 2022, revision 3e98e619e
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0/
@@ -2395,6 +2395,7 @@ quote =
     macro.specialPara,
     att.global.attributes,
     att.typed.attributes,
+    att.msExcerpt.attributes,
     att.notated.attributes,
     empty
   }
@@ -8321,7 +8322,7 @@ object =
   element object {
     (objectIdentifier+,
      model.headLike*,
-     (model.pLike* | empty),
+     (model.pLike* | physDesc?),
      (model.noteLike | model.biblLike | linkGrp | link)*,
      object*),
     att.global.attributes,
@@ -8425,4 +8426,21 @@ fw =
     }?,
     empty
   }
+att.msExcerpt.attributes = att.msExcerpt.attribute.defective
+att.msExcerpt.attribute.defective =
+  
+  ## indicates whether the passage being quoted is defective, i.e. incomplete through loss or damage.
+  attribute defective {
+    xsd:boolean
+    | (
+       ##
+       "unknown"
+       | 
+         ##
+         "inapplicable")
+  }?
+physDesc =
+  
+  ## (physical description) contains a full physical description of a manuscript, manuscript part, or other object optionally subdivided using more specialized elements from the model.physDescPart class. [10.7. Physical Description]
+  element physDesc { model.pLike*, att.global.attributes, empty }
 start = TEI | teiCorpus
