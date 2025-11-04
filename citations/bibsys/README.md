@@ -2,7 +2,7 @@ The *Journal du droit international privé et de la jurisprudence comparée (Clu
 
 This bibliography contains approximately 29204 unique items, classified by topic. 
 
-You can access the bibliography nodes using the XPath `//div[@feature="bibSystematique"` on the TEI-XML files at [https://github.com/whanley/ilcorpus/tree/master/journals/clunet](https://github.com/whanley/ilcorpus/tree/master/journals/clunet).
+You can access the bibliography nodes using the XPath `//div[@feature="bibSystematique]"` on the TEI-XML files at [https://github.com/whanley/ilcorpus/tree/master/journals/clunet](https://github.com/whanley/ilcorpus/tree/master/journals/clunet).
 
 Each item appears as a `<bibl>` node with an `xml:id`. These nodes are embedded in paragraphs containing numbers and the classification schema of the Bibliography.
 
