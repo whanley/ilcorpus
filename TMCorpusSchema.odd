@@ -1,0 +1,864 @@
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en"
+    xmlns:rng="http://relaxng.org/ns/structure/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TEI for Tribunaux Mixte Law Corpus</title>
+                <author>Will Hanley</author>
+            </titleStmt>
+            <publicationStmt>
+                <p> Available under CC0 license - https://creativecommons.org/publicdomain/zero/1.0/
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <schemaSpec ident="ILCorpusSchema">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
+                <moduleRef key="analysis" except=""/>
+                <moduleRef key="figures" except=""/>
+                <moduleRef key="gaiji" include="g glyph"/>
+                <moduleRef key="linking" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="transcr" include="fw"/>
+                <elementSpec ident="div" mode="change">
+                    <attList>
+                        <attDef ident="type" usage="req" mode="change">
+                            <gloss>The div level must be typed.</gloss>
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="replace">
+                                <valItem ident="masthead"/>
+                                <valItem ident="issue"/>
+                                <valItem ident="section"/>
+                                <valItem ident="subsection"/>
+                                <valItem ident="article"/>
+                                <valItem ident="item"/>
+                                <valItem ident="advert"/>
+                                <valItem ident="nameplate"/>
+                                <valItem ident="feature"/>
+                                <valItem ident="frontMatter"/>
+                                <valItem ident="backMatter"/>
+                                <valItem ident="supplement"/>
+                                <valItem ident="index"/>
+                                <valItem ident="bulletin"/>
+                                <valItem ident="appendix"/>
+                                <valItem ident="observations"/>
+                                <valItem ident="tableOfContents"/>
+                                <valItem ident="case"/>
+                                <valItem ident="summary"/>
+                                <valItem ident="litigants"/>
+                                <valItem ident="decision"/>
+                            </valList>
+                        </attDef>
+                        <attDef ident="feature" usage="rec" mode="add">
+                            <desc>Specifies the nature of the contents of a section.</desc>
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="add">
+                                <valItem ident="actualites">
+                                    <desc>Actualités</desc>
+                                </valItem>
+                                <valItem ident="analyses">
+                                    <desc>Analyses et Extraits</desc>
+                                </valItem>
+                                <valItem ident="bibliographie">
+                                    <desc>Bibliographie</desc>
+                                </valItem>
+                                <valItem ident="bibSystematique">
+                                    <desc>Bibliographie Systématique</desc>
+                                </valItem>
+                                <valItem ident="bulletin">
+                                    <desc>Bulletin</desc>
+                                </valItem>
+                                <valItem ident="chronique">
+                                    <desc>Chronique de l'Actualité, Chronique Législative, etc.
+                                        (various)</desc>
+                                </valItem>
+                                <valItem ident="commission">
+                                    <desc>Commission d'étude</desc>
+                                </valItem>
+                                <valItem ident="comptes">
+                                    <desc>Comptes Rendus</desc>
+                                </valItem>
+                                <valItem ident="congres">
+                                    <desc>Congrès, Conférences, Associations, Arbitrages, Organismes
+                                        Internationaux</desc>
+                                </valItem>
+                                <valItem ident="conseil">
+                                    <desc>Conseil de Direction</desc>
+                                </valItem>
+                                <valItem ident="correspondance">
+                                    <desc>Correspondance</desc>
+                                </valItem>
+                                <valItem ident="deaths">
+                                    <desc>Necrologie, obituaries, deaths, etc</desc>
+                                </valItem>
+                                <valItem ident="documents">
+                                    <desc>Documents</desc>
+                                </valItem>
+                                <valItem ident="faits">
+                                    <desc>Faits &amp; Informations</desc>
+                                </valItem>
+                                <valItem ident="jurisprudence">
+                                    <desc>Jurisprudence</desc>
+                                </valItem>
+                                <valItem ident="lois">
+                                    <desc>Liste des Lois</desc>
+                                </valItem>
+                                <valItem ident="membres">
+                                    <desc>Liste des Membres</desc>
+                                </valItem>
+                                <valItem ident="mouvement">
+                                    <desc>Mouvement Législatif</desc>
+                                </valItem>
+                                <valItem ident="notices">
+                                    <desc>Notices et Notes Diverses</desc>
+                                </valItem>
+                                <valItem ident="publicationNotes">
+                                    <desc>miscellaneous notes about publication</desc>
+                                </valItem>
+                                <valItem ident="officers">
+                                    <desc>Officers of the society</desc>
+                                </valItem>
+                                <valItem ident="organizational">
+                                    <desc>reports on organizational business</desc>
+                                </valItem>
+                                <valItem ident="preparations">
+                                    <desc>Travaux préparatoires</desc>
+                                </valItem>
+                                <valItem ident="questions">
+                                    <desc>Questions et Solutions Pratiques</desc>
+                                </valItem>
+                                <valItem ident="regulations">
+                                    <desc>Statuts et Regulations</desc>
+                                </valItem>
+                                <valItem ident="reunions">
+                                    <desc>Séances, Sessions, etc. (various meetings and official
+                                        business of the societies)</desc>
+                                </valItem>
+                                <valItem ident="revue">
+                                    <desc>Revue des Revues</desc>
+                                </valItem>
+                                <valItem ident="sections">
+                                    <desc>Réunion des Sections</desc>
+                                </valItem>
+                                <valItem ident="varietes">
+                                    <desc>Variétés</desc>
+                                </valItem>
+
+                            </valList>
+                        </attDef>
+                        <attDef ident="state" usage="rec" mode="add">
+                            <desc>ISO code indicating the state (country) named in the heading of
+                                the section.</desc>
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="add">
+                                <valItem ident="multi">
+                                    <desc>Multi-state</desc>
+                                </valItem>
+                                <valItem ident="fr">
+                                    <desc>France</desc>
+                                </valItem>
+                                <valItem ident="eg">
+                                    <desc>Égypte</desc>
+                                </valItem>
+                                <valItem ident="gb-eng">
+                                    <desc>Angleterre</desc>
+                                </valItem>
+                                <valItem ident="de">
+                                    <desc>Allemagne</desc>
+                                </valItem>
+                                <valItem ident="be">
+                                    <desc>Belgique</desc>
+                                </valItem>
+                                <valItem ident="us">
+                                    <desc>États-Unis</desc>
+                                </valItem>
+                                <valItem ident="it">
+                                    <desc>Italie</desc>
+                                </valItem>
+                                <valItem ident="gr">
+                                    <desc>Grèce</desc>
+                                </valItem>
+                                <valItem ident="ch">
+                                    <desc>Suisse</desc>
+                                </valItem>
+                                <valItem ident="ru">
+                                    <desc>Russie</desc>
+                                </valItem>
+                                <valItem ident="at">
+                                    <desc>Autriche</desc>
+                                </valItem>
+                                <valItem ident="br">
+                                    <desc>Brésil</desc>
+                                </valItem>
+                                <valItem ident="cl">
+                                    <desc>Chili</desc>
+                                </valItem>
+                                <valItem ident="cn">
+                                    <desc>Chine</desc>
+                                </valItem>
+                                <valItem ident="dk">
+                                    <desc>Danemark</desc>
+                                </valItem>
+                                <valItem ident="es">
+                                    <desc>Espagne</desc>
+                                </valItem>
+                                <valItem ident="nl">
+                                    <desc>Pays-Bas</desc>
+                                </valItem>
+                                <valItem ident="ro">
+                                    <desc>Roumanie</desc>
+                                </valItem>
+                                <valItem ident="edl">
+                                    <desc>Échelles du Levant</desc>
+                                </valItem>
+                                <valItem ident="ee">
+                                    <desc>Estonie</desc>
+                                </valItem>
+                                <valItem ident="ra">
+                                    <desc>Argentine (République)</desc>
+                                </valItem>
+                                <valItem ident="lu">
+                                    <desc>Luxembourg</desc>
+                                </valItem>
+                                <valItem ident="gb">
+                                    <desc>Grande-Bretagne</desc>
+                                </valItem>
+                                <valItem ident="hu">
+                                    <desc>Hongrie</desc>
+                                </valItem>
+                                <valItem ident="ma">
+                                    <desc>Maroc</desc>
+                                </valItem>
+                                <valItem ident="mx">
+                                    <desc>Mexique</desc>
+                                </valItem>
+                                <valItem ident="mc">
+                                    <desc>Monaco</desc>
+                                </valItem>
+                                <valItem ident="no">
+                                    <desc>Norvège</desc>
+                                </valItem>
+                                <valItem ident="pl">
+                                    <desc>Pologne</desc>
+                                </valItem>
+                                <valItem ident="th">
+                                    <desc>Siam</desc>
+                                </valItem>
+                                <valItem ident="se">
+                                    <desc>Suède</desc>
+                                </valItem>
+                                <valItem ident="cs">
+                                    <desc>Tchecoslovaquie</desc>
+                                </valItem>
+                                <valItem ident="tr">
+                                    <desc>Turquie</desc>
+                                </valItem>
+                                <valItem ident="aml">
+                                    <desc>Amerique Latine</desc>
+                                </valItem>
+                                <valItem ident="ca">
+                                    <desc>Canada</desc>
+                                </valItem>
+                                <valItem ident="pt">
+                                    <desc>Portugal</desc>
+                                </valItem>
+                                <valItem ident="fatm">
+                                    <desc>France (Algérie-Tunisie-Maroc)</desc>
+                                </valItem>
+                                <valItem ident="fal">
+                                    <desc>France (Alsace et Lorraine)</desc>
+                                </valItem>
+                                <valItem ident="fcp">
+                                    <desc>France (Colonies et Protectorats)</desc>
+                                </valItem>
+                                <valItem ident="fsl">
+                                    <desc>France (Syrie et Liban)</desc>
+                                </valItem>
+                                <valItem ident="gb-sct">
+                                    <desc>Angleterre (Ecosse)</desc>
+                                </valItem>
+                                <valItem ident="gr-m">
+                                    <desc>Crete</desc>
+                                </valItem>
+                                <valItem ident="aof">
+                                    <desc>France (Afrique Occidentale)</desc>
+                                </valItem>
+                                <valItem ident="trm">
+                                    <desc>Tribunaux Mixtes</desc>
+                                </valItem>
+                                <valItem ident="cpj">
+                                    <desc>Cour Permanent de Justice International de la Haye</desc>
+                                </valItem>
+                                <valItem ident="ve">
+                                    <desc>Venezuela</desc>
+                                </valItem>
+                                <valItem ident="ps">
+                                    <desc>Palestine</desc>
+                                </valItem>
+                                <valItem ident="py">
+                                    <desc>Paraguay</desc>
+                                </valItem>
+                                <valItem ident="indef">
+                                    <desc>Inde Francais</desc>
+                                </valItem>
+                                <valItem ident="uy">
+                                    <desc>Uruguay</desc>
+                                </valItem>
+                                <valItem ident="gb-cc">
+                                    <desc>Angleterre (Colonie du Cap)</desc>
+                                </valItem>
+                                <valItem ident="jp">
+                                    <desc>Japon</desc>
+                                </valItem>
+                                <valItem ident="cu">
+                                    <desc>Cuba</desc>
+                                </valItem>
+                                <valItem ident="va">
+                                    <desc>Saint-Siege</desc>
+                                </valItem>
+                                <valItem ident="cr">
+                                    <desc>Costa Rica</desc>
+                                </valItem>
+                                <valItem ident="cg">
+                                    <desc>Congo</desc>
+                                </valItem>
+                                <valItem ident="nz">
+                                    <desc>Nouvelle-Zélande</desc>
+                                </valItem>
+                                <valItem ident="ht">
+                                    <desc>Haïti</desc>
+                                </valItem>
+                                <valItem ident="gt">
+                                    <desc>Guatemala</desc>
+                                </valItem>
+                                <valItem ident="tn">
+                                    <desc>Tunisie</desc>
+                                </valItem>
+                                <valItem ident="pe">
+                                    <desc>Pérou</desc>
+                                </valItem>
+                                <valItem ident="sv">
+                                    <desc>Le Salvador</desc>
+                                </valItem>
+                                <valItem ident="ir">
+                                    <desc>Perse</desc>
+                                </valItem>
+                            </valList>
+                        </attDef>
+                        <attDef ident="state2" usage="rec" mode="add">
+                            <desc>ISO code indicating an addition state (country) named in the
+                                heading of the section. Typically used for sections concerning
+                                treaties between two states.</desc>
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="add">
+                                <valItem ident="fr">
+                                    <desc>France</desc>
+                                </valItem>
+                                <valItem ident="eg">
+                                    <desc>Égypte</desc>
+                                </valItem>
+                                <valItem ident="gb-eng">
+                                    <desc>Angleterre</desc>
+                                </valItem>
+                                <valItem ident="de">
+                                    <desc>Allemagne</desc>
+                                </valItem>
+                                <valItem ident="be">
+                                    <desc>Belgique</desc>
+                                </valItem>
+                                <valItem ident="us">
+                                    <desc>États-Unis</desc>
+                                </valItem>
+                                <valItem ident="it">
+                                    <desc>Italie</desc>
+                                </valItem>
+                                <valItem ident="gr">
+                                    <desc>Grèce</desc>
+                                </valItem>
+                                <valItem ident="ch">
+                                    <desc>Suisse</desc>
+                                </valItem>
+                                <valItem ident="ru">
+                                    <desc>Russie</desc>
+                                </valItem>
+                                <valItem ident="at">
+                                    <desc>Autriche</desc>
+                                </valItem>
+                                <valItem ident="br">
+                                    <desc>Brésil</desc>
+                                </valItem>
+                                <valItem ident="cl">
+                                    <desc>Chili</desc>
+                                </valItem>
+                                <valItem ident="cn">
+                                    <desc>Chine</desc>
+                                </valItem>
+                                <valItem ident="dk">
+                                    <desc>Danemark</desc>
+                                </valItem>
+                                <valItem ident="es">
+                                    <desc>Espagne</desc>
+                                </valItem>
+                                <valItem ident="nl">
+                                    <desc>Pays-Bas</desc>
+                                </valItem>
+                                <valItem ident="ro">
+                                    <desc>Roumanie</desc>
+                                </valItem>
+                                <valItem ident="edl">
+                                    <desc>Échelles du Levant</desc>
+                                </valItem>
+                                <valItem ident="ee">
+                                    <desc>Estonie</desc>
+                                </valItem>
+                                <valItem ident="ra">
+                                    <desc>Argentine (République)</desc>
+                                </valItem>
+                                <valItem ident="lu">
+                                    <desc>Luxembourg</desc>
+                                </valItem>
+                                <valItem ident="gb">
+                                    <desc>Grande-Bretagne</desc>
+                                </valItem>
+                                <valItem ident="hu">
+                                    <desc>Hongrie</desc>
+                                </valItem>
+                                <valItem ident="ma">
+                                    <desc>Maroc</desc>
+                                </valItem>
+                                <valItem ident="mx">
+                                    <desc>Mexique</desc>
+                                </valItem>
+                                <valItem ident="mc">
+                                    <desc>Monaco</desc>
+                                </valItem>
+                                <valItem ident="no">
+                                    <desc>Norvège</desc>
+                                </valItem>
+                                <valItem ident="pl">
+                                    <desc>Pologne</desc>
+                                </valItem>
+                                <valItem ident="th">
+                                    <desc>Siam</desc>
+                                </valItem>
+                                <valItem ident="se">
+                                    <desc>Suède</desc>
+                                </valItem>
+                                <valItem ident="cs">
+                                    <desc>Tchecoslovaquie</desc>
+                                </valItem>
+                                <valItem ident="tr">
+                                    <desc>Turquie</desc>
+                                </valItem>
+                                <valItem ident="aml">
+                                    <desc>Amerique Latine</desc>
+                                </valItem>
+                                <valItem ident="ca">
+                                    <desc>Canada</desc>
+                                </valItem>
+                                <valItem ident="pt">
+                                    <desc>Portugal</desc>
+                                </valItem>
+                                <valItem ident="fatm">
+                                    <desc>France (Algérie-Tunisie-Maroc)</desc>
+                                </valItem>
+                                <valItem ident="fal">
+                                    <desc>France (Alsace et Lorraine)</desc>
+                                </valItem>
+                                <valItem ident="fcp">
+                                    <desc>France (Colonies et Protectorats)</desc>
+                                </valItem>
+                                <valItem ident="fsl">
+                                    <desc>France (Syrie et Liban)</desc>
+                                </valItem>
+                                <valItem ident="gb-sct">
+                                    <desc>Angleterre (Ecosse)</desc>
+                                </valItem>
+                                <valItem ident="gr-m">
+                                    <desc>Crete</desc>
+                                </valItem>
+                                <valItem ident="aof">
+                                    <desc>France (Afrique Occidentale)</desc>
+                                </valItem>
+                                <valItem ident="trm">
+                                    <desc>Tribunaux Mixtes</desc>
+                                </valItem>
+                                <valItem ident="cpj">
+                                    <desc>Cour Permanent de Justice International de la Haye</desc>
+                                </valItem>
+                                <valItem ident="ve">
+                                    <desc>Venezuela</desc>
+                                </valItem>
+                                <valItem ident="ps">
+                                    <desc>Palestine</desc>
+                                </valItem>
+                                <valItem ident="py">
+                                    <desc>Paraguay</desc>
+                                </valItem>
+                                <valItem ident="indef">
+                                    <desc>Inde Francais</desc>
+                                </valItem>
+                                <valItem ident="uy">
+                                    <desc>Uruguay</desc>
+                                </valItem>
+                                <valItem ident="gb-cc">
+                                    <desc>Angleterre (Colonie du Cap)</desc>
+                                </valItem>
+                                <valItem ident="jp">
+                                    <desc>Japon</desc>
+                                </valItem>
+                                <valItem ident="cu">
+                                    <desc>Cuba</desc>
+                                </valItem>
+                                <valItem ident="va">
+                                    <desc>Saint-Siege</desc>
+                                </valItem>
+                                <valItem ident="cr">
+                                    <desc>Costa Rica</desc>
+                                </valItem>
+                                <valItem ident="cg">
+                                    <desc>Congo</desc>
+                                </valItem>
+                                <valItem ident="nz">
+                                    <desc>Nouvelle-Zélande</desc>
+                                </valItem>
+                                <valItem ident="ht">
+                                    <desc>Haïti</desc>
+                                </valItem>
+                                <valItem ident="gt">
+                                    <desc>Guatemala</desc>
+                                </valItem>
+                                <valItem ident="tn">
+                                    <desc>Tunisie</desc>
+                                </valItem>
+                                <valItem ident="pe">
+                                    <desc>Pérou</desc>
+                                </valItem>
+                                <valItem ident="sv">
+                                    <desc>Le Salvador</desc>
+                                </valItem>
+                                <valItem ident="ir">
+                                    <desc>Perse</desc>
+                                </valItem>
+                            </valList>
+                        </attDef>
+                        <attDef ident="state3" usage="rec" mode="add">
+                            <desc>ISO code indicating an addition state (country) named in the
+                                heading of the section. Typically used for sections concerning
+                                treaties between two states.</desc>
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="add">
+                                <valItem ident="fr">
+                                    <desc>France</desc>
+                                </valItem>
+                                <valItem ident="eg">
+                                    <desc>Égypte</desc>
+                                </valItem>
+                                <valItem ident="gb-eng">
+                                    <desc>Angleterre</desc>
+                                </valItem>
+                                <valItem ident="de">
+                                    <desc>Allemagne</desc>
+                                </valItem>
+                                <valItem ident="be">
+                                    <desc>Belgique</desc>
+                                </valItem>
+                                <valItem ident="us">
+                                    <desc>États-Unis</desc>
+                                </valItem>
+                                <valItem ident="it">
+                                    <desc>Italie</desc>
+                                </valItem>
+                                <valItem ident="gr">
+                                    <desc>Grèce</desc>
+                                </valItem>
+                                <valItem ident="ch">
+                                    <desc>Suisse</desc>
+                                </valItem>
+                                <valItem ident="ru">
+                                    <desc>Russie</desc>
+                                </valItem>
+                                <valItem ident="at">
+                                    <desc>Autriche</desc>
+                                </valItem>
+                                <valItem ident="br">
+                                    <desc>Brésil</desc>
+                                </valItem>
+                                <valItem ident="cl">
+                                    <desc>Chili</desc>
+                                </valItem>
+                                <valItem ident="cn">
+                                    <desc>Chine</desc>
+                                </valItem>
+                                <valItem ident="dk">
+                                    <desc>Danemark</desc>
+                                </valItem>
+                                <valItem ident="es">
+                                    <desc>Espagne</desc>
+                                </valItem>
+                                <valItem ident="nl">
+                                    <desc>Pays-Bas</desc>
+                                </valItem>
+                                <valItem ident="ro">
+                                    <desc>Roumanie</desc>
+                                </valItem>
+                                <valItem ident="edl">
+                                    <desc>Échelles du Levant</desc>
+                                </valItem>
+                                <valItem ident="ee">
+                                    <desc>Estonie</desc>
+                                </valItem>
+                                <valItem ident="ra">
+                                    <desc>Argentine (République)</desc>
+                                </valItem>
+                                <valItem ident="lu">
+                                    <desc>Luxembourg</desc>
+                                </valItem>
+                                <valItem ident="gb">
+                                    <desc>Grande-Bretagne</desc>
+                                </valItem>
+                                <valItem ident="hu">
+                                    <desc>Hongrie</desc>
+                                </valItem>
+                                <valItem ident="ma">
+                                    <desc>Maroc</desc>
+                                </valItem>
+                                <valItem ident="mx">
+                                    <desc>Mexique</desc>
+                                </valItem>
+                                <valItem ident="mc">
+                                    <desc>Monaco</desc>
+                                </valItem>
+                                <valItem ident="no">
+                                    <desc>Norvège</desc>
+                                </valItem>
+                                <valItem ident="pl">
+                                    <desc>Pologne</desc>
+                                </valItem>
+                                <valItem ident="th">
+                                    <desc>Siam</desc>
+                                </valItem>
+                                <valItem ident="se">
+                                    <desc>Suède</desc>
+                                </valItem>
+                                <valItem ident="cs">
+                                    <desc>Tchecoslovaquie</desc>
+                                </valItem>
+                                <valItem ident="tr">
+                                    <desc>Turquie</desc>
+                                </valItem>
+                                <valItem ident="aml">
+                                    <desc>Amerique Latine</desc>
+                                </valItem>
+                                <valItem ident="ca">
+                                    <desc>Canada</desc>
+                                </valItem>
+                                <valItem ident="pt">
+                                    <desc>Portugal</desc>
+                                </valItem>
+                                <valItem ident="fatm">
+                                    <desc>France (Algérie-Tunisie-Maroc)</desc>
+                                </valItem>
+                                <valItem ident="fal">
+                                    <desc>France (Alsace et Lorraine)</desc>
+                                </valItem>
+                                <valItem ident="fcp">
+                                    <desc>France (Colonies et Protectorats)</desc>
+                                </valItem>
+                                <valItem ident="fsl">
+                                    <desc>France (Syrie et Liban)</desc>
+                                </valItem>
+                                <valItem ident="gb-sct">
+                                    <desc>Angleterre (Ecosse)</desc>
+                                </valItem>
+                                <valItem ident="gr-m">
+                                    <desc>Crete</desc>
+                                </valItem>
+                                <valItem ident="aof">
+                                    <desc>France (Afrique Occidentale)</desc>
+                                </valItem>
+                                <valItem ident="trm">
+                                    <desc>Tribunaux Mixtes</desc>
+                                </valItem>
+                                <valItem ident="cpj">
+                                    <desc>Cour Permanent de Justice International de la Haye</desc>
+                                </valItem>
+                                <valItem ident="ve">
+                                    <desc>Venezuela</desc>
+                                </valItem>
+                                <valItem ident="ps">
+                                    <desc>Palestine</desc>
+                                </valItem>
+                                <valItem ident="py">
+                                    <desc>Paraguay</desc>
+                                </valItem>
+                                <valItem ident="indef">
+                                    <desc>Inde Francais</desc>
+                                </valItem>
+                                <valItem ident="uy">
+                                    <desc>Uruguay</desc>
+                                </valItem>
+                                <valItem ident="gb-cc">
+                                    <desc>Angleterre (Colonie du Cap)</desc>
+                                </valItem>
+                                <valItem ident="jp">
+                                    <desc>Japon</desc>
+                                </valItem>
+                                <valItem ident="cu">
+                                    <desc>Cuba</desc>
+                                </valItem>
+                                <valItem ident="va">
+                                    <desc>Saint-Siege</desc>
+                                </valItem>
+                                <valItem ident="cr">
+                                    <desc>Costa Rica</desc>
+                                </valItem>
+                                <valItem ident="cg">
+                                    <desc>Congo</desc>
+                                </valItem>
+                                <valItem ident="nz">
+                                    <desc>Nouvelle-Zélande</desc>
+                                </valItem>
+                                <valItem ident="ht">
+                                    <desc>Haïti</desc>
+                                </valItem>
+                                <valItem ident="gt">
+                                    <desc>Guatemala</desc>
+                                </valItem>
+                                <valItem ident="tn">
+                                    <desc>Tunisie</desc>
+                                </valItem>
+                                <valItem ident="pe">
+                                    <desc>Pérou</desc>
+                                </valItem>
+                                <valItem ident="sv">
+                                    <desc>Le Salvador</desc>
+                                </valItem>
+                                <valItem ident="ir">
+                                    <desc>Perse</desc>
+                                </valItem>
+                            </valList>
+                        </attDef>
+                        <attDef ident="status" usage="rec" mode="add">
+                            <desc>Used to indicate whether the contents of a div have been verified
+                                by an editor, and to indicate further details about the status of
+                                those contents.</desc>
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="add">
+                                <valItem ident="verified">
+                                    <desc>Complete and correct.</desc>
+                                </valItem>
+                                <valItem ident="unverified">
+                                    <desc>Has not been checked. (Do not use as default--leave out
+                                        the attribute as a default).</desc>
+                                </valItem>
+                                <valItem ident="uncorrectedOCR">
+                                    <desc>Div contains pasted OCR text that has not been corrected
+                                        or formatted.</desc>
+                                </valItem>
+                                <valItem ident="irregularFormat">
+                                    <desc>Div contains valid content, but formatting differs from
+                                        standard.</desc>
+                                </valItem>
+                                <valItem ident="templateDefault">
+                                    <desc>Div is identical to the template, and does not correspond
+                                        to the content of the issue.</desc>
+                                </valItem>
+                                <valItem ident="empty">
+                                    <desc>Div is empty, often because an editor deleted default
+                                        template.</desc>
+                                </valItem>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="note" mode="change">
+                    <attList>
+                        <attDef ident="format" usage="rec" mode="add">
+                            <desc>Classification of format of note contents.</desc>
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="closed" mode="add">
+                                <valItem ident="law">
+                                    <desc>Single citation of a decision or piece of
+                                        legislation.</desc>
+                                </valItem>
+                                <valItem ident="work">
+                                    <desc>Single citation of a book or article or other piece of
+                                        writing.</desc>
+                                </valItem>
+                                <valItem ident="ibid">
+                                    <desc>Single citation using ibid. or op. cit. etc</desc>
+                                </valItem>
+                                <valItem ident="multi">
+                                    <desc>More than one citation</desc>
+                                </valItem>
+                                <valItem ident="discussion">
+                                    <desc>Contains text not including or additional to
+                                        citation</desc>
+                                </valItem>
+                            </valList>
+                        </attDef>
+                        <attDef ident="status" usage="rec" mode="add">
+                            <desc>Used to indicate whether the contents of a note have been verified
+                                by an editor, and to indicate further details about the status of
+                                those contents.</desc>
+                            <datatype>
+                                <rng:ref name="datatype.Code"/>
+                            </datatype>
+                            <valList type="open" mode="add">
+                                <valItem ident="verified">
+                                    <desc>Complete and correct.</desc>
+                                </valItem>
+                                <valItem ident="unverified">
+                                    <desc>Has not been checked. (Do not use as default--leave out
+                                        the attribute as a default).</desc>
+                                </valItem>
+                                <valItem ident="uncorrectedOCR">
+                                    <desc>Div contains OCR text that has not been corrected or
+                                        formatted.</desc>
+                                </valItem>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="measure" module="core" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="replace">
+                            <datatype>
+                                <rng:ref name="data.enumerated"/>
+                            </datatype>
+                            <valList type="semi">
+                                <valItem ident="indexNo">
+                                    <desc>number corresponding to indexing system for newspaper
+                                        elements, especially paid advertisements</desc>
+                                </valItem>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>
