@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0028-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0028-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1938-07-10">July 10, 1938</date><lb/>
-                    <biblScope unit="volume">Vol. 28</biblScope><lb/>
-                    <biblScope unit="number">No. 333</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1938-07-10">July 10, 1938</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 28</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 333</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -58,9 +69,10 @@
                 <p>Comité de Rédaction et d'Administration :</p>
                 <p>Tél. 2574 M“ L. PAÏÏGALO et R. 8CHEMEIL (Directeurs au Caire)</p>
                 <p>M’* E. DEGIARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
-                <p>M« A. F ADSL (Directeur à Mansourah). M- F. BRAUN > ((Jorrelpondants à Paris.</p>
+                <p>M« A. F ADSL (Directeur à Mansourah). M- F. BRAUN &gt; ((Jorrelpondants à
+                    Paris.</p>
                 <p>Tél. 409 M« G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT )</p>
-                <p>réunies (un an). > 250</p>
+                <p>réunies (un an). &gt; 250</p>
                 <p>Administrateur-Gérant : Joseph A. Degiarde.</p>
                 <p>Pour la Publicité: S’adresser à l’Adminlstratlon 3, Rue de la Gare du Caire,
                     Alexandrie Téléphone: 25924</p>
@@ -397,7 +409,7 @@
             <pb n="194" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0010">
                     <head>178. - Action en simulation. »— Conditions d'exercice; préjudice.</head>
                     <div type="summary">
                         <p>En matière de simulation, il est sans importance que le droit des tiers
@@ -411,7 +423,7 @@
                             1937, — Aly Eid Habib c. Morcos pacha Simeika et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0020">
                     <head>179. - Action en simulation. — Conditions d'exercice; préjudice; preuve de
                         la simulation.</head>
                     <div type="summary">
@@ -428,7 +440,7 @@
                             Saba c. Hortense Saba et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0030">
                     <head>180. - Action en simulation. —. Preuve de la fictivité de la part des
                         ayants cause; nécessité d’une contre-lettre; cas d'un ayant-cause créancier
                         de son auteur.</head>
@@ -507,7 +519,7 @@
                             attaquées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0040">
                     <head>181. - Action en simulation. .— Preuve de la fictivité par les tiers
                         contre les parties; moyens; pouvoir d'appréciation du juge.</head>
                     <div type="summary">
@@ -525,7 +537,7 @@
                             autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0050">
                     <head>182. - Action paulienne. — Dation en paiement; cession de créance en
                         garantie d'une dette échue; validité en dehors du cas de faillite et du cas
                         de règlement supérieur à la dette.</head>
@@ -719,10 +731,10 @@
                             en question constitue un paiement irrévocable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0060">
                     <head>183. - Obligations. — Cause; legs entre concubins; caractère licite ou
                         illicite; critérium. &lt;— Legs; nullité ne dérivant pas de l'état de
-                        concubinage entre testateur et légataire. >—- Légataire; droit à pension
+                        concubinage entre testateur et légataire. &gt;—- Légataire; droit à pension
                         alimentaire en droit musulman. ■— Testament; captation; conditions
                         d'annulation du testament.</head>
                     <div type="summary">
@@ -892,7 +904,7 @@
                         <p>1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0070">
                     <head>184. - Obligations. — Cause; notion en matière de libéralité entre
                         concubins; caractère licite ou illicite; critérium.</head>
                     <div type="summary">
@@ -1205,15 +1217,16 @@
                         <p>Rapp. cep. ci-après § 185, l’arrêt du LS Avril 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0080">
                     <head>185. - Obligations. — Cause; obligation naturelle. &lt;— Obligation
                         naturelle; critérium; existence subordonnée à celle d'un droit moral. ■—
                         Obligation unilatérale contractée, par affection, reconnaissance ou
                         générosité; caractère de libéralité. -— Donations rémuné-ratoires; cas où la
                         forme authentique est indispensable. —Rente viagère; constitution à titre
-                        gratuit; nécessité de la forme authentique. >— Donation déguisée; conditions
-                        de validité; cas d'un acte constitutif de rente viagère, ne mentionnant pas
-                        les obligations réciproques du débirentier et du crédirentier.</head>
+                        gratuit; nécessité de la forme authentique. &gt;— Donation déguisée;
+                        conditions de validité; cas d'un acte constitutif de rente viagère, ne
+                        mentionnant pas les obligations réciproques du débirentier et du
+                        crédirentier.</head>
                     <div type="summary">
                         <p>I. - Il ne peut pas y avoir de droit moral à réparation ou compensation
                             naissant d’une situation consciemment et librement acceptée telle que
@@ -1446,11 +1459,11 @@
                             Caire du 13 Juin 1938 et Alex, du 21 Décembre 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0090">
                     <head>186. - Obligations. — Cautionnement; action en garantie; tribunal
                         compétent après le jugement de l'affaire principale; cas où la Juridiction
                         Mixte, après avoir statué sur l’action principale, demeure compétente entre
-                        Egyptiens sur la demande en garantie. >— Subrogation légale; conditions;
+                        Egyptiens sur la demande en garantie. &gt;— Subrogation légale; conditions;
                         garant ayant subi l'expropriation de ses biens en règlement de la créance;
                         demande de subrogation conventionnelle; irrecevabilité.</head>
                     <div type="summary">
@@ -1597,7 +1610,7 @@
                             tenu de subir le recours de celui qui l’avait cautionné.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0100">
                     <head>187. - Obligations. — Cautionnement ; nullité de ïobligation principale
                         pour cause d'incapacité du débiteur; maintien de l’obligation du
                         garant.</head>
@@ -1692,7 +1705,7 @@
                             préjudice par lui subi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0110">
                     <head>188. - Obligations. .— Contrats synallagmatiques; inexécution;
                         résiliation; condition résolutoire simple; pacte commissaire; partie ayant
                         droit de l'invoquer; portée; interprétation.</head>
@@ -1872,7 +1885,7 @@
                         <p>Note. — I à V. - Rapp. ci-après § 189, l’arrêt du 23 Novembre 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0120">
                     <head>189. - Obligations. &lt;— Contrats synallagmatiques; inexécution;
                         résiliation; pacte commissaire; faculté reconnue au juge; limites.</head>
                     <div type="summary">
@@ -1950,7 +1963,7 @@
                         <p>Note. — Rappr. ci-avant § 188, l’arrêt du 13 Mars 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0130">
                     <head>190. - Obligations. — Contre-lettre; inopposabilité aux tiers;
                         cessionnaire de bonne foi; contre-lettre signée par un failli;
                         inopposabilité à ses créanciers et au syndic.</head>
@@ -2046,7 +2059,7 @@
                             cession...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0140">
                     <head>191. - Obligations. — Conventions; fictivité et simulation; distinction
                         quant aux effets; preuve. •— Donation entre vifs; dissimulation sous forme
                         d'un autre acte juridique; validité. — Simulation; preuve; effets; règles à
@@ -2514,7 +2527,7 @@
                             Personnel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0150">
                     <head>192. - Obligations. — Conventions; inexécution; droits du créancier;
                         retard à exiger l’exécution des engagements du débiteur, n'entraînant pas
                         renonciation à ses droits.</head>
@@ -2530,7 +2543,7 @@
                             Salam El Gheriani c. Marc Soussi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0160">
                     <head>193. - Obligations. — Conventions; inexécution; droits et obligations du
                         créancier; vente; refus de l’acheteur; obligations du vendeur gai opte pour
                         l'exécution directe; omission de la procédure d'offres; conséquences.</head>
@@ -2761,7 +2774,7 @@
                             résilié aux torts et griefs du susdit appelant...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0170">
                     <head>194. - Obligations. — Délégation imparfaite; engagement direct du délégué;
                         sort indépendant de son engagement envers le déléguant; appel interjeté par
                         le délégataire de son propre chef; recevabilité. — Action oblique;
@@ -3043,7 +3056,7 @@
                             XXXIII, 71).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0180">
                     <head>195. - Obligations. — Exigibilité; paiement; délai; formule « à votre,
                         meilleure convenance »,- portée.</head>
                     <div type="summary">
@@ -3095,7 +3108,7 @@
                             principale de la Société...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0190">
                     <head>196. - Obligations. — Médecin; secret professionnel; respect dans
                         l'instance en réclamation d'honoraires.</head>
                     <div type="summary">
@@ -3138,7 +3151,7 @@
                             peut être utile pour l’établissement de la dite créance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0200">
                     <head>197. - Obligations. —Novation; cas où elle laisse subsister les garanties
                         qui assuraient l'exécution de la dette originaire; créance hypothécaire;
                         substitution d’une nouvelle créance, à l’ancienne; droit réservé au
@@ -3264,68 +3277,69 @@
                             les termes de remboursement et baisser le taux de l’intérêt, en
                             augmentant les sûretés de la Banque, par la constitution en gage de
                             l’ensemble des biens pré-</p>
-                    
-                <pb n="211" rendition="Gazette des Tribunaux Mixtes."/> <p>cédemment hypothéqués, en faveur de l’ensemble de la dette.</p>
-                <p>Une nouvelle dette étant venue ainsi se substituer aux anciennes, et, en
-                    partie, des nouveaux débiteurs étant venus se substituer ou s’adjoindre
-                    aux anciens, c’est à bon droit que les premiers juges ont décidé que
-                    c’est une novation des anciennes dettes qu’avait opéré l’acte de 1929 et
-                    la prétention des appelants qu’elles ont été payées par le « nouveau
-                    prêt » ou compensées avec le montant de celui-ci doit être absolument
-                    écartée.</p>
-                <p>L’on peut dire que le cas de l’espèce est un exemple typique de novation,
-                    laquelle diffère justement du paiement en ce que l’ancienne dette n’est
-                    éteinte que par la substitution d’une nouvelle, en ce que le débiteur
-                    paye debitum pro débita.</p>
-                <p>La question a une importance capitale en l’espèce, où ce dont il s’agit
-                    est de savoir si la Banque peut faire état des inscriptions qui
-                    garantissaient ses anciennes créances et où, la novation étant admise,
-                    la Banque pourrait se prévaloir de la disposition de l’art. 252 C.C. qui
-                    admet la survivance des anciennes garanties.</p>
-                <p>Contrairement à l’art. 1278 Fr., qui exige une réserve expresse encore
-                    que non sacramentelle, l’art. 252 C.C. (l’art. 255 n’est applicable
-                    qu’aux garanties personnelles) exclut la survivance des garanties
-                    qu’assuraient l’ancienne dette, sauf l’effet de l’intention des parties
-                    résultant de la convention ou des circonstances.</p>
-                <p>A bon droit les premiers juges ont admis que l’intention des parties
-                    était de laisser subsister les anciennes inscriptions, pour le cas où la
-                    nouvelle ne viendrait pas en premier rang.</p>
-                <p>Elle se dégage incontestablement de l’art. 17 de l’acte de 1929, qui
-                    prévoit que la Banque ne fera « application » du prêt que si elle
-                    s’assure qu’il n’existe d’autres inscriptions que celles à son
-                    profit.</p>
-                <p>Cette clause manifeste la volonté formelle des parties que la Banque
-                    vienne en premier rang pour sa créance, et elle sous-entend évidemment
-                    que si la Banque ne faisait pas usage de la faculté qui lui est réservée
-                    par le cinquième alinéa de l’article 17 (de considérer l’acte de 1929
-                    comme nul au cas où l’hypothèque y consentie ne venait pas au premier
-                    rang) les anciennes inscriptions, qui venaient en premier rang, seraient
-                    maintenues.</p>
-                <p>La circonstance que la Banque s’est comportée, vis-à-vis du contrat de
-                    1929, comme si l’inscription prise en vertu de lui venait en premier
-                    rang (alors qu’il n’en était pas ainsi) ne peut signifier qu’elle
-                    abandonnait sa prétention de venir en premier rang en vertu de ses
-                    anciennes inscriptions, mais simplement qu’elle n’avait pas voulu user
-                    de la faculté ci-dessus quant à la nouvelle obligation elle-même.</p>
-                <p>Or, le maintien des anciennes inscriptions et la prétention de la Banque
-                    de leur faire sortir effet ne portant pas atteinte à un droit acquis des
-                    appelants qui ont rang après les anciennes inscriptions et qui savaient
-                    donc qu’ils devaient les'subir, Ja décision des premiers juges est
-                    absolument juste et doit être confirmée.</p>
-            </div></div>
-            <div type="case">
-                <head>198. - Obligations. — Obligations de ne pas faire; inexécution; mise en
-                    demeure préalable; inutilité. .</head>
-                <div type="summary">
-                    <p>En matière d’obligation de ne pas faire, il n’y a pas lieu, en cas
-                        d’inexécution par le débiteur, à une mise en demeure préalable.</p>
+                        <pb n="211" rendition="Gazette des Tribunaux Mixtes."/>
+                        <p>cédemment hypothéqués, en faveur de l’ensemble de la dette.</p>
+                        <p>Une nouvelle dette étant venue ainsi se substituer aux anciennes, et, en
+                            partie, des nouveaux débiteurs étant venus se substituer ou s’adjoindre
+                            aux anciens, c’est à bon droit que les premiers juges ont décidé que
+                            c’est une novation des anciennes dettes qu’avait opéré l’acte de 1929 et
+                            la prétention des appelants qu’elles ont été payées par le « nouveau
+                            prêt » ou compensées avec le montant de celui-ci doit être absolument
+                            écartée.</p>
+                        <p>L’on peut dire que le cas de l’espèce est un exemple typique de novation,
+                            laquelle diffère justement du paiement en ce que l’ancienne dette n’est
+                            éteinte que par la substitution d’une nouvelle, en ce que le débiteur
+                            paye debitum pro débita.</p>
+                        <p>La question a une importance capitale en l’espèce, où ce dont il s’agit
+                            est de savoir si la Banque peut faire état des inscriptions qui
+                            garantissaient ses anciennes créances et où, la novation étant admise,
+                            la Banque pourrait se prévaloir de la disposition de l’art. 252 C.C. qui
+                            admet la survivance des anciennes garanties.</p>
+                        <p>Contrairement à l’art. 1278 Fr., qui exige une réserve expresse encore
+                            que non sacramentelle, l’art. 252 C.C. (l’art. 255 n’est applicable
+                            qu’aux garanties personnelles) exclut la survivance des garanties
+                            qu’assuraient l’ancienne dette, sauf l’effet de l’intention des parties
+                            résultant de la convention ou des circonstances.</p>
+                        <p>A bon droit les premiers juges ont admis que l’intention des parties
+                            était de laisser subsister les anciennes inscriptions, pour le cas où la
+                            nouvelle ne viendrait pas en premier rang.</p>
+                        <p>Elle se dégage incontestablement de l’art. 17 de l’acte de 1929, qui
+                            prévoit que la Banque ne fera « application » du prêt que si elle
+                            s’assure qu’il n’existe d’autres inscriptions que celles à son
+                            profit.</p>
+                        <p>Cette clause manifeste la volonté formelle des parties que la Banque
+                            vienne en premier rang pour sa créance, et elle sous-entend évidemment
+                            que si la Banque ne faisait pas usage de la faculté qui lui est réservée
+                            par le cinquième alinéa de l’article 17 (de considérer l’acte de 1929
+                            comme nul au cas où l’hypothèque y consentie ne venait pas au premier
+                            rang) les anciennes inscriptions, qui venaient en premier rang, seraient
+                            maintenues.</p>
+                        <p>La circonstance que la Banque s’est comportée, vis-à-vis du contrat de
+                            1929, comme si l’inscription prise en vertu de lui venait en premier
+                            rang (alors qu’il n’en était pas ainsi) ne peut signifier qu’elle
+                            abandonnait sa prétention de venir en premier rang en vertu de ses
+                            anciennes inscriptions, mais simplement qu’elle n’avait pas voulu user
+                            de la faculté ci-dessus quant à la nouvelle obligation elle-même.</p>
+                        <p>Or, le maintien des anciennes inscriptions et la prétention de la Banque
+                            de leur faire sortir effet ne portant pas atteinte à un droit acquis des
+                            appelants qui ont rang après les anciennes inscriptions et qui savaient
+                            donc qu’ils devaient les'subir, Ja décision des premiers juges est
+                            absolument juste et doit être confirmée.</p>
+                    </div>
                 </div>
-                <div type="litigants">
-                    <p>Cour d’Appel, 2me Ch., Prés. M. C. van Ackere, 11 Mars 1937. — Mostafa
-                        Aly Ghanem c. Hoirs Choukri bey Homsy.</p>
+                <div type="case" xml:id="gtme-1938-07-0210">
+                    <head>198. - Obligations. — Obligations de ne pas faire; inexécution; mise en
+                        demeure préalable; inutilité. .</head>
+                    <div type="summary">
+                        <p>En matière d’obligation de ne pas faire, il n’y a pas lieu, en cas
+                            d’inexécution par le débiteur, à une mise en demeure préalable.</p>
+                    </div>
+                    <div type="litigants">
+                        <p>Cour d’Appel, 2me Ch., Prés. M. C. van Ackere, 11 Mars 1937. — Mostafa
+                            Aly Ghanem c. Hoirs Choukri bey Homsy.</p>
+                    </div>
                 </div>
-            </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0220">
                     <head>199. - Obligations. — Pension alimentaire; convention relative au paiement
                         d’une pension pour l'entretien d'un enfant; clause d'exigibilité immédiate à
                         défaut de paiement d’un seul terme; portée; limites.</head>
@@ -3426,7 +3440,7 @@
                             atteigne l’âge de vingt ans ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0230">
                     <head>200. - Obligations. —- Personnel de la maison conjugale; obligation des
                         deux époux; règles de statut personnel; inopposabilité aux tiers.</head>
                     <div type="summary">
@@ -3544,7 +3558,7 @@
                             du statut personnel, si elle l’estime utile.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0240">
                     <head>201. - Obligations. — Renonciation tacite; preuve résultant de
                         présomptions en matière commerciale.</head>
                     <div type="summary">
@@ -3635,7 +3649,7 @@
                             jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0250">
                     <head>202. - Obligations. — Solidarité; défaut de stipulation expresse;
                         circonstances d'où elle peut résulter; compte courant; indivisibilité entre
                         les divers débiteurs tous tenus solidairement en l'absence de toute
@@ -3645,7 +3659,7 @@
                         connaissance du dérangement des affaires d’un commerçant; circonstances à
                         considérer du point de vue de sa situation commerciale uniquement. —
                         Faillite; nullités spéciales; époque à laquelle il convient de se placer
-                        pour apprécier la validité de l'acte. >—- Hypothèque; annulation; effet
+                        pour apprécier la validité de l'acte. &gt;—- Hypothèque; annulation; effet
                         quant au droit de préférence prévu par l'art. 560 C. Civ. -— Copropriété;
                         exercice de l'action des créanciers communs; application des art. 556 et
                         suiv. C. Civ.; caractère indivisible du contrat assurant aux créanciers des
@@ -3949,7 +3963,7 @@
                             Sociétés, pp. 47 et suivantes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0260">
                     <head>203. — Obligations. — Usure; preuve; portée d'une comptabilité suspecte du
                         créancier; preuve du montant exact de la créance arguée d'usure;
                         charge.</head>
@@ -3976,7 +3990,7 @@
                             E. Moghrabi &amp; Fils c. Ferdinand Mathias.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-07-0270">
                     <head>204. - Obligations. — Valeurs de Bourse; vente à tempérament avec réserve
                         de propriété et de possession au profit du vendeur; caractère de contrat
                         innommé; erreur sur le prix ne donnant pas lieu à annulation; réduction au
@@ -4554,11 +4568,11 @@
                             27 Avril 1938.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>205. - Obligations. >— Valeurs de Bourse; vente à tempérament avec réserve
-                        de propriété et de possession au. profit du vendeur; validité; majoration du
-                        prix ne donnant pas lieu à annulation; réduction du taux des intérêts
-                        calculés dans le prix; inadmissibilité.</head>
+                <div type="case" xml:id="gtme-1938-07-0280">
+                    <head>205. - Obligations. &gt;— Valeurs de Bourse; vente à tempérament avec
+                        réserve de propriété et de possession au. profit du vendeur; validité;
+                        majoration du prix ne donnant pas lieu à annulation; réduction du taux des
+                        intérêts calculés dans le prix; inadmissibilité.</head>
                     <div type="summary">
                         <p>La vente d’un titre de Bourse à tempérament, avec réserve de propriété au
                             profit du vendeur, et rétention du titre par ce dernier jusqu’à paiement
@@ -4732,8 +4746,8 @@
                             par le défendeur à l’audience du 1er Décembre 1937.</p>
                     </div>
                     <div type="observations">
-                        <p>Note. >— V. cep. en sens contraire, ci-avant § 204 le jug. Somm. Caire du
-                            20 Janvier 1937 et le jug. civ. confirmatif du 21 Février 1938.</p>
+                        <p>Note. &gt;— V. cep. en sens contraire, ci-avant § 204 le jug. Somm. Caire
+                            du 20 Janvier 1937 et le jug. civ. confirmatif du 21 Février 1938.</p>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0026-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0026-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1936-03-10">March 10, 1936</date><lb/>
-                    <biblScope unit="volume">Vol. 26</biblScope><lb/>
-                    <biblScope unit="number">No. 305</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1936-03-10">March 10, 1936</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 26</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 305</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -64,8 +75,8 @@
                     DEGIARDÉ)</p>
                 <p>M" E. DEGIARDE et LUCIEN BARDA (Secrétaires de la rédaction). S’adresser aux
                     Bureaux du Journal</p>
-                <p>M- A. FADEL (Directeur à Mansourah}. M? F. BRAUN > (Correspondants à Paris) Hue
-                    de la Gare du Laire, Alexandrie</p>
+                <p>M- A. FADEL (Directeur à Mansourah}. M? F. BRAUN &gt; (Correspondants à Paris)
+                    Hue de la Gare du Laire, Alexandrie</p>
                 <p>Me G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT ) Téléphone: 25924</p>
             </div>
             <div type="article">
@@ -349,7 +360,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-03-0010">
                     <head>126. — Dette Publique Egyptienne. •— Compétence des Juridictions Mixtes
                         d'Egypte; pouvoirs et qualités des ■Commissaires de la Dette Publique;
                         limites; Loi No. 17 de 1904; caractère de décret-traité; conséquences;
@@ -1361,7 +1372,7 @@
                             Gouvernement en vertu de la présente loi pour tout ce qui concerne le
                             service de la Dette », elle ne peut pas être comprise dans le même 9ne
                             si elle avait dit restrictivement</p>
-                        <p>> mexecution des obligations qui incombent au Gouvernement en vertu
+                        <p>&gt; mexecution des obligations qui incombent au Gouvernement en vertu
                             des</p>
                         <p>articles 30 à 36 de la présente loi seulement ».</p>
                         <p>C’est pourtant ce que le Gouvernement soutient à l’appui de son exception
@@ -2306,9 +2317,9 @@
                             livre, sterling anglaise à une valeur autre que celle qui lui est donnée
                             par la loi anglaise, et je me bornerai à examiner d’abord si la première
                             idée exprimée par MM. les Commissaires, d’après laquelle la monnaie de
-                            la Dette est la livre sterling (avec ou sans la spécification » or >>)
-                            est exacte, et s’ils sont justifiés à prétendre maintenant qu’il y a
-                            deux monnaies du contrat: livres et francs.</p>
+                            la Dette est la livre sterling (avec ou sans la spécification » or
+                            &gt;&gt;) est exacte, et s’ils sont justifiés à prétendre maintenant
+                            qu’il y a deux monnaies du contrat: livres et francs.</p>
                         <p>Avant de suivre la méthode de MM. les Commissaires, consistant à examiner
                             les titres et les autres documents, — méthode d’ailleurs correcte, si
                             l’on veut trancher la question de savoir quelle était la monnaie du
@@ -2337,14 +2348,14 @@
                         <p>MM. les Commissaires cherchent à sortir de cette impasse en disant que
                             l’unité de la Dette dans le cas qui nous est soumis ■est réalisée par le
                             fait que la substance de la Dette est la valeur de l’or, déterminée par
-                            son p>oids.</p>
+                            son p&gt;oids.</p>
                         <p>Mais s’il en est ainsi, les mots livres et ■francs ne représentent plus
                             l’expression des monnaies anglaise et française, mais simplement des
                             mesures différentes d’un certain poids d’or d’une finesse fixe, et
                             alors, dans ce cas, il n’y a pas deux monnaies, ni même une monnaie du
                             contrat, car il ne s’agira que d’un contrat d’or marchandise.</p>
                         <p>J’ai démontré dans mes premières conclusions que la Cour de La Haye
-                            n’avait q>as seulement écarté la thèse d’une monnaie internationale,
+                            n’avait q&gt;as seulement écarté la thèse d’une monnaie internationale,
                             mais aussi la thèse d’une monnaie marchandise, et j’ai cité à cet effet
                             M. André Prudhomme.</p>
                         <p>La Cour de La Haye a retenu, dans les affaires des Emprunts Serbe et
@@ -4728,7 +4739,7 @@
                             lois-traités » aux « décrets-contrats » ne se concevrait pas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-03-0020">
                     <head>127. - Paiement. — Contrats internationaux; définition; inapplicabilité
                         aux contrats entre les sociétés anonymes égyptiennes et leurs obligataires.
                         — Sociétés anonymes égyptiennes; loi régissant leurs rapports atvec leurs
@@ -5049,7 +5060,7 @@
                             international investi de la faculté de conférer à un signe représentatif
                             de valeur un pouvoir libératoire universellement et obligatoirement
                             reconnu.</p>
-                        <p>Aussi la thèse est précisée > et limitée dans le sens que cette
+                        <p>Aussi la thèse est précisée &gt; et limitée dans le sens que cette
                             qualification de « monnaie internationale » devrait être attribuée au
                             franc français tel que défini par la loi française du 7 Germinal an XI,
                             soit la 20me partie idéale d’une pièce d’or pesant gr. 6,4516 au titre

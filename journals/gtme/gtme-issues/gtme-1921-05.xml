@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1921-05-10">May 10, 1921</date><lb/>
-                    <biblScope unit="volume">Vol. 11</biblScope><lb/>
-                    <biblScope unit="number">No. 127</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1921-05-10">May 10, 1921</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 11</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 127</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -37,7 +48,7 @@
                 <p>DIRECTION,</p>
                 <p>RÉDACTION, ADMINISTRATION</p>
                 <p>Alexandrie,</p>
-                <p>î>, Rue Mahmoud Pacha ef-Falaky.</p>
+                <p>î&gt;, Rue Mahmoud Pacha ef-Falaky.</p>
                 <p>Tél. 12-44.</p>
                 <p>Bureaux au Caire,</p>
                 <p>-J, Rue Elfi bey.</p>
@@ -384,7 +395,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0010">
                     <head>134. - Adjudicataire. — Eviction. — ■Demande en réduction du prix. —
                         Conditions d’exercice. — Cas où l’expropriation a eu lieu sur affectation
                         hypothécaire. — Revendication. — Poursuivant. — Responsabilité. — Intérêts
@@ -483,7 +494,7 @@
                             seront touchés à raison du dépôt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0020">
                     <head>135. - Administration. — Responsabilité. — Insuffisance des égoûts. —
                         Municipalité d’Alexandrie.</head>
                     <div type="summary">
@@ -574,7 +585,7 @@
                             inondation, du quartier dans lequel est situé-ce magasin.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0030">
                     <head>136. - Bail. — Durée prévue au contrat. — Anticipation de l’entrée en
                         jouissance du locataire. — Conséquences. — Loi dit 21 Février 1920. —
                         Détermination du loyer légal. — Certificat d’impôt sur la propriété
@@ -603,7 +614,7 @@
                             Commission des Loyers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0040">
                     <head>137. - Bail. — Loi sur les loyers du 21 Lévrier 1920. — Action en
                         détermination de loyers. — Demande unique contre plusieurs locataires. —
                         Inadmissibilité du cumul. — Connexité.</head>
@@ -623,7 +634,7 @@
                     </div>
                 </div>
                 <pb n="105" rendition="GAZETTE DES TRIBUNAUX MIXTESD’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0050">
                     <head>138. - Bail. — Loi sur les loyers du 21 Février 1920. — Contestation sur
                         la majoration du loyer. — Clause attributive de 'Compétence au Tribunal
                         Sommaire.</head>
@@ -641,10 +652,10 @@
                             Wlandi c. Rose Zalzal et Ct.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0060">
                     <head>139. — Bail. - Loi sur les loyers du 21 ■Février 1920. — Détermination du
-                        loyer ■légal. — Cas où le loyer en Août 1914 ne >représentait pas la valeur
-                        locative réelle. — *Certificat d’impôt.</head>
+                        loyer ■légal. — Cas où le loyer en Août 1914 ne &gt;représentait pas la
+                        valeur locative réelle. — *Certificat d’impôt.</head>
                     <div type="summary">
                         <p>Lorsqu’il résulte des éléments de la -cause que le taux du loyer prévu au
                             contrat de 1914 avait été fixé à un taux exceptionnellement bas, parce
@@ -721,7 +732,7 @@
                             du droit strict.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0070">
                     <head>140. - Bail. — Loi" du 21 Février 1920. — Détermination du loyer légal. —
                         Ordre des preuves. — Certificat d’impôt. — Présomption subsidiaire au profit
                         du locataire.</head>
@@ -740,7 +751,7 @@
                         <p>Note. — Comp. cep. Gaz., XI, 36-53, et note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0080">
                     <head>141. - Bail. — Loi sur les loyers du 21 Février 1920. — Effets du congé au
                         point de vue de la majoration des loyers.</head>
                     <div type="summary">
@@ -754,7 +765,7 @@
                             Fichendjian esq. c. Garabed Bakalian).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0090">
                     <head>142. - Bail. — Loi sur les loyers du 21 Février 1920. — Résiliation pour
                         non paiement des loyers. — Sommation. — Loyers quérables.</head>
                     <div type="summary">
@@ -768,7 +779,7 @@
                             Hassassein c. Hugo Yanni)t</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0100">
                     <head>143. - Bail. — Loi sur les loyers du 21 Février 1920. — Retard dans le
                         paiement des loyers « légalement dus ». — Conséquences. — Détermination du
                         loyer légal. — Certificat d’impôt.</head>
@@ -787,7 +798,7 @@
                             c. Sté Belge Egyptienne de l'Ezbekieh).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0110">
                     <head>144. - Bail. — Loi sur les loyers du 21 Février 1920. — Taux spécial de
                         loyer. — Compétence Sommaire.</head>
                     <div type="summary">
@@ -803,7 +814,7 @@
                             Friiingos c. Ibrahim eff. Khouri).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0120">
                     <head>145. - Bail. — Loi sur les loyers du 21 Février 1920. — Taux spécial de
                         loyers. — Frais de mise en état de l’immeuble, faits par le
                         propriétaire.</head>
@@ -816,7 +827,7 @@
                             Dme Ésther Zarmatti.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0130">
                     <head>146. - Bail. — Loi sur les loyers du 21 Février 1921. — Appartement ayant
                         pour destination principale d’être sous-loué. — Détermination du loyer. —
                         Taxe Municipale de 2%.</head>
@@ -884,7 +895,7 @@
                             du bail litigieux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0140">
                     <head>147. - Bail. — Loi sur les loyers du 21 Février 1921. — Congé donné par le
                         bailleur en vue d’occuper lui-même l'habitation. — Besoin véritable et
                         légitime de l’habitation.</head>
@@ -936,7 +947,7 @@
                             non pas de leurs domestiques et des parents de leurs domestiques.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0150">
                     <head>148. - Bail. — Loi sur les loyers du 21 Février 1921. — Congé donné par le
                         bailleur en vue d’occuper lui-même l’habitation. —Besoinvéritable et
                         légitime de l’habitation.</head>
@@ -956,10 +967,10 @@
                     </div>
                     <div type="litigants">
                         <p>(Trib. Somm. Caire, Prés. M. Falqui Cao, 18 Avril 1921. — J. N. Mosseri
-                            et fils c. Orne Rachel Myr)>.</p>
+                            et fils c. Orne Rachel Myr)&gt;.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0160">
                     <head>149. - Bail. — Loi sur les loyers du 21 Février 1921. — Détermination du
                         loyer contractuel au 1er Août 1914. — Registre copie de lettres non paraphé,
                         ni visé; simple mention du paiement d’un loyer donné -Preuve
@@ -979,7 +990,7 @@
                             Triandafillou c. S. Timonieri).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0170">
                     <head>150. - Bail. — Loi sur les loyers du 2t Février 1921. — Expulsion
                         nécessitée par des réparations urgentes à l’immeuble. — Compétence du Juge
                         des Référés. — Mesures conservatoires. — Juridiction mixte. — Compétence
@@ -1137,7 +1148,7 @@
                         <p>Réserve les dépens; Ordonne l’exécution sur minute.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0180">
                     <head>151. - Bail. — Loi sur les loyers du 21 Février 1921. — Locaux loués à un
                         autre usage que celui d'habitation. — Demande de prorogation. — Délai. — Non
                         suspension pour cause de litige.</head>
@@ -1185,7 +1196,7 @@
                             fixation du point de départ du délai.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0190">
                     <head>152. - Bail. — Loi sur les loyers du 21 Février 1921. — Locaux loués à un
                         autre usage que celui d’habitation. — Demande en prorogation de bail. —
                         Possession conservée par abus. — Fonds de commerce. — Perte de clientèle. —
@@ -1286,7 +1297,7 @@
                             exécutoire sans caution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0200">
                     <head>153. - Bail. — Loi sur les loyers du 21 Février 1921. — Magasins et
                         bureaux sis dans une rue centrale. — Détermination du loyer légal. —
                         Majoration du 75 %.</head>
@@ -1303,7 +1314,7 @@
                             Achillofotfo c. Georges et Jacques de Zogheb).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0210">
                     <head>154. - Bail. — Loi sur les loyers du 21 Février 1921. — Magasin sis dans
                         une artère ayant eu un développement commercial. — Détermination du loyer
                         légal. — Majoration du 75%.</head>
@@ -1357,7 +1368,7 @@
                             compenser frais et dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0220">
                     <head>155. - Bail. — Loi sur les loyers du 21 Février 1921. — Magasins sis dans
                         une rue centrale. — Détermination du loyer légal. — Majoration du
                         100%.</head>
@@ -1401,7 +1412,7 @@
                             compensation partielle des frais.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0230">
                     <head>156. - Bail. — Loi sur les loyers du 21 Février 1921. — Majoration légale.
                         — Diminution de jouissance. — Présence d'un Club dans l’immeuble.</head>
                     <div type="summary">
@@ -1472,7 +1483,7 @@
                             pas encore exécutés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0240">
                     <head>157. - Bail. — Loi sur les loyers du 21 Février 1921. — Référés. —
                         Difficulté d’exécution. — Opposition à un jugement d’expulsion. — Sursis. —
                         Appel. — Effet dévolutif.</head>
@@ -1531,7 +1542,7 @@
                             Civil du 24 Mai 1920.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0250">
                     <head>158. - Bail. — Loi sur les loyers du 21 Février 1921. — Rétroactivité. —
                         Appel. — Effet dévolutif. — Référé. — Chose jugée. — Changement survenu dans
                         la législation depuis la date d’une décision de première instance. —
@@ -1603,7 +1614,7 @@
                             dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0260">
                     <head>159. - Bail. — Loi sur les loyers du 21 Février 1921. — Sous-location
                         partielle.</head>
                     <div type="summary">
@@ -1654,11 +1665,11 @@
                         <p>■1</p>
                         <p>7</p>
                         <p>r»</p>
-                        <p>»></p>
+                        <p>»&gt;</p>
                     </div>
                 </div>
                 <pb n="110" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0270">
                     <head>160. - Bail. — Loi du 21 Février 1921. — Stipulation antérieure à la loi
                         mettant fin au bail en cas de vente.</head>
                     <div type="summary">
@@ -1710,7 +1721,7 @@
                             pas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0280">
                     <head>161. - Bail. — Loi sur les loyers du 21 Février 1921. —- Taux des loyers.
                         — Maximum- légal. — Tacite reconduction.</head>
                     <div type="summary">
@@ -1725,7 +1736,7 @@
                             Vraila et Cts c. Philippe Lo Yaconno).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0290">
                     <head>162. - Bail. — Sous-location. — Infraction à la défense de sous-louer. —
                         Conséquences. — Résiliation. — Dommages-intérêts.</head>
                     <div type="summary">
@@ -1745,7 +1756,7 @@
                             V. Gaz. XI, 37-56, et note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0300">
                     <head>163. - Concordat préventif. — Vente de marchandises sujettes à
                         fluctuations. — Référé. — Urgence. — Mesures conservatoires. —
                         Commissionnaire pour acheter. — Privilège. — Gage. — Juridiction mixte. —
@@ -1858,7 +1869,7 @@
                     </div>
                 </div>
                 <pb n="111" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYETE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0310">
                     <head>164. - Patriarcats. — Compétence en matière de tutelle, de pension
                         alimentaire, et de succession ab intestat. — Cas où leur compétence dépend
                         de la soumission volontaire des parties. — Saisie - arrêt. — Titre liquide.—
@@ -2005,7 +2016,7 @@
                         <p>&lt; procès relatifs au trousseau; les procès seront</p>
                         <p>&lt; jugés au Patriarcat quand ils ont lieu à Cons-« tantinople et au
                             Métropolite quand ils ont lieu</p>
-                        <p>&lt; hors Constantinople >. (Circulaire du 3 Février 1891);</p>
+                        <p>&lt; hors Constantinople &gt;. (Circulaire du 3 Février 1891);</p>
                         <p>« Les matières de pension nées des actes de « mariage ou de leur
                             dissolution étant depuis « longtemps du ressort du Patriarcat, quand ces
                             « questions se présentent à Constantinople et de « celui de la Mourati
@@ -2057,7 +2068,7 @@
                     </div>
                 </div>
                 <pb n="112" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0320">
                     <head>165. - Privilège. — Frais d’amélioration. — Droit de rétention. —
                         Conditions d’exercice. — Action de in rem verso.</head>
                     <div type="summary">
@@ -2080,7 +2091,7 @@
                             Odobachi c. Salem Gad et et.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-05-0330">
                     <head>166. - Protêt. — Mandat d’encaissement. — Dommages-intérêts.</head>
                     <div type="summary">
                         <p>Le protêt d’un écrit qui, ne mentionnant pas la valeur reçue, ne peut

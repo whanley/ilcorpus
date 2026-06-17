@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0019-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0019-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1928-12-10">December 10, 1928</date><lb/>
-                    <biblScope unit="volume">Vol. 19</biblScope><lb/>
-                    <biblScope unit="number">No. 218</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1928-12-10">December 10, 1928</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 19</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 218</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -321,7 +332,7 @@
             <pb n="23" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0010">
                     <head>9. - Juridiction mixte. — Chose jugée des décisions rendues par les
                         Tribunaux indigènes ù l'égard des étrangers; inexistence. — Tribunaux mixtes
                         compétem-,-ment saisis; changement de nationalité d'une des parties en cours
@@ -466,7 +477,7 @@
                             Cour ne saurait s’arrêter à cette éventualité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0020">
                     <head>10. - Juridiction mixte. — Chose jugée devant elle, des décisions rendues
                         par d’autres juridictions; étendue et limites. — Décisions rendues par le
                         Juge du statut personnel en dehors de sa compétence; défaut d'effets
@@ -508,8 +519,8 @@
                         <p>I à III, - L’arrêt rapporté expose:</p>
                         <p>Attendu que Choukri Ibrahim ayant assigné Abdel Alim Aboul Leil devant le
                             Tribunal indigène de Béni-Souef a obtenu à son encontre jugement en date
-                            du 10 Février l‘->13, le condamnant ensemble avec Ahmed Aboul Leil à lui
-                            payer L.E. 880, et ce jugement a été confirmé par arrêt, de la Cour
+                            du 10 Février l‘-&gt;13, le condamnant ensemble avec Ahmed Aboul Leil à
+                            lui payer L.E. 880, et ce jugement a été confirmé par arrêt, de la Cour
                             indigène rendu le 7 Avril 1914;</p>
                         <p>Que sur la base de ce jugement Choukri Ibrahim a entrepris tout d'abord
                             en 1923 des poursuites immobilières devant la Juridiction indigène, mais
@@ -695,7 +706,7 @@
                             reprocher d’avoir violé la loi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0030">
                     <head>11. - Juridiction mixte. — Compétence à l'égard des étrangers non
                         capitulaires; compétence entre égyptiens et ottomans. — Honoraires
                         d'architecte; rémunération pour confection de plans et projets; avis du 12
@@ -844,7 +855,7 @@
                             demandeur peut prétendre pour honoraires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0040">
                     <head>12. - Juridiction mixte. — Compétence à'l'égard des étrangers non
                         capitulaires; Etats détachés de VEmpire Ottoman; Palestiniens.</head>
                     <div type="summary">
@@ -1366,7 +1377,7 @@
                             d’ailleurs fort discutables, comme sujets Ottomans.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0050">
                     <head>13. - Juridiction mixte. — Compétence à l'égard des étrangers non
                         capitulaires; Etats détachés de l'Empire Ottoman; Traité de Lausanne.</head>
                     <div type="summary">
@@ -1438,7 +1449,7 @@
                             par le Traité de Lausanne.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0060">
                     <head>14. - Juridiction mixte. — Compétence à l'égard des étrangers non
                         capitulaires; Ottomans.</head>
                     <div type="summary">
@@ -1523,7 +1534,7 @@
                             été mis en vigueur...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0070">
                     <head>15. - Juridiction mixte. — Compétence à l'égard des hellènes; nationalité
                         hellénique; preuve à fournir devant les Tribunaux mixtes; accord
                         gréco-égyptien de 1890; Traité de Londres du 17 Mai 1913.</head>
@@ -1613,7 +1624,7 @@
                             de Londres du 17 Mai 1913...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0080">
                     <head>16. - Juridiction mixte. — Compétence à l’égard des sociétés anonymes
                         étrangères; art. 14, al. 1 C. Civ.; applicabilité aux personnes morales;
                         société ayant champ d'exploitation et domicile juridictionnel obligatoire en
@@ -1835,7 +1846,7 @@
                             Cour use, en l’espèce, de son droit d’évocation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0090">
                     <head>17. - Juridiction mixte. — Compétence à l’égard des sociétés anonymes
                         étrangères; sociétés ayant leur siège administratif et leur principal
                         établissement en Egypte; émission d’obligations par la société, à
@@ -2040,7 +2051,7 @@
                             législation et au pays où elle a pris naissance» (Traité de Droit
                             International privé — T. II, page 786 et s.).</p>
                         <p>Et, se fondant sur le respect dû au droit acquis, le distingué auteur
-                            proclame que >,c'est là un droit régulièrement acquis à l’étranger et
+                            proclame que &gt;,c'est là un droit régulièrement acquis à l’étranger et
                             qui comme tel doit être respecté au dehors.»</p>
                         <p>A cette règle, il ne saurait y avoir d’autres exceptions que celles
                             émanant de la volonté même de la société, exprimée d’une manière non
@@ -2062,8 +2073,8 @@
                             adopta sans fléchissement, pendant un demi siècle, quand il s’agit de
                             sociétés ayant leur siège social à l’étranger et leur succursale en
                             Egypte.</p>
-                        <p>’ >r qu'est une succursale, sinon un centre d’exploitation encadré comme
-                            lui d’un rouage administratif? En droit comme en fait, où finit la
+                        <p>’ &gt;r qu'est une succursale, sinon un centre d’exploitation encadré
+                            comme lui d’un rouage administratif? En droit comme en fait, où finit la
                             notion succursale et où commence la notion centre d’exploitation? La
                             différence entre ces deux notions n’est pas d'ordre juridique, mais
                             d’ordre dosimétrique. Entre l’activité d’une succursale et l’activité
@@ -2361,7 +2372,7 @@
                         <p>Renvoie la cause devant la 2me Chambre...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0100">
                     <head>18. - Juridiction mixte. — Compétence en cas d'hypothèque à un étranger;
                         cas d'une inscription périmée et non renouvelée.</head>
                     <div type="summary">
@@ -2411,7 +2422,7 @@
                             les jugements attaqués.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0110">
                     <head>19. - Juridiction mixte. — Compétence en cas d’hypothèque à un étranger;
                         litige concernant l'assiette de l'hypothèque. —• Béférés; compétence pour
                         ordonner un constat; constatations louchant au fond.</head>
@@ -2478,7 +2489,7 @@
                             des droits des parties au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0120">
                     <head>20. - Juridiction mixte. — Prête-nom; conditions de validité au point de
                         vue. de la compétence.</head>
                     <div type="summary">
@@ -2624,7 +2635,7 @@
                             fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0130">
                     <head>21. - Juridiction mixte. — Prêle-nom; conditions de validité, au point de
                         vue de la compétence.</head>
                     <div type="summary">
@@ -2740,7 +2751,7 @@
                             preuve du vrai but de cette constitution sur sa légalité: Par exemple,
                             dans un arrêt du 20 Avril 1892 (Bull. IV, 203), il a été plaidé que
                             l'intimé n’était qu’un mandataire ad litem; biais rien n’indique que ce
-                            point ait été examiné par la Cour qui se contente de réité->er les
+                            point ait été examiné par la Cour qui se contente de réité-&gt;er les
                             motifs de l’arrêt originaire. Il est vrai que ces arrêts laissent
                             l’impression Que la Cour n’a pas à cette époque considéré la question du
                             but comme importante, mais il est également certain qu’elle ne parait
@@ -3007,7 +3018,7 @@
                             tel fait n’apporterait jamais un élément étranger dans la cause.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0140">
                     <head>22. - Juridiction mixte. — Prêle-nom; conditions de validité au point de
                         vue. de la compétence.</head>
                     <div type="summary">
@@ -3097,7 +3108,7 @@
                             différend devant leur juge" naturel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0150">
                     <head>23. - Juridiction mixte. — Prête-nom; conditions de validité au point de
                         vue de la compétence; cas où il n'existe qu’une cession fictive.</head>
                     <div type="summary">
@@ -3190,7 +3201,7 @@
                             compétent.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-12-0160">
                     <head>24. - Juridiction mixte. — Prête-nom; conditions de validité au point de
                         vue de la compétence; cas où il n'existe qu'une cession fictive.</head>
                     <div type="summary">

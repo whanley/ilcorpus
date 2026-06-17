@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0007-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0007-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1917-06-10">June 10, 1917</date><lb/>
-                    <biblScope unit="volume">Vol. 7</biblScope><lb/>
-                    <biblScope unit="number">No. 80</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1917-06-10">June 10, 1917</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 7</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 80</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -151,7 +162,7 @@
                 <p>Avril 1916 relative au « Marquis Bacquehem», les magistrats d’appel ont, en
                     termes exprès, maintenu comme un principe incontestable, ce point de vue que,
                     dans les décisions dont appel, le juge Cator avait développé déjà, en une
-                    argumentation aussi intéressante que catégorique &lt;*>: A aucun titre,
+                    argumentation aussi intéressante que catégorique &lt;*&gt;: A aucun titre,
                     l’immunité pouvant dériver pour les navires ennemis de la Convention du Canal,
                     de Suez ne peut leur profiter lorsqu’il est évident qu’ils ont choisi l’un des
                     port§ du Canal comme un port de refuge. '</p>
@@ -320,7 +331,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0010">
                     <head>357. - Accident. — Indemnité. — Mineur musulman. — Puissance paternelle. —
                         Meglis Hasby.</head>
                     <div type="summary">
@@ -339,7 +350,7 @@
                             Alohamed c. Wladimir Himeros).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0020">
                     <head>358. - Accident du travail. — Risques professionnels. — Chemins de
                         fer.</head>
                     <div type="summary">
@@ -363,7 +374,7 @@
                             Chemins de fer de la Basse Egypte c. Dame Zenab Hassan el Mamlouk).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0030">
                     <head>359. - Alluvions. — Accession. — Terrains déplacés par le fleuve. — Lit du
                         fleuve. —. Iles. — Loi sur la propriété territoriale, du 24 Zilkedjé 1274. —
                         Autorisation gouvernementale.</head>
@@ -579,7 +590,7 @@
                             sa responsabilité à l’abri des prétentions des tiers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0040">
                     <head>360. - Appel. — Taux de la demande. — Réduction après l’appel. —
                         Recevabilité.</head>
                     <div type="summary">
@@ -602,7 +613,7 @@
                         <p>Note. — V. arrêt 27 Mars 1917, Gaz., VII, 103-296.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0050">
                     <head>361. - Association en participation. — Dissolution par la' faillite d’un
                         participant.</head>
                     <div type="summary">
@@ -655,7 +666,7 @@
                             les comptes entre associés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0060">
                     <head>362. - Assurance contre l’incendie. — Déchéance.</head>
                     <div type="summary">
                         <p>Lorsque la police d’assurance contre l’incendie contient une clause
@@ -829,7 +840,7 @@
                         <p>Que l’examen du second moyen devient en conséquence sans intérêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0070">
                     <head>363. -Assurance maritime.— Clauses générales et conditions particulières.
                         — Point de départ du risque.</head>
                     <div type="summary">
@@ -854,7 +865,7 @@
                             Universelle c. Banque Belge pour 1‘Etranger et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0080">
                     <head>364. - Certificat hypothécaire. — Réquisition incomplète. — Surnom. .—
                         Greffier conservateur des hypothèques. — Responsabilité.</head>
                     <div type="summary">
@@ -930,7 +941,7 @@
                             l’abri des surprises comme celle qui a provoqué le procès actuel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0090">
                     <head>365. - Cession de créances. — Créances entre indigènes. — Absence de
                         consentement du débiteur cédé.—Exception tardivement proposée. —
                         Irrecevabilité.</head>
@@ -949,7 +960,7 @@
                             Diwédar et Cts c. Daniel Nessim Curiel).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0100">
                     <head>366. - Enquête. — Lieu 'de l'audition des témoins. — Limite des pouvoirs
                         du juge-commis. — Appel.-— Radiation. — Reprise. 1 -</head>
                     <div type="summary">
@@ -988,7 +999,7 @@
                             déplacement du tribunal ou d’un des magistrats qui le composent.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0110">
                     <head>367. - Exécution. — Procès-verbal de paiement. — Erreur sur le montant. —
                         Nouvelle exécution en vertu du même titre. — Irrecevabilité.</head>
                     <div type="summary">
@@ -1008,7 +1019,7 @@
                             A. Maryouk etCts L. Abdel Aal Issa).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0120">
                     <head>368. - Expert.'— Honoraires fixés d’avance avec une seule des parties.,—
                         Nullité de l’accord.</head>
                     <div type="summary">
@@ -1040,7 +1051,7 @@
                             professionnelles ■de l’expert.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0130">
                     <head>369. - Gardien judiciaire. — Non responsabilité du saisissant. —
                         Appel.</head>
                     <div type="summary">
@@ -1084,7 +1095,7 @@
                             main-levée de la saisie; ... . .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0140">
                     <head>370. - Hypothèque. — Bonne foi. — Opposabilité de la résolution de la
                         vente aux créanciers hypothécaires de l’acquéreur.</head>
                     <div type="summary">
@@ -1182,7 +1193,7 @@
                             résiliation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0150">
                     <head>371. - Hypothèque. — Inscription. — Intérêts. — Non rétroactivité du
                         nouvel art. 692 C. Civ.</head>
                     <div type="summary">
@@ -1204,7 +1215,7 @@
                     </div>
                 </div>
                 <pb n="124" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0160">
                     <head>372. - Hypothèque. — Trustée. — Concordat.</head>
                     <div type="summary">
                         <p>I. - Tous les créanciers au profit desquels l’acte d’hypothèque
@@ -1222,7 +1233,7 @@
                             autreC</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0170">
                     <head>373. - Jugement préparatoire. — Appel. — Irrecevabilité.</head>
                     <div type="summary">
                         <p>Le jugement qui se borne à ordonner la mise en cause d’une des parties,
@@ -1237,7 +1248,7 @@
                             Georges Bey Cordahi c. Michel Faraone).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0180">
                     <head>374. - Juridiction mixte. — Compétence. — Loi brésilienne. — Femme
                         étrangère épousant un Brésilien. — Nationalité. — Exterritorialité. —
                         Donation. — Contrat de constitution de dot. — Statut matrimonial. — Validité
@@ -1409,7 +1420,7 @@
                             contrat litigieux doit être tenu comme valable et obligatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0190">
                     <head>375. - Nationalité. — Certificat consulaire. — Conflit. — Juridiction
                         mixte. — Compétence.</head>
                     <div type="summary">
@@ -1428,7 +1439,7 @@
                             bey Azamel c. Hélène Panayotopoulo).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0200">
                     <head>376. - Propriété littéraire. — Presse. — Articles littéraires,
                         artistiques, scientifiques ou politiques. — Nouvelles et informations. —
                         Reproduction directe.</head>
@@ -1515,7 +1526,7 @@
                             bordereau de ce dernier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0210">
                     <head>377. - Renonciation à l’instance. — Effets.</head>
                     <div type="summary">
                         <p>La renonciation à l’instance non signifiée par huissier aux termes de
@@ -1529,7 +1540,7 @@
                             Hélène Greiss et Cts c. Habib bey Greiss et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0220">
                     <head>378. - Référé. — Expulsion. — Occupant sans titre.</head>
                     <div type="summary">
                         <p>Le fait qu’il y a litige sur la question de savoir si le locataire est un
@@ -1542,7 +1553,7 @@
                             Agawani c. F. H. Russel esq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0230">
                     <head>379. - Serinent supplétoire. — Jugement non signifié. — Défaut de la
                         partie à l’audience fixée pour la prestation. — Déchéance non
                         encourue.</head>
@@ -1559,7 +1570,7 @@
                             Deuletian c. dame Zannouba Vve de feu Mohamed bey Hamdi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0240">
                     <head>380. - Société. — Dissolution. — Fusion. — Obligations de la nouvelle
                         société vis-à-vis des tiers.</head>
                     <div type="summary">
@@ -1629,7 +1640,7 @@
                             litigieuse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0250">
                     <head>381. - Tiers détenteur. — Opposition à la sommation de payer ou de
                         délaisser.</head>
                     <div type="summary">
@@ -1641,7 +1652,7 @@
                             débiteur principal n’a pas fait opposition au commandement, le
                             saisissant ne pouvant exiger du tiers détenteur des biens hypothéqués,
                             plus que ce qui lui est dû (arrêt 28 Novembre 1900). Il peut soulever
-                            toutes les exceptions qui ' compétent soit à lui-même, soit au débi->
+                            toutes les exceptions qui ' compétent soit à lui-même, soit au débi-&gt;
                             teur (arrêt 9 Mars 1904) ; et il appartient au tiers détenteur de
                             discuter l’action hypothécaire dirigée contre lui et d’en faire
                             ressortir les nullités (arrêts 18 Mai’1904, 24 Mars 1910^29 Mai
@@ -1652,7 +1663,7 @@
                             Bayoumi Mohamed- Aly El Zayat c. Gresham Life Insurance Gy).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0260">
                     <head>382. - Transcription. — Opposabilité à l'acquéreur qui a transcrit son
                         titre au Greffe Mixte d’une précédente aliénation transcrite seulement au
                         Mekhémeh.</head>
@@ -1769,7 +1780,7 @@
                             fondée et doit être écartée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0270">
                     <head>383. - Transport (Contrat de). — Innavigabilité relative du navire. —
                         Preuve de la connaissance de cette innavigabilité par les armateurs et les
                         affréteurs principaux. — Dommages-intérêts. — Intérêts moratoires. —
@@ -1777,13 +1788,13 @@
                     <div type="summary">
                         <p>I. - Les armateurs et les affréteurs principaux sont responsables du
                             préjudice éprouvé par la marchandise chargée, si c’est par l’effet d’une
-                            cause antérieure au ' ></p>
+                            cause antérieure au ' &gt;</p>
                         <p>départ du navire, et d’eux connue avant ce moment, que le navire a mis
                             une durée (</p>
                         <p>plus longue que la normale pour effectuer ;</p>
                         <p>le voyage; parce que c’est une faute lourde ;</p>
                         <p>que d’accepter le chargement de marchan- i</p>
-                        <p>dises délicates et d’une conservation dit- ></p>
+                        <p>dises délicates et d’une conservation dit- &gt;</p>
                         <p>ficile, sur un navire exposé à faire une ;</p>
                         <p>traversée aussi longue; — mais c’est aux j</p>
                         <p>chargeurs qu’il appartient d’établir que g</p>
@@ -1807,7 +1818,7 @@
                             Motor Ship Cy Ltd et autres c. Mufarrij &amp; Nader et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0280">
                     <head>384. - Transporteur. — Avaries. — Manquant. — Fins de non recevoir des
                         art. 274 et 275 C. Com. Mar. — Expéditeur.</head>
                     <div type="summary">
@@ -1860,7 +1871,7 @@
                             transporteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0290">
                     <head>385. - Usages. — Opéràtions sur un marché sujeLà fluctuation. —
                         Preuve.</head>
                     <div type="summary">
@@ -1884,7 +1895,7 @@
                             fil^ c. Hanna Khalil).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0300">
                     <head>386. - Vente administrative. — Dénonciation de la saisie■ aux créanciers
                         inscrits. — Gouvernement. — Responsabilité. — Procédure d'ordre. —
                         Dénonciation des sommations aux créanciers inscrits. — Folle enchère.</head>
@@ -1941,8 +1952,8 @@
                         <p>On peut également objecter à F arrêt rapporté que, dans le système
                             nouveau par lui soutenu, si l’omission de la dénonciation de la saisie
                             aux créanciers inscrits n’entraîne pas nullité, il semble difficile de
-                            voir com- > ment une source de responsabilité pourrait naître à charge
-                            du Gouvernement du seul fait qu’il ne se serait pas conformé à un
+                            voir com- &gt; ment une source de responsabilité pourrait naître à
+                            charge du Gouvernement du seul fait qu’il ne se serait pas conformé à un
                             système par lui-même adopté par des instructions d’un caractère
                             nettement et purement intérieur. -</p>
                         <p>En effet, de deux choses l’une: ou la loi impose la dénonciation aux
@@ -2079,7 +2090,7 @@
                             enchères administratives).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0310">
                     <head>387. - Vente. — Absence de terme fixé. — Retard par le vendeur d’exiger
                         l'exécution. — Responsabilité.</head>
                     <div type="summary">
@@ -2159,7 +2170,7 @@
                             pousser jusqu’à l’abus l’exercice de son droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0320">
                     <head>388. -Vente commerciale. — Preuve par présomptions.</head>
                     <div type="summary">
                         <p>Une vente commerciale peut être prouvée par présomptions.</p>
@@ -2170,7 +2181,7 @@
                     </div>
                 </div>
                 <pb n="129" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0330">
                     <head>389. - Vente de marchandises. — Cotons., — Résolution de plein droit sans
                         mise en demeure.</head>
                     <div type="summary">
@@ -2184,7 +2195,7 @@
                             Naaman Ahmed c. Hoirs Abdallah Moussa Hamad et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0340">
                     <head>390. - Vente. — Force majeure. — Résiliation. — Acceptation tacite.</head>
                     <div type="summary">
                         <p>Alors même que les circonstances de prétendue force majeure invoquées par
@@ -2201,7 +2212,7 @@
                             Mahmoud Soliman c. C. H. Geahel &amp; Co).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0350">
                     <head>391. - Vente parfaite. — Prévision d’un cas déterminé de force majeure. —
                         Arrhes.</head>
                     <div type="summary">
@@ -2222,7 +2233,7 @@
                             Albert Palacci et Lie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0360">
                     <head>392. - Vente. — Résiliation aux torts de l’acheteur. — Validité de la
                         clause accordant au vendeur les acomptes reçus quelqu’en soit le
                         montant.</head>
@@ -2240,7 +2251,7 @@
                             Fabrik Deutz c. Cheikh Abou Aly Abde Maaboud).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0370">
                     <head>393. - Vérification d’écriture. — Microphotographie.</head>
                     <div type="summary">
                         <p>La vérification d’une signature à l'aide de la microphotographie
@@ -2256,7 +2267,7 @@
                             VII, p. 46.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0380">
                     <head>394. - Vérification de signature. — Obligation signée et cachetée.
                         —Dénégation de l’apposition d’un cachet. — Nécessité d’une inscription de
                         faux.</head>
@@ -2303,7 +2314,7 @@
                             d’avoir mal mené sa procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-06-0390">
                     <head>395. -Wakfs. — Prescription de 33 ans. — — Irrecevabilité de l'action. —
                         Fin de non recevoir.</head>
                     <div type="summary">

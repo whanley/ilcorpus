@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0027-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0027-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1937-10-10">October 10, 1937</date><lb/>
-                    <biblScope unit="volume">Vol. 27</biblScope><lb/>
-                    <biblScope unit="number">No. 324</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1937-10-10">October 10, 1937</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 27</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 324</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -58,7 +69,8 @@
                 <p>Comité de Rédaction et d'Administration :</p>
                 <p>M* L. FANGALO et R. 8CHEMEIL {Directeurs au Caire)</p>
                 <p>M*' E. DEGIARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
-                <p>M&lt; A. FADEL (Directeur à Mansourah). M« F. BRAUN > (0omspmdants â Parü)i</p>
+                <p>M&lt; A. FADEL (Directeur à Mansourah). M« F. BRAUN &gt; (0omspmdants â
+                    Parü)i</p>
                 <p>Me G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT j</p>
                 <p>Administrateur-Gérant :</p>
                 <p>Joseph A. Degiarde.</p>
@@ -90,7 +102,7 @@
                 <p>Pour les autres Puissances Capitulaires, c’est-à-dire pour celles qui ne
                     déclareraient pas vouloir user de cette faculté, de même que pour les autres
                     étrangers relevant des Tribunaux Mix- j tes en vertu de la Déclaration No. 1 du
-                    > Gouvernement Royal Egyptien à Mon- I freux, qui vient de trouver son ex- \
+                    &gt; Gouvernement Royal Egyptien à Mon- I freux, qui vient de trouver son ex- \
                     pression dans le Décret-loi No. 88 de ; 1937, (***) ce sont désormais les Tribu-
                     j naux Mixtes qui exerceront la juridic- ' tion en matière de statut
                     personnel.</p>
@@ -427,7 +439,7 @@
             <pb n="326" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-10-0010">
                     <head>218. - Mehkémehs Chariehs. — Décisions rendues par les Mehkémehs Chariehs;
                         Juridiction Mixte sans qualité pour discuter le bien ou le mal fondé de ces
                         décisions.</head>
@@ -489,7 +501,7 @@
                             d’infirmer l’ordonnance attaquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-10-0020">
                     <head>219. - Minorité. — Survenance de la majorité en cours d'instance; défaut
                         d’intervention ou de mise en cause du mineur devenu majeur; cas où il ne met
                         pas obstacle à ce qu'il soit statué à son égard.</head>
@@ -534,7 +546,7 @@
                             représentation régulière aux débats...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-10-0030">
                     <head>220. - Patriarcats. &lt;— Compétence en matière de successions ab
                         intestat; condition; compétence des Mehkémehs à défaut d’accord des parties;
                         demande en délivrance d’un Elam Charéi à une autorité religieuse,
@@ -637,7 +649,7 @@
                             distribution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-10-0040">
                     <head>221. - Statut personnel. — Puissance paternelle; étendue; acquisition par
                         un père au nom de ses enfants mineurs; question de validité; compétence des
                         Tribunaux du statut personnel; examen de leur décision par les Tribunaux
@@ -729,7 +741,7 @@
                             droit mérite donc d’être infirmé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-10-0050">
                     <head>222. - Statut personnel hellénique. — Exécuteur testamentaire; qualité
                         juridique; rémunération.</head>
                     <div type="summary">
@@ -792,7 +804,7 @@
                             réalisations, à L.E. 1000...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-10-0060">
                     <head>223. - Statut personnel hellénique. — Femme hellène; mariage de la femn'ie
                         mineure de dix-huit ans; capacité relative. ‘— Mineur; dol; fausse
                         déclaration de majorité ne suffisant pas à constituer le dol générateur de
@@ -961,7 +973,7 @@
                             accorder.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-10-0070">
                     <head>224. - Statut personnel hellénique. — Minorité; annulation d'une vente
                         immobilière faite sans les formalités légales; délai.</head>
                     <div type="summary">
@@ -1056,7 +1068,7 @@
                             l’acte authentique de vente dont s’agit...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-10-0080">
                     <head>225. - Statut personnel musulman. — Dévolution héréditaire; compétence du
                         Mehkémeh. — Statut personnel français; héritier disparu; absence non
                         déclarée; droits héréditaires comprenant des immeubles sis en Egypte;
@@ -1518,11 +1530,11 @@
                             par rapport au nombre des experts et à la complexité de la mission.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-10-0090">
                     <head>226. - Succession musulmane.,— Dettes successorales; responsabilité
                         personnelle des héritiers à concurrence du profit retiré de la succession.
-                        >— Succession musulmane insolvable; dévolution à la masse des créanciers des
-                        biens successoraux; exclusion de toute cause de préférence entre les
+                        &gt;— Succession musulmane insolvable; dévolution à la masse des créanciers
+                        des biens successoraux; exclusion de toute cause de préférence entre les
                         créanciers; héritier; compensation avec une créance contre le de cujus;
                         inadmissibilité.</head>
                     <div type="summary">
@@ -1639,7 +1651,7 @@
                             réelle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-10-0100">
                     <head>227. - Succession musulmane. — Responsabilité personnelle de l'héritier;
                         ratification par un héritier d'un acte passé au profit d'un cohéritier;
                         effet; défaut d'engagement personnel.</head>
@@ -1754,7 +1766,7 @@
                             formulé pareille demande par voie d’appel incident.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-10-0110">
                     <head>228. - Succession musulmane. — Séparation des patrimoines; dettes
                         successorales; privilège des créanciers successoraux; vente d'un immeuble
                         successoral consentie par un héritier dans une succession insolvable;
@@ -2213,7 +2225,7 @@
                             l’acquéreur dont le titre émane du véritable propriétaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-10-0120">
                     <head>229. - Succession musulmane. — Testament; limite d'admissibilité des
                         dispositions testamentaires en cas d'existence d'héritiers. — Héritiers
                         réservataires; droits atteints par des actes dolosifs ou illicites; tierce
@@ -3220,7 +3232,7 @@
                 <p>Il importait donc de consacrer en fonction de cette délimitation nouvelle la
                     compétence dévolue à l'ensemble des Tribunaux Egyptiens de statut personnel.
                     C’est le but du quatrième projet de décret-loi.</p>
-                <p>Par &lt;> Tribunaux Egyptiens de statut personnel » il faut entendre non
+                <p>Par &lt;&gt; Tribunaux Egyptiens de statut personnel » il faut entendre non
                     seulement les Mehkémehs et les juridictions des communautés religieuses
                     non-musulmanes reconnues, mais encore les Méglis Hasbys et les Tribunaux
                     Nationaux.</p>
@@ -4031,7 +4043,7 @@
                 <p>Art. 1er . — Les taxes suivantes: '</p>
                 <p>1. ) Centimes additionnels de l’impôt sur: la propriété bâtie ou contribution sur
                     la : dite propriété.</p>
-                <p>2. ) Taxe sur les établissements publics ></p>
+                <p>2. ) Taxe sur les établissements publics &gt;</p>
                 <p>(cafés et restaurants) et sur les établisse-; ments industriels et commerciaux.
                     ;</p>
                 <p>3. ) Taxe sur le débit des boissons alcooliques.</p>

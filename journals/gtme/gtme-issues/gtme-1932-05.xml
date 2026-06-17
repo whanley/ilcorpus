@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1932-05-10">May 10, 1932</date><lb/>
-                    <biblScope unit="volume">Vol. 22</biblScope><lb/>
-                    <biblScope unit="number">No. 259</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1932-05-10">May 10, 1932</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 22</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 259</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -52,8 +63,8 @@
                 <p>D'ÉGYPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE ’</p>
                 <p>Publiée sous le Patronage du Conseil de l'Ordre des Avocats d’Egypte.</p>
-                <p>Fondateurs > M- MAXIME PUPIKOFEB et LÉON PANGALO, Avocats à la Cour. Directeur:
-                    M» MAXIME PÜPIKOFEB, Avocat à la Cour. ;</p>
+                <p>Fondateurs &gt; M- MAXIME PUPIKOFEB et LÉON PANGALO, Avocats à la Cour.
+                    Directeur: M» MAXIME PÜPIKOFEB, Avocat à la Cour. ;</p>
                 <p>Comité de Rédaction et d’Hdmlnistration :</p>
                 <p>M* L. PANGALO et R. SCHEMEIL (Directeurs au Caire)- -</p>
                 <p>M** E. DEGIARDÉ et LUCIEN BARDA, (Secrétaires de la rédaction).</p>
@@ -961,8 +972,8 @@
                     conséquences de droit pour le porteur.</p>
                 <p>Il n’est point besoin de transport ni de notification.</p>
                 <p>Jugé:</p>
-                <p>&lt;> Du moment que la signature d’un billet à ordre par une personne non visée à
-                    l’article 114 constitue un acte de commerce, l’on se trouve en matière
+                <p>&lt;&gt; Du moment que la signature d’un billet à ordre par une personne non
+                    visée à l’article 114 constitue un acte de commerce, l’on se trouve en matière
                     commerciale et ce sont les règles du Code de Commerce qu’on doit appliquer, tant
                     en matière de preuve qu’en ce qui concerne le taux d’intérêts » {Tribunal de
                     Commerce du Caire 2 Février 1932).</p>
@@ -971,7 +982,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0010">
                     <head>244. - Architecte. —• Uan.orair.es.; convention stipulée, sur la base du
                         prix des travaux; réduction ultérieure du montant à payer à l'entrepreneur;
                         réduction proportionnelle de plein droit du montant dû à
@@ -1033,7 +1044,7 @@
                             transaction est prouvé par la production des pièces officielles...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0020">
                     <head>245. - Cession de créance. — Créante civile entre indigènes; acceptation
                         anticipée du débiteur cédé; validité de la cession.</head>
                     <div type="summary">
@@ -1053,7 +1064,7 @@
                             Bull. XXIX, 574.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0030">
                     <head>246. - Cession de créance. — Créance, civile entre indigènes; cumul en une
                         même personne des qualités de cédant et cessionnaire; inutilité de la
                         notification de la cession.</head>
@@ -1072,7 +1083,7 @@
                             Raafat c. Joseph Zananiri et autre,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0040">
                     <head>247. - Cession de créance. — Créance civile entre indigènes; débiteur cédé
                         ayant plaidé le fond en première instance; exception d’incompétence des
                         Juridictions mixtes soulevée pour la première fois en degré d’appel;
@@ -1142,7 +1153,7 @@
                             premiers juges dont la Cour adopte les motifs...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0050">
                     <head>248. - Cession de créance. — Reconnaissance de dette; clause à ordre
                         permettant la cession sans nécessité du consentement du débiteur cédé. —
                         Cession; notification; énonciation dans l'acte introductif d’instance de la
@@ -1225,7 +1236,7 @@
                             preuve-du contraire, qui n’a pas été rapportée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0060">
                     <head>249. - Cession de créance. — Signification effectuée au cédant en état de
                         faillite; nullité ne pouvant profiter qu'aux créanciers du cédant. — Cession
                         d'une créance future ou sous condition; validité. — Cession en garantie;
@@ -1374,7 +1385,7 @@
                             Caramanos &amp; Co dont il n’est en aucune façon l’ayant-cause.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0070">
                     <head>250. - Courtage. — Demande, en paiement formée contre les deux parties
                         contractantes par une seule instance; recevabilité. — Droit au courtage;
                         absence de mandat donné au courtier; acceptation tacite par les parties de
@@ -1513,7 +1524,7 @@
                             Janvier 1930</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0080">
                     <head>251. - Courtage.—Demande en paiement formée contre les deux parties
                         contractantes par une seule instance; recevabilité. — Juridictions mixtes;
                         courtage; demande formée par un sujet local contre les deux parties
@@ -1643,7 +1654,7 @@
                             Janvier 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0090">
                     <head>252. - Courtage. — Droit au courtage; cas où il n'est pas acquis;
                         signature des deux parties contractantes sur une option trop sommaire pour
                         équivaloir à un accord préliminaire suffisant en matière de rcpfe
@@ -1743,7 +1754,7 @@
                             pour statuer également à son égard dans la présente affaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0100">
                     <head>253. - Courtage. — Droit au courtage; moment où U est acquis.</head>
                     <div type="summary">
                         <p>Le fait par un courtier, de s’être prêté, après avoir mené à bonne fin sa
@@ -1793,7 +1804,7 @@
                             définitif, que l’inexécution de l’accord soit due aux intimés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0110">
                     <head>254. - Courtage. — Droit au courtage; source de ce droit; nécessité d'un
                         accord; mode de preuve; attitude des parties pouvant suffire à former la
                         conviction du juge.</head>
@@ -1916,7 +1927,7 @@
                             disjoindre leur appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0120">
                     <head>255. - Courtage. — Droits du courtier; caractère de l'obligation au
                         courtage; taux en matière de vente; action en paiement du courtage; parties
                         tenues au courtage. — Actes de commerce; opérations de banque; créances
@@ -2111,7 +2122,7 @@
                             menée, à fin grâce à ses efforts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0130">
                     <head>256. - Courtage. — Intervention ne constituant pas courtage proprement
                         dit; demande de rémunération, entre coni-* merçants, pour un service rendu à
                         l'occasion de rapports commerciaux; incompétence du Tribunal Civil.</head>
@@ -2126,7 +2137,7 @@
                     </div>
                     <div type="litigants">
                         <p>Trib. Civ., Alex., 3me Ch.» Prés. Jonkheer van Aach van Wyck, 16 Juin
-                            1932. — Ibrahim Abaouate c. Reinh art et Cc> et autres.</p>
+                            1932. — Ibrahim Abaouate c. Reinh art et Cc&gt; et autres.</p>
                     </div>
                     <div type="decision">
                         <p>Jugement.</p>
@@ -2211,7 +2222,7 @@
                             du Tribunal Civil eu égard à la qualité des contractants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0140">
                     <head>257. - Courtage. — Nature juridique; caractère de louage d'ouvrage ou de
                         mandat; service du courtier non conforme à la convention des parties;
                         absence de droit à toute rémunération; rémunération due pour les services
@@ -2453,7 +2464,7 @@
                     </div>
                 </div>
                 <pb n="226" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0150">
                     <head>258. - Courtage. — Taux; usage adopté en Egypte en matière de vente; cas
                         où une partie a payé au courtier la totalité de sa rémunération; recherche
                         de l'intention des parties.</head>
@@ -2598,7 +2609,7 @@
                             juges mérite confirmation pure et simple.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0160">
                     <head>259. - Courtage. — Taux usuel en matière de prêt; cas où il y a lieu de
                         s'en écarter.</head>
                     <div type="summary">
@@ -2616,7 +2627,7 @@
                             c. Nicolas Zananiri.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0170">
                     <head>260. - Donation. — Acte apparent régulier; donation déguisée; validité.
                         —Simulation; preuve entre parties.</head>
                     <div type="summary">
@@ -2685,7 +2696,7 @@
                             du 25 Mars 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0180">
                     <head>261. - Donation. — Eviction du dona* taire; recours en garantie;
                         conditions d'admissibilité; stipulation contraire. — Action oblique; droit
                         du cessionnaire au bénéfice de l'action oblique; cédant; présence du cédant
@@ -2765,13 +2776,13 @@
                             1921, fait cession de sa créance envers le Sieur ’. Moursi Mohamed Abdel
                             Salam El Kholi, : telle que résultant du susdit acte hypothécaire du 1er
                             Juin 1921, avec toute due su- ,</p>
-                        <p>brogation, et ce pro solvendo à I A.-igl > s</p>
+                        <p>brogation, et ce pro solvendo à I A.-igl &gt; s</p>
                         <p>Egyptien Bank;</p>
                         <p>Que, par la suite, cependant, il s’est ré- i</p>
                         <p>vélé que. par acte authentique du 23 Jan- •</p>
                         <p>vier 1920, ayant fait l’objet d’une inscrip- i</p>
                         <p>tion le lendemain, sous No. 4009, la Dame ‘</p>
-                        <p>Mokattafa elle-même avait consenti hypo- ></p>
+                        <p>Mokattafa elle-même avait consenti hypo- &gt;</p>
                         <p>thèque au profit de la même Dame Emilie ;</p>
                         <p>Castro, sur une quantité, de 101 feddans et 15 kirats, parmi lesquels 11
                             feddans à pren- i. dre par indivis dans 44 feddans sis au sus- l</p>
@@ -2881,7 +2892,7 @@
                             condamnation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0190">
                     <head>262. - Donation. — Vente déguisant une donation; validité — Donation;
                         cause; livraison; cas où la donation porte sur un immeuble où continuent à
                         habiter donataire et donateur; validité; transfert de la possession. —
@@ -3106,7 +3117,7 @@
                             annulation...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0200">
                     <head>263. - Entrepreneurs et architecte. — Honoraires; offre faite par un
                         entrepreneur à un particulier, n'impliquant pas obligation de payer des
                         honoraires; droit de l'architecte à la rémunération de son travail; cas où
@@ -3158,7 +3169,7 @@
                     </div>
                 </div>
                 <pb n="230" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0210">
                     <head>264. - Gage immobilier. — Conditions de validité; gage retournant en la
                         possession du débiteur; nullité du gage; exception en cas de location
                         stipulée ou transcrite. — Gage immobilier sur des biens indivis; nullité. —
@@ -3296,7 +3307,7 @@
                             la réduire à L.E. 13 par feddan.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0220">
                     <head>265. - Mandat. — Acte fait par le mandataire en dehors des limites de ses
                         pouvoirs conférés; ratification tacite du mandant. — Vente; défaut de
                         paiement du prix; résolution stipulée de plein droit; inapplicabilité en
@@ -3668,7 +3679,7 @@
                             lors subordonnée à aucune condition du tout...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0230">
                     <head>266. - Mandat. — Actes accomplis, par le mandataire en dehors des limites
                         de ses pouvoirs; pouvoirs apparents de nature à tromper les tiers de bonne
                         foi; responsabilité du mandant en pareil cas.</head>
@@ -3716,7 +3727,7 @@
                         <p>Attendu, en ce qui concerne les conclusions principales de l’appelante,
                             qu’il est constant d’une part que tant la note de commande que la traite
                             portant la mention: « Pour la Bonneterie Hellénique S.A., le Directeur
-                            Chloros >>;</p>
+                            Chloros &gt;&gt;;</p>
                         <p>Qu’il résulte d’autre part de la procuration authentique donnée à Athènes
                             le 3 Oc</p>
                         <p>tobre 1929 que Chloros avait reçu seulement le pouvoir de vendre en
@@ -3788,7 +3799,7 @@
                             pas accueillie à l’égard de la Bonneterie Hellénique.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0240">
                     <head>267. - Mandat. — Mandat d'acheter; biens sous vente judiciaire; engagement
                         de payer au débiteur exproprié des sommes. constituant des avantages sans
                         cause ou dépassant les limites du mandat; nullité. — Obligations;
@@ -3975,7 +3986,7 @@
                             Cour de l’examen des autres moyens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0250">
                     <head>268. - Mandat. — Mandat d'agréeur; cumul des qualités de mandataire et de
                         vendeur; admissibilité. — Mandat gratuit: limite de la responsabilité du
                         mandataire; charge de la. preuve de la faute.</head>
@@ -4054,7 +4065,7 @@
                         <p>Qu’il y a lieu dès lors de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0260">
                     <head>269. - Mandat. — Substitution; art. 636 C. Civ.; interdiction au
                         mandataire de se faire substituer; effet de la substitution du mandataire;
                         responsabilité du mandataire originaire; tiers de bonne foi ayant traité
@@ -4215,7 +4226,7 @@
                             æquo et bono, constitue un dédommagement suffisant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0270">
                     <head>270. - Médecin. — Honoraires; mode de preuve; registres et carnets privés;
                         force probante. — Honoraires de médecin; évaluation; assistance continuelle
                         et visites isolées.</head>
@@ -4329,7 +4340,7 @@
                             pour action vexatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0280">
                     <head>271. - Personnes morales. — Classification en « associations » et «
                         fondations ». — Personnalité juridique; conditions auxquelles elle est
                         reconnue à tout corps organisé — Associations civiles; personnalité
@@ -4467,8 +4478,8 @@
                             dans l'Empire Ottoman, reconnaît quant à l’Egypte leur validité et leur
                             personnalité juridique, basée d’après lui sur les Capitulations et sur
                             un usage séculaire, consacré par l’assentiment et</p>
-                        <p>souvent, même &lt;> le concours le plus empressé » des autorités (V. I.
-                            I. P. 212 à 225);</p>
+                        <p>souvent, même &lt;&gt; le concours le plus empressé » des autorités (V.
+                            I. I. P. 212 à 225);</p>
                         <p>Qu’en outre M. Messina, dans son Traité sur le droit civil égyptien
                             mixte, I, II, p. 356, résumant son. opinion au sujet des fondations et
                             associations, retient que « tout être collectif, répondant à ces
@@ -4539,7 +4550,7 @@
                             droit à la demande suffisamment justifiée par les pièces.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-05-0290">
                     <head>272. - Personnes morales. — Conseil Général de la Communauté
                         Copte-Orthodoxe; personnalité juridique; droit d'ester en justice. — Droit
                         canon; propriété des biens appartenant aux membres\ du clergé suivant les
@@ -4964,7 +4975,7 @@
                 <p>Novembre » Décembre »</p>
                 <p>Janvier 1931</p>
                 <p>Février »</p>
-                <p>Mars ></p>
+                <p>Mars &gt;</p>
                 <p>Avril »</p>
                 <p>- Questions pénales.</p>
                 <p>- Assurances et transports maritimes. -Vente commerciale.</p>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0028-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0028-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1938-05-10">May 10, 1938</date><lb/>
-                    <biblScope unit="volume">Vol. 28</biblScope><lb/>
-                    <biblScope unit="number">No. 331</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1938-05-10">May 10, 1938</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 28</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 331</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -52,7 +63,8 @@
                 <p>Comité de Rédaction et d'Administration :</p>
                 <p>M“ L. PANGALO et B. SCHEMEIL (directeurs au Caire) M*» E. DEGIABDÉ et LUCIEN
                     BARDA (Secrétaires de la rédactionj,</p>
-                <p>M- A. FADEL (Directeur à Mansourah). M- E. BRAUN > (0orrespondants à Paris)</p>
+                <p>M- A. FADEL (Directeur à Mansourah). M- E. BRAUN &gt; (0orrespondants à
+                    Paris)</p>
                 <p>Me G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT f</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an), P.T. 150</p>
@@ -720,7 +732,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0010">
                     <head>114. - Assurance-accidents. — Déchéance pour fausses déclarations;
                         entreprises hasardeuses de l'assuré en dehors de son activité
                         professionnelle déclarée; preuve nécessaire.</head>
@@ -829,7 +841,7 @@
                             rentre parmi ceux couverts par l’assurance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0020">
                     <head>115. - Assurance. — Action de l’assureur contre l'auteur de l'accident;
                         recevabilité même en l’absence de toute mention . de subrogation à la
                         police; droit de l’auteur responsable de discuter l'existence et
@@ -892,7 +904,7 @@
                             contre l'auteur de l'accident survenu à l’assuré ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0030">
                     <head>116. - Assurance. &lt;— Assurance conclue auprès d’une compagnie étrangère
                         couvrant une marchandise à expédier d’Egypte; incompétence des Juridictions
                         Mixtes; obligation de la compagnie, non subordonnée à la réception par
@@ -1118,7 +1130,7 @@
                             premiers juges sur ce point.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0040">
                     <head>117. - Assurance. — ‘Commissions; droit des agents producteurs; étendue et
                         limites.</head>
                     <div type="summary">
@@ -1201,7 +1213,7 @@
                             tous les dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0050">
                     <head>118. - Assurance-incendie. — Action directe de la victime du sinistre
                         contre l'assureur de l'auteur responsable. — Ilesponsabilité; incendie;
                         nécessité de la preuve de la faute.</head>
@@ -1286,7 +1298,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0060">
                     <head>119. - Assurance-incendie. ■— Déchéance pour réticence ou fausse
                         déclaration; cas où les mots employés sont suffisamment compréhensifs;
                         aggravation de risque; dépôt de matière inflammable non déclaré; cas où U
@@ -1297,7 +1309,7 @@
                     <div type="summary">
                         <p>I. - Le fait par l’assuré de n’avoir pas précisé, en contractant une
                             assurance contre l’incendie sur des marchandises désignées comme «
-                            toutes sortes de vêtements >>, qu’il s’agissait d’un commerce de
+                            toutes sortes de vêtements &gt;&gt;, qu’il s’agissait d’un commerce de
                             vêtements usagés, ne constitue ni une réticence, ni une fausse
                             déclaration de nature à entraîner la déchéance du bénéfice de
                             l’assurance, alors que l’assureur a négligé de faire préciser un élément
@@ -1529,7 +1541,7 @@
                             matière d’assurance-vol.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0070">
                     <head>120. - Assurance-incendie. — Objet de l'assurance; limite; brulûre d'un
                         appareil en fonctionnement, non couverte par l'assurance.</head>
                     <div type="summary">
@@ -1565,7 +1577,7 @@
                             ne donnent aucun droit à une indemnité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0080">
                     <head>121. - Assurance-vie. — Cession d'une police dépourvue de la clause à
                         ordre; applicabilité des règles de la cession de créance; condition de
                         régularité d'une cession du bénéfice d'une police.</head>
@@ -1656,7 +1668,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0090">
                     <head>122. - Assurance-vie. — Clause d'exonération; suicide de l'assuré; preuve;
                         présomption; admissibilité.</head>
                     <div type="summary">
@@ -1721,7 +1733,7 @@
                             le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0100">
                     <head>123. - Assurance-vie. — Déchéance pour défaut de paiement des primes; mise
                         en demeure; nécessité d’une sommation régulière ou d’un acte équivalent, à
                         défaut de toute stipulation formelle de déchéance de plein droit. — Primes;
@@ -1815,7 +1827,7 @@
                             Novembre 1933, du 26 Avril 1934 et du 28 Mars 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0110">
                     <head>124. - Assurance-vie. — Déchéance pour réticences et fausses déclarations
                         de l'assuré; effet; clause d'incontestabilité de la police; portée; cas de
                         fraude de l'assuré.</head>
@@ -1926,7 +1938,7 @@
                             contrats d'assurance sur la vie », par Me Bernard Schemeil.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0120">
                     <head>125. - Assurance-vie. —- Déchéance pour réticences et fausses déclarations
                         de l’assuré; effet; clause d’incontestabilité de la police; portée; cas de
                         fraude de l’assuré.</head>
@@ -2121,7 +2133,7 @@
                         <p>Note. — V. ci-avant § 124 l’arrêt du 22 Décembre 1937, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0130">
                     <head>126. - Assurance-vie. ,— Faillite de l'assureur; résiliation du contrat
                         d'as-sUrance à scs torts et griefs; conséquences; détermination de la
                         créance des assurés aux fiits de leur admission à la faillite; cas de prêts
@@ -2405,7 +2417,7 @@
                         <p>Frais à charge de la masse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0140">
                     <head>127. - Assurance-vie. -— Loi applicable entre, assureur, assuré et
                         bénéficiaire de même nationalité. — Capital assuré; attribution;
                         bénéficiaire; substitution; condition; assurance souscrite en garantie•_
@@ -2629,7 +2641,7 @@
                             faire droit à ses conclusions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0150">
                     <head>128. - Assurance-vie. —■ Revendication du montant assuré basée sur la
                         contestation de la validité d'un avenant; cas où la contestation vise l'état
                         mental de l'assuré; compétence de la Juridiction Mixte; sursis à statuer et
@@ -2651,7 +2663,7 @@
                             Vassilopoulo c. Eftihia Pantazidis et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0160">
                     <head>129. - Assurance-vol. — Déchéance pour réticence sur des faits importants;
                         condition à laquelle elle entraîne la déchéance de la police; assurance
                         contre le vol; réponse imprécise et insuffisante quant à des vols
@@ -2710,7 +2722,7 @@
                     </div>
                 </div>
                 <pb n="140" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0170">
                     <head>130. - Paiement. — Assurance-vie; monnaie de paiement; assurance conclue
                         en Egypte entre une compagnie étrangère et un assuré domicilié en Egypte,
                         stipulant le paiement en francs » tout court; législation applicable et
@@ -2859,7 +2871,7 @@
                             26 Novembre 1931, Gaz. XXIII, 238-271.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0180">
                     <head>131. - Paiement. — Clause-or; clause de paiement à l'équivalence de l’or;
                         clauses de paiement en monnaie étrangère; nullité; portée; application de la
                         règle légale aux contrats internationaux; tempéraments à la règle légale;
@@ -3381,7 +3393,7 @@
                         <p>1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0190">
                     <head>132. - Paiement. — Clause-or; clause de paiement à T équivalence de l'or;
                         clauses de paiement en monnaie étrangère; nullité; portée. — Décret-loi du L
                         Août 1914; Décret-loi du 2 Mai 1935; portée; inapplicabilité aux emprunts
@@ -3806,7 +3818,7 @@
                             aux tribunaux une entière indépendance. « Nous avons une base », disait
                             M. Auriol: « La Loi de 1928. Nous avons voulu, par le texte en
                             discussion, consolider l’œuvre édifiée par la jurisprudence. en toute
-                            conscience et en toute indépendance. Rien n’est changé >> (v.</p>
+                            conscience et en toute indépendance. Rien n’est changé &gt;&gt; (v.</p>
                         <p>Journal Officiel français, Débats Parlementaires, No. 17 de Février
                             1937);</p>
                         <p>Attendu donc, qu’en examinant l’emprunt litigieux sous l’angle de cette
@@ -4003,7 +4015,7 @@
                             mémoires écrits que cette solution s’imposait en base des lois du cours
                             forcé égyptien, puisqu’on y lit ce qui suit: » La piastre égyptienne,
                             bien que dévaluée, continue à conserver dans l’ordre interne sa même
-                            valeur libératoire >>;</p>
+                            valeur libératoire &gt;&gt;;</p>
                         <p>A ce moment, The Land Bank of Egypt invoqua-t-elle le cours forcé
                             égyptien, pour dire que peu lui importait la valeur réelle des piastres,
                             que pour elle la piastre papier était équivalente à la piastre or, et
@@ -4131,7 +4143,7 @@
                             1938, ci-avant § 131.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0200">
                     <head>133. - Paiement.— Clause-or; Décrets-lois égyptiens de 1944 et de 1935;
                         inapplicabilité aux contrats stipulés à l'étranger en monnaie étrangère et
                         devant être exécutés à l'étranger; jugements étrangers comportant
@@ -4205,7 +4217,7 @@
                             montant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0210">
                     <head>134. - Paiement. — Compensation', créance; caractère liquide; condition;
                         opposabilité de la compensation comme moyen de suspendre l’exécution; époque
                         où elle opère; effet rétroactif; effet suspensif , de la prescription. ■■—
@@ -4350,7 +4362,7 @@
                             tranché par l’arrêt du 17 Décembre 1929...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0220">
                     <head>135. - Paiement. — Compensation judiciaire; conditions.</head>
                     <div type="summary">
                         <p>La compensation judiciaire n’est pas admissible lorsque l'une des
@@ -4363,7 +4375,7 @@
                             4 Novembre 1936. — Elias Cossery c. Abraham Sara-gossi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0230">
                     <head>136. - Paiement. — Compensation; obligation facilement liquidable;
                         compensation légale; admissibilité.</head>
                     <div type="summary">
@@ -4378,7 +4390,7 @@
                             Sayed Hassan c. Catherine Char iss is.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0240">
                     <head>137. - Paiement. — Demande de condamnation en monnaie étrangère;
                         admissibilité.</head>
                     <div type="summary">
@@ -4490,7 +4502,7 @@
                         <p>Il ne l’a pas, estimant que son devoir l’empêchait.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0250">
                     <head>138. - Paiement. — Dette; caractère quérable; offre réelle impliquant
                         renonciation à ce caractère.</head>
                     <div type="summary">
@@ -4503,7 +4515,7 @@
                             Thomas c. J. P. Sal-vago &amp; Co.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0260">
                     <head>139. - Paiement. — Intérêts; vente immobilière; intérêts exigibles sur le
                         prix non payé à l’échéance. — Intérêts; prescription quinquennale;
                         inapplicabilité en cas de compte comportant des versements à intervalles de
@@ -4557,7 +4569,7 @@
                     </div>
                 </div>
                 <pb n=". 151" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0270">
                     <head>140. r Paiement. — Monnaie; indication en piastres égyptiennes d'une
                         marchandise livrée par un fabricant étranger à son client habituel d'Egypte;
                         intention des parties quant à la monnaie de paiement. — Paiement;
@@ -4658,7 +4670,7 @@
                             étrangères.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-05-0280">
                     <head>141. - Paiement. ■— Répétition; actions condictio indebiti, condictio sine
                         causa et in rem verso; distinction; conditions d'exercice de la condictio
                         indebiti; preuve de l'erreur; cas où elle n'est pas exigée; répétition de
@@ -4795,8 +4807,8 @@
                         <p>Note. Rappr. Gaz. XXVIII, 38-33 l’arrêt du 9 Mars 1937.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>142. - Paiement >— Société anonyme; litige concernant sa monnaie de
+                <div type="case" xml:id="gtme-1938-05-0290">
+                    <head>142. - Paiement &gt;— Société anonyme; litige concernant sa monnaie de
                         paiement; droit d’intervention des porteurs de parts de fondateur. —
                         Compagnie Universelle du Canal Maritime de Suez; statut monétaire; franc-or
                         universel, monnaie de compte internationale; Décrets du 2 Août 4914 et du 2

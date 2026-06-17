@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1928-10-10">October 10, 1928</date><lb/>
-                    <biblScope unit="volume">Vol. 18</biblScope><lb/>
-                    <biblScope unit="number">No. 216</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1928-10-10">October 10, 1928</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 18</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 216</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -288,7 +299,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0010">
                     <head>331. - Architecte. — Responsabilité; erreur de conception; cas où le
                         propriétaire p a participé. — Honoraires d'architecte; ~cas où il y a lieu
                         de les calculer sur le montant de fournitures accessoires à la construction.
@@ -350,7 +361,7 @@
                             honoraires dus à leur mandataire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0020">
                     <head>332. - Assurance-vie. — Police; clause dérogatoire de compétence; nullité.
                         — Police d'assurance: lieu de formation du contrat; Heu d'exécution. —
                         Police conçue en «francs»; monnaie de paiement du capital; détermination
@@ -471,7 +482,7 @@
                             contrat adopté par les parties, d’infirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0030">
                     <head>333. - Cautionnement. — Libération de la caution déterminée par la perte
                         de garanties réelles par la faute du créancier.</head>
                     <div type="summary">
@@ -582,7 +593,7 @@
                         <p>Qu’il échet donc de faire droit à l’opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0040">
                     <head>334. - Cautionnement. ■— Obligation ■commerciale; théorie de V accessoire;
                         preuve du cautionnement; preuve de la solidarité.</head>
                     <div type="summary">
@@ -692,7 +703,7 @@
                             défendeurs...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0050">
                     <head>335. - Cession. — Cessionnaire étranger d'un contrat conclu entre sujets
                         locaux; défaut d'aggravation de la. situa- — tion du cédé; validité.
                         Juridiction mixte; compétence en. cas de cession à un préte-nom. — Cession;
@@ -793,11 +804,11 @@
                             n’importe quelle forme, des dommages-intérêts.</p>
                         <p>Dans ces conditions, il échet d’infirmer le jugement déféré et faisant
                             partiellement droit à l’appel de condamner les intimés à restituer les
-                            sommes reçues avec les intérêts au taux de 5 0>0 l’an à partir de
+                            sommes reçues avec les intérêts au taux de 5 0&gt;0 l’an à partir de
                             l’assignation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0060">
                     <head>336. - Cession. — Obligation portant clause à ordre; cession; validité en
                         l'absence de toute signification au débiteur cédé. — Jugement homologuant
                         une transaction; caractère de titre exécutoire. — Cessionnaire étranger; non
@@ -931,7 +942,7 @@
                             sur la présente opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0070">
                     <head>337. - Cession de créance. — Cession .apparente; contre-lettre;
                         reconnaissance d'une cession partielle; mandat de recouvrement au profit du
                         cessionnaire; irrévocabilité du mandat.</head>
@@ -1051,7 +1062,7 @@
                             et simplement le jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0080">
                     <head>338. - Contrat innommé. — Cession de fonds de commerce avec louage des
                         services du cédant; rupture de contrat; effets. .— Vente avec stipulation
                         d'un terme indéterminé pour le paiement du prix; détermination de l'échéance
@@ -1089,8 +1100,8 @@
                             014 mill. (le prix de cette dernière catégorie d’objets devant être payé
                             au fur et à mesure de leur emploi);</p>
                         <p>Qu'en outre, aux termes de l’art. 5 du dit ■contrat. Mavridès '•odn't à
-                            la Ma.-- ■';■. T ! 1. en ctiii.-ùdéruiion d s achats ei-dc-- ;■■> ri
-                            ■■>-</p>
+                            la Ma.-- ■';■. T ! 1. en ctiii.-ùdéruiion d s achats ei-dc-- ;■■&gt; ri
+                            ■■&gt;-</p>
                         <pb n="266" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>tionnés, son fonds de commerce comprenant notamment son nom commercial,
                             ses marques et ses formules de préparation;</p>
@@ -1245,7 +1256,7 @@
                             ce point.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0090">
                     <head>339. - Etablissements de prêts sur gages incorporels. — Titres perdus ou
                         volés; Décret du 21 Décembre 1900; charge de la preuve de la bonne foi du
                         porteur.</head>
@@ -1295,7 +1306,7 @@
                             déterminé les premiers juges, et que la Cour adopte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0100">
                     <head>340. - Mandat. •— Action en désaveu; époque à laquelle elle peut être
                         intentée. — Avocat.</head>
                     <div type="summary">
@@ -1431,7 +1442,7 @@
                             condamnée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0110">
                     <head>341. - Mandat. — Expert commis à la vente de marchandises; qualité de
                         mandataire du demandeur; faute de l'expert; responsabilité du demandeur. —
                         Frais et dépens; réclamation en justice; taxation préalable indispensable.
@@ -1526,7 +1537,7 @@
                             ■</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0120">
                     <head>342. - Mandat. — Hypothèque; pouvoir général d'hypothéquer sans
                         spécification de biens; hypothèques valablement consenties par le
                         mandataire. — Hévoca-lion du mandataire; preuves incombant au mandant;
@@ -1594,7 +1605,7 @@
                             ont maintenu le commandement dont est opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0130">
                     <head>343. - Mandai. .— Salaire; exécution partielle du mandat; cas où le
                         salaire convenu n’est, pas dû; inapplicabilité de-l’art. 628 C. Civ.</head>
                     <div type="summary">
@@ -1676,7 +1687,7 @@
                             émises par les premiers juges quant au montant de ces débours...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0140">
                     <head>344. - Mandat. — Substitution; conditions d'existence; action directe du
                         mandant et des tiers contre le substitué; mandataire du mandataire; défaut
                         d'action directe du mandant. — Juridiction mixte; compétence en matière
@@ -1766,7 +1777,7 @@
                             l’inversion de la légitime compétence: ce qui ne saurait être admis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0150">
                     <head>345. - Obligations. — Applicabilité de l'exception non adimpleti
                         contractas aux obligations de ne pas faire. — Servitudes réciproques.
                         .</head>
@@ -1824,7 +1835,7 @@
                             prévaut de l’exception non adimpleli contractas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0160">
                     <head>346. - Obligations. — Convention; faiblesse d'esprit; appréciation par les
                         Tribunaux en cas de dol ou d'erreur. — Prescription; reconnaissance d'une
                         dette prescrite; défaut d'erreur. — Intérêts; anatocisme; acceptation de la
@@ -1968,7 +1979,7 @@
                             appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0170">
                     <head>347. - Obligations. — Dépôt de sommes d'argent à la Caisse des Fonds
                         Judiciaires; caractère de dépôt irrégulier; règles du paiement applicables.
                         — Paiement sur fausse procuration, sans faute du créancier; obligation du
@@ -2072,7 +2083,7 @@
                             été formulés contre le Greffe.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0180">
                     <head>348. - Obligations. — Fausse cause; cause réelle licite; validité de
                         l'obligation. —• Bail; effet souscrit à un copropriétaire en règlement, d'un
                         loyer supérieur à celui accepté par les autres communistes; validité. ■— Loi
@@ -2200,7 +2211,7 @@
                             leur auteur en date du 3 Mars 1923 au profit de Hassan eff. Fahmy...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0190">
                     <head>349. - Obligations. — Répétition de l'indu; bail; lois sur les loyers;
                         paiement non volontaire de loyers au-dessus du taux légal; droit du
                         locataire à la restitution de l’excédent.</head>
@@ -2286,7 +2297,7 @@
                             mais à partir de la demande en restitution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0200">
                     <head>350. - Obligations. — Retard dans l'exercice d'un droit; absence de
                         prescription ou d'échéance; maintien du droit. — Astreinte compensatoire;
                         caractère d'indemnité; intérêts; point de départ. — Dommages-intérêts;
@@ -2490,7 +2501,7 @@
                             Roma.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0210">
                     <head>351. - Obligations. — Société; ristourne prévue par les statuts au profit
                         des clients directs de. la Société; droit acquis de ces derniers à l'égalité
                         de traitement.</head>
@@ -2572,7 +2583,7 @@
                             après h; clôture de l’exercice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0220">
                     <head>352. - Patientent. — 'Art. 205 C. Civ.; nécessité de la preuve du profit
                         procuré ù autrui: impôts; paiement effectué par un copropriétaire; cas où le
                         remboursement ne peut être réclamé à Vautre copropriétaire.</head>
@@ -2674,7 +2685,7 @@
                             sa demande de mise hors de cause.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0230">
                     <head>353. - Servitudes. — Clauses restrictives imposées par une société
                         venderesse aux acheteurs de lots de terrain; caractère d'obligation
                         personnelle; défaut de lien de droit entre les acheteurs. — Op fre
@@ -2787,7 +2798,7 @@
                             transaction n’a pas abouti et que le procès a continué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0240">
                     <head>354. - Solidarité. — Codébiteurs solidaires; avantage consenti par le
                         créancier; remise de dette absolue; partage de ce bénéfice entre les
                         codébiteurs; subrogation légale entre codébiteurs.</head>
@@ -3002,7 +3013,7 @@
                             Mortgage Co., puisque celle-ci déclare ne pas s'y opposer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0250">
                     <head>355. - Solidarité. ■— Codébiteurs solidaires; droit à la subrogation en
                         cas de paiement; perte des garanties de la créance par la négligence du
                         créancier; libération des codébiteurs solidaires. — Cession de créance;
@@ -3136,7 +3147,7 @@
                         <p>Qu’il échet en conséquence de confirmer le jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0260">
                     <head>356. - Stipulation pour autrui. — Bigles applicables en droit mixte;
                         promettant devenu créancier du stipulant; compensation impossible.</head>
                     <div type="summary">
@@ -3233,7 +3244,7 @@
                             est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-10-0270">
                     <head>357. - Subrogation. — Hypothèque; subrogation légale des tiers détenteurs;
                         action subrogatoire; point de départ; action en répétition des sommes payées
                         à valoir sur le prix d'un immeuble exproprié; conditions d'exercice; étendue

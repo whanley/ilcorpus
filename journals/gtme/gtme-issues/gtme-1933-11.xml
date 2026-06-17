@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0024-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0024-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1933-11-10">November 10, 1933</date><lb/>
-                    <biblScope unit="volume">Vol. 24</biblScope><lb/>
-                    <biblScope unit="number">No. 277</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1933-11-10">November 10, 1933</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 24</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 277</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -447,7 +458,7 @@
             <pb n="6" rendition="Gazette des Tribunaux Mixtes d'Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0010">
                     <head>1. - Administration. — Acte administratif; définition; conditions pour
                         qu'une déclaration de volonté constitue un acte administratif; acte non
                         conforme à la loi, vicié d'illégalité; responsabilité; compétence
@@ -600,9 +611,9 @@
                             d’égalité et d’objectivité qui doivent présider à son application.</p>
                         <pb n="7" rendition="Gazelle des Tribunaux .Mixtes d’Egypte."/>
                         <p>Le caractère indérogab'.e de cette troisième condition a été constamment
-                            déclaré par ta Cour >5 Janvier 1897, Bull. X, 95, T.D. I, No. 2458; 25
-                            Mars 1896, Bull. VIII, 168, T.D. I, No. 2474; 2 Juin 1898, Bull. X, 310,
-                            T.D. I, No. 3929; 9 Juin 1913, Bull. XXV, 425, T. D. III, No. 5205,
+                            déclaré par ta Cour &gt;5 Janvier 1897, Bull. X, 95, T.D. I, No. 2458;
+                            25 Mars 1896, Bull. VIII, 168, T.D. I, No. 2474; 2 Juin 1898, Bull. X,
+                            310, T.D. I, No. 3929; 9 Juin 1913, Bull. XXV, 425, T. D. III, No. 5205,
                             etc.). En effet, l’acte non conforme à la loi, vicié d’illégitimité,
                             n’est pas un acte administratif. Il est un fait arbitraire, donnant lieu
                             à responsabilité à titre de faute. Les limites juridictionnelles
@@ -697,7 +708,7 @@
                             1933 et du 17 Novembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0020">
                     <head>2. -•Administration. — Acte administratif; mesure administrative;
                         compétence juridictionnelle des Tribunaux mixtes; retrait de rokhsa; faculté
                         pour les tribunaux d'examiner s'il y a eu violation de ses conditions;
@@ -905,10 +916,10 @@
                             § 16 l’ord. Mans, du 24 Janvier 1933 et l’arrêt du 21 Juin 1933.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>3. - Administration. — Arrêté du 2!> Janvier 1896 portant règlement sur la
-                        batellerie; rokhsas de vendeurs ambulants à bord des navires; faculté pour
-                        l'Admi-nistration de les refuser ou de les retirer; exercice de cette
+                <div type="case" xml:id="gtme-1933-11-0030">
+                    <head>3. - Administration. — Arrêté du 2!&gt; Janvier 1896 portant règlement sur
+                        la batellerie; rokhsas de vendeurs ambulants à bord des navires; faculté
+                        pour l'Admi-nistration de les refuser ou de les retirer; exercice de cette
                         faculté; limites.</head>
                     <div type="summary">
                         <p>L’Administration, qui a un pouvoir souverain d’appréciation à l’égard des
@@ -982,7 +993,7 @@
                             rokhsa.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0040">
                     <head>4. - Administration. — Commissions locales; faculté d'ester en justice
                         pour la sauvegarde du domaine public. — Domaine public; lit du Nil;
                         haut-bord et terrains situés sur lés rives des fleuves et rivières
@@ -1094,7 +1105,7 @@
                             après l’introduction de l’instance, est d’avis d’y passer outre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0050">
                     <head>5. - Administration. — Commissions locales; personnalité juridique
                         indépendante de celle de l'Etat; attributions; saisie administrative
                         abusive; responsabilité; défaut de responsabilité de l'Etat en cas d'usage
@@ -1331,7 +1342,7 @@
                             réservée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0060">
                     <head>6. - Administration. — Commissions locales: taxes facultatives: étrangers:
                         Capitulations: immunité fiscale; renonciation; engagement personnel assumé
                         par un étranger; caractère irrévocable; transfert à une société de
@@ -1484,11 +1495,13 @@
                             Pispinis Frères, ou par les frères Pispinis.</p>
                         <p>La taxe a donc été bien payée, et le jugement qui en a ordonné à tort la
                             restitution mérite d’être infirmé.</p>
-                        </div><div type="observations"><p>Note; -- l à III. - V. ég. ci-avant § 1 l’arrêt du 4 Mai 1933 et ci-après
+                    </div>
+                    <div type="observations">
+                        <p>Note; -- l à III. - V. ég. ci-avant § 1 l’arrêt du 4 Mai 1933 et ci-après
                             § 7 et 9 les arrêts du 30 Novembre 1933 et du 17 Novembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0070">
                     <head>7. - Administration. — Commissions locales; taxes facultatives; étrangers;
                         Capitulations; immunité fiscale; rénonciation; engagement personnel assumé
                         par un étranger; caractère licite; transfert à une société de l'obligation
@@ -1617,7 +1630,7 @@
                             1er Juin 1933. et ci-après ? 9 l’arrêt du 17 Novembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0080">
                     <head>8. - Administration. — Commissions locales; taxes facultatives; étrangers;
                         Capitulations; immunité fiscale; renonciation; engagement personnel assumé
                         par un étranger exploitant un fonds de commerce; portée; Arrêté du 26
@@ -1798,7 +1811,7 @@
                     </div>
                 </div>
                 <pb n="14" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0090">
                     <head>9. - Administration. — Commissions locales; taxes facultatives; étrangers;
                         Capitulations; immunité fiscale; renonciation; erreur; inadmissibilité;
                         engagement personnel assumé par un étranger; caractère irrévocable;
@@ -1957,7 +1970,7 @@
                             1er Juin 1933 et du 30 Novembre 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0100">
                     <head>10. - Administration. — Compétence; action personnelle dirigée contre le
                         Gouvernement Egyptien et basée sur des rapports relevant d'une
                         Administration centrale; compétence du Tribunal mixte du Caire; mesure de
@@ -2030,7 +2043,7 @@
                             l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0110">
                     <head>11. - Administration. — Domaine public; concession à un particulier;
                         caractère de droit public; contrat administratif; règles applicables;
                         interprétation; réserve de reprise partielle pour travaux d'utilité
@@ -2528,7 +2541,7 @@
                             contre son vendeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0120">
                     <head>12. - Administration. — Douanes; Commission Douanière; composition non
                         soumise à l'application stricte des principes du droit pénal.—Juridiction
                         mixte; chose jugée ne dérivant pas, devant elle, des décisions
@@ -2585,7 +2598,7 @@
                             Cruscio. R O. t. 19, p. 144)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0130">
                     <head>13. - Administration. — Douanes; majoration des tarifs; marchandises ayant
                         fait l'objet d'un dépôt de droits, sur la base de l'ancien tarif, après
                         l’horaire réglementaire; caractère libératoire de ce paiement.</head>
@@ -2711,7 +2724,7 @@
                             l’arrêt rapport é. ;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0140">
                     <head>14. - Administration. — Douanes; Règlement Douanier Egyptien; contrebande
                         de hachiche; Décret du 18 Mars 1884; applicabilité aux étrangers nonobstant
                         l’expiration des conventions commerciales.</head>
@@ -2773,7 +2786,7 @@
                             l’arrêt rapporté. :</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0150">
                     <head>15. - Administration. — Douanes; Règlement Douanier Egyptien; contrebande
                         de hachiche; Décret du 18 Mars 1884; véhicules ayant servi au transport;
                         confiscation; caractère facultatif.</head>
@@ -2843,7 +2856,7 @@
                         <p>Convention Commerciale entre l’Egypte et la Grèce (17 articles). — 3 Mars
                             1884.</p>
                         <p>L’art. 5 exclut de cette convention le tabac, le tombac, le sel, le
-                            hachiche et le salpêtre, le Gouvernement Egyptien conservant >&lt; un
+                            hachiche et le salpêtre, le Gouvernement Egyptien conservant &gt;&lt; un
                             droit absolu par rapport à ces articles dont le régime sera applicable
                             aux sujets hellènes dans les mêmes conditions qu’aux sujets locaux ».
                             D’après l’art. 14, toute introduction de marchandises en contrebande «
@@ -2949,7 +2962,7 @@
                             Février 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0160">
                     <head>16. - Administration. — Etablissements incommodes, insalubres et
                         dangereux; Loi No. 13 de 1904; Arrêté du 29 Août 1904; changement de
                         propriétaire; non nécessité d'une autorisation nouvelle pour le transfert de
@@ -3907,7 +3920,7 @@
                             attendant le jugement à intervenir sur la contravention constatée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0170">
                     <head>17. - Administration. — Fonctionnaires étrangers du Gouvernement Egyptien;
                         Loi No. 28 de 1923; monnaie de paiement: option; caractère irrévocable;
                         demande de paiement à la parité de l'or; recevabilité; retenue pour droit de
@@ -4144,7 +4157,7 @@
                         <p>Renvoie cause et parties à l’audience du 13 Novembre 1933...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0180">
                     <head>18. - Administration. — Fonctionnaires 'étrangers du Gouvernement
                         Egyptien; Loi No. 28 de. 1923; solde d’expatriation; fonctionnaire étranger
                         ayant accepté d’être reconnu comme sujet égyptien; réintégration postérieure
@@ -4278,7 +4291,7 @@
                             rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0190">
                     <head>19. - Administration. — Impôts payés par erreur par un tiers pour des
                         terrains autres que ceux saisis administrativement; répétition de l'indu;
                         admissibilité; forclusion édictée par. le Décret du 26' Mars 1900 sur la
@@ -4398,7 +4411,7 @@
                             derniers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0200">
                     <head>20. - Administration. — Impôt sur la propriété bâtie; Décret du 13 Mars
                         1884; immeubles démolis et reconstruits après le 15 Novembre; caractère
                         obligatoire de la déclaration jusqu'au 1er Janvier; assujettissement à
@@ -4490,13 +4503,12 @@
                             doit être confirmé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0210">
                     <head>21. - Administration. — Lois sur la presse; Loi du 26 Novembre 1881;
                         Arrêté du 19 Décembre 1881; décision du Conseil des Ministres du 25 Mars
                         1909; défaut d'assentiment des Puissances Capitulaires et d'approbation de
                         l'Assemblée Générale de la Cour d'Appel mixte; inapplicabilité aux
                         étrangers.</head>
-                    
                     <div type="observations">
                         <p>Note. — Le jug. du Trib. Civ. du Caire, du 21 Décembre 1931, rapporté en
                             ces colonnes, Gaz. XXII, 351-378 (aff. du journal « La Vérité », G.
@@ -4507,7 +4519,7 @@
                             administrative.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0220">
                     <head>22. - Administation. — Municipalité d'Alexandrie; Arrêtés du 24 Janvier
                         1899 du 3 Mai 1899, du 23 Janvier 1900 et du 11 Janvier 1927; taxe locative;
                         caractère personnel; sous-locataire; taxe due sur le montant du loyer de la
@@ -4599,7 +4611,7 @@
                             bono fixe à L.E. 15 l’indemnité pour les dommages en question.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0230">
                     <head>23. - Administration. — Municipalité d'Alexandrie; plages; exploitation;
                         actes de droit privé; cabines de bains de mer; emplacement; changement; acte
                         abusif; responsabilité de la Municipalité; clause autorisant Vadministration
@@ -4698,7 +4710,7 @@
                             l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0240">
                     <head>24. - Administration. — Municipalité d'Alexandrie; tare sur les
                         spectacles; Arrêté du 31 Mai 1927; applicabilité aux divers spectacles
                         payants d'une même exploitation; Lun a Park; perception initiale erronée;
@@ -4785,7 +4797,7 @@
                             à bon droit elle a été rejetée par les premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0250">
                     <head>25. - Administration. — Services publics; concession; retrait de la
                         concession; mode d'évaluation de l'indemnité due au concessionnaire; cas où
                         un régime de domanialité s'est substitué à un régime originaire de propriété
@@ -5189,7 +5201,7 @@
                             355-381, le jugement du 26 Mai 1931 confirmé par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0260">
                     <head>26. - Administration. — Service télégraphique international; erreurs de
                         transmission; responsabilité; clause d'exonération contractuelle;
                         inadmissibilité. — Convention télégraphique internationale de
@@ -5479,7 +5491,7 @@
                         <p>II. - Contra, ci-après § 27.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0270">
                     <head>27. - Administration. — Service, télégraphique international; erreurs de
                         transmission; responsabilité; clause d'exonération contractuelle;
                         inadmissibilité. — Convention télégraphique internationale de
@@ -5671,7 +5683,7 @@
                         <p>II. - Contra, ci-avant § 26.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0280">
                     <head>28. - Administration. — Taxe sur les gaffirs; Décret-loi No. 61 de 1931;
                         inapplicabilité à la propriété foncière rurale; Décret du 10 Novembre 1884;
                         inapplicabilité aux étrangers capitulaires.</head>
@@ -5765,8 +5777,8 @@
                             moins non pas seulement sur des éléments réels, donnent lieu à une
                             contribution personnelle, due à l’occasion et par suite d’une prestation
                             administrative spéciale: ce qui est caractéristique de la notion de taxe
-                            >> (jugement du Tribunal mixte Civil d’Alexandrie en date du 27 Mai
-                            1930);</p>
+                            &gt;&gt; (jugement du Tribunal mixte Civil d’Alexandrie en date du 27
+                            Mai 1930);</p>
                         <p>Que la saisie administrative litigieuse n’étant pas par conséquent
                             justifiée par la loi mixte, c’est-à-dire par la loi applicable aux
                             étrangers en conformité des accords internationaux visant leurs
@@ -5786,7 +5798,7 @@
                         <p>Condamne S.E. le Gouverneur d’Alexandrie ès qualité, aux frais...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0290">
                     <head>29. - Expropriation pour cause d’utilité publique. — Bâtiments; portion
                         frappée d'expropriation; droit du propriétaire à l'expropriation totale;
                         locataires; indemnité due en cas d'expropriation; base d'évaluation.
@@ -5811,7 +5823,7 @@
                             ,</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour. d’Appel> Sine Ch., " Prés. M. A. C. MacBarhét, 9 Mai 1933.
+                        <p>Cour. d’Appel&gt; Sine Ch., " Prés. M. A. C. MacBarhét, 9 Mai 1933.
                             Gouvernement Egyptien c. Docteur Khalil Badr et Cte.</p>
                     </div>
                     <div type="decision">
@@ -5885,7 +5897,7 @@
                             entreprise ailleurs...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0300">
                     <head>30. - Expropriation pour cause d’utilité publique. — Indemnité;
                         détermination; date à prendre en considération; immeubles; évaluation de
                         leur valeur vénale; inapplicabilité du Tarif Civil mixte; dépréciation de la
@@ -6143,7 +6155,7 @@
                             Gouvernement Égyptien c. F. Garozzo.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-11-0310">
                     <head>31. - Expropriation pour c ause d’utilité publique. — Jugement
                         interlocutoire ordonnant une expertise pour l'évaluation des terrains
                         expropriés; faculté pour rAdministration de contester le principe même de
@@ -6370,7 +6382,7 @@
                     que la : livre . égyptienne. avait atteint la.même valeur que., 1’0.1, car la
                     forcé obligatoire dé la loi est inhérente à- celle-ci et ne cesse pas,par le
                     seul fait que les rapports qui ont imposé sa promulgation auraient été modifiés,
-                    cessante rafionelegis non cessât lex ipsa; ‘ ; ; -..... -- >•-</p>
+                    cessante rafionelegis non cessât lex ipsa; ‘ ; ; -..... -- &gt;•-</p>
                 <p>Attendu’ que- .conformément à l’opinion constante' de ' là jurisprudence ' et de
                     là doctrine, l'institution par le susdit décret' du cours légal et forcé dans le
                     pays ayant pour bût dé Réglementer lés financés'dé ce dernier constitue un droit

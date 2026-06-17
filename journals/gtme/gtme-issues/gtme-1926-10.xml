@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0016-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0016-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1926-10-10">October 10, 1926</date><lb/>
-                    <biblScope unit="volume">Vol. 16</biblScope><lb/>
-                    <biblScope unit="number">No. 192</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1926-10-10">October 10, 1926</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 16</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 192</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -50,12 +61,12 @@
                 <p>tu lü n</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
-                <p>Fondateurs > M" MAXIME PUPIKOFER et LÉON PANG-ALO, Avocats à la Cour.</p>
+                <p>Fondateurs &gt; M" MAXIME PUPIKOFER et LÉON PANG-ALO, Avocats à la Cour.</p>
                 <p>Directeur: M* MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an).... P.T. 150</p>
                 <p>— au Journal ;</p>
-                <p>— Un an............. > 150</p>
+                <p>— Un an............. &gt; 150</p>
                 <p>— Six mois............. » 85</p>
                 <p>Comité de Rédaction et d*Administration :</p>
                 <p>M- It. PANGALO et R. SCHUMEIL (Directeurs au Caire).</p>
@@ -412,7 +423,7 @@
                     l’acheteur, ce dernier pourra facilement le présenter aux Bureaux de
                     transcription, em-semble à l’acte, pour transcrire les deux documents, ou le
                     jugement seul s’il renferme tous les éléments nécessaires à IL transcription. :
-                    ■ ■ ■ s ></p>
+                    ■ ■ ■ s &gt;</p>
                 <p>La Justice doit constater, disons-nous, le contrat lui-même, et le jugement nù
                     fait que reproduire cette constatation, et ne doit jamais constater le transfert
                     de ht propriété, étant donné, comme nous l’avons dit, que le transfert de la
@@ -442,7 +453,7 @@
                     vente que la question du transfert de la propriété; ce transfert ne s’opère
                     jamais par le pur consente-,ment mutuel des parties; Ja transcription ,est
                     indispensable. Tous les autres effets de la vente subsistent malgré le défaut de
-                    transcription, sauf le transfert de la Mopsiélé. . . .. ... ></p>
+                    transcription, sauf le transfert de la Mopsiélé. . . .. ... &gt;</p>
                 <p>Nous voyons certains rapports d’affinité et de similitude entre la propriété
                     bo-nitaire romaine, qui fait antithèse avec la propriété quiritairc romaine, et
                     le droit que possède l’acheteur avant la transcription de son acte, droit qui
@@ -549,7 +560,7 @@
             <pb n="301 ■" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0010">
                     <head>299. - Préemption. — Appel; défaut de ■ mise en cause du vendeur;
                         irrecevabilité.</head>
                     <div type="summary">
@@ -606,7 +617,7 @@
                             l'appel du préempteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0020">
                     <head>300. - Préemption. — Appel; défaut de mise en cause du vendeur;
                         irrecevabilité; cas où il existe une deuxième vente prétendument fictive et
                         où le vendeur de la première vente n'a pas été mis en cause. — Appel; motifs
@@ -729,7 +740,7 @@
                             recevable, faute d’avoir intimé les vendeurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0030">
                     <head>301. - Préemption. — Copropriété; retrait d'indivision; existence d'un
                         copropriétaire étranger; compétence de la Juridiction mixte; applicabilité
                         des Codes Mixtes; droit de rétention du copropriétaire en cas de retrait
@@ -844,7 +855,7 @@
                             réserve de lès réclamer par action séparée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0040">
                     <head>302. - Préemption. — Vente administrative; admissibilité de la préemption
                         en cas de vente après soumissions sous pli ' cacheté; délai d'exercice de
                         l'action.</head>
@@ -944,7 +955,7 @@
                             cette subrogation par l’art. 13 du -dit Décret du 26 Mars 1900.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0050">
                     <head>303. - Préemption. — Vente à plusieurs personnes le même jour;
                         recevabilité de la préemption sur l'ensemble du terrain «ainsi vendu.</head>
                     <div type="summary">
@@ -999,7 +1010,7 @@
                             celui-ci est déclaré mal fondé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0060">
                     <head>304. - Préemption. — Vente; défaut de transcription; Loi No. 19 de 1923;
                         irrecevabilité de la préemption.</head>
                     <div type="summary">
@@ -1061,7 +1072,7 @@
                             loi de 1923 ce qu’il appelle son esprit, ne supportant pas l’examen.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0070">
                     <head>305. - Préemption. — Vente; défaut de transcription; Loi No. 19 de 1923;
                         recevabilité de la préemption.</head>
                     <div type="summary">
@@ -1136,7 +1147,7 @@
                             recevable...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0080">
                     <head>306. - Préemption. — Vente; défaut de transcription; Loi No. 19 de 1923;
                         revente intérieure à la préemption mais transcrite postérieurement;
                         opposabilité au pré-empteur.</head>
@@ -1223,7 +1234,7 @@
                             être considérés comme irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0090">
                     <head>307. - Préemption. — Vente; défaut de transcription; Loi No. 19 de 1923;
                         revente antérieure à la préemption mais transcrite postérieurement;
                         opposabilité au pré-empteur.</head>
@@ -1249,8 +1260,8 @@
                             connu l’existence du contrat de revente.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Trib. Civ. Mansourah, 3me Ch., Prés. M. Pennetta, 29-Avril 192&lt;>. —
-                            Abdalla bey Abdel Samih et Cts c. Tewfik Jureidini et Cts).</p>
+                        <p>(Trib. Civ. Mansourah, 3me Ch., Prés. M. Pennetta, 29-Avril 192&lt;&gt;.
+                            — Abdalla bey Abdel Samih et Cts c. Tewfik Jureidini et Cts).</p>
                     </div>
                     <div type="observations">
                         <p>Note. — V. ci-avant § 304. 305 et 306 les jug. des 9 Avril 1925, 15 Mai
@@ -1467,9 +1478,9 @@
                             Mai;</p>
                         <p>Qu’en effet, il résulte de l’exploit signifié par les préempteurs
                             eux-mêmes qu’ils ont connu la vente précitée par le certificat
-                            hypothécaire. Or, le dit certificat porte la date du !> Novembre 1925;
-                            c’est donc, à partir de cette date que le délai de 15 jours a commencé à
-                            courir;</p>
+                            hypothécaire. Or, le dit certificat porte la date du !&gt; Novembre
+                            1925; c’est donc, à partir de cette date que le délai de 15 jours a
+                            commencé à courir;</p>
                         <p>Que la justification alléguée par les préempteurs — que le quartier au
                             Caire où habite la [Dame Tabet n’étant pas indiqué dans le certificat
                             hypothécaire ils assignèrent la Dame 'Tabet seulement le 8 Décembre,
@@ -1483,7 +1494,7 @@
                             du 8 Décembre a été notifié; que du reste, sur l’acte même du 16
                             Novembre le domicile de la Dame Tabet est indiqué à la Rue Tewfik ou à
                             la Rue Choubra No. 53. Or, il était très facile aux préempteurs de
-                            connaître le nouveau domicile de la dite Da->ne en prenant des
+                            connaître le nouveau domicile de la dite Da-&gt;ne en prenant des
                             renseignements à ce dernier domicile de la Rue Choubra qu’elle venait de
                             quitter;</p>
                         <p>Que, d’autre part, les préempteurs n’ont 'fourni aucune preuve des
@@ -1492,7 +1503,7 @@
                             leur est pas imputable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0100">
                     <head>308. - Propriété. — Preuve. — Jugement de partage; caractère déclaratif de
                         propriété, transcription; inopérance.</head>
                     <div type="summary">
@@ -1505,7 +1516,7 @@
                             Lloyd’s Bank Ltd. c. Mohamed Khadr Abou /Ag-our.et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0110">
                     <head>309. - Retrait litigieux. — Conditions; contre-lettre inopposable au
                         retrayant.</head>
                     <div type="summary">
@@ -1560,7 +1571,7 @@
                             partir du 31 Mars 1923...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0120">
                     <head>310. - Vente immobilière. — Nature du contrat; défaut de transcription;
                         refus de passation de l'acte authentique par le vendeur; jugement tenant
                         lieu de titre, susceptible de transcripiton.</head>
@@ -1747,7 +1758,7 @@
                             susdit acte du 24 Juin 1925 sera transféré en son nom...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-10-0130">
                     <head>311. - Vente immobilière. — Tekcliff; transfert; condition résolutoire
                         expresse; accomplissement «ipso jure»; échange; action en restitution du
                         prix; règlement avec le vendeur originaire.</head>
@@ -2108,7 +2119,7 @@
                     Travaux Publics sont chargés, chacun en ce qui le concerne, de l’exécution de la
                     présent© Loi qui entrera en vigueur dès sa publication au Journal Officiel.</p>
                 <p>Nous ordonnons que la présente Loi soit revêtue du sceau de l’Etat, publiée au
-                    Journal Officiel et exécutée comme loi &lt;L> l’Etat.</p>
+                    Journal Officiel et exécutée comme loi &lt;L&gt; l’Etat.</p>
                 <p>Fait au Palais de Mountazah, le 25 Août</p>
                 <p>Le Président du Conseil des Ministres, ADLY YEGHEN.</p>
                 <p>Le Ministre de l'intérieur, . ADLY YEGHEN.</p>
@@ -2569,17 +2580,18 @@
                     del citato art. 256: «Nel processo ver-«bale délia prima adunanza si enunciavano
                     «i fatti (la cui ciascuno dei suoi membri ri-«peta la sua qualité e si
                     dichiarerà se è rego-«larmente costituito», esclude che il compi-</p>
-                <p>mento di questa formalité teiidente ad accet- > tare l’esistenza di un consiglio
-                    di famiglia, — necessario presupposto di ogni deliberazione consigliere, — possa
-                    considerarsi corne deliberazione nel senso specifico. D’altronde, anche il capo
-                    dei citato art. 255 C.C. nel disporre una sanatoria semestrale circa
-                    l’im-pugnabilità degli atti, (per atti in questo caso non puô intendersi che
-                    deliberazioni del consiglio di famiglia) per difetto di costitu-zione, ribadisce
-                    la esclusione dalla catego-ria dette deliberazioni del consiglio stesso la
-                    verifica dei poteri voluta dal disposto del</p>
+                <p>mento di questa formalité teiidente ad accet- &gt; tare l’esistenza di un
+                    consiglio di famiglia, — necessario presupposto di ogni deliberazione
+                    consigliere, — possa considerarsi corne deliberazione nel senso specifico.
+                    D’altronde, anche il capo dei citato art. 255 C.C. nel disporre una sanatoria
+                    semestrale circa l’im-pugnabilità degli atti, (per atti in questo caso non puô
+                    intendersi che deliberazioni del consiglio di famiglia) per difetto di
+                    costitu-zione, ribadisce la esclusione dalla catego-ria dette deliberazioni del
+                    consiglio stesso la verifica dei poteri voluta dal disposto del</p>
                 <p>lo. «alinea». Questa disposizione va ravvici-nata alla dottrine délia nullité dei
                     n ego zi giuridici ed al fondamento giuridicô (telle disposizioni che governano
-                    la tutela. Munus publicum j>er il diritto romano, munus fami-liare per noi.</p>
+                    la tutela. Munus publicum j&gt;er il diritto romano, munus fami-liare per
+                    noi.</p>
                 <p>Comunque non bisogna dimenticare che nel consiglio di famiglia rettamente
                     orga-nizzato si armonizzano il diritto délia famiglia e quelle dette Stato, e
                     che di conseguenza tutto le norme che governano la tutela deb-bono considerarsi

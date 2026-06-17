@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0002-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0002-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1911-11-10">November 10, 1911</date><lb/>
-                    <biblScope unit="volume">Vol. 2</biblScope><lb/>
-                    <biblScope unit="number">No. 13</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1911-11-10">November 10, 1911</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 2</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 13</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -584,7 +595,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-11-0010">
                     <head>Assesseurs indigènes. — Tribunal Correctionnel. — Avocats (nomination
                         d’office). — Mandat.</head>
                     <div type="summary">
@@ -672,7 +683,7 @@
                         <p>Le Président: (s) F. Laloë.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-11-0020">
                     <head>Cassation. — Vices de forme. — Arrêté de classement de quartiers.</head>
                     <div type="summary">
                         <p>Le juge n’est pas tenu, dans un jugement en matière pénale, de copier le
@@ -684,7 +695,7 @@
                             c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-11-0030">
                     <head>Comparation personnelle en matière pénale. — Exceptions
                         préjudicielles.</head>
                     <div type="summary">
@@ -708,7 +719,7 @@
                             sestermes, à l’art. 159 C. Instr. Cr. Mixte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-11-0040">
                     <head>Délai de grâce. — Expropriation immobilière.</head>
                     <div type="summary">
                         <p>L’octroi d’un délai de grâce ne se conçoit d’aucune façon au cours d’une
@@ -725,7 +736,7 @@
                         <p>Note: — Dans le même sens: Arrêt du 10 décembre 1908.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-11-0050">
                     <head>Enquête (prolongation d’). — Contre-enquête (fixation de).</head>
                     <div type="summary">
                         <p>C’est à la partie intéressée à la contre-enquête qu’incombe la charge
@@ -746,21 +757,24 @@
                             Chryssali Catzulli).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-11-0060">
                     <head>Litispendance.—</head>
-                    <div type="summary"> <p>L’exception de renvoi pour cause de litispendance constitue
-                        aux termes de l’art. 151 Code Proc, un incident qui doit à bref délai être
-                        porté devant le Tribunal qui a été le premier saisi. Pour se conformer à
-                        cette prescription propre à la procédure égyptienne, il échet de fixer un
-                        bref délai pour porter cet incident devant le dit Tribunal et de déclarer
-                        d’ores et déjà que faute par les parties d’observer ce délai, le Tribunal
-                        devant lequel est soulevée l’exception demeurera saisi du litige.</p></div>
+                    <div type="summary">
+                        <p>L’exception de renvoi pour cause de litispendance constitue aux termes de
+                            l’art. 151 Code Proc, un incident qui doit à bref délai être porté
+                            devant le Tribunal qui a été le premier saisi. Pour se conformer à cette
+                            prescription propre à la procédure égyptienne, il échet de fixer un bref
+                            délai pour porter cet incident devant le dit Tribunal et de déclarer
+                            d’ores et déjà que faute par les parties d’observer ce délai, le
+                            Tribunal devant lequel est soulevée l’exception demeurera saisi du
+                            litige.</p>
+                    </div>
                     <div type="litigants">
                         <p>(Trib. Somm. Cairz, 11 O.toTre 1911 - R.S. Rizakis frères c. Aristide
                             Srderis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-11-0070">
                     <head>Louage de Services. — Patron. — Employé. — Renvoi non intempestif.</head>
                     <div type="summary">
                         <p>Le maître n’est pas tenu de conserver à son service — qu’il l’ait engagé
@@ -781,7 +795,7 @@
                             &amp; Grunfelds).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-11-0080">
                     <head>Ordonnance du Juge de service.— Recours. — Saisie Conservatoire.</head>
                     <div type="summary">
                         <p>I. L’exécution d’une ordonnance rendue: par le juge de service inaudita
@@ -1086,7 +1100,7 @@
                 <p>à 10 h. y a.m.</p>
                 <p>Abdel Latif Yehia suj. local domicilié à Alexandrie rue Colucci pacha N. 5 jug.
                     décl. 23 octobre 1911 cess. p. 4 septembre 1911 synd. prov. Meguerditchian synd.
-                    déf. 7 nov. 1911 à 10 h. y> a.m.</p>
+                    déf. 7 nov. 1911 à 10 h. y&gt; a.m.</p>
                 <p>Isaae Omessi suj. loc. dom. à Alexandrie Long El Tourki jug. décl. 23 oct. 1911
                     cess. p. 21 août 1911 synd. prov. Tabet Réun. synd. déf. 7 nov. 1911 à 10 h. y
                     a.m.</p>
@@ -1096,7 +1110,7 @@
                 <p>Aly Fayek El Yatim ottoman à Alexandrie rue Abou Warda propriété El Gheritli jug.
                     décl.</p>
                 <p>30 oct. 1911 cess. p. lersep. 1911 synd. prov. Meguerditchian Réun. synd. déf. 14
-                    nov.1911. à 10 > ,,a.m.</p>
+                    nov.1911. à 10 &gt; ,,a.m.</p>
                 <p>Claude Giraud français à Alexandrie rue Karmous ancien Moulin Français jug. décl.
                     30 oct. 1911 cess. p. 7 oct. 1911 synd. pr. Méguer-ditchian. Réun. synd. déf. 15
                     nov. 1911 à 10y a.m.</p>

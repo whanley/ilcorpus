@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1922-05-10">May 10, 1922</date><lb/>
-                    <biblScope unit="volume">Vol. 12</biblScope><lb/>
-                    <biblScope unit="number">No. 139</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1922-05-10">May 10, 1922</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 12</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 139</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -48,8 +59,8 @@
                 <p>ÉGYPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
-                <p>Fondateurs > M» MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour. ■Directeur :
-                    Me MAXIME PUPIKOFER, Avocat à la Cour.</p>
+                <p>Fondateurs &gt; M» MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.
+                    ■Directeur : Me MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d'administration :</p>
                 <p>Mes L, PANGALO et R SCÏÏEMEIL (Directeurs au Caire).</p>
                 <p>M« E. DEGIARDÉ (Secrétaire de la rédaction). M' A. FADEL (Secrétaire à
@@ -236,7 +247,7 @@
                     tiers, n’est elle pas invitée par son propre intérêt à exécuter le transfert,
                     plutôt que de payer l’indemnité ? »</p>
                 <p>Déjà, Me S. Cadéménos, dans une étude publiée en 1918 (l'Egypte Contemporaine, No
-                    41) sur « Le Règlement de certains conflits en matière de Transcription >,
+                    41) sur « Le Règlement de certains conflits en matière de Transcription &gt;,
                     remarquait :</p>
                 <p>« Il parait certain que, sans rien changer à l’ordre des choses actuel, sans
                     dépenses budgétaires, sans difficultés ni complications, par un simple
@@ -609,7 +620,7 @@
             <pb n="101" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0010">
                     <head>171. - Achat. — Vente. — Pollicitation. — Irrévocabilité de l’offre
                         pendant tout le délai fixé pour l’acceptation.</head>
                     <div type="summary">
@@ -635,7 +646,7 @@
                             Bank en devient adjudicataire et ce, au prix de L.E. 8165 et s’est
                             égalèment engagé à hypothéquer à la Land Bank 64 feddans à titre de
                             supplément de garantie;</p>
-                        <p>| Attendu que dans cette offre d’achat le défen-> deur a imparti à la
+                        <p>| Attendu que dans cette offre d’achat le défen-&gt; deur a imparti à la
                             demanderesse un délai d’un : mois et demi pour répondre;</p>
                         <p>Attendu que la Land Bank dit avoir avisé le ’ défendeur de l’acceptation
                             par lettre recomman-I dée le 16 Mars 1921; que quoiqu’elle n’ait pas !
@@ -678,7 +689,7 @@
                             son action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0020">
                     <head>172. - Assurance. — Marchandises assurées par la banque chargée de la
                         livraison; droit pour la banque d'en faire supporter le coût à la partie qui
                         retire les marchandises. — Gestion d'affaires.</head>
@@ -754,7 +765,7 @@
                             aux frais de l’instance,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0030">
                     <head>173. - Assurance.’ — Transport. — Contrat unique pour deux transports
                         successifs ou pour l’assurance de deux transports. — Fins de non recevoir
                         des art. 274 et 275 C. Comm Mar. non applicables à l’assurance
@@ -838,7 +849,7 @@
                             condamner la défenderesse au paiement de la dite somme.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0040">
                     <head>174. -Bail. (*) — Congé; notification par lettre recommandée;
                         validité.</head>
                     <div type="summary">
@@ -915,7 +926,7 @@
                             s’assurer que la lettre arrivât réellement à destination.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0050">
                     <head>175. - Bail. — Consignation ; impossibilité par suite d'un arrêté de
                         démolition ; responsabilité du bailleur.</head>
                     <div type="summary">
@@ -931,7 +942,7 @@
                             inv. 1922. — Dame Hafida Kachf èsq. et autres c. Loïse Nicolaou).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0060">
                     <head>176. - Bail. -- Consignation. — Résolution pour impossibilité de
                         jouissance à raison du défaut des conditions hygiéniques essentielles
                         d’habitabilité dans un appartement loué.</head>
@@ -1066,7 +1077,7 @@
                             restituer à l’intimé le loyer perçu, avec ses accessoires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0070">
                     <head>177. - Bail. — Jouissance; travaux entrepris par le bailleur et portant
                         atteinte à la jouissance; compétence du juge des référés pour les faire
                         cesser. — Travaux de transformation de l’immeuble; procédure spéciale prévue
@@ -1127,7 +1138,7 @@
                             plaint Vitali Nadjar.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0080">
                     <head>178 - Bail. — Loi sur les loyers du 21 Février 1921. — Action en
                         prorogation ; compétence mixte entre bailleur et preneur de même
                         nationalité, en cas d’intervention d’un occupant de nationalité différente.—
@@ -1237,7 +1248,7 @@
                             prorogations accordées par application de l’art. 17.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0090">
                     <head>179. - Bail. — Loi sur les loyers. — Applicabilité aux sujets étrangers de
                         même nationalité.</head>
                     <div type="summary">
@@ -1284,7 +1295,7 @@
                             nationalité des autres parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0100">
                     <head>180. - Bail. — Loi sur les loyers du 21 Février 1921. — Cercles ou Clubs;
                         applicabilité de la loi. — Prorogation de bail, conditions. — Fixation du
                         loyer, considérations pertinentes.</head>
@@ -1375,7 +1386,7 @@
                             à livres égyptiennes 60 par mois.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0110">
                     <head>181. - Bail. — Loi sur les loyers.—Compétence des Tribunaux Mixtes pour
                         anptiquer la loi sur les loyers dans les l'tiges entre étrangers de la même
                         nationalité. — Clause attributive de juridiction ; inadmissibilité
@@ -1419,7 +1430,7 @@
                             d’ordre public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0120">
                     <head>182. - Bail. — Loi sur les loyers du 21 Février 1921. — Conflit entre deux
                         preneurs ; jugement de réintégration impossible à exécuter à raison de
                         l’existence d’un nouveau bail ; préférence à donner au nouveau locataire en
@@ -1482,7 +1493,7 @@
                             opposante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0130">
                     <head>183. - Bail. — Loi sur les loyers du 21 Février 1921. — Conflit entre deux
                         preneurs. — Référé; difficulté d’exécution ; maintien nécessaire du
                         locataire qui est en possession, jusqu’à décision du conflit au fond.</head>
@@ -1548,7 +1559,7 @@
                             pour ce faire, un délai suffisant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0140">
                     <head>184. - Bail. — Loi sur les loyers du 21 Février 1921. — Contestations sur
                         l’application de l’art. 5 de la loi; compétence exclusive en dernier ressort
                         du juge sommaire. — Appel; question de compétence dépendant d’une
@@ -1613,7 +1624,7 @@
                             juridiction.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0150">
                     <head>185. - Bail. — Loi sur les loyers du 21 Février 1921. — Expulsion du
                         locataire motivée par le besoin de l'habitation par le propriétaire;
                         conditions d’exercice de ce droit par le propriétaire ; preuve
@@ -1632,7 +1643,7 @@
                             - Dame Marie Périni c. Elie Kitzo-nidis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0160">
                     <head>186. - Bail. — Loi sur les loyers du 21 Février 1921. — Expulsion du
                         locataire motivée par le besoin de l’habitation par le propriétaire;
                         conditions d’exercice de ce droit par le propriétaire ; preuve
@@ -1654,7 +1665,7 @@
                             1922. — Sayed Sarhan c. Oreste Douros)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0170">
                     <head>187. - Bail. — Loi sur les loyers du 21 Février 1921. — Expulsion en vu de
                         transformations importantes de l’immeuble; justification ; dommages-intérêts
                         ; limitation aux contrats en cours non prorogés par l'effet de la
@@ -1704,7 +1715,7 @@
                             instance séparée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0180">
                     <head>188. - Bail. — Loi sur les loyers du 21 Février 1921 — Expulsion. —
                         Ordonnance rendue en référé avant la promulgation de la loi. — Maintien en
                         possession. — Droit de prorogation.</head>
@@ -1787,7 +1798,7 @@
                     </div>
                 </div>
                 <pb n="107" rendition="GAZETTE DES TRIBUNAUX MIXTES D’EGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0190">
                     <head>189. - Bail. — Loi sur les loyers du 21 Février 1921. — Habitation louée
                         pour la première fois après le l‘r Août 1914. — Détermination du loyer
                         légal.</head>
@@ -1836,7 +1847,7 @@
                             mois.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0200">
                     <head>190. - Bail. — Loi sur les loyers du 21 Février 192L — Locaux loués à
                         l’usage de bureaux ; détermination du loyer légal ; taux spécial.</head>
                     <div type="summary">
@@ -1852,7 +1863,7 @@
                             1922. — Isidore Lumbroso c. Antoine N. Alti bey).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0210">
                     <head>191. - Bail. — Loi sur les loyers du 21 Février 1921. — Prorogation de
                         bail par le Tribunal. — Point de départ; durée.</head>
                     <div type="summary">
@@ -1871,7 +1882,7 @@
                         <p>1921.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0220">
                     <head>192. - Bail. — Lot sur les loyers du 21 Février 1921. — Sous-location ;
                         défense de sous-louer; caractère licite; autorisation de sous-louer ; durée
                         et limite ; autorisation moyennant une participation au bailleur dans les
@@ -1950,7 +1961,7 @@
                             simplement de leur donner acte de cette réserve.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0230">
                     <head>193. - Bail. — Loi sur les loyers du 21 Février 1921. — Sous - location. —
                         Locations et sous-locations d’habitation meublée pour villégiature; droit
                         commun applicable. — Défense de sous-louer; caractère licite; autorisation
@@ -2032,7 +2043,7 @@
                             litigieux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0240">
                     <head>194. - Bail. — Loi sur les loyers du 21 Février 1921. — Sous - location
                         totale. — Faculté pour le Tribunal de maintenir le bail même en cas de
                         défense de sous-louer; condition : maintien d’une garantie effective par le
@@ -2059,7 +2070,7 @@
                         <p>Note. - V. la note sous le § 196 ci-après.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0250">
                     <head>195. - Bail. — Loi sur les loyers du 21 Février 1922, Art. 21. — Sous -
                         location partielle.—Inapplicabilité, maintien du bail.</head>
                     <div type="summary">
@@ -2093,7 +2104,7 @@
                             système proposé en ce qui concerne les sous-location partielles.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0260">
                     <head>196. - Bail. — Loi sur les loyers du 21 Février 1921. — Sous location
                         partielle antérieure à la loi; droit du bailleur, Art. 21. Rapports entre
                         locataire principal et sous-locataire partiel; droit commun
@@ -2146,7 +2157,7 @@
                             des lieux loués.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0270">
                     <head>197. — Bail. — Loi sur les loyers du 21 Février 1921. — Tiers ; fait
                         imprévu ; force majeure. — Consignation ; impossibilité par suite de
                         prorogation du bail de l'ancien locataire; conséquences; responsabilité du
@@ -2384,7 +2395,7 @@
                             être fixée à L.E. 200 (deux cents).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0280">
                     <head>198. - Concordat préventif. — Action en résolution ; mise en cause des
                         garants nécessaire. — Délai de grâce ; applicabilité en matière commerciale
                         et en matière de concordat préventif; détermination du délai.</head>
@@ -2528,7 +2539,7 @@
                             la résolution du concordat préventif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0290">
                     <head>199. - Ecole. — Renvoi illégitime des élèves pendant l’année scolaire;
                         dommages intérêts.</head>
                     <div type="summary">
@@ -2688,7 +2699,7 @@
                             réparation du préjudice moral dont s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0300">
                     <head>200. - Effets de commerce. — Protêt. -t- Recours contre les endosseurs ;
                         notification du protêt, nécessaire in-extenso ; signification de conclusions
                         équivalente à une citation. — Cession de créances , notification; copie de
@@ -2810,7 +2821,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-05-0310">
                     <head>201. - Louage de services. — Engagement à l’essai avec fixation de
                         terme.</head>
                     <div type="summary">

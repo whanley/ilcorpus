@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0013-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0013-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1923-07-10">July 10, 1923</date><lb/>
-                    <biblScope unit="volume">Vol. 13</biblScope><lb/>
-                    <biblScope unit="number">No. 153</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1923-07-10">July 10, 1923</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 13</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 153</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -45,7 +56,7 @@
                 <p>à Mansourah, Rue Hussenieli.</p>
                 <p>Tél. 2 07</p>
                 <p>iMI IB ■■ 1D</p>
-                <p>D> ÉG-YPTE</p>
+                <p>D&gt; ÉG-YPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
                 <p>Fondateurs s M" MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.</p>
@@ -54,7 +65,7 @@
                 <p>M“ L. PANGALO et R SCHEMEIL (Directeurs au Caire).</p>
                 <p>M* E. DEGIARDÉ {Secrétaire de la rédaction). M» A. FADEL (Secrétaire à
                     Mansourah).</p>
-                <p>M> F. BRAUN (Secrétaire à Paris).</p>
+                <p>M&gt; F. BRAUN (Secrétaire à Paris).</p>
                 <p>Abonnement annuel :</p>
                 <p>Edition complète, comprenant le service du Journal des Tribunaux Mixtes . P.T.
                     250</p>
@@ -319,7 +330,7 @@
             <pb n="131" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0010">
                     <head>222. - Accident. - Tramway. — Responsabilité;</head>
                     <div type="summary">
                         <p>Aucune considération ne permet de retenir la responsabilité du conducteur
@@ -379,7 +390,7 @@
                             s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0020">
                     <head>223. -Adjudication. - Purge dés hypothèques. — Conséquences du défaut de
                         folle enchère. — Expropriation de l’adjudicataire par ses créanciers
                         personnels; distribution du nouveau prix de l’immeuble au profit de ces
@@ -526,7 +537,7 @@
                             dans l’inactivité complète pendant des années, est toute autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0030">
                     <head>224. - Appel. — Délais ; cas où le jugement a été rendu sur pièce fausse ;
                         instance en faux incident.</head>
                     <div type="summary">
@@ -600,7 +611,7 @@
                             l’apport au dossier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0040">
                     <head>225. - Avocat. — Contrat de louage de services d’un clerc lié à une
                         convention de transfert de cabinet; validité. — Rupture de contrat ;
                         dommages-intérêts dépendant d’une mise en demeure préalable.</head>
@@ -678,7 +689,7 @@
                             en demeure (Code Civil articles 177 et 178).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0050">
                     <head>226. - Construction sur le terrain d’autrui. — Droit du propriétaire du
                         sol, Art. 90 C. Civ. ; démolition requise après évaluation par expertise ;
                         prise de possession par le propriétaire du sol. — Société Anonyme; pouvoirs
@@ -712,7 +723,7 @@
                             Castro c. Egyptian Bonded VVare-•Jiouses Cy Ltd).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0060">
                     <head>227. - Courtage. — Mandat civil ; non gratuité : preuve d’une convention
                         tacite-, existence; preuve non adminissïble par témoins ou par présomptions
                         au delà de P.T. 1000.</head>
@@ -748,7 +759,7 @@
                             dossier...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0070">
                     <head>228. - Dépôt. — Détournement ; créance purement chirographaire ; l'auteur
                         du dépôt n'a aucun privilège.</head>
                     <div type="summary">
@@ -763,7 +774,7 @@
                             Moustafa Amin D.J. Caraili ès-q.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0080">
                     <head>229. - Distribution. — Production d’un créancier écartée dans une
                         précédente distribution.—Chose jugée; exception ne pouvant pas être soulevée
                         d’office.</head>
@@ -779,7 +790,7 @@
                             Ahmed Zarad c. Ahmed dey Loutfy et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0090">
                     <head>230. - Etablissements publics. — Distinction entre quartiers européens et
                         quartiers indigènes ; débit de boissons alcooliques ; licence spéciale ; loi
                         No. 1 de 1904.</head>
@@ -804,7 +815,7 @@
                             Tayeb Mohamed Saleh c. Ministère Public.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0100">
                     <head>231. - Etat étranger. — Emprunt; action des souscripteurs contre la Banque
                         chargée du recouvrement ; cas où il y a lieu à restitution des
                         souscriptions.—République Arménienne ; perle de son territoire. — Principe
@@ -882,7 +893,7 @@
                     </div>
                 </div>
                 <pb n="134" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0110">
                     <head>232. - Etat étranger. — Emprunt ; action des souscripteurs contre la
                         Banque chargée du recouvrement ; cas où il y a lieu à restitution des
                         souscriptions devenues sans cause. — République Arménienne ; fin de son
@@ -1113,7 +1124,7 @@
                             pouvoirs publics en Arménie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0120">
                     <head>233. -Expropriation. — Changements Apportés par le cadastre à la
                         désignation des biens hypothécaires ; conséquences.— Tiers détenteur non
                         sommé; non responsabilité du pouisuivant : faute du tiers détenteur;
@@ -1242,7 +1253,7 @@
                     </div>
                 </div>
                 <pb n="136" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0130">
                     <head>234. - Expropriation. — Dire au cahier des charges ; point de départ du
                         délai de 30 jours. — Saisie immobilière ; point de départ du délai de 90
                         jours.</head>
@@ -1271,7 +1282,7 @@
                             tiers détenteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0140">
                     <head>235. - Faillite. — Concordat judiciaire. — Résolution requise plus de six
                         mois après le décès du débiteur ; recevabilité.</head>
                     <div type="summary">
@@ -1294,7 +1305,7 @@
                             la demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0150">
                     <head>236. - Hypothèque. — Spécialité ; publicité; non extension à des terrains
                         ajoutés aux terrains hypothéqués en compensation d’un déficit. — Astreinte ;
                         admissibilité pour les obligations de faire ; inadmissibilité pour les
@@ -1380,7 +1391,7 @@
                             est partant tout à fait intempestive.'</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0160">
                     <head>237. - Jugement par défaut. -— Opposition ; point de départ du délai ;
                         preuve de la connaissance par le défaillant des actes d’exécution. —
                         Signification des actes au Parquet ; transmission à l’étranger;
@@ -1510,7 +1521,7 @@
                             dans l’acte de société.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0170">
                     <head>238. - Louage de services. — Licenciement; renvoi intempestif.—Indemnité;
                         mode de calcul ; compte à tenir de la période de préavis.</head>
                     <div type="summary">
@@ -1535,7 +1546,7 @@
                         <p>Note. — V., entre autres, arrêt du 24 Mars 1920, Gaz., X, 157-221.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0180">
                     <head>239. - Louage de services. — Licenciement; renvoi intempestif; griefs
                         tirés de la malhonnêteté de l'employé à l’égard d’un précédent patron. —
                         Indemnité ; calcul. — Salaires; détermination.</head>
@@ -1624,7 +1635,7 @@
                             justifieraient amplement son licenciement avec l’indemnité usuelle,
                             indemnité qui dans le cas d’un employé avec moins que deux mois de
                             service doit être calculée à un mois d’appointements ;</p>
-                        <p>> Que par conséquent l’appel incident est mal</p>
+                        <p>&gt; Que par conséquent l’appel incident est mal</p>
                         <p>fondé ;</p>
                         <p>Attendu, quant au solde des appointements dus à l’intimé, qu’il résulte
                             des lettres susmentionnées que le salaire de l’intimé n’était pas encore
@@ -1634,7 +1645,7 @@
                             prétend l’intimé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0190">
                     <head>240. - Louage de services. — Ouvrier à la journée. — Durée et nature des
                         services.</head>
                     <div type="summary">
@@ -1700,7 +1711,7 @@
                             simplement le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0200">
                     <head>241. - Mesures d’instruction. — Retard ; déchéance.</head>
                     <div type="summary">
                         <p>La circonstance que par suite d’un premier retard — de six jours, — dû à
@@ -1788,7 +1799,7 @@
                             assument une valeur décisive.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0210">
                     <head>242. - Presse. — Journal politique ou littéraire ; caractère non
                         commercial ; concession de publicité ; achats de papier et fournitures
                         destinés à la confection du journal ; actes non commerciaux.</head>
@@ -1869,7 +1880,7 @@
                             d’incompétence soulevée par le défendeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0220">
                     <head>243. - Preuve. — Renonciation tacite; preuve par présomptions en matière
                         commerciale.</head>
                     <div type="summary">
@@ -1911,7 +1922,7 @@
                             commerciale.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0230">
                     <head>244. - Revendication mobilière. — Saisie mobilière; meubles garnissant le
                         domicile conjugal; propriété; charge de la preuve; femme locale non
                         musulmane; présomption légale.</head>
@@ -1937,7 +1948,7 @@
                             Gaz. IV, 153-375, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0240">
                     <head>245. - Servitude. — Convention constitutive ; écoulement d’eaux ; perte du
                         bénéfice de la servitude par la faute du bénéficiaire; droits du
                         propriétaire du fonds servant; tiers; responsabilité.</head>
@@ -2070,7 +2081,7 @@
                             conséquent de nommer un expert aux fins d’évaluer ce dommage.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0250">
                     <head>246. - Signification. — Domicile inconnu ; notification des actes au
                         Parquet ; nécessité de recherches préalables sérieuses; négligence;
                         procédure irrégulière; annul-lation.</head>
@@ -2166,7 +2177,7 @@
                             de l’appelante et d’annuler la procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0260">
                     <head>247. - Signification. — Domicile inconnu; notification des actes au
                         Parquet; nécessité de recherches préalables, même en cas de domicile à
                         l'Etranger. — Domi-. cite élu dans un acte ; signification nécessaire en cas
@@ -2362,7 +2373,7 @@
                         <p>Condamne le Crédit Foncier aux frais des deux degrés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0270">
                     <head>248. - Société. — Publicité ; qualité de commanditaire; énonciation du
                         contrat social : doute à interpréter contre l’associé, et au profit des
                         tiers.</head>
@@ -2383,7 +2394,7 @@
                     </div>
                 </div>
                 <pb n="142" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0280">
                     <head>249. — Transport (Contrat de). — Connaissement; clause affectant la
                         marchandise à la garantie de tous frais dus ; impossibilité au tiers
                         acheteur ; saisie pratiquée par le transporteur ; responsabilité ; évolution
@@ -2509,7 +2520,7 @@
                             enchères publiques.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0290">
                     <head>250. - Vente avec réserve de propriété. — Clause de 11 reservati dominii
                         nécessité d’une stipulation non équivoque ; gage ; défaut de possession par
                         le créancier.</head>
@@ -2551,7 +2562,7 @@
                             du Code Civil.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0300">
                     <head>251. - Vente commerciale. — Paiement du prix ; absence de stipulation dans
                         le contrat; règle générale exigeant le règlement au comptant ; dérogation ;
                         usages particuliers; preuve; doute profitant au vendeur.</head>
@@ -2628,7 +2639,7 @@
                             somme et qu’il échet en conséquence de l’allouer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-07-0310">
                     <head>252. - Vente de coton. — Intention des parties ; vente aux cours du
                         Novembre; faculté de fixation réservée au vendeur seul ; obligations de
                         l'acheteur. — Conventions ; dérogation à la loi et aux usages.</head>

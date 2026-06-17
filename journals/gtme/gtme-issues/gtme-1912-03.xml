@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0002-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0002-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1912-03-10">March 10, 1912</date><lb/>
-                    <biblScope unit="volume">Vol. 2</biblScope><lb/>
-                    <biblScope unit="number">No. 17</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1912-03-10">March 10, 1912</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 2</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 17</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -327,7 +338,7 @@
                 <p>Non insisteremo sui vantaggi che poteva | presentare dal punto di vista del
                     credito ‘ questa applicazione délia successio in locum. Facciamo soltanto
                     rimarcare che le variant! ; successive verificatesi nella fissazione del</p>
-                <p>x tasso degli interessi in Roma dovettero t> dargli una crescente utilità.</p>
+                <p>x tasso degli interessi in Roma dovettero t&gt; dargli una crescente utilità.</p>
                 <p>| Sezione II.</p>
                 <p>j Danaro fornito da un compratore.</p>
                 <p>tz -</p>
@@ -1280,7 +1291,7 @@
             <pb n="84" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0010">
                     <head>Acte de Commerce. — Femmes.— Décès du débiteur.</head>
                     <div type="summary">
                         <p>L'exception établie par l’Art. 114 C. Com. en faveur des femmes pour les
@@ -1298,7 +1309,7 @@
                             Frères c. Abdel Latif eff. Wahed esq. et Cts)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0020">
                     <head>Affectation hypothécaire. — Période suspecte.</head>
                     <div type="summary">
                         <p>I. L’affectation hypothécaire prise pendant la période suspecte tombe
@@ -1330,7 +1341,7 @@
                             Gaz. Trib, Il N° 16 p. 61 § Affectation hypothécaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0030">
                     <head>Action Possessoire. — Complainte. — Démolition.</head>
                     <div type="summary">
                         <p>I. L’action par laquelle un propriétaire demande la démolition des
@@ -1351,7 +1362,7 @@
                             Pacha c. Joseph De Bono et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0040">
                     <head>Appel. — Recevabilité. — Obligation solidaire. ’ n</head>
                     <div type="summary">
                         <p>En matière d’obligations solidaires, l’appel régulièrement interjeté par
@@ -1362,7 +1373,7 @@
                             Mohamed Yassîne et autres c. Hoirs Nessim Curiel). , .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0050">
                     <head>Appel en matière pénale. — Motivation.</head>
                     <div type="summary">
                         <p>Bien que le Code d’instruction Criminelle (Art. 151) n’ait pas
@@ -1382,7 +1393,7 @@
                             Castafili, dossier R. G 14 XXXV).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0060">
                     <head>Caution. — Subrogation légale. — Commandement.</head>
                     <div type="summary">
                         <p>La caution que a payé jouit d’une.double action contre le débiteur:
@@ -1399,7 +1410,7 @@
                             bey Tewfik Hassan c. Crédit Foncier Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0070">
                     <head>Cession. — Notification. — Tiers. — Hypothèque (transport d’).</head>
                     <div type="summary">
                         <p>L’absence des formalités prévues par l’art. 436 C. Civ. pour
@@ -1416,7 +1427,7 @@
                             Orienbank c. Caisse Hypothécaire d’Egypte et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0080">
                     <head>Compétence. — Tribunal Sommaire: Loyer. — Taux. ■</head>
                     <div type="summary">
                         <p>L’art. 28 § 2 C. de Proc, a pris pour base de détermination de la
@@ -1437,7 +1448,7 @@
                         <p>§ Tribunal Sommaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0090">
                     <head>Concordat préventif (homologation). — Livres de commerce.</head>
                     <div type="summary">
                         <p>Le débiteur qui, en ne tenant pas de livres de commerce, met ses
@@ -1451,7 +1462,7 @@
                             préventif Christo Maniovakis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0100">
                     <head>Contrat de mariage. — Consentement. — Juridiction mixte.</head>
                     <div type="summary">
                         <p>En présence d’un contrat de mariage fixant un terme pour le retrait et la
@@ -1467,7 +1478,7 @@
                             Egypt).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0110">
                     <head>Contredit. —Règlement provisoire.— Créanciers chirographaires.</head>
                     <div type="summary">
                         <p>La mise en cause des créanciers chirographaires est nécessaire, par
@@ -1481,7 +1492,7 @@
                     </div>
                 </div>
                 <pb n="85" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE ."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0120">
                     <head>Contrefaçon. — Tiers-dépositaire. — Responsabilité.</head>
                     <div type="summary">
                         <p>Celui qui détient et écoule des produits contrefaits engage sa
@@ -1493,7 +1504,7 @@
                             Callum c. Ad. Biagiotti &lt;L Cie &amp; Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0130">
                     <head>Dépôt. — Affectation spéciale.</head>
                     <div type="summary">
                         <p>L’emploi d’une forme de dépôt qui n’est pas autorisée par la loi ne
@@ -1508,7 +1519,7 @@
                             Biancardi c. Khalil Khouri).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0140">
                     <head>Distribution par Contribution.— Créanciers saisissants. — Production. —
                         Délai.</head>
                     <div type="summary">
@@ -1544,7 +1555,7 @@
                             Marcopoulo c. H. Barocas esq. et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0150">
                     <head>Faillite. — Concordat. — Dividende.</head>
                     <div type="summary">
                         <p>Bien qu’un concordat résilié soit censé n’avoir jamais existé, il est
@@ -1559,7 +1570,7 @@
                             c. Nicolas Drakidis et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0160">
                     <head>Faillite. — Dessaisissement. — Transcription. — Dommages-intérêts.</head>
                     <div type="summary">
                         <p>Les tiers qui ont passé un acte avec le failli peuvent s’en voir opposer
@@ -1578,7 +1589,7 @@
                             Wahba c. P. Caloyanni esq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0170">
                     <head>Faillite. — Société. — Succursales en Egypte. — Compétence Mixte. —
                         Concordat piéventif.</head>
                     <div type="summary">
@@ -1599,7 +1610,7 @@
                             Février 1912?-Ministère Public c. Banque ae Mételin. :</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0180">
                     <head>Faillite. — Vérification. — Action en justice. — Protêt. -</head>
                     <div type="summary">
                         <p>I. Bien qu’en général ce soit par la voie de production et vérification
@@ -1617,7 +1628,7 @@
                             Lis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0190">
                     <head>Formule'exécutoire. — Acte authentique. — Tiers.</head>
                     <div type="summary">
                         <p>La formule exécutoire donnée à un acte authentique ne couvre pas tout ce
@@ -1644,7 +1655,7 @@
                             naturellement annulé une exécution aussi irrégulière.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0200">
                     <head>Hypothèque. — Garantie ( étendue de la ). — Contrat d’ouverture de crédit
                         (éléments.)</head>
                     <div type="summary">
@@ -1667,7 +1678,7 @@
                             Georges M. Bahari &amp; Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0210">
                     <head>Juge de service (Ordonnance). — Liquidation de créance. —
                         Saisie-arrêt.</head>
                     <div type="summary">
@@ -1682,8 +1693,9 @@
                         <p>(Ordon. de M. Piola Caselli, Juge de Service au Trib. Caire: 26 Déc.
                             1911. — Ventura c. Assayas.)</p>
                     </div>
-                </div><pb n="86" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                </div>
+                <pb n="86" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
+                <div type="case" xml:id="gtme-1912-03-0220">
                     <head>Juridiction Mixte. — Référé. — Actions réelles immobilières.</head>
                     <div type="summary">
                         <p>Bien que les litiges portés devant le Juge des Référés ne puissent être
@@ -1700,7 +1712,7 @@
                             N.etJ.Axelos C. C Zelati et J. Ghailanas).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0230">
                     <head>Loi Hellénique. — Puissance paternelle. — Aliénation. — Créancier
                         hypothécaire.</head>
                     <div type="summary">
@@ -1732,7 +1744,7 @@
                             intérêts des mineurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0240">
                     <head>Louage d’Ouvrage. — Renvoi intempestif.</head>
                     <div type="summary">
                         <p>En matière de louage d’ouvrage la mort du patron ne met pas fin au
@@ -1743,7 +1755,7 @@
                             Samaan c. De Vve. Raphaël Michaca esn. et q).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0250">
                     <head>Machines à vapeur./— Visite (droit de).</head>
                     <div type="summary">
                         <p>Le droit de visite conféré à lA’dminis-tration par le Décret du 27 Juin
@@ -1758,7 +1770,7 @@
                             c. Tewfik Râblé et Co).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0260">
                     <head>Nationalité locale. — Persans.</head>
                     <div type="summary">
                         <p>Le fils d’un sujet local qui prétend avoir perdu la nationalité de son
@@ -1776,7 +1788,7 @@
                         <p>Note. — Cf ci-après: arrêt 22 février 1912 § Nationalité ottomane.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0270">
                     <head>Nationalité ottomane. — Naturalisation française.</head>
                     <div type="summary">
                         <p>La loi sur la nationalité ottomane du 19 Janvier 1869, obligatoire en
@@ -1791,10 +1803,10 @@
                     <div type="litigants">
                         <p>(Cour d’Appel. 2e Ch. Prés. AL de Souza Larcher. 22 Février 1912.
                             Héritiers de feu JosephSchaadanAzar c. Mlle Rose Marie Letîtia Azar)-
-                            ></p>
+                            &gt;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0280">
                     <head>Opérations en coton. — Courtier autorisé. — Mandataire interposé. -
                         Validité.</head>
                     <div type="summary">
@@ -1814,7 +1826,7 @@
                             Zaki Kraiem et Cie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0290">
                     <head>Patriarcats. — Certificats de célibat et de baptême. — Valeur
                         juridique.</head>
                     <div type="summary">
@@ -1839,7 +1851,7 @@
                             Grimaldi et.cons. c. D’ Manna Guerguis et cons.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0300">
                     <head>Patriarcats. — Droit musulman. — Successions (renonciation aux). —
                         Créanciers (droit des).</head>
                     <div type="summary">
@@ -1859,7 +1871,7 @@
                             Adès et Cie. c. Antoine Geargeoura em. et q. et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0310">
                     <head>Préemptions successives.</head>
                     <div type="summary">
                         <p>La préemption, qui substitue purement et simplement un acquéreur à un
@@ -1873,7 +1885,7 @@
                             Hanem el Baroudi c. Abdel Hamid effendi Ali el Dib et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0320">
                     <head>Propriété (droit de). — Voisinage.</head>
                     <div type="summary">
                         <p>Le propriétaire qui élève sur son terrain des constructions défectueuses
@@ -1890,7 +1902,7 @@
                     </div>
                 </div>
                 <pb n="87" rendition="GAZETTE DES TRIBUNAUX MIXTES D’EGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0330">
                     <head>Renvoi intempestif. — Insinuations désobligeantes. — Piéjudice.</head>
                     <div type="summary">
                         <p>Doit entrer en ligne de compte dans l’estimation de l’indemnité à allouer
@@ -1907,7 +1919,7 @@
                             Crédit Foncier Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0340">
                     <head>Responsabilité indirecte. — Gouvernement. — Entrepreneur.</head>
                     <div type="summary">
                         <p>La responsabilité à raison du fait d’autrui étant une exception à la
@@ -1933,7 +1945,7 @@
                             Salvatore Larosa c. Min. des Trav Publics).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0350">
                     <head>Signification. — Taxe. — Opposition. — Délais.</head>
                     <div type="summary">
                         <p>La connaissance, même non contestée, que les parties peuvent avoir du
@@ -1945,7 +1957,7 @@
                             Rovere bey. c. Gantous Tabet esq. et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0360">
                     <head>Société Anonyme. — Action en Justice. — Personnalité morale.</head>
                     <div type="summary">
                         <p>L’indication précise de la personnalité du requérant exigée à peine de
@@ -1965,7 +1977,7 @@
                         <p>Note. — Cf. arrêt 27 Décembre 1897 R. O. III. p. 42. .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0370">
                     <head>Surenchère. — Recevabilité. — Folle enchère.</head>
                     <div type="summary">
                         <p>L’ adage surenchère sur surenchère ne vaut ne saurait trouver son
@@ -2064,7 +2076,7 @@
                             seconde surenchère.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0380">
                     <head>Taxe d’expert. — Opposition. — Renonciation.</head>
                     <div type="summary">
                         <p>La formule par laquelle un expert, dans sa demande de taxe du Président,
@@ -2078,7 +2090,7 @@
                             et Cts. c. Péricles Pappadopoulo et autres)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0390">
                     <head>Tiers-saisi. — Déclaration incomplète.</head>
                     <div type="summary">
                         <p>La déclaration par laquelle le tiers-saisi indique purement et simplement
@@ -2092,7 +2104,7 @@
                             Cheickh Abdel Rahman Mohamed el Gazar c. Eliahou Sachs).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0400">
                     <head>Transporteur— Juridiction Mixte. — Compétence. — Succursale.</head>
                     <div type="summary">
                         <p>I. L’Art. 102 C. Corn, qui règle la responsabilité du transporteur sur la
@@ -2126,7 +2138,7 @@
                             été mis à néant par arrêt, du 21 février 1912</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0410">
                     <head>Vente. — Contenance (déficit). — Résiliation. — Délivrance. —
                         Risques.</head>
                     <div type="summary">
@@ -2159,7 +2171,7 @@
                             Improv. Corporation c. Alieff. Amin Sarouet et Ct).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0420">
                     <head>Vente commerciale. — Responsabilité. — Commissionnaire.</head>
                     <div type="summary">
                         <p>La clause « sauf approbation de la fabrique » insérée dans une commande
@@ -2175,7 +2187,7 @@
                         <p>Note. — C. arrêt 5 Janvier 1910. Bull. XXII p. 85.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-03-0430">
                     <head>Wakf. — Nazir. — Action en justice.</head>
                     <div type="summary">
                         <p>S’il est vrai en principe qu’un wakf ne peut plaider que par son nazir,
@@ -2261,7 +2273,7 @@
                 <p>La nouvelle Assemblée aurait à combler une lacune de la Législation Mixte: la
                     protection de la propriété littéraire, artistique et industrielle. La
                     Jurisprudence, dit - on,</p>
-                <p>U> Tome III, pp. 43 à 64.</p>
+                <p>U&gt; Tome III, pp. 43 à 64.</p>
                 <pb n="89" rendition="' GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                 <p>supplée à ce défaut. Mais toute jurisprudence est pleine d’incertitude et sujette
                     à changement. Demain peut prévaloir l’opinion que la jurisprudence ne saurait
@@ -2465,8 +2477,8 @@
                 <p>Ron. Sle. Ahmed Sid Ahmed et Hassan Sid Ahmed, de nationalité égyptienne, ainsi
                     que les membres en nom collectif'qui la composent, les Sieurs Ahmed Sid Ahmedœt
                     Hassan Sid Ahmed, domiciliés à Alexandrie, rue Menayer. Jug. décl.</p>
-                <p>26-2-12. Cess. p. 15-1-12> Synd. prov. Tabet. Synd. déf. 12-3-12 à 9 h- a.m. Ord.
-                    28-2-12 exploit, prov. du fonds d^, Commerce.</p>
+                <p>26-2-12. Cess. p. 15-1-12&gt; Synd. prov. Tabet. Synd. déf. 12-3-12 à 9 h- a.m.
+                    Ord. 28-2-12 exploit, prov. du fonds d^, Commerce.</p>
                 <p>DÉPÔTS DE BILANS</p>
                 <p>Dimitri Proestopoulo, négociant hellène, domicilié à Alexandrie, Boulevard Ramleh
                     N°.7. Bilan déposé le 5-2-12. Cess. p. 29-1-12. Passif apparent P.T.
@@ -2781,7 +2793,7 @@
                 <p>Vincenzo Buceetti,nég. suj. italien, demeu- . rant au Caire (rue el Maghrabi) .
                     Bilan déposé ■ le 22.2.12. Passif P.T.154453. Cess. paiera, le .</p>
                 <p>15.2.12. Réun. du ,1^ 3.12 pour la nom. des ■</p>
-                <p>créanciers délégués. ,[ - - ></p>
+                <p>créanciers délégués. ,[ - - &gt;</p>
                 <p>8. Earhi et Cie. Société en commandite composée de Salomon Farhf et Farag Hazan,
                     administrée mixte au Caire..Bilan déposé le 18.2.12. Passif P T. 503817. Céss.
                     paiera, le 1.2.12. Réun. du 12.3.12 p. ,l,a nom. des créanciers ’ délégués.
@@ -2807,7 +2819,7 @@
                     10.2.12.</p>
                 <p>Sarkis Kalfayan. Fai|l. rétr. p. jug. du 10.2.12.</p>
                 <p>Moufadel Hassanien. Faill. rétr. p. jug. du</p>
-                <p>10.2.12. >u</p>
+                <p>10.2.12. &gt;u</p>
                 <p>Aly Abdel Wahed. Faill. rétr. p. jug. du</p>
                 <p>10.2.12.</p>
                 <p>Ernest di Maio. Rapp. du 15.1.12. du synd. Demanget. Le failli à cessé tout comm.
@@ -3050,7 +3062,7 @@
                     opér. de banque, siège à Alex./ Gest. aux trois ass., signât, à Gaston Schinasi
                     ét! Max Jabès, durée 2 ans, du 15,2.12 au 14.2.14</p>
                 <p>Russel, Harris et Go. Par contr du 6.2.12 la soc. Russel, Harris, Wyatt
-                    etGardiner const.. par contr. du 29.6>12 entre: 1° François Henry Russel
+                    etGardiner const.. par contr. du 29.6&gt;12 entre: 1° François Henry Russel
                     (Caire), 2°James Gibson Harris (Londres), 3°.Stanley, Charles Wyatt
                     (Alexandrie), 4° Hubert Gardiner (Londres), tous britanniques, (experts
                     comptables, censeurs etc.) Angleterre, Soudan, Egypte, prend la dénoniin.

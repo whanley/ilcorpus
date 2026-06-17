@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0016-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0016-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1926-06-10">June 10, 1926</date><lb/>
-                    <biblScope unit="volume">Vol. 16</biblScope><lb/>
-                    <biblScope unit="number">No. 188</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1926-06-10">June 10, 1926</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 16</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 188</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -49,7 +60,7 @@
                 <p>4, Quai Eugénie,</p>
                 <p>Tél. 409</p>
                 <p>n b ■■ ns</p>
-                <p>-|—) ! qi 1» j~~> rp -pr]</p>
+                <p>-|—) ! qi 1» j~~&gt; rp -pr]</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l'Ordre des Avocats d’Egypte.</p>
                 <p>Fondateurs : M* MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.</p>
@@ -57,7 +68,7 @@
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an).... P.T. 150</p>
                 <p>— au Journal ;</p>
-                <p>— Un an................. > 150</p>
+                <p>— Un an................. &gt; 150</p>
                 <p>— Six mois................ » 85</p>
                 <p>— Trois mois.............. » 5G</p>
                 <p>— aux deux publications</p>
@@ -222,7 +233,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0010">
                     <head>208. - Action en bornage. — Conditions; compétence du juge sommaire. —■
                         Modalités du bornage; applications des titres. — Répartition des frais de
                         bornage et des frais d'arpentage; frais judiciaires à charge de la partie
@@ -310,7 +321,7 @@
                             commun à la charge de la partie succombante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0020">
                     <head>209. - Action possessoirc. — Complainte; conditions d'exercice; possession
                         exclusive; faits de passage insuffisants à rétablir.</head>
                     <div type="summary">
@@ -423,7 +434,7 @@
                             possessoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0030">
                     <head>210. - Action possessoire. — Complainte; conditions d'exercice; prétention
                         contraire à la possession à protéger; définition du trouble donnant lieu à
                         action possessoire. — Dénonciation de nouvel œuvre; définitions et
@@ -533,7 +544,7 @@
                             exclue,, le juge sommaire psi incompétent à en connaître.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0040">
                     <head>211. - Action possessoire. — Complainte; exercice par le locataire en
                         présence du propriétaire. ■— Juridiction mixte; atteinte portée aux droits
                         d'un Egyptien; défaut d'action devant les Tribunaux Mixtes.</head>
@@ -632,7 +643,7 @@
                             recourir contre son bailleur Soliman bey Nassif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0050">
                     <head>212. - Action possessoire. — Complainte; réintégrande; étranger troublé en
                         sa possession par l'exécution d'un jugement indigène. — Débiteur gagiste;
                         possession utile pouvant être jointe à celle de son acheteur et opposée au
@@ -679,7 +690,7 @@
                             E. Sandslroem) l’avait résolue en faveur du calendrier Grégorien, pour
                             des motifs qu’on lira avec intérêt, et dont nous croyons opportun de
                             faire précéder la publication de ceux de l’arrêt.</p>
-                        <p>> Voici donc la partie du jugement qui a trait à la matière et que
+                        <p>&gt; Voici donc la partie du jugement qui a trait à la matière et que
                             l’arrêt laisse intacte:</p>
                         <p>...Qu’il est vrai qu’entre ces deux dates s’est écoulée plus d’une année
                             si ifon fait le calcul d'après le calendrier arabe et que les parties
@@ -826,7 +837,7 @@
                         <p>mé est ou non opposable à l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0060">
                     <head>213. - Action possessoire. — Limite des « pouvoirs du juge du possessoire;
                         inadmissibilité d'une appréciation des titres des parties au point de vue
                         des droits qu'ils confèrent.</head>
@@ -840,7 +851,7 @@
                             nécessaires à l’exercice de l’action pos-sessoire.</p>
                         <p>4' En conséquence le juge du possessoire est obligé de maintenir dans sa
                             possession celui qui justifie d’une possession effective au moment de la
-                            dépossession «> dont il a été l’objet de la part du porteur d’un
+                            dépossession «&gt; dont il a été l’objet de la part du porteur d’un
                             jugement d’adjudication, sans pouvoir, pour donner la préférence à ce
                             der-i, nier, se baser sur le défaut de transcrip-tion du titre de
                             propriété invoqué par le possesseur.</p>
@@ -904,7 +915,7 @@
                             l’absence d’éléments d’appréciation plus précis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0070">
                     <head>214. - Action possessoire. — Limite des pouvoirs du juge du possessoire;
                         inadmissibilité d'une appréciation des titres des parties au point de vue
                         des droits qu'ils confèrent. — Dépossession en vertu d'un jugement
@@ -1021,7 +1032,7 @@
                             sont depuis longtemps réintégrés dans leurs demeures.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0080">
                     <head>215. - Action ..possessoire. — Mise en possession par huissier, donnant
                         ouverture à la réintégrande; décision de Référé ordonnant la continuation
                         d'une mise en possession, ne faisant pas obstacle à l'exercice de la
@@ -1100,7 +1111,7 @@
                             dix livres égyptiennes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0090">
                     <head>216. - Action possessoire. — Réintégrande; cas où le dépossédé s'est
                         lui-même remis en possession par violence.</head>
                     <div type="summary">
@@ -1232,7 +1243,7 @@
                             prétend s’être mis en possession.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0100">
                     <head>217. - Mitoyenneté. — Défaut de présomption légale; charge de la
                         preuve.</head>
                     <div type="summary">
@@ -1310,7 +1321,7 @@
                             le mur litigieux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0110">
                     <head>218. - Prescription acquisitive. — Contrats ne pouvant constituer juste
                         titre pour la' prescription quinquennale. — Wakf; vente comme terrain libre
                         d'un simple droit de hekr; déchéance du he-keriste non régulièrement
@@ -1604,7 +1615,7 @@
                             été annulé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0120">
                     <head>219. - Prescription acquisilive. — Possession caractérisée au début de la
                         prescription seulement; effets. — Prescription en matière de Wakf; acte de
                         propriété interruptif de l'inaction du Wakf. — Faits intermittents ne
@@ -1686,7 +1697,7 @@
                             litigieuse, il échet de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0130">
                     <head>220. - Prescription acquisitive. — Possession exercée par un séquestre ou
                         par un cohéritier pour compte commun; inefficacité au point de vue de
                         Vusucapion. — Faillite; ordonnance autorisant la mise en possession du
@@ -1817,7 +1828,7 @@
                             1909, Bull. XXI, 266)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0140">
                     <head>221. - Prescription libératoire. — Fournitures; point de départ de la
                         prescription annale; compte unique comprenant toutes les fournitures faites;
                         taux de l'action. — Fournitures de valeur supérieure à P.T. 1000; tailleurs;
@@ -1911,7 +1922,7 @@
                             commerce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0150">
                     <head>222. - Prescription libératoire. — Intérêts atteints par la prescription
                         quinquennale.</head>
                     <div type="summary">
@@ -1958,7 +1969,7 @@
                             1074).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0160">
                     <head>223. - Prescription libératoire. — Intérêts; capitalisation;
                         inapplicabilité de la prescription quinquennale en cas de stipulation de
                         capitalisation.</head>
@@ -1972,7 +1983,7 @@
                             Faliaropoulo c. Crédit Foncier et Consorts).-</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0170">
                     <head>224. - Prescription libératoire. — Jugement frappé d'appel; péremption de
                         la procédure d'appel; conséquences; détermination du point de départ de la
                         prescription du jugement.</head>
@@ -2047,7 +2058,7 @@
                             ses griefs...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0180">
                     <head>225. - Prescription libératoire. — Jugements; cas où l'inaction est
                         expliquée par l'allégation de manoeuvres dolosives. — Saisie-arrêt;
                         prescription. — Juridiction mixte; saisie-arrêt entre deux indigènes;
@@ -2154,7 +2165,7 @@
                             et la saisie-arrêt est inexistante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0190">
                     <head>226. - Servitude de vue. —• Acquisition par prescription; effets; distance
                         légale; trouble; action possessoire; objet; conditions. — Compétence du juge
                         sommaire; examen de titres de propriété; limites.</head>
@@ -2236,7 +2247,7 @@
                             fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0200">
                     <head>227. - Servitude de vue. — Mode de fermeture des vues illégales; cloison
                         mobile en bois mobile; insuffisance; nécessité d'un ouvrage permanent. —
                         Distance légale; application stricte de la distance prescrite par l'art. 61
@@ -2300,7 +2311,7 @@
                         <p>Attendu que la loi est muette sur les conditions dans lesquelles une
                             fermeture de vue devrait être ordonnée; qu’elle se borne tout simplement
                             à édicter la distance légale en prescrivant à l'article 61 du Code Civil
-                            que nul ne peut avoir sur son voisin une vue > droite à une distance
+                            que nul ne peut avoir sur son voisin une vue &gt; droite à une distance
                             moindre d’un mètre et, ’ à l’article , suivant, que la distance se
                             mesure du parement extérieur du mur où la vue est pratiquée, ou de la
                             ligne extérieure du balcon ou de la saillie;</p>
@@ -2396,7 +2407,7 @@
                             ordonnance, sans besoin de plus ample signification.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-06-0210">
                     <head>228. - Servitudes. — Création par destination de père de famille; mode
                         d'établissement inapplicable aux servitudes non continues et non apparentes.
                         — Servitudes établies par titre; servitudes réciproques et collectives;
@@ -2772,7 +2783,7 @@
                     à être : considérés comme ayant acquis la nationalité ' égyptienne à la date du
                     5 Novembre 1914.</p>
                 <p>En vue de l’instruction de la demande le ? Ministre de l’intérieur pourra inviter
-                    le postulant à rentrer en Egypte dans le délai qu’il > prescrira.</p>
+                    le postulant à rentrer en Egypte dans le délai qu’il &gt; prescrira.</p>
                 <p>Dans des cas exceptionnels, le Ministre de ; l’intérieur peut, par arrêté pris
                     sur l’avis conforme du Conseil des Ministres, refuser la reconnaissance de la
                     nationalité égyptienne.</p>
@@ -2899,7 +2910,7 @@
                     l’année de la dite acquisition, !'. vouloir conserver sa nationalité
                     étrangère.</p>
                 <p>L’acquisition par un Egyptien d’une natio-</p>
-                <p>> nalité étrangère a pour effet de faire perdre</p>
+                <p>&gt; nalité étrangère a pour effet de faire perdre</p>
                 <p>la nationalité Egyptienne à sa femme, pourvu qu’elle acquière .la nationalité de
                     son mari '■ en vertu de la loi réglant cette nouvelle na-</p>
                 <p>ii'tionalité et à moins qu’elle ne déclare, dans l’année de la dite acquisition,
@@ -2925,7 +2936,7 @@
                 <p>nationalité par l’effet des dispositions ci-des- i sus peuvent, dans l’année qui
                     suit leur ma- ' jorité, déclarer opter pour leur nationalité i d’origine. i</p>
                 <p>Art. 21.</p>
-                <p>L’acquisition, la perte ou le recouvrement > de la nationalité égyptienne ne
+                <p>L’acquisition, la perte ou le recouvrement &gt; de la nationalité égyptienne ne
                     produisent, à i moins de dispositions contraires, aucun effet ! rétroactif.
                     j</p>
                 <p>Il en est de même de la déclaration de dé- i chéance. i</p>

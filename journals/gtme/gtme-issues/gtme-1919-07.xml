@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1919-07-10">July 10, 1919</date><lb/>
-                    <biblScope unit="volume">Vol. 9</biblScope><lb/>
-                    <biblScope unit="number">No. 105</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1919-07-10">July 10, 1919</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 9</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 105</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -474,7 +485,7 @@
                 <p>A la suite de cette délibération prise par l’Assemblée Générale et de
                     l’approbation donnée par écrit par les confrères absents, le Conseil de l’Ordre
                     ne pouvait que déclarer, comme il l’a fait aussitôt, « qu’il se trouve ainsi
-                    assuré d’avoir la « confiance de ses pairs. ></p>
+                    assuré d’avoir la « confiance de ses pairs. &gt;</p>
                 <p>- Et de même que la suite naturelle de l’atteinte qui avait été portée à la
                     dignité du Barreau, avait été l’offre de démission du Conseil à l’Assemblée
                     Générale, de même la conséquence naturelle du. vote de l’Assemblée Générale a
@@ -642,7 +653,7 @@
             <pb n="127" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0010">
                     <head>205. - Action possessoire. — Cumul de la complainte et de la réintégrande.
                         — Résistance à une prise de possession.</head>
                     <div type="summary">
@@ -757,7 +768,7 @@
                             leur appartenir.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0020">
                     <head>206. -Appel. —Recevabilité.— Parties dont l’intimation n’est pas
                         nécessaire. — Séquestre. — Co-propriétaire des biens sous séquestre.</head>
                     <div type="summary">
@@ -773,7 +784,7 @@
                             Abdel Guelil c. Georges Elle et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0030">
                     <head>207. - Appel. — Taux. — Recevabilité, — Fixation de la valeur de la
                         cause.</head>
                     <div type="summary">
@@ -788,7 +799,7 @@
                             Urbain Eynaud c. Enrico d’Esposito et Francesco Carella).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0040">
                     <head>208. - Assurances. — Clause attributive de compétence à un tribunal
                         étranger, — Succursales.</head>
                     <div type="summary">
@@ -842,7 +853,7 @@
                             saurait faire échec à l’exception soulevée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0050">
                     <head>209. - Avocat. —Assistance judiciaire. — Taxe d’honoraires. -</head>
                     <div type="summary">
                         <p>Bien que l’assistance gratuite des indigents soit une charge honorifique
@@ -890,7 +901,7 @@
                             enrichir à ses dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0060">
                     <head>210. - Avocat. — Honoraires. — E-valuation. — Taxe. — Opposition.</head>
                     <div type="summary">
                         <p>La circonstance que le client aurait lui-même fourni et formulé les
@@ -951,7 +962,7 @@
                             rendus par Me G... à l’opposante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0070">
                     <head>211. - Chèque. — Défense de payer. — Obligations du tiré.</head>
                     <div type="summary">
                         <p>Le tiré, n’étant que le mandataire du tireur, reste soumis à la
@@ -1027,7 +1038,7 @@
                             montant du chèque au demandeur tiers porteur de bonne foi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0080">
                     <head>212. - Commission douanière. — Recours contre ses décisions. —
                         Responsabilité de l’Administration des Douanes. — Demande en
                         dommages-intérêts basée sur un procès-verbal injustifié.</head>
@@ -1155,7 +1166,7 @@
                             constaté l’existence du hachiche dans le local confié à sa garde.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0090">
                     <head>213. - Compétence “ratione loci”. — Action réelle immobilière. — Demande
                         tendant à la subrogation à un droit réel. — Compétence en cas de pluralité
                         de défendeurs. •</head>
@@ -1231,7 +1242,7 @@
                             la demande, sauf en ce qui concerne la condamnation aux frais.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0100">
                     <head>214. - Compétence “ratione loci”. — Clause dérogatoire.</head>
                     <div type="summary">
                         <p>Les conventions qui dérogent aux règles de compétence sont
@@ -1268,7 +1279,7 @@
                             Sommaire du Waily, de l’Ezbekieh, du Mousky, de Saïeda Zenab, etc.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0110">
                     <head>215. - Diffamation. — Presse. — Indulgence des Tribunaux en cas de
                         polémique relative à des intérêts importants.</head>
                     <div type="summary">
@@ -1287,7 +1298,7 @@
                         <p>Note. — Confirm. jug Alex. 25 Mai 1912, Gaz., II, p. 178.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0120">
                     <head>216. - Expropriation. — Dire. — Lotissement. — Irrecevabilité d’une
                         demande principale d’expertise. — Droit du créancier hypothécaire de
                         s’opposer au lotissement d'un domaine hypothéqué en un seul lot.</head>
@@ -1341,7 +1352,7 @@
                             délai des acheteurs au même prix, pour le reste du domaine.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0130">
                     <head>217. - Expropriation. — Dire. — Moyens propres à l’opposition à
                         commandement. — Contestation sur l’existence de la dette. — Frais
                         frustratoires de l’expropriation à charge du disant.</head>
@@ -1360,7 +1371,7 @@
                             Alohamed Ahmed Steit c. Adolphe Zammit).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0140">
                     <head>218. - Expropriation. — Dire. — Sursis aux poursuites. — Requête civile —
                         Caractère non dévolutif.</head>
                     <div type="summary">
@@ -1374,7 +1385,7 @@
                             Moustafa Abdel Wahab c. Aly Hussein Amer).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0150">
                     <head>219. - Juridictions indigènes. — inopposabilité de leurs décisions aux
                         étran-, gers. — Vente à réméré. — Interprétation,. en cas de doute sur sa
                         véritable nature. — Gage. — Eviction partielle. — Restitution• du prix
@@ -1416,7 +1427,7 @@
                             étrangers devaient être appelés à contribuer principalement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0160">
                     <head>220. - Juridiction mixte. —. Compétence entre indigènes pour une demande
                         de séquestre sur des biens grevés d’une affectation au profit d'un créancier
                         étranger. — Droit pour tout intéressé de requérir une mesure de séquestre
@@ -1446,7 +1457,7 @@
                             d’expropriation entreprise par le créancier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0170">
                     <head>221. -Mandat. — Assurance contractée par le mandataire sur la base de
                         polices existant à son profit. — Banque. — Cotons. — Arbitrage. — Clause
                         compromissoire.</head>
@@ -1466,7 +1477,7 @@
                             Mohamed Hussein c. Cassa di Sconto e di Risparmio).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0180">
                     <head>222. - Mesure d’instruction. — Déchéance. — Cas où une enquête est devenue
                         inutile depuis le jugement qui l'a ordonnée.</head>
                     <div type="summary">
@@ -1485,7 +1496,7 @@
                             Abdalla Pacha Sfer esq, c. Moïse Goi-denstein).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0190">
                     <head>223. - Nationalité hellénique. — Option exercée en conformité du Traité
                         d’Athènes du 1-14 Novembre 1913 par les originaires des nouvelles provinces
                         grecques. — Effet déclaratif. — Accord gréco-égyptien du 17 Octobre
@@ -1569,7 +1580,7 @@
                             adversaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0200">
                     <head>224. - Poids et mesures. — Loi du 24 Septembre 1914. — Existence d’une
                         fausse balance non utilisée.</head>
                     <div type="summary">
@@ -1657,7 +1668,7 @@
                             raison de son genre de commerce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0210">
                     <head>225. - Prescription. — Annulation de rinterruption de la possession par
                         suite du rejet d’une action possessoire. — Chose jugée ne dérivant que du
                         dispositif des décisions.</head>
@@ -1678,7 +1689,7 @@
                             Gabriel Cheboub c. Joseph Keller et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0220">
                     <head>226. - Prescription. — Calcul de la période. — Calendrier de
                         /’Hégire.</head>
                     <div type="summary">
@@ -1721,7 +1732,7 @@
                             législative et sans effet rétroactif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0230">
                     <head>227. - Presse. — Critique. — Dommages-intérêts.</head>
                     <div type="summary">
                         <p>Celui qui se livre publiquement à une production artistique est mal fondé
@@ -1814,7 +1825,7 @@
                         <p>Attendu qu’en raison de ce qui précède, la demande doit être rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0240">
                     <head>228. - Requête civile. — Renonciation à l'instance. — Effets.</head>
                     <div type="summary">
                         <p>En matière de requête civile comme en toute autre, la renonciation à
@@ -1828,7 +1839,7 @@
                         <pb n="133" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0250">
                     <head>229. - Retrait litigieux. — Conditions d’exercice. — Irrecevabilité en cas
                         de défaut de contestation sur le fond du droit cédé. — Appel. — Majoration
                         de la demande pour annuité échue depuis le jugement.</head>
@@ -1895,7 +1906,7 @@
                             dès lors, ne rentreraient donc pas dans la définition donnée par l’art.
                             1700. D’après cela il est évident qu’une simple demande en paiement,
                             lorsque le droit n’est pas contesté, ne donne pas au droit cédé un
-                            caractère litigieux. > (Voir Dalloz, répertoire tome 43, pages 482 et
+                            caractère litigieux. &gt; (Voir Dalloz, répertoire tome 43, pages 482 et
                             483, note 2055, Supplément Dalloz, tome 18, page 917 note 903, et
                             Baudry-Lacantinerie, deuxième édition, tome traitant de la vente et de
                             l’échange, pages 814 et 818, notes 916, et 922) ;</p>
@@ -1938,7 +1949,7 @@
                             son opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0260">
                     <head>230. - Saisie-arrèt. — Tiers-saisi. — Dépôt à la Caisse. — Omission de
                         mentionner tous les saisissants. — Responsabilité. — Distribution par
                         contribution.</head>
@@ -1957,7 +1968,7 @@
                             Constantin Argyropoulo c. Youssef Mohamed El Zeini).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0270">
                     <head>231. - Taxe. — Compétence du Tribunal Civil. — Opposition. —
                         Référé.</head>
                     <div type="summary">
@@ -1993,7 +2004,7 @@
                             qu’elle se présenterait éventuellement au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0280">
                     <head>232. - Tiers-détenteur. — Subrogation aux droits du créancier par lui
                         réglé. — Poursuites contre les autres tiers-détenteurs des biens
                         hypothéqués. — Hypothèque. — Indivisibilité.</head>
@@ -2088,7 +2099,7 @@
                             contrat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0290">
                     <head>233. - Transport. — Chargement de marchandises avariées. — Non
                         responsabilité de la Compagnie de navigation. — Connaissement. — Clause
                         d’exonération des fautes du Capitaine. — Validité. — Mauvais arrimage. —
@@ -2178,7 +2189,7 @@
                             par rapport aux Tribunaux é-gyptiens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0300">
                     <head>234. - Transporteur. — Voiturier. — Fin de non recevoir de l’art. 104 C.
                         Corn. — Perte partielle. — Avarie. — Lettre de voiture. — Clause
                         d’exonération. — Faute du voiturier. — Charge de la preuve.</head>
@@ -2280,7 +2291,7 @@
                             préposés, mais que cette faute doit être dûment prouvée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0310">
                     <head>235. -Vente. — Eviction de l’acheteur qui n’a pas transcrit, par suite
                         d’une expropriation contre le vendeur. — Conséquences. — Restitution du
                         prix.</head>
@@ -2308,7 +2319,7 @@
                             moins immoral.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-07-0320">
                     <head>236. - Vente. — Condition potestative.</head>
                     <div type="summary">
                         <p>Ne constitue pas une condition potestative viciant le contrat, la mention
@@ -2841,7 +2852,7 @@
                 <p>Entièrement versé Réserve 140 Millions</p>
                 <p>LYON (Siège Social) - PARIS (Siège Central)</p>
                 <p>Agences dans les principales villes de France</p>
-                <p>BANCO H> I ROMA Société Anonyme</p>
+                <p>BANCO H&gt; I ROMA Société Anonyme</p>
                 <p>Capital entièrement versé: Lit. 100 Millions Siège Centrale: ROME</p>
                 <p>Succursales en Italie et à l’Etranger :</p>
                 <p>Alba, Albano Laziale, Aquila, Arezzo, Avezzano, Bagni di Montecatinî, Barcelone,

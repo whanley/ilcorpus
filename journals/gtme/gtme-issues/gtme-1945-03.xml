@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0035-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0035-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1945-03-10">March 10, 1945</date><lb/>
-                    <biblScope unit="volume">Vol. 35</biblScope><lb/>
-                    <biblScope unit="number">No. 413</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1945-03-10">March 10, 1945</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 35</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 413</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -121,7 +132,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE.</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0010">
                     <head>36. - Impôts et taxes. — Automobiles; Arrêté du 16 Juillet 1913; Loi du
                         1er Juillet 1934; droits de circulation; personnes responsables; obligation
                         du titulaire de l'autorisation, même en cas de reventes successives;
@@ -333,7 +344,7 @@
                             l’encontre des Consorts El Itribi, mis en cause par cette dernière.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0020">
                     <head>37. - Impôts et taxes. — Automobiles; droit d’immatriculation et droit
                         d'exploitation; exigibilité et limite d'exercice. — Permis de circulation
                         d'un véhicule destiné à un service public; spécification d'un terminus de la
@@ -475,7 +486,7 @@
                             confirmé par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0030">
                     <head>38. - Impôts et taxes. — Automobiles; taxes spéciales de circulation;
                         conditions de légitimité; camion; droits supplémentaires imposés par la
                         Décision du Conseil des Ministres du 30 Décembre 1931 et par VArrêté du 18
@@ -483,7 +494,7 @@
                         publiques; liberté de circulation; conséquences; taxes déguisées; conditions
                         d'établissement, de suppression et de modification; délégations du pouvoir
                         législatif en matière fiscale; interprétation restrictive. — Impôts et
-                        taxes; Loi A’° &lt;> de 1910: inadmissibilité. — Impôts et taxes; défaut
+                        taxes; Loi A’° &lt;&gt; de 1910: inadmissibilité. — Impôts et taxes; défaut
                         d'effet rétroactif; prescription triennale; point de départ.</head>
                     <div type="summary">
                         <p>I. - Est illégale toute taxe imposée et perçue par la puissance publique
@@ -977,7 +988,7 @@
                             la limitation à 2 tonnes et demie du poids des camions, avec leur
                             charge, pouvant être autorisés à circuler, qui rendait illusoire
                             l’autorisation; la fermeture, sauf paiement d’une prétendue taxe
-                            facultative locale, de la route Le Cai> re-Suez-Port-Tewfick, qui
+                            facultative locale, de la route Le Cai&gt; re-Suez-Port-Tewfick, qui
                             réduisait sensiblement la sphère d’action de la Société; le refus de
                             renouveler les permis pour la route Alexandrie-Le Caire, en les
                             accordant pour le seul périmètre de la ville d’Alexandrie, qui excluait
@@ -1119,7 +1130,7 @@
                             les arrêts du 6 Avril 1944.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0040">
                     <head>39. - Impôts et taxes. — Droit de timbre; Loi A'0’ 44 de 1939 et 11 de
                         1941; droit de timbre sur les actions; sociétés étrangères; inapplicabilité
                         du droit de timbre sur leurs actions non susceptibles d'être cotées à la
@@ -1170,8 +1181,8 @@
                         <p>a) en ordre principal: que la totalité de la somme payée par elle pour
                             droit de timbre soit L.E. 182,812 mill. doit lui être restituée avec les
                             intérêts depuis les dates des paiements indus parce que:</p>
-                        <p>1. ) elle n’est pas une « Public Company » mais une « Private Company >-
-                            et ne peut être assimilée à une société anonyme égyptienne ou
+                        <p>1. ) elle n’est pas une « Public Company » mais une « Private Company
+                            &gt;- et ne peut être assimilée à une société anonyme égyptienne ou
                             étrangère;</p>
                         <p>2. ) elle n’a pas son siège social en Egypte et n’a pas pour objet unique
                             ou principal une exploitation en Egypte;</p>
@@ -1225,7 +1236,7 @@
                             établissent le droit de timbre de 1/4 pour mille sur les actions de
                             toute nature, cotées ou non cotées, des sociétés égyptiennes ou des
                             sociétés étrangères y assimilées, ont eu pour but de soumettre à ce
-                            droit de timbre des actions « non susceptibles )> d’être cotées à la
+                            droit de timbre des actions « non susceptibles )&gt; d’être cotées à la
                             Bourse;</p>
                         <p>Attendu, à ce sujet, qu’il résulte que la Note Explicative du projet
                             apportant cette modification à la Loi N° 44 de 1939 (annales de la
@@ -1320,7 +1331,7 @@
                             perçu et la demande principale est en conséquence fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0050">
                     <head>40. - Impôts et taxes. — Droits proportionnels; décisions judiciaires;
                         critérium de perception des droits.</head>
                     <div type="summary">
@@ -1434,7 +1445,7 @@
                             -tiers de la propriété des 14000 p.c. sis à Rarnleh, comme semblent
                             l’avoir cru les premiers juges, mais le tiers de 20 Lirais soit 6 kirats
                             et 16 sahmes, les 17 ki-lats et 8 sahmes revenant aux dites demoiselles.
-                            ></p>
+                            &gt;</p>
                         <p>Par le jugement dont appel du 15 Mai 1940, rendu donc avant la susdite
                             transaction, le tribunal déclarant tant les Demoiselles Lucie, Dirouhi
                             et Roulis KevorL que Domenico Moschetti en partie fondés en leur
@@ -1606,7 +1617,7 @@
                             décédé, ainsi que cela a été déclaré à l’audience du 2 Mars 194-3.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0060">
                     <head>41. - Impôts et taxes. — Impôt sur la propriété bâtie; Décret du 13 Mars
                         1884; déclaration imposée aux propriétaires; étendue de cette obligation;
                         applicabilité aux constructions nouvelles; forme de la déclaration.</head>
@@ -1708,7 +1719,7 @@
                             l’arrêt du 14 Mai 1942.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0070">
                     <head>42. - Impôts et taxes. — Impôt sur la propriété bâtie; Décret du 13 Mars
                         1884; déclaration imposée aux propriétaires; forme; omission; double
                         imposition; avis indirectement donné à l'Administration; inopérance.</head>
@@ -1803,7 +1814,7 @@
                             43, l’arrêt du 14 Mai 1942.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0080">
                     <head>43. - Impôts et taxes. — Impôt sur la propriété bâtie; Décret du 13 Mars
                         1884; déclaration imposée aux propriétaires; forme; omission; double
                         imposition; connaissance de lu construction par l’Administration;
@@ -1879,7 +1890,7 @@
                             l’arrêt du 14 Décembre 1944.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0090">
                     <head>44. - Impôts et taxes. — Impôt sur la propriété bâtie; Décret du 13 Mars
                         1884; immeuble en voie d’achèvement; impo-. sition; point de départ.</head>
                     <div type="summary">
@@ -1924,7 +1935,7 @@
                             l’immeuble comme non encore imposable au 1er Janvier 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0100">
                     <head>45. - Impôts et taxes. — Impôt sur la propriété bâtie; Décret du 13 Mars
                         1884; valeur locative; estimation; critérium à suivre par les Commissions
                         d’évaluation et le Conseil de Révision; violation <pb n="100"
@@ -1995,7 +2006,7 @@
                             Novembre 1941, du 28 Mai 1942, et du 27 Mai 1943.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0110">
                     <head>46. - Impôts et taxes. — Impôt sur les bénéfices commerciaux et
                         industriels et impôt sur les bénéfices exceptionnels; non déductibilité de
                         l'impôt spécial à titre de charge de l'exercice imposable; Lois N°‘ 14 de
@@ -2164,7 +2175,7 @@
                             implicite de rétroactivité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0120">
                     <head>47. - Impôts et taxes. — Impôt sur les revenus des valeurs mobilières;
                         exonération accordée aux sociétés égyptiennes par actions, à concurrence des
                         produits des actions des sociétés filiales; applicabilité aux sociétés
@@ -2354,7 +2365,7 @@
                             le litige actuellement né.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0130">
                     <head>48. - Impôts et taxes. — Impôt sur les revenus des valeurs mobilières;
                         fait générateur de l'impôt, constitué par l'échéance; impôt perçu sur des
                         dividendes intérimaires mis en distribution avant l'entrée en vigueur de la
@@ -2462,7 +2473,7 @@
                             XXXIV, 169-160 et même Trib. 26 Mars 1945, ci-après § 49.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0140">
                     <head>49. - Impôts et taxes. — Impôt sur les' revenus des valeurs mobilières;
                         sociétés anonymes; émoluments statutaires fixes des administrateurs;
                         assujettissement au susdit impôt même lorsqu'ils ont le caractère de charges
@@ -2548,7 +2559,7 @@
                             ci-avant § 48, le jug. du 12 Juin 1944.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0150">
                     <head>50. - Impôts et taxes. — Municipalité d’Alexandrie; arrêtés relatifs à
                         l'imposition des taxes; condition de validité; forme. — Taxe sur les débits
                         de boissons alcooliques; Arrêtés du 1er Novembre 1916, du 2 Avril 1929 et du
@@ -2757,7 +2768,7 @@
                             62-56, l'arrêt du 22 Janvier 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0160">
                     <head>51. - Impôts et taxes. — Municipalité d'Alexandrie; taxe locative; Arrêté
                         du il Janvier 1927; valeur locative; estimation; baux sincères comportant un
                         loyer de faveur; prise en considération; saisie administrative pratiquée
@@ -2844,7 +2855,7 @@
                             matière d’impôt sur la propriété bâtie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0170">
                     <head>52. - Impôts et taxes. — Municipalité d'Alexandrie; taxe locative de 2 %;
                         Arrêtés du 24 Janvier 1899 et du 11 Janvier 1927; cas de locaux ajoutés sans
                         majoration de loyer au local originairement loué; avis donné par lettre
@@ -2955,7 +2966,7 @@
                             dommages-intérêts taxés ex icrfuo et bono à L.E. 10</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0180">
                     <head>53. - Impôts et taxes. — Prescription; Loi N° 2 de 1940; prescription
                         triennale; étendue d'application; applicabilité à tout dépôt effectué aux
                         Caisses de l'Etat pour impôts et taxes; mode de calcul du délai pour les
@@ -3099,7 +3110,7 @@
                             du 7 Mars 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0190">
                     <head>54. - Impôts et taxes.,— Prescription; Loi N° 2 de 1940; prescription
                         triennale; inapplicabilité aux actions en remboursement basées sur des
                         droits acquis antérieurement à la promulgation de la nouvelle loi.</head>
@@ -3123,7 +3134,7 @@
                             l’arrêt du 7 Mars 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0200">
                     <head>55. - Impôts et taxes. — Prescription non susceptible de suspension ou
                         interruption; Décret du 26 Mars 1900 sur la saisie administrative.</head>
                     <div type="summary">
@@ -3154,7 +3165,7 @@
                             aioins quant à l’interruption...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0210">
                     <head>56. - Impôts et taxes. — Becours en cas de violation des règles légales
                         devant les tribunaux judiciaires; déchéances et forclusions prévues pour les
                         recours administratifs; inapplicabilité. — hnpôt sur la propriété bâtie;
@@ -3230,7 +3241,7 @@
                             Février 1943 (Gaz. XXXII, 166-70 et 167-71).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0220">
                     <head>57. - Impôts et taxes. — Becours en cas de violation des règles légales;
                         recevabilité devant les tribunaux judiciaires; pouvoirs des tribunaux;
                         _étendue; détermination des dommages-intérêts dus au contribuable. — Impôt
@@ -3411,7 +3422,7 @@
                             et 59, les arrêts du 28 Mai 1942 et'du 27 Mai 1943.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0230">
                     <head>58. - Impôts et taxes. — Recours en cas de violation des règles légales;
                         recevabilité devant les tribunaux judiciaires; pouvoirs des tribunaux;
                         étendue; détermination des dommages-intérêts dus au contribuable. — Impôt
@@ -3521,7 +3532,7 @@
                             qu’ils bénéficiaient de l’interprétation donnée de la loi, par le
                             Conseil des Ministres, dans sa décision du 11 Novembre 1886.</p>
                         <p>Le jugement est, sur ce point, ainsi motivé:</p>
-                        <p>>&lt; Attendu que, loin de pouvoir être comparés à des magasins ou
+                        <p>&gt;&lt; Attendu que, loin de pouvoir être comparés à des magasins ou
                             entrepôts où la marchandise est simplement placée pour être vendue, les
                             réservoirs ne sont, à proprement parler, qu’un appareil mécanique,
                             quoique simple, destiné à produire, par la force de gravitation, la
@@ -3699,7 +3710,7 @@
                         <p>V. ég. ci-après § 59, les arrêts du 27 Mai 1943 et du 20 Avril 1944.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0240">
                     <head>59. - Impôts et taxes. — Recours en cas de violation des règles légales;
                         recevabilité devant les tribunaux judiciaires; pouvoirs des tribunaux;
                         étendue. — Impôt sur la propriété bâtie; Décret du 13 Mars 1884; portée;
@@ -3849,7 +3860,7 @@
                             20 Novembre 1941, du 19 Mars 1942 et du 28 Mai 1942.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-03-0250">
                     <head>60. - Impôts et taxes. — Saisie administrative; Décret du 25 Mars 1880;
                         impôts dus pendant le mois de la vente des récoltes; droit de déduction sur
                         le prix de la vente.</head>
@@ -4077,7 +4088,7 @@
                     attire l’attention des intéressés sur ce que lesdits droits-sont dus,
                     conformément aux tarifs établis par les lois pour toute opposition examinée par
                     la Commission constituée aux termes de l’article 3 de la susdite Proclamation
-                    N-> 487.</p>
+                    N-&gt; 487.</p>
                 <p>Le Caire, le 21 Janvier 1945.</p>
                 <p>Ahmed Maher.</p>
                 <p>(*) Le texte arabe de cet Avis a été publié au J.O. N» 17 du 22 Janvier 1945.</p>

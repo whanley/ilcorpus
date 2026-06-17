@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0024-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0024-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1934-03-10">March 10, 1934</date><lb/>
-                    <biblScope unit="volume">Vol. 24</biblScope><lb/>
-                    <biblScope unit="number">No. 281</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1934-03-10">March 10, 1934</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 24</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 281</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -50,12 +61,12 @@
                 <p>D'ÉGYPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte. Fondateurs
-                    > M« MAXIME FUPIKOFEH et LÉON PANQALO, Avocats à la Cour.</p>
+                    &gt; M« MAXIME FUPIKOFEH et LÉON PANQALO, Avocats à la Cour.</p>
                 <p>Directeur: M« MAXIME PUPIKOFER,.Avocat à la Cotu.</p>
                 <p>Comité de Rédaction et d’Administratlon :</p>
                 <p>M« L. PANGALO et K. 8CHEMEIL (Directeurs au Caire) M" E. DEGIARDÉ et LUCIEN BARDA
                     (Secrétaires de la rédaction).</p>
-                <p>M> A. FADEL (Directeur à Mansourah). M* F. BRAUN l</p>
+                <p>M&gt; A. FADEL (Directeur à Mansourah). M* F. BRAUN l</p>
                 <p>l'i G.MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT j (Correspondants à
                     Paris).</p>
                 <p>ABONNEMENTS :</p>
@@ -517,7 +528,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0010">
                     <head>148. - Actes d’huissier. .— Force probante; déclaration faite à l'huissier
                         et actée au procès-verbal; qualité de la personne qui a reçu une
                         signification; contestation de la sincérité, d'une telle déclaration, ne
@@ -536,7 +547,7 @@
                             Abdel Al Mohamed c. (Jean G. • Elafropoulo.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0020">
                     <head>149. - Actes d’huissier. — Signification, à mandataire; conditions;
                         nullité; cas où elle peut être couverte. — Significations admissibles à
                         domicile élu; art. 465 C. Proc.; portée et limites. — Signification; requête
@@ -702,7 +713,7 @@
                             leur confèrent ces mêmes dispositions de la loi...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0030">
                     <head>150. - Actes d’huissier. — Signification; délais de distance; fraction de
                         jour; calcul.</head>
                     <div type="summary">
@@ -715,7 +726,7 @@
                             c. Choucri Toutounghi et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0040">
                     <head>151. - Actes d’huissier. — Signification; domicile inconnu; recherches à
                         faire par l’huissier; domicile à l’étranger; transmission de la copie de
                         l’exploit par les voies diplomatiques. — Jugement de défaut; péremption
@@ -805,7 +816,7 @@
                         <p>Note. — II. - V. Gaz. XXI, 413-483, l’arrêt du 10 Février 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0050">
                     <head>152. - Actes d’huissier. — Signification; remise des actes; daïras visées
                         par l'art. 10 C. Proc.; daïras privées; assignation donnée au wekil;
                         conditions dé validité; mandat d'ester en justice; caractère formel ou
@@ -915,9 +926,9 @@
                             wékil de la Daïra pris en sa susdite qualité-n’aboutit à une assignation
                             régulière que dans une double condition: 1.) que la personne du
                             propriétaire de la Daïra soit expressément dénommée dans l’exploit, et
-                            2.)> que le wékil en la personne duquel la signification a été faite ait
-                            en vertu d’un mandat pouvoir pour représenter en justice le propriétaire
-                            de la Daïra;</p>
+                            2.)&gt; que le wékil en la personne duquel la signification a été faite
+                            ait en vertu d’un mandat pouvoir pour représenter en justice le
+                            propriétaire de la Daïra;</p>
                         <p>Que la première de ces conditions est destinée à satisfaire à la règle «
                             nul ne plaide-par procureur » qui permet d’agir en justice par
                             mandataire ou d’assigner quelqu’un en la personne de son mandataire
@@ -1007,7 +1018,7 @@
                             la première fois devant la Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0060">
                     <head>153. - Actes d’huissier. — Signification; remise des actes; personnes à
                         qui l'acté peut être valablement remis. — Appel; jugement solutionnant les
                         contestations dans ses motifs et ordonnant une mesure d'instruction par
@@ -1184,7 +1195,7 @@
                             1924.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0070">
                     <head>154. - Actes d’huissier. — Signification; remise des actes; personnes à
                         qui l'acte peut être valablement remis; principe; pouvoir d'appréciation du
                         juge.</head>
@@ -1206,7 +1217,7 @@
                         <p>Note. — V. ég. ci-avant § 153 l’arrêt du 12 Avril 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0080">
                     <head>155. - Action oblique. — Conditions d'exercice; cas où la créance du
                         débiteur envers le. tiers est supérieure à sa dette envers le demandeur;
                         mise en cause des autres créanciers; inutilité; insolvabilité du débiteur,
@@ -1247,14 +1258,14 @@
                             paiement d’une somme de L.E. 144,788 mill., qui leur serait, due en
                             -réparation du dommage causé à leur culture par des travaux exécutés par
                             le Service des Irrigations;</p>
-                        <p>(Omissis). ></p>
+                        <p>(Omissis). &gt;</p>
                         <p>... I. — Sur la recevabilité: ’</p>
                         <p>Attendu que le Gouvernement soutient que-faction serait irrecevable en
                             tant qu’elle porte sur une somme supérieure au montant des droits du
                             demandeur;</p>
                         <p>Attendu que le créancier qui agit aux lieu, et place de ses débiteurs
                             négligents, peut exercer tous leurs droits, et qu’il importe donc peu
-                            que ceux-ci concluent ou non, du. > moment qu’ils ont été mis en
+                            que ceux-ci concluent ou non, du. &gt; moment qu’ils ont été mis en
                             cause;</p>
                         <p>Attendu que le Gouvernement reproche aussi au demandeur de n’avoir pas
                             mis en-cause tous les créanciers des Hoirs débiteurs;</p>
@@ -1272,7 +1283,7 @@
                         <p>Attendu que faction est donc recevable...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0090">
                     <head>156. - Action paulienne. — Conditions d'exercice; cas de simulation de
                         l'acte attaqué; créancier postérieur admis à prouver la fictivité.</head>
                     <div type="summary">
@@ -1289,7 +1300,7 @@
                             et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0100">
                     <head>157. - Compétence. —Action tendant à ja résolution d'un contrai de venté
                         de coton; incompétence du Tribunal de Commercer —- Compétence -.ratione
                         ma-teriæ; exception pouvant être soulevée en tout état de cause. -■—
@@ -1310,7 +1321,7 @@
                             Sociale Henri Lepique &amp; Co c. Dessouhi Aly Khater et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0110">
                     <head>158. - Compétence. —Demande de nature civile portée devant le Tribunal de
                         commerce; obligation pour le tribunal de décliner sa compétence; renvoi
                         devant le tribunal civil; Tribunal de commerce ne pouvant s'ériger en
@@ -1397,7 +1408,7 @@
                             et XXI, 401-459, l’arrêt du 18 Juin 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0120">
                     <head>159. - Demande. — Action dirigée contre les héritiers d'une succession en
                         vertu d'un engagement■ d'intérêt prétendument collectif; recevabilité;
                         condamnation personnelle d'une partie des héritiers; admissibilité. —-
@@ -1474,7 +1485,7 @@
                             &amp; Co. ne pouvant justifier sa thèse à cet égard...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0130">
                     <head>160. - Demande. — Action dirigée contre un établissement commercial
                         uniquement désigné par sa dénomination; irrecevabilité.</head>
                     <div type="summary">
@@ -1520,7 +1531,7 @@
                             une personne.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0140">
                     <head>161. - Demande. — Actions portées devant deux juridictions différentes;
                         règle electa una via; portée; limites d'application. — Litispendance;
                         inadmissibilité en cas de procédures suivies devant des tribunaux
@@ -1632,7 +1643,7 @@
                     </div>
                 </div>
                 <pb n="189" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0150">
                     <head>162. - Demande. — Pluralité de demandes; demandeurs distincts; cumul en
                         une seule instance; cas où il est admissible; cas de connexité ou de source
                         commune dans un contrat ou dans un fait unique; conséquences au point de vue
@@ -1742,7 +1753,7 @@
                         <p>Note. — V. ég. ci-après § 163 l’arrêt du 13 Mars 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0160">
                     <head>163. - Demande. — Pluralité de demandés; demandeurs distincts; cumul en
                         une seule instance; cas où il est admissible; exception d'irrecevabilité;
                         cas où le Tribunal ne peut la soulever d'office; action en revendication
@@ -1830,7 +1841,7 @@
                         <p>Note. —. I. - V. ég. ci-avant § 162 l’arrêt du 26 Avril 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0170">
                     <head>164. - Demande. — Taux; évaluation au point de vue de la compétence; de-'
                         mande excédant le taux sommaire non susceptible d'être scindée et de faire
                         l'ob- ■ jet de plusieurs instances devant le Tribunal Sommaire; incompétence
@@ -1848,12 +1859,12 @@
                             même contrat.</p>
                     </div>
                     <div type="litigants">
-                        <p>Trib. Somm. Alex. Prés. M. D. Sarsentis, 6 Mai >1933. — Société des
-                            Auteurs, Compositeurs &amp; Edi-, téurs de--Musique o> Théodore
+                        <p>Trib. Somm. Alex. Prés. M. D. Sarsentis, 6 Mai &gt;1933. — Société des
+                            Auteurs, Compositeurs &amp; Edi-, téurs de--Musique o&gt; Théodore
                             Caloutas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0180">
                     <head>165. - Demande. — Taux; évaluation mu point de vue de la compétence;
                         revendication incidente d'objets saisis; détermination de la compétence
                         selon la valeur de la créance.</head>
@@ -1966,7 +1977,7 @@
                             d’après, les règles -précisées connues à l’avance des parties...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0190">
                     <head>166. - Demande. — Taux; évaluation au point de vue de la 'compétence;
                         Tribunal Sommaire;' cas'où il doit' examiner, sans .y; Statuer, des
                         questions dépassant le taux de - sa compétence', -r</head>
@@ -2091,7 +2102,7 @@
                             juridiction.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0200">
                     <head>167. - Demande en interprétation. — Citation; interprétation;
                         signification à domicile élu; régularité.</head>
                     <div type="summary">
@@ -2104,7 +2115,7 @@
                             Edouard 8. Haniekati.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0210">
                     <head>168. - Indemnity Bill. — Loi No. 25 de 1923; Cotton Control Commission;
                         proclamation du 15 Juin 1918.: action tendant à réclamer un loyer supérieur
                         à celui fixé lors de la réquisition d'une chounah; irrecevabilité; caractère
@@ -2174,8 +2185,8 @@
                             vertu de la Loi Martiale, sous l’autorité ex-<pb n="192"
                                 rendition="Gazette des Tribunaux Mixtes d’Egypte."/>plicite du
                             Commandant en Chef des Forces de S.M. Britannique en Egypte ». En effet,
-                            l’Ordonnance publiée au &lt;> Journal Officiel » du 17 Juin 1918 porte «
-                            l’institution » de la dite Commission (art. 1er), à laquelle est
+                            l’Ordonnance publiée au &lt;&gt; Journal Officiel » du 17 Juin 1918
+                            porte « l’institution » de la dite Commission (art. 1er), à laquelle est
                             conférée la personnalité morale (art. 2). Aux termes de l’art. 10,
                             pouvoir est conféré à la Commission « de profiter, par accord ou par
                             réquisition, de toute facilité existant dans un port égyptien pour
@@ -2210,7 +2221,7 @@
                             la Cotton Control Commission.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0220">
                     <head>169. - Instance. — Acquiescement d'une partie à une mesure de preuve
                         sollicitée par son adversaire, n'impliquant pas abandon de ses conclusions
                         principales. — Appel; moyen de défense présenté pour la première fois en
@@ -2296,7 +2307,7 @@
                             expertise judiciaire déjà faite aux diligences de son adversaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0230">
                     <head>170. - Instance. — Interruption; décès d’une partie; cas de succession
                         vacante du plaideur décédé; reprise d'instance par un créancier de ce
                         dernier; conditions; intervention en degré d'appel avec citation au
@@ -2442,7 +2453,7 @@
                             régularisation de la procédure au vœu de la loi...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0240">
                     <head>171. - Instance. — Interruption; décès d'une partie; reprise d'instance
                         par les héritiers du défunt; condition; assignation libellée au nom d'un
                         défunt; intervention des héritiers; inadmissibilité.</head>
@@ -2459,7 +2470,7 @@
                             Anonyme des Eaux du Caire c. El Hag Mohamed Abdel Wahed El Tazi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0250">
                     <head>172. - Instance. — Péremption; avenir non enrôlé; point de départ du délai
                         dé péremption.</head>
                     <div type="summary">
@@ -2478,7 +2489,7 @@
                         <p>7 Février 1929. Gaz. XXI, 224-265.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0260">
                     <head>173. - Instance. — Péremption; interruption; décès d'une partie, non
                         interruptif de la péremption; ignorance du nom de ses héritiers n'empêchant
                         pas l'accomplissement de la prescription.</head>
@@ -2501,7 +2512,7 @@
                             Gaz. XII, 151-271.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0270">
                     <head>174. - Instance. — Péremption; interruption; tentatives d'arrangement; cas
                         où elles peuvent avoir un effet interruptif.</head>
                     <div type="summary">
@@ -2515,7 +2526,7 @@
                             Euphrosine Philippe et autres c. Périclès Philippe.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0280">
                     <head>175. - Instance. — Péremption; procédure d’appel; péremption impossible en
                         cas d'arrêt en partie interlocutoire et en partie définitif. — Expertise;
                         non accomplissement dans les délais fixés; retard n'entraînant pas
@@ -2571,7 +2582,7 @@
                             conséquent, de passer outre à la demande en péremption.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0290">
                     <head>176. - Instance. — Renonciation; demande reconventionnelle; instance liée
                         par des conclusions prises de part et d’autre; revendication; conclusions du
                         défendeur tendant à une déclaration de son droit de propriété, suffisantes à
@@ -2704,7 +2715,7 @@
                             demandes respectives.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0300">
                     <head>177. - Intervention. — Association en participation: litige né d'un
                         contrat rentrant dans l'association; intervention d'un associé en
                         participation; nature; droit de l'intervenant. — Juridictions mixtes;
@@ -2722,8 +2733,8 @@
                             indigènes, ne peut étayer la compétence des Tribunaux mixtes.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d’Appel, Ire Ch., Prés. 11. C. Vryakos, 24 •Janvier 19o4. —
-                            Choucri Georges Nasr et autre c. Chafik Mitri et autre.</p>
+                        <p>Cour d’Appel, Ire Ch., Prés. 11. C. Vryakos, 24 •Janvier 19o4. — Choucri
+                            Georges Nasr et autre c. Chafik Mitri et autre.</p>
                     </div>
                     <div type="decision">
                         <p>Arrêt.</p>
@@ -2811,7 +2822,7 @@
                             intervenir au procès pour soutenir la demande de son débiteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0310">
                     <head>178. - Intervention. — Demande en revendication d’objets saisis formulée
                         par intervention dans l'instance en validation de saisie conservatoire;
                         irrecevabilité.</head>
@@ -2878,7 +2889,7 @@
                             prétendus droits relatifs aux objets saisis par action séparée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0320">
                     <head>179. - Intervention. — Disparition du demandeur principal; substitution
                         par un intervenant ou un codemandeur; condition d'admissibilité;
                         inadmissibilité dans une instance viciée dès l'origine.</head>
@@ -2960,7 +2971,7 @@
                             de nullité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-03-0330">
                     <head>180. - Intervention. — Intervention forcée devant la Cour; cas de
                         l'adjudicataire en l'instance en revendication incidente; admissibilité. —
                         Vente immobilière; droits litigieux; vendeur représentant valablement

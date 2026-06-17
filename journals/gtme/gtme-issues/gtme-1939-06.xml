@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0029-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0029-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1939-06-10">June 10, 1939</date><lb/>
-                    <biblScope unit="volume">Vol. 29</biblScope><lb/>
-                    <biblScope unit="number">No. 344</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1939-06-10">June 10, 1939</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 29</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 344</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -59,7 +70,7 @@
                 <p>Comité de Rédaction et d’Hdministration :</p>
                 <p>M“ L. FANGALO et R. SCHEMEIL (Directeurs au Caire)</p>
                 <p>M«» E. DEGIARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
-                <p>M- A. FADEL (Directeur à Mansourah}. M- F. BRAUN > (Ocmspmdants a ParisJ</p>
+                <p>M- A. FADEL (Directeur à Mansourah}. M- F. BRAUN &gt; (Ocmspmdants a ParisJ</p>
                 <p>Me G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT !</p>
                 <p>Administrateur-Gérant :</p>
                 <p>Joseph a. Degiarde.</p>
@@ -351,7 +362,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0010">
                     <head>280. - Référé. — Appel d'une ordon-donnancc dont l'exécution a déjà été
                         consommée; compétence de la Cour à en connaître. — Référé; difficultés
                         ■d'exécution de titres exécutoires; droit -d’examen du Juge des Référés;
@@ -494,7 +505,7 @@
                             forme et d’y faire droit quant au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0020">
                     <head>281. - Référé. — Appel; recevabilité indépendante du taux de la
                         contestation. ■—• Référé; compétence en matière d'expulsion d'un occupant
                         sans titre.</head>
@@ -510,7 +521,7 @@
                             c. Mohamed Bas-siouni Sid Ahmed El Saïdi et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0030">
                     <head>282. - Référé. — Chose jugée; caractère relatif; fait nouveau;
                         effet.</head>
                     <div type="summary">
@@ -524,7 +535,7 @@
                             Hamed Omar El Maghraby c. Mohamed Hamed El Ozeiri et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0040">
                     <head>283. - Référé. —■ Compétence; caractère d'ordre public; clauses
                         attributives de compétence; inefficacité. — Référé; incompétence à connaître
                         d'une demande en restitution d'un objet vendu avec réserve de propriété,
@@ -582,7 +593,7 @@
                             caractère urgent tel qu’il est circonscrit en matière de référé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0050">
                     <head>284. - Référé. —• Compétence; cas où l'existence d'une instance devant le
                         juge du fond n’est pas exclusive de la compétence du Juge des Référés;
                         demande de déguerpissement comportant un différend sur le titre invoqué par
@@ -698,7 +709,7 @@
                             l’objet de discussions sérieuses entre parties...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0060">
                     <head>285. - Référé. — Compétence en matière de bail; cas de contestation
                         urgente sur des travaux concernant les lieux loués; demande d’expulsion d'un
                         locataire faisant obstacle à des réparations dans les lieux loués; bien
@@ -755,7 +766,7 @@
                             chicane, la demande est amplement justifiée et son accueil s’impose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0070">
                     <head>286. - Référé. — Compétence en matière de bail; fictivité; examen;
                         limites.</head>
                     <div type="summary">
@@ -772,7 +783,7 @@
                             Crédit Foncier Egyptien c. Kamel bey El Sayed El Guebali.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0080">
                     <head>287. - Référé. — Compétence; examen des titres et faits; limites.</head>
                     <div type="summary">
                         <p>L’examen des actes et faits soumis au Juge des Référés échappe à sa
@@ -785,7 +796,7 @@
                             Vella et Ct. c. Jean Parés Basili.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0090">
                     <head>288. - Référé. — Compétence limitée aux litiges soumis au fond à la
                         Juridiction Mixte; cas où il s'agit d’une mesure de séquestre contre une
                         société étrangère. — Juridiction Mixte; compétence à l'égard des sociétés
@@ -1026,7 +1037,7 @@
                             déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0100">
                     <head>289. - Référé. — Compétence pour autoriser le paiement de pensions
                         ali-inentaires à des bénéficiaires d’un wakf sous séquestre.</head>
                     <div type="summary">
@@ -1077,7 +1088,7 @@
                             l’ordonnance déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0110">
                     <head>290. - Référé. — Compétence pour autoriser le retrait d’un dépôt demeuré
                         sans cause.</head>
                     <div type="summary">
@@ -1125,9 +1136,9 @@
                             pour le cas où son offre d’achat transactionnel serait rejetée;</p>
                         <p>Mais attendu qu’il échet de rejeter cette exception, le retrait étant de
                             droit pour la personne qui a fait une offre non acceptée, lors même
-                            qu’elle n’aurait j>as expressément conclu à être autorisée à effectuer
-                            ce retrait au cas où la condition à laquelle elle avait subordonné le
-                            dépôt ne serait pas acceptée;</p>
+                            qu’elle n’aurait j&gt;as expressément conclu à être autorisée à
+                            effectuer ce retrait au cas où la condition à laquelle elle avait
+                            subordonné le dépôt ne serait pas acceptée;</p>
                         <p>Attendu que la seconde irrecevabilité soulevée par l’appelant est basée
                             sur le défaut d’urgence de la demande en retrait du dépôt effectué par
                             Hassan Harazem, celui-ci ne l’ayant introduite qu’après que toutes les
@@ -1156,7 +1167,7 @@
                     </div>
                 </div>
                 <pb n="216" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0120">
                     <head>291. - Référé. — Constats; clause compromissoire ne privant pas les
                         parties du droit de demander un constat en cas d'urgence.</head>
                     <div type="summary">
@@ -1252,7 +1263,7 @@
                             d’urgence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0130">
                     <head>292. - Référé. — Délivrance de seconde grosse; compétence ratione loci;
                         conditions d'admission de la demande; admissibilité en cas de possession
                         abusive de la première grosse par le débiteur.</head>
@@ -1375,7 +1386,7 @@
                             et 5 Janvier 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0140">
                     <head>293. - Référé. — Délivrance de seconde grosse; conditions d'admission de
                         la demande; cas où il g a lieu à refus; contestation quant à lu quote-part
                         successorale dans la dette des débiteurs; libération non acquise;
@@ -1449,7 +1460,7 @@
                             294, les arrêts des 5 Janvier 1938 et 14 juin 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0150">
                     <head>294. - Référé. — Délivrance de seconde grosse; conditions d'admission de
                         la demande; cas où il y a lieu à refus; libération ne résultant pas de
                         l’existence entre les mains du débiteur de la grosse non acquittée.</head>
@@ -1554,7 +1565,7 @@
                             14 Juin 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0160">
                     <head>295. - Référé. —■ Difficultés d'exécution; bail; jugement ordonnant le
                         déguerpissement du locataire; atermoiements, n'autorisant pas opposition à
                         l'exécution.</head>
@@ -1633,7 +1644,7 @@
                         <p>Note. __ V. ég. Gaz. XXI, 418-493,. l’arrêt du 24 Décembre 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0170">
                     <head>296. - Référé. — Difficultés d'exécution; Caisse des Fonds Judiciaires;
                         fonds attribués à un créancier par jugement; compétence du Juge des Déférés,
                         pour ordonner le paiement nonobstant le refus du Greffier en Chef.</head>
@@ -1723,7 +1734,7 @@
                             créance de l’appelante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0180">
                     <head>297. - Référé. —■ Difficultés d'exécution; compétence du Juge des Référés;
                         étendue et limites. — Saisie-arrêt; défaut d'indication des objets entre les
                         mains du tiers-saisi dépositaire, n'en-tralnant pas la nullité de la saisie.
@@ -1882,7 +1893,7 @@
                             caution, au créancier poursuivant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0190">
                     <head>298. - Référé. — Difficultés d'exécution; jugement d'adjudication;
                         opposition à exécution basée sur une contestation d'application des titres;
                         incompétence du Juge des Référés pour y passer outre.</head>
@@ -1937,7 +1948,7 @@
                             adoption de ses motifs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0200">
                     <head>299. - Référé. — Difficultés d'exécution; jugement d'adjudication;
                         opposition à exécution formée par un prétendu tiers détenteur; compétence du
                         Juge des Référés pour la rejeter. —■ Expropriation; tiers détenteurs que le
@@ -2045,7 +2056,7 @@
                             les appelants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0210">
                     <head>300. - Référé. — Difficultés d'exécution; jugement pénal ayant prononcé
                         une condamnation au profit de la partie civile; suspension d'exécution en
                         cas d’infirmation de la condamnation pénale principale. —• Procédure pénale;
@@ -2133,7 +2144,7 @@
                             contravention appelé et mis à néant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0220">
                     <head>301. - Référé. — Mesures conservatoires; cas où le .Juge des Déférés a
                         compétence pour ordonner la mise sous séquestre de biens successoraux, en
                         cours d’instance en pétition d’hérédité devant la juridiction de statut
@@ -2235,7 +2246,7 @@
                             Tableau.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0230">
                     <head>302. - Référé. — Mesures conservatoires; vente de marchandises refusées
                         par Vacheteur; éléments d'urgence; cas où le produit de la vente doit être
                         remis au vendeur.</head>
@@ -2290,7 +2301,7 @@
                             droits de criée en les réduisant à 1 %.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0240">
                     <head>303. - Référé. — Mesures urgentes; expertise; cas où le Juge des Référés a
                         compétence pour l'ordonner avant la décision sur le fond.</head>
                     <div type="summary">
@@ -2310,7 +2321,7 @@
                             Waldemar Below c. London Assurance et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0250">
                     <head>304. - Référé. — Mesures urgentes; service public; prestations soumises à
                         la signature d’un contrat dont la légitimité est contestée; demande
                         d’ouverture d'une conduite d’eau, basée sur le refus conditionnel; défaut
@@ -2434,7 +2445,7 @@
                             prix d’abonnement à robinet libre et celui d’abonnement à compteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0260">
                     <head>305. - Référé. — Occupant sans titre; expulsion; cas où elle doit être
                         ordon- i née; cas d'une vente avec réserve de propriété et de défaut de
                         paiement entraînant contractuellement résiliation de plein droit.</head>
@@ -2527,7 +2538,7 @@
                         <p>4 Décembre 1918. Rapp. ég. Gaz. XV, 135-222, l’arrêt du 23 Mai 1925.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0270">
                     <head>306. - Référé. —■ Occupant sans litre; expulsion; cas où elle peut être
                         ordonnée à défaut de clause spéciale.</head>
                     <div type="summary">
@@ -2649,7 +2660,7 @@
                             Décembre 1927.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0280">
                     <head>307. - Référé. —■ Occupant sans titre; expulsion; conditions; bail;
                         urgence; retard dans le paiement des loyers, justifiant la demande de
                         déguerpissement.</head>
@@ -2688,7 +2699,7 @@
                             en note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0290">
                     <head>308. - Référé. — Occupant sans titre; expulsion; conditions; bail; urgence
                         justifiant la demande de déguerpissement.</head>
                     <div type="summary">
@@ -2778,7 +2789,7 @@
                             et que la Cour adopte, il échet de confirmer l’ordonnance déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0300">
                     <head>309. - Référé. —■ Occupant sans titre; expulsion; conditions; cas où elle
                         ne peut être ordonnée.</head>
                     <div type="summary">
@@ -2835,7 +2846,7 @@
                         <p>Note, — Rapp. Gaz. XV, 135-222, l’arrêt du 23 Mai 1925.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0310">
                     <head>310. - Référé. —. Occupant sans titre; expulsion; conditions; cas où elle
                         ne peut être ordonnée.</head>
                     <div type="summary">
@@ -2913,7 +2924,7 @@
                             l’occurrence, le seul profitable à tous les intérêts en présence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0320">
                     <head>311. - Référé. — Occupant sans titre: expulsion; conditions; cas où elle
                         ne peut être ordonnée; demande de déguerpissement formée par une partie dont
                         le litre est contesté; inadmissibilité. ■</head>
@@ -3010,7 +3021,7 @@
                             des titres n’établissant pas nettement son droit de propriété.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0330">
                     <head>312. - Référé. — Revendication d'objets saisis; demande tendant à faire
                         passer outre à l'examen des titres invoqués; pouvoirs du Juge des Référés.
                         —• Femme mariée musulmane; propriété des meubles garnissant le domicile
@@ -3110,7 +3121,7 @@
                             caractère de sincérité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0340">
                     <head>313. - Référé. —■ Saisie-arrêt; conflit entre un saisissant et un
                         cessionnaire; conflit entre deux cessionnaires successifs; compétence pour
                         ordonner le versement des fonds saisis ou cédés. — Cession en garantie;
@@ -3218,7 +3229,7 @@
                             assureurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0350">
                     <head>314. - Référé. — Saisie-arrêt exécution; annulation; condition; cas d'une
                         saisie pratiquée en vertu d'un jugement ayant subordonné la condamnation à
                         la non restitution d'une chose déterminée; compétence du Juge des Référés
@@ -3311,7 +3322,7 @@
                             l’exécution de sa disposition subsidiaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0360">
                     <head>315. - Référé. •—■ Saisie-arrêt pratiquée sur une somme revendiquée par
                         un-tiers; compétence pour en proclamer Vinopérance.</head>
                     <div type="summary">
@@ -3370,7 +3381,7 @@
                             en référé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0370">
                     <head>316. - Référé. — Saisie-arrêt sans cause; compétence pour en proclamer
                         Vinopérance.</head>
                     <div type="summary">
@@ -3424,7 +3435,7 @@
                             ci-après § 317 à 319 et Gaz. XXIV, p. 302 et suiv., § 342 à 349.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0380">
                     <head>317. - Référé. — Saisie-arrêt sans titre; compétence pour en constater
                         Vinopérance; cas d'une défense de paiement sous forme d’assignation du
                         tiers-saisi.</head>
@@ -3486,7 +3497,7 @@
                         <p>Note. — V. ci-avant § 316, l’arrêt du 20 Mai 1936, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0390">
                     <head>318. - Référé. — Saisie-arrêt sans titre; compétence pour en proclamer
                         l'inopérance.</head>
                     <div type="summary">
@@ -3506,7 +3517,7 @@
                         <p>Note. —. V. ci-avant § 316, l’arrêt du 20 Mai 1936, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0400">
                     <head>319. - Référé. -— Saisie-arret sans titre régulier; compétence pour en
                         constater l'inopérance.</head>
                     <div type="summary">
@@ -3575,7 +3586,7 @@
                         <p>Note. — V. ci-avant § 316, l’arrêt du 20 Mai 1936, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0410">
                     <head>320. - Référé. — Saisie mobilière; demande de transfert d'objets saisis;
                         pouvoirs du Juge des Béférés.</head>
                     <div type="summary">
@@ -3597,7 +3608,7 @@
                             Alderson &amp; Co Ltd. c. Mohamed Saleh Atallah et Cts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0420">
                     <head>321. - Référé. — Saisie mobilière pratiquée sur des objets revendiqués par
                         un tiers; compétence pour ordonner la continuation de l'exécution.</head>
                     <div type="summary">
@@ -3668,7 +3679,7 @@
                             reconnus et consacrés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0430">
                     <head>322. - Référa. — Saisie mobilière pratiquée sur une marchandise sujette à
                         dépérissement; compétence pour en ordonner la mainlevée; saisie pratiquée
                         sur'des objets appartenant à un tiers; compétence pour en proclamer
@@ -3706,7 +3717,7 @@
                             d’infirmer, en conséquence, l’ordonnance attaquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-06-0440">
                     <head>323. - Référé. — Séquestre ordonné par une décision des Tribunaux
                         Indigènes; opposition d'un étranger; examen des droits respectifs selon
                         l'apparence des titres.</head>
@@ -4334,7 +4345,7 @@
                 <p>supérieures à 10 jusqu’à 50. ... 10</p>
                 <p>D )) 50 )) 100. ... 20</p>
                 <p>» » 100 )) 200. ... 30</p>
-                <p>n d 200 )> 500. ... 50</p>
+                <p>n d 200 )&gt; 500. ... 50</p>
                 <p>» » 500 » 1000. ... 100</p>
                 <p>» » 1000 )) 2000. ... 150</p>
                 <p>Au dessus de.. 2000. ... 200</p>
@@ -4442,7 +4453,7 @@
                 <p>5 10.... 20 »</p>
                 <p>10 20.... 40 »</p>
                 <p>20 30.... 60 »</p>
-                <p>30 40.... 80 >,</p>
+                <p>30 40.... 80 &gt;,</p>
                 <p>40 50.... 100 »</p>
                 <p>50 60.... 120 »</p>
                 <p>60 70.... 140 »</p>
@@ -4452,7 +4463,7 @@
                 <p>100 110.... 220 »</p>
                 <p>110 120.... 240 »</p>
                 <p>120 130.... 260 »</p>
-                <p>130 140.... 280 -></p>
+                <p>130 140.... 280 -&gt;</p>
                 <p>140 150.... 300 »</p>
                 <p>150 160.... 320 »</p>
                 <p>160 170.... 340 »</p>
@@ -4483,7 +4494,7 @@
                 <p>6.000 6.500. . . )) 13 000 })</p>
                 <p>6.500 7.000.. . . )) 14 000 ))</p>
                 <p>7.000 7.500. . . » 15 000 n</p>
-                <p>7.500 8.000. . )) 16 000 )></p>
+                <p>7.500 8.000. . )) 16 000 )&gt;</p>
                 <p>8.000 8.500. . . » 17 000 ))</p>
                 <p>8.500 9.000. . . H 18 000 »</p>
                 <p>9.000 9.500. . . » 19 000 n</p>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0004-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0004-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1914-08-10">August 10, 1914</date><lb/>
-                    <biblScope unit="volume">Vol. 4</biblScope><lb/>
-                    <biblScope unit="number">No. 46</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1914-08-10">August 10, 1914</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 4</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 46</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -157,7 +168,7 @@
             <pb n="178" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0010">
                     <head>428. - Aveu extrajudiciaire. — Indivisibilité.</head>
                     <div type="summary">
                         <p>L’aveu extrajudiciaire, une fois reconnu sérieux par le juge, doit au
@@ -178,7 +189,7 @@
                             principe de l’indivisibilité, soit de s’en écarter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0020">
                     <head>429 - Cautionnement. — Caractère civil. — Solidarité. — Non-commerçant. ■—
                         Tribunal de Commerce. — Compétence.'</head>
                     <div type="summary">
@@ -205,7 +216,7 @@
                             Ottomane c. Doss Barsouni).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0030">
                     <head>430. - Certificat de naissance. — Acte authentique.</head>
                     <div type="summary">
                         <p>Un certificat extrait du registre des naissances est un acte authentique
@@ -220,7 +231,7 @@
                             autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0040">
                     <head>431. - Commerçant. — Acte de commerce. — Exploitation d’une carrière de
                         sable ; — d’une plâtrière. — Prêt hypothécaire.</head>
                     <div type="summary">
@@ -247,8 +258,8 @@
                     <div type="observations">
                         <p>Note. — Voici ce jugement in-extenso :</p>
                         <p>Attendu que les demandeurs réclament la somme de Lst. 8875 qui leur
-                            serait due à titre du courtage au taux de 2 >2 % pour avoir procuré au
-                            défendeur un prêt hypothécaire de Lst. 335,000;</p>
+                            serait due à titre du courtage au taux de 2 &gt;2 % pour avoir procuré
+                            au défendeur un prêt hypothécaire de Lst. 335,000;</p>
                         <p>Attendu que le défendeur soulève l’exception d’incompétence du Tribunal
                             de Commerce en soutenant que le mandat par lui confié aux demandeurs n’a
                             pas un caractère commercial puis-qu’il avait pour, objet un prêt
@@ -322,7 +333,7 @@
                             la branche de commerce prétendument exploitée par lui.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0050">
                     <head>432. - Concordat Préventif. — Radiation par suite de l’adhésion unanime
                         des créanciers. — Admissibilité.</head>
                     <div type="summary">
@@ -337,7 +348,7 @@
                             Harari).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0060">
                     <head>433. - Employés. — Divulgation de secrets.</head>
                     <div type="summary">
                         <p>Des employés d’une maison de commerce, et qui auraient été primitivement
@@ -353,7 +364,7 @@
                             Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0070">
                     <head>434. - Effets de Commerce. — Endossement en blanc. — Tiers porteur de
                         bonne foi. — Exception.</head>
                     <div type="summary">
@@ -370,7 +381,7 @@
                             c. Osman Sakr et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0080">
                     <head>435. - Effets de commerce. — Valeur fournie « en garantie ».</head>
                     <div type="summary">
                         <p>L’énonciation « valeur en garantie » précise sufisamment la cause des
@@ -406,7 +417,7 @@
                             82,arrêt du22 Déc. 1909, B.XX11, 69);</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0090">
                     <head>436. - Expertise. — Clôture avant terme.</head>
                     <div type="summary">
                         <p>Si au cours d’une mesure d’instruction, telle que vérification par expert
@@ -419,7 +430,7 @@
                             Atasri c. Lieto Saiama et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0100">
                     <head>437. - Faillite. - Affectation hypothécaire. — Nullité. — Acte
                         constitutif. — Ordonnance présidentielle. — Créancier.</head>
                     <div type="summary">
@@ -467,7 +478,7 @@
                             nouvel arrêt (ci après § 439, et note).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0110">
                     <head>438. - Faillite. — Etat de faillite à l’etranger. — Expropriation
                         immobilière. — Notification du dépôt du cahier des charges. — Droit du
                         syndic étranger. — Conversion de la procédure.</head>
@@ -507,7 +518,7 @@
                             ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0120">
                     <head>439. - Faillite. — Nullités établies en faveur de la masse. — Concordat. —
                         Affectation hypothécaire. — Période suspectet</head>
                     <div type="summary">
@@ -604,7 +615,7 @@
                             poursuivre comme ils aviseront.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0130">
                     <head>440. - Faillite. — Vérification et admission. — Créanciers hypothécaires
                         non remplis. — Failli concordataire. — Ordre. — Appel incident. —
                         Transcription du jugement déclaratif de faillite. — Inscription du jugement
@@ -806,7 +817,7 @@
                             franc.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0140">
                     <head>441. - Mesures d’instructions. — Délai fixé par le jugement. —
                         Decheance.</head>
                     <div type="summary">
@@ -876,7 +887,7 @@
                             frustatoires et les « lenteurs des requêtes, ordonnance, etc. ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0150">
                     <head>442. - Préemption. — Suspension. — Interruption. — Jugement
                         d’incompétence. — Délais de distance. — Die s a quo. — Dies ad quem.</head>
                     <div type="summary">
@@ -996,7 +1007,7 @@
                             loi et doivent être déclarés par conséquent déchus de leur droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0160">
                     <head>443. - Preneur. — Action personnelle. — Action réelle. — Action en
                         délaissement.</head>
                     <div type="summary">
@@ -1052,7 +1063,7 @@
                             à ses droits.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0170">
                     <head>444. - Prêt d’argent. — Commerçants. — Gage commercial.</head>
                     <div type="summary">
                         <p>I. - Tout engagement pour prêt d’argent entre commerçants est réputé
@@ -1067,7 +1078,7 @@
                             Heif).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0180">
                     <head>445. - Société. — Contestation entre associés. — Prescription. —
                         Actionnaires — Souscripteur. — Loi française du 24 Juillet 1864.</head>
                     <div type="summary">
@@ -1086,7 +1097,7 @@
                             Terrains Ghorbal c. D. G. Philippidis).-</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0190">
                     <head>446. - Vente. — Eviction consommée. — Action en garantie. — Inscriptions
                         hypothécaires. — Contrats synallagmatiques.. — Conditions résolutoire
                         sous-entendue. — Mise en demeure. — Concordat.</head>
@@ -1125,7 +1136,7 @@
                             Dimitri Boulad c. D0 Naîissa Hanem dent Abdel Rahman et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0200">
                     <head>447. - Vente. — Eviction partielle. --Inexistence de servitude active —
                         Enclave. — Vice caché.</head>
                     <div type="summary">
@@ -1151,7 +1162,7 @@
                             Guzel c. Cts Zahlama).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0210">
                     <head>448. - Vente sur échantillon. — Vice caché. — Déchéance de
                         l’action.—Non-conformité de la marchandise. — Qualité substantielle. —
                         Erreur sur la substance.</head>
@@ -1174,7 +1185,7 @@
                             L C° c. Brothers Stross et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0220">
                     <head>449. - Wakf. — Constitution. — Exécution. — Certificat hypothécaire.—
                         Omission. — Greffier en chef. — Moudirieh. — Markaz. — Mehkémeh
                         Charieh.</head>
@@ -1281,7 +1292,7 @@
                             aux registres par lui tenus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-08-0230">
                     <head>450. - Wakf. — Nazir. — Pouvoirs d’administration. — Aliénation des
                         revenus.</head>
                     <div type="summary">
@@ -1706,8 +1717,8 @@
                 <p>Isaac M. Saig (Auritano liquidateur). Ord.</p>
                 <p>13.7.14 autorise Mr le Greffier en Chef à payer sur les fonds déposés à la Caisse
                     de ce Tribunal pour compte du concordat préventif Isaac M. Saig aux créanciers
-                    mentionnés en la requête, la somme de P.T. 44987 5/io> répartition partielle 25
-                    %.</p>
+                    mentionnés en la requête, la somme de P.T. 44987 5/io&gt; répartition partielle
+                    25 %.</p>
                 <p>Max Reinhardt, brasseur allemand, propriétaire de la Brasserie Germania N» 5 rue
                     de l’ancienne Bourse, renvoyé au 4.8.14 pour déclaration d’office en faillite.
                     (Busic syndic). Il a commencé l’exploitation de la brasserie en Novembre 1906 en

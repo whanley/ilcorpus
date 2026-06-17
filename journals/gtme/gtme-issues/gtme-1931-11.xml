@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1931-11-10">November 10, 1931</date><lb/>
-                    <biblScope unit="volume">Vol. 22</biblScope><lb/>
-                    <biblScope unit="number">No. 253</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1931-11-10">November 10, 1931</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 22</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 253</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -399,7 +410,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0010">
                     <head>1. - Propriété industrielle. — Concession exclusive en Egypte d'un produit
                         étranger; rapports entre fabricant et représentant; liberté commerciale des
                         tiers.</head>
@@ -523,7 +534,7 @@
                     </div>
                 </div>
                 <pb n="7" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0020">
                     <head>2. - Propriété industrielle. — Concurrence déloyale; concurrence illicite;
                         distinction; caractéristiques; publicité susceptible de créer une confusion
                         dans l'esprit du public; difficulté d'évaluation du préjudice; réparation
@@ -656,7 +667,7 @@
                             comme une réparation suffisante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0030">
                     <head>3. - Propriété industrielle. — Concurrence déloyale. — Dénomination «
                         Argus »/ terme générique non susceptible d'un droit privatif; bureau de
                         coupures de presse ayant adopté la même dénomination; acte ne constituant
@@ -693,7 +704,7 @@
                             ajouté un bureau de coupures de journaux sous le nom de « Argus de
                             Grammata »;</p>
                         <p>Attendu que Cassigonis soutient qu’en vertu de la priorité d’usage il est
-                            en droit de faire défense à Zelitas d’employer le mot &lt;> Argus »
+                            en droit de faire défense à Zelitas d’employer le mot &lt;&gt; Argus »
                             comme faisant partie de l’enseigne de son bureau de coupures;</p>
                         <p>Attendu que la Maison Zelitas soutient:</p>
                         <p>1.) Que dans les milieux littéraires et chez les journalistes le mot «
@@ -751,8 +762,8 @@
                             général d’un bureau de coupures de presse, et par conséquent ne peut pas
                             faire l’objet d’un droit privatif au profit d’un bureau déterminé;</p>
                         <p>Attendu d’ailleurs qu’il ne s’agit pas de la question de savoir si un
-                            journal qui se distingue par l’appellation &lt;> Argus' », comme c’est
-                            le cas à Melbourne ou au Cap, est en droit de faire défense à un
+                            journal qui se distingue par l’appellation &lt;&gt; Argus' », comme
+                            c’est le cas à Melbourne ou au Cap, est en droit de faire défense à un
                             concurrent d'adopter le même nom dans les lieux où lui-même se
                             publie;</p>
                         <p>Qu’il ne saurait d’autre part être question en l’espèce de concurrence
@@ -763,7 +774,7 @@
                             d’enquête formulée par la Maison Zelitas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0040">
                     <head>4. - Propriété industrielle. — Concurrence déloyale; droit d'agir;
                         justification suffisante en Egypte. — Marque de fabrique; enregistrement au
                         Bureau Interna^ tional de la Propriété Industrielle à Berne; effet sur
@@ -907,8 +918,8 @@
                             plaidoi-Ie® out roule sur les questions soulevées par 1 appel incident,
                             il y a lieu de mettre les „ais. dV appel à la charge de la Société des
                             Hauts Fourneaux;</p>
-                        <p>&lt;>nmtendu vqu,iL résuhe de ce qui précède qu H y a heu de confirmer le
-                            jugement en principe, mais qu’il convient cependant de enJant qu'il
+                        <p>&lt;&gt;nmtendu vqu,iL résuhe de ce qui précède qu H y a heu de confirmer
+                            le jugement en principe, mais qu’il convient cependant de enJant qu'il
                             déclare la Raison re PH \rœ^er, et Aretz seule propriétai-ie en Egypte
                             de la marque litigieuse, car le Soeî.^ pà.que sur le droit de la dite
                             Fourneaux! ’13 la S°Ciété des Hauts</p>
@@ -958,7 +969,7 @@
                             du public, par les moyens spécialement organisés à cet effet.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0050">
                     <head>5. - Propriété industrielle. — Concurrence déloyale; faculté pour le
                         demandeur, d'actionner seulement le revendeur du produit incriminé. —
                         Concurrence déloyale; actes de coneuvreiice non basés sur la propriété d'une
@@ -1056,7 +1067,7 @@
                             ordonne la destruction des réchauds incriminés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0060">
                     <head>6. - Propriété industrielle. — Concurrence déloyale; marque de fabrique;
                         défaut d'enregistrement; droit de protection de la marque. — Contrefaçon;
                         critérium de ressemblance entre deux produits concurrents.</head>
@@ -1135,7 +1146,7 @@
                             enarge de Nahas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0070">
                     <head>7. - Propriété industrielle. — Concurrence déloyale; produits présentant
                         une ressemblance générale, inhérente à leur nature; emblème indicatif de la
                         provenance du produit; initiales communes. — Dommages-intérêts; imitation
@@ -1172,7 +1183,7 @@
                         <p>Arrêt.</p>
                         <p>Vu l’exploit du 5 Juin 1930 par lequel la. Société The Egyptian Sait
                             &amp; Soda Cy Ltd.. a régulièrement relevé appel du jugement du.
-                            Tribunal de Commerce d’Alexandrie du 10> Mars de la même année qui a
+                            Tribunal de Commerce d’Alexandrie du 10&gt; Mars de la même année qui a
                             rejeté sa demande tendant à la condamnation d'Alexandre Mattar au
                             paiement de dommages-intérêts pour concurrence déloyale;</p>
                         <p>Attendu qu’il est constant que l’emblène-le Lion que Mattar a fait
@@ -1206,7 +1217,7 @@
                             préjudice appréciable n’étant pas établie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0080">
                     <head>8. - Propriété industrielle. — Concurrence déloyale; usurpation de
                         dénomina-tion; abus; cas où les établissements concurrents se trouvent dans
                         des quartiers différents de la même ville; interdiction d’usage d'une
@@ -1308,7 +1319,7 @@
                             10 à titre de dommages-intérêts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0090">
                     <head>9. - Propriété industrielle. — Concurrence déloyale; usurpation de
                         dénomination entre commerces similaires; pâtisseries; épiceries.</head>
                     <div type="summary">
@@ -1353,7 +1364,7 @@
                             Cour adopte les motifs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0100">
                     <head>10. - Propriété industrielle. — Concurrence déloyale; usurpation de
                         dénomina--tion. — Nom commercial; propriété dérivant de l'antériorité
                         d'usage; enregistrement au Greffe; portée. — Marque de fabrique: emblème
@@ -1418,7 +1429,7 @@
                         <p>Attendu qu’il est constant:</p>
                         <p>1. ) que pour distinguer les filés de soie artificielle de sa fabrication
                             qu’il écoule en Egypte le Comptoir des Textiles Artificiels à Paris a
-                            appliqué sur ses produits la marque >! L’Autruche » qu’il a fait
+                            appliqué sur ses produits la marque &gt;! L’Autruche » qu’il a fait
                             enregistrer au Greffe le 11 Mai 1929;</p>
                         <p>2. ) que le Sieur Egizio Foa a vendu en Egypte des articles de soie
                             artificielle provenant de la Maison « La soie de Chatillon » ayant siège
@@ -1449,7 +1460,7 @@
                         <p>ractérisée s’il n’avait pas possédé sa marque de fabrique et s’il avait
                             apposé sur les produits une inscription dénommant ceux-ci « L’Autruche
                             », dans le but de faire prendre ses propres produits pour ceux protégés
-                            par la marque &lt;> L’Autruche »;</p>
+                            par la marque &lt;&gt; L’Autruche »;</p>
                         <p>Attendu qu’on pourrait peut être encore voir un acte de concurrence
                             déloyale dans le fait d’avoir collé à côté de sa marque de fabrique, ou
                             apposé sur celle-ci une inscription disant: « Demandez toujours la soie
@@ -1571,7 +1582,7 @@
                         <p>Condamne le Comptoir des Textiles Artificiels aux dépens...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0110">
                     <head>11. - Propriété industrielle. — Concurrence déloyale; vente de fonds de
                         commerce; clause de non concurrence; étendue; interprétation
                         restrictive.</head>
@@ -1586,7 +1597,7 @@
                             Marothodorakis et autre o. Oiaralambo Joannatos et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0120">
                     <head>12. - Propriété industrielle. — Contrefaçon; revendeur;
                         responsabilité.</head>
                     <div type="summary">
@@ -1614,8 +1625,8 @@
                             cigarettes;</p>
                         <p>Attendu que la seule défense de l’appe-lant consiste à soutenir qu’il
                             n’est pas con-tiefacteur et que sa bonne foi a été surprise étant donné
-                            que les pièces incriminées &lt;> sont tellement bien imitées qu’un œil
-                            des plus exercés peut être trompé »;</p>
+                            que les pièces incriminées &lt;&gt; sont tellement bien imitées qu’un
+                            œil des plus exercés peut être trompé »;</p>
                         <p>Attendu que cette simple allégation n’est appuyée d’aucune preuve ni
                             explication des circonstances dans lesquelles Mohamed Mohamed Hamza
                             aurait acheté la marchandise contrefaite;</p>
@@ -1628,7 +1639,7 @@
                             24 Novembre 19~6, 14 Mars 1928, 1er Février 1928 et 1er</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0130">
                     <head>13. - Propriété industrielle. — Dénominations; mots significatifs de
                         titres; défaut de droit privatif; concurrence déloyale; conditions.</head>
                     <div type="summary">
@@ -1732,7 +1743,7 @@
                             de débouter la demanderesse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0140">
                     <head>14. - Propriété industrielle. — Dénominations; priorité d'usage; droit
                         privatif revendiqué par le représentant en Egypte du fabricant. qui a
                         enregistré la dénomination à l'etranger; inamissibilité à défaut
@@ -1882,7 +1893,7 @@
                         <p>Compense les extrajudiciaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0150">
                     <head>15. - Propriété industrielle. — Dénominations; procédés industriels;
                         produits chimiques; liberté de fabrication et de vente-en Egypte. —
                         Concurrence déloyale; critérium pour déterminer la limite du droit
@@ -1956,10 +1967,10 @@
                             produits à</p>
                         <p>Hd acide acétyl-salycilique, soit sous noni» ^o.nEàon chimique soit sous
                             n’im-L . queJ n.om âe fantaisie qui n’appartient pas a autrui;</p>
-                        <p>imitation1 mU il> ^Gst pas alléSllé que par</p>
+                        <p>imitation1 mU il&gt; ^Gst pas alléSllé que par</p>
                         <p>S d emballage, de flacon ou d’éti-ê in Ll? défenderesse aurait tenté de
                             faire te ta demanderesse de la concurrence déloya-f1115 .la demanderesse
-                            soutient tours u &lt;n-qUe>, a- dénomination « Genasprin » au-hnt
+                            soutient tours u &lt;n-qUe&gt;, a- dénomination « Genasprin » au-hnt
                             rioffh01816 p£lr la défenderesse dans le dp ip6 haire P'eudre son
                             produit pour celui d'A&lt;5nirinnma?derGsse eonnu sous le nom dA X h®1
                             qu ? échet’ en conséquence, Tridino ansr à The ^M'han &amp; British
@@ -2045,7 +2056,7 @@
                         <p>Condamne la défenderesse aux dépens...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0160">
                     <head>16. - Propriété industrielle. — Inventions; élément constitutif de
                         nouveauté; procédé purement mécanique pour l'utilisation d’un dispositif
                         déjà connu; défaut de protection légale; conséquences.</head>
@@ -2113,7 +2124,7 @@
                         <p>Qu’il y a lieu dès lors de confirmer le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0170">
                     <head>17. - Propriété industrielle. — Inventions; idées et systèmes
                         scientifiques non susceptibles en eux mêmes d'être brevetés; application. —
                         Brevets obtenus, en pays étranger; législation à appliquer; déchéance. —
@@ -2238,7 +2249,7 @@
                             accorder les dommaqes-'intérêts qu’elle réclame.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0180">
                     <head>18. - Propriété industrielle. — Inventions; protection; dépôt au Greffe;
                         défaut de spécification des modifications apportées à un système antérieur;
                         inopérajice. — Procédé industriel nouveau; caractère: d'invention et non
@@ -2314,7 +2325,7 @@
                         <p>15 Avril je représentant de la Société répondit qu’en considération de
                             l’aban-uon par Haddad de toutes réclamations contre ta Société, celle-ci
                             accepterait de lui four-mr les dites machines et de lui paver les
-                            Bénéfices réalisés sur les machines vendues »>u Gouvernement;</p>
+                            Bénéfices réalisés sur les machines vendues »&gt;u Gouvernement;</p>
                         <p>Que Haddad en réponse à cette lettre re-mercia vivement le représentant
                             de la So-en déclarant être très satisfait; mâ.^du Rue le 11 Mai 1927,
                             soit six ans plus tard, Haddad intenta le présent procès ti?n “dant la
@@ -2358,7 +2369,7 @@
                             L.E. 20.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0190">
                     <head>19. - Propriété industrielle. — Marques de fabrique et de commerce;
                         apposition par les tiers, sans intention. de, fraude;
                         inadmissibilité.</head>
@@ -2509,7 +2520,7 @@
                         <p>Le condamne en outre aux dépens...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0200">
                     <head>20. .- Propriété industrielle. — Marques de fabrique et de commerce;
                         couleur non susceptible d'un usage exclusif. — Appel; caractère vexatoire
                         justifiant l'allocation d'une indemnité.</head>
@@ -2575,7 +2586,7 @@
                             payer de ce chef aux intimés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0210">
                     <head>21. - Propriété industrielle. — Marques de fabrique et de commerce; droit
                         privatif ~ conditions; valeur prabanle du dépôt aw Greffe.</head>
                     <div type="summary">
@@ -2591,7 +2602,7 @@
                             c. Isaacs and Sons.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0220">
                     <head>22. - Propriété industrielle. — Marques-de fabrique et de commerce;
                         éléments essentiels et éléments secondaires; dépôt delà marque ne comportant
                         pas droit, priver tif sur chacun de ces éléments secondaires; revendication
@@ -2622,7 +2633,7 @@
                             Fils &amp; Co. a régulièrement relevé appel du jugement du Tribunal de
                             Commerce d’Alexandrie du 27 Mai de la même année qui l’a condamnée au
                             paiement d’une indemnité pour avoir fait usage abusif de la marque « El
-                            Aguib s>.</p>
+                            Aguib s&gt;.</p>
                         <pb n="19" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>appartenant aux intimés Fadlp Hourani et Shaker Rihani; . .</p>
                         <p>Vu l’appel incident des intimes tendant à faire majorer le montant de la
@@ -2654,7 +2665,7 @@
                             cotonnades sur lesquelles étaient imprimés les mots « El Aguib » en
                             caractères arabes au-dessus du dessin d’un Cheikh;</p>
                         <p>Qu’ils ont intenté le présent procès aux fms de faire défense à la dite
-                            Maison de vendre ses cotonnades sous la désignation &lt;> El Aguib
+                            Maison de vendre ses cotonnades sous la désignation &lt;&gt; El Aguib
                             »;</p>
                         <p>Attendu que la Maison Haim Charnla soutient en premier lieu que les dits
                             mots ne sont pas susceptibles d’être appropriés comme marque de
@@ -2678,12 +2689,12 @@
                             loin d’être telle que celle déposée au Greffe;</p>
                         <p>Or Hourani et Rihani soutiennent que par suite du dépôt de la susdite
                             marque ils ont acquis un droit privatif et exclusif pour 1 usage des
-                            mots « El Aguib >> pris séparément de la marque entière, ce qui revient
-                            à aire qu ils voudraient faire consacrer cette théorie que par le seul
-                            dépôt d’une marque aj1 Greffe, son propriétaire acquiert d’ores et déjà
-                            le droit d’empêcher l’usage par les ueis, non seulement de la marque
-                            entière mais de toute partie si peu importante qu’el-,.e puisse être, de
-                            la dite marque, ce oui est évidemment inadmissible. ’</p>
+                            mots « El Aguib &gt;&gt; pris séparément de la marque entière, ce qui
+                            revient à aire qu ils voudraient faire consacrer cette théorie que par
+                            le seul dépôt d’une marque aj1 Greffe, son propriétaire acquiert d’ores
+                            et déjà le droit d’empêcher l’usage par les ueis, non seulement de la
+                            marque entière mais de toute partie si peu importante qu’el-,.e puisse
+                            être, de la dite marque, ce oui est évidemment inadmissible. ’</p>
                         <p>Qu’il s’ensuit qu’il y a lieu d’écarter des débâts la considération de
                             l’effet qu’aurait pu avoir le dépôt des mots « El Aguib » s’ils avaient
                             été déposés séparément, ou comme partie essentielle d’une marque;</p>
@@ -2718,7 +2729,7 @@
                             qu’elle met en vente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0230">
                     <head>23. - Propriété industrielle. — Marques de fabrique et de commerce; formes
                         de fantaisie seules susceptibles de jouir de la protection de la justice. —
                         Inventions; protection; limites; concurrence déloyale en matière
@@ -2895,7 +2906,7 @@
                         <p>Compense les honoraires d’avocats devant la Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0240">
                     <head>24. - Propriété industrielle. — Marques de fabrique cl de commerce;
                         originalité nécessaire; emblèmes; conditions pour qu’ils puissent
                         constituer, une marque de fabrique; limites des droits d'un commerçant quant
@@ -3013,21 +3024,22 @@
                             Zel-mck auprès de la Commission Rogatoire); A,mile?d u qQe q.ans oes
                             conditions il est exident que Zelnick a fait un usage abusif floche» au
                             préjudice de respMsabïeJ8 P°U1' leqUel " doit être tenu montré / ^aPpi
-                            dudit emblème sur les fin» r“i!>'revei!sî al°rs que la Maison Quar-mnnf™
-                            fabrique actuellement que des lie poche, il y a lieu de faire ob-anv
-                            dnl?s es Pa>’s où le droit relatif , qu,es d? oommerce est régi par des
-                            SI S es’ le pâleur établit un svs-mercnm classement d’après lequel le
-                            com-eSit enu ,d enregistrer ses marques effet classes déterminées, ce
-                            qui a pour regardu®, sa lliarque se trouve protégée à ou0leVrV>e«AOUS
-                            °bl'ets compris dans la de îr, ;3 qu V àisil, et. non à l’égard oâ"
-                            compris dans d’autres classes:</p>
+                            dudit emblème sur les fin» r“i!&gt;'revei!sî al°rs que la Maison
+                            Quar-mnnf™ fabrique actuellement que des lie poche, il y a lieu de faire
+                            ob-anv dnl?s es Pa&gt;’s où le droit relatif , qu,es d? oommerce est
+                            régi par des SI S es’ le pâleur établit un svs-mercnm classement d’après
+                            lequel le com-eSit enu ,d enregistrer ses marques effet classes
+                            déterminées, ce qui a pour regardu®, sa lliarque se trouve protégée à
+                            ou0leVrV&gt;e«AOUS °bl'ets compris dans la de îr, ;3 qu V àisil, et. non
+                            à l’égard oâ" compris dans d’autres classes:</p>
                         <p>loi X qU»-11 n’existe Pas en Egypte de de ne’n^ 11 est difficile
                             toutefois</p>
                         <p>nnr LpaS considérer comme abusif l’usage tre commerçant de la marque d’un
                             au-, loisquil s agit d’articles analogues;</p>
-                        <p>ru pnnran’ment’ lorsque, comme c’est le annirt>„-espece,t’l!’e marque est
-                            reconnue 0PPna tl“' a un fabricant pour les montres, ntoi Ln 31 admettre
-                            qu’il en soit fait emploi par un concurrent pour d’aulres arti</p>
+                        <p>ru pnnran’ment’ lorsque, comme c’est le annirt&gt;„-espece,t’l!’e marque
+                            est reconnue 0PPna tl“' a un fabricant pour les montres, ntoi Ln 31
+                            admettre qu’il en soit fait emploi par un concurrent pour d’aulres
+                            arti</p>
                         <p>cles d’horlogerie, tels que les réveils, car le public pourrait
                             évidemment croire que ces objets proviennent de la fabrique qui est
                             propriétaire de ladite marque;</p>
@@ -3060,7 +3072,7 @@
                             rapportée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0250">
                     <head>25. - Propriété industrielle. — Marques de fabrique et de commerce;
                         originalité nécessaire; marques consistant en un objet pris dans son
                         caractère généralisé; absence de droit privatif. — Marques de fantaisie ou
@@ -3189,7 +3201,7 @@
                             § 26 l’arrêt du 12 Mars 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0260">
                     <head>26. - Propriété industrielle. — Marques de fabrique et de commerce;
                         priorité d’usage; dépôt tardif opéré pour les besoins du procès: inopérance.
                         — Concurrence déloyale; éléments constitutifs; acte de concurrence déloyale
@@ -3306,7 +3318,7 @@
                             du 1er Avril 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0270">
                     <head>27. - Propriété industrielle. —Nom commercial; nom patronymique; cession;
                         usage abusif par un tiers; limite des droits du cessionnaire, à l'encontre
                         des tiers.</head>
@@ -3365,9 +3377,9 @@
                             Hitz pour un commerce qui ne serait pas un commerce d’hôtellerie; P</p>
                         <p>rtom étant un nom patronymique Hnn a ahenable par suite de son
                             utilisa-"o? commerciale consacrée par l’usage entrô a faiti le
-                            propriétaire lui-même, n’est nnl a^ns> a cession faite à Charles Bacos
-                            cessmnn%le^ Emiles indiquées dans cette dans c est-à-dire en vue de son
-                            emploi dans, sa seule industrie d’hôtellerie;</p>
+                            propriétaire lui-même, n’est nnl a^ns&gt; a cession faite à Charles
+                            Bacos cessmnn%le^ Emiles indiquées dans cette dans c est-à-dire en vue
+                            de son emploi dans, sa seule industrie d’hôtellerie;</p>
                         <p>la nronriziz °rS cette "mite, il est resté César à exclusive de son
                             propriétaire mécrai "à' qui seul peut poursuivre l’usage jilégal qui
                             peut en être fait;</p>
@@ -3377,7 +3389,7 @@
                             Gaz. XVIII, 101-196.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0280">
                     <head>28. - Propriété littéraire et artistique. — Architecte; plans; limite et
                         nature des droits de propriété de leur auteur; utilisation non autorisée des
                         plans d'un architecte pour une construction; atteinte à sa propriété
@@ -3503,7 +3515,7 @@
                             cela même engagés de le rémunérer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0290">
                     <head>29. - Propriété littéraire et artistique. — Films de cinéma; œuvre conçue
                         par. ou pour l'artiste qui en est la vedette; cas où elle constitue la
                         propriété de celui-ci; caractère civil des actes nécessaires à sa
@@ -3749,7 +3761,7 @@
                             commerciale; que ce Tribunal n’en est donc pas valablement saisi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0300">
                     <head>30. - Propriété littéraire et artistique. — Nature; protection en Egypte;
                         droit d'exécution ou de représentation publique; exécutions non autorisées;
                         dommages-intérêts dus par les infracteurs; poursuites judiciaires; Société
@@ -4394,7 +4406,7 @@
                             une location en vue d’une fête destinée à lui assurer un profit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0310">
                     <head>31. - Propriété littéraire et artistique. — Nature; protection en Egypte;
                         droit d'exécution ou de représentation, publique; exécutions non autorisées;
                         dommages-intérêts dus par les infracteurs; sociétés d'auteurs; Société des
@@ -4578,7 +4590,7 @@
                         <p>III. - Rapp. ci-après § 37 le jug. Somm. Caire du 23 Avril 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0320">
                     <head>32. - Propriété littéraire et artistique. — Nature; protection en Egypte;
                         poursuites judiciaires; Société des Auteurs, Compositeurs et Editeurs de
                         Musique; droit d'ester en justice pour la protection des intérêts de ses
@@ -4657,15 +4669,15 @@
                         <p>Oue, suivant contrat dénommé auto-nsation conclu le 25 Novembre 1926
                             entre e tes.Auteurs, Compositeurs et Edi-A8musique, ayant siège à Paris,
                             en •A J ';1 V!.1,11.1' ùe son agent en Egvpte le Sieur {hærrard, d’une
-                            part, "et le Sieur , A d’autre part, ladite Société '■•ntPi- J>lbierAt
-                            lineos à faire ou laisser exé-du 1 iLrh.qu?mc?t dans son établissement
-                            uj'11!®™ Confiserie Athineos» sis à Alexandrie, Place Ismail No. 1, par
-                            son or-vim, compose de cinq musiciens au ma-Înîr-* !elies, œuvres
-                            musicales du réper-n’ntîi* ° a Pieiïie Société qu’il jugerait bon I rml
-                            'c131’’ e .ce’ entre autres, aux condi->1VE"?tes: a> Athineos paierait à
-                            la t p ~ bom.nie globale et forfaitaire de lem’nii Par lïl0Is: h)
-                            Athineos s’engageait à fin a 1G iaU rePresontant de la Société à la de
-                            chaque mois, les relevés mensuels</p>
+                            part, "et le Sieur , A d’autre part, ladite Société '■•ntPi-
+                            J&gt;lbierAt lineos à faire ou laisser exé-du 1 iLrh.qu?mc?t dans son
+                            établissement uj'11!®™ Confiserie Athineos» sis à Alexandrie, Place
+                            Ismail No. 1, par son or-vim, compose de cinq musiciens au ma-Înîr-*
+                            !elies, œuvres musicales du réper-n’ntîi* ° a Pieiïie Société qu’il
+                            jugerait bon I rml 'c131’’ e .ce’ entre autres, aux condi-&gt;1VE"?tes:
+                            a&gt; Athineos paierait à la t p ~ bom.nie globale et forfaitaire de
+                            lem’nii Par lïl0Is: h) Athineos s’engageait à fin a 1G iaU rePresontant
+                            de la Société à la de chaque mois, les relevés mensuels</p>
                         <p>des morceaux de musique exécutés dans son établissement, sous peine de
                             payer la pénalité de L.E. 1 si lesdits relevés constituant le programme
                             mensuel, n’étaient pas remis au plus tard le 5 du mois suivant; c) le
@@ -4989,20 +5001,21 @@
                             qu’elle harmonise ae la sorte le droit mixte avec la pensée juridique
                             contemporaine dans une de ses plus elevées manifestations, et qui a
                             trou-ve sa plus parfaite expression dans la constitution d une union
-                            administrative interna-a2nt> aujourd’hui régie par la Convention ae
+                            administrative interna-a2nt&gt; aujourd’hui régie par la Convention ae
                             Berne revisée du 9 Septembre 1886, signée a Berlin le 13 Novembre
                             1908;</p>
                         <p>h) Qu en appliquant à l’espèce la doctrine qui Ment d être établie, il
                             est à remarquer: dpi Ou'il n’est pas douteux que le défen-aeur a fait ou
-                            laissé exécuter par son or-rv>™ue le? compositions musicales du de-</p>
+                            laissé exécuter par son or-rv&gt;™ue le? compositions musicales du
+                            de-</p>
                         <p>Ur I')a!man pour lesquelles les-de-(innn-eUrs ui réclament réparation,
                             étant onne que ces compositions sont indiquées dans les programmes
                             versés au dossier;</p>
                         <p>finr? tSkv1 S a®it évidemment d’une exécu-j.... P J*tique, car
                             l'établissement du défen-iPnf -^ouvert a toutes personnes qui veu-ô
                             nn'foJ)rendre des consommations et il est conformément à l’article 315
-                            fion rPvi=PenJ ’r>a ucticle 13 de la Conven-vrfer maiee ve r er'le et à
-                            l’arrêt du 26 Fé-vre éxecution publique d'une œu-</p>
+                            fion rPvi=PenJ ’r&gt;a ucticle 13 de la Conven-vrfer maiee ve r er'le et
+                            à l’arrêt du 26 Fé-vre éxecution publique d'une œu-</p>
                         <p>e .™®* «ans l’autorisation de son au-des ’rn^11^ une Nidation de la j
                             ropriété ues compositions musicales;</p>
                         <p>n’aiiJm 6 le défer\deur ne saurait dire qu’il t pas agi dans une fin de
@@ -5103,7 +5116,7 @@
                             décisions ' rendues à ce sujet.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0330">
                     <head>33. - Propriété littéraire et artistique. — Protection en Egypte;
                         photographe; étendue et limites de son droit (1'a.ute.ur; \ portraits
                         commandes, et portraits de scènes extérieures ou prises à titre de
@@ -5312,7 +5325,7 @@
                             dommages-intérêts...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0340">
                     <head>34. - Propriété littéraire et artistique. — Protection en Egypte; pièces
                         de théâtre ou de musique; exécution publique non autorisée par l'auteur;
                         indemnité due; éléments d'évaluation..</head>
@@ -5341,8 +5354,8 @@
                         <p>Frères^pnn'io .Raison Sociale Lemonia eies. condamnée a paver PT 1900 n
                             !LUr.« P'T- ™ 4 Hé™-; Ch'Snî arbitraire .ohmages-intérêts pour exécution
                             céaux de ±’S à'àement des mor-coXte î qVG tde leur composition, ne nir,
-                            en voie nrin1'- ’ ?lais persiste à soute-lion ou rPvéenrMlpa >’ -que la
-                            œprésenta-thêàhe ou d’,m l°n PubhfIue d’une pièce de le consentement'
+                            en voie nrin1'- ’ ?lais persiste à soute-lion ou rPvéenrMlpa &gt;’ -que
+                            la œprésenta-thêàhe ou d’,m l°n PubhfIue d’une pièce de le consentement'
                             somposition musicale, sans seulement de 1 auteur ou de l’éditeur,</p>
                         <p>ne vaut pas contrefaçon en Egypte et ne saurait être considérée comme
                             source de responsabilité, même pas civile, la propriété intellectuelle
@@ -5381,7 +5394,7 @@
                         <p>Note. — Rappr. ci-avant § 30, l’arrêt du 26 Février 1931. et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0350">
                     <head>35. - Propriété littéraire et artistique. — Protection en Egypte; pièces
                         de théâtre; représentation non autorisée par l'auteur; adaptation en langue
                         étrangère; atteintes au droit d'auteur; indemnité due à l'auteur lésé;
@@ -5479,7 +5492,7 @@
                             ci-avant § 30 l’arrêt du 26 Février 1931 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0360">
                     <head>36. - Propriété littéraire et artistique. — Sociétés d'auteurs; contrat de
                         forfait pour la perception des droits d'auteurs; établissements publics;
                         préavis à donner, en cas de suspension des exécutions; omission;
@@ -5625,7 +5638,7 @@
                     </div>
                 </div>
                 <pb n="37" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-11-0370">
                     <head>37. - Propriété littéraire et artistique. Sociétés (Fauteurs; exécutions
                         musicales non autorisées; mode de, preuve; admissibilité d'un constat privé;
                         force probante; établissements publics; devoir de s'assurer si les œuvres à

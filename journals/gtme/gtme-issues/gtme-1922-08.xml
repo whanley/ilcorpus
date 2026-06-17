@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1922-08-10">August 10, 1922</date><lb/>
-                    <biblScope unit="volume">Vol. 12</biblScope><lb/>
-                    <biblScope unit="number">No. 142</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1922-08-10">August 10, 1922</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 12</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 142</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -49,7 +60,7 @@
                 <p>ZD’ ÉGYPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
-                <p>Fondateurs > M88 MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.</p>
+                <p>Fondateurs &gt; M88 MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.</p>
                 <p>Directeur : M8 MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’Rdministration :</p>
                 <p>M88 L. PANGALO et R SCHEMEIL (Directeurs au Caire"). .</p>
@@ -266,7 +277,7 @@
                     concrète, il aura tout profit à compulser les collections de certaines
                     publications juridiques qui ont jusqu’ici imprimé, pour la seule beauté des
                     principes, des choses parfois intéressantes.</p>
-                <p>Ce n’est point de la « Gazette des Tribunaux Mixtes > que nous voulons parler
+                <p>Ce n’est point de la « Gazette des Tribunaux Mixtes &gt; que nous voulons parler
                     aujourd’hui, on ne nous reprochera donc point de plaider pour notre paroisse en
                     attirant l’attention des intéressés, s’il en existe, sur l’intéressante étude
                     qu’a publiéé M. G. Saint-Plancat au sujet des réformes à envisager en matière
@@ -349,7 +360,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0010">
                     <head>244. - Appel. — Taux. — Demande inférieure à L.E. 100 mettant en litige
                         une question de propriété immobilière.</head>
                     <div type="summary">
@@ -396,7 +407,7 @@
                             l’appel à raison de leur valeur indéterminée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0020">
                     <head>245. - Appel. — Taux; cumul de deux montants ayant leur source dans le
                         même titre. — Distribution ; chose jugée ; cas où un contredit n'aurait eu
                         aucun intérêt pratique; contestation soulevée ultérieurement; recevabilité —
@@ -516,7 +527,7 @@
                             leur montant à partir du 3 Janvier 1918.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0030">
                     <head>246. • Courtage. - Résiliation de la vente par la faute de l'une des
                         parties; défaut d'influence sur le droit du courtier.— Montant du courtage ;
                         cas où il a été déterminé dans l'acte; arbitrage du juge.</head>
@@ -604,7 +615,7 @@
                             jugement déféré purement et simplement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0040">
                     <head>247. - Compétence. — Taux.— Tribunal Sommaire; action contre plusieurs
                         défendeurs, en vertu d’un même titre.—Location.</head>
                     <div type="summary">
@@ -652,7 +663,7 @@
                             devant la Cour, n’ont pas comparu, ni personne pour eux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0050">
                     <head>248. - Décès. — Actes accomplis par le mandataire dans l’ignorance du
                         décès du mandant; validité. — Affaire plaidée dans l’ignorance du décès
                         d’une partie; validité du jugement.—Actes de procédure signifiés- <pb
@@ -770,7 +781,7 @@
                             dépossession....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0060">
                     <head>249. - Demande en garantie. — Irrecevabilité par conclusions prises après
                         le décès du défendeur en garantie, en première instance et en appel.</head>
                     <div type="summary">
@@ -785,7 +796,7 @@
                             et autre c. Aly eff. Helmy et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0070">
                     <head>250. - Distribution. — Contredit contenant deux chefs distincts ; défaut
                         de motivation sur l’un des chefs; irrecevabilité partielle. — Intérêts de
                         retard dus par le contredisant succombant.</head>
@@ -858,7 +869,7 @@
                             ces contestations, ils sont tenus de payer les intérêts de retard.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0080">
                     <head>251. - Distribution.—Intérêts garantis par la transcription d’une
                         vente.—Frais d’une expropriation non achevée; collocation dans la
                         distribution.</head>
@@ -877,7 +888,7 @@
                             Lassin Adès et Co. en liq. c. Sotiri Nakopoulo &amp; Co).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0090">
                     <head>252. - Distribution. — Production unique pour deux distributions
                         distinctes : admissibilité lorsqu’elle est basée sur les mêmes
                         titres.</head>
@@ -923,7 +934,7 @@
                             somme de L.E. 501,688/m.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0100">
                     <head>253. -Domicile élu. — Validité d’une assignation introductive d’instance
                         signifiée au domicile déjà élu en référé.—Action basée sur un quasi-délit ;
                         compétence du Tribunal 'du lieu où s’est produit le fait générateur de
@@ -946,7 +957,7 @@
                             sociale dont les automobiles travaillaient au Caire et à Alexandrie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0110">
                     <head>254. -Etablissements incommodes, insalubres ou dangereux.—Exploitation
                         commencée sans roksa; détermination de la peine laissée à l’appréciation du
                         magistrat.—Fermeture ; cas où il n’y a point lieu de l’ordonner.</head>
@@ -1060,7 +1071,7 @@
                             ■d’ordonner la fermeture.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0120">
                     <head>255. - Evocation. — Irrecevabilité assimilable à une déclaration
                         d’incompétence; évocation facultative.</head>
                     <div type="summary">
@@ -1115,7 +1126,7 @@
                             juridiction.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0130">
                     <head>256. - Expropriation. — Actes non signifiés à domicile réel-,
                         nullité.—Significations à l’étranger; actes remis au Parquet ; transmission
                         impossible à raison des circonstances politiques ; nullité de la
@@ -1222,7 +1233,7 @@
                         <p>Condamne les intimés aux dépens des deux, degrés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0140">
                     <head>257. - Expropriation. — Nullité pour défaut de citation du débiteur ;
                         irrecevabilité par voie d’appel du jugement d’adjudication; action
                         principale.</head>
@@ -1238,7 +1249,7 @@
                     </div>
                 </div>
                 <pb n="150" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0150">
                     <head>258. - Expropriation pour cause d’utilité publique. — Dépôt de l’indemnité
                         .</head>
                     <div type="summary">
@@ -1252,7 +1263,7 @@
                             N. D. Kopsidas c. Gouvernement Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0160">
                     <head>259. - Expropriation — Mise sous séquestre d’un immeuble saisi; compétence
                         du Juge des Référés; elle ne s’étend pas aux contestations soulevées contre
                         les titres ayant servi de base à une saisie régulière en la forme.</head>
@@ -1313,7 +1324,7 @@
                             le prix qui sera réalisé par la vente de l’immeuble.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0170">
                     <head>260. - Folle-enchère. —- Intérêts du prix d’adjudication, dus, comme
                         corrélatifs de la jouissance des biens, même en cas de revente à un prix
                         supérieur.</head>
@@ -1382,7 +1393,7 @@
                             premiers juges l’ont déjà décidé, lui sera délivré sur lui-même.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0180">
                     <head>261. - Gage. — Contrat subordonnant la consignation des biens au non
                         paiement dé la dette. — Renonciation tacite, ne résultant pas de l’inaction
                         du débiteur. — Droits proportionnels. — Prescription acqui-sitive, ne se
@@ -1469,7 +1480,7 @@
                             Civil, Tome 1er, No. 2320).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0190">
                     <head>262. - Intervention. — Effets; droits de l’intervenant de s'opposer à une
                         demande de radiation d'appel.</head>
                     <div type="summary">
@@ -1535,7 +1546,7 @@
                         <p>Qu’il échet donc de le déclarer irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0200">
                     <head>263. - Jeu-Pari. — Caractère illicite; exercices sportifs, paris entre
                         tiers; intermédiaires.</head>
                     <div type="summary">
@@ -1609,7 +1620,7 @@
                             (Colin et Capitant, Tome 2 page 197;.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0210">
                     <head>264. - Jeu-Pari. — Caractère illicite; Nature du « paroli-accumulateur » ;
                         pari entre le client et l’intermédiaire.</head>
                     <div type="summary">
@@ -1691,7 +1702,7 @@
                             illicite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0220">
                     <head>265. - Juridiction mixte. — Compétence; rejet d’une exception
                         d’incompétence basée sur la mise en cause d’un étranger contre lequel il a
                         été conclu en première instance. — Vente immobilière ; expropriation de
@@ -1801,7 +1812,7 @@
                             le montant des susdits acomptes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0230">
                     <head>266. - Litispendance. — Irrecevabilité d’une action intentée devant la
                         juridiction Mixte par une partie assignée déjà pour le même litige devant un
                         Tribunal étranger. — Moyen de litispendance à soulever d’office.</head>
@@ -1882,7 +1893,7 @@
                             et Lie obtient gain de cause dans sa demande en « exequatur».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0240">
                     <head>267. - Louage de services. — Licenciement légitime mais brusque,
                         générateur de dommages-intéiêts.</head>
                     <div type="summary">
@@ -1978,7 +1989,7 @@
                             son renvoi sans préavis, à la somme de L.E. 2000.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0250">
                     <head>268. - Mandat. — Engagement du mandataire entraînant l’engagement
                         corrélatif de ses contreparties envers le mandant. — Vente de terrains sur
                         plan de lotissement ; portée et limites des obligations du vendeur. —
@@ -2015,7 +2026,7 @@
                     </div>
                 </div>
                 <pb n="154" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0260">
                     <head>269. - Mandat. — Représentation; révocation intempestive; conséquences;
                         dommages-intérêts; obligation pour le mandataire révoqué de supprimer une
                         enseigne indiquant son ancienne qualité. — Commerce; autorisation de
@@ -2128,7 +2139,7 @@
                             état d’être plaidée au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0270">
                     <head>270. - Participation aux bénéfices. — Mode de calcul. — Spéculation ;
                         opérations de vente ayant ce caractère. — Jugement interlocutoire en partie
                         définitif.</head>
@@ -2155,7 +2166,7 @@
                             Manoudakis c. Hassan Moustapha Abdou et Cie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0280">
                     <head>271. - Péremption. — Décès ou changement d’état en cours d’instance, sans
                         influence sur la péremption. — Augmentation de délai de péremption,
                         inexistante en droit mixte. — Péremption contre les mineurs et les
@@ -2259,7 +2270,7 @@
                             demandeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0290">
                     <head>272. - Préemption. — Revente simulée de l'immeuble sujet à préemption ;
                         action exercée contre le premier acquéreur; conditions de
                         recevabilité.</head>
@@ -2306,7 +2317,7 @@
                             la revente à la dame Fatma Hanem pour fictivité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0300">
                     <head>273. - Propriétaire. — Responsabilité vis-à-vis du locataire— Ordre
                         arbitraire de fermeture d'eau. — Non responsabilité directe de la
                         Compagnie.</head>
@@ -2327,7 +2338,7 @@
                             Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0310">
                     <head>274. - Transport (Contrat de). — Fins de non recevoir des Art. 274 et 275
                         C. Mar. — Demande reconventionnelle formée après le délai légal en réponse à
                         une demande principale en paiement du fret retenu ; irrecevabilité.</head>
@@ -2427,7 +2438,7 @@
                             par la dite décision.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0320">
                     <head>275. - Tribunal Sommaire. — Compétence conventionnelle. — Jugement rendu
                         sur opposition ; caractère en dernier ressort; appel ; irrecevabilité à
                         relever d’office.</head>
@@ -2447,7 +2458,7 @@
                             1922. — Stella E. Alanoussakis c. Zeki Menasce)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0330">
                     <head>276. - Vente. — Dernière maladie ; vente des biens des enfants mineurs
                         consentie par le père tuteur naturel; défaut de ratification par lès autres
                         héritiers ; annulation ; sous-acquéreur prévenu de la contestation.</head>
@@ -2598,7 +2609,7 @@
                             323 C. Civ. dont elle ne saurait demander l’application.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0340">
                     <head>277. - Vente. — Faute commune du vendeur et de l'acheteur ; saisie
                         pratiquée par l’acheteur qui a déjà opté pour la résiliation de la vende;
                         déjaut de mise en demeure ; résiliation aux torts des deux parties.</head>
@@ -2683,7 +2694,7 @@
                             torts et griefs des deux parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0350">
                     <head>278. - Vente à terme.— Gage déguisé. — Pacte commissaire. — Nullité d’une
                         vente de titres gagés, sans les formalités de l’art. 84 C. Comm.</head>
                     <div type="summary">
@@ -2778,7 +2789,7 @@
                     </div>
                 </div>
                 <pb n="158" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-08-0360">
                     <head>279. - Wakf. — Constitution par un étranger; question du ressort du juge
                         du statut personnel.</head>
                     <div type="summary">

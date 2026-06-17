@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1915-01-10">January 10, 1915</date><lb/>
-                    <biblScope unit="volume">Vol. 5</biblScope><lb/>
-                    <biblScope unit="number">No. 51</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1915-01-10">January 10, 1915</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 5</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 51</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -132,7 +143,7 @@
             <pb n="26" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0010">
                     <head>42. -C assation. — Tribunal correctionnel. — Lecture à l’audience des
                         rapports des syndics. — Interrogatoire de l’inculpé.</head>
                     <div type="summary">
@@ -148,7 +159,7 @@
                             1914. — Ibrahim Mohamed Etteche et Cts. c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0020">
                     <head>43. - Cassation. — Violences commises par un officier public ou sur ses
                         ordres. — Pouvoir discrétionnaire du Président. — Questions non pertinentes.
                         — Témoins. — Tribunal correctionnel. — Instruction écrite. — Procès-verbal
@@ -188,11 +199,11 @@
                             de l’appel, mais seulement par la voie de la cassation.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appel lre Ch> stat. en Cass. Prés, M. L. Sandars, 16 Décembre
+                        <p>(Cour d’Appel lre Ch&gt; stat. en Cass. Prés, M. L. Sandars, 16 Décembre
                             1914. — Hassan Tewfik c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0030">
                     <head>44. - Command (Déclaration de). — Mandat. — Preuve. — Dol.</head>
                     <div type="summary">
                         <p>I. - Il n’est pas nécessaire pour que la déclaration de command et
@@ -319,7 +330,7 @@
                             les terrains auraient été achetés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0040">
                     <head>45. - Commandement Immobilier. — Absence d'élection de domicile.
                         Nul-lité.</head>
                     <div type="summary">
@@ -332,7 +343,7 @@
                             Moh. Pacha Chou cri c. Deutch).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0050">
                     <head>46. - Concordat Judiciaire. — Con-coidat comprenant deux propositions
                         alternatives. — Absence d’égalité entre les créanciers.</head>
                     <div type="summary">
@@ -392,7 +403,7 @@
                             formulées par les faillis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0060">
                     <head>47. - Constructeur. — Privilège. — Frais de conservation. — Inscription. —
                         Transcription.</head>
                     <div type="summary">
@@ -423,7 +434,7 @@
                             previsti e disciplinât! dall’art 2103, N° 4 C. Nap.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0070">
                     <head>48. - Contravention. — Décret du 20 Août 1914. — Marchandise tarifée
                         vendue à un prix supérieur à celui du Tarif.</head>
                     <div type="summary">
@@ -449,7 +460,7 @@
                             fixé par le tarif de la commis-« sion.. .. »</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0080">
                     <head>49. - Distribution (Procédure de). — Continuation malgré une revendication
                         des immeubles adjugés.</head>
                     <div type="summary">
@@ -477,7 +488,7 @@
                             l’immeuble saisi est encore en suspens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0090">
                     <head>50. - Distribution par ordre. — Fol enchérisseur. — Impôts. — Subrogation
                         légale. - - Recevabilité des contredits après folle enchère. — Intérêts. —
                         Bordereaux de collocation.</head>
@@ -518,7 +529,7 @@
                             fols-enchérisseurs, a considéré ceux-ci comme ayant été propriétaires
                             des immeubles, alors que, par l’effet de la revente sur folle enchère,
                             ils doivent être considérés comme n’ayant jamais été propriétaires
-                            (Marcotty « De l’expropriation forcée -> t. Il p. 172, et les très
+                            (Marcotty « De l’expropriation forcée -&gt; t. Il p. 172, et les très
                             nombreuses autorités citées par cet auteur); que les contredisants
                             doivent donc être colloqués sur le prix de vente à charge des débiteurs
                             saisis; qu’il est vrai qu’aux termes de l’article 702 du Code de
@@ -602,7 +613,7 @@
                             ne l’a même pas offerte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0100">
                     <head>51. - Droit Musulman. — Revendication mobilière. — Femme persane. — Usage
                         suivi en Perse.</head>
                     <div type="summary">
@@ -637,7 +648,7 @@
                             antérieure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0110">
                     <head>52. - Effets de Commerce. — Daïra. — Wekil. — Femmes et simples
                         cultivateurs. — Endossement.</head>
                     <div type="summary">
@@ -660,7 +671,7 @@
                             Hanem Vv« Ibrahim Pacha Fouad c. Banque d’Athènes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0120">
                     <head>53. - Employé « de saison ». — Commerce cotonnier. — Arrêt des
                         transactions Renvoi non intempestif.</head>
                     <div type="summary">
@@ -682,7 +693,7 @@
                             c. S. G. Violara)-.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0130">
                     <head>54. - Faillite. — Droits de la femme. — Revendication de meubles. — Loi
                         matrimoniale. — Contrat de mariage.</head>
                     <div type="summary">
@@ -701,7 +712,7 @@
                             Harari c. Faillite Harari et Mansour).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0140">
                     <head>55. - Force majeure. — Etat de .guerre. — Contrat de bail.</head>
                     <div type="summary">
                         <p>L’état de guerre, qui rend plus onéreuse •et difficile l’exécution des
@@ -761,7 +772,7 @@
                             demande de Marini en tant que basée sur ce moyen et l’en déboute.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0150">
                     <head>56. - Formule exécutoire. — Tribu-bunal Indigène.</head>
                     <div type="summary">
                         <p>La formule exécutoire rendue par les Tribunaux Indigènes, au nom de là
@@ -776,7 +787,7 @@
                             Alexandre bey Chedid et Cts. c. Ismaïl Pacha Assem).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0160">
                     <head>57. - Honoraires. — Avocat. — Taxe. — Convention.</head>
                     <div type="summary">
                         <p>Aux termes de l’art. 197 du Règlement Général Judiciaire, ce n’est qu’à
@@ -788,7 +799,7 @@
                             Hussein bey Cherif c. Me D. B...).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0170">
                     <head>58. - Honoraires déjà acquittés. — Arbitrage du juge.</head>
                     <div type="summary">
                         <p>Si, par une dérogation au principe que la convention fait la loi des
@@ -805,7 +816,7 @@
                         <p>Note. — Comp. Jug. 25 Février 1914, Gaz. III, 115-243.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0180">
                     <head>59. - Hypothèque. — Prescription libératoire.</head>
                     <div type="summary">
                         <p>L’hypothèque s’éteint au profit du tiers-détenteur par la prescription
@@ -825,7 +836,7 @@
                             même sens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0190">
                     <head>60. - Juridiction Mixte. — Compétence. — Intervention. — Conclusions
                         nouvelles prises par l’intervenant.</head>
                     <div type="summary">
@@ -933,7 +944,7 @@
                             connaissance ne lui est pas attribuée par ses lois organiques.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0200">
                     <head>61. - Juridiction Mixte. — Protection étrangère. — Drogman.</head>
                     <div type="summary">
                         <p>Un sujet local qui acquiert une protection étrangère du fait de sa
@@ -948,7 +959,7 @@
                             Skandar eff. Morcos Abdel Maïak et Cts c. Ibrahim el Gharabli).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0210">
                     <head>62. - Officier public. — Violences à l’occasion de l’exercice de ses
                         fonctions.</head>
                     <div type="summary">
@@ -965,7 +976,7 @@
                             1914. — Metwalii Mohamed Metwalii c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0220">
                     <head>63. - Ouvrier à la journée. — Durée des services. — Renvoi
                         intempestif.</head>
                     <div type="summary">
@@ -1019,7 +1030,7 @@
                         <p>V. jug. 9 Décembre 1912, Gaz. 111, 44-56, et note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0230">
                     <head>64. - Préemption. — Concours de voisins. — Acquéreur diligent.</head>
                     <div type="summary">
                         <p>S’il a été admis par la jurisprudence sous la loi ancienne, en matière de
@@ -1043,7 +1054,7 @@
                             Mohamed bey Talaat et Cts c. Théodore Galanos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0240">
                     <head>65. - Prêt hypothécaire. — Réalisation. - Faute de l’emprunteur. —
                         Condition potestative.</head>
                     <div type="summary">
@@ -1058,7 +1069,7 @@
                             Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0250">
                     <head>66. - Quasi-délit. — Solidarité. — Responsabilité du propriétaire d’un
                         chien.</head>
                     <div type="summary">
@@ -1079,7 +1090,7 @@
                             Parigoris).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0260">
                     <head>67. - Servitude de passage d’eau. — Utilisation d’un canal privé déjà
                         existant.</head>
                     <div type="summary">
@@ -1122,7 +1133,7 @@
                             reconnu comme le moins dommageable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0270">
                     <head>68. - Société Anonyme. — Caractère commercial ou civil selon son objet. —
                         Illégalité du changement de nature d'une société, au cours de son existence.
                         — Réduction du capital. — Délibération irrégulière. — Annullation. — D’oit
@@ -1171,7 +1182,7 @@
                             llme partie, 4° Edit. N» 738, 819 et 875 et s.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0280">
                     <head>69. - Société en nom collectif. — Société de fait. — Dissolution. — Raison
                         sociale incomplète. — Omission des formalités de publicité. — Droits des
                         tiers. — Circulaires. — Mineur. — Droit musulman.</head>
@@ -1205,7 +1216,7 @@
                             et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0290">
                     <head>70. - Stipulation pour autrui. — Acceptation par le tiers bénéficiaire. —
                         Révocation de la stipulation.</head>
                     <div type="summary">
@@ -1224,7 +1235,7 @@
                             Aly El Talfaoui El Alaghazi c. Agriculture! Bank of Egypt). :</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0300">
                     <head>71. - Tiers détenteur. — Paiement du créancier hypothécaire. —
                         Subrogation. — Caution.</head>
                     <div type="summary">
@@ -1300,7 +1311,7 @@
                             héritiers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0310">
                     <head>72. - Transcription. — Acquéreurs successifs. — Bonne foi. — Fraude. —
                         Serment décisoûe.</head>
                     <div type="summary">
@@ -1335,7 +1346,7 @@
                             Abdel Khalek bey Madkour et Cts c. Mohamed bey Bahgat et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0320">
                     <head>73. - Vente. — Contrat de fournitures. — Livraison après la date fixée. —
                         Epoque à laquelle commence la «saison» pour la Haute-Egypte. — Livraison non
                         tardive.</head>
@@ -1357,7 +1368,7 @@
                             Bichara c. Ed. Papasian).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0330">
                     <head>74. - Vente. — Négociant en cotons. — Inexécution du contrat par le
                         vendeur. — Présomption de préjudice éprouvé, sauf preuve contraire.</head>
                     <div type="summary">
@@ -1371,7 +1382,7 @@
                             Mansour Beheri et Cts. c. R. Soc. J. Planta et Cie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0340">
                     <head>75. - Vente. — Vente d’une partie de la récolte. — Saisie subséquente d’un
                         créancier à l’encontre du propriétaire de la récolte. — Inadmissibilité de
                         la revendication de l’acheteur. — Corps non certain.</head>
@@ -1389,7 +1400,7 @@
                             Syriotis c. Sidhom Soliman Sidhom et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0350">
                     <head>76. - Vente forcée. — Procédure de vente mobilière. — Nullité.</head>
                     <div type="summary">
                         <p>La loi édictant à peine de nullité les règles à suivre pour la procédure
@@ -1409,7 +1420,7 @@
                             autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0360">
                     <head>77. - Vente Immobilière. — Contrat non transcrit. Inscriptions
                         postérieures à la vente procédant du vendeur. — Responsabilité du
                         vendeur.</head>
@@ -1429,7 +1440,7 @@
                             Kiazi et Cts c. Hamed bey El Bassel et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0370">
                     <head>78. - Wakf. — Actions en justice. — Nazir. — Irrecevabilité des actions
                         introduites par les bénéficiaires.</head>
                     <div type="summary">
@@ -1443,7 +1454,7 @@
                             bent Alohamed Salem et Cts c. The Land Bank of Egypt).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0380">
                     <head>79. - Wakf. — Droit du bénéficiaire. — Saisissabilité. — Caractère non
                         alimentaire.</head>
                     <div type="summary">
@@ -1523,7 +1534,7 @@
                             même les supprimer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-01-0390">
                     <head>80. -Wakfieh.— Transcription au Tribunal Mixte. — Tiers.— Action
                         paulienne. — Créanciers postérieurs à la constitution du Wakf.</head>
                     <div type="summary">

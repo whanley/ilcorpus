@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0010-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0010-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1920-04-10">April 10, 1920</date><lb/>
-                    <biblScope unit="volume">Vol. 10</biblScope><lb/>
-                    <biblScope unit="number">No. 114</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1920-04-10">April 10, 1920</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 10</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 114</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -40,7 +51,7 @@
                 <p>'9, Rue Mahmoud Pacha el-Falaky.</p>
                 <p>Tél. 12-44.</p>
                 <p>Bureaux au Caire,</p>
-                <p>>5, Rue Elfi bey.</p>
+                <p>&gt;5, Rue Elfi bey.</p>
                 <p>Tél. 86.</p>
                 <p>GAZETTE</p>
                 <p>DES</p>
@@ -610,7 +621,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0010">
                     <head>79. - Actions nominitives. — Circulation sans les formalités du transfert.
                         — Non transmission de la dette du non-versé.— Porteurs présumés
                         mandataires.— Preuve contraire à la charge de la Société.</head>
@@ -1079,7 +1090,7 @@
                         <p>(Voir page 77 l’étude de Me Saint Plancat sur cette même question).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0020">
                     <head>80. - Action possessoire. — Défaut de responsabilité du propriétaire en
                         cas de trouble causé par le locataire.</head>
                     <div type="summary">
@@ -1100,7 +1111,7 @@
                             Hoirs Théodore Papadakis c. Aly bey Nagati et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0030">
                     <head>81. - Adjudication. — Possession de bonne foi. — Droit aux fruits en cas
                         d’accueil d’une revendication contre le~ débiteur exproprié.</head>
                     <div type="summary">
@@ -1174,7 +1185,7 @@
                             débouter les demandeurs de leur action sus-mentionnée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0040">
                     <head>82. - Adjudicataire. — Restitution des fruits au revendiquant qui a obtenu
                         gain de cause. — Cahier des charges.— Clause de non. garantie. —
                         Inopposabilité- aux tiers. — Restitution par le poursuivant des accessoires
@@ -1199,7 +1210,7 @@
                         <p>Note.— Voir le jugement ci-dessus, § 81.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0050">
                     <head>83. - Appel. —.Gage. — Revendication de l’objet. — jugement devenu
                         définitif dans les rapports du revendiquant et du propriétaire. —
                         Irrecevabilité de l’appel' contre le gagiste seul.</head>
@@ -1216,7 +1227,7 @@
                             — Osman Farag Omar c. Joseph Hanna et Roemer).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0060">
                     <head>84. - Bail. — Loi sur les loyers. — Ap-partement transformé en
                         pension.</head>
                     <div type="summary">
@@ -1231,7 +1242,7 @@
                             Mazloum c. Dame Marie Froment).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0070">
                     <head>85. - Bail. — Loi sur les loyers. — Inapplicabilité aux instances déjà
                         engagées.</head>
                     <div type="summary">
@@ -1269,7 +1280,7 @@
                             jour « franc après la promulgation et partout-ailleurs « dans l’étendue
                             de chaque arrondissement, un « jour franc après que le Journal Officiel
                             qui les « contient sera parvenu au chef-lieu de l’arron-« dissement
-                            >;</p>
+                            &gt;;</p>
                         <p>Attendu que cette règle peut se justifier pour les raisons qui motivent,
                             dans la matière des défais de procédure, l’adage « Dies a quo non com-.
                             putatur in termine » ; le jour où se produit le fait qui sert de point
@@ -1295,7 +1306,7 @@
                             -contraints et forcés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0080">
                     <head>86. - Bail. — Loi sur les loyers. — Inapplicabilité en cas d’ordonnance
                         déjà rendue.</head>
                     <div type="summary">
@@ -1309,7 +1320,7 @@
                             Mordock Salamac. Hassan eft. Deiî).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0090">
                     <head>87. - Bail. — Loi sur les loyers. — Pensions meublées servant également à
                         une habitation personnelle.</head>
                     <div type="summary">
@@ -1389,7 +1400,7 @@
                             de cinq semaines pour le quitter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0100">
                     <head>88. - Cession. — Garanties transférées avec le droit cédé. — Concordat. —
                         Action en résolution. — Poursuite contre débiteur principal. — Ejfet contre
                         le débiteur solidaire. — Retrait litigieux, non admissible lorsque la
@@ -1543,7 +1554,7 @@
                             faire droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0110">
                     <head>89. - Chemins de fer. — T&lt; an sport de marchandises. — Coulage. —
                         Responsabilité.</head>
                     <div type="summary">
@@ -1564,7 +1575,7 @@
                             Janvier 1920.— Ahmed Pacha Ziwer èsq. c. R. S. Hadida et Alawas).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0120">
                     <head>90. - Compétence. — Tribunal Sommaire,—Revendication impliquant l’examen :
                         de la nullité ou de la validité d'un bail. — Incompétence du Tribunal
                         Sommaire.</head>
@@ -1628,7 +1639,7 @@
                             conséquent d’ordre public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0130">
                     <head>91. - Délit. — Prescription de l’action civile. — Actes
                         interruptifs.</head>
                     <div type="summary">
@@ -1643,7 +1654,7 @@
                             Wissa c. Moh. Osman el Vannant).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0140">
                     <head>92. - Distribution. — Appel d’intimé à intimé. — Recevabilité. —
                         Modification, sur contredit, de la base de la demande de collocation. —
                         Production tardive. — Production complémentaire.</head>
@@ -1674,7 +1685,7 @@
                             Gaz., X, 21-19.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0150">
                     <head>93. - Distribution. — Contredit formulé en termes généraux et imprécis. —
                         Irrecevabilité.</head>
                     <div type="summary">
@@ -1735,7 +1746,7 @@
                             faire connaître leur manière de voir.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0160">
                     <head>94. - Distribution. — Portée de l'affichage de l’avis d'ouverture en
                         matière d’ordre et en matière de contribution. — Forclusion des créanciers
                         non poursuivants. — Effets de la faillite du débiteur postérieure à la
@@ -1830,7 +1841,7 @@
                             collocations consacrées par le règlement définitif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0170">
                     <head>95. - Droits proportionnels. — Action en répétition de l’indû contre le
                         Greffe.</head>
                     <div type="summary">
@@ -1852,7 +1863,7 @@
                             289-385.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0180">
                     <head>96. - Faillite.— Billets fictifs.— Billets « tirage à trois mois ». —
                         Distinction.</head>
                     <div type="summary">
@@ -1876,9 +1887,10 @@
                             les-billets seraient fictifs, dans ce sens qu’ils devenaient nuis et que
                             la faillite bien qu’ayant profité de leur montant n’en serait pas
                             redevable ;</p>
-                        <p>Attendu qu’en posant un pareil principe le > syndic perd de vue, d’abord,
-                            le caractère d’un instrument de crédit inhérent au billet à ordre, et
-                            ensuite, le principe immuable établi par l’action « in rem verso »;</p>
+                        <p>Attendu qu’en posant un pareil principe le &gt; syndic perd de vue,
+                            d’abord, le caractère d’un instrument de crédit inhérent au billet à
+                            ordre, et ensuite, le principe immuable établi par l’action « in rem
+                            verso »;</p>
                         <p>, Attendu que ces deux principes ne peuvent être renversés par la théorie
                             de la nullité des billets fictifs, même au cas de leur paiement par le
                             débiteur fictif ;</p>
@@ -1970,7 +1982,7 @@
                             d’accueillir la demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0190">
                     <head>97. - Faillite.—Concordat préventif.— Mode d’exécution des jugements par
                         défaut pour éviter la péremption. — Production à la faillite. — Assistance
                         aux réunions du concordat.</head>
@@ -2033,7 +2045,7 @@
                         <p>Attendu que les appelants le reconnaissent en réalité puisqu’ils
                             affirment cette assistance et la notification verbale du jugement au
                             mandataire du débiteur; mais que celui-ci, sans contester la
-                            représentation par mandataire de M. Vitiadis &lt;L C°> affirme de son
+                            représentation par mandataire de M. Vitiadis &lt;L C°&gt; affirme de son
                             côté n’avoir jamais eu connaissance de la cession consentie par Paichis,
                             créancier originaire de Kharpakis, ni du jugement de défaut obtenu par
                             eux;</p>
@@ -2051,7 +2063,7 @@
                             Kharpakis ait acquiescé au jugement par défaut.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0200">
                     <head>98. - Faillite. — Jugement déclaratif visant une Raison sociale et les
                         membres qui la composent. — Interprétation ultérieure du dispositif quant à
                         la faillite personnelle de l’un des associés. — Dépôt de bilan en vue d’un
@@ -2112,7 +2124,7 @@
                             lequel déclare avoir cessé ces « paiements à la date du 12 Février 1912
                             et « vouloir déposer le bilan par suite de nom-&lt; bretises dettes
                             contractées par l’ancienne « société,.. A l’appui, il dépose une liste
-                            de « l’actif... ainsi que treize registres de leur > commerce »;</p>
+                            de « l’actif... ainsi que treize registres de leur &gt; commerce »;</p>
                         <p>Attendu que ces treize registres comprennent le livre journal de la
                             Société Bichai «atri et Di-mitri bey Makar, arrêté au 20 Mai 1908, date
                             de sa dissolution, et 4 livres journal, allant du 29 Mai 1908 au 11
@@ -2158,7 +2170,7 @@
                             propriété.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0210">
                     <head>99. - Mariage. — Négociation. — Commission. — Nullité.</head>
                     <div type="summary">
                         <p>En droit, la plupart des auteurs et une jurisprudence à peu près unanime
@@ -2175,7 +2187,7 @@
                             Maroussopoulo c. Dr. Stafilidis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0220">
                     <head>100. - Mesure d’instruction.—Réassignation des parties non représentées,
                         non prescrite à peine de nullité.</head>
                     <div type="summary">
@@ -2189,7 +2201,7 @@
                             Hammad ismail et Cts. c. Joseph Aehion et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0230">
                     <head>101. - Offres réelles. — Intérêts à charge du débiteur qui n’enta point
                         fait pour se libérer.</head>
                     <div type="summary">
@@ -2231,7 +2243,7 @@
                         <p>Qu’ils sont donc responsables des intérêts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0240">
                     <head>102. - Préemption. — Echange de lettres constituant accords pour la vente
                         et servant de point de départ au délai de préemption.</head>
                     <div type="summary">
@@ -2289,7 +2301,7 @@
                             renonçant à l'exercer en cas de baisse : ce qui est intolérable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0250">
                     <head>103. - Sous-traitant. — Privilège. — Opposabilité au cessionnaire de
                         l’entrepreneur principal.</head>
                     <div type="summary">
@@ -2436,7 +2448,7 @@
                     </div>
                 </div>
                 <pb n="91" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0260">
                     <head>104. - Sous-traitants. — Droits sur les sommes dues par le maître à
                         l’entrepreneur. — Défense de sous-traiter. — Inopposabilité au
                         sous-traitant. — Qualité légale de « sous-traitant ».</head>
@@ -2505,7 +2517,7 @@
                             les exclure de la présente distribution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0270">
                     <head>105. - Sujets Hellènes. — Traité d'Athènes du 1114 Novembre 1913: — Accord
                         gréeo-gyptien du 16 Octobre 1918.-— Option de nationalité.</head>
                     <div type="summary">
@@ -2593,7 +2605,7 @@
                             contre le demandeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0280">
                     <head>106. - Sujets Ottomans.—Litige avec un sujet égyptien. — Juridiction
                         Mixte. — Compétence. — Receiver. — Séquestre. — Autorités militaires
                         britanniques.</head>
@@ -2776,7 +2788,7 @@
                             douze (L.E. 12).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-04-0290">
                     <head>107. - Vente commerciale. — Achat à terme contracté auprès d’un chef du
                         rayon. — Retard dans la demande de livraison. — Conséquences.</head>
                     <div type="summary">

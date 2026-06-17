@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1925-08-10">August 10, 1925</date><lb/>
-                    <biblScope unit="volume">Vol. 15</biblScope><lb/>
-                    <biblScope unit="number">No. 178</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1925-08-10">August 10, 1925</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 15</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 178</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -54,14 +65,14 @@
                     Directeur: M« MAXIME PUPIKOFEB, Avocat à la Cour.</p>
                 <p>Tél. 282 -</p>
                 <p>Comité de Rédaction et d'Administration :</p>
-                <p>M> L. PANGALO et B. SCHEMEIL (Directeurs au Caire').</p>
+                <p>M&gt; L. PANGALO et B. SCHEMEIL (Directeurs au Caire').</p>
                 <p>M« E. DEGIARDÈ (Secrétaire de la rédaction). M" A. FADEL (Directeur à
                     Mansourah).</p>
                 <p>Tél. 409 M» F. BBAUN (Secrétaire à Paris)</p>
                 <p>— à la Gazette (un an).... P.T. 150</p>
                 <p>— au Journal ;</p>
                 <p>— Un an................. » 150</p>
-                <p>— Six mois.............. > 85</p>
+                <p>— Six mois.............. &gt; 85</p>
                 <p>— Trois mois.......... » 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an)......... »■ 250</p>
@@ -286,7 +297,7 @@
             <pb n="19!" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0010">
                     <head>312. - Assurances. — Agent; révocation; 'droit contractuel de la
                         Compagnie; droit de l'agent sur la valeur du portefeuille; indemnité due de
                         ce chef; conditions; 'évaluations.</head>
@@ -457,7 +468,7 @@
                             montant par action séparée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0020">
                     <head>313. - Assurances. —• Certificat d'assurance auprès de compagnies
                         étrangères; nécessité d'une action directe par l'assuré contre les
                         compagnies mentionnées au certificat.</head>
@@ -530,7 +541,7 @@
                         <p>-Que de tels reproches, cependant, n’ont pas été soulevés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0030">
                     <head>314. - Assurance-vie. — Monnaie; détermination; intention des parties;
                         Compagnie française; stipulation en francs.</head>
                     <div type="summary">
@@ -619,7 +630,7 @@
                             légaux à partir du même jour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0040">
                     <head>315. - Assurance-vie. — Monnaie; détermination; intention des parties;
                         Compagnie française; stipulation en francs. — Paiement; monnaie étrangère;
                         change; calcul; date. — Intérêts; point de départ.</head>
@@ -715,7 +726,7 @@
                         <p>GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0050">
                     <head>316. - Egypte. — Indépendance; cessation de la suzeraineté turque; Tribut;
                         libération; conséquences. — Emprunts ottomans de 1891 et de 1894; garantie
                         de l'Egypte; obligation directe de l'Egypte envers les souscripteurs et
@@ -1753,7 +1764,7 @@
                             première de son crédit devant le monde.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0060">
                     <head>317. - Obligations. — Action de in rem verso; conditions
                         d'exercice.</head>
                     <div type="summary">
@@ -1781,7 +1792,7 @@
                             Samaropoulo c. Hoirs Aboul Naga Issa et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0070">
                     <head>318. - Obligations.— Clause pénale; condition d'application; justification
                         du préjudice subi; charge de la preuve.</head>
                     <div type="summary">
@@ -1802,7 +1813,7 @@
                         <p>V. ci-après § 319, en sens contraire, l’arrêt du 13 Mai 1924.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0080">
                     <head>319. - Obligations.— Clause pénale; condition d'application; justification
                         du préjudice subi; présomption de perte;charge de la preuve contraire;
                         promesse de vente; inexécution; perte subie par le vendeur.</head>
@@ -1870,7 +1881,7 @@
                             montant par eux réclamé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0090">
                     <head>320. - Obligations. — Enrichissement sans cause; action «de in rem verso»;
                         cas où le but de l'appauvri était mixte. — Paiement; prêt consenti en marks,
                         avant la dépréciation monétaire; intention des parties; remboursement en
@@ -1957,7 +1968,7 @@
                             dépréciées ou tendant à zéro).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0100">
                     <head>321. - Obligations. — Novation; obligation nouvelle créée pour le paiement
                         d'un prix de vente; danger d'éviction; rétention du prix impossible.</head>
                     <div type="summary">
@@ -2031,7 +2042,7 @@
                             du montant intégral de l’obligation cédée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0110">
                     <head>322. - Paiement. — Obligations; titres air porteur; mentions; exceptions
                         non opposables au porteur. — Société égyptienne; obligations conçues en
                         «francs»; intention des parties; règles d'interprétation. — Franc
@@ -2555,7 +2566,7 @@
                             avocats des demandeurs taxés à L.E. 10 chacun.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0120">
                     <head>323. - Paiement. — Obligations; titres au porteur; mentions; exceptions
                         non opposables au porteur. — Société égyptienne; obligations n'indiquant ni
                         lieu d'émission, ni lieu de paiement; stipulation en «francs»; intention des
@@ -3142,7 +3153,7 @@
                             maintenant, du vingtième de la pièce d’or de 20 francs équivalant à P.T.
                             77.15; qu’il n’est pas possible de supposer qu’au lieu d'adopter ainsi
                             une unité fixe, ayant cours en Egypte, où tous les paiements faits en
-                            francs se liquidaient à ce tau>S* on aurait accepté une valeur
+                            francs se liquidaient à ce tau&gt;S* on aurait accepté une valeur
                             incertaine, sujette à fluctuations sous l’influence de causes-
                             économiques ou politiques»;</p>
                         <p>Attendu dès lors que c’est à bon droit que le jugement déféré à la Cour a
@@ -3527,7 +3538,7 @@
                             cette affaire, pas plus qu’en celle de la Société d’Hélio-polis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0130">
                     <head>324. - Paiement. — Public Custodian; créances des sujets ennemis; taux de
                         change applicable. — Autriche; Traité de St. Germain du 10 Septembre 1919. —
                         Traités de paix; applicabilité en Egypte.</head>
@@ -3559,7 +3570,7 @@
                             du 11 Mars 1922, Gaz. XII, 91-165.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0140">
                     <head>325. - Paiement. — Répétition de l'indu; action; conditions de
                         recevabilité; erreur.</head>
                     <div type="summary">
@@ -3579,7 +3590,7 @@
                             l’arrêt français de Cass, du 7 Janvier 1925.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-08-0150">
                     <head>326. - Paiement. — Répétition de l'indu; action; conditions de
                         recevabilité; erreur; preuve; présomptions; sommes portées dans un
                         commandement; paiement volontaire; règlement effectué par un tiers; excédent

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1918-05-10">May 10, 1918</date><lb/>
-                    <biblScope unit="volume">Vol. 8</biblScope><lb/>
-                    <biblScope unit="number">No. 91</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1918-05-10">May 10, 1918</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 8</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 91</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -171,7 +182,7 @@
                 <p>Il</p>
                 <p>DE LA CAUTION "JUDICATUM 80LVI "</p>
                 <p>Il est en principe de règle générale dans toutes les législations des pays
-                    civilisés d'exiger la caution appelée «Ju-dicatum Solvi -> d’un étranger,
+                    civilisés d'exiger la caution appelée «Ju-dicatum Solvi -&gt; d’un étranger,
                     demandeur non domicilié dans le pays, pour assurer au défendeur le paiement des
                     frais, dépens et dommages-intérêts pouvant résulter d’un procès.</p>
                 <p>On ne conteste pas ainsi aux étrangers le principe d’ester en justice, mais on
@@ -442,7 +453,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0010">
                     <head>202. - Action possessoire. — Servitudes continues et apparentes. —
                         Servitudes discontinues et non apparentes. — Titres. — Réintégrande. —
                         Possession annale. — Compétence du juge possessoire.</head>
@@ -523,7 +534,7 @@
                             antérieure au trouble.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0020">
                     <head>203. - Adjudication. — Dattiers.</head>
                     <div type="summary">
                         <p>Pour considérer comme compris dans une adjudication les dattiers se
@@ -591,7 +602,7 @@
                     </div>
                 </div>
                 <pb n="93" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0030">
                     <head>204. - Adjudication. — Juge Délégué. — Revendication. — Intervention du
                         revendiquant. — Renonciation. — Acquiescement. — Créanciers inscrits. —
                         Subrogation. — Nullité et validation en cours d’instance.</head>
@@ -627,7 +638,7 @@
                             et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0040">
                     <head>205. - Appel. — Exécution d’un jtrpe-geinent non definitif. — Loi des cinq
                         fed-dans. — Charge de la preuve.</head>
                     <div type="summary">
@@ -641,7 +652,7 @@
                             Fathalla Haim c. Habib Dimitri Boulad).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0050">
                     <head>206. - Bail. — Séquestre. — Exécution. — Tribunal compétent.</head>
                     <div type="summary">
                         <p>L’instance en exécution d’un bail consenti par un séquestre, et ayant
@@ -653,7 +664,7 @@
                             Hanem Mazhar c. Dame Noémie Bergman esn. et q.» et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0060">
                     <head>207. - Chose jugée. — Rejet en l’état.</head>
                     <div type="summary">
                         <p>Le rejet en l’état ne peut être prononcé que dans certains cas
@@ -671,7 +682,7 @@
                             Achmaoui c. Jean Cayopoulo).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0070">
                     <head>208. - Consentement. — Capacité. — Dol. — Violence. — Faiblesse
                         intellectuelle. — Nullité des actes consentis par un incapable. — Preuve. —
                         Donation déguisée. — Appel incident: irrecevabilité.</head>
@@ -693,7 +704,7 @@
                             Andraous Pacha Bichara c. Bassili Bi-chara et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0080">
                     <head>209. - Déboutement en l’état. — Reprise de l'instance : compétence. —
                         Requête civile : affirmations dolosives.</head>
                     <div type="summary">
@@ -776,7 +787,7 @@
                             l’arrêt attaqué en font foi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0090">
                     <head>210. - Domicile. — Changement de résidence. — Daïra. — Guerre.</head>
                     <div type="summary">
                         <p>Le domicile légal ne se perd pas par un changement de résidence, même
@@ -869,7 +880,7 @@
                             Daïra que l’assignation dont s’agit pouvait et devait être faite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0100">
                     <head>211. - Donation. — Validité. — Acte inexistant. — Acte annulable. — Art.
                         176 et 179 du Code Civil. — Actes solennels.</head>
                     <div type="summary">
@@ -986,7 +997,7 @@
                             la sincérité de sa propre hypothèque.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0110">
                     <head>212. - Expertise. — Nouvelle expertise ordonnée en raison d’une mise en
                         cause. — Portées respectives des expertises.</head>
                     <div type="summary">
@@ -1066,7 +1077,7 @@
                             vérité, et en conséquence à la juste solution du litige.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0120">
                     <head>213. -Expropriation. — Tiers-détenteur. — Acquéreur n’ayant pas transcrit
                         son titre. — Condition de maintien des baux par lui consentis. *</head>
                     <div type="summary">
@@ -1087,7 +1098,7 @@
                             AbouChadi c. Bedros Hovsepian et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0130">
                     <head>214. - Gage. — Nullité. — Possession du créancier gagiste. — Caractères de
                         cette possession.</head>
                     <div type="summary">
@@ -1106,7 +1117,7 @@
                         <p>Note. — V. dans ce sens: Gaz., VIL 53-157 et VIII, 67-163.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0140">
                     <head>215. - Gage. — Possession par le créancier. — Transcription. — Effets à
                         l’égard des tiers.. — Expropriation.</head>
                     <div type="summary">
@@ -1171,7 +1182,7 @@
                             des terrains litigieux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0150">
                     <head>216. - Hekr. — Constitution. — Formes. — Nullité d’un contrat sous seing
                         privé constitutif de hekr. — Acquisition par prescription de trente trois
                         ans. — Pouvoirs du nazir.</head>
@@ -1297,7 +1308,7 @@
                             qu’elle n’a pas, à présent, sa raison d’être.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0160">
                     <head>217. - Hekr. — Nature. — Vendeui. — Garantie. — Adjudication. —
                         Responsabilité du poursuivant. — Clauses du cahier des charges. — Appel. —
                         Evaluation du taux de la demande. — Renonciation à un chef de demande en
@@ -1350,8 +1361,8 @@
                             affirmation;</p>
                         <p>Attendu qu’en admettant par impossible qu’on pourrait assimiler le hekr à
                             une servitude, 'cette servitude n’étant pas apparente, le vendeur aurait
-                            commis une réticence coupable dont la loi le déclare responsable > Art.
-                            384 du Code Mixte, 1638 du Code Français);</p>
+                            commis une réticence coupable dont la loi le déclare responsable &gt;
+                            Art. 384 du Code Mixte, 1638 du Code Français);</p>
                         <p>Mais attendu qu’il ne s’agissait pas, en l’espèce, d’une servitude ou
                             d’une charge, stricto sensu, mais du droit même de propriété, et que
                             lorsque l’acheteur croyait avoir acquis la plénitude de ce droit sur
@@ -1461,7 +1472,7 @@
                             par la dite clause.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0170">
                     <head>218. - Interdit. — Conventions matrimoniales passées avec le tuteur. —
                         Validité et irrévocabilité. — Compétence du Meglis Hasbi. — Juridiction
                         mixte. — Dot. — Rente viagère. — Epoux hellène.</head>
@@ -1621,7 +1632,7 @@
                             être mis en doute.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0180">
                     <head>219. - Mesures d’instruction. — Délai fixé pour présenter requête. —
                         Déchéance.</head>
                     <div type="summary">
@@ -1694,7 +1705,7 @@
                             le délai imparti pour l’enquête.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0190">
                     <head>220. - Nom. commercial. — Raison sociale. — Transmission. — Acquéreur du
                         nom.</head>
                     <div type="summary">
@@ -1710,7 +1721,7 @@
                             Saracinelli èsq. c. Ed. Galley et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0200">
                     <head>221. - Partage. —.Juridictions Mixtes. — Droit des créanciers inscrits
                         étrangers.</head>
                     <div type="summary">
@@ -1762,7 +1773,7 @@
                     </div>
                 </div>
                 <pb n="99" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0210">
                     <head>222. - Péremption. — Exception. — Incompétence.</head>
                     <div type="summary">
                         <p>Suivant une jurisprudence constante, il ne peut être, en matière de
@@ -1776,7 +1787,7 @@
                             Habib Barazin c. Abdel Bari Abdallah El Gabî et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0220">
                     <head>223. - Péremption. — Opposition à un arrêt de défaut.</head>
                     <div type="summary">
                         <p>L’opposition ayant pour effet de remettre les parties en l’état où elles
@@ -1790,7 +1801,7 @@
                             Co c. Hoirs Abdel Maïak Akladîo?).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0230">
                     <head>224. - Préemption. — Conditions d’exercice. — Délai. — Revente par le
                         préempté. — Dommages-intérêts au préempteur. — — Quasi-délit.</head>
                     <div type="summary">
@@ -1977,7 +1988,7 @@
                             même jugement, et dirigé contre la Banque Impériale Ottomane.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0240">
                     <head>225. - Préemption. — Terrains ruraux. — Contiguïté.</head>
                     <div type="summary">
                         <p>Il est de jurisprudence, en matière de préemption, que la loi en exigeant
@@ -1995,7 +2006,7 @@
                         <p>Note. — V. ds. ce sens arrêt du 2 Janvier 1902, Bull., XIV, 70.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0250">
                     <head>226. - Requête civile. — Limites de sa demande. — Affirmations et actes
                         dolosifs.</head>
                     <div type="summary">
@@ -2064,7 +2075,7 @@
                             experts en 1914.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0260">
                     <head>227. - Succession. — Curateur provisoire. — Héritiers testamentaires ou ab
                         intestat. — Expropriation. — Revendication. — Compétence mixte. — Tribunal
                         patriarcal. — Sujets ottomans. — Renonciation. — Accroissement.</head>
@@ -2383,7 +2394,7 @@
                             Vomva, et non pas à ses héritiers ab intestat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0270">
                     <head>228. - Transaction. — Interprétation de la lettre et de l’esprit. —
                         Renonciation.</head>
                     <div type="summary">
@@ -2414,15 +2425,15 @@
                             généra-« lement quelconques, qu’ils ont pu ou auraient « puactuellement
                             exercer en justice, pourquelque « cause et quelque raison que ce soit,
                             recon-« naissant qu’à la date de ce jour tous rapports &lt; entre elles
-                            se trouvent définitivement liquidés « et réglés >; qu’il est difficile
-                            de formuler une renonciation générale d’une manière plus nette et plus
-                            énergique et qu’il est impossible d’admettre qu’en présence de pareille
-                            renonciation, l’une ou l’autre des parties qui ont figuré à l’acte de
-                            transaction pourrait encore soulever, contre l’un des co-contractants,
-                            une réclamation quelconque.</p>
+                            se trouvent définitivement liquidés « et réglés &gt;; qu’il est
+                            difficile de formuler une renonciation générale d’une manière plus nette
+                            et plus énergique et qu’il est impossible d’admettre qu’en présence de
+                            pareille renonciation, l’une ou l’autre des parties qui ont figuré à
+                            l’acte de transaction pourrait encore soulever, contre l’un des
+                            co-contractants, une réclamation quelconque.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0280">
                     <head>229. - Transporteur. — Responsabilité. — Force majeure. — Vol.</head>
                     <div type="summary">
                         <p>Ne constitue pas un cas de force majeure dégageant le transporteur de la
@@ -2520,7 +2531,7 @@
                             quoi l’intimée s’est opposée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-05-0290">
                     <head>230. - Usure. — Ordre public. — Preuve. — Présomption.</head>
                     <div type="summary">
                         <p>L’usure étant contraire à l’ordre public, peut être soulevée en tout état

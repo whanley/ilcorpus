@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0028-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0028-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1938-09-10">September 10, 1938</date><lb/>
-                    <biblScope unit="volume">Vol. 28</biblScope><lb/>
-                    <biblScope unit="number">No. 335</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1938-09-10">September 10, 1938</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 28</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 335</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -48,11 +59,11 @@
                 <p>an k amii m</p>
                 <p>D'ÉGYPTE REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte. Fondateurs
-                    i M* MAXIME PÜPIKOFEB et LEON PANGALO, Avocats à la Cour. Directeur : M> MAXIME
-                    PUPIKOPEB, Avocat à la Cour.</p>
+                    i M* MAXIME PÜPIKOFEB et LEON PANGALO, Avocats à la Cour. Directeur : M&gt;
+                    MAXIME PUPIKOPEB, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d'administration :</p>
                 <p>M- L. PABGALO et R. 8CHEMEIL {Directeurs au Caire)</p>
-                <p>M" E. DEGTARDÉ et LUCIEN" BARDA (Secrétaires de la rédaction>.</p>
+                <p>M" E. DEGTARDÉ et LUCIEN" BARDA (Secrétaires de la rédaction&gt;.</p>
                 <p>M- A. FADE! (Directeur à Mansourah). M. F. BRAUN , (Oo oniants à Paris,</p>
                 <p>Mo G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT ’</p>
                 <p>ABONNEMENTS :</p>
@@ -252,7 +263,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0010">
                     <head>251. - Cassation. ■— Décisions contre lesquelles le pourvoi peut être
                         formé; pourvoi formé contre une décision rejetant des exceptions avec renvoi
                         pour rexamen du fond; caractère prématuré; irrecevabilité.</head>
@@ -309,7 +320,7 @@
                             aux poursuites; ce qui n’est pas le cas en l’espèce,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0020">
                     <head>252. - Cassation. — Irrégularité de procédure; inexistence en cas de refus
                         parle tribunal d'ordonner une descente sur les lieux; défaut de violation du
                         droit de défense. — Lois No. 48 et No. 80 de 193&amp; réglementant le
@@ -374,7 +385,7 @@
                             la loi a été violée (C. C. 27 Avril 1910, Bull. XXII, p. 284).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0030">
                     <head>253. - Cassation. ■— Irrégularité de procédure; mention dans un exploit
                         d'avenir à plaider en appel d'un des chefs pour lesquels l'inculpé a été
                         acquitté; cas où il ne constitue pas une irrégularité entraînant cassation.
@@ -468,7 +479,7 @@
                             pourvoi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0040">
                     <head>254. - Cassation. ■— Opposition; irrecevabilité en cas de défaillance du
                         pourvoyant dont le défenseur n'a déposé aucun mandat. — Nullités
                         substantielles; témoins; moyen tiré du défaut d'interrogation d'un témoin à
@@ -489,7 +500,7 @@
                             Laid Sebak et Ct c. Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0050">
                     <head>255. - Cassation. — Pourvoi basé sur le défaut de motifs suffisants; cas
                         d'admissibilité.</head>
                     <div type="summary">
@@ -546,7 +557,7 @@
                             second.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0060">
                     <head>256. - Cassation. — Pourvoi basé sur le défaut de motifs suffisants; cas
                         d'admissibilité; jugement prononçant une condamnation pour occupation d'un
                         passage public, sur la base d'un procès-verbal de contravention ne portant
@@ -590,7 +601,7 @@
                             composé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0070">
                     <head>257. - Cassation. — Pourvoi basé sur le défaut de motifs suffisants; cas
                         d'un jugement motivé sur les termes d'un procès-verbal de contravention,
                         lui-même insuffisant. •— Cassation; pouvoir de contrôle; qualité de
@@ -666,7 +677,7 @@
                             l’article 153, paragraphe 3 du Code d’instruction Criminelle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0080">
                     <head>258. - Cassation. — Pourvoi basé sur le défaut de motifs suffisants;
                         défaut de motifs sur des contradictions entre témoins, ne donnant pas lieu à
                         cassation; contradiction entre les témoignages et le procès-verbal de
@@ -746,7 +757,7 @@
                         <p>II. - V. ég- ci-après § 292 l’arrêt du 8 Janvier 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0090">
                     <head>259. - Cassation. — Pourvoi basé sur le défaut de motifs suffisants;
                         défaut de motifs sur des dépositions contraires aux constatations du
                         procès-verbal de contravention, entraînant cassation.</head>
@@ -792,7 +803,7 @@
                             et 287 les deux arrêts du 22 Juin 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0100">
                     <head>260. - Cassation. —- Pourvoi basé sur le défaut de motifs suffisants;
                         erreur du tribunal' sur le moyen principal de la défense, comportant
                         omission de statuer. — Jugement de condamnation; motifs; forme substantielle
@@ -842,7 +853,7 @@
                     </div>
                 </div>
                 <pb n="254" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0110">
                     <head>261. - Cassation. — Pourvoi basé sur une omission de statuer; demande
                         tendant à une mesure d'instruction; cas où le tribunal en a implicitement
                         reconnu l'inutilité.</head>
@@ -858,7 +869,7 @@
                             Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0120">
                     <head>262. - Cassation. — Pourvoi; délai; recevabilité. — Etablissements
                         publics; cassation; question de fait. •— Cassation; rejet de pourvoi formé
                         antérieurement au 15 Octobre 1937; amende; disposition applicable.</head>
@@ -907,7 +918,7 @@
                             nouveau Code Pénal mis en vigueur à partir de la même date).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0130">
                     <head>263. - Cassation. — Pourvoi formé contre un jugement de contravention
                         susceptible d'appel; irrecevabilité.</head>
                     <div type="summary">
@@ -941,7 +952,7 @@
                         <p>Note. — V. ég. ci-après § 264 l’arrêt du 20 Décembre 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0140">
                     <head>264. - Cassation.—Pourvoi formé contre un jugement susceptible d'appel,
                         mais passé en force’ de chose jugée; irrecevabilité.</head>
                     <div type="summary">
@@ -1001,7 +1012,7 @@
                         <p>II. - V. ég. ci-après § 267, les arrêts des 15 et 22 Novembre 1937. .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0150">
                     <head>265. - Cassation. ■— Pourvoi formé hors du délai légal; état de détention
                         du prévenu; cas où H constitue impossibilité de former le recours. ■—
                         Cassation; pourvoi formé contre un jugement prononçant l'irrecevabilité de
@@ -1148,7 +1159,7 @@
                             No. 89 de 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0160">
                     <head>266. - Cassation. — Pourvoi formé hors du délai légal; étal de détention
                         du prévenu, ne constituant pas une impossibilité de former son recours dans
                         le délai légal: art. 3 du Décret du 24 Mai 190t.</head>
@@ -1189,7 +1200,7 @@
                         <p>Note. — Rapp. cep. ci-avant § 265, l’arrêt du 29 Mai 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0170">
                     <head>267. - Cassation. — Pourvoi; rejet; amende; inapplicabilité, depuis
                         rentrée en vigueur du nouveau Code d'instruction Criminelle, aux condamnés à
                         des peines restrictives de la liberté.</head>
@@ -1247,7 +1258,7 @@
                             268, l’arrêt du 15 Novembre 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0180">
                     <head>268. - Cassation. — Pourvoi; renonciation; admissibilité à l'audience;
                         conséquences; défaut d'application de l'amende prévue par l'art. I5i C.
                         Inst. Crim. anc. en cas de renonciation faite sous l'empire du nouveau
@@ -1300,7 +1311,7 @@
                             arrêts des 15 et 22 Novembre 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0190">
                     <head>269. - Contravention. — Faillite; condamnation personnelle du syndic sur
                         poursuites en contravention contre le syndic èsqualilé.</head>
                     <div type="summary">
@@ -1344,7 +1355,7 @@
                         <p>Note. — Rapp. ci-après § 270, l’arrêt du 9 Décembre 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0200">
                     <head>270. - Contravention. — Faillite; contravention dressée contre le syndic
                         pour un acte du failli; occupation de la voie publique.</head>
                     <div type="summary">
@@ -1382,7 +1393,7 @@
                         <p>Note. — Rapp. ci-avant § 269, l’arrêt du 29 Avril 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0210">
                     <head>271. - Contravention. — Transaction; délai; point de départ.</head>
                     <div type="summary">
                         <p>Le paiement transactionnel prévu par l’art. 23 C. Inst. Cr. en matière de
@@ -1425,7 +1436,7 @@
                         <p>Qu’il échet donc de maintenir l’amende.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0220">
                     <head>272. - Infractions. ■— Unité; critérium; violences et injures à 1'occasion
                         d'une .opposition à une exécution; caractère de délit unique; poursuites
                         successives; inadmissibilité.</head>
@@ -1485,7 +1496,7 @@
                             poursuites...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0230">
                     <head>273. - Peine. ■— Cumul; réduction par le juge d'appel d'une peine
                         englobant plusieurs chefs d'accusation; admissibilité.</head>
                     <div type="summary">
@@ -1544,7 +1555,7 @@
                             d’en faire la répartition pour chaque chef séparément...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0240">
                     <head>274. - Preuve en matière pénale. — Chien policier; identification;
                         caractère de simple présomption.</head>
                     <div type="summary">
@@ -1656,7 +1667,7 @@
                             poursuite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0250">
                     <head>275. - Preuve en matière pénale. — Proeès-verbau.r de police: force
                         probante; limites..— Cassation; pourvoi base sur la nullité d'une, décision
                         retenant comme constant un fait non constaté par l'officier verbalisateur;
@@ -1743,7 +1754,7 @@
                             d’une-nullité substantielle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0260">
                     <head>276. - Preuve en matière pénale. — Procès-verbau.r de police; portée
                         relative. — Procédure pénale; information de la police; fouille non
                         autorisée par le Parquet; conséquences juridiques. •— Paris; Loi Xo. 10 de
@@ -2042,7 +2053,7 @@
                             illicite, au jug. de même date ci-dessus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0270">
                     <head>277. - Procédure pénale. — Application des règles de la procédure civile;
                         conditions et limites. — Jugements de défaut; péremption; inadmissibilité en
                         matière pénale. — Action civile; condamnation par défaut au profit de la
@@ -2132,7 +2143,7 @@
                             après clôture des débâts...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0280">
                     <head>278. - Procédure pénale. — Citation directe; conditions.</head>
                     <div type="summary">
                         <p>Pour l’introduction de toute affaire pénale à l’audience par citation
@@ -2207,7 +2218,7 @@
                             d’instruction Criminelle Mixte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0290">
                     <head>279. - Procédure pénale. ■— Citation directe; conditions; demande tardive
                         d'annulation; faculté d'appréciation du tribunal de jugement.</head>
                     <div type="summary">
@@ -2247,7 +2258,7 @@
                             point de savoir si ce renvoi peut, ou non, être accordé (art. 57)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0300">
                     <head>280. - Procédure pénale. ■— Connexité d'infractions; jonction. —
                         Cassation; nullités affectant la procédure et le. jugement. — Procédure
                         pénale; tenue d'audiences le Dimanche en continuation; admissibilité. — Vol;
@@ -2315,7 +2326,7 @@
                             le jugement lui-même est entaché de nullité...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0310">
                     <head>281. - Procédure pénale. — Droit, de défense; défenseurs d'office;
                         désignation d’un seul avocat à plusieurs inculpés de la même infraction;
                         admissibilité en principe. — Instruction; communication au défenseur de
@@ -2372,7 +2383,7 @@
                             est basé sur l’instruction orale faite à l’audience.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0320">
                     <head>282. - Procédure pénale. .— Droit de défense; droit à la parole;
                         renonciation du prévenu; défaut, de toute mention au procès-verbal
                         d'audience; cas où elle ne constitue pas une violation du droit de défense
@@ -2623,7 +2634,7 @@
                             privés de la pleine liberté de.développer leur défense au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0330">
                     <head>283. - Procédure pénale, i—Instruction à l'audience; lecture des
                         déclarations des témoins et de l’inculpé à l’information sommaire et à
                         l'instruction; cas où elle ne peut pas être donnée.</head>
@@ -2675,7 +2686,7 @@
                             demande...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0340">
                     <head>284. - Procédure pénale..— Instruction à l'audience; lecture des
                         déclarations écrites des témoins absents; admissibilité; moyen de pourvoi
                         tiré du fait que le tribunal a fait état des renseignements ainsi obtenus;
@@ -2726,11 +2737,11 @@
                         <p>Il y a donc lieu de rejeter le pourvoi.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>285. - Procédure pénale. >— Instruction à l'audience; oralité des débats;
-                        lecture par le syndic de son rapport; moyen de cassation tiré de l'atteinte
-                        portée au principe de l'oralité des débats; rejet. >— Jugement pénal;
-                        dispositif; indication des chefs d’inculpation écartés; caractère
+                <div type="case" xml:id="gtme-1938-09-0350">
+                    <head>285. - Procédure pénale. &gt;— Instruction à l'audience; oralité des
+                        débats; lecture par le syndic de son rapport; moyen de cassation tiré de
+                        l'atteinte portée au principe de l'oralité des débats; rejet. &gt;— Jugement
+                        pénal; dispositif; indication des chefs d’inculpation écartés; caractère
                         superflu.</head>
                     <div type="summary">
                         <p>I. - Le fait que, devant le Tribunal Correctionnel, en matière de
@@ -2807,10 +2818,10 @@
                             cet égard...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0360">
                     <head>286. - Procédure pénale..— Instruction à l'audience; réouverture des
-                        débats; conditions de régularité. >— Cassation; pourvoi basé sur le défaut
-                        de motifs suffisants; défaut, de motifs sur des contradictions entre
+                        débats; conditions de régularité. &gt;— Cassation; pourvoi basé sur le
+                        défaut de motifs suffisants; défaut, de motifs sur des contradictions entre
                         témoins, n entraînant pas cassation.</head>
                     <div type="summary">
                         <p>I. - Ne constitue pas une irrégularité donnant ouverture à cassation le
@@ -2887,7 +2898,7 @@
                             Décembre 1936, et ci-après § 287 un autre arrêt du 22 Juin 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0370">
                     <head>287. - Procédure pénale..— Irrégularités commises pendant l'instruction;
                         cas où elles sont demeurées sans influence sur l'instruction à l'audience.
                         -— Droit de défense; refus d'ordonner une mesure de preuve sollicitée,
@@ -2990,7 +3001,7 @@
                             1936, du 9 Décembre 1936 et un autre arrêt du 22 Juin 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0380">
                     <head>288. - Procédure pénale. .— Irrégularités commises pendant l'instruction;
                         faculté de les invoquer pour la première fois devant le tribunal du fond,
                         avant l’audition des témoins; cas où il y a lieu à cassation.</head>
@@ -3078,7 +3089,7 @@
                             correctionnelle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0390">
                     <head>289. - Procédure pénale. — Juge d'instruction; délégation de pouvoirs;
                         inadmissibilité en matière d'e.rpertise; délégation de pouvoirs du Juge
                         d'instruction au Parquet; inadmissibilité; nullité; caractère d'ordre
@@ -3206,7 +3217,7 @@
                             paraître nécessaires pour la manifestation de la vérité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0400">
                     <head>290. - Procedure pénale..— Jugements de condamnation; reproduction des
                         textes de la loi appliquée; cas de reproduction superfétatoire de textes
                         inapplicables aux faits retenus; cassation; inadmissibilité.</head>
@@ -3221,7 +3232,7 @@
                             Salamouni c. Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0410">
                     <head>291. - Procédure pénale. — Jugements de condamnation; reproduction des
                         textes de la loi appliquée; inobservation; effet; inapplicabilité de la
                         règle aux jugements d'appel confirmant la décision sur la base des mêmes
@@ -3436,7 +3447,7 @@
                             fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0420">
                     <head>292. - Procédure pénale. — Jugements par défaut; opposition; effets;
                         faculté pour le tribunal de prononcer une aggravation de la peine. — Peines;
                         aggravation sur opposition; défaut de motivation sur ce point, ne donnant
@@ -3541,7 +3552,7 @@
                         <p>Note. — III. - V. ég. ci-avant § 258 l’arrêt du 29 Avril 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0430">
                     <head>293. - Procédure pénale. — Jugements; prononcé; retard n'en traînant pas
                         nullité.</head>
                     <div type="summary">
@@ -3591,7 +3602,7 @@
                         <p>Note. — Os. le même sens, au sujet de l’art. 151 C. Inst. Gr. Ind.. arrêt
                             du 25 Janvier 1937 de la Cour de Cass. Nat.</p>
                         <p>Prés. S.E. Moustafa Mohamed pacha. Abdel Mooti Abou Kassem Mohamed c.
-                            Ministère Public >(Al Mohamat, Avril 1937).</p>
+                            Ministère Public &gt;(Al Mohamat, Avril 1937).</p>
                         <p>Le jugement rapporté porte confirmation d’un jug. Contrav. Caire, du 12
                             Juin 1937, en se référant aux développements d’un jug. d’appel également
                             rendu à la date du 27 Décembre 1937 en cause Edmond Levy et autres c.
@@ -3599,7 +3610,7 @@
                             les paris (ci-avant § 276).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0440">
                     <head>294. - Procédure pénale. ■— Jugements rendus sur incidents d'audience;
                         signification non obligatoire. — Jugements de condamnation; cassation;
                         pourvoi basé sur le défaut de motifs suffisants; cas
@@ -3654,7 +3665,7 @@
                             à rejeter...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0450">
                     <head>295. - Procédure pénale. — Tribunaux de jugement; condamnation pour un
                         fait relevant d'une juridiction inférieure; impossibilité de modifier la
                         prévention; poursuite pour délit de blessures par imprudence, n'impliquant
@@ -3723,7 +3734,7 @@
                             la faute constitutive de ce délit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-09-0460">
                     <head>296. - Sursis. — Demande postérieure à la condamnation;
                         irrecevabilité.</head>
                     <div type="summary">

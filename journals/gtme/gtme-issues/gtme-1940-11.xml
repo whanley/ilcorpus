@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0031-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0031-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1940-11-10">November 10, 1940</date><lb/>
-                    <biblScope unit="volume">Vol. 31</biblScope><lb/>
-                    <biblScope unit="number">No. 361</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1940-11-10">November 10, 1940</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 31</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 361</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -49,8 +60,8 @@
                 <p>« » iinmi n D'ÉGYPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte. Fondateurs
-                    > M« MAXIME PÜPIKOFEB et LÉON PAKGALO, Avocats à la Cour Directeur : M* MAXIME
-                    PUPIKOFEB, Avocat à la Cour.</p>
+                    &gt; M« MAXIME PÜPIKOFEB et LÉON PAKGALO, Avocats à la Cour Directeur : M*
+                    MAXIME PUPIKOFEB, Avocat à la Cour.</p>
                 <p>Somite de Rédaction et d'administration :</p>
                 <p>M- L. PANGALO et R. 8CHEMEIL (Directeur! au Caire) M" E. DEGIARDÉ et LUCIEN BARDA
                     (Secrétaires de la rédaction).</p>
@@ -658,7 +669,7 @@
             <pb n="8" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0010">
                     <head>1. - Gage immobilier. — Biens indivis; nullité du gage même en cas de
                         détention du créancier gagiste par suite d'un partage de jouissance ou de
                         mandat de gestion de la part des autres copropriétaires.</head>
@@ -736,7 +747,7 @@
                         <p>Il échet donc de rejeter l’appel et de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0020">
                     <head>2. - Gage immobilier. — Droit de rétention; dépossession du créancier par
                         son débiteur; droit de restitution. — Gage immobilier; fruits; loyers payés
                         par anticipation au propriétaire; cas où le locataire ne saurait en être
@@ -806,7 +817,7 @@
                             Février 1918r Bull. XXX, 240; 22 Novembre 1933, Bull. XLVI, 43)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0030">
                     <head>3. - Gage immobilier. — Droit de rétention; inadmissibilité d'exercice
                         en-cas de transcription du gage postérieure à des inscriptions
                         hypothécaires; droit du créancier gagiste limité à la production dans
@@ -894,7 +905,7 @@
                             immobilier dans les procédures d'adjudication et de distribution ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0040">
                     <head>4. - Gage immobilier. — Droit de rétention; inadmissibilité d'exercice en
                         cas de transcription du gage postérieure à l'affectation hypothécaire du
                         poursuivant; cas où le jugement d'adjudication a été rendu par le Tribunal
@@ -954,7 +965,7 @@
                             cédant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0050">
                     <head>5. - Gage immobilier. — Droit de rétention, ne conférant pas celui de
                         s'op-poset à l'expropriation des biens.</head>
                     <div type="summary">
@@ -967,7 +978,7 @@
                             Kaoui Abdel Kaoui Attia c. Vassilopoulo Frère &amp; C°.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0060">
                     <head>6. - Gage immobilier. — Droit de rétention; opposabilité à
                         l'adjudicataire; créancier gagiste devenu adjudicataire; distribution du
                         prix intégral d'adjudication; défaut de contredit par l'adjudicataire;
@@ -1126,7 +1137,7 @@
                             immobilier dans les procédures d'adjudication et de distribution ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0070">
                     <head>7. - Gage immobilier. — Droit de rétention; opposabilité à
                         l'adjudicataire; droit du créancier gagiste dépossédé; action en
                         réintégrande; justification de la possession. — Gage immobilier; fictivité;
@@ -1250,7 +1261,7 @@
                         <p>Note. — III. - v. ci-avant § 3, l’arrêt du 2 Janvier 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0080">
                     <head>8. - Hypothèque. — Action en paiement; cas où elle est recevable
                         nonobstant Vexistence d'un titre authentique exécutoire; diminution de
                         garanties du créancier hypothécaire ou privilégié; demande de jugement en
@@ -1393,7 +1404,7 @@
                             exécutoire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0090">
                     <head>9. - Hypothèque. — Affectation hypo thécaire; condition de validité; bonne
                         foi du créancier; nullité en cas de connaissance par le créancier de la
                         résolution possible de l'achat des biens par son débiteur. — Affectation
@@ -1521,7 +1532,7 @@
                         <p>1? environ en principal et accessoires, celles-ci, dûment autorisées,
                             prirent une affectation hypothécaire, sur les 63 feddans et fraction
                             litigieux, à la date susdite du 18 Mars 1931, et sub N° 625; 6.) que,
-                            par un acte authentique passé au Greffe du Tri-in->i de ce siège à la
+                            par un acte authentique passé au Greffe du Tri-in-&gt;i de ce siège à la
                             date du 7 Avril</p>
                         <p>1J31 sub N° 1096, Mohamed Mossaad Issa se reconnut débiteur de la Maison
                             C. Pé-icos &amp; Go. d’une somme de L.E. 874, et riînS-ltua en
@@ -1704,7 +1715,7 @@
                             du 1er Juin 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0100">
                     <head>10. - Hypothèque. — Affectation hypothécaire ou hypothèque conventionnelle
                         prise sur des biens acquis par acte non transcrit; nullité; défaut de
                         validation ultérieure par la transcription de l'achat du débiteur; droits
@@ -1932,7 +1943,7 @@
                             l’arrêt du 1er Juin 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0110">
                     <head>11. - Hypothèque. — Affectation hypothécaire prise avant le partage sur
                         des biens divis; conditions de validité; assimilation au cas d’inexactitudes
                         de désignation.</head>
@@ -2021,7 +2032,7 @@
                             désignation, paraît bien avoir confondu deux questions distinctes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0120">
                     <head>12. - Hypothèque. — Affectation hypothécaire prise contre le vendeur
                         postérieurement à la transcription de l'assignation de l'acheteur en
                         réalisation de là vente et antérieurement à la transcription du jugement
@@ -2180,7 +2191,7 @@
                             1940 et ci-après § 14, l’arrêt du 1er Juin 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0130">
                     <head>13. - Hypothèque. — Affectation hypothécaire; transcription au Tribunal
                         National; inopposabilité aux créanciers étrangers. — Contrat d'hypothèque;
                         stipulation de consignation des biens hypothéqués au créancier; effets;
@@ -2358,7 +2369,7 @@
                             relative à la collocation de la Banque Nationale de Grèce...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0140">
                     <head>14. - Hypothèque. — Constitution a non domino; inscription prise sur des
                         biens acquis par acte non transcrit; nullité radicale. — Expropriation; prix
                         d'adjudication; intérêts; point de départ; taux. — Distribution; contredit
@@ -2517,8 +2528,8 @@
                             constructions élevées et à élever;</p>
                         <p>4. ) Que, suivant acte authentique de prêt avec constitution
                             d’hypothèque, passé en date du 7 Juin 1928, N° 3564, entre la Dame
-                            ineodora Varvounis et les Sieurs Moha-> n t 'Rabmy et Gaber Farghali,
-                            inscrit hLn ,ln 1928’ N° 3313 Luire et 4067 Galiou-m! i . > Dame
+                            ineodora Varvounis et les Sieurs Moha-&gt; n t 'Rabmy et Gaber Farghali,
+                            inscrit hLn ,ln 1928’ N° 3313 Luire et 4067 Galiou-m! i . &gt; Dame
                             Varvounis prêta à Moha-meu Aiy Rahmy la somme de L.E. 1604 et cph C1 en
                             garant*e du remboursement de ceue somme avec ses intérêts et
                             accessoi-uJ\ypo hequa au P^fit de la dite Dame</p>
@@ -2566,8 +2577,8 @@
                             de L.E. 1758,260 mill., aux lieu et place de la Dame Marie Tano,
                             subrogée aux droits et actions du Sieur D. Georgiadis, et ensuite pour
                             la somme de L.E. 1604, inscription du 9 Juin 1928, N° 3313, Caire, et
-                            N-> 4067, Galioubieh, prise en vertu de l’acte authentique de prêt du 7
-                            Juin 1928, N° 3564, susmentionné; et, enfin, le Sieur Jéronimidis èsq.
+                            N-&gt; 4067, Galioubieh, prise en vertu de l’acte authentique de prêt du
+                            7 Juin 1928, N° 3564, susmentionné; et, enfin, le Sieur Jéronimidis èsq.
                             de syndic de la faillite Gaber Farghali, fut colloqué en dernier rang,
                             pour la somme de L.E. 5156,500 mill., inscription du 25 Mai 1927, N»
                             2937, Caire, et N° 3363, Galioubieh, prise en vertu de l’acte
@@ -2577,7 +2588,7 @@
                             éventuel, devant, d’ailleurs, revenir au Sieur Jéronimidis, èsq.;</p>
                         <p>Attendu que le Juge délégué, en colloquant la Dame Varvounis pour la
                             susdite créance de L.E. 1758,260 mill., au rang de son hypothèque du 8
-                            Novembre 1927, N° 5787, Caire, et N-> 6304, Galioubieh, immédiatement
+                            Novembre 1927, N° 5787, Caire, et N-&gt; 6304, Galioubieh, immédiatement
                             après la Société d’Heliopolis, n'a fait que faire droit à la demande
                             expresse que la dite Dame avait formulée suivant requête du 21 Mars
                             1934;</p>
@@ -2758,7 +2769,7 @@
                             et du 28 Mai 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0150">
                     <head>15. - Hypothèque. — Créancier hypothécaire non rempli sur le prix de
                         l'hypothèque; droit de production pour le solde dû dans la faillite du
                         débiteur ayant constitué l'hypothèque; production pour le titre intégral de
@@ -2818,7 +2829,7 @@
                             et la confirmation du jugement déféré s’impose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0160">
                     <head>16. - Hypothèque. — Extinction de la créance garantie; déclaration du
                         créancier hypothécaire à un créancier inscrit subséquent; droits en
                         découlant dans la distribution au profit de ce dernier. — Paiement;
@@ -2987,7 +2998,7 @@
                             infirmation complète du jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0170">
                     <head>17. - Hypothèque. — Indivisibilité; cas d'abus de droit par le créancier
                         de second ràng à hypothèque spéciale, à la suite d'une subrogation à
                         l’hypothèque générale; droits des débiteurs et tiers détenteurs lésés par un
@@ -3139,7 +3150,7 @@
                             1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0180">
                     <head>18. - Hypothèque. — Inscription; cession de rang; fictivité de la créance
                         garantie par l'inscription cédée; droits du cessionnaire de bonne
                         foi.</head>
@@ -3219,7 +3230,7 @@
                             cas de solution négative, la question de la bonne foi de celle-ci...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0190">
                     <head>19. - Hypothèque. — Inscription; erreur dans la désignation des biens
                         hypothéqués; rectification; cas où elle est, et cas où elle n'est pas
                         possible.</head>
@@ -3288,7 +3299,7 @@
                             rectification.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0200">
                     <head>20. - Hypothèque. — Inscription; erreurs dans l'attribution des numéros
                         d'ordre; cas où la rectification est opposable aux créanciers.</head>
                     <div type="summary">
@@ -3353,7 +3364,7 @@
                             laquelle, au surplus, aucune explication n’est fournie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0210">
                     <head>21. - Hypothèque. — Inscription postérieure à la transcription d'un
                         commandement immobilier contre le débiteur; nullité relative; conséquence. —
                         Echange; transcription postérieure à la transcription d'un commandement
@@ -3808,7 +3819,7 @@
                             chirographaire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0220">
                     <head>22. - Hypothèque. — Succession musulmane; hypothèque consentie par un
                         héritier sur des biens successoraux; condition de validité: — Succession
                         musulmane; créancier successoral hypothécaire ayant laissé s'opérer la
@@ -3943,7 +3954,7 @@
                             ci-avant § 10, l’arrêt du 28 Mai 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0230">
                     <head>23. - Hypothèques et privilèges. — Subrogation légale; condition.</head>
                     <div type="summary">
                         <p>La subrogation légale au profit du tiers qui a payé un.créancier ayant
@@ -3985,7 +3996,7 @@
                             "fond le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0240">
                     <head>24. - Privilèges. — Frais de récoltes et de semences; condition du
                         privilège spécial édicté par l’art. 727, 3° C. Civ. — Avances agricoles;
                         droit de préférence édicté par le Décret-loi N° 54 de 1929; inopposabilité
@@ -4094,7 +4105,7 @@
                         <p>Note. — I et II. - V. ég. ci-après § 25, l’arrêt du 20 Mai 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0250">
                     <head>25. - Privilèges. — Frais de récoltes et de semences; condition du
                         privilège spécial édicté par l'art. 727, 3° C. Civ. — Avances agricoles;
                         droit de préférence édicté par le Décret-loi N° 54 de 1929; inopposabilité
@@ -4112,7 +4123,7 @@
                             Egyptiens, procéder suivant les formes ordinaires d’exécution prévues
                             par la procédure mixte pour permettre la distribution du produit de la
                             vente entre les divers ayants droit et non vendre par la voie
-                            administrative prévue par le Décret-loi >N° 54 de 1929 qui, sous le
+                            administrative prévue par le Décret-loi &gt;N° 54 de 1929 qui, sous le
                             régime antérieur aux Accords de Montreux, était inopposable aux
                             étrangers.</p>
                         <p>En pareil cas, l’Administration doit être tenue responsable de tout le
@@ -4368,7 +4379,7 @@
                         <p>Note, — ni. - v. &lt;ég. ci-avant § 24, l’arrêt du 20 Juin 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0260">
                     <head>26. - Privilèges. — Honoraires d'avo-càt; condition de leur assimilation
                         aux frais de justice privilégiés; honoraires de syndic; privilège au titre
                         des frais de justice. — Privilège; frais de justice; droit de préférence sur
@@ -4766,7 +4777,7 @@
                         <p>IV. - V. ds. le même sens, ci-après § 27, l’arrêt du 15 Février 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0270">
                     <head>27. - Privilèges. — Privilèges généraux; privilèges spéciaux sur les meu-
                         \ blés; privilèges sur les immeubles; hy- î pothèques; concours entre les
                         divers I créanciers privilégiés et hypothécaires; I mode de règlement. —
@@ -5170,7 +5181,7 @@
                             justifiée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-11-0280">
                     <head>28. - Privilèges. —Salaires; rédacteur en chef et administrateur d'un
                         journal; non assimilation aux « commis et ouvriers » au sens de l'art. 727,
                         § 2 C: Civ.</head>
@@ -6005,7 +6016,7 @@
                 <p>Octobre » - Questions de statut personnel.</p>
                 <p>Novembre » - Donation. - Vente avec réserve de propriété. - Vente mobilière.</p>
                 <p>Décembre » • Wakf.</p>
-                <p>Janvier >938 • Société.</p>
+                <p>Janvier &gt;938 • Société.</p>
                 <p>Février » • Vente immobilière. - Préemption."</p>
                 <p>Mars » • Copropriété. - Echange. - Gage im-</p>
                 <p>mobilier. - Propriété immobilière. -Partagé.</p>
@@ -6013,7 +6024,7 @@
                 <p>Mai » - Assurances. - Paiement.</p>
                 <p>Juin »</p>
                 <p>Juillet</p>
-                <p>Août ></p>
+                <p>Août &gt;</p>
                 <p>Septembre »</p>
                 <p>Octobre »</p>
                 <p>Novembre »</p>
@@ -6044,7 +6055,7 @@
                 <p>• Questions de procédure (Séquestre).</p>
                 <p>- Administration.</p>
                 <p>Septembre » - Louage de services.- Louage d’industrie.</p>
-                <p>Octobre.. > - Responsabilité.</p>
+                <p>Octobre.. &gt; - Responsabilité.</p>
                 <p>Novembre » - Juridiction. Mixte.</p>
                 <p>Décembre » - Nationalité.</p>
                 <p>Janvier 19(0 • Questions de statut personnel.</p>

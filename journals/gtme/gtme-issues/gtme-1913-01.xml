@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0003-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0003-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1913-01-10">January 10, 1913</date><lb/>
-                    <biblScope unit="volume">Vol. 3</biblScope><lb/>
-                    <biblScope unit="number">No. 27</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1913-01-10">January 10, 1913</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 3</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 27</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -428,7 +439,7 @@
                     203 C. civ.); elles ne leur sont opposables que si elles ont date certaine
                     (antérieure à l’acte qui fait des tiers les successeurs particuliers de l’un des
                     contractants); et encore, en matière immobilière, la date certaine ne suffit pas
-                    vis-à-vis des tiers qui, eux, p >ur assurer leurs droits, ont eu recours aux
+                    vis-à-vis des tiers qui, eux, p &gt;ur assurer leurs droits, ont eu recours aux
                     formes légales: il faut la transcription. Or, peut on opposer à l’acheteur qui
                     acquiert d’un propriétaire (ou soi-disant tel) au bénéfice d’un titre transcrit
                     et qui transcrit lui-même, un quasi contrat judiciaire de son vendeur, qui n’est
@@ -1203,7 +1214,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0010">
                     <head>34. - Appel. — Jugement admettant le principe d'une condamnation. — Appel
                         non suspensif de la procédure.</head>
                     <div type="summary">
@@ -1221,7 +1232,7 @@
                             Mosseri fils et compagnie c. Albert Tilche esq. «t consorts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0020">
                     <head>35. - Arbitrage. — Rapport d’expert.— Sentence arbitrales. —
                         Délais.</head>
                     <div type="summary">
@@ -1246,7 +1257,7 @@
                             Anriy Moftah c. Alfzed Farag).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0030">
                     <head>36. - Biens domaniaux. — Loi de liquidation. — Prescription. — Domaine
                         Public.</head>
                     <div type="summary">
@@ -1264,7 +1275,7 @@
                             l’Etat c. Ibrahim Abdel Fallait et consorts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0040">
                     <head>37. - Cahier des charges. — Dépôt et dénonciation. — Créanciers
                         inscrits.</head>
                     <div type="summary">
@@ -1284,7 +1295,7 @@
                             1552, p. 664; N». 1561, p. 687-688.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0050">
                     <head>38. - Cassation. — Appel. — Dernier ressort.</head>
                     <div type="summary">
                         <p>Le recours en cassation n’est admissible que contre les décisions rendues
@@ -1297,7 +1308,7 @@
                             Sahed El Alfi c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0060">
                     <head>39. - Cession. — Gages et salaires. — Quotité cessible et
                         saisissable.</head>
                     <div type="summary">
@@ -1317,7 +1328,7 @@
                             25 mars 1896 (Bull. VIH, p. 71).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0070">
                     <head>40. - Compétence ratione loci. — Compagnie d’Assurances. — Clause
                         dérogatoire de compétence.</head>
                     <div type="summary">
@@ -1348,7 +1359,7 @@
                             Tewfik et consorts c. Compagnie « La Providentia »)•</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0080">
                     <head>41. - Démolition. — Locataires. — Dommages subis. — Indemnité malgré
                         sommation préalable de déguerpir. — Faillite du débiteur.</head>
                     <div type="summary">
@@ -1371,7 +1382,7 @@
                             c. Costî Patérakis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0090">
                     <head>42. - Dire- — Avenir. — Délai. — Défaut faute de conclure.</head>
                     <div type="summary">
                         <p>I. Est valable en matière de dire, l’exploit d’avenir qui n’a pas observé
@@ -1431,7 +1442,7 @@
                             législation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0100">
                     <head>43. - Duel. — Médecin. — Honoraires.</head>
                     <div type="summary">
                         <p>Si, dans les pays où le duel constitue un délit, les témoins du duelliste
@@ -1453,7 +1464,7 @@
                             c. Guérin de la Chère).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0110">
                     <head>44. - Effet de Commerce perdu. — i Remplacement du titre. — Existence de !
                         l’obligation. — Charge de la preuve.</head>
                     <div type="summary">
@@ -1475,7 +1486,7 @@
                             Setton c. A. Choremi et J. RodocanachiJ.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0120">
                     <head>45. - Faillite. — Nationalité. — Preuve. — Livres de commerce.</head>
                     <div type="summary">
                         <p>Quand une demande en faillite est exercée par un créancier contre un
@@ -1493,7 +1504,7 @@
                             d’Orient c. Jacques D. Riso).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0130">
                     <head>46. - Faillite. — Ouverture de crédit.</head>
                     <div type="summary">
                         <p>L’existence d’un contrat d’ouverture de crédit pendant une durée et pour
@@ -1511,7 +1522,7 @@
                             A. Sachs c Mahmoud Mohamed Cliet.i et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0140">
                     <head>47. - Faux incident. — Saisie. — Inscription de faux contre un document
                         exibé à un huissier.</head>
                     <div type="summary">
@@ -1529,7 +1540,7 @@
                             Youssef Ibr. Wohda c. Abdel Meguid Aly ! -Abdallah). i</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0150">
                     <head>48. - Gage. — Immeuble. — Loyers perçus par le créancier gagiste en sus
                         des intérêts légaux.</head>
                     <div type="summary">
@@ -1558,7 +1569,7 @@
                             l’art. 663 C. Civ.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0160">
                     <head>49. - Hypothèque. — Etendue de la garantie. — Commandement
                         immobilier.</head>
                     <div type="summary">
@@ -1590,7 +1601,7 @@
                             hypothéqués.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0170">
                     <head>50. - Interdiction. — Sentence du Mégiis El Hasby. — Publicité. —
                         Tiers.</head>
                     <div type="summary">
@@ -1646,7 +1657,7 @@
                             Khalif El Mali os c. Elie Green).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0180">
                     <head>51. - Jugement. — Matière commerciale. — Appel non suspensif.</head>
                     <div type="summary">
                         <p>Le jugement qui ordonne une prestation de serment est un jugement
@@ -1665,7 +1676,7 @@
                     </div>
                 </div>
                 <pb n="44" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0190">
                     <head>52. - Musulmans. — Revendication mobilière par l'épouse du
                         débiteur.</head>
                     <div type="summary">
@@ -1748,7 +1759,7 @@
                         <p>2°) Le dog-cai t et la buffiesse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0200">
                     <head>53. - Opérations de Bourse. — Titre au porteur. — Report. — Droits et
                         obligations du reporteur.</head>
                     <div type="summary">
@@ -1766,7 +1777,7 @@
                             Djellal c. Banque du Caire en liq.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0210">
                     <head>54. - Préemption. — Inaction du préempteur. — Responsabilité. —
                         Péremption.</head>
                     <div type="summary">
@@ -1787,7 +1798,7 @@
                             c. Mohamed Mohamed bey El Chérit).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0220">
                     <head>55. - Préemption. — Prescription de six mois. — Computation des délais. —
                         Jours fériés.</head>
                     <div type="summary">
@@ -1850,7 +1861,7 @@
                             celui-ci avait consulté les registres de transcription.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0230">
                     <head>56. - Renvoi non intempestif. — Services ( Durée des). — Ouvrier à la
                         journée.</head>
                     <div type="summary">
@@ -1880,7 +1891,7 @@
                             voir.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0240">
                     <head>57. - Requête Civile. ~ Admissibilité. — jugements en dernier ressort par
                         exniration des délais.</head>
                     <div type="summary">
@@ -1900,7 +1911,7 @@
                             Canir c. Joseph Rofé).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0250">
                     <head>58. - Revendication. — Revente. - -Acquéreur. — Jugement opposable.</head>
                     <div type="summary">
                         <p>Est opposable à l’acquéreur, en sa qualité d’ayant-cause, tout ce qui a
@@ -1917,7 +1928,7 @@
                             particuliers en cas d’acquisition en cours d’instance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0260">
                     <head>59. - Revendication mobilière. — Enrôlement de la copie de /’ exploit. —
                         Production de l'original. — Irrecevabilité.</head>
                     <div type="summary">
@@ -1944,7 +1955,7 @@
                             légitimerait l’irrecevabilité?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0270">
                     <head>60. Revendication mobilière. — Intervention. — Recevabilité. — Instance en
                         validation de saisie-conservatoire.</head>
                     <div type="summary">
@@ -1959,7 +1970,7 @@
                             Samarina c. Metwalli Aly Hassan et consorts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0280">
                     <head>61. - Saisie-contrefaçon. — Constat.</head>
                     <div type="summary">
                         <p>La saisie-contrefaçon est admise en droit mixte comme un moyen d’assurer
@@ -2017,7 +2028,7 @@
                             questions au nom-de ses plus prochaines réformes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0290">
                     <head>62. - Saisie immobilière. — Acte authentique d’ouveiture de crédit. —
                         Versements. — Décompte présenté par le créancier. — Insuffisance..</head>
                     <div type="summary">
@@ -2039,7 +2050,7 @@
                             notes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0300">
                     <head>63. - Servitude de Non-Aedifi-candi. — Trouble. — Action
                         Possessoire.</head>
                     <div type="summary">
@@ -2059,7 +2070,7 @@
                             J. S. Yabès.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0310">
                     <head>64. - Statut personnel. — Juridiction mixte. — Conflit de Juridictions. —
                         Qualité héréditaire. — Cession. — Transaction. — Chose jugée. —
                         Testament.</head>
@@ -2316,7 +2327,7 @@
                             elle se trouve basée sur les principes juridiques les plus sains.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0320">
                     <head>65. - Stellage. — Prime. — Conventions. — Usage.</head>
                     <div type="summary">
                         <p>Le preneur d’un stellage ne peut pas demander l’exécution du contrat
@@ -2332,7 +2343,7 @@
                             Sasson &amp; Co. c. Gustave Brach &amp; Co.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0330">
                     <head>66. - Téléphone. — Service suspendu. — Trouble possessaire. — Droits de
                         l’abonné. — Numéro.</head>
                     <div type="summary">
@@ -2430,7 +2441,7 @@
                             commerce sans le nom, soit enfin par une simple sous location ;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0340">
                     <head>67. - Tiers détenteur. — Nullités. — Appel. — Irrecevabilité.</head>
                     <div type="summary">
                         <p>Le tiers détenteur qui après avoir soulevé des moyens de nullité dans son
@@ -2446,7 +2457,7 @@
                             Mohamed Pacha Yakan c. Djîzmedjian frères).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0350">
                     <head>68. - Transcription. — Jugements résolutifs d’un acte translatif de
                         propriété. — Acte de partage. —■ Tiers. — Créanciers hypothécaires. .</head>
                     <div type="summary">
@@ -2470,7 +2481,7 @@
                             Hoirs Lazare Gabriel Da Corogna et Consorts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0360">
                     <head>69. - Usure. — Actes authentiques. — Serment.</head>
                     <div type="summary">
                         <p>Doit être rejeté le serment litisdécisoire tendant à prouver qu’une
@@ -2484,7 +2495,7 @@
                             c. Georges et Hyp. Mylones).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0370">
                     <head>70. - Vente. — Eviction. — Rétention du prix.</head>
                     <div type="summary">
                         <p>Les articles 411 et 412 C. Civ. ne permettent à l’acheteur troublé ou en
@@ -2499,7 +2510,7 @@
                             Padovani et cons. c. cons. Serafini et Gouvernement Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0380">
                     <head>71. - Vente. — Paiement du prix. — Ac'ion en diminution du prix. —
                         Exception. — Prescription annale.</head>
                     <div type="summary">
@@ -2518,7 +2529,7 @@
                             esq. dame Zenab El Bissi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-01-0390">
                     <head>72. — Wakf. — Nazir particulier. — Bénéficiaire. — Œuvres pies. — Contrôle
                         du nazir. — Administration des Wakfs.</head>
                     <div type="summary">
@@ -3089,8 +3100,8 @@
                     celui des immeubles, qui a la plus grande valeur.</p>
                 <p>Art. 47. — Dans les baux à loyer ou à fer-, me, la taxe sera de % % sur le prix
                     accumulé des années de loyer ou de fermage, avec un maximum de dix annuités.</p>
-                <p>Dans les cessions de ces baux, le dit droit de >4 % sera dû sur le prix accumulé
-                    des années de loyer ou de fermage encore en cours.</p>
+                <p>Dans les cessions de ces baux, le dit droit de &gt;4 % sera dû sur le prix
+                    accumulé des années de loyer ou de fermage encore en cours.</p>
                 <p>Lorsque le bail est à vie ou à durée illimitée, moyennant une redevance annuelle
                     ou autrement stipulée, le droit proportionnel de y% sera perçu sur le montant de
                     dix annuités de la redevance.</p>
@@ -3251,7 +3262,7 @@
                 <p>F Silbermann, sujet roumain, ci-devant domic. à Alexandrie, rue de l’église
                     Maronite, immeuble Monferrato, actuel, de domic. inconnu. Jug. décl. 2.12.12,
                     cess. p. 17 6.12. Syndic prov. L. Méguerditchian, syndic déf. 17.12.12 à 11 h.
-                    et y> a.m. (Voir faillites clôturées).</p>
+                    et y&gt; a.m. (Voir faillites clôturées).</p>
                 <p>Mohamed Chehata, Mahmoud Mohamed Chehata et Mohamed Mohamed Chehata el Kontargui
                     el Saghir, tous trois sujets locaux, domic. à Métoubez. Jug. décl. 9 12.12, cess
                     p</p>
@@ -3427,7 +3438,7 @@
                 <p>Monstapha Mahmoud Badan (syndic Hanna Samarn). Vérif. cr. 11.1.13, à 3 h. p
                     ni.</p>
                 <p>Aly Bey Rahmy (syndic Tabet). Verif. et conc. 18.2.13, à 9 h. a.m.</p>
-                <p>Abdel Salam Bey Chita tsyndic Tabet). Vérif et conc. 28.1.1 >, à 9 h. a.m.</p>
+                <p>Abdel Salam Bey Chita tsyndic Tabet). Vérif et conc. 28.1.1 &gt;, à 9 h. a.m.</p>
                 <p>Vita de Botton (syndic Hanna Samaan). Vérif. et conc. 11.1.13 à 3 h. % p.m.</p>
                 <p>Mahmoud El Guindi et Ahmed El Messiri (syndic Tabet). Vérif. et conc. 11.1.13, à
                     4 h. p.m</p>
@@ -3799,8 +3810,8 @@
                     Passif: 18 créanciers p. P.T. 81000. Situation actuelle: Passif P.T. 81000;
                     Actif P.T. 7500 Banq. simple. Vérif. créances le 13.1.13.</p>
                 <p>Mohamed Aly El Hindi (syndic Demanget). Rapp. du 16.12.12. Situation: Actif marc
-                    h. inventoriées P.T >7450. Passif P.T. 177960 Banq. simple. Vérif. créances le
-                    13.1.13.</p>
+                    h. inventoriées P.T &gt;7450. Passif P.T. 177960 Banq. simple. Vérif. créances
+                    le 13.1.13.</p>
                 <p>Constantin Métaxas (syndic Papasian). Rapp. 16.12.12: D'après le procès-verbal
                     d’inventaire de juin 1911, l’actif du journal Phos était évalué à P.T. 9325
                     Actuell. le failli aurait cédé la propriété du Journal au nommé Politis Les
@@ -4189,7 +4200,7 @@
                     Soc. composée de M. Guttmann, I Harari et M. Mesidag. Celui-ci prend tout
                     l’actif et passif et continuera pour son compte les affaires. (Transcr. sub. 18
                     et 14 XXXV111 A.-J.).</p>
-                <p>Société Russo>Egyptienne. Par acte du</p>
+                <p>Société Russo&gt;Egyptienne. Par acte du</p>
                 <p>17.10.12 diss. de la Soc. prénommée (Transcr. sub. 7 XXXVIII A.-J.).</p>
                 <p>fl. Msrsili et Cie. Par acte ssp. du 15 Août 1912 const. d’une soc en nom collée,
                     entre A Marsili et Dîne. E. Rieti p. 1 an à partir du</p>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0021-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0021-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1931-09-10">September 10, 1931</date><lb/>
-                    <biblScope unit="volume">Vol. 21</biblScope><lb/>
-                    <biblScope unit="number">No. 251</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1931-09-10">September 10, 1931</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 21</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 251</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -167,8 +178,8 @@
                     Nature et effets (Extrait de la Revue film, de droit civ., 1905 et. 1906) p. 56
                     et suiv.; Baudry-Lacantinerie et L. Barde, Des obligations, Ille édit., T. I,
                     No. 178; R. Demogue, Traité', des obligations en général, t. I, p. 12, No. 6 ;
-                    et t. II, No. 504; Planiol, t. II, 5e édit. No. > 1236; Colin et Capitant, t. 2.
-                    4e édit., p. 333; ; P. Dupuich, toc. cit. No. 113; L. Maurel, loc.-.7 cit. p.
+                    et t. II, No. 504; Planiol, t. II, 5e édit. No. &gt; 1236; Colin et Capitant, t.
+                    2. 4e édit., p. 333; ; P. Dupuich, toc. cit. No. 113; L. Maurel, loc.-.7 cit. p.
                     256.</p>
                 <pb n="370" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                 <p>de valider maints actes juridiques faits en leur faveur.</p>
@@ -370,7 +381,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0010">
                     <head>409. - Expertise (*). — Expert; récusation; cause survenant après la
                         nomination, de l'expert; délai pour l'introduction de la. demande. —
                         Bécusation d'expert ou de témoin; existence d'un procès relatif aux intérêts
@@ -450,7 +461,7 @@
                             Novembre 1928.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0020">
                     <head>410. - Ex[ærtise. — Honoraires d'expert; éléments de détermination; retard
                         dans le règlement; cas où la taxe doit être majorée des intérêts.</head>
                     <div type="summary">
@@ -517,7 +528,7 @@
                             de la taxe à partir du 26 Février 1920.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0030">
                     <head>411. - Expertise. — Honoraires d'expert; frais; dépenses à prendre en
                         considération pour l'évaluation des honoraires.. — Opposition à taxe;
                         inadmissibilité de l'e- ' xqmen de la question de la solidarité entre les
@@ -563,7 +574,7 @@
                             fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0040">
                     <head>412. - Expertise. — Honoraires d'expert; opposition à taxe; contestation
                         par l'opposant du mérite du rapport de l'expert; sursis jusqu'au vidé de
                         l'instance principale.</head>
@@ -629,7 +640,7 @@
                             les experts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0050">
                     <head>413. - Expertise. — Honoraires d'expert; recouvrement contre la partie qui
                         a poursuivi une expertise ordonnée d'office; principe; limites.</head>
                     <div type="summary">
@@ -726,7 +737,7 @@
                             demandée non par eux, mais par leurs adversaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0060">
                     <head>414. - Expertise. — Honoraires d’expert; recouvrement contre la partie qui
                         a requis l'expertise; solidarité entre les parties tenues au paiement des
                         honoraires; honoraires relatifs à un supplément d'expertise convenu entre
@@ -798,7 +809,7 @@
                             premiers juges, de confirmer tout simplement le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0070">
                     <head>415. - Séquestre. — Biens communs; gérance conventionnellement attribuée à
                         un colocataire; mise sous séquestre- demandée par l'autre locataire;
                         inadmissibilité; Juge des Référés; incompétence.</head>
@@ -830,7 +841,7 @@
                             dont il s’agit en la possession exclusive de l’intimé, à la condition
                             que ce dernier procède à leur, sous-location par "voie d’enchères, dans
                             un délai de 4 mois à‘partir'.du 27 . Janvier 1930, après annonces . .
-                            dans les journaux: et avis donné,audit appelant; ' ■ •></p>
+                            dans les journaux: et avis donné,audit appelant; ' ■ •&gt;</p>
                         <p>• Attendu que ce dernier prétend que G alliai ne sc serait pas conformé
                             aux conditions à lui imposées par la convention sus-rappelée; mais que
                             ces allégations sont contredites par les pièces au dossier;</p>
@@ -852,7 +863,7 @@
                             sur . Une telle contestation. .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0080">
                     <head>416. . - Séquestre. Biens, détenus par un liquidateur de société;
                         admissibilité de la mise sous, séquestre. — Société; mandat de liquidateur;
                         caractère juridique. — Demande de. mise sous séquestre; nécessité d'une
@@ -874,7 +885,7 @@
                     </div>
                     <div type="litigants">
                         <p>Cour d’Àppél/ Ire Chi, Prés. M, B. Favenc, 25 Juin VU.'. — cMoïse
-                            Pontremolî’ èt. autre 0. John DanzoU et.''Autre)*. ’ '. ' ' _ > -</p>
+                            Pontremolî’ èt. autre 0. John DanzoU et.''Autre)*. ’ '. ' ' _ &gt; -</p>
                     </div>
                     <div type="observations">
                         <p>L’arrêt expose:</p>
@@ -939,7 +950,7 @@
                             circonstances.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0090">
                     <head>417. - Séquestre. — Biens grevés d'un privilège de vendeur; mise sous
                         séquestre; droits du créancier privilégié; limités.</head>
                     <div type="summary">
@@ -951,10 +962,10 @@
                     <div type="litigants">
                         <p>(Cour d’Àppel, Ire Ch.» Prés. M. K Favenc. 18 Mars. 1931. Dame Neimat
                             Hanem Erfane èsq. c. S.A. le Prince Mohamed Abbas Pacha Halim et
-                            Cts.)></p>
+                            Cts.)&gt;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0100">
                     <head>418. - Séquestre. — Biens indivis; impossibilité de la mise sous séquestre
                         d'une part indivise à défaut de partage de jouissance. ■■— Appel tendant à
                         limiter l'étendue des terrains sous séquestration; impossibilité d'infirmer
@@ -1086,7 +1097,7 @@
                             quant à la répartition de la jouissance des dits biens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0110">
                     <head>419. - Séquestre. — Biens indivis; instance en partage pendante;
                         contestations entre copropriétaires; opportunité de la mesure de mise sous
                         séquestre. — Appel; demande tendant à assurer l'exécution du jugement
@@ -1203,7 +1214,7 @@
                             pour la liquidation de leurs droits dans les susdites successions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0120">
                     <head>420. - Séquestre. — Biens indivis; instance en partage pendante; défaut
                         d'accord contre copropriétaires sur la gestion des biens; opportunité de la
                         mesure de mise sous séquestre; cas où le séquestre peut être autorisé à
@@ -1248,7 +1259,7 @@
                             appartenant dans les terrains.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0130">
                     <head>421. - Séquestre. — Biens loués; limites des droits du séquestre;
                         pluralité de séquestres; étendue de leurs pouvoirs. •— Recours en garantie
                         formulé pour la première fois en appel; irrecevabilité.</head>
@@ -1361,7 +1372,7 @@
                         <p>Que l’appel est donc irrecevable même à l'égard de ces derniers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0140">
                     <head>422. - Séquestre. — Biens wakfs; contes-testations entre les créanciers
                         des bénéficiaires sur l'attribution des revenus du wakf; opportunité de la
                         mesure de séquestre. — Biens wakfs; revenus constitués en antichrèse.</head>
@@ -1429,7 +1440,7 @@
                             déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0150">
                     <head>423. - Séquestre. — Biens wakfs; débiteur nazir et bénéficiaire;
                         admissibilité de la mise sous séquestre; conditions-</head>
                     <div type="summary">
@@ -1450,7 +1461,7 @@
                             23 Avril 1925.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0160">
                     <head>424. - Séquestre. — Biens wakfs; débiteur nazir et bénéficiaire;
                         admissibilité de la mise sous séquestre; conditions; cas de locations des
                         biens wakfs.</head>
@@ -1471,7 +1482,7 @@
                         <p>1930, et Gaz, XV, 181-298, l’arrêt du 23 Avril 1925.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0170">
                     <head>425. - Séquestre. — Biens wakfs; débiteur nazie et bénéficiaire;
                         admissibilité de la mise sous séquestre; conditions. —Demande de mise sous
                         séquestre pour le paiement d'une créance; inadmissibilité. — Droit de
@@ -1560,7 +1571,7 @@
                             est appel...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0180">
                     <head>426. - Séquestre. — Biens wakfs; débiteur nazir et bénéficiaire: maintien,
                         de la mesure de séquestration après que le nazir et bénéficiaire, a cessé
                         d'être .débiteur en cas d'existence d'un autre bénéficiaire débiteur, et de
@@ -1609,7 +1620,7 @@
                             intéressés d’aucune charge nouvelle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0190">
                     <head>427. - Séquestre. — Biens wakfs; pluralité de nqzirs; saisie-arrêt à
                         l'encontre de l'un d'eux; portée; nécessité de la mise du wakf sous
                         séquestre.</head>
@@ -1658,7 +1669,7 @@
                         <p>Qu’il y a donc lieu de confirmer la décision déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0200">
                     <head>428. - Séquestre. — Choses litigieuses; mise sous séquestre; appréciation,
                         du Tribunal; éléments dont il y a lieu de. tenir compte. — Juge des Référés;
                         questions de fond échappant à sa compétence; cas. où le juge du fond a été
@@ -1735,7 +1746,7 @@
                             à leur gestion des biens successoraux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0210">
                     <head>429. - Séquestre. — Choses litigieuses; mise sous séquestre; appréciation
                         du Tribunal; Juge des Référés; compétence. — Propriété commerciale; graines
                         de cotons; variété obtenue à la suite de. sélections spéciales; droit du
@@ -1868,7 +1879,7 @@
                         <p>Qu’il y a lieu en conséquence d’infirmer l’ordonnance déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0220">
                     <head>430. - Séquestre. — Choses litigieuses; mise sous séquestre; appréciation
                         du Tribunal; juge du fond déjà saisi; limites des pouvoirs du Juge des
                         Référés. — Conclusions reconventionnelles du détenteur des biens dont la
@@ -1937,7 +1948,7 @@
                             abstenu de statuer en ce qui les concerne.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0230">
                     <head>431. - Séquestre.— Choses litigieuses; mise sous séquestre; éléments dont
                         il y a lieu de tenir compte/ conservation du bien litigieux; terrains, à
                         bâtir; cas où le risque d'aliénation est exclu. — Créances du débiteur; mise
@@ -2021,7 +2032,7 @@
                             séquestre de la dite Société ne saurait être ordonnée en l’état.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0240">
                     <head>432. - Séquestre. — Choses litigieuses; mise sous séquestre; juge du fond
                         défit saisi; limites des pouvoirs du Juge. des. Déférés; nécessité de péril
                         en la demeure.</head>
@@ -2064,7 +2075,7 @@
                             créance.éventuelle, soit celle des loyers des dits immeubles.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0250">
                     <head>433. --Séquestre. — Choses litigieuses non susceptibles de conservation;
                         nécessité d'ordonner la vente en Référé; principe non applicable à une
                         récolte de coton.</head>
@@ -2131,7 +2142,7 @@
                             opportun.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0260">
                     <head>434. - Séquestre. — Choses litigieuses; revendication de biens
                         successoraux, par ùn héritier; compétence du Juge des Référés pour ordonner
                         la mise sous s.é qu.es? Ire.</head>
@@ -2182,7 +2193,7 @@
                             Justice dans l’intérêt de tous les héritiers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0270">
                     <head>435. - Séquestre. — Comptes de gestion; taxe inutile; réclamation et
                         débattement par action principale; discussion en siège de contredit en cas
                         de production, à une. distribution. — Honoraires; détermination; frais à
@@ -2535,7 +2546,7 @@
                             général ne s’en trouvant cependant, et naturellement, point changé;</p>
                         <p>Que c’est ainsi notamment que, dans son tableau, elle indique sous la
                             rubrique: « appointements personnel siège social et local, mécanicien,
-                            gardien >,, la somme de L.E. 382, 466 mill. tandis que, par la
+                            gardien &gt;,, la somme de L.E. 382, 466 mill. tandis que, par la
                             décomposition de son compte, Ton trouve: pour le personnel du siège
                             social, la somme de L.E. 91,116 mill. pour le personnel local, celle de
                             L.E. 215,860 mill. pour le jardinier et un certain Abdalla Aly,
@@ -3625,7 +3636,7 @@
                             susdite quote-part de machine...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0280">
                     <head>436. - Séquestre. — Demande de mise, sous séquestre d'immeuldes faisant
                         l'objet, en vertu d'un concordat amiable, d'un mandat de vendre par le
                         débiteur au créancier; inadmissibilité.</head>
@@ -3680,7 +3691,7 @@
                             déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0290">
                     <head>437. - Séquestre. — Demande de mise sous séquestre pour le paiement d'une
                         créance; inadmissibilité.</head>
                     <div type="summary">
@@ -3736,7 +3747,7 @@
                             ordinaires que la loi met à la disposition de tout créancier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0300">
                     <head>438. - Séquestre. — Etablissement de prêts sur gage; nomination du gérant
                         en qualité de séquestre; adjonction d'un coséquestre.</head>
                     <div type="summary">
@@ -3787,7 +3798,7 @@
                             mis sous séquestre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0310">
                     <head>439. - Séquestre. — Expropriation im-mobïlière; demande de mise sous
                         séquestre formée antérieurement à la transcription de la saisie;
                         recevabilité; principe; admissibilité en cas d'urgence. —Séquestre; biens
@@ -3879,7 +3890,7 @@
                             bornera à encaisser sans frais les loyers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0320">
                     <head>440. - Séquestre. ■— Expropriation immobilière; demande de mise sons
                         séquestre formée par le débiteur saisi; inadmissibilité. — Biens loués:
                         droits des créanciers après la. transcription de la saisie immobilière;
@@ -3994,7 +4005,7 @@
                         <p>saisi, celui-ci ■demeure,' aux' termes dé l’article 625, comptable comme
                             séquestre judiciaire des loyers par lui ainsi reçus, dans la mesure en
                             laquelle ces loyers-se trouvaient avoir été immobilisés en vertu de
-                            l’article 623; - - ></p>
+                            l’article 623; - - &gt;</p>
                         <p>Qu’enfm, aux termes de l’article 622, si le bien saisi n’est ni loué ni
                             affermé, le saisi en restera en possession jusqu’à la vente, à moins
                             que, sur la demande d’un ou de plusieurs créanciers, le Juge des Référés
@@ -4127,7 +4138,7 @@
                         <p>Que la demande actuelle doit donc être écartée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0330">
                     <head>441. - -Séquestre. — Expropriation immobilière; demande de nomination de
                         séquestre en remplacement du débiteur; nécessité du défaut de location des
                         biens. — Biens loués; admissibilité de la mise sous séquestre en cas de mise
@@ -4199,7 +4210,7 @@
                             est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0340">
                     <head>442. - Séquestre. — Expropriation, immobilière; demande tendant à la
                         nomination du créancier, comme séquestre en remplacement du débiteur;
                         conditions d'admissibilité.</head>
@@ -4259,7 +4270,7 @@
                             sa gestion.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0350">
                     <head>443. - Séquestre. — Fonds de commerce; exploitation en société; conflit
                         entre associés; décès de l'associé propriétaire du fonds; choix du
                         séquestre.</head>
@@ -4301,7 +4312,7 @@
                             contrôler leur gestion.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0360">
                     <head>444. - Séquestre. — Fonds de commerce; mise sous séquestre; droit de
                         propriété non établi; inadmissibilité; mise sous séquestre de marchandises
                         en consignation; admissibilité.</head>
@@ -4336,7 +4347,7 @@
                             l’appelante prétend avoir été acauis de ses deniers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0370">
                     <head>445. - Séquestre. — Gestion; documents nécessaires à la gestion d'un
                         séquestre, faisant l'obiet d'un droit de gage o.u de rétention en faveur
                         d'un tiers; obligation de les remettre au séquestre; conséquences.</head>
@@ -4385,7 +4396,7 @@
                             attaquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0380">
                     <head>446. - Séquestre. — Mise sous séquestre sollicitée par le vendeur; acte de
                         vente stipulant le droit pour le vendeur de solliciter cette mesure en cas
                         de retard dans le paiement d'un terme; appréciation du Juge des Référés;
@@ -4433,7 +4444,7 @@
                             rejeté la demande des Hoirs, pour défaut d’urgence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0390">
                     <head>447. - Séquestre. — Nomination du copropriétaire en qualité de séquestre à
                         titre gratuit de récoltes saisies contre son copropriétaire par
                         indivis.</head>
@@ -4487,7 +4498,7 @@
                             du coton par lui saisi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0400">
                     <head>448. - Séquestre. — Ordonnance du Juge des Référés mixte rétractant, une
                         précé-. dente ordonnance de nomination de séquestre sur une demande en
                         continuation d'exécution du jugement indigène ayant nommé un autre séquestre
@@ -4559,7 +4570,7 @@
                             par un séquestre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0410">
                     <head>449. - Séquestre. — Pouvoirs; limites; cession comportant un abandon de
                         fermages; nullité.</head>
                     <div type="summary">
@@ -4595,7 +4606,7 @@
                             abandon d’une partie des fermages et que-.par. conséquent, la.convention
                             du 1er Août 4925 doit’ être annulée; -</p>
                         <p>'Attendu qûe’c’est.h.vee.'raison que-le’s-'premiers jugés; ont.fàit’droit
-                            à’ cette demande, le séquestre. 'n’'étànt>"qu’.ün âdniinîsfrMçK
+                            à’ cette demande, le séquestre. 'n’'étànt&gt;"qu’.ün âdniinîsfrMçK
                             prb-vîsèiVe ’nPyant' pouvoir que&lt;:dd :flùfei'-dês jac-tês*
                             d’admî»i'stra'tipnr;-(dtït:;h fait' provisbirés:; que c’est'ainsi
                             q’tf’dn néRm'-'rècdhnà'itTe droit</p>
@@ -4630,7 +4641,7 @@
                             fermages arriérés aient été recouvrés par la suite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0420">
                     <head>450. - .Séquestre. — Provision nécessaire à Vaccomplissement de sa
                         mission; compétence du Juge des Référés pour autoriser des avances et
                         ordonner leur remboursement; étendue et limites; droit éventuel de la partie
@@ -4710,7 +4721,7 @@
                             '</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0430">
                     <head>451. - Séquestre. — Qualité de propriétaire du de locataire; contestation;
                         mise sous séquestre des biens litigieux en cas de nbn transcription de
                         l'acte de propriétéi</head>
@@ -4761,7 +4772,7 @@
                             jusqu’au vidé de la contestation au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0440">
                     <head>452. - .Séquestre. — Reddition de comptes; tableaux de loyers dressés par
                         un séquestre; nécessité d'un compte de gestion détaillé.</head>
                     <div type="summary">
@@ -4774,7 +4785,7 @@
                             Fattah Aly El Maghraby c. Umberto Lucchesi èsq. et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0450">
                     <head>453. - Séquestre. — responsabilité; retard dans raccomplissemenL de la
                         mission du séquestre; approbation des intéressés. — Jugement interlocutoire
                         confirmé en appel; impossibilité d'évoquer le fond.</head>
@@ -4866,7 +4877,7 @@
                             premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0460">
                     <head>454. - Séquestre. — Société dissoute; conflit entre l'associé survivant et
                         les héritiers de l'associé prédécédé; admissibilité de la mise sous
                         séquestre. — Référé; incompétence du Juge des Référés pour statuer sur les
@@ -4938,7 +4949,7 @@
                             de les comprendre dans la mesure de la séquestration.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0470">
                     <head>455. - Séquestre. — Succession; séquestre nommé par la Juridiction
                         indigène; Juge des Déférés mixte saisi d'une demande d'extension de cette
                         mesure; pouvoirs. — Portée des décisions des Juridictions indigènes devant
@@ -5032,7 +5043,7 @@
                             ’</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-09-0480">
                     <head>456. - Séquestre. — Taxe; éléments d'appréciation.</head>
                     <div type="summary">
                         <p>Les efforts humains prodigués en vue d’une direction ou d’une gestion, en
@@ -5329,10 +5340,10 @@
                     zone Nord du Delta visée par la Loi No. 20 de 1931, pendant l’année agricole
                     1931-1932, plus du quart des terres dont elle a, à quelque titre que ce soit, la
                     détention.</p>
-                <p>Dans le calcul de la superficie, il ne sera tenu compte ni des terres &lt;> bours
-                    » cultivables ou non, ni des terres assimilées aux terres « bours », en tant
-                    qu’impropres à la culture du coton. Le Ministre de l’Agriculture déterminera
-                    souverainement par arrêté les conditions de cette assimilation.</p>
+                <p>Dans le calcul de la superficie, il ne sera tenu compte ni des terres &lt;&gt;
+                    bours » cultivables ou non, ni des terres assimilées aux terres « bours », en
+                    tant qu’impropres à la culture du coton. Le Ministre de l’Agriculture
+                    déterminera souverainement par arrêté les conditions de cette assimilation.</p>
                 <p>Pour les terres situées dans les bassins (hods), le quart permis sera calculé en
                     base des seules terres déjà aménagées pour la culture du coton. Le Ministre de
                     l’Agriculture déterminera souverainement les règles d’après lesquelles les

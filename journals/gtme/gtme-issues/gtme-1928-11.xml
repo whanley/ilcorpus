@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0019-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0019-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1928-11-10">November 10, 1928</date><lb/>
-                    <biblScope unit="volume">Vol. 19</biblScope><lb/>
-                    <biblScope unit="number">No. 217</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1928-11-10">November 10, 1928</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 19</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 217</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -61,7 +72,7 @@
                 <p>— à la Gazette (un an).... P.T. 150</p>
                 <p>— au Journal ;</p>
                 <p>— Un an........... » 150</p>
-                <p>— Six mois............ > 86</p>
+                <p>— Six mois............ &gt; 86</p>
                 <p>— Trois mois........ » 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an)........ » 250</p>
@@ -617,7 +628,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-11-0010">
                     <head>1. - Guerre. — Egypte; Traité de St. Germain; sujets de l'ancien Empire
                         austro-hongrois; Bill d'indemnité du 5 Juillet 1923; force
                         obligatoire.</head>
@@ -745,8 +756,8 @@
                         <p>c) Il échet d’observer au surplus que, même indépendamment de la
                             forclusion édictée par le Traité de St. Germain, une forclusion non
                             moins péremptoire frappe la demande des Consorts Leban aux termes de
-                            l’Indemnity Bill du 5 Juillet 1923. a-> ant déclaré non recevable devant
-                            toute juridiction égyptienne toute demande ou action introduite à
+                            l’Indemnity Bill du 5 Juillet 1923. a-&gt; ant déclaré non recevable
+                            devant toute juridiction égyptienne toute demande ou action introduite à
                             l’effet d’attaquer tout acte prescrit ou accompli par l’Autorité
                             militaire en vertu de la loi martiale. Il est vrai que les Consorts
                             Leban contestent la valeur obligatoire du Bill, car, ayant été promulgué
@@ -799,7 +810,7 @@
                             écarter purement et simplement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-11-0020">
                     <head>2. - Nationalité égyptienne. — Changement; nécessité d'une autorisation du
                         Gouvernement Egyptien; sujet local d'origine ottomane; naturalisation
                         étrangère; inopérance; Loi ottomane du 19 Janvier 1869; Loi égyptienne du 26
@@ -900,7 +911,7 @@
                             échet partant d’infirmer le jugement déféré sans en aborder le fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-11-0030">
                     <head>3. - Nationalité hellénique. — Accord gréco-égyptien du 28 Mai 1903;
                         portée. — Juridiction mixte; jugements sur la nationalité; portée; cas de
                         conflit diplomatique; chose jugée.</head>
@@ -1118,7 +1129,7 @@
                             l’autorité de la chose jugée à son encontre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-11-0040">
                     <head>4. - Piitriarcats. — Compétence en matière successorale et testamentaire;
                         pouvoirs iuridiclionnels en matière de statut personnel; conditions;
                         incompétence en cas de contestation par un intéressé de religion ou de
@@ -1354,7 +1365,7 @@
                             prétendue donation est par conséquent nulle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-11-0050">
                     <head>5. - Patriarcats. -— Tribunaux patriarcaux; pouvoir juridictionnel pendant
                         la vacance du siège patriarcal. — Juridiction mixte; pouvoir d'examen de la
                         régularité des décisions rendues par les juridictions du statut
@@ -1451,7 +1462,7 @@
                             est irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-11-0060">
                     <head>6. - Russes. — Litiges mobiliers entre eux; juridiction compétente pour en
                         connaître. — Juridiction mixte; incompétence dans les affaires non
                         immobilières entre russes. —Juridiction indigène; caractère de juridiction
@@ -1528,7 +1539,7 @@
                             saisi du présent litige.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-11-0070">
                     <head>7. - Russes. — Statut personnel; juridictions compétentes pour en
                         connaître en Egypte; Mehkémeh Charieh; compétence en matière de statut
                         personnel entre Russes. — Juridiction mixte; incompétence dans les affaires
@@ -1652,7 +1663,7 @@
                             Charieh le condamnant à payer une pension à la Demoiselle Sanglard.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-11-0080">
                     <head>8. - Russes. — Statut personnel; lois applicables en Egype; successions
                         russes; statut les régissant. — Juridiction mixte; compétence en matière
                         successorale; limites.</head>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1927-04-10">April 10, 1927</date><lb/>
-                    <biblScope unit="volume">Vol. 17</biblScope><lb/>
-                    <biblScope unit="number">No. 198</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1927-04-10">April 10, 1927</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 17</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 198</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -50,7 +61,7 @@
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
                 <p>Fondateurs : M“ MAXIME PUPIKOFEB et LÉON PANGALO, Avocats à la Cour. Directeur:
-                    M> MAXIME PUPIKOFEB, Avocat à la Cour.</p>
+                    M&gt; MAXIME PUPIKOFEB, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’Hdministration :</p>
                 <p>M" L. PANGALO et B. BCHEMEIL (Directeurs au Caire).</p>
                 <p>M» E. DEGIABDÉ (Secrétaire de la rédaction). M» A. FADEL (Directeur à
@@ -257,7 +268,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0010">
                     <head>151. - Référé. — Compétence; bail contracté par un Gouvernement étranger;
                         caractère de contrat privé; constat urgent.</head>
                     <div type="summary">
@@ -277,7 +288,7 @@
                         <p>Note. — V. l’arrêt du 20 Novembre 1920, Bull. XXXIII. 25.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0020">
                     <head>152. - Référé. — Compétence; caractères l'établissant lorsqu’il s'agit de
                         mesure à prendre et lorsqu'il s'agit de mesure précédemment prise. —
                         Séquestre ordonné jusqu'au vidé définitif des litiges entre parties; portée
@@ -380,8 +391,8 @@
                             changé et le Juge des Référés ne pouvant rebus sic stantibus se déjuger
                             — il s’agirait non point de rapporter, mais de réformer l’ordonnance
                             attaquée;</p>
-                        <p>-ttendu qu’il s’ensuit que la Cour doit !>ien se poser la question de la
-                            compétence du Juge des Référés du Caire par rapport à la demande en
+                        <p>-ttendu qu’il s’ensuit que la Cour doit !&gt;ien se poser la question de
+                            la compétence du Juge des Référés du Caire par rapport à la demande en
                             mainlevée de la séquestration de Henri Sakakini, mais conformément aux
                             précédentes considérations, son examen doit porter exclusivement sur la
                             question de savoir s'il est véritablement survenu un changement
@@ -622,7 +633,7 @@
                             soulevée dans leurs conclusions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0030">
                     <head>153. - Référé. — Compétence; clause conférant compétence au Juge des
                         Référés pour ordonner la mise sous séquestré de biens hypothéqués;
                         application en cas d'urgence caractérisée seulement. — Préte-nom;
@@ -720,7 +731,7 @@
                             cessionnaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0040">
                     <head>154. - Référé. — Compétence; difficultés d'exécution d'un jugement
                         consulaire; cas où le juge du fond est saisi. — Juge des référés;
                         appréciation provisoire de la valeur apparente des titres des parties;
@@ -840,7 +851,7 @@
                             appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0050">
                     <head>155. - Référé. — Compétence; difficultés d'exécution; occupant justifiant
                         d'un titre d'apparence sérieuse; protection due.</head>
                     <div type="summary">
@@ -925,11 +936,11 @@
                             d’éléments paraissant sérieux, plaident en faveur de leur maintien sur
                             les lieux;</p>
                         <p>Attendu qu’il échet de condamner solidai-é rement aux frais les intimés
-                            qui ont participé à cette supercherie dont les -appelants >mt été
+                            qui ont participé à cette supercherie dont les -appelants &gt;mt été
                             victimes.. ;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0060">
                     <head>156. - Référé. — Compétence; mesure provisoire allant à l'encontre d'une
                         décision précédente ou requise nonobstant‘ une instance au fond; faits
                         nouveaux;; urgence et péril en la demeure.</head>
@@ -1004,7 +1015,7 @@
                             même demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0070">
                     <head>157. - Référé. — Compétence; occupant sans titre; demande d’expulsion;
                         prétention à la propriété soulevée par le défendeur; appréciation des titres
                         pour la constatation du caractère dilatoire de l'exception.</head>
@@ -1023,8 +1034,7 @@
                             Krieger c Dame Hamida Bent Hassan).</p>
                     </div>
                     <div type="observations">
-                        <p>Note. — Gomp. ci-après § 158 l’arrêt du 12 Janvier 1927. et la
-                            note.</p>
+                        <p>Note. — Gomp. ci-après § 158 l’arrêt du 12 Janvier 1927. et la note.</p>
                         <p>L’arrêt rapporté expose:</p>
                         <p>Au l’ordonnance du Juge des Référés du Tribunal du Caire rendue le 7 Mai
                             1926 qui a dit n’y avoir pas lieu à Référé;</p>
@@ -1090,7 +1100,7 @@
                             la décision déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0080">
                     <head>158. - Référé. — Compétence; occupant sans titre; demande d'expulsion;
                         prétention à la propriété soulevée par le défendeur; appréciation des titres
                         pour la constatation du caractère dilatoire de l’exception.</head>
@@ -1156,7 +1166,7 @@
                             d’ordonner son déguerpissement des lieux litigieux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0090">
                     <head>159. - Référé. — Compétence; opposition d'un prétendu héritier à la
                         délivrance de valeurs successorales; banque dépositaire; urgence;
                         notification n'équivalant pas à une saisie-arrel irrégulière.</head>
@@ -1239,7 +1249,7 @@
                             est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0100">
                     <head>160. - Référé. — Compétence ratione loci de la juridiction territoriale
                         appelée à connaître du fond. — Achat d'une marchandise non livrée à
                         l'acheteur; défaut d'urgence.</head>
@@ -1337,7 +1347,7 @@
                     </div>
                 </div>
                 <pb rendition="Gazette des Tribunaux Mixtes d’Eqypte. m"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0110">
                     <head>161. - Référé. — Compétence ratione Soci en cas de constatations et
                         vérifications à, faire hors du ressort du Tribunal compétent pour connaître
                         du litige au fond.</head>
@@ -1404,7 +1414,7 @@
                             il s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0120">
                     <head>162. - Référé. — Compétence; séquestration de biens litigieux; nécessité
                         d'une extrême urgence. — Juridiction Mixte; prête-nom; cas où il n'a pour
                         objet que de contrecarrer une procédure déjà entamée devant une autre
@@ -1461,7 +1471,7 @@
                         <p>elarant incompétent faute de pouvoir de ju- t</p>
                         <p>ridictioii, et disant, au surplus, et en tout C</p>
                         <p>cas, n'y avoir lieu à référé, en l’état, notam- i</p>
-                        <p>ment faute d’urgence; ></p>
+                        <p>ment faute d’urgence; &gt;</p>
                         <p>Attendu qu’il est constant que depuis la »</p>
                         <p>mort de Datez bey Moussa Mizar en 1911, ï</p>
                         <p>laissant parmi d’autres héritiers, sa sœur «</p>
@@ -1480,7 +1490,7 @@
                         <p>se serait désistée de ses droits en faveur de Ü</p>
                         <p>feu Moustapha Waly Mizar, acte argué de i</p>
                         <p>faux par la Dame Asma Mizar, et que les terrains en litige auraient été
-                            revendiqués « par le Gouvernement Egyptien; >j</p>
+                            revendiqués « par le Gouvernement Egyptien; &gt;j</p>
                         <p>Attendu qu’il est également constant que *</p>
                         <p>toutes les parties en cause, à part Panago- J</p>
                         <p>poulos, relèvent de la Juridiction indigène; F que cette juridiction a
@@ -1597,7 +1607,7 @@
                             lui.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0130">
                     <head>163. - Référé. — Contestations relatives à la délivrance des grosses;
                         conflit entre le titulaire réel d'un jugement et le prête-nom révoqué; droit
                         pour le mandant d'obtenir la grosse à l'exclusion du prête-nom
@@ -1702,7 +1712,7 @@
                             qu’à faire valoir son droit devant le juge du fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0140">
                     <head>164. - Référé. — Contrat de vente d'au-toinobllc, sous condition
                         suspensive; clause contractuelle prévoyant la vente par voie de Référé en
                         cas de non paiement du prix; compétence du juge des Référés pour ordonner la
@@ -1772,7 +1782,7 @@
                             justifient l’urgence et le péril en la demeure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0150">
                     <head>165. - Référé. — Demande de délivrance de seconde grosse d'une décision en
                         justice; incompétence à statuer sur une exception de prescription ou de
                         nullité de cette décision.</head>
@@ -1849,7 +1859,7 @@
                             frais de ta présente instance à la charge du premier demandeur...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0160">
                     <head>166. - Référé. — Difficulté d'exécution; appréciation provisoire des
                         titres des parties.</head>
                     <div type="summary">
@@ -1908,7 +1918,7 @@
                             s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0170">
                     <head>167. - Référé. — Difficulté d'exécution; appréciation provisoire des
                         titres des parties.</head>
                     <div type="summary">
@@ -1979,7 +1989,7 @@
                         <p>Qu’il y a donc lieu de confirmer l’ordonnance dont est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0180">
                     <head>168. - Référé. -— Difficulté d'exécution; appréciation provisoire des
                         titres des parties. — Décisions de justice déclarant une mutation simulée;
                         caractère déclaratif; transcription non nécessaire. — Vente simulée;
@@ -2095,7 +2105,7 @@
                             dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0190">
                     <head>169. - Râléré. — Difficulté d'exécution; cas où la continuation de
                         l’exécution sauvegarde les intérêts en litige.</head>
                     <div type="summary">
@@ -2165,7 +2175,7 @@
                             de l’exécution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0200">
                     <head>170. - Référé. — Difficulté d’exécution; depot à la Caisse non précédé
                         d'offres réelles ne pouvant donner lieu à propension de l'exécution par voie
                         de référé; art. 456 C. Proc.</head>
@@ -2180,8 +2190,8 @@
                             considérations d’équité pour ordonner la suspension de l’exécution.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d'ApPT^-. 2m7 Ch- Pré8' Jr- H- A. Vaux. 27 Mai 1925 — Hoirs de
-                            feu Georges Zervos c. Attia Soliman Michriki).</p>
+                        <p>(Cour d'ApPT^-. 2m7 Ch- Pré8' Jr- H- A. Vaux. 27 Mai 1925 — Hoirs de feu
+                            Georges Zervos c. Attia Soliman Michriki).</p>
                     </div>
                     <div type="observations">
                         <p>Note. — L’arrêt expose:</p>
@@ -2247,7 +2257,7 @@
                             appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0210">
                     <head>171. - Référé. — Difficulté d'exécution; titres incomplets; interprétation
                         impossible.</head>
                     <div type="summary">
@@ -2309,7 +2319,7 @@
                             parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0220">
                     <head>172. - Référé. — Loi No. 4 de 1926 sur le mélange du coton; contravention;
                         constatation rentrant dans' la compétence des Commissions spéciales;
                         constatations supplémentaires; compétence du Juge des Déférés pour les
@@ -2380,7 +2390,7 @@
                             le surplus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0230">
                     <head>173. - Référé. — Loi No. 4 de 1926 sur le mélange du coton; contravention;
                         constatation rentrant dans la compétence des Commissions spéciales;
                         constatations supplémentaires; incompétence du Juge des Déférés pour les
@@ -2543,7 +2553,7 @@
                             raisons plus haut développées, ne saurait être admissible.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0240">
                     <head>174. - Réîéré. — Saisie pratiquée arbitrairement; compétence pour la
                         déclarer inopérante.</head>
                     <div type="summary">
@@ -2591,7 +2601,7 @@
                             façon la plus formelle par l'appelant même.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0250">
                     <head>175. - Réîéré. — Saisie-arrêt autorisée par ordonnance du Juge de service;
                         demande de cantonnement; incompétence du Juge des Référés à en
                         connaître.</head>
@@ -2677,7 +2687,7 @@
                         <p>Qu’il y a lieu donc de nous déclarer incompétent sur ce chef.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0260">
                     <head>176. - Référé. — Saisie-arrêt pratiquée contre une succession; compétence
                         pour la déclarer inopérante sur les biens d'un tiers qualifié d'héritier;
                         cas où le Juge des Référés est incompétent, à raison des questions de fond à
@@ -2806,7 +2816,7 @@
                             qu’il a estimé pouvoir le faire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0270">
                     <head>177. - Référé. — Saisic-nrrét pratiquée en vertu d'une ordonnance
                         partiellement rétractée par jugement; incompétence du Juge des Référés pour
                         autoriser paiement des fonds saisis, lorsque le jugement a été frappé
@@ -2923,7 +2933,7 @@
                             montant à eux alloué par le jugement du 12 Février 1923.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0280">
                     <head>178. - Référé. — Saisie-arrêt pratiquée en vertu d'une ordonnance
                         rétractée; compétence pour la déclarer inopérante; incompétence lorsque
                         l'ordonnance de rétractation a été frappée de recours.</head>
@@ -3001,7 +3011,7 @@
                             est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0290">
                     <head>179. - Référé. •— Saisie-arrêt pratiquée ■sans litre; compétence pour la
                         déclarer inopérante.</head>
                     <div type="summary">
@@ -3054,7 +3064,7 @@
                             revêt un caractère dilatoire et vexatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0300">
                     <head>180. - Référé. — Saisie-arrêt■ pratiquée sans titre; compétence pour la
                         déclarer inopérante. — Juge de service; ordonnance de rétractation de
                         saisie-arrêt; exécution provisoire.</head>
@@ -3110,7 +3120,7 @@
                             intimés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0310">
                     <head>181. - Référé. — Saisie-arrêt pratiquée sans titre; compétence pour la
                         déclarer inopérante. — Juridiction Mixte; compétence pour valider ou annuler
                         une saisie-arrêt pratiquée en vertu d'un jugement consulaire revêtu d'une
@@ -3196,7 +3206,7 @@
                             justice pour devenir exécutoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0320">
                     <head>182. - Référé. — Saisie-arrêt pratiquée sans titre; compétence pour la
                         déclarer inopérante. — Ordonnance de Référé; Paiement des frais n'impliquant
                         pas acquiescement. — Saisie-arrêt; renoncia-d&lt;m à une saisie-arrêt
@@ -3283,7 +3293,7 @@
                             juridiques d'une situation qu’elle a créée elle-même.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0330">
                     <head>183. - Référé. — Saisie mobilière déjà achevée; incompétence pour en
                         prononcer la nullité. — Saisie mobilière pratiquée en vertu d'une ordonnance
                         déjà suivie d'une première saisie; incompétence des Juge des Référés pour la
@@ -3404,7 +3414,7 @@
                             soient actuellement en danger de périr ou d’être détériorées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0340">
                     <head>184. - Référé. — Saisie mobilière pratiquée en vertu d'une ordonnance du
                         Juge de Service; compétence à connaître des difficultés soulevées par les
                         tiers; saisie conservatoire; opposition formée par un séquestre.</head>
@@ -3473,7 +3483,7 @@
                             dont s’agit;</p>
                         <p>Vu les débats du 28 Octobre, sur l’opposition elle-même et en soi, et sur
                             la rétractation, la modification ou le maintien de Notre première
-                            ordonnance; ></p>
+                            ordonnance; &gt;</p>
                         <p>Vu les pièces et conclusions des parties;</p>
                         <p>Attendu que l’opposant se prétend donc en droit d’empêcher la
                             défenderesse de procéder à la saisie-revendication de la récolte dont
@@ -3543,7 +3553,7 @@
                             cours...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0350">
                     <head>185. - Référé. — Séquestre: litige sur h propriété; nécessité d'une
                         urgence incontestable.</head>
                     <div type="summary">
@@ -3622,7 +3632,7 @@
                             l’ordonnance attaquée..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0360">
                     <head>186. - Référé. — Séquestre; séquestration de biens non hypothéqués, à la
                         requête d'un créancier hypothécaire; cas où cette mesure est
                         justifiée.</head>
@@ -3675,7 +3685,7 @@
                     </div>
                 </div>
                 <pb n="124" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0370">
                     <head>187. - Référé. — Vente; marchandise litigieuse; demande d'expertise;
                         défaut d'urgence.</head>
                     <div type="summary">
@@ -3731,7 +3741,7 @@
                             se déprécier rapidement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0380">
                     <head>188. - Référé. — Vente; refus de réception par l'acheteur; incompétence du
                         Juge des Référés pour ordonner la vente ■d'obiets encombrants, mais non
                         périssables; défaut d'urgence.</head>
@@ -3783,7 +3793,7 @@
                             s’imposerait à raison de leur nature même.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0390">
                     <head>189. - Saisie-arrêt. — Conditions; nécessité d'une créance exigible. —
                         Saisic-*arrèf irrégulière; compétence du Juge des Référés et du Tribunal du
                         fond pour la déclarer inopérante.</head>
@@ -3854,7 +3864,7 @@
                             crédit aurait été sérieusement ébranlé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0400">
                     <head>190. - Saisie-arrèl. — Conditions requises par la loi pour la
                         saisie-arrêt; créancier porteur d'un titre exécutoire non liquide; créancier
                         porteur d'un titre privé et liquide; créancier porteur d'un titre privé non
@@ -3903,8 +3913,8 @@
                             diverses denrées alimentaires selon compte arrêté au 31 Mai 1926;</p>
                         <p>Vu les débats du 8 Décembre courant;</p>
                         <p>Attendu qu’aux débats l'opposant a déclaré ne s'être jamais fourni
-                            d'aucune marchandise chez le premier défendeur et même ’>c pas connaître
-                            du tout celui-ci;</p>
+                            d'aucune marchandise chez le premier défendeur et même ’&gt;c pas
+                            connaître du tout celui-ci;</p>
                         <p>Que, toutefois, cette allégation se trouve démentie par la lettre même
                             (non datée) que 1 opposant a adressée à l'avocat du premier défendeur,
                             après exécution de la susdite saisie-arrêt, et dans laquelle il
@@ -3914,7 +3924,7 @@
                             comme impossible le fait que le premier défendeur aurait Pu lui
                             consentir un crédit de près de Livres Egyptiennes 10; alors que lui,
                             l’opposant, ne serait" qu’un simple employé, ne 'gagnant Pas-au delà de
-                            L.E. 4 par mois; - • ></p>
+                            L.E. 4 par mois; - • &gt;</p>
                         <p>Que, cependant, dans- la même lettre l’opposant reconnaît bien que le
                             premier défendeur lui faisait crédit, puisqu’il prétend qu’il ne payait
                             que mois par mois, ce dont d’ailleurs il n’a même pas tenté do
@@ -3980,7 +3990,7 @@
                         <p>Que, donc, le pourvoi doit être rejeté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0410">
                     <head>191. - Saisie-arrêt. — Créance non liquide; liquidation par le Juge de
                         Service; limite de la faculté accordée à ce magistrat; cas où la créance est
                         suspecte.</head>
@@ -4041,7 +4051,7 @@
                             et que les sacs achetés par ce dernier en exécution de son mandat à P.T.
                             5 Je sac soit plus que le double du prix stipulé par le contrat
                             litigieux quelques mois -auparavant, lui auraient été fournis par
-                            l'appelante elle-même sous le couvert d’un j>rête-nom.</p>
+                            l'appelante elle-même sous le couvert d’un j&gt;rête-nom.</p>
                         <p>La Cour n’étant saisie que de la question ■relative à la validité des
                             saisies-arrêts pratiquées, ne saurait évidemment examiner au fond et
                             statuer sur les dites prétentions de JX'ellos A. Levi. Il Suffit de
@@ -4056,7 +4066,7 @@
                             l’art. 173 Code Procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0420">
                     <head>192. - Saisie-arrêt. — Juge de service; '•ordonnance; défaut de chose
                         jugée. — Juge de service compétent; double ou multiple compétences.</head>
                     <div type="summary">
@@ -4087,7 +4097,7 @@
                             c. E. Agouri et Vile).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0430">
                     <head>193. - Saisie-arrêt. — Juge de service; ■ordonnance de saisie
                         conservatoire; retours eu rétractation; recevabilité nonobstant une
                         assignation au fond. — Saisie-arrêt; liquidation de la créance par le Juge
@@ -4240,7 +4250,7 @@
                             contradictoires des parties et des précisions données à l’affaire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0440">
                     <head>191 - Saisie-arrêt. — Juge de service; ordonnance de saisie conservatoire;
                         recours en rétractation; recevabilité nonobstant une assignation au fond. —
                         Saisie-arrêt; liquidation de la créance par le Juge de service; caractère de
@@ -4448,7 +4458,7 @@
                         <p>Attendu donc, et en résumé, que le pourvoi doit être écarté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0450">
                     <head>195. - Saisie-arrêt. — Juge de service; ordonnance de saisie
                         conservatoire; recours; Tribunal compétent pour en connaître; cas où le
                         recours n'est pas formé accessoirement à l'instance principale. —
@@ -4542,14 +4552,14 @@
                             ce Tribunal doit se déclarer incompétent pour en connaître.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0460">
                     <head>196. - Saisie-arrêt. — Juge de service; recours contre ses ordonnances;
                         cas où le Tribunal Sommaire est compétent à en connaître.</head>
                     <div type="summary">
                         <p>Le Tribunal de Justice Sommaire est compétent à statuer sur les recours
                             formés contre les ordonnances du Président du Tribunal ou du'Juge de
                             Service</p>
-                        <pb n=">1.29" rendition="Gazette (,les Tiâbunfiux,.Mixtes d’Eijyjyte."/>
+                        <pb n="&gt;1.29" rendition="Gazette (,les Tiâbunfiux,.Mixtes d’Eijyjyte."/>
                         <p>dans le cas où il est compétent pour connaître de l’instance en
                             validation de la saisie.:</p>
                     </div>
@@ -4584,7 +4594,7 @@
                             compétent à connaître de la demande en validation...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0470">
                     <head>197. - Saisie-arrêt. — Prescription; effets; point de départ. — Tiers
                         saisi; transfert de ses droits et obligations à un tiers, sans le
                         consentement du saisissant. — Dépôt irrégulier; critérium de ce contrat. —
@@ -4931,7 +4941,7 @@
                             Raison Sociale.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0480">
                     <head>198. - Saisie-arrêt. — Signification effectuée au lieu de la résidence
                         habituelle du tiers saisi; validité. — Tiers saisi; déclaration;
                         circonstances n'établissant Pas son caractère inexact et dolosif.</head>
@@ -5017,7 +5027,7 @@
                             fondés en leur action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0490">
                     <head>199. - Saisie-arrêt. — Sommes déposées au Greffe; paiement par le
                         Greffier; titre à produire par le propriétaire des fonds déposés.</head>
                     <div type="summary">
@@ -5136,7 +5146,7 @@
                             tendant au déboutement en l’état de la Dame Curiel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0500">
                     <head>200. - Saisie-arrêt. — Tiers saisi; déclaration non accompagnée de pièces
                         justificatives; production tardive des pièces; conséquences. — Dol;
                         appréciation; paiement au débiteur saisi; conséquence. — Saisie-arrêt;
@@ -5248,7 +5258,7 @@
                             présent arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0510">
                     <head>201. - Saisie-arrêt. — Tiers saisi; déclaration tardive et inexacte;
                         réticences et omissions dolosives.</head>
                     <div type="summary">
@@ -5363,7 +5373,7 @@
                             Comninos ou de qui pour eux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0520">
                     <head>202. - Saisie-arrêt. — Titre exécutoire; validation de la saisie inutile:
                         action en validation recevable lorsque la validité de la saisie-arrêt est
                         contestée. — .Juridiction mixte; compétence à statuer sur l'action en
@@ -5470,7 +5480,7 @@
                             somme y déposée par Casati et Yaish...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-04-0530">
                     <head>203. - Saisie mobilière. — Vente; dépôt dit produit de l'exécution à la
                         Caisse des fonds Judiciaires; droit exclusif du poursuivant et des
                         créanciers opposants; saisies-arrêts notifiées au Greffier en ■Chef

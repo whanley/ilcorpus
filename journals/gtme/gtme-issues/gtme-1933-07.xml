@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0023-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0023-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1933-07-10">July 10, 1933</date><lb/>
-                    <biblScope unit="volume">Vol. 23</biblScope><lb/>
-                    <biblScope unit="number">No. 273</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1933-07-10">July 10, 1933</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 23</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 273</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -424,7 +435,7 @@
             <pb n="312" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0010">
                     <head>300. - Association en participation. — Caractéristiques; conditions
                         d'existence. — Faillite; dépôt de bilan fait spontanément par un commerçant;
                         preuve de la cessation des paiements; cas où le dépôt de bilan opéré par
@@ -534,7 +545,7 @@
                             Dweck de requérir sa faillite le cas échéant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0020">
                     <head>301. - Association en participation. —-Caractéristiques; conditions
                         d'existence; responsabilité du seul associé qui a traité; action en
                         responsabilité contre l'as* socié occulte; mesure et conditions.</head>
@@ -616,7 +627,7 @@
                         <p>Qu’il y a lieu dès lors de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0030">
                     <head>302. - Association en participation. — Défaut de personnalité morale;
                         inexistence à l'égard des tiers; compétence en cas de litige avec un tiers;
                         détermination par la nationalité de l'associé contractant. — Association en
@@ -704,7 +715,7 @@
                         <p>Note. — II. - Rapp. cep. ci-après § 303 l’arrêt du 20 Mai 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0040">
                     <head>303. - Association en participation. ■— Droit d'intervention de l'associé
                         en. participation dans les débats entre le participant et un tiers; intérêt
                         mixte; compétence des Tribunaux mixtes; conditions.</head>
@@ -789,7 +800,7 @@
                         <p>Qu’il y a lieu dès lors d’infirmer la décision déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0050">
                     <head>304. - Sociétés de personnes. — Dissolution avant terme; responsabilité de
                         l'un des assoeiés; étendue; cas où il n'y a pas lieu de tenir compte de la
                         valeur de la clientèle.</head>
@@ -835,7 +846,7 @@
                         <p>Que ce chef de la demande de Coronis apparaît donc comme mal fondé...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0060">
                     <head>305. - Sociétés de personnes. — Dissolution.; effets; survivance de la
                         personnalité morale; règles concernant l'incessibilité des parts d'intérêt;
                         période d'application; faculté pour les associés de substituer un tiers dans
@@ -883,7 +894,7 @@
                         </p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d'Appel- lre C(>., Prés. M. B. Favenc, 2S-u r8.l932'j~.P S-
+                        <p>Cour d'Appel- lre C(&gt;., Prés. M. B. Favenc, 2S-u r8.l932'j~.P S-
                             Pharaon et-Fils c. Mohamed bey Ahmed Abboud.</p>
                     </div>
                     <div type="decision">
@@ -1005,7 +1016,7 @@
                             l’autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0070">
                     <head>306. - Sociétés de personnes. — Emprunts contractés par un associé non
                         autorisé à cet effet; défaut de responsabilité de lu société.</head>
                     <div type="summary">
@@ -1020,7 +1031,7 @@
                             Clémentine Sanua et autre c. Youssef Hanna et autre èsn. et èsq.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0080">
                     <head>307. - Sociétés de personnes. — Gérant; actes engageant la société;
                         conditions. — Effets de commerce; aval donné par le gérant d'une société;
                         tiers porteur de bonne foi; obligation de la société envers ce dernier; cas
@@ -1128,7 +1139,7 @@
                             Homsy bien fondé en son action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0090">
                     <head>308. - Sociétés &lt;Ie. personnes. — Publicité légale; inobservation;
                         sanction; changement ou retrait d'associé en nom; publication; tardivité;
                         solidarité de l'asso-cié retiré; publication d'une circulaire ne pouvant
@@ -1220,7 +1231,7 @@
                             l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0100">
                     <head>309. - Sociétés de personnes. — Publicité légale; inobservation; sanction;
                         demande de nullité non soumise aux restrictions contractuelles prévues pour
                         le cas de dissolution.</head>
@@ -1235,7 +1246,7 @@
                             Georges Newell c. Stephen Afarian.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0110">
                     <head>310. - Sociétés de personnes. — Société en nom collectif. — Obligations
                         socialetsp stipulations faites par l'entremise d'un associé-gérant;
                         caractère social de l'engagement indépendant de l'emploi de la raison
@@ -1379,7 +1390,7 @@
                             tous ses effets.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0120">
                     <head>311. - Société. — Liquidation; action; compétence des Tribunaux mixtes
                         entre associés de même nationalité, dans le cas où l’actif social comprend
                         des immeti^ blés grevés d'hypothèque au profit d'un étranger; compétence
@@ -1546,7 +1557,7 @@
                         <p>Note. — T. - V. ég. ci-après § 312 l’arrêt du 14 Juin 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0130">
                     <head>312. - Société. — Liquidation; action; compétence entre associés de même
                         nationalité; existence de créanciers chirographaires étrangers insuffisante
                         à attribuer compétence aux Tribunaux mixtes. — Juridiction mixte; créanciers
@@ -1771,7 +1782,7 @@
                         <p>Noie. — ITT. - V. éîr. ci-avant § 3i 1 l’arrêt du 25 Janvier 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-07-0140">
                     <head>313. - Société. — Liauidalion; nomination du liauidateur; intervention de
                         ius-liee: cas où elle est admise; créanciers sociatir; défaut de droit de
                         provoauer la nomination d'un liquidateur; liauidateur dé^ioné nar in s U ce
@@ -1931,7 +1942,7 @@
                     a d'autres titres scientifiques, jugés suffisants.</p>
                 <p>Art. 3. — Pour être nommé professeur-adjoint, il faut être pourvu d’un des grades
                     prévus à l’article précédent et avoir occupé, pendant quatre ans au moins, comme
-                    maître de conférences, dans une des Facultés de> l’Université ou dans un
+                    maître de conférences, dans une des Facultés de&gt; l’Université ou dans un
                     institut scientifique du même ordre, et avoir passé huit ans au service du
                     Gouvernement, ou avoir obtenu depuis dix ans le grade de Bachelier ou la
                     Licence. Exceptionnellement, des candidats autres que les maîtres de conférences
@@ -2385,7 +2396,7 @@
                 <p>Nous avons sanctionné et promulguons la loi dont la teneur suit:</p>
                 <p>Art. 1. — La présente loi est applicable à l’emploi des enfants et adolescents
                     des deux sexes dans l’industrie.</p>
-                <p>Le terme i> industrie « comprend notamment:</p>
+                <p>Le terme i&gt; industrie « comprend notamment:</p>
                 <p>1. ) Les mines, carrières et industries extractives de toute nature;</p>
                 <p>2. ) Les industries dans lesquelles les produits sont manufacturés, modifiés,
                     nettoyés, réparés, décorés, achevés, préparés pour la vente, ou dans lesquelles
@@ -2444,8 +2455,8 @@
                     travail de nuit. Aux fins de la présente ldi; le mot « nuit » signifie une
                     période de onze heures consécutives dans laquelle doit être compris l’intervalle
                     entre 9 heures du soir et 5 heures du matin.</p>
-                <p>Art. 8. —> Il doit être accordé à tout enfant et adolescent de moins de 15 ans un
-                    repos hebdomadaire d’au moins 24 heures consécutives.</p>
+                <p>Art. 8. —&gt; Il doit être accordé à tout enfant et adolescent de moins de 15 ans
+                    un repos hebdomadaire d’au moins 24 heures consécutives.</p>
                 <p>Un. tableau indiquant le jour de congé hebdomadaire accordé à chaque enfant et
                     adolescent doit être affiché dans les établissements qui n’ont pas de jour fixe
                     de chômage.</p>

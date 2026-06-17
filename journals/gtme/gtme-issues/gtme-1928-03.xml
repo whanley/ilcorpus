@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1928-03-10">March 10, 1928</date><lb/>
-                    <biblScope unit="volume">Vol. 18</biblScope><lb/>
-                    <biblScope unit="number">No. 209</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1928-03-10">March 10, 1928</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 18</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 209</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -31,7 +42,7 @@
     <text>
         <body>
             <div type="nameplate">
-                <p>181"8 Année (J>3me Année Judiciaire).</p>
+                <p>181"8 Année (J&gt;3me Année Judiciaire).</p>
                 <p>N° 209</p>
                 <p>MARS 1928.</p>
                 <p>DIRECTION,</p>
@@ -378,7 +389,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0010">
                     <head>123. - Partage immobilier. — Action■ en annulation; compétence exclusive
                         de la Juridiction mixte; inopposabilité aux ■créanciers étrangers d'un
                         jugement d'annulation de partage immobilier rendu par un Tribunal
@@ -476,7 +487,7 @@
                             jugeme.it dont est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0020">
                     <head>124. - Partage immobilier. — Licitation; cahier des charges; indications
                         nécessaires; mentions inutiles; copropriétaire mineur; notification du
                         cahier des charges au Ministère Public; annulation d'un cahier des charges
@@ -572,7 +583,7 @@
                             d’action vexatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0030">
                     <head>125. - Partage immobilier. — Licitation établissement industriel
                         constituant une-unité organique; immeuble impartageable en nature pour
                         défaut de convenance-économique; expertise inutile même s'il y a des
@@ -636,7 +647,7 @@
                             risque d’une condamnation aux frais ■d’instance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0040">
                     <head>126. - Préemption. — Appel; défaut de .mise en cause du vendeur;
                         irrecevabilité; •délai du recours; point de départ. — Signification du
                         jugement en matière de préemption; indivisibilité; conséquences ■au point de
@@ -798,7 +809,7 @@
                             subrogation du préempteur au contrat de vente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0050">
                     <head>127. - Préemption. — Connaissance de la vente faisant courir le délai de
                         15 jours pour la préemption; preuve spécifique de cette connaissance. —
                         Terrain de culture, incessamment destiné à être bâti; contiguïté d'un seul
@@ -1001,7 +1012,7 @@
                             mérite d’ê-Ire rejetée au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0060">
                     <head>128. - Préemption. -- Déclaration de l'intention de préempter; délai;
                         point de départ; connaissance de la vente — Vente; transcription du titre
                         nar le préempteur. — Assignation en préemption; signification antérieure au
@@ -1159,7 +1170,7 @@
                             loi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0070">
                     <head>129. - Préemption. — Déclaration de l'intention de préempter;
                         signification au Parquet pour domicile inconnu; adresse inexactement
                         indiquée par l'acheteur dans le contrat de vente; signification au véritable
@@ -1234,13 +1245,13 @@
                             articulée devant les premiers juges.,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0080">
                     <head>130. - Préemption. — Indivision; copropriétaire indivis; préemption
                         contre-un autre copropriétaire; inadmissibilité. — Retrait d'indivision;
                         impossibilité d’exercice par les ayants-cause du copropriétaire
                         originaire.</head>
                     <div type="summary">
-                        <p>I. - L’art. 7 du Décret du 26 Mars 1900,> qui accorde des droits de
+                        <p>I. - L’art. 7 du Décret du 26 Mars 1900,&gt; qui accorde des droits de
                             préférence aux différents préempteurs suivant leur rang-respectif, ne
                             reconnaît nullement au copropriétaire indivis le droit de préempter
                             contre un autre copropriétaire indivis et. l’on ne saurait suppléer au
@@ -1263,7 +1274,7 @@
                         <p>II. - Comp. ci-après § 134 l’arrêt du 3 Janvier 1928.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0090">
                     <head>131. - Préemption. — Loyaux coûts; légitimes accessoires du prix;
                         honoraires d'expert et d’avocat; évaluation; frais d'emprunt et indemnité de
                         remploi payés par l'acheteur; inopposabilité au préempteur.</head>
@@ -1286,8 +1297,8 @@
                     </div>
                     <div type="litigants">
                         <p>(Cour d’Appel, 3me Ch., Prés. M. G. Baviera, 10 .'Mai 1927. — Dame
-                            Calîîope Vve N, Joannidès et >Cts. c. Hoirs Dame Callxope Théodossiou et
-                            Cts).</p>
+                            Calîîope Vve N, Joannidès et &gt;Cts. c. Hoirs Dame Callxope Théodossiou
+                            et Cts).</p>
                     </div>
                     <div type="observations">
                         <p>Note. — L’arrêt expose:</p>
@@ -1377,7 +1388,7 @@
                             par actions séparées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0100">
                     <head>132. - Préemption. — Revente; allégation de simulation; offre réelle du
                         prix de la seconde vente; cas où elle n'est pas nécessaire. — Délai;
                         sommation signifiée au mandataire du vendeur; validité. — Vente; acte non
@@ -1510,7 +1521,7 @@
                             par témoins, quand ils le croient utile à la vérité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0110">
                     <head>133. - Préemption. ■— Terrain à bâtir; prix; accessoires légitimes;
                         intérêts à charge du préempteur; intérêts dus jusqu'à parfait paiement du
                         prix. — Architectes; honoraires; taux; évaluation; usage; honoraires payés
@@ -1655,7 +1666,7 @@
                             présent procès dans ces deux instances.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0120">
                     <head>134. - Préemption. — Transcription de la vente; déchéance de l’art. 22 de
                         la loi ■de 1900; caractère absolu. — Retrait d’indivision; impossibilité
                         d’exercice par les ■ayants cause du copropriétaire originaire. — Vente
@@ -1878,8 +1889,8 @@
                         <p>En outre des sommes mentionnées dans l’acte préliminaire ci-haut cité,
                             les consorts Saleh produisent des reçus établissant le paiement des
                             sommes se montant à L.E. 780, de sorte que la totalité des paiements
-                            qu’ils prétendent avoir effectués est de L.E. ;>780 (y compris les L.E.
-                            200 pour mainlevée d’hypothèque à payer au Sieur Cressaty).</p>
+                            qu’ils prétendent avoir effectués est de L.E. ;&gt;780 (y compris les
+                            L.E. 200 pour mainlevée d’hypothèque à payer au Sieur Cressaty).</p>
                         <p>Mais à en croire les dires des frères Farid, ceux-ci n’ont reçu que L.E.
                             780 du prix, soit, les montants indiqués dans les reçus produits au
                             dossier; le prix de L.E. 7000 n’était que simulé et fictif et énoncé
@@ -1974,7 +1985,7 @@
                             Philippidis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0130">
                     <head>135. - Préemption. — Vente; acte non transcrit; ouverture de l'action en
                         préemption. — Retrait d'indivision; déchéances du Décret du 26 Mars 1900;
                         inapplicabilité; cas d'exercice de la far culté de retrait; faculté
@@ -2009,7 +2020,7 @@
                         <p>toute autre preuve ou offre de preuve complémentaire.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appel, 3m e Ch., Prés. M. A. C. Mc Bar-net, 7 Février 1928. —>
+                        <p>(Cour d’Appel, 3m e Ch., Prés. M. A. C. Mc Bar-net, 7 Février 1928. —&gt;
                             Abdel Gbani Aid Ahmed Abdel Ghani c. Ahmed Aid Ahmed Abdel Ghani et
                             Cts).</p>
                     </div>
@@ -2113,7 +2124,7 @@
                             preuve complémentaire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0140">
                     <head>136. - Préemption. — Vente portant sur des biens indivis; voisinage avec
                         le domaine dont font partie les biens vendus; préemption impossible. —
                         Action en partage introduite par le préempteur, impliquant renonciation à la
@@ -2220,7 +2231,7 @@
                             originaire dans le sens de l’article 561 du Code Civil.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0150">
                     <head>137. - Préemption. — Voisinage; concours entre voisins préempteurs;
                         partage du fonds préempté; inadmissibilité juridique; circonstances
                         spéciales justifiant la préférence à donner à l'un des préempteurs.</head>
@@ -2318,7 +2329,7 @@
                             Sieur Elie Toriel...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0160">
                     <head>138. - Retrait d’indivision. — Différence avec la préemption;
                         interprétation favorable au retrayant. — Demande en partage formée
                         reconventionnellement à une demande en retrait d'indivision; cas où elle
@@ -2506,7 +2517,7 @@
                         <p>Confirme, quant au surplus, le jugement attaqué...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0170">
                     <head>139. - Vente immobilière. — Action en .garantie pour éviction; conditions
                         de fondement. — Droit de hekr grevant les biens vendus; rachat non accompli;
                         défaut d'engagement absolu du. vendeur pour le rachat; action en résiliation
@@ -2674,7 +2685,7 @@
                             Caisse du Ministère des Wakfs pour le rachat du droit de hekr.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0180">
                     <head>140. - Vente immobilière. — Clause d'inaliénabilité de l'immeuble vendu
                         jusqu'au complet paiement du prix; validité; conditions d'opposabilité aux
                         tiers. — Prescription quinquennale; bonne foi; éléments d'appréciation. —
@@ -2812,7 +2823,7 @@
                             l'importance de l’acte juridique qu’on passe, de sorte qu’un acheteur
                             serait présumé de bonne foi si on juge d’après toutes les circonstances
                             de l’aflaire, qu'il a fait les diligences normales habituelles qu’on
-                            suit dans >un cas analogue. Au contraire, s’il se mon-. 1rs
+                            suit dans &gt;un cas analogue. Au contraire, s’il se mon-. 1rs
                             exceptionnellement négligent ou imprudent — toujours en prenant en
                             considération les éléments qui viennent d’être énumérés -T- l’acquéreur
                             ne saurait profiter des avantages conférés par la loi aux possesseurs de
@@ -2976,7 +2987,7 @@
                             encontre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0190">
                     <head>141. - Vente immobilière. — Clause interdisant l'exploitation dans les
                         locaux vendus d'un commerce similaire à celui du vendeur; contravention à la
                         dite clause; droit du vendeur à des dommages-intérêts; conditions
@@ -3142,7 +3153,7 @@
                             arrêtée à L.E. 400.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0200">
                     <head>142. - Vente immobilière. — Connaissance insuffisante des objets vendus;
                         cas où il n'ouvre pas droit à résiliation. — Construction; défauts apparents
                         ne constituant pas vices cachés.</head>
@@ -3244,7 +3255,7 @@
                             découverte, chose qu’il n’a pas faite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0210">
                     <head>143. - Vente immobilière. — Contrat non transcrit; revendication
                         immobilière; rejet; sincérité ou fictivité de la vente; recherche inutile;
                         vente d'une construction élevée sur terrain wakf; transcription
@@ -3310,7 +3321,7 @@
                             vente litigieuse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0220">
                     <head>144. - Vente immobilière. — Existence du contrat indépendamment de la
                         transcription; transfert de la propriété subordonné à la transcription; acte
                         préliminaire sous seing privé; défaut de passation <pb n="131"
@@ -3591,7 +3602,7 @@
                             L.E. 3 par jour...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0230">
                     <head>145. - Vente immobilière. — Existence du contrat indépendamment de la
                         transcription; transfert de la propriété subordonné à la transcription. —
                         Vente non transcrite; admissibilité de la préemption; délai de 15 jours pour
@@ -3806,7 +3817,7 @@
                             rapportée dans les formes de la procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0240">
                     <head>146. - Vente immobilière. — Existence du contrat indépendamment de la
                         transcription; transfert de la propriété subordonné à la transcription. •—
                         Vente non transcrite; obligations du vendeur; délivrance d'un titre
@@ -3936,7 +3947,7 @@
                             que le produit net de la gestion soit déduit du prix d’achat...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0250">
                     <head>147. - Vente immobilière. — Servitude apparente grevant partie des biens
                         vendus; constitution, de la servitude antérieure à la vente; défaut
                         d'éviction partielle; défaut de recours en garantie contre le
@@ -4057,7 +4068,7 @@
                             de sa demande...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0260">
                     <head>148. - Vente immobilière. — Transcription; contrat sous seing privé;
                         engagement par le vendeur de faire transférer les biens vendus au tekeliff
                         de l'acheteur; défaut de transcription non imputable à l'acheteur;
@@ -4129,7 +4140,7 @@
                             dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-03-0270">
                     <head>149. - Vente immobilière. — Transcription par l'acheteur apparent; action
                         en annulation de la vente intentée par un tiers se prétendant acheteur;
                         défaut de transcription par ce dernier; absence de fraude de l'acheteur

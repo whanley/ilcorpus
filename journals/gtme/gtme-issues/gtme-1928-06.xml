@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1928-06-10">June 10, 1928</date><lb/>
-                    <biblScope unit="volume">Vol. 18</biblScope><lb/>
-                    <biblScope unit="number">No. 212</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1928-06-10">June 10, 1928</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 18</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 212</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -40,7 +51,7 @@
                 <p>&lt;6, Rue Avéroff.</p>
                 <p>Téi. 2724</p>
                 <p>Bureaux au Caire,</p>
-                <p>>IZ, Rue El Mauakh.</p>
+                <p>&gt;IZ, Rue El Mauakh.</p>
                 <p>Tél. Ataba 4237</p>
                 <p>à Mansourah,</p>
                 <p>Lue Ismaïl. Tél. »7o</p>
@@ -53,7 +64,7 @@
                 <p>— au Journal ; •</p>
                 <p>— Un an........... - » 159</p>
                 <p>— Six mois............. » 85</p>
-                <p>— Trois mois.......> 50</p>
+                <p>— Trois mois.......&gt; 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an) ........ » 250</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
@@ -61,7 +72,7 @@
                 <p>Fondateurs : MAXIME PUPIKOFER et LEON PANGALO, Avocats à la Cour.</p>
                 <p>Directeur: Me MAXIME PUPXKOFEE, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’Administration :</p>
-                <p>M> L. PANGALO et K. SCHEMEIL (Directeurs au Caire)</p>
+                <p>M&gt; L. PANGALO et K. SCHEMEIL (Directeurs au Caire)</p>
                 <p>M°' E. DEGIAKDÉ et B. SMYRNIADIS (Secrétaires de la rédaction).</p>
                 <p>M« A. F AD EL (Directeur à Mansourah). M« F. BRAUN (Secrétaire à Paris).</p>
                 <p>Administrateur-Gérant : Jules Schutz.</p>
@@ -371,7 +382,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0010">
                     <head>202. - Administration. — Acte de souveraineté; caractère; conditions.—
                         Radiotéléphonie; enlèvement par VAdministration d'un appareil installé par
                         un étranger; caractère arbitraire; indemnité due.</head>
@@ -452,7 +463,7 @@
                             l'espèce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0020">
                     <head>203. - Administration. — Fonctionnaires du Gouvernement; erreur dans
                         ïap-plicalion des règlements relatifs aux cadres; droit de recours aux
                         Tribunaux mixtes par le fonctionnaire étranger.</head>
@@ -574,7 +585,7 @@
                             mal fondée, et il y a lieu de confirmer le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0030">
                     <head>204. - Administration. — Impôt foncier caractère; maximum; réclamation par
                         les contribuables; limites. — Juridiction mixte; compétence en cas
                         d'atteinte aux droits acquis d'un étranger en matière■ d'impôts; inégalité
@@ -810,7 +821,7 @@
                         <p>Déclare toutefois cette demande mal fondée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0040">
                     <head>205. - Administration. — Loi No. 28 de 1923 sur la mise à la retraite des
                         fonctionnaires étrangers; application à un fonctionnaire étranger
                         originairement engagé comme égyptien.</head>
@@ -913,7 +924,7 @@
                             fait-siens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0050">
                     <head>206. - Administration. — Loi No. 28 de 1923 sur la mise à la retraite des
                         fonctionnaires étrangers; application aux protégés étrangers. — Anciens
                         sujets Ottomans auxquels la Loi No. 28 de 1923 est' applicable. — Tunisiens;
@@ -1062,7 +1073,7 @@
                             lois ni aux Juridictions indigènes...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0060">
                     <head>207. - Droits proportionnels. — Actes de juridiction gracieuse;
                         inapplicabilité de l'art. 31 du Tarif Judiciaire; demande soumettant au
                         Tribunal une contestation Soulevée par une taxation du Greffe, avant
@@ -1151,7 +1162,7 @@
                         <p>La prétention du Greffe est par conséquent légitime.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0070">
                     <head>208. - Droits proportionnels. — Action paulienne; jugement annulant une
                         vente faite en fraude des droits des créanciers du vendeur; base de
                         perception des droits proportionnels.</head>
@@ -1224,7 +1235,7 @@
                         <p>L’opposition est donc mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0080">
                     <head>209. - Droits proportionnels. — Concordat ordinaire; dation d'immeubles en
                         paiement; cas où elle donne lieu à la perception des droits.</head>
                     <div type="summary">
@@ -1357,7 +1368,7 @@
                             spéciales.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0090">
                     <head>210. . Droits proportionnels. —• Echange; cas où la soulte à payer est
                         importante: application de l'art. 16 du Tarif; droit unique à
                         percevoir.</head>
@@ -1789,7 +1800,7 @@
                             soulte à payer par l’une des parties. -,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0100">
                     <head>211. - Droits proportionnels. — Echange; confirmation par jugement avec
                         clause résolutoire expresse; rétrocession par second jugement annulant
                         l'échange; attribution unique; perception d'un seul droit de
@@ -1882,7 +1893,7 @@
                             immobilières, il n’a plus rien à réclamer du chef du second
                             jugement;</p>
                         <p>Attendu que le Greffe invoque le principe édicté à l’article 33 du Tarif
-                            Civil mixte, pour les actes notariés et de juridiction gra-> ieuse,
+                            Civil mixte, pour les actes notariés et de juridiction gra-&gt; ieuse,
                             selon lequel dans les rétrocessions de .biens immeubles il sera dù un
                             droit proportionnel de 2 0,0 sur leur prix ou valeur, mais au cas de
                             l'espèce il n’y a pas eu. à proprement parler, rétrocession, puisque le
@@ -1898,7 +1909,7 @@
                             intégralité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0110">
                     <head>212. - Droits proportionnels. — Jugement faisant droit à une revendication
                         incidente en cours d'expropriation; droits dus.</head>
                     <div type="summary">
@@ -2021,7 +2032,7 @@
                             proportionnel dont il s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0120">
                     <head>213. - Droits proportionnels. — Jugement prononçant condamnation en vertu
                         d'un cautionnement solidaire; droits proportionnels de 2 0/0 dus.</head>
                     <div type="summary">
@@ -2092,7 +2103,7 @@
                             de l’article 4 du Tarif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0130">
                     <head>214. - Droits proportionnels. — Jugements de condamnation;
                         caractéristiques. — Jugement rejetant une demande d'admission d'une créance
                         au passif d'une faillite; droits proportionnels non dus.</head>
@@ -2204,7 +2215,7 @@
                         <p>Il y a donc lieu de faire droit à l'opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0140">
                     <head>215. - Droits proportionnels. — Paiement par l'une des parties; recours
                         contre la partie obligée; exécution; difficulté; pouvoir 'du Juge des
                         Référés; cas où les frais n'ont pas été régulièrement liquidés;
@@ -2243,8 +2254,8 @@
                             des meubles de Chalabi, celui-ci a demandé au Juge des Référés près le
                             Tribunal Mixte du Caire d ordonner la discontinuation des
                             poursuites;</p>
-                        <p>Que >e di‘ juge, par son ordonnance du 8 Février 1928. dont le syndic a
-                            relevé appel, a fait droit à la demande de Chalabi, en con</p>
+                        <p>Que &gt;e di‘ juge, par son ordonnance du 8 Février 1928. dont le syndic
+                            a relevé appel, a fait droit à la demande de Chalabi, en con</p>
                         <p>sidérant que le droit proportionnel perçu par le Greffe n’était pas dû en
                             l’espèce;</p>
                         <p>Attendu qu’il n’appartient évidemment pas au Juge des Référés de dire si
@@ -2263,7 +2274,7 @@
                             réclamer la restitution pales voies de droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0150">
                     <head>216. - Droits proportionnels. — Partage; contrat attribuant tous les
                         immeubles à certains copartageants; droits proportionnels non dus.</head>
                     <div type="summary">
@@ -2333,7 +2344,7 @@
                             caractère juridique d’un partage entre héritiers d’une succession.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0160">
                     <head>217. - Droits proportionnels. — Partage; contrat comportant ratification
                         d'une attribution de part divise antérieurement vendue par un
                         copropriétaire; droits proportionnels non dus.</head>
@@ -2453,7 +2464,7 @@
                             de droits.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0170">
                     <head>218. - Droits proportionnels. — Partage; révisions successives; cas où il
                         n'y a point lieu à perception de droits. — Réclamation en restitution de
                         droits proportionnels; tardivité; défaut de déchéance.</head>
@@ -2562,7 +2573,7 @@
                             serait due.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0180">
                     <head>219. - Droits proportionnels. — Partage social; attribution des immeubles
                         sociaux à l'un des copartageants; proportion adoptée pour le partage; défaut
                         de soulte; droits proportionnels non dus.</head>
@@ -2658,7 +2669,7 @@
                             L.E. 3.344, 906 mill.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0190">
                     <head>220. - Droits proportionnels. — Pension alimentaire; défaut d'analogie
                         avec la rente viagère; inapplicabilité de l'art. 45 du Tarif Civil;
                         conditions d’évaluation du 2 0/0 prévu par l'art. 5 dudit Tarif. —
@@ -2761,7 +2772,7 @@
                             pendant dix mois.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0200">
                     <head>221. - Droits proportionnels.— Préemption; cas où il y a lieu à perception
                         de droits proportionnels; transaction; décision d'expédient.</head>
                     <div type="summary">
@@ -2853,7 +2864,7 @@
                         <p>Attendu dès lors qu’il échet de maintenir l’ordonnance entreprise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-06-0210">
                     <head>222. - Droits proportionnels. — Reconnaissance de dette; contrat portant
                         sur plusieurs opérations distinctes, comprenant le montant de condamnations
                         judiciaires; droits intégralement dus sur le montant de la reconnaissance de

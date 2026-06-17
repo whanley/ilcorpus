@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1927-01-10">January 10, 1927</date><lb/>
-                    <biblScope unit="volume">Vol. 17</biblScope><lb/>
-                    <biblScope unit="number">No. 195</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1927-01-10">January 10, 1927</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 17</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 195</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -65,7 +76,7 @@
                 <p>.Administrateur-Gérant : Joseph Qazaleh</p>
                 <p>Comité de Rédaction et d'administration :</p>
                 <p>MeB L. PANGALO et R. SCHEMEIL (Directeurs au Caire).</p>
-                <p>M« E. DEGIARDÉ (Secrétaire de la rédaction). M> A. PAVEE (Directeur à
+                <p>M« E. DEGIARDÉ (Secrétaire de la rédaction). M&gt; A. PAVEE (Directeur à
                     Mansourah).</p>
                 <p>F. BIÏAÜN (Secrétaire à Paris),</p>
                 <p>Pour la Publicité:</p>
@@ -147,7 +158,7 @@
                 <p>Aujourd’hui, plus qu’hier et moins que demain peut-être, la cloison qui sépare la
                     justice de la politique doit rester étanche.</p>
                 <p>L’autre raison qui dicta leur choix à Nubar Pacha et à ses cocontractants, ce fut
-                    l’intérêt pratique du crédit et du com-> merce.</p>
+                    l’intérêt pratique du crédit et du com-&gt; merce.</p>
                 <p>Aussi bien il fut logique, en 1883, de fixer dans la Capitale égyptienne le siège
                     de la Cour d’Appel Indigène, aussi bien était-il normal déjà, en 1875, de
                     choisir le centre commercial du pays pour y établir la plus haute juridiction
@@ -406,7 +417,7 @@
             <pb n="42" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0010">
                     <head>51. - Avocat. — Désaveu; formes..</head>
                     <div type="summary">
                         <p>L’annulation des actes de procédure faits par un avocat au nom de la
@@ -453,7 +464,7 @@
                             statuer sur l’appel incident formé par l’intimé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0020">
                     <head>52. - Avocat. — Honoraires; contrat d’abonnement à forfait et à durée
                         fixe; révocation du mandat en cours d'exercice; forfait inapplicable.</head>
                     <div type="summary">
@@ -528,7 +539,7 @@
                             Mars 1925 jusqu’au 20 Juin 1925, date du retrait du mandat...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0030">
                     <head>53. - Avocat. — Honoraires; convention forfaitaire incomplète; taxe
                         nécessaire.</head>
                     <div type="summary">
@@ -555,7 +566,7 @@
                             Moustapha, lamail c. Mes E... L. et M... P...).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0040">
                     <head>54. - Avocat. — Honoraires, évaluation soumise d'accord à l'arbitrage du
                         Tribunal; inadmissibilité. — Evaluation des honoraires en matière pénale;
                         compétence du Tribunal Correctionnel siégeant en Chambre du Conseil. —
@@ -618,8 +629,8 @@
                         <p>,„-VJ1endu nu’n appartient cependant au Tri-,d° ,ia Présente contestation
                             de ^es honoraires de l’avocat i c&lt;?.,&lt; n conformité au vœu de</p>
                         <p>9* du ttèg. Gén. Jud. édictant, qu’à accord entre les parties et de con-o
-                            s entre elles, le montant des hono-rnffs>^r.îera-/'lxe Par 'e âge devant
-                            lequel 1 affaire a été plaidée;</p>
+                            s entre elles, le montant des hono-rnffs&gt;^r.îera-/'lxe Par 'e âge
+                            devant lequel 1 affaire a été plaidée;</p>
                         <p>fèSîî a a été jugé en outre que dans le sys-nan™«Vl'i01 mixte
                             l’opposition aux ordon-p. . de taxe, doit toujours être soumise à
                             ecia‘*on d’une Chambre composée de P sieurs juges, et non au juge unique
@@ -644,7 +655,7 @@
                             somme qu’il arbitre ex-æquo et bono.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0050">
                     <head>55. - Avocat. — Honoraires; note acceptée par le client; inadmissibilité
                         d'une taxe pour un montant supérieur.</head>
                     <div type="summary">
@@ -717,7 +728,7 @@
                             portée à la note susdite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0060">
                     <head>56. - Avocat. •— Honoraires; réclamation par instance ordinaire pour des
                         honoraires relatifs à des peines et soins de nature multiple.</head>
                     <div type="summary">
@@ -788,7 +799,7 @@
                             services, ou la gestion d’affaires, selon le cas...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0070">
                     <head>57. - Cession. — Etendue; action directe par le cédant contre le débiteur
                         cédé; cas où l'objet de la demande est autre que le montant cédé; bail;
                         loyers.</head>
@@ -810,7 +821,7 @@
                             Décembre 1925. — Giovanni Janch Donadio o. Dame Vassüia Mega).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0080">
                     <head>58. - Chose perdue ou volet. — Revendication; art. 116 C. C.;
                         inapplicabilité; cas.</head>
                     <div type="summary">
@@ -893,7 +904,7 @@
                             environ, doit être maintenu.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0090">
                     <head>59. - Chose voice. — Revendication exercée contre un acheteur n'ayant plus
                         la possession de l'objet; inadmissibilité à défaut de dol.</head>
                     <div type="summary">
@@ -943,7 +954,7 @@
                             les a •achetés ou non d’un marchand et dans un marché public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0100">
                     <head>60. - Courtage. — Mandat; limites; inexécution du contrat; droit au
                         courtage.</head>
                     <div type="summary">
@@ -1045,7 +1056,7 @@
                             femme...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0110">
                     <head>61. - Courtage. — Mandat; vente résiliée; dommages-intérêts dus au
                         courtier par son mandant; défaut d'action du courtier contre la contrepartie
                         de son mandant.</head>
@@ -1142,7 +1153,7 @@
                             direct Michel Tadros,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0120">
                     <head>62. - Courtage. — Services rendus par un intermédiaire; mandat de courtier
                         non justifié; rémunération due.</head>
                     <div type="summary">
@@ -1215,7 +1226,7 @@
                             rendus, services que la Cour évalue ex-æquo et bono à L.E. 100.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0130">
                     <head>63. - Gage-commission. — Avances sur t cotons; autorisation de vendre sans
                         for- ; malités; caractère de mandat; validité; -obligation du créancier;
                         achat des cotons par le dépositaire lui-même; nullité; con- : séquences;
@@ -1271,7 +1282,7 @@
                             l’emploi qu’elle a fait du coton litigieux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0140">
                     <head>64. - Gage-commission. — Avances sur cotons; autorisation de vendre sans
                         formalités; caractère de mandat; validité; obligation du créancier; achat
                         des cotons par le dépositaire lui-même; nullité; con- <pb n="47"
@@ -1476,7 +1487,7 @@
                             de L.E. 183, soit L.E. 1 par kantar,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0150">
                     <head>65. - Gage. — Objet détourné par le débiteur malgré Vexistence d'une
                         saisie conservatoire pour loyers; inopposabilité des droits du bailleur
                         privilégié au créancier gagiste de bonne foi; cas où le bailleur a fait
@@ -1598,7 +1609,7 @@
                             du gage, est sans importance pour la solution du litige.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0160">
                     <head>66. - Garantie. — Cautionnement; caractère commercial résultant des
                         circonstances. — Exception d'incompétence «ratione materiæ»; recevabilité en
                         tout état de cause.</head>
@@ -1704,7 +1715,7 @@
                         <p>Qu’il y a lieu donc de rejeter l’exception d’incompétence...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0170">
                     <head>67. - Garantie. — Cautionnement; convention entre créancier et débiteur
                         profitant aux garants; nouvelle convention, plus onéreuse, inopposable aux
                         garants; droit acquis de ces derniers.</head>
@@ -1826,7 +1837,7 @@
                             acquise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0180">
                     <head>68. - Garantie. — Cautionnement; interprétation restrictive; intérêts. —
                         Caution; décharge par suite de la perte des garanties par le créancier;
                         portée de l'art. 523 C. Civ. — Garant; jugement faisant droit à son
@@ -2050,7 +2061,7 @@
                             maintenu son action contre la Dame Zeinab.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0190">
                     <head>69. - Garantie. — Cautionnement; octroi de délais au débiteur par le
                         créancier; .non libération du garant. — Cautionnement; interprétation
                         restrictive; nouvelles opérations non garanties. — Cautionnement; nécessité
@@ -2128,14 +2139,14 @@
                             être liquidée dans um espace de trois mois, c’est-à-dire au com-,
                             mencement de Mai 1917, ont néanmoins fait-deux nouvelles avances à
                             Arabian, chacune de 500 L.E., longtemps après l'expiration du' susdit
-                            délai et précisément en date des 5 et></p>
+                            délai et précisément en date des 5 et&gt;</p>
                         <pb n="52" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>ZI Août 1918. Et ils ont si bien compris que •eette somme de L.E. 1000
                             n’était point couverte par la caution donnée par Gamsara-,gan en 1917,
                             qu’ils ont exigé une nouvelle lettre-garantie pour le montant litigieux
                             de L.E. 1350, soit les dites 1000 livres outre les Z50 restant de
                             l’emprunt originaire.</p>
-                        <p>Cependant, la nouvelle caution donnée au> Topalian à la, date du 15
+                        <p>Cependant, la nouvelle caution donnée au&gt; Topalian à la, date du 15
                             Novembre 1921 pour 2e dit montant, est signée par le débiteur Lui-même
                             ainsi que par son cofondé de pouvoirs Papazian «par procuration spéciale
                             et collective A. Garnsaragan». Ce dernier a déclaré n’avoir eu aucune
@@ -2177,7 +2188,7 @@
                             au dit bureau où il travaillait comme employé de Garnsaragan.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0200">
                     <head>70. - Lettres missives. — Correspon-àances de caractère confidentiel;
                         propriété du destinataire; droit de publication et ùle production en justice
                         en cas de procès; limites; pouvoir d'appréciation des
@@ -2272,7 +2283,7 @@
                             manifeste de nuire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0210">
                     <head>71. - Mandat. — Encaisseur; défaut de pouvoir de transiger; créancier
                         recevant un montant moindre que son dû, versé prétendument à titre
                         transactionnel; droit de retenir la somme à valoir sur sa créance.</head>
@@ -2294,7 +2305,7 @@
                             Décembre 1926. — Haim Chain-la c. Mohamed Ahmed El Dakani et Fila).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0220">
                     <head>72. - Mandat. -— Etendue; cession de créance; acceptation de la cession
                         par le mandataire du débiteur; vices de pouvoirs et infidélité du
                         mandataire; obligation du mandant; limites; nécessité d’une notification de
@@ -2364,10 +2375,10 @@
                             de L.E. 485, et avait fait en outre ■dit-il, divers versements de L.E.
                             71. soit en tout, L.E. 556, réclame le paiement par la Mission de cette
                             somme, solidairement avec Critelli. Motta et Zeini;</p>
-                        <p>i-, V/êndu que sa thèse consiste en ceci' que : > A1.lssi°n de l’Afrique
-                            Centrale, s’étant fait ■ m,’)1’vSenter par Choucri Zeini comme mandatai!
-                            e pour la surveillance des travaux et confrmni>int'faUX echéances
-                            prévues dans le odU aî, bref- comme mandataire pour tout</p>
+                        <p>i-, V/êndu que sa thèse consiste en ceci' que : &gt; A1.lssi°n de
+                            l’Afrique Centrale, s’étant fait ■ m,’)1’vSenter par Choucri Zeini comme
+                            mandatai! e pour la surveillance des travaux et confrmni&gt;int'faUX
+                            echéances prévues dans le odU aî, bref- comme mandataire pour tout</p>
                         <p>ce qui concernait cette entreprise, c’est à elle de subir les
                             conséquences d’avoir donné sa confiance à un mandataire infidèle, et
                             elle ne saurait faire subir à Hassoun, qui n’a rien à se reprocher, le
@@ -2452,7 +2463,7 @@
                             Mission de l’Afrique Centrale..,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0230">
                     <head>73. - Mandat. — Preuve; infidélité die mandataire; conséquences. — Femme
                         mariée égyptienne; gestion de. ses biens par le mari; usage. — Gestion
                         d'affaires-mandat; connaissance de la gestion parle propriétaire. — Vente de
@@ -2627,7 +2638,7 @@
                             expertise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0240">
                     <head>74. - Obligation. — Cession par voie d'endossement; exceptions opposables
                         au nouveau porteur, s'il ne s'agit point d'un effet de commerce. — Chose
                         jugée; cas où il n'y a point identité d'objet. ■— Fonds de commerce;
@@ -2747,7 +2758,7 @@
                             avant l’introduction de la présente action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0250">
                     <head>75. - Obligation. — Convention; clause pénale; cas d'inexécution,
                         partielle des obligations d'un contrat.</head>
                     <div type="summary">
@@ -2770,7 +2781,7 @@
                             en date du 9 Février 1922.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0260">
                     <head>76. - Obligation. — Convention; clause pénale; cumul impossible avec des
                         dommages-intérêts; option accordée à l'acheteur, en cas de défaut de
                         livraison par le vendeur, entre le montant de la clause pénale et celui de
@@ -2886,7 +2897,7 @@
                             dont est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0270">
                     <head>77. - Obligation. — Convention; clause pénale; vente de cotons; contrat
                         prévoyant à la fois une prime de différence de prix et une pénalité fixe;
                         cumul impossible; option appartenant à l'acheteur. — Clause pénale;
@@ -2975,7 +2986,7 @@
                             Rezzos &amp; Fils).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0280">
                     <head>78. - Obligation. -— Convention; clause pénale; vente de cotons; contrat
                         prévoyant à la fois une prime de différence et une pénalité fixe; cumul
                         impossible; option appartenant à l’acheteur; défaut de justification de prix
@@ -3085,7 +3096,7 @@
                             l’indemnité)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0290">
                     <head>79. - Obligation. — Convention; clause prévoyant une majoration du prix en
                         cas de défaut de paiement à l'échéance; offre subordonnée à des conditions
                         injustifiées; dépôt à la Caisse ne constituant point paiement; droits du
@@ -3105,7 +3116,7 @@
                             Khouri Haddad c. Jean Joan-nides).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0300">
                     <head>80. - Obligation. — Délégation imparfaite; modalités attachées à
                         l'engagement du délégué; remise de dette; exceptions profitant au
                         délégué.</head>
@@ -3239,7 +3250,7 @@
                         <p>Attendu qu’il échet par conséquent de ■débouter L... de sa demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0310">
                     <head>81. - Obligation. — Entreprise; forfait; cas où une augmentation est
                         possible. — Obligation de faire; clause pénale; aggravation du dommage par
                         le fait du créancier; pouvoir du juge; atténuation de l’astreinte
@@ -3423,7 +3434,7 @@
                             décidé dans sa pensée de cesser son entreprise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0320">
                     <head>82. - Obligation. — Libération; preuve; date certaine inutile entre
                         parties et à l'égard d'un créancier exerçant une action oblique.</head>
                     <div type="summary">
@@ -3487,7 +3498,7 @@
                             voie de conséquence, Paul Koyandjacoglou.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0330">
                     <head>83. - Obligation. — Novation; billet « ordre englobé dans un nouveau
                         contrat; constitution d'hypothèque;- modalités différentes de la nouvelle
                         convention; défaut de retrait du billet originaire: ino-pérance.</head>
@@ -3564,7 +3575,7 @@
                             Commerciale serait ■incompétente à statuer sur la matière.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0340">
                     <head>84. - Obligation. — Omission par le îcréancier de faire figurer une
                         créance dans un compte présenté au débiteur; jfait n'impliquant point
                         renonciation.</head>
@@ -3641,7 +3652,7 @@
                             fournie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0350">
                     <head>85. - Obligation. — Perte du titre; preuve formelle requise.</head>
                     <div type="summary">
                         <p>Celui qui prétend faire valoir un droit basé sur un titre dont il affirme
@@ -3733,7 +3744,7 @@
                             procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-01-0360">
                     <head>86. - Subrogation légale. — Droits du garant subrogé; Caisse du Tribunal;
                         paiement irrégulier à un créancier; restitution due. — Séquestré judiciaire;
                         dépôt de fonds à la Caisse du Tribunal; indications incomplètes.</head>
@@ -3847,10 +3858,10 @@
                     n’en révéler qu’une partie, ou même de ne rien, dire du tout.</p>
                 <p>Le «Recueil Sire y», en publiant l’arrêt où se trouvent très exactement formulées
                     les mêmes observations, observe &lt;à son côté:</p>
-                <p>«L’avocat n’est pas une personne sur> cjui pèse l’obligation qui incombe à
+                <p>«L’avocat n’est pas une personne sur&gt; cjui pèse l’obligation qui incombe à
                     tout-citoyen d’aider à la manifestation de 1® vérité et de déposer devant la
-                    justice de> son pays. Il est à placer, à raison de sa. qualité de conseil, dans
-                    une condition, à part, qui le soustrait à la règle générale. Et, comme le
+                    justice de&gt; son pays. Il est à placer, à raison de sa. qualité de conseil,
+                    dans une condition, à part, qui le soustrait à la règle générale. Et, comme le
                     consacre un arrêt de Cass. Crim. 24 Mai 1862 (S. 1862.1.995. P. 1863.30),
                     l’avocat est tenu de garder: un secret inviolable sur tout ce qu’il apprend à ce
                     titre: cette obligation absolue-est d'ordre public. Adde, Paris, 6 Nov.. 1916
@@ -3868,8 +3879,8 @@
                     du prévenu. Assurément, la formalité du serment est le préalable absolu de toute
                     déposition faite en justice. Sur ce point, l’affirmation de l’arrêt doit être
                     tenue nour juste. V. Cass. Crim. 13 Févr. 1886 (Bull. Crim. No. 54). Mais, à
-                    moins de commettre une pétition de principe, il faut au> préalable rechercher si
-                    l'obligation de déposer incombe à l’avocat.</p>
+                    moins de commettre une pétition de principe, il faut au&gt; préalable rechercher
+                    si l'obligation de déposer incombe à l’avocat.</p>
                 <p>«Et d’un autre côté, il y a également inconciliabilité entre le serment de
                     dire:</p>
                 <pb n="62" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1927-07-10">July 10, 1927</date><lb/>
-                    <biblScope unit="volume">Vol. 17</biblScope><lb/>
-                    <biblScope unit="number">No. 201</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1927-07-10">July 10, 1927</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 17</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 201</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -48,10 +59,10 @@
                 <p>Rue Ismaïl</p>
                 <p>à Port-Saïd, 4, Quai Eugénie.</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
-                <p>■&lt; -> Publiée s.ous le Patronage du Conseil de l’Ordre des Avocats
+                <p>■&lt; -&gt; Publiée s.ous le Patronage du Conseil de l’Ordre des Avocats
                     d’Egypte.</p>
                 <p>Tél. 207 Fondateurs x Mm MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.
-                    -Directeur : M> MAXIME PUPIKOFER, Avocat à la Cour.</p>
+                    -Directeur : M&gt; MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>Tél. 282</p>
                 <p>Comité de Rédaction et d*Administration :</p>
                 <p>Mm L. PANGALO et R, SCHEMEIL (Directeurs au Caire).</p>
@@ -242,7 +253,7 @@
                 <p>BION SMYRNIADIS,, Docteur en Droit,</p>
                 <p>Avocat.</p>
                 <p>(*) Un cas analogue à celui que nous avons envisagé ici s’était présenté
-                    dernièrement en Egypte à> l’occasion du sauvetage du navire «Ekatérini
+                    dernièrement en Egypte à&gt; l’occasion du sauvetage du navire «Ekatérini
                     Ingles-ki» par le croiseur britannique «Delhi». A la suite de la formation de
                     voies d’eau dans le dit navire, son capitaine et son équipage ont dû
                     l’abandonner et s’embarquer sur un autre paquebot qui était accouru à leur
@@ -262,7 +273,7 @@
                     un accident fortuit—les voiea d’eau — et non à un sacrifice volontaire. Le
                     Tribunal décida, dès lors, que l’armateur ne pouvait prétendre à aucune caution
                     de la part du chargeur pour contribution d’avarie commune et autorisa le retrait
-                    du chargement dont le fret avait été intégralement payé, à> charge par son
+                    du chargement dont le fret avait été intégralement payé, à&gt; charge par son
                     propriétaire de fournir caution aux sauveteurs et de produire à l’armateur une
                     déclaration de ces derniers contenant l’engagement qu’ils ne réclameraient pas
                     aux autres intéressés la quote-part incombant à cette partie de la cargaison
@@ -293,7 +304,7 @@
             <pb n="199" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0010">
                     <head>300. - Assurance..— Fausse déclaration ‘entraînant déchéance de la
                         police.</head>
                     <div type="summary">
@@ -397,7 +408,7 @@
                         <p>Qu’il y a lieu dès lors de confirmer la décision attaquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0020">
                     <head>301. - Assurance maritime. — Clause de perte «in loading transhipment or
                         dis-charge»; application restreinte. — Défaut de délivrance de la
                         marchandise; risque non couvert par l'assurance. — Appel; assuré ne
@@ -494,7 +505,7 @@
                             des intimés contre le Lloyd Triestino.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0030">
                     <head>302. - Assurance maritime. — Courtier d'assurances; rôle de mandataire de
                         rassuré; défaut de responsabilité personnelle à l'égard de ce dernier;
                         conservation des polices.</head>
@@ -588,7 +599,7 @@
                             l’assurance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0040">
                     <head>303. - Assurance mari lime. — Fins de non recevoir des art. 27i et 275 C.
                         Mar.; pourparlers; interruption. -- Appel; évo- ' cation du fond;
                         interprétation restrictive.</head>
@@ -633,7 +644,7 @@
                             Mars 1921. XXXIII, p. 237; — 2 Février 1922 XXXIV, p. 119).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0050">
                     <head>304. - Assurance maritime (ou fluviale). — Intermédiaire chargé de
                         l'assurance; qualité de simple mandataire, responsabilité pour le ehoi.r de
                         son substitué. — «Slip» dûment paraphé, valant engagement pour la Compagnie
@@ -880,7 +891,7 @@
                         <p>Qu’il n’y a donc pas lieu de s’arrêter à cette demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0060">
                     <head>305. - Assurance maritime. — Réticence entraînant la nullité du contrat
                         d'assurance.</head>
                     <div type="summary">
@@ -956,7 +967,7 @@
                             attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0070">
                     <head>306. - Navigation fluviale. — Vapeur-voilier; collision; devoir
                         réciproque; responsabilité; faute commune.</head>
                     <div type="summary">
@@ -1044,7 +1055,7 @@
                             charge du vapeur et d’un quart à charge du voilier...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0080">
                     <head>307. - Navire.—Abordage dans des eaux territoriales étrangères; loi
                         applicable; inapplicabilité des délais établis aux art. 274 et 275 C. Mar. —
                         Convention de Bruxelles du 23 Septembre 1910/ applicabilité devant les
@@ -1234,7 +1245,7 @@
                             rapatriement qui ne sont pas une conséquence directe de l’abordage.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0090">
                     <head>308. - Navire. —- Affrètement; charte-partie signée par l'expéditeur par
                         procuration du destinataire; dénégation de mandat non justifiée. —
                         Juridiction mixte; réclamation de fret; défendeur domicilié à l'étranger;
@@ -1312,7 +1323,7 @@
                             «dead freight», soit Lst. 67.10.0.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0100">
                     <head>309. - Navire. — Affrètement; indication d'une date approximative pour
                         l'arrivée du navire; obligation de l'affréteur; résiliation indue; droits du
                         fréteur.</head>
@@ -1389,7 +1400,7 @@
                             attaquée mérite ■confirmation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0110">
                     <head>310. - Navire. — Affrètement; privilège iln fréteur principal; étendue;
                         limites. — Sauvetage; abandon du navire dû à cas fortuit; inexistence
                         d'avarie commune; caution pour avarie commune, non justifiée; contribution
@@ -1663,7 +1674,7 @@
                             présent jugement nonobstant, opposition ou appel...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0120">
                     <head>311. - Navire. — Affrètement; privilège du fréteur principal; étendue;
                         limites. Sauvetage; avarie commune; caution exigée des chargeurs; cas où
                         elle n'est pas fuslifiée.</head>
@@ -1800,7 +1811,7 @@
                             chef.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0130">
                     <head>312. - Navire. — Avarie commune. —• Changement d’itinéraire du navire;
                         absence de faute du capitaine; contribution des chargeurs à l'avarie
                         commune. —Appel; taux en cas de pluralité de défendeurs.</head>
@@ -1920,7 +1931,7 @@
                             échet d’y donner suite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0140">
                     <head>313. - Navire. — Consignataire; défaut de responsabilité envers les
                         destinataires, sauf faute personnelle.</head>
                     <div type="summary">
@@ -2048,7 +2059,7 @@
                             ’</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0150">
                     <head>314. - Navire. — Echoucment; assistance; rémunération due; contrat entaché
                         de dol. ■ Obligation; mandat; dol du mandataire; effets sur la validité du
                         contrat: pouvoir d'appréciation du juge.</head>
@@ -2206,7 +2217,7 @@
                             enchères.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0160">
                     <head>315. - Navire. — Fins de non recevoir des arl. 274 e.t 275 C. Mar.;
                         application aux réclamations à l'encontre des affréteurs; limites. —
                         Assurance maritime; paiement effectué par l'assureur; subrogation aux droits
@@ -2517,7 +2528,7 @@
                             des assureurs dans la présente action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0170">
                     <head>316. - Navire. — Règlements de navigation; feux prescrits; négligence;
                         conséquences. — Abordage; manœuvre suivie de collision; responsabilité du
                         navire; conditions.</head>
@@ -2539,7 +2550,7 @@
                             Inglessis et Fils c. Società Italiana clî Servizi Marittimi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0180">
                     <head>317. - Navire. — Sauvetage et assistance en haute mer; Convention
                         internationale de Bruxelles de 1910; application par les Tribunaux Mixtes;
                         loi applicable dans les rapports entre le navire sauveteur et le navire
@@ -2748,7 +2759,7 @@
                             cause.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0190">
                     <head>318. - Navire. — Société ou association avec un étranger pour
                         Vexploitation d'un navire battant pavillon égyptien; nullité radicale. —
                         Vente de navires; cession d'un droit de copropriété par lettre missive;
@@ -3255,7 +3266,7 @@
                             statuer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0200">
                     <head>319. - Navire. — Staries; calcul; avis de promptitude; délai de
                         chargement; point de départ. — Capitaine; arrimeurs du chargeur; obligation
                         de les employer; défaut de responsabilité. — Chargement; faute commune;
@@ -3362,7 +3373,7 @@
                             surestaries (Voir Ripert, T. 2, No. 1357).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0210">
                     <head>320. - Navire. —• Stationnement dans un avant-port; défaut de possibilité
                         d'allumage des chaudières; abordage; faute; responsabilité.</head>
                     <div type="summary">
@@ -3452,7 +3463,7 @@
                             les prétendus dommages pour cause de surestaries.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0220">
                     <head>321. - Navire. — Vente; Juge-Commis; ordonnance décidant de passer outre à
                         la vente; excès de pouvoir; mise à prix; dire formé par le débiteur avant la
                         3me criée; recevabilité; Tribunal de Commerce compétent pour en
@@ -3523,7 +3534,7 @@
                             échet de la déclarer nulle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0230">
                     <head>322. - Navire. — Vente; jugement d'adjudication; nullité pour vice de
                         forme; annulation d'une ordonnance du Juge--Commis ordonnant de passer outre
                         à la vente; criée; changement de l'heure fixée; conséquences.</head>
@@ -3568,7 +3579,7 @@
                             relatif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0240">
                     <head>323. - Transport maritime. — Compagnie de navigation ayant agi comme agent
                         d'une autre Compagnie; défaut de responsabilité personnelle. — pins de non
                         recevoir des art. 274 et 275 C. Mar.; renonciation tacite; admissibilité. —
@@ -3696,7 +3707,7 @@
                             conclusions récursoires de la North British Insurance Co.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0250">
                     <head>324. - Transport maritime. — Connaissement; clause de non responsabilité
                         de l'armateur; «négligence clause»; clause d'exonération pour vol; clause
                         d'exonération pour tous risques susceptibles d'è-tre assurés; conditions
@@ -3871,7 +3882,7 @@
                             contre bien fondée à l’égard de l’armateur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0260">
                     <head>325. - Transport maritime. — Connaissement; clause de non responsabilité
                         des fautes du capitaine; inapplicabilité aux opérations de déchargement
                         auxquelles a coopéré un agent de l'armateur. — Clause de limitation de
@@ -3949,7 +3960,7 @@
                             non justifiée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0270">
                     <head>326. - Transport maritime. — Connaissement; clause déterminant un délai
                         pour la réclamation des manquants; validité. — Transporteur; responsabilité
                         après débarquement. — Marchandises délivrées à la douane; manquant; action
@@ -4072,7 +4083,7 @@
                             de ce dernier s’impose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0280">
                     <head>327. - Transport maritime. — Connaissement; clause déterminant un délai
                         spécial pour la réclamation des manquants; validité. — Agent du
                         transporteur; [aufe personnelle. — Bon de livraison; remise constituant
@@ -4196,7 +4207,7 @@
                             l’expédition destinée à Khayat &amp; Co...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0290">
                     <head>328. - Transport maritime. — Connaissement; clause d'exonération pour
                         chargement sur le pont; conditions d'application; preuve de la cause de la
                         disparition de la marchandise, à charge de l’armateur.</head>
@@ -4248,7 +4259,7 @@
                             British Coaling.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0300">
                     <head>329. Transport maritime. — Connaissement signé par un agent; défaut de
                         responsabilité personnelle de et dernier.</head>
                     <div type="summary">
@@ -4313,7 +4324,7 @@
                             faire dès le début.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0310">
                     <head>330. - Transport maritime. — Fins de non recevoir des art. 274 et 275 C.
                         Mar.; applicabilité à l'assurance dérivant de la clause de garantie portée
                         au connaissement.</head>
@@ -4331,7 +4342,7 @@
                             Buhagiar c. Compagnie des .Messageries Maritimes et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0320">
                     <head>331. - Transport maritime. — Fins de non recevoir des art. 274 et 275 C.
                         Mar.; assignation en Référé équivalant à la protestation; délai de 31 jours
                         fixé par l'art. 275 C. M.; non prorogation si le dernier jour est
@@ -4419,7 +4430,7 @@
                             pour jour férié aux termes de l’art. 20 du même Code.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0330">
                     <head>332. - Transport maritime. — Fins de non recevoir des art. 274 et 275 C.
                         Mar:; assignation en Référé n'équivalant pas a l'action en justice. —
                         Assurance maritime; réclamation d'avaries; prescription quinquennale;
@@ -4575,7 +4586,7 @@
                             prescription.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0340">
                     <head>333. - Transport maritime. — Fins de non recevoir des art. 274-275 C. Com.
                         Mar.; faculté de les soulever en degré d'appel; renonciation formelle ou
                         tacite; défaut de mention de l'irrecevabilité dans une instance en Référés;
@@ -4672,7 +4683,7 @@
                             de nouveau laissé plus de 31 jours s'écouler.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0350">
                     <head>334. - Transport maritime. — Fins de non recevoir des art. 274 et 275 C.
                         Mar.; inapplicabilité en cas de non réception des marchandises par le
                         destina'aire. —-•Connaissement; clauses limitatives de responsabilité du
@@ -4874,7 +4885,7 @@
                             échet de confirmer le jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0360">
                     <head>335. - Transport maritime. — Fins de non recevoir des art. 27i et 275 C.
                         Mar.; pourparlers interrompus; réclamations unilatérales; reprise des
                         pourparlers; interruption du délai. — Fins de non recevoir; renonciation
@@ -4900,7 +4911,7 @@
                             marchandise numérotée.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appel, Ire Ch., !>rés. M. if. Hansson, 21 Avril 1926. —
+                        <p>(Cour d’Appel, Ire Ch., !&gt;rés. M. if. Hansson, 21 Avril 1926. —
                             Etablissements Orosdi Back c. JE. Ch. Dilaveri et Co).</p>
                     </div>
                     <div type="observations">
@@ -4971,7 +4982,7 @@
                             Smyrne, d'où il s’ensuit qu'ils sont tenus de payer sa valeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-07-0370">
                     <head>336. - Transport maritime. — Vente sur. navire désigné; clause ci)'. —
                         Vente eom-, mereiale; résiliation; estimation des dommages à l'époque de la
                         livraison. — Connaissement; clause d'eronération pour les dommages
@@ -5167,9 +5178,9 @@
                 <p>Jusqu’à P.T. 5 inclusivement P.T. 0,5.</p>
                 <p> P.T. P.T. P.T. </p>
                 <p>Au-dessus de 5 à 10 inclusivement 1 </p>
-                <p>» >> 10 tt 20 tt 2</p>
+                <p>» &gt;&gt; 10 tt 20 tt 2</p>
                 <p>)) )) 20 tt 30 tt 3</p>
-                <p>» )> 30 tt 40 tt 4</p>
+                <p>» )&gt; 30 tt 40 tt 4</p>
                 <p>)) » 40 tt 50 )) 5</p>
                 <p>» « 50 D 60 tt 6</p>
                 <p>)) « 60 tt 70 tt 7</p>
@@ -5183,7 +5194,7 @@
                 <p>» » 140 tt 150 tt 15</p>
                 <p>» )) 150 tt 160 tt 16</p>
                 <p>» « 160 tt 170 tt 17</p>
-                <p>)) )> 170 tt 180 » 18</p>
+                <p>)) )&gt; 170 tt 180 » 18</p>
                 <p>)) » 180 )) 190 tt 19</p>
                 <p>D » 190 )) 200 tt 20</p>
                 <p>tt « 200 H 210 » 21</p>
@@ -5197,7 +5208,7 @@
                 <p>tt » 400 tt 450 tt 45</p>
                 <p>tt » 450 tt 500 tt 50</p>
                 <p>» « 500 tt 600 tt 60</p>
-                <p>)) )> 600 )) 700 )) 70</p>
+                <p>)) )&gt; 600 )) 700 )) 70</p>
                 <p>tt » 700 tt 800 tt 80</p>
                 <p>» » 800 tt 900 tt 90</p>
                 <p>tt D 900 D 1000 tt 100</p>

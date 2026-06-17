@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1934-11-10">November 10, 1934</date><lb/>
-                    <biblScope unit="volume">Vol. 25</biblScope><lb/>
-                    <biblScope unit="number">No. 289</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1934-11-10">November 10, 1934</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 25</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 289</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -74,7 +85,7 @@
             </div>
             <div type="article">
                 <head>QUESTIONS DE JURISPRUDENCE.</head>
-                <p>QUI PEUT O UU CHEF U'UU FAIT PRtlUDICliULE ? &lt;a></p>
+                <p>QUI PEUT O UU CHEF U'UU FAIT PRtlUDICliULE ? &lt;a&gt;</p>
                 <p>L’art. 212 du Gode Civil mixte qui oblige l’auteur de tout fait poursuivi par la
                     loi à réparer le préjudice qui en résulte, peut être invoqué naturellement en
                     premier lieu par la victime directe du fait, tant pour le préjudice matériel que
@@ -605,7 +616,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0010">
                     <head>1. - Responsabilité. — Accident d’automobile; accident causé par l'employé
                         du garagiste chargé d’emmener et de ramener les voitures des clients;
                         responsabilité civile exclusive du garagiste.</head>
@@ -656,7 +667,7 @@
                             dirigée contre Daopoulo...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0020">
                     <head>2. - Responsabilité. — Accident d'automobile; autobus; collision;
                         blessures subies par un voyageur ayant laissé le bras hors d'une portière;
                         défaut d'imprudence de ce dernier.</head>
@@ -713,7 +724,7 @@
                         <p>Note. — Rappr. ci-après § 20, l’arrêt du 12 Avril 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0030">
                     <head>3. - Responsabilité. — Accident d'automobile; circulation d'un véhicule au
                         milieu de la chaussée; cas où elle n'implique point faute.</head>
                     <div type="summary">
@@ -790,7 +801,7 @@
                             une faute de la part du chauffeur d’autobus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0040">
                     <head>4. - Responsabilité. — Accident d'au-mobile; circulation sur les avenues
                         composées de deux voies parallèles; accident causé par une automobile
                         roulant à contresens; faute de l'automobiliste indépendante de la tolérance
@@ -841,7 +852,7 @@
                             viendrait derrière elle...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0050">
                     <head>5. - Responsabilité. — Accident d'automobile; défaut de visibilité;
                         brouillard ne constituant pas force majeure.</head>
                     <div type="summary">
@@ -858,7 +869,7 @@
                             Joseph Chatziantonis-et autres c. André Pailhas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0060">
                     <head>6. - Responsabilité. — Accident d'automobile; distance à observer entre
                         véhicules roulant dans le même sens.</head>
                     <div type="summary">
@@ -941,7 +952,7 @@
                             cherché à s’y conformer, freinant sa voiture, mais il n’y a pas réussi,
                             malgré l’espace plus que suffisant qu’il avait à sa disposition, soit en
                             raison de sa vitesse excessive, soit en raison du mauvais état de ses
-                            freins. Dans un cas, com-me.t>ans l’autre, c’est à lui que la
+                            freins. Dans un cas, com-me.t&gt;ans l’autre, c’est à lui que la
                             responsabilité de l’accident doit être attribuée, et 9 est donc à juste
                             raison que les premiers juges ont retenu solidairement responsable ie
                             Gouvernement Egyptien, dont ce chauffeur est le préposé.</p>
@@ -957,7 +968,7 @@
                             réduction.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0070">
                     <head>7. - Responsabilité. — Accident d’automobile; distance à observer entre
                         véhicules roulant dans le même sens; signal annonçant l’arrêt; usage;
                         appareil dénommé «stop»; usage non obligatoire; conduite de là voiture;
@@ -1046,7 +1057,7 @@
                         <p>Note. V. ég. ci-avant § 6 l’arrêt du 12 Avril 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0080">
                     <head>8. - Responsabilité. — Accident d'automobile; faute, seul élément
                         générateur de responsabilité; qualité de propriétaire de la voiture, sans
                         influence sur la responsabilité du propriétaire.</head>
@@ -1086,7 +1097,7 @@
                         <p>Note. — V. ’ég. ci-après § 15 l’arrêt du 29 Mars 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0090">
                     <head>9. - Responsabilité. — Accident d'automobile; route à trafic intense;
                         piéton traversant subitement la chaussée; faute; vitesse à observer par les
                         automobilistes.</head>
@@ -1175,7 +1186,7 @@
                             responsabilité de Sabry.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0100">
                     <head>10. - Responsabilité. — Accident d'automobile; tamponnement d'un véhicule
                         à l'arrêt par suite d’une manœuvre rendue nécessaire par la faute d'un
                         tiers; défaut d'action en réparation contre l’auteur du tamponnement.</head>
@@ -1220,7 +1231,7 @@
                             demeurée malheureusement non identifiée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0110">
                     <head>11. - Responsabilité. — Accident d'au-tômobile; transport gratuit; faute
                         lourde indispensable pour engager la respon-s'ablité du transporteur
                         bénévole.</head>
@@ -1240,7 +1251,7 @@
                             1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0120">
                     <head>12. - Responsabilité. — Accident d'automobile; transport gratuit; faute
                         lourde nettement cdrdctéfisée engageant la responsabilité du transporteur
                         bénévole.</head>
@@ -1264,7 +1275,7 @@
                     </div>
                 </div>
                 <pb n="11" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0130">
                     <head>13. - Responsabilité. — Accident d'automobile; .transport gratuit; faute
                         lourde nettement caractérisée engageant la responsabilité du transporteur
                         bénévole; théorie du risque accepté; limites de fait. — Responsabilité
@@ -1507,7 +1518,7 @@
                             Mars 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0140">
                     <head>14. - Responsabilité. &lt;— Accident d'automobile; vitesse admise sur les
                         grandes routes; piétons; prudence à observer; tamponnement d'un piéton
                         débouchant inopinément d’une ruelle transversale sur la grande roule; faute
@@ -1581,7 +1592,7 @@
                             prétention de responsabilité à charge de Helmi bey El Dib.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0150">
                     <head>15. - Responsabilité. — Accident d'automobile; voiture confiée à autrui;
                         défaut de responsabilité du propriétaire résultant de cette qualité ou du
                         fait qu'il avait la garde de la voiture. — Automobile confiée à autrui;
@@ -1731,7 +1742,7 @@
                             fait préjudiciable? ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0160">
                     <head>16. - Responsabilité. — Accident de chemin de fer; passages à niveau;
                         distinction entre passages à niveau gardés et non gardés; obligations
                         incombant à l'Administration; obligations incombant au public; actes de
@@ -1902,7 +1913,7 @@
                             arrêts des 17 Novembre 1932 et 19 Avril 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0170">
                     <head>17. - Responsabilité. — Accident de chemin de fer; passages à niveau non
                         gardés et non barrés; obligations incombant au public; défaut de
                         signalisation n'entraînant pas responsabilité de l'Administration en cas de
@@ -1978,8 +1989,8 @@
                             destiné à indiquer remplacement de la voie ferrée qui est la cause ou
                             l’une des causes de l’accident, car non seulement le chauffeur avait une
                             exacte connaissance des lieux, mais il résulte aussi ùe sa déposition
-                            qu’il savait parfaitement qu >1 approchait de la voie ferrée et allait
-                            traverser celle-ci;</p>
+                            qu’il savait parfaitement qu &gt;1 approchait de la voie ferrée et
+                            allait traverser celle-ci;</p>
                         <p>Attendu que de tous les éléments de la cause, il résulte à suffisance de
                             droit que lo chauffeur n’a pas usé de tous lés moyens de précaution
                             qu’un homme avisé et pru-tanceaUrait Pendre en pareille circons-</p>
@@ -1990,7 +2001,7 @@
                             ci-après § 18 1 arrêt du 19 Avril 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0180">
                     <head>18. - Responsabilité. — Accident de chemin de fer; passages à niveau non
                         gardés; faute dérivant de manœuvres anormales et imprudentes de
                         wagons.</head>
@@ -2059,7 +2070,7 @@
                             l'arrêt du 17 Novembre 1932.,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0190">
                     <head>19. - Responsabilité. — Accident de tramway; accident survenu à un arrêt
                         non réglementaire; cas de faute commune de la victime et de la
                         Compagnie.</head>
@@ -2185,7 +2196,7 @@
                             la proportion de moitié, à la somme de L.E. 200.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0200">
                     <head>20. - .Responsabilité. — Accident de tramway; blessure subie par un
                         voya-geur ayant laissé le bras hors d'une portière; défaut d’imprudence de
                         ce dernier; responsabilité de la Compagnie dérivant du tracé défectueux
@@ -2294,8 +2305,8 @@
                             Société tient à observer que lp Tanzim n’a fait que lui adresser une
                             prièPé et non pas un ordre: cette- observation ne mérite pas qu’on s’y
                             arrête.</p>
-                        <p>Elle observe en outre que l’élargissement objet de cette .&lt;> prière »
-                            concernait d’autres lignes du . réseau et ne concernait pas la ligne
+                        <p>Elle observe en outre que l’élargissement objet de cette .&lt;&gt; prière
+                            » concernait d’autres lignes du . réseau et ne concernait pas la ligne
                             Embabeh-Zamalek.</p>
                         <pb n="17" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>Elle ajoute « que le Tanzim sait parfaitement que sans modification de
@@ -2337,7 +2348,7 @@
                         <p>Note. — Rappr. ci-avant § 2 l’arrêt du 15 Juin 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0210">
                     <head>21. - Responsabilité. — Accident de tramway; précautions à prendre par le
                         wattman; cycliste; imprudence.</head>
                     <div type="summary">
@@ -2425,7 +2436,7 @@
                             toute évidence elle constitue seule la cause de l’accident.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0220">
                     <head>22. - Responsabilité. — Accident du travail; accident provoqué par
                         l’affectation d'un ouvrier à un travail sortant de ses fonctions
                         habituelles; responsabilité du patron; partage de responsabilités en. cas
@@ -2538,7 +2549,7 @@
                             290-331.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0230">
                     <head>23. - Responsabilité. — Accident du travail: dédommagement offert à la
                         victime sous forme de nouvel emploi; renonciation tacite à une indemnité
                         pécuniaire. — Louage de services: réduction de salaires à titre de mesure
@@ -2648,7 +2659,7 @@
                             ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0240">
                     <head>24. - Responsabilité. — Accident du travail; faute du patron; preuve par
                         précomptions. — Accident; offre d'inlervefl-iion chirurgicale; cas où la
                         victime ne peut s'y refuser.</head>
@@ -2727,7 +2738,7 @@
                             l’opération suggérée par les défendeurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0250">
                     <head>25. - Responsabilité. — Accident du travail; obligations du patron;
                         étendue; précautions pour la sécurité de l'ouvrier.</head>
                     <div type="summary">
@@ -2784,7 +2795,7 @@
                         <p>Note. — Comp. ci-après § 26 l’arrêt du 25 Janvier 1934, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0260">
                     <head>26. - Responsabilité. — Accident du travail; obligations du patron;
                         étendue; travaux dangereux; omission de précautions nécessaires pour la
                         sécurité de l'ouvrier. — Louage de services; renvoi motivé par un procès en
@@ -2980,7 +2991,7 @@
                             meilleure et plus stricte réglementation du contrat de travail.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0270">
                     <head>27. - Responsabilité. — Accident du travail; règlement prévoyant le droit
                         de l’ouvrier à l’indemnité; renversement du fardeau de la preuve.</head>
                     <div type="summary">
@@ -3000,7 +3011,7 @@
                             Electrique de la Basse-Egypte c. Nicolas Polymenis et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0280">
                     <head>28. - Responsabilité. — Accidents de la circulation; surveillance; routes;
                         responsabilité de l'Administration; accident survenu sur un pont non encore
                         ouvert à la circulation; responsabilité de l'en-trèpreneur des
@@ -3127,7 +3138,7 @@
                             2000.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0290">
                     <head>29. - Responsabilité. — Actes de négligence ou d'imprudence;
                         Administration des téléphones; tranchées provoquant des voies
                         d'infiltration; défaut de précaution; responsabilité.</head>
@@ -3232,7 +3243,7 @@
                             des dommages-intérêts, la Cour observe que...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0300">
                     <head>30. - Responsabilité. — Actes frauduleux; action ex delicto indépendante
                         de toute qualification pénale. — Dommages-intérêts; dettes de somme
                         d'argent; cas où des dommages-intérêts peuvent être réclamés en outre des
@@ -3403,7 +3414,7 @@
                             réclamer ces sommes en justice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0310">
                     <head>31. - Responsabilité. — Assurance; action directe de la victime à
                         l’encontre de l'assureur de l'auteur de l'accident; recevabilité.</head>
                     <div type="summary">
@@ -3441,7 +3452,7 @@
                             Décembre 1933).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0320">
                     <head>32. - Responsabilité. — Bâtiments; bail; dommages; inondation d'un
                         sous-sol exposé à l'entrée des eaux de pluie; responsabilité
                         quasi-délictuelle du propriétaire à l’égard du locataire. ■— Administration;
@@ -3531,7 +3542,7 @@
                         <p>Note, Rappr. ci-après § 41 l'arrêt-du 5 Avril 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0330">
                     <head>33. - Responsabilité. — Bâtiments; bail; garde des robinets et objets
                         inanimés; dommages; infiltrations d'eau; responsabilités respectives du
                         propriétaire et du locataire; critérium. — Actes d'imprudence et de
@@ -3757,7 +3768,7 @@
                         <p>Note. — I à IV. - V. Gaz. XVIII. 237-301, l’arrêt du 23 Juin 1927.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0340">
                     <head>34. - Responsabilité. — Bâtiments: responsabilité du propriétaire
                         d'immeuble à l’égard des tiers.</head>
                     <div type="summary">
@@ -3827,7 +3838,7 @@
                             demande...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0350">
                     <head>35. - Responsabilité. — Batiments; voisinage; responsabilité du
                         constructeur à l’égard des propriétaires voisins; limites; fondations au
                         marteau-pilon; mauvais état des immeubles voisins; obligations des
@@ -3950,7 +3961,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0360">
                     <head>36. - Responsabilité. — Commettant; actes de ses préposés; fautes commises
                         à l'occasion des fonctions; boab; voies dé fait sur un locataire;
                         responsabilité du propriétaire.</head>
@@ -4005,7 +4016,7 @@
                             Avril 1931 et du 1er Juin 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0370">
                     <head>37. - Responsabilité. — Commettant; actes de ses préposés; fautes commises
                         à l’occasion des fonctions; mandat tacite du préposé; accident d'automobile
                         causé par un gardien de la voiture; responsabilité du maître. —
@@ -4143,7 +4154,7 @@
                         <p>IV. - V. ci-avant § 31 la note sous l’arrêt du 24 Mai 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0380">
                     <head>38. - Responsabilité. •— Commettant; actes de ses préposés; fautes
                         commises à l'occasion des fonctions; receveur d’autobus; voies de fait sur
                         un voyageur; responsabilité de la Compagnie.</head>
@@ -4192,12 +4203,14 @@
                             régulier de la fonction; le maître est responsable même s’il y a abus de
                             la fonction; or, dans le cas de l’espèce, l’agression est la suite
                             directe de l’exercice de la fonction et elle a été commise dans
-                            l’autobus que conduisait le chauffeur... </p></div><div type="observations"><p>Note. — V. ci-avant § 37
-                            l’arrêt du 14 Décembre 1933 et ci-après § 39 l’arrêt du 1er Juin
-                            1933.</p>
+                            l’autobus que conduisait le chauffeur... </p>
+                    </div>
+                    <div type="observations">
+                        <p>Note. — V. ci-avant § 37 l’arrêt du 14 Décembre 1933 et ci-après § 39
+                            l’arrêt du 1er Juin 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0390">
                     <head>39. - Responsabilité. — Commettant; actes de ses préposés; fautes commises
                         à l’occasion des fonctions; responsabilité du maître dérivant de l’abus des
                         fonctions.</head>
@@ -4256,7 +4269,7 @@
                             Avril 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0400">
                     <head>40. - Responsabilité. — Dommages-intérêts; préjudice; aggravation;
                         réclamation d'un supplément d'indemnité par une instance nouvelle;
                         admissibilité en cas d'aggravation du préjudice; décès de la victime;
@@ -4289,9 +4302,9 @@
                             accueillant l’action de la Dame Khalikis et ses filles, a condamné les
                             appelants et le Sieur Barocas, èsqualité, à payer conjointement et
                             solidairement à ces dernières, la somme de L.E. 1200, en réparation du
-                            préjudice qu’elles auraient éprouvé >à la suite de la mort de leur fils
-                            et frère, Philippe Khalikis, prétendument occasionnée par l’inhalation
-                            des vapeurs dégagées par la Duco.</p>
+                            préjudice qu’elles auraient éprouvé &gt;à la suite de la mort de leur
+                            fils et frère, Philippe Khalikis, prétendument occasionnée par
+                            l’inhalation des vapeurs dégagées par la Duco.</p>
                         <p>Il est de jurisprudence constante que la victime d’un accident, causé par
                             la faute d’autrui, après avoir obtenu des dommages-intérêts par une
                             première décision de justice, peut demander, dans une nouvelle instance,
@@ -4353,7 +4366,7 @@
                             a lieu d’infirmer le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0410">
                     <head>41. - Responsabilité. — Entreprises d'utilité publique; canalisation des
                         eaux des rues; compétence exclusive et souveraine de l'Administration;
                         dommages causés par des vices de construction ou le mauvais entretien du
@@ -4500,7 +4513,7 @@
                         <p>Note. — Rappr. ci-avant § 32 l’arrêt du 5 Mars 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0420">
                     <head>42. - Responsabilité. — Garantie de solvabilité; responsabilité du garant
                         en cas d'attestation sciemment inexacte.</head>
                     <div type="summary">
@@ -4514,7 +4527,7 @@
                             des Moteurs Otto Deutz c. Mohamed Ereidi Masseoud.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0430">
                     <head>43. - Responsabilité. — Huissiers; qualité d'officiers publics;
                         responsabilité exclusivement personnelle; action en responsabilité contre le
                         Ministère de la Justice pour faute d’un huissier; non recevabilité. —
@@ -4638,7 +4651,7 @@
                             15.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0440">
                     <head>44. - Responsabilité. — Médecin; erreurs de diagnostic et de traitement;
                         conditions pour qu'elles justifient une action en responsabilité.</head>
                     <div type="summary">
@@ -4774,7 +4787,7 @@
                             faute lourde du médecin; que tel n’est évidemment pas le cas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0450">
                     <head>45. - Responsabilité. — Préjudice; aggravation; obligation de l'auteur de
                         la faute originaire; étendue; recours contre l'auteur de la faute
                         subséquente en vue de la contribution à la réparation du dommage.</head>
@@ -4816,7 +4829,7 @@
                             compte de l’appelante (C.A. Gaz. Trib. XIV, 6-7)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0460">
                     <head>46. - Responsabilité. — Promesse de mariage écrite; concubinage prolongé;
                         réclamation d'indemnité par la concur bine après le décès du concubin;
                         inadmissibilité.</head>
@@ -4866,7 +4879,7 @@
                         <p>Note. — Comp. cep. Gaz. XXII, 306-351, l’arrêt du 23 Février 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0470">
                     <head>47. - Responsabilité. — Promesse de mariage; rupture; caractère licite;
                         cas où elle peut engendrer une action en dommages-intérêts.</head>
                     <div type="summary">
@@ -4971,7 +4984,7 @@
                             Avril 1931, Gaz. -XXII, 307-352.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0480">
                     <head>48. - Responsabilité. — Service télégraphique international; erreurs de
                         transmission; exonération de responsabilité; Convention télégraphique
                         internationale de Saint-Pétersbourg du 22 Juillet 1875; adhésion de
@@ -5963,7 +5976,7 @@
                             Parquet Alex. As-sabgui.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0490">
                     <head>49. - Responsabilité. — Sociétés d’utilité publique; droits et devoirs
                         envers les particuliers; Société Royale d’Agri-cultûre; organisation
                         d’expositions publiques; refus d’admission d’exposants; cas où il peut
@@ -6073,7 +6086,7 @@
                             Co. n aurait qu’à s’en prendre à elle-même.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0500">
                     <head>50. - Responsabilité. — Transport maritime: passagers; vol d’objets de
                         valeur; clause d exonération de responsabilité insérée dans les billets de
                         passage; validité; cas de vol commis avant lé départ du bateau.</head>
@@ -6156,7 +6169,7 @@
                             pour les motifs ci-dessus, le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0510">
                     <head>51. - Responsabilité. — Transport onéreux; accident; droit à réparation,
                         subordonné à la seule preuve de la matérialité du dommage; cas où l’accident
                         est survenu par la faute d'un tiers; recours du transporteur.</head>
@@ -6196,7 +6209,7 @@
                             la faute par lui commise...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-11-0520">
                     <head>52. - Responsabilité. — Travaux publics; accident; tranchées protégées au
                         moyen de cordes; défaut de responsabilité de l'entrepreneur.</head>
                     <div type="summary">

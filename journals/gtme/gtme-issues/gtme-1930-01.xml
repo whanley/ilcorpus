@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1930-01-10">January 10, 1930</date><lb/>
-                    <biblScope unit="volume">Vol. 20</biblScope><lb/>
-                    <biblScope unit="number">No. 231</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1930-01-10">January 10, 1930</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 20</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 231</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -60,8 +71,8 @@
                 <p>— à la Gazette (un an).... P.T. 15Û</p>
                 <p>— au Journal ;</p>
                 <p>— Un an................. » iso</p>
-                <p>— Six mois............. > 85</p>
-                <p>— Trois mois......... > 50</p>
+                <p>— Six mois............. &gt; 85</p>
+                <p>— Trois mois......... &gt; 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an) ........ » 250</p>
                 <p>Administrateur-Gérant :</p>
@@ -609,7 +620,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0010">
                     <head>53. - Actes de commerce. — Qualité de commerçant; preuve; reconnaissance
                         tacite. — Prêt sur gage; contrat civil; cas où il constitue un acte de
                         commerce.</head>
@@ -680,7 +691,7 @@
                             date du protêt du billet à ordre dont le montant est en souffrance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0020">
                     <head>54. - Aliments. — Action introduite en base des articles 217 et 218 C.
                         Civ.; filiation légitime; compétence de la Juridiction mixte. — Demande de
                         pension alimentaire formée par un enfant naturel; incompétence de la
@@ -808,7 +819,7 @@
                             cette jurisprudence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0030">
                     <head>55. - Aliments. — Application de l'art. 218 C. Civ. aux enfants naturels
                         reconnus.</head>
                     <div type="summary">
@@ -892,7 +903,7 @@
                             la pension tant pour le passé que pour l’avenir.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0040">
                     <head>56. - Aliments. — Interdit bénéficiaire d'un wakf; frais d'hospitalisation
                         grevant le patrimoine de l'interdit; cas où le curateur de ce dernier y est
                         personnelle-ment tenu. — Wakf; part des revenus revenant au bénéficiaire;
@@ -1188,7 +1199,7 @@
                             laquelle ils n’étaient pas en droit de compter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0050">
                     <head>57. - Aliments. — Pension alimentaire allouée au bénéficiaire d'un wakf
                         sur sa part de revenus; insaisissabilité; caractère non privilégié de la
                         pension alimentaire; conséquences découlant de l'insaisissabilité.</head>
@@ -1282,7 +1293,7 @@
                             au marc le franc entre ses créanciers chirographaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0060">
                     <head>58. - Avocat. — Faute lourde invoquée par son client; absence de preuve;
                         doute profitant à l'avocat; honoraires dus à ce dernier.</head>
                     <div type="summary">
@@ -1333,7 +1344,7 @@
                             dues à l’incapacité ou à l’insuffisance de son avocat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0070">
                     <head>59. - Avocat. — Honoraires; procès plaidés devant les Juridictions mixtes;
                         compétence exclusive de celles-ci.</head>
                     <div type="summary">
@@ -1374,7 +1385,7 @@
                             droits...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0080">
                     <head>60. - Avocat. — Honoraires; procuration donnée à un mandataire
                         d'introduire une action en justice au nom de son mandant; avocat chargé par
                         le mandataire d'occuper pour le mandant; droits de l'avocat contre le
@@ -1505,7 +1516,7 @@
                             de ses droits en contestant le commandement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0090">
                     <head>61. - Avocat. — Honoraires; taxe requise contre le client; justification
                         nécessaire du mandat et du travail fourni; opposition à taxe; discussion ne
                         pouvant porter sur la répartition du paiement des honoraires.</head>
@@ -1625,7 +1636,7 @@
                             1927.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0100">
                     <head>62. - Avocat. — Mandat ad litem; production nécessaire; art. 49 C. Proc,
                         et 222 R.O.J.; avocat n'ayant pas déposé le. mandat de son client; jugement
                         rendu contre celui-ci contradictoirement; caractère de jugement par défaut;
@@ -1695,7 +1706,7 @@
                             pour qu’il soit statué sur le fond du litige.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0110">
                     <head>63. - Avocat. — Procédure en matière disciplinaire; application des
                         dispositions en matière pénale; arrêt de défaut; acquiescement par l'avocat
                         condamné; opposition ultérieure par lui; irrecevabilité; délai d'opposition;
@@ -1785,7 +1796,7 @@
                             signification do l’arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0120">
                     <head>64. - Cession. — Cession conditionnelle. par un héritier de partie de ses
                         droits, héréditaires à un de ses cohéritiers; conditions de validité. —
                         Obligation; cause; intérêt moral. — Cachet; apposition sur une obligation;
@@ -1976,7 +1987,7 @@
                     </div>
                 </div>
                 <pb n="61" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0130">
                     <head>65. - Cession. — Cession en garantie; droits du cédant après paiement de
                         la créance garantie. — Prescription libératoire; interruption; instance
                         pendante; décision rendue; signification; effets; prescription de la cause
@@ -2155,7 +2166,7 @@
                             formulait une demande contre elle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0140">
                     <head>66. - Cession. — Cession en paiement d'une créance déjà cédée en garantie;
                         validité; objet; situation juridique du premier cessionnaire une fois assuré
                         le montant garanti; qualité de prête-nom du cédant.</head>
@@ -2241,7 +2252,7 @@
                             trois intimés qui font défaut.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0150">
                     <head>67. - Cession. — Créance entre indigènes; cession; acceptation anticipée;
                         validité. — Demande en justice; recevabilité; éléments étrangers à celle-ci.
                         — Renonciation à un droit, ne se présumant pas. — Clause pénale; conditions
@@ -2399,7 +2410,7 @@
                             d’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0160">
                     <head>68. - Cession. — Créance entre indigènes; cession à un étranger
                         inopposable au débiteur cédé par application de l'article 436 C. Civ.;
                         action oblique exercée contre ce dernier devant la Juridiction mixte;
@@ -2518,7 +2529,7 @@
                         <p>(Omissis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0170">
                     <head>69. - Cession. — Dette simulée; cession; cessionnaire de bonne foi;
                         débiteur non recevable à prouver la simulation; recours du débiteur contre
                         le cédant; obligations souscrites entre amants; cas où elles sont entachées
@@ -2707,7 +2718,7 @@
                             ès-nom et qualité aux dépens...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0180">
                     <head>70. - Cession. — Endossement; portée sur les écrits ne contenant pas la
                         clause à ordre. — Cession; défaut de. signification au débiteur cédé;
                         mention dans l'assignation en paiement à la requête du cessionnaire;
@@ -2773,7 +2784,7 @@
                             parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0190">
                     <head>71. - Cession. — Jugement rendu au profit d'un prête-nom; cession par ce
                         dernier; condition de validité. — Jugement rendu par les Tribunaux mixtes;
                         appel; Juridiction mixte seule compéten-te.</head>
@@ -2790,7 +2801,7 @@
                             Mars 1929. — Abdallah Chalabi Chahine c. Moukhtar Eff. El Baz).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0200">
                     <head>72. - Cession. — Jugement rendu par la Juridiction mixte au profit d'un
                         indigène et à l'encontre d'un autre indigène; inapplicabilité de l'art. 436
                         C. Civ. — Statut personnel musulman; interdiction; actes passés par le
@@ -2955,7 +2966,7 @@
                             sincérité de la prétendue date de cet acquiescement et sa validité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0210">
                     <head>73. - Choses perdues ou volées. — Revendication; admissibilité de
                         revendication contre tout détenteur; cas où le détenteur possède nomine
                         alieno; mise en cause du possesseur pouvant être ordonnée d'office;
@@ -3328,7 +3339,7 @@
                             d’être examinée en l’absence du Sieur Goldemberg.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0220">
                     <head>74. - Choses perdues ou volées. — Revendication; inadmissibilité à l’égard
                         des objets dont tm dépositaire a indûment disposé.</head>
                     <div type="summary">
@@ -3398,7 +3409,7 @@
                             jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0230">
                     <head>75. - Choses perdues ou volées. — Revendication; prescription de trois ans
                         édictée par l’article 115 C. Civ., ne pouvant être invoquée par un détenteur
                         de mauvaise foi. — Instruction pénale devant l'autorité indigène; décision
@@ -3463,7 +3474,7 @@
                             Joseph Clappier c. Dame Sauvina Michaelian et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0240">
                     <head>76. - Courtage. — Demandes introduites par une seule instance par le
                         courtier contre le vendeur et l'acheteur; recevabilité; opportunité d'une
                         jonction en cas d'introduction de. deux instances, séparées. — Jonction
@@ -3611,7 +3622,7 @@
                             l’acheteur...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0250">
                     <head>77. - Courtage. — Expiration du mandat conféré au courtier; conclusion
                         ultérieure de l’accord, sans l’entremise du courtier; défaut de droit de ce
                         dernier à une rémunération; cas où celle-ci serait due.</head>
@@ -3766,7 +3777,7 @@
                             frais.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0260">
                     <head>78. - Entreprise. — Stipulation relative à la réfection d'ouvrages
                         accusant des malfaçons; portée; cas où la réfection ne peut être exigée par
                         le propriétaire; dommages-intérêts pouvant être dus à ce dernier.</head>
@@ -3844,7 +3855,7 @@
                             honoraires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-01-0270">
                     <head>79. - Mandat. — Biens appartenant à des sociétés de bienfaisance; gérant
                         salarié; action populaire au profit des pauvres; inadmissibilité.</head>
                     <div type="summary">

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0027-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0027-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1937-07-10">July 10, 1937</date><lb/>
-                    <biblScope unit="volume">Vol. 27</biblScope><lb/>
-                    <biblScope unit="number">No. 321</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1937-07-10">July 10, 1937</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 27</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 321</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -55,7 +66,7 @@
                 <p>Comité de Rédaction et d’Administration :</p>
                 <p>M&lt;* L. PANGALO et K. 8CHEMEIL (Directeurs au Caire)</p>
                 <p>M" E. DEGIARDE et LUCIEN BARDA (Secrétaires de la rédaction).</p>
-                <p>M> A. FADEL (Directeur à JfansouraA). M» F. BRAUN j (Oomspondants â Paris,</p>
+                <p>M&gt; A. FADEL (Directeur à JfansouraA). M» F. BRAUN j (Oomspondants â Paris,</p>
                 <p>Me G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT !</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an). P.T. 150</p>
@@ -1968,7 +1979,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-07-0010">
                     <head>189. - Nationalité. — Nationalité I égyptienne; présomption à l’égard des
                         habitants du pays; certificat consulaire; insuffisance de valeur probante
                         contre un document du Gouvernement Egyptien basé sur les registres de l’état
@@ -2068,7 +2079,7 @@
                             soulevé cette exception qu’à la dernière phase du procès.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-07-0020">
                     <head>190. - Nationalité. — Naturalisation; caractère et effets; acquiescement
                         par le. Gouvernement Egyptien à une naturalisation étrangère; effets. —
                         Naturalisation étrangère; pouvoir de contrôle du juge; limite; cas où la
@@ -2705,7 +2716,7 @@
                             175-130, et la note su b II.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-07-0030">
                     <head>191. - Nationalité. &lt;— Protection étrangère; inscription dans les
                         registres d'un Consulat; portée; limites. — Bes-ponsabilité; action en
                         dommages-intérêts pour délit ou quasi-délit; caractère personnel ne
@@ -2815,7 +2826,7 @@
                             que le créancier peut exercer au nom de son débiteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-07-0040">
                     <head>192. - Nationalité. — Tunisiens; con-servationde leur nationalité
                         nonobstant la protection française. ■— Femme éfranc/ère ayant épousé un
                         Tunisien; conservation de sa nationalité d’origine.</head>
@@ -2903,7 +2914,7 @@
                 <p>Septembre » - Contrats civils: Cautionnement. - Gage. - Prêt.</p>
                 <p>Octobre » - Assurances.</p>
                 <p>Novembre » - Responsabilité.</p>
-                <p>Décembre > - Bail.</p>
+                <p>Décembre &gt; - Bail.</p>
                 <p>Janvier 1937 - Concordat préventit et Faillite.</p>
                 <p>Février * - Expropriation pour cause d’utilité publique.- Questions
                     administratives.</p>

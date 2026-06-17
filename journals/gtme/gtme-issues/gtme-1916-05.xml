@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0006-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0006-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1916-05-10">May 10, 1916</date><lb/>
-                    <biblScope unit="volume">Vol. 6</biblScope><lb/>
-                    <biblScope unit="number">No. 67</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1916-05-10">May 10, 1916</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 6</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 67</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -280,7 +291,7 @@
             <pb n="99" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0010">
                     <head>292. - Affréteurs. — Entrepreneurs de transports. — Responsabilité en cas
                         d’innavigabilité du navire. — Clauses du connaissement.</head>
                     <div type="summary">
@@ -304,7 +315,7 @@
                             et Nader c. Barker et Co. et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0020">
                     <head>293. - Avocat. — Honoraires. — Contrat d’abonnement.— Taxe.— Mandat.—
                         ■Salaire. — Arbitrage du Juge. — Louage ■de services.</head>
                     <div type="summary">
@@ -509,7 +520,7 @@
                             rétractée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0030">
                     <head>294. - Audience. — Publicité. — Tribunaux de répression. — Formalités
                         prescrites.</head>
                     <div type="summary">
@@ -525,7 +536,7 @@
                             Toussaint Caneri c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0040">
                     <head>295. - Bail de la chose d’autrui. — 'Créancier papiste. — Serment
                         litisdécisoire. — Délation vexatoire.</head>
                     <div type="summary">
@@ -552,7 +563,7 @@
                             Toubia Guirguis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0050">
                     <head>296. - Bail. — Réparations à charge du propriétaire.</head>
                     <div type="summary">
                         <p>En principe, et sauf stipulation contraire, les grosses réparations
@@ -566,7 +577,7 @@
                             Co c. Joseph Yacoub Dahan et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0060">
                     <head>297. - Bail. — Sous-locataire. — Déguerpissement. — Référés.</head>
                     <div type="summary">
                         <p>Les droits du sous-locataire dérivant de ceux du locataire doivent cesser
@@ -579,7 +590,7 @@
                             Abou Lima c. Gouvernement Egyptien et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0070">
                     <head>298. - Billet à ordre. — Aval. — Paiement. — Subrogation. — Juridiction
                         mixte. — Cession. — Indigènes-.</head>
                     <div type="summary">
@@ -635,7 +646,7 @@
                             Bank, créancier originaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0080">
                     <head>299. - Billet à ordre. — Bénéficiaires conjoints. — Indivisibilité de la
                         créance. — Endossement indivisible.</head>
                     <div type="summary">
@@ -650,7 +661,7 @@
                             A. Levi Garboua et Cie. c. Morcos Fahmi et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0090">
                     <head>300. - Billet à ordre. — Prescription — Aveu de non paiement. —
                         Reconnaissance par acte séparé. — Serment.</head>
                     <div type="summary">
@@ -677,7 +688,7 @@
                             Soliman c. David Abram.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0100">
                     <head>301. - Cassation. — Défaut d’intérêt. — Banqueroute. — Omission par le
                         Tribunal d’examiner un chef de prévention.</head>
                     <div type="summary">
@@ -698,7 +709,7 @@
                         <p>Note. — Comp. arr. 23 Février 1916, Gaz., VI, 85-259.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0110">
                     <head>302. - Cassation. — Moyens non indi-, gués au pourvoi. — Motivation
                         insuffisante. — Détournement.</head>
                     <div type="summary">
@@ -721,7 +732,7 @@
                             1915, Gaz., VI, 35-72.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0120">
                     <head>303. - Cassation. —. Nomenclature dans le jugement des chefs de
                         condamnation. — Mention de la date de l’infraction.</head>
                     <div type="summary">
@@ -743,7 +754,7 @@
                             — Mohamed Osman c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0130">
                     <head>304. - Cassation. — Questions à poser aux témoins. — Tribunal
                         Correctionnel. — Mentions du procès-verbal d'audience. — Détournement
                         d’objets saisis.</head>
@@ -772,7 +783,7 @@
                         <p>Note. — III. - V. ci-après arrêt 8 Mars 1916, § 309, et note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0140">
                     <head>305. - Cession entre indigènes. — Nullité. — Acceptation du débiteur cédé.
                         — Dépôt de la créance cédée en mains tierces.</head>
                     <div type="summary">
@@ -850,7 +861,7 @@
                             Code de procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0150">
                     <head>306. - Clause pénale. — Cumul avec d’autres dommages-intérêts.</head>
                     <div type="summary">
                         <p>La stipulation d’une clause pénale dans une convention n’empêche pas de
@@ -862,7 +873,7 @@
                             Guirguis El Bacha c. Mohamed Hassan El Chora).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0160">
                     <head>307. - Concurrence déloyale. —. Agent exclusif. — Commissionnaire.</head>
                     <div type="summary">
                         <p>Un commerçant ayant qualité et d’agent général et exclusif pour la vente
@@ -880,7 +891,7 @@
                             Cie et Andiea Cambas c. Dimitri Theo-doropoulo et Cts). ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0170">
                     <head>308. - Défense d’exécution.—Points soumis à la Cour.</head>
                     <div type="summary">
                         <p>La demande en défense d’exécution formée par la partie condamnée, ne
@@ -901,7 +912,7 @@
                             Giovannini Carlesi Olmi c. Marie Allaud).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0180">
                     <head>309. - Détournement d’objets saisis. — Caractère punissable. — Validité de
                         la saisie. — Revendication.</head>
                     <div type="summary">
@@ -925,7 +936,7 @@
                             Mars 1916 (ci-haut § 304).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0190">
                     <head>310. -Distribution. — Ordre. — Contribution. - Appel incident d’intimé à
                         intimé.</head>
                     <div type="summary">
@@ -940,7 +951,7 @@
                             Egypt Ltd en liq. c. Aboul el Gazzar et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0200">
                     <head>311. - Effets de commerce. — Cause commerciale. — Prescription
                         quinquennale.</head>
                     <div type="summary">
@@ -958,7 +969,7 @@
                             Chawkî c. Dimitri Anagnostopoulo).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0210">
                     <head>312. -Endossement. — Caractère réel. — Mandat au recouvrement.</head>
                     <div type="summary">
                         <p>La loi n’établissant aucune restriction à ce sujet, il appartient à tout
@@ -972,7 +983,7 @@
                             Deutsche.Orient Bank c. Henri Boulad et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0220">
                     <head>313. - Faillite. — Contre-lettre. — Syndic. — Tiers.</head>
                     <div type="summary">
                         <p>Le syndic d’une faillite, représentant les créanciers, est un tiers
@@ -1042,7 +1053,7 @@
                             pour son imprudence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0230">
                     <head>314. - Faillite. — Syndic. — Taxe, — Masse. — Créanciers.' — Insuffisance
                         d'actif.</head>
                     <div type="summary">
@@ -1193,7 +1204,7 @@
                         <p>Dépens à charge du requérant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0240">
                     <head>315. - Faillite. — Syndic. — Taxe. — Insuffisance d'actif. — Créanciers. —
                         Opposition à. commandement. — Compétence. — Recevabilité. —
                         Evocation.</head>
@@ -1280,7 +1291,7 @@
                             cause devant le Tribunal de première instance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0250">
                     <head>316. - Faillite. — Revendication immobilière. — Incompétence du Tribunal
                         de Commerce.</head>
                     <div type="summary">
@@ -1299,7 +1310,7 @@
                             esq. c. Aly Ibrahim Oda et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0260">
                     <head>317. - Faillite. — Secours alimentaire au failli et à sa famille. —
                         Délibération des créanciers.</head>
                     <div type="summary">
@@ -1314,7 +1325,7 @@
                             El Defraoui c. Bakr bey Badr El Dine esq.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0270">
                     <head>318. - Fins de non recevoir. — Délai de distance. — Réclamations
                         successives.</head>
                     <div type="summary">
@@ -1407,7 +1418,7 @@
                             eux-mêmes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0280">
                     <head>319. - Fins de non recevoir. — Opposabilité aux chargeurs. — Délais de
                         distance. — Impossibilité de protester dans les délais légaux.</head>
                     <div type="summary">
@@ -1448,7 +1459,7 @@
                         <p>Note. — V. arrêt 15 Mars 1916, ci-dessus. § 317, II.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0290">
                     <head>320 - Folle enchère. — Bail consenti sans fraude par le fol enchérisseur.
                         — Acte d’administration. — Adjudicataire.. — Plus value. —
                         Compensation.</head>
@@ -1503,7 +1514,7 @@
                             durée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0300">
                     <head>321. - Gage. — Perte de la chose gagée. — Responsabilité du créancier
                         gagiste.</head>
                     <div type="summary">
@@ -1520,7 +1531,7 @@
                             Badaoui c. lonian Bank Ltd et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0310">
                     <head>322. - Gage immobilier. — Inopposabilité du droit de rétention aux droits
                         réels antéiieurs à la transcription du gage.</head>
                     <div type="summary">
@@ -1539,7 +1550,7 @@
                             Décembre 1915, Gaz. VI, 36-84.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0320">
                     <head>323. - Gardien judiciaire. — Etendue de ses fonctions. — Nourriture de
                         bestiaux saisis.</head>
                     <div type="summary">
@@ -1552,7 +1563,7 @@
                             Lévt Carbon a &amp; Cie c. Mohamed bey Labib et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0330">
                     <head>324. - Incendie. — Responsabililé du' locataire. — Propriétaire.</head>
                     <div type="summary">
                         <p>La question de la responsabilité en matière d’incendie n’étant pas réglée
@@ -1582,7 +1593,7 @@
                             Agency &amp; Cts c. R.S. Koutzi &amp; Cie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0340">
                     <head>325. - Juridiction mixte. — Compétence. — Difficulté d'exécution, entre
                         indigènes, d'un jugement d’adjudication.</head>
                     <div type="summary">
@@ -1596,7 +1607,7 @@
                             eff. Ismaïl c. Mohamed efiendi Mohamed Isma'il).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0350">
                     <head>326. - Loyers. — Diminution. — Cas fortuit. — Décret du 30 Octobre 1914
                         sur l’acréage cotonnier.</head>
                     <div type="summary">
@@ -1619,7 +1630,7 @@
                             affaire (Gaz., VI, 73-219).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0360">
                     <head>327 - Plainte.— Responsabilité du plaignant. — Préjudice. — Dommages
                         intérêts.</head>
                     <div type="summary">
@@ -1646,7 +1657,7 @@
                             Nicolas L. Aniliadès c. Selim Samaha.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0370">
                     <head>328. - Presse. — Propriété littéraire. — Agence télégraphique..—
                         Reproduction des dépêches. — Enrichissement illicite.</head>
                     <div type="summary">
@@ -1759,7 +1770,7 @@
                             du défendeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0380">
                     <head>329. - Refuge. — Risque de guerre.— Assurance. „</head>
                     <div type="summary">
                         <p>Le refuge doit être considéré comme risque de guerre, lorsque la police
@@ -1776,7 +1787,7 @@
                             Schneider et. Rothacker c. Cie d’assurances Rossia).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0390">
                     <head>330. - Renvoi intempestif. — Indemnité. — Retraites d'ouvriers et
                         employés.</head>
                     <div type="summary">
@@ -1796,7 +1807,7 @@
                             c. John Victor Sachs et Co.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0400">
                     <head>331. - Signification au Parquet. — Domicile inconnu. — Commandement
                         immobilier. — Recherches insuffisantes. — Nullité de la procédure
                         d'expropriation.</head>
@@ -1816,9 +1827,8 @@
                             bey Chèrif El Bikhachi c. Jean Moustakas).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0410">
                     <head>332. - Stipulation pour autrui.</head>
-                    
                     <div type="observations">
                         <p>Note. — Erratum. Ds. la note au bas de, l’arrêt du 2 Mars 1916, publié
                             ds. notre dernier numéro, Gaz., VI. 91-289, p. 91, col. 2, ligne 55,
@@ -1828,7 +1838,7 @@
                             promettant».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0420">
                     <head>333. - Sujets ennemis. — Contrats d’assurances intervenus avant la
                         déclaration de guerre. — Suspension des délais impartis à l’art. 275 C. Com.
                         Mar.</head>
@@ -1865,7 +1875,7 @@
                         <pb n="107" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYTPE"/>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0430">
                     <head>334. - Tierce-opposition.'— Requête civile. — Rescindant. — Jonction. —
                         Recevabilité. — Billet à ordre. — Endossement. — Cession.</head>
                     <div type="summary">
@@ -1892,7 +1902,7 @@
                             et Nessim Forte contre Abdel Gawal Abou Hussein et Cts.X*-</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0440">
                     <head>335. - Tiers-saisi. — Omission dolosive de faire sa déclaration. —
                         Responsabilité personnelle envers le saisissant.</head>
                     <div type="summary">
@@ -1998,7 +2008,7 @@
                             effet de les libérer des conséquences de leurs agissements.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0450">
                     <head>336. - Transcription. —Inopposabilité de l’aliénation non transcrite aux
                         tiers ayants-cause des héritiers du vendeur.</head>
                     <div type="summary">
@@ -2060,7 +2070,7 @@
                         <pb n="108" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0460">
                     <head>337. - Tribunal correctionnel. — Qualification légale des faits. —
                         Réquisitoire. — Banqueroute simple. — Comptabilité irrégulière.</head>
                     <div type="summary">
@@ -2078,7 +2088,7 @@
                             — Mohamed Badaouî et autres c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0470">
                     <head>338. - Vente (Acte de). — Transcription postérieure à la faillite de
                         l’acheteur. — Privilège du vendeur inopposable à la masse. — Validité de la
                         transcription vis-à-vis des créanciers postérieurs au concordat. —
@@ -2187,7 +2197,7 @@
                             subrogation légale.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0480">
                     <head>339. - Vente commerciale. — Etat de guerre. — Force majeure. — Obligations
                         du vendeur.</head>
                     <div type="summary">
@@ -2214,7 +2224,7 @@
                             et Cie. c. Mohamed El Chaféir).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0490">
                     <head>340. - Vente. — Résolution. — Interdiction d’exportation.</head>
                     <div type="summary">
                         <p>L’interdiction d’exportation d’unë marchandise quelconque décrétée par un
@@ -2232,7 +2242,7 @@
                             Pierro Debbas c. A. P. Léondi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0500">
                     <head>341. - Wakf. — Constitution. — Hypothèque. — Droit de suite. — Action
                         pau-lienne. — Opposition à commandement. — Recours en garantie. — Tiers
                         détenteur. — Donation.</head>
@@ -2452,7 +2462,7 @@
                             recours en garantie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-05-0510">
                     <head>342. - Wakf. — Diversité de bénéficiaires et de nazirs. — Différentes
                         stipulations pour l’attribution des revenus. — Unité du Wakf. -</head>
                     <div type="summary">
@@ -2716,8 +2726,8 @@
                 <p>Ahmed Mohamed Béehir (Syndic Caralli), Redd. comptes et dissol? union.
                     8.5.16.</p>
                 <p>Abdel Bahman Madkour (Syndic Caralli). Vente terrain et créances. 8.5.16.</p>
-                <p>Mohamed Abdel Salam et Mahmoud Mohamed El Sebaï (Syndic Barocas). Cont. vérif. >
-                    créanc. et conc. ou état d’union, 8.5.16.</p>
+                <p>Mohamed Abdel Salam et Mahmoud Mohamed El Sebaï (Syndic Barocas). Cont. vérif.
+                    &gt; créanc. et conc. ou état d’union, 8.5.16.</p>
                 <p>Mikhail Barsoum Nosseir (Syndic Barocas).</p>
                 <p>Redd. comptes, et rapport. 8.5.16.</p>
                 <p>Charles Freylinger (Syndic Barocas). Cont. vérif. créances. 8.5.16.</p>
@@ -2756,8 +2766,8 @@
                 <p>Raphaël et Elie Akmin (Syndic Piromaly).</p>
                 <p>Contin. vérif. créanc. et conc. 22.5.16</p>
                 <p>Khalil Saleh et Mahmoud Hanafi (Syndic Fréville). Vérif. créanc. 22.5.16.</p>
-                <p>Melawi, Makary Beehaï >Synd. Demanget). Cont. vér. cr. et conc. ou état d’union.
-                    22.5.16.</p>
+                <p>Melawi, Makary Beehaï &gt;Synd. Demanget). Cont. vér. cr. et conc. ou état
+                    d’union. 22.5.16.</p>
                 <p>A. Sednaoui et Cie (Syndic Caralli). Contin. vérif. créanc. et conc. 22.5.16.</p>
                 <p>Kyriacos Caraolanidis et Stavro Geor-giadis (Syndic Piromaly). Vente créanc.
                     22.5.16.</p>

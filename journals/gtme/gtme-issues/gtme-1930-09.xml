@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1930-09-10">September 10, 1930</date><lb/>
-                    <biblScope unit="volume">Vol. 20</biblScope><lb/>
-                    <biblScope unit="number">No. 239</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1930-09-10">September 10, 1930</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 20</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 239</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -330,7 +341,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0010">
                     <head>309. - Location-route. — Automobiles livrées en location ou en
                         consignation; revendication du propriétaire à l'encontre d'un créancier
                         gagiste; faute lourde de ce dernier; inapplicabilité de la règle «en fait de
@@ -454,7 +465,7 @@
                             suffisamment justifiées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0020">
                     <head>310. - Location-vente. — Cas où le contrat constitue une vente, à
                         tempérament avec clause reservati dominii; suspension par l'acheteur des
                         versements stipulés; option et droits du vendeur; étendue et limites.</head>
@@ -563,7 +574,7 @@
                             percevoir une somme quelconque sur le solde-restant dû...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0030">
                     <head>311. - Location-vente. — Cas où le contrat constitue une vente déguisée;
                         faillite de l’acheteur; revendication du vendeur; inadmissibilité; clause
                         reservati dominii,-: inopposabilité à la masse; cas où le vendeur a disposé
@@ -1085,7 +1096,7 @@
                             extrajudiciaires...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0040">
                     <head>312. - Location-vente. — Clause reservati dominii; opposabilité à
                         ïAdministration des Douanes Egyptiennes en cas de confiscation d’une
                         automobile à l’encontre de P acheteur-locataire. — Décret du 10 Mars 1881
@@ -1141,7 +1152,7 @@
                             constitue le préjudice par elle subi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0050">
                     <head>313. - Location-vente. — Conditions d’existence d'une véritable location;
                         cas où il s'agit d'une vente &lt;î tempérament avec clause reservati
                         dominii. —- Vente arec réserve de propriété; option du vendeur entre
@@ -1241,7 +1252,7 @@
                             résiliation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0060">
                     <head>314. - Location-vente. — Conditions d'existence d'une véritable location;
                         cas où il s'agit d'une vente à tempérament avec clause reservati dominii;
                         vente de la chose par l'acheteur; abus de confiance. — Revendication de
@@ -1663,7 +1674,7 @@
                             adversaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0070">
                     <head>315. - Location-vente. — Droits des tiers de bonne foi; sous-acquéreur;
                         détournement du locataire-acheteur; inadmissibilité d'une revendication
                         contre le tiers acquéreur de bonne foi. — Interprétation des conventions;
@@ -1799,8 +1810,8 @@
                         <p>Mais le détournement n’est ni un vol ni une perle, Le mot vol doit
                             s’entendre avec la même acception que dans le Code Pénal, c’est-à-dire
                             la soustraction frauduleuse de lu chose d'autrui (Dalloz C. C. annoté,
-                            IV. Art. 227t>. parag. 296) La maxime «possession vaut titre» protège le
-                            possesseur de bonne foi contre toute revendication par le véritable
+                            IV. Art. 227t&gt;. parag. 296) La maxime «possession vaut titre» protège
+                            le possesseur de bonne foi contre toute revendication par le véritable
                             propriétaire, exception faite des cas où l’objet est sorti du patrimoine
                             du propriétaire sans l’exercice de sa volonté; si le propriétaire avait
                             confié sa chose à une autre personne et que cette dernière l’eût aliénée
@@ -1827,7 +1838,7 @@
                             bonne foi du Sieur Ragheb n’est pas sérieusement ébranlée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0080">
                     <head>316. - Location-vente. — Droits du bailleur impayé.</head>
                     <div type="summary">
                         <p>Dans le contrat sui generis suivant lequel une option d'achat est donnée
@@ -1909,7 +1920,7 @@
                             juste au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0090">
                     <head>317. - Lcralion-venle. — Location-rente d'automobile par un marchand
                         d'autos: sincérité: opposabilité aux tiers même à défaut de date certaine;
                         clause reservati dominii; validité. — Constitution eu (juge d une
@@ -1977,7 +1988,7 @@
                             la Cour adopte, il y a lieu de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0100">
                     <head>318. - Vente avec réserve de propriété. — Clause réservait dominii; droits
                         des tiers de bonne foi; détournement de l'acheteur; vente de l'objet aux
                         enchères publiques; droits de l'acquéreur; bonne foi. — Privilège du
@@ -2157,7 +2168,7 @@
                             chaque auto une somme de L.E. 10, nette, par mois.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0110">
                     <head>319. - Vente avec réserve de propriété. — Clause reservati dominii;
                         machines agricoles; saisie immobilière; revcndica-tion du vendeur impayé;
                         cas de renonciation au bénéfice de la clause de reservati dominii. — Biens
@@ -2537,7 +2548,7 @@
                             68 G. civ. que, du reste, il s’est même abstenu d’invoquer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0120">
                     <head>320. - Vente avec réserve de propriété. —: Clause reservati dominii;
                         privilège du bailleur; étendue; automobile; revendication entre le s mains
                         d'un garagiste impayé; droits de ce dernier.</head>
@@ -2637,7 +2648,7 @@
                             demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0130">
                     <head>321. - Vente avec réserve de propriété. — Clause reservali dominii;
                         validité: privilège du bailleur; étendue; biens introduits dans les licu.c
                         loués, en cours de bail; connaissance par le bailleur de la non propriété de
@@ -2766,7 +2777,7 @@
                             droit à la revendication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-09-0140">
                     <head>322. - Vente avec réserve de propriété. — Garant du contrat; maintien de
                         son obligation an cas où le vendeur n'a pas exercé son droit de
                         reprise.</head>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0014-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0014-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1924-09-10">September 10, 1924</date><lb/>
-                    <biblScope unit="volume">Vol. 14</biblScope><lb/>
-                    <biblScope unit="number">No. 167</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1924-09-10">September 10, 1924</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 14</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 167</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -208,7 +219,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-09-0010">
                     <head>359. - Assurances. — Incendie. — Action en justice; délai; déchéance;
                         suspension des délais par suite de pourparlers. :— Acceptation par
                         l'assureur d'une expertise sous réserve de ses droits, n'impliquant pas
@@ -317,7 +328,7 @@
                             Impériale Ottomane plaidée à la même audience.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-09-0020">
                     <head>360. - Assurances. — Incendie. — Marchandises déposées en Douane «à
                         l’ar--dieh»; déplacement par VAdministration -à l'insu des propriétaires;
                         clause de déchéance dans les polices; portée; interprétation subjective. —•
@@ -517,7 +528,7 @@
                             l’appelant...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-09-0030">
                     <head>361. - Assurances. — Incendie, — Marchandises déposées en Douane «à
                         l’ar-dieh»; déplacement par VAdministration à l'insu des propriétaires. —
                         Code Douanier; responsabilité de l'Administration à l'égard de propriétaires
@@ -570,7 +581,7 @@
                             et magasins des tabacs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-09-0040">
                     <head>362. - Assurances. — Incendie. — Marchandises déposées en Douane «à
                         l’ar-dieh»; déplacement par l'Administration à l'insu des propriétaires. —
                         Coton; caractère inflammable; voisinage dangereux. — Code Douanier;
@@ -749,7 +760,7 @@
                             opération douanière.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-09-0050">
                     <head>363. - Russes. — Nationalité Russe en Egypte. — Décision du Conseil des
                         Ministres du 6 Octobre 1923. — Etrangers. — Compétence mixte. — Preuve de la
                         Nationalité. — Force probante d'un certificat délivré par les autorités
@@ -886,7 +897,7 @@
                             se déclarer compétent...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-09-0060">
                     <head>364. - Russes. — Société russe dont le siège d’exploitation a été
                         transporté à l'étranger; administrateur provisoire nommé par un jugement
                         étranger. — Jugement étranger sur l'état et la capacité des personnes;
@@ -1263,7 +1274,7 @@
                         <p>V. — Sur la fictivité des quatre susdits billets à ordre. (Omissis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-09-0070">
                     <head>365. - Russes. — Tribunaux Consulaires de Russie en Egypte; valeur de
                         leurs jugements. — Consulats de Russie en Egypte; décision du Gouvernement
                         Egyptien en date du 6 Octobre 1923; certificats consulaires; extraits des

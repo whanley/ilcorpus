@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1915-04-10">April 10, 1915</date><lb/>
-                    <biblScope unit="volume">Vol. 5</biblScope><lb/>
-                    <biblScope unit="number">No. 55 [should be 54]</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1915-04-10">April 10, 1915</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 5</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 55 [should be 54]</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -370,7 +381,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0010">
                     <head>208. - Appel. — Demandeur non satisfait. — Opposition. — Sursis.</head>
                     <div type="summary">
                         <p>N’est pas irrecevable l’appel interjeté par le demandeur non satisfait
@@ -412,7 +423,7 @@
                     </div>
                 </div>
                 <pb n="86" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0020">
                     <head>209. - Banqueroute. — Poursuite pénale. — Réquisitoire. — Jugement
                         antérieur ayant déclaré l’irrecevabité de la poursuite. — Exception de chose
                         jugée. — Action publique. — Prescription. — Syndic. — Intervention. ■—
@@ -495,7 +506,7 @@
                             Mars 1915, également rapporté ci-après (§ 221).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0030">
                     <head>210. - Banqueroute. — Constatation de l’état de faillite par le tribunal
                         de répression. — Chose jugée. — Moyens de nullité tirés de la composition du
                         Tribunal Correctionnel: — Assesseurs. — Nouvelles poursuites pour de
@@ -540,7 +551,7 @@
                         <p>Vu les trois procès-verbaux, en date du 19 Février 1915, par lesquels
                             Vita Naggar, Néguib Erian, Guirguis Ibrahim et Youssef Ibrahim ont
                             déclaré se pourvoir en Cassation contre le Jugement du Tribunal
-                            Correctionnel du Caire, du lt> du même mois, qui les a condamnés pour
+                            Correctionnel du Caire, du lt&gt; du même mois, qui les a condamnés pour
                             délit de banqueroute frauduleuse et complicité du même délit;</p>
                         <p>Attendu que les premiers moyens des pourvois, fournis à la Cour sont
                             tirés de la composition irrégulière du Tribunal, de l’autorité de la
@@ -685,7 +696,7 @@
                         <p>Attendu que les dépens doivent être supportés par la partie civile.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0040">
                     <head>211. - Banqueroute. — Intervention de la partie civile en Cassation. —
                         Pouvoirs du syndic.</head>
                     <div type="summary">
@@ -728,7 +739,7 @@
                             intervenir comme partie civile devant la Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0050">
                     <head>212. - Cahier des Charges. — Clauses illicites. — Adjudication. — Vente
                         immobilière. — Vente aléatoire. — Garantie. — Restitution du prix en cas
                         d’éviction. — Dommages-intérêts.</head>
@@ -785,7 +796,7 @@
                             l’art. 379 Code Civil.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0060">
                     <head>213. - Cahier des Charges. —- Dénonciation de dépôt. — Délai non prescrit
                         à peine de nullité. — Insertions.</head>
                     <div type="summary">
@@ -803,7 +814,7 @@
                             et Clément Bogdadli c. Theocari Cozzika).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0070">
                     <head>214. - Cassation. — Tribunal Correctionnel. — Président. — Apport à
                         l’audience du dossier de l'instruction. — Dépens. — Poursuites distinctes. —
                         Arrêt de renvoi. — Taux de la peine après pourvoi par le condamné.</head>
@@ -908,7 +919,7 @@
                             plus forte ?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0080">
                     <head>215. - Commandement Immobilier. — Désignation des biens.</head>
                     <div type="summary">
                         <p>Aux termes de l’Art. 606 du Code de Proc. Civ. et Comm. il n’est pas
@@ -923,7 +934,7 @@
                             Abdel Moula et Cts c. Deutsche Crientbank).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0090">
                     <head>216. - Commissions douanières. — Notification de leurs décisions. —
                         Opposition. — Point de départ du délai.</head>
                     <div type="summary">
@@ -949,7 +960,7 @@
                         <p>V. la note au bas de ce jugement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0100">
                     <head>217. - Compétence commerciale. — Gaiantie. — Accessoire.</head>
                     <div type="summary">
                         <p>Il est admis par la jurisprudence que la garantie, quoique acte civil par
@@ -966,7 +977,7 @@
                         <p>Note. — V. Code Com. Ann. sub Art. 1er, N»’ 52 à 65.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0110">
                     <head>218. -Défaut faute de comparaître. — Opposition. — Comparution à l’appel
                         des causes devant le Président seul. — Hypothèque. — Accessoires et
                         améliorations de l’immeuble. — Tiers-détenteur.</head>
@@ -1017,7 +1028,7 @@
                             au vœu de la loi, telle que l’arrêt rapporté vient de le préciser.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0120">
                     <head>219. - Employé. — Gouvernement. — Renvoi intempestif. — Employé hors
                         cadre. — Loi sur les Pensions Civiles du 15 Avril 1909.</head>
                     <div type="summary">
@@ -1044,7 +1055,7 @@
                             l’Instr. Public c. Marcel Penncçot.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0130">
                     <head>220. - Failli. — Actes annulables. — Connaissance de la qualité de
                         commerçant, par le co-contractant.</head>
                     <div type="summary">
@@ -1060,7 +1071,7 @@
                             Paul Laloyanni esq. et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0140">
                     <head>221. - Gage. — Effets de commerce. — Négligence du créancier. — Faillite
                         du souscripteur. — Responsabilité.</head>
                     <div type="summary">
@@ -1075,7 +1086,7 @@
                             Fortunée Boubli née Curiel c. Vita Curiel).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0150">
                     <head>222. -, Gage. — Réalisation. — Faute du créancier gagiste.</head>
                     <div type="summary">
                         <p>Lorsqu’il est établi qu’en réalisant des titres gagés à l’époque où il
@@ -1091,7 +1102,7 @@
                             Egyptian Improvement Corporation c, Gordon et Cie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0160">
                     <head>223. - Gage immobilier. — Garouka, — Nullité. — Possession. — Biens
                         indivis. — Partage de culture.</head>
                     <div type="summary">
@@ -1291,7 +1302,7 @@
                             de la chose elle-même, qui reste indivise jusqu’au partage.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0170">
                     <head>224. - Gage immobilier. — Validité. . — Possession. — Location consentie
                         au débiteur même.</head>
                     <div type="summary">
@@ -1365,7 +1376,7 @@
                         <p>Comp. arrêt 25 Février 1915, ci-avant § 242.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0180">
                     <head>225. - Indigènes. — Age. — Calendrier arabe.</head>
                     <div type="summary">
                         <p>Le calendrier arabe est le seul applicable pour établir l’âge d’un
@@ -1376,7 +1387,7 @@
                             Timoléon Cambouris c. Dame Fatma Hanem Ahmed Taher et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0190">
                     <head>226. - Instance. — Radiation. — Demandeur. — Désistement.</head>
                     <div type="summary">
                         <p>Si le Code de Procédure autorise le demandeur à procéder a la radiation
@@ -1392,7 +1403,7 @@
                             Abou Seeda c. Habib Dimitri Boulad, et autres). •</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0200">
                     <head>227. - Interdit. — Prodigalité. — Notification d’un jugement au curateur.
                         — — Délai d’appel. — Changement d’état. — Mariage.</head>
                     <div type="summary">
@@ -1407,7 +1418,7 @@
                             Saliha Hanem Yourkevitch c. Emm. Benachi, et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0210">
                     <head>228. - Intérêts. — Garantie hypothécaire. — Transcription du commandement
                         immobilier. — Non rétroactivité de la L. 7 Septembre 1912.</head>
                     <div type="summary">
@@ -1422,7 +1433,7 @@
                             Agricultural Bank of Egypt c. Nessim Kana).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0220">
                     <head>229. - Interrogatoire du prévenu. — Invitation à fournir des explications.
                         — Tribunal Correctionnel.</head>
                     <div type="summary">
@@ -1437,7 +1448,7 @@
                             Chah Kolka c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0230">
                     <head>230. - Juridictions disciplinaires. — Administration. — Renvoi
                         intempestif. — Motivation. — Droit de défense. — Municipalité d’Alexandrie.
                         - Règlements des 12 Juin 1905 et 22 Mai 1912. — Conseil de
@@ -1504,7 +1515,7 @@
                             par la Délégation Municipale.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0240">
                     <head>231. - Juridiction Mixte. — Compétence. — Constitution de Wakf. — Dernière
                         maladie. — Droit musulman. — Hypothèque. — Remploi du solde du prix
                         d’adjudication d’un immeuble wakf.</head>
@@ -1575,7 +1586,7 @@
                             .sont prononcés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0250">
                     <head>232. - Juridiction,Mixte. — Compétence. — Demande de séquestre, entre
                         parties indigènes. — Référé. — Urgence.</head>
                     <div type="summary">
@@ -1590,7 +1601,7 @@
                             Hussein Radouan c. Ministère des Wakfs, et autre.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0260">
                     <head>233. - Juridiction Mixte. — Société ayant siège en pays ennemi. —
                         Succursales en Egypte. — Proclamation du 25 Janvier 1915.</head>
                     <div type="summary">
@@ -1608,7 +1619,7 @@
                             Tadros c. Gazmotoren Fabrik Deutzj.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0270">
                     <head>234. - Loi Martiale. — Proclamation du 25 Janvier 1915. — Cession de
                         droits. Société.</head>
                     <div type="summary">
@@ -1626,7 +1637,7 @@
                             &amp; fils cess. de Hanz Werther c. R. S. S. Ammar et Cie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0280">
                     <head>235. - Loi Martiale. — Proclamation du 25 Janvier 1915. — Procès en cours.
                         — Demandeurs résidant en pays ennemi. — Radiation d’office.</head>
                     <div type="summary">
@@ -1702,7 +1713,7 @@
                         <p>Qu’il échet d’en ordonner d’office la radiation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0290">
                     <head>236. - Moratorium. — Généralité de ses effets. — Prorogation des délais
                         d’exécution des contrats. — Vente. — Livraison. .</head>
                     <div type="summary">
@@ -1725,7 +1736,7 @@
                             Kurkdjan c. A. M. Litton).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0300">
                     <head>237. - Revendication mobilière.— Instance en validation de
                         saisie-conserva-, toire. — Intervention.</head>
                     <div type="summary">
@@ -1825,7 +1836,7 @@
                             débiteur?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0310">
                     <head>238. - Société allemande. — Forme non reconnue en Egypte. — Capacité
                         d’ester en justice. — Proclamation du 25 Janvier 1915.</head>
                     <div type="summary">
@@ -1849,7 +1860,7 @@
                             constituée en Egypte entre personnes de nationalité différente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-04-0320">
                     <head>239. - Vente. — Immeuble. — Transcription.—Affectations hypothécaires
                         prises contre le vendeur du vendeur. — Action en garantie.</head>
                     <div type="summary">
@@ -2073,7 +2084,7 @@
                 <p>19.3.15 ord aut. cont. exploit.</p>
                 <p>Moses Montefiore (Syndic Auritano) 2 3.15 vér. cr. renv. à 23.3.15 renv. à
                     20.4.15.</p>
-                <p>Abdel Nabi HassaneinElba (Synd > Auritano).</p>
+                <p>Abdel Nabi HassaneinElba (Synd &gt; Auritano).</p>
                 <p>2.3.15 vér. cr. et conc. voté (V. faill. terminées).</p>
                 <p>Mahamoud Mohamed El ZaabalaouifSyndic Constantinidis). 2.3.15 vér. cr. renv. à
                     23.3.15 conc, voté 20% en 4 termes trimest. égaux avec gar. sol. de

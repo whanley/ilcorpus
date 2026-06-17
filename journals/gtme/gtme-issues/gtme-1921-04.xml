@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1921-04-10">April 10, 1921</date><lb/>
-                    <biblScope unit="volume">Vol. 11</biblScope><lb/>
-                    <biblScope unit="number">No. 126</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1921-04-10">April 10, 1921</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 11</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 126</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -372,8 +383,8 @@
                     que «tout accusé est présumé innocent jusqu’à « sa condamnation ».</p>
                 <p>A cet égard, l’art. 26 du Projet, aux termes duquel « une personne est présumée,
                     « jusqu'à preuve contraire, avoir connais-« sance de tout fait de notoriété
-                    publique ->, apparaît comme particulièrement dangereux en matière répressive. Il
-                    constitue une entrave en raison, non seulement des abus auxquels il pourrait
+                    publique -&gt;, apparaît comme particulièrement dangereux en matière répressive.
+                    Il constitue une entrave en raison, non seulement des abus auxquels il pourrait
                     donner lieu, mais aussi de l’impossibilité où se trouverait l'accusé de
                     rapporter la preuve contraire prévue.</p>
                 <p>D’après cet article, il y aurait donc pour le législateur deux catégories de
@@ -498,8 +509,8 @@
                 <p>Sursis. — L’article 102 prévoit le cas des condamnations conditionnelles et
                     dispose que « tout jugement, prononçant un empri-« sonnement de moins d’un an
                     contre un « inculpé à l’égard duquel aucune condam-« nation antérieure aux
-                    travaux forcés ou « à un emprisonnement dépassant une se-> mairie n’est établie,
-                    peut ordonner, par</p>
+                    travaux forcés ou « à un emprisonnement dépassant une se-&gt; mairie n’est
+                    établie, peut ordonner, par</p>
                 <p>« décision motivée, qu’il sera sursis à l'exé-« cution de l’emprisonnement ».</p>
                 <p>Cet article pèche par deux points :</p>
                 <p>1°) Il omet de prévoir la faculté de sursis pour les condamnations à une simple
@@ -886,7 +897,7 @@
             <pb n="91" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0010">
                     <head>117. - Accident. — Automobile. — Action conjointe contre l’assureur et le
                         ,propriétaire de l’automobile.</head>
                     <div type="summary">
@@ -900,7 +911,7 @@
                             c. Arnaldo Lopez).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0020">
                     <head>118. - Action possessoire. — Arbres plantés sur le fonds d’autrui.</head>
                     <div type="summary">
                         <p>Les arbres plantés sur le fond d’autrui peuvent, isolément et
@@ -914,7 +925,7 @@
                             Sadek Ismail c. SéliraBsy Chédid etcts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0030">
                     <head>119. - Action possessoire. — Possession interrompue par une inondation.—
                         Complainte. — Objet. — Dépossession par autorité administrative. —
                         Renonciation tacite à l’action en complainte. — Dommages-intérêts à allouer
@@ -951,7 +962,7 @@
                             autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0040">
                     <head>120. - Affectation hypothécaire. — Droit du créancier hypothécaire non
                         couvert de requérir jugement de condamnation pour le solde de sa
                         créance.</head>
@@ -975,7 +986,7 @@
                             of Egypt c. Aboul Fath Soleiman el Kei et cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0050">
                     <head>121. - Agent de change. — Courtier occasionnel. — Règlement des
                         courtages.</head>
                     <div type="summary">
@@ -989,7 +1000,7 @@
                             Setton c. Edmond Kamel Toueg).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0060">
                     <head>122. - Agent de change. — Courtier occasionnel. — Responsabilité.</head>
                     <div type="summary">
                         <p>Les dispositions del’art. 13 du Règlement Intérieur de la Bourse des
@@ -1065,7 +1076,7 @@
                             Alfred Setton de sa demande à l’encontre de Edmond Camel Toueg.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0070">
                     <head>123. -Délais. — Suspension. — Période de troubles. — Proclamation du 17
                         Mal 1919. — Prescription. — Péremption.</head>
                     <div type="summary">
@@ -1145,7 +1156,7 @@
                             décisions des tribunaux • judiciaires ou administratifs ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0080">
                     <head>124. - Détournement d’objet saisis. — Indication de la date du délit dans
                         le jugement de condamnation. — Délit commis par le saisissant.</head>
                     <div type="summary">
@@ -1194,7 +1205,7 @@
                         <p>- 252 - Gaz. Trib. 9ème année p. 115).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0090">
                     <head>125. - Distribution. — Répartition amiable du prix d’adjudication. —
                         Accord entre tous les créanciers.</head>
                     <div type="summary">
@@ -1211,7 +1222,7 @@
                             bey Abdel Nabi c. A. Atontano et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0100">
                     <head>126. - Exequatur. — Opposition à l’ordonnance d’exequatur. — Examen du
                         jugement étranger.</head>
                     <div type="summary">
@@ -1238,7 +1249,7 @@
                             Maakad et Stamati Mazarakis c. Neo-~ phytos Nicolaï-dis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0110">
                     <head>127. - Expropriation. - Indications: inexactes données par un Omdeh à
                         l’huissier chargé de la saisie immobilière. — Responsabilité personnelle. —
                         Absence de responsabilité civile pour le Gouvernements — Non concordance
@@ -1465,7 +1476,7 @@
                     </div>
                 </div>
                 <pb n="94" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0120">
                     <head>128. - Faillite. — Contestation tardive de créance. — Faculté d'exercice
                         réservée aux seuls créanciers. — Délai d’exercice,</head>
                     <div type="summary">
@@ -1603,7 +1614,7 @@
                             diligentes et de bonne foi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0130">
                     <head>129. - Juridiction mixte. — Action personnelle en paiement, entre deux
                         indigènes, à la suite d’une folle enchère mixte. — Incompétence.</head>
                     <div type="summary">
@@ -1695,7 +1706,7 @@
                             profiter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0140">
                     <head>130. - Juridiction mixte. — Compétence. — Action en réintégrande, entre
                         indigènes, à la suite de l’exécution d’une décision de la Juridiction mixte.
                         — Fait matériel de la possession. — Preuve par enquête.</head>
@@ -1807,7 +1818,7 @@
                             présent litige possessoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0150">
                     <head>131. - Juridiction Mixte. — Nullité d'une clause dérogatoire de compétence
                         dans un contrat d’assurance devant recevoir son exécution en Egypte. —
                         Assurance sur le profit espéré. — Assurance contractée par le vendeur. —
@@ -1887,7 +1898,7 @@
                             atteinte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0160">
                     <head>132. - Vente volontaire. — Faculté de surenchère. — Tiers détenteur. —
                         Purge.</head>
                     <div type="summary">
@@ -2004,7 +2015,7 @@
                             Code de Procédure, applicable à la vente dont s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-04-0170">
                     <head>133. -Vente.— Marchandise déterminée et individualisée. — Vente en bloc. —
                         Erreur du vingtième. — Option de l’acheteur entre la résiliation et la
                         réduction du prix.</head>
@@ -2234,7 +2245,7 @@
                 <p>J</p>
                 <p>-I</p>
                 <p>i</p>
-                <p>></p>
+                <p>&gt;</p>
                 <p>r*</p>
                 <p>|4</p>
                 <p>«a</p>

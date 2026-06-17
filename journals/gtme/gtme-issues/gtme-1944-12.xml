@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0035-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0035-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1944-12-10">December 10, 1944</date><lb/>
-                    <biblScope unit="volume">Vol. 35</biblScope><lb/>
-                    <biblScope unit="number">No. 410</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1944-12-10">December 10, 1944</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 35</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 410</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -73,7 +84,7 @@
                 <p>la première partie de</p>
                 <p>LA TABLE DES MATIÈRES DE LA XXXIV"' ANNÉE</p>
                 <p>(Table Chronologique)</p>
-                <p>(Novembre 1943 - Octobre 1944 >.</p>
+                <p>(Novembre 1943 - Octobre 1944 &gt;.</p>
                 <p>Imprimerie PTtOCACClA - Alexandrie ( 45324 )</p>
                 <pb/>
                 <p>(SUITE DU SOMMAIRE).</p>
@@ -152,7 +163,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE.</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-12-0010">
                     <head>10. - Administration. — Expropriation pour cause d'utilité publique;
                         indemnité d'expropriation; critérium d'évaluation.</head>
                     <div type="summary">
@@ -166,7 +177,7 @@
                             Municipalité d’Alexandrie ec. Margery Rem and a.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-12-0020">
                     <head>11. - Administration. — Expropriation pour cause d'utilité publique;
                         indemnité d’expropriation; critérium d'évaluation. — Locataires; étendue de
                         leurs droits à l’indemnité d’expropriation; prise en considération des
@@ -613,7 +624,7 @@
                             s’il succombe...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-12-0030">
                     <head>12. - Administration. — Expropriation pour cause d'utilité publique;
                         indemnité d’expropriation; évaluation en cas de possession préalable à une
                         prise de possession régulière; intérêts sur le prix dus depuis la prise de
@@ -788,7 +799,7 @@
                             appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-12-0040">
                     <head>13. - Administration. — Expropriation, pour cause d'utilité publique;
                         obligation, directe, de l'expropriant envers les locataires; cas où ces
                         derniers n'ont aucun droit direct envers le bailleur exproprié.</head>
@@ -850,9 +861,9 @@
                             déclarant avoir été convoquée à la séance de conciliation tenue la
                             veille, fit opposition tant personnellement que comme tutrice de ses
                             enfants mineurs, loirs trois seuls et uniques héritiers de feu Andréa
-                            Vassilopoulo, aux vœux des articles >7 el &lt;S de la Loi du 21 Décembre
-                            1906, se réservant de faire valoir ses droits en temps el lieu sous
-                            prétexte que la loi prévoyait l'obligation directe de l’expropriant
+                            Vassilopoulo, aux vœux des articles &gt;7 el &lt;S de la Loi du 21
+                            Décembre 1906, se réservant de faire valoir ses droits en temps el lieu
+                            sous prétexte que la loi prévoyait l'obligation directe de l’expropriant
                             d’indemniser les locataires qui ne pouvaient dès lors être renvoyés à se
                             pourvoir contre le seul propriétaire en paiement des indemnités dues,
                             réserves qu’elle fit suivre de l'introduction du présent procès. par
@@ -1027,7 +1038,7 @@
                             infructueuses.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-12-0050">
                     <head>14. - Administration. — Expropriation pour cause d’utilité publique; prise
                         de possession d’un immeuble frappé d’alignement; droits des locataires et
                         usufruitiers nonobstant l'inexistence d'un décret d'expropriation; défaut de
@@ -1170,7 +1181,7 @@
                             volontaire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-12-0060">
                     <head>15. - Administration. — Expropriation pour cause d'utilité publique; prise
                         de possession d'un terrain frappé d'alignement; obligation à indemnité
                         nonobstant l'inexistence d'un décret d’expropriation; cas d'atteinte à la
@@ -1361,7 +1372,7 @@
                             propriétaire d’un terrain qui, d’après lui, vaut L.E. 6 le m2...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-12-0070">
                     <head>16. - Administration. — Tanzim; ali-gn'ement; construction à l'alignement
                         d'une rue simplement projetée; vente de l'immeuble ainsi construit et
                         limité; défaut d'indemnité due au propriétaire en cas d'incorporation à la
@@ -1464,7 +1475,7 @@
                         <p>Note. — V. ég. Gaz. XXXI, 342-259 larrêt du 14 Mai 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-12-0080">
                     <head>17. - Administration. — Tanzim; alignement; Décret du 26 Août 1889;
                         préjudice causé au propriétaire de l'immeuble frappé d'alignement non suivi
                         d'expropriation; ' conditions auxquelles d peut en réclamer
@@ -1552,7 +1563,7 @@
                             Janvier 1938, Gaz. XXIX, 300-385.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-12-0090">
                     <head>18. - Administration. — Tanzim; lotissement; plan; approbation; imposition
                         par les tribunaux; inadmissibilité; refus abusif ou arbitraire
                         d'approbation; sanction; dommages-intérêts; approbation subordonnée à
@@ -1934,7 +1945,7 @@
                             étant prématurée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-12-0100">
                     <head>19. - Administration. — Tanzim; immobilisation prolongée et non justifiée
                         d'une voie publique; responsabilité à l'égard des riverains lésés. — Voies
                         publiques; autorisation d'occupation; retrait abusif, générateur de
@@ -2017,7 +2028,7 @@
                             par lé Tribunal.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-12-0110">
                     <head>20. - Administration. — Tanzim; occupation de la voie publique;
                         réclamation de droits par les Municipalités; admissibilité; Décret du 2/
                         Août 1918 sur l'organisation de la Commission Municipale à Mansourah;
@@ -2714,7 +2725,7 @@
                 <p>Vu le Décret du 1er Septembre 1939 déclarant l’état de siège sur tout le
                     territoire égyptien;</p>
                 <p>Vu l’acte de concession de la « Marconi Radio Telegraph Company of Egypt » (S. A.
-                    L») ></p>
+                    L») &gt;</p>
                 <p>Vu.la Proclamation N° 139 autorisant la susdite Société à établir une ligne
                     radio-télégraphique directe entre Le Caire et New-York;</p>
                 <p>En vertu des pouvoirs qui nous sont conférés par le Décret du 9 Octobre 1944;</p>
@@ -2743,7 +2754,7 @@
                 <p>Vu le Décret du 10 Juillet 1933 approuvant le Règlement Intérieur de la Faculté
                     de Droit, modifié par les Décrets des 9 Mai et 5 Septembre 1935, 11 Octobre
                     1937, 13 Avril 1939, 6 Octobre 1941 et 12 Mai 1942; ■</p>
-                <p>Vu la Loi N-> 67 de 1943 relative aux conditions de réussite aux examens et à
+                <p>Vu la Loi N-&gt; 67 de 1943 relative aux conditions de réussite aux examens et à
                     l’organisation de l'administration des candidats L la deuxième session aux deux
                     Universités Fouad 1er et Farouk 1er;</p>
                 <p>Vu l’Arrêté du Ministre de l’instruction Publique en date du 9 Mai 1944
@@ -2811,7 +2822,7 @@
                 <p>Après avoir pris l’avis du Ministère de F Agriculture;</p>
                 <p>Sur la proposition du Sous-Secrétaire d’Etat de ce Ministère;</p>
                 <p>Arrête:</p>
-                <p>Art. 1er. — Les périodes de la clôture hi> vernale, dans la Basse et la
+                <p>Art. 1er. — Les périodes de la clôture hi&gt; vernale, dans la Basse et la
                     Haute-Egypte, seront les suivantes:</p>
                 <p>Clôture partielle: 25 Décembre. Clôture entière: 30 Décembre. Ouverture
                     partielle: 4 Février. Ouverture entière: 9 Février.</p>
@@ -3028,9 +3039,9 @@
                     aux ‘Çavaux des examens (dans les deux sessions), ainsi que tout médecin délégué
                     pour Prendre soin des candidats pendant les examens, aura droit, s’il cumule ce
                     travail avec ses attributions ordinaires, à une allocation journalière à raison
-                    de 1,5 pour cent du minimum de sa classe avec un mini-h>um de P.T. 20 par jour.
-                    Elle ne pourra, dans l’ensemble, dépasser l’allocation de 20 Jours à la première
-                    session et de 10 jours à *a deuxième session.</p>
+                    de 1,5 pour cent du minimum de sa classe avec un mini-h&gt;um de P.T. 20 par
+                    jour. Elle ne pourra, dans l’ensemble, dépasser l’allocation de 20 Jours à la
+                    première session et de 10 jours à *a deuxième session.</p>
                 <p>Gazette des Tribunaux Mixtes.</p>
                 <p>Les médecins internes seront traités, quant au calcul de l’allocation, sur le
                     même pied que les fonctionnaires de la classe VI.</p>
@@ -3211,7 +3222,7 @@
                 <p>Nous Ahmed Maher pacha,</p>
                 <p>Vu le Décret du 1er Septembre 1939 déclarant l’état de siège sur tout le
                     territoire égyptien;</p>
-                <p>Vu la Proclamation N° 532 relative à la récolte du maïs >&lt; Chami », saison
+                <p>Vu la Proclamation N° 532 relative à la récolte du maïs &gt;&lt; Chami », saison
                     1944;</p>
                 <p>Vu la Proclamation N° 356 concernant les infractions relatives à l’exécution de
                     certaines lois et proclamations ayant trait à l’approvisionnement;</p>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0014-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0014-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1924-03-10">March 10, 1924</date><lb/>
-                    <biblScope unit="volume">Vol. 14</biblScope><lb/>
-                    <biblScope unit="number">No. 161</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1924-03-10">March 10, 1924</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 14</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 161</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -59,7 +70,7 @@
                 <p>— au Journal</p>
                 <p>- Un an.................. » 150</p>
                 <p>— Six mois............... » 85</p>
-                <p>— Trois mois............. > 50</p>
+                <p>— Trois mois............. &gt; 50</p>
                 <p>— aux ceux publications</p>
                 <p>réunies (un an)....... » 250</p>
                 <p>Administrateur-Gérant : Joseph Gazaleh</p>
@@ -488,7 +499,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0010">
                     <head>151. - Action possessoire. — Cas où il y a lieu à renvoi au
                         pétitoire.</head>
                     <div type="summary">
@@ -587,7 +598,7 @@
                             différend par devant le Tribunal compétent au pétitoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0020">
                     <head>152. - Action possessoire. — Complainte; actes de possession suffisants
                         pour des terrains vagues.</head>
                     <div type="summary">
@@ -602,7 +613,7 @@
                     </div>
                 </div>
                 <pb n="101" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0030">
                     <head>153. - Action posscssolre. — Exécution d'une décision de justice donnant
                         lieu à la réintégrande; action réservée aux tiers étrangers à la décision. —
                         Difficultés sur l'exécution entre parties; tribunaux compétents. —
@@ -753,7 +764,7 @@
                             les Cherif eux-mêmes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0040">
                     <head>154. - Construction sur le terrain d’autrui. —■ Empiètement minime; droit
                         du constructeur de bonne foi; acquisition du sol.</head>
                     <div type="summary">
@@ -803,7 +814,7 @@
                             Karam.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0050">
                     <head>155. - Intérêts. — Demande en justice devant un Tribunal incompétent. —
                         Prescription; interruption.</head>
                     <div type="summary">
@@ -881,7 +892,7 @@
                             même titre qu’elle interrompt la prescription.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0060">
                     <head>156. - Préemption. — Caractère personnel de ce droit; extinction en cas de
                         décès du préempteur en cours d'instance avant une prise de possession
                         volontaire ou judiciaire; caractère d'une telle prise de possession. —
@@ -977,7 +988,7 @@
                             la requête civile.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0070">
                     <head>157. - Préemption. — Cas de revente; serment déféré au premier acquéreur,
                         sur la question du prix; défaut de pertinence.</head>
                     <div type="summary">
@@ -1016,7 +1027,7 @@
                             jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0080">
                     <head>158. - Préemption. — Cas de revente; simulation; preuve à charge du
                         préempteur; doute bénéficiant au préempté. —Revente; validité nonobstant le
                         défaut de transcription.</head>
@@ -1039,7 +1050,7 @@
                             vente même entre parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0090">
                     <head>159. - Préemption. — Clause de renonciation à.ce droit; portée
                         restrictive; inopposabilité au sous-acquéreur. — Majoration fictive du prix
                         de vente; inopposabilité au préempteur. — Réduction fictive du prix, pour
@@ -1090,9 +1101,9 @@
                             renoncé à tout droit de préemption sur les lots voisins; et la Dame
                             Kramer, ne pou</p>
                         <p>vant avoir plus de droits que son vendeur, serait liée par la
-                            renonciation de son auteur, qui, par la transcription de son titre, :>
-                            /ait. fait connaître aux fiers la restriction apportée à ses droits de
-                            propriétaire;</p>
+                            renonciation de son auteur, qui, par la transcription de son titre,
+                            :&gt; /ait. fait connaître aux fiers la restriction apportée à ses
+                            droits de propriétaire;</p>
                         <p>L’appelant invoque à l’appui de son exception l’arrêt du 1er Mars 1923
                             (Bull. XXXIII, 189) statuant sur la portée d'une vente aux enchères
                             publiques d’un lot de terrain que le débiteur exproprié avait acquis
@@ -1244,7 +1255,7 @@
                             sur un acte authentique.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0100">
                     <head>160. - Préemption. — Construction élevée sur le terrain d'autrui; droit
                         réel immobilier au profit du contrdcteur; vente du terrain sur lequel est
                         élevée la construction; faculté de préemption au profit du propriétaire de
@@ -1501,7 +1512,7 @@
                             proportionnel de chaque parcelle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0110">
                     <head>161. - Préemption. — Demande; introduction dans le délai légal nécessaire
                         contre le vendeur aussi bien que contre l'acheteur. — Appel; intimation du
                         vendeur, dans le délai légal, nécessaire à peine de déchéance. —
@@ -1591,7 +1602,7 @@
                             être, le cas échéant, soumise à l’appréciation des premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0120">
                     <head>162. - Préemption. — Donation indirecte; Art. 5 du décret de 1900,
                         inapplicabilité. — Copropriétaire indivis; simple mitoyenneté de mur;
                         article 7 du décret de 1900; inapplicabilité. — Voisinage; concours de
@@ -1687,7 +1698,7 @@
                             grèvent le fonds des préempteurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0130">
                     <head>163. - Prescription. — Action en résiliation ou diminution du prix de
                         vente; prescription annale; inapplicabilité au cas de revendication de
                         surplus de contenance. — Prescription quinquennale; juste titre;
@@ -1798,7 +1809,7 @@
                             fondées. .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0140">
                     <head>164. - Prescription. — Admissibilité en tout étal de cause; admissibilité
                         après des défenses au fond; renonciation tacite; conditions. — Aveu de non
                         paiement; défaut de portée en matière de longue prescription. — Preuve
@@ -1917,7 +1928,7 @@
                             quinquennale soulevée par l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0150">
                     <head>165. - Prescription. •— Admissibilité en tout état de cause; admissibilité
                         après des défenses au fond; renonciation tacite; conditions. — Instance;
                         reprise; prescription sur certains chefs distincts de demande. — Instances;
@@ -2012,7 +2023,7 @@
                             que l’article 111 susdit y ait autrement dérogé...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0160">
                     <head>166. - Prescription. — Intérêts faisant partie d'une condamnation;
                         arrérages prescriptibles par 5 ans.</head>
                     <div type="summary">
@@ -2030,7 +2041,7 @@
                             Farkouh c. Constantin Z. Angelopoulo et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0170">
                     <head>167. - Prescription. — Instances; interruption pendant quinze ans;
                         péremption inutile. — Exception de prescription, admissible en tout état de
                         cause. — Prescription; cas où elle n'est pas interrompue par la minorité.-—
@@ -2127,7 +2138,7 @@
                             par la prescription.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0180">
                     <head>168. - Prescription libératoire. — Exception; renonciation; moyen ne
                         devant pas être soulevé d'office. — Prescription libératoire des intérêts;
                         interruption; instance abandonnée. — Instance non interruptive; dénonciation
@@ -2269,7 +2280,7 @@
                             provisoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0190">
                     <head>169. - Prescription libératoire. — Intérêts. — Exception admissible en
                         tout état de cause. — Vente; acheteur ayant payé pour le vendeur des
                         intérêts' hypothécaires prescrits; remboursement inadmissible. — Libération;
@@ -2483,7 +2494,7 @@
                             réclamation de sommes retenues par le mandataire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0200">
                     <head>170. - Prescription quinquennale. — Juste titre; achat du véritable
                         propriétaire; inopérance. — Appel; demande nouvelle; demande en paiement de
                         fruits de " ' terrains revendiqués. 1</head>
@@ -2509,7 +2520,7 @@
                             cités. H</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0210">
                     <head>171. - Prescription quinquennale. — Juste titre; ayants-cause d'auteur
                         com- H mun: inadmissibilité de la prescription. —Jonction d’une possession
                         précaire à la q possession à titre d'achat; inadniissibilité. </head>
@@ -2517,8 +2528,8 @@
                         <p>I. - La prescription quinquennale par juste titre ne peut être invoquée
                             au pré- i judice d’un tiers qui serait l’ayant-cause ! du même
                             propriétaire duquel le passes- C seur tiendrait ses droits et qui
-                            aurait. 1 veillé à la conservation de ses droits ■ en > transcrivant le
-                            premier son titre d'acqui- 1 sition. j</p>
+                            aurait. 1 veillé à la conservation de ses droits ■ en &gt; transcrivant
+                            le premier son titre d'acqui- 1 sition. j</p>
                         <p>II. - Le possesseur ne peut joindre, aux y</p>
                         <p>fins de la prescription acquisitive, à la y</p>
                         <p>possession qu’il a acquise à la suite de H son achat, sa possession
@@ -2569,7 +2580,7 @@
                             à Boghos Pacha Nubar.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0220">
                     <head>172. - Prescription quinquennale. — Juste titre; inapplicabilité pour des
                         biens ne rentrant pas dans le titre invoqué. — Bonne foi, suffisante au
                         moment de l'acquisition. — Mauvaise foi, ne se présumant pas. — Possession
@@ -2627,7 +2638,7 @@
                             cessation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0230">
                     <head>173. - Presse. — Propriété littéraire ou artistique; absence de loi
                         spéciale en Egypte. —Article de journal; assimilation à un ouvrage; droit de
                         propriété de l'auteur; limitations. — Privilège d'exploitation appartenant à
@@ -2775,7 +2786,7 @@
                         <p>Que, dans ces conditions, son action ne saurait être accueillie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0240">
                     <head>174. - Presse. — Edition-rédaction d'un journal; achat de fournitures
                         destinées à la publication; actes non commerciaux.</head>
                     <div type="summary">
@@ -2792,7 +2803,7 @@
                         <p>Note. — V. Gaz. XIII, 138-242.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0250">
                     <head>175. - Prêt. — Avantages particuliers consentis à un prêteur; contrat
                         aléatoire; critérium.. — Intérêts usuraires; répétition; conditions.</head>
                     <div type="summary">
@@ -2912,7 +2923,7 @@
                             le taux légal. .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0260">
                     <head>176. - Prêt. — Dépôt effectué pour compte d'autrui; revendication de la
                         personne qui a opéré le dépôt; irrecevabilité; droits de saisie des
                         créanciers du titulaire du dépôt.</head>
@@ -2930,7 +2941,7 @@
                             Mohamed Nasr Ahmed e. André Mirés et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0270">
                     <head>177. - Prêt. — Intérêts; capitalisation; compte-courant. — Remboursement
                         anticipé; indemnité de remploi; clause licite; limite maxima.</head>
                     <div type="summary">
@@ -2951,7 +2962,7 @@
                             P. Polymeris c. The Land Bank of Egypt). .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0280">
                     <head>178. - Prêt. — Prêteur professionnel ; caractère de commerçant; obligation
                         de tenir des livres. — Usure; présomption; charge de la preuve; rejet d'une
                         collocation du préteur sur la base de seuls billets à ordre.</head>
@@ -2982,7 +2993,7 @@
                         <p>184. V. ég. Gaz. V, 141-440, et 166-525, et note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0290">
                     <head>179. - Prêt. — Usure. — Affaires bancaires opérées par une société
                         commerciale; application des règles légales et des usages. — Eléments
                         constitutifs de l'usure. ■— Compte-courant; perceptions supérieures au taux
@@ -3048,7 +3059,7 @@
                             page 337, et Petit, Contrats I, No. 286.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0300">
                     <head>180. - Prêt sur gages. ;— Intérêts dissimulés; usure. — Report; véritable
                         nature; intention des parties.</head>
                     <div type="summary">
@@ -3077,7 +3088,7 @@
                     </div>
                 </div>
                 <pb n="115" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0310">
                     <head>181. - Prêts sur gages.. — Monts de Piété; décret du 24 Décembre 1900;
                         excédents ou bonis sur la réalisation des gages; forclusion de l'emprunteur
                         après trois années; caractère préfixe et fatal de ce délai; suspension
@@ -3182,7 +3193,7 @@
                             demanderesse irrece vable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0320">
                     <head>182. - -Servitude de passage. — Caractère discontinu; moyens de preuve;
                         possession considérée comme de pure tolérance; nécessité d'un titre en vue
                         de l’exercice de l’action possessoire; caractères du titre.</head>
@@ -3305,7 +3316,7 @@
                             seulement de la question d’une servitude.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0330">
                     <head>183. - Servitude de vue. — Droit acquis par prescription; limites;
                         distance légale.</head>
                     <div type="summary">
@@ -3348,7 +3359,7 @@
                         <p>■ Attendu qu’il y a lieu sur ce point de recourir à une expertise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-03-0340">
                     <head>184. - Vente administrative. — Impôts; privilège du Trésor; droit de
                         suite; créanciers inscrits; droits en cas de poursuites administratives;
                         adjudication administrative; effets; purge.</head>

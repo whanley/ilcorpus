@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1928-07-10">July 10, 1928</date><lb/>
-                    <biblScope unit="volume">Vol. 18</biblScope><lb/>
-                    <biblScope unit="number">No. 213</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1928-07-10">July 10, 1928</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 18</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 213</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,7 +98,7 @@
                     cause Despina Zervudachi contre l’Ing. R. Mazzola et autres «à l’effet de
                     décider si le Juge des «Référés est compétent pour connaître «de l’opposition
                     formée à la taxe qu’il a •«arrêtée')).</p>
-                <p>Et par arrêt du 1er Mars 1917 (Bull. XXIX, 26>3) la Cour, toutes Chambres
+                <p>Et par arrêt du 1er Mars 1917 (Bull. XXIX, 26&gt;3) la Cour, toutes Chambres
                     réunies, a dit «que l’opposition à la taxe «faite par le Juge des Référés doit
                     être «portée devant le Tribunal du siège».</p>
                 <p>C’est en se basant sur quelques-uns des motifs de cet arrêt que, par jugement du
@@ -193,7 +204,8 @@
                 <p>Les ordonnances sur requête relèvent de la juridiction gracieuse et ne
                     rentrent</p>
                 <p>dans la juridiction contentieuse que lorsqu’une des parties intéressées s’insurge
-                    contre l’ordonnance rendue par le Pré-, sident ou par le Juge de service. ></p>
+                    contre l’ordonnance rendue par le Pré-, sident ou par le Juge de service.
+                    &gt;</p>
                 <p>Et le .recours autorisé en ce cas est double:</p>
                 <p>Il y a le pourvoi en Référé devant le même juge qui a rendu l’ordonnance, pourvoi
                     qui n’appartient qu’à la partie contre laquelle l’ordonnance a été rendue (art.
@@ -300,7 +312,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0010">
                     <head>223. - Appel. — Acompte versé après signification de l'appel et sans
                         réserves; cas où il y a doute sur ~la portée du paiement; appel recevable. —
                         Nationalité; mention dans une rokhsa; preuve insuffisante.</head>
@@ -357,7 +369,7 @@
                             être résolu à leur profit....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0020">
                     <head>224. - Appel. — Action en dommages-intérêts; élément qui détermine le taux
                         du dernier ressort.</head>
                     <div type="summary">
@@ -375,7 +387,7 @@
                             1927.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0030">
                     <head>225. - Appel. — Appel du garant profitant au garanti.</head>
                     <div type="summary">
                         <p>Il est de principe que l’appel du garant profite au garanti, même au cas
@@ -432,7 +444,7 @@
                             Chobeir par Doumani, n’est pas fondée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0040">
                     <head>226. - Appel. — Appel d'un jugement interlocutoire interjeté après
                         l'exécution de la mesure ordonnée mais avant le jugement définitif; cas où
                         le jugement interlocutoire est en partie définitif.</head>
@@ -574,7 +586,7 @@
                             de droit précisés ci-dessus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0050">
                     <head>227. - Appel. — Délai; calcul du dies ad quem.</head>
                     <div type="summary">
                         <p>Le jour de l’échéance, en matière de délais d’appel, doit être compté, le
@@ -624,7 +636,7 @@
                         <p>Qu’il y a lieu en conséquence de déclarer l’appel irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0060">
                     <head>228. - Appel. — Délai; point de départ; parties à qui profite la
                         signification du jugement. — Litispendance; cas de connexité entre deux
                         procès pendants devant deux Chambres du même Tribunal; jonction; sursis
@@ -729,10 +741,10 @@
                             collocation, au paiement par Romano du legs de , '' L.E. 1000 et à la
                             restitution de certains bi- : ■ joux: mais il suffit de lire le texte de
                             leur contredit pour s’apercevoir que toutes ces conditions sont restées
-                            à l’état de simples r«> intentions. y</p>
+                            à l’état de simples r«&gt; intentions. y</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0070">
                     <head>229. - Appel. •— Expropriation; ordon-nance de subrogation aux poursuites;
                         cas où le Juge délégué n'a tranché au- G cune contestation de fond;
                         irrecevabilité de l'appel. </head>
@@ -831,7 +843,7 @@
                             l’art. 678.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0080">
                     <head>230. - Appel. — Irrecevabilité à raison du taux de la demande, faisant
                         obstacle à l'examen, par la Cour de l'incompétence du Tribunal de première
                         instance.</head>
@@ -870,7 +882,7 @@
                             conclusions (arrêt du 21 Décembre 1927, Bull. XL, p. 90).*</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0090">
                     <head>231. - Appel. — Jonction d'instances; appel incident formé contre la
                         décision rendue sur l'une des demandes, en l'état d'un appel principal formé
                         contre la même décision, en tant qu'elle a statue sur une autre demande;
@@ -954,7 +966,7 @@
                             extraordinaire, a décidé le remplacement du précé—</p>
                         <pb n="197" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>dent comité de liquidation par un autre composé des Sieurs Chalom,,Hazan
-                            et Bahari, en donnant mandat à ces> derniers pour une ■ distribution
+                            et Bahari, en donnant mandat à ces&gt; derniers pour une ■ distribution
                             rapide de L.E. 4 par action, en leur laissant toute latitude d’apprécier
                             la situation, et le lendemain les nouveaux liquidateurs ont assigné en
                             référés les anciens, en délivrance des activités sociales;</p>
@@ -1063,7 +1075,7 @@
                             paiements à effectuer...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0100">
                     <head>232. - Appel. — Jugement ayant omis de statuer sur une exception de
                         nullité de procédure; défaut de nullité. — Partage; inutilité de la mise en
                         cause de sous-acquéreurs irréguliers. — Partage; communistes omis à
@@ -1150,7 +1162,7 @@
                             communistes devant intervenir au partage.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0110">
                     <head>233. - Appel. — Jugement du Tribunal civil ayant statué sur demande
                         n'excédant pas P.T. 10.000; incompétence non soulevée en première instance;
                         appel irrecevable.</head>
@@ -1219,7 +1231,7 @@
                             Tribunal, — est par cela même en dernier ressort.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0120">
                     <head>234. - Appel. — Jugement du Tribunal civil; somme contestée, au moment de
                         la mise en délibéré, inférieure à P. T. 10.000; exception d’incompétence
                         soulevée en première instance; appel non interjeté de ce chef;
@@ -1270,15 +1282,16 @@
                             application en l’espèce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0130">
                     <head>235. - Appol- — Jugement par défaut-renonciation à opposition; appel
                         interjeté avant l'exécution; recevabilité. — Dénégation de signature;
                         vérification nécessaire.</head>
                     <div type="summary">
                         <p>I. - Si aux termes de l’art. 396 C. Proc, l’appel n’est pas recevable
                             contre un jugement par défaut tant qu’il peut être attaqué par la voie
-                            de l’opposition il n’en> est pas moins certain que la partie défaillante
-                            est en droit de renoncer à son. droit d’exercer ce recours.</p>
+                            de l’opposition il n’en&gt; est pas moins certain que la partie
+                            défaillante est en droit de renoncer à son. droit d’exercer ce
+                            recours.</p>
                         <p>Est, dès lors, recevable l’appel interjeté contre un jugement par défaut
                             avant toute exécution, alors surtout que la partie défaillante a renoncé
                             expressément à l’opposition.</p>
@@ -1331,7 +1344,7 @@
                             droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0140">
                     <head>236. - Appel. — Parties à intimer en appel. — Demande incidente par voie
                         d'avenir; recevabilité.</head>
                     <div type="summary">
@@ -1395,7 +1408,7 @@
                             prétentions à une quote-part héréditaire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0150">
                     <head>237. - Appel. ■— Recours formé par un seul exploit contre deux jugements
                         distincts entre les mêmes parties; non recevabilité. — Jugement de non
                         recevabilité en matière d'opposition à taxe, ne constituant pas jugement sur
@@ -1466,7 +1479,7 @@
                             ancien client.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0160">
                     <head>238. - Appel. — Revendication mobilière; délai d'appel; uniformité pour
                         toutes les parties; décision condamnant le saisissant à des
                         dommages-intérêts; recevabilité de l'appel après l'expiration du délai de
@@ -1520,7 +1533,7 @@
                             les dommages-intérêts...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0170">
                     <head>239. - Appel. — Signification régulière au Gouvernerai; délai d'appel;
                         point de départ.</head>
                     <div type="summary">
@@ -1573,7 +1586,7 @@
                             échet d’y faire droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0180">
                     <head>240. - Appel. —■ Société; forme de la signification faisant courir les
                         délais d’appel à son égard. — Vente commerciale; clause conférant à
                         l'acheteur le droit de restituer les marchandises avariées; portée.</head>
@@ -1634,7 +1647,7 @@
                             avariées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0190">
                     <head>241. - Appel. — Taux; déclaration d'irrecevabilité; cas où le Tribunal de
                         première instance a écarté une exception d'incompétence basée sur le taux de
                         la demande.</head>
@@ -1691,7 +1704,7 @@
                             obstacle à ce que cette question soit examinée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0200">
                     <head>242. - Appel. — Taux; évaluation de la demande; examen de contrats
                         dépassant le montant en discussion; chefs non contestés.</head>
                     <div type="summary">
@@ -1764,7 +1777,7 @@
                             tenu compte des chefs non contestés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0210">
                     <head>243. - Appel. — Taux; mode de détermination en cas de demande de
                         dommages-intérêts pour inexécution de contrat.</head>
                     <div type="summary">
@@ -1843,7 +1856,7 @@
                             supérieure à ce taux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0220">
                     <head>244. - Désaveu. — Délai de l'action en désaveu; Tribunal compétent;
                         étendue du mandat ad litem. — Tierce opposition; irrecevabilité contre un
                         jugement où la partie a été représentée par avocat. — Jugements; action en
@@ -2061,7 +2074,7 @@
                             la présente instance ait été introduite dans un but de vexation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0230">
                     <head>245. - Experts. •— Opposition à taxe; vacations; travaux de Cabinet;
                         double emploi.</head>
                     <div type="summary">
@@ -2105,7 +2118,7 @@
                             dans leurs études.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0240">
                     <head>246. — Liquidateurs et séquestres. — Honoraires; défaut de recours contre
                         la partie qui a requis la liquidation ou la séquestration.</head>
                     <div type="summary">
@@ -2185,7 +2198,7 @@
                             1927.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0250">
                     <head>247. - Opposition à taxe. — Décision disciplinaire; répartition des
                         dépens; assimilation des difficultés d'exécution en matière disciplinaire
                         aux difficultés d'exécution en matière pénale; compétence des Tribunaux
@@ -2267,7 +2280,7 @@
                             ne saurait, par conséquent, être l’objet d’aucun changement. 1</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0260">
                     <head>248. - Opposition à taxe. — Opposition en partie bien fondée; charge des
                         frais.</head>
                     <div type="summary">
@@ -2280,7 +2293,7 @@
                             Neemat Hanem Moukhtar c. Edouard Gantés et Co.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0270">
                     <head>249. - Requête civile. — Affirmation inexacte ne constituant pas dol
                         personnel.</head>
                     <div type="summary">
@@ -2355,7 +2368,7 @@
                             possession des documents qui lui auraient permis de la combattre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0280">
                     <head>250. - Requête civile. — Conclusions nouvelles prises sans signification
                         préalable à une partie non comparante, à défaut de. manœuvres frauduleuses
                         caractérisées: pas de dol personnel.— Jugement rendu sur ces conclusions:
@@ -2426,7 +2439,7 @@
                             à donner ouverture à l’opposition et non pas à la requête civile.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0290">
                     <head>251. - Requête civile. — Contrariété entre les dispositifs d'un arrêt
                         définitif et d'un arrêt interlocutoire; irrecevabilité de la requête civile.
                         — Moyen non invoqué dans l'exploit de requête civile, mais discuté par les
@@ -2518,7 +2531,7 @@
                             procès.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0300">
                     <head>252. - Requête civile. — Décision faisant droit à une demande non
                         reproduite dans le dispositif dès conclusions; défaut d’ultra petits.. —
                         Dispositions contradictoires.</head>
@@ -2556,7 +2569,7 @@
                             avaient reconventionnellement conclu à la résiliation du con-&lt; trat
                             de -société intervenu entre parties le 30 Décembre 1921, aux torts et
                             griefs de Hahnloser pour non exécution de sa part des. engagements qu’il
-                            avait pris et à la condamnation de ce dernier au paiement de L.E. >
+                            avait pris et à la condamnation de ce dernier au paiement de L.E. &gt;
                             9500. Le demandeur Hahnloser de son côté requit la nullité du même
                             contrat parce que le décès d’un des associés, Macintosh, aurait altéré
                             les bases’fondamentales des accords sociaux, que le contrat contiendrait
@@ -2653,7 +2666,7 @@
                             outre conformes à ce que les motifs de l’arrêt avaient retenu.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0310">
                     <head>253. - Requête civile. — Défaut de discussion dans les motifs de chacun
                         des arguments des parties; écartement en bloc' des conclusions par le
                         dispositif: pas de défaut de statuer. — Allégations erronées ou mensongères
@@ -2764,7 +2777,7 @@
                             jurisprudence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0320">
                     <head>254. - Requête civile. — Réticence constituant dol personnel.</head>
                     <div type="summary">
                         <p>Il y a lieu à requête civile au sens de l’art. 424 du C. Proc. C. C.
@@ -2822,7 +2835,7 @@
                             ouverture à la requête civile.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0330">
                     <head>255. - Tierce opposition. — .Recours pur un tiers contre une ordonnance de
                         référés; forme.— Séquestre; biens indivis.</head>
                     <div type="summary">
@@ -2917,7 +2930,7 @@
                             appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-07-0340">
                     <head>256. - Tribunal Sommaire. — Opposition à taie d'expert; incompétence pour
                         en connaître.</head>
                     <div type="summary">

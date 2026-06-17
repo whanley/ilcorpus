@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1922-03-10">March 10, 1922</date><lb/>
-                    <biblScope unit="volume">Vol. 12</biblScope><lb/>
-                    <biblScope unit="number">No. 137</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1922-03-10">March 10, 1922</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 12</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 137</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -53,7 +64,7 @@
                 <p>Prix du numéro.... » 15</p>
                 <p>Pour la Publicité s’adresser à</p>
                 <p>1'Imprimerie Nouvelle Rue Cléopâtre, Alexandrie.</p>
-                <p>' ■ -== = — = REVUE JUDICIAIRE MENSUELLE ■=■==>■= =</p>
+                <p>' ■ -== = — = REVUE JUDICIAIRE MENSUELLE ■=■==&gt;■= =</p>
                 <p>Publiée sous la Direction de Mes MAXIME PUPIKOFER et LÉON PANGALO. Avocat à la
                     Cour ET SOUS LE PATRONAGE DU CONSEIL DE L’ORDRE DES AVOCATS D’ÉGYPTE-</p>
                 <p>( delà Rédaction: me AZ1Z ANTOINE, Avocat A la Cour. . SECRÉTAIRES: ' À
@@ -204,9 +215,9 @@
                     &lt; pas été, il ne peut avoir aucune valeur juridique. Bien « mieux, ce traité
                     a subi un accroc par l’accord d’Angora, ♦ qui vient d’être conclu entre la
                     France et la Turquie, et « f on sait que cette dernière Puissance n’entend pas
-                    exécuter « les clauses de ce traité >. (Conclusions prises par Mr. le Substitut
-                    Mahmoud Hassan devant le Tribunal de Justice Sommaire du Caire le II Février
-                    1922, en la cause Public Custodian c. Mohamed Omar).</p>
+                    exécuter « les clauses de ce traité &gt;. (Conclusions prises par Mr. le
+                    Substitut Mahmoud Hassan devant le Tribunal de Justice Sommaire du Caire le II
+                    Février 1922, en la cause Public Custodian c. Mohamed Omar).</p>
                 <p>« leur jouissance et dans leur exercice, les » droits primordiaux des Etats »
                     (Bonfils, op. cit., No. 333). « Ces restrictions dimi-« nuent le champ
                     d’application du droit « primordial de conservation et d’indépen-« dance, mais
@@ -362,7 +373,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0010">
                     <head>112. - Alignement. — Construction élevée sans autorisation en dehors de
                         l’alignement sur une rue projetée -, démolition.— Décret sur le Tanzim et
                         réglement du 8 Septembre 1889.</head>
@@ -448,7 +459,7 @@
                             du décret; que la démolition en doit donc être ordonnée par le juge.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0020">
                     <head>113. - Appel. — Taux. — Irrecevabilité d’un appel formé seulement pour les
                         frais.</head>
                     <div type="summary">
@@ -466,7 +477,7 @@
                     </div>
                 </div>
                 <pb n="68" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0030">
                     <head>114. - Arbitrage.—Société de Courses ; décision souveraine des
                         stewards.</head>
                     <div type="summary">
@@ -528,7 +539,7 @@
                             juridiction et la comparution devant eux être soumis au Tribunal.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0040">
                     <head>115. -Change — Système monétaire, égyptien. — Tarif officiel. — Arrêté du
                         18 Octobre 1916. — Valeur légale et cours forcé de la pièce d’or française
                         de 20 francs. — Convention ; interprétation ; cas où il est impossible de
@@ -842,7 +853,7 @@
                             purement juridique), soit la dette contractée par la défenderesse ; que
                             cette comparaison révèle:</p>
                         <p>lo) une différence de cause, puisque les obligations de 1902-1905 ont
-                            visé « principalement > (voir leur texte) la conversion du solde des
+                            visé « principalement &gt; (voir leur texte) la conversion du solde des
                             57.236 obligations antérieures, alors que les obligations de 1906 ont
                             tendu au règlement des obligations de 1902-1905 et, en outre, au
                             règlement de créances simples;</p>
@@ -1043,7 +1054,7 @@
                             régularité, reconnues par ses autres ■créanciers du même ordre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0050">
                     <head>116. - Clause pénale. — Condition ■d’application : justification du
                         préjudice subi.</head>
                     <div type="summary">
@@ -1057,7 +1068,7 @@
                     <div type="litigants">
                         <p>(Cour d’Appel, Chambres réunies, Prés. M. F. Laloë 9 février 1922 —
                             Alexandria Produce et Export Cy. Ltd. c. Dame Euphrosine Catzaros et
-                            autre). ></p>
+                            autre). &gt;</p>
                     </div>
                     <div type="observations">
                         <p>Note. - Ainsi jugé par les Chambres réunies de la Cour en conformité d’un
@@ -1119,7 +1130,7 @@
                             refuser toute allocation dans le second.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0060">
                     <head>117. - Courtage. — Droit du courtier à rémunération en cas d’insuccès des
                         négociations par la faute de l’acheteur.</head>
                     <div type="summary">
@@ -1175,7 +1186,7 @@
                             évalue àL.E.30Ù, en infirmant le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0070">
                     <head>118. — Distribution. — Contredit; irrecevabilité d’une contestation
                         différente, devant le Tribunal, de celle formulée au contredit.</head>
                     <div type="summary">
@@ -1249,7 +1260,7 @@
                             dommages-intérêts pour action vexatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0080">
                     <head>119. - Domestique. - Chauffeur. — Licenciement sans préavis ni
                         indemnité.</head>
                     <div type="summary">
@@ -1301,7 +1312,7 @@
                             fondé en sa demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0090">
                     <head>120. - Domestique. - Employé subalterne d’un magasin. — Renvoi
                         intempestif.</head>
                     <div type="summary">
@@ -1318,7 +1329,7 @@
                         <p>Note. — Comp. le jugement du 12 Novembre 1921, ci-haut § 119.'</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0100">
                     <head>121. — Effet dé commerce. — Endossement irrégulier; conditions dans
                         lesquelles il confère au porteur la qualité de tiers-porteur de bonne foi. —
                         Date de l’endossement insérée après l’échéance, mais pour un transfert
@@ -1345,7 +1356,7 @@
                             Abdel Rahman c. The Anglo-Egyptian Bank Ltd et Ct.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0110">
                     <head>122. - Exequatur. — Sentence arbitrale. — Validité d'un arbitrage rendu à
                         l’étranger sur une procédure autre que celle du Code Mixte. — Décision
                         d’exequatur ; elle doit préciser le montant pour lequel l’exécution peut
@@ -1488,7 +1499,7 @@
                             l’émender en précisant la portée du dispositif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0120">
                     <head>123. - Expropriation. — Adjudication de biens n'appartenant pas au
                         débiteur ; faute du poursuivant ; elle n’est pas partagée par les autres
                         créanciers. — Revendication en cours d’expropriation ; restitution des
@@ -1571,7 +1582,7 @@
                             avec Adda.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0130">
                     <head>124. - Expropriation. — Location consentie après la transcription du
                         commandement immobilier ; acte de mauvaise administration malgré
                         l’affectation donnée aux loyers.</head>
@@ -1600,7 +1611,7 @@
                             celui relatif à l’emploi de ces fruits.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0140">
                     <head>125. — Expropriation. — Loi des cinq feddans. — Insaisissabilité de la
                         petite propriété agricole; irrecevabilité d’une action principale pour la
                         soulever. — Tiers-détenteur; défaut de droit personnel à soulever
@@ -1705,7 +1716,7 @@
                         <p>( Omissis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0150">
                     <head>126. - Expropriation, pour cause d’utilité publique. — Indemnité;
                         renonciation de la part du tuteur, non opposable aux mineurs. — Intérêts sur
                         l’indemnité d’expropriation; point de départ.</head>
@@ -1726,7 +1737,7 @@
                             rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0160">
                     <head>127. - Gage. — Droit de rétention du destinataire qui a effectué des
                         avances pour retirer la marchandise. — Vente aux enchères; dépôt du produit
                         à la Caisse.</head>
@@ -1744,7 +1755,7 @@
                             Hadjichristofa Frères c. Jean Placotaris et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0170">
                     <head>128. - Hypothèque. — Indivisibilité. — Droits du créancier ayant
                         hypothèque sur plusieurs biens du même débiteur. — Distribution.</head>
                     <div type="summary">
@@ -1789,7 +1800,7 @@
                             et note).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0180">
                     <head>129. - Inscription de faux. — Caractère suspensif à moins que le document
                         incriminé ne soit sans portée. — Jonction de l'incident en faux au fond pour
                         déterminer la portée du document incriminé.</head>
@@ -1807,11 +1818,11 @@
                     </div>
                     <div type="litigants">
                         <p>(Cour d‘Appel, 2me Ch. Prés. M. E. Eeman, 22 Décembre 1921. — Mohamed Abd
-                            El Kader Talha c. Ministère des Wakfs). ></p>
+                            El Kader Talha c. Ministère des Wakfs). &gt;</p>
                     </div>
                 </div>
                 <pb n="75" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0190">
                     <head>130. - Juridiction Mixte. — Compétence. — Contestation relative aux
                         honoraires d’un procès; compétence indépendante de la nationalité des
                         parties.</head>
@@ -1849,7 +1860,7 @@
                             devant les Tribunaux indigènes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0200">
                     <head>131. - Juridiction mixte. — Compétence; litige entre sujets locaux;
                         séquestre nommé par la Juridiction Mixte,</head>
                     <div type="summary">
@@ -1866,7 +1877,7 @@
                             XXVI, cités par le jugement rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0210">
                     <head>132. - Juridiction Mixte. —Compétence. — Nationalité. — Fonds de
                         commerce.</head>
                     <div type="summary">
@@ -1899,7 +1910,7 @@
                             compétemment portée devant la juridiction mixte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0220">
                     <head>133. - Juridiction Mixte. — Compétence pour relever la nullité d’une
                         expulsion opérée sans titre par un huissier indigène.-— Appel.—Evocation en
                         cas d'infirmation d’un jugement interlocutoire. '</head>
@@ -1916,7 +1927,7 @@
                             Chérif Nasrc. Mahmoud eff. Abdel Ghanî et autre),</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0230">
                     <head>134. - Juridiction mixte. —Incompétence à statuer sur une revendication
                         reprise après désintéressement, par l’adjudication, du seul créancier
                         inscrit sur les biens.</head>
@@ -1989,7 +2000,7 @@
                             des dits terrains.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0240">
                     <head>135. - Magasins généraux. — Garantie des frais d’emmagasinage. — Réglement
                         intérieur. — Droits des magasins généraux assimilables à ceux du créancier
                         gagiste.</head>
@@ -2007,7 +2018,7 @@
                             Gazzar c. Egyptian Bonded Warehou-ses Cy).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0250">
                     <head>136. - Mariage. — Courtage matrimonial; caractère licite.</head>
                     <div type="summary">
                         <p>La convention de courtage matrimonial n’est contraire ni à l’ordre public
@@ -2117,7 +2128,7 @@
                             simplement d’ordonner la vérification de la signature déniée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0260">
                     <head>137. - Opposition. — Irrecevabilité en matière pénale, en cas de défaut de
                         comparution de l’opposant devant le Tribunal Correctionnel saisi du
                         recours.</head>
@@ -2143,7 +2154,7 @@
                             bien postérieure à l’opposition, et indépendante de celle-ci.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0270">
                     <head>138. - Partage. — Effet déclaratif. — Prescription acquisitive
                         quinquennale ; partage ne constituant pas juste titre. — Incapacité ; délais
                         et déchéance de l’action en rescision, fixés par la loi nationale de
@@ -2367,7 +2378,7 @@
                             retrait sur les autres parts indivises, également aliénées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0280">
                     <head>139. - Protection des animaux. —• Responsabilité personnelle du
                         propriétaire d’animaux en matière de contravention.</head>
                     <div type="summary">
@@ -2383,7 +2394,7 @@
                             Khalil Hassan Guinieï c. Alinistère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0290">
                     <head>140. - Règlement définitif. - Contredit irrecevable pour défaut de
                         contredit du règlement provisoire ; irrecevabilité « relever
                         d’office.</head>
@@ -2406,7 +2417,7 @@
                             trouvent aucune application en l’espèce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0300">
                     <head>141. - Requête civile. — Recours formé par le débiteur contre une décision
                         rendue au préjudice de son créancier; irrecevabilité en principe. — Dol
                         personnel; faux ; ils n'existent pas en cas de qualification erronée d’une
@@ -2522,7 +2533,7 @@
                             reconnaissait cette délivrance comme valable demeure irrévocable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0310">
                     <head>142. - Vente cif. — Marchandise vendue sur un lot plus considérable ;
                         individualisation suffisante par bon de livraison. — Droit du vendeur en cas
                         d’exécution du marché ; différence entre le prix contractuel et le prix de
@@ -2649,7 +2660,7 @@
                             Universal Trading Cy”.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0320">
                     <head>143. - Vente commerciale. — Portée de la stipulation « expédition au plus
                         vite possible ». — Interprétation. —Autorité de la chose jugée d’un arrêt
                         statuant sur le mérite d’exécution totale d’une vente alors que l’instance
@@ -2742,7 +2753,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-03-0330">
                     <head>144. - Voie publique. — Occupation sans nécessité. — Usurpation; peines
                         applicables. — Radiation de . l’affaire en cas d’absence des parties ; non
                         applicabilité de l’art. 124 Code Proc, en matière pénale.</head>

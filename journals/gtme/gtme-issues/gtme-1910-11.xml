@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1910-11-10">November 10, 1910</date><lb/>
-                    <biblScope unit="volume">Vol. 1</biblScope><lb/>
-                    <biblScope unit="number">No. 1</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1910-11-10">November 10, 1910</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 1</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 1</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -343,7 +354,7 @@
             <pb n="4" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0010">
                     <head>Accidents du travail. — Minorité.</head>
                     <div type="summary">
                         <p>Bien que la loi égyptienne, sauf pour les usines d’égrenage, n’interdise
@@ -366,7 +377,7 @@
                             anglo-Egyptian Spinningand Weaving Cy. Ltd.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0020">
                     <head>Action incompétemnient introduite. — Transformation à l’audience.</head>
                     <div type="summary">
                         <p>Lorsqu’une action — résiliation d’un contrat de bail, en l’espèce — a été
@@ -379,7 +390,7 @@
                             Cohen.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0030">
                     <head>Architecte. Confection de plans.</head>
                     <div type="summary">
                         <p>Le 5 °/o sur le prix de l’entreprise alloué, selon les usages du pays, à
@@ -394,7 +405,7 @@
                             Pavlopoulos.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0040">
                     <head>Chemins de fer. — Contravention.</head>
                     <div type="summary">
                         <p>En l’absence de dispositions spéciales dans le règlement sur la police
@@ -408,7 +419,7 @@
                             Ambrosi.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0050">
                     <head>Club. — Dissimulation.</head>
                     <div type="summary">
                         <p>Les juridictions pénales doivent examiner et apprécier les faits dont la
@@ -435,7 +446,7 @@
                             Bey et consorts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0060">
                     <head>Droits proportionnels. — Transcription. — Solidarité.</head>
                     <div type="summary">
                         <p>La solidarité pour le paiement des droits de greffe découle
@@ -451,7 +462,7 @@
                             et consorts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0070">
                     <head>Effets de commerce.— Endossement.— Exceptions.</head>
                     <div type="summary">
                         <p>Même au cas où uu effet de commerce a été endossé à titre de garantie,
@@ -464,7 +475,7 @@
                             consorts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0080">
                     <head>Expulsion. — Contrat de bail. — Compétence de Référé.</head>
                     <div type="summary">
                         <p>La clause d'un contrat de bail qui attribue compétence au Juge des
@@ -480,7 +491,7 @@
                             Matossian.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0090">
                     <head>Expulsion du sous-locataire. — Compétence de Référé.</head>
                     <div type="summary">
                         <p>Le Juge des Référés est compétent pour ordonner l’expulsion d’un
@@ -494,7 +505,7 @@
                             Cureiimelii et consorts.}</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0100">
                     <head>Faillite. — Contestation de créances par le failli.</head>
                     <div type="summary">
                         <p>L’arl. 323 0. Comm., qui permet de contester par action directe devant le
@@ -509,7 +520,7 @@
                             Georges Calliadis.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0110">
                     <head>Eins de non-recevoir. — Réception de marchandises. — Voituriers.</head>
                     <div type="summary">
                         <p>La marchandise doit être considérée comme reçue dès l’instant où elle a
@@ -529,7 +540,7 @@
                             Maritimes.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0120">
                     <head>Frais d’entretien.—Charge incombant au mari.</head>
                     <div type="summary">
                         <p>Le père qui a conservé sa fille chez lui malgré l’injonction de
@@ -545,7 +556,7 @@
                             Seemann.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0130">
                     <head>Honoraires de médecin. — Aliments.</head>
                     <div type="summary">
                         <p>La loi mixte (art. 217 et 218 C. Civ.) n’imposant l’obligation
@@ -558,7 +569,7 @@
                             Coroniades.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0140">
                     <head>Honoraires de médecin. — Obligation alimentaire.</head>
                     <div type="summary">
                         <p>Les soins médicaux constituant des aliments dus par les parents à leurs
@@ -576,7 +587,7 @@
                             Fiteni.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0150">
                     <head>Honoraires de medécin.— Parenté.— Minorité.</head>
                     <div type="summary">
                         <p>La parenté entre le médecin et son client ne saurait autoriser ce dernier
@@ -589,7 +600,7 @@
                             Fiteni.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0160">
                     <head>Intérêts usuraires. — Preuve.</head>
                     <div type="summary">
                         <p>Le fait par un individu qui fait habituellement le métier de prêteur
@@ -610,7 +621,7 @@
                         <p>(Cour d’Appel, 8 juin 1910.—Panayolti Voyouchi c. Risk Sourial esq.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0170">
                     <head>Intervention. — Action publique.</head>
                     <div type="summary">
                         <p>Est recevable l’intervention du créancier dans une instance où le
@@ -626,7 +637,7 @@
                             ïoussefBey el Monellii esq. et consorts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0180">
                     <head>Juridiction Mixte. — Compétence. Nationalité hellène.</head>
                     <div type="summary">
                         <p>Les Tribunaux mixtes doivent se déclarer d’office incompétents dans les
@@ -658,7 +669,7 @@
                             instance ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0190">
                     <head>Loyers. — Compétence du juge sommaire.</head>
                     <div type="summary">
                         <p>L’art. 28, § 2 C. Proc., qui limite la compétence du Juge Sommaire en
@@ -675,7 +686,7 @@
                             Hanafi el Saaran et Isaae Misano.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0200">
                     <head>Loyers (paiement de.) — Gage. — Saisie de récoltes.</head>
                     <div type="summary">
                         <p>Est contraire à l’ordre public (art. ,665</p>
@@ -693,7 +704,7 @@
                             Heikal et divers autres.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0210">
                     <head>Mise en demeure. — Obligations de, ne pas faire. —
                         Dommages-intérêts.</head>
                     <div type="summary">
@@ -706,7 +717,7 @@
                         <p>(Trib Somm. Alex., 18 juin 1910. — Andrigo Serafini c. J. Martha).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0220">
                     <head>Profit-joint. — Défaut faute de conclure.</head>
                     <div type="summary">
                         <p>Quand une des parties qui ont comparu à l’appel de la cause, ne se
@@ -744,7 +755,7 @@
                             eoncture.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0230">
                     <head>Référé. — Compétence. — Juge de Service. — Examen du fond.</head>
                     <div type="summary">
                         <p>Pour être à même de se prononcer sur le maintien de mesures
@@ -761,7 +772,7 @@
                             Joannides.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0240">
                     <head>Référé. — Saisie-arrêt; absence de dénonciation et de contre-dénonciation
                         ; demande en mainlevée. -- Incompétence.</head>
                     <div type="summary">
@@ -818,7 +829,7 @@
                             apparence dilatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0250">
                     <head>Référé. — Validité de l’assignation.</head>
                     <div type="summary">
                         <p>Le Juge des Référés n’est pas compétent à statuer sur la validité d’une
@@ -834,7 +845,7 @@
                             Rongés.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0260">
                     <head>Réouverture des débats.</head>
                     <div type="summary">
                         <p>Les Tribunaux peuvent ordonner la réouverture des débats en tout état de
@@ -851,7 +862,7 @@
                             Gy.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0270">
                     <head>Revendication.</head>
                     <div type="summary">
                         <p>Est irrecevable l’action en revendication dirigée contre le saisissant
@@ -861,7 +872,7 @@
                         <p>(Cour d’Appel, 8 juin 1910.— Georges Cratzas c. Michel Panghivanos.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0280">
                     <head>Revendication d* objets saisis. — Incompétence du Tribunal de Justice
                         Sommaire.</head>
                     <div type="summary">
@@ -894,7 +905,7 @@
                             mais une délégation du Tribunal Civil?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0290">
                     <head>Roksa. — Machines à vapeur. — Contravention.</head>
                     <div type="summary">
                         <p>La roksa, délivrée soit pour l’installation, soit pour le fonctionnement
@@ -911,7 +922,7 @@
                             Constant! Dimitri.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0300">
                     <head>Saisie-arrêt. — Irrecevabilité.</head>
                     <div type="summary">
                         <p>L’existence d’une saisie-arrêt n’empêche nullement la partie contre
@@ -926,7 +937,7 @@
                             Melünger.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0310">
                     <head>Saisie-arrêt. — Jugement de défaut. — Recours en référé.</head>
                     <div type="summary">
                         <p>Rien ne permet de considérer comme une mesure illégale ou injustifiée ou
@@ -944,7 +955,7 @@
                             L. VIII, 38.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0320">
                     <head>Saisie-arrêt. — Opposition sur le produit d’une vente.</head>
                     <div type="summary">
                         <p>La somme payée à l’huissier au moment de l’exécution pour désintéresser
@@ -960,7 +971,7 @@
                             et Costi Beriketti )</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0330">
                     <head>Saisie mobilière. — Revendication.</head>
                     <div type="summary">
                         <p>Ne suffit pas à arrêter l’exécution la simple production par la femme du
@@ -977,7 +988,7 @@
                             consorts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-11-0340">
                     <head>Serment. — Fixation d’audience par le jugement.</head>
                     <div type="summary">
                         <p>Dans le cas où un jugement fixe une audience pour la prestation d’un
@@ -1300,7 +1311,7 @@
                 <p>9 h., form. concordat.</p>
                 <p>Salomon El Fassi, local à Alexandrie, rue Souk el Kheit. — Réun. 8 nov, 10 h.,
                     form. concordat.</p>
-                <p>Mohamed Ahmed Ahmed E> Sayad, local, à Mehallah-el-Kébir. — Réun. 8 nov.,</p>
+                <p>Mohamed Ahmed Ahmed E&gt; Sayad, local, à Mehallah-el-Kébir. — Réun. 8 nov.,</p>
                 <p>10 h., form. concordat.</p>
                 <p>Nicola Nicolaous, local, à Tantah. — Réun., le 8 nov.à 10h. 12 p. form.,
                     concordat.</p>

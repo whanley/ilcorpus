@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1919-03-10">March 10, 1919</date><lb/>
-                    <biblScope unit="volume">Vol. 9</biblScope><lb/>
-                    <biblScope unit="number">No. 101</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1919-03-10">March 10, 1919</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 9</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 101</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -83,10 +94,10 @@
                     MACHINES à ÉCRIRE. Fournitures et Accessoires. BUREAU SPÉCIAL d’Ecriture à la
                     Machine. ! Traduction en toutes langues. |</p>
                 <p>AUTOMOBILES i i I êL •mnr â i g ^sggT ^Wtz^AN' Æ48W i B ,,, - _«-gç»» - Æÿïsa
-                    ^Kk-MâN^ //'--iu!^x-',-ÿ' Æ®r B 1 âM ATêà ^F >âF JfcF MF MZLâI^êUîê MâMAâ-iê
+                    ^Kk-MâN^ //'--iu!^x-',-ÿ' Æ®r B 1 âM ATêà ^F &gt;âF JfcF MF MZLâI^êUîê MâMAâ-iê
                     àà^WiM^ irL-eMAà. 7''U -t11fagÀ.^*ga^ 'DM 1 TÉLÉPHONE 44-47 The AUTOMOBILE
                     EMPORIUM Rue Antoine (ALEXANDRIE) ! MLF.T, !■ ..^. JUIMW A1H. J.
-                    2AÜ^&lt;urjy.-lL»'r^,«J4,SY^^^-si7rJX^SK?S^5-^?fc^^^ï7S^LBàl¥llEw>^g.'lff-*j/.ÆjHi'l
+                    2AÜ^&lt;urjy.-lL»'r^,«J4,SY^^^-si7rJX^SK?S^5-^?fc^^^ï7S^LBàl¥llEw&gt;^g.'lff-*j/.ÆjHi'l
                     .Wg^lggl </p>
             </div>
             <div type="nameplate">
@@ -644,7 +655,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0010">
                     <head>73. - Adjudication. — Compensation ■de droit entre le prix d’adjudication
                         et la ■créance de l’adjudicataire. — Hypothèque. — Intérêts garantis. — Non
                         rétroactivité de la loi du 7 Septembre 1912. — Commandement dont la
@@ -752,7 +763,7 @@
                             droits acquis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0020">
                     <head>74. - Adjudication. -- Fermages échus postérieurement à l’adjudication. —
                         Droits de l’adjudicataire. — Fin de la mission d’un séquestre
                         Judiciaire.</head>
@@ -770,7 +781,7 @@
                             Izzat et Ahmed Bey Moukhtar èsq. c. Lissandro Riso et auttes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0030">
                     <head>75. - Appel. — Désistement. — Opposition à la radiation par un intimé
                         intéressé à relever appel à son tour.</head>
                     <div type="summary">
@@ -794,7 +805,7 @@
                     </div>
                 </div>
                 <pb n="56" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0040">
                     <head>76. - Appel incident en matière disciplinaire. — Droit pour la partie
                         condamnée de profiter de l’appel a minima du Ministère Public.</head>
                     <div type="summary">
@@ -833,7 +844,7 @@
                             aux fins de faire un examen entier des faits objet de la poursuite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0050">
                     <head>77. - Appel. — Point de départ du délai. — Signification. — Droit de
                         relever des appels successifs contre diverses parties.</head>
                     <div type="summary">
@@ -851,7 +862,7 @@
                             Alexandre Casdagli c. Agricultural Bank of Egypt et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0060">
                     <head>78. - Appel. — Taux. — Contredit concernant des demandes inférieures à
                         L.E. 100.</head>
                     <div type="summary">
@@ -865,7 +876,7 @@
                             Bey El Alii c. Land Bank of Egypt et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0070">
                     <head>79. - Association en participation. — Caractère occulte. — Critérium de la
                         distinction d’avec la société en nom collectif. — Solidarité des associés. —
                         Conditions nécessaires pour que les créanciers sociaux puisse l’invoquer. —
@@ -1203,7 +1214,7 @@
                             loin d’être inspirée par une intention vexatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0080">
                     <head>80. - Assurance. — Police émise à l’étranger. — Loi étrangère ne prévoyant
                         pas de fins de non-recevoir. — Droits de l’assureur. — Fins de non recevoir
                         des art. 274 et 275 C. Corn. Mar.</head>
@@ -1232,7 +1243,7 @@
                             différentes à Londres et à Alexaddrie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0090">
                     <head>81. - Avocat. — Honoraires. — Cas où il y a lieu à taxe. — Afjaiies
                         contentieuses.</head>
                     <div type="summary">
@@ -1249,7 +1260,7 @@
                             A. Souraty &amp; Co c. Me J. M.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0100">
                     <head>82. - Avocat. — Honoraires. — Cas où il y a lieu à taxe. — Cas où il y a
                         lieu à action ordinaire. — Recherches extrajudiciaires.</head>
                     <div type="summary">
@@ -1302,7 +1313,7 @@
                             autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0110">
                     <head>83. - Bail. — Trouble connu du bailleur. — Décharge de garantie prévue par
                         le contrat. — Dommages-intérêts. — Obligation du bailleur. — Délivrance de
                         la chose louée.</head>
@@ -1333,7 +1344,7 @@
                             Hanem Helnii et autres c. Hois Abbassi. Hafez).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0120">
                     <head>84. - Billets à ordre. — Tiers porteur. — Bonne foi. — Exceptions tirées
                         de la cause de l’obligation même. — Billet causé « Valeur loyers». —
                         Exception de prescription.</head>
@@ -1357,7 +1368,7 @@
                             Aletwalli c. Alilliade N. Mafounos et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0130">
                     <head>85. - Chose jugée. — Elle dérive du dispositif seul. — Motifs. — Faillite.
                         — Admission au passif. — Défaut de recours des faillites des co-obligés,
                         entre elles.</head>
@@ -1503,7 +1514,7 @@
                             des demandeurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0140">
                     <head>86. - Chose jugée. — Elle ne résulte que des jugements définitifs. — Elle
                         ne résulte pas des motifs. — Adjudication. — Obligation des créanciets
                         inscrits à la restitution du prix à /’adjudicataire évincé. — Responsabilité
@@ -1538,7 +1549,7 @@
                             Georges Bey Ayoub et Ct. c. Hoirs de feu Jacques Sébéo et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0150">
                     <head>87. - Chose jugée. — Irrecevabilité d’uue action en nullité d’une
                         expropriation de biens wakfs, après rejet de la production du nazir dans la
                         distribution.</head>
@@ -1566,7 +1577,7 @@
                             Bernardi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0160">
                     <head>88. - Droits proportionnels. — Jugements rendus sur titres. — Cas où il y
                         a lieu à examen d’une cession. — Police d'assurance.</head>
                     <div type="summary">
@@ -1750,7 +1761,7 @@
                             prévu par l’art. 6 du Tarif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0170">
                     <head>89. - Etages supérieurs. — Obligations respectives des propriétaires des
                         divers étages d’un immeuble. — Frais de réparation. — Charge de la
                         'réfection des gros murs.</head>
@@ -1806,7 +1817,7 @@
                         <p>Que leur demande susdite aurait donc dû être rejetée d’emblée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0180">
                     <head>90. - Expert. — Opposition à taxe. — Inopposabilité du jugement sur
                         opposition à taxe aux parties non appelées en cause. — Mises en cause en
                         degré d’appel. — Frais frustratoires.</head>
@@ -1823,7 +1834,7 @@
                             Dame Vassila Hanem El Haguin c. Jean Mog et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0190">
                     <head>91. - Faillite. — Réouverture, après dissolution de l’union, sur la base
                         de la découverte d’anciennes activités dissimulées ou soustraites.</head>
                     <div type="summary">
@@ -1910,7 +1921,7 @@
                             faillite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0200">
                     <head>92. - Hypothèque. — Inscription. — Erreur ou insuffisance dans la
                         désignation des biens.</head>
                     <div type="summary">
@@ -1924,7 +1935,7 @@
                             Berninzone èsq. c. Barouch Youssef Lîchaa et Eicha Hanem).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0210">
                     <head>93. - Imputation. — Mode d’imputation des dividendes payés dans une
                         distribution. — Requête civile. — Omission de statuer sur des conclusions
                         prises pour développer un moyen d’appel.</head>
@@ -1944,9 +1955,9 @@
                         <p>; cas où il n’a pas été statué sur des conclusions prises par les parties
                             afin de justifier leurs prétentions respectives, re-i; lativeinent à ces
                             chefs.</p>
-                        <p>> En conséquence, n’est point recevable ' une requête civile basée sur le
-                            fait qu’un arrêt aurait rejeté une demande d’imputation d’un paiement en
-                            expliquant dans ses motifs que l’intention du débiteur d’imputer le
+                        <p>&gt; En conséquence, n’est point recevable ' une requête civile basée sur
+                            le fait qu’un arrêt aurait rejeté une demande d’imputation d’un paiement
+                            en expliquant dans ses motifs que l’intention du débiteur d’imputer le
                             paiement sur une créance autre que celle qu’il aurait eu le plus ji
                             d’intérêt à acquitter, ne serait pas établie, et n’aurait point examiné
                             les conclusions .. tendant à développer qu’en droit les divi-; dendes
@@ -1959,7 +1970,7 @@
                     </div>
                     <div type="observations">
                         <p>Note. — L’arrêt expose :</p>
-                        <p>>i Attendu que la requête civile de la New E-</p>
+                        <p>&gt;i Attendu que la requête civile de la New E-</p>
                         <p>■; gyptian Cy Ltd est basée sur ce que l’arrêt at-i taqué, en date du 31
                             Octobre 1918, aurait omis de statuer sur un des chefs de la demande (N“
                             1 -, de l’art. 424 Code Proc.);</p>
@@ -2000,7 +2011,7 @@
                             fond, le déclarer bien fondé; annuler, en conséquence, le jugement dont
                             appel et, statuant à nouveau: déclarer le dire formé par Makadi
                             irrecevable; en tout cas, mal fondé;</p>
-                        <p>- ordonner la continuation des poursuites >;</p>
+                        <p>- ordonner la continuation des poursuites &gt;;</p>
                         <p>Que les conclusions écrites de la société se terminent comme suit: «Dire
                             l’appel de la concluante recevable et bien fondé; infirmer, en
                             conséquence, le jugement dont appel et, statuant à nouveau: déclarer mal
@@ -2087,7 +2098,7 @@
                             relativement à ces chefs (Arrêt 30 Avril 1903).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0220">
                     <head>94. - Irrigation. — Enlèvement arbitraire de tuyaux d’irrigation par
                         l’inspecteur des irrigations. — Responsabilité du Gouvernement. — Loi du 22
                         Février 1894 sur les digues et canaux. — Dommages-intérêts.</head>
@@ -2111,7 +2122,7 @@
                             des travaux publics).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0230">
                     <head>95. - Juridiction mixte. — Référé. — Compétence. — Demande de séquestre,
                         entre parties indigènes, pour encaisser des loyers saisis-arrêtés entre les
                         mains d’étrangers.</head>
@@ -2128,7 +2139,7 @@
                             autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0240">
                     <head>96. - Libération. — Consignation non précédée d’offres préalables. —
                         Charge des intérêts.</head>
                     <div type="summary">
@@ -2197,7 +2208,7 @@
                             l’instance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0250">
                     <head>97. - Partage. — Formalités nécessaires pour les biens des mineurs. —
                         Meglis El Hasby. — Nullité. — Revendication de part indivise à la suite d’un
                         partage nul. — Inscriptions et transcriptions milles. — Revendication en
@@ -2223,7 +2234,7 @@
                         <p>Note. — II. -V. ég. arrêt 21 Février 1918, Gaz., VIII 235-265.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0260">
                     <head>98. - Prescription. — Interruption. — Pluralités de demandes.—
                         Commandement. — Intérêts moratoires.</head>
                     <div type="summary">
@@ -2317,7 +2328,7 @@
                             XXIX, p. 207).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0270">
                     <head>99. - Preuve. — Actes sous seing privé. — Portée de l’écrit au point de
                         vue de l’existence de l’obligation et au point de vue de la cause de
                         l’obligation. — Cause simulée.— Cause illicite.—Mode de preuve de ce
@@ -2344,7 +2355,7 @@
                             Mohamed Diab c. L. Teboulle).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0280">
                     <head>100. - Privilège. — Frais de réalisation des biens du débiteur. — Frais
                         d’exécution. Frais exposé s pour l’obtention d’un titre exécutoire.</head>
                     <div type="summary">
@@ -2358,7 +2369,7 @@
                             Building Lands of Egypt c. Land Bank of Egypt).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0290">
                     <head>101. - Référés. — Compétence. — Réserve d’un recours en
                         dommages-intérêts.</head>
                     <div type="summary">
@@ -2375,7 +2386,7 @@
                             Mohamed Hassan c. Hussein Salem Heikal).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0300">
                     <head>102. - Saisie-arrêt déguisée. — Revendication d’une somme d’argent. —
                         Nullité. — Obligations du dépositaire — Juridiction Mixte. — Compétence à
                         trancher des questions se rattachant au statut personnel. — Loi régissant
@@ -2433,7 +2444,7 @@
                             procès-verbal du dépôt à la Caisse des consignations du second versement
                             soit P.T. 9089,09 et demande « la validation de ce dépôt et
                             l’adjudication par exploit du 16 Novembre 1918 de la propriété de la
-                            somme qui en fait l’objet à l’un ou l’autre des contestants > que la
+                            somme qui en fait l’objet à l’un ou l’autre des contestants &gt; que la
                             dame Meletiou ayant assigné par exploit du 16 Novembre 1918 Manolas, la
                             Cassa di Sconto et le Greffier en Chef du Tribunal, devant le Juge des
                             Référés, celui-ci s’est déclaré incompétent;</p>
@@ -2540,7 +2551,7 @@
                             le concours apporté par Manolas à cette opération.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0310">
                     <head>103. -Séquestre judiciaire. — Nullité d’une location consentie pour trois
                         années, à la veille de l’adjudication.</head>
                     <div type="summary">
@@ -2555,7 +2566,7 @@
                             Izzét c. Ahmed Bey Moukhtar èsq., Lissandro Riso et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0320">
                     <head>104. - Succession musulmane. — Dettes du défunt. — Droit des créanciers. —
                         Poursuites contre les héritiers apparents. — Validité. — Wakf constitué
                         nonobstant des dettes. — Nullité. — Nazi/. — Tiers-détenteur.</head>
@@ -2689,7 +2700,7 @@
                             exception.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0330">
                     <head>105. - Tiers-détenteur non sommé. — Dioit de s’opposer à l’exécution du
                         jugement d’adjudication.</head>
                     <div type="summary">
@@ -2702,7 +2713,7 @@
                             Hassan El Sad c. Mohamed Hassan Zeitoun).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0340">
                     <head>106. -Transcription. — Inopposabilité au créancier de la transcription
                         d’une aliénation opérée ailleurs qu’au lieu de la si tuation des
                         biens.</head>
@@ -2724,7 +2735,7 @@
                             Chafika dent Abdel Hadi c. Dimitri Mamelle et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0350">
                     <head>107. - Vent© ou donation par un père à son enfant mineur. — Conditions de
                         validité en droit musulman. — Tuteur ad hoc. — Tradition réelle. — Actes de
                         dernière maladie. — Cas où les créanciers successoraux seuls peuvent en
@@ -2834,7 +2845,7 @@
                             de sa créance par l’expropriation du bien donné.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0360">
                     <head>108. -Vente. —Résiliation pour défaut de dégrèvement des charges existant
                         sur l’immeuble vendu. — Droits acquis de l’acheteur.</head>
                     <div type="summary">
@@ -2856,7 +2867,7 @@
                             délivrance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0370">
                     <head>109. - Vent©. — Servitude légale. — Conditions et restrictions posées par
                         l’Etat dans une aliénation du domaine privé. — Publication au « Journal
                         Officiel». — Adjudication. — Etendue des droits transmis. — Responsabilité
@@ -2885,7 +2896,7 @@
                             Abdel Hamid Imam c. Liq. C. G. Zer vudachi et iils).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-03-0380">
                     <head>110. - Vente. — Tromperie sur les qualités essentiellles de la chose
                         vendue garantie du vendeur. — Vice caché.</head>
                     <div type="summary">

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1927-11-10">November 10, 1927</date><lb/>
-                    <biblScope unit="volume">Vol. 18</biblScope><lb/>
-                    <biblScope unit="number">No. 205</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1927-11-10">November 10, 1927</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 18</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 205</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -425,7 +436,7 @@
                     pas pour effet d’entraîner sa nullité, la constitution de prête-nom n’ayant même
                     en pareil cas rien d’illicite», dit un arrêt</p>
                 <p>C ) V. dans ce numéro. Jurisprudence, p. 31 : an</p>
-                <p>(*>■) C«., Xir, 1C2-23O-. ’ '</p>
+                <p>(*&gt;■) C«., Xir, 1C2-23O-. ’ '</p>
                 <pb n="6" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                 <p>du 28 Février 1923 (*) «sauf au juge du fond de décider si c’est la loi mixte ou
                     la loi nationale des plaideurs originaires qui doit recevoir son
@@ -497,7 +508,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0010">
                     <head>1. - Compétence. — Jugement contradictoire; premier ressort; appel;
                         confirmation; recours devant la juridiction du premier degré; absence des
                         conditions de la requête civile; non recevabilité. — Billet à ordre
@@ -588,7 +599,7 @@
                             connaître, s’agissant d’un litige entre indigènes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0020">
                     <head>2. - Compétence. — Prorogation volontaire de juridiction; admissibilité;
                         clause laissant au créancier le choix du Tribunal à saisir;
                         inopérance.</head>
@@ -641,7 +652,7 @@
                             connaître de l’action en paiement dirigée contre lui.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0030">
                     <head>3. - Compétence. — Prorogation volontaire de juridiction; Tribunal
                         Sommaire. — Compétence conventionnelle; pouvoir de statuer en dernier
                         ressort; appel basé sur une exception d’incompétence ratio-ne materiæ non
@@ -699,7 +710,7 @@
                         <p>Que l’appel est, par voie de conséquence, irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0040">
                     <head>4. - Compétence. — Société; assignation donnée devant le Tribunal d’une
                         succursale; Art. 35, 3° C. Proc.; portée limitée à l’assignation de la
                         succursale avec laquelle, le demandeur a traité; élection de domicile faite
@@ -834,7 +845,7 @@
                             retenu, est de la compétence exclusive du Tribunal de Syra.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0050">
                     <head>5. - Compétence. — Société; assignation donnée devant le Tribunal d’une
                         succursale; Art. 35, 3° C. Proc.; portée limitée à l'assignation de la
                         succursale avec laquelle le demandeur a traité; jugement intervenu au profit
@@ -865,7 +876,7 @@
                         <p>L’arrêt rapporté expose: j</p>
                         <p>Le jugement dont appel rendu par le Tri- ! banal de Commerce du Caire en
                             date du 2 ,</p>
-                        <p>Décembre. 1922 a débouté l’appelante, la Rai- > son Sociale Pispinis
+                        <p>Décembre. 1922 a débouté l’appelante, la Rai- &gt; son Sociale Pispinis
                             Frères, de sa demande tendant à la condamnation de la Banque d’Orient,
                             intimée, à lui payer la somme de L.E. 209,151 et 135 résultant des
                             opérations cotonnières entre parties.</p>
@@ -955,7 +966,7 @@
                             recevable...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0060">
                     <head>6. - Compétence. — Tau.r de la demande; obligation; reliquat; art. 28, 2®
                         C. Proc.; portée.</head>
                     <div type="summary">
@@ -991,7 +1002,7 @@
                             Mars 1927. — R. 8. M. J. Poussounakis c. Société Anonyme «Morawia»).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0070">
                     <head>7. - Femme anglaise. —Mariage avec un égyptien; conventions matrimoniales;
                         application au.r meubles de la loi dit domicile matrimonial sauf convention
                         contraire; mariage de la femme anglaise avec un étranger; perte de
@@ -1149,11 +1160,11 @@
                             Indigène qui saisit les bijoux de la défunte.</p>
                         <p>Le 6 Novembre 1923, le Prince Djemal Eddine qui n'a. au moment de la
                             répudiation de sa femme, énoncé aucune prétention quant à ses bijoux,
-                            intente la présente action à l’encontre des consorts Harrington, père c>
-                            mère de la défunte, lesquels ont obtenu. le 11 Novembre 1923, du Mehkémé
-                            Charte d’Alexandrie, un Elam Charéi les déclarant seuls hoirs de leur
-                            fille, en prétendant qu’il est le seul héritier de la défunte et qu’il
-                            entend revendiquer les bijoux.</p>
+                            intente la présente action à l’encontre des consorts Harrington, père
+                            c&gt; mère de la défunte, lesquels ont obtenu. le 11 Novembre 1923, du
+                            Mehkémé Charte d’Alexandrie, un Elam Charéi les déclarant seuls hoirs de
+                            leur fille, en prétendant qu’il est le seul héritier de la défunte et
+                            qu’il entend revendiquer les bijoux.</p>
                         <p>Les consorts Harrington demandent, reconventionnellement. le montant de
                             L.E. 5100 arriérées de la somme due à la défunte jusqu’à sa mort, en
                             vertu du contrat du 22 Septembre 1921. Il échet de remarquer que la
@@ -1368,7 +1379,7 @@
                             et' même arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0080">
                     <head>8. Juridiction mixte. — Banque ayant siège à Vétranger; action en
                         responsabilité pour restitution d'un dépôt effectué à l'étranger; demande
                         farinée au lieu d'une succursale en Egypte; incompétence des Tribunaux
@@ -1468,7 +1479,7 @@
                             par le Fatwahané.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0090">
                     <head>9. - Juridiction mixte. — Changement de nationalité d’une des parties en
                         cours d'instance; défaut d'influence sur la compétence acquise; — Appel
                         vexatoire; droit de l’intimé à des dommages-intérêts.</head>
@@ -1557,7 +1568,7 @@
                             la somme de L.E. 35 à titre de dommages pour appel vexatoire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0100">
                     <head>10. - Juridiction mixte. ■— Compétence à l'égard des étrangers; contrat de
                         louage de services conclu à l’étranger en vue de recevoir son exécution en
                         Egypte. — Etat Etranger; acte d'exploitation commerciale, ne constituant pas
@@ -1585,7 +1596,7 @@
                             Tabacs de Turquie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0110">
                     <head>11. - Juridiction mixte. — Compétence à l'égard des étrangers non
                         capitulaires; Etats détachés de VEmpire Ottoman; Syriens; Libanais; Traité
                         de Lausanne; reconnaissance tacite par l'Egypte; Modus vivendi
@@ -1919,7 +1930,7 @@
                             comme sujet ottoman.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0120">
                     <head>12. - Juridiction mixte. — Compétence à regard des étrangers non
                         capitulaires; Etats détachés de VEmpire Ottoman; Syriens; Traité de
                         Lausanne; défaut de reconnaissance par l'Egypte; Modus vivendi
@@ -2190,7 +2201,7 @@
                             les motifs énoncés dans leur jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0130">
                     <head>13. - Juridiction mixte. — Compétence à l'égard des étrangers non
                         capitulaires; Etats détachés de l'Empire Ottoman; Syriens; Traité de
                         Lausanne; reconnaissance par l'Egypte; Modus vivendi franco-égyptien du 17
@@ -2354,7 +2365,7 @@
                             Réforme dans leurs litiges avec des indigènes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0140">
                     <head>14. - Juridiction mixte. — Compétence à l'égard des étrangers sans
                         distinction; matière civile et commerciale; Contraventions commises par des
                         Russes en. Egypte; compétence. — Ex-Ottomans; incompétence des Juridictions
@@ -2578,7 +2589,7 @@
                             saurait produire d’effets à son encontre...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0150">
                     <head>15. - Juridiction mixte. — Compétence à statuer sur une demande en
                         restitution de fruits introduite devant les Tribunaux Mixtes contre acheteur
                         et prête-nom de celui-ci, de nationalités différentes après annulation de la
@@ -2776,7 +2787,7 @@
                             ses motifs non contraires à ceux du présent arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0160">
                     <head>16. - Juridiction mixte. — Compétence dans un litige entre sujets locaux,
                         lorsque le maintien en cause d’un étranger est indispensable pour la preuve
                         de la demande.</head>
@@ -2837,7 +2848,7 @@
                             déclarée incompétente...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0170">
                     <head>17. - Juridiction mixte. -— Compétence dans un litige entre un sujet local
                         et les héritiers d’un autre sujet local, si l’un de ceux-ci est étranger. —
                         Succession musulmane; défaut de personnalité juridique séparée de la
@@ -2962,7 +2973,7 @@
                             la sujétion étrangère n’est pas établie...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0180">
                     <head>18. - Juridiction mixte. — Compétence dérivant de Inexistence d'un
                         privilège de vendeur au profit d'un créancier étranger; cas où le maintien
                         de ce privilège est dû à la faute du premier acquéreur; maintien de
@@ -3062,7 +3073,7 @@
                             est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0190">
                     <head>19. - Juridiction mixte. — Compétence en cas de faillite mixte; étendue;
                         jugement rendu contre le débiteur par la Juridiction indigène et frappé de
                         requête civile avant la faillite; validité et effets juridiques. — Décision
@@ -3225,7 +3236,7 @@
                             défense soulevés par les ■ parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0200">
                     <head>20. - Juridiction mixte. — Compétence en cas de faillite mixte; nullité
                         radicale des décisions rendues par la Juridiction indigène, après le
                         prononcé d'une faillite mixte.</head>
@@ -3311,7 +3322,7 @@
                         <p>1894, Ru.ll. VI, 294 et divers autres antérieurs et postérieurs).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0210">
                     <head>21. - Juridiction mixte. -— Compétence •en matière d'action récursoire. ■—
                         Action récursoire accueillie par défaut de l'appelé en garantie; opposition
                         formée par ce dernier; mise en cause du demandeur principal;
@@ -3329,8 +3340,8 @@
                             1 action récursoire n’est qu’un simple accessoire.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d'Appel- 3nle Civ, Prés. 3[. G. Baviera. 19 Moussa) ‘ aaad El
-                            Alfi c. Ibrahim Youssef</p>
+                        <p>Cour d'Appel- 3nle Civ, Prés. 3[. G. Baviera. 19 Moussa) ‘ aaad El Alfi
+                            c. Ibrahim Youssef</p>
                     </div>
                     <div type="observations">
                         <p>Note. — L’arrêt expose:</p>
@@ -3398,7 +3409,7 @@
                             par conséquent de confirmer le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0220">
                     <head>22. - Juridiction mixte. — Compétence en matière de Statut personnel;
                         action en responsabilité contre des exécuteurs testamentaires, d'une
                         succession régie par une loi étrangère; absence de question de Statut
@@ -3618,7 +3629,7 @@
                             A... manque des caractères d’une action vexatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0230">
                     <head>23. - Juridiction mixte. — Compétence en matière de vente commerciale
                         conclue à l'étranger mais devant recevoir son. exécution en Egypte;
                         stipulation de livraison et de paiement en Egypte; signification; clause
@@ -3733,7 +3744,7 @@
                             l’intimée, rapport qu’elle retient entre ses mains.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0240">
                     <head>24. - Juridiction mixte. — Compétence en matière d'exécution immobilière
                         suides biens grevés d'une inscription au profit d'un étranger, même lorsque
                         l'exécution est poursuivie en vertu d'un jugement rendu par la Juridiction
@@ -3874,7 +3885,7 @@
                             le jugement dont appel.'</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0250">
                     <head>25. - Juridiction mixte. — Compétence en matière pénale; calomnies contre
                         officiers de justice; défaut des conditions prescrites par l'art. 7, Titre
                         II R.O.J.</head>
@@ -3936,7 +3947,7 @@
                             incompétent pour en connaître.,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0260">
                     <head>26. - Juridiction mixte. — Contrat par correspondance; offres d’assurance
                         de marchandises acceptées en Egypte; intérêt mixte; compétence des Tribunaux
                         Mixtes.</head>
@@ -3949,14 +3960,14 @@
                             pour connaître du litige.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour, d’Appel, ire Ch., Prés. M. 31. Hansson. 9 > . Février 1927. — Aff.
-                            Alexandre Nicolakakis e. Bon. Lie. J. Thaï. Fobh et Co).</p>
+                        <p>(Cour, d’Appel, ire Ch., Prés. M. 31. Hansson. 9 &gt; . Février 1927. —
+                            Aff. Alexandre Nicolakakis e. Bon. Lie. J. Thaï. Fobh et Co).</p>
                     </div>
                     <div type="observations">
                         <p>Note. — V. Gaz. XVI, 114-140, l’arrêt ; du 6 Mai 1925.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0270">
                     <head>27. - Juridiction mixte. — Incompétence à l’égard des sujets ottomans dans
                         ■ leurs litiges avec les sujets locaux.</head>
                     <div type="summary">
@@ -4042,11 +4053,12 @@
                             suffisance de droit, par les pièces par lui produites de sa prétendue
                             qualité de sujet ottoman;</p>
                         <p>Que, conséquemment, nous devons nous déclarer incompétent en l’espèce, et
-                            donc ne j>as même aborder plus outre l’examen des conclusions formulées
-                            par le demandeur en ses exploits des 7 et 19 Octobre courant.</p>
+                            donc ne j&gt;as même aborder plus outre l’examen des conclusions
+                            formulées par le demandeur en ses exploits des 7 et 19 Octobre
+                            courant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0280">
                     <head>28. - Juridiction mixte. — Incompétence à l'égard des sujets ottomans dans
                         leurs litiges avec des sujets locaux.</head>
                     <div type="summary">
@@ -4115,7 +4127,7 @@
                             mêmes litiges entre sujets ottomans et sujets locaux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0290">
                     <head>29. - Juridiction mixte. — Incompétence à statuer dans un litige entre
                         sujets locaux, en cas de mise en cause injustifiée d'un étranger; cas dans
                         lesquels un tiers peut être appelé en cause; mise en cause d'une partie aux
@@ -4263,7 +4275,7 @@
                             soulever d’office.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0300">
                     <head>30. - Juridiction mixte. — Incompétence à statuer, entre indigènes, en cas
                         de nullité de la cession consentie à un étranger. — Vente de coton, entre
                         indigènes; danse conférant à l'acheteur le droit de céder son droit à la
@@ -4337,7 +4349,7 @@
                             litige.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0310">
                     <head>31. - Juridiction mixte. — Incompétent ce à statuer sur la validité d'une
                         décision indigène fixant une pension alimentaire; cas où la contestation
                         surgit à l'occasion d'une déclaration de tiers-saisi au Greffe Mixte.</head>
@@ -4464,7 +4476,7 @@
                             soulevé par devant les premiers juges,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0320">
                     <head>32. - Juridiction mixte. — Instance entre parties indigènes; mise en cause
                         injustifiée d'un étranger; inopérance; cession de la créance à un sujet
                         étranger après le jugement; défaut d'influence sur la compétence.</head>
@@ -4558,7 +4570,7 @@
                             prises en première instance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0330">
                     <head>33. - Juridiction mixte. — Instance pendante devant les Tribunaux
                         Indigènes; demande portée devant les Tribunaux Mixtes; in admis si b
                         ilité.</head>
@@ -4610,7 +4622,7 @@
                             déboute, avec frais et dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0340">
                     <head>34. - Juridiction mixte. — Jugement d'adjudication rendu par les Tribunaux
                         Indigènes; créanciers inscrits étrangers, ayant seuls qualité pour demander
                         la nullité; désintéressement ultérieur de ces derniers; disparition de
@@ -4716,7 +4728,7 @@
                         <p>Attendu qu’il échet donc de déclarer la présente action irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0350">
                     <head>35. - Juridiction mixte. — Prête-nom; constitution ne pouvant résulter
                         d'un contrat de cession; incompétence de la Juridiction mixte lorsque le
                         prétendu prète-nom, seul plaideur de nationalité différente des autres
@@ -4830,7 +4842,7 @@
                             d’infirmer le jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0360">
                     <head>36. - Juridiction mixte. — Prête-nom; constitution résultant d'un contrat
                         de cession; validité; cas où la recherche de la fictivité de la cession est
                         inutile.</head>
@@ -4871,7 +4883,7 @@
                             arrêt publié on cette matière, Bull. XXXVII, 4)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0370">
                     <head>37. - Juridiction mixte. — Prêle-nom; incompétence des Tribunaux Mixtes à
                         statuer dans un litige entre sujets locaux en cas de cession manifestement
                         fictive au profit du demandeur seul sujet étranger.</head>
@@ -4925,7 +4937,7 @@
                             cédant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0380">
                     <head>38. - Nationalité. —■ Juridiction mixte; jugements rendus sur la
                         nationalité pré-judiciellement à une question de compétence; défaut de chose
                         jugée; jugements rendus sur la nationalité préjudicielle-ment à une question
@@ -5071,7 +5083,7 @@
                             dit motif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0390">
                     <head>39. - Patriarcats. — Pouvoirs juridictionnels; Patriarcat Arménien
                         Orthodoxe; principe d'égalité entre toutes les Communautés non musulmanes;
                         compétence en matière successorale en cas de succession «ab intestat»;
@@ -5418,7 +5430,7 @@
                             en connaître et solutionnée définitivement par ces Tribunaux...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0400">
                     <head>40. - Russes. — Demande en délivrance d'activités successorales;
                         Juridiction mixte; compétence. -— Dusses; dévolution héréditaire; Elam
                         Charei; insuffisance- — Fonctionnaires diplomatiques et consulaires;
@@ -5562,7 +5574,7 @@
                             élémentaires du droit international.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0410">
                     <head>41. . Russes. — Demande en délivrance de legs; Juridiction mixte;
                         compétence — Russes; loi applicable; testament; nullité basée sur l'ancien
                         Code russe; Juge du Statut personnel. — Sursis; art. 4 C. Civ.; désaccord
@@ -5654,7 +5666,7 @@
                             sur sa propre compétence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0420">
                     <head>42. - Statut personnel. — Aliéné interné; nationalité française;
                         représentation en justice; loi f rançaise. — Mandat ad li-teni. —
                         Administrateur provisoire; action; irrecevabilité.</head>
@@ -5715,7 +5727,7 @@
                         <p>En conséquence déclare la demande non recevable...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0430">
                     <head>43. - Succession. — Convention comportant allocation d'une soulte à un
                         héritier; sans indication de débattement de comptes préalable; caractère de
                         partage. — Tutelle; reddition de comptes; actions; compétence de la
@@ -5921,7 +5933,7 @@
                         <p>Attendu que cela décide le procès...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0440">
                     <head>44. - Succession musulmane. — Séparation des patrimoines; vente de biens
                         successoraux; conditions exigées pour que l'acheteur puisse s'opposer aux
                         poursuites des créanciers successoraux; inaction injustifiée du créancier
@@ -6020,7 +6032,7 @@
                             entrambi ipotecari.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0450">
                     <head>45. - Succession. — Pactes sur succession future; prohibition; caractère;
                         portée en droit mixte. — Entente entre de cujus et héritiers ayant pour
                         objet la constitution et la modification de tvakfiehs; ca-~ ractère. —
@@ -6405,7 +6417,7 @@
                             Sieur Néguib Soliman.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-11-0460">
                     <head>46. - Succession. — Vente de biens successoraux consentie par un héritier;
                         validité contestée par d'autres héritiers; participation de ces derniers à
                         un acte impliquant ratification de la vente; effets; consentement de

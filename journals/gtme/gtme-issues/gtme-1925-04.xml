@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1925-04-10">April 10, 1925</date><lb/>
-                    <biblScope unit="volume">Vol. 15</biblScope><lb/>
-                    <biblScope unit="number">No. 174</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1925-04-10">April 10, 1925</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 15</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 174</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -52,9 +63,9 @@
                 <p>D' ÉG-YFTE REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
                 <p>Fondateurs : MfS MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.</p>
-                <p>Directeur: M> MAXIME PUFIKOFER, Avocat à la Cour.</p>
+                <p>Directeur: M&gt; MAXIME PUFIKOFER, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’administration :</p>
-                <p>M> L. PANGALO et B,. SCHEMEIL (Directeurs au Caire).</p>
+                <p>M&gt; L. PANGALO et B,. SCHEMEIL (Directeurs au Caire).</p>
                 <p>M° E. DEGTARDÉ (secrétaire de la rédaction). Me A PADEL (Directeur à
                     Mansourah).</p>
                 <p>M* F. BRAUN (Secrétaire à Paris).</p>
@@ -339,7 +350,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0010">
                     <head>167. - Arbitrafic. — Action en nullité; -renonciation préventive
                         inadmissible. — Amiables compositeurs; nombre impair indispensable; nullité
                         absolue de la sen-tense arbitrale rendue par des amiables compositeurs en
@@ -435,9 +446,9 @@
                             pouvoirs. Et si à celle du nombre l’on rapproche l’autre condition
                             requise par le même article, à savoir que ces arbitres soient &lt;doits
                             dénommés dans l'acte qui leur donne cette qualité ou dans un acte
-                            antérieur)>, l’on saisit avec plus de clarté l’intention de la loi, qui
-                            est évidemment celle d’éviter qu’en cas de partage le tiers arbitre qui
-                            finit par décider, seul, le différend, soit nommé, après coup, par
+                            antérieur)&gt;, l’on saisit avec plus de clarté l’intention de la loi,
+                            qui est évidemment celle d’éviter qu’en cas de partage le tiers arbitre
+                            qui finit par décider, seul, le différend, soit nommé, après coup, par
                             d’autres personnes que les parties. Et l'on comprend que, s’agissant
                             d’arbitres affranchis des formes de la procédure et des règles de droit,
                             la loi ait voulu qu’à la différence des arbitres ordinaires pour
@@ -475,7 +486,7 @@
                             déclare satisfaite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0020">
                     <head>168. - Arbitrage. — Clause compromissoire relative à des questions d'ordre
                         technique; validité. — Clause compromissoire; exécution; conditions;
                         interprétation; intervention de la justice; limites; cas où il y a lieu de
@@ -743,7 +754,7 @@
                             résiliation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0030">
                     <head>169. - Arbitrage. — Clause compromissoire; validité; défaut de désignation
                         des arbitres dans la clause compromissoire; renonciation à
                         rarbitrage.</head>
@@ -824,7 +835,7 @@
                             sont à aucun moment prévalus de 1% clause compromissoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0040">
                     <head>170. - Assignation. — Société anonyme; citation ne contenant pas les noms
                         des personnes représentant la société; nullité.</head>
                     <div type="summary">
@@ -855,7 +866,7 @@
                             prat. v. Exploit No. 110 &lt;et s.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0050">
                     <head>171. - Chose jugée. — Action en répétition partielle d'un montant payé en
                         vertu d'un jugement de condamnation; cause nouvelle inexistante; moyen
                         nouveau.</head>
@@ -872,7 +883,7 @@
                             Talia et Ibrahim Bayoumi c. Banque fox &amp; Co. et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0060">
                     <head>172. - Chose jugée. — Condition; identité de cause. — Action oblique;
                         exercice; consentement du débiteur, non nécessaire, meme entre indigènes. —
                         Conditions ,,d'exercice; négligence du débiteur.</head>
@@ -980,7 +991,7 @@
                             les Tribunaux Indigènes incompétents.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0070">
                     <head>173. - Chose jugée. — Doute; interpré-talion.</head>
                     <div type="summary">
                         <p>En cas de doute sur l’existence de la chose jugée, c’est la partie à qui
@@ -992,7 +1003,7 @@
                             eff. Hassan c. Jean Eïd et au-</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0080">
                     <head>174. - Chose jugée. — Jugements de la Juridiction Indigène portant sur des
                         droits successoraux; transcription inutile; opposabilité à Vayant-cause
                         étranger..</head>
@@ -1078,7 +1089,7 @@
                             mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0090">
                     <head>175. - Dénégation de signature. — Dommages-intérêts.</head>
                     <div type="summary">
                         <p>II incombe à celui qui dénie sa signature sans justifications de subir
@@ -1090,7 +1101,7 @@
                             c. Mahmoud Chaaban Salama).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0100">
                     <head>176. - Grosses. — Décision de justice; demande en délivrance de seconde
                         grosse; compétence du Juge des Déférés.</head>
                     <div type="summary">
@@ -1271,7 +1282,7 @@
                             Code de Procédure Civile Mixte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0110">
                     <head>177. - Instance. — Décès: interruption; nécessité de notification du décès
                         à la partie adverse; nullité; moyen non ouvert à la partie adverse des
                         héritiers du défunt.</head>
@@ -1352,12 +1363,12 @@
                             avrebbe qualité per sollevare l’eccezione di nullité délia sentenza.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0120">
                     <head>178. - Instance. — Péremption; furidic-lion compétente pour en connaître.
-                        — Péremption des décisions interlocutoires> Arrêt interlocutoire nécessitant
-                        une procédure devant une autre juridiction; lenteurs de celle-ci; radiation
-                        de l'affaire■ mixte; abandon de la procédure pendant plus de trois ans;
-                        péremption inévitable.</head>
+                        — Péremption des décisions interlocutoires&gt; Arrêt interlocutoire
+                        nécessitant une procédure devant une autre juridiction; lenteurs de
+                        celle-ci; radiation de l'affaire■ mixte; abandon de la procédure pendant
+                        plus de trois ans; péremption inévitable.</head>
                     <div type="summary">
                         <p>I. - Il est de jurisprudence absolument constante que la Juridiction
                             Mixte, lorsqu’elle a été régulièrement saisie ab initia, reste
@@ -1472,7 +1483,7 @@
                             procédure que de l’instance en péremption...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0130">
                     <head>179. - Jugement. — Action en interprétation; distinction avec l'action en
                         difficulté d'exécution; cumul; irrecevabilité d'une demande en
                         interprétation après l'accomplissement de Vexécution ou en cas de jugement
@@ -1579,12 +1590,12 @@
                             d’interprétation, toujours est-il qu'aux fins de la recevabilité de
                             l'action, il est indispensable qu’elle réunisse les conditions
                             essentielles à sa nature. Or,., ici, elle serait irrecevable non
-                            seulement comme introduite après l'accomplissement de l’exécution >'et
-                            il est à peine besoin de dire que l’exploit notifié par les Chérif à
-                            l'huissier en Chef du Caire ainsi que les protestations verbales en
-                            cours d'exécution no sont pas de nature à fonder un valable incident
-                            mais aussi comme se rattachant a un jugement purement déclaratif ne
-                            contenant aucune condamnation et partant non susceptible
+                            seulement comme introduite après l'accomplissement de l’exécution
+                            &gt;'et il est à peine besoin de dire que l’exploit notifié par les
+                            Chérif à l'huissier en Chef du Caire ainsi que les protestations
+                            verbales en cours d'exécution no sont pas de nature à fonder un valable
+                            incident mais aussi comme se rattachant a un jugement purement
+                            déclaratif ne contenant aucune condamnation et partant non susceptible
                             d’exécution;</p>
                         <pb n="116" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                         <p>— que donc, en envisageant l’instance comme une pure action en
@@ -1671,7 +1682,7 @@
                             être toujours restés en la possession des Mochneb.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0140">
                     <head>180. - Jugements. — Action en interprétation; question de la charge des
                         droits proportionnels sur. une condamnation; droits indépendants des frais
                         judiciaires.</head>
@@ -1740,7 +1751,7 @@
                         <p>Condamne la dite maison aux frais de la présente instance...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0150">
                     <head>181. - Jugements. — Dispositif; interprétation par recours aux motifs. —
                         Jugement interlocutoire; portée de la règle que «Z’interlocutoire ne lie pas
                         le juge».</head>
@@ -1761,7 +1772,7 @@
                             Nicohosoff et Cts. c. Gouvernement Kgyp-</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0160">
                     <head>182. - Jugements par défaut. — Péremption pour défaut d'exécution,
                         couverte par la confirmation en appel, sur profit joint.</head>
                     <div type="summary">
@@ -1805,11 +1816,11 @@
                             couvert la péremption du jugement de Ire Instance.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>183. - Jugements par défaut.— Péremption pour défaut d'exécution dans
-                        les six mois; actes ne constituant pas exécution; commandement;
-                        procès-verbal de suspension de vente; production à la faillite, dans le cas
-                        où d'autres voies sont ouvertes.</head>
+                <div type="case" xml:id="gtme-1925-04-0170">
+                    <head>183. - Jugements par défaut.— Péremption pour défaut d'exécution dans les
+                        six mois; actes ne constituant pas exécution; commandement; procès-verbal de
+                        suspension de vente; production à la faillite, dans le cas où d'autres voies
+                        sont ouvertes.</head>
                     <div type="summary">
                         <p>I. - Le commandement n’étant qu’un acte préliminaire de l’exécution, ne
                             suffit point à couvrir la péremption des jugements de défaut faute
@@ -1898,7 +1909,7 @@
                             l’examen des movens de fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0180">
                     <head>184. - Preuve. — Ecrit produit par une partie; assimilation à l'aveu;
                         énonciations indivisibles, sauf preuve contraire.</head>
                     <div type="summary">
@@ -1914,7 +1925,7 @@
                             Plrilippe Nasslf èsq. c. Rose Dimitraki).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0190">
                     <head>185. - Preuve. — Obligation civile; impossibilité pour la partie d'obtenir
                         un écrit; circonstances et coutumes autorisant la preuve par présomptions
                         même au delà de L.E. 10.</head>
@@ -2067,7 +2078,7 @@
                             leur recours.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0200">
                     <head>186. - Preuve. — Simulation masquant un rapport illicite; preuve
                         testimoniale admissible. — Accord ayant pour objet de fausser des enchères;
                         caractère illicite. — Témoins; critiques; caractère prématuré avant
@@ -2150,7 +2161,7 @@
                         <p>Attendu que, partant, l’appel de Calopidis mérite d’être rejeté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0210">
                     <head>187. - Procédure à l’audience. — Procédure ordinaire ou sommaire; procès
                         essentiellement oral; droit de conclure et de plaider même en cas de
                         forclusion pour le dépôt des conclusions écrites; droit de défense;
@@ -2255,7 +2266,7 @@
                         <p>Condamne l’intimée aux frais des deux degrés...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0220">
                     <head>188. - Procédure.— Péremption.— Portée générale de l'art. 344 C. Proc.,
                         s’étendant à toutes procédures.</head>
                     <div type="summary">
@@ -2340,7 +2351,7 @@
                             susmentionnés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0230">
                     <head>189. - Requête civile. — Contradiction dans les motifs; moyen
                         inadmissible. --Allégations susceptibles de réfutation; absence de dol
                         personnel. — E.rpert débiteur de l'une des parties; cas ne constituant pas
@@ -2411,7 +2422,7 @@
                             démontre clairement...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0240">
                     <head>190. - Requête civile. — Contrariété de dispositions; cas où elle se
                         présenterait entre un arrêt interlocutoire et un arrêt définitif; requête
                         civile inadmissible.</head>
@@ -2431,7 +2442,7 @@
                             eff. Abdel Kader Talha c. Ministère des Wakfs).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0250">
                     <head>191. - Requête civile. — Convention d'atermoiement pour le paiement de
                         condamnations; acquiescement implicite; irrecevabilité d'une requête civile
                         ultérieure pour omission de statuer.</head>
@@ -2499,7 +2510,7 @@
                             bonne foi de son créancier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0260">
                     <head>192. - Requête civile. —■ Décisions rendues en référé; recours
                         inadmissible.</head>
                     <div type="summary">
@@ -2539,7 +2550,7 @@
                             Ordonnances de référé, p. 400).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0270">
                     <head>193. - Requête civile. — Défaut de juridiction; moyen inadmissible. —
                         Nationalité; défaut de déclaration; fausse déclaration; défaut de dol
                         personnel. — Enquête; citation de témoins récusables; défaut de dol
@@ -2619,7 +2630,7 @@
                             alloués.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0280">
                     <head>194. - Requête civile. — Exception de prescription; omission de
                         statuer.</head>
                     <div type="summary">
@@ -2676,7 +2687,7 @@
                             arrêt du 8 Juin 1910, (Bull. XXII, 353) statuant dans le même sens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0290">
                     <head>195. - Requête civile. — Justification; défaut de preuves; radiation;
                         droit de l'assigné de s'y opposer.</head>
                     <div type="summary">
@@ -2733,7 +2744,7 @@
                             exercer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0300">
                     <head>190. - Requête civile. — Omission de statuer; cas où elle est exclue par
                         l'existence d'une demande en interprétation. — Arrêt. — Demande en
                         interprétation ayant le même objet qu'une requête civile.</head>
@@ -2826,7 +2837,7 @@
                             pouvant donner lieu à requête civile.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0310">
                     <head>197. - Requête civile. — Omission de statuer; conclusions non suffisamment
                         claires et précises; requête civile irrecevable.</head>
                     <div type="summary">
@@ -2910,7 +2921,7 @@
                             lesquels il a été appelé à statuer...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0320">
                     <head>198. - Requête civile. — Pièce décisive retenue par le fait de la partie
                         adverse; intention frauduleuse non nécessaire pour P admissibilité du
                         recours; rétention de la pièce par un préposé de la partie; responsabilité
@@ -2957,7 +2968,7 @@
                             Zeini retira 1 acte contre paiement de L.E. 4:</p>
                         <p>Attendu que cette pièce, recouvrée par El ^•emi, est un acte de vente de
                             trois chambres et une entrée (pics 51) consenti par Chehata ï’1™ El
-                            Kaffas et par la Dame Fat ma i>ent Rhahl El Ilendawi à Ibrahim
+                            Kaffas et par la Dame Fat ma i&gt;ent Rhahl El Ilendawi à Ibrahim
                             Mohamed</p>
                         <p>El Kaffas et transcrit le 8 Juin 1903. C’est, en somme, un des titres,
                             qu’au cours de la revendication de la Communauté, El Zeini invoquait
@@ -3036,7 +3047,7 @@
                             dommages.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0330">
                     <head>199. - Requête civile. — Signification à domicile élu; nullité non
                         couverte par l'acceptation de l'acte et la comparution.</head>
                     <div type="summary">
@@ -3077,7 +3088,7 @@
                             légitime.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0340">
                     <head>200. - Requête'civile. — Tardivité; appel équivalant à la signification du
                         jugement à l'appelant.</head>
                     <div type="summary">
@@ -3092,7 +3103,7 @@
                     </div>
                 </div>
                 <pb n="124" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0350">
                     <head>201. - Serment. —Absence de la partie qui doit le prêter; délégation d'un
                         Tribunal étranger; cas où il n'y a point lieu dé l'ordonner.</head>
                     <div type="summary">
@@ -3134,7 +3145,7 @@
                             Boukhari).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0360">
                     <head>202. - Serment litis-décisoire. — Délation obligatoire si la fausseté des
                         faits indiqués n'est pas prouvée. — Bail; sti-pulation d'exigibilité totale
                         des loyers en cas de retard dans le paiement d'un terme.</head>
@@ -3166,7 +3177,7 @@
                         <p>Note. - I. —V. arrêt du 15 Mai 1913, cité par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0370">
                     <head>203. - Signification. — Acte notifié au Gouvernorat; cas où l’huissier a
                         trouvé fermé le domicile de la partie signifiée; cas où la signification à
                         domicile a été impossible; énonciations de l'acte; doute profitant à la
@@ -3274,7 +3285,7 @@
                             de l’opposant, dont s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0380">
                     <head>204. - Signification. — Domicile inconnu en Egypte; notification des actes
                         au Parquet; nécessité de recherches préalables sérieuses; négligence;
                         procédure irrégulière; annulation. — Avocat; mandat non fustifié;
@@ -3374,7 +3385,7 @@
                             l’exploit d’assignation en date du 7 Avril 1908.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-04-0390">
                     <head>205. - Signification. — Domicile inconnu en Egypte; notification des actes
                         au Parquet; nécessité de recherches préalables sérieuses; négligence;
                         procédure irrégulière; annulation. — Conclusions; défaut de communication

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0028-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0028-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1938-04-10">April 10, 1938</date><lb/>
-                    <biblScope unit="volume">Vol. 28</biblScope><lb/>
-                    <biblScope unit="number">No. 330</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1938-04-10">April 10, 1938</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 28</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 330</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -53,7 +64,7 @@
                 <p>Comité de Rédaction et d’Administration :</p>
                 <p>M“ L. RANGALO et R. 8CHEMEIL (Directeurs au Caire)</p>
                 <p>M" E. DEGLARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
-                <p>M« A. FADEL (.Directeur à Ma^ourah). M> F. BRAUN j (Oorrespmdants à paris,</p>
+                <p>M« A. FADEL (.Directeur à Ma^ourah). M&gt; F. BRAUN j (Oorrespmdants à paris,</p>
                 <p>Mo G. MOUCHBAHAÏÏI (Oorresvondant à Port-Saïd). Me J. LAÇAT I</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à. la Gazette (un an). P.T. 150</p>
@@ -693,7 +704,7 @@
             <pb n="108" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0010">
                     <head>87. - Prescription acquisitive. — Action oblique; faculté pour le
                         créancier d’opposer à un revendiquant la prescription acquisitive accomplie
                         au profit du débiteur; cas où l’exception doit être écartée faute d'intérêt
@@ -829,7 +840,7 @@
                             être écartée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0020">
                     <head>88. - Prescription acquisitive. — Biens du domaine privé de l'Etat,
                         susceptibles de prescription.</head>
                     <div type="summary">
@@ -847,7 +858,7 @@
                             Munafo c. Hoirs Mous-tapha bey Sadek et Cts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0030">
                     <head>89. - Prescription acquisitive. — Droit du créancier de l’invoquer pour
                         compte du débiteur. — Expropriation sur saisie; opposition aux poursuites
                         par un cessionnaire des revenus de l'immeuble; recevabilité.</head>
@@ -868,10 +879,10 @@
                             autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0040">
                     <head>90. - Prescription acquisitive. — Interruption; dépossession momentanée;
                         caractère non interruptif en cas de remise en possession à la suite d’une
-                        réintégrande. —> Possession; caractère public.</head>
+                        réintégrande. —&gt; Possession; caractère public.</head>
                     <div type="summary">
                         <p>I. - La dépossession momentanée ne peut être envisagée comme un fait
                             interruptif de la possession aux fins de la prescription acquisitive, si
@@ -939,7 +950,7 @@
                             date jusqu’à la majorité de chacun d’eux...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0050">
                     <head>91. - Prescription acquisitive. — Nature; possession du copropriétaire
                         indivis; prescription contre les autres copropriétaires; inadmissibilité. —
                         Interruption; effet interruptif de la citation devant un tribunal
@@ -1030,7 +1041,7 @@
                     </div>
                 </div>
                 <pb n="110" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0060">
                     <head>92. Prescription acquisitive. -— Possession aux fins d'usucapion;
                         caractère paisible; notion; revendication d'un tiers excluant ce
                         caractère.</head>
@@ -1086,7 +1097,7 @@
                             en fixant, à cette époque déjà. le prix de vente...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0070">
                     <head>93. t Prescription acquisitive. — possession aux fins d'usucapion;
                         caractère public et continu; conditions; violence; purge; cas de trouble;
                         nouveau point de départ de la prescription.</head>
@@ -1193,7 +1204,7 @@
                             fondé...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0080">
                     <head>94. - Prescription acquisitive. —Prescription quinquennale de l'art. 167
                         C. Civ. au profit des créanciers hypothécaires; faculté de l'invoquer
                         ouverte aux créanciers titulaires d'affectations hypothécaires; possession
@@ -1256,7 +1267,7 @@
                             jugement déféré sur ce point.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0090">
                     <head>95. - Prescription acquisitive. — Prescription quinquennale; juste titre;
                         notion; insuffisance de la possession de l'acheteur; adjonction de la
                         possession du vendeur; cas d'inadmissibilité. &lt;— Propriété immobilière;
@@ -1432,7 +1443,7 @@
                         <p>IV. - V. Gaz. XXII, 120-119 et 122-122.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0100">
                     <head>96. - Prescription acquisitive. — Prescription quinquennale; juste titre;
                         litre divis émanant d'un vendeur copropriétaire par indivis; inefficacité
                         au.c fins de prescription quinquennale.</head>
@@ -1513,7 +1524,7 @@
                             rejeté-leur revendication confirmé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0110">
                     <head>97. - Prescription acquisitive. — Prescription quinquennale; juste titre~
                         litre ne portant pas sur la superficie revendiquée; vice. — Prescription
                         quinquennale; présomption de possession depuis la date du juste
@@ -1658,13 +1669,13 @@
                             de sa limite Est, en considérant que la différence résultant des actes
                             concernant cette limite pourrait être due à une erreur ou à une nouvelle
                             transmission ou usurpa*</p>
-                        <p>> bon de la propriété sans pouvoir créer un doute quant à l’emplacement
-                            de la parcelle (de la Hante Wolters), .étant donné les trois autres
-                            limites Nord, Ouest et Sud correspondant exactement à celle de l’acte
-                            des revendiquants {sicj, présomption qui ne trouve aucun appui dans les
-                            éléments du dossier de l'affaire. Car dans ces circonstances, celle
-                            limite loin de ne pas pouvoir créer un doute sur l’emplacement de la
-                            parcelle acquise par la Dame Emilie Wolters, est d’une importance
+                        <p>&gt; bon de la propriété sans pouvoir créer un doute quant à
+                            l’emplacement de la parcelle (de la Hante Wolters), .étant donné les
+                            trois autres limites Nord, Ouest et Sud correspondant exactement à celle
+                            de l’acte des revendiquants {sicj, présomption qui ne trouve aucun appui
+                            dans les éléments du dossier de l'affaire. Car dans ces circonstances,
+                            celle limite loin de ne pas pouvoir créer un doute sur l’emplacement de
+                            la parcelle acquise par la Dame Emilie Wolters, est d’une importance
                             capitale pour la solution du différend entre les Hoirs Aly pacha Fahmy
                             et Coatsworth; que, par ailleurs, les premiers juges, dans leur
                             raisonnement, n'ont accordé aux titres des Hoirs Fahmy aucune valeur
@@ -1779,7 +1790,7 @@
                             de Coatsworth à partir du 1er Avril 1921...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0120">
                     <head>98. - Prescription acquisitive. — Prescription quinquennale; limites
                         d'exercice.</head>
                     <div type="summary">
@@ -1794,7 +1805,7 @@
                             Mars 1936. — Benvenuto Campos c. Marguerite Kiritsi et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0130">
                     <head>99. - Prescription acquisitive. ,— Suspension au profit des incapables;
                         inapplicabilité au profit des ayants cause et des copropriétaires de
                         l'incapable.</head>
@@ -1809,7 +1820,7 @@
                             Effendi El Issaoui c. Banque d’Athènes et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0140">
                     <head>100. - Prescription acquisitive. — Wakf; constitution irrégulière;
                         régula-risation par prescription; inadmissibilité. — Expropriation;
                         revendication principale et incidente; biens dont un premier lot a été
@@ -1946,7 +1957,7 @@
                         <p>L’appel incident tendant à majorer la condamnation est rejeté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0150">
                     <head>101. - Prescription extinctive. — Contrat passé à l'étranger; loi
                         applicable en Egypte; vente à crédit passée et exécutée à l'étranger avec un
                         acheteur qui y était domicilié; action en paiement du prix; prescription
@@ -2032,7 +2043,7 @@
                             réclamée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0160">
                     <head>102. - Prescription extinctive. — Créance exigible par termes échelonnés;
                         point de départ de la prescription libératoire; clause de déchéance du
                         bénéfice du terme en cas de défaut de paiement d'une échéance; caractère
@@ -2080,7 +2091,7 @@
                             sont seuls réclamés...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0170">
                     <head>103. - Prescription extinctive. — Interruption; action en justice;
                         discontinuation des poursuites pendant quinze ans; inefficacité de
                         l'interruption; action en justice; défaut d'effet interruptif; inopérance en
@@ -2172,7 +2183,7 @@
                             litigieuse s’étaient déjà depuis longtemps écoulées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0180">
                     <head>104. - Prescription extinctive. — Interruption; demande en justice
                         rejetée; effet non interruptif, sans distinction quant au mode de rejet;
                         faculté du titulaire du droit menacé de prescription; sursis à statuer;
@@ -2345,7 +2356,7 @@
                             prescription, et d’infirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0190">
                     <head>105. - Prescription extinctive. — Interruption; démarches administratives
                         ou diplomatiques sans effet interruptif.</head>
                     <div type="summary">
@@ -2359,7 +2370,7 @@
                             Perrakis c. Ministère des Finances.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0200">
                     <head>106. - Prescription extinctive. — Interruption; effet interruptif de la
                         procédure.de saisie immobilière et de distribution.</head>
                     <div type="summary">
@@ -2528,7 +2539,7 @@
                             d’une prescription utile de la créance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0210">
                     <head>107. - Prescription extinctive. — interruption; effets; caractère
                         personnel; caution; droit d'invoquer la prescription libératoire malgré
                         l'interruption de celle-ci contre le débiteur principal.</head>
@@ -2692,7 +2703,7 @@
                             civilis non fit de persona ad personam.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0220">
                     <head>108. - Prescription extinctive. — interruption; versement d'un acompte;
                         effet interruptif de la prescription de la créance; point de départ du
                         nouveau délai, i— Prescription; Traité de Versailles; Proclamation du 9 Mars
@@ -2749,7 +2760,7 @@
                     </div>
                 </div>
                 <pb n="120" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0230">
                     <head>109. - Prescription extinctive. — Jugement; prescription du droit
                         d'exécution; vente immobilière; jugement de résiliation; inexécution pendant
                         quinze ans; reprise de possession par le vendeur; inadmissibilité. ■—
@@ -2860,7 +2871,7 @@
                             possesseurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0240">
                     <head>110. - Prescription extinctive, — Prescription annale de l'art. 273 C.
                         Civ.; interprétation restrictive; inapplicabilité aux actions en paiement
                         des honoraires d'avocat.</head>
@@ -2875,7 +2886,7 @@
                             bey Hassan Nassar c. Me S. M. M...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0250">
                     <head>111. - Prescription extinctive. — Prescription annale de l'art. 275 C.
                         Civ., limites d'application.</head>
                     <div type="summary">
@@ -2888,13 +2899,13 @@
                             Beddini El Cherei c. Daïra de S.A. le Prince Youssef Kemal et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0260">
                     <head>112. - Prescription extinctive, — Prescription quinquennale de l'art. 71
                         C. Com.; limites d’application; société en liquidation; obligations à
-                        l'égard des tiers; prescription de droit commun. >— Prescription libératoire
-                        des intérêts et arrérages; limites d’application; compte courant;
-                        prescription. — Gage; imprescriptibilité de la créance tant que l'objet du
-                        gage demeure entre les mains du créancier.</head>
+                        l'égard des tiers; prescription de droit commun. &gt;— Prescription
+                        libératoire des intérêts et arrérages; limites d’application; compte
+                        courant; prescription. — Gage; imprescriptibilité de la créance tant que
+                        l'objet du gage demeure entre les mains du créancier.</head>
                     <div type="summary">
                         <p>I. - La prescription de cinq ans des actions en raison des affaires de la
                             société, édictée à l’art. 71 G. Corn., n’est pas opposable aux tiers par
@@ -3075,7 +3086,7 @@
                             d’aborder le fond...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-04-0270">
                     <head>113. - Prescription extinctive. — Prescription quinquennale des effets de
                         commerce; créance dont le titre est représenté par un jugement de condami
                         nation; interversion du titre originaire; in applicabilité de l'art. 201 G.

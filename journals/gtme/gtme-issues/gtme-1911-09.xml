@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1911-09-10">September 10, 1911</date><lb/>
-                    <biblScope unit="volume">Vol. 1</biblScope><lb/>
-                    <biblScope unit="number">No. 11</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1911-09-10">September 10, 1911</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 1</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 11</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -264,8 +275,8 @@
                     radiation; s’agissant de grundschuld il faut joindre à la demande de radiation
                     les coupons des revenus non prescrits ou le dépôt de leur montant à la Caisse
                     des dépôts.</p>
-                <p>Si le créancier est inconnu, incapable ou absent et en cas de perte >du titre de
-                    l’hypothèque l’on procède à un expédient appelé aufgebot, devant le tribunal,
+                <p>Si le créancier est inconnu, incapable ou absent et en cas de perte &gt;du titre
+                    de l’hypothèque l’on procède à un expédient appelé aufgebot, devant le tribunal,
                     lequel avant de se prononcer fait donner à la demande la plus grande
                     publicité.</p>
                 <p>Transformation d’une hypothèque négociable en hypothèque commune et
@@ -653,7 +664,7 @@
             <pb n="158" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE(,)</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0010">
                     <head>Bail, — Privilège du propriétaire. — Sous-locataire.</head>
                     <div type="summary">
                         <p>L’art. 761 du Cod. proc. civ. Mixte admet le privilège du bailleur sur
@@ -670,7 +681,7 @@
                             Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0020">
                     <head>Bail. — Vente. — Indemnité pour résolution anticipée de bail.</head>
                     <div type="summary">
                         <p>L’indemnité due par le bailleur au locataire aux termes de l’art. 476
@@ -684,7 +695,7 @@
                             Abdallah &amp; Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0030">
                     <head>Compétence sommaire. — Dernier ressort.</head>
                     <div type="summary">
                         <p>Ni la lettre, ni l’esprit de l’art. 29 du Code proc. civ. ne permettent
@@ -712,7 +723,7 @@
                             du Caire, présidée par M. Piola-Caselli.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0040">
                     <head>Compétence. — Taux.</head>
                     <div type="summary">
                         <p>Lorsque le défendeur oppose à la demande uneexception relevant du titre
@@ -727,7 +738,7 @@
                             GhobriaL)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0050">
                     <head>Droit Grec. — Senatus-Consulle Vel-léien. — Statut personnel.</head>
                     <div type="summary">
                         <p>Le principes du Sénatus-Consulte Vél-léien en tant qu’ils déclarent nulle
@@ -743,7 +754,7 @@
                             Mastroyannopoulo).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0060">
                     <head>Employé. — Renvoi intempestif. — Preuve.</head>
                     <div type="summary">
                         <p>Lorsque le patron conteste avoir renvoyé son employé et prétend que
@@ -762,7 +773,7 @@
                             Gliven).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0070">
                     <head>Juridiction Mixte. — Acte Notarié. — Indigènes. — Formule exécutoire. —
                         Exequatur. — Nullités. — Exécution.</head>
                     <div type="summary">
@@ -784,7 +795,7 @@
                             Sayed Kher c. Aly Ibrahim el Seroughi et Demosthène Dimacos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0080">
                     <head>Juridiction Mixte. — Tribunaux Indigènes. — Chose Jugée.</head>
                     <div type="summary">
                         <p>L’indépendance de la juridiction mixte vis-à-vis de la juridiction
@@ -803,7 +814,7 @@
                         <p>(Trib. Somm. Caire, 19 Déc. 1910 - Darwiche c. Gautier).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0090">
                     <head>Libération (présomption de). — Titre acquitté. — Billets à ordre.</head>
                     <div type="summary">
                         <p>La présomption de libération prévue par l’art. 295 Cod. Civ. dans le cas
@@ -818,7 +829,7 @@
                         <p>(Trib. Somm. Caire, 5 Avril 1911 - Piltz c. Hassan Aly Diab).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0100">
                     <head>Louage de service. — Employé à la journée. — Contrôleur de
                         tramways.</head>
                     <div type="summary">
@@ -835,7 +846,7 @@
                             Caire).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0110">
                     <head>Mandat postal. — Endossement. — Faux. — Responsabilité.</head>
                     <div type="summary">
                         <p>Pour tous les titres qui peuvent se transmettre par endossement, celui
@@ -855,7 +866,7 @@
                             Bondi, Lifchitz &amp; Ço.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0120">
                     <head>Nationalité hellénique. — Conflit diplomatique.</head>
                     <div type="summary">
                         <p>Il faut reconnaître comme sujet hellène l’individu qui produit un
@@ -880,7 +891,7 @@
                             Elias).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0130">
                     <head>Personnalité juridique. — Etre moral. — Action en justice — Pilote
                         (Corporation des). — Propiiété.</head>
                     <div type="summary">
@@ -902,7 +913,7 @@
                             Ahmed bey Bakrî esq).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0140">
                     <head>Prescription, annale. — Fournitures.</head>
                     <div type="summary">
                         <p>La prescription annale est applicable à toutes fournitures faites par des
@@ -915,7 +926,7 @@
                         <p>(Trib Somm. Caire, 11 Mai 1910- Cairo SewageTransport c. Chenouda).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0150">
                     <head>Presse. — Diffamation. — Preuve. — Responsabilité. — Fonctionnaire
                         public.</head>
                     <div type="summary">
@@ -933,7 +944,7 @@
                         <p>(Trib. Somm. Caire, 15 Juin 1910 - Keatinge c. Mohamed bey Fend).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0160">
                     <head>Référé. — Expulsion. — Sous-locataire.</head>
                     <div type="summary">
                         <p>Le juge des Référés est compétent pour ordonner l’expulsion du
@@ -947,7 +958,7 @@
                             Aly Faouzi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0170">
                     <head>Référé. — Urgence. — Compétence. — Nullité. — Saisie arrêt. —
                         Mainlevée.</head>
                     <div type="summary">
@@ -970,7 +981,7 @@
                             Ch ou cri c. Sciortino; V. Gaz. Trib. No. 4 p. 52 § Référé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0180">
                     <head>Revendication d’objet saisis. — Compétence de la Chambre Sommaire.</head>
                     <div type="summary">
                         <p>Le Tribunal Sommaire est compétent à connaître d’une action en
@@ -987,7 +998,7 @@
                             Revendication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0190">
                     <head>Serment décisoire. — Preuve.</head>
                     <div type="summary">
                         <p>Le serment décisoire déféré après qu’on a requis d’autres moyens de
@@ -999,7 +1010,7 @@
                             Meaz).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0200">
                     <head>Transporteur. — Assurance de la marchandise transportée.</head>
                     <div type="summary">
                         <p>Le voiturier n’a pas l’obligation d’assurer la marchandise pour le compte
@@ -1011,7 +1022,7 @@
                             Talaat).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-09-0210">
                     <head>Vente. — Résiliation. — Justice sommaire.</head>
                     <div type="summary">
                         <p>La demande en résiliation de la vente d’un immeuble échappe à la
@@ -1093,7 +1104,7 @@
             </div>
             <div type="section" feature="faillites">
                 <head>FAILLITES ET CONCORDATS</head>
-                <p>pendant les mois d> août-septembre 1911</p>
+                <p>pendant les mois d&gt; août-septembre 1911</p>
                 <p>TRIBUNAL D’ALEXANDRIE</p>
                 <p>( Juge-Commissaire : Boohos bey Agopian)</p>
                 <p>(Les résultats de l’audience du Ier Août ont été déjà portés dans le numéro 10 de

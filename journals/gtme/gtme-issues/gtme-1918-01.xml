@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1918-01-10">January 10, 1918</date><lb/>
-                    <biblScope unit="volume">Vol. 8</biblScope><lb/>
-                    <biblScope unit="number">No. 87</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1918-01-10">January 10, 1918</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 8</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 87</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -260,7 +271,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0010">
                     <head>49. - Accident. — Indemnité. — Contrat de louage de services consécutif à
                         un accident.</head>
                     <div type="summary">
@@ -279,7 +290,7 @@
                             d’Egypte c John Kogon).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0020">
                     <head>50. - Action paulienne. — Exercice et corollaires. — Action indirecte. —
                         Restitution des fruits. — Compensation. — Prescription quinquennale de
                         l’article 275 C. Civ.</head>
@@ -409,7 +420,7 @@
                             lieu en l’année 1914;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0030">
                     <head>51. - Adjudications (Juge Délégué aux). — Compétence. — Nullités de
                         procédure. — Surenchère. — Mineur. — Lésion.</head>
                     <div type="summary">
@@ -431,9 +442,9 @@
                         <p>Note. — L’arrêt expose : ’</p>
                         <p>Attendu que l’appelant expose dans son acte d’appel que la Land Bank,
                             créancière de Hassan Moussa el Akkad* a poursuivi l’expropriation de 49
-                            >feddans de terrains, sis à Matarieh, appartenant à son débiteur, biens
-                            qui furent adjugés à l’audience des Criées du tribunal du Caire du 28
-                            Mars 1917,. aux intimés Hussein et Mohamed El Akkad au prix de L.E.
+                            &gt;feddans de terrains, sis à Matarieh, appartenant à son débiteur,
+                            biens qui furent adjugés à l’audience des Criées du tribunal du Caire du
+                            28 Mars 1917,. aux intimés Hussein et Mohamed El Akkad au prix de L.E.
                             7.400;, ,</p>
                         <p>Que l’intimé Mohamed Hassanein ayant surenchéri du dixième, la vente des
                             mêmes biens a été nouveau fixée sur surenchère ;</p>
@@ -447,7 +458,7 @@
                             l’espèce, que le tribunal n’a pas été saisi d’une demande en nullité en
                             due forme;</p>
                         <p>Qu’en tout cas, c’est non moins à tort que le juge délégué a retenu,
-                            comme nulle pour cause de> minorité, la déclaration de surenchère dé
+                            comme nulle pour cause de&gt; minorité, la déclaration de surenchère dé
                             Mohamed Hassanein, alors surtout que le législateur mixte n’impose pas
                             au surenchérisseur l'obligation de se porter adjudicataire et que
                             partant, peu importait l’âge du surenchérisseur;</p>
@@ -461,7 +472,7 @@
                         <p>&lt; lli du prix, le père avait retiré de la National « Bank une somme
                             identique, ce qui pourrait être</p>
                         <p>&lt; établi même au moyen d’un compulsoire »;</p>
-                        <p>.>- Que la preuve serait ainsi faite d’une collusion en tre les
+                        <p>.&gt;- Que la preuve serait ainsi faite d’une collusion en tre les
                             adjudicataires, le surenchérisseur et son père; au détriment des
                             créanciers;</p>
                         <p>Attendu que la Land Bank conclut à ce que, au cas où l’exception
@@ -504,7 +515,7 @@
                             dans «la présente expropriation est nulle comme « ayant été faite par un
                             mineur et qu’il y a, en « conséquence, lieu de déclarer le sieur Hussein
                             « Bey Akkad adjudicataire définitif des terrains «adjugés par jugement
-                            du 28 Mars 1917 >, décision d’autant plus critiquable, qu’ un autre
+                            du 28 Mars 1917 &gt;, décision d’autant plus critiquable, qu’ un autre
                             magistrat qui présidait à l’audience du 25 Avril .1917 avait déjà
                             indiqué la voie à suivre, ayant invité M8 K... à porter sa demande en
                             nullité de surenchère par devant le tribunal;</p>
@@ -567,7 +578,7 @@
                             pouvoirs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0040">
                     <head>52. - Appel. — Jugement interlocutoire. — Mise en cause
                         injustifiée.</head>
                     <div type="summary">
@@ -583,7 +594,7 @@
                             Vortgage Cy of Egypt Lfd c. Ahmed Salama Yasso et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0050">
                     <head>53. - Appel. — Jugements interlocutoires en partie définitifs. — Exécution
                         volontaire. — Mesures d’instruction. — Acquiescement.</head>
                     <div type="summary">
@@ -604,7 +615,7 @@
                             Abdel Kader El Kizanî c. Cheikh Aîataraoui Garbane).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0060">
                     <head>54. - Appel. — Taux. — Recevabilité de l’appel portant uniquement sur les
                         frais et les intérêts. — Acquiescement tacite à un jugement.</head>
                     <div type="summary">
@@ -628,7 +639,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0070">
                     <head>55. - Cahier des charges. — Intérêts sur le prix non payé. — Clause
                         nulle.</head>
                     <div type="summary">
@@ -668,7 +679,7 @@
                             resterait adjudicataire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0080">
                     <head>56. - Cassation. — Erreur de date dans le jugement de condamnation. —
                         Tribunal Correctionnel. — Procès-veibaux d’audience.</head>
                     <div type="summary">
@@ -713,7 +724,7 @@
                             prononce cette peine.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0090">
                     <head>57. .- Chemins de Fer. — Perte de •colis. — Indemnité. — Tarif
                         officiel.</head>
                     <div type="summary">
@@ -774,7 +785,7 @@
                             bulletin.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0100">
                     <head>58. - Chose jugée. — Commandement. — Prêt hypothécaire. — Indemnité de
                         remboursement anticipé. — Remboursement forcé.</head>
                     <div type="summary">
@@ -793,7 +804,7 @@
                             Mansour Ghattas c. Nicolas Giras).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0110">
                     <head>59. - Concubinage. — Dons entre concubins. — Cause illicite. — Action en
                         répétition. — Révocation des donations pour cause d'ingratitude.</head>
                     <div type="summary">
@@ -831,7 +842,7 @@
                         <p>II. - V. à ce sujet jug. 8 Juin 1916, Gaz. VI, 176-536.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0120">
                     <head>60. - Courtier. — Succession. — Créanciers. — Droit de préférence.</head>
                     <div type="summary">
                         <p>Un courtier ayant traité une vente d’immeubles avec le séquestre ou le
@@ -846,7 +857,7 @@
                             Catzeflis esq. c. Georges Hakini et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0130">
                     <head>61. - Défaut. — Rabattement à Taudience du prononcé. — Jugement
                         contradictoire.</head>
                     <div type="summary">
@@ -883,7 +894,7 @@
                             Procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0140">
                     <head>62. -Droits proportionnels. — Tarif. — Jugements rendus sur titres.</head>
                     <div type="summary">
                         <p>La perception du droit proportionnel de 2% prévu par l’art. 6 du
@@ -900,7 +911,7 @@
                             Cassis c. Greffier en Chef de la Cour d’Appel Mixte).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0150">
                     <head>63. - Dommages-intérêts. — Accident. — Préjudice moral. — Irrecevabilité
                         de 1’ action en réparation du dommage purement moral. — Chauffeur. —
                         Obligations.</head>
@@ -918,7 +929,7 @@
                             Israël et Cts c. Nizam El Din Abdel Sattar).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0160">
                     <head>64. - Effets de commerce. — Propriété. — Endossement. — Opposition au
                         paiement. — Bénéficiaire. — Porteur. — Novation.</head>
                     <div type="summary">
@@ -946,7 +957,7 @@
                             d’Athènes C. Domenico Berlen).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0170">
                     <head>65. - Employé. — Indemnité pour renvoi.</head>
                     <div type="summary">
                         <p>La somme à laquelle un employé congédié est censé avoir droit, sauf dans
@@ -958,7 +969,7 @@
                             et Co c. Hoirs de Moussa M. Salama).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0180">
                     <head>66. - Exécution provisoire. — Défense d’exécution. — Paiement de
                         salaires.</head>
                     <div type="summary">
@@ -1041,7 +1052,7 @@
                             cas tout recours quelconque.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0190">
                     <head>67. - Expert. — Taxe. — Evaluation du travail fourni.</head>
                     <div type="summary">
                         <p>Bien que les Tribunaux doivent pour l’évaluation de la taxe, tenir compte
@@ -1054,7 +1065,7 @@
                             Santantonio c. Georges Wlandi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0200">
                     <head>68. - Expropriation pour causa d’utilité publique. Alignement. —
                         Incorporation à la voie publique. — Evaluation du préjudice et de
                         l’indemnité.</head>
@@ -1081,7 +1092,7 @@
                             Dame Eicha Beat Aly et Cts c*. Municipalité d’Alexandrie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0210">
                     <head>69. - Faillite. — Actes annulables par application de l’art. 238 C. Corn.
                         — Fraude.</head>
                     <div type="summary">
@@ -1098,7 +1109,7 @@
                             autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0220">
                     <head>70. - Faillite. — Cautionnement du syndic. — Gage des créanciers de la
                         faillite. — Priorité de ceux-ci sur les créanciers personnels du
                         syndic.</head>
@@ -1118,7 +1129,7 @@
                             Frédéric Ott et Cie c. Abdel Kérim Hassan -et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0230">
                     <head>71. - Folle-enchère. — Vice de forme du Jugement d’adjudication. — Action
                         principale en nullité de la procédure de folle-enchère. — Surenchère. —
                         Débiteur, exproprié.</head>
@@ -1247,7 +1258,7 @@
                             et dans laquelle il y a déjà eu deux poursuites en folle-enchère.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0240">
                     <head>72. - Gage. — Mandat de vendre contenu dans la convention. — Pacte
                         commissaire. — Consentement formel ou implicite du débiteur au moment de la
                         vente.</head>
@@ -1269,7 +1280,7 @@
                     </div>
                 </div>
                 <pb n="32" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0250">
                     <head>73. - Intervention. — Sujet ennemi. — Receiver nommé par l’autorité
                         militaire. Frais.</head>
                     <div type="summary">
@@ -1287,7 +1298,7 @@
                             Sayer esq. c. Awad Mikhaïl et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0260">
                     <head>74. - Juridiction Mixte. — Compétence en matière d’impôts. — Arrêté du 24
                         Janvier 1899 sur la taxe locative.</head>
                     <div type="summary">
@@ -1450,7 +1461,7 @@
                             s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0270">
                     <head>75. - Juridiction Mixte. — Expropriation poursuivie à l’indigène. —
                         Discontinuation. — Radiation des transcriptions. — Incompétence.</head>
                     <div type="summary">
@@ -1489,7 +1500,7 @@
                             de ce tribunal.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0280">
                     <head>76. - Partage immobilier. — Indivision. — Confection des lots.</head>
                     <div type="summary">
                         <p>La loi mixte n’édicte pas, d’une manière impérative, le système qui doit
@@ -1555,7 +1566,7 @@
                             surtout le plus conforme aux intérêts de tous les partageants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0290">
                     <head>77. - Péremption d’instance. — Interruption et suspension. — Désistement
                         d’appel. — Décès d’une des parties. — Transaction sous seing-privé.</head>
                     <div type="summary">
@@ -1578,7 +1589,7 @@
                             93-271.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0300">
                     <head>78. - Référé. — Compétence. — Mesures urgentes. — Cas où le Tribunal du
                         fond est déjà saisi. — Séquestre.</head>
                     <div type="summary">
@@ -1606,7 +1617,7 @@
                         <p>Note. — II. - V. Gaz., VIII, 9-19, et note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0310">
                     <head>79. - Requête civile. — Acquiescement. — Dol personnel. — Preuve. —
                         Sursis.</head>
                     <div type="summary">
@@ -1628,7 +1639,7 @@
                             Financier et Commercial d’Egypte c. Banques.d’Athèaei et d'Orient).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0320">
                     <head>80. - Requête civile. — Demande nouvelle. — Non opposition de la part de
                         l’adversaire. — Partie défaillante.</head>
                     <div type="summary">
@@ -1700,7 +1711,7 @@
                             civile sera déclarée non recevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0330">
                     <head>81. -Requête civile. — Dol personnel de la partie adverse. — Fausses
                         allégations ou dénégations.</head>
                     <div type="summary">
@@ -1715,7 +1726,7 @@
                             Hélène Veuve Eliane Issa, c. Samy Habib Chalaby).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0340">
                     <head>82. - Saisie-contrefaçon. — Responsabilité du saisissant en cas de
                         dé-boutement.</head>
                     <div type="summary">
@@ -1736,7 +1747,7 @@
                             Lévy c. Daoud Eliahou El Hassi et Ct).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0350">
                     <head>83. - Signification. — Domicile. — Résidence. — Saisie-arrêt. —
                         Nullité.</head>
                     <div type="summary">
@@ -1798,7 +1809,7 @@
                             tiers-saisi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0360">
                     <head>84. - Tierce-opposition. — Ordonnance de référés. — Irrecevabilité. —
                         Compétence. — Nullités de la procédure d’expropriation. — Juge délégué aux
                         adjudications.</head>
@@ -1828,7 +1839,7 @@
                             et note critique.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0370">
                     <head>85. - Tribunal Sommaire. — Compétence ratione materiæ — Demande ayant
                         plusieurs chefs provenant de causes juridiques distinctes. — Taux.</head>
                     <div type="summary">
@@ -1927,12 +1938,12 @@
                             la juridiction du Juge Sommaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0380">
                     <head>86. - Vente. — Clause “sauf approbation de la fabrique „. — Livraisons
                         échelonnées. — Mises en demeure.</head>
                     <div type="summary">
-                        <p>Un vendeur qui fait un contrat » sauf « approbation de sa fabrique -> est
-                            tenu, en cas de refus par cette dernière, d’en avertir immédiatement
+                        <p>Un vendeur qui fait un contrat » sauf « approbation de sa fabrique -&gt;
+                            est tenu, en cas de refus par cette dernière, d’en avertir immédiatement
                             l’acheteur, à défaut de quoi, le contrat est censé ferme. Il est
                             cependant de jurisprudence qu’en matière de vente de marchandise avec
                             livraisons échelonnées, l’acheteur doit nécessairement, en cas de non
@@ -1944,7 +1955,7 @@
                             Chenaoui c. Giulio Padova et Co).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0390">
                     <head>87. - Vente avec réserve de propriété. — Clause de « reservati dominii ».
                         — Production par le vendeur à la faillite de l'acheteur.</head>
                     <div type="summary">
@@ -2031,7 +2042,7 @@
                             doit être censé y avoir renoncé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0400">
                     <head>88. - Vente immobilière. — Transcription postérieure à la transcription du
                         commandement. — Nullité relative. — Opposabilité de cette vente aux
                         créanciers inscrits ultérieurement. — Adjudication. — Consignation.</head>
@@ -2135,7 +2146,7 @@
                             formulée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0410">
                     <head>89. Vente. — Résiliation. — Défauts de la chose vendue. —
                         Dommages-intérêts.</head>
                     <div type="summary">
@@ -2151,7 +2162,7 @@
                             Wolf c. Mikhaïl Abdel Chéhid).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-01-0420">
                     <head>90. - Wakf. — Séquestre. — Droits des créanciers d’un bénéficiaire.</head>
                     <div type="summary">
                         <p>Les créanciers personnels d’un bénéficiaire, ayant un intérêt sérieux et
@@ -2359,7 +2370,7 @@
                 <p>Farrag Aly Farrag (Syndic Anis). 284 48.</p>
                 <p>Roufail Abdel Messih et Ghobrial Akla-dios (Syndic Anis). Pour att. rés. expr.
                     28.1.18.</p>
-                <p>Yanni Biehai (Syndic Demanget), Cont. vér. cr. et rés. procès 28.1. >8.</p>
+                <p>Yanni Biehai (Syndic Demanget), Cont. vér. cr. et rés. procès 28.1. &gt;8.</p>
                 <p>Morcos Biehai (Syndic Barocas). Cont. vér. cr. 284.18.</p>
                 <p>Gobrial Samaan et Fanons Ibrahim (Syndic Caralli). Cont. vér. cr. et conc.
                     284.18.</p>
@@ -2684,7 +2695,7 @@
                 <p>2” Actions possessoires.</p>
                 <p>3» Revendications mobilières.</p>
                 <pb n="40" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <p>3°>° Chambre: Juge Délégué: M. Bateson.</p>
+                <p>3°&gt;° Chambre: Juge Délégué: M. Bateson.</p>
                 <p>Audiences le Samedi.</p>
                 <p>Toutes les affaires commerciales au-dessus de 10. L.E.</p>
                 <p>Adjudications.</p>

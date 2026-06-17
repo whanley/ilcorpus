@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0026-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0026-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1936-07-10">July 10, 1936</date><lb/>
-                    <biblScope unit="volume">Vol. 26</biblScope><lb/>
-                    <biblScope unit="number">No. 309</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1936-07-10">July 10, 1936</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 26</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 309</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -68,8 +79,8 @@
                     Degiardé)</p>
                 <p>M" E. DEGIARDE et LUCIEN BARDA (Secrétaires de la rédaction). S’adresser aux
                     Bureaux du Journal</p>
-                <p>M* A. FADEL (Directeur à Afansourah). M* F. BRAUN > ___, a - 1 3, Rue de la Gare
-                    du Caire, Alexandrie</p>
+                <p>M* A. FADEL (Directeur à Afansourah). M* F. BRAUN &gt; ___, a - 1 3, Rue de la
+                    Gare du Caire, Alexandrie</p>
                 <p>(Ccorrespondants a t aris). 4</p>
                 <p>Mo G. M OUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT ) Téléphoné:
                     25924</p>
@@ -151,7 +162,7 @@
                     sanctionner plus effectivement les obligations qui s’imposent à tous ceux que
                     les épargnants ont investi de leur confiance pour la gestion ou la surveillance
                     de leurs capitaux » (Exposé des motifs des décrets-lois du 8 Août 1935, pris
-                    pour la protection de l’épargne: J. O. 9 Août 1935). ></p>
+                    pour la protection de l’épargne: J. O. 9 Août 1935). &gt;</p>
                 <p>Dans cet esprit le Gouvernement de M. Laval a d’abord envisagé trois séries de
                     dispositions, auxquelles il a tracé le cadre spécifique de la lutte pour la
                     protection de l'épargne, condition primordiale de la restauration financière et
@@ -434,13 +445,13 @@
                 <p>ne peut de plein droit produire effet en France; il fallait baser l’incapacité,
                     au cas de condamnation étrangère, sur les faits mêmes constituant les crimes ou
                     délits relevés comme infraction par l’art. 6 du décret-loi ci-dessus analysé et
-                    considérés comme délits par la loi française. > En cas de condamnation, passée
-                    en force de chose jugée, prononcée par une juridiction étrangère en raison de
-                    l’un des délits de l’art. 6 du décret-loi, le Tribunal correctionnel du domicile
-                    de l’intéressé déclare, à la requête du Ministère Public, après vérification de
-                    la régularité et de la légalité de la décision, l’intéressé dûment appelé en
-                    Chambre du Conseil, qu’il y a lieu à l’application de l’interdiction (art. 7
-                    alinéa 1).</p>
+                    considérés comme délits par la loi française. &gt; En cas de condamnation,
+                    passée en force de chose jugée, prononcée par une juridiction étrangère en
+                    raison de l’un des délits de l’art. 6 du décret-loi, le Tribunal correctionnel
+                    du domicile de l’intéressé déclare, à la requête du Ministère Public, après
+                    vérification de la régularité et de la légalité de la décision, l’intéressé
+                    dûment appelé en Chambre du Conseil, qu’il y a lieu à l’application de
+                    l’interdiction (art. 7 alinéa 1).</p>
                 <p>Pour les faillis non réhabilités, déclarés en faillite à l’étranger,
                     l’interdiction s’appliquera quand le jugement déclaratif aura été déclaré
                     exécutoire en France. A cette fin d’exequatur, le Ministère Public se pourvoira
@@ -1079,7 +1090,7 @@
             <pb n="247" rendition="Gazette des Tribunaux, Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0010">
                     <head>176. - Juridiction Mixte. — Compétence pour examiner les pouvoirs
                         juridictionnels des tribunaux dont les déçu sions sont invoquées devant les
                         Tribunaux Mixtes; limites; action en délivrance de biens successoraux;
@@ -1283,7 +1294,7 @@
                         <p>V. ég. ci-après § 183, l’arrêt du 31 Mai ,1934 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0020">
                     <head>177. - Juridiction Mixte. — Questions de statut personnel; action en
                         revendication d'actif successoral; cas où il y a lieu à sursis à
                         statuer.</head>
@@ -1363,7 +1374,7 @@
                             citées en note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0030">
                     <head>178. - Juridiction Mixte. — Questions de statut personnel; cas où il ,n'y
                         a pas lieu à sursis à statuer; compétence des Tribunaux Mixtes pour les
                         questions de solution facile; compétence à statuer sur les actions en
@@ -1550,7 +1561,7 @@
                         <p>IV. — Ainsi jugé par infirm. du jugement précité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0040">
                     <head>179. - Juridiction Mixte. — Questions de statut personnel; cas où il n'y a
                         pas lieu à sursis à statuer; compétence des Tribunaux Mixtes pour les
                         questions impliquant une simple recherche de droit civil ordinaire. •—
@@ -1884,7 +1895,7 @@
                         <p>IV. - Gomp. ci-après § 184, l’arrêt du 30 Avril 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0050">
                     <head>180. - Juridiction Mixte. .— Questions de statut personnel; compétence en
                         matière successorale; .décisions divergentes rendues par le Patriarcat et le
                         Mehkémeh; pouvoir des Tribunaux Mixtes de dire laquelle des deux doit être
@@ -3153,7 +3164,7 @@
                             »</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0060">
                     <head>181. - Juridiction Mixte. — Questions de statut personnel; compétence en
                         matière successorale; demande en revendication et en partage d'une
                         quote-part déterminée dans des immeubles déterminés; contestation sur la
@@ -3327,7 +3338,7 @@
                         <p>Note. — V. ci-après § 183 l’arrêt du 31 Mai 1934, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0070">
                     <head>182. - Juridiction Mixte. — Questions de statut personnel; compétence en
                         matière successorale; étendue et limites; action en revendication d’actif
                         successoral; cas d'intérêt mixte indépendamment de la nationalité des
@@ -3480,7 +3491,7 @@
                         <p>Note. — III. - V. ci-après § 183 l’arrêt du 31 Mai 1934, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0080">
                     <head>183. - Juridiction Mixte. — Questions de statut personnel; compétence en
                         matière successorale: étendue et limites; pétition d'hérédité; contestations
                         qu'elle comporte; règles de compétence. — Juridiction Mirte; recherche de la
@@ -3738,7 +3749,7 @@
                             Avril 1935, 6 Décembre 1934 et 4 Février 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0090">
                     <head>184. - Juridiction Mixte. — Questions de statut personnel; compétence en
                         matière successorale; limites; succession testamentaire; action basée sur le
                         testament et dirigée à l'encontre des détenteurs de l’actif successoral;
@@ -4012,7 +4023,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0100">
                     <head>185. - Juridiction Mixte. — Questions de statut personnel; compétence en
                         matière successorale; qualité d'héritier; preuve; nécessité de recours
                         préalable à la juridiction compétente de statut personnel; Juridiction
@@ -4144,7 +4155,7 @@
                             les références citées en note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0110">
                     <head>186. - Juridiction Mixte. — Questions de statut personnel; compétence en
                         matière successorale; questions réservées au juge du statut personnel. —
                         Etats étrangers; cas où ils sont justiciables des Tribunaux Mixtes. •—
@@ -4582,7 +4593,7 @@
                             réclamée par le Fisc Espagnol; — annuler le susdit commandement des
                             18/19 Janvier 1932, ainsi que la saisie-arrêt (-exécution) consécutive,
                             plus haut rapportée; — débouter le Fisc Espagnol « des fins de ses
-                            demandes >,; — et le condamner à tous les frais et dépens;</p>
+                            demandes &gt;,; — et le condamner à tous les frais et dépens;</p>
                         <p>que les deux exécuteurs testamentaires et le Comptoir National d’Escompte
                             se bornèrent à déclarer, aux débats, s’en référer à justice;</p>
                         <p>Attendu que le Tribunal Civil Mixte du Caire, par son jugement du 1er Mai
@@ -5157,10 +5168,10 @@
                             citées en note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0120">
                     <head>187. - Juridiction Mixte. — Questions de statut personnel; pouvoirs
                         juridictionnels; étendue; pension alimentaire; compétence des Tribunaux du
-                        statut personnel; cas de compétence des Tribunaux Mixtes. >— Tribunaux
+                        statut personnel; cas de compétence des Tribunaux Mixtes. &gt;— Tribunaux
                         Consulaires; Patriarcats; incompétence en matière de pension alimentaire
                         entre parties de nationalités différentes; demande de réduction de pension
                         en cas de changement de nationalité du mari; compétence mixte.</head>
@@ -5277,7 +5288,7 @@
                             1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0130">
                     <head>188. - Patriarcats. -— Pouvoirs juridictionnels; limites de compétence;
                         incompétence entre parties de nationalités différentes; cas d'une demande
                         concernant une convention relative à la garde d'un enfant, entre époux
@@ -5388,7 +5399,7 @@
                             l’arrêt du 12 Mars 1936, et ci-après § 189 l’arrêt du 26 Avril 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0140">
                     <head>189. - Rabbinats. &lt;— Pouvoirs juridictionnels; limites de compétence;
                         incompétence entre parties de. nationalités différentes; cas d'une demande
                         en paiement de dot et contre-dot formée par une Israélite égyptienne contre
@@ -5590,7 +5601,7 @@
                             et ci-après § 190 le jug. Civ. Caire du 30 Juin 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-07-0150">
                     <head>190. - Rabbinats. — Pouvoirs juridictionnels; limites de compétence;
                         incompétence entre parties de nationalités différentes; Tribunal Indigène;
                         limites de compétence eh matière de statut matrimonial; cas d'une demande en

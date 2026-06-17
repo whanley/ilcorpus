@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1927-12-10">December 10, 1927</date><lb/>
-                    <biblScope unit="volume">Vol. 18</biblScope><lb/>
-                    <biblScope unit="number">No. 206</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1927-12-10">December 10, 1927</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 18</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 206</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -62,7 +73,7 @@
                 <p>— au Journal;</p>
                 <p>— Un an........ :......... » 150</p>
                 <p>— Six mois................ » 85</p>
-                <p>— Trois mois........ > 50</p>
+                <p>— Trois mois........ &gt; 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an)........ » 250</p>
                 <p>Administrateur-Gérant :</p>
@@ -470,7 +481,7 @@
             <pb n="48" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0010">
                     <head>47. - Concordat préventif. — Créance en monnaie étrangère; paiement;
                         conversion en monnaie égyptienne pour les besoins du concordat préventif;
                         défaut d'acceptation du créancier; droit de ce dernier de se faire payer en
@@ -540,7 +551,7 @@
                             seulement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0020">
                     <head>48. - Concordat préventif. — Résolution; déclaration du débiteur en
                         faillite; opérations conclues dans l'intervalle; conditions d'annulation. —-
                         Acomptes reçus par les créanciers concordataires; réductions
@@ -591,7 +602,7 @@
                     </div>
                     <div type="litigants">
                         <p>(Trib Comm Alex., Ire Ch., Prés. M. P. Bene-ducci, 14 Février 1927. - F.
-                            Mathias èsci. c. Banque &lt;> Orient).</p>
+                            Mathias èsci. c. Banque &lt;&gt; Orient).</p>
                     </div>
                     <div type="observations">
                         <p>Note. —- Le jugement expose;</p>
@@ -827,7 +838,7 @@
                             concordataires qui n’étaient pas encore échus à cette date.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0030">
                     <head>49. ; - Faillite. — Bail résilié de plein droit avant la faillite pour non
                         paiement de loyers, éclats; droit acquis du bailleur de reprendre
                         immédiatement les lieux loués; délai de 30 jours inapplicable; Ju-’ge des
@@ -1002,7 +1013,7 @@
                             et tous loyers courants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0040">
                     <head>50. - Faillite. ■— Compétence; faillite mixte; jugements rendus
                         postérieurement contre le failli par les Tribunaux Indigènes; demande en
                         annulation; compétence commerciale.</head>
@@ -1058,7 +1069,7 @@
                             compétence commerciale, ainsi que l’ont décidé les premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0050">
                     <head>51. - Faillite. — Concordai; dividende trop réduit; refus
                         d'homologation.</head>
                     <div type="summary">
@@ -1093,7 +1104,7 @@
                         <p>Qu’il échet en conséquence de refuser l’homologation demandée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0060">
                     <head>52. - Faillite. — Concordat; garantie; cession par le failli au garant du
                         concordat de toutes les activités de la faillite; garant tenu aux dettes non
                         mentionnées dans le concordai.</head>
@@ -1206,7 +1217,7 @@
                             créance litigieuse...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0070">
                     <head>53. - Faillite. — Concordai; garantie donnée par un commerçant; conditions
                         de commercialité. — Garantie civile d'un concordat; résolution ultérieure du
                         concordat; défaut de cessation des paiements du garant; impossibilité de
@@ -1280,7 +1291,7 @@
                             demande tendant à faire déclarer le dit garant en état de faillite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0080">
                     <head>51. - Faillite. — Concordat; société en nom collectif; décès d'un des
                         associés; associé survivant liquidateur; pouvoirs du liquidateur; engagement
                         par ce dernier d'hypothéquer les biens personnels de l'associé décédé;
@@ -1363,7 +1374,7 @@
                             concordat dont il s’agit porte que les associés s’engagent à hypothéquer
                             au profit des créanciers, en garantie de l’exécution des accords
                             in-lervenus, leurs biens personnels, savoir Mahmoud El Alfi 74 feddans,
-                            18 kirats, 18 >ahmes et les Hoirs Aman About Daliab :ir feddans, 12
+                            18 kirats, 18 &gt;ahmes et les Hoirs Aman About Daliab :ir feddans, 12
                             kirats, 18 salîmes;</p>
                         <p>Qu’il est bien évident que Mahmoud El Alfi n’avait ni qualité ni pouvoir
                             pour prendre un pareil engagement au nom des héritiers de l’associé
@@ -1387,7 +1398,7 @@
                             faire, proclamer l’état d’union.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0090">
                     <head>55. - Faillite. -- Creance-.s; privilège ■contesté; Irais de conservation;
                         définition; e.rclusion des frais de débarquement, de dédouanage et de
                         transport des marchandises; défaut de privilège. — Règlement douanier; art.
@@ -1478,7 +1489,7 @@
                             fondement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0100">
                     <head>56. - Faillite. — Créances remontant à l'époque de la cessation des
                         paiements; absence de contestation concrète; fictivité non établie. — Vente;
                         fonds de commerce; cessionnaire ayant assumé le passif; droit du
@@ -1501,7 +1512,7 @@
                             Karbounis c. David El Hay et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0110">
                     <head>57. - Faillite. •— Créances; vérification; contestation; concordat
                         préventif; renonciation par un créancier à partie de sa créance
                         concordataire sous condition résolutoire; défaut de paiement des termes
@@ -1646,7 +1657,7 @@
                             comme mal fondées...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0120">
                     <head>58. - Faillite. — Déclaration; billets à ordre échus; vente consentie par
                         le débiteur an bénéficiaire des billets avec compensation du prix à
                         concurrence du montant des billets; défaut de réalisation de la vente par la
@@ -1668,8 +1679,8 @@
                             de faillite à raison de son insolvabilité actuelle.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d'Appel. Ire Ch., Prés. M. il. Hansson. 6 Avril 1927. — lî.s.
-                            Ahmad Salem Baabed et Frères c. Ahmed Moustapha Soliman).</p>
+                        <p>(Cour d'Appel. Ire Ch., Prés. M. il. Hansson. 6 Avril 1927. — lî.s. Ahmad
+                            Salem Baabed et Frères c. Ahmed Moustapha Soliman).</p>
                     </div>
                     <div type="observations">
                         <p>Note. — L’arrêt expose:</p>
@@ -1755,7 +1766,7 @@
                             jugement du 1er Mai 1926.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0130">
                     <head>59. - Faillite. — Déchuvlum en Egypte; .débiteur parti à l'étranger;
                         cessation (les paiements en Egypte: transport de fonds; difficultés:
                         exportation des capitaux; loi italienne.</head>
@@ -1846,7 +1857,7 @@
                             maintenir sa déclaration en état de faillite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0140">
                     <head>60. - Faillite. — Déclaration en Egypte; vente par le failli pendant la
                         période suspecte d'un fonds de commerce sis au Soudan; avantage particulier;
                         acheteur domicilié au Soudan; ancien domicile en Egyp te; demande, du syndic
@@ -2119,7 +2130,7 @@
                             limités à 7 0/0 l'an.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0150">
                     <head>61. - |ê;rillite — Déclaration; insolvabilité actuelle du commerçant
                         nécessaire; défense sérieuse opposée par le débiteur; défaut de preuve de sa
                         déconfiture.</head>
@@ -2211,7 +2222,7 @@
                             les éléments de la cause ne permettent pas à la Cour d'accueillir.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0160">
                     <head>62. - Faillite. — Déclaration; jugement ordonnant un sursis sur la
                         demande; ca.-raclère de débonlemenl en l'état; appel; recevabilité. - Appel;
                         acte contenant une erreur de date; motifs suffisamment e.rplicites;
@@ -2278,7 +2289,8 @@
                             faillite est en outre fondée sur un compte-courant dont l’intimé serait
                             resté débiteur de la Banque pour une somme de L.E. 8il.</p>
                         <p>Mais au fond, la demande de la Banque se heurte à un autre obstacle: elle
-                            n’a i>u établir à suffisance de droit que l’intimé est commerçant.</p>
+                            n’a i&gt;u établir à suffisance de droit que l’intimé est
+                            commerçant.</p>
                         <p>H est vrai qu'il résulte du relevé de comptes produit que l'appelante a
                             conclu diverses opérations de Bourse pour son compte et que l’intimé
                             s'est fait avancer de l’argent sur du colon qu’il s’élait engagé' à
@@ -2293,7 +2305,7 @@
                             de rejeter sa demande en dommages-intérêts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0170">
                     <head>63. - Faillite. — Déclaration par défaut du débiteur; cessation des
                         paiements non contestée: inadmissibilité d'objections .d'office du Tribunal
                         quant à cette cessation; effets de commerce impayés; protêt non nécessaire
@@ -2353,7 +2365,7 @@
                             plaider les motifs déjà réfutés du jugement appelé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0180">
                     <head>64. - Faillite. •— Déclaration; société irrégulièrement dissoute pour
                         défaut de publications; nouvelle société formée en partie de membres de
                         l'ancienne; constitution irrégulière de celte dernière pour défaut de
@@ -2477,7 +2489,7 @@
                             jugement du 7 Juin 1926, c’est à juste raison que les premiers juges oui
                             fait remarquer que ce remboursement n’a pu en lotit cas être fait que
                             grâce au crédit que les I créanciers nouveaux ont accordé aux faillis.
-                            ></p>
+                            &gt;</p>
                         <p>Le qui vient d'être retenu suffit à démontrer que la décision déférée
                             ayant statué que Je retrait de Hassan Badawi El Fatatri en 1924 est nul
                             à l’égard des tiers mérite confirmation pour défaut d’accomplissement
@@ -2488,7 +2500,7 @@
                             Société...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0190">
                     <head>65. - Faillite. — Déclaration; société irrégulièrement (lissante pour
                         défaut de, publications; nouvelle société formée en partie de membres de
                         Vancienne; déclaration, en Jailli te. de la nouvelle société; insolvabilité
@@ -2683,7 +2695,7 @@
                             sans objet...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0200">
                     <head>66. - Faillite. — Faillite de [ait; inscription hypothécaire sur les biens
                         du débiteur; validité; art. 23.5 et suiv. C. Com.; inapplicabilité de l'art
                         223 C. Com.; conditions d'applicabilité. — Distribution; contredit non
@@ -2765,7 +2777,7 @@
                             par le Tribunal.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0210">
                     <head>67. - Faillite — Femme du failli; immeubles achetés depuis le mariage du
                         failli; expropriation poursuivie par le syndic; instance en nullité formée
                         par la <pb n="61" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
@@ -2857,7 +2869,7 @@
                             le jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0220">
                     <head>68. - Faillite. — Femme du failli; revendication d'objets mobiliers;
                         preuve par inventaire authentique.</head>
                     <div type="summary">
@@ -2908,7 +2920,7 @@
                             mobilier revendiqué soit établie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0230">
                     <head>69. - Faillite. — Juge-commissaire; pouvoirs; ordonnance autorisant
                         l'apposition des scellés sur un fonds de commerce autre que celui du failli;
                         présomption de détournement d'actif. — Nullité éventuelle de l'exécution de
@@ -3015,7 +3027,7 @@
                             devient inutile d’aborder l’examen des autres moyens de discussion.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0240">
                     <head>70. - Faillite,_Juge-commissaire; pouvoir; ordonnance autorisant la prise
                         de possession d'immeubles dont le rapport à la masse est demandé;
                         distinction entre les immeubles revendiqués contre la femme du failli et
@@ -3107,7 +3119,7 @@
                             parcelle litigieuse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0250">
                     <head>71. - Faillite. — Jugement déclaratif; appel; intimation nécessaire du
                         syndic; point de départ du délai.</head>
                     <div type="summary">
@@ -3178,7 +3190,7 @@
                             l’article 409 du même Code.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0260">
                     <head>72. - Faillite. •— Jugement déclaratif; point de départ du délai.</head>
                     <div type="summary">
                         <p>Le délai de quinze jours pour former appel d’un jugement déclaratif de
@@ -3313,7 +3325,7 @@
                             Code do Commerce, mais à partir de sa signification.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0270">
                     <head>73. - Faillite. — Mandat général du syndic à son avocat; l'avocat est seul
                         juge de son étendue. — Demande en révocation du syndic; créancier non
                         vérifié ni affirmé; irrecevabilité; nécessité de renvoi devant le
@@ -3417,7 +3429,7 @@
                             réunion du 25 Octobre pour telle fin que de droit...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0280">
                     <head>74. - Faillite. —- Nullités spéciales; actes à titre onéreux passés par le
                         failli après la cessation des paiements; cas où le créancier qui a. obtenu
                         des garanties nouvelles possédait originairement une créance nantie;
@@ -3677,7 +3689,7 @@
                             les victimes d’embarras financiers momentanés...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0290">
                     <head>75. - Faillite. — Nullités spéciales; actes à titre onéreux présentant un
                         avantage exceptionnel au profit du tiers qui a traité avec le failli;
                         condition d'annulation. — Jugement déclaratif de faillite; transcription;
@@ -3842,7 +3854,7 @@
                             nullité de l’acte litigieux et de confirmer le jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0300">
                     <head>76. - Faillite. — Nullités spéciales; action en annulation intentée par le
                         failli concordataire; irrecevabilité. —- Créanciers concordataires;
                         renonciation tacite à l'action en annulation d'une vente introduite par le
@@ -3937,7 +3949,7 @@
                             accueillie, le failli seul, ce à quoi la loi s’oppose formellement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0310">
                     <head>77. - Faillite. — Nullités spéciales; association en participation;
                         dissolution et partage après la cessation des paiements de l'un des
                         associés; annulation; art. 236 C. Com.; portée générale</head>
@@ -4040,7 +4052,7 @@
                             Pandectes Françaises, T. 32, Faillite. No. 3293; Dalloz, Codes Annotés,
                             Additions et Suppléments au Code de Commerce, No. 16907. 2°, 5° et
                             enfin. Sirrey, Recueil des Lois, 1895, p. 385 et suivantes, où se trouve
-                            reproduit, avec 1> commentaire de Lyon-Caen, l’arrêt de la Cour de
+                            reproduit, avec 1&gt; commentaire de Lyon-Caen, l’arrêt de la Cour de
                             Cassation en date du 28 Mai 1895 aux termes duquel Part. 447 s’applique
                             nécessairement aux actes de partage faits</p>
                         <p>après la cessation des paiements du failli et avant le jugement
@@ -4074,7 +4086,7 @@
                             échet, par conséquent, de l’admettre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0320">
                     <head>78. - Faillite. — lléhabilitalion; conditions; désintéressement intégral
                         des créanciers; prenne.</head>
                     <div type="summary">
@@ -4119,7 +4131,7 @@
                             Avril 1911, Bull. XVII, 60 et XXIII, 248).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0330">
                     <head>79. - Faillite. — Société à Vétranger en faillite; agence en Egypte in
                         bonis. —-Distribution en Egypte du prix d'un navire ayant fait partie du
                         patrimoine de l'agence; créanciers chirographaires de l'agence; défaut de
@@ -4320,7 +4332,7 @@
                             française...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0340">
                     <head>80. - Faillite. — Société en commandite; commandite non versée; obligation
                         du commanditaire envers la masse; compensation inadmissible avec la
                         réclamation du commanditaire pour faute de gestion des associés
@@ -4385,7 +4397,7 @@
                         <p>Qu’il échet par contre d’en connaître...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-12-0350">
                     <head>81. - Faillite. — Syndic; représentation de la masse; défaut de qualité
                         pour représenter des créanciers individuellement. — Jugement passé en force
                         de chose jugée attribuant un droit à la masse; contestation ultérieure de ce

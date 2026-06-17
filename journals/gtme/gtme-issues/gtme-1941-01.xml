@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0031-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0031-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1941-01-10">January 10, 1941</date><lb/>
-                    <biblScope unit="volume">Vol. 31</biblScope><lb/>
-                    <biblScope unit="number">No. 363</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1941-01-10">January 10, 1941</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 31</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 363</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -56,8 +67,8 @@
                 <p>— aux deux publications</p>
                 <p>réunies (un an)____ »</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avooats d’Egypte. Fondateurs
-                    > M« MAXIME PUPIKOI'EB et LÉON PANGALO, Avooats à la Cour Directeur : M- MAXIME
-                    PUPIKOFEB, Avocat à la Cout.</p>
+                    &gt; M« MAXIME PUPIKOI'EB et LÉON PANGALO, Avooats à la Cour Directeur : M-
+                    MAXIME PUPIKOFEB, Avocat à la Cout.</p>
                 <p>Comité de Rédaction et d'Administration :</p>
                 <p>M* L. PATJÏGALO et K. SCHEMEIL (Directeurs au Caire)</p>
                 <p>MM N. DEGIAKDÉ et LUCIEN BABD1 (Secrétaires de la rédaction/,</p>
@@ -114,7 +125,7 @@
                     paragraphe 4 ainsi conçu:</p>
                 <p>« Quiconque, sachant qu’il est dans l’impossibilité absolue de payer, se serait
                     fait servir des boissons ou des aliments qu’il aura consommés en tout ou en
-                    partie dans des établissements à ce destinés sera puni... >></p>
+                    partie dans des établissements à ce destinés sera puni... &gt;&gt;</p>
                 <p>Ce délit sui generis, auquel a été donné le nom de « grivèlerie », aurait pu, à
                     vrai dire, être rangé, sous l’empire du Code Pénal français, dans la catégorie
                     des « autres vols non spécifiés dans la présente section, les larcins ou
@@ -334,10 +345,10 @@
                     comportant des atteintes à la Propriété, mais, dans certains cas, à ceux qui
                     dérivent d’atteintes aux obligations en général, « à tous les droits, n somme,
                     qui constituent le patrimoi-considéré dans son acception tech-nique juridique».
-                    Le mot «patrimoine», employé dans le sens le plus lar-|0> comprend dès lors tous
-                    les droits I?lscePtibles d’exercice privé, même d^.Çlh’ils sont hors commerce;
-                    ces o»s affectent autant les biens privés uue les biens appartenant à des
-                    insti-„."?ns publiques, biens patrimoniaux biens dominiaux.</p>
+                    Le mot «patrimoine», employé dans le sens le plus lar-|0&gt; comprend dès lors
+                    tous les droits I?lscePtibles d’exercice privé, même d^.Çlh’ils sont hors
+                    commerce; ces o»s affectent autant les biens privés uue les biens appartenant à
+                    des insti-„."?ns publiques, biens patrimoniaux biens dominiaux.</p>
                 <p>res Ue I on ne pousse point jusque-là le n s.Peet de l’exactitude dans la
                     termi-</p>
                 <p>1Qgie juridique, il importerait peu, à</p>
@@ -454,7 +465,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0010">
                     <head>121. Affichage. — Décret du &lt;20 Juillet 1938; affiches volantes;
                         déclaration aux fins d'autorisation; enlèvement.</head>
                     <div type="summary">
@@ -521,7 +532,7 @@
                             ordonnant la confiscation du cautionnement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0020">
                     <head>122. - Banqueroute. — Juridiction pénale; mesure en laquelle elle est liée
                         par les décisions civiles ou commerciales; qualité de commerçant du prévenu;
                         recherche. —■ Louage de services; caractère civil du contrat. — Actes de
@@ -658,7 +669,7 @@
                             Mixte du Caire, et Gaz. XXX, 197-145, l’arrêt du 24 Mars 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0030">
                     <head>123. - Banqueroute simple. — Irrégularité de comptabilité; failli
                         illettré; existence du délit.</head>
                     <div type="summary">
@@ -697,7 +708,7 @@
                             la Loi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0040">
                     <head>124. - Chantage. — Menace de révéla-lation au mari, de la part de l'amant,
                         de relations intimes; caractère punissable. •— Ordre ou condition prévu par
                         l'art. 327 C. Pén.; nature. — Action civile contre un ressortissant italien;
@@ -804,7 +815,7 @@
                             V, N08 1847 et 1851).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0050">
                     <head>125. - Chèque sans provision. — Chèques; définition; chèques postdatés et
                         chèques à paiement différé; applicabilité de l'art. 337 C. Pén.; conditions
                         d'existence du délit d'émission de chèques sans provision; mauvaise foi;
@@ -1059,7 +1070,7 @@
                             Gaz. XXX, 181-187, les arrêts du 21 Décembre 1938 et du 3 Mars 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0060">
                     <head>126. - Complicité. — Existence juridique; condition; intention
                         délictuelle; cas où elle n'existait pas au moment de l'acte constitutif de
                         l'infraction.</head>
@@ -1163,7 +1174,7 @@
                             d’examiner les autres moyens du pourvoi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0070">
                     <head>127. - Contrefaçon. — Plombs; assimilation aux marques; art. 208 C.
                         Pén.</head>
                     <div type="summary">
@@ -1198,7 +1209,7 @@
                         <p>Attendu que le jugement dont pourvoi a fait une juste application de
                             l’art. 208 aux. seuls faits qu’il a retenus comme établis, soit la
                             contrefaçon des plombs et l’usage de ces plombs; en effet, ces plombs
-                            portant le cachet de la Société &lt;> Lebon et Cie. », constituaient
+                            portant le cachet de la Société &lt;&gt; Lebon et Cie. », constituaient
                             bien une « marque » distinctive de cette société; il importe peu que,
                             seuls, les art. 311, 318 et 324 C.P. eussent été prévus par les
                             réquisitions du Ministère Public; rien n’empêche le Tribunal de
@@ -1209,7 +1220,7 @@
                             fait qui échappent au contrôle de la Cour de Cassation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0080">
                     <head>128. - Denrées alimentaires. — Falsification; confection et mise en vente
                         de beurre artificiel; caractère licite.</head>
                     <div type="summary">
@@ -1225,7 +1236,7 @@
                             c. Charalaœbo-Constantin Economou.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0090">
                     <head>129. - Destruction de biens mobiliers. — Délit prévu à l'article 361 C.
                         Pén.; existence juridique; condition; destruc-tion d’une lettre; condition à
                         laquelle elle tombe sous le coup de l'art. 361 CL Pén.</head>
@@ -1273,7 +1284,7 @@
                             frais...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0100">
                     <head>130. - Détournement d’objets saisis. — Existence juridique; conditions;
                         intention de porter préjudice au créancier saisissant; cas d'une vente
                         amiable; jugement de condamnation ne précisant pas si le prévenu a agi ou
@@ -1351,7 +1362,7 @@
                         <p>Note. — I. - V. les dix arrêts groupés sub § 131 ci-après.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0110">
                     <head>131. - Détournement d’objets saisis. — Existence juridique; intention
                         frauduleuse; condition de détermination; soustraction commise par un tiers
                         sans intention d'appropriation personnelle; caractère punissable; existence
@@ -1635,7 +1646,7 @@
                         <p>Note. — I et II. - V. les arrêts groupés as. Gaz. XXVIII, 231-225.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0120">
                     <head>132. - Détournement d’objets saisis. — Existence juridique; ordre de
                         transport des objets dans un marché voisin; défaut d’exécution par le
                         débiteur saisi constitué gardien; cas d'inexistence de délit.</head>
@@ -1683,7 +1694,7 @@
                             des frais de transport.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0130">
                     <head>133. - Détournement d’objets saisis. — Peine applicable; cas où il est
                         commis par le propriétaire qui est en même temps gardien; applicabilité de
                         la peine prévue par l'art. 341 Code Pénal pour l'abus de confiance. —
@@ -1767,7 +1778,7 @@
                         <p>(Motifs similaires).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0140">
                     <head>134. - Embarquement clandestin. — Caractère punissable sur la base des
                         art. 370 et 37i C. Pén.; caractère de violation de la propriété.</head>
                     <div type="summary">
@@ -1847,7 +1858,7 @@
                             sans avoir acquitté le coût du transport.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0150">
                     <head>135. - Escroquerie. — Manœuvres frauduleuses au sens de l'art. 336 C.
                         Pén.; condition d'existence. — Cassation; pouvoir de contrôle de la Cour sur
                         la qualification légale des faits. — Procédure pénale; jugements de
@@ -1937,7 +1948,7 @@
                         <p>Note. — I. - V. ég. ci-après § 130, l'arrêt du 13 Février 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0160">
                     <head>136. - Escroquerie. — Manœuvres frauduleuses au sens de l'art. 336 C.
                         pén.; Éléments constitutifs. — Cassation; pouvoir de contrôle de la Cour sur
                         la qualification légale des faits.</head>
@@ -2020,7 +2031,7 @@
                         <p>Note. — I. - v. ég. ci-avant § 135, l’arrêt du 13 .Mars 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0170">
                     <head>137. - Etablissements incommodes, dangereux et insalubres. —■ Loi N° 13 de
                         1904; exploitation sans rokhsa; fermeture; cas où elle doit toujours être
                         ordonnée et où elle est de droit; devoir du juge saisi d'une nouvelle
@@ -2161,7 +2172,7 @@
                         <p>Note. — III. - V. ég. ci-après §139, l’arrêt du 11 Novembre 1940,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0180">
                     <head>138. - Etablissements publics. — Cuisines qui en dépendent; hôtels et
                         pensions autorisés en vertu de la Loi N° 1 de 1904 sur 'les établissements
                         publics; inapplicabilité de la Loi N° 13 de 1904 sur les établissements
@@ -2246,7 +2257,7 @@
                             234-230, l’arrêt du 9 Décembre 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0190">
                     <head>139. - Etablissements publics. — Débit de boissons dans un établissement
                         autre que ceux visés à l'art. 1er de la Loi N" I de 1904; conséquence.
                         —Etablissements publics non autorisés; fermeture; mesure obligatoire;
@@ -2307,7 +2318,7 @@
                         <p>II. - V. 'ég. ci-avant § 137, les arrêts à 1er Mai 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0200">
                     <head>140. - Etablissements publics. — Loi A’ 1 de 1904; pensions de famille;
                         cas où elles ne conslituent pas un établissement public soumis au régime de
                         la déclaration préalable.</head>
@@ -2365,7 +2376,7 @@
                             prévues par la Loi de 1901 ont été, ou non, observées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0210">
                     <head>141. - Etablissements publics. — tlé-glement sur les théâtres du 1'2
                         Juillet 1911; inapplicabilité aux établissements de recréations sportives ne
                         constituant pas des spectacles publics; salle de cinéma; transformation en
@@ -2464,7 +2475,7 @@
                             1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0220">
                     <head>142. - Faux. — Existence juridique; acte public; fausses déclarations;
                         inexistence de Vinfraction en cas de bonne fol du rédacteur; faux
                         intellectuel commis par le provocateur de l'infraction, en connaissance de
@@ -2661,7 +2672,7 @@
                             divers témoins entendus, et des divers éléments de la cause.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0230">
                     <head>143. - Homicide ou blessures par imprudence. — Accident d'automobile;
                         responsabilité du conducteur; conditions et limites; défaut de
                         responsabilité en cas d'accident dû à la surdijé ou à ’la cécité de la
@@ -2763,7 +2774,7 @@
                             mal fondée et de mettre les frais à charge du Trésor.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0240">
                     <head>144. - Homicide par imprudence. — Faute génératrice de la responsabilité
                         pénale; notion; soins médicaux; défaut de précautions élémentaires
                         d'antisepsie; application de l'art. 238 C. Pén. — Procédure pénale;
@@ -2896,7 +2907,7 @@
                             le pourvoyant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0250">
                     <head>145. - Incendie par négligence. — Conditions d'existence du délit réprimé
                         par l’art. 360 C. Pén.</head>
                     <div type="summary">
@@ -2988,7 +2999,7 @@
                             tenue pour établie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0260">
                     <head>146. - Machines à vapeur. —- Machines, installées sur des bateaux,
                         fluviaux;' inapplicabilité du Décret du 5 Novembre 1900 et du Règlement du 6
                         Novembre 1900 sur les machines; à vapeur et chaudières.</head>
@@ -3109,7 +3120,7 @@
                             fluviale.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0270">
                     <head>147. - Objets trouvés. — Rétention avec intention frauduleuse
                         d'appropriation; application de l'art. 1er du Décret du 18 Mai 1898 et de
                         l'art. 318 C. Pén.; intention frauduleuse; manifestation.</head>
@@ -3217,7 +3228,7 @@
                             Saad, Mohamat, N’ 377 (Mai 1938).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0280">
                     <head>148. - Outrage aux agents de la force publique. — Existence juridique;
                         irrégularité des actes, sans influence sur l'existence du délit.</head>
                     <div type="summary">
@@ -3256,7 +3267,7 @@
                             222, 225, parag. 135)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0290">
                     <head>149. - Outrage aux mœurs. — Exposition accidentelle d'un ouvrage immoral
                         dans la vitrine d'un libraire; condition de professionnalisme visée par les
                         art. 171 et 178 C. Pén.</head>
@@ -3313,7 +3324,7 @@
                             sans dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0300">
                     <head>150. - Passeports. — Supposition de nom; immatriculation sous un nom
                         supposé; inapplicabilité de l'art. Qt6 C. l*én.; complicité du délit de
                         supposition de nom dans un passeport; condition à laquelle elle peut dériver
@@ -3399,7 +3410,7 @@
                         <p>(Motifs similaires).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0310">
                     <head>151. - Pension alimentaire. — Défaut de paiement; délit prévu par l'art.
                         Q93 C. Pén.; existence de l'infraction en cas de défaut de paiement d'une
                         pension alimentaire allouée à une épouse contre son époux même en cas
@@ -3521,7 +3532,7 @@
                             aux frais.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0320">
                     <head>152. - Poids et mesures. — Loi N° 30 de 1039; cas où l'utilisation de
                         poids et mesures irréguliers constitue infraction. .</head>
                     <div type="summary">
@@ -3588,7 +3599,7 @@
                             Août 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0330">
                     <head>153. - Poids et mesures. — Loi N" 30 de 1039; infraction constituée par la
                         détention de poids et mesures irréguliers.</head>
                     <div type="summary">
@@ -3613,7 +3624,7 @@
                         <p>Note. — Rapp. ci-avant § 152, l'arrêt de Cass, du 11 Novembre 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0340">
                     <head>154. - Poids et mesures. — Vente; tromperie par le vendeur; usage de faux
                         poids ou de fausses mesures; délit réprimé par l'art. 347 C. Pén.;
                         infraction commise par le préposé du vendeur; caractère personnel.</head>
@@ -3656,7 +3667,7 @@
                             instructions de son commettant ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0350">
                     <head>155. - Procédure pénale. — Instruction; ordonnance de renvoi devant le
                         tribunal; opposition de l'inculpé devant la Chambre du Conseil;
                         recevabilité. '</head>
@@ -3672,7 +3683,7 @@
                             Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0360">
                     <head>156. - Propriété intellectuelle. — Délit d'exécution publique d'œuvres
                         musicales ou théâtrales au préjudice des auteurs; art. 351 C. Pén.;
                         inapplicabilité a défaut de loi civile spéciale; action ci-vde pour
@@ -3870,7 +3881,7 @@
                             critique du jugement rapporté (*).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0370">
                     <head>157. - Recel. — Objets volés au préjudice des ascendants du voleur;
                         immunité de l'art. 3i2 C.I.C. au profil du voleur, ne profitant pas au
                         receleur.</head>
@@ -3919,7 +3930,7 @@
                             travail chacun et solidairement aux frais...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0380">
                     <head>158. - Secret professionnel. — Avocat; caractère absolu du secret
                         professionnel.</head>
                     <div type="summary">
@@ -3966,7 +3977,7 @@
                             l’emploi ou la profession qu'elles exerçant, ont eu connaissance à
                             raison même desdites fonctions, emploi ou profession, d’un fait ou d’un
                             renseignement dont la révélation serait contraire à leur devoir
-                            professionnel >•</p>
+                            professionnel &gt;•</p>
                         <p>En matière pénale, cependant, l’art. 172 du nouveau Code d’instruction
                             Criminelle (dont il semble que le jugement rapporté ait perdu de vue les
                             dispositions), consacre au contraire, désormais, le caractère relatif du
@@ -4009,7 +4020,7 @@
                             1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0390">
                     <head>159. - Secret professionnel. — Caractère d'ordre public relatif;
                         violation; etendue du secret professionnel des médecins; certificat médical
                         délivré à des tiers après le décès sans l'autorisation formelle du patient;
@@ -4341,7 +4352,7 @@
                             Octobre 1940, et ta note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0400">
                     <head>160. - Secret professionnel. — Viola-’ation; conditions d’application de
                         l'art. 310 C. Pén.; étendue du secret professionnel des médecins.</head>
                     <div type="summary">
@@ -4445,7 +4456,7 @@
                             § 159, le jug. Civ. Alex, du 15 Mai 1940?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0410">
                     <head>161. - Stupéfiants. — Loi N° 21 de 1028: délit de possession de matières
                         stupéfiantes; conditions d’existence; mobiles du possesseur, sans influence
                         sur l’existence de l'infraction; état de misère du possesseur; justification
@@ -4530,7 +4541,7 @@
                             renvoi de rechercher.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0420">
                     <head>162. - Stupéfiants. — Loi N° 21 de 1928; délit de vente ou de tentative de
                         vente; acte d'intermédiaire à la vente constituant tentative punissable et
                         complicité; cas où la vente était juridiquement impossible faute d'existence
@@ -4687,7 +4698,7 @@
                         <p>1938, 2 Janvier et 6 Février 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0430">
                     <head>163. - Tanzini. — Décret du &lt;26 Août 1889; consolidation sans
                         autorisation de saillies dépassant la largeur réglementaire; caractère
                         d'infraction continue; poursuites successives pour le même fait;
@@ -4795,7 +4806,7 @@
                     </div>
                 </div>
                 <pb n="142" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0440">
                     <head>164. - Tanzim. — Décret du 26 Août •t889; ouvrages visés; constructions
                         anciennes hors alignement; tolérance de l'Administration; droit acquis;
                         conséquences; travaux de réparations non autorisés; cas où ils ne sont pas
@@ -4964,7 +4975,7 @@
                             la mesure accessoire laissée par le règlement à son appréciation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0450">
                     <head>165. T Tanzim. — Décret du 26 Août 1889; ouvrages visés; constructions en
                         bordure d'une rue projetée, en conformité d'un plan d’alignement; travaux
                         sans autorisation; légitimité à défaut de décret d'expropriation;
@@ -5262,7 +5273,7 @@
                             la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0460">
                     <head>166. - Usure. —• Délit d'usure par habitude; action publique non
                         subordonnée à une plainte de la part des personnes lésées.</head>
                     <div type="summary">
@@ -5275,7 +5286,7 @@
                     </div>
                 </div>
                 <pb n="145" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0470">
                     <head>167. - Usure. * 1 * III.— Délit d'usure par habitude; coauteurs;
                         complices.</head>
                     <div type="summary">
@@ -5292,7 +5303,7 @@
                             Public c. André N. Sarpa-Jtis et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0480">
                     <head>168. - Usure. — Délit d'usure par habitude; existence juridique;
                         conditions; restitution des intérêts usuraires, sans influence sur
                         l'infraction.</head>
@@ -5310,7 +5321,7 @@
                             Public c. Adorai Giuseppe.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-01-0490">
                     <head>169. - Vol. — Conditions juridiques d'existence du délit; cas
                         d'appropriation d'une somme versée par négligence ou inattention d'un tiers;
                         inexistence de l'infraction.</head>
@@ -5737,7 +5748,7 @@
                     rétablissement.</p>
                 <p>3. ) Etre paresseux ou négligent dans son, travail ou refuser de travailler.</p>
                 <p>4. ) Proférer .des imprécations ou tenir,</p>
-                <p>un langage abusif, : indécent, insolent. ou. menaçant. ..q ■ r. ></p>
+                <p>un langage abusif, : indécent, insolent. ou. menaçant. ..q ■ r. &gt;</p>
                 <pb n="148" rendition="Gazette des Tribunaux Mixtes."/>
                 <p>' 5.) Se montrer indécent en gestes ou en actions.</p>
                 <p>G.) Assaillir ou attaquer une personne quelconque.</p>

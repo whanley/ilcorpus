@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1935-05-10">May 10, 1935</date><lb/>
-                    <biblScope unit="volume">Vol. 25</biblScope><lb/>
-                    <biblScope unit="number">No. 295</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1935-05-10">May 10, 1935</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 25</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 295</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -356,7 +367,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0010">
                     <head>209. - Action possessoire. — Complainte; nature de la possession
                         nécessaire pour donner ouverture à l’action. — Voirie; incorporation de fait
                         d’un terrain à la voirie publique du consentement du propriétaire; exclusion
@@ -408,7 +419,7 @@
                             l’avenir, les immeubles bordant la rue.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0020">
                     <head>210. - Action possessoire. — Réinté-grande; action ayant pour obfet la
                         démolition de constructions érigées sur un terrain usurpé; nature de
                         l’action. — Possession; possession solo animo; conditions.</head>
@@ -428,7 +439,7 @@
                             Ismail c. Dame Marie Dargolia et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0030">
                     <head>211. - Action possessoire. — Réinté-grande; dépossession faite en vertu
                         d’un titre inopposable au possesseur donnant ouverture à l’action.</head>
                     <div type="summary">
@@ -441,7 +452,7 @@
                             Ahmed Mohamed et autres c. Hoirs Giovanni Slodre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0040">
                     <head>212. - Action possessoire. — Réintégrande et complainte; dépossession par
                         voie d’huissier d’un possesseur resté étranger au titre, ouvrant la voie à
                         ces actions. •— Juge du possessoire; faculté d’examen des titres de
@@ -463,7 +474,7 @@
                             Chrysostomidis c. Dame Marie Constantinidis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0050">
                     <head>213. - Action possessoire. — Réintégrande; possesseur précaire même d’un
                         bien du domaine public ayant droit à la protection contre les dépossessions
                         violentes; locataire et sous-locataire; droit d’agir en réintégrande contre
@@ -519,7 +530,7 @@
                             d’irrecevabilité...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0060">
                     <head>214. - Action possessoire. — Trouble possessoire; action en référé
                         n’impliquant pas renonciation à l’exercice de de l’action possessoire; droit
                         pour le dépossédé d’abandonner l’exécution d’une ordonnance de référés pour
@@ -600,7 +611,7 @@
                             l’action possessoire (arrêt 22 Avril 1915)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0070">
                     <head>215. - Prescription acquisitive. — Bail; locataire non admis à prescrire
                         les biens loués contre son titre; possession du locataire ne pouvant
                         profiter qu’à son bailleur.</head>
@@ -616,7 +627,7 @@
                             Kader èsq. et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0080">
                     <head>216. - Prescription acquisitive. — Juste titre; notion; exclusion des
                         actes émanant du véritable propriétaire; transcription, condition
                         nécessaire.</head>
@@ -715,7 +726,7 @@
                             contrà, ci-après § 218 l’arrêt du 26 Décembre 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0090">
                     <head>217. - Prescription acquisitive. — Juste titre; notion; exclusion des
                         actes émanant du véritable propriétaire; transcription, condition
                         nécessaire. •-— Hypothèque; créancier hypothécaire de bonne foi; droit de se
@@ -922,7 +933,7 @@
                             1935, et contrà, ci-après § 218 l’arrêt du 26 Décembre 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0100">
                     <head>218. - Prescription acquisitive. — Juste titre; notion; extension aux
                         actes émanant du véritable propriétaire; acte d’échange constituant un juste
                         titre; acte non transcrit pouvant constituer juste titre avant la Loi de
@@ -1039,7 +1050,7 @@
                             1935 et du .20 Mars 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0110">
                     <head>219. - Prescription acquisitive. — Possession; simple délivrance;
                         inefficacité aux fins d’usucapion.</head>
                     <div type="summary">
@@ -1084,7 +1095,7 @@
                             Mai 1904, Bull. XVI, 236)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0120">
                     <head>220. - Prescription acquisitive. — Usu-capion; nature de la possession
                         exigée; possession équivoque; bédouins; possession par tolérance non
                         susceptible de conduire à l’appropriation. — Revendi-tion immobilière;
@@ -1207,7 +1218,7 @@
                     </div>
                 </div>
                 <pb n="192" rendition="Gazette Ses Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0130">
                     <head>221. - Prescription acquisitive. — Usu-capion; nature de la possession
                         exigée; possession équivoque; clôture d’un immeuble, constituant un fait
                         susceptible de prouver la possession; jet de décombres dans un terrain
@@ -1403,7 +1414,7 @@
                             honoraires des deux degrés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0140">
                     <head>222. - Prescription acquisitive. — Usu-capion; nature de la possession
                         exigée; .titres non appuyés sur la possession; ino-pérance au point de vue
                         de la prescription; terres sablonneuses; propriété de l’Etat. — Possession;
@@ -1631,7 +1642,7 @@
                             de la revendication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0150">
                     <head>223. - Prescription acquisitive. — Usu-capion opposée à la revendication
                         de celui qui invoque un titre de propriété à son profit et son inscription à
                         la moukal-lafa; admissibilité de la preuve par témoins de la durée de la
@@ -1651,7 +1662,7 @@
                             Georges Chilitsis c. Hoirs Dame Mokbela bent Mohamed Hassan.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0160">
                     <head>224. - Propriété immobilière. — Accession; construction sur le terrain
                         d’autrui du consentement du propriétaire du sol; effets; application de
                         l’art. 89 C. Civ. au cas de construction sur un terrain acquis en vertu d’un
@@ -1809,7 +1820,7 @@
                             § 225 le jug. Civ. Alex, du 1er Mai 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0170">
                     <head>225. - Propriété immobilière. ■— Accession; construction sur le terrain
                         d’autrui du consentement du propriétaire du sol; effets; application de
                         l’art. 89 C. Civ. au cas de construction sur un terrain acquis en vertu d’un
@@ -1900,7 +1911,7 @@
                             194-174. — Contrà, arrêt du 16 Avril 1935, ci-avant § 224.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0180">
                     <head>226. - Propriété immobilière. — Bornage; appel des jugements rendus en
                         matière de bornage par les Tribunaux Sommaires; compétence exclusive du
                         Tribunal Civil; appel porté devant la Cour; irrecevabilité.</head>
@@ -1916,7 +1927,7 @@
                             S. Garidis c. Guirguis Henein et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0190">
                     <head>227. - Propriété immobilière. — Copropriété indivise; partage de fait
                         intervenu à une époque où certains héritiers égyptiens étaient mineurs;
                         inefficacité; conditions de régularité du partage. — Hypothèque; possession
@@ -2042,7 +2053,7 @@
                             et bono à la somme de L.E. 50.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0200">
                     <head>228. - Propriété immobilière. — Copropriété indivise; partage et
                         licitation; jugements rendus; chose jugée; limites; cas où il y a eu
                         modification de la situation de fait originaire.</head>
@@ -2457,7 +2468,7 @@
                     </div>
                 </div>
                 <pb n="199" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0210">
                     <head>229. - Propriété immobilière. — Copropriété indivise; partage; immeubles
                         successoraux; charges grevant l’immeuble; comptes à régler entre
                         communistes. — Péremption d’instance; demande en péremption, formée par un
@@ -2616,7 +2627,7 @@
                             péremption d’instance ne peut pas ne point être accueillie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0220">
                     <head>230. - Propriété immobilière. — Fruits du bien d’autrui; bonne foi du
                         possesseur l’autorisant à les faire siens; réclamation du véritable
                         propriétaire mettant fin à sa bonne foi.</head>
@@ -2631,7 +2642,7 @@
                             Charaoui c. Alfred Banoun et Cts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0230">
                     <head>231. - Propriété immobilière. — Mitoyenneté; mur séparatif; inexistence de
                         toute présomption de mitoyenneté en droit mixte.</head>
                     <div type="summary">
@@ -2648,7 +2659,7 @@
                     </div>
                 </div>
                 <pb n="200" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0240">
                     <head>232. - Propriété immobilière. — Preuve; inscription à la mokallafa et
                         certificats de date certaine; force probante; limite.</head>
                     <div type="summary">
@@ -2673,7 +2684,7 @@
                             Mohamed Abdel Al c. ' Hoirs Alecos Dracos et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0250">
                     <head>233. - Propriété immobilière. — Propriétaire de l’étage supérieur;
                         propriétaire de l’étage inférieur; droits et obligations respectifs; travaux
                         urgents; exécution; recours; indivisibilité et solidarité de l’obligation
@@ -2790,7 +2801,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0260">
                     <head>234. - Retrait d’indivision. — Conditions d’exercice; vente consentie à un
                         copropriétaire; inadmissibilité du retrait. — Préemption et retrait
                         d’indivision; exercice; délais. ;— Retrait d’indivision; succession
@@ -2879,7 +2890,7 @@
                             d’Appel Mixte (v. A. 31 Décembre 1914, Bull. XXVII, 101).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0270">
                     <head>235. - Servitudes. — Passage; servitude prévue par l’art. 65 C. Civ.; mode
                         d’exercice; indemnité due; critérium de détermination; mode de
                         paiement.</head>
@@ -2983,7 +2994,7 @@
                             jugement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0280">
                     <head>236. - Servitudes. — Vue droite; acquisition par prescription; étendue;
                         limites. — Servitude par constitution de père de famille; existence en droit
                         égyptien.</head>
@@ -3067,7 +3078,7 @@
                             justifiées, sont rejetées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-05-0290">
                     <head>237. - Transcription. — Loi No. 19 de 1923; attributions de
                         VAdministration du Cadastre; refus de visa basé sur les prétentions d’une
                         autre Administration de l’Etat à la propriété de terrains faisant l'objet

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1919-01-10">January 10, 1919</date><lb/>
-                    <biblScope unit="volume">Vol. 9</biblScope><lb/>
-                    <biblScope unit="number">No. 99</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1919-01-10">January 10, 1919</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 9</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 99</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -187,7 +198,7 @@
                 <p>POUR LA DÉFENSE DE SES DROITS à l’occasion des projets de réformes législatives
                     et judiciaires en élaboration en Egypte</p>
                 <p>Alexandrie, \</p>
-                <p>Le Caire, > le 28 Novembre 1918. Mansourah, )</p>
+                <p>Le Caire, &gt; le 28 Novembre 1918. Mansourah, )</p>
                 <p>Monsieur le Bâtonnier,</p>
                 <p>Messieurs les Membres du Conseil de l’Ordre,</p>
                 <p>Par décision du Conseil des Ministres d’Egypte en date du 24 Mars 1917, une «
@@ -1004,7 +1015,7 @@
             <pb n="26" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0010">
                     <head>29. - Adjudication. — Conflit entre adjudicataires successifs d’un même
                         bien.</head>
                     <div type="summary">
@@ -1020,7 +1031,7 @@
                             o! Egypt c. Hoirs Qoubran Salem).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0020">
                     <head>30. - Appel en matière pénale. — Recevabilité avant l’expiration des
                         délais d’opposition. — Jugement par défaut.</head>
                     <div type="summary">
@@ -1099,7 +1110,7 @@
                         <p>Attendu donc’que l’appel doit être déclaré recevable ;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0030">
                     <head>31. - Constructeur de bonne foi sur le terrain d’autrui. — Cas où le
                         propriétaire du sol ne veut pas payer la plus value.</head>
                     <div type="summary">
@@ -1119,7 +1130,7 @@
                             Fadel et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0040">
                     <head>32. - Demande nouvelle.— Appel-Instance en licitation transformée en
                         demande en partage en nature.</head>
                     <div type="summary">
@@ -1133,7 +1144,7 @@
                             Maksud c. Hoirs Cheikh Mohamed Mohamed Makki).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0050">
                     <head>33. - Distribution. — frais immobilisés de l’immeuble exproprié.—
                         Distribution séparée de celle du prix de l’immeuble.— Voie d’ordre. —
                         Restauration des hypothèques radiées pour insuffisance du prix à
@@ -1170,7 +1181,7 @@
                             Novembre 1911, Bull- XXIV. 8.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0060">
                     <head>34. - Distribution. — Sursis au régie--ment définitif. — Créancier
                         négligent. — Demande de collocation imparfaite.</head>
                     <div type="summary">
@@ -1186,7 +1197,7 @@
                             c. Fauzi Nached et cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0070">
                     <head>35. — Droits proportionnels. — Attribution de sommes ou valeurs. —
                         Perception du 2 % sur la totalité des attributions, quel que soit le montant
                         effectif des condamnations.</head>
@@ -1322,7 +1333,7 @@
                         <p>Total L.E. 2000</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0080">
                     <head>36. - Droits proportionnels. — Perception à l’occasion d’un jugement de
                         condamnation, nonobstant le paiement déjà fait sur la même obligation à
                         l’occasion d’un contrat notarié. — Juridiction contentieuse et juridiction
@@ -1453,7 +1464,7 @@
                             justifie le paiement de la taxe.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0090">
                     <head>37. - Expropriation. — Continuation simultanée et séparée de plusieurs
                         poursuites.</head>
                     <div type="summary">
@@ -1476,7 +1487,7 @@
                             Sayed bey Waked c. L’and Bank of Egypt).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0100">
                     <head>38. - Juridiction mixte. — Garanties assurées aux étrangers en matière
                         pénale. — Etrangers y ayant droit.</head>
                     <div type="summary">
@@ -1517,7 +1528,7 @@
                             déterminés par le R. O.J., ce qui n’est pas le cas en l’espèce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0110">
                     <head>39. - Mise en demeure. — Renonciation par le débiteur. — Avaries. — Perte
                         totale. — Perte de la qualité marchande.— Fins de non-recevoir des Art. 274
                         et 275 C. Com. Mar.</head>
@@ -1608,7 +1619,7 @@
                             déclaré irrecevable l’action de Jureidini.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0120">
                     <head>40. - Partage, — Difficultés. — Disproportion entre la soulte et la valeur
                         de l’immeuble. — Licitation.</head>
                     <div type="summary">
@@ -1623,7 +1634,7 @@
                             Freycinet c. Mohamed bey Wahbi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0130">
                     <head>41. - Péremption. — Jugements par défaut faute de comparaître. —
                         Saisie-arrêt exécution empêchant leur péremption. — Conditions.</head>
                     <div type="summary">
@@ -1680,7 +1691,7 @@
                             pouvait profiter, qu’elle l’a, tardivement, frappé d’opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0140">
                     <head>42. - Référé. — Compétence. — Difficultés d’exécution d’un jugement
                         d’adjudication.</head>
                     <div type="summary">
@@ -1700,7 +1711,7 @@
                         <p>Note. — Os. le même sens, arrêt du 30 Octobre 1917, Gaz., VII, 7-13.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0150">
                     <head>43. - Référés. — Urgence. — Compétence. — Offres réelles. — Retrait de la
                         Caisse. — Nécessité d’une quittance pure et simple par le créancier.</head>
                     <div type="summary">
@@ -1836,7 +1847,7 @@
                             directement; que la Cour ne peut donc s’y arrêter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0160">
                     <head>44. - Stipulation en faveur d’autrui. — Lien de droit entre le promettant
                         et le tiers. — Effet de la résolution du contrat contenant la promesse
                         vis-à-vis du tiers. — Non nécessité de la mise en cause du tiers.</head>
@@ -1905,7 +1916,7 @@
                             débiteur Selehdar seul.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0170">
                     <head>45. - Saisie-Arrêt. — Ordonnance du Juge de Service. — Validation. —
                         Jugement antérieur rejetant le principe des dommages intérêts.— Appel. —
                         Sursis à la validation.</head>
@@ -1984,7 +1995,7 @@
                     </div>
                 </div>
                 <pb n="31" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0180">
                     <head>46. - Tiers-détenteur. — Reconnaissance dans un acte de la qualité de
                         tiers détenteur. — Erreur de droit viciant le consentement. — Moyens propres
                         au tiers détenteur à faire valoir sur opposition à sommation. — Gage. —
@@ -2024,7 +2035,7 @@
                             VII, 53-157.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0190">
                     <head>47. - Transcription.— Acte de vente. — Privilège du vendeur relatif aux
                         frais de transcription. — Nature et ordre de ce privilège.</head>
                     <div type="summary">
@@ -2082,7 +2093,7 @@
                             leur montant (Dalloz, Périodique, 1898, par 349).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-01-0200">
                     <head>48. - Transport maritime. — Tribunaux Mixtes. — Nullité d’une clause
                         attributive de juridiction à un tribunal é-tranger. — Assignation unique par
                         plusieurs demandeurs. — Fins de non recevoir des art. 274 et 275. —

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1914-11-10">November 10, 1914</date><lb/>
-                    <biblScope unit="volume">Vol. 5</biblScope><lb/>
-                    <biblScope unit="number">No. 49</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1914-11-10">November 10, 1914</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 5</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 49</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -327,7 +338,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-11-0010">
                     <head>1. - Compétence. — Valeur de la demande. — Instance, engagée par plusieurs
                         demandeurs en vertu d’un même titre. — Compagnie de navigation. — Contrat de
                         transport.</head>
@@ -415,7 +426,7 @@
                             ?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-11-0020">
                     <head>2. - Faillite.— Droits du propriétaire. — Saisie-conservatoire. —Instance
                         en validation. — Vérification.</head>
                     <div type="summary">
@@ -483,7 +494,7 @@
                             d'ordonner la continuation de la saisie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-11-0030">
                     <head>3. - Juge de service. — Ordonnance de saisie. — Référé.</head>
                     <div type="summary">
                         <p>Le juge de service statuant en Référé sur une demande en rétractation
@@ -498,7 +509,7 @@
                             Stelio Garofalo et Cts c. N. Christo-kefalos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-11-0040">
                     <head>4. - Moratorium. — Effets de Commerce. - Exigibilité. — Mesures
                         conservatoires. — Décrets des 1 et 9 Août et 14 Septembre 1914.</head>
                     <div type="summary">
@@ -557,7 +568,7 @@
                         <p>bre, ne peut donner lieu à une mesure conservatoire que si l’on se trouve
                             en présence des. circonstances extraordinaires sus-visées ;</p>
                         <p>Attendu, dans ces conditions, que les mesures conservatoires dont traite
-                            l’art. 4 du décret du 9> Août doivent être réservées :</p>
+                            l’art. 4 du décret du 9&gt; Août doivent être réservées :</p>
                         <p>1°) pour les effets échus avant le 4 Août, qui seraient protestés, ou
                             bien, si le protêt n’a pu avoir lieu, qui seraient accompagnés d’une
                             sommation de payer ;</p>
@@ -576,7 +587,7 @@
                         <p>Disons n’y avoir pas lieu de faire droit à la. demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-11-0050">
                     <head>5. - Péremption. — Nullité d’ajournement. — Reprise d’instance.</head>
                     <div type="summary">
                         <p>Une demande de péremption irrégulière ou prématurée est à considérer
@@ -592,7 +603,7 @@
                             Wanda V” Michel Castar c. Charles. Bochter).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-11-0060">
                     <head>6. - Pourvoi en Cassation. — Irrecevabilité. — Appel. —Motivation.</head>
                     <div type="summary">
                         <p>N’est pas recevable le pourvoi en cassation formé contre un jugement de
@@ -606,7 +617,7 @@
                             1914. — Constantinidis c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-11-0070">
                     <head>7. - Procès-verbal de police. — Traduction erronée. — Cassation. — Nullité
                         substantielle de la procédure.</head>
                     <div type="summary">
@@ -620,7 +631,7 @@
                             — Berta Batsass c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-11-0080">
                     <head>8. - Renvoi intempestif. — Indemnité. — Crise commerciale.</head>
                     <div type="summary">
                         <p>La situation précaire du pays, qui a arrêté toute activité commerciale et
@@ -672,7 +683,7 @@
                             Jus, summa injuria.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-11-0090">
                     <head>9. - Requête civile. — Faculté d’opposition. — Contredit à règlement
                         provisoire.</head>
                     <div type="summary">
@@ -702,7 +713,7 @@
                             accordées (C. Proc. Fr. Art. 497).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-11-0100">
                     <head>10. - Témoin. — Récusation.</head>
                     <div type="summary">
                         <p>D’après le nouveau texte de l’art. 235 Code Proc., qui a eu pour objet de
@@ -1240,13 +1251,13 @@
                     14.10.14, d’après les livres du débiteur: Actif P.T. 203.479 70. Passif P.T.
                     165.723,75 d’après l’estim. des délégués. Act. P.T.64,355,50. Passif P.T.
                     158,347,c5. Concl. il convient dans l’inlérêts de la rmsse en général d’accepter
-                    un concordat raisoi na >ie et proportionné à la situa^ tion du débiteui, si
+                    un concordat raisoi na &gt;ie et proportionné à la situa^ tion du débiteui, si
                     toutefois il était à même de donner une garantie solvable.</p>
             </div>
             <div type="section" feature="societes">
                 <head>SOCIÉTÉS</head>
                 <p>constituées, modifiées ou dissoutes</p>
-                <p>(Publications effectuées pendant le mois d’Octobre >914)</p>
+                <p>(Publications effectuées pendant le mois d’Octobre &gt;914)</p>
                 <p>Tribunal d’Alexandrie</p>
                 <p>The Delta Nile Navigation Gy Fotia* dis Fotios et Cie. Dissol. de la soc. en
                     command. ayant existé entre Fotios Fotiatis et Miltiade Fotios et d’autres

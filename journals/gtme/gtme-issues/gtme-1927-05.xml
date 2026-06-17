@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1927-05-10">May 10, 1927</date><lb/>
-                    <biblScope unit="volume">Vol. 17</biblScope><lb/>
-                    <biblScope unit="number">No. 199</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1927-05-10">May 10, 1927</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 17</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 199</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -318,7 +329,7 @@
             <pb n="1Z7" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0010">
                     <head>204. - Adjudication. — Accueil d'une action en revendication; restitution
                         des fruits par l'adjudicataire de bonne foi; étendue de son obligation;
                         restitution du prix et des intérêts par les créanciersi colloqués.</head>
@@ -455,7 +466,7 @@
                             action en garantie de Sapriel envers Bouchra.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0020">
                     <head>205. Adjudication. — Déclaration de command; effets; rapports juridiques
                         entre le command et le commandé; distributionne pouvant por*er que sur le
                         prix d'adjudication. — Séquestre; frais de gestion; caractère privilégié. —
@@ -627,7 +638,7 @@
                             la Cour acquiesce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0030">
                     <head>206. - Adjudication. — Fruits de l'immeuble non compris dans la vente;
                         transcription du commandement; immobilisation des fruits; effets.</head>
                     <div type="summary">
@@ -682,7 +693,7 @@
                             n’a pas été stipulée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0040">
                     <head>207. - Adjudication. —- Mise en possession de l'adjudicataire; opposition
                         d'un tiers possesseur; cas où le possesseur doit être préféré à
                         l'adjudicataire; Référé; compétence.</head>
@@ -783,7 +794,7 @@
                             &amp; Co.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0050">
                     <head>208. - Adjudication. — Prix; compensation avec la créance de
                         l'adjudicataire; conditions; créancier chirographaire en concours avec
                         d'autres; compensation impossible. — Distribution par ordre et par
@@ -927,7 +938,7 @@
                             jugée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0060">
                     <head>209. - Adjudication. — Retard dans le paiement du prix; dépôt à la Caisse
                         du Tribunal, à raison d'un litige basé sur une erreur de contenance;
                         intérêts de retard dus par T adjudicataire; point de départ du
@@ -1012,7 +1023,7 @@
                             celle de ne pas avoir satisfait à ses obligations d’acheteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0070">
                     <head>210. - Distribution. — Acheteur des biens expropriés, muni d'un titre non
                         transcrit, antérieur à la Loi No. 19 de 1923; droit au solde du produit des
                         biens expropriés, indépendamment de toute production. — Faillite; règlement
@@ -1099,7 +1110,7 @@
                             Chams el Dine Mahfouz) le compte par lui requis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0080">
                     <head>211. - Distribution. — Concours entre créanciers à hypothèque générale et
                         créanciers à hypothèque spéciale; division de l'hypothèque générale dans la
                         demande de collocation; caractère licite. — Cession de rang hypothécaire
@@ -1275,7 +1286,7 @@
                             le titre de la Dame Stella, sinon de sa demande de collocation...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0090">
                     <head>212. - Distribution. — Contredit; inadmissibilité de la discussion d'une
                         taxe ' d'honoraires de séquestre, par voie de contredit; inadmissibilité
                         d'une discussion de comptes de gestion d'un séquestre, par voie de
@@ -1365,7 +1376,7 @@
                             arrêté la distribution, ne sont dus qu’au taux légal.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0100">
                     <head>213. - Distribution. — Dénonciation à l'adjudicataire de l'ouverture de
                         l'ordre; formalité non prescrite à peine de nullité; droit de
                         l'adjudicataire; dénonciation du règlement provisoire; faculté de
@@ -1469,7 +1480,7 @@
                             suffisante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0110">
                     <head>214. - Distribution. — Jonction d'ordres; conflit entre créancier à
                         hypothèque générale et créanciers à hypothèque spéciale; distributions
                         simultanées.</head>
@@ -1650,7 +1661,7 @@
                             créanciers subséquents chacun suivant son rang.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0120">
                     <head>215. - Distribution. — Opposition à règlement définitif; irrecevabilité de
                         la discussion des rapports entre les débiteurs expropriés; règlement
                         définitif; défaut de chose jugée dans les rapports des débiteurs
@@ -1724,7 +1735,7 @@
                             été établi plus haut.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0130">
                     <head>216. - Distribution. — Ordre; cas où une partie peut profiter du contredit
                         formé par une autre partie.</head>
                     <div type="summary">
@@ -1762,7 +1773,7 @@
                             Hanem Fahmi c. Crédit Foncier Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0140">
                     <head>217. - Distribution. — Ordre; collocation d'office; inadmissibilité;
                         sommation de produire; signification au domicle élu dans l'inscription;
                         validité malgré le décès du créancier. — Contredit; objet; nullité
@@ -1988,7 +1999,7 @@
                             sus-indiqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0150">
                     <head>218. - Distribution. — Ordre; solde revenant au débiteur; caractère
                         litigieux; cession à un avocat; nullité; demande de collocation; effets
                         furidiques; cession consentie par le débiteur; caractère relatif.</head>
@@ -2083,7 +2094,7 @@
                             Latif et C... bey B... sont inopposables à Mohamed Mohamed El Far.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0160">
                     <head>219. - Distribution. — Production dans l'ordre; demande, de collocation;
                         erreur matérielle manifeste; rectification par voie de contredit;
                         admissibilité.</head>
@@ -2155,7 +2166,7 @@
                             assorbito.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0170">
                     <head>220. - Distribution. — Production; délai de distance non applicable;
                         créancier domicilié à l’étranger; sommation signifiée à domicile réel;
                         conséquences.</head>
@@ -2272,7 +2283,7 @@
                             du contredit....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0180">
                     <head>221. - Distribution. — Règlement provisoire; forclusion pour défaut de
                         production; conséquences. — Distribution par ordre; affichage de l'avis
                         d'ouverture; poitée. — Contredit rejeté; intérêts de retard; omission de les
@@ -2407,7 +2418,7 @@
                             ès-qu.. la Cour ne peut les lui allouer sans statuer ultra petita...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0190">
                     <head>222. - Expropriation. — Adjudication; action directe en nullité; cas où
                         elle est recevable; erreur; mise en vente partielle.</head>
                     <div type="summary">
@@ -2496,7 +2507,7 @@
                             une partie seulement des biens mis en vente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0200">
                     <head>223. - Expropriation. — Adjudication; parcelle omise dans des placards en
                         langue française cl dans le jugement d'adjudication; portée de
                         l'adjudication; erreur matérielle; rectification; frais.</head>
@@ -2520,7 +2531,7 @@
                             c. Greffier en Chef du Tribunal Mixte du Caire et autres?.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0210">
                     <head>224. - Expropriation. — Adjudication prononcée par la Juridiction indigène
                         en l’état d'une hypothèque au profit d’un <pb n="i5o"
                             rendition="Gazette des Tribunaux Mixtes d’Egypte."/> étranger; cas où la
@@ -2620,7 +2631,7 @@
                             appelants aux intérêts de retard.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0220">
                     <head>225. - Expropriation. — Cahier des charges; avis de dépôt; insertions
                         erronées; conséquences. — Dire; promesse de délai de grâce; question non
                         admissible en voie de dire. — Dire; protestations sur le lotissement
@@ -2685,7 +2696,7 @@
                             les biens à vendre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0230">
                     <head>226. - Expropriation. — Cahier des charges; désignation incomplète des
                         immeubles saisis. — Mise à prix; détermination.</head>
                     <div type="summary">
@@ -2750,7 +2761,7 @@
                             en ordonnant que la mise à prix soit fixée à L.E. 36.000.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0240">
                     <head>227. - Expropriation. — Cahier des charges; indication de contenance des
                         immeubles saisis; garantie du poursuivant; clause d'exonération; validité;
                         étendue; adjudicataire; défaut de prudence; conséquences; faute du
@@ -2860,7 +2871,7 @@
                             de l’appelant et d'infirmer le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0250">
                     <head>228. - Expropriation. — Cahier des charges; modifications; dires; délai;
                         point de départ.</head>
                     <div type="summary">
@@ -2903,7 +2914,7 @@
                             1925.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0260">
                     <head>229. - Expropriation. — Commandement immobilier; opposition impliquant
                         l'exercice d'un droit réel; recevabilité de l'appel en la matière;
                         indépendamment de la valeur de la créance ou de l'immeuble. — Revendication
@@ -3090,7 +3101,7 @@
                             discussion sur la validité et la portée de cette cession.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0270">
                     <head>230. - Expropriation. •— Commandement immobilier; renonciation;
                         conséquences; moyens d'opposition à commandement et de contredit, basés sur
                         la nullité du titre du poursuivant; Tribunal compétent pour y statuer. —
@@ -3225,7 +3236,7 @@
                         <p>Attendu qu'il y a lieu de débouter l’appelant de son appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0280">
                     <head>231. - Expropriation. — Constructions élevées par un locataire; caractère
                         d'immeubles par nature; saisie immobilière; validité.</head>
                     <div type="summary">
@@ -3277,7 +3288,7 @@
                             contestée par Top-posé ne mérite que d’être écartée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0290">
                     <head>232. - Expropriation. — Dire au cahier des charges; jugement non
                         exécutoire par provision; appel; caractère suspensif. — Juge délégué aux
                         adjudications; ordonnance décidant de passer outre à la vente; appel;
@@ -3339,7 +3350,7 @@
                             nécessairement celle du jugement d’adjudication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0300">
                     <head>233. - Expropriation. — Dire; contestations et moyens ne pouvant en
                         faire-l’objet.</head>
                     <div type="summary">
@@ -3436,7 +3447,7 @@
                             auraient dû être soulevés par voie d’opposition au commandement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0310">
                     <head>234. - Expropriation. — Dire; point de départ du délai; cas où l'immeuble
                         se trouve entre les mains d'un tiers détenteur.</head>
                     <div type="summary">
@@ -3488,7 +3499,7 @@
                             recevable...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0320">
                     <head>235. - Expropriation. — Instance principale en nullité; cas où elle est
                         recevable. — Intervention; moment où elle peut se produire.</head>
                     <div type="summary">
@@ -3560,7 +3571,7 @@
                             aurait dû être proposé par voie de dire aux termes du dit article.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0330">
                     <head>236. - Expropriation. — Juge délégué au.r adjudications; demande de
                         nullité de surenchère formulée à l'audience des criées; décision du Juge
                         délégué aux. adjudications; défaut de recours; irrecevabilité basée sur
@@ -3648,7 +3659,7 @@
                             refusant une voie de recours étant d’ordre public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0340">
                     <head>237. - Expropriation. — Juge délégué aux adjudications; ordonnance
                         statuant sur un moyen de nullité basé sur le défaut d'apposition des
                         placards; appel irrecevable. — Jugement d'adjudication; appel;
@@ -3711,7 +3722,7 @@
                             légale qui accorde ou refuse un droit de recours est d’ordre public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0350">
                     <head>238. - Expropriation. — Juge délégué aux ajdudications; recours contre ses
                         ordonnances; recours devant le Tribunal; irrecevabilité; appel. —
                         Acquiescement; paiement des frais de première instance; défaut de réserves;
@@ -3796,7 +3807,7 @@
                             irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0360">
                     <head>239. - Expropriation. — Jugement d'adjudication indigène; opposabilité au
                         créancier étranger ayant pris inscription au cours de la procédure indigène;
                         demande de nullité de la procédure indigène; parties ayant qualité pour la
@@ -3817,8 +3828,8 @@
                             des Chambres Réunies).</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d'Appel, 2me Ch., Prés. V. 7>. A. Vaux 24 Février 1927. — Mohamed
-                            Sidki Pacha et et. c. Hoirs do feu Léon de Hellerj.</p>
+                        <p>(Cour d'Appel, 2me Ch., Prés. V. 7&gt;. A. Vaux 24 Février 1927. —
+                            Mohamed Sidki Pacha et et. c. Hoirs do feu Léon de Hellerj.</p>
                     </div>
                     <div type="observations">
                         <p>Note. — L’arrêt de renvoi expose:</p>
@@ -4068,7 +4079,7 @@
                             condition de justifier d’un droit réel?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0370">
                     <head>240. - Expropriation. — Juridiction mûrie; compétence même lorsqu'une
                         partie seulement des biens saisis est grevée d’une inscription au profit
                         d'un étranger.— Expropriation; limitation de la vente à une partie des biens
@@ -4179,7 +4190,7 @@
                             être exécutée, mérite au contraire réformation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0380">
                     <head>241. - Expropriation. — Loi des cinq feddans; interprétation restrictive;
                         charge de la preuve.</head>
                     <div type="summary">
@@ -4196,7 +4207,7 @@
                             Scandar Soliman Nasrallah c. Moussa Ibrahim Nouna).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0390">
                     <head>242. - Expropriation. — Opposition à commandement immobilier; application
                         des délais de distance; suspension de la saisie.</head>
                     <div type="summary">
@@ -4222,7 +4233,7 @@
                             soulevé Mie ques-on préjudicielle tendant à faire dire ^éri-e le
                             commandement immobilier à lui si-«rntie a Damanhour te 15 Décembre 1925
                             u ce aux ternies de l’article 607 du C Pr’ qu'il n’y a pas eu t^nscrijl
-                            iro •>&lt; e^-vcrbai de saisie dans le délai di 160 jours fixe par le
+                            iro •&gt;&lt; e^-vcrbai de saisie dans le délai di 160 jours fixe par le
                             dit article;</p>
                         <p>J/•)).(lu que d’après l’économie générale d s artieks 60,, 609, 6,0. 611
                             c( 61Fê "'on •» commandement faite dans les Ie* jours interrompt te
@@ -4230,9 +4241,9 @@
                             U”™ ’es 15 jours ne suspend</p>
                         <p>P‘is la saisie a moins que le Tribunal ne qu’il y a lieu d'ordonner la
                             suspension pour des motifs graves;</p>
-                        <p>Attendu que, comme on le voit, la aues-■Ti sl,'.rcsu,1?)e -> connaître si
-                            dans le’pré-ï • ■ r uC > opposition au commandement a &lt;•(&lt;• laite
-                            dans la quinzaine ou bien après la quinzaine;</p>
+                        <p>Attendu que, comme on le voit, la aues-■Ti sl,'.rcsu,1?)e -&gt; connaître
+                            si dans le’pré-ï • ■ r uC &gt; opposition au commandement a &lt;•(&lt;•
+                            laite dans la quinzaine ou bien après la quinzaine;</p>
                         <p>‘f'après la logique des choses, s actes de proredure sur saisie
                             immobiliè-e sont destines à être faits dans un délai dctemime par la
                             loi, lequel ne saurait être augmente d’un délai de distance au cas où es
@@ -4294,7 +4305,7 @@
                             de péremption du commandement immobilier en litige.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0400">
                     <head>243. - Expropriation. — Péremption de la procédure non couverte par une
                         instance en Référé pour la nomination d’un séquestre de l'immeuble
                         saisi.</head>
@@ -4321,7 +4332,7 @@
                             Bacos c. Joseph bey Mosseri).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0410">
                     <head>244. - Expropriation. — Revendication incidente comprenant une action
                         principale ou accessoire en nullité de procédure. — Affectation
                         hypothécaire; validité; partage; inscription hypothécaire sur une quote-part
@@ -4520,7 +4531,7 @@
                             est bien justifiée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0420">
                     <head>245. - Expropriation. — Revendication incidente; irrecevabilité par voie
                         de dire. — Chose jugée; exception recevable en degré d'appel.</head>
                     <div type="summary">
@@ -4593,7 +4604,7 @@
                             il a été déjà statué par une décision irrévocable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0430">
                     <head>246. - Expropriation. — Revendication incidente; irrecevabilité par voie
                         de dire. — Wakf constitué en fraude des droits des créanciers; possibilité
                         d'annulation par voie de dire; conditions d'annulation. — Créancier
@@ -4794,7 +4805,7 @@
                         <p>Attendu que cette allégation est mal fondée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0440">
                     <head>247. - Expropriation. — Séquestre; paiement des pensions alimentaires;
                         limitation du chiffre des aliments; Juridiction mixte.</head>
                     <div type="summary">
@@ -4866,7 +4877,7 @@
                             de coséquestres, au paiement de la dite pension alimentaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0450">
                     <head>248. - Expropriation. — Tiers détenteur; achat postérieur à la
                         transcription du commandement, validé par le dépôt du prix à la Caisse. —
                         Appel; taux; demande d'intérêts formant un chef distinct; titre unique;
@@ -4976,7 +4987,7 @@
                             concerne ce dernier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0460">
                     <head>249. - Expropriation. — Tiers détenteur non révélé par le cer'ificat
                         hypothécaire mixte; défaut de sommation de payer ou de délaisser; validité
                         des poursuites. — Wakf transcrit au Mehkémeh Charieh mais non mentionné dans
@@ -5072,7 +5083,7 @@
                             l’existence du Wakf.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0470">
                     <head>250. - Expropriation. — Tiers détenteur non sommé; certificat hypothécaire
                         incomplet; responsabilité du Greffe; étendue; cas où le tiers détenteur a eu
                         connaissance de la procédure; préjudice résultant de sa propre faute. —
@@ -5220,7 +5231,7 @@
                             l’appelant de sa demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0480">
                     <head>251. - Expropriation. — Tiers détenteur sommé de payer une somme
                         supérieure à celle qu'il prétend devoir; défaut d'offres réelles avant
                         l'adjudication; mal fondé d'une demande en nullité de la procédure
@@ -5240,7 +5251,8 @@
                             l’hypothèque, alors qu’il n’a ni usé de la procédure d’offres réelles
                             extra-judiciaire, ni fait une offre réel-à la barre avant
                             l’adjudication, ni sommé lui-même le créancier d’avoir à comparaître par
-                            devant le Greffier N'rilm>e pour donner radiation contre paiement.</p>
+                            devant le Greffier N'rilm&gt;e pour donner radiation contre
+                            paiement.</p>
                         <p>II. - C’est au cours de la procédure de distribution et alors que toutes
                             les parties intéressées seront en cause que peut se discuter la question
                             de savoir quel est le montant de la créance que doit garantir l’immeuble
@@ -5298,7 +5310,7 @@
                             s’est rendu acquéreur...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0490">
                     <head>252. - Expropriation. — Tiers détenteur; subrogation légale; étendue;
                         Tribunal compétent pour y statuer.</head>
                     <div type="summary">
@@ -5326,7 +5338,7 @@
                             Sayed Khodeir et Cts c. Georges Zoulia . et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0500">
                     <head>253. - Hypothèque. — Cession de créance hypothécaire. — Validité par acte
                         sous seing privé; date certaine inutile; mention en marge de l'inscription
                         inutile à l'égard du débiteur cédé. — Prête-nom; cas où il jouit d'un droit
@@ -5447,7 +5459,7 @@
                             simple acte sous seing privé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0510">
                     <head>254. - Hypothèque. — Constitution par mandataire; révocation du mandat;
                         inopposabilité aux tiers.</head>
                     <div type="summary">
@@ -5540,7 +5552,7 @@
                             vexatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0520">
                     <head>255. - Hypothèque. — Inscription au profit d'un créancier étranger;
                         adjudication devant la Juridiction indigène; cas où le renouvellement de
                         l'inscription hypothécaire a eu lieu après Tadjudication.</head>
@@ -5616,7 +5628,7 @@
                             distribution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0530">
                     <head>256. - Hypothèque. — Inscription; défaut d'élection de domicile;
                         distribution? sommation de produire; signification à domicile réel ou au
                         Greffe, seules valables; inopérance d'une signification au Parquet, pour
@@ -5697,7 +5709,7 @@
                             sa part des frais inutilement dépensés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0540">
                     <head>257. - Hypothèque. — Inscription; intérêts garantis; capitalisation non
                         garantie; montants payés par le débiteur; imputation sur les intérêts des
                         intérêts; admissibilité.</head>
@@ -5747,7 +5759,7 @@
                             partant, il y a lieu de faire droit à l’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0550">
                     <head>258. - Hypothèque. — Inscription; renouvellement décennal; adjudication
                         suivie de surenchère; date à partir de laquelle le renouvellement cesse
                         d'être obligatoire.</head>
@@ -5917,7 +5929,7 @@
                             rejetés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0560">
                     <head>259. - Hypothèque. — Inscription; renouvellement décennal; omission après
                         paiement; cas où le paiement devait être suivi de subrogation
                         conventionnelle; retard; responsabilité. — Chose jugée; exception couverte
@@ -6038,7 +6050,7 @@
                             d’avoir soumis à la décision de la justice la présente contestation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0570">
                     <head>260. - Hypothèque. — Tiers détenteur; prescription de l'hypothèque non
                         admissible indépendamment de celle de la créance garantie.</head>
                     <div type="summary">
@@ -6185,7 +6197,7 @@
                             indépendamment de la créance qu’elle garantit...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0580">
                     <head>261. - Hypothèque. — Tiers détenteur; qualité inexistante s'il s'agit de
                         biens différents de ceux hypothéqués. — Tiers détenteur non sommé; défaut de
                             trans-<pb n="171" rendition="Gazette (les Tribunaux Mixtes d’Egypte."
@@ -6309,7 +6321,7 @@
                             dont la Cour a été saisie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0590">
                     <head>262. - Prêt. — Clause prévoyant la retenue des intérêts de la première
                         année au moment du prêt; caractère illicite; intérêts subséquents; caractère
                         prématuré de leur réclamation par anticipation.</head>
@@ -6366,10 +6378,11 @@
                             l’expiration .de la deuxième année, 1 ont déclaré nul, comme prématuré,
                             le com- ; mandement dont est opposition; :</p>
                         <p>Qu’il est d’ailleurs inutile, dans ces condi- : tiens, d’examiner les
-                            autres griefs soulevés { par L’intimé contre le dit commandement. ></p>
+                            autres griefs soulevés { par L’intimé contre le dit commandement.
+                            &gt;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0600">
                     <head>263. - Prêt. — Etablissements de prêts ; sur gages; Monts de Piété. —
                         Décret du 24 Décembre 1900. — Prorogation du dé- j délai de remboursement
                         consentie après -une première ordonnance du Juge de ser- ; vice; nécessité
@@ -6425,7 +6438,7 @@
                             vendre les bijoux engagés par la Dite Aida ■ de Franchis, a été adressée
                             à cette dernière, ' le 24 Novembre 1925; que le 1er Décembre ; 1925 la
                             vente a été autorisée par ordonnan- ■ ce du Juge de Service et fixée au
-                            13 Décem- > bre 1925; ;</p>
+                            13 Décem- &gt; bre 1925; ;</p>
                         <p>Mais attendu qu’il soutient que la vente n’ayant pas eu lieu à cette
                             date, et la So- : ciété des Monts de Piété Egyptiens, ayant ; présenté
                             au Juge de Service le 10 Juin 1926 i une seconde requête, pour la faire
@@ -6486,7 +6499,7 @@
                             introductif d’instance; ■ Déboute Max Erba du surplus de sa demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0610">
                     <head>264. - Prêt. — Indemnité de remploi; réduction à la différence entre le
                         taux d'intérêts convenus et le taux légal; recevabilité d’une action en
                         répétition malgré un paiement volontaire.</head>
@@ -6562,7 +6575,7 @@
                             appel, et de faire droit à la demande de l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0620">
                     <head>265. - Subrogation légale. — Droits du créancier chirographaire;
                         étendue.</head>
                     <div type="summary">
@@ -6632,7 +6645,7 @@
                             montant de sa collocation à titre hypothécaire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-05-0630">
                     <head>266. - Subrogation légale. — Héritier ayant payé un créancier successoral;
                         recours contre les autres héritiers; garanties lui profitant; acquéreur de
                         biens successoraux. — Distribution; adjudicataire cessionnaire de créances;
@@ -6814,7 +6827,7 @@
                     faire connaître la part qu’ils ont prises aux Conférences. Ces certificats
                     pourront être également communiqués par les intéressés à la Commission
                     d’examens.</p>
-                <p>Art. 9. —> La police de la Conférence appartient au Président, qui peut faire
+                <p>Art. 9. —&gt; La police de la Conférence appartient au Président, qui peut faire
                     éloigné! de la Salle ceux qui en troublent l’ordre, sens préjudice des mesures
                     disciplinaires éventuelles.</p>
                 <p>Arf. 10. — A fa première réunion annuelle’ deux stagiaires seront désignés, par

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1930-02-10">February 10, 1930</date><lb/>
-                    <biblScope unit="volume">Vol. 20</biblScope><lb/>
-                    <biblScope unit="number">No. 232</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1930-02-10">February 10, 1930</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 20</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 232</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -55,7 +66,7 @@
                 <p>Fondateurs r MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour. Directeur: M«
                     MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d'administration :</p>
-                <p>M> L. PANGALO et B. SCHEMEIL (Directeurs au Caire)</p>
+                <p>M&gt; L. PANGALO et B. SCHEMEIL (Directeurs au Caire)</p>
                 <p>M" E. DEGIABDÉ et B. SMYRNIADIS (Secrétaires de la rédaction).</p>
                 <p>M» A. FADEL (Directeur à Afansourah). M* F. BRAUN (Secrétaire à Paris).</p>
                 <p>— à la Gazette (un an).... P.T. 150</p>
@@ -72,7 +83,7 @@
                 <p>Z, Rue Gare du Caire, Alexandrie.</p>
                 <p>Téléphone: 27-24</p>
             </div>
-             <div type="article">
+            <div type="article">
                 <head>QUESTIONS DE LEGISLATION.</head>
                 <p>Ou mineur commerçant en droit égyptien.</p>
                 <p>A un moment où il est possible de prévoir une évolution prochaine de la
@@ -639,7 +650,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0010">
                     <head>80. - Assurance-automobiles. — Clause d'exonération de l'assureur en cas
                         de conduite de la voiture par une personne non munie d'un permis régulier de
                         conduire; validité; portée; permis expiré, non renouvelé; inopérante.</head>
@@ -734,7 +745,7 @@
                             cette dernière.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0020">
                     <head>81. - Assurance-incendie- — Déchéance pour déclaration inexacte ou fausse
                         de l'assuré; pouvoir d’appréciation des fu-ges. — Assurance d'une
                         automobile; police; clause stipulant que l'automobile doit être la propriété
@@ -888,7 +899,7 @@
                             jugement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0030">
                     <head>82. - Assurance-incendie. — Police; .clause de déchéance de l'assuré en
                         cas de réticence de nature à influer sur l'opinion du risque; menace contre
                         l'assuré non révélée par ce dernier, constituant cette rélicence.</head>
@@ -939,7 +950,7 @@
                             fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0040">
                     <head>83. - Assurance-incendie- — Police; clause de déchéance en cas de
                         réclamation exagérée de l'assuré; intention frauduleuse; validité de la
                         clause.</head>
@@ -1082,7 +1093,7 @@
                             suspectes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0050">
                     <head>84. - Assurance-transport. — Courtier d'assurances; rôle de mandataire de
                         l’assuré; défaut de responsabilité personnelle à l'égard de ce dernier. —
                         Assurance contre la perle totale; immersion des marchandises assurées;
@@ -1200,7 +1211,7 @@
                             Harding.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0060">
                     <head>85. - Assurance-transport. — Nullité-faute d'objet; assurance contractée
                         sur marchandise déjà perdue. — Consentement donné par erreur à une assurance
                         juridiquement nulle; inopérance. —-Transport; perte des marchandises;
@@ -1301,7 +1312,7 @@
                             résultant de la facture non contestée de L.E. 45,800.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0070">
                     <head>86. - Assurance-vie. — Nature juridique du contrat; caractère conditionnel
                         de la créance pour primes; saisie-arrêt entre les mains d'un assuré, sur le
                         montant des primes; inopérance; paiement effectué par le tiers-saisi à la
@@ -1631,7 +1642,7 @@
                             dommages-intérêts...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0080">
                     <head>87. - Assurance-vie. — Paiement; capital assuré payable à Paris aux termes
                         de la,, police; remboursement en francs français; paiement des primes en
                         monnaie égyptienne avant VArmistice; défaut d'influence sur les droits de
@@ -1687,7 +1698,7 @@
                             évidemment pas le cas de l’espèce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0090">
                     <head>88. - Assurance-vie. — Paiement; police contractée à Paris; capital
                         assuré, payable à Paris en francs; remboursement en francs français;
                         conditions pour le paiement du capital en francs égyptiens. — Erreur; cas où
@@ -1857,7 +1868,7 @@
                             valeur à Paris.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0100">
                     <head>89. - Assurance-vie. — Paiement; police émise à l'étranger devenue
                         parfaite en Egypte; lieu de formation du contrat; clause attributive de
                         compétence à un Tribunal étranger; nullité. — Compagnie d'assurances
@@ -1975,7 +1986,7 @@
                             devra s’acquitter du montant des polices Nos. 875661 et 896067...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0110">
                     <head>90. - Assurance-vie. — Police conclue à l'étranger, avec une Compagnie
                         étrangère; lieu d'exécution fixé par la police à l'étranger; transfert en
                         Egypte du domicile de l'assuré; pourparlers entre, ce dernier et la
@@ -2151,7 +2162,7 @@
                             est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0120">
                     <head>91. - Assurance-vie. — Police conclue à l’étranger, avec une Compagnie
                         étrangère; transfert en Egypte du donùcile de l'assuré; Juridiction mixte;
                         incompétence; Art. 14 C. Civ.; inapplicabilité. — Police d’assurance; clause
@@ -2249,7 +2260,7 @@
                             l’incompétence mixte demeure indiscutable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0130">
                     <head>92. - Assurance-vie. —Police contractée au profit d’un tiers; changement
                         de bénéficiaire; révocation du bénéfice originaire; cas où le changement n’a
                         point fait l'objet d’un avenant. — Droit hellénique; donations entre époux;
@@ -2435,7 +2446,7 @@
                             reconventionnelle...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0140">
                     <head>93. - Assurance-vie. — Primes; paiement; retard; déchéance; clause de la
                         police stipulant que la Compagnie n'est pas tenue de prévenir l'assuré de
                         l'échéance de sa prime; clause implicite sur le caractère portable de la
@@ -2539,7 +2550,7 @@
                             Morcqs et de la maintenir en vigueur...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0150">
                     <head>94. - Assurance-vie. — Succession musulmane; séparation du patrimoine
                         successoral et de celui des héritiers; obligation personnelle des héritiers;
                         nécessité pour le créancier du de cujus d'obtenir un jugement contre eux
@@ -2657,7 +2668,7 @@
                             l’intimé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0160">
                     <head>95. - Assurance-vol. — Assurance contre les malversations d'un employé;
                         paiement eflectué à l'assuré; défaut de recours de l'assureur contre une
                         caution personnelle de l'employé garanti.</head>
@@ -2673,7 +2684,8 @@
                     </div>
                     <div type="litigants">
                         <p>(Trib. Somm. Alex., Prés. M. van Asch van Wyck. 5 Mars 1929. — National
-                            Guarantee and Surety Ship Association Ltd c. Sadek Mahmoud et autr«></p>
+                            Guarantee and Surety Ship Association Ltd c. Sadek Mahmoud et
+                            autr«&gt;</p>
                     </div>
                     <div type="observations">
                         <p>Note. — Le jugement expose:</p>
@@ -2750,7 +2762,7 @@
                             fondée et de la condamner aux frais de l’instance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0170">
                     <head>96. - Médecin. — Chirurgien; honoraires dus pour une opération déterminée;
                         éléments d'appréciation; conditions en vue d'une rémunération supérieure;
                         preuve à charge du chirurgien; droit du chirurgien à rémunération pour les
@@ -2853,7 +2865,7 @@
                         <p>Compense les honoraires des avocats.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0180">
                     <head>97. - Médecin. — Soins fournis à des hauts dignitaires de l'Eglise
                         Grecque-Orthodoxe; usages en Grèce; caractère gratuit; présomptions
                         d'acceptation de ces usages par le médecin traitant en Egypte. — Médecin;
@@ -2963,7 +2975,7 @@
                             le cas de l’espèce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0190">
                     <head>98. - Médecin. — Soins médicaux; cause; honoraires; évaluation; critérium;
                         spécialistes. — Tribunal Sommaire;- compétence; cas où la demande porte sur
                         le solde d'une obligation supérieure à L.E. 100. — Interdit; profil tiré de
@@ -3117,7 +3129,7 @@
                             appel...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0200">
                     <head>99. - Vente. — Clause pénale; champ d'application de l'art. 181 C. Civ.;
                         inexécution partielle; résiliation de la vente; évaluation des
                         dommages-intérêts soumise au droit commun.</head>
@@ -3247,7 +3259,7 @@
                             général n’ont pas subi de dépréciation depuis 1923 à ce jour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0210">
                     <head>100. - Vente de coton. — Clause pénale stipulant une indemnité en cas de
                         non livraison par le vendeur; cas où le préjudice subi est moindre; droit de
                         l'acheteur à lindemnité fixée; intérêts des sommes avancées par Vacheteur;
@@ -3272,7 +3284,7 @@
                             Mohamed Kamel Abou Seif t c. Sadek bey Gallini).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0220">
                     <head>101. - Vente de coton. — Défaut de. livraison par le vendeur; baisse
                         survenue en Bourse; défaut de portée au point de vue de la recherche du
                         préjudice subi par l'acheteur; indemnité due par le vendeur.</head>
@@ -3352,7 +3364,7 @@
                             jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0230">
                     <head>102. - Vente de coton. — Graine fournie par l'acheteur; privilège de ce
                         dernier à concurrence du prix de la graine sur les récoltes en provenant. —
                         Bailleur; terrains pris en location par le vendeur des <pb n="93"
@@ -3476,7 +3488,7 @@
                             50.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0240">
                     <head>103. - Vente de coton. — Récolte non sortie de terre; validité de la
                         vente; revendication de coton vendu non livré; admissibilité; avances
                         consenties par le vendeur; opposabilité aux créanciers chirographaires
@@ -3653,7 +3665,7 @@
                             distribution, les avoir réglés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0250">
                     <head>104. - Vente de coton. — Saisie immobilière; transcription; immobilisation
                         des fruits; vente de la récolte par le débiteur saisi; droits de l'acheteur;
                         irrecevabilité de son action contre. l'adjudicataire; action de in rem
@@ -3879,7 +3891,7 @@
                             adjudicataires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0260">
                     <head>105. - Vente sur échantillon. — Résiliation pour non-conformité.</head>
                     <div type="summary">
                         <p>Lorsqu’une commande porte sur un genre de marchandise comportant
@@ -4042,7 +4054,7 @@
                             chacun de ces acomptes...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0270">
                     <head>106. - Vente. -— Vices cachés; action en garantie; point de départ du
                         délai de huitaine.</head>
                     <div type="summary">
@@ -4103,7 +4115,7 @@
                             les photographies versées au dossier...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-02-0280">
                     <head>107. - Vente. — Vices cachés; action rédhibitoire; délai de. huitaine;
                         déchéance de Vacheteur; conséquences; obligation au paiement du prix.</head>
                     <div type="summary">

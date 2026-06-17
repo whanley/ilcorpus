@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0021-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0021-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1930-12-10">December 10, 1930</date><lb/>
-                    <biblScope unit="volume">Vol. 21</biblScope><lb/>
-                    <biblScope unit="number">No. 242</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1930-12-10">December 10, 1930</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 21</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 242</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -58,7 +69,7 @@
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an),.,. P.T. 150</p>
                 <p>— au Journal ;</p>
-                <p>— Un an.................. > 150</p>
+                <p>— Un an.................. &gt; 150</p>
                 <p>— Six mois............ » 88</p>
                 <p>— Trois mois........... » 59</p>
                 <p>— aux Lieux pubiicarîons</p>
@@ -119,14 +130,14 @@
                     courante et énergique, on a pu parler de la chose jugée résultant du règlement
                     définitif ou de l’ordonnance de clôture (1). Mais il convient de ne voir là
                     qu’une image, une figure de style,</p>
-                <p>(>) Un arrêt du 20 Février 1880 (B. I, 40) dit que «le règlement définitif doit
-                    sortir l’effet de l’autorité de la chose jugée». Un autre arrêt du 22 Avril 1897
-                    (B. IX, 284) parle aussi de l’autorité de la chose jugée attachée au règlement
-                    définitif. Dans le même* * sens, 5 Février 1913 (B. XXV, 164), 23 Juin 1914 (B.
-                    XXVI, 478), 13 Avril 1916 (Gaz VI, 118-353), 28 Février 1918 (B. XXX, 253); 25
-                    Février 1920 (Chambres Réunies, Gaz. X, 87-91), 8 Mai 1923 (Gaz. XIV, 82-131).
-                    Comparez aussi l’arrêt du 16 Février 1922 (B. XXXIV, 180) qui retient, que la
-                    chose jugée résultant du. règlement ne fait cependant pas obstacle à la
+                <p>(&gt;) Un arrêt du 20 Février 1880 (B. I, 40) dit que «le règlement définitif
+                    doit sortir l’effet de l’autorité de la chose jugée». Un autre arrêt du 22 Avril
+                    1897 (B. IX, 284) parle aussi de l’autorité de la chose jugée attachée au
+                    règlement définitif. Dans le même* * sens, 5 Février 1913 (B. XXV, 164), 23 Juin
+                    1914 (B. XXVI, 478), 13 Avril 1916 (Gaz VI, 118-353), 28 Février 1918 (B. XXX,
+                    253); 25 Février 1920 (Chambres Réunies, Gaz. X, 87-91), 8 Mai 1923 (Gaz. XIV,
+                    82-131). Comparez aussi l’arrêt du 16 Février 1922 (B. XXXIV, 180) qui retient,
+                    que la chose jugée résultant du. règlement ne fait cependant pas obstacle à la
                     modification du prix à distribuer en cas de folle enchère, et l’arrêt du 1er
                     Février 1927 (Gaz. XVII, 144-215), d’après lequel l’autorité de la chose jugée
                     ne s’applique pas dans les rapports des débiteurs entre eux. Ajoutez aussi, 21
@@ -310,7 +321,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0010">
                     <head>44. - Affectation hypothécaire. — Demande de radiation; taux; évaluation
                         sur la base du principal des condamnations garanties; jugement; appel;
                         irrecevabilité.</head>
@@ -391,7 +402,7 @@
                             principal seul détermine la compétence et le ressort.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0020">
                     <head>45. - Distribution. — Affectation immobilière prise contre un acheteur qui
                         n'a pas transcrit son titre; expropriation de biens achetés en vertu d'un
                         contrat non transcrit; absence de contestations; distribution du prix; droit
@@ -929,7 +940,7 @@
                             comme il peut convenir de le remarquer, parfaitement justifié.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0030">
                     <head>46. - Distribution. — Compensation entre la créance du poursuivant et le
                         prix d'adjudication des biens meubles ou immeubles; cas où l'adjudicataire
                         n'est pas le seul créancier du saisi; exception à la règle de la
@@ -971,9 +982,10 @@
                         <p>Note. — l. - Rappr. Gaz. VIII, 279-368, 1 arrêt du 28 Mai 1918: — Gaz.
                             IX, 55-73, 1 arrêt du 10 Décembre 1918: — Gaz., XI, 22-39. l’arrêt du 25
                             Novembre 1920: — Gaz-' XIII, 20-20, l’arrêt du 18 Avril 1922;</p>
-                        <p>Gaz., Xni, 119-203. l’arrêt du 7 No-re«1922; ~ Ga:-> XIV. 78-125, l’arrêt
-                            du 29 Mai 1923; — Gaz.', XIX. 104.97 1 arrêt du 17 Janvier 1928.</p>
-                        <p>I et II. - L’arrêt rapporté expose: pa^lelcufM-1 °uSe e-S> ÂM0 et -2
+                        <p>Gaz., Xni, 119-203. l’arrêt du 7 No-re«1922; ~ Ga:-&gt; XIV. 78-125,
+                            l’arrêt du 29 Mai 1923; — Gaz.', XIX. 104.97 1 arrêt du 17 Janvier
+                            1928.</p>
+                        <p>I et II. - L’arrêt rapporté expose: pa^lelcufM-1 °uSe e-S&gt; ÂM0 et -2
                             Juillet 1929 ' •1 lesquels le Crédit Foncier Fcwnfien n reguherement
                             relevé appel^du^ugSÀTdu</p>
                         <p>Tribunal Civil de Mansourah rendu le 23 Avril 1929 en tant qu’il a admis
@@ -1124,7 +1136,7 @@
                             Egyptien et de réformer le jugement attaqué en ce sens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0040">
                     <head>47. - Distribution. — Contredit; appel non motivé d’un jugement rendu sur
                         contredit formé par un créancier colloqué qui n'a pris aucune conclusion en
                         première instance; nullité.</head>
@@ -1163,7 +1175,7 @@
                             demande à l’encontre du Sieur Charki...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0050">
                     <head>48. - Distribution. —■ Contredit; demande de collocation; défaut de
                         précision; absence de forclusion. — Hypothèque générale; indivisibilité;
                         effets; droit d’en limiter la portée; droits du créancier à hypothèque
@@ -1352,7 +1364,7 @@
                             créances suivant la répartition proportionnelle admise...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0060">
                     <head>49. - Distribution. — Contredit; demande d’interversion de rang
                         hypothécaire au préjudice des créanciers inscrits postérieurs ou
                         intermédiaires; inadmissibilité.</head>
@@ -1400,7 +1412,7 @@
                             1er Février 1927, Bull. XXXIX, p. 206).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0070">
                     <head>50. - Distribution. — Contredit formé en voie reconventionnelle, en dehors
                         des délais de forclusion; cas de recevabilité.</head>
                     <div type="summary">
@@ -1418,7 +1430,7 @@
                             l’arrêt du 4 Juin 1929.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0080">
                     <head>51. - Distribution. — Contredit formé en voie reconventionnelle, en dehors
                         des délais de forclusion; cas de recevabilité. — Affectations hypothécaires
                         prises après la transcription du commandement immobilier; valeur et portée;
@@ -1533,7 +1545,7 @@
                             contester la créance de celui qui veut l’évincer...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0090">
                     <head>52. - Distribution. — Contredit formé par un créancier par voie oblique;
                         faculté pour son débiteur, qui n'avait point contredit, d'en profiler et de
                         former appel du jugement qui y a statué.</head>
@@ -1579,7 +1591,7 @@
                             créancier, .est poursuivi en voie directe par son débiteur...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0100">
                     <head>53. - Distribution. — Contredit; intérêt, le légitimant. — Contredit;
                         délai de quinzaine; point de départ. — Appel incident d'inlimé à intimé;
                         recevabilité en matière de distribution; cas où l'appel incident n'est pas
@@ -1672,8 +1684,8 @@
                             Sieur Nasr Yacoub pour avoir désintéressé ce dernier du montant de sa
                             créance à l’encontre du débiteur exproprié.</p>
                         <p>Le Sieur Sami Zikri a été colloqué au cinquième' rang hypothécaire avec
-                            la note «cet>-"te collocation sera désintéressée sur la tonalité de la
-                            somme à distribuer». Un Sieur Guindi Bichaï était colloqué en sixième
+                            la note «cet&gt;-"te collocation sera désintéressée sur la tonalité de
+                            la somme à distribuer». Un Sieur Guindi Bichaï était colloqué en sixième
                             ram* et ces collocations ayant absorbé et dépassé .a somme à distribuer,
                             le Juge délégué dit n y avoir pas lieu de donner suite aux demandes des
                             autres produisants dont les créances étaient chirographaires et
@@ -1877,7 +1889,7 @@
                             du règlement provisoire dans ce sens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0110">
                     <head>54. - Distribution. — Contredit; intérêts dus par la partie succombante;
                         mode de calcul.</head>
                     <div type="summary">
@@ -1903,7 +1915,7 @@
                             autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0120">
                     <head>55. - Distribution. — Contredit; jugement; appel; taux; conditions de
                         recevabilité. — Louage de services; indemnité de licenciement; caractère.
                         non alimentaire et non insaisissable.</head>
@@ -2024,7 +2036,7 @@
                             de laisser à la charge de chaque partie ses propres dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0130">
                     <head>56. - Distribution. — Contredit: jugement; appel; taux; conditions de
                         recevabilité; production unique et collocation basées sur des titres
                         différents tous inférieurs à L.E. 100; appel recevable.</head>
@@ -2074,7 +2086,7 @@
                         <p>Il échet donc de rejeter ladite irrecevabilité...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0140">
                     <head>57. - Distribution. — Juridiction mixte; compétence en matière de
                         distribution, entre sujets locaux. — Ayants cause; opposabilité aux
                         créanciers étrangers des jugements rendus contre leur débiteur par les
@@ -2172,7 +2184,7 @@
                             créancier contesté...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0150">
                     <head>58. - Distribution. — Règlement définitif; application des bases posées
                         par les sentences ayant statué sur les contredits au règlement provisoire;-
                         cas où il est possible aux Tribunaux saisis. d'un contredit au règlement
@@ -2285,7 +2297,7 @@
                             indiquées...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0160">
                     <head>59. - Distribution. — Règlement définitif; autorité de la chose jugée;
                         étendue-dans les rapports entre créancier et débiteur; maintien des droits
                         du créancier-pour les intérêts non cbmpris dans la. collocation.</head>
@@ -2504,7 +2516,7 @@
                             Tribunal.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0170">
                     <head>60. - Distribution. -— Règlement défini-' tif; autorité de la chose jugée;
                         exception , en cas de collocation dolosive; conditions.</head>
                     <div type="summary">
@@ -2614,7 +2626,7 @@
                             Novembre 1924. à faire valoir par les voies ordinaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0180">
                     <head>61. - Distribution. — Règlement définitif; autorité de la chose jugée;
                         exception en cas de collocation dolosive; conditions.</head>
                     <div type="summary">
@@ -2786,7 +2798,7 @@
                             qu’elle aurait pu soulever sur le fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0190">
                     <head>62. - Distribution. — Règlement définitif; contredit rejeté; créancier
                         saisissant n'ayant point droit à dommages-intérêts.</head>
                     <div type="summary">
@@ -2853,7 +2865,7 @@
                             confirmer pour le surplus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0200">
                     <head>63. - Distribution. — Sommation, de produire; omission partielle;
                         influence sur les délais pour contredire. — Sommation de prendre
                         connaissance du règlement provisoire; inutilité de. sa signification aux.
@@ -2951,7 +2963,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0210">
                     <head>64. - Distribution. — Sommation de produire; tiers détenteur non sommé;
                         production hors des délais de forclusion; contredit tendant à la collocation
                         dans l'ordre; admissibilité; jugement de rejet; appel principal profitant à
@@ -3029,7 +3041,7 @@
                         <p>Met les frais à la charge de la distribution par privilège...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0220">
                     <head>65. - Distribution. — Subrogation; paiement fait par un tiers; conditions
                         exigées par la loi pour qu'il y ait subrogation; paiement effectué par le
                         débiteur avec les deniers d'un tiers; demande de collocation au rang et avec
@@ -3119,7 +3131,7 @@
                             obligation si elle avait été réellement prise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0230">
                     <head>66. — - Distribution. — Sursis; demande non justifiée par l'existence d'un
                         appel contre un jugement de rejet de dire du cahier des charges. —
                         Compte-courant; point de départ de la prescription; prescription
@@ -3285,7 +3297,7 @@
                             pour formuler le contredit et qui n’est nullement justifié.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0240">
                     <head>67. - Droit de rétention. — Coton; égrenage et transport; frais faits pour
                         Ventre-tien et la conservation de la chose; dépôt des sommes dues par le
                         débiteur avec affectation spéciale; subsistance du droit de rétention
@@ -3369,7 +3381,7 @@
                             Brothers et de confirmer dans son principe le jugement entrepris.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0250">
                     <head>68. - Gage. — Possession confiée à un tiers convenu; cas où ce tiers peut
                         être confondu avec le débiteur; nullité du gage; droits des tiers de bonne
                         foi.</head>
@@ -3454,7 +3466,7 @@
                             ses demandes...-</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0260">
                     <head>69. - Gage. — Possession retournée au débiteur; nullité du gage ne pouvant
                         être invoquée par le débiteur.</head>
                     <div type="summary">
@@ -3512,7 +3524,7 @@
                             requis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0270">
                     <head>70. - Gage. — Preuve en matière commerciale. — Faillite; revendication du
                         vendeur; inadmissibilité en cas de livraison des marchandises à un tiers
                         consignataire; inadmissibilité en cas de constitution des marchandises en
@@ -3661,7 +3673,7 @@
                             concurrence des trois caisses en question.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0280">
                     <head>71. - Gage. — Réalisation; délai de grâce; inadmissibilité; délai accordé
                         aux héritiers, pour prendre qualité; inapplicabilité en matière d'exécution
                         d'une créance certaine. — Juge de service; ordonnance de réalisation de
@@ -3788,7 +3800,7 @@
                             lots qu’en cas de défaut d’acheteur pour leur ensemble.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0290">
                     <head>72. - Hypothèque. — Biens indivis; modification unilatérale de l'assiette
                         de l'hypothèque; inadmissibilité; droits du créancier hypothécaire et de
                         l'adjudicataire à l'éqard des acquéreurs du débiteur. — Cmge; achat des
@@ -3875,13 +3887,13 @@
                             l’expropriation des 28 feddans 9 kirats et 2 sahmes à elle hypothéqués
                             par le premier comme indivis dans les 161 feddans, et que ces 28
                             feddans, 9 kirats et 2 sahmes par indivis hypothéqués ont été ad-b'Mment
-                            du 31 Août 1921, affaire &lt; > , ® i1?.0,11 Produit), au Sieur Mahmoud
-                            Aref Abdel Mares, qui s’en est fait mettre en possession selon deux
-                            procès-verbaux d’huis-sier des 19 Décembre 1921 et 22 Juin 1922 (non
-                            produits), et qui fit auprès des autorités administratives les démarches
-                            nécessaires en vue d’obtenir le transfert de ces 28 feddans, kirats et 2
-                            sahmes du taklif des Hoirs Ali Amin El Manfi sous lequel les 161
-                            feddans</p>
+                            du 31 Août 1921, affaire &lt; &gt; , ® i1?.0,11 Produit), au Sieur
+                            Mahmoud Aref Abdel Mares, qui s’en est fait mettre en possession selon
+                            deux procès-verbaux d’huis-sier des 19 Décembre 1921 et 22 Juin 1922
+                            (non produits), et qui fit auprès des autorités administratives les
+                            démarches nécessaires en vue d’obtenir le transfert de ces 28 feddans,
+                            kirats et 2 sahmes du taklif des Hoirs Ali Amin El Manfi sous lequel les
+                            161 feddans</p>
                         <p>avaient été portés en 1905, lors du nouveau Fak El Ziniain, au sien
                             propre;</p>
                         <p>Que c’est dans ces conditions que les Dames Latifa et Hosna ont, par
@@ -4028,7 +4040,7 @@
                             touchés par le jugement d’adjudication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0300">
                     <head>73. - Hypothèque. —Héritiers du créancier hypothécaire; défaut
                         d'indication du nom de tous les héritiers dans les actes de la procédure
                         d'expropriation; existence des héritiers omis révélée par la suite; omission
@@ -4297,7 +4309,7 @@
                             d’après ce qui précède.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0310">
                     <head>74. - Hypothèque. — Inscription; péremption; aliénation consentie par le
                         débiteur exproprié postérieurement à cette péremption et antérieurement, au
                         renouvellement de l'inscription; déchéance du droit du créancier
@@ -4464,7 +4476,7 @@
                             Cour estime devoir ordonner une expertise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0320">
                     <head>75. - Hypothèque. — Publicité; engagement par le créancier hypothécaire de
                         cantonner son hypothèque; défaut de publicité; inopposabilité au
                         cessionnaire de la créance hypothécaire.</head>
@@ -4500,7 +4512,7 @@
                             une promesse que la Land Bank avait donnée à Abdel Aziz Sabri, son
                             auteur, par let-tre du 6 Janvier 1922 de renoncer à son hypothèque en ce
                             qu’elle grevait la quantité de ! terres par lui achetée, a assigné tant
-                            Soli-man El Diasti que la Land Bank, aux fins > «e voir ordonner la
+                            Soli-man El Diasti que la Land Bank, aux fins &gt; «e voir ordonner la
                             radiation de l’hypothè-, *lue ,ajnsi que des actes de la poursuite
                             immobilisée qui ont été transcrits d’après la</p>
                         <p>î Que cette demande de Mansour a été accueillie par jugement du 26 Juin
@@ -4548,7 +4560,7 @@
                             partielle de ladite hypothèque aux registres à ce destinés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0330">
                     <head>76. - Hypothèque. — Subrogation conventionnelle; inadmissibilité
                         postérieurement au paiement. — Subrogation légale bénéficiant à l'héritier
                         d'une succession musulmane qui a payé au delà de sa quote-part; cas où le
@@ -4740,7 +4752,7 @@
                             compensation...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0340">
                     <head>77. - Privilège. — Architectes et entrepreneurs; droit de rétention; cas
                         dé dessaisissement forcé; ordre de justice non opposable au rélenteur;
                         jugement d'adjudication; défaut d'opposition à l'exécution; perte du droit
@@ -4918,7 +4930,7 @@
                             principale,- mais ne saurait donner lieu à un privilège.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0350">
                     <head>78. - Privilège. — Bailleur; déchéance de son privilège ne résultant pas
                         du rejet d'une action ep revendication à tort intentée par le bailleur sur
                         les récoltes garnissant les lieux loués. — Assiette du privilège du
@@ -4983,7 +4995,7 @@
                             juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0360">
                     <head>79. - Privilège. — Bailleur; exercice de son privilège; preuve de ila
                         provenance des récoltes et de la créance des loyers. — Sommes payées par le
                         séquestre pour impôts; avances ayant servi à l'achat des graines; caractère
@@ -5145,7 +5157,7 @@
                     </div>
                 </div>
                 <pb n="75" rendition="Gazelle des Tribunaux .Mixtes d'Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0370">
                     <head>80. - Privilège. — Bailleur; privilège grevant les matériaux de démolition
                         de l'immeuble loué.</head>
                     <div type="summary">
@@ -5210,7 +5222,7 @@
                             sens...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0380">
                     <head>81. - Privilège. — Plus-value; travaux d'amélioration; défaut de privilège
                         général en matière de faillite.</head>
                     <div type="summary">
@@ -5265,7 +5277,7 @@
                             chirographaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0390">
                     <head>82. - Privilège. — Séquestre; avocat; honoraires privilégiés au titre de
                         frais de justice.</head>
                     <div type="summary">
@@ -5343,7 +5355,7 @@
                             pour leurs frais et honoraires...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-12-0400">
                     <head>83. - Privilège. — Vente immobilière; déclaration de faillite de
                         l'acheteur; transcription de l'acte postérieure au jugement déclaratif;
                         admissibilité; effets; transfert de propriété au profit de la masse et
@@ -5553,7 +5565,7 @@
                 <p>Considérant que le délai de trois mois prévu à l’alinéa 2 du dit article ne
                     suffit pas pour l’élaboration et l’exécution de la loi relative à l’élection des
                     membres des Conseils provinciaux visée au Décret de dissolution précité et qu’il
-                    échet, en conséquence. &lt;>e suspendre l’application de l’alinéa 2 du dit
+                    échet, en conséquence. &lt;&gt;e suspendre l’application de l’alinéa 2 du dit
                     article;</p>
                 <p>Sur la proposition de Notre Ministre de l’intérieur et l’avis conforme de Notre
                     Conseil des Ministres;</p>
@@ -5831,8 +5843,8 @@
                 <p>Août - - Questions pénales.</p>
                 <p>Septembre » - Location-vente. - Vente avec réserve de</p>
                 <p>propriété.</p>
-                <p>Octobre > - Droits proportionnels.</p>
-                <p>Novembre > - Expropriation sur saisie.</p>
+                <p>Octobre &gt; - Droits proportionnels.</p>
+                <p>Novembre &gt; - Expropriation sur saisie.</p>
             </div>
         </body>
     </text>

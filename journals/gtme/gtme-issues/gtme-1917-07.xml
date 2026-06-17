@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0007-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0007-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1917-07-10">July 10, 1917</date><lb/>
-                    <biblScope unit="volume">Vol. 7</biblScope><lb/>
-                    <biblScope unit="number">No. 81</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1917-07-10">July 10, 1917</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 7</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 81</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -267,7 +278,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0010">
                     <head>396. - Bailleur. — Privilège. — Cas de vente des récoltes à un
                         tiers.</head>
                     <div type="summary">
@@ -285,7 +296,7 @@
                             c. Eid et Samuel Israël et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0020">
                     <head>397. - Banqueroute simple. — Faits antérieurs à la déclaration de
                         faillite. — Prescription. — Point de départ. — Date de la cessation des
                         paiements. — Instruction pour banqueroute frauduleuse.</head>
@@ -322,7 +333,7 @@
                             Public c. Neghib et Ragheb Iscandar Ebeid).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0030">
                     <head>398. - Cimetière. — Domaine public. — Prescription.</head>
                     <div type="summary">
                         <p>Un cimetière abandonné continue à faire partie du domaine public, et par
@@ -381,7 +392,7 @@
                             faute de toute justification à cet dgard.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0040">
                     <head>399. - Compétence commerciale. — Femmes et simples cultivateurs. — Omdeh.
                         — Dénégation de cachet. — Caractère facultatif de l’expertise</head>
                     <div type="summary">
@@ -427,7 +438,7 @@
                             lorsque les pièces de comparaison font défaut.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0050">
                     <head>400. - Consentement. — Nullité. — Erreur sur le prix. — Fret au poids ou
                         au volume.</head>
                     <div type="summary">
@@ -519,7 +530,7 @@
                             dommages-intérêts, pour une non exécution qui lui est imputable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0060">
                     <head>401. - Conventions. — Validité d’un seul original. — Appel. — Clause de
                         renonciation anticipée. — Validité.</head>
                     <div type="summary">
@@ -556,7 +567,7 @@
                             18-32.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0070">
                     <head>402. - Dénonciation. — Caractère spontané.</head>
                     <div type="summary">
                         <p>La dénonciation, faite sur une interpellation provenant d’un officier de
@@ -572,7 +583,7 @@
                             Mohamed bey Osman El Bannani).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0080">
                     <head>403. - Domicile. — Principal établissement. — Changement de. résidence. —
                         Guerre.</head>
                     <div type="summary">
@@ -641,7 +652,7 @@
                             de confirmer le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0090">
                     <head>404. - Employés et gens de service. — Privilège. — Assiette. — Période
                         privilégié. — Cas de saisie.</head>
                     <div type="summary">
@@ -733,20 +744,21 @@
                             vente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0100">
                     <head>405. - Etablissements incommodes, insalubres ou dangereux. — Décret du 28
                         Août 1904. — Dépôt de fromage. — </head>
-                    <div type="summary"><p>Les dépôts de fromage ne sont pas
-                        ■expressément compris parmi les établissements incommodes, insalubres ou
-                        dangereux, et ne peuvent être considérés comme rentrant dans la
-                        qualification générale de &lt; dépôts de produits exhalant « des odeurs
-                        nuisiblesà la santé publique».</p> </div>
+                    <div type="summary">
+                        <p>Les dépôts de fromage ne sont pas ■expressément compris parmi les
+                            établissements incommodes, insalubres ou dangereux, et ne peuvent être
+                            considérés comme rentrant dans la qualification générale de &lt; dépôts
+                            de produits exhalant « des odeurs nuisiblesà la santé publique».</p>
+                    </div>
                     <div type="litigants">
                         <p>(Cour d’Appel, 2me Ch. stat. en Cass. 3 Mai 1917. — -Ministère Public c.
                             Panayotti Adam Siangrisj.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0110">
                     <head>406. - Gage. — Radiation. — Vente annulée'. — Effets.</head>
                     <div type="summary">
                         <p>L’annulation d’une vente en considération de laquelle l’acheteur avait
@@ -760,7 +772,7 @@
                             Moustafa El Guebali c. Ibrahim Rofaïl Saleh et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0120">
                     <head>407. - Garantie non solidaire. — Bénéfice de discussion. —
                         Conditions.</head>
                     <div type="summary">
@@ -784,7 +796,7 @@
                             —*Mosseri &amp; Cie c. Faillite Georges Zer-vudachi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0130">
                     <head>408. - Hypothèque. — Accessoire. — Machine d’irrigation. — Immeuble par
                         destination. — Tiers-détenteur.</head>
                     <div type="summary">
@@ -801,7 +813,7 @@
                             eff. Khalaf c. Land Bank of Egypt et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0140">
                     <head>409. - Immeuble par destination. — Machine d’irrigation — Saisie.</head>
                     <div type="summary">
                         <p>I. - Est nulle et inopposable au vendeur qui a garanti ses droits par la
@@ -885,7 +897,7 @@
                             envisager pour décider s’il peut ou non exciper de sa bonne foi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0150">
                     <head>410. - Interdiction. — Prodigalité, — Mariage. — Changement de
                         nationalité.</head>
                     <div type="summary">
@@ -987,7 +999,7 @@
                             curateur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0160">
                     <head>411. - Juge d’instruction. — Désignation d’un défenseur d’office. —
                         Rapport à la Chambre du Conseil. — Procès-verbal d’audience. — Signature par
                         le Président seul.</head>
@@ -1008,7 +1020,7 @@
                             1917. — Mansour Mohamed El Dalh et autre c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0170">
                     <head>412. - Juridiction mixte. — Nullité d’une clause dérogatoire de compétence
                         dans un contrat de transport devant recevoir exécution en Egypte. —
                         Compagnies de navigation. — Agences. — Vice propre. — Clause d’exonération
@@ -1186,7 +1198,7 @@
                             responsables vis-à-vis du destinataire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0180">
                     <head>413. - Prescription acquisitive. — Bonne foi. — Possession de biens
                         successoraux.</head>
                     <div type="summary">
@@ -1204,7 +1216,7 @@
                             (III).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0190">
                     <head>414. -, Privilège du vendeur. — Transcription. — Délégation du prix. —
                         Acceptation. — Conflit entre créanciers du vendeur délégataires du prix et
                         créancier hypothécaire de bonne foi.</head>
@@ -1338,7 +1350,7 @@
                             d’aucune autre charge.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0200">
                     <head>415. - Référé. — Compétence. — Séquestre.</head>
                     <div type="summary">
                         <p>Il n’appartient pas à la juridiction des Référés d’ordonner la
@@ -1352,7 +1364,7 @@
                             Polychropopoulo c. Dame Chah Hanemxt autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0210">
                     <head>416. - Renvoi intempestif. — Employés du Gouvernement. — Loi Tewfick. —
                         Inaptitude au service.</head>
                     <div type="summary">
@@ -1371,7 +1383,7 @@
                             Egyptien c. Francesco Ferraino).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0220">
                     <head>417. -Revendication en cours d’expropriation. — Appel, — Non intimation
                         d’un débiteur saisi. — Indivisibilité.</head>
                     <div type="summary">
@@ -1423,7 +1435,7 @@
                             revendiquant sont recevables.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0230">
                     <head>418. - Saisie-arrêt. — Fonctionnaire de l'Etat. — Sommes versées en
                         compte-courant. — Saisissabilité.</head>
                     <div type="summary">
@@ -1437,7 +1449,7 @@
                             Pacha Sadik c. National Bank of Egypt).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0240">
                     <head>419. - Sujets ottomans. — Assimilation aux indigènes. — Compétence.</head>
                     <div type="summary">
                         <p>Les sujets ottomans ont toujours été assimilés aux sujets indigènes en
@@ -1454,7 +1466,7 @@
                             résidant en Egypte, par G. Cateb, et ci-après §§ 420, 421 et 422.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0250">
                     <head>420. - Sujets ottomans. — Litiges avec les sujets locaux. —Juridiction
                         Mixte. — Compétence. *</head>
                     <div type="summary">
@@ -1469,7 +1481,7 @@
                             et Cie c. Sayour frères).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0260">
                     <head>421. -Sujets ottomans. — Ottomans domiciliés en Egypte. — Sujets
                         locaux.</head>
                     <div type="summary">
@@ -1483,7 +1495,7 @@
                             Sayour frères).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0270">
                     <head>422. - Sujets ottomans. — Litige avec les sujets locaux.—Juridiction
                         mixte. — Compétence.</head>
                     <div type="summary">
@@ -1561,7 +1573,7 @@
                             locaux et ils ne sont pas devenus de nationalité étrangère.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0280">
                     <head>423. - Ultra petita. — Décision rendue en dehors des systèmes soutenus par
                         les plaideurs.</head>
                     <div type="summary">
@@ -1581,7 +1593,7 @@
                             Cie c. Constantin Theodossîou).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0290">
                     <head>424. - Vente avec réserve de propriété. — Clause de reservati donünii. —
                         Droit du vendeur d'assigner en paiement.</head>
                     <div type="summary">
@@ -1695,7 +1707,7 @@
                     </div>
                 </div>
                 <pb n="142" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0300">
                     <head>425. - Vente. — Clause relative à la connaissance des biens par
                         l’acheteur. — Portée. — Eviction. — Restitution proportionnelle du prix. —
                         Intérêts.</head>
@@ -1716,7 +1728,7 @@
                             Moustapha El Cour c. Hoirs Morcos Habachi et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0310">
                     <head>426. - Vente (Promesse de). — Appréciation des titres de propriété de
                         l’acheteur.</head>
                     <div type="summary">
@@ -1739,7 +1751,7 @@
                             Farahian c. Arno Werther &lt;S Lo en liq. et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0320">
                     <head>427. - Wakf. — Acquittement des dettes et charges préalablement à toute
                         distribution des revenus.</head>
                     <div type="summary">
@@ -1758,7 +1770,7 @@
                         <p>Note. Cfr. Khadri Pacha, Wakfs, art. 374 et 105.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0330">
                     <head>428. - Wakf. — Bénéficiaire. — Intérêts mixtes. — Exception
                         d’incompétence. — Charge des frais frustratoires.</head>
                     <div type="summary">
@@ -1779,7 +1791,7 @@
                             c. Abdel Aziz Khalifa et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0340">
                     <head>429. - Wakf. — Co-nazir.</head>
                     <div type="summary">
                         <p>En cas d’adjonction par décision de justice d’un co-nazir au nazir déjà
@@ -1793,7 +1805,7 @@
                             Wakfs c. Cts Bogdadli et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-07-0350">
                     <head>430. - Wakf. — Reconnaissance de detté par le nazir: cas où elle est
                         valable malgré le défaut d’autorisation. — Intérêts. — Prescription
                         quinquennale.</head>
@@ -2021,8 +2033,8 @@
                 <p>Moursi Youssef Zeid, nég. en manuf. indig. à De Kernes. (H. Razzouk synd. déf.),
                     jug. du</p>
                 <p>7.6.17 nomme H. Razzouk s. de l’union.</p>
-                <p>Ahmed Mohamed Ayoub, négoc. en coton indig. à Béni Amer. (H. Razzouk, s.>, jug.
-                    du</p>
+                <p>Ahmed Mohamed Ayoub, négoc. en coton indig. à Béni Amer. (H. Razzouk, s.&gt;,
+                    jug. du</p>
                 <p>7.6.17 nomme H. Razzouk s. déf.</p>
                 <p>Hassan Aly El Hindi, mercier indig. à Zagazig. (G. Mabardi, s. de l’un.), réun.
                     le 13.6.17 p. vente march,à la dite réun. les march. furent adjugés à Alex. Saad
@@ -2140,12 +2152,12 @@
                 <p>Audiences de rentrée:</p>
                 <p>lre Chambre Civile: Samedi 20 Octobre 1917.</p>
                 <p>2me Chambre Civile: Mardi 16 Octobre 1917.</p>
-                <p>3°>° Chambre Civile : (Tribunal de Commerce) Lundi 22 Octobre 1917.</p>
+                <p>3°&gt;° Chambre Civile : (Tribunal de Commerce) Lundi 22 Octobre 1917.</p>
                 <p>4”e Chambre Civile: (Mixte) Jeudi 18 Octobre 1917.</p>
                 <p>Justice Sommaire :</p>
                 <p>Chambre: Samedi 20 Octobre 1917.</p>
-                <p>2°>° » Jeudi 18 » 1917.</p>
-                <p>3°" > Mercredi 17 » 1917.</p>
+                <p>2°&gt;° » Jeudi 18 » 1917.</p>
+                <p>3°" &gt; Mercredi 17 » 1917.</p>
                 <p>Le Saîre.</p>
                 <p>Audiences des Vacations.</p>
                 <p>En matière civile et commerciale,</p>
@@ -2161,7 +2173,7 @@
                 <p>Audiences des rentrée.</p>
                 <p>Les premières audiences utiles de rentrée auront lieu:</p>
                 <p>F° Chambre Civile: Lundi , 22 0ct. 1917.</p>
-                <p>2mè > » Mardi 16 * »</p>
+                <p>2mè &gt; » Mardi 16 * »</p>
                 <p>3m’ » » Jeudi 18 »</p>
                 <p>4me » » Mercredi 17 » »</p>
                 <p>5me » » Mardi 16 » »</p>

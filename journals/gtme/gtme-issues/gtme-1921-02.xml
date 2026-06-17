@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1921-02-10">February 10, 1921</date><lb/>
-                    <biblScope unit="volume">Vol. 11</biblScope><lb/>
-                    <biblScope unit="number">No. 124</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1921-02-10">February 10, 1921</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 11</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 124</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -230,7 +241,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0010">
                     <head>73. - Accident. — Tramway.—Ralentissement obligatoire en cas de
                         rassemble-ment à proximité de la voie. — Faute du watman. — Enfant laissé
                         seul sur la voie publique. — Faute commune.</head>
@@ -252,7 +263,7 @@
                             Tramways d’Alexandrie c. Georges Khoriatopoulo).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0020">
                     <head>74. - Actions nominatives. — Circulation sans les formalités de transfert.
                         — Non transmission de la dette du non versé. — Recours du cédant contre le
                         cessionnaire irrégulier. — Agent de change. — Responsabilité
@@ -506,7 +517,7 @@
                     </div>
                 </div>
                 <pb n="52" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0030">
                     <head>75 - Actions nominatives. — Circulation sans les formalités de transfert.
                         — Non transmission de la dette du non-versé. — Recours du cédant contre le
                         cessionnaire irrégulier. — Agent de change. — Responsabilité personnelle
@@ -667,7 +678,7 @@
                             ont été couverts, ou non.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0040">
                     <head>76. - Bail. — Mode de signification dit congé. — Référé. — Compétence. —
                         Délation du serment pour établir un nouveau fait. — Déguerpissement. — Délai
                         de grâce.</head>
@@ -744,7 +755,7 @@
                             l’exploit introductif de l’instance).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0050">
                     <head>77. - Bail. — Obligations du locataire. — Dégradations.— Usage normal des
                         lieux loués.</head>
                     <div type="summary">
@@ -769,7 +780,7 @@
                             Mouscat et Eleuthére Georgiadis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0060">
                     <head>78. - Chemins de fer. — Caractère civil des opérations de /’Administration
                         des chemins de fer de l’Etat Egyptien. — Taux des intérêts. — Tribunal de
                         Commerce. — Incompétence. — Recours en garantie. — Appel. — Conclusions au
@@ -954,7 +965,7 @@
                             sont restés à la charge de l’expéditeur vendeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0070">
                     <head>79. - Contravention. — Classement administratif. — Effets après jugement
                         et en degré de cassation.</head>
                     <div type="summary">
@@ -970,7 +981,7 @@
                             Georges Georgiades c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0080">
                     <head>80. - Dépens. - - Compensation. — Droits proportionnels. —
                         Interprétation.</head>
                     <div type="summary">
@@ -1069,7 +1080,7 @@
                             d’échange prononcé aux torts et griefs de Habib Dimitri. Boulad.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0090">
                     <head>81. - Difficultés d’exécution.— Tribunal Sommaire. — Incompétence à
                         connaître de la validité d’une saisie pratiquée en vertu d'un jugement du
                         Tribunal Civil.</head>
@@ -1086,7 +1097,7 @@
                             Mohamed Cad Youssef c. Georges Yammos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0100">
                     <head>82. -DoiaiïciLe.—Changement.—Preuve.</head>
                     <div type="summary">
                         <p>Le changement de domicile ne s’opère ■que parle fait d’une habitation
@@ -1158,7 +1169,7 @@
                             valable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0110">
                     <head>83. - Droits proportionnels. — Tarif Civil Mixte. — Mode de calcul des
                         droits pour les jugements adjugeant des biens immeubles sur revendication. —
                         Délai d’expertise. — Mode de calcul des droits pour les actes
@@ -1258,7 +1269,7 @@
                             prévue par les articles 11 et 12 du tarif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0120">
                     <head>84. - Expropriation. — Action en nullité intentée par le créancier et
                         profitant au débiteur exproprié.</head>
                     <div type="summary">
@@ -1344,7 +1355,7 @@
                             et 225 C.C.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0130">
                     <head>85. - Expropriation. — Irrecevabilité de l'action principale en nullité
                         basée sur des moyens déjà soulevés et rejetés sur opposition « commandement
                         et dire ou omis dans le dire au cahier des charges.</head>
@@ -1362,7 +1373,7 @@
                             El Miniawi c. Banque d’Athènes et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0140">
                     <head>86. - Folle enchère. — Situation juridique de l’acheteur d’un adjudicataùe
                         qui n’a point payé le prix. — Droits du poursuivant. — Séquestre.</head>
                     <div type="summary">
@@ -1453,7 +1464,7 @@
                             vendeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0150">
                     <head>87. - Force majeure. — Manque de fret. — Prorogation du délai d'expédition
                         de marchandises.</head>
                     <div type="summary">
@@ -1471,7 +1482,7 @@
                             Wisnom c. S. A. Sasson &amp; Co.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0160">
                     <head>88. - Intérêts. — Anatocisme. — Capitalisation des intérêts de plus d’un
                         an.</head>
                     <div type="summary">
@@ -1537,7 +1548,7 @@
                             de faire valoir ce droit par voie de justice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0170">
                     <head>89. - Libération. — Dette payable en monnaie étrangère. — Mode de
                         paiement.</head>
                     <div type="summary">
@@ -1649,7 +1660,7 @@
                             1920 jusqu’à libération. Le condamne en outre aux frais et dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0180">
                     <head>90. - Pensions. — Loi du 15 Avril 1909. — Gouvernement Egyptien. —
                         Employés provisoires. — Indemnité exceptionnelle.</head>
                     <div type="summary">
@@ -1781,7 +1792,7 @@
                             modifiée par la loi du 19 Juin 1910;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0190">
                     <head>91. - Préemption. — Vente administrative. — Vente aux enchères publiques
                         du Domaine privé de l'Etat. — Vente des biens du Domaine Commun.</head>
                     <div type="summary">
@@ -1898,7 +1909,7 @@
                             s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0200">
                     <head>92. - Requête civile. — Délai. — Découverte du dol. — Inutilité de la
                         preuve écrite. — Signification de la requête au domicile réel. — Amende en
                         cas d'irrecevabilité de la requête.</head>
@@ -1921,7 +1932,7 @@
                             Sayed Attia c. Hoirs Lian.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0210">
                     <head>93. - Retrait d’indivision. — Faculté générale d’exercice pour tout
                         co-propriétaire originaire.— Retrait successoral.— Cession de quote-parts
                         indivises dans un objet déterminé d’une succession. — Cession de droits
@@ -2004,7 +2015,7 @@
                             confirmer le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0220">
                     <head>94. - Retrait d’indivision. — Inadmissibilité en cas de vente aux enchères
                         publiques.</head>
                     <div type="summary">
@@ -2171,7 +2182,7 @@
                             qui leur a été réservée par l’art. 561 Code Civil Mixte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0230">
                     <head>95. - Saisie-arrêt. — Inefficacité sur les sommes ayant fait l’objet d’une
                         cession antérieure. — Recours en Référé pour immobiliser les sommes dues en
                         cas de litige sur la sincérité de la cession.</head>
@@ -2192,7 +2203,7 @@
                             Riso c. Hoirs Assayas).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0240">
                     <head>96. - Serment. — Prescription quinquennale des effets de commerce. —
                         Délation en voie subsidiaire du serment prévu par l’art. 201 C. Com. —
                         Irrecevabilité de l’appel interjeté après prestation.</head>
@@ -2211,7 +2222,7 @@
                             Odabachi c. Moustapha Bey El Zayat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0250">
                     <head>97. - Succession musulmane. — Héritier successeur particulier dans les
                         successions solvables. — Droit de préemption. — Liquidateur d’une succession
                         musulmane. — Séquestre judiciaire.</head>
@@ -2358,7 +2369,7 @@
                             mandat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0260">
                     <head>98. - Tiers-détenteur.— Conditions et effets en cas de pluralité de
                         tiers-détenteurs.</head>
                     <div type="summary">
@@ -2380,7 +2391,7 @@
                             Ibrahim c. Choucri Boutros et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0270">
                     <head>99. - Tiers-détenteur. — Qualité Juridique. — Fait de payer pour le
                         débiteur exproprié. — Actions intentées par le mari pour la femme. —
                         Irrecevabilité en droit musulman.</head>
@@ -2400,7 +2411,7 @@
                             Ahmed Abd El Gamad c. Euterpe et julia Comanos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0280">
                     <head>100. - Transcription. - Conflit entre le second acquéreur ayant seul
                         transcrit et le créancier ayant inscrit un droit réel contre le vendeur
                         originaire. — Prescription quinquennale.— Juste titre.— Titre émanant du
@@ -2538,7 +2549,7 @@
                             lieu d’infirmer le jugement attaqué;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0290">
                     <head>101. - Usure. — Charge de la preuve. — Chose jugée.</head>
                     <div type="summary">
                         <p>En jurisprudence mixte il a été admis par de nombreuses décisions en
@@ -2560,7 +2571,7 @@
                         <p>Note.—Noir Gaz-., V, 109-292, VI, 166-525, et VIL 74-225.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-02-0300">
                     <head>102. -Vente Commerciale.-Pr/se de livraison sans réserves. — Contestation
                         de qualité de la marchandise.— Irrecevabilité.</head>
                     <div type="summary">

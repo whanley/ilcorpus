@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0003-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0003-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1912-11-10">November 10, 1912</date><lb/>
-                    <biblScope unit="volume">Vol. 3</biblScope><lb/>
-                    <biblScope unit="number">No. 25</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1912-11-10">November 10, 1912</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 3</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 25</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -323,7 +334,7 @@
                 <p>autorisé de M° Palagi (1): « La loi en « vigueur ne dit rien au sujet de l’oppo-«
                     sition du tiers détenteur à la somma-« tion à lui signifiée en conformité de »
                     l’Art. 697 C. Civ., ni de ses effets sur « la procédure. La Cour d’Appel Mixte «
-                    a déjà eu l’occasion de juger que cette ■> opposition n’équivaut pas à celle
+                    a déjà eu l’occasion de juger que cette ■&gt; opposition n’équivaut pas à celle
                     faite « au commandement par le débiteur, et « que par suite elle n’empêche pas
                     la « saisie (anêt 3 Juin 1891, Bull. IIL 350). « Cette décision ne donne pas
                     lieu à cri-« tique, en présence du texte législatif « actuel, mais il paraît
@@ -608,7 +619,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-11-0010">
                     <head>1. - Accouchement — Transporteur. — Billet de passage. —
                         Débarquement.</head>
                     <div type="summary">
@@ -672,7 +683,7 @@
                             IXXXVUP A. J.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-11-0020">
                     <head>2. - Appel en matière pénale. Motivation. — Irrecevabilité.</head>
                     <div type="summary">
                         <p>Bien que l’art. 151 C. Inst. Cr. ne lépète pas la règle posée par l’art.
@@ -699,7 +710,7 @@
                             en matière pénale.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-11-0030">
                     <head>3. - Calendrier Grégorien. — Loi mixte. — Piescription.</head>
                     <div type="summary">
                         <p>Le calendrier universellement appliqué aux transactions régies par les
@@ -723,7 +734,7 @@
                             XVII, 26).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-11-0040">
                     <head>4. - Chose jugée (Autorité de la), i — Recours.</head>
                     <div type="summary">
                         <p>L’autorité de la chose jugée existe pour toutes les décisions de justice
@@ -737,7 +748,7 @@
                     </div>
                 </div>
                 <pb n="6" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-11-0050">
                     <head>5. - Honoraires taxés. — Avocat.</head>
                     <div type="summary">
                         <p>La taxe des honoraires portée dans un jugement contre la partie
@@ -805,7 +816,7 @@
                             sa critique la plus frappante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-11-0060">
                     <head>6. - Référé. — Subrogation aux poursuites d'expropriation.</head>
                     <div type="summary">
                         <p>Lorsqu’il est établi que le poursuivant en expropriation n’a pas fait les
@@ -825,7 +836,7 @@
                             Stagni et figïi c. R. S. Isaac Sarièl et fils).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-11-0070">
                     <head>7. - Réintégrande. — Action pos-sessoire. — Détention naturelle. — Voie de
                         fait in re ipsa.</head>
                     <div type="summary">
@@ -869,7 +880,7 @@
                             gouvernement civil.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-11-0080">
                     <head>8. - Saisie-brandon. — Absence de commandement itératif. — Défaut de
                         dénonciation.— Pouvoirs du Juge des Référés.</head>
                     <div type="summary">
@@ -887,7 +898,7 @@
                             Franco-Egypt c. Nasr Chehata).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-11-0090">
                     <head>9. - Saisie Mobilière. — Revendication. — Exploit sans conclusion
                         formelle. — Pouvoiis du fuge des Référés.</head>
                     <div type="summary">
@@ -908,7 +919,7 @@
                             c. Dimitri Khalkos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-11-0100">
                     <head>10. - Serment Supplétoire.—Bonne foi.</head>
                     <div type="summary">
                         <p>Le juge peut déférer le serment supplétoire toutes les fois que l’écrit
@@ -921,7 +932,7 @@
                             Joseph Nachaty).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-11-0110">
                     <head>11. - Subrogation aux poursuites d’expropriation- — Revendication. — Chose
                         jugée.</head>
                     <div type="summary">
@@ -1082,7 +1093,7 @@
                 <p>lre Chambre : Affaires nouvel-</p>
                 <p>les introduites du 1er Novembre</p>
                 <p>au 31 Octobre 1912........... 622</p>
-                <p>2>ne Chambre : Affaires nouvel-</p>
+                <p>2&gt;ne Chambre : Affaires nouvel-</p>
                 <p>les introduites du 1er Novembre</p>
                 <p>au 31 Octobre 1912............ 820 1442p)</p>
                 <p>Total.... 3027^</p>
@@ -1229,7 +1240,7 @@
                 <p>(?) dont 307 en matière commerciale.</p>
                 <p>(?) dont 208 en matière commerciale; et dont 970 confirmatifs et 210 réformatifs
                     en tout ou en partie ;</p>
-                <p>(4> dont 34 en matière commerciale.</p>
+                <p>(4&gt; dont 34 en matière commerciale.</p>
             </div>
             <div type="section" feature="lois">
                 <head>Décrets etjèglements</head>
@@ -1254,7 +1265,7 @@
                     possible.</p>
                 <p>Mais, en dehors de ce droit de passage, le propriétaire, qui arrose son terrain
                     au moyen de machines ou de canaux, ne peut forcer les fonds inférieurs à
-                    recevoir ses eaux >.</p>
+                    recevoir ses eaux &gt;.</p>
                 <p>Art. 2.</p>
                 <p>Notre Ministre de la Justice est chargé de la mise à exécution de la présente
                     loi, qui en-</p>

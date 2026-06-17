@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0019-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0019-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1929-07-10">July 10, 1929</date><lb/>
-                    <biblScope unit="volume">Vol. 19</biblScope><lb/>
-                    <biblScope unit="number">No. 225</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1929-07-10">July 10, 1929</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 19</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 225</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -62,7 +73,7 @@
                 <p>— au Journal ;</p>
                 <p>— Un an.................. » 150</p>
                 <p>— Six mois............... » 85</p>
-                <p>— Trois mois.......... > 50</p>
+                <p>— Trois mois.......... &gt; 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an)....... » 250</p>
                 <p>Administrateur-Gérant :</p>
@@ -354,7 +365,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0010">
                     <head>165. - Faillite. — Déclaration; deman--de; Tribunaux mixtes compétemment
                         saisis; compétence acquise même en cas •de disparition ultérieure de
                         l'intérêt mixte. — Assignation signifiée à une société; défaut d'indication
@@ -603,7 +614,7 @@
                             Edgard Risgalla.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0020">
                     <head>166. - Faillite. — Déclaration en Egypte; compétence des Tribunaux du
                         domicile du failli; étendue. — Failli hellène; inscription hypothécaire
                         prise par la-femme du failli, en garantie de sa dot, sur les biens du failli
@@ -644,7 +655,7 @@
                             masse.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appel, Ire Ch.» Prés. M. B. Favenc, 23 Jan> 1929. — Dame
+                        <p>(Cour d’Appel, Ire Ch.» Prés. M. B. Favenc, 23 Jan&gt; 1929. — Dame
                             Cléopâtre Coumpas c. Ferdinand Mathias èsq.).</p>
                     </div>
                     <div type="observations">
@@ -720,7 +731,7 @@
                             passer sur sa tète tout son avoir.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0030">
                     <head>167. - Faillite. — Déclaration; non opposition par le failli en première
                         instance; appel tendant à l'infirmation du jugement déclaratif;
                         irrecevabilité. —• Appel du failli tendant à la modification de la date de
@@ -792,7 +803,7 @@
                             celle du 31 Juillet 1928.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0040">
                     <head>168. - Faillite. — Déclaration; règlement des créanciers par le failli
                         après sa déclaration en faillite; appel; rétractation impossible; nécessité
                         d'une demande en réhabilitation.</head>
@@ -836,7 +847,7 @@
                             qu’en poursuivant sa réhabilitation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0050">
                     <head>169. - Faillite. — Demande en faillite faisant suite à une assignation en
                         paiement; recevabilité.</head>
                     <div type="summary">
@@ -850,7 +861,7 @@
                             Gormanos et Cts c. Jacques M. Mosseri et Cie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0060">
                     <head>170. - Faillite. — Demande se rattachant à la faillite; action en nullité
                         d'une vente immobilière en base de l'art. 238 C. Com.; compétence du
                         Tribunal de Commerce; jugement rendu en la matière; délai d'appel.</head>
@@ -915,7 +926,7 @@
                             jours après la signification du dit jugement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0070">
                     <head>171. - Faillite. — Demande se rattachant à la faillite; taux inférieur à
                         L.E. 100; incompétence du Tribunal Sommaire; compétence exclusive du
                         Tribunal de Commerce.</head>
@@ -981,7 +992,7 @@
                             dommages-intérêts pour action vexatoirc.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0080">
                     <head>172. - Faillite. — Dettes de la masse; créances nées à l'occasion d'une
                         procédure engagée après la faillite, dans l'intérêt de la masse:
                         vérification et admission non nécessaires. — Passif de la faillite; éléments
@@ -1147,7 +1158,7 @@
                             elle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0090">
                     <head>173. - Faillite. — Jugement ayant étendu la faillite d'une société au.r
                         membres de la raison sociale dont la dite société a pris la suite: défaut
                         d'assignation de ces derniers en faillite; validité du jugement. — Extension
@@ -1224,10 +1235,10 @@
                         <p>Qu’il y a donc heu de dire l'appel bien fondé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0100">
                     <head>174. - Faillite. •— Nullités spéciales; actes à titre onéreux passés par
                         le failli après la cessation des paiements; vente; défaut de paiement du
-                        prix par l'acheteur; inapplicabilité de l'art. 236 C. Com. >— Femme du
+                        prix par l'acheteur; inapplicabilité de l'art. 236 C. Com. &gt;— Femme du
                         failli; immeuble vendu à des tiers avant la déclaration de faillite;
                         présomption légale de l'art. 374 C. Com.; inapplicabilité; droit exclusif
                         de. la masse de faire valoir l'art. 374 C. Com. — Commandement immobilier;
@@ -1615,7 +1626,7 @@
                             sur les dits biens...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0110">
                     <head>175. . Faillite. — Nullités spéciales; garanties constituées pendant la
                         période suspecte; compte-courant n'empêchant pas l'annulation. — Gages;
                         remise de documents afférents à des marchandises;: transfert de la
@@ -1786,7 +1797,7 @@
                             mandataire de justice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0120">
                     <head>176. - Faillite. — Opposition au jugement déclaratif; délai; point de
                         départ.</head>
                     <div type="summary">
@@ -1827,7 +1838,7 @@
                             et doit être admise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0130">
                     <head>177. - Faillite, — Production; créance vérifiée et affirmée; admission au
                         passif de la faillite; irrévocabilité; cas d'annulation. — Vérification de
                         créances; affirmation par les soins du syndic; mandat donné à ce dernier. —
@@ -2115,7 +2126,7 @@
                             question ayant été réservée par les appelants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0140">
                     <head>178. - Faillite. — Production et vérification de créances; effets
                         souscrits par le failli; demande d'admission du porteur desdits effets au
                         passif de la faillite; prescription quinquennale soulevée par le syndic;
@@ -2268,7 +2279,7 @@
                             dévolues.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0150">
                     <head>179. - Faillite. — Qualité de commerçant.</head>
                     <div type="summary">
                         <p>S’il est vrai en droit, que l’état de commerçant résulte de l’habitude du
@@ -2288,7 +2299,7 @@
                             Effendi Hilmy c, Mahmoud Abdel Wahab et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0160">
                     <head>180. - Faillite. — Qualité de commerçant; copropriétaire d'une pharmacie.
                         — Déclaration en faillite d'un ancien commerçant; conditions
                         nécessaires.</head>
@@ -2308,7 +2319,7 @@
                             Florio Sullam c. Bahri bey Nas-souhi et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0170">
                     <head>181. - Faillite. —■ Qualité de commerçant; opérations importantes et
                         continues sur coton.</head>
                     <div type="summary">
@@ -2326,7 +2337,7 @@
                             Sebai c. Raison Sociale K. Gounaropoulo et Co.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0180">
                     <head>182. - Faillite. —- Qualité de commerçant; société de prêts hypothécaires;
                         opérations commerciales. — Créanciers civils; cessation de paiement de
                         créances commerciales. —- Société commerciale ayant siège social à
@@ -2557,7 +2568,7 @@
                             la légitimité de cette décision.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0190">
                     <head>183. - Faillite.— Revendication d'effets mobiliers par la femme du failli;
                         articles 375 et 376 C. Com.; interprétation restrictive.</head>
                     <div type="summary">
@@ -2624,7 +2635,7 @@
                             action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0200">
                     <head>184. - Faillite. — Société; responsabilité du gérant envers ses associés
                         et la société, à raison du préjudice causé par ses fautes; conditions
                         d'admission du commanditaire au passif de la faillite de la société;
@@ -2696,7 +2707,7 @@
                             100.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0210">
                     <head>185. - Faillite. — Syndic; montants encaissés et non déposés à la Caisse
                         judiciaire; obligation du syndic au paiement des intérêts des sommes
                         encaissées; prescription libératoire de cinq ans inapplicable; intérêts dus
@@ -2767,7 +2778,7 @@
                             confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0220">
                     <head>186. - Faillite. — Vente commerciale; rétention de la marchandise par le
                         vendeur; effets; défaut de retrait de la marchandise par le syndic en vertu
                         de l'article 103 C. Corn.; caducité de la vente. — Privilège du
@@ -2857,7 +2868,7 @@
                             faillite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0230">
                     <head>187. - Faillite. — Wakf; caractère juridique; annulation; inapplicabilité
                         de l'art. 237 C. Corn.; applicabilité de l'art. 76 C. Civ.; Tribunal Civil
                         compétent.</head>
@@ -2921,7 +2932,7 @@
                         <p>Qu’il y a donc lieu d’annuler le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-07-0240">
                     <head>188. - Faillite. — Wakf constitué par la femme du failli; demande en
                         annulation en vertu de l'art. 76 C. Civ.; Tribunal Civil compétent;
                         présomption de l'art. 374 C. Comin.; portée; femme prête-nom du failli. —
@@ -3180,7 +3191,7 @@
                     fonctionnaire ou l’employé au jour de son décès.</p>
                 <p>Art. 16. — La pension ou l’indemnité des fonctionnaires et employés permanents
                     dont la durée des services comprend des périodes de service dites à demi-temps
-                    sera li-> quidée d’après les règles suivantes:</p>
+                    sera li-&gt; quidée d’après les règles suivantes:</p>
                 <p>(1) La pension qui revient au fonctionnaire ou employé du chef de chaque période
                     séparément sera calculée sur la base du traitement plein ou réduit y afférent,
                     conformément aux règles établies par la présente loi. Les pensions ainsi
@@ -3949,7 +3960,7 @@
                 <p>1 969 23 360 45 553</p>
                 <p>2 950 24 375 46 5 44</p>
                 <p>3 928 25 395 47 534</p>
-                <p>4 904 26 420 48> 524</p>
+                <p>4 904 26 420 48&gt; 524</p>
                 <p>5 876 27 440 49 514</p>
                 <p>6 846 28 460 50 504</p>
                 <p> 814 29 480 51 493</p>
@@ -4998,7 +5009,7 @@
                     Subrogation légale.</p>
                 <p>Juin » • Vente.-Vente commerciale. - Vente de coton.</p>
                 <p>Juillet » Assurances et transports maritimes.-</p>
-                <p>Août > Questions administratives.</p>
+                <p>Août &gt; Questions administratives.</p>
                 <p>Septembre » Questions pénales.</p>
                 <p>Octobre » - Assurances. - Change. - Paiement. -Sociétés.</p>
                 <p>Novembre » - Compétence. - Juridiction mixte. - Nationalité. - Statut
@@ -5007,7 +5018,7 @@
                 <p>Janvier 1928 - Actes de commerce. - Effets de commerce. - Opérations de Bourse. -
                     Vente de coton.</p>
                 <p>Février » - Wakf.</p>
-                <p>Mars » - Partage immobilier. - Préemption. -> Retrait d’indivision.-Vente
+                <p>Mars » - Partage immobilier. - Préemption. -&gt; Retrait d’indivision.-Vente
                     immobilière.</p>
                 <p>Avril » - Action possessoire.- Bail.- Prescription.</p>
                 <p>Mai » - Propriété industrielle. - Propriété littéraire et artistique.</p>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0016-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0016-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1926-03-10">March 10, 1926</date><lb/>
-                    <biblScope unit="volume">Vol. 16</biblScope><lb/>
-                    <biblScope unit="number">No. 185</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1926-03-10">March 10, 1926</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 16</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 185</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -50,7 +61,7 @@
                 <p>D' ÉGYPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
-                <p>Fondateurs > M- MAXIME PCTPIKOFEB et LÉON" PANGALO, Avocats à la Cour.</p>
+                <p>Fondateurs &gt; M- MAXIME PCTPIKOFEB et LÉON" PANGALO, Avocats à la Cour.</p>
                 <p>Directeur : M® MAXIME PÜPIKOFER, Avocat à la Cour.</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an).... P.T. 150</p>
@@ -221,7 +232,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0010">
                     <head>136. - Juridiction indigène. — Loi de 1912 relative aux conditions de
                         service des Conseillers à la Cour; loi sur les pensions de 1909;
                         dispositions légales coexistantes; magistrat mis à la retraite à la suite
@@ -444,7 +455,7 @@
                             différents, le jugement du Tribunal.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0020">
                     <head>137. - Juridiction mixte. — Action pos~ sessoire; caractère réel;
                         compétence des Tribunaux Mixtes entre parties de même nationalité. — Action
                         possessoire; inadmissibilité d'un sursis jusqu'au vidé d'un litige touchant
@@ -520,7 +531,7 @@
                         <p>Attendu que c’est avec raison que le pre-'■mier juge a solutionné cette
                             question par .l’affirmative; qu’en effet, l’action possessoire constitue
                             une action de caractère immo-.bilier par le fait qu’elle vise un
-                            immeuble >et tend à faire trancher une question de Possession par
+                            immeuble &gt;et tend à faire trancher une question de Possession par
                             rapport à cet immeuble;</p>
                         <p>Attendu que c’est à tort que le premier juge a sursis à statuer
                             jusqu’après décision du Tribunal consulaire hellénique; qu’en ce
@@ -557,7 +568,7 @@
                             mise hors de cause.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0030">
                     <head>138. - Juridiction mixte. — Compétence à l'égard des étrangers; cas ne
                         rentrant point dans les prévisions de l'art. 14 C. Civ. — Navire; saisie
                         conservatoire pratiquée en Egypte à la garantie d'une créance échappant à
@@ -708,7 +719,7 @@
                             Greffier en Chef du Tribunal d’Alexandrie en date du 16 Avril 1923.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0040">
                     <head>139. - Juridiction mixte. — Compétence à l'égard des étrangers n'ayant
                         jamais habité l'Egypte; art. 14 C. Civ.</head>
                     <div type="summary">
@@ -960,7 +971,7 @@
                             d’espèce qui avait été tenue en suspens.dans la seconde.affaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0050">
                     <head>140. - Juridiction mixte. — Compétence « l’égard des étrangers sans égard
                         à leur résidence; compétence basée sur l’art. 35, 7°. C. Proc.; terme
                         «promesse»; signification. — Contrat par correspondance; conclusion 'au lieu
@@ -985,9 +996,8 @@
                             guerre, la livraison du produit aurait eu lieu à l’étranger. r</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appel; 1ère Ch.» Prés. M. . M. Hausson, 6. Mai 1925. •—
-                            Alexandre H. Haddad c.. The Corona Typewrîter Co. Inc. et Cts). . ‘
-                            •</p>
+                        <p>(Cour d’Appel; 1ère Ch.» Prés. M. . M. Hausson, 6. Mai 1925. •— Alexandre
+                            H. Haddad c.. The Corona Typewrîter Co. Inc. et Cts). . ‘ •</p>
                     </div>
                     <pb n="115" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                     <div type="observations">
@@ -1047,12 +1057,12 @@
                             contrat litigieux ayant pour but d’accorder l’exclusivité de la vente
                             en-Egypte des machines de la Corona, c’est çe.dernier.pays qui est le
                             lieu d’exécution du contrat malgré que tem-'pûrairement ' et’ à causé de
-                            l’existence dé > la guerre la livraison des.machines; partie accessoire
-                            idu contrat, ait eu lieu à. New-York?</p>
+                            l’existence dé &gt; la guerre la livraison des.machines; partie
+                            accessoire idu contrat, ait eu lieu à. New-York?</p>
                         <p>Attendu qu’il y a lieu par conséquent dé sé déclarer compétent...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0060">
                     <head>141. - Juridiction mixte. — Compétence à l'égard de tout étranger, en
                         matière civile ét commerciale; nationalité non établie. ■— Courtage;
                         accomplissement du mandat reçu; non réalisation de l'opération entre
@@ -1146,7 +1156,7 @@
                             pour leurs peines et soins dans la seconde, quoique non réalisée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0070">
                     <head>142. - Juridiction mixte. — Compétence à statuer sur les actions
                         possessoires nées d'un trouble contre une possession justifiée par un
                         jugement, d'adjudication mixte. — Action possessoire; étendue de la
@@ -1324,7 +1334,7 @@
                             demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0080">
                     <head>143. - Juridiction mixte. — Compétence à statuer sur les demandes
                         d'indemnité des fonctionnaires étrangers du Gouvernement Egyptien; Loi No.
                         28 de 1923; Commission des huit; décisions non sou-veraines; recours des
@@ -1574,7 +1584,7 @@
                             le jugement déféré jet de dire la dite demande bien fondée,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0090">
                     <head>144. - Juridiction mixte.^- Compétence; ■■conflit entre prétendants
                         indigènes à une succession; présence en cause de débiteurs étrangers;
                         défenses de payer; action accessoire; fonction; effets. — Egyptiens -non
@@ -1766,7 +1776,7 @@
                             dissoute par le décès du premier et d’en ordonner la liquidation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0100">
                     <head>145. - Juridiction mixte. — Compétence ■dans les litiges entre égyptiens
                         et. otto-tnans, depuis le Traité de Lausanne du 24 Juillet 1923.</head>
                     <div type="summary">
@@ -1827,7 +1837,7 @@
                             les Tribunaux Mixtes seuls qui sont compétents.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0110">
                     <head>146. - Juridiction mixte. — Compétent ce dans les litiges entre égyptiens
                         et palestiniens.</head>
                     <div type="summary">
@@ -1846,7 +1856,7 @@
                         <p>Note. — V. la note sous le jug. du 15 Décembre 1925, ci-après § 147.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0120">
                     <head>147. - Juridiction mixte. — Compétence dans les litiges entre les Syriens,
                         Libanais et Palestiniens, habitant la Syrie,le Liban ou la Palestine et les
                         sujets égyptiens ou les Syriens, Libanais, Palestiniens établis en Egypte
@@ -1990,7 +2000,7 @@
                             connaître du présent litige.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0130">
                     <head>148. - Juridiction mixte. — Compétence en matière d'opposition à
                         commandement, entre indigènes, s'il s'agit d'immeubles grevés d'inscriptions
                         au profit d'étrangers. — Solidarité; cautionnement; remise de la garantie;
@@ -2113,7 +2123,7 @@
                             l’intimé pour action v exutoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0140">
                     <head>149. - Juridiction mixte. — Compétence pour arrêter l'execution d'une
                         mesure ordonnée par la Juridiction indigène, et portant pré'iudice à un
                         étranger. Municipalité; autorisation donnée à la Compagnie des Eaux pour
@@ -2218,7 +2228,7 @@
                             actuelle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0150">
                     <head>150. - Juridiction mixte. — Contrats passés à l'étranger; exécution non
                         prévue en Egypte; incompétence des Tribunaux Mixtes.</head>
                     <div type="summary">
@@ -2330,7 +2340,7 @@
                             connaître de la présenté action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0160">
                     <head>151. - Juridiction mixte. — Contraventions; compétence à l'égard des
                         étrangers non capitulaires; allemands et autrichiens; condamnation
                         incompétemment prononcée par le Tribunal Indigène.</head>
@@ -2352,7 +2362,7 @@
                             Fraenkel c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0170">
                     <head>152. - Juridiction mixte. — Etablissements catholiques d'enseignement
                         placés sous le protectorat de la France; Convention du 19 Septembre 1874
                         entre l'Egypte et la France; Décret du 1er Mars 1901; Collège des Frères des
@@ -2407,7 +2417,7 @@
                             sous le régime de l’annexe de 18i74, (V. Bull. VII, 7).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0180">
                     <head>153. - Juridiction mixte. -— Exequatur; principe de réciprocité; droit de
                         révision des jugements britanniques. — Jugements étrangers rendus par un
                         Tribunal' incompétent; exequatur impossible en Egypte.</head>
@@ -2479,13 +2489,13 @@
                             Britannique a retenu sa compétence. Et il est presque superflu d’ajouter
                             que cette compétence inexistante n’aurait pu être remplacée par la
                             contestation soulevée à ce sujet par la défenderesse.</p>
-                        <p>A part tonte autre considération, en effet, >1 suffît d’observer que se
-                            présentant pour ■décliner la compétence des juges anglais, la
+                        <p>A part tonte autre considération, en effet, &gt;1 suffît d’observer que
+                            se présentant pour ■décliner la compétence des juges anglais, la
                             -défenderesse ne peut pas être censée l’avoir -acceptée.</p>
                         <p>Gazette des Tribunaux Mixtes d’Egypte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0190">
                     <head>154. - Juridiction mixte. — Incompétence à l'égard, des Etats étrangers,
                         pour leurs actes de souveraineté; compétence pour leurs actes de droit
                         privé. — Caisse Nationale d'Epargne Française; caractères; fonctions de
@@ -2750,7 +2760,7 @@
                             competenza delle Giurisdizioni Miste, stabilité in virtù dei trattati
                             internazio-nali che le hanno istituite.</p>
                         <p>IV.</p>
-                        <p>■></p>
+                        <p>■&gt;</p>
                         <p>Sut diritto del dépositaire quanto alla mo-neta nella quale deve
                             eseguirsi il rimborso-del deposito.</p>
                         <p>Il Tribunale osserva, discendendo al mérite délia causa, che lo
@@ -2824,7 +2834,7 @@
                         <p>Le spese seguono la condanna.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0200">
                     <head>155. - Juridiction mixte. — Incompétence à statuer, entre sujets locaux,
                         sur une action en revendication formulée ensemble à une demande d'annulation
                         de vente à un étranger; disjonction nécessaire des deux chefs. — Vente;
@@ -2848,7 +2858,7 @@
                     <div type="observations">
                         <p>Note. — L’arrêt expose:</p>
                         <p>, Attendu que par son jugement en date du au Avril 1924, le Tribunal de
-                            première instan->. > tout en rejetant l’exception d’incompéten</p>
+                            première instan-&gt;. &gt; tout en rejetant l’exception d’incompéten</p>
                         <p>ce, a ordonné la production d’une pièce et par son jugement définitif en
                             date du 19 Juin 1924,. le même Tribunal a accueilli la revendication du
                             Sieur Faltass;</p>
@@ -2892,7 +2902,7 @@
                             n’intéressent que des sujets locaux...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0210">
                     <head>156. - Juridiction mixte. — Instance entre indigènes; saisie-arrêt entre
                         les mains d'un étranger; cas où le litige comporte un intérêt mixte; recours
                         devant le Tribunal contre les ordonnances du Juge de service; portée quant à
@@ -2921,7 +2931,7 @@
                             Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0220">
                     <head>157. - Juridiction mixte. — Intérêt mixte; compétence à statuer sur les
                         actions possessoires nées, même entre sujets locaux, à la suite d’une mise
                         en possession en vertu d'une adjudication mixte.</head>
@@ -2973,7 +2983,7 @@
                             à connaître du litige (entra indigènes); -</p>
                         <pb n="126" rendition="Gstzetté des Tribunaux Mixtes d’Egypte.'"/>
                         <p>Attendu qu’au cas de l’espèce le Wakf appelant, bien qu’agissant par la
-                            voie de l’action ->u complainte, demande à être réintégré dans îa
+                            voie de l’action -&gt;u complainte, demande à être réintégré dans îa
                             parcelle litigieuse dont il a été privé par la luise en possession des
                             adjudicataires, de sorte qu’en principe et en fait, l’arrêt du 20
                             Février 1919 s’applique exactement aux circonstances de la cause;</p>
@@ -3063,7 +3073,7 @@
                             parties litigantes....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0230">
                     <head>158. - Juridiction mixte. — Intérêt mixte; compétence dans une instance
                         préparatoire à une action en dommages-intérêts devant englober un étranger;
                         mise, en cause de ce dernier, dans l'instance préparatoire.</head>
@@ -3171,7 +3181,7 @@
                             nationalité de la maison appelante ainsi que celle des Khawan.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0240">
                     <head>159. - Juridiction mixte.— Intérêt mixte; compétence dans un litige entre
                         créancier et garant de la même nationalité, lorsque le débiteur est de
                         nationalité différente. — Compétence du. Juge mixte des Référés sur les
@@ -3556,7 +3566,7 @@
                             que des biens meubles.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0250">
                     <head>160. - Juridiction mixte. — Intérêt mixte; incompétence dans une instance
                         entre sujets locaux, en cas de mise en cause injustifiée de l’ex-syndic de
                         la faillite mixte du demandeur, après la clôture de la faillite.</head>
@@ -3637,7 +3647,7 @@
                             soulevée devant la Cour par le Ministère des Wakfs. '</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0260">
                     <head>161. - Juridiction mixte.— Intérêt mixte; incompétence dans une instance
                         passes-soire entre sujets locaux, malgré la mise en cause du vendeur
                         étranger, sujet à recours en garantie éventuel.</head>
@@ -3711,7 +3721,7 @@
                         <p>Qu’il y a donc lieu de confirmer le jugement dont est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0270">
                     <head>162. - Juridiction mixte. — Jugements étrangers statuant sur l'état et la
                         capacité des personnes; exequatur non nécessaire. — Jugement obtenu par
                         collusion; droit d'opposition de la partie défaillante.</head>
@@ -3731,7 +3741,7 @@
                             propriété.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appel, 3me Ch., Prés. M. G. Baviera, 31 Mar» 132>. — Alexandre
+                        <p>(Cour d’Appel, 3me Ch., Prés. M. G. Baviera, 31 Mar» 132&gt;. — Alexandre
                             Pahomoff et autre c. l’intendant Général Bourgeois).</p>
                     </div>
                     <div type="observations">
@@ -3867,7 +3877,7 @@
                             jugée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0280">
                     <head>163. - Juridiction mixte. — Juridiction administrative. — Actes de
                         souveraineté; notion. — Acte administratif; Capitulations; ordre de démonter
                         un appareil de radiophonie; simple ordre administratif; légitimité de ces
@@ -3893,8 +3903,8 @@
                             radiotéléphonie.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Trib. Civ. Alex., 2me Ch., Prés. >!. '8. Messina, 2 Février 1926. — J.
-                            Santueci c. S.E. Sedki Pacha èsq. de Gouverneur de la Ville
+                        <p>(Trib. Civ. Alex., 2me Ch., Prés. &gt;!. '8. Messina, 2 Février 1926. —
+                            J. Santueci c. S.E. Sedki Pacha èsq. de Gouverneur de la Ville
                             d’Alexandrie).</p>
                     </div>
                     <div type="observations">
@@ -4013,7 +4023,7 @@
                             de correspondances». Comment pourrait-on comprendre dans l'hypothèse de
                             la loi les appareils récepteurs de radiophonie, que le législateur- de
                             1906 n'ç pas prévus et ne pouvait pas prévoir, et qui sont tout autre
-                            chose que les installations par lui visées? ’></p>
+                            chose que les installations par lui visées? ’&gt;</p>
                         <p>C) Au fond, le Tribunal observe que, tout préjudice étant exclu par
                             rapport à la prétendue violation de domicile,le préjudice réellement
                             subi par le Sieur Santueci se réduit aux frais de montage et démontage
@@ -4023,7 +4033,7 @@
                             légitime l'insiallation. i</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0290">
                     <head>164. - Juridiction mixte. — Juridiction administrative; unité de la
                         Juridiction mixte comme juridiction ordinaire; limites de sa compétence
                         suivant la nature de l'acte de l'administration publique; actes de
@@ -4324,7 +4334,7 @@
                             le jugement dont appel mérite d’être confirmé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0300">
                     <head>165. - Juridiction mixte. — Nationalité étrangère invoquée et ensuite
                         déniée par un plaideur; preuve de sujétion locale, à sa charge; certificat
                         consulaire, insuffisant; compétence mixte.</head>
@@ -4395,7 +4405,7 @@
                             dilatoires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0310">
                     <head>166. - Juridiction mixte. — Prête-nom; conditions de validité, au point de
                         vue de la compétence; décision de la Juridiction mixte., incompétemment
                         rendue ra-tione materiœ; autorité de la chose jugée. ■— Expropriation; dire
@@ -4434,8 +4444,8 @@
                         <p>Note. — I. - Comp. sur ce point, les : arrêts des 22 Avril 1924, Gaz.
                             XIV, 174- . 281, et 29 Avril 1924, Gaz., XIV, 221-347. i</p>
                         <p>II. - Sur la portée de la constitution de : prête-nom au point de vue de
-                            la compé- > tence de la Juridiction mixte, consulter j les arrêts cités
-                            en note sub Gai;- XIV, ■ 181-292. ' !</p>
+                            la compé- &gt; tence de la Juridiction mixte, consulter j les arrêts
+                            cités en note sub Gai;- XIV, ■ 181-292. ' !</p>
                         <p>I à IV. - L’arrêt expose, sur les points rapportés:</p>
                         <p>...Attendu que l’appelant a formulé différents chefs de dire au Cahier,
                             des Charges dé-'posé par le Sieur,Psaropoulo au cours de la procédure
@@ -4505,7 +4515,7 @@
                             lorsque la dette est éteinte...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0320">
                     <head>167. - Juridiction mixte. — Question de statut personnel; exception
                         préjudicielle; cas où il n'y a. pas lieu à sursis à statuer. — Statut
                         personnel musulman; reconnaissance de dette au profit d'un héritier, au
@@ -4653,7 +4663,7 @@
                             signification apparente des faits ci-dessus exposés...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0330">
                     <head>168. - Juridiction mixte.. — Référés; compétence du juge mixte pour
                         ordonner la dis continuation de l'exécution d'urne décision de la
                         Juridiction indigène, en cas d'opposition par un étranger; conditions;
@@ -4839,7 +4849,7 @@
                             Ahmed Sayala ne justifie d’aucun intérêt personnel,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0340">
                     <head>169. - Juridiction mixte. — Référés; demande en séquestration; cas où il
                         exis-te sur les biens une inscription hypothécaire au profit d'un étranger;
                         cas où il existe une instance en partage par devant la Juridiction mixte. —
@@ -4913,7 +4923,7 @@
                             mieux à même d’apprécier l’opportunité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0350">
                     <head>170. - Juridiction mixte. — Saisie-arpét entre les mains d'un étranger;
                         contestation entre indigènes; compétence exclusive du Juge de Service mixte
                         pour la liquidation de la créance. — Saisie-arrêt; solvabilité du débiteur
@@ -5028,7 +5038,7 @@
                             l’insolvabilité du débiteur saisi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-03-0360">
                     <head>171. - Juridiction mixte. — Succession; séquestre; cessation de ses
                         fonctions depuis le partage. — Revendication entre sufets locaux;
                         intervention d'un communiste étranger; compétence mixte.</head>
@@ -5056,12 +5066,12 @@
                             Caire le-8 Novembre 1923, qui a déclaré sa demandé en revendication
                             irrecevable; '</p>
                         <p>Attendu que Hanna Bakhoum, sujet local, a formulé une demande en
-                            revendication, tant personnellement que comme séquestre ->t liquidateur
-                            de la succession de feu Théodore Bakhoum; que son adversaire excipe de
-                            l’irrecevabilité de l’action par devant les Juridictions mixtes, les
-                            fonctions de Hanna Bakhoum, tant comme séquestre que comme liquidateur,
-                            ayant pris fin à la suite du partage de la succession, qui a eu lieu par
-                            acte authentique du 16 Octobre 1918;</p>
+                            revendication, tant personnellement que comme séquestre -&gt;t
+                            liquidateur de la succession de feu Théodore Bakhoum; que son adversaire
+                            excipe de l’irrecevabilité de l’action par devant les Juridictions
+                            mixtes, les fonctions de Hanna Bakhoum, tant comme séquestre que comme
+                            liquidateur, ayant pris fin à la suite du partage de la succession, qui
+                            a eu lieu par acte authentique du 16 Octobre 1918;</p>
                         <p>Attendu que les fonctions de séquestre de la dite succession ont été
                             attribuées à Hanna Bakhoum par l’ordonnance du 22 Mars 1916, et celles
                             de liquidateur, par jugement du 21 Lévrier 1917, confirmé sur appel, par
@@ -5262,7 +5272,7 @@
                 <p>Sur la proposition de Notre Ministre de la Justice et l’avis conforme de Notre
                     Conseil des Ministres;</p>
                 <pb n="139" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <p>M "- _ — '>■ 1 - ---'■■■= ■ ' " -</p>
+                <p>M "- _ — '&gt;■ 1 - ---'■■■= ■ ' " -</p>
                 <p>DECRETONS:</p>
                 <p>Art. 1. — Le Tarif Judiciaire des Méglis Hasbys ci-annexé et comprenant
                     trente-six articles est approuvé.</p>

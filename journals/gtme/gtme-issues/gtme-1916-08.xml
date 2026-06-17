@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0006-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0006-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1916-08-10">August 10, 1916</date><lb/>
-                    <biblScope unit="volume">Vol. 6</biblScope><lb/>
-                    <biblScope unit="number">No. 70</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1916-08-10">August 10, 1916</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 6</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 70</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -281,7 +292,7 @@
             <pb n="147" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0010">
                     <head>447. - Accidents du travail. — Responsabilité du patron. — Charge de la
                         preuve.</head>
                     <div type="summary">
@@ -377,7 +388,7 @@
                             patron.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0020">
                     <head>448. - Adjudication. — (Jugement d’). — Dispense de dépôt du prix.</head>
                     <div type="summary">
                         <p>La dispense du dépôt du prix d’adjudication ne peut être accordée que par
@@ -421,7 +432,7 @@
                             une question définitivement réglée par le jugement d’adjudication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0030">
                     <head>449. - Adjudication. — Jugement statuant sur la caution. — Appel.</head>
                     <div type="summary">
                         <p>Si le jugement d’adjudication n’a pas seulement prononcé l’adjudication,
@@ -440,7 +451,7 @@
                             Mansour eifendi Chédid c. Mortgage Cy of Egypt Ltd et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0040">
                     <head>450. - Appel. — Motivation. — Recevabilité.</head>
                     <div type="summary">
                         <p>Il suffit, pour répondre au vœu de la loi, d’énoncer les griefs sur
@@ -461,7 +472,7 @@
                             Abdel Al Hassan El Nùnr c. Agricultural Bank of Egypt et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0050">
                     <head>451. - Appel. — Recevabilité. — Taux.</head>
                     <div type="summary">
                         <p>N’est pas susceptible d’appel, à raison du taux, le jugement qui, quoique
@@ -475,7 +486,7 @@
                             c. C. W. de Gerber).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0060">
                     <head>452. - Aveu. — Indivisibilité.</head>
                     <div type="summary">
                         <p>La loi ne fait aucune distinction d’après la manière dont l’aveu a eu
@@ -487,7 +498,7 @@
                             El Heddeni c. Anglo Egyptîan Bank et autres). *</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0070">
                     <head>453. - Banqueroute. — Faillite. — Mineur de 21 ans.</head>
                     <div type="summary">
                         <p>Le mineur de 21 ans qui n’a pas reçu l’autorisation de se livrer au
@@ -503,7 +514,7 @@
                             Mohamed Mohamed Khalil El Kabbani c. Ministère Publie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0080">
                     <head>454. - Cassation. — Chose jugée. — Prescription. — Banqueroute.</head>
                     <div type="summary">
                         <p>I.-En matière criminelle, les exceptions qui tiennent à l’ordre public,
@@ -525,7 +536,7 @@
                             Nabih S. Ar.houry c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0090">
                     <head>455. - Compte-courant. — Acte de commerce. — Compétence commerciale. —
                         Compétence ratione materiœ.</head>
                     <div type="summary">
@@ -544,7 +555,7 @@
                             Bersoumi.et autres c. Bank of Egypt en liq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0100">
                     <head>456. - Courtier. — Commission de la Bourse des Valeurs. — Taxe. —
                         Opposition. — Tarif des courtages. — Règlement de la Bourse.</head>
                     <div type="summary">
@@ -643,7 +654,7 @@
                             le montant des honoraires dûs à la Commission de la Bourse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0110">
                     <head>457. - Créancier gagiste. — Responsabilité. — Effets de commerce. —
                         Recouvrement. — Tiers convenu.</head>
                     <div type="summary">
@@ -658,7 +669,7 @@
                             Curiel c. Cts Boubli).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0120">
                     <head>458. - Délits d’audience. — Recours en cassation. — Chambre Mixte. —
                         Tribunal de Commerce. — Procès-verbal d'audience. — Preuve des délits
                         d'audience. — Résistance et voies de fait contre les Gardes du
@@ -696,7 +707,7 @@
                             Lorenzo Canestracci c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0130">
                     <head>459. -Demande reconventionnelle. — Recevabilité. — Créance
                         exigible.</head>
                     <div type="summary">
@@ -710,7 +721,7 @@
                             c. Hoirs Khalil Sallam.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0140">
                     <head>460. -Détournement d’objets saisis. — Caractère punissable. — Validité de
                         la saisie.</head>
                     <div type="summary">
@@ -732,7 +743,7 @@
                             102-309, et note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0150">
                     <head>461. - Détournement. — Prescription. — Date apparente.</head>
                     <div type="summary">
                         <p>On ne saurait se placer à la date apparente, portée dans le texte des
@@ -751,7 +762,7 @@
                             Amin Mohamed Karim c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0160">
                     <head>462. - Dire. — Disant décédé. — Nullité couverte par l’intervention des
                         héritiers. — Transcription du commandement. — Nullité des ventes
                         postérieures. — Caractère de cette nullité.</head>
@@ -773,7 +784,7 @@
                             Marie Bocti et Cts c. Jean Psikha).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0170">
                     <head>463. - Enquête. — Renonciation tacite. — Audition des témoins. —
                         Récusation.</head>
                     <div type="summary">
@@ -792,7 +803,7 @@
                             èsq. c. Kyriacos Moussa et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0180">
                     <head>464. - Expropriation. — Jugement des nullités survenues depuis la fixation
                         du jour d'adjudication. — Nullités de forme et nullités de fond. — Juge
                         délégué aux adjudications.</head>
@@ -818,7 +829,7 @@
                             Zobeida Hanem et autre c. Crédit Foncier Egyptien et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0190">
                     <head>465. - Faillite. — Actes annulables. — Fraude.</head>
                     <div type="summary">
                         <p>Il est de jurisprudence que la connaissance de la cessation des paiements
@@ -831,7 +842,7 @@
                             Rothaker et autres c. Nadr Moustafa),</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0200">
                     <head>466. - Faillite. — Cessation de paiements. — Dette litigieuse. — Aveu
                         conditionnel.</head>
                     <div type="summary">
@@ -853,7 +864,7 @@
                             Papadopoulo c. Hoirs de feu Constantin Kahil et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0210">
                     <head>467. - Faillite. — Déclaration de l’état d’union. — Absence de
                         recours.</head>
                     <div type="summary">
@@ -875,7 +886,7 @@
                             Sassy c. Anis Doss es*cj.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0220">
                     <head>468. - Faillite. — Rétractation.</head>
                     <div type="summary">
                         <p>La jurisprudence de la Cour s’est affirmée dans le sens que si avant
@@ -889,7 +900,7 @@
                             Nour c. Piromaly es-q. et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0230">
                     <head>469. - Fins de non recevoir. — Opposabilité aux chargeurs. — Point de
                         départ du délai de 31 jours fixé par l’art. 275 C. Com. Mar.</head>
                     <div type="summary">
@@ -992,7 +1003,7 @@
                         <p>Elle retient, en outre, d’une part, que dans sa protestation du 31
                             Octobre 1914 à Lisbonne contre la Deutsche Levante Linie, à raison de la
                             relâche du Rhodos, Goar a «exclu la possibilité « de la considérer comme
-                            une avarie grosse >, et que, dans sa convention du 16 Novembre avec
+                            une avarie grosse &gt;, et que, dans sa convention du 16 Novembre avec
                             cette Compagnie il a contesté de nouveau ce caractère en s’engageant à
                             soumettre le règlement de la question au juge commercial de la
                             juridiction de Lisbonne, tandis que, d’autre part, son exploit
@@ -1020,7 +1031,7 @@
                             difficiles à soutenir vis-à-vis. de la Rossia.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0240">
                     <head>470. - Gage. — Garouka. — Nullité pour défaut de possession.</head>
                     <div type="summary">
                         <p>La simple qualification de « Rahn Ga~ rouka » qui se trouve dans un acte
@@ -1032,7 +1043,7 @@
                             Loulfi c. Agricultural Bank of Egypt et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0250">
                     <head>471. - Honoraires de défense. — Assistance judiciaire. — Bénéfice propre
                         de l’avocat.</head>
                     <div type="summary">
@@ -1045,7 +1056,7 @@
                             Albert Louis Henri de Gaiihard c. Aly Aly Abdou et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0260">
                     <head>472. - Hypothèque. — Garantie des intérêts. — Droits des créanciers
                         chirographaires.</head>
                     <div type="summary">
@@ -1073,7 +1084,7 @@
                             article 692 C. Civ., par V. Falqui-Cao, Gaz. III, p. 19.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0270">
                     <head>473. - Instruction pénale. — Secret. — Nullité.</head>
                     <div type="summary">
                         <p>I. - L’art. 49 C. Instr. Cr. ne prévoit pas de nullité pour le cas où,
@@ -1133,7 +1144,7 @@
                             ni, par suite, vicié la procédure dans sa substance même.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0280">
                     <head>474. - Jugement définitif. — Sursis. — Appel. — Recevabilité.</head>
                     <div type="summary">
                         <p>Les jugements se divisent, en jugements d’avant dire droit et jugements
@@ -1160,7 +1171,7 @@
                             rép. XXIX, 237.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0290">
                     <head>475. - Mandat. — Procuration équivoque. — Opération contestée. —- Désaveu
                         tardif du mandant. — Société. — Succursale.</head>
                     <div type="summary">
@@ -1181,7 +1192,7 @@
                             bey Acclimandos c. Banco di Roma).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0300">
                     <head>476. - Mandat. — Tiers chargé par le courtier. — Intervention.</head>
                     <div type="summary">
                         <p>Le mandant ne contracte aucune obligation vis-à-vis du tiers employé par
@@ -1196,7 +1207,7 @@
                             Vafiadis et Co c. Constantin Levidis et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0310">
                     <head>477. - Miss en demeure. — Interprétation des contrats.</head>
                     <div type="summary">
                         <p>I. - Une simple demande,à laquelle il n’a pas été donné suite, ne
@@ -1215,7 +1226,7 @@
                             c. Agence Lubin en liq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0320">
                     <head>478. - Nationalité hellénique. — Contestation parle Gouvernement Egyptien.
                         — Certificat consulaire. — Conventions du 2 Février 1890, du 21 Novembre
                         1896, et du 28 Mai 1903.</head>
@@ -1310,7 +1321,7 @@
                             vidé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0330">
                     <head>479. - Partage'. — Intervention des créanciers hypothécaires. — Effets du
                         partage sur l'hypothèque.</head>
                     <div type="summary">
@@ -1366,7 +1377,7 @@
                             léserait.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0340">
                     <head>480. - Requête civile. — Irrecevabilité de conclusions subsidiaires
                         tendant à des mesures d'instruction. — Référé. — Cumul du rescindant et du
                         rescisoire.</head>
@@ -1390,7 +1401,7 @@
                         <p>Note. — II. - v. Gaz. VI, 57-166, et note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0350">
                     <head>481. - Saisie-arrêt. — Droit propre du saisissant contre le tiers-saisi. —
                         Déclaration incomplète ou dolosive.</head>
                     <div type="summary">
@@ -1421,7 +1432,7 @@
                             Mikhail Abdel Sayed el Houi, et autre c. Banque d’Athènes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0360">
                     <head>482. - Saisie-arrêt. — Tiers-saisi. — Responsabilité. — Déclaration
                         dolosive. — Appel. — Recevabilité.</head>
                     <div type="summary">
@@ -1497,7 +1508,7 @@
                             l’appel interjeté par Gabr Badaoui est parfaitement recevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0370">
                     <head>483. - Servitude de passage.— Mode d’acquisition. — Prescription. — Usages
                         locaux. — Enclave.</head>
                     <div type="summary">
@@ -1524,7 +1535,7 @@
                             Constantin Zomo c. Ismaïl Abdel Kérim).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0380">
                     <head>484. - Signification au Parquet. — Défendeur domicilié en pays
                         ennemi.</head>
                     <div type="summary">
@@ -1617,7 +1628,7 @@
                             péril.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0390">
                     <head>485. - Société anonyme. — Actionnaire isolé. — Action ut singuli.— Recours
                         préalable à l’Assemblée Générale.—Statuts. —Liquidation. — Préjudice. — Fin
                         de non recevoir. — Administrateurs. — Responsabilité.</head>
@@ -1968,7 +1979,7 @@
                             revenir.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0400">
                     <head>486. - Sujets ennemis. — Contrats.— Impossibilité d’exécution. — Actes de
                         ! Autorité. — Force majeure. — Fait du Prince. — Faute. ■— Liquidation. —
                         Neutres. — Dommages-intérêts. — Responsabilité.</head>
@@ -2050,7 +2061,7 @@
                             principes actuels ayant abouti à la législation de guerre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0410">
                     <head>487. - Tekliff (Transfert du). — Gouvernement. — Responsabilité.</head>
                     <div type="summary">
                         <p>Ne commet aucune faute engageant sa responsabilité le Gouvernement qui
@@ -2065,7 +2076,7 @@
                             Siagnî efigJi c. Mikhaïl Moussa et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0420">
                     <head>488. -Tutelle. — Statut personnel Copte.</head>
                     <div type="summary">
                         <p>Si, aux termes de l’art. 39 du statut personnel copte, à défaut d’un
@@ -2082,7 +2093,7 @@
                             Veuve de feu Guîrguis Daoud et Cts c. Comte Aziz de Saab).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-08-0430">
                     <head>489. - Vente à livraisons échelonnées. — Défaut de mise en demeure. —
                         Résolution de la vente.</head>
                     <div type="summary">
@@ -2096,8 +2107,8 @@
                             son profit, de. plein droit et sans besoin de sommation.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appel, Ire Ch. Prés: M. F. Laloë, 10 Mai 1916. — Ch. Geahel
-                            &amp; Co c. Farghali bey El Sayed &amp; Co).</p>
+                        <p>(Cour d’Appel, Ire Ch. Prés: M. F. Laloë, 10 Mai 1916. — Ch. Geahel &amp;
+                            Co c. Farghali bey El Sayed &amp; Co).</p>
                     </div>
                     <div type="observations">
                         <p>Note. — L’arrêt rapporté invoque un précédent arrêt du 1er Avril 1908,

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1921-01-10">January 10, 1921</date><lb/>
-                    <biblScope unit="volume">Vol. 11</biblScope><lb/>
-                    <biblScope unit="number">No. 123</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1921-01-10">January 10, 1921</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 11</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 123</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -148,10 +159,10 @@
                     raisons qui l’avaient amené à esquisser un système de Corps Législatif pour les
                     étrangers.</p>
                 <p>Il reconnaît que « le régime personnel » qui avait existé pendant son séjour en
-                    Egypte «était «nécessaire pendant les premières années de « l’occupation >, mais
-                    à raison de « ses nom-« Dreux défauts... ne pouvait être... que transi-♦ toire.
-                    Mais quel système, — se demandait Lord Cromer, — pouvait-on mettre à sa place?!
-                    La « question était épineuse. Croire que les Egyp-« tiens, dans le sens
+                    Egypte «était «nécessaire pendant les premières années de « l’occupation &gt;,
+                    mais à raison de « ses nom-« Dreux défauts... ne pouvait être... que transi-♦
+                    toire. Mais quel système, — se demandait Lord Cromer, — pouvait-on mettre à sa
+                    place?! La « question était épineuse. Croire que les Egyp-« tiens, dans le sens
                     ordinaire du mot, pourraient</p>
                 <pb n="30" rendition="GAZETTE DES TRIBUNAUX MIXTES d’ÉGYPTE"/>
                 <p>des lois ne devra dépendre ni de l’incertitude et de l’intermittence des travaux
@@ -778,7 +789,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0010">
                     <head>48. - Appel. — Recours par un seul exploit contre plusieurs jugements. —
                         Connexité.— Jonction.—Subrogation légale. — Effets de la résolution de la
                         vente sur la créance hypothécaire à laquelle l’acheteur a été
@@ -881,7 +892,7 @@
                             jugements dont appel doivent être infirmés ainsi qu’il suit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0020">
                     <head>49. - Bail. — Loi sur les loyers du 21 Février 1920. — Détermination du
                         loyer légal. — Certificat d’impôt. — Caractère subsidiaire.</head>
                     <div type="summary">
@@ -902,7 +913,7 @@
                         <p>Note. — Voir note sub § 53 ci-après.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0030">
                     <head>50. - Bail. — Loi du 21 Février 1920.— Détermination du loyer légal. —
                         Contrats antérieurs.—Evaluation aux fins de l’impôt sur la propriété bâtie.
                         — Impôt de 2°fi sur les loyers. — Compétence. — Tribunal Sommaire.</head>
@@ -996,7 +1007,7 @@
                             chacune des parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0040">
                     <head>51. - Bail. —■ Loi sur les loyers du 21 Février 1920. — Détermination du
                         loyer légal.—Contrat non revêtu de date certaine.— Inopposabilité. — Preuve.
                         — Certificat d’impôt.</head>
@@ -1025,7 +1036,7 @@
                         <p>III. - Comp. jug. Caire 23 Novembre 1920, ci-dessus § 49.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0050">
                     <head>52. - Bail. — Loi sur les loyers du 21 Février 1920. — Détermination du
                         loyer légal.—Contrat non revêtu de date certaine.—■ Pouvoir d’appréciation
                         du juge.</head>
@@ -1084,7 +1095,7 @@
                             garanties suffisantes de sincérité pour être retenu probant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0060">
                     <head>53. - Bail. — Loi sur les loyers du 21 Février 1920.— Détermination du
                         loyer légal.— Ordre des présomptions.— Certificat d’impôt. —- Caractère
                         subsidiaire.</head>
@@ -1235,7 +1246,7 @@
                     </div>
                 </div>
                 <pb n="37" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0070">
                     <head>54. - Bail. — Loi sur les loyers du 21 Février 1920.— Détermination du
                         loyer légal.—Ordre des présomptions.—Valeur des contrats produits.—Pouvoir
                         d’appréciation du Juge. — Certificat d’impôts. — Caractère
@@ -1262,7 +1273,7 @@
                         <p>I et III. - Voir ci-dessus § 53, et note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0080">
                     <head>55. - Bail. — Loi sur les loyers du 21 Février 1920. — Maisons de
                         tolérance. — Locaux non habités bourgeoisement. — Appel. — Non renonciation
                         tacite par le paiement des honoraires de première instance.</head>
@@ -1359,7 +1370,7 @@
                             de locations, mais bien évidemment dans la seconde.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0090">
                     <head>56. - Bail. — Loi sur les loyers du 21 Février 1920. —• Sous-location. —
                         Clause prohibitive. — Portée. — Résiliation.</head>
                     <div type="summary">
@@ -1391,7 +1402,7 @@
                             et 21 Août 1920, Gaz., XI, 20-31 et 20-33.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0100">
                     <head>57. - Cassation.—Délai du pourvoi. — Recevabilité. — Tanzim. —
                         Appel.</head>
                     <div type="summary">
@@ -1421,7 +1432,7 @@
                             cités par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0110">
                     <head>58. - Concordat préventif. — Gage commercial. — Réalisation. —
                         Référé.</head>
                     <div type="summary">
@@ -1478,7 +1489,7 @@
                             débiteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0120">
                     <head>59. - Délit. — Faute. — Responsabilité. — Recours en garantie. — Cause
                         immorale.</head>
                     <div type="summary">
@@ -1568,7 +1579,7 @@
                             par la Loi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0130">
                     <head>60. - Distribution.— Droits du créancier ou de l’adjudicataire non sommé.
                         — Bordereaux de collocation. — Responsabilité du Greffe. — Créancier
                         colloqué aux. lieu et place du créancier omis. — Absence, de faute de sa
@@ -1771,7 +1782,7 @@
                             exproprié, soit à 9 %.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0140">
                     <head>61. - Folle enchère. — Ordonnance du Juge Délégué siégeant en téfété. —
                         Remise de la vente. — Sursis indéfini. — Appel. — Demande d'ouveiture de
                         distribution.</head>
@@ -1864,7 +1875,7 @@
                             14 Mars 1912 (Bull., XXIV, 188).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0150">
                     <head>62. - Gage. — Action en nullité exercée par l’acquéreur. — Action réelle
                         immobilière. — Appel. — Recevabilité. — Taux de la demande. — Jugement
                         indigène. — Inopposabilité à l’acquéreur étranger.</head>
@@ -1980,7 +1991,7 @@
                             acquisition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0160">
                     <head>63. - Gouvernement Egyptien. — Troubles publics.—Acte de souveraineté.—
                         Charge de la preuve. — Responsabilité du chef des fautes commises par la
                         police. — Charge de la preuve.</head>
@@ -2084,7 +2095,7 @@
                             cette faute; qu’il y a donc lieu de le débouter de son action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0170">
                     <head>64. - Hypothèque. — Paiements faits par le tiers-détenteur. — Novation. —
                         Intérêts garantis par l’inscription. — Portée de l’art. 692 nouv. C.
                         Civ.</head>
@@ -2182,7 +2193,7 @@
                             mettre en mesure de payer le solde dû au Crédit Foncier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0180">
                     <head>65. - Louage de services. — Ouvrier à la tâche. — Droit à indemnité en cas
                         de licenciement sans préavis. — Renvoi intempestif.</head>
                     <div type="summary">
@@ -2256,7 +2267,7 @@
                             par des machines, à trois mois de salaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0190">
                     <head>66. - Nationalité. — Charge de la preuve.—Compétence.—Associé en
                         participation.— Droits. — Séquestre. — Déféré. — Urgence.</head>
                     <div type="summary">
@@ -2311,7 +2322,7 @@
                             n’est pas à même de statuer dans un bref délai.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0200">
                     <head>67. - Référé. — Demande soumise pour la seconde fois.— Chose jugée. —
                         Circonstances nouvelles.</head>
                     <div type="summary">
@@ -2329,7 +2340,7 @@
                             Cts. Loutfallah et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0210">
                     <head>68. - Séquestre judiciaire.—Taxe.— Exécution contre la partie qui a
                         contribué à la désignation du séquestre.</head>
                     <div type="summary">
@@ -2380,7 +2391,7 @@
                             précité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0220">
                     <head>69. - Tanzim. — Contravention pour construction préalable à l’approbation
                         du plan et contravention pour construction en dehors de l’alignement. —
                         Caractère distinct.— Prescription.— Pouvoir d’appréciation des
@@ -2409,7 +2420,7 @@
                             Lagoudakis c. Ministère Publ.c).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0230">
                     <head>70. - Transport.— Abonnement à une Compagnie des Tramways. — Mode de
                         paiement. — Contrat. — Contraventions à l’horaire. — Suppression momentanée
                         du service. — Police des moyens de communication. — Droit des voyageurs en
@@ -2674,7 +2685,7 @@
                             moment.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0240">
                     <head>71. - Vente. — Délégataire du prix.— Exceptions opposables par l’acheteur.
                         — Action oblique. — Charge de la preuve.</head>
                     <div type="summary">
@@ -2698,7 +2709,7 @@
                             ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-01-0250">
                     <head>72. - Vente. — Droits et obligations de l’acheteur. — Stipulations des
                         contrats de bail consentis par le vendeur.</head>
                     <div type="summary">

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0029-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0029-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1939-09-10">September 10, 1939</date><lb/>
-                    <biblScope unit="volume">Vol. 29</biblScope><lb/>
-                    <biblScope unit="number">No. 347</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1939-09-10">September 10, 1939</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 29</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 347</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -55,7 +66,7 @@
                 <p>Comité de Rédaction et d*Administration :</p>
                 <p>M« L. PANGALO et B. 8CHEMEIL (Directeurs au Caire)</p>
                 <p>M" E. DEGIABDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
-                <p>M. A. FADEL (Directeur à Mamourah). M- F. BRAUN > (0orrespondants a Parü)</p>
+                <p>M. A. FADEL (Directeur à Mamourah). M- F. BRAUN &gt; (0orrespondants a Parü)</p>
                 <p>Me G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT J</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an). P.T. 150</p>
@@ -294,7 +305,7 @@
             <pb n="331" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0010">
                     <head>401. - Louage de services. — Certificat de services; droit de remployé
                         même en cas de licenciement justifié; retard; dommages-intérêts.</head>
                     <div type="summary">
@@ -354,7 +365,7 @@
                             réengager, à la somme de L.E. 10...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0020">
                     <head>402. - Louage de services. — Certificat de services; mentions non
                         obligatoires.</head>
                     <div type="summary">
@@ -370,7 +381,7 @@
                         <p>Note. — V. ég. Gaz. XXIV, 404-457, l’arrêt du 30 Mai 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0030">
                     <head>403. - Louage de services. — Chauffeurs privés; renvoi sans indemnité;
                         admissibilité.</head>
                     <div type="summary">
@@ -401,7 +412,7 @@
                             du 17 Mars 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0040">
                     <head>404. - Louage de services. — Clause de non concurrence après cessation des
                         services; condition de validité.</head>
                     <div type="summary">
@@ -490,7 +501,7 @@
                             du 28 Février 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0050">
                     <head>405. - Louage de services. — Domestiques; catégories ayant droit à une
                         indemnité en cas de renvoi intempestif; boabs.</head>
                     <div type="summary">
@@ -548,7 +559,7 @@
                             406, le jug. Civ. Caire, en appel, du 17'Mars 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0060">
                     <head>406. - Louage de services. — Domestiques; {arraches; renvoi sans indemnité
                         ni préavis; admissibilité.</head>
                     <div type="summary">
@@ -586,7 +597,7 @@
                             ci-avant § 405, le jug. Somm. Caire du 17 Décembre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0070">
                     <head>407. - Louage de services. — Employés de l'Etat; employés figurant au
                         Tableau A de la Loi Ao. 5 de 1909; licenciement pour mauvaise conduite;
                         défaut de droit ,) une indemnité; indemnité spéciale pour les employés hors
@@ -697,7 +708,7 @@
                             sur elle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0080">
                     <head>408. - Louage de services. — Engagement à durée indéterminée: préavis de
                         licenciement; époque; salaires de base de l’indemnité. — Indemnité de
                         licenciement; caractère non privilégié; éléments de détermination.</head>
@@ -808,7 +819,7 @@
                         <p>III. - V. les six arrêts groupés ci-après sub § 415, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0090">
                     <head>409. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; acceptation par l’employé de cadeaux donnés par des tiers, ne
                         constituant pas motif légitime de licenciement. — Indemnité de licenciement;
@@ -965,7 +976,7 @@
                             cette date ne peut être accueillie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0100">
                     <head>410. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; cas de maintien en service après règlement d'une indemnité pour
                         les services antérieurs; indemnité pour rupture du nouvel engagement;
@@ -1024,7 +1035,7 @@
                             premiers juges, de confirmer leur décision.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0110">
                     <head>411. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; défaut de droit à indemnité en cas de nouvel emploi
                         sérieux.</head>
@@ -1079,7 +1090,7 @@
                             arrêts goupés ci-après sub § 415, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0120">
                     <head>412. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; défaut de droit à indemnité en cas de nouvel emploi sérieux. —
                         Société; accord entre associés en vue du règlement des indemnités au
@@ -1191,7 +1202,7 @@
                             six arrêts groupés ci-après su b § 415, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0130">
                     <head>413. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; démission avec, préavis ne. justifiant pas un licenciement
                         immédiat; indemnité de licenciement ; compensation avec des primes
@@ -1256,7 +1267,7 @@
                             la restitution avec cession de la police, ou de sa valeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0140">
                     <head>414. - Louage (le services. — Engagement à durée indéterminée; renvoi
                         intempestif; droit à la pension; effets sur la détermination de l’indemnité
                         de licenciement.</head>
@@ -1300,7 +1311,7 @@
                             du fait de sa mise à la retraite...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0150">
                     <head>415. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; indemnité; éléments de détermination.</head>
                     <div type="summary">
@@ -1557,7 +1568,7 @@
                         <p>II. - V. ég. ci-avant § 408, l’arrêt du 10 Novembre 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0160">
                     <head>416. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; indemnité; éléments de détermination. — Certificat de services;
                         mentions qu'il doit indiquer; cas d'un employé licencié par un employeur qui
@@ -1646,7 +1657,7 @@
                             Mars 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0170">
                     <head>417. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; indemnité; éléments de détermination; stipulation fixant le
                         montant de l'indemnité; cas où elle peut être déclarée nulle.</head>
@@ -1671,7 +1682,7 @@
                         <p>Note. —. V. ci-avant les six arrêts groupés sub § 415, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0180">
                     <head>418. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; orchestre engagé par un établissement public permanent;
                         indemnité de licenciement; préavis; éléments de détermination.</head>
@@ -1830,7 +1841,7 @@
                             licenciement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0190">
                     <head>419. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; refus par l'employé de viser une note de service modifiant les
                         conditions de l'engagement, ne constituant pas un motif légitime de
@@ -1917,7 +1928,7 @@
                             écarté...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0200">
                     <head>420. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; saisie-arrêt ne constituant pas un motif légitime de
                         licenciement.</head>
@@ -1943,7 +1954,7 @@
                             l’indemnité prévue dans son Règlement...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0210">
                     <head>421. - Louage de services. — Incapacité physique; cause légitime de
                         rupture d'engagement à durée déterminée.</head>
                     <div type="summary">
@@ -2045,7 +2056,7 @@
                     </div>
                 </div>
                 <pb n="341" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0220">
                     <head>422. - Louage de services. — Ouvriers à la journée; éléments déterminant
                         la nature du contrat; liberté de licenciement à tout moment;
                         exceptions.</head>
@@ -2286,7 +2297,7 @@
                             1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0230">
                     <head>423. - Louage de services. — Henvoi intempestif; diminution importante des
                         salaires équivalant à un renvoi intempestif déguisé donnant droit à une
                         indemnité; cas où le changement d'emploi et la diminution du salaire sont
@@ -2307,7 +2318,7 @@
                             Works.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0240">
                     <head>424. - Louage d’industrie. — Architecte; honoraires de surveillance;
                         assiette de calcul; usages; cas d'ambiguité du contrat.</head>
                     <div type="summary">
@@ -2381,7 +2392,7 @@
                             intention du Gouvernement et même toute possibilité d’erreur de sa
                             part;</p>
                         <p>3.) l’art. 19 des conditions du concours renvoie à l’art. 18 et aux
-                            termes de ce dernier article &lt;> l’architecte est tenu de suivre
+                            termes de ce dernier article &lt;&gt; l’architecte est tenu de suivre
                             l’exécution des travaux soit personnellement soit par un agent désigné
                             et rétribué par lui et agréé par le Ministère »; cette -surveillance
                             devait s’exercer sur tous travaux quelconques intéressant les plans et,
@@ -2440,7 +2451,7 @@
                             confirmé en principe par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0250">
                     <head>425. - Louage d’industrie. — Entreprise; exécution tardive; pénalité;
                         inapplicabilité au cas où le retard est attribuable aux modifications des
                         travaux.</head>
@@ -2457,7 +2468,7 @@
                             Stross c. Marquise Elena Taccoli Stagni et Ct.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0260">
                     <head>426. - Louage d’industrie. — Entreprise; forfait; caractère obligatoire;
                         travaux supplémentaires; clause exonérant le propriétaire de la charge des
                         travaux supplémentaires exécutés sans autorisation écrite; cas où leur
@@ -2629,7 +2640,7 @@
                             point de la décision déférée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0270">
                     <head>427. - Louage d’industrie. — Entreprise; travaux ne rentrant pas dans le
                         cadre du contrat; défectuosité du sol non prévue par le maître de l'ouvrage;
                         cas d'inapplicabilité du contrat d'entreprise; conséquences.</head>
@@ -3054,7 +3065,7 @@
                             doit donc être condamné aux frais du procès.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-09-0280">
                     <head>428. - Louage d’industrie. — Médecins: chirurgiens; dentistes; nature dit
                         contrat arec le client; rupture; indemnité; éléments de
                         détermination.</head>
@@ -4299,8 +4310,8 @@
                     d’employer des signaux privés.</p>
                 <p>Ai t. 9. — En s’approchant du port et dès qu’il sera à une distance visuelle des
                     signaux du port, tout bateau devra hisser ses signes distinctifs sans attendre
-                    que le signal >( quel est le nom de votre navire » lui soit donné par le bateau
-                    d’inspection ou la station des signaux.</p>
+                    que le signal &gt;( quel est le nom de votre navire » lui soit donné par le
+                    bateau d’inspection ou la station des signaux.</p>
                 <p>Art. 10. — Le port d’Alexandrie sera fermé pendant la nuit, c’est-à-dire entre le
                     coucher et le lever du soleil.</p>
                 <p>Il sera également fermé en temps de brouillard ou en temps épais.</p>
@@ -5206,7 +5217,7 @@
                     South Africa, to invite a référencé to my note of 19th December 1938, in which I
                     conveyed to Your Excellency the proposais of the Government of the Union of
                     South Africa for the conclusion of a preliminary</p>
-                <pb n="361" rendition="Gazette des t ribunaux Mixtes. >"/>
+                <pb n="361" rendition="Gazette des t ribunaux Mixtes. &gt;"/>
                 <p>commercial agreement between the Govern-ments of the Union of South Africa and
                     Egypt. As the negotiation of such a preli-minary agreement must necessarily
                     occupy some time, and in view of the desire of the two Governments to regulate

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1929-11-10">November 10, 1929</date><lb/>
-                    <biblScope unit="volume">Vol. 20</biblScope><lb/>
-                    <biblScope unit="number">No. 229</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1929-11-10">November 10, 1929</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 20</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 229</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -53,7 +64,7 @@
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
                 <p>Fondateurs r M« MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour. Directeur:
-                    M> MAXIME PUPIKOFER, Avocat à la Cour.</p>
+                    M&gt; MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d'administration :</p>
                 <p>M« L. PANGALO et K. SCHEMEIL (Directeurs au Caire)</p>
                 <p>M" E. DEGIARDÉ et B. SMYBNIADIS (Secrétaires de la rédaction).</p>
@@ -65,7 +76,7 @@
                 <p>— Six mois............... » BS</p>
                 <p>— Trois mois........ » SS</p>
                 <p>— aux deux publications</p>
-                <p>réunies (un an)........ > 250</p>
+                <p>réunies (un an)........ &gt; 250</p>
                 <p>Administrateur-Gérant :</p>
                 <p>Jules Schutz.</p>
                 <p>Pour la Publicité:</p>
@@ -275,7 +286,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0010">
                     <head>1. - Action paulieimc. — Vente; irrecevabilité de Vaction en cas de non
                         mise en cause du sous-acquéreur de l'acte prétendu frauduleux; caractère de
                         l'action paulienne; caractère subsidiaire d'action indemnitaire;
@@ -348,7 +359,7 @@
                             juger extra petita.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0020">
                     <head>2. - Astreinte. —■ Caractère comminatoire; effet dans la mesure du
                         préjudice réellement subi. — Jugement ayant prononcé une astreinte; arrêt
                         confirmatif; demande en interprétation de l'arrêt au sujet de l'astreinte;
@@ -421,7 +432,7 @@
                             incertitude.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0030">
                     <head>3. - Astreinte. — Caractère comminatoire; possibilité pour la partie
                         condamnée d'en demander la mainlevée ou la restriction par opposition à
                         commandement; limitation des effets du commandement, à concurrence du
@@ -496,7 +507,7 @@
                             aux frais de l’instance en appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0040">
                     <head>4. - Compte-courant. — Formation par convention tacite, entre commerçant
                         et non commerçant; fournitures répétées; paiements partiels; preuve de la
                         libération à charge de l'acheteur; prescription annale; inadmissibilité;
@@ -554,7 +565,7 @@
                             définitivement clôturé, dans le cas de l’espèce, à la fin de 1923, sa
                             prescription de 15 ans n’a pu commencer à courir avant cette date (arrêt
                             C. A. M. 7 Avril 1927, Pull. XXX1X p. 371);</p>
-                        <p>Attendu que l’intimé prétend que ce sont leurs proj>res livres qu
+                        <p>Attendu que l’intimé prétend que ce sont leurs proj&gt;res livres qu
                             invoquent, les appelants, d’abord pour établir la nature des rapports
                             qui auraient existé entre eux et lui; et ensuite, pour justifier des
                             fournitures livrées; qu’il fait remarquer que, n’étant pas commerçant,
@@ -587,7 +598,7 @@
                     </div>
                 </div>
                 <pb n="7" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0050">
                     <head>5. - Compte-courant. — Formation par convention tacite, entre commerçant
                         et non commerçant; fournitures répétées; paiements partiels; usages du pays;
                         preuve de la libération à charge de l'acheteur; prescription annale;
@@ -678,7 +689,7 @@
                             Société.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0060">
                     <head>6. - Obligation. — Billet de loterie au porteur, cessible par simple
                         transmission; clause imprimée stipulant un délai pour la présentation après
                         le tirage; validité. — Prescription; délai pouvant être réduit par
@@ -737,7 +748,7 @@
                             litigieux, est irrecevable dans son action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0070">
                     <head>7. - Obligation. — Engagement consti-tutum debiti alieni, entraînant
                         solidarité; bénéfice de discussion; inadmissibilité.</head>
                     <div type="summary">
@@ -792,7 +803,7 @@
                             discussion dont le défendeur tend à se prévaloir est mal fondé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0080">
                     <head>8. - Obligation. — Engagement d'embauchage d'ouvriers, pour un tiers; acte
                         non commercial; billet à ordre souscrit pour les sommes avancées à cet effet
                         par l'entrepreneur; prescription quinquennale de l'article 201 G. Com.;
@@ -898,7 +909,7 @@
                             dans un but purement dilatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0090">
                     <head>9. - Obligation. — Engagement d'un tiers envers la caution; assurance de
                         responsabilité; cas où un tel engagement constitue une délégation; action
                         directe conférée au créancier à qui l'obligation a été transférée par son
@@ -1062,7 +1073,7 @@
                             conclusion n’est prise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0100">
                     <head>10. - Obligation. — Exception de jeu; courses de chevaux;'paris; Loi No.
                         10 de 1922; pari mutuel; sociétés sportives; rôle de dépositaires; action en
                         justice contre elles; admissibilité; actions en justice entre parieurs;
@@ -1300,7 +1311,7 @@
                             par Tambay à Afif, et d’infirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0110">
                     <head>11. - Obligation. — Exception de jeu; courses de chevaux; paris; Loi A’o.
                         10 de 1922; paris; caractère licite. — Bookmakers autorisés; contrats avec
                         les Clubs; caractère licite; cautionnement; demande en restitution;
@@ -1443,7 +1454,7 @@
                             poursuites plus graves».......</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0120">
                     <head>12. - Obligation naturelle. — Notion en droit mixte; conditions de
                         sanction par une action judiciaire.</head>
                     <div type="summary">
@@ -1557,7 +1568,7 @@
                             dépens de l'instance d’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0130">
                     <head>13. , - Obligation. — Prêt d'argent; indemnité de remploi; nature
                         juridique; montant excédant le taux légal d'intérêts; caractère licite. —
                         Intérêts; mode de calcul. — Distribution; délai de production; forclusion
@@ -1940,7 +1951,7 @@
                     </div>
                 </div>
                 <pb n="15" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0140">
                     <head>14. - Obligation. — Solidarité; jugements de défaut; péremption évitée par
                         l'exécution contre l'un des débiteurs solidaires. — Demande en déclaration
                         de jugement commun; Tribunal compétent. — Succession musulmane; héritiers
@@ -2219,7 +2230,7 @@
                             sujet.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0150">
                     <head>15. - Obligation. — Solidarité; nécessité d'une condamnation expresse. —
                         Expropriation; frais taxés; ordonnance de taxe non frappée d'opposition;
                         contestation ultérieure impossible; acquiescement du poursuivant à un renvoi
@@ -2414,7 +2425,7 @@
                             succombant respectivement sur différents chefs de leurs conclusions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0160">
                     <head>16. - Prescription libératoire. — Interruption; demande nouvelle formulée
                         devant la Cour et repoussée comme irrecevable; défaut d'effet interruptif de
                         la prescription.</head>
@@ -2479,7 +2490,7 @@
                             qu’elle adopte, devoir confirmer le jugement déféré...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0170">
                     <head>17. - Prescription libératoire. — Interruption du fait d'une citation en
                         justice; radiation de l'instance avant la péremption; conséquences. — Traité
                         de Versailles; personnes auxquelles il est applicable; suspension de la
@@ -2632,7 +2643,7 @@
                             légal.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0180">
                     <head>18. - Prescription libératoire. — Point de départ; créance stipulée
                         payable en plusieurs termes; renouvellement d'affectation hypothécaire non
                         interruptif de la prescription; principes régissant la prescription
@@ -2681,7 +2692,7 @@
                         <p>• Vu l'exploit d’appel en date des 26 et 28 Mai 1928; .</p>
                         <p>■Vu le jugement du Tribunal mixte du Caire en date du 3 Avril 1928 dont
                             appel;</p>
-                        <p>Vu >-j dossier du Tribunal Civil mixte du Caire portant No. 90 du Rôle
+                        <p>Vu &gt;-j dossier du Tribunal Civil mixte du Caire portant No. 90 du Rôle
                             Général de la LUIme Année Judiciaire, qui a donné naissance au jugement
                             déféré;</p>
                         <p>Vu les pièces déposées au dossier;</p>
@@ -2798,7 +2809,7 @@
                             et d’accueil-lir les fins et conclusions de l’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0190">
                     <head>19. - Prescription libératoire. — Point de départ; naissance de
                         l'obligation. — Action civile résultant d'un crime ou délit; prescription;
                         point de départ.</head>
@@ -2824,7 +2835,7 @@
                             Caire et Ct.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0200">
                     <head>20. - Prescription libératoire. — Suspension; impossibilité de réclamer;
                         Proclamation du 25 Janvier 1915; Grande Guerre; date de sa fin;
                         armistice.</head>
@@ -2887,7 +2898,7 @@
                             Gouvernement Egyptien doit être rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0210">
                     <head>21. - Retrait litigieux. — Admissibilité en cas de vente en justice d'une
                         créance litigieuse, en bloc avec d'autres créances; ventilation du
                         prix.</head>
@@ -2936,7 +2947,7 @@
                             le retrait litigieux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0220">
                     <head>22. - Retrait litigieux. — Heccvabilité pour la première [ois en appel;
                         conditions d'exercice; inadmissibilité en cas de cession de droits garantis
                         ou non contestés lors de la cession. — Betrait litigieux par un possesseur
@@ -3062,7 +3073,7 @@
                             attaqué qui a accueilli leur demande...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-11-0230">
                     <head>23. - Subrogation. — Dette successorale; partage; répartition de la dette
                         entre cohéritiers; héritier ayant payé pour un autre; défaut de
                         subrogation.</head>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0010-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0010-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1919-11-10">November 10, 1919</date><lb/>
-                    <biblScope unit="volume">Vol. 10</biblScope><lb/>
-                    <biblScope unit="number">No. 109</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1919-11-10">November 10, 1919</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 10</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 109</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -237,7 +248,7 @@
                     et qui en est empêché, se trouve par le fait même « frustré. »</p>
                 <p>Peut-être l’addition d’un membre de phrase qui peut nous sembler surabondant dans
                     le texte français s’explique t elle mieux dans le texte anglais, où le verbe «
-                    frustrer » est exprimé par to defraud, « frauder. -> Je ne m’attarderai
+                    frustrer » est exprimé par to defraud, « frauder. -&gt; Je ne m’attarderai
                     néanmoins pas à ces questions épineuses de traduction, puisque les auteurs du
                     projet ont eu soin de nous prévenir, dans l’introduction à leur commentaire, de
                     leur espoir de voir les deux textes considérés comme « mutuellement
@@ -788,7 +799,7 @@
             <pb n="9" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-11-0010">
                     <head>1. - Constructeur de bonne foi. — Paiement de la valeur actuelle des
                         constructions. — Paiement des immeubles par destination. — Droit de
                         rétention. — Intérêts sur le montant de la contre-valeur des constructions.
@@ -818,7 +829,7 @@
                             Borg et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-11-0020">
                     <head>2. - Faillite. — Nullités et déchéances découlant de l’état de cessation
                         des paiements. — Effets de la faillite sur la procédure de distribution. —
                         Règlement définitif. — Forclusion des créanciers non produisants. —
@@ -982,7 +993,7 @@
                             d’objet.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-11-0030">
                     <head>3. - Hypothèque. — Intérêts garantis. — Non rétroactivité de la loi du 7
                         Septembre 1912. — Conflit entre créanciers antérieur et postérieur à la
                         modification de l’art. 692 C. Civ. — Adjudicataire. — Compensation entre le
@@ -1010,7 +1021,7 @@
                             55-73.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-11-0040">
                     <head>4. - Référé. — Louage de service. — Rupture du contrat. — Grève. —
                         Pouvoirs du Juge des Référés. — Mode de communication avec les
                         grévistes.</head>
@@ -1155,7 +1166,7 @@
                             humaine il devait répugner d’imposer à plus malheureux que soi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-11-0050">
                     <head>5. - Règlement définitif. — Terme des intérêts des créances admises. —
                         Prorogation à raison de la suspension des délais de procédure par la
                         Proclamation du 17 Mai 1919. — Rectification par ordonnance d’un règlement
@@ -1276,7 +1287,7 @@
                             1919.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-11-0060">
                     <head>6. - Renvoi intempestif. — Caractère alimentaire de l’indemnité pour
                         renvoi intempestif.</head>
                     <div type="summary">
@@ -1300,7 +1311,7 @@
                             Manno c. Municipalité d’Alexandrie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-11-0070">
                     <head>7. - Succession musulmane. — Droit de préférence des créanciers
                         successoraux. — Droit de poursuite des créanciers personnels des héritiers
                         sur la part indivise à échoir à leurs débiteurs.</head>
@@ -1411,7 +1422,7 @@
                             des poursuites...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-11-0080">
                     <head>8. - Taxe des frais. — Opposition. — Délai pour la discussion du quantum.
                         — Délai pour la discussion d’autres questions. — Droits proportionnels. —
                         Cumul inadmissible dans leur perception par le fisc.</head>
@@ -1539,7 +1550,7 @@
                     </div>
                 </div>
                 <pb n="13:" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-11-0090">
                     <head>9. - Vente commerciale. — Cession d’une note de commande. —
                         Non-responsabilité du cédant. — Droits du cessionnaire. — Droits du
                         vendeur.</head>
@@ -1647,7 +1658,7 @@
                             ayant trait à Wadih Cassir et C".</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-11-0100">
                     <head>10. - Vente immobilière. — Obligations du vendeur. — Remise des titres de
                         propriété. — Paiement du prix.</head>
                     <div type="summary">

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1934-12-10">December 10, 1934</date><lb/>
-                    <biblScope unit="volume">Vol. 25</biblScope><lb/>
-                    <biblScope unit="number">No. 290</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1934-12-10">December 10, 1934</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 25</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 290</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -31,7 +42,7 @@
     <text>
         <body>
             <div type="nameplate">
-                <p>25ms> ANNEE (GO"" Annee Judiciaire).</p>
+                <p>25ms&gt; ANNEE (GO"" Annee Judiciaire).</p>
                 <p>N* 290</p>
                 <p>DECEMBRE 1934.</p>
                 <p>_______________________________________________________________________________________________</p>
@@ -49,12 +60,12 @@
                 <p>Rue Abdel Moneim, Tél. 40e</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte. Fondateurs
-                    > M- MAXIME PUPIKOFEB et LÉON PANGALO, Avocats à la Cour</p>
+                    &gt; M- MAXIME PUPIKOFEB et LÉON PANGALO, Avocats à la Cour</p>
                 <p>Directeur : M« MAXIME PUPIKOFEB, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’administration :</p>
                 <p>M- L. PANGALO et B. SCHEMEIL (directeurs au Caire)</p>
                 <p>M«* E. DEGIABDÉ et LUCIEN BABDA (Secrétaires de la rédaction).</p>
-                <p>M> A. PADEL (directeur à Mansourah). M- E. BBAUN ,</p>
+                <p>M&gt; A. PADEL (directeur à Mansourah). M- E. BBAUN ,</p>
                 <p>N 8 G. W OUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT j (Vormpmdants à
                     Paris).</p>
                 <p>— à la Gazette (un an).... P.TL 150</p>
@@ -63,7 +74,7 @@
                 <p>— Six mois........... » 8k'</p>
                 <p>— Trois mois.............. » 50</p>
                 <p>— aux deux publications</p>
-                <p>réunies (un an)......__ > 25k</p>
+                <p>réunies (un an)......__ &gt; 25k</p>
                 <p>ABONNEMENTS :</p>
                 <p>Administrateur-Gérant : Max Buccianti.</p>
                 <p>Pour la Publicité: (Concessionnaire : J. A. DegiardéJ S’adresser aux Bureaux du
@@ -194,8 +205,8 @@
                     considérée comme loi française et son in- i terprétation est susceptible de
                     recours j devant la Cour de Cassation (**). ;</p>
                 <p>BION SMYRNIADIS, j</p>
-                <p>Docteur en droit, ></p>
-                <p>Avocat à la Cour. ></p>
+                <p>Docteur en droit, &gt;</p>
+                <p>Avocat à la Cour. &gt;</p>
                 <p>(*) V. Economidis, Traité de procédure civile, § 167, note 8, et G. Streit, op.
                     cit., p. 81 et 82.</p>
                 <p>(**) V. de Lapradelle et Niboyet, Répertoire de droit international, loc. cit.
@@ -203,7 +214,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0010">
                     <head>53. - Assurance maritime. — Polices contractées à Londres par
                         l'intermédiaire d'un courtier d'assurances; usages de Londres; application;
                         incompétence des Tribunaux égyptiens mixtes pour connaître de i'action de
@@ -368,7 +379,7 @@
                             substance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0020">
                     <head>54. - Assurance maritime. — Vol; clause imposant la constatation du vol
                         dans l’enceinte douanière dans un temps limité; validité; retard;
                         déchéance.</head>
@@ -445,7 +456,7 @@
                             rédaction de la clause relative aux constatation était différente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0030">
                     <head>55. - Assurance maritime./— Vol; clause imposant la demande d’expertise
                         dans un temps limité; portée. — Assurance maritime; clause déterminant la
                         durée des risques; interprétation; clause arrêtant les risques à la
@@ -660,7 +671,7 @@
                             différente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0040">
                     <head>56. - Navire. — Affrètement; stipulation insérée à la charte-partie pour
                         exclure l'assistance de personnes déterminées; admissibilité; défaut d'abus
                         du droit de l'affréteur.</head>
@@ -794,7 +805,7 @@
                             C. W. de Gerber c. P. Paramythiotis et G. Vouyouclès.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0050">
                     <head>57. - Navire. — Armateur; agent; action du chargeur contre l'agent
                         personnellement; irrecevabilité en l’absence de toute preuve d'une faute
                         personnelle.</head>
@@ -836,7 +847,7 @@
                             abordé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0060">
                     <head>58. - Navire. — Déchargement; responsabilité du navire; limites;
                         déchargement d'office; devoir du propriétaire de la marchandise; agent du
                         navire; qualité de consignataire de la cargaison; responsabilité. — Navire;
@@ -1155,7 +1166,7 @@
                             condamnation solidaire des Micalef Bros avec les Bianchi.&amp; Co.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0070">
                     <head>59. - Navire. -— Despatch-money, mode de calcul en cas de minimum de
                         déchargement prevu, à la charte-partie; calcul par fractions de jours;
                         clause prévoyant une prime à raison de tant par jour de travail gagné
@@ -1290,7 +1301,7 @@
                             Gaz. XXIll, 87-82.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0080">
                     <head>60. - Navire. — Gens d'équipage; maladie ou blessure contractées au
                         service du navire; art. 77 C; Mar.; responsabilité de l’armateur;
                         mutilation; art. 77 G. Mar.; portée et étendue; faute légère de la victime,
@@ -1429,7 +1440,7 @@
                             principal des Consorts Mabro que de l’appel incident de Stathopoulo.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0090">
                     <head>61. - Navire. — Hypothèque maiitime; constitution selon la loi du
                         pavillon; validité; effets en Egypte; mortgage; droit anglais; prise de
                         possession du navire par le mortgagee; validité en droit mixte; effets;
@@ -1893,7 +1904,7 @@
                             affaire connexe.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0100">
                     <head>62. - Navire. — Hypothèque maritime; mortgage; droit anglais; engagements
                         assumés par le mortgager; mesure en laquelle le morlgagee en est tenu;
                         charte-partie; opposabilité au morlgagee; billets de passage délivrés par le
@@ -2104,7 +2115,7 @@
                             connexe.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0110">
                     <head>63. - Navire. -— Perte totale; application des art. 274 et 275 C.
                         Mar.</head>
                     <div type="summary">
@@ -2131,7 +2142,7 @@
                             quant à ce, le jugement déféré, par accueil de l’appel incident...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0120">
                     <head>64. - Transports fluviaux. — Convention de remorquage; obligation assumée
                         par le transporteur en cas d’accident; interprétation.</head>
                     <div type="summary">
@@ -2252,7 +2263,7 @@
                             défense.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0130">
                     <head>65. - Transports maritimes. — Action en supplément de fret; prescription
                         de l’art. 271 C.Mar.; inapplicabilité au cas où la présomption de paiement
                         est exclue par la défense au fond; connaissement; portée limitée quant au
@@ -2326,7 +2337,7 @@
                             échet donc de confirmer purement et simplement le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0140">
                     <head>66. - Transports. — Saisie-arrêt pratiquée entre les mains du voiturier
                         contre l’expéditeur ou le destinataire de la marchandise; devoir du
                         tiers-saisi.</head>
@@ -2396,7 +2407,7 @@
                             un délai de huit jours à compter de la dénonciation de la saisie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-12-0150">
                     <head>67. - Transports. — Voiturier; action de l'expéditeur non dénommé dans la
                         lettre de; voiture contre le voiturier; recevabilité; action de l’assureur
                         de l'expéditeur contre le transporteur; recevabilité. — Assurance-transport;
@@ -3304,7 +3315,7 @@
                     Conseil des Ministres:</p>
                 <p>DECRETONS:</p>
                 <p>Art. 1. — n est ajouté, à la fin du tableau des droits annuels annexé à la Loi
-                    No. 44 de >934 fixant le régime fiscal des automobiles, la disposition
+                    No. 44 de &gt;934 fixant le régime fiscal des automobiles, la disposition
                     transitoire suivante:</p>
                 <p>« Jusqu’au 30 Juin 1936 les droits annuels à percevoir sur les voitures de place
                     (’axi) seront fixés comme suit:</p>

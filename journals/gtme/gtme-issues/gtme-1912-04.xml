@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0002-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0002-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1912-04-10">April 10, 1912</date><lb/>
-                    <biblScope unit="volume">Vol. 2</biblScope><lb/>
-                    <biblScope unit="number">No. 18</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1912-04-10">April 10, 1912</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 2</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 18</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -527,10 +538,10 @@
                     controversia.</p>
                 <p>Gli scritti degli antichi giureconsulti nostri presentano le più gravi
                     contraddizioni ri-guardo alla natura ed agli effetti délia surrogazione (1). Ed
-                    oggi si è al punto che ciascuna delle diverse opinioî>i che si agi-tano intorno
-                    alla materia si trova fornita di un bagaglio storico dei più imponenti, in guisa
-                    da potere citare in proprio favore tutta una sérié di passaggi dei più celebri
-                    nostri scrittori dell’antico diritto.</p>
+                    oggi si è al punto che ciascuna delle diverse opinioî&gt;i che si agi-tano
+                    intorno alla materia si trova fornita di un bagaglio storico dei più imponenti,
+                    in guisa da potere citare in proprio favore tutta una sérié di passaggi dei più
+                    celebri nostri scrittori dell’antico diritto.</p>
                 <p>Corne vedere chiaro in questo caos, corne distinguer fra le citazioni quelle che
                     deb-bono guidarci ad un sicuro giudizio ? A nostro avviso questo problema,
                     benchè deli-cato, non è insolvibile. Basta dimostrare corne le idee degli
@@ -982,7 +993,7 @@
             <pb n="102" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0010">
                     <head>Adjudication. — Feux. — Enchères.</head>
                     <div type="summary">
                         <p>La pratique française des feux (Art. 706 C. Proc. Fr.) que les Tribunaux
@@ -994,7 +1005,7 @@
                             Abdel Rahman el Gandour et autre c. Che-hata Khalil).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0020">
                     <head>Associés. — Signature sociale.</head>
                     <div type="summary">
                         <p>Les associés qui ont contrevenu à la clause de leur contrat exigeant la
@@ -1006,7 +1017,7 @@
                             Cie. c.-Mohamed Chabana et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0030">
                     <head>Bail. — Silence du contrat. — Charge de l’eau.</head>
                     <div type="summary">
                         <p>Dans le silence du contrat de bail sur le point de savoir auquel du
@@ -1019,7 +1030,7 @@
                             Centrale c. Dame Salama Fahmy).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0040">
                     <head>Bourse en Valeurs (Commission de la) — Courtage. — Taxe. — Mandat
                         judiciaire. — Compétence Commerciale. — Interprétation des décisions.</head>
                     <div type="summary">
@@ -1123,7 +1134,7 @@
                         <p>(s.) H. Heggen</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0050">
                     <head>Compétence Sommaire. — Dernier ressort.</head>
                     <div type="summary">
                         <p>L’art. 29 C. Proc. M., qui ne reproduit pas exactement les termes de
@@ -1149,7 +1160,7 @@
                             Trib. I p. 158 § Compétence Sommaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0060">
                     <head>Concurrence déloyale. — Bouteilles. — Etiquettes.</head>
                     <div type="summary">
                         <p>Si l’adoption par un commerçant de la même forme de bouteille et du même
@@ -1173,7 +1184,7 @@
                             84, § Concurr. déloyale</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0070">
                     <head>Concurrença déloyale. — Raison .Sociale. — Similitude de noms.</head>
                     <div type="summary">
                         <p>Lorsqu’il est constant qu’un individu n’a été appelé à faire partie d’une
@@ -1191,7 +1202,7 @@
                             Ltd. c. R. 8. Soussa frères).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0080">
                     <head>Concordat Préventif. — Créancier garanti. — Vote. — Abandon d’actif. —
                         Capitalisation des intérêts.</head>
                     <div type="summary">
@@ -1213,7 +1224,7 @@
                             Chakour boy c. Cassa ai Sconto &amp; Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0090">
                     <head>Concordat Préventif. — Société. — Créanciers personnels des
                         associés.</head>
                     <div type="summary">
@@ -1227,7 +1238,7 @@
                             Tassopoulo &amp; Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0100">
                     <head>Détenteur à titre précaire. — Précarité tacite. — Prescription.</head>
                     <div type="summary">
                         <p>La possession à titre précaire peut, en dehors des cas de concession
@@ -1246,7 +1257,7 @@
                             Anonyme Agricole de Kafr-eLDawar c. Ahmed Saleh et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0110">
                     <head>Domaine Public. — Déclassement. — Décision administrative. — Destination
                         publique. — Prescription.</head>
                     <div type="summary">
@@ -1268,7 +1279,7 @@
                             Gouvernement Egyptien c. Zaki Alekallef)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0120">
                     <head>Dot (constitution de). — Acte onéreux. — Femme séparée de biens. —
                         Capacité. — Paiement. — Imputation.</head>
                     <div type="summary">
@@ -1302,7 +1313,7 @@
                             se fait proportionnellement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0130">
                     <head>Droit de Rétention. — Concordat préventif.</head>
                     <div type="summary">
                         <p>Le droit spécial de rétention existe au profit du créancier détenteur
@@ -1322,7 +1333,7 @@
                             Maestro C Tewfick bey Ghali).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0140">
                     <head>Exécution. — Référé. — Compétence,</head>
                     <div type="summary">
                         <p>Est-il loisible aux parties de soustraire par des stipulations expresses,
@@ -1405,7 +1416,7 @@
                         <p>Le Juge: (sj B. DE Zoltan</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0150">
                     <head>Expropriation immobilière.— Compétence « ratione loci ».</head>
                     <div type="summary">
                         <p>L’expropriation immobilière doit se poursuivre devant le Tribunal dans le
@@ -1422,7 +1433,7 @@
                             et fils c. The Egyptian Estâtes Ltd).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0160">
                     <head>Expropriation pour cause d’utilité publique. — Prise de possession
                         arbitraire. — Dommages-intérêts. — Epoque de la fixation de la valeur du
                         tenain exproprié.</head>
@@ -1455,7 +1466,7 @@
                             c. Oouv. Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0170">
                     <head>Faillite. — Concordat. — Avantages particuliers. — Contrainte
                         morale.</head>
                     <div type="summary">
@@ -1478,7 +1489,7 @@
                             c. Hussein R. Teymour).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0180">
                     <head>Faillite (action en). — Dépôt du bilan.</head>
                     <div type="summary">
                         <p>Une demande en déclaration de faillite ne rentre dans la catégorie ni des
@@ -1498,7 +1509,7 @@
                             c. Yacoub et Ibrahim Dana).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0190">
                     <head>Folle enchère. — Appel. — Adjudication. — Titre exécutoire.</head>
                     <div type="summary">
                         <p>I. Le recours devant le Juge des Référés établi par l’Art. 697 C. Proc.,
@@ -1518,9 +1529,8 @@
                             Salem el Sayed c. AlfredMikallef et aubes),.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0200">
                     <head>Gestion d’affaires. — Actionnaire.</head>
-                    
                     <div type="observations">
                         <p>Note. — Une coquille s’est glissée dans un des motifs d’un Jug. Trib.
                             Civ. Alex. 23 Décembre 1911, rapporté par la Gazette (n°16 p. 63 §
@@ -1529,9 +1539,8 @@
                             non l’art. 1382, comme il a été imprimé par erreur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0210">
                     <head>Hypotheque. — Garantie (étendue de la).</head>
-                    
                     <div type="observations">
                         <p>Note. — Une erreur de composition a rendu incompréhensible par l’omission
                             de certains mots (ci-après marqués en italiques), la première partie du
@@ -1544,7 +1553,7 @@
                             ultérieures.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0220">
                     <head>Jugement. -- Qualité.</head>
                     <div type="summary">
                         <p>La signification d’un jugement sans les qualités qui, aux termes des art.
@@ -1556,7 +1565,7 @@
                             c. Fares Boutros).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0230">
                     <head>Libération. — Débiteur. — Créancier. Preuve.</head>
                     <div type="summary">
                         <p>La libération ne résulte de la mention de paiement portée au dos du titre
@@ -1571,7 +1580,7 @@
                             Mahmoud Hafez el Ebiari et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0240">
                     <head>Livres et registres. — Production en Justice.</head>
                     <div type="summary">
                         <p>La production des livres et des registres tenus par des particuliers pour
@@ -1584,7 +1593,7 @@
                             Abbassi Tarfa Esq. c. Cheickh Abdel Hamid Pacha et autre esq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0250">
                     <head>Préemption. — Co-propriétaire originaire.</head>
                     <div type="summary">
                         <p>Le décret sur la préemption n’est pas opposable au co-propriétaire
@@ -1596,7 +1605,7 @@
                             bey el Khodari c. Ahmed El Toumi et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0260">
                     <head>Revendication immobilière. — Appel. — Nullité.</head>
                     <div type="summary">
                         <p>En matière de revendication immobilière, la nullité d’ un exploit d’appel
@@ -1612,7 +1621,7 @@
                             Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0270">
                     <head>Revendication immobilière. — Ayant-cause. — Gage.</head>
                     <div type="summary">
                         <p>Le jugeaient qui accueille une revendication rétroagit au jour de la
@@ -1627,7 +1636,7 @@
                             bent Sîd Ahmed el Saadani c. Seiim Attia et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0280">
                     <head>Simulation. — Tiers. — Bonne Foi. — Ciéanciers (droits des).</head>
                     <div type="summary">
                         <p>Les droits concédés à un tiers, en vertu d’un contrat simulé, tombent
@@ -1641,7 +1650,7 @@
                             Rayan c. Anis Doss esq. et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0290">
                     <head>Société Anonyme. — Liquidation. — Assemblée Générale. — Action
                         individuelle de l’actionnaire. — Actions non libérées. — Vote Minorité
                         (droits de la). — Règlement sur les Sociétés Anonymes. — Actions de
@@ -1777,8 +1786,8 @@
                         <p>rhentation du capital;</p>
                         <p>■ Attendu d’autre part, que la création d’actions i privilégiées,
                             combinaison justifiée par les cir-</p>
-                        <p>> constances, ne saurait être contraire au principe d’égalité qui tient à
-                            la nature menée des choses</p>
+                        <p>&gt; constances, ne saurait être contraire au principe d’égalité qui
+                            tient à la nature menée des choses</p>
                         <p>’’ et à l’essence même du contrat de Société ;</p>
                         <p>h Qu’en effet, et cela est affirmé par lajurispru-</p>
                         <p>dence tant en France qu’ailleurs, cette égalité i, doit se limiter aux
@@ -1791,9 +1800,9 @@
                         <p>Attendu que les conditions quelquefois très hasardeuses, dans lesquelles
                             sont émises les ac-' fions de priorité, et les grands services qu’elles
                             peuvent rendre, en même temps que l’intérêt puissant qu’elles ont
-                            elles-mêmes au relèvement >î de la société qu’elles cherchent à sauver,
-                            sont ’j des motifs suffisants de leur accorder des avan-;| tages à
-                            divers points de vue;</p>
+                            elles-mêmes au relèvement &gt;î de la société qu’elles cherchent à
+                            sauver, sont ’j des motifs suffisants de leur accorder des avan-;| tages
+                            à divers points de vue;</p>
                         <p>i Attendu, en l’espèce, que le demandeur atta-,&lt; que comme exorbitants
                             et illicites les avantages !! accordés, notamment l’intérêt cumulatif de
                             6 %, •„ les stipulations au sujet du fond de réserve,</p>
@@ -1856,7 +1865,7 @@
                             à laquelle il y aurait lieu de s’arrêter..,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0300">
                     <head>Tiers détenteur. — Adjudication. — Folle enchère.</head>
                     <div type="summary">
                         <p>Celui qui a acquis un immeuble d’un adjudicataire sur expropriation ne
@@ -1869,7 +1878,7 @@
                             bey Mobarak c. Crédit Foncier Egyptien et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0310">
                     <head>Tribunal Sommaire. — Compétence.</head>
                     <div type="summary">
                         <p>La clause attributive de compétence au Tribunal Sommaire n’est pas
@@ -1882,7 +1891,7 @@
                             Deutz c. Ismail eff. Maatouk).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0320">
                     <head>Vente de marchandises. — Mise en demeure. — Résiliation.</head>
                     <div type="summary">
                         <p>En matière de vente de marchandises livrables et payables par termes
@@ -1896,16 +1905,15 @@
                             Ragab el Sabbag).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0330">
                     <head>Vente de récoltes. — Référé. — Séquestre.</head>
-                    
                     <div type="observations">
                         <p>Note. — Par arrêt du 22 février 1912, a été confirmé le jugement du Trib.
                             Civ. Alex. 30 Décembre 1911, rapporté par la Gazette (n° 16, p. 66 §
                             Vente de Récoltes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0340">
                     <head>Vente. — Immeuble. — Délivrance. — Remise des titres.</head>
                     <div type="summary">
                         <p>Si l’art. 343 C. civ. prévoit que lorsqu’il s’agit d’un immeuble la
@@ -1926,7 +1934,7 @@
                             Bau'dry Laçant. &amp; Saignat T. î N»s 202 et 289.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0350">
                     <head>Vente. — Résiliation. — Vice caché. — Garantie. — Viande putréfiée.</head>
                     <div type="summary">
                         <p>On ne saurait considérer comme un vice caché donnant lieu à action dans
@@ -1940,7 +1948,7 @@
                             A. Gatt et Cie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-04-0360">
                     <head>Wakf. — Constitution. — Conditions. — Nullité relative. — Caractère du
                         prix de la vente d’un wakf.</head>
                     <div type="summary">
@@ -2116,7 +2124,7 @@
                     le Droit Pur, etc. etc.</p>
                 <p>*</p>
                 <p>* *</p>
-                <p>Deux deuils cruels viennent dejfrapper la magistrature. | - ■.></p>
+                <p>Deux deuils cruels viennent dejfrapper la magistrature. | - ■.&gt;</p>
                 <p>M.Demetriades, jugeauTribunaleMitxe d’Alexandrie, vient d’avoir la douleur de
                     perdre son fils, après une longue et péni-<pb n="108"
                         rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>ble maladie. Nous le
@@ -2126,7 +2134,7 @@
                 <p>Après de brillantes études en France, Hussein bey Hassan était entré en 1907 au
                     Parquet Mixte où il s’était fait remarquer et apprécier par de brillantes
                     qualités de coeur et d’esprit.</p>
-                <p>> *</p>
+                <p>&gt; *</p>
                 <p>* *</p>
                 <p>Par suite de la désignation de M° H. Lusena, en qualité de substitut au Caire du
                     bâtonnier de l’Ordre, MeGreck Mifsud a fait parvenir au Conseil sa démission de
@@ -2955,9 +2963,9 @@
                     Actif et passif au sieur Nicolas Aniliadis.</p>
                 <p>H.©, ©ughourian. Par contr. du 1.1.12 retrait de la soc. du siéur Artin G.
                     Kershishian. Suite des affaires de la Soc. à M. Agop Oughou-rian.</p>
-                <p>Ghehata et Georges et Youssef Ha> * maoni Par contr. du 3.3.12 proragation de la
-                    soc. const. par contr. du 1.9.04 pour une nouvelle période de 3 ans à partir du
-                    1.8.11 au 31.8.14. Dir. et sign. à Chehata Hamaoui el Georges Hamaoui.</p>
+                <p>Ghehata et Georges et Youssef Ha&gt; * maoni Par contr. du 3.3.12 proragation de
+                    la soc. const. par contr. du 1.9.04 pour une nouvelle période de 3 ans à partir
+                    du 1.8.11 au 31.8.14. Dir. et sign. à Chehata Hamaoui el Georges Hamaoui.</p>
                 <p>Raphaël Z. Levy et Go. Par contr. du</p>
                 <p>4.3.12 diss. de soc. const. par contr. du 15.5.10 entre Raphaël L. Levy et Jacob
                     Leon. Isaac Levy et Cie.de Manchester prendent suite de la branche manufactures
@@ -3067,7 +3075,7 @@
                 <p>1° Toutes les affaires relatives aux expropriations immobilières depuis et y
                     compris l’opposition à commandement, jusques et y compris la distribution du
                     prix d’adjudication.</p>
-                <p>2l> Toutes les revendications en matière immobilière.</p>
+                <p>2l&gt; Toutes les revendications en matière immobilière.</p>
                 <p>Audience des adjudications le mardi à 4 heures de relevée.</p>
                 <p>Tribunal de Commerce</p>
                 <p>et 3me Chambre Civile</p>

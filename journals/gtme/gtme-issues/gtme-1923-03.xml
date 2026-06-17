@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0013-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0013-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1923-03-10">March 10, 1923</date><lb/>
-                    <biblScope unit="volume">Vol. 13</biblScope><lb/>
-                    <biblScope unit="number">No. 149</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1923-03-10">March 10, 1923</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 13</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 149</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -292,14 +303,14 @@
                     actes de mutation à l’encontre de l’acquéreur (2). .</p>
                 <p>C’est une lacune qu’une occasion inespérée s’offre pour combler: souhaitons que
                     l’Assemblée Législative ne la laisse point passer. M. P.</p>
-                <p>(>) V. sur la question, la note à la page 98 de la Gazette, XII (No. de Mai
+                <p>(&gt;) V. sur la question, la note à la page 98 de la Gazette, XII (No. de Mai
                     1922).</p>
                 <p>(-) V. Gaz. XII, p. 97.</p>
             </div>
             <pb n="67" rendition="GAZETTE DES TRIBUNAUX MIXTES D’EGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0010">
                     <head>128. - Affectation hypothécaire.— Inscription ; renouvellement nécessaire
                         ; péremption.</head>
                     <div type="summary">
@@ -343,7 +354,7 @@
                             de Viky dans la répartition de la dite quote-part.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0020">
                     <head>129. - Arbitrage. — Compromis ; clause ■de renonciation à l’action en
                         nullité ; inadmissibilité. — Examen de l’objet de la contestation. — Requête
                         civile contre la sentence arbitrale. — Contiadiction dans les motifs d une
@@ -440,7 +451,7 @@
                             non pas de requête civile.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0030">
                     <head>130. - Avocat. — Mandat; sujet ennemi ; Public Custodian. — Mandat en
                         substitution ; honoraires. — Révocation ; dommages-intérêts ;
                         inadmissibilité. — Preuve testimoniale ; faits négatifs ;
@@ -469,7 +480,7 @@
                             c. L.S. Hargreaves èsq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0040">
                     <head>131. - Bail. — Construction à élever ; délai de consignation au preneur ;
                         inobservation; hausse des matériaux; défaut de force majeure. — Clause
                         pénale; application à l’exclusion de toute autre indemnité; demande
@@ -553,7 +564,7 @@
                             l’intimé dansson appel incident.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0050">
                     <head>132. - Bail. — Locataire ; responsabilité ordinaire; stipulation aggravant
                         ses charges ; interprétation restrictive ; nécessité d’expressions précises
                         et non ambiguës ; recherche de l’intention des parties.</head>
@@ -755,7 +766,7 @@
                             mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0060">
                     <head>133. - Caution. — Bénéfice de discussion ; conditions d’exercice ; droit
                         du créancier; mesures conservatoires. — Interdiction du débiteur principal ;
                         défaut - d’influence sur l’action exercée contre le garant. — Intérêts ;
@@ -880,7 +891,7 @@
                         <p>/</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0070">
                     <head>134. - Cession. — Créance commerciale ; billet à personne dénommée ;
                         garantie du cédant ; limites. — Appel principal; forme ; acte d’huissier
                         indispensable ; appel principal à tort qualifié d’appel incident.</head>
@@ -984,7 +995,7 @@
                             les Consorts Ghindi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0080">
                     <head>135. - Chemins de fer. — Responsabilité en matière de transport. — Clause
                         limitative; applicabilité aux seuls risques ordinaires du transporta
                         non-applicabilité au vol. — Force majeure ; preuve à charge de
@@ -1083,7 +1094,7 @@
                             Messeca.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0090">
                     <head>136. - Dernière maladie. — Vente; ■défaut de ratification par les
                         co-héritiers de l’acheteur; disposition de l’art. 320 C. Civ. M. applicable
                         quelle que soit la nationalité du vendeur; maladie chronique; aggravation
@@ -1215,7 +1226,7 @@
                             dernière maladie de feu Abdel Meguid.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0100">
                     <head>137. - Distribution. — Contredit;, irrecevabilité de moyens nouveaux en
                         degré d’appel.</head>
                     <div type="summary">
@@ -1235,7 +1246,7 @@
                     </div>
                 </div>
                 <pb n="72 •" rendition="GAZETTE DES TRIBUNAUX MIXTES O'ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0110">
                     <head>138. - Distribution.—Contredit formé par un créancier non produisant. —
                         Créancier omis à la distribution, seul qualifié pour se
                         plaindre—Contribution ; sommation prescrite pour les seuls créanciers
@@ -1319,7 +1330,7 @@
                             Toumani ne sont pas créanciers opposants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0120">
                     <head>139. - Distribution. -- Créance hypothécaire cédée; production suffisante,
                         par le cessionnaire, de l’acte de cession et d'un bordereau d’inscription en
                         renouvellement ; collocation ; rang.</head>
@@ -1341,7 +1352,7 @@
                             Heleika èsq., c. Hoirs Youssef Pardo et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0130">
                     <head>140. -Distribution.—Vente volontaire; intérêts dus par l’adjudicataire;
                         taux. — Privilège du vendeur; intérêts ; collocation; inapplicabilité de
                         l’art. 692 C.Civ.; capitalisation permise ; prescription
@@ -1406,7 +1417,7 @@
                             lui-même ne s’y applique pas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0140">
                     <head>141. -Droits proportionnels. — Perception sur la base de' l’art. 4 du
                         Tarif Civil Mixte à l’occasion d'un jugement rendu dans un litige entre deux
                         acheteurs des mêmes biens ; calcul du 2 % sur la valeur des biens litigieux.
@@ -1565,7 +1576,7 @@
                             irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0150">
                     <head>142. - Expropriation. - Revendication incidente; circonstances donnant ce
                         caractère à la revendication ; délai d’appel.</head>
                     <div type="summary">
@@ -1646,7 +1657,7 @@
                             jugement rejetant sa revendication, est irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0160">
                     <head>143. - Gage. — Réalisation ; procédure de l’art. 84 C. Com. ; demande
                         d'annulation de la sommation préalable; irrecevabilité devant le Juge de
                         Service.</head>
@@ -1711,7 +1722,7 @@
                             la demande irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0170">
                     <head>144. - Juridiction Mixte. — Compétence ; nationalité ; protection
                         étrangère; consentement nécessaire du Gouvernement Egyptien. - Litiges entre
                         avocats et clients; cas où la Juridiction Mixte est compétente; honoraires
@@ -1769,7 +1780,7 @@
                         <p>Que, par conséquent, il y a lieu de se déclarer incompétent.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0180">
                     <head>145. - Juridiction Mixte. — Nationalité. — Cas où les Tribunaux Mixtes
                         doivent statuer sur leur compétence nonobstant la persistance d’un conflit
                         diplomatique. — Sujet ottoman ; changement de nationalité ; autorisation du
@@ -1970,7 +1981,7 @@
                             naturalisation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0190">
                     <head>146. - Juridiction mixte. — Ressort de compétence de la Délégation de
                         Port-Saïd.</head>
                     <div type="summary">
@@ -1997,7 +2008,7 @@
                     </div>
                 </div>
                 <pb n="76" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0200">
                     <head>147. - Opposition. — Délai; point de départ; jugement de défaut ; paiement
                         des condamnations et frais équivalant à un acte d’exécution par le
                         créancier.</head>
@@ -2047,7 +2058,7 @@
                             formée dans le délai légal.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0210">
                     <head>148. - Ordre de livraison. —Perte ; application de la procédure prévue par
                         l’art. 158 C. Com. en matière de perte de lettre de change.</head>
                     <div type="summary">
@@ -2146,7 +2157,7 @@
                             séparée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0220">
                     <head>149. - Paiement. — Monnaie étrangère-, règlement en Egypte par chèque de
                         banque sur banque ; inadmissibilité ; obligation pour le débiteur de légler
                         en monnaie égyptienne, au cours de vente du chèque sur l’étranger.</head>
@@ -2172,7 +2183,7 @@
                             diverses banques de la place.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0230">
                     <head>150. - Péremption. — Instance incidente; contredit; opposition à taxe;
                         extinction du droit de recours.</head>
                     <div type="summary">
@@ -2294,7 +2305,7 @@
                             beaucoup trop en longueur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0240">
                     <head>151. - Preuve. — Obligation civile ; connexité avec une obligation
                         commerciale; mode de preuve différent; commencement de preuve par écrit. —
                         Serment supplé-toire ; conditions.</head>
@@ -2323,7 +2334,7 @@
                             28. --------</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0250">
                     <head>152. - Propriété. — Obligations de voisinage.</head>
                     <div type="summary">
                         <p>Il est de principe certain que celui qui construit sur son propre terrain
@@ -2340,7 +2351,7 @@
                             c. Hoirs Salomon Green).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0260">
                     <head>153. - Retrait d’indivision. — Droit du copropriétaire originaire ;
                         faculté d’exercice jusqu’au partage; opposabilité au sous-acquéreur.</head>
                     <div type="summary">
@@ -2380,7 +2391,7 @@
                             Mars 1907).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0270">
                     <head>154. - Retrait litigieux. — Conditions d’exercice ; cas de garantie de la
                         créance cédée. — Donation déguisée-, prix mentionné-, défaut de
                         portée.—Action paulienne ; inefficacité contre les sous-acquéreurs de bonne
@@ -2429,7 +2440,7 @@
                             26.170 27.219 et 30.482.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0280">
                     <head>155. - Saisie-conservatoire. — Effets de commerce ; protêt à
                         l’échéance.</head>
                     <div type="summary">
@@ -2484,7 +2495,7 @@
                             attacher, des effets légaux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0290">
                     <head>156. - Serment litisdécisoire. — Admissibilité; modification du set ment
                         par le juge. — Mandataire ; responsabilité en cas de garantie d’un
                         engagement dépassant ses pouvoirs.</head>
@@ -2517,7 +2528,7 @@
                             Leggiadrini c. Paul Lambert et Michel Ralli et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0300">
                     <head>157. - Servitude d’écoulement. — Distinction entre les eaux d’écoulement
                         naturelles et les eaux artificiellement amenées dans le fonds
                         supérieur.—Infiltrations souterraines ; caractère non apparent de la
@@ -2706,7 +2717,7 @@
                             et l’importance des travaux à exécuter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0310">
                     <head>158. - Succession musulmane. — Recouvrement des créances avant la
                         répartition-, droit des héritiers. — Acte authentique; formule exécutoire;
                         droit de poursuites du créancier sur les immeubles non grevés.— Société;
@@ -2751,7 +2762,7 @@
                             Cury c. Hoirs de feu Mohamed Aly El Badihi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-03-0320">
                     <head>159. —Vérification d’écriture.—Pièces de comparaison ; actes assimilables
                         à des actes authentiques ; lois et usages antérieurs à la Réforme ;
                         documents émanant d’un Consulat. — Incident sur une procédure de

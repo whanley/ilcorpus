@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0034-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0034-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1944-07-10">July 10, 1944</date><lb/>
-                    <biblScope unit="volume">Vol. 34</biblScope><lb/>
-                    <biblScope unit="number">No. 405</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1944-07-10">July 10, 1944</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 34</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 405</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -76,7 +87,7 @@
                 <p>Numéros de l’année en cours............. P.T. 15 Numéro du
                     jour................................... P.T. 1</p>
                 <p>Numéros des années écoulées..-.......... » 25 Numéros
-                    anciens....................................... > 5</p>
+                    anciens....................................... &gt; 5</p>
                 <p>Direction, RÉDACTION, ADMINISTRATION à ALEXANDRIE: 3, Rue de la Gare du Caire
                     ....______ — Tél. ..... 25924.</p>
                 <p>BUREAUX au CAIRE: ' 35, Rue Kasr El Nil. .............. — Tél. ... 54237</p>
@@ -162,8 +173,8 @@
                     i M" MAXIME PUPIEOFEB et LÉON PANQALO, Avocats à la Cour</p>
                 <p>Directeur : M« MAXIME RUPIKOFER, Avocat à la Cout.</p>
                 <p>eomltfe de Rédaction et d'Administration :</p>
-                <p>M“ I>. PANGALO et R. SCHEMEILi (Directeur! au Caire) M» E. DEGIARDE (Rédacteur en
-                    Chef)</p>
+                <p>M“ I&gt;. PANGALO et R. SCHEMEILi (Directeur! au Caire) M» E. DEGIARDE (Rédacteur
+                    en Chef)</p>
                 <p>Me L. DARDA (Secrétaire de la rédaction)</p>
                 <p>M» A. FADEL (Directeur à Mansourah).</p>
                 <p>Administrateur-Gérant :</p>
@@ -174,7 +185,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE.</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0010">
                     <head>172. - Propriété industrielle et commerciale. — Concurrence déloyale;
                         collaboration d'un tiers lté déjà avec un concurrent; inadmissibilité. —
                         Concurrence déloyale; responsabilité jdes coauteurs; défaut de
@@ -320,7 +331,7 @@
                             d’indemnité formant l’objet de l’appel incident.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0020">
                     <head>173. - Propriété industrielle et commerciale. — Concurrence déloyale;
                         débauchage; emploi d'un travailleur lié par contrat à un autre employeur;
                         responsabilité; dommages-intérêts; évaluation.</head>
@@ -347,16 +358,17 @@
                             Commerciale du Tribunal Mixte du Caire, en date du 29 Novembre 1941, en
                             l’affaire R.G. N» 7719/65me A.J.;</p>
                         <p>Attendu que par exploit introductif d’instance en date du 4 Septembre
-                            1940, > Azar Farhi a actionné la Raison Sociale Albert Hanan &amp; Co.
-                            ainsi que Georges Haddad, solidairement, à lui payer la somme de L.E.
-                            1200, à titre de dommages-intérêts, pour le motif qu’au mois de Juin
-                            1940, à la suite de l’arrestation des techniciens allemands affectés aux
-                            machines de la fabrique « Corona » pour la confection des chaussettes et
-                            bas faisant partie de l’industrie de bonneterie de la Raison Sociale
-                            susdite, celle-ci, après avoir suspendu sa fabrique durant
-                            plusieurs-jours, vu l’absence de techniciens, aurait engagé Georges
-                            Haddad à quitter intempestivement le service de Farhi pour l’embaucher
-                            définitivement à titre de. technicien, à partir du 1er Juillet 1940;</p>
+                            1940, &gt; Azar Farhi a actionné la Raison Sociale Albert Hanan &amp;
+                            Co. ainsi que Georges Haddad, solidairement, à lui payer la somme de
+                            L.E. 1200, à titre de dommages-intérêts, pour le motif qu’au mois de
+                            Juin 1940, à la suite de l’arrestation des techniciens allemands
+                            affectés aux machines de la fabrique « Corona » pour la confection des
+                            chaussettes et bas faisant partie de l’industrie de bonneterie de la
+                            Raison Sociale susdite, celle-ci, après avoir suspendu sa fabrique
+                            durant plusieurs-jours, vu l’absence de techniciens, aurait engagé
+                            Georges Haddad à quitter intempestivement le service de Farhi pour
+                            l’embaucher définitivement à titre de. technicien, à partir du 1er
+                            Juillet 1940;</p>
                         <p>Attendu que le jugement dont appel a retenu la responsabilité de la
                             Raison Sociale Albert Hanan &amp; Co. dans cet acte de</p>
                         <p>débauchage, mais il a limité les dommages-intérêts en résultant à L.E.
@@ -403,7 +415,7 @@
                             véritable technicien ayant suivi de hautes études en mécanique après
                             avoir obtenu son baccalauréat et encore après s’être spécialisé durant
                             de longues années et touchant de gros salaires de toute importante
-                            surtout, actuellement, aux temps du règne du &lt;> moteur », avec le
+                            surtout, actuellement, aux temps du règne du &lt;&gt; moteur », avec le
                             modeste ouvrier s’intitulant vulgairement de mécanicien et s’occupant,
                             suivant un apprentissage de routine, à dépanner, régler ou nettoyer une
                             machine. Ce simple ouvrier pourrait, par des circonstances heureuses ou
@@ -529,7 +541,7 @@
                             chiffre de L.E. 100.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0030">
                     <head>174. - Propriété industrielle et com-merciale. — Concurrence déloyale;
                         dommages-intérêts; conditions de préjudice.</head>
                     <div type="summary">
@@ -634,7 +646,7 @@
                             présent jugement, qu’il y a lieu de ne pas y faire droit. (</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0040">
                     <head>175. - Propriété industrielle et commerciale. — Concurrence déloyale;
                         enseigne; nom patronymique.</head>
                     <div type="summary">
@@ -681,7 +693,7 @@
                             empêcher la confusion.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0050">
                     <head>176. - Propriété industrielle et commerciale. — Concurrence déloyale;
                         fausse qualification de « dépositaire » assumée par un marchand; préjudice
                         éventuel, générateur de dommages-intérêts.</head>
@@ -772,7 +784,7 @@
                             démenti de la fausse qualification prise par ce dernier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0060">
                     <head>177. - Propriété industrielle et commerciale. — Concurrence déloyale;
                         liberté commerciale des associés après la dissolution de la société.</head>
                     <div type="summary">
@@ -875,10 +887,10 @@
                             attaqué, et cela sans recourir à la preuve offerte par l’appelant..,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0070">
                     <head>178. - Propriété industrielle et commerciale. — Enseigne; noms
                         patronymiques; homonymie; mesures à prendre pour éviter la confusion des
-                        noms commerciaux. "></head>
+                        noms commerciaux. "&gt;</head>
                     <div type="summary">
                         <p>Il appartient au commerçant qui s’installe dans un territoire occupé déjà
                             depuis longtemps par un concurrent de prendre toutes les mesures
@@ -1001,7 +1013,7 @@
                         <p>Note. — Rapp. ci-après p. 231 § 6, le jug. nat. du 28 Avril 1940. -</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0080">
                     <head>179. - Propriété industrielle et commerciale!. — Enseigne; vente d'un
                         fonds de commerce comprenant l'enseigne à défaut de stipulation expresse. —
                         Nom patronymique; aliénabilité en cas d'utilisation comme dénomination
@@ -1021,8 +1033,8 @@
                             rétablissement de commerce, objet de la vente.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d’Appel, Ire Ch., Prés. M. J. Y. Brinton, 25 Mars 1942. —
-                            Envangelos Tseppas c. Stavrou Zissou.</p>
+                        <p>Cour d’Appel, Ire Ch., Prés. M. J. Y. Brinton, 25 Mars 1942. — Envangelos
+                            Tseppas c. Stavrou Zissou.</p>
                     </div>
                     <div type="decision">
                         <p>Arrêt.</p>
@@ -1037,7 +1049,7 @@
                             entendre le même ordonner la cessation de cet abus, sous peine d’une
                             indemnité de L.E. 2 par jour de retard, du lendemain jusqu’à cessation
                             et 3.) entendre la publication, aux frais de l'assigné, du jugement à
-                            intervenir dans deux journaux au Caire. ></p>
+                            intervenir dans deux journaux au Caire. &gt;</p>
                         <p>Tout en reprenant en appel les mêmes moyens de défense qu’il avait
                             avancés en première instance, le Sieur Evangelo Tseppas allègue que le
                             jugement déféré aurait confondu Je nom. commercial qui est cessible avec
@@ -1158,7 +1170,7 @@
                     </div>
                 </div>
                 <pb n="223" rendition="Gazette des Tribunaux Mi .tes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0090">
                     <head>180. - Propriété industrielle et commerciale. — Inventions; protection;
                         conditions; durée; défaut d'exploitation en Egypte; cas où il entraîne
                         déchéance du droit privatif de l'inventeur; mode d’exploitation; distinction
@@ -1216,7 +1228,8 @@
                             pareilles circonstances » (19 Mai 1926, Bull. XXXVIII, 425; cf. à cet
                             égard l’expression du législateur de Montreux relativement à l’adoption
                             en Egypte d’une législation qui « ne sera pas incompatible avec les
-                            principes généralement adoptés dans les législations modernes >,);</p>
+                            principes généralement adoptés dans les législations modernes
+                            &gt;,);</p>
                         <p>Attendu que la question des conséquences du défaut d’exploitation d’un
                             brevet n’a pas manqué d’attirer depuis longtemps l’attention du
                             législateur international, qui s’est inspiré des considérations d’ordre
@@ -1274,7 +1287,7 @@
                             droits... le breveté qui n’aura pas mis en exploitation sa découverte ou
                             invention en France dans le délai de deux ans, à dater du jour de la
                             signature du brevet, ou qui aura cessé de l’ex-. ploiter pendant deux
-                            années consécutives, > à moins que, dans l’un ou l’autre cas, il ne
+                            années consécutives, &gt; à moins que, dans l’un ou l’autre cas, il ne
                             justifie des causes de son inaction; que toutefois le délai de deux ans,
                             prévu par le. dit texte, a été porté .à trois ans, par la Loi du 6
                             Juillet 1906, qui a déclaré applicable aux Français, dans leurs rapports
@@ -1422,7 +1435,7 @@
                             conclusions de l’appelant sur la question de déchéance...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0100">
                     <head>181. - Propriété industrielle et commerciale. — Inventions; protection;
                         conditions; insuffisance de publications de l'objet ou du procédé à
                         protéger.</head>
@@ -1552,7 +1565,7 @@
                             toujours fait défaut en degré d’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0110">
                     <head>182. - Propriété industrielle et commerciale. — Inventions; protection;
                         principe de l'invention, non susceptible de faire l’objet d’un brevet ou
                         d’une protection. — Inventions; conditions de la protection.</head>
@@ -1717,7 +1730,7 @@
                             devenant superflue.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0120">
                     <head>183. - Propriété industrielle et commerciale. — Marque identifiant
                         l'activité d'une entreprise de propagande publicitaire; droit privatif;
                         protection due à de telles marques et désignations avant la Loi N° 57 de
@@ -1907,7 +1920,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0130">
                     <head>184. - Propriété industrielle et commerciale. — Marques de fabrique;
                         demande d'enregistrement; insuffisance pour l'exercice d’une action en
                         contrefaçon. '— Concurrence déloyale; couleurs; éléments d'appréciation. —
@@ -2028,7 +2041,7 @@
                             appelants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0140">
                     <head>185. - Propriété industrielle et commerciale. — Marques de fabrique; droit
                         dérivant de leur propriété, à l'égard des tiers ayant acquis et revendant de
                         bonne foi les produits portant la marque. — Cession de marques; vente pour
@@ -2150,7 +2163,7 @@
                     </div>
                 </div>
                 <pb n="229" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0150">
                     <head>186. - Propriété industrielle et commerciale. — Marques de fabrique; droit
                         privatif; conditions; emblème d'un animal; cas d'un même emblème différent
                         par le dessin et la présentation, employé par deux exploitants d'un même
@@ -2399,7 +2412,7 @@
                             marque de fabrique...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0160">
                     <head>187. - Propriété industrielle et commerciale. — Marques de fabrique; forme
                         triangulaire de l'emballage d'un produit, ne pouvant « elle seule faire
                         l'objet d'un monopole.</head>
@@ -2413,7 +2426,7 @@
                             Khalil Ibrahim c. Grégoire C. Boscopoulo.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1944-07-0170">
                     <head>188. - Propriété industrielle et commerciale. — Marques de fabrique;
                         standardisation; boites et étiquettes de forme et dimension particulières
                         communément employées par les fabricants d'un certain produit; domaine
@@ -3266,7 +3279,7 @@
                     Hass-ouna.</p>
                 <p>Arrêté N0 76 de 1944 du Ministère des Finances instituant une commission à
                     l’effet d’organiser les échanges commerciaux entre l’Egypte et le Soudan.</p>
-                <p>(Journal Officiel N&lt;> 77 du 26 Juin 1944).</p>
+                <p>(Journal Officiel N&lt;&gt; 77 du 26 Juin 1944).</p>
                 <p>Le Ministre des Finances,</p>
                 <p>Arrête:</p>
                 <p>Article unique. — En vue d’organiser les échanges commerciaux entre l’Egypte et

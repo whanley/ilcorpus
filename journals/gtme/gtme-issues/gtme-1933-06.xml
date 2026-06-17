@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0023-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0023-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1933-06-10">June 10, 1933</date><lb/>
-                    <biblScope unit="volume">Vol. 23</biblScope><lb/>
-                    <biblScope unit="number">No. 272</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1933-06-10">June 10, 1933</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 23</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 272</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -39,7 +50,7 @@
                 <p>ABONNEMENTS :</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
-                <p>Fondateurs > M“ MAXIME PUPIKOFEB et LÉON PANQALO, Avocats à la Cour</p>
+                <p>Fondateurs &gt; M“ MAXIME PUPIKOFEB et LÉON PANQALO, Avocats à la Cour</p>
                 <p>— à la Gazette (un an).... P.T. 150</p>
                 <p>— au Journal ;</p>
                 <p>— Ou an................ » 150</p>
@@ -307,7 +318,7 @@
             <pb n="255" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0010">
                     <head>281. - Paiement. — Contestations entre, créanciers; dépôt à la barre en
                         vue du versqnent à la Caisse du Tribunal; caractère libératoire.</head>
                     <div type="summary">
@@ -396,7 +407,7 @@
                             formelle...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0020">
                     <head>282. - Paiement. — Cours forcé; Décret du 2 Août 1914,’ portée; clauses de
                         paiement à l'équivalence de l'or; validité. —-Régime monétaire égyptien; Loi
                         No. 25 de 1926; portée, — Distribution; règlement définitif; opposition;
@@ -514,11 +525,11 @@
                             énumérant les espèces de la monnaie métallique de l’Egyp.e, ne vise pas
                             à réglementer le cours des billets de banque égyptiens, qui reste donc
                             régi par les Décrets y relatifs, dont celui du 2 Août 1914;</p>
-                        <p>Attendu que l’article 1er de ce Décret édicte: -> Les billets îbanknotes)
-                            de la National Bank of Egypt ont même valeur effective que les espèces
-                            d’or ayant cours légal en Egypte. En conséquence et jusqu’à ce qu’il en
-                            soit ordonné autrement, tous paiements effectués au moyen des dits
-                            billets, pour quelque cause que ce soit, seront effectifs et
+                        <p>Attendu que l’article 1er de ce Décret édicte: -&gt; Les billets
+                            îbanknotes) de la National Bank of Egypt ont même valeur effective que
+                            les espèces d’or ayant cours légal en Egypte. En conséquence et jusqu’à
+                            ce qu’il en soit ordonné autrement, tous paiements effectués au moyen
+                            des dits billets, pour quelque cause que ce soit, seront effectifs et
                             libératoires au même titre que s’ils étaient faits en or, nonobstant
                             toutes clauses on conventions contraires existantes ou à intervenir
                             entre les intéressés »;</p>
@@ -679,7 +690,7 @@
                             1933, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0030">
                     <head>283. - Paiement. — Cours légal; cours forcé; Décret du 2 Août 1914;
                         portée; applicabilité aux étrangers; limites; clause de paiement à
                         Véquivalence de l'or; validité. — Bégime monétaire égyptien; droit souverain
@@ -1005,8 +1016,8 @@
                             l’or -et le papier la fiction monnaie-papier égale monnaie or.</p>
                         <p>En effet:</p>
                         <p>1. ) On a vu plus haut que l’art. 149 du Code de Commerce mixte dispose
-                            que >> une lettre de change doit être payée dans la monnaie qu’elle
-                            indique ».</p>
+                            que &gt;&gt; une lettre de change doit être payée dans la monnaie
+                            qu’elle indique ».</p>
                         <p>On a également vu qu'il est de principe que la règle posée par cet
                             article est applicable à toutes les dettes de sommes d’argent (Lyon Caen
                             et Renault, Tome IV, 31.301). On n’a-;perçoit pas, en effet, pour quelle
@@ -1403,7 +1414,7 @@
                             s'ils étaient faits en or, nonobstant toutes clauses ou conventions
                             contraires existantes ou à intervenir entre les intéressés ».</p>
                         <p>L’art. 2 de ce décret établit le cours forcé en ces termes:</p>
-                        <p>-> La National Bank of Egypt est autorisée provisoirement et jusqu’à
+                        <p>-&gt; La National Bank of Egypt est autorisée provisoirement et jusqu’à
                             nouvel ordre à différer le remboursement des billets qui lui seront
                             présentés à cet effet ».</p>
                         <p>En France le cours légal fut établi par la loi de 1870 dont l’art. 1er
@@ -1579,7 +1590,7 @@
                             payables en or sous une forme quelconque.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0040">
                     <head>284. - Paiement. — Dette Publique Egyptienne; Loi du 28 Novembre 1904;
                         clause de paiement or; portée; obligation du Gouvernement Egyptien;
                         interprétation; paiement en monnaie dépréciée antérieurement accepté par les
@@ -1701,8 +1712,8 @@
                     </div>
                     <div type="litigants">
                         <p>Trib. Civ. Caire, Ire Ch„ Prés. M. V. Falqui-Cao. 21 Janvier 1933. —
-                            Negrotto Cambiaso et V. Dela-4. croix -èsq> dè^Cofümissaires de la Dette
-                            Publique Egyptienne et autres c. Gouvernement Egyptien</p>
+                            Negrotto Cambiaso et V. Dela-4. croix -èsq&gt; dè^Cofümissaires de la
+                            Dette Publique Egyptienne et autres c. Gouvernement Egyptien</p>
                     </div>
                     <div type="decision">
                         <p>JUGE-ME-VT.</p>
@@ -2554,7 +2565,7 @@
                             droit, d’après lesquelles s’établissent en droit ses obligations
                             contractuelles, et qu’en vertu de la puissance législative, il est dans
                             le pouvoir de l’Etat de remplacer à tout moment le droit existant par un
-                            autre. (&lt;> Revue de Droit International ». tome 22, p. 565).</p>
+                            autre. (&lt;&gt; Revue de Droit International ». tome 22, p. 565).</p>
                         <p>C’était précisément cette puissance législative qui manquait à l’Etat
                             Egyptien pour se protéger contre la rapacité de certains de ses
                             créanciers.</p>
@@ -3274,7 +3285,7 @@
                             simplement cette affirmation que, ayant reçu des francs, qui étaient au
                             rapport fixe de 25,22 avec la livre, c’est avec la même monnaie que la
                             Ville de Tokio doit assurer le paiement des intérêts et rembourser les
-                            titres ». Il ajoute: &lt;> Or, je l’ai déjà dit, et le Tribunal de la
+                            titres ». Il ajoute: &lt;&gt; Or, je l’ai déjà dit, et le Tribunal de la
                             Seine l’avait fait avant moi sous une forme un peu distincte, ce rapport
                             de 25,22, qui était, en 1912, non point tout à fait le cours du change,
                             mais la représentation du cours relatif de l’or dans le franc et de l’or
@@ -3284,7 +3295,7 @@
                             et alors que la relation de la livre or et du franc or était de 25,22.
                             Ceci était fait pour faciliter, à cette date, la conversion nominale en
                             francs de 4 millions de livres réservées au marché français, ce que
-                            j’appelais >&lt; la traduction du titre en livres anglaises ».</p>
+                            j’appelais &gt;&lt; la traduction du titre en livres anglaises ».</p>
                         <p>Il résulte de cela que, suivant l’opinion de M. le Procureur Général
                             Matter qui a dirigé le développement de la jurisprudence française dans
                             la matière de valorisation, une simple stipulation d’équivalence des
@@ -3680,7 +3691,7 @@
                             transaction intérieure, il n’en est pas de même quand il s’agit de
                             contrats internationaux »; et delà, ils s’imaginent que la Cour
                             permanente-de La Haye a approuvé le principe quer « tous paiements
-                            internationaux doivent s’effectuer en or -> C’est bien loin d’être
+                            internationaux doivent s’effectuer en or -&gt; C’est bien loin d’être
                             le-cas. Il suffit de lire tout le contexte de la-décision de la Cour de
                             La Haye, et de 1&amp; comparer aussi avec la partie correspondante de
                             l’arrêt brésilien, qui ajoute le mot « française » au mot jurisprudence,
@@ -4137,8 +4148,8 @@
                             sterling » et le mot « or », et ne donnent au mot sterling que la
                             signification d’une monnaie saine, applicable à l’or, l’argent ou le
                             cuivre. Et autant que je sache, il n’y a, en anglais, comme
-                            correspondant du mot » or >i que le mot « gokl », sauf peut-être le mot
-                            « sovereign », qui désigne dans la loi et la langue anglaises, une
+                            correspondant du mot » or &gt;i que le mot « gokl », sauf peut-être le
+                            mot « sovereign », qui désigne dans la loi et la langue anglaises, une
                             véritable monnaie d’or et une devise qui, à certaines périodes de
                             l’histoire de l’Angleterre, a représenté la livre sterling.</p>
                         <p>Cependant, nous pouvons négliger tout cela; ici, nous n’avons qu’à nous
@@ -4595,7 +4606,7 @@
                             Commissaires de la Caisse de la Dette Publique comme non fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0050">
                     <head>285. - Paiement. — Imputation d'un paiement sur une dette postérieure;
                         présomption de règlement dès dettes antérieures.</head>
                     <div type="summary">
@@ -4607,7 +4618,7 @@
                             Calothy èsq. c. Sayed Osman El Safti.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0060">
                     <head>286. - Paiement. — Imputation; reçu libellé par méprise; erreur ne pouvant
                         détruire un état de droit et de fait. - Renonciation. nè se présumant
                         pas.</head>
@@ -4667,7 +4678,7 @@
                             le créancier à exiger par anticipation la totalité de la somme due, six
                             mois après l’arrivée du terme impayé, sans besoin d’aucune sommation ou
                             formalité judiciaire, et que les intérêts en pareil cas seront portés
-                            ipso facto à 7 1/2 .%> sur toute la somme ainsi rendue exigible par
+                            ipso facto à 7 1/2 .%&gt; sur toute la somme ainsi rendue exigible par
                             anticipation;</p>
                         <p>Attendu que comme on le voit des textes de la convention, le créancier,
                             feu Georges Miniakis, était autorisé par le seul fait de non paiement
@@ -4723,7 +4734,7 @@
                             de l’expert et la baser sur cette base...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0070">
                     <head>287. - Paiement. — Imputation; règles; paiements effectués par garant. —
                         Imputation effectuée par le débiteur, au détriment des intérêts du garant;
                         redressement.</head>
@@ -4847,7 +4858,7 @@
                             conformément aux conclusions des appelants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0080">
                     <head>288. - Paiement. — Obligation en monnaie étrangère; faculté d'exiger le
                         paiement dans la monnaie due; conversion en piastres opérée dans
                         l'assignation; renonciation ultérieure; admissibilité. — Société en nom
@@ -4996,7 +5007,7 @@
                             irrévocable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0090">
                     <head>289. - Paiement. — Offre réelle du montant de certains chefs de compte non
                         contestés; condition de reconnaissance deis chefs contestés;
                         inadmissibilité. — Commissionnaire; exonération de tout risque; droit à la
@@ -5019,7 +5030,7 @@
                             J. T al amas et Frères c. It.S. Adès Frères et Co.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0100">
                     <head>290. - Paiement. — Tarif monétaire égyptien; franc égyptien; franc de
                         l'art. 496 C. Com.; valeur or de P.T. 3,8575. — Signification de T
                         expression « au pair »; distinction selon qu'elle est employée pour
@@ -5640,7 +5651,7 @@
                             Trib. Civ. Caire du 8 Juin 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0110">
                     <head>291. - Paiement. — Tarif monétaire égyptien; franc égyptien; franc de
                         l'art. 496 C. Com.; valeur or de P.T. 3,8575. -— Titres internationaux;
                         notion; caractéristiques; référence implicite à l'or; inapplicabilité des
@@ -5904,7 +5915,7 @@
                             lots du Crédit Foncier Egyptien.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0120">
                     <head>292. - Société anonyme. — Action individuelle ut singuli en annulation de
                         délibérations d'assemblées générales; recevabilité. — Actions judiciaires
                         introduites contre la société par un nouvel actionnaire; défaut de chose
@@ -6222,7 +6233,7 @@
                             Mai 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0130">
                     <head>293. - Société anonyme. — Actions judiciaires introduites contre la
                         société par un nouvel actionnaire ou un nouvel obligataire, pour la même
                         cause et dans le même objet qu'une précédente action, déjà jugée; défaut de
@@ -7466,7 +7477,7 @@
                             en tant que porteurs de simples coupons...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0140">
                     <head>294. - Société anonyme. — "Actions judiciaires introduites contre la
                         société par un nouvel obligataire, pour la même cause et dans le même objet
                         qu'une précédente action, déjà jugée; défaut de chose jugée; valeur de
@@ -8044,7 +8055,7 @@
                         <p>IV et VI. - V. Gaz. XX. 108-115, l’arrêt du 9 Mars 1929.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0150">
                     <head>295. - Société anonyme. — Action sociale; conditions d'exercice; action
                         individuelle. — Assemblée générale; limites de ses droits; délibération
                         portant atteinte aux bases fondamentales de la société; nullité; répartition
@@ -8284,7 +8295,7 @@
                             délibérations qui ont approuvé ces reports.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0160">
                     <head>296. - Société anonyme. — Capital; action en versement du solde des
                         actions; pouvoirs du liquidateur; étendue.</head>
                     <div type="summary">
@@ -8388,7 +8399,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0170">
                     <head>297. - Société anonyme. — Société égyptienne ayant domicile administratif
                         statutaire à l'étranger; clause compromissoire attribuant compétence à une
                         juridiction arbitrale étrangère pour les contestations sociales; nullité;
@@ -8578,7 +8589,7 @@
                             Gouvernement Egyptien de son pouvoir juridictionnel, car il est
                             généralement admis qu’aucun droit acquis n’existe en faveur d’un
                             particulier empêchant l’application d’une disposition générale modifiant
-                            la compétence de la ju>-ridiction d’un pays;</p>
+                            la compétence de la ju&gt;-ridiction d’un pays;</p>
                         <p>Attendu dès lors que la véritable question à trancher est celle de savoir
                             si une société égyptienne, régie par les lois et usages du pays, ayant
                             en Egypte son siège social, donc légalement domiciliée dans ce pays,
@@ -8713,7 +8724,7 @@
                             Ministère Public communes à ces trois affaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0180">
                     <head>298. - Société anonyme. — Sociétés égyptiennes; capital social; monnaie;
                         franc de l'art. 49 C. Com.; franc-or; Compagnie Universelle du Canal
                         Maritime de Suez-: franc de. son capital social. — Société égyptienne ayant
@@ -9091,7 +9102,7 @@
                             Foncier Egyptien.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-06-0190">
                     <head>299. - Société anonyme. — Sociétés étrangères; forme par actions ne
                         constituant pas un intérêt mixte attributif de compétence aux Tribunaux
                         mixtes dans leurs conflits avec des tiers de même nationalité. — Société

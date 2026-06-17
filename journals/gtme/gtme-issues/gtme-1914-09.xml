@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0004-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0004-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1914-09-10">September 10, 1914</date><lb/>
-                    <biblScope unit="volume">Vol. 4</biblScope><lb/>
-                    <biblScope unit="number">No. 47</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1914-09-10">September 10, 1914</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 4</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 47</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -234,7 +245,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0010">
                     <head>451 - Adjudicataire. — Cahier des Charges. — Intérêts moratoires —
                         Délivrance de la grosse. — Mise en possession.</head>
                     <div type="summary">
@@ -248,7 +259,7 @@
                             et Cts. c. Emara Voh. Mahram et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0020">
                     <head>452. - Adjudication (Jugement d’). — Vice de forme. — Créancier inscrit. —
                         Tiers-détenteur.</head>
                     <div type="summary">
@@ -270,7 +281,7 @@
                             Ibrahim Machoub Badaoui c. Caisse Hypothécaire et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0030">
                     <head>453. — Adjudication. — Ordonnance du Juge-délegué renvoyant la vente sine
                         die. — Faculté d'appel</head>
                     <div type="summary">
@@ -287,7 +298,7 @@
                             Setton et Cts. c. Mohamed bey Sourour et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0040">
                     <head>454. - Adjudication. — Ordonnances, du Juge-Délegué. — Délai
                         d’Appel.</head>
                     <div type="summary">
@@ -353,7 +364,7 @@
                             l’ordpnnance du 17 mars 1914.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0050">
                     <head>455. - Appel. — Désistement. — Appel incident. — Juge des Contraventions.
                         — Délai d’appel. — Partie civile. — Dommages-intérêts. — Recevabilité —
                         Demande nouvelle.</head>
@@ -462,7 +473,7 @@
                             une le préjudice éprouvé par Pini.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0060">
                     <head>456. - Appel incident. — Recevabilité. — Désistement de l’appel
                         principal.</head>
                     <div type="summary">
@@ -478,7 +489,7 @@
                             Mohamed bey Osman Radouan c. De Phi-lomène Kourbadge).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0070">
                     <head>457. - Appel. — Jugement par défaut. — Renonciation à l’opposition.</head>
                     <div type="summary">
                         <p>Est irrecevable, aux termes de l’art. 396 C. Proc., l’appel d’un jugement
@@ -507,7 +518,7 @@
                             29 Juin 1910).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0080">
                     <head>458. - Appel. — Taux. — Condamnation aux dépens. — Acquiescement.</head>
                     <div type="summary">
                         <p>Les accessoires d’une demande, comme les intérêts et les dépens, sont
@@ -529,7 +540,7 @@
                             OsmanC; Cts Ahmed M. Osman et Çts ).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0090">
                     <head>459. - Avaries. — Délai de protestation. - Fins de non recevoir. —
                         Convention des parties. — Accidents et fortunes de mer.</head>
                     <div type="summary">
@@ -561,7 +572,7 @@
                         <p>II. - Ds. le même sens arrêt 7 Décembre 1910, Gaz. I, p. 50.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0100">
                     <head>460. - Ayant-cause à titre particulier. — Chose jugée. — Titre transcrit.
                         — Jugement déclaratif non transcrit. — Jugement soumis à cette formalité. —
                         Personnes qui peuvent opposer le défaut de transcription.</head>
@@ -1025,7 +1036,7 @@
                         <p>Que cela étant, il y a lieu de débouter le demandeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0110">
                     <head>461. - Commissions. — Usages.</head>
                     <div type="summary">
                         <p>C’est une règle généralement admise en Egypte que les commissions ne sont
@@ -1037,7 +1048,7 @@
                             (ihirghîs c. lonian Bank).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0120">
                     <head>462. - Compétence’. — Accord des. parties pour le renvoi des débats devant
                         une autre juridiction.</head>
                     <div type="summary">
@@ -1050,7 +1061,7 @@
                             effendi Michriki c. Société Langen et Wolff).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0130">
                     <head>463. - Complainte. — Saisie-immobilière. - Trouble possessoire. —
                         Revendication sur saisie.</head>
                     <div type="summary">
@@ -1139,7 +1150,7 @@
                             l’appelant à prouver les faits de possession par lui articulés...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0140">
                     <head>464. - Désistement. — Exception d’irrecevabilité. —- Appel
                         incident.</head>
                     <div type="summary">
@@ -1213,7 +1224,7 @@
                             aux parties de plaider au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0150">
                     <head>465. - Distribution par ordre. — Ventilation du prix. — Contredit.</head>
                     <div type="summary">
                         <p>Les dispositions, de l’art. 731 C. Proc., qui s’expliquent par la matière
@@ -1244,7 +1255,7 @@
                         <p>Note. — Infirm. Jug. Civ. Alex. 21 Avril 1914, Gaz. IV, 147-355.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0160">
                     <head>466. - Entrepreneur. — Obligation de garantie. — Réception provisoire. —
                         Séquestré.</head>
                     <div type="summary">
@@ -1263,7 +1274,7 @@
                     </div>
                 </div>
                 <pb n="196" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0170">
                     <head>467. - Erreur matérielle. — Action en rectification devant le Tribunal qui
                         a rendu le jugement.</head>
                     <div type="summary">
@@ -1285,7 +1296,7 @@
                             frères et Cie. en liq. c. A. Schehade et Cie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0180">
                     <head>468. - Expropriation pour cause d’utilité publique. — Indemnité préalable.
                         — Détermination de la valeur de l'immeuble exproprié.</head>
                     <div type="summary">
@@ -1309,7 +1320,7 @@
                             Municipalité d'Alexandrie c. Souaya et fils et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0190">
                     <head>469. - Expropriation pour cause d’utilité publique. — Indemnité préalable.
                         — Intérêts de retard. — Demande en justice.</head>
                     <div type="summary">
@@ -1331,7 +1342,7 @@
                             Herz Pacha c. Gouvernement E-gyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0200">
                     <head>470. - Huissier. — Outrages à l’occasion de l’exercice de ses
                         fonctions.</head>
                     <div type="summary">
@@ -1345,7 +1356,7 @@
                             Ahmed El Menchaoui c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0210">
                     <head>471. - Intérêts. — Collocation. - Hypothèque. — Règlement définitif
                         partiel. — Responsabilité.</head>
                     <div type="summary">
@@ -1363,7 +1374,7 @@
                             Psathopoulo c. Phocion Apostolou et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0220">
                     <head>472. - Juridiction Mixte. — Compétence. — Capitulations. — Sujets
                         allemands. — Décision du Gouvernement Egyptien en date du 5 Août
                         1914.</head>
@@ -1422,7 +1433,7 @@
                             vis-à-vis des sujets allemands en leur qualité d’étrangers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0230">
                     <head>473. - Opposition. — Délai. — Exécution. — Procès-verbal de
                         carence.</head>
                     <div type="summary">
@@ -1435,7 +1446,7 @@
                             Kantarakis et Cts c. Thos Cook &amp; Sons).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0240">
                     <head>474. - Succession. — Absence des héritiers. — Droits des créanciers. —
                         Autorité consulaire. — Préposé. — Curateur provisoire.</head>
                     <div type="summary">
@@ -1463,7 +1474,7 @@
                             Carmel Oriental c. Suce, de leu Louis Gattet).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0250">
                     <head>475. - Succession. — Action contre l’héritier. — Exécution.</head>
                     <div type="summary">
                         <p>La déclaration faite par un défendeur assigné en payement des billets
@@ -1481,7 +1492,7 @@
                         <p>Note. — 11 s’agissait en l’espèce d’une succession musulmane.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0260">
                     <head>476. - Taxe. — Séquestre. — Société. — Associé. — Solidarité. — Compétence
                         mixte.</head>
                     <div type="summary">
@@ -1525,10 +1536,10 @@
                             Galanos c. Mohamed bey Khouloussi).</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>476. <!-- sic -->- Vente. — Délivrance. — Remise des titres de propriété. — Action en
-                        résiliation pour défaut de livraison. — Action en amodiation de la vente de
-                        la chose d'autrui.</head>
+                <div type="case" xml:id="gtme-1914-09-0270">
+                    <head>476. <!-- sic -->- Vente. — Délivrance. — Remise des titres de propriété.
+                        — Action en résiliation pour défaut de livraison. — Action en amodiation de
+                        la vente de la chose d'autrui.</head>
                     <div type="summary">
                         <p>I. - La délivrance de la chose vendue est incomplète et insuffisante tant
                             que l’acheteur n’a pas été mis à même de disposer de la chose vendue
@@ -1626,7 +1637,7 @@
                             opposeraient ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-09-0280">
                     <head>477. - Vérification d’écriture. — Pièces de comparaison. — Actes
                         authentiques. — Requêtes ou quittances déposées aux archives d’une
                         administration. — Sincérité. — Preuve testimoniale.</head>
@@ -1833,7 +1844,7 @@
                     sieur Joseph Debbas par un acte s. s. p. en date du 9.5.14. Ord. 4.8.14 aut. les
                     liq. à déposer le cahier des charges pour parvenir à l’expropriation de biens
                     sis à Ibrahi-mieh (Ramleh) sur la mise à prix suivante 1° lot L.Eg. 1800, 2° lot
-                    L.Eg. 400, et 3-> lot L.Eg. 300,</p>
+                    L.Eg. 400, et 3-&gt; lot L.Eg. 300,</p>
                 <p>Ibrahim Aly El Charkaoui (Syndic Méguer-ditchian). Ord. du 11.8.14 autor. le
                     syndic à déposer le cahier des charges pour parvenir à la vente d’un immeuble
                     faisant partie de l’actif de la faill. sur mise à prix fixée à L.Eg. 500.</p>

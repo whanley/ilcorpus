@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1922-07-10">July 10, 1922</date><lb/>
-                    <biblScope unit="volume">Vol. 12</biblScope><lb/>
-                    <biblScope unit="number">No. 141</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1922-07-10">July 10, 1922</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 12</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 141</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -304,8 +315,8 @@
                 <p>C’est presque devenu un lieu commun que d’affirmer que les lois sur le cours
                     forcé sont des lois d’ordre public. En effet,» tout comme les lois sur le taux
                     de l’intérêt (’),</p>
-                <p>(■) V. ci-après § 240. t*> V. ci-après § 238.</p>
-                <p>(>) V. ci-après, Jurisprudence Etrangère, p. 142.</p>
+                <p>(■) V. ci-après § 240. t*&gt; V. ci-après § 238.</p>
+                <p>(&gt;) V. ci-après, Jurisprudence Etrangère, p. 142.</p>
                 <p>(1) V. cependant en sens contraire, Trib. Seine, 5Décen»t' bre 1895, Clunet 1897,
                     p. 149.</p>
                 <pb n="131" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
@@ -360,8 +371,8 @@
                     Rev. de Dr. International pr. 237. Toulouse 18 Juillet. Même Revue 1907, p.
                     262.</p>
                 <p>(5) Laurent, Droit Civil Intern. T. 11, p. 3778 et p. 352.</p>
-                <p>espèces envisagées dans la convention, (art. 1243 C. C. et 143 C. C.)> ou tout au
-                    moins, ce qui, pratiquement, n’est pas bien différent, de recevoir une valeur
+                <p>espèces envisagées dans la convention, (art. 1243 C. C. et 143 C. C.)&gt; ou tout
+                    au moins, ce qui, pratiquement, n’est pas bien différent, de recevoir une valeur
                     égale à celle qu’il a déboursée en se faisant payer dans la monnaie fiduciaire
                     considérée dans sa valeur effective, au jour du paiement, eu égard aux espèces
                     convenues !</p>
@@ -623,7 +634,7 @@
             <pb n="133" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0010">
                     <head>231. - Bail. — Prorogation ; preuve écrite nécessaire; serment
                         supplétoire; condition d’admissibilité. — Améliorations apportées par le
                         fermier aux lieux loués ; puits artésien ; plus-value ,- droits du
@@ -658,7 +669,7 @@
                             c. Ephorie de l’Ecole Abet).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0020">
                     <head>232. -Bail. — Valeur du litige; appel; taux; instance ne portant pas sur
                         le montant du loyer ou l’exécution du contrat. — Tribunal Civil ;
                         compétence.</head>
@@ -714,7 +725,7 @@
                             somme.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0030">
                     <head>233. - Juridiction Mixte. — Compétence à l’égard des étrangers n’ayant
                         jamais habité l’Egypte.— Art. 14 C. Civ.; portée ; limites ; demandeur
                         pouvant en bénéficier. — Distinction avec les étrangers ayant quitté
@@ -810,7 +821,7 @@
                             premier de ces deux cas, car si la marchandise vendue devait être livrée
                             en Egypte, la vente avait été conclue à l’étranger ;</p>
                         <p>Qu’il ne rentre pas davantage dans le’second, le prix de vente ayant été
-                            stipulé payable à Londres ; ></p>
+                            stipulé payable à Londres ; &gt;</p>
                         <p>Attendu, du reste, que l’incompétence de la Juridiction Mixte devrait
                             être reconnue en l’espèce alors même qu’on donnerait à l’art. 14 du Code
                             Civ. l’interprétation large que l’appelant lui donne ;</p>
@@ -837,7 +848,7 @@
                             du domicile du débiteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0040">
                     <head>234. - Juridiction Mixte. — Compétence à l’égard des étrangers n’ayant
                         jamais habité l’Egypte. — Art. 14, C. Civ. portée. — Contestations dérivant
                         de faits accomplis en territoire égyptien. — Assignation. — Société-, Agent
@@ -1037,7 +1048,7 @@
                             réglés, c’est-à-dire sur la base de la valeur du franc or.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0050">
                     <head>235. - Paiement. — Appointements et pensions. — Change. — Changement de
                         domicile du créancier. — Franc; valeur légale en Egypte. — Cours forcé
                         paiement en billets de banque de la valeur effective du montant dû.</head>
@@ -1064,7 +1075,7 @@
                             Universelle du Canal Maritime de Suez c. Michel Pellegrini).</p>
                     </div>
                     <div type="observations">
-                        <p>Note. — I. - V. ci-avant § 234 et ci-après § 239 à 242. ></p>
+                        <p>Note. — I. - V. ci-avant § 234 et ci-après § 239 à 242. &gt;</p>
                         <p>I. et II. - Ainsi jugé par confirmation, — en principe, - d’un jug. Civ.
                             Caire du 9 Mai 1921, Gaz. XI, 194-272.</p>
                         <p>L’arrêt expose:</p>
@@ -1172,7 +1183,7 @@
                             pour la Cour de la consacrer à nouveau.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0060">
                     <head>236. — Paiement. — Assurances-vie. — Stipulation de paiement en “francs”,
                         à Paris, en monnaie ayant cours en Egypte; portée ; interprétation ; doute;
                         — Interprétation d’un contrat d’assurances douteux par l’exécution donnée à
@@ -1307,7 +1318,7 @@
                             respectée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0070">
                     <head>237. -Paiement.— Assurances vie. — Stipulation de paiement en *francs».—
                         Change.—Art. 577 C. Civ. ; portée. — Interprétation d’un contrat
                         d’assurances douteux par l’exécution donnée à l’occasion du règlement des
@@ -1475,7 +1486,7 @@
                             Compagnie qui, partant, mérite d’être reconnue par le magistrat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0080">
                     <head>238. - Paiement. — Assurance-vie. — Stipulation de paiement eh « francs ».
                         — 'Francs or. — Change. — Conflit au sujet du mode de paiement des primes ;
                         encaissement des primes au pair, pendant la guerre, par le Public Custodian;
@@ -1537,7 +1548,7 @@
                             jour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0090">
                     <head>239. - Paiement. — Assurances-vie, — Stipulation de paiement en « francs.
                         » — Franc ; valeur légale en Egypte ; unité monétaire. — Change. —
                         Interprétation du contrat d'assurance par l’éxécution donnée ; paiement des
@@ -1641,7 +1652,7 @@
                             paiement du capital assuré sur la même base.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0100">
                     <head>240. - Paiement. — Assurances-vie. — Stipulation de paiement en « francs
                         ». — Franc ; valeur légale en Egypte ; unité monétaire; tarif égyptien. —
                         Change. — Valeur conventionnelle des monnaies. — Interprétation du contrat
@@ -1782,7 +1793,7 @@
                             en ordonner la jonction.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0110">
                     <head>241. - Paiement. — Prêt. — Libération. — Stipulation de paiement « en
                         bonnes « monnaies d’or, en francs français » ; interprétation ; portée. —
                         Franc ; valeur légale .en Egypte. — Change; fluctuations ; dépréciation
@@ -2012,7 +2023,7 @@
                             celle qui a été Stipulée au contrat litigieux. -...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0120">
                     <head>242. - Paiement. - Vente. — Libération. — Contrat passé en Egypte entre
                         Français ; paiements prévus en France, et en francs; interprétation de la
                         volonté des parties. — Franc ; valeur légale en Egypte. — Change ; intention
@@ -2176,7 +2187,7 @@
                             faire offre réelle dans les conditions prévues par la loi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-07-0130">
                     <head>243. - Tramways. — Responsabilité de la Compagnie pour les actes
                         vexatoires de son personnel à l'égard des voyageurs. — Règlement-arrêté du 5
                         Juillet 1920. — Règlements intérieurs des Compagnies de Tramways ; non
@@ -2350,7 +2361,7 @@
                     prévaloir de la règle de paiement concernant les obligations alternatives (C.
                     Civ. art. 1190), et sa décision est à rapprocher de celle rendue par la même
                     chambre le 16 Novembre 1921 (Gaz, Pal. 1922 1.125) dans une espèce présentant
-                    une grande analogie. ></p>
+                    une grande analogie. &gt;</p>
                 <p>Le jugement rapporté expose :</p>
                 <p>Attendu que, suivant police No. 76.070, en date à Bâle et à Paris des 6 et 8 Mars
                     1900, la Cie d’assurance La Bâloise, dont le siège est à Bâle, et qui a

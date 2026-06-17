@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0035-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0035-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1945-01-10">January 10, 1945</date><lb/>
-                    <biblScope unit="volume">Vol. 35</biblScope><lb/>
-                    <biblScope unit="number">No. 411</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1945-01-10">January 10, 1945</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 35</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 411</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -126,7 +137,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE.</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-01-0010">
                     <head>21. - Administration. — Automobiles; Arrêté du 16 Juillet 1913; Arrêté du
                         17 Juin 1937; permis de circulation; renouvellement annuel obligatoire;
                         refus; défaut de notification; responsabilité. — Permis de circulation aux
@@ -263,7 +274,7 @@
                             22 Janvier 1942.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-01-0020">
                     <head>22. - Administration. — Automobiles; Arrêté du 16 Juillet 1913; permis
                         spécial pour le transport en commun; révocation intempestive;
                         dommages-intérêts; tiers lésés; défaut de responsabilité de l'Administrât
@@ -381,7 +392,7 @@
                         <p>Note. — V. ci-avant § 21, l’arrêt du 23 Mai 1940, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-01-0030">
                     <head>23. - Administration. — AutoTnobiles; permis de circulation; camions;
                         conditions nouvelles exigées pour le maintien du permis; devoir de
                         l'Administration de les préciser; retrait et refus de restitution du permis,
@@ -407,8 +418,8 @@
                             ù réparer le préjudice qui en a été la conséquence.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d'Appel. 2me Ch., Prés. Scandar Azer i>sT. 22 Janvier 1942. — Amédée
-                            Danjoie c. Gouvernement Egyptien.</p>
+                        <p>Cour d'Appel. 2me Ch., Prés. Scandar Azer i&gt;sT. 22 Janvier 1942. —
+                            Amédée Danjoie c. Gouvernement Egyptien.</p>
                     </div>
                     <div type="decision">
                         <p>Arrêt.</p>
@@ -644,7 +655,7 @@
                             note/</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-01-0040">
                     <head>24. - Administration. — Cabines de bains de mer; concession de jouissance
                         temporaire; nature juridique; applicabilité des règles du droit civil;
                         dépossession par voie administrative; demande de réintégration; Tribunal
@@ -1419,7 +1430,7 @@
                             24 Janvier 1944) qu’elle refusait de lui renouveler le permis, et lui
                             enjoignit d’avoir à évacuer la cabine dans les sept jours « sous peine
                             de s’y voir contraint par la voie administrative” conformément à
-                            l’article 19 du Règlement des plages publié le 19 Juin 1944 >,;</p>
+                            l’article 19 du Règlement des plages publié le 19 Juin 1944 &gt;,;</p>
                         <p>Qu'ainsi contraint et forcé le demandeur •a dû évacuer la cabine en
                             question après avoir protesté par lettre du 10 Août 1944 contre cette
                             décision tardive de la Munich palité et en formulant expressément ses
@@ -1515,7 +1526,7 @@
                             1944, ci-après p. 60 § 1.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-01-0050">
                     <head>25. - Administration. — Cabines de bains de mer' concession de jouissance
                         temporaire; nature juridique; inapplicabilité des règles du droit civil. —
                         Mesures administratives; violations des lois et règlements; contrôle
@@ -1668,9 +1679,9 @@
                         <p>Qu’il résulte des travaux de la Conférence -des Capitulations, que le
                             terme « violation » doit s’entendre non seulement des violations de la
                             lettre mais aussi des violations de l’esprit de la loi (voir actes de la
-                            Conférence, p.-v. (>, pp. 193-198 et Rapport de M. M. N. Politis, annexe
-                            IV, p. 247; A. Assabguy bey: Les Accords de Montreu.r, pp. 50-52; Jules
-                            Wathelet: Bevue Dr. Int.. N» 2, 1937);</p>
+                            Conférence, p.-v. (&gt;, pp. 193-198 et Rapport de M. M. N. Politis,
+                            annexe IV, p. 247; A. Assabguy bey: Les Accords de Montreu.r, pp. 50-52;
+                            Jules Wathelet: Bevue Dr. Int.. N» 2, 1937);</p>
                         <p>Attendu qu’en l’état actuel du dossier, les conclusions prises par la
                             demanderesse ne tendent pas à faire interpréter un acte d’administration
                             ou en arrêter l’exécution, mais à déclarer civilement responsable la
@@ -1760,7 +1771,7 @@
                             28 Août 1944 et 9 Octobre 1944, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-01-0060">
                     <head>26. - Administration. — Cabines de bain'' de mer; concession de jouissance
                         temporaire; nature juridique; Municipalité d'Alexandrie; Arreté du 19 Juin
                         1944 sur les plages. — Référé; compétence; incompétence, même en cas
@@ -2035,13 +2046,13 @@
                     sur la plage de Sidi-Bichr N° 2 comme accessoire, de sa possession de la cabine
                     N° 4 et il est indiqué ce qui suit dans l’autorisation à lui délivrée: «
                     autorisation N» 13 (gratuite) pour fixer un parasol sur la plage Sidi-Bichr N° 2
-                    pour l’été, de 194»> délivrée à la cabine N° 4 dont le titulaire est M. Léon
+                    pour l’été, de 194»&gt; délivrée à la cabine N° 4 dont le titulaire est M. Léon
                     Lévy », autorisation portant la signature du fonctionnaire compétent de la
                     Municipalité d’Alexandrie.</p>
                 <p>Il résulte de ce qui précède que le demandeur a pris possession effective de la
                     cabine et est demeuré en possession pouf une période de neuf mois à peu près, »
-                    partir d’Octobre 1943 jusqu’à Juillet 194»> date à laquelle il a été expulsé de
-                    la cabine.</p>
+                    partir d’Octobre 1943 jusqu’à Juillet 194»&gt; date à laquelle il a été expulsé
+                    de la cabine.</p>
                 <p>En cet état, le demandeur doit être considéré comme étant en possession de la
                         ca-<pb n="61" rendition="Gazette des Tribunaux Mixtes."/>bine et comme ayant
                     une qualité apparente et un droit établi. En conséquence, l’exception
@@ -2237,8 +2248,8 @@
                     XXXIV, 47-2, et les décisions des Tribunaux Mixtes sur la même question,
                     publiées ci-avant sub § 24, 25 et 26, et ds. Gaz. XXIV, 30-23, XXIX, 292-371, et
                     XXXIV, 33-53.</p>
-                <p>- &lt;> L’Impôt sur les revenus (2me édition, mise à. four au 1er Février 1942),
-                    un fort volume in-8 d'env. G00 paqes. cartonné. — -P. T. 150.</p>
+                <p>- &lt;&gt; L’Impôt sur les revenus (2me édition, mise à. four au 1er Février
+                    1942), un fort volume in-8 d'env. G00 paqes. cartonné. — -P. T. 150.</p>
                 <p>« L’Impôt sur les revenus » (2me sup-■plèment). — Mise à jour au 1er Février
                     •1942 (pour la première édition du Itéper-■toire). — P.T. 40.</p>
                 <p>« Le droit de timbre » (édition simple sous forme de dépliant, avec mise à jour).
@@ -2700,7 +2711,7 @@
                 <p>l’ont déterminé à l’adresser au Parquet Général ainsi eue des mesures qu’il a
                     prises pour découvrir le domicile des 'intéressés.</p>
                 <p>Art. 70. — L’Elam Charéi constatant le décès et désignant les héritiers, ou tout
-                    autre document e>, tenant lieu, seront opposables aux parties, à moins de
+                    autre document e&gt;, tenant lieu, seront opposables aux parties, à moins de
                     contestation entre les héritiers au sujet de l’héritage et de recours à justice.
                     Le droit sera perçu sur la base de l’Elam Charéi, en attendant le vidé du
                     litige, sauf à être révisé ultérieurement en conformité du jugemen' qui sera

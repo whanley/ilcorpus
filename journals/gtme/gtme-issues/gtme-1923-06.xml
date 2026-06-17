@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0013-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0013-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1923-06-10">June 10, 1923</date><lb/>
-                    <biblScope unit="volume">Vol. 13</biblScope><lb/>
-                    <biblScope unit="number">No. 152</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1923-06-10">June 10, 1923</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 13</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 152</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -60,7 +71,7 @@
                 <p>Mm L. PANGALO et R SCIIEMEIL (Directeurs au Caire).</p>
                 <p>M- E. DEGIARDÉ (Secrétaire de la rédaction). M» A. PADEL ^Secrétaire à
                     Mansourah).</p>
-                <p>M> F. BRAUN (Secrétaire à Paris).</p>
+                <p>M&gt; F. BRAUN (Secrétaire à Paris).</p>
                 <p>Pour la Publicité:</p>
                 <p>S’adresser:</p>
                 <p>à I’Imprimerie Nouvelle</p>
@@ -781,7 +792,7 @@
             <pb n="118" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0010">
                     <head>201. - Abandon. — Action en abandon qualifiée d’action en
                         dommages-intérêts; inadmissibilité; transformation de la demande en degré
                         d’appel.</head>
@@ -855,7 +866,7 @@
                             dommages-intérêts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0020">
                     <head>202. - Accident. — Faute commune; cas où la faute originaire de la victime
                         est restée sans influence sut l'accident ; distinction entre la « causa
                         proxima » et la « causa remota ».—Tramway.</head>
@@ -996,7 +1007,7 @@
                             épuisement du capital et des intérêts dont il sera productif...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0030">
                     <head>203. - Adjudication. — Compensation entre le prix d’adjudication et la
                         créance utilement colloquée de l'adjudicataire ; effet rétroactif. — Chose
                         jugée ; contredit rejeté implicitement ; irrecevabilité de la même
@@ -1102,7 +1113,7 @@
                             jusqu’à la clôture de l’ordre...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0040">
                     <head>204. - Appel. — Délais de distance; calcul.</head>
                     <div type="summary">
                         <p>Pour tous les délais d’appel, prévus par le Code de Procédure, il y a
@@ -1119,7 +1130,7 @@
                             Juin 1917, dans ce sens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0050">
                     <head>205. - Appel. — Indivisibilité ; appel du débiteur profitant au garant
                         solidaire. -Effet dévolutif de l’appel, limité aux chefs visés par
                         l’exploit; jugement passé en force de chose jugée pour les autres
@@ -1294,7 +1305,7 @@
                             l’appelant de son recours contre le séquestre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0060">
                     <head>206. - Appel. — Jugements en matière réelle immobilière. - Prescription
                         acquisitive quinquennale ; jugement d’adjudication constituant juste
                         titre.</head>
@@ -1313,7 +1324,7 @@
                             Aly Cheita c. Abdel Hafey Aly et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0070">
                     <head>207. - Coffre-forts. — Objets placés dans un coffre-fort loué en banque ;
                         saisie-arrêt inadmissible ; saisie-exécution; sommation préalable
                         nécessaire.</head>
@@ -1432,7 +1443,7 @@
                             judiciaires de ce Tribunal.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0080">
                     <head>208. — Compensation. — Compen-tation légale ; exception recevable en tout
                         état de cause.— Compensation judiciaire ; liquidation de créance
                         inadmissible en degré d’appel. — Requête civile; effets de la rétractation
@@ -1566,7 +1577,7 @@
                             instance et appelant en cause l’intimé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0090">
                     <head>209. - Compte-courant. — Conditions nécessaires pour sa formation. —
                         Novation ; intention nécessaire. — Compensation légale; compensation
                         judiciaire; application exceptionnelle en droit mixte. — Litispendance ;
@@ -1717,7 +1728,7 @@
                             soient identiques, ce qui n’est pas le cas en l’espèce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0100">
                     <head>210. - Dommages-intérêts. — Intérêts moratoires ; intérêts compensatoires
                         ; distinction ; intérêts dus depuis la demande en justice sur les
                         dommages-intérêts pour inexécution d’une obligation.</head>
@@ -1750,9 +1761,9 @@
                             condamner au paiement de L.E. 6540.0.10 représentant le prix auquel ont
                             été vendues par la demanderesse 133 balles de cuirs tannés, soit 12500
                             kilogs, portant les Nos 88-220 et la marque A.P. chargés sur le s/s. «
-                            Sparti > appartenant à la défenderesse à à destination du Pirée et que
-                            cette dernière se refuse de livrer, ensemble les intérêts de droit et
-                            aux dépens ;</p>
+                            Sparti &gt; appartenant à la défenderesse à à destination du Pirée et
+                            que cette dernière se refuse de livrer, ensemble les intérêts de droit
+                            et aux dépens ;</p>
                         <p>Que la Cour en émendant par son arrêt du 8 Mars 1922, le jugement du
                             premier degré, a condamné la Cie de Navigation défenderesse à payer à la
                             Maison de Commerce demanderesse la somme réclamée de L.E. 6540.0.10
@@ -1790,7 +1801,7 @@
                             lieu d’y faire droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0110">
                     <head>211. - Jugements. — Critérium de la distinction entre préparatoires et
                         interlocutoires ; préjugé du fond ; qualification donnée par le juge. —
                         Appel des jugements interlocutoires avant le jugement définitif ; délai;
@@ -2001,7 +2012,7 @@
                             intervenir.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0120">
                     <head>212. - Marque de fabrique. — Dénomination. — Dépôt en Egypte; portée;
                         mauvaise foi; marque ou dénomination appartenant à un sujet allié ; vente en
                         Allemagne pendant la guerre ; nullité ; Traité de Versailles.</head>
@@ -2076,7 +2087,7 @@
                             perdues par l’effet du traité de Versailles.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0130">
                     <head>213. - Partage, — Héritier exclu; ratification ; portée à l'égard des
                         tiers.</head>
                     <div type="summary">
@@ -2201,7 +2212,7 @@
                             déboutés de leur action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0140">
                     <head>214. - Péremption.—Inadmissibilité en cas de transaction ou de pourparlers
                         sérieux entre parties. — Transaction ; matière civile; preuve écrite
                         nécessaire.</head>
@@ -2290,7 +2301,7 @@
                             se prévaloir des délais de la péremption.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0150">
                     <head>215. - Prescription. —Jugements. — Instances judiciaires ; appel; effet
                         suspensif de la prescription.</head>
                     <div type="summary">
@@ -2364,7 +2375,7 @@
                             Hassan et de maintenir la décision attaquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0160">
                     <head>216. - Servitudes. — Vues ; droit du voisin à la lumière ; cas où il n’y a
                         point lieu à fermeture complète des ouvertures existantes. — Vues obliques;
                         leur régime en droit mixte. — Jours pratiqués dans un mur formant angle
@@ -2491,7 +2502,7 @@
                             respectives.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0170">
                     <head>217. -Servitudes.- Vues; simples «jours» de tolérance ; droit pour le
                         voisin de bâtir.</head>
                     <div type="summary">
@@ -2512,7 +2523,7 @@
                         <p>Note. — Comp. ci-avant, § 216, arrêt du 9 Novembre 1922.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0180">
                     <head>218. - Transporteur. — Fins de non recevoir des art. 274 et 275 C. Com.
                         Mar.; pourparlers postérieurs à l'expiration du délai de déchéance. —
                         Application des fins de non recevoir en cas de manquant partiel. —
@@ -2609,7 +2620,7 @@
                             recevoir qui lui était acquise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0190">
                     <head>219. - Transporteur. — Fins de non recevoir des' Art. 274 et 275 C. Com.
                         Mar. — Bon de manquant partiel ; demande en justice dans les 31
                         jours.</head>
@@ -2632,7 +2643,7 @@
                         <p>Note.—I. - V. dans ce sens ci-avant §218.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0200">
                     <head>220. - Vente. — Eviction d’une parcelle déterminée faisant partie d’une
                         quantité plus considérable ; inapplicabilité des art. 367 et 370 C. Civ. —
                         Dommages-intérêts dus par le vendeur à l’acheteur évincé; ils consistent
@@ -2759,7 +2770,7 @@
                             finales en premier degré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-06-0210">
                     <head>221. - Vente. — Privilège du vendeur-, conservation par la mention dans
                         l'acte transcrit ; novation de la créance par l’acceptation du paiement du
                         prix en billets à ordre alors que l’acte de vente porte paiement au

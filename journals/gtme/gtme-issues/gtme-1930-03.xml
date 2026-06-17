@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1930-03-10">March 10, 1930</date><lb/>
-                    <biblScope unit="volume">Vol. 20</biblScope><lb/>
-                    <biblScope unit="number">No. 233</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1930-03-10">March 10, 1930</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 20</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 233</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -246,7 +257,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0010">
                     <head>108. - Association. — Cession d'un fonds de commerce; stipulation d'un
                         pourcentage au profit du cédant, n'entraînant pas un droit
                         d'association.</head>
@@ -309,7 +320,7 @@
                             déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0020">
                     <head>109. - Association de médecins. — Convention basée sur une étroite et
                         amicale collaboration; suspicion injustifiée de l'uni des associés à l’égard
                         de. l'autre, pouvant entraîner la résiliation; droits et obligations de
@@ -426,7 +437,7 @@
                             l'une ni à l’autre...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0030">
                     <head>110. - Association en participation. — Gérant n'en faisant pas partie,
                         ayant traité avec des tiers en cette qualité; responsabilité personnelle non
                         engagée; conséquences; action intentée par les mem'r-bres de l'association
@@ -590,7 +601,7 @@
                             comme non avenu un contrat qui était le résultat d’un malentendu.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0040">
                     <head>111. - Paiement. — Change; condamnations prononcées en monnaie étrangère;
                         libération du débiteur en la dite monnaie; conversion en monnaie égyptienne
                         au cours du change du jour du paiement. — Arrêt; condamnation prononcée en
@@ -692,7 +703,7 @@
                             c’est son attitude injustifiée qui a provoqué l’incident.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0050">
                     <head>112. - Paiement. — Change; condamnations prononcées en monnaie étrangère;
                         libération du débiteur en la dite monnaie; conversion en monnaie, égyptienne
                         au cours du change du jour du paiement lorsque la conversion n'a point été
@@ -875,7 +886,7 @@
                             les</p>
                         <p>' p ■ allégations des opposés eux-mêmes sont trop</p>
                         <p>1 i vagues pour qu'ils puissent servir de base -, à un règlement de
-                            compte entre parties, puis-> : que les opposés eux-mêmes n’indiquent
+                            compte entre parties, puis-&gt; : que les opposés eux-mêmes n’indiquent
                             pas</p>
                         <p>! &lt; et ne prétendent pas que dans rengagement en question le Sieur
                             Ablitt se serait engagé à déposer le montant des condamnations con-■
@@ -896,7 +907,7 @@
                         <p>■. ., à son encontre par cette offre...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0060">
                     <head>113. - Paiement. Change; créance en monnaie étrangère; conversion en
                         monnaie égyptienne dans les protêts; renondation; déclaration en faillite du
                         débiteur; production du créancier avec conversion en monnaie égyptienne;
@@ -978,7 +989,7 @@
                             réclamer à l’appelante une différence de change...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0070">
                     <head>114. - Paiement. — Monnaie; notion, économique; notion juridique;
                         distinction. —• Sociétés anonymes égyptiennes; capital actions constitué en
                         livres sterling; obligations stipulées payables eau. cours du change à vue
@@ -1205,7 +1216,7 @@
                             ne porte pas atteinte à l’ordre, public."</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0080">
                     <head>115. - Paiement. — Sociétés anonymes étrangères; siège d'exploitation en
                         Egypte; obligations émises au siège social; monnaie du contrat; élément de
                         détermination. — Emission d'obligations; caractère unique du contrat;
@@ -2068,7 +2079,7 @@
                             répartir sur la longue chaîne de ses précédentes transmissions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0090">
                     <head>116. - Paiement. — Sociétés anonymes étrangères; siège d’exploitation en
                         Egypte; obligations émises au siège social; monnaie du contrat; élément de
                         détermination; paiement en francs, français. — Juridiction mixte; compétence
@@ -2216,7 +2227,7 @@
                             attendrait si elles avaient été présentées pour paiement en France.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0100">
                     <head>117. - Paiement- — Sociétés anonymes étrangères; siège d'exploitation en
                         Egypte; obligations émises ait siège social; siège administratif en Egypte;
                         cas où il ne. suffit point à attribuer compétence aux Juridictions mixtes,
@@ -2334,7 +2345,7 @@
                             justice, n’a nullement fait preuve d’un sentiment de vexation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0110">
                     <head>118. - Paiement. — Sociétés anonymes; obligations; comités d'obligataires;
                         association civile; droit d'ester en justice. — Capital actions; capital
                         obligations; concordance; règle non absolue. — Lieu de paiement;
@@ -2870,7 +2881,7 @@
                             qui concerne la deuxième série d’obligations.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0120">
                     <head>119. - Paiement. — Sociétés anonymes; obligations; décision rendue sur la
                         monnaie de paiement; inopposabilité aux obligataires non représentés à
                         l'instance; limites de la chose jugée en la matière; généralisation en fait
@@ -3167,7 +3178,7 @@
                             Exarchou.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0130">
                     <head>120. - Sociétés anonymes égyptiennes. — Capital social; franc étalon au
                         tarif de P. T. 3,8575; modification; inadmissibilité; Assemblées Générales;
                         pouvoirs; limites.</head>
@@ -3220,7 +3231,7 @@
                             bilans, suivant la directive de cet arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0140">
                     <head>121. - Sociétés anonymes égyptiennes. — Capital social; franc étalon au
                         tarif de P.T. 3,8575; modification; inadmissibilité; Assemblées Générales;
                         pouvoirs; limites.</head>
@@ -3252,7 +3263,7 @@
                             est antilégale et antistatutaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0150">
                     <head>122. - Sociétés anonymes égyptiennes. — Capital social; franc étalon au
                         tarif de P.T. 3,8575; modification; redressement; conséquences; porteurs de
                         parts de fondateur; action en dommages-intérêts basée sur la publication de
@@ -3927,7 +3938,7 @@
                             Letton pour procès vexatoire est parfaitement fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0160">
                     <head>123. - Sociétés anonymes égyptiennes. — Capital social; monnaie; instance
                         ayant pour objet sa détermination; caractère de contestation entre associés.
                         — Instance entre associés; intervention des obligataires; défaut d’influence
@@ -4442,10 +4453,10 @@
                             étrangers.</p>
                         <p>Il s’ensuit qu'à partir de' 1875 la Compagnie s’est trouvée dans la
                             situation de tout autre sujet capitulaire et que, partant, faute d’avoir
-                            été expressément- exclue de la com-> potence des nouveaux,. Tribunaux,
-                            c’est ; d’eux seuls qu’elle relève,'sans exception de I conflits, la
-                            clause,.compromissoire qui en concernait quelques-uns ayant été mise
-                            à</p>
+                            été expressément- exclue de la com-&gt; potence des nouveaux,.
+                            Tribunaux, c’est ; d’eux seuls qu’elle relève,'sans exception de I
+                            conflits, la clause,.compromissoire qui en concernait quelques-uns ayant
+                            été mise à</p>
                         <p>■ néant par les articles 9 R.R.J.M. et 3 C.C.M., ' du fait qu’elle
                             entraînait prorogation de juridiction. :</p>
                         <p>Egalement à tort la défenderesse soutient que ces dispositions ne
@@ -4941,7 +4952,7 @@
                             actions ne sont demeurées en France que jusqu’à fin 1927.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0170">
                     <head>124. - Sociétés. — Créanciers sociaux; droits à l'encontre d'une société
                         nouvellej à qui apport a été fait des activités de la précédente.</head>
                     <div type="summary">
@@ -4996,7 +5007,7 @@
                             intervention.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0180">
                     <head>125. - Sociétés de fait. — Société manquant de formes légales; associés
                         ayant assumé des obligations solidaires à l'égard des tiers; société de
                         fait; créanciers; droit de préférence.</head>
@@ -5061,7 +5072,7 @@
                             créance de L.E. 3500 de la Banque...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0190">
                     <head>126. - Sociétés. ■— Dissolution; continuation de l'existence de la société
                         pour la liquidation; effets juridiques; cession de la quote-part d'un
                         associé à un tiers en cours de liquidation; nullité; conséquences. —
@@ -5210,7 +5221,7 @@
                             également- irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0200">
                     <head>127. - Sociétés. — Dissolution; liquidation; clôture; droits de l'associé
                         en nom, contre le commanditaire. — Répétition de l'indu; conditions
                         d’exercice; paiement opéré par erreur; caractéristiques; restitution de
@@ -5415,7 +5426,7 @@
                             afférentes...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0210">
                     <head>128. - Sociétés. — Publications; constitution pour une durée déterminée
                         avec faculté de renouvellement à défaut de dénonciation à Vexpiration du
                         terme; publication d'un extrait mentionnant celle faculté de renouvellement;
@@ -5582,7 +5593,7 @@
                             possession comme en cas de dépossession complète.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-03-0220">
                     <head>129. - Sociétés. — Publications; défaut; ‘demande en nullité; caractère
                         d'ordre public; demande en dissolution de la socié. té; demande ultérieure
                         en annulation pour défaut de publication à la requête d'un autre associé;

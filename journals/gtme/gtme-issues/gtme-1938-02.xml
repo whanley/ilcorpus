@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0028-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0028-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1938-02-10">February 10, 1938</date><lb/>
-                    <biblScope unit="volume">Vol. 28</biblScope><lb/>
-                    <biblScope unit="number">No. 328</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1938-02-10">February 10, 1938</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 28</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 328</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -53,9 +64,10 @@
                 <p>Directeur : M- MAXIME PUPIKOÎEB, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’Administration :</p>
                 <p>M* Ii. PANGALO et Et. 8CHEMEIL {Directeurs au Caire)</p>
-                <p>M>* E. DEGIARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
-                <p>M« A. F ADSL (Directeur à Mansourah). M> P. BRAUN j (Comspondants a Paris></p>
-                <p>Ms G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT ></p>
+                <p>M&gt;* E. DEGIARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
+                <p>M« A. F ADSL (Directeur à Mansourah). M&gt; P. BRAUN j (Comspondants a
+                    Paris&gt;</p>
+                <p>Ms G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT &gt;</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an). P.T. 150</p>
                 <p>— au Journal;</p>
@@ -823,7 +835,7 @@
             <pb n="65" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0010">
                     <head>49. - Vente immobilière. ,— Construction élevée avant délivrance de la
                         roksa; contravention ne pouvant justifier une demande de résiliation par
                         l'acheteur.</head>
@@ -967,7 +979,7 @@
                             attaqué, conformément aux conclusions des intimés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0020">
                     <head>50. - Vente immobilière. — Déficit de contenance; action en diminution de
                         prix; point de départ au cas où un mesurage contradictoire a été prévu. —
                         Eviction; restitution du prix; condition d'exonération du vendeur;
@@ -1148,7 +1160,7 @@
                     </div>
                 </div>
                 <pb n="67" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0030">
                     <head>51. - Vente immobilière. — Eviction; .action en. garantie; prescription de
                         quinze ans; prix; restitution en cas d'éviction; intérêts; allocation à
                         partir de la date de la demande de restitution du prix..</head>
@@ -1176,7 +1188,7 @@
                             de la demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0040">
                     <head>52. - Vente immobilière. — Eviction partielle; obligation du vendeur; cas
                         de plus-value entraînée par l'éviction.</head>
                     <div type="summary">
@@ -1192,7 +1204,7 @@
                             Aziza Hassan et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0050">
                     <head>53. - Vente immobilière. ,— Eviction; recours en garantie; compétence des
                         Juridictions Mixtes; condition. — Eviction; prescription; inapplicabilité de
                         l'art. 370 C. Civ. — Eviction; dommages-intérêts; demande formulée pour la
@@ -1383,7 +1395,7 @@
                             rejeter, comme notoirement injustifiées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0060">
                     <head>54. - Vente immobilière. — Eviction; recours en garantie; menace
                         d'éviction résultant de poursuites d'expropriation hypothécaire contre le
                         vendeur. — Vente immobilière; condition résolutoire résultant de la
@@ -1632,10 +1644,11 @@
                             égard...</p>
                     </div>
                     <div type="observations">
-                        <p>Note. — III. - Rapp. ég. Gaz., IV, 182-4 if>, l’arrêt du 30 Mai 1914.</p>
+                        <p>Note. — III. - Rapp. ég. Gaz., IV, 182-4 if&gt;, l’arrêt du 30 Mai
+                            1914.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0070">
                     <head>55. - Vente immobilière. — Excédent de mesurage; droit du vendeur à un
                         supplément de prix; revendication de la différence de superficie;
                         inadmissibilité.</head>
@@ -1811,7 +1824,7 @@
                             irrecevables en la forme.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0080">
                     <head>56. - Vente immobilière. — Fictivité; inopposabilité par le vendeur au
                         créancier de l'acheteur qui a pris affectation hypothécaire contre ce
                         dernier.</head>
@@ -1914,7 +1927,7 @@
                             cultivables...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0090">
                     <head>57. - Vente immobilière. — Formes; acte antérieur à la Loi No. 19 de 1923;
                         acceptation de l'acheteur indirectement établie. — Donation déguisée sous
                         forme de vente; condition de validité.</head>
@@ -1958,7 +1971,7 @@
                             Kéi...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0100">
                     <head>58. - Vente immobilière. — Garantie du vendeur; limitation prescrite aux
                         art. 439 et 440 C. C. M.; applicabilité en l'absence de toute stipulation
                         expresse. — Intérêts; capitalisation en matière civile et
@@ -1976,7 +1989,7 @@
                             Hanem Abdel Rahman Selim c. Jean N. Casulli.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0110">
                     <head>59. - Vente immobilière. — Garantie * du vendeur; prescription extinctive;
                         obligation susceptible de prescription. — Prescription acquisitive; art. 106
                         C. Civ.; étendue d'application. —Intervention formée en degré d'appel par
@@ -2113,7 +2126,7 @@
                             Abdel Salam El Nahas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0120">
                     <head>60. - Vente immobilière. — Préemption; exercice; délai; point de départ;
                         connaissance de la vente antérieure à la transcription; caractères ' de
                         cette connaissance. — Préemption; concours de préempteurs; défaut d'intérêt
@@ -2365,7 +2378,7 @@
                         <p>Qu’il doit en être de même des loyaux coûts...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0130">
                     <head>61. - Vente immobilière. — Préemption; exercice; recevabilité; demande
                         commune in troduite en un seul acte par plusieurs préempteurs; condition de
                         recevabilité malgré le désistement de l’un d’eux. — Préemption; vente sous
@@ -2508,7 +2521,7 @@
                             premiers juges, pour qu’il soit statué au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0140">
                     <head>62. - Vente immobilière. — Préemption; exercice; renonciation ultérieure;
                         légitimité; caractère vexatoire; conditions; préemption faite dans un but
                         spéculatif, ne suffisant pas à justifier une demande en dommages-intérêts. —
@@ -2681,7 +2694,7 @@
                             juridique et doit être écartée;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0150">
                     <head>63. - Vente immobilière. — Préemption par voie d’adjudication par le
                         vendeur; admissibilité de la préemption. — Préemption; obligation du
                         préempteur au paiement au vendeur des intérêts convenus sur le prix; recours
@@ -2844,7 +2857,7 @@
                             prix...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0160">
                     <head>64. - Vente immobilière. — Privilège du vendeur; transcription, seule
                         formalité requise pour sa conservation; conséquence.</head>
                     <div type="summary">
@@ -2910,7 +2923,7 @@
                             », — et rappr. Gaz. XXV, 177-195 l’arrêt du 20 Mai 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0170">
                     <head>65. - Vente immobilière. — Prix; paiement; droit de rétention en cas de
                         menace d'éviction; cas où une charge hypothécaire ne justifie pas la
                         rétention du prix.</head>
@@ -3002,7 +3015,7 @@
                             dossier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0180">
                     <head>66. - Vente immobilière. — Prix; paiement; libération; stipulation
                         prévoyant la transformation de la vente en bail en cas de retard,
                         n'empêchant pas l’acheteur d’opposer la prescription libératoire. —
@@ -3065,7 +3078,7 @@
                             paiement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0190">
                     <head>67. - Vente immobilière. — Transcription; Loi No. 19 de -1923; existence
                         du contrat indépendamment de la transcription; droit de l'acheteur de
                         requérir un jugement valant titre; transcription de l'assignation; effet
@@ -3271,7 +3284,7 @@
                             125-131. l’arrêt du 28 Mars 1933, critiqué dans l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-02-0200">
                     <head>68. - Vente immobilière. — Transcription; vente d’un même bien à des
                         acquéreurs différents; préférence reconnue à celui qui a transcrit le
                         premier; exception en cas de fraude.</head>
@@ -3386,15 +3399,15 @@
                 <p>M ■linil IfjTfl, lit :,'li)-t'.',î Vil BI ...</p>
                 <p>j.e IIu -ifet valable la donation degui-séeSsougJlâjfOi’niéZdlün. acte à titre
                     oné-</p>
-                <p>3ü!;i •? J- — e■?></p>
-                <p>-ûSildO e.9Cl ,wuVc.t i? e>r</p>
-                <p>Cour d’Appel Nat. Caire, .Çh. Civ. et Com., Prés. MykarpeH Neguib Salemr,bey> 17
-                    Février 1937. — Cüêiké ■ Mohaïriëft Ÿdusshf ' c. Moufida Youssef El MTdJèKGts.
-                    t’îll-jfil i'À</p>
+                <p>3ü!;i •? J- — e■?&gt;</p>
+                <p>-ûSildO e.9Cl ,wuVc.t i? e&gt;r</p>
+                <p>Cour d’Appel Nat. Caire, .Çh. Civ. et Com., Prés. MykarpeH Neguib Salemr,bey&gt;
+                    17 Février 1937. — Cüêiké ■ Mohaïriëft Ÿdusshf ' c. Moufida Youssef El
+                    MTdJèKGts. t’îll-jfil i'À</p>
                 <p>-aua traduction).</p>
-                <p>^n/yttei^dq.qm(Te,>ipgejnent dont appel, pour lesimotffMn’O' értùjnérés, a décidé
-                    que le MMM,des,yWN M Septembre 1920, trans-jsçlf 4ç, ;o*iN9VPi?^©,^.1922,
-                    intervenu entre feu .Xptjss^f >^l,-fFÏjÿnQ|,.,son fils, l’appelant, est un
+                <p>^n/yttei^dq.qm(Te,&gt;ipgejnent dont appel, pour lesimotffMn’O' értùjnérés, a
+                    décidé que le MMM,des,yWN M Septembre 1920, trans-jsçlf 4ç, ;o*iN9VPi?^©,^.1922,
+                    intervenu entre feu .Xptjss^f &gt;^l,-fFÏjÿnQ|,.,son fils, l’appelant, est un
                     testament' nul, pour cause de non confirmation de la part des autres
                     héritiers;</p>
                 <p>Attendu que cette interprétation contredit les termes explicites de ce
@@ -3636,7 +3649,7 @@
                 <p>Le Ministre de l’Agriculture, à \r,j</p>
                 <p>Vu le Décret-loi No. 53 de 1928 sur le commerce des engrais et amendhMpH;</p>
                 <p>Vu T Arrêté en date du 17 Féyr)gfol928 portant Règlement d’application du.
-                    Décret-loi No. 53 de 1928 précité; ■'-></p>
+                    Décret-loi No. 53 de 1928 précité; ■'-&gt;</p>
                 <p>Vu les Arrêtés en date des 20 Juin‘ét-27 Novembre 1929 modifiant l’article
                     Üu'ldit Règlement;</p>
                 <p>Sur l’avis conforme du Comité des Engrais; ôiy-nÂ</p>

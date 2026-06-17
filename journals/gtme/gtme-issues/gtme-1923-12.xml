@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0014-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0014-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1923-12-10">December 10, 1923</date><lb/>
-                    <biblScope unit="volume">Vol. 14</biblScope><lb/>
-                    <biblScope unit="number">No. 158</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1923-12-10">December 10, 1923</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 14</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 158</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -53,8 +64,8 @@
                 <p>ABONNEMENTS :</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
-                <p>Fondateurs I M-> MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour. Directeur:
-                    M« MAXIME P LT r*IKO B'ER, Avocat à la Cour.</p>
+                <p>Fondateurs I M-&gt; MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.
+                    Directeur: M« MAXIME P LT r*IKO B'ER, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’Administration :</p>
                 <p>Mm L. PANGALO et R. SCHEMEIL (Directeurs au Caire).</p>
                 <p>Me E. DEGIARDÉ (Secrétaire de la rédaction). M° A FADEL (Directeur à
@@ -412,12 +423,12 @@
                 <p> L.E. L.E. L.E. M.</p>
                 <p>Jusqu’à 100 inclusivement 0 100</p>
                 <p>Au delà de 100 jusqu’à 200 inclus. 0 200</p>
-                <p>)> » 200 » 300 » 0 300</p>
+                <p>)&gt; » 200 » 300 » 0 300</p>
                 <p>» » 300 )) 400 ' » 0 400</p>
                 <p>)) J) 400 )) 600 » 0 500</p>
                 <p>» )î 600 » 800 » (1 700</p>
-                <p>D » 800 » 1.000 )> 0 • 900</p>
-                <p>)> )) 1.000 )) 1.500 D 1 000</p>
+                <p>D » 800 » 1.000 )&gt; 0 • 900</p>
+                <p>)&gt; )) 1.000 )) 1.500 D 1 000</p>
                 <p>3» )) 1.500 )) 2.000 » 1 500</p>
                 <p>» )) 2.000 2 000</p>
                 <p>«Pour les copies et les extraits relatifs aux</p>
@@ -438,7 +449,7 @@
             <pb n="40 •" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0010">
                     <head>55. - Aliments. — Ascendants et descendants illégitimes;, enfant naturel;
                         droit à la pension alimentaire. — Promesse de mariage; rupture; séduction;
                         quasi-délit; dommages-intérêts.</head>
@@ -493,7 +504,7 @@
                             de ce chef, n’est nullement exagérée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0020">
                     <head>56. - Aliments. — Evaluation du taux d’une demande de pension
                         alimentaire.</head>
                     <div type="summary">
@@ -522,7 +533,7 @@
                             compétence est attribuée au Tribunal Sommaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0030">
                     <head>57. - Chemins de fer. — Exploitation par l'Etat; acte dé commerce.;
                         applicabilité de l’art. 109 C. Com.</head>
                     <div type="summary">
@@ -655,7 +666,7 @@
                             juridique.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0040">
                     <head>58. - Chemins de 1er. — Exploitation par l’Etat; actes de commerce;
                         applicabilité de l’art. 109 C. Com. — Faute, base de l’action; preuve de la
                         faute; renversement de la charge de la preuve en cas de rapports
@@ -800,7 +811,7 @@
                     </div>
                 </div>
                 <pb n="42" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0050">
                     <head>59. - Chemins de 1er. — Exploitation pai; -l'Etat; acte de Commerce;
                         applicabilité du Code de Commerce. — Vol, fraudé et infidélité; défaut de
                         surveillance; art. 109 C. Com., inapplicabilité. — Appel sommaire
@@ -961,7 +972,7 @@
                             fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0060">
                     <head>60. - Chemins de fer. — Exploitation par l’Etat; caractère non commercial;
                         applicabilité de l’art. 109 C. Com.</head>
                     <div type="summary">
@@ -1073,7 +1084,7 @@
                             appel, et de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0070">
                     <head>61. - Chemins de fer. — Exploitation par l’Etat; caractère non commercial;
                         inapplicabilité de l'art. 109 C. Com.</head>
                     <div type="summary">
@@ -1121,7 +1132,7 @@
                         <p>Que, partant, il échet d’infirmer le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0080">
                     <head>62. - Chemins de fer. — Responsabilité en matière de transport. — Clause
                         de «risk note»; expéditeur devenant assureur; charge de la preuve de la
                         faute, lourde de l’Administration. — Appel. — Effet dévolutif; examen du
@@ -1262,7 +1273,7 @@
                             mettre la dite Société hors de cause.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0090">
                     <head>63. - Concurrence déloyale. — Action en concurrence déloyale substituée en
                         cours d’instance à une action en contrefaçon; admissibilité. — Enveloppes et
                         empaquetages; similitudes justifiées par l’usage; produits pharmaceutiques;
@@ -1409,7 +1420,7 @@
                             à L.E. 30.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0100">
                     <head>64. - Concurrence déloyale. — Circulaires attaquant un établissement
                         concurrent.</head>
                     <div type="summary">
@@ -1423,7 +1434,7 @@
                             Delaeovias c. Soc. Anonyme des Brasseries d’Egypte et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0110">
                     <head>65. - Concurrence déloyale. — Eléments caractéristiques. — Fourniture par
                         un débitant d'un produit similaire au produit demandé; fait illicite;
                         dommages-intérêts; saisie conservatoire inadmissible.</head>
@@ -1503,7 +1514,7 @@
                             responsabilité des appelants du fait sus-énoncé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0120">
                     <head>66. - Concurrence déloyale. — Eléments. — Propriété commerciale. —
                         Concession exclusive en Egypte d’un produit étranger; rapports entre
                         fabricant et représentant; liberté commerciale des tiers.</head>
@@ -1538,8 +1549,8 @@
                             universellement admis dans le droit moderne, il résulte que le droit de
                             revendre un produit légalement acquis n’a d’autres limites que celles
                             qui lui sont imposées par la loyauté, par la loi ou par des contrats
-                            particuliers. (V. Pouillet, Traité des marques de Commerce, 3me ed. >•—
-                            4-59, page 510);</p>
+                            particuliers. (V. Pouillet, Traité des marques de Commerce, 3me ed.
+                            &gt;•— 4-59, page 510);</p>
                         <p>Attendu que les éléments qui constituent la concurrence déloyale, sur
                             laquelle l’appelant base son action, ne se révèlent pas dans les faits
                             qu’il reproche aux intimés; qu’en effet, les actes de ces derniers ne
@@ -1560,7 +1571,7 @@
                             action et qu’il y a lieu de l’en débouter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0130">
                     <head>67. - Concurrence déloyale. — Etiquettes établies dans le but de créer une
                         confusion. — Marques de fabrique; enregistrement au greffe; effets.</head>
                     <div type="summary">
@@ -1626,7 +1637,7 @@
                             reconnu et consacré par les Tribunaux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0140">
                     <head>68. - Concurrence déloyale. — Marque de fabrique; système d'empaquetage;
                         propriété indépendante de l’enregistrement à l'étranger; dépôt en Egypte;
                         usage. — Chocolat; enveloppes; inscriptions et devises identiques; acte de
@@ -1675,7 +1686,7 @@
                             Pette et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0150">
                     <head>69. - Expertise. —- Cas'où elle est ordonnée d’office; exécution contre le
                         plaideur qui s’est porté partie diligente. — Décision sur le principe du
                         droit à une indemnité, n'équivalant point à une condamnation aux
@@ -1868,7 +1879,7 @@
                     </div>
                 </div>
                 <pb n="48" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0160">
                     <head>70. - Expertise. — Cas où elle est ordonnée d'office: exécution contre le
                         plaideur qui s’est porté, partie diligente. — Responsabilité, vis-à-vis de
                         l’expert, même après décision définitive, de la partie qui a requis
@@ -1952,7 +1963,7 @@
                             sauf recours, le cas échéant, contre qui de droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0170">
                     <head>71. - Expertise. — Fixation du commencement des opérations; avis donné par
                         lettre à l'avocat de la partie intéressée.</head>
                     <div type="summary">
@@ -1998,7 +2009,7 @@
                             défense (arrêt 2 Janvier 1913, B. XXV, 109).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0180">
                     <head>72. - Expertise. — Récusation. — Rapport extrajudiciaire fourni à l’une
                         des parties- pour une autre affaire.</head>
                     <div type="summary">
@@ -2081,7 +2092,7 @@
                             l’indépendance ou l’impartialité de l’expert nommé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0190">
                     <head>73. - Expertise. — Tare; instance en opposition; discussion sur le quantum
                         seule admissible. — Principe de l’obliga-iion à la tare; discussion par voie
                         d’opposition à commandement. — Appel; modification de la contestation
@@ -2160,7 +2171,7 @@
                             taxe, changeant ainsi la nature et la cause même de sa demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0200">
                     <head>74. - Louage de services. — Artistes musiciens; caractère et durée de
                         leurs engagements; acte non commercial.</head>
                     <div type="summary">
@@ -2178,7 +2189,7 @@
                             16 Juin 1923. •—- Isidore iletzgcr c. Giovanni Intorella).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0210">
                     <head>75. - Louage de services. —- Contrat à durée fixe; faculté de non
                         renouvellement pour l’employeur; exercice.</head>
                     <div type="summary">
@@ -2193,7 +2204,7 @@
                             Alexandre Biancardi c. II. 8. Sulzer Frères).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0220">
                     <head>76. - Louage de services. — Contrat d’engagement à durée fixe; clause
                         autorisant résiliation avant terme par l’employeur; valeur juridique.. —
                         Violence morale; cas où elle est exercée par un tiers; vice du consentement.
@@ -2215,8 +2226,8 @@
                             impropres au service. ■</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Apref Sme-üh. Prés. 31. 31. Hansson, 19 Juin 19-3. Charles
-                            Grimai et Ct. c. Gouvernement Egyptien).</p>
+                        <p>(Cour d’Apref Sme-üh. Prés. 31. 31. Hansson, 19 Juin 19-3. Charles Grimai
+                            et Ct. c. Gouvernement Egyptien).</p>
                     </div>
                     <div type="observations">
                         <p>Note. — L’arrêt expose;</p>
@@ -2283,7 +2294,7 @@
                             représentant une année d appointements.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0230">
                     <head>77. - Louage de services. — Licenciement brusque; dommage moral. — Renvoi
                         intempestif; mode de calcul de l’indemnité; liquidation définitive, par
                         l'indemnité, des droits et prétentions de l’employé.</head>
@@ -2350,7 +2361,7 @@
                             ouverte au moment de son licenciement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0240">
                     <head>78. - Louage de services. — Licenciement; calcul de l’indemnité;
                         allocation de vie chère.</head>
                     <div type="summary">
@@ -2364,7 +2375,7 @@
                             Cigarettes «Ed. Laurens Ltd.» c. Georges Zabakis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0250">
                     <head>79. - Louage de services. — Licenciement; changement des fonctions de
                         l’employé; cocher; gaffir.</head>
                     <div type="summary">
@@ -2381,7 +2392,7 @@
                             Mahfouz Gabr c. Comte Selim boy Chedid),</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0260">
                     <head>80. - Louage de services. — Licenciement; indemnité pour renvoi
                         intempestif; exécution provisoire non admissible sans caution.</head>
                     <div type="summary">
@@ -2425,7 +2436,7 @@
                             en conséquence le faire sous caution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0270">
                     <head>81. - Louage de services. — Licenciement pour manque de confiance;
                         caractère non intempestif. — Magasinier; responsabilité des vols commis dans
                         les dépôts. — Renvoi en cours de mois; salaires dus.</head>
@@ -2485,7 +2496,7 @@
                             confiance de la part du patron, ce qui est suffisamment justifié. .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0280">
                     <head>82. - Louage de services. — Licenciement pour manque de confiance;
                         carac-&lt; tère non intempestif. — Renvoi en cours, de mois; salaires
                         dus.</head>
@@ -2532,7 +2543,7 @@
                             L.El 6, solde du salaire du'-mets de Juin 1922.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0290">
                     <head>83. - Louage fie services. — Risque professionnel; médecin décédé d'une
                         ma-' nulle contractée dans l'exercice de scs fonctions; indemnité non due à
                         défaut de-faute de l’employeur ou de convention spéciale. — Traitement et
@@ -2611,7 +2622,7 @@
                             encore.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0300">
                     <head>84. - Louage de services. —- Société-anonyme; directeur; licenciement;
                         griefs justifiés.</head>
                     <div type="summary">
@@ -2629,7 +2640,7 @@
                             and Wines and Spirits o. Cleon Lane-his). ,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0310">
                     <head>85. - Mesures d’instruction. — Constatations par huissier; caractère
                         contradictoire. essentiel; avis indispensable aux parties.</head>
                     <div type="summary">
@@ -2676,7 +2687,7 @@
                             vidée dans le plus bref délai possible. •</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0320">
                     <head>86. - Mesures d’instruction. — Enquête; retard à présenter requête;
                         déchéance.</head>
                     <div type="summary">
@@ -2691,7 +2702,7 @@
                             Saad 0. Elie Marini et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0330">
                     <head>87. - Mesures d’instruction. — Vérification de signature; preuve à charge
                         du bénéficiaire du titre contesté.</head>
                     <div type="summary">
@@ -2709,7 +2720,7 @@
                             lu‘23. —* Menahem S, Cohen c. Soliman Aly bamra et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-12-0340">
                     <head>88. - Taxe. — Opposition déclarée irrecevable, suivie d'opposition à
                         commandement et de dépôt à la Caisse; suspension de l’exécution.</head>
                     <div type="summary">

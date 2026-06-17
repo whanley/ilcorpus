@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0004-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0004-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1913-12-10">December 10, 1913</date><lb/>
-                    <biblScope unit="volume">Vol. 4</biblScope><lb/>
-                    <biblScope unit="number">No. 38</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1913-12-10">December 10, 1913</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 4</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 38</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -40,7 +51,7 @@
                 <p>”9, Rue Mahmoud Pacha el-Falaky.</p>
                 <p>Tél. 12-44.</p>
                 <p>Bureaux au Caire,</p>
-                <p>>15. Rue El Madabegh.</p>
+                <p>&gt;15. Rue El Madabegh.</p>
                 <p>Tél. 17-72.</p>
                 <p>GAZETTE</p>
                 <p>DES</p>
@@ -87,7 +98,7 @@
                     :</p>
                 <p>l“Etre parent du de cujus.— (Au surplus, en fait d’alliés seuls l’époux et les
                     épouses sont héritiers, en qualité de fardites).</p>
-                <p>2' Etre du s> xe masculin. — Une femme n’est jamais vraie assabite, mais
+                <p>2' Etre du s&gt; xe masculin. — Une femme n’est jamais vraie assabite, mais
                     certaines parentes peuvent devenir simili-assabites (V § 3).</p>
                 <p>3° Se rattacher au de cujus par une chaîne de parents exclusivement mâles. —
                     Ainsi, par exemple, le fils de la film n’est point assabite, pour la raison
@@ -103,7 +114,7 @@
                     ligne, par la proximité du degré ; 3" A parité de ligne et de degré, par le
                     double lien de parenté.</p>
                 <p>1° Classement des lignes. — Le premier rang appartient à la ligne descendante. Le
-                    2m&lt;s, à la ligne ascendante. Le 3"°> aux descendants du père : frères et
+                    2m&lt;s, à la ligne ascendante. Le 3"°&gt; aux descendants du père : frères et
                     leurs descendants. Le 4me, aux descendants du grand-père : oncles et leurs
                     descendants. Le 5",f!, aux descendants du bisaïeul : grands-oncles et leurs
                     descendants. Et ainsi de suite en remontant.</p>
@@ -149,7 +160,7 @@
                     aucune priorité.</p>
                 <pb n="18" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                 <p>Disons tout de suite que les diverses quote-parts farditaires sont invariablement
-                    (V. § 4) l’une des fractions suivantes: 7». 7o 7s - 7b> 7s»-73-</p>
+                    (V. § 4) l’une des fractions suivantes: 7». 7o 7s - 7b&gt; 7s»-73-</p>
                 <p>1. Groupe dés filles du de cujus 2/3).</p>
                 <p>a) Elle ne sont jamais exclues ;</p>
                 <p>b) s’il n’y en a qu’une;</p>
@@ -325,7 +336,7 @@
                 <p>Ligne ascendante v Le père non 1 .* _ Assabite</p>
                 <p>a ! Les aïeux oui . G Assabite</p>
                 <p>A La mère non 1 „, 1 du solde —</p>
-                <p>> Les aïeules oui i., _ —</p>
+                <p>&gt; Les aïeules oui i., _ —</p>
                 <p>Ligne collatérale J Frères et sœurs utérins oui i _ i —</p>
                 <p> Sœurs germaines oui 77 - 7:- Sli-assabites</p>
                 <p>» Sœurs consanguines oui 1 7), 2 , Sli-assabites</p>
@@ -480,7 +491,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0010">
                     <head>25. - Action possessbire. — Indivision.</head>
                     <div type="summary">
                         <p>Un possesseur par indivis a qualité pour agir au possessoire, l’inaction
@@ -491,7 +502,7 @@
                             Abdel Kader El Lisani c. Ahmed El Kaschlan et Cts ).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0020">
                     <head>26. - Adjudicataire. — Eviction. — Restitution du prix. — Audience des
                         Criées. — Vente aléatoire.</head>
                     <div type="summary">
@@ -509,7 +520,7 @@
                             autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0030">
                     <head>27. - Adjudication (Jugement d'). — Nullité. — Appel. — Débiteur
                         décédé.</head>
                     <div type="summary">
@@ -527,7 +538,7 @@
                             Aboul Enein el Demeiri et Cts. c. Land Bank of Egypt</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0040">
                     <head>28. - Ayant cause à titre particulier. — Chose jugée contre l'auteur. —
                         Transcription. — Revendication.</head>
                     <div type="summary">
@@ -562,7 +573,7 @@
                             181-399.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0050">
                     <head>29. - Cession. — Signification.</head>
                     <div type="summary">
                         <p>Pour que le transport de créance soit opposable aux tieis, et par
@@ -575,7 +586,7 @@
                             Hoirs Mohamed El Chadli c. Jean Lenzi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0060">
                     <head>30. - Citation. — Délai de comparution. — Appel. — Nullité. —
                         Renonciation.</head>
                     <div type="summary">
@@ -593,7 +604,7 @@
                             Lloyd Anglo-Français et- Cts. c. Castel-lani frères).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0070">
                     <head>31. - Commandement. - Election de domicile par le poursuivant. -
                         Nullité.</head>
                     <div type="summary">
@@ -610,7 +621,7 @@
                             Damas et Cts. c Nicolas Fiani).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0080">
                     <head>32. - Concordat. — Jugement de condamnation. — Frais. - Droits
                         proportionnels. — Poursuites vexatoites. — Dommages-intérêts. —
                         Interprétation des arrêts. Compétence. — Exploit d’Appel. — Citation devant
@@ -648,7 +659,7 @@
                         <p>Note. — 1. - Confirm. jug. Alex. 14 juin 1913, Gaz. 111, 177-366.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0090">
                     <head>33. - Concordat Préventif. — Créanciers non convoqués. - Opposabilité.
                         Droit d'opposition. — Concordat par abandon d’actif. — Conditions.</head>
                     <div type="summary">
@@ -670,7 +681,7 @@
                             c. Pergolesi Erba &amp; C").</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0100">
                     <head>34. - Concordat Préventif. — Garant. Mise en cause. — Opposition,
                         annulation ou résolution du concordat. Production des créances. — Créanciers
                         non diligents.</head>
@@ -699,7 +710,7 @@
                             d’Orient c. Vladimir Mavridis et autres)-</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0110">
                     <head>35. - Contravention. — Appel. — Tribunal Correctionnel.— Cour d’Appel. —
                         Compétence. —- Loi spéciale.</head>
                     <div type="summary">
@@ -723,7 +734,7 @@
                             c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0120">
                     <head>36. - Défaut profit.joint. — Faculté d'opposition.</head>
                     <div type="summary">
                         <p>La disposition de l’art. 127 C. Proc., exceptionnelle et dérogatoire au
@@ -793,7 +804,7 @@
                             semblables incertitudes sont certainement regrettables.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0130">
                     <head>37. - Dire. — Demande contre des tiers à l'expropriation. , '</head>
                     <div type="summary">
                         <p>Le caractère spécial et restreint des dires, — simples incidents de
@@ -807,7 +818,7 @@
                             Chennaoui El Bagouri et autre c. Crédit Foncier Egyptien et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0140">
                     <head>38. - Droit Musulman. — Succession. — Dettes. — Héritiers. — Séparation
                         des patrimoines. — Aliénation de biens successoraux. — Inopposabilité aux
                         créanciers.</head>
@@ -831,7 +842,7 @@
                             cas de partage entre cohéritiers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0150">
                     <head>39. - Droit Musulman. — Succession. — Dettes. — Solidarité des héritiers à
                         concurrence de leur quote-part.</head>
                     <div type="summary">
@@ -849,7 +860,7 @@
                             Gaz. 35, N° 412, § Succession.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0160">
                     <head>40. - Expertise. — Taxe. — Parties. — Solidarité.</head>
                     <div type="summary">
                         <p>Lorsque le Tribunal ordonne d’office une expertise, il agit dans
@@ -874,10 +885,10 @@
                             par les parties, mais ordonnée d’office par jugement du 31 août 1912, et
                             que c’est sur la demande du seul Saad Abou Taleb que l’expert a procédé
                             à sa mission ;</p>
-                        <p>Que la question se pose desavoir >i, dans ces conditions et étant donné
-                            qu’un jugement sur le fond et les dépens n’est pas encore intervenu,
-                            l’expert était en droit d’exécuter contre Radouan Aly Radouan la taxe
-                            par lui obtenue ;</p>
+                        <p>Que la question se pose desavoir &gt;i, dans ces conditions et étant
+                            donné qu’un jugement sur le fond et les dépens n’est pas encore
+                            intervenu, l’expert était en droit d’exécuter contre Radouan Aly Radouan
+                            la taxe par lui obtenue ;</p>
                         <p>Que cette question, qui ne constitue pas une difficulté née sur
                             l’exécution d’un jugement, mais une contestation sur la portée de
                             celui-ci, n’échappe pas à la compétence du juge sommaire;</p>
@@ -920,7 +931,7 @@
                             Civ., Caire 9 Janv. 1911, Gaz. I. p. 70, § Taxe.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0170">
                     <head>41. - Faillite. - Biens de la femme., — Présomption de propriété en faveur
                         dit mari. — Séquestre.</head>
                     <div type="summary">
@@ -940,7 +951,7 @@
                         <p>Note. — Comp. jug. Caire 31 Mai 1913, Gaz. III 178, § 372.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0180">
                     <head>42. - Faillite, — Créanciers. — Avantages particuliers. - Garantie. -
                         Concordat.</head>
                     <div type="summary">
@@ -958,7 +969,7 @@
                             Ibrahim Kaltoum c. Bier import Cy).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0190">
                     <head>43. - Faillite. — Dessaisissement du failli. —. Relativité de principe. —
                         Actions judiciaires que peut intenter le failli. — Dire. — Intervention du
                         syndic après l’expiration des délais. — Recevabilité. — Opposition à
@@ -993,7 +1004,7 @@
                             Bakry c. Crédit Foncier Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0200">
                     <head>44. - Jugement. — Erreurs matérielles. — Rectification. — Pouvoir du
                         juge.</head>
                     <div type="summary">
@@ -1009,7 +1020,7 @@
                             bent Farés Abdalla c. Tramways du Caire).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0210">
                     <head>45. - Jugement interlocutoire. — Inexécution. — Déchéance.</head>
                     <div type="summary">
                         <p>Alors même qu’une partie aurait négligé Pendant plusieurs années de
@@ -1025,7 +1036,7 @@
                             c. Farah Abou Zeid et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0220">
                     <head>46. - Juridiction Mixte. — Compétence. — Action réelle immobilière. —
                         Exécution d’un acte de partage. — Dommages-intérêts.</head>
                     <div type="summary">
@@ -1041,7 +1052,7 @@
                             c. Eliahou Chamla et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0230">
                     <head>47. - Nationalité ottomane. — Naturalisation hellénique. — Gouvernement
                         Egyptien. — Convention du 2 Février 1890 entre l’Egypte et la Grèce.</head>
                     <div type="summary">
@@ -1063,7 +1074,7 @@
                         <p>Note. — Confirm. Jug. Mansourah 21 Janvier 1913. Gaz. III. 91, § 193.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0240">
                     <head>48. - Opposition à taxe. — Compétence “ratione loci„.</head>
                     <div type="summary">
                         <p>Bien qu’il soit plus normal de former l’opposition à taxe au Greffe du
@@ -1094,7 +1105,7 @@
                             taxe?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0250">
                     <head>49. - Opposition à taxe. — Quantum.</head>
                     <div type="summary">
                         <p>L’opposition à taxe ne peut porter que sur le quantum des sommes allouées
@@ -1107,7 +1118,7 @@
                             Anastassi Elias c. Ve A. de P...).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0260">
                     <head>50. - Prescription. — Loi nouvelle. — Dispositions transitoires. — Droits
                         acquis.</head>
                     <div type="summary">
@@ -1133,7 +1144,7 @@
                             droit, d’une prescription de deux années.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0270">
                     <head>51. - Preuve. — Quasi-délit. — Démolition d’immeuble. —- Inconvénients. —
                         Omission d’un référé pour constat. — Enquête ultérieure. -
                         Pertinence.</head>
@@ -1151,7 +1162,7 @@
                             R.S. S. et S. Sednaoui c. Dimitri Darellis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0280">
                     <head>52. - Preuve Testimoniale. — Valeur des témoignages.</head>
                     <div type="summary">
                         <p>La prétendue règle légale traduite par l’adage Testis anus, testis
@@ -1166,7 +1177,7 @@
                             Foncière d’Egypte c. Youssef Mohamed Metwalli).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0290">
                     <head>53. - Privilèges. — Frais de construction.</head>
                     <div type="summary">
                         <p>Si l’art 729 C. Civ. déclare privilégiés les frais faits pour la
@@ -1181,7 +1192,7 @@
                             Crédit Foncier d’Orient c. C. Constantinides et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0300">
                     <head>54. - Référé. -- Opposition. — Appel.</head>
                     <div type="summary">
                         <p>Il résulte tant des termes de l’art. 144</p>
@@ -1194,7 +1205,7 @@
                             Abdallah et Ct c. Christo Verenidicht et Lt.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0310">
                     <head>55. - Règlement définitif. — Opposition. — Contredit. —
                         Recevabilité.</head>
                     <div type="summary">
@@ -1216,7 +1227,7 @@
                             c. Hoirs Mohamed Fahmy Daoud et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0320">
                     <head>56. - Ressort. — Taux de la demande. Titres constitutifs.</head>
                     <div type="summary">
                         <p>Le seul chiffre à considérer pour la fixation du ressort est celui qui
@@ -1231,7 +1242,7 @@
                             et C. c. Isaac Belligradeanu et Fils),</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0330">
                     <head>57. - Retrait d’indivision. — Préemption. — Piescription.</head>
                     <div type="summary">
                         <p>Le retrait d’indivision reconnu au profit du co-propriétaire originaire
@@ -1249,7 +1260,7 @@
                             Hassan Chouman c. Aly Tataris et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0340">
                     <head>58. - Revendication en cours d’expropriation. — Procédure de saisie par
                         devant le Tribunal Indigène. — Délais d'appel.</head>
                     <div type="summary">
@@ -1267,7 +1278,7 @@
                             Sophie Stylianou c. Mohamed eff. Ibrahim et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0350">
                     <head>59. - Serment litisdécisoire. — Délation en voie subsidiaire.</head>
                     <div type="summary">
                         <p>Le serment litisdécisoire peut être déféré en voie subsidiaire, étant
@@ -1370,7 +1381,7 @@
                             les preuves qui militent en faveur de l’autre partie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0360">
                     <head>60. - Surenchère. — Nullité. —Jugement d’adjudication. — Intérêt.</head>
                     <div type="summary">
                         <p>I. L’intérêt est la mesure des actions, et sans un intérêt réel et
@@ -1458,7 +1469,7 @@
                             produit de la vente se trouverait considérablement diminué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0370">
                     <head>61. - Servitude de Passage. — Parc. Propriétaires voisins. — Pure
                         tolérance de passage. — Suppression. — Assiette de la servitude. —
                         Déplacement.</head>
@@ -1478,7 +1489,7 @@
                             Ludwig Borchardt c. The Egyptian Hotels Ltd).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0380">
                     <head>62. - Tierce-Opposition. — Dire. Créancier inscrit. — Procédure
                         d’expropriation. — Tiers.</head>
                     <div type="summary">
@@ -1493,7 +1504,7 @@
                             Foncier d’Egypte c- Lambert et Ralli et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0390">
                     <head>63. - Tiers-détenteur. — Acte de partage. — Titre de propriété. —
                         Transcription. — Certificat hypothécaire.</head>
                     <div type="summary">
@@ -1511,7 +1522,7 @@
                             Moustafa bey Ezzat c. Crédit Fonc. Egypt.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0400">
                     <head>64. - Tiers-détenteur. — Délaissement. — Déclaration au Greffe. — Action
                         oblique.</head>
                     <div type="summary">
@@ -1543,7 +1554,7 @@
                             Hassan Aletwalli Nour c. Société An., du Béhéra et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0410">
                     <head>65. - Tiers-détenteur. — Délais pour la saisie. — Limitation de la vente
                         immobilière.</head>
                     <div type="summary">
@@ -1615,7 +1626,7 @@
                             tiers-détenteur dans le cas prévu par le § 2 du même article.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0420">
                     <head>66. - Vente. — Acheteur. — Livraison. — Enlèvement. r</head>
                     <div type="summary">
                         <p>Lorsque le moment auquel l’acheteur doit prendre livraison de la chose
@@ -1636,7 +1647,7 @@
                             a besoin du local qu’elle occupe.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-12-0430">
                     <head>67. - Usure. — Législation Italienne. — Taux libre des intérêts.</head>
                     <div type="summary">
                         <p>Lorsque le souscripteur et le bénéficiaire de billets à ordre sont tous
@@ -1843,8 +1854,8 @@
                 <p>(Juge-Commissaire M. M. Hansson).</p>
                 <p>FAILLITES PRONONCÉES</p>
                 <p>Mikhaïl Gherghes, local à Kafr El Zayat. Jug. decl. le 3.11.12, cens. p. le
-                    24.7.12. Syndic prov. A. Béranger. Réun. syndic déf. le 18.11.13, à 10 h >'2 u.
-                    m. Ord. 13.11.13 aut. l’exploit, le</p>
+                    24.7.12. Syndic prov. A. Béranger. Réun. syndic déf. le 18.11.13, à 10 h &gt;'2
+                    u. m. Ord. 13.11.13 aut. l’exploit, le</p>
                 <p>18.11.13 et Lect. rapp. syndic prov. Le failli s’établit nég. en bois à p. de
                     1907 avec un capital de Lst. 300, mais le syndic n’a pu contrôler ce chiffre par
                     suite de la disparition de la comptabilité jusqu’à 1910, quele failli déclare
@@ -1865,8 +1876,8 @@
                     dans la comptabilité. Situât, actuelle: Passif P.T. 122796,2, Actif P.T.
                     52265,1, Déficit P.T. /0.531,1. Le Syndic prévoit en cas de vente forcée un
                     dividende de 37 %. Les prélèvements mensuels des,faillis étaient de 12 Lst. pour
-                    chacun d’eux. Concl. bonne foi, banq. simple, 16.12.13 à 10 h y> a. m. Vér. et
-                    Conc.</p>
+                    chacun d’eux. Concl. bonne foi, banq. simple, 16.12.13 à 10 h y&gt; a. m. Vér.
+                    et Conc.</p>
                 <p>Jean M. Deyninger, sujet roumain, comm. à Ramleh, Camp de César, propriété
                     Myrianto-poulo. Jug. décl. 17.11.913, cess. p. 12.7.913, syndic prov. Béranger,
                     réun. syndic déf. 2.12.13, à 10 h. a.m.</p>
@@ -1896,7 +1907,7 @@
                     Bilan déposé le 3.11.13, cess. p. 23.10.13. Passif app. L.Eg. 2168,801. Actif
                     app. L.E. 1300. Déficit</p>
                 <p>L. E. 868.801. 18.11.13 à 11 h. % a.m., nom. de</p>
-                <p>M. Hanna Samaan expert et fix. au 16.12.13 à 10 h. >4 a.m.</p>
+                <p>M. Hanna Samaan expert et fix. au 16.12.13 à 10 h. &gt;4 a.m.</p>
                 <pb n="28" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                 <p>R. S. Le ne Piperno et Cie, ainsi que le sieur Leone Piperno, seul membre en nom
                     col !. comp.la dite R. S. de nationalité Italienne, ayant siège à Alexandrie,
@@ -1954,7 +1965,7 @@
                     faillis s’obligent à souscrire de nouvelles acceptations qui devront être
                     avalisées par le garant.</p>
                 <p>Adib Gibara (Synd. H. Samaan). Etat d’union dissout le 4.11.913. Il reste une
-                    somme de L.Eg. 1098 et 82c,/or>a à répartir, après déduction des frais du
+                    somme de L.Eg. 1098 et 82c,/or&gt;a à répartir, après déduction des frais du
                     dossier. ( .</p>
                 <p>Rais. Soc. Mohamed, Ibrahim et El Soyed Khalil (Syndic-H. Samaan). Etat d’union
                     dissout le 4.11.913, pas de dividende.</p>
@@ -1967,7 +1978,7 @@
                     40 % à représenter par des nouvelles acceptations souscrites pa les faillis et
                     avalisées par le garant.</p>
                 <p>Georges Mikinioti (Syndic Constantinidis)</p>
-                <p>17.19.13. Jug. clôt. &lt;>p. p. manq. d’actif.</p>
+                <p>17.19.13. Jug. clôt. &lt;&gt;p. p. manq. d’actif.</p>
                 <p>R. S. Khalil Soussa'et Cie (Syndic Constantinidis) Faillite rétractée le
                     17.11.13.</p>
                 <p>Abdalla Youssef El Lassai (Syndic Tabet). Ejat d’union dissout le 18 11.13, Rien
@@ -2603,7 +2614,7 @@
                     feu Francesco Fummo. Gestion et signât, app. à Giuseppe Fummo par procur.
                     Capital: Lst. 400; Durée: une année à p du 10.11.913 renouv. tacit. faute de
                     dédit. (Contr 10.11.913)</p>
-                <p>Société Coopérative Vigneronne des Grandes Caves de Richon le>Zion et Zicron
+                <p>Société Coopérative Vigneronne des Grandes Caves de Richon le&gt;Zion et Zicron
                     Jacob Const. d’une associât, entre la jewish Colonization Association, agissant
                     tant en son nom personnel qu’au nom de M. le Baron Edmond de Rothschild,
                     propriétaire des Grandes Caves de Richon-le-Zion et de Zicron-Jacob et les

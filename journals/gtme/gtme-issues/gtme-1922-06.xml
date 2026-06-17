@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1922-06-10">June 10, 1922</date><lb/>
-                    <biblScope unit="volume">Vol. 12</biblScope><lb/>
-                    <biblScope unit="number">No. 140</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1922-06-10">June 10, 1922</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 12</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 140</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -46,7 +57,7 @@
                 <p>Rue Hussenieh.</p>
                 <p>Tél. 2 07</p>
                 <p>ira II! «MI! I!IIÜ</p>
-                <p>■p) 7 -pr; Q, -y p> rp -p^i</p>
+                <p>■p) 7 -pr; Q, -y p&gt; rp -p^i</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
                 <p>Fondateurs : M'« MAXIME PUPIKOFEB et LÉON PAN&amp;ALO, Avocats à la Cour.
@@ -95,7 +106,7 @@
                 <p>Sans nous appesantir, notons-en les principales :</p>
                 <p>Le ballottage du candidat à la profession de courtier est nécessaire: il est
                     cependant équitable que le règlement ne per-</p>
-                <p>(*> E. Caramano. — Commentaires et suggestions pour servir au remaniement des
+                <p>(*&gt; E. Caramano. — Commentaires et suggestions pour servir au remaniement des
                     règlements de la Bourse des Marchandises à terme. (Alexandrie, 1922).</p>
                 <p>mette à la Commission de la Bourse de statuer sur l’admission ou l’exclusion du
                     candidat que si les trois quarts de ses membres sont présents. Naturellement, la
@@ -172,8 +183,8 @@
                     respecter, selon « qualités, parune clause également insérée «dans les contrats
                     des intéréssés. Cette « habitude a prisuneextension très grande, « et, passant
                     de l’usage à la consécration, « il en résulte que tous les jours il y a « des
-                    «Fixations > à faire. Un autre usage «consacre encore: que le prix pratiqué « à
-                    la Bourse, à l’heure p.m. exactement, « soit celui auquel « on fixe ».</p>
+                    «Fixations &gt; à faire. Un autre usage «consacre encore: que le prix pratiqué «
+                    à la Bourse, à l’heure p.m. exactement, « soit celui auquel « on fixe ».</p>
                 <p>« On peut donc comprendre quel énorme « intérêt on attache au prix qui doit être
                     « marqué à ce moment précis.</p>
                 <p>« Les clients passent en conséquence «aux Courtiers les ordres-de fixer-selon «
@@ -340,7 +351,7 @@
                 <head>JURISPRUDENCE</head>
                 <p>Nous grouperons dans notre numéro de Juillet plusieurs décisions intéressantes en
                     matière de change et d’assurances.</p>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0010">
                     <head>202. - Bail. — Loi sur les loyers du 21 Février 1921. — Action en fixation
                         d’un loyer spécial ; appel ; irrecevabilité à relever d’office.</head>
                     <div type="summary">
@@ -355,7 +366,7 @@
                             1922. — Ministère des Wakfs c. Georges Takhlambouris).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0020">
                     <head>203. - Bail. — Loi sur les loyers du 21 Février 1921-, — Action en
                         prorogation ou en fixation des loyers; délai; distinction nécessaire entre
                         les locaux loués en 1914 à moins ou à plus de L.E. 72 par an. — Local ayant
@@ -385,7 +396,7 @@
                             1922. - Pierre Zachary c. consorts Mar-copoulo).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0030">
                     <head>204. - Bail. — Loi sur les loyers du 21 Février 1921. — Détermination du
                         loyer légal. — Inefficacité du contrat du 1914 lorsqu’à cette époque le
                         local était loué à tout autre usage que celui d’habitation.</head>
@@ -401,7 +412,7 @@
                             Mai 1922.— Suarès Frères &amp; Co. en liq. c. Sr. J. Popolani). '</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0040">
                     <head>205. - Bail. — Loi sur les loyers du 21 Février 1921. — Loi du 21 Février
                         1920. — Appel; délai; taux; recevabilité.</head>
                     <div type="summary">
@@ -479,7 +490,7 @@
                             droit commun, il doit, par conséquent, être retenu recevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0050">
                     <head>206. - Bail. — Loi sur les loyers du 21 Février 1921. — Loi du 21 Février
                         1920. — Appel; délai ; recevabilité. — Congé. — Cohtrat prorogé par l’effet
                         de la loi; augmentation de loyer; préavis; délai. — Tribunal d’Appel; examen
@@ -551,7 +562,8 @@
                             à l’expiration du contrat, toujours a-t-il eu l’effet de mettre obstacle
                             à la tacite réconduction, de sorte que l’intimée est restée dans les
                             lieux loués exclusivement en vertu de la dite loi («contrat prorogé par
-                            l’effet de la loi > suivant la terminologie de la loi No 4 de 1921);</p>
+                            l’effet de la loi &gt; suivant la terminologie de la loi No 4 de
+                            1921);</p>
                         <p>Attendu qu’il s’ensuit que les appelants ont eu le droit d’augmenter les
                             loyers dans les limites prévues par la loi du 21 Février 1920 en
                             observant le délai prescrit par son article 12 ;</p>
@@ -595,7 +607,7 @@
                             appelants justifient, à suffisance de droit, la demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0060">
                     <head>207. - Bail. — Loi sur les loyers du 21 Février 1922. — Appel-, taux;
                         instances en détermination du loyer-, valeur du litige.</head>
                     <div type="summary">
@@ -638,7 +650,7 @@
                         <p>Que dans ces conditions le présent appel est irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0070">
                     <head>208. - Bail. — Loi sur les loyers du 21 Février 1922. — Appel-, taux;
                         instances en détermination du loyer ; valeur du litige.</head>
                     <div type="summary">
@@ -761,7 +773,7 @@
                             alinéa 2, de la loi N. 4 de 1921, donner lieu à appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0080">
                     <head>209. - Bail. — Loi sur les loyers du 21 Février 1921. — Appel; taux:
                         instances en détermination du loyer ; valeur du litige; irrecevabilité
                         d’appel à relever d’office.</head>
@@ -782,7 +794,7 @@
                             ci-après § 211.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0090">
                     <head>210. - Bail. — Loi sur les loyers du 21 Février 1921, — Appel; taux ;
                         instances en détermination du loyer; valeur du litige. — Pensions;
                         applicabilité de la loi sur les loyers aux relations entre le propriétaire
@@ -842,7 +854,7 @@
                             moment cette différence était toute autre que les sommes servant de base
                             aux calculs de l’intimé soit P.T. 502.5 par mois (2100-1592,5) ;</p>
                         <pb n="118" rendition="GAZETTE DES TRIBUNAUX MIXTES D’EGYPTE"/>
-                        <p>->- ....... ...................■</p>
+                        <p>-&gt;- ....... ...................■</p>
                         <p>Que, d’autre part, il n’y a aucun motif pour calculer cette différence
                             pour une année seulement ;</p>
                         <p>Que, les parties étant d'accord pour le maintien de la location et ayant
@@ -904,7 +916,7 @@
                             appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0100">
                     <head>211. - Bail. — Loi sur les loyers du 21 Février 1921. — Appel; taux;
                         instances en détermination de loyer ; valeur du litige. — Tribunal Sommaire;
                         compétence déterminée ratione loci.</head>
@@ -1085,7 +1097,7 @@
                             Tribunal compétent</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0110">
                     <head>212. - Bail. — Loi sur les loyers du 21 -Février 1921. — Expulsion suivie
                         de réintégration; demande en dommages-intérêts du ocataire expulsé; absence
                         de préjudice.</head>
@@ -1115,7 +1127,7 @@
                             entre-temps.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0120">
                     <head>213. - Bail. — Loi sur les loyers du 21 Février 1921. — Inapplicabilité
                         aux locations accessoires d’une concession commerciale; concession des
                         buffets des chemins de fer ; prorogation inadmissible. — Clause fixant au
@@ -1211,7 +1223,7 @@
                             et de condamner l’appelant aux dépens du degré d’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0130">
                     <head>214 - Bail. — Loi sur les loyers du 21-Février 1921. — Locaux loués à un
                         autre usage que celui &lt;fhabitation. — Détermination du loyer; éléments ;
                         sous-location.</head>
@@ -1230,7 +1242,7 @@
                     </div>
                 </div>
                 <pb n="120" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0140">
                     <head>215. - Bail. — Loi sur les loyers du 21 Février 1921. — Locaux loués à un
                         autre usage que celui d'habitation; cabinet d’avocat. — Action en réduction
                         de loyer; éléments de détermination du loyer légitime.</head>
@@ -1335,7 +1347,7 @@
                             Août 1914.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0150">
                     <head>216. - Bail. — Loi sur les loyers du 21 Février 1921. — Référés;
                         compétence; expulsion d’un occupant sans titre ; contestation dépourvue de
                         sérieux de la part du locataire.</head>
@@ -1392,7 +1404,7 @@
                             cent livres payable par mensualités anticipées ;</p>
                         <p>Attendu qu’il avait été stipulé à l’article 3 du dit contrat que « la
                             location ne pourra être re-« nouvelée que par accord écrit entre les
-                            deux « parties, tout autre accord exclu > ;</p>
+                            deux « parties, tout autre accord exclu &gt; ;</p>
                         <p>Attendu que si cette clause n’a pu rendre juridiquement impossible la
                             tacite reconduction, comme le Sieur Toriel le prétend, toutefois en
                             présence de son intention énergiquement manifestée lors de la conclusion
@@ -1424,7 +1436,7 @@
                             été signifié que sept jours après le prononcé de cette ordonnance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0160">
                     <head>217. - Bail. — Loi sur les loyers du 21 Février 1921. — Référés ;
                         compétence ; expulsion d’un occupant sans titre ; clause conventionnelle de
                         compétence.</head>
@@ -1484,7 +1496,7 @@
                             lieux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0170">
                     <head>218. - Bail. — Loi sur les loyers du 21 Février 1921. — Référés ;
                         compétence ; expulsion d’un occupant sans titre ; clause conventionnelle de
                         compétence. — Non applicabilité de la loi sur les loyers aux terrains
@@ -1566,7 +1578,7 @@
                             attaquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0180">
                     <head>219. - Bail. — Loi sur les loyers du 21 Février 1921. — Terrains vagues ;
                         inapplicabilité de la loi. — Contestation portant sur la validité du titre
                         de propriété du bailleur ; cas où le Tribunal peut en apprécier, en matière
@@ -1674,7 +1686,7 @@
                             Boss, en tant qu’elle vise au déguerpissement de Garcia.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0190">
                     <head>220. - Bail. — Loi sur les loyers du 21 Février 1922. — Tribunal Sommaire
                         ; clause attributive de compétence en dernier ressort ; validité nonobstant
                         la nouvelle législation.</head>
@@ -1722,7 +1734,7 @@
                             tendant à des dommages-intérêts pour appel vexatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0200">
                     <head>221. - Bail. — Loi sur les loyers du 21 Février 1921.—Tribunal Sommaire;
                         compétence.—Compétence des Tribunaux du droit commun pour les instances
                         engagées sous l’empire de la loi du 21 Février 1920; cas de reprise
@@ -1822,7 +1834,7 @@
                             supportés par la partie qui succombera définitivement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0210">
                     <head>222. - Bail. - Loi sur les loyers du 21 Lévrier 1921. — Tribunal Sommaire
                         ; compétence. — Compétence des Tribunaux du droit commun lorsque la loi sur
                         les loyers est invoquée par voie d’exception. — Multiplicité de locataires ;
@@ -1944,7 +1956,7 @@
                             saisie fut pratiquée à Tantah. et le délai de distance entre cette ville
                             et Alexandrie est de 2 jours, d’où il suit que la demande a été faite
                             dans le délai légal qui est de huit jours outre les délais de distance
-                            >art. 765 C. Pr.)</p>
+                            &gt;art. 765 C. Pr.)</p>
                         <p>5. -Après le prononcé du jugement appelé, un nouveau terme est venu à
                             l’échance, soit celui dû au 15 Janvier de l’année courante, représentant
                             le loyer à partir de la dite date jusqu’au 14 Juillet. Aux termes de
@@ -1952,7 +1964,7 @@
                             d’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0220">
                     <head>223. - Bail. — Loi sur les loyers du 21 Février 1921. — Tribunal Sommaire;
                         compétence. — Compétence pour statuer sur les litiges de droit commun. —
                         Défense de sous-louer. — Cession de bail; droit pour les Tribunaux de le
@@ -2228,7 +2240,7 @@
                             est mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0230">
                     <head>224. - Bail. — Loi sur les loyers du 21 Février 1921.—Tribunal Sommaire;
                         compétence, quel que soit le tauxdu loyer, pour statuer sur les demandes
                         d’expulsion de locataires.</head>
@@ -2421,7 +2433,7 @@
                             pas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0240">
                     <head>225. - Bail. — Loi sur les loyers du 21 Février 1921. — Tribunal Sommaire;
                         compétence quel que soit le taux du loyer, pour statuer sur les demandes
                         d’expulsion de locataires. — Jugements d’incompétence en matière locative ;
@@ -2502,7 +2514,7 @@
                             cause et parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0250">
                     <head>226. - Bail. — Loi sur les loyers du 21 Février 1921. — Tribunal Sommaire.
                         ; compétence. - Tribunal Civil; incompétence à statuer sur l’annulation
                         d’une saisie conservatoire dont la validation a été compé-temment déférée au
@@ -2521,7 +2533,7 @@
                             Paul Verdeli c. Dme Fortunée Moeris Schinazi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0260">
                     <head>227. - Bail. - Loi sur les loyers du 21 Février 1921. — Tribunal Sommaire
                         compétence. — Tribunal Civil ; compétence pour les litiges locatifs du droit
                         commun. — Appel ;. taux ; recevabilité. — Serment supplétoire; condition
@@ -2628,7 +2640,7 @@
                             décision déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0270">
                     <head>228. - Bourse. —- Courtier. — Mariage de deux ordres de Bourse contraires
                         par des clients de la même agence ; validité, sauf en cas de fraude ou ae
                         lésion.</head>
@@ -2696,7 +2708,7 @@
                             Bourse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0280">
                     <head>229. - Bourse des Marchandises. — Commission de la Bourse ; Conseil de
                         discipline ; recours contre ses décisions ; forme, assignation directe ;
                         mise en cause du Président delà Commission.— Admission et inscription des
@@ -2814,11 +2826,10 @@
                             connus par la décision même contre laquelle on se pourvoit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-06-0290">
                     <head>230. - Prescription quinquennale des effets de commerce.— Inapplicabilité
                         en Egypte de l'art. 300 du Traité de Versailles.—Proclamation du 9 Mars
                         1920. — Order in Council du 22 Janvier 1920.</head>
-                    
                     <div type="observations">
                         <p>Note. — Dans la reproduction, en notre numéro de Mai, du texte du
                             jugement, rendu le 11 Mars 1922 sur ces questions, par le Tribunal

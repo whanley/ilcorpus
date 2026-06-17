@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0035-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0035-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1945-06-10">June 10, 1945</date><lb/>
-                    <biblScope unit="volume">Vol. 35</biblScope><lb/>
-                    <biblScope unit="number">No. 416</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1945-06-10">June 10, 1945</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 35</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 416</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -186,8 +197,8 @@
                 <p>D'ÉGYPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte. Fondateur*
-                    > M“ MAXIME PUPIKOFEB et LEON PANGALO, Avocate à la Cour Directeur : M- MAXIME
-                    PUPIKOFEB, Avocat à la Cour.</p>
+                    &gt; M“ MAXIME PUPIKOFEB et LEON PANGALO, Avocate à la Cour Directeur : M-
+                    MAXIME PUPIKOFEB, Avocat à la Cour.</p>
                 <p>eomitê de Rédaction et d’Hdministration : M« L. PAHGALO et R. 8CHEMEIL (DiruUurt
                     auOain)</p>
                 <p>ABONNEMENTS</p>
@@ -207,7 +218,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE.</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-06-0010">
                     <head>80. - Assurances. — Convention .bancaire constitutive de garanties pour
                         les assurés; caractère de stipulation pour autrui; révocabilité à défaut de
                         mention dans les polices.</head>
@@ -277,7 +288,7 @@
                         <p>Partage entre parties les frais et compense les honoraires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-06-0020">
                     <head>81. - Assurai!ce-aœidents. — Assurance de voyage; coupons-tickets;
                         bénéficiaire; remise manuelle du ticket non attributive de son
                         bénéfice.</head>
@@ -398,7 +409,7 @@
                             lui avoir remis la police ne suffisant point à cet effet.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-06-0030">
                     <head>82. - Assurance-accidents. — Risque assuré, comprenant les agressions de
                         la part de tiers; doute s'interprétant en faveur de l'assuré. — Assurances;
                         cessions et changements de bénéficiaires; stipulation les soumettant à
@@ -575,7 +586,7 @@
                             également, sur ce chef, le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-06-0040">
                     <head>83. - Assurance-automobiles. — Défaut de communication par l’assuré à
                         l’assureur des poursuites pénales exercées contre son chauffeur auteur de
                         l’accident; cas où il n'entraîne pas déchéance.</head>
@@ -640,7 +651,7 @@
                             documents et que, par conséquent, il n’a pas encouru de déchéance...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-06-0050">
                     <head>84. - Assurance-automobiles. — Fausse déclaration par l'assuré des
                         circonstances de l’accident; cas où elle n'entraîne pas déchéance.</head>
                     <div type="summary">
@@ -719,8 +730,8 @@
                             retenue par les juridictions répressives mixtes, et ont condamné ce
                             dernier, solidairement avec son assureur, à payer aux héritiers de la
                             victime la somme de L.E. 310 fixée ex æquo et bono;</p>
-                        <p>Attendu qu’en siège d’appel, la Compagnie d’assurances >&lt; L’Abeille »
-                            n’a avancé aucun élément nouveau de nature â modifier la décision
+                        <p>Attendu qu’en siège d’appel, la Compagnie d’assurances &gt;&lt; L’Abeille
+                            » n’a avancé aucun élément nouveau de nature â modifier la décision
                             attaquée; qu’elle ne fait que préciser, sur la question de la prétendue
                             déchéance, que l’inexactitude flagrante de la version donnée par
                             l’assuré, tant sur les circonstances que sur les conséquences du
@@ -753,7 +764,7 @@
                             degrés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-06-0060">
                     <head>85. - Assurance-automobiles. — Fausse déclaration sur l'âge de
                         l'automobile assurée, entraînant déchéance.</head>
                     <div type="summary">
@@ -829,7 +840,7 @@
                             10 à la dite intimée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-06-0070">
                     <head>86. - Assurance-automobiles. — Pneus; vol; valeur actuelle, de
                         remplacement; obligation de l'assureur; étendue; offre du prix des pneus sur
                         la base de la tarification officielle; insuffisance.</head>
@@ -1056,7 +1067,7 @@
                             sentence arbitrale déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-06-0080">
                     <head>87. - Assurance-fidélité. — Polices successives; risque couvert; durée de
                         la garantie due par l'assureur; négligence de l'assuré entraînant
                         déchéance.</head>
@@ -1169,7 +1180,7 @@
                             jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-06-0090">
                     <head>88. - Assurance-incendie. — Prescription conventionnelle pour retard dans
                         la réclamation; interruption par une instance en référé en vue de
                         l'évaluation du dommage. — Déchéance pour fraude en cas de production de
@@ -1288,7 +1299,7 @@
                             cette base...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-06-0100">
                     <head>89. - Assurance-Vol. — Clause de cessation du risque en cas de non
                         occupation prolongée des locaux assurés; portée d'application.</head>
                     <div type="summary">
@@ -1327,7 +1338,7 @@
                             Compagnie d’assurances.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-06-0110">
                     <head>90. - Assurance-vol. — Preuve à charge de l'assuré.</head>
                     <div type="summary">
                         <p>C’est à l’assuré qui se prévaut d’une police d’assurance contre le vol
@@ -1738,7 +1749,7 @@
                 <p>Article 5 alinéa premier de la Proclamation N° 525 relative à la récolte de riz
                     de la saison de 1944;</p>
                 <p>Article 16 (alinéas 1, 2 et 4) de la Proclamation N“ 349 relative aux filés de
-                    coton, modifiée par la Proclamation N-> 508.</p>
+                    coton, modifiée par la Proclamation N-&gt; 508.</p>
                 <p>L’interdiction qui précède prendra effet le lendemain de la ratification de la
                     condamnation.</p>
                 <p>Le Ministre de l'Approvisionnement pourra interdire au contrevenant, jusqu’au

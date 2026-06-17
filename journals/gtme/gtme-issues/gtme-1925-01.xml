@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1925-01-10">January 10, 1925</date><lb/>
-                    <biblScope unit="volume">Vol. 15</biblScope><lb/>
-                    <biblScope unit="number">No. 171</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1925-01-10">January 10, 1925</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 15</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 171</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -36,7 +47,7 @@
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
                 <p>Fondateurs : M" MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.</p>
-                <p>Directeur : M> MAXIME PUPIKOFER, Avocat à la Cour.</p>
+                <p>Directeur : M&gt; MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>— à la Gazette (un an).... P.T. ISO</p>
                 <p>— au Jonrnal :</p>
                 <p>— Un an.................. ». 150</p>
@@ -46,7 +57,7 @@
                 <p>réunies (un an) ....... ». 250</p>
                 <p>------- U:</p>
                 <p>ABONNEMENTS :</p>
-                <p>direction, .></p>
+                <p>direction, .&gt;</p>
                 <p>- RÉDACTION,</p>
                 <p>' ■ ADMINISTRATION</p>
                 <p>Alexandrie,</p>
@@ -98,7 +109,7 @@
                     assez complexes de la Loi de 1921, on a omis de rechercher si, une fois la
                     Loi</p>
                 <p>Rnv.\.C',vJ-6rence Prononcée le 30 Janvier 1925 à la Société latînn « Economie
-                    Politique, de Statistique et de Légis-,auun> au Laire.</p>
+                    Politique, de Statistique et de Légis-,auun&gt; au Laire.</p>
                 <p>en. Paralt, en même temps qu'en ces colonnes, . temvorai as0l0u'8 âs
                     Janvier-Février de y.Egypte Con-</p>
                 <p>arrivée a son terme, il serait opportun de passer purement et simplement à
@@ -399,7 +410,7 @@
                     juge dans la détermination du loyer légal, après qu’il aura commencé par retenir
                     la recevabilité de l’action en principe.</p>
                 <p>Cette dernière partie du texte proposé est inspirée de la rédaction de l’article
-                    2fi> de la loi actuelle: et comme il convient ds tenir compte de tous les
+                    2fi&gt; de la loi actuelle: et comme il convient ds tenir compte de tous les
                     intérêts en jeu,, le juge est également invité à ne pas perdre de vue les
                     circonstances spéciales qu» pourraient militer en faveur du propriétaire
                     lui-même.</p>
@@ -633,7 +644,8 @@
                     jusqu’à la décision en dernier ressort, à moins que le Juge des Référés, qui
                     pourra toujours être saisi par le propriétaire, dès l’expiration du terme, d’une
                     demande en déguerpissement, '■ n’estime que la demande en prorogation est dénuée
-                    de toute base sérieuse et ne présente qu’un caractère purement dilatoire.» ></p>
+                    de toute base sérieuse et ne présente qu’un caractère purement dilatoire.»
+                    &gt;</p>
                 <p>***</p>
                 <p>Nous n’avons pas entendu procéder &amp; une révision ou réclamer une refonte de?
                     tout l’ensemble des dispositions du chapitre II, section I du titre III du Code
@@ -673,7 +685,7 @@
             <pb n="48" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE -"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0010">
                     <head>58. - Bail. — Abandon des lieux-par le locataire; référés; demande de
                         séquestre; admissibilité même dans le cas où le propriétaire a assigné, au
                         fond, en exécution et en paiement et non en expulsion. •</head>
@@ -754,7 +766,7 @@
                             infirmée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0020">
                     <head>59. - Bail. — Amodiation; consignation de récoltes au propriétaire pour la
                         vente; assimilation au mandat; responsabilité en cas d'inexécution.</head>
                     <div type="summary">
@@ -821,7 +833,7 @@
                             spéculation ni en supporter les conséquences... -</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0030">
                     <head>60. - Bail. — Colocataire par indivisr cession de droit au bail; nécessité
                         du consentement des autres colocataires.</head>
                     <div type="summary">
@@ -836,7 +848,7 @@
                             e. Riad Massiha et Cts). ..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0040">
                     <head>61. - Bail. — Jouissance; responsable lité du bailleur; accident causé par
                         la vétusté ou l'état d'abandon de l'immeuble' quasi-délit; distinction entre
                         les dommages directs et indirects.</head>
@@ -954,9 +966,9 @@
                             nature». ■ ■</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0050">
                     <head>62. - Bail. ■—- Location consentie au cours de la dernière maladie du
-                        bailleur; inapplicabilité des> dispositions de l'art. 320 C. Civ.</head>
+                        bailleur; inapplicabilité des&gt; dispositions de l'art. 320 C. Civ.</head>
                     <div type="summary">
                         <p>S’il est déjà plus que douteux en principe qu’on puisse appliquer par
                             voie d’a-na’ogie à un contrat de location les dispositions spéciales de
@@ -967,12 +979,12 @@
                             déjà. j</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appel, 3me Ch., Prés. M. AT. Hansson, 27 Mai > 1924. —- Osman
+                        <p>(Cour d’Appel, 3me Ch., Prés. M. AT. Hansson, 27 Mai &gt; 1924. —- Osman
                             eff. Khalil. Bartlett c. Edouard-Gantés èsq. î et autres). .. ■ . - , -
-                            > ;</p>
+                            &gt; ;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0060">
                     <head>63. - Bail. — Location consentie par un séquestre, en cours
                         d'expropriation; validité; opposabilité à l'adjudicataire. — Défense de
                         sous-loucr, droit personnel au bailleur. — Loyers; prescription;
@@ -1002,7 +1014,7 @@
                             Pacha Issa c. Mohamed bey Cha--hine et autres). •</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0070">
                     <head>64. - Bail. — Location de terrains en paiement de dette; assimilation au
                         gage application des dispositions de la loi limitant le taux de l'intérêt
                         conventionnel {art. 185 C.C.).</head>
@@ -1023,7 +1035,7 @@
                             Mohamed Amin Khattab El Cha-warby c. Nicolas Nicolas Ghecopoulos). .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0080">
                     <head>65. - Bail. — Location de terrains; consignation; obligation légale du
                         locataire sortant; obligation conventionnelle du bailleur; opposition de
                         locataire sortant; responsabilité du bailleur; dommages-intérêts; calcul;
@@ -1150,9 +1162,9 @@
                             beaucoup l’évaluation de l’expert-</p>
                         <p>Attendu, en effet, que la loi, après avoir énoncé le principe que les
                             dommages-intérêts contractuels consistent dans le montant de la perte
-                            faite par le créancier et du gain &lt;>u’il a manqué de faire (art. 179
-                            C.C.) ajoute à I art. 180 «Toutefois, s’il n’y a pas de dol de la part
-                            du débiteur, les dommages-intérêts ne sont que de ce qui a pu être
+                            faite par le créancier et du gain &lt;&gt;u’il a manqué de faire (art.
+                            179 C.C.) ajoute à I art. 180 «Toutefois, s’il n’y a pas de dol de la
+                            part du débiteur, les dommages-intérêts ne sont que de ce qui a pu être
                             raisonnablement prévu au moment du contrat». Or la montée colossale,
                             fantastique, folle, des prix</p>
                         <p>(ce sont les propres termes employés par Mosseri) qui se produisit après
@@ -1165,7 +1177,7 @@
                             des prix.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0090">
                     <head>66. - Bail. — Location de terrains; consignation; occupation des lieux par
                         le locataire sortant; droit et action directs du nouveau locataire. —
                         Dommages aux objets loués; défaut d'action directe du nouveau locataire.
@@ -1222,7 +1234,7 @@
                             fait défaut...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0100">
                     <head>67. - Bail. — Location de terrains; consignation; retard; clause pénale;
                         effets; sous-location non autorisée; opportunité; réduction du
                         préjudice.</head>
@@ -1271,9 +1283,9 @@
                         <p>Qu’en suite, le Sieur Khouioussi. se basant la clause susmentionnée,
                             assigna les Hoirs Condonis en déclaration de renouvellement du bail pour
                             une seule année et en-iretemps sous-loua les dits terrains;</p>
-                        <p>m> i .à que le 29 Novembre 1920, le Tri-rnt i ■ Caire rendit un jugement,
-                            décla-J™1 la dite clause, non pas comme un re-nouvehement du bail, mais
-                            comme une sim-jue clause pénale fixant les dommages-inté</p>
+                        <p>m&gt; i .à que le 29 Novembre 1920, le Tri-rnt i ■ Caire rendit un
+                            jugement, décla-J™1 la dite clause, non pas comme un re-nouvehement du
+                            bail, mais comme une sim-jue clause pénale fixant les dommages-inté</p>
                         <p>rêts en cas de défaut de consignation à l’échéance et ordonnant
                             l’expulsion de Khouioussi;</p>
                         <p>Attendu que ce jugement non appelé est devenu définitif;</p>
@@ -1319,7 +1331,7 @@
                             préalablement convenue.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0110">
                     <head>68. - Bail. — Location de terrains; fermages; déficit dans les terrains
                         loués; contestation tardive.</head>
                     <div type="summary">
@@ -1334,7 +1346,7 @@
                             ès-q.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0120">
                     <head>69. - Bail. — Location de terrains; fermages. — Lois-No. 14 de 1921, No.
                         16 de 1922 et No. 12 de 1923, sur la réduction des loyers agricoles;
                         inapplicabilité aux étrangers; cession de fermages; validité.</head>
@@ -1413,7 +1425,7 @@
                             contrat de bail cédé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0130">
                     <head>70. - Bail. — Location de terrains riverains du fleuve; accession;
                         avulsion; déficit; loyer global; contrats à élément a-léatoire.</head>
                     <div type="summary">
@@ -1509,7 +1521,7 @@
                             bloc avec toutes ces éventualités favorables ou défavorables.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0140">
                     <head>71. - Bail. — Loi sur les loyers du 21 Février 1921. ■— Action en
                         réduction du loyer; délai de trois mois applicable indistinctement dans tous
                         les cas.</head>
@@ -1542,7 +1554,7 @@
                             juges d’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0150">
                     <head>72. - Bail. — Loi sur les loyers du 21-Février 1921. — Action en réduction
                         du loyer; délai de trois mois applicable aw seul cas où le bailleur a imposé
                         un taux spécial pour l’un des motifs prévus par la loi.</head>
@@ -1568,7 +1580,7 @@
                         <p>V. à ce sujet ci-après § 74 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0160">
                     <head>73. - Bail. — Loi sur les loyers du 2£ Février 1921; action en réduction
                         de loyers; délai de trois mois applicable aie seul cas où le bailleur a
                         imposé un taux‘ spécial.</head>
@@ -1591,7 +1603,7 @@
                         <p>Note. — V. ci-avant § 71 et 72 et ci-après § 74 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0170">
                     <head>74. - Bail. — Loi sur les loyers du 21 Février 1921. — Action en réduction
                         de loyer; délai de trois mois applicable au seul cas où le bailleur a imposé
                         un taux spécial; caractéristique des actions basées sur l’art. 2 de la loi;
@@ -1731,7 +1743,7 @@
                             que celui qu’a retenu le premier juge par d’autres motifs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0180">
                     <head>75. - Bail. — Loi sur les loyers du 21 Février 1921.— Action en réduction
                         du loyer; tardivité; bénéfice tiré par le locataire de sous-locations;
                         renonciation tacite aux dispositions de la loi.</head>
@@ -1783,7 +1795,7 @@
                         <pb n="54" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0190">
                     <head>76. - Bail. — Loi sûr les loyers du 21 Février 1921. — Appartement
                         gratuitement concédé à raison des fonctions du locataire; inapplicabilité de
                         l'art. 6 de la loi; expulsion par voie de référé.</head>
@@ -1867,7 +1879,7 @@
                             seulement à partir de la signification du présent arrêt...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0200">
                     <head>77. - Bail. — Loi sur les loyers du 21 Février 1921. — Application aux
                         hôtels et pensions. — Tribunal Sommaire; compétence non exclusive de celle
                         du Juge des Référés. — Référé; compétence en-matière de difficulté
@@ -2029,7 +2041,7 @@
                             être sursis à l'exécution du présent arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0210">
                     <head>78. - Bail. — Loi sur les loyers du 21 Février 1921. — Application du
                         droit coni-mun aux tenanciers d'hôtels et de pensions dans leurs rapports
                         avec leurs bailleurs.</head>
@@ -2111,7 +2123,7 @@
                             sens contraire; du Tribunal du Caire, invoquées- par; l’appelante; ■</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0220">
                     <head>79. - Bail. — Loi' sur les loyers du 21 Février 1921. — Bail expiré;
                         prorogation non demandée; occupant sans titre.</head>
                     <div type="summary">
@@ -2143,7 +2155,7 @@
                             1923, Bull. XXXV, 416)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0230">
                     <head>80. - Bail. — Loi sur les loyers du 21 Février 1921.— Congé; reprise des
                         locaux en vue de réparations et transformations; inapplicabilité de l’art.
                         22 aux locaux loués à tout autre usage que celui d'habF tation et dont le
@@ -2260,7 +2272,7 @@
                             instance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0240">
                     <head>81. - Bail. — Loi sur les loyers du 21 Février 1921. — Demande de
                         prorogation. — Clause attributive de compétence en dernier ressort au
                         Tribunal Sommaire: inapplicabilité. — Délai de la demande de prorogation;
@@ -2294,7 +2306,7 @@
                         <p>Note. — I. - Comp. jugement du 9 Mai 1922, Gaz'. XII. 122-220.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0250">
                     <head>82. - Bail. — Loi sur les loyers du 21 Février 192L — Demande d'expulsion
                         basée sur des transformations à l'immeuble: cas où les transforma!ions ont
                         pour objet de diminuer le nombre des logements en augmentant celui des
@@ -2354,7 +2366,7 @@
                             leur demande ne peut qu’être rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0260">
                     <head>83. - Bail. — Loi sur les loyers du 21 Février 1921. — Expulsion du
                         locataire pour démolition de l'immeuble; congé; forme; lettre recommandée
                         non nécèssai- — re; ‘“Valeur d'un ‘congé par acte d'huis- ' sier.</head>
@@ -2395,7 +2407,7 @@
                             recommandée;</p>
                         <p>Attendu que le législateur a donc clairement indiqué à deux reprises
                             différentes que le locataire ne pouvait, dans le cas particulier
-                            envisagé par ce texte, recevoir congé que J>ar la voie d’une lettre
+                            envisagé par ce texte, recevoir congé que J&gt;ar la voie d’une lettre
                             recommandée;</p>
                         <p>Attendu qu’un congé donné par acte d’huissier ne saurait donc satisfaire
                             au vœu de la Loi;</p>
@@ -2427,7 +2439,7 @@
                             conséquence déclarée irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0270">
                     <head>84. - Bail. — Loi sur les loyers du 21 Février 1921. — Expulsion par ordre
                         de justice; réintégration non requise; indemnité non due. — Demande en
                         réduction de loyers après l'expiration du bail; irrecevabilité.</head>
@@ -2502,7 +2514,7 @@
                             éteint par l’exécution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0280">
                     <head>85. - Bail. — Loi sur les loyers du 21 Février 1921. —- Loyer;
                         augmentation; {orme de l'avis à donner par le bailleur; congé inutile;
                         droits du locataire.</head>
@@ -2528,7 +2540,7 @@
                             Vvc D. Joannidis et autres c. E.- II. Laferla).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0290">
                     <head>86. - Bail. — Loi sur les loyers du 21 Février 1921. — Loyer légal;
                         détermina-lion du loyer légal; amélioration des lieux par le bailleur;
                         majoration justifiée. — Contestation de loyers; dépôt à la caisse inopérant;
@@ -2553,7 +2565,7 @@
                             A. Swift c. Dame Calioppe Econo-mfdès). ■</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0300">
                     <head>87. - Bail. — Loi du 21 Février 1921.— Loyers; retard dans le paiement;
                         sommation; délai de quinze jours; actions en expulsion; règlement en cours
                         d'instance; opportunité de l'expulsion laissée à l'appréciation du
@@ -2590,8 +2602,8 @@
                         <p>Attendu que la Daïra de S.A. le Prince Mohamed Alj Ibrahim insiste
                             cependant pour que le déguerpissement de la Dame Macri s-it Ordonné, les
                             loyers dus par cette dernière, n’ayani pas été payés régulièrement à
-                            leur .échéance et notamment dans le délai de quinze jours >imparti par
-                            l’exploit introductif d’instance du .13 Août 1923;</p>
+                            leur .échéance et notamment dans le délai de quinze jours &gt;imparti
+                            par l’exploit introductif d’instance du .13 Août 1923;</p>
                         <p>..Attendu que si l’article 4 de la Loi de 1921 permet au bailleur de
                             demander l’expulsion de son. locataire, lorsque le loyer légalement ou
                             n’a pas été pavé dans les quinze jours de I" réclamation qui eh a été
@@ -2618,7 +2630,7 @@
                             versés en cours d’instance peut seule être accueillie..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0310">
                     <head>88. - Bail. — Loi sur les loyers du 21 Février 1921. —- Non applicabilité
                         aux terrains vagues, même exploités, ou couverts de constructions. — Référé;
                         com-.pétence; expulsion d'un occupant sans titre; bail expiré; contestations
@@ -2961,7 +2973,7 @@
                             expulsés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0320">
                     <head>89. - Bail. — Loi sur les loyers du. 21 Février 1921, — Référés;
                         compétence; expulsion d'un occupant sans titre; contestations dilatoires. —
                         Faillite du locataire; droi’s antérieurement acquis du bailleur.</head>
@@ -3004,7 +3016,7 @@
                             jusqu’à ce qu’un congé intervienne; !</p>
                         <p>Or, attendu qu’il est constant que l’intimée a, par lettre recommandée du
                             28 Mars 1924, soit six mois environ avant l’expiration du bail dont il
-                            s’agit, donné congé à l’appelant; ■ ></p>
+                            s’agit, donné congé à l’appelant; ■ &gt;</p>
                         <p>Attendu, en outre, que ce dernier ayant été déclaré ensuite en état de
                             faillite, l’intimés a, par lettre recommandée du 3 Juillet 1924, déclaré
                             au syndic de la faillite qu’elle n’entendait, en aucun cas, renouveler
@@ -3065,7 +3077,7 @@
                             présent arrêt. ' •</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0330">
                     <head>90. - Bail. — Loi sur les loyers du 21 Février 1921. — Référés;
                         compétence;oc-cupant sans titre; demande de prorogation tardivement
                         introduite; inopérance; expulsion; délai de grâce..</head>
@@ -3140,7 +3152,7 @@
                             déguerpir.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0340">
                     <head>91. - Bail. — Loi sur les loyers du 21 Février 1921. — Sous-location
                         totale; préavis au bailleur; acceptation tacite.</head>
                     <div type="summary">
@@ -3162,7 +3174,7 @@
                             Camitxos c. Dame Marie Charitatou).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0350">
                     <head>92. - Bail..— Loyers; bail consenti à plusieurs locataires; cas où le
                         loyer est divisible.</head>
                     <div type="summary">
@@ -3177,7 +3189,7 @@
                             1922. —. Constantin Carantinopoulq c. El Bialy Awad et Cts). .....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0360">
                     <head>93. - Bail. — Mode' de preuve. — Détermination de la durée, du bail;
                         usage; bail accessoire' d'un bail antérieur. </head>
                     <div type="summary">
@@ -3201,7 +3213,7 @@
                             XIII, 113; 25 Mars 1922, Bull. XXXIV, 257, .Gaz. XII, 133-231.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0370">
                     <head>94. - Bail. —Occupant sans titre; locataire dont le bail est expiré;
                         obligation de payer la valeur locative; détermination.</head>
                     <div type="summary">
@@ -3219,7 +3231,7 @@
                             Papathahassopoulo c. Mohamed Bey</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0380">
                     <head>95. - Bail. — Privilège du bailleur; récoltes saisies à l'encontre du
                         locataire; revendication par le bailleur; intervention du locataire en degré
                         d'appel; recevabilité; inexistenie de 1'obfet saisi; déclarations des
@@ -3286,7 +3298,7 @@
                             exceptions soulevées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0390">
                     <head>96. - Bail. — Récoltes remises en garantie des fermages; vente retardée
                         par le bailleur; absence de responsabilité. — Loyers; garantie;
                         renouvellement du bail; maintien de la garantie des loyers
@@ -3367,7 +3379,7 @@
                             demander si ces loyers avaient été payés ou non.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0400">
                     <head>97. - Bail. — Résiliation aux torts et griefs du bailleur; prolongation
                         forcée de l'occupation par le locataire; circonstances spéciales; paiement
                         de la contrc^va-leur non due.</head>
@@ -3387,7 +3399,7 @@
                             21 oh. Chaiit Kheirallà- et Cie o. Aristide. Zaldari)., . • ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0410">
                     <head>98. - Bail. •— Résiliation aux tc\rts et griefs du locataire; stipulation
                         d'exigibilité des loyers jusqu'au terme de la location; profit tiré par lq
                         bailleur de la chose louée; preuve. à charge du locataire. :</head>
@@ -3420,7 +3432,7 @@
                             consistant dans la perte du profit à tirer de la chose louée depuis la
                             résiliation du bail jusqu'à son expiration ou dans la différence des
                             loyers, s’il est établi qu’elle a été relouée à un prix inférieur à
-                            celui de la location litigieuse; ></p>
+                            celui de la location litigieuse; &gt;</p>
                         <p>Attendu que l’intimé se basant sur cette clause, déclara n’avoir réalisé
                             aucun profit de son automobile jusqu'à la fin du bail et les appelants à
                             qui incombe la preuve du -contraire n’en ont produit aucune;</p>
@@ -3434,7 +3446,7 @@
                         <pb n="63" rendition="GAZETTE DES- TRIBUNAUX MIXTES D’ÉGYPTE"/>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0420">
                     <head>99. - Bail. — Sous-location; clause autorisant la sous-location en
                         principe sauf autorisation, écrite du bailleur; droit de contrôle du
                         bailleur; refus d'autoriser une sous-location basé sur l'intérêt d'autres
@@ -3457,7 +3469,7 @@
                             Fils Kévork Sarkissian c. St. Alark’s Building Association).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0430">
                     <head>100. - Bail. — Sous-loca'ion; connaissance par le bailleur; défaut de
                         protestation; consentement tacite.</head>
                     <div type="summary">
@@ -3471,7 +3483,7 @@
                             Psiakis c. Aly Bey El Korei et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0440">
                     <head>101. - Bail. — Tribunal Sommaire compétence à raison du taux de la
                         demande; baux a loyer annuel excédant P.T. 10.000.</head>
                     <div type="summary">
@@ -3485,7 +3497,7 @@
                             location.</p>
                     </div>
                     <div type="litigants">
-                        <p>Trib So“m- A!ex-> Và n. P. liandet, 10 Novembre ficema) Abdel ahed
+                        <p>Trib So“m- A!ex-&gt; Và n. P. liandet, 10 Novembre ficema) Abdel ahed
                             Nosseir c. Bartelomeo</p>
                     </div>
                     <div type="observations">
@@ -3521,7 +3533,7 @@
                             conséquence compétent pour en connaître.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0450">
                     <head>102. - Bail. — Tribunal Sommaire;com-pétcncc; demande en déguerpissement,
                         accompagnée de réserves pour action de dommages-intérêts; chefs de demande
                         ayant la même cause.</head>
@@ -3539,7 +3551,7 @@
                             Baki Ahméd Dueb et antre c. Elda Messeca Alustafa Bey Gamal Pertew).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0460">
                     <head>103. - Bail. — Usage des lieux, de façon contraire au progrès et à la
                         propreté; condition spéciale imposée par le bailleur; défense d'emploi d'un
                         fourneau à charbon; caractère licite.</head>
@@ -3618,7 +3630,7 @@
                             archaïque.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0470">
                     <head>104. - Bail. ■— Vente de l'immeuble loué; mise en possession de T
                         acquéreur; modalités; droit pour le locataire qui a reconnu l'achat de
                         s'opposer à une mise en possession matérielle comportant accès de
@@ -3727,7 +3739,7 @@
                             procéder, sans accès dans la partie habitée des lieux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0480">
                     <head>105. - Bail. — Vol; bailleur; responsabilité de la faute délictuelle du
                         boab; clause de non responsabilité; portée limitée à la faute contractuelle;
                         délit civil; quasi-délit.</head>
@@ -3792,7 +3804,7 @@
                             l’appartement et sa participation au vol...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0490">
                     <head>106. - Bail. — Vol; location meublée; responsabilité du locataire;
                         stipulation du contrat; interprétation. — Cas fortuit;, charge de la
                         preuve.</head>
@@ -3883,7 +3895,7 @@
                             ex aequo et bono selon les probabilités...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-01-0500">
                     <head>107. - Propriétaire. — Responsabilité; détériorations à l'immeuble
                         provenant d’un vice de construction; négligence de l’acquéreur;
                         responsabilité du dernier propriétaire et bailleur vis-à-vis du locataire. —

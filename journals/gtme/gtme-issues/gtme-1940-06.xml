@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1940-06-10">June 10, 1940</date><lb/>
-                    <biblScope unit="volume">Vol. 30</biblScope><lb/>
-                    <biblScope unit="number">No. 356</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1940-06-10">June 10, 1940</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 30</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 356</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -50,8 +61,8 @@
                 <p>D’ÉGYPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte. Fondateurs
-                    > M« MAXIME PUPIKOFEB et LÉON PANGALO, Avocats à la Cour Directeur : M« MAXIME
-                    PUPIKOFER, Avocat à la Cour.</p>
+                    &gt; M« MAXIME PUPIKOFEB et LÉON PANGALO, Avocats à la Cour Directeur : M«
+                    MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>Somité de Rédaction et d Administra tien :</p>
                 <p>M* L. PANGALO et R. 8CHEMEIL (Directeurs au Oaire)</p>
                 <p>E. DEGIABDE et LUCIEN BARDA (Secrétaires de la rédaction).</p>
@@ -816,7 +827,7 @@
                     loi nationale, soit, s’ils sont de la même religion, par devant les autorités
                     confessionnelles égyptiennes et dans les formes de ces lois religieuses, soit
                     par</p>
-                <p>(1) Smyrniadis> op. cit. p. 105.</p>
+                <p>(1) Smyrniadis&gt; op. cit. p. 105.</p>
                 <pb n="311" rendition="Gazette des Tribunaux Mixtes."/>
                 <p>devant les autorités et dans les formes musulmanes. La Cour Mixte a retenu que «
                     quoique justiciables de leurs tribunaux consulaires, deux sujets anglais, et
@@ -970,7 +981,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-06-0010">
                     <head>189. - Assurance-accident. — Indemnité d'accident de travail; règlement
                         par l'assureur à l'employeur; réclamation ultérieure par les héritiers de la
                         victime.</head>
@@ -1026,7 +1037,7 @@
                             lors fondé, par les Fadl eux-mêmes,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-06-0020">
                     <head>190. - Assurance-automobiles. — Clause de direction de procès; validité;
                         inobservation; conséquence; cas où la police d'assurance prévoit déchéance;
                         cas où elle ne prévoit pas déchéance. — Besponsabilité; responsabilité des
@@ -1073,8 +1084,8 @@
                     <div type="litigants">
                         <p>Cour d’Appel, Ire Ch., Prés. M. J. Y. Brinton. — Trois arrêts. — 1.) 15
                             Juin 1938. Albert Misrahi c. The Guardian Eastern Insurance Co. Ltd. —
-                            2.> 22 Mars 1939. Gouvernement Egyptien c. l’Unioa Genève. — 3.) 22 Mars
-                            1939. L’Union Genève c-Gouvernement Egyptien.</p>
+                            2.&gt; 22 Mars 1939. Gouvernement Egyptien c. l’Unioa Genève. — 3.) 22
+                            Mars 1939. L’Union Genève c-Gouvernement Egyptien.</p>
                     </div>
                     <div type="decision">
                         <p>Premier arrêt (extrait).</p>
@@ -1373,7 +1384,7 @@
                         <p>Note. — I. - V. Gaz. XXIIII, 223-260, l’arrêt du 4 Décembre 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-06-0030">
                     <head>191. - Assurance-automobiles. — Polices; stipulation de renouvellement par
                         tacite reconduction; caractère licite. — Assurance-automobiles; vente de la
                         voiture assurée, n'empêchant pas le renouvellement de l'assurance par tacite
@@ -1415,7 +1426,7 @@
                         <p>Que la vente de l’automobile n’entraîne pas disparition du risque.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-06-0040">
                     <head>192. - Assurance-vie. — Clause d'incontestabilité de la police; effet;
                         inapplicabilité au cas de manœuvres frauduleuses; cas d'applicabilité aux
                         réticences et aux fausses déclarations de l'assuré.</head>
@@ -1774,11 +1785,11 @@
                             d’incontestabilité .n’est pas insérée, sont régies par le principe
                             général, consacré en matière d’assurances maritimes mais applicable
                             aussi en .matière d'assurances terrestres, par l’article 190 Code de
-                            Commerce Maritime Mixte, ■qui dispose que: &lt;> ... Rend le contrat nul
-                            pour l’assureur toute réticence, toute fausse déclaration de la part de
-                            l’assuré, ... qui diminuerait l’opinion du risque ou en chan-.gerait le
-                            sujet et qui serait de nature à -empêcher le contrat ou en modifier les
-                            conditions, si l’assureur eut été averti du véritable état des
+                            Commerce Maritime Mixte, ■qui dispose que: &lt;&gt; ... Rend le contrat
+                            nul pour l’assureur toute réticence, toute fausse déclaration de la part
+                            de l’assuré, ... qui diminuerait l’opinion du risque ou en chan-.gerait
+                            le sujet et qui serait de nature à -empêcher le contrat ou en modifier
+                            les conditions, si l’assureur eut été averti du véritable état des
                             choses.</p>
                         <p>» L'assurance est nulle, même dans le -cas où la réticence, la fausse
                             déclaration... n’aurait pas influé sur le dommage... ».</p>
@@ -1875,7 +1886,7 @@
                             questionnaire à lui soumis à la date de l’émission de la police...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-06-0050">
                     <head>193. - Assurance-vie. — Paiement des primes; caractère quérable en
                         l'absence de toute stipulation contraire; attitude l'assuré. — Déchéance;
                         mise en demeure; régularité de la mise en demeure par lettre
@@ -2052,7 +2063,7 @@
                         <p>Rapp. ég. ci-après § 194, l’arrêt du 15 Février 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-06-0060">
                     <head>194. - Assurance-vie. — Paiement des primes; mise en demeure; rachat opéré
                         par l'assureur sans une mise en demeure préalable; nullité; remise en
                         vigueur de la police. — Déchéance; mise en demeure; lettre non recommandée
@@ -2254,7 +2265,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-06-0070">
                     <head>195. - Assurance-vie. — Proposition non suivie d'exécution malgré
                         l’acceptation de l'assureur; obligation du proposant; clause pénale
                         convenue; paiement obligatoire de la première prime; caractère licite de la
@@ -2403,7 +2414,7 @@
                             1923,. et Gaz. XXV, 301-350, l’arrêt du 23 Novembre 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-06-0080">
                     <head>196. - Assurance-vol. — Police couvrant le vol avec effraction; preuve de
                         la. nature du vol, à charge de l'assurée</head>
                     <div type="summary">
@@ -2454,23 +2465,23 @@
                         <p>flu vol allégué, il est, par contre, évident que l’appelante est loin
                             d’avoir administré la preuve à elle incombante de l’existence d’un vol
                             couvert par sa police; qu'il s’agit, en effet, d’une police rédigée en
-                            langue anglaise et libellée en majuscules « Burglary Policy >>; que les
-                            risques couverts sous la dénomination « burglary or bouse breaking »
-                            sont précisément ceux qui sont indiqués dans la proposition d’assurance
-                            signée par l’appelante, sous la désignation » Vol avec effraction de
-                            jour et nuit » (V. également dans ce sens, les « significations »
-                            portées au dos de la dite proposition); qu’il n’y a pas lieu de
-                            s’arrêter à la prétendue contradiction de termes dans la police en ce
-                            qui concerne la question d’un vol commis par les domestiques, car il est
-                            parfaitement clair que la première référence, dans la police, au cas
-                            d’un vol par les domestiques, et qui se trouve dans le texte imprimé, se
-                            réfère seulement au cas d’un vol faisant suite à une effraction (« theft
-                            following upon burglary or bouse breaking and connected therewith,
-                            includ-ing loss by theft by servants etc. »), et que le cas d’un simple
-                            vol par les domestiques, comme d’ailleurs, le cas d’un larcin par un
-                            tiers, est formellement exclu de la police litigieuse, la Compagnie
-                            exigeant pour la couverture des risques précités des primes plus
-                            élevées;</p>
+                            langue anglaise et libellée en majuscules « Burglary Policy &gt;&gt;;
+                            que les risques couverts sous la dénomination « burglary or bouse
+                            breaking » sont précisément ceux qui sont indiqués dans la proposition
+                            d’assurance signée par l’appelante, sous la désignation » Vol avec
+                            effraction de jour et nuit » (V. également dans ce sens, les «
+                            significations » portées au dos de la dite proposition); qu’il n’y a pas
+                            lieu de s’arrêter à la prétendue contradiction de termes dans la police
+                            en ce qui concerne la question d’un vol commis par les domestiques, car
+                            il est parfaitement clair que la première référence, dans la police, au
+                            cas d’un vol par les domestiques, et qui se trouve dans le texte
+                            imprimé, se réfère seulement au cas d’un vol faisant suite à une
+                            effraction (« theft following upon burglary or bouse breaking and
+                            connected therewith, includ-ing loss by theft by servants etc. »), et
+                            que le cas d’un simple vol par les domestiques, comme d’ailleurs, le cas
+                            d’un larcin par un tiers, est formellement exclu de la police
+                            litigieuse, la Compagnie exigeant pour la couverture des risques
+                            précités des primes plus élevées;</p>
                         <p>Attendu, dans ces conditions, que c’est à tort que l’appelante prétend
                             que les suites d’un vol ayant été dûment constaté, il incombe à la
                             Compagnie d’établir que le vol n’aurait pas eu lieu « dans des
@@ -3316,7 +3327,7 @@
                 <p>(Journal Officiel N° 71 du 10 Juin 1940).</p>
                 <p>Notice to Airmen No. B-9/1940.</p>
                 <p>Control of Civil Flying during State of Emergency.</p>
-                <p>1. ) Attention is hereby drawn to Notices to Airmen N-> A-8/1939, A-14/1939,
+                <p>1. ) Attention is hereby drawn to Notices to Airmen N-&gt; A-8/1939, A-14/1939,
                     B-18/1939, B-20/1939, B-l/1940 and B-6/1940 governing flights between Solium,
                     Dekheila and Almaza.</p>
                 <p>2. ) To facilitate the passage of aircraft proceeding from Solium to Almaza

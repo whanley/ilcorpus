@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0023-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0023-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1933-03-10">March 10, 1933</date><lb/>
-                    <biblScope unit="volume">Vol. 23</biblScope><lb/>
-                    <biblScope unit="number">No. 269</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1933-03-10">March 10, 1933</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 23</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 269</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -67,8 +78,8 @@
                 <p>M* A. FADEL (Directeur à Mansourah). M* F. BRAUN (Secrétaire à Paris).</p>
                 <p>Administrateur-Gérant : Max Buccianti.</p>
                 <p>Pour la Publicité:</p>
-                <p>S’adresser aux Bureaux du «Journal» (Concessionnaire: J. A. Degiardé> 3, Rue de
-                    la Gare du Caire, Alexandrie.</p>
+                <p>S’adresser aux Bureaux du «Journal» (Concessionnaire: J. A. Degiardé&gt; 3, Rue
+                    de la Gare du Caire, Alexandrie.</p>
                 <p>Téléphone: 27-24</p>
             </div>
             <div type="article">
@@ -441,7 +452,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0010">
                     <head>143. - Distribution. — Adjudication; compensation entre la créance du
                         premier créancier inscrit et le prix d'adjudication; conditions; effet
                         rétroactif; effet sur les intérêts dus sur le prix d'adjudication.— Becours
@@ -835,7 +846,7 @@
                             dispositif, v. Gaz. XXI, 27-23 l’arrêt du 4 Novembre 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0020">
                     <head>144. - Distribution. — Contredit; contestations formées après les délais
                         comme défense à un contredit; recevabilité. — Simulation; exception de
                         fictivité; admissibilité en tout état de cause.</head>
@@ -897,7 +908,7 @@
                             passive et équivoque du Sieur Farag Abdel Hamid El Okda lui-même...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0030">
                     <head>145. - Distribution. — Contredit; droit des créanciers forclos de profiter
                         du contredit d'un autre créancier; limites; renonciation du contredisant;
                         effets. — Contredit; droits du débiteur; limites.</head>
@@ -914,7 +925,7 @@
                             provisoire.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d'Apnel, 3me Ch.. Prés. M. A. C. McBarnet>_ 16 Février 1932. —
+                        <p>Cour d'Apnel, 3me Ch.. Prés. M. A. C. McBarnet&gt;_ 16 Février 1932. —
                             Assaad bey Abdel Chehid c. Banque d’Athènes.</p>
                     </div>
                     <div type="decision">
@@ -984,7 +995,7 @@
                             toute autre partie intéressée à faire écarter la con-lestation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0040">
                     <head>146. - Distribution. — Contredit; droit ‘des créanciers forclos de
                         profiter d'un contredit d'un autre créancier; limites; renonciation du
                         contredisant; effets. — Tutelle en droit hellénique; obligation légale de
@@ -1073,7 +1084,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0050">
                     <head>147. - Distribution. — Contredit formé par un employé; qualité de ce
                         dernier résultant de l'attitude du patron en cours d'instance. — Règlement
                         provisoire; notification aux créanciers opposants prescrite à l'art. 784 C.
@@ -1204,7 +1215,7 @@
                             particulier entre les deux intéressés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0060">
                     <head>148. - Distribution. — Contredit incomplet; contestation non formulée au
                         procès-verbal; créancier écarté de la distribution; défaut de qualité pour
                         contredire contre les autres collocations. — Contredit rejeté; condamnation
@@ -1341,7 +1352,7 @@
                             Bull. XXIX, p. 75);</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0070">
                     <head>149. - Distribution. — Demande de distribution des revenus et de ionction
                         à la distribution du prix de l'immeuble; cas où elle ne constitue pas une
                         demande principale; nécessité d'un contredit au règlement provisoire, dans
@@ -1442,7 +1453,7 @@
                             examen.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0080">
                     <head>150. - Distribution. — Honoraires de réquisition d'ouverture; collocation
                         d'office, à défaut de demande expresse; régularité.</head>
                     <div type="summary">
@@ -1484,7 +1495,7 @@
                         <p>Qu’il serait oiseux de s’attarder davantage à une telle futilité...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0090">
                     <head>151. - Distribution. — Objet; sommes à répartir; réunion d'office des
                         intérêts au principal du prix d'adjudication à distribuer; légitimité. —
                         Expropriation; adjudication; prix; intérêts; point de départ; prescription;
@@ -1557,8 +1568,8 @@
                             première comme étant la plus onéreuse et, par conséquent, sur</p>
                         <p>celle que le débiteur a le plus d’intérêt à éteindre.</p>
                         <p>X. - Les jugements de défaut faute de conclure, rendus sous le régime de
-                            l’ancien art. 373 C. Proc, avant la Loi No. 33> de 1913, n’étaient point
-                            soumis à la péremption faute d’exécution dans les six mois.</p>
+                            l’ancien art. 373 C. Proc, avant la Loi No. 33&gt; de 1913, n’étaient
+                            point soumis à la péremption faute d’exécution dans les six mois.</p>
                         <p>XL - La péremption des jugements de défaut faute d’exécution dans les six
                             mois, n’est pas d’ordre public et doit être soulevée par le défaillant
                             qui en a seul le droit, et peut y renoncer. ‘</p>
@@ -1826,7 +1837,7 @@
                             reconnu la dette résultant du dit jugement...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0100">
                     <head>152. Distribution. — Prêt; imputation des versements sur les intérêts des
                         intérêts; admissibilité; clause de déchéance du bénéfice du terme; but; cas
                         où malgré l'exigibilité du capital, le placement a continué en fait;
@@ -2088,7 +2099,7 @@
                             décidé ainsi, reste confirmée sur ce point.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0110">
                     <head>153. - Distribution. — Prêt; remboursement anticipé; clause d'indemnité de
                         remploi; validité; pouvoir d'appréciation des Tribunaux; éléments
                         d'appréciation.</head>
@@ -2238,7 +2249,7 @@
                             base pour le choix définitif d’une solution à cette controverse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0120">
                     <head>154. - Distribution. — Production; cause de la demande; incorporation
                         formelle dans le litre probatoire; confusion sur le titre invoqué à l'appui
                         d'une demande de collocation; rejet d’une demande non formulée; omission de
@@ -2256,8 +2267,9 @@
                             il y a omission de statuer et par suite ouverture à requête civile.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d’Appel, 3me Ch., Prés. M. G. Baviera, 15> Janvier 1929. — Youssef
-                            Abdel Rahman El. Far et Ct. c. Dame Saada El Zamlia et autre.</p>
+                        <p>Cour d’Appel, 3me Ch., Prés. M. G. Baviera, 15&gt; Janvier 1929. —
+                            Youssef Abdel Rahman El. Far et Ct. c. Dame Saada El Zamlia et
+                            autre.</p>
                     </div>
                     <div type="decision">
                         <p>Arrêt (extrait).</p>
@@ -2271,7 +2283,7 @@
                             chirographaire de L.E. 200 que le Sieur Mohamed El Chamli El Far avait
                             obtenue sur la part du solde dû au Sieur Magdi,. et ce en vertu d une
                             quittance délivrée parla Banque Misr le 5 Décembre 1923 et établissant
-                            que &lt;>, El Chamli avait payé à la banque la dite somme pour compte
+                            que &lt;&gt;, El Chamli avait payé à la banque la dite somme pour compte
                             o.e Magdi »;</p>
                         <p>Attendu que — sur appel de Magdi — qui. se prévalait d’une lettre de la
                             banque, de la. même date du 5 Décembre 1923, lui disant,, qu’elle avait
@@ -2318,7 +2330,7 @@
                             .Magdi...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0130">
                     <head>155. - Distribution. — Production erronée; collocation à un titre autre
                         que .celui indiqué dans la demande; inadmissibilité. — Sous-traitant;
                         privilège; opposabilité. au cessionnaire de l'entrepreneur principal;
@@ -2464,7 +2476,7 @@
                         <p>II. - V. ds. le même sens, ci-après § 156 l'arrêt du 25 Juin 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0140">
                     <head>156. - Distribution. — Production erronée; octroi d'un rang non.sollicité;
                         ultra petit a; production à titre hypothécaire en vertu d’une créance
                         privilégiée; irrégularité. — Contredit; moyen invoqué pour la première fois
@@ -2718,7 +2730,7 @@
                         <p>Note. — v. - v. ég. ci-avant § 155 l’arrêt du 14 Février 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0150">
                     <head>157. - Distribution. — Production erronée ou incomplète; production
                         complémentaire faite au cours des débats; cas d'admissibilité; production en
                         vertu d'un jugement périmé; production complémentaire des titres originaires
@@ -2818,7 +2830,7 @@
                             frais de la procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0160">
                     <head>158. - Distribution. — Production erronée; titre invoqué autre que celui
                         produit; différence substantielle; production complémentaire;
                         inadmissibilité.</head>
@@ -2889,7 +2901,7 @@
                             l’avoir faite dans les délais, la Banque est forclose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0170">
                     <head>159. - Distribution. — Production incomplète; faculté pour le créancier de
                         la compléter en cas de contestation; contredit; frais de l'instance à charge
                         du créancier négligent.</head>
@@ -2957,7 +2969,7 @@
                         <p>Note. — V. ég. ci-après § 160 l'arrêt du 15 Novembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0180">
                     <head>160. - Distribution. — Production incomplète; faculté pour le créancier de
                         la; compléter en cas de contestation; titre de créance produit en copie;
                         détermination; par le règlement provisoire d'un délai, pour la production de
@@ -3103,7 +3115,7 @@
                         <p>Note. — V. ég. ci-avant § 159 l’arrêt du 28 Mars 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0190">
                     <head>161. - Distribution. — Production; titre conçu au profit d'un tiers;
                         preuve de la qualité de prête-nom de ce tiers à fournir par le produisant;
                         admissibilité après lès délais pour produire; charge des frais.</head>
@@ -3150,7 +3162,7 @@
                             deux chefs du contredit en première instance,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0200">
                     <head>162. - Distribution. — Règlement définitif; chose jugée; étendue. —■ Chose
                         jugée; débiteurs solidaires; opposabilité; exception personnelle; chose
                         jugée attachée au règlement définitif; opposabilité au garant solidaire du
@@ -3302,8 +3314,8 @@
                         <p>Quant à Me B..., il y a lieu d’observer en premier lieu que les parties
                             se sont méprises sur la portée de la clause de garantie acceptée par Me
                             B...</p>
-                        <p>Tout le long des conclusions. Me B... a remplace le mot >&lt; ou » par la
-                            conjonction « et », ceci a une conséquence des plus graves.</p>
+                        <p>Tout le long des conclusions. Me B... a remplace le mot &gt;&lt; ou » par
+                            la conjonction « et », ceci a une conséquence des plus graves.</p>
                         <p>En effet aux termes de l’article 18 du contrat du 8 Mai 1922 rédigé par
                             Me B... et par lui accepté, celui-ci était personnellement tenu
                             responsable au cas où l’exécution contre la débitrice ou les garants et
@@ -3333,7 +3345,7 @@
                             1931, du 1er Décembre 1931, et du 13 Janvier 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0210">
                     <head>163. - Distribution. — Règlement définitif; chose jugée; étendue. —
                         Demande-demande d'intervenant à mis en cause-objet distinct;
                         irrecevabilité.</head>
@@ -3357,7 +3369,7 @@
                             164 et 165 les arrêts du 1er Décembre 1931 et du 13 Janvier 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0220">
                     <head>164. - Distribution. — Règlement définitif; chose jugée faisant échec à
                         une action en restitution de l'indu ou pour enrichissement sans cause;
                         fraude autorisant la discussion d'une collocation en dehors dés délais pour
@@ -3470,7 +3482,7 @@
                         <p>Note. — V. ég. ci-après § 165 l’arrêt du 13 Janvier 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0230">
                     <head>165. - Distribution. — Règlement définitif; chose jugée faisant échec à
                         une action pour enrichissement sans cause. — Jugement; réserves énoncées au
                         dispositif; effets; réserves mentionnées dans les motifs; effets.</head>
@@ -3655,7 +3667,7 @@
                         <p>Note. — TL - V. ég. ci-avant § 164 l’arrêt du 1er Décembre 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0240">
                     <head>166. - Distribution. — Règlement définitif; chose jugée; fraude du
                         colloqué; effets: compétence du Juge des Référés pour ordonner le paiement
                         d'un mandement de collocation nonobstant une sai-sie-arret pratiquée par
@@ -3715,7 +3727,7 @@
                         <p>Qu’il échet dans ces conditions de faire droit à J’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0250">
                     <head>167. - Distribution. — Règlement définitif; contredit basé sur une erreur
                         matérielle dans l'arrêt statuant sur lés contredits au règlement provisoire;
                         admissibilité; erreurs matérielles; droit dés Tribunaux de les rectifier;
@@ -3897,7 +3909,7 @@
                             codébiteurs, etc...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0260">
                     <head>168. - Distribution. — Règlement définitif; contredit; recevabilité en cas
                         de collocation, indéterminée au règlement provisoire quant au capital et aur
                         intérêts. — Intérêts: capitalisation interdite en rang hypothécaire.</head>
@@ -3979,7 +3991,7 @@
                             somme de L.E. 642, 460 mill...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0270">
                     <head>169. - Hypothèque. — Affectation hypothécaire; charge de la preuve de la
                         propriété des biens en cas de possession par le débiteur.</head>
                     <div type="summary">
@@ -3993,7 +4005,7 @@
                             Youssef Affifi El Bar-bari c. R.S. C. Rezzos Fils et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0280">
                     <head>170. - Hypothèque. — Assiette; droits réels grevant, séparément du fonds
                         les édifices élevés par un locataire à court terme; inefficacité. —
                         Adjudication; jugement incompétemment rendu par le Tribunal, indigène en cas
@@ -4089,7 +4101,7 @@
                     </div>
                 </div>
                 <pb n="153" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0290">
                     <head>171. - Hypothèque. — Copropriété; faculté pour tout copropriétaire
                         d'hypothé-quer sa part indivise dans le bien commun ou une partie
                         matériellement déterminée dans ce bien; sort et effets d'une telle
@@ -4342,7 +4354,7 @@
                             XXI, 98-94, l'arrêt du 6 Janvier 1931. . ; ■</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0300">
                     <head>172. - Hypothèque.— Créanciers hypothécaires de bonne foi; droits;
                         maintien en cas de résolution d'un contrat pour fictivité. — Faillite;
                         garantie réelle constituée par un tiers après la cessation des paiements;
@@ -4452,15 +4464,15 @@
                         <p>il aurait fallu pour cela que le syndic pût établir que ces créanciers
                             ignoraient que les 8 feddans ne faisaient pas partie du patrimoine du
                             garant, car il n’y a rien de répréhensible en soi, à ce qu’un créancier
-                            du failli, > même pendant la période de cessation de paiements se fasse
-                            donner une garantie réelle par un tiers; cette garant e ne peut nuire
-                            aux 1 créanciers de la masse dès lors qu’elle est ; consentie sur des
-                            immeubles n’appartenant ■ pas à la masse; or, rien ne permet de dire, :
-                            dans le cas de l’espèce, que les créanciers hv- ; pothécaires dont il
-                            s’agit n’aient pas été de ' bonne foi à cet égard; si les actes de vente
-                            à ; Mohamed Mohamed se placent dans la période suspecte, il faut
-                            cependant tenir compte de ce que la faillite n’a été déclarée qu’en :
-                            Février 1927 et de ce que les inscriptions h y- ; pothécaires sont
+                            du failli, &gt; même pendant la période de cessation de paiements se
+                            fasse donner une garantie réelle par un tiers; cette garant e ne peut
+                            nuire aux 1 créanciers de la masse dès lors qu’elle est ; consentie sur
+                            des immeubles n’appartenant ■ pas à la masse; or, rien ne permet de
+                            dire, : dans le cas de l’espèce, que les créanciers hv- ; pothécaires
+                            dont il s’agit n’aient pas été de ' bonne foi à cet égard; si les actes
+                            de vente à ; Mohamed Mohamed se placent dans la période suspecte, il
+                            faut cependant tenir compte de ce que la faillite n’a été déclarée qu’en
+                            : Février 1927 et de ce que les inscriptions h y- ; pothécaires sont
                             antérieures à cette date de ; plusieurs années; d’autre part, le failli
                             avait été dans une situation brillante, puisque l’un des rapports du
                             syndic constate l’existence d’un compte courant avec la maison Salvago
@@ -4475,13 +4487,13 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0310">
                     <head>173. - Hypothèque. — Créanciers hypothécaires de. banne foi; droits;
                         maintien impossible en cas de fausseté du titre du débiteur; art. 197 C.
                         Civ.; portée. ■ — Prescription spéciale au profit du \ créancier
                         hypothécaire de bonne foi; conditions; art. 107 C. Civ.; portée;
                         appréciation de la bonne foi du créancier; nécessité de la bonne foi du
-                        débiteur; calcul > de la possession quinquennale; interruption par
+                        débiteur; calcul &gt; de la possession quinquennale; interruption par
                         l'assignation en revendica- : tion signifiée au débiteur.— Juridictions 1
                         mixtes; portée des décisions pénales de la Juridiction indigène, devant les
                         Tribunaux mixtes.</head>
@@ -4829,7 +4841,7 @@
                             Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0320">
                     <head>174. - Hypothèque. — Expropriation; créanciers hypothécaires; droit à
                         l'intangibilité des conditions de la vente; droit d'opposition à la réunion
                         pour la vente d'autres biens aux biens grevés de l'inscription.</head>
@@ -4901,7 +4913,7 @@
                             la va’eur de l’hypothèque du premier cré-ancir inscrit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0330">
                     <head>175. - Hypothèque. — Hypothèque générale; concours de créanciers à
                         hypothèque générale et de créanciers à hypothèque spéciale: conditions de la
                         subrogation légale du créancier ayant hypothèque spéciale.. — Hypothèque;
@@ -4957,7 +4969,7 @@
                             quoique, bien entendu, à la condition que le premier créancier ait payé
                             en tout ou en partie la créance hypothécaire du second, aux termes de la
                             loi (article 225, 3° Code Civil mixte), et c’est ainsi qu’il a été jugé
-                            qu’>&lt; un créancier à hypothèque spéciale qui n’a effectué aucun
+                            qu’&gt;&lt; un créancier à hypothèque spéciale qui n’a effectué aucun
                             paiement pour le compte du débiteur, ne saurait prétendre à subrogation
                             légale par cela seul qu’à la suite de l’expropriation poursuivie contre
                             son débiteur par un créancier antérieur à hypothèque générale et de la
@@ -4990,7 +5002,7 @@
                             1920.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0340">
                     <head>176. - Hypothèque. — Hypothèque générale; créancier à hypothèque spéciale
                         subrogé à une hypothèque générale; droits dans la distribution du prix;
                         limites; effets de Vindivisibilité de l'hypothèque.</head>
@@ -5049,7 +5061,7 @@
                             générale, auxquels elle a été subrogée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0350">
                     <head>177. - Hypothèque. — Inscription; bordereau; nécessité de la désignation
                         précise des immeubles grevés; erreur ou insuffisance de désignation; cas où
                         elle entraîne la nullité de l'hypothèque; intérêts sur le montant immobilisé
@@ -5176,7 +5188,7 @@
                             catégorie de 'a r ^sma, la désignation des limites des feddans au hod El
                             Arida où, prétend le yndic, se trouvent les 9 feddans, 21 kirats rpnt
                             sahmes expropriés, est tellement diffé-de malles données pour ces
-                            derniers ter-s> que la Dame Tambay ne pouvait re</p>
+                            derniers ter-s&gt; que la Dame Tambay ne pouvait re</p>
                         <p>connaître l’identité de ces terrains sans une expertise.</p>
                         <p>Dans ces conditions, la Cour estime que l’insuffisance de désignation est
                             évidente et que le jugement dont appel mérite confirmation.</p>
@@ -5189,7 +5201,7 @@
                             intérêts du failli.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0360">
                     <head>178. - Hypothèque. — Inscription; péremption; effet; droits de l'acquéreur
                         dés biens hypothéqués; poursuites intentées de bonne foi en base d'une
                         inscription hypothécaire périmée. —■ Consentement; vice; cession de créance;
@@ -5384,7 +5396,7 @@
                             ceux de l’expertise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0370">
                     <head>179. - Hypothèque. — Inscription; péremption; instance principale en
                         nullité des poursuites d'expropriation basée sur la péremption de
                         l'inscription; admissibilité au profit du tiers détenteur jusqu'à la vente;
@@ -5496,7 +5508,7 @@
                             20 feddans et fractions en question.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0380">
                     <head>180. - Hypothèque. — Inscription; renouvellement; nécessité d'y procéder
                         pendant le cours de l'expropriation; commandement immobilier; défaut d'effet
                         interruptif de la péremption; époque où le renouvellement cesse d'être
@@ -5627,7 +5639,7 @@
                             celui-ci, cette question n’ayant rien à faire au présent procès.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0390">
                     <head>181. - Hypothèque. — Tiers détenteur ayant payé la totalité de la dette;
                         recours contre les autres tiers détenteurs; montant à concurrence duquel
                         doit s'exercer ce recours en cas de subrogation conventionnelle ou légale;
@@ -5801,7 +5813,7 @@
                             Dame Fadila mal fondé et de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0400">
                     <head>182. - Privilège. — Bailleur; meubles garnissant les locaux loués;
                         créancier saisissant les meubles garnissant les lieux loués; opposabilité au
                         saisissant du bail même à défaut de date certaine.</head>
@@ -5875,7 +5887,7 @@
                             subsidiairement réclamés par Dayan et Baz.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-03-0410">
                     <head>183. - Privilège. — Législation hellénique; prêt à la grosse ne conférant
                         aucun privilège sur le navire.</head>
                     <div type="summary">
@@ -5883,8 +5895,8 @@
                             grosse ne confère aucun privilège sur le navire.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d’Appel. Ire Ch., Prés. M. B. Favenc. ,, r .— Emmanuel Diamantidis c.
-                            Société yme Maritime et Commerciale « Michalinos ».</p>
+                        <p>Cour d’Appel. Ire Ch., Prés. M. B. Favenc. ,, r .— Emmanuel Diamantidis
+                            c. Société yme Maritime et Commerciale « Michalinos ».</p>
                     </div>
                     <div type="decision">
                         <p>Arrêt.</p>
@@ -5911,10 +5923,10 @@
                             simplement le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>184. - Privilèges et hypothèque. — Subrogation conventionnelle;
-                        convention concomitante au paiement; réalisation ultérieure par acte
-                        authentique; régularité.</head>
+                <div type="case" xml:id="gtme-1933-03-0420">
+                    <head>184. - Privilèges et hypothèque. — Subrogation conventionnelle; convention
+                        concomitante au paiement; réalisation ultérieure par acte authentique;
+                        régularité.</head>
                     <div type="summary">
                         <p>Lorsque la convention de subrogation a été concomitante au paiement,
                             l’ajournement à un bref intervalle de la rédaction matérielle de l’acte

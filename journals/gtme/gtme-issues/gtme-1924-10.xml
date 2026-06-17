@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0014-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0014-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1924-10-10">October 10, 1924</date><lb/>
-                    <biblScope unit="volume">Vol. 14</biblScope><lb/>
-                    <biblScope unit="number">No. 168</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1924-10-10">October 10, 1924</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 14</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 168</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -170,7 +181,7 @@
             <pb n="240" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0010">
                     <head>366. - Assurance maritime. — Agents de Compagnies étrangères; défaut
                         d’action personnelle de l’assuré contre eux; underwriters; obligation de
                         l’assuré de les rechercher directement. — Assurance du profit espéré;
@@ -640,22 +651,22 @@
                             antijuridique de prétendre qu’ils ont renoncé à toute garantie,
                             puisqu’une renonciation ne se présume pas et que les polices ne
                             contiennent aucune clause qui puisse être interprétée dans le sens d’une
-                            renonciation. Dans le système anglais, le capitaine n’est pas te-> nu de
-                            faire visiter son navire avant chaque voyage; s’il ne le fait pas, c’est
-                            parce qu’il ne croit pas la visite nécessaire, mais il n’en garantit pas
-                            moins la bonne navigabilité; il résulte du reste de la correspondance
-                            échangée entre V. Kibritt et la Société des avances commerciales que la
-                            prime avait été originairement fixée à 6 0/0 et qu’elle n’a été élevée
-                            de 1 0/0 que parce que le «Palitana» n’avait jamais voyagé que dans le
-                            Levant et devait, pour la première fois, faire le voyage d’Amérique
-                            (12me Bord, des Assureurs, Liasse A et spécialement la lettre du 27 Mars
-                            1922); il est bien évident que si les Sociétés d’assurances avaient
-                            entendu renoncer a la garantie de navigabilité et répondre par
-                            conséquent du vice propre du navire, la prime eut été considérablement
-                            majorée (voir Reprt. Dr. Maritime, t. 3, No. 2711 et la note 3), c’est
-                            donc aux assurés qu’il appartenait de prouver qu’ils ont satisfait à
-                            cette obligation de garantie et cette preuve n’a pas été faite comme
-                            cela résulte des considérations qui précédent.</p>
+                            renonciation. Dans le système anglais, le capitaine n’est pas te-&gt; nu
+                            de faire visiter son navire avant chaque voyage; s’il ne le fait pas,
+                            c’est parce qu’il ne croit pas la visite nécessaire, mais il n’en
+                            garantit pas moins la bonne navigabilité; il résulte du reste de la
+                            correspondance échangée entre V. Kibritt et la Société des avances
+                            commerciales que la prime avait été originairement fixée à 6 0/0 et
+                            qu’elle n’a été élevée de 1 0/0 que parce que le «Palitana» n’avait
+                            jamais voyagé que dans le Levant et devait, pour la première fois, faire
+                            le voyage d’Amérique (12me Bord, des Assureurs, Liasse A et spécialement
+                            la lettre du 27 Mars 1922); il est bien évident que si les Sociétés
+                            d’assurances avaient entendu renoncer a la garantie de navigabilité et
+                            répondre par conséquent du vice propre du navire, la prime eut été
+                            considérablement majorée (voir Reprt. Dr. Maritime, t. 3, No. 2711 et la
+                            note 3), c’est donc aux assurés qu’il appartenait de prouver qu’ils ont
+                            satisfait à cette obligation de garantie et cette preuve n’a pas été
+                            faite comme cela résulte des considérations qui précédent.</p>
                         <p>V. — En ce qui concerne la situation spéciale du Comptoir National
                             d’Escompfe:</p>
                         <p>Attendu que le Comptoir d’Escompfe porteur des polices ou de certaines
@@ -676,7 +687,7 @@
                             88).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0020">
                     <head>367. - Assurance maritime.—Chalands; remorquage; changement de risque;
                         nullité de l'assurance. — Affréteur; faute; responsabilité; étendue. —
                         Limites de l'assurance maritime sur corps en droit mixte.</head>
@@ -741,7 +752,7 @@
                             ordonnée par le jugement attaqué...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0030">
                     <head>368. - Assurance maritime. - Changement du capitaine du navire assuré;
                         défaut d'avis; déchéance de l'assuré.</head>
                     <div type="summary">
@@ -795,7 +806,7 @@
                             bénéfice de son assurance et de le débouter des fins de son action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0040">
                     <head>369. - Assurance maritime. — Co-assurance; nécessité d'une justification
                         par polices séparées. —- Estimation fournie dans l'assurance; caractère
                         définitif; droit pour l'assureur de prouver la surestimation frauduleuse. —
@@ -1016,7 +1027,7 @@
                             ce qui concerne la mahonne échouée sur les côtes de Palestine.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0050">
                     <head>370. - Assurance maritime. — Délaissement; abandon; preuve et obligations
                         à charge de l’assuré; omission des formalités prescrites par l’art. 56 C.
                         Mar.; conséquences. — Naufrage ou échouement avec bris; obligation pour
@@ -1077,7 +1088,7 @@
                             ci-avant § 366.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0060">
                     <head>371. - Assurance maritime. — Délaissement; calcul du délai.</head>
                     <div type="summary">
                         <p>Il y a lieu, pour le calcul du délai dans lequel le délaissement doit
@@ -1208,7 +1219,7 @@
                             parties sur la date de cette signification...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0070">
                     <head>372. - Assurance maritime. — Naufrage; perte totale. — Clause franc
                         d'avaries particulières; portée; droit au délaissement.</head>
                     <div type="summary">
@@ -1277,7 +1288,7 @@
                             l’appelante, aux termes de la police...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0080">
                     <head>373. - Assurance maritime. — Prescription de l'action de l'assuré;
                         pourparlers; interruption; conditions.</head>
                     <div type="summary">
@@ -1328,7 +1339,7 @@
                             moyens d’irrecevabilité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0090">
                     <head>374. - Assurance maritime. — Risques de déchargement; cas où l'assuré a
                         chargé le transporteur; obligation du déchargement; obligation de
                         l'assureur. — Droits du chargeur à l'égard de l'assureur et du transporteur;
@@ -1356,7 +1367,7 @@
                             Ltd c. Mitrovich Bros, et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0100">
                     <head>375. - Navire. — Affrètement; responsabilité de l'affréteur vis-à-vis des
                         tiers pour les faits du capitaine; conditions; emprunt contracté par le
                         capitaine pour les besoins du voyage. — Agent de fait de l'affréteur;
@@ -1502,7 +1513,7 @@
                             expert...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0110">
                     <head>376. - Navire. — Assistance pour sauvetage; action du sauveteur contre le
                         locataire du navire; inadmissibilité. — Intervention forcée; conditions de
                         recevabilité; mise en cause en cours de procédure; irrecevabilité à relever
@@ -1591,7 +1602,7 @@
                             être soulevée d’office.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0120">
                     <head>377. - Navire. — Assistance pour sauvetage en haute mer ou dans un port;
                         action du sauveteur contre le propriétaire du navire seul; recours de ce
                         dernier contre les propriétaires de la cargaison; avarie commune; Convention
@@ -1689,7 +1700,7 @@
                             la propriété des huit mahonnes dont il s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0130">
                     <head>378. - Navire. — Capitaine; mandataire naturel du propriétaire du navire.
                         — Dommage purement accidentel ne constituant pas avarie commune. — Frêt payé
                         d'avance, restituable pour les marchandises perdues par naufrage. —
@@ -1719,7 +1730,7 @@
                             &amp; Suez Coal Cy Ltd c. Ibrahim EJ Chabassi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0140">
                     <head>379. - Navire. — Capitaine; représentant légal du propriétaire du navire;
                         procédures dirigées contre lui; validité. — Représentation du capitaine par
                         le sous-capitaine. — Créances pour fournitures faites au navire; privilège;
@@ -1782,7 +1793,7 @@
                             le jug. rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0150">
                     <head>380. - Navire. — Clauses d'exonération des fautes du capitaine; validité;
                         connaissement; preuve de l'acceptation du chargeur. — Remorqueur; défaut de
                         responsabilité du remorqué pour les actes du remorqueur.</head>
@@ -1862,7 +1873,7 @@
                             la responsabilité du, voilier pour le fait du remor queur...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0160">
                     <head>381. - Navire. — Congédiement de l'équipage à la suite de la rupture
                         forcée du voyage; conditions. — Salaires du capitaine et de l’équipage;
                         privilège de l'art. 5 par. 6 C. Com. Mar.; portée.</head>
@@ -1959,7 +1970,7 @@
                             comme également mal fondés dans le second chef de leur contredit...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0170">
                     <head>382. - Navire. — Déchargement; force majeure ou simple difficulté; fardeau
                         de la preuve. -— Surestaries; nature juridique; .mise en demeure.</head>
                     <div type="summary">
@@ -2019,21 +2030,21 @@
                             manifestement insuffisante pour établir l’impossibilité dont il se
                             prévaut;</p>
                         <p>Attendu' que les affréteurs prétendent que les surestaries constituent
-                            des dommages-in> térêts pour lesquels une mise en demeure est toujours
-                            nécessaire; que la question de principe ainsi soulevée a été l’objet de
-                            maintes divergences d'ans la doctrine, relativement surtout à la nature
-                            juridique des surestaries; que c’est ainsi que, d’un côté Danjon, tout
-                            en admettant que la doctrine et la jurisprudence françaises tiennent
-                            pour certain que les surestaries ne sont pas des dommages-intérêts, mais
-                            un fret supplémentaire, est d’opinion que les surestaries ne sont
-                            précisément ni l'un ni l’autre, mais plutôt, comme le dit très
-                            exactement le Code de Commerce Français (art. 273), une indemnité due
-                            dans certains cas au fréteur en vertu d’une clause expresse ou tacite de
-                            l’affrètement («l’indemnité convenue pour les cas de retard du
-                            chargement ou du déchargement» C. Mar. Mixte, art. 90), que d’un autre
-                            côté Ripert, tout en admettant que la conception des surestaries comme
-                            supplément de fret a pénétré dans la jurisprudence, est «certàin que les
-                            surestaries constituent des dommages-intérêts»;</p>
+                            des dommages-in&gt; térêts pour lesquels une mise en demeure est
+                            toujours nécessaire; que la question de principe ainsi soulevée a été
+                            l’objet de maintes divergences d'ans la doctrine, relativement surtout à
+                            la nature juridique des surestaries; que c’est ainsi que, d’un côté
+                            Danjon, tout en admettant que la doctrine et la jurisprudence françaises
+                            tiennent pour certain que les surestaries ne sont pas des
+                            dommages-intérêts, mais un fret supplémentaire, est d’opinion que les
+                            surestaries ne sont précisément ni l'un ni l’autre, mais plutôt, comme
+                            le dit très exactement le Code de Commerce Français (art. 273), une
+                            indemnité due dans certains cas au fréteur en vertu d’une clause
+                            expresse ou tacite de l’affrètement («l’indemnité convenue pour les cas
+                            de retard du chargement ou du déchargement» C. Mar. Mixte, art. 90), que
+                            d’un autre côté Ripert, tout en admettant que la conception des
+                            surestaries comme supplément de fret a pénétré dans la jurisprudence,
+                            est «certàin que les surestaries constituent des dommages-intérêts»;</p>
                         <p>Mais attendu que les deux auteurs sont d’accord (Danjon No. 894. Ripert
                             No. 1555) pour constater que la jurisprudence française est bien fixée
                             dans le sens que s’il y a une convention fixant la durée des staries,
@@ -2063,7 +2074,7 @@
                             si une mise en demeure a été effectivement faite en l’espèce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0180">
                     <head>383. - Navire. — Déchargement; staries; surestaries; mauvais temps; pluie;
                         force majeure; pouvoir d'appréciation du juge.</head>
                     <div type="summary">
@@ -2087,7 +2098,7 @@
                         <p>1924.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0190">
                     <head>384. - Navire. —• Fournitures faites à ■l'affréteur; non responsabilité de
                         l'armateur.</head>
                     <div type="summary">
@@ -2127,7 +2138,7 @@
                             reçue comptant ou en marchandise, est causée «valeur reçue en charbon
                             selon facture» et que la facture, qui porte en tête les noms de
                             l’armateur, des affréteurs et du Capitaine, porte au bas la mention
-                            «garanti Î>ar traite», des affréteurs, ne suffisent nul-ement par
+                            «garanti Î&gt;ar traite», des affréteurs, ne suffisent nul-ement par
                             eux-mêmes pour imposer à l’armateur, qui n’est pas intervenu au contrat,
                             la charge de la dette;</p>
                         <p>Qu’il n’y a pas lieu, non plus, de s’arrêter aux moyens tirés de l’offre
@@ -2135,7 +2146,7 @@
                             caractère à modifier la situation des parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0200">
                     <head>385. - Navire. — Gens de l'équipage; engagement; rupture; inapplicabilité
                         des 'règles du Code Civil; chefs-mécaniciens.</head>
                     <div type="summary">
@@ -2230,7 +2241,7 @@
                             maritime.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0210">
                     <head>386. - Navire. — Gouvernement étranger; navire armé, désarmé pour un
                         service de transport de pèlerins; défaut d'immunité de juridiction. —
                         Tribunaux Mixtes; compétence à statuer sur la validité d'une saisie
@@ -2396,7 +2407,7 @@
                             assurances annuelles par lui contractées...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0220">
                     <head>387. - Navire. — Gouvernement étranger; navires de guerre; navires
                         marchands affrétés par un Gouvernement pour le transport de troupes;
                         immunité de juridiction; Tribunaux égyptiens; incompétence. — Agent de
@@ -2568,7 +2579,7 @@
                             rémunératrice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0230">
                     <head>388. - Navire. — Rapport de mer du capitaine; preuve contraire;
                         admissibilité.</head>
                     <div type="summary">
@@ -2684,7 +2695,7 @@
                             maximum de 70.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0240">
                     <head>389. - Navire. — Sauvetage et assistance; membre de l'équipage; droit à
                         une indemnité en cas d'assistance au navire après rupture du contrat
                         d'engagement.</head>
@@ -2767,7 +2778,7 @@
                             de ses fonctions, et qu’à ce titre il n’a droit à aucune indemnité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0250">
                     <head>390. - Transport maritime.—Agents de navires; connaissement signé par eux
                         n'indiquant pas le nom des Armateurs; mention «as agents»; responsabilité
                         personnelle non engagée, sauf preuve contraire.</head>
@@ -2824,7 +2835,7 @@
                             exceptions et défenses au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0260">
                     <head>391. - Transport maritime. — Capitaine; qualité de préposé de l'affréteur
                         pour le chargement des marchandises; faute; non responsabilité de Varmateur.
                         — Prêt; non paiement par l'affréteur; saisies contre l'armateur ayant
@@ -2899,7 +2910,7 @@
                             ce chef aussi, irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0270">
                     <head>392. - Transport maritime. — Connaissement; clauses d'exonération pour
                         baraterie ou négligence; validité. — Vente à livrer; marchandises faisant
                         partie d’une cargaison plus importante; défaut d'individualisation à
@@ -3041,7 +3052,7 @@
                             dossier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0280">
                     <head>393. - Transport maritime. — Connaissement; clauses limitatives de
                         responsabilité; validité; applicabilité aux opérations qui ont précédé ou
                         suivi le transport maritime.</head>
@@ -3111,7 +3122,7 @@
                             simplement le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0290">
                     <head>394. - Transport maritime. — Connaissement; clauses limitatives de
                         responsabilité; validité; applicabilité aux opérations qui ont précédé ou
                         suivi le transport maritime; déchargement. — Tarif de déchargement; Port
@@ -3246,7 +3257,7 @@
                             défenderesse pour les opérations de déchargement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0300">
                     <head>395. - Transport maritime. — Connaissement. — Clauses limtiatives de
                         responsabilité; validité. ■— Clauses d'exonération de responsabilité;
                         application; clause Paramount et lois australiennes et américaines. — Clause
@@ -3395,7 +3406,7 @@
                             de la marchandise et John M. Naudi leur agent,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0310">
                     <head>396. - Transport maritime.- — Connaissement; preuve de la quantité des
                         marchandises transportées; erreur de comptage au port de charge; clause
                         d'exonération; interprétation restrictive; perte de marchandises déposées
@@ -3506,7 +3517,7 @@
                     </div>
                 </div>
                 <pb n="259" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0320">
                     <head>397. - Transport maritime. — Coton; accord du 2 Juin 1921 entre les
                         Compagnies de navigation anglaises et les principaux chargeurs de coton
                         d'Egypte; clause du «chargeur le plus favorisé»; portée.</head>
@@ -3719,7 +3730,7 @@
                             débouter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0330">
                     <head>398. - Transport maritime. — Déchargement; connaissement; clause de
                         déchargement sous palan «ù quai»; obligations du capitaine; jours de
                         planche; calcul; obligations du destinataire; surestaries; calcul dans le
@@ -3760,7 +3771,7 @@
                             cités par le jugement rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0340">
                     <head>399. - Transport maritime — Déchargement; clauses d'exonération de la
                         responsabilité du transporteur après déchargement; validité; portée.</head>
                     <div type="summary">
@@ -3847,7 +3858,7 @@
                             Carver Carriage of Goods by Sea, 6me éd., par. 105).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0350">
                     <head>400. - Transport maritime. — Fins de non recevoir des art. 274 et 275 C.
                         Com. Mar.; caractère non d'ordre public; clauses du connaissement en tenant
                         lieu; délais suspendus par une expertise. — Agent de l'armateur; droits lui
@@ -3979,10 +3990,10 @@
                         <p>Qu’il y a lieu, pour les motifs ci-dessus ex- 1 posés de considérer cette
                             faute comme dû- i ment établie; 11</p>
                         <p>Attendu, quant à la responsabilité de l’ar- ! ! mateur, qu’on ne saurait
-                            accepter la thèse > j</p>
-                        <p>des premiers juges qui ont écarté cette res- > !</p>
+                            accepter la thèse &gt; j</p>
+                        <p>des premiers juges qui ont écarté cette res- &gt; !</p>
                         <p>ponsabilité par application, primo, de Part. 4 i du connaissement qui
-                            exonère l’armateur de . toute responsabilité pour défaut d’avis de >
+                            exonère l’armateur de . toute responsabilité pour défaut d’avis de &gt;
                             l’arrivée de la marchandise, et secondo, de 1 l’article 18 du même
                             connaissement, d’après lequel l’armateur n’est pas responsable des i
                             dommages ou des pertes survenus après le déchargement;</p>
@@ -3998,7 +4009,7 @@
                             Barker &amp; Co. —• Trib. Comm. Alex., 27 Février 1922, Revue Droit
                             Marit. Comp. il 1923, T. 1, p. 305 — Note: Cour d’Appel de u Rennes, 6
                             Juin 1922, Rev. Droit Marit. Comp. ,| 1923,. T. 1, pages 455, 459 et
-                            509), il est évident qu’elles n’ont rien à voir avec l’obligation >•
+                            509), il est évident qu’elles n’ont rien à voir avec l’obligation &gt;•
                             fondamentale du transporteur de mettre le destinataire à même de prendre
                             possession effective de la marchandise et d’en assumer</p>
                         <p>la surveillance;</p>
@@ -4026,7 +4037,7 @@
                     </div>
                 </div>
                 <pb n="262" rendition="GAZETTE DES TRIBUNAUX MIXTES d’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0360">
                     <head>401 - Transport maritime. — Fins de non recevoir des art. 274 et 275 C.
                         Corn. Mar.; caractère non d'ordre public; renonciation tacite par
                         l'assureur; cas où le chargeur ne s'est mis en règle que vis-à-vis du
@@ -4223,7 +4234,7 @@
                             Cie d’Assurance du fait de l’avarie...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0370">
                     <head>402. - Transport maritime. — Fins de non recevoir des art. 274 et 275 C.
                         Com. Mar.; caractère non d’ordre. public; renonciation tacite par le
                         transporteur; application par les Tribunaux Mixtes indépendamment des
@@ -4450,7 +4461,7 @@
                             navigation intimée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0380">
                     <head>403. - Transport maritime. — Fins de non recevoir des art. 274 et 275 C.
                         Com. Mar.; délais de déchéance; pourparlers; suspension; conditions.</head>
                     <div type="summary">
@@ -4474,7 +4485,7 @@
                         <p>V. ég. ci-avant les § 400, 401 et 402.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0390">
                     <head>404. - Transport maritime. — Frais de débarquement; litige au sujet du
                         quantum avec la Compagnie de Navigation autorisée à décharger la
                         marchandise; expertise inutile; tarif maximum établi par une Chambre de
@@ -4503,7 +4514,7 @@
                             ci-avant § 394.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0400">
                     <head>405. - Transport maritime. — Fret; action en paiement par le capitaine;
                         rece^-vabilité même après le départ du navire. — Fret; base de calcul;
                         marchandises effectivement chargées, suivant le connaissement. — Clause
@@ -4596,10 +4607,10 @@
                             après l’expiration d’un délai de 24 heures, à raison de 80 standards par
                             jour ouvrable, les jours de planche ne devaient prendre fin que te 2
                             Octobre à 2 h. 30; en effet le déchargement pouvait durer 11 jours
-                            >(882:80) et les journées du 24 Septembre et du 1er Octobre étaient des
-                            Dimanches; or, il n’est pas contesté que le déchargement s’est fait avec
-                            une telle célérité qu’il a été complètement terminé, le 25 Septembre à
-                            11 heures;</p>
+                            &gt;(882:80) et les journées du 24 Septembre et du 1er Octobre étaient
+                            des Dimanches; or, il n’est pas contesté que le déchargement s’est fait
+                            avec une telle célérité qu’il a été complètement terminé, le 25
+                            Septembre à 11 heures;</p>
                         <p>Attendu, il est vrai, que le demandeur prétend avoir été retenu dans le
                             port d’Alexandrie jusqu’au 30 Septembre, et qu’il explique à cet égard
                             que, contrairement aux clauses de la charte-partie stipulant que le
@@ -4701,7 +4712,7 @@
                     </div>
                 </div>
                 <pb n="266" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0410">
                     <head>406. - Transport maritime.—Manquant; déchargement à charge du
                         destinataire; responsabilité du navire. — Evaluation du manquant; mentions
                         du connaissement; clause «poids inconnu»; validité; portée.</head>
@@ -4866,7 +4877,7 @@
                             déficit que pour établir le fret proportionnel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0420">
                     <head>407. - Transport maritime. — Vol; clause d'assurance; validité.—Clause de
                         non-responsabilité, interprétation restrictive. — Vol commis par l'équipage;
                         clause d'exonération du vol; inapplicabilité. — Clause «poids inconnu»;
@@ -5012,7 +5023,7 @@
                             conforme aux Règles de la Haye en la matière)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0430">
                     <head>408. - Transport. -— Preuve; existence du contrat sans écrit.—
                         Commissionnaire de transports; non responsabilité du commissionnaire
                         principal en cas de désignation du commissionnaire intermédiaire par
@@ -5083,7 +5094,7 @@
                             No. 50, et Seq., T. 1, 1922)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0440">
                     <head>409. - Vente à livrer. — Vente par navire désigné; nature conditionnelle;
                         caractère strict de l'obligation du vendeur.</head>
                     <div type="summary">
@@ -5120,8 +5131,8 @@
                             en tant que les premiers juges, se basant sur l’hypothèse «que la
                             désignation du navire dans les ven-</p>
                         <p>«tes à livrer n’a, en général, pour nul, que uue permettre a l’aciieieur
-                            de savoir si le &lt;>vendeur a ou non reçu la ma.cliandise ven-»due dans
-                            le deiai prevu au contrat», et sur le mit que ia date uu départ du
+                            de savoir si le &lt;&gt;vendeur a ou non reçu la ma.cliandise ven-»due
+                            dans le deiai prevu au contrat», et sur le mit que ia date uu départ du
                             navire n’a-van pas ete indiquée et était inconnue des parues, ont retenu
                             que l’offre laite par le vendeur de livrer la majeure partie de la
                             commande deux semaines apres l’arrivée du oateau, se trouvait néanmoins
@@ -5156,7 +5167,7 @@
                             tout dommage en résiliant...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-10-0450">
                     <head>410. - Vente. — Connaissement; preuve du chargement. —- Clause
                         «.expédition sur tel mois» et clause «chargement sur tel mois»;
                         distinction.</head>
@@ -5176,8 +5187,8 @@
                             partir dans un délai raisonnable.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d’Appel, Ire Ch., Prés. M. N. Cambas, 16 Mai "***• "oseph V.
-                            Riquez L Cie et autre o. Scialom</p>
+                        <p>Cour d’Appel, Ire Ch., Prés. M. N. Cambas, 16 Mai "***• "oseph V. Riquez
+                            L Cie et autre o. Scialom</p>
                     </div>
                     <div type="observations">
                         <p>Note. — II. - L’arrêt rapporté cite Trib. Marseille, 1er Mai 1905, Navire

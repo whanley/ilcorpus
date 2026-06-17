@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1922-04-10">April 10, 1922</date><lb/>
-                    <biblScope unit="volume">Vol. 12</biblScope><lb/>
-                    <biblScope unit="number">No. 138</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1922-04-10">April 10, 1922</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 12</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 138</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -51,7 +62,7 @@
                 <p>Prix du numéro.... » 15</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage de l'Ordre des Avocats d’Egypte.</p>
-                <p>Fondateurs : M&lt;> MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.
+                <p>Fondateurs : M&lt;&gt; MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.
                     Directeur : M» MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d'Administration;</p>
                 <p>M« L. PANGALO et R SCHEMEIL (Directeurs au Caire).</p>
@@ -64,7 +75,7 @@
                 <p>Rue Cléopâtre, ALEXANDRIE</p>
                 <p>Tél. 11-48</p>
             </div>
-             <div type="article">
+            <div type="article">
                 <head>QUESTIONS DE JURISPRUDENCE.</head>
                 <p>De la situation des créanciers inscrits, colloqués et non payés en cas de
                     nouvelle expropriation par un créancier personnel de l'adjudicataire.</p>
@@ -304,7 +315,7 @@
             <pb n="83" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0010">
                     <head>145. - Adjudication. — Purge des hypothèques. —- Conséquences du défaut de
                         folle-enchère. — Expropriation de P adjudicataire par ses créanciers
                         personnels; distribution du nouveau prix de l’immeuble au profit de ces
@@ -423,7 +434,7 @@
                             contre elle, et parmi lesquels n’étaient pas compris les appelants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0020">
                     <head>146. - Affectation hypothécaire. — Imprécision ; nullité.</head>
                     <div type="summary">
                         <p>Alors même qu’il résulterait d’une expertise que les biens objet d’une
@@ -488,7 +499,7 @@
                     </div>
                 </div>
                 <pb n="84" rendition="GAZETTE DES TRIBUNAUX MIXTES D’EGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0030">
                     <head>147. - Appel. — Désistement. — Défaut de production d’un mandat spécial ;
                         conséquences .</head>
                     <div type="summary">
@@ -502,7 +513,7 @@
                             c. Hoirs Neguib Rassy).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0040">
                     <head>148. - Appel. — Recevabilité de l’appel notifié à la seule partie qui a
                         signifié le jugement ; mise en cause ultérieure des autres intimés. —
                         Expropriation; — Omission de désignation des accessoires de l’immeuble
@@ -621,7 +632,7 @@
                             dernier et ce jusqu’à ce qu’ils aient été démembrés et ils sont par
                             conséquent com pris dans l’adjudication des terrains sur lesquels ils se
                             trouvent (voir arrêt du 28 Février 1917 B., 29 p. 255) ;</p>
-                        <p>Attendu, pour ce qui touche au dawar, au> deux maisons et aux cinq
+                        <p>Attendu, pour ce qui touche au dawar, au&gt; deux maisons et aux cinq
                             pigeonniers, que ces immeubles, de 1 aveu même de Mohamed Bej Hachem et
                             sur la foi de ses propres pièces, acts de vente consenti par Barsoum et
                             Hachem Bej à la dame Saadia Hanem, n’ont que l’infime valeur de moins de
@@ -643,7 +654,7 @@
                             appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0050">
                     <head>149. - Cautionnement. — Acte not commercial.</head>
                     <div type="summary">
                         <p>Le cautionnement est de sa naturé ur contrat civil et il conserve ce
@@ -706,7 +717,7 @@
                             pas le cas en l’espèce, n’a pas tranché ce point de droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0060">
                     <head>150. - Compétence ratione loci. — Délégation judiciaire de Port-Said. —
                         Compétence générale du Tribunal de Mansou-rah. — Bail ; loi du 21 Février
                         1921 ; détermination du loyer légal-, taxe du 2%. — Modification de la
@@ -735,7 +746,7 @@
                         <p>Note. — I. - Dans ce sens jug. 29 Juin 1921, Gaz. XIII, 25-41.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0070">
                     <head>151. - Contrat par correspondance. — Formation de la convention dans la
                         ville où l’acceptation a touché le pollicifant. — Contre-proposition
                         considérée comme offre. — Compétence.</head>
@@ -882,7 +893,7 @@
                             Tribunal de cette ville.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0080">
                     <head>152. - Cotons. — Vente. — Fixation du prix. — Contrats en Bourse. —
                         Couverture par l’acheteur.</head>
                     <div type="summary">
@@ -937,7 +948,7 @@
                             ultérieur, ou ne pas se couvrir du tout.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0090">
                     <head>153. - Effets de commerce. — Prescription quinquennale. — Non prescription
                         de l'obligation du garant en cas de reconnaissance de la dette par le
                         débiteur principal. — Novation; conditions essentielles.</head>
@@ -1001,7 +1012,7 @@
                             tenir en vie, les renonciations ne se présumant pas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0100">
                     <head>154. - Expropriation. — Clause du cahier de charges exonérant
                         l’expropriant de la garantie en cas de déficit de contenance ; cas où elle
                         est inopérante. — Erreur viciant le consentement de l’adjudicataire.</head>
@@ -1073,7 +1084,7 @@
                             contenance réelle et celle du cahier des charges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0110">
                     <head>155. - Fonds de commerce. — Vente. Nom du vendeur. — Liberté du travail. —
                         Interprétation de la limitation du travail. — Dommages-intérêts.</head>
                     <div type="summary">
@@ -1177,7 +1188,7 @@
                             allouée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0120">
                     <head>156. -Garantie. — Portée d’une formule de garantie insérée au dessous de
                         la signature du garant principal d’une obligation.</head>
                     <div type="summary">
@@ -1261,7 +1272,7 @@
                     </div>
                 </div>
                 <pb n="88" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0130">
                     <head>157. - Garantie. — Solidarité, façon de l’exprimer. — Bénéfice de
                         discussion, conditions.</head>
                     <div type="summary">
@@ -1278,7 +1289,7 @@
                             c. Jacobus Kami). •'</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0140">
                     <head>158. - Gestion d’affaires. — Action du locataire contre le propriétaire
                         qui a réclamé pour lui des dommages-intérêts à un tiers responsable de
                         dégâts à l'immeuble.</head>
@@ -1337,7 +1348,7 @@
                             qui réclame du gérant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0150">
                     <head>159. - Interdiction.—A des accomplis par l’interdit avant son interdiction
                         ; annulation si la cause de l’interdiction était déjà notoire. —Tiers de
                         bonne foi—Dépôt .de bilan ; retaid dû à un cas de force majeure. — Concordat
@@ -1370,7 +1381,8 @@
                             du principal gérant de celle-ci, dont ils ont été les premières
                             victimes, on ne saurait considérer comme malheureuse, au sens de la loi
                             et au point de vue de l’obtention du concordat préventif, une société
-                            dont la déconfiture a été causée par les spéculations du gérant. ></p>
+                            dont la déconfiture a été causée par les spéculations du gérant.
+                            &gt;</p>
                         <p>IV. -La faillite d’une société en nom collectif entraîne nécessairement
                             la faillite de ses membres en nom, sauf cependant pour eux la faculté de
                             solliciter le bénéfice du concordat préventif, chaque masse pouvant
@@ -1430,7 +1442,7 @@
                             intervenants ;</p>
                         <p>Que la faillite de la dite Raison Sociale étant demandée uniquement à
                             raison du défaut de-paiement de billets dont se prévalent tant les
-                            sieurs Viterbo &lt;L Lo que les intervenants, 1 > première question à
+                            sieurs Viterbo &lt;L Lo que les intervenants, 1 &gt; première question à
                             examiner est évidemment celle-de la nullité des billets.</p>
                         <p>I. - Sur la nullité des billets souscrits par Raffaello Dentés sous la
                             Raison Sociale Morris. Dentés et Frères ;</p>
@@ -1628,7 +1640,7 @@
                             exercer en même temps les fonctions de syndic.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0160">
                     <head>160. - Juridiction Mixte. — Compétence pour apprécier la nationalité des
                         parties. — Perte de la nationalité ottomane. — Conflit entre les lois de
                         deux pays étrangers quant à la nationalité.</head>
@@ -1706,7 +1718,7 @@
                             ordonner une mesure d’instruction à ce sujet.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0170">
                     <head>161. - Mariage. — Courtage matrimonial; caractère licite ;
                         conditions.</head>
                     <div type="summary">
@@ -1726,7 +1738,7 @@
                             Georges Sideris:</p>
                         <p>1) en paiement de L.E. 300 ; 2) en validité de la saisie-arrêt par lui
                             pratiquée le même jour, entre les mains de la société dite &lt; au
-                            Progrès > ;</p>
+                            Progrès &gt; ;</p>
                         <p>Vu la demande reconventionnelle de Sideris en paiement de L.E. 300 de
                             dommages tant pour saisie arrêt vexatoire que pour le préjudice qu’elle
                             lui a causé en le faisant congédier de son emploi à la société
@@ -1742,7 +1754,7 @@
                             convenu ;</p>
                         <p>Et que pour assurer ce paiement il a, suivant son droit, pratiqué le 9
                             Août 1921 une saisie-arrêt à la société au Progrès dont le défendeur
-                            était l’employé ; ></p>
+                            était l’employé ; &gt;</p>
                         <p>Attendu que le défendeur, sans dénier les faits ci-dessus, soutient que
                             la stipulation du courtage matrimonial est illicite et que son
                             engagement du 18 Juillet 1920 est nul ;</p>
@@ -1815,7 +1827,7 @@
                             reconventionnelle n’est pas fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0180">
                     <head>162. - Nationalité. — Certificat Consulaire. — Tripolitain. —Juridiction
                         Mixte. — Compétence.</head>
                     <div type="summary">
@@ -1877,7 +1889,7 @@
                             Tribunal Indigène doit être déclarée inopérante à son égard.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0190">
                     <head>163. - Pétitoire. — Moyens de preuve recueillis au possessoire.</head>
                     <div type="summary">
                         <p>S’il est de principe en droit que la chose jugée au possessoire ne lie
@@ -1896,7 +1908,7 @@
                             Debbané c. Elie Chalhoub).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0200">
                     <head>164. - Prescription quinquennale des effets de commerce. — Applicabilité
                         en Egypte de l’art. 300 du Traité de Versailles. — Suspension de tout délai
                         de prescription, péremption ou forclusion de procédure pendant la durée de
@@ -1997,7 +2009,7 @@
                             conclu par le demandeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0210">
                     <head>165. - Prescription quinquennale des effets de commerce. — Inapplicabilité
                         en Egypte de l'art. 'SOO du Traité de Versailles. — Pioclamation du 9 Mars
                         1920.— Order in Council dv-22Janvier 1920.</head>
@@ -2272,12 +2284,12 @@
                             admissible.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>165. <!-- sic -->- Procédure pénale. — Application des règles de la procédure civile
-                        dans les matières non réglées au Code d’instruction Criminelle. — Opposition
-                        ; inadmissibilité contre les jugements de contravention rendus contre un
-                        prévenu qui a comparu une première fois. — Qualification des jugements.
-                        '■</head>
+                <div type="case" xml:id="gtme-1922-04-0220">
+                    <head>165. <!-- sic -->- Procédure pénale. — Application des règles de la
+                        procédure civile dans les matières non réglées au Code d’instruction
+                        Criminelle. — Opposition ; inadmissibilité contre les jugements de
+                        contravention rendus contre un prévenu qui a comparu une première fois. —
+                        Qualification des jugements. '■</head>
                     <div type="summary">
                         <p>I. - Il est de jurisprudence constante que les dispositions générales du
                             Code de Procédure s’appliquent au pénal, sauf pour les matières
@@ -2335,7 +2347,7 @@
                             Juin, contre lequel Rigopoulo ne s’est pas pourvu en cassation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0230">
                     <head>166. - Saisie-arrêt. — Assignation du tiers saisi en paiement des causes
                         de la saisie ; tribunal compétent ratione materiae.</head>
                     <div type="summary">
@@ -2389,7 +2401,7 @@
                             de l’action oblique, cette dernière n’est pas recevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0240">
                     <head>167. - Suisses. — Juridiction compétente à raison de la protection et
                         indépendamment de la nationalité. — Incompétence des Juridictions Mixtes
                         dans un litige entre un Suisse protégé Français et un citoyen
@@ -2550,7 +2562,7 @@
                         <p>Le Hatti-Shérif du 20 Avril 1607 porte’à son tour que “depuis ce
                             jourd’hui toutes les nations étrangères, lesquelles n’ont point
                             d’ambassa-</p>
-                        <p>></p>
+                        <p>&gt;</p>
                         <p>deurs à notre heureuse Porte, venant à trafiquer en notre Empire, aient à
                             y venir sous la bannière de l’Empereur de France, selon l’ancienne
                             coutume et aient à rendre obéissance aux ambassadeurs et consuls de
@@ -2691,7 +2703,7 @@
                             pourvoir (levant qui de droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0250">
                     <head>168. - Tiers-détenteur. — Expropriation. — Sommation de payer ou de
                         délaisser; signification obligatoire aux seuls tiers-détenteurs révélés par
                         le certificat hypothécaire, et ayants cause du constituant de
@@ -2773,7 +2785,7 @@
                             s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0260">
                     <head>169. - Vente commerciale. — “Arrhes" ou “ acompte” payés a'avance au
                         vendeur et perdus pour l’acheteur en cas d’inexécution du marché, même à
                         défaut de préjudice pour le vendeur. — Distinction avec le. cas d’une clause
@@ -2870,7 +2882,7 @@
                             valoir», «en acompte» ou autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-04-0270">
                     <head>170. - Voie publique. — Automobiles. — Responsabilité du conducteur d’un
                         véhicule qui a dépassé à gauche un autre véhicule arrêté dans la direction
                         contraire.</head>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1915-10-10">October 10, 1915</date><lb/>
-                    <biblScope unit="volume">Vol. 5</biblScope><lb/>
-                    <biblScope unit="number">No. 60</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1915-10-10">October 10, 1915</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 5</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 60</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -158,7 +169,7 @@
                     législations européennes (France, Belgique, Italie) contre les tireurs à blanc
                     par devant les juridictions consulaires en Egypte, ce qui aurait été impossible
                     si l’on reconnaissait que la loi mixte autorise le tirage à blanc.</p>
-                <p>Quant aux questions secondaires de la révocabilité et de >' endossement, elles
+                <p>Quant aux questions secondaires de la révocabilité et de &gt;' endossement, elles
                     peuvent être aisément résolues par les principes de droit commun et les usages
                     de la place.</p>
                 <p>Pour toutes ces considérations, il faut retenir que la loi mixte n’a pas traité
@@ -227,7 +238,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-10-0010">
                     <head>476. - Action Possessoire. — Complainte. — Réintégrande. — Délai
                         d’exercice. — Suspension. — Cessation dit trouble. — Actes d’exécution
                         provisoire. -- Dommages-intérêts.</head>
@@ -300,7 +311,7 @@
                             Dîne et Cts c. Société Civ. des Terrains Ghorbal).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-10-0020">
                     <head>477. - Astreintes. — Astreinte pénale. — Astreinte comminatoire. —
                         Astreinte ■ compensatoire. — Distinction. — Exécution .provisoire.</head>
                     <div type="summary">
@@ -372,7 +383,7 @@
                             astreintes possono divenire fondamento di una esecuzione.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-10-0030">
                     <head>478. - Clause pénale. — Dommages-intérêts. — Cumul.</head>
                     <div type="summary">
                         <p>Quoique en principe il y ait lieu d’exclure le cumul de la clause pénale
@@ -385,7 +396,7 @@
                             Cigarette Cy c. Exéc. testant, de feu Yacoub Goari</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-10-0040">
                     <head>479. - Délai de Grâce.—Juge des Référés. — Locataire en retard dans le
                         paiement des loyers. — Demande d’expulsion.</head>
                     <div type="summary">
@@ -633,7 +644,7 @@
                             pas aux dépens du demandeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-10-0050">
                     <head>480. - Faillite. — Revendication de marchandises. — Requête au
                         Juge-Commissaire. — Droit du vendeur. — Commissionnaire. -- Remise du
                         connaissement. — Tradition.</head>
@@ -733,7 +744,7 @@
                             mot.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-10-0060">
                     <head>481. - Mesures d’instruction. — Délai fixé par le jugement. — Déchéance. —
                         Preuve par témoins oïdonnée d'office après déchéance.</head>
                     <div type="summary">
@@ -787,10 +798,9 @@
                             1915 auquel le Tribunal se réfère.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-10-0070">
                     <head>482. - Revendication mobilière. — Femme musulmane. — Coutume. — Mesures
                         d’instruction.</head>
-                    
                     <div type="observations">
                         <p>Note. — Relativement au sommaire sub cinquième espèce paru dans la
                             Gazette V. 163-425, il y a lieu de redresser une erreur qui s’y est
@@ -813,7 +823,7 @@
                             objets ont été apportés par l’épouse revendiquante comme trousseau.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-10-0080">
                     <head>483. - Séquestre. — Propriétaire. — Occupant sans titre.</head>
                     <div type="summary">
                         <p>Le propriétaire d’un immeuble mis sous séquestre, et qui continue à

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1932-10-10">October 10, 1932</date><lb/>
-                    <biblScope unit="volume">Vol. 22</biblScope><lb/>
-                    <biblScope unit="number">No. 264</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1932-10-10">October 10, 1932</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 22</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 264</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -48,13 +59,13 @@
                 <p>à Port-Saïd,</p>
                 <p>Sue Abdel Monem, Tél. 409</p>
                 <p>HE ES ■■ uns</p>
-                <p>~1—I > -rfa (—t t—> ra-l</p>
+                <p>~1—I &gt; -rfa (—t t—&gt; ra-l</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de P Ordre des Avocats d’Egypte.</p>
                 <p>Fondateurs r M* MAXIME PUPIKOFEB st LÉON PANQALO. Avocats à la Cour. Directeur:
                     M» MAXIME PÜPIKOFER, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’Admlnistration :</p>
-                <p>M> Xi. RANGADO et E. 8CHEMEJIL {Directeurs au Caire}</p>
+                <p>M&gt; Xi. RANGADO et E. 8CHEMEJIL {Directeurs au Caire}</p>
                 <p>M** E. DEGIARDÉ et LUCIEN BARDA, (Secrétaires de la rédaction),</p>
                 <p>M» A. FADEL (Directeur à Mansourah). M» F. BRAUN (Secrétaire à Paris).</p>
                 <p>ABONNEMENTS :</p>
@@ -65,7 +76,7 @@
                 <p>— Trois mois.............. » 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an)....... » 25 b</p>
-                <p>A.ânlilli8trg,tsur-SârLixb: ></p>
+                <p>A.ânlilli8trg,tsur-SârLixb: &gt;</p>
                 <p>Max Buccianti.</p>
                 <p>Pour la Publicité:</p>
                 <p>S’adresser aux Bureaux du «Journal» (Concessionnaire: J. A. Degiardé) 3, Rue de
@@ -983,7 +994,7 @@
             <pb n="374" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0010">
                     <head>396. - Louage de services. — Certificat de services; mentions suffisantes;
                         contrat .d'engagement; clauses limitatives de Vindemnité de renvoi;
                         nullité.</head>
@@ -1064,7 +1075,7 @@
                             intempestif, v. ci-après § 408 l’arrêt du 30 Décembre 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0020">
                     <head>397 - Louage de services. — Contrat collectif de travail; validité;
                         règlement d'atelier engendrant un contrat individuel avec chaque ouvrier;
                         menace de grève, ne constituant pas violence morale viciant le consentement
@@ -1200,12 +1211,12 @@
                             un but de subversion politique pu sociale, ou de faire la grève soit
                             dans ces mêmes buts — étrangers à la matière économique</p>
                         <p>— soit par des moyens portant atteinte à la liberté ou à la propriété
-                            d’autrui. Mais rien ne prouve que l’action de la « Lega >> ait assumé à
-                            l’égard de M. Boutigny ce caractère. Que si, avant, elle avait joué un
-                            rôle plus effacé en laissant les négociations avec leur patron aux mêmes
-                            ouvriers de la Société et si, après, elle n’a pas réussi à amener les
-                            ■autres entreprises de la ville à accorder à leurs ouvriers des
-                            conditions pareilles, on ne voit pas en quoi cela pourrait avoir de
+                            d’autrui. Mais rien ne prouve que l’action de la « Lega &gt;&gt; ait
+                            assumé à l’égard de M. Boutigny ce caractère. Que si, avant, elle avait
+                            joué un rôle plus effacé en laissant les négociations avec leur patron
+                            aux mêmes ouvriers de la Société et si, après, elle n’a pas réussi à
+                            amener les ■autres entreprises de la ville à accorder à leurs ouvriers
+                            des conditions pareilles, on ne voit pas en quoi cela pourrait avoir de
                             l’influence dans la présente affaire. Quant à l’assertion que M.
                             Boutigny ait accordé ce Règlement d’atelier à la condition que la « Lega
                             » se fit reconnaître par l’autorité publique et qu’elle réussit à
@@ -1258,7 +1269,7 @@
                             précédent disait: « le jour de l’entrée en service ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0030">
                     <head>398. - Louage de services. — Contrat de louage d’ouvrage; définition;
                         instituteurs; professeurs; durée d'engagement; usage; engagement à l'essai;
                         maintien après l'expiration; durée devenue indéterminée; congédiement sans
@@ -1335,7 +1346,7 @@
                             que le professeur n’ait manqué gravement à ses obligations...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0040">
                     <head>399. - Louage de services. — Contrat d'engagement; clause d'interdiction
                         pour l'employé d'installer un commerce similaire dans une ville; conditions,
                         de validité,. — Obligation; clause pénale; préjudice; charge de la
@@ -1431,7 +1442,7 @@
                             clause pénale, v. Gaz. XXII, 322-362 l’arrêt du 10 Mai 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0050">
                     <head>400. - Louage de services. — Dépôt de garantie de l'employé; clause
                         soumettant son remboursement à l'expiration d'une période de trois années
                         après la cessation des services; validité.</head>
@@ -1492,7 +1503,7 @@
                             fondé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0060">
                     <head>401. - Louage de services. — Employés de l'Etat; employé rétribué sur les
                         fonds secrets d'une Administration; inapplicabilité de la Loi No. 28 de
                         1923.</head>
@@ -1552,7 +1563,7 @@
                             attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0070">
                     <head>402. - Louage de services. — Employés de l'Etat; fonctionnaires étrangers;
                         solde d'expatriation; décision du Conseil des Ministres du 15 Août 1922;
                         interprétalion; fonctionnaires ayant établi en Egypte un domicile de choix;
@@ -2396,7 +2407,7 @@
                             la solde d’expatriation, y. Gaz., XX, 157-143, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0080">
                     <head>403. - Louage de services. — Engagement à durée déterminée. — Renvoi avant
                         terme; motif tiré de la nature des capacités professionnelles de l'employé;
                         musiciens; choir imprudent du patron; indemnité due. — Salaires; réduction
@@ -2476,7 +2487,7 @@
                             mal fondée et que donc l’appel incident est justifié.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0090">
                     <head>404 - Louage de services. — Engagement à durée déterminée; vente d'un
                         fonds de commerce en cours de contrat; rupture du contrat; indemnité due par
                         le patron; impossibilité pour l'employé de se réengager; preuve; indemnité
@@ -2624,7 +2635,7 @@
                         <p>Note. — TT. - V. ég. ci-après § 409 l’arrêt du 15 Juin 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0100">
                     <head>405. - Louage de services. — Engagement à durée indéterminée;
                         licenciement; obligation de donner préavis; inobservation; indemnité;
                         éléments de détermination; employé ayant fourni de longues années de
@@ -2861,7 +2872,7 @@
                             1932, et la note).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0110">
                     <head>406. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; cas où une indemnité est due malgré l'observation du
                         délai-congé stipulé au contrat d'engagement.</head>
@@ -2883,7 +2894,7 @@
                     </div>
                 </div>
                 <pb n="385" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0120">
                     <head>407. - Louage de services. -— Engagement à durée indéterminée; renvoi
                         intempestif; clause accordant au patron le droit de congédier l'employé
                         moyennant un préavis d'un mois; inapplicabilité aux employés supérieurs;
@@ -2982,7 +2993,7 @@
                             maintenue.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0130">
                     <head>408. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; clause de renonciation anticipée à tout droit à indemnité de
                         licenciement; nullité; clause ne reconnaissant à l’employé que le droit au
@@ -3026,7 +3037,7 @@
                             1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0140">
                     <head>409. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; employé ayant trouvé un autre emploi; absence de tout droit à
                         une indemnité; refus d’accepter un nouveau travail; effets.</head>
@@ -3047,7 +3058,7 @@
                         <p>Note. —V. ci-avant § 404 le jug. Comm. Caire du 22 Mars 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0150">
                     <head>410. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; employé engagé à la journée, payé mensuellement, engagé à
                         l'étranger, et demeuré longtemps au service de l'employeur; nécessité du
@@ -3132,7 +3143,7 @@
                             d'indemnité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0160">
                     <head>411. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; indemnité due; décès de l'employé mettant fin à Vobligation du
                         patron.</head>
@@ -3280,7 +3291,7 @@
                             prévisions communes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0170">
                     <head>412. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; indemnité; éléments de détermination.</head>
                     <div type="summary">
@@ -3326,7 +3337,7 @@
                         <p>Note. — V. ci-après § 414 l’arrêt du 12 Avril 1932, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0180">
                     <head>413. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; renvoi injustifié; confusion des indemnités dues; employé ayant
                         fourni de longues années de bons et loyaux services; indemnité de
@@ -3499,7 +3510,7 @@
                         <p>Note. — V. ci-après § 414 l’arrêt du 12 Avril 1932, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0190">
                     <head>414. - Louage de services. -— Engagement à durée indéterminée; renvoi
                         intempestif; renvoi injustifié; employé ayant fourni de longues années de
                         bons et loyaux services. — Ouvrier journalier; ■paiement des salaires par
@@ -3659,7 +3670,7 @@
                             Février 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0200">
                     <head>415. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; renvoi injustifié; indemnités auxquelles il peut donner lieu. —
                         Louage de services; vente d'un fonds de commerce en cours de contrat;
@@ -3782,7 +3793,7 @@
                         <p>Note — V. ci-avant § 414 l’arrêt du 12 Avril 1932, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0210">
                     <head>416. - Louage de services. — Engagement à durée indéterminée; renvoi
                         intempestif; renvoi injustifié; renvoi non équitable; définition. -— Employé
                         ayant fourni de longues années de bons et loyaux services; indemnité de
@@ -3882,7 +3893,7 @@
                         <p>Note. — V. ci-avant § 414 l’arrêt du 12 Avril 1932, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0220">
                     <head>417. - Louage de services. — Gens de service; salaires; prescription
                         libératoire; cas où elle ne peut être invoquée par. l'employeur. — Bonne à
                         tout faire; usages; coutume observée par les personnes originaires de Grèce;
@@ -3941,7 +3952,7 @@
                             maîtres, de leur constituer un modeste trousseau, lorsqu’elles
                             atteignent l'âgé de se marier.</p>
                         <p>• Ce n’est certainement pas « le paiement de tous les gages en une seule
-                            fois >>, dont parle l’appelante; mais ce n’est pas non plus
+                            fois &gt;&gt;, dont parle l’appelante; mais ce n’est pas non plus
                             l’exploitation absolument gratuite, pour une dizaine d’années, d’un
                             travail qui au début était suffisamment rémunéré par la prestation des
                             aliments mais qui par la suite valait certainement plus que 1 habitation
@@ -3950,7 +3961,7 @@
                             finale et forfaitaire à laquelle la Théodossi a dioit...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0230">
                     <head>418. - Louage de services. — Musiciens de théâtre et d'établissements
                         analogues; engagement par saison; présomption résultant de cet usage non
                         utilement combattu par l'employeur; renvoi avant l expiration de la cession;
@@ -4003,7 +4014,7 @@
                             renvoi de Minatto, il y a lieu de-confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0240">
                     <head>419. - Louage de services. — Salaires; droit dé l'employé indépendant du
                         fait que les services convenus auraient bu non été rendus. :— Gens de
                         service; exigibilité des salaires au fur et à mesure de leurs échéances
@@ -4068,7 +4079,7 @@
                             l’intimée comme. dénuées de tout fondement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-10-0250">
                     <head>420. - Louage d'industrie. — Peseur publie; suppression de son emploi, non
                         assimilable à’un renvoi intempestif.</head>
                     <div type="summary">

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1935-02-10">February 10, 1935</date><lb/>
-                    <biblScope unit="volume">Vol. 25</biblScope><lb/>
-                    <biblScope unit="number">No. 292</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1935-02-10">February 10, 1935</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 25</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 292</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -61,7 +72,7 @@
                     Paris).</p>
                 <p>— à la Gazette (un an).... P.T. 150</p>
                 <p>— au Journal :</p>
-                <p>— Un an................... > 150</p>
+                <p>— Un an................... &gt; 150</p>
                 <p>— Six mois................ » 8S</p>
                 <p>— Trois mois.......... » 50</p>
                 <p>— aux deux publications</p>
@@ -501,7 +512,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0010">
                     <head>79. - Commissionnaire. — Rendement de comptes; obligation incombant à tout
                         commissionnaire; usages commerciaux; droits du commettant; limites.</head>
                     <div type="summary">
@@ -522,7 +533,7 @@
                             Khalil et Philippe Habib c. Joseph G. Gazai.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0020">
                     <head>80. - Vente avec réserve de propriété. — Clause reservati dominii:
                         inopposabilité à la masse de la faillite de l’acheteur.</head>
                     <div type="summary">
@@ -538,7 +549,7 @@
                             p. 89 l’étude de Me Zangakis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0030">
                     <head>81. - Vente avec réserve de propriété. — Concordat préventif ou
                         judiciaire; opposabilité au vendeur; application de la clause reservati
                         dominii suivant les conditions du concordat.</head>
@@ -741,7 +752,7 @@
                             partant sa demande est à rejeter en sa totalité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0040">
                     <head>82. - Vente avec réserve de propriété. — Droits du vendeur impayé; option;
                         citation en paiement du prix et obtention d’une condamnation n’impliquant
                         pas renonciation du vendeur au bénéfice de la clause reservati dominii. —
@@ -844,7 +855,7 @@
                         <p>Note. — II. - V. ci-après § 83 l’arrêt du 6 Février 1934, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0050">
                     <head>83. - Vente avec réserve de propriété. — Droits du vendeur impayé; option;
                         renonciation tacite à la clause reservati dominii; exécution d’un jugement
                         de condamnation au paiement du prix; incompatibilité avec la conservation du
@@ -959,7 +970,7 @@
                             les arrêts du 27 Décembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0060">
                     <head>84. - Vente avec réserve de propriété. — Droits du vendeur impayé; option;
                         résiliation; faculté pour le vendeur, qui a opté pour la résiliation,
                         d’exiger la restitution de l’objet et de garder les sommes versées;
@@ -1119,7 +1130,7 @@
                             elle avait le droit de se faire restituer cette même voiture.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0070">
                     <head>85. - Vente. — Clause stipulant à défaut de paiement d’un terme
                         l’exigibilité immédiate du solde du prix au gré du créancier;
                         validité.</head>
@@ -1173,7 +1184,7 @@
                             rejeté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0080">
                     <head>86. - Vente commerciale — Clause « sauf approbation de la maison »; non
                         approbation; charge de la preuve. — Commissionnaire; qualité; indication au
                         contrat de la provenance de la marchandise., insuffisante à faire attribuer
@@ -1448,7 +1459,7 @@
                             Livres Egyptiennes cent soixante le montant du préjudice subi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0090">
                     <head>87. - Vente commerciale — Commande de tissus à 'fabriquer et à assortir
                         ultérieurement; défaut d’indications par l’acheteur; droits du vendeur. —
                         Vente; livraisons échelonnées; défectuosités d’exécution des premières
@@ -1581,7 +1592,7 @@
                             condamnation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0100">
                     <head>88. - Vente commerciale. — Vente cif; caractéristiques; attribution des
                         risques de voyage à l’acheteur; clause stipulant paiement du prix après la
                         vérification de la marchandise; interprétation.</head>
@@ -1655,7 +1666,7 @@
                     </div>
                 </div>
                 <pb n="99" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0110">
                     <head>89. - Veille commerciale. — Vente cif; différence de qualité; réduction
                         éventuelle du prix, seule admissible; conditions auxquelles la résiliation
                         peut être demandée; recours contre le vendeur; réclamation; imprécision;
@@ -1777,7 +1788,7 @@
                             frais à sa charge.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0120">
                     <head>90. - Vente commerciale. — Vente cif; documents; prétendue insuffisance;
                         charge de. la preuve; désignation de navire, fournie sans responsabilité et
                         suivie d’une rectification; cas où l’acheteur n’esl pas admis à s’en
@@ -1848,7 +1859,7 @@
                             contrat...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0130">
                     <head>91. - Vente commerciale. — Vente cif; obligations de l’acheteur; paiement
                         du prix; inadmissibilité d’une vérification préalable de la marchandise; non
                         conformité; moyen opposé par voie de compensation; admissibilité.</head>
@@ -1867,7 +1878,7 @@
                             Française c. Ralli Macridis &amp; Co.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0140">
                     <head>92. - Vente commerciale. — Vente cif; obligations du vendeur; délai
                         d’expédition; retard; cas où il peut entraîner la résiliation; mise en
                         demeure; inutilité; stipulation d’exonération de responsabilité du vendeur
@@ -1980,7 +1991,7 @@
                             de refuser de prendre livraison.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0150">
                     <head>93. - Vente commerciale. — Vente sur échantillon; conformité de la
                         marchandise; preuve; charge.</head>
                     <div type="summary">
@@ -2059,7 +2070,7 @@
                             absolument insuffisants...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0160">
                     <head>94. - Vente commerciale. — Vente sur échantillon; différence de qualité;
                         différence minime ne pouvant entraîner qu’une bonification sur le prix;
                         réfaction; vente par voie de justice; effets juridiques; faculté pour le
@@ -2167,7 +2178,7 @@
                             l'écarter pour les motifs donnés par les premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0170">
                     <head>95. - Vente. — Consentement; erreur et dol; domaine d’application; dol
                         éventuel; assimilation au dol déterminé; vente d’automobile; erreur sur la
                         date du modèle; manœuvre frauduleuse; cas où <pb n="102"
@@ -2379,7 +2390,7 @@
                             compensés avec le prix de jouissance de l’automobile,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0180">
                     <head>96. - Vente. — Consentement; erreur sur l’objet; cas où elle entraîne
                         nullité de la vente; vente d’objets envisagée du point de vue de leur
                         ancienneté; preuve résultant du montant du prix; défaut d’ancienneté;
@@ -2490,7 +2501,7 @@
                             1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0190">
                     <head>97. - Vente. — Consentement; erreur sur l’objet; preuve ne résultant pas
                         du montant du prix; erreur sur le prix, ne pouvant entraîner
                         annulation.</head>
@@ -2576,7 +2587,7 @@
                         <p>Note. — v. cep. contrà ci-avant § 96 l’arrêt du 22 Juin 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0200">
                     <head>98. - Vente de coton. — Avances sur le prix; intérêts; cas où ils doivent
                         être calculés; coût du transport du coton à l’usine, « charge du
                         vendeur.</head>
@@ -2594,7 +2605,7 @@
                             Fils c. Zachariadis Frères.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0210">
                     <head>99. - Vente de coton. — Contrat d’avances sur coton; mandat de vendre aux
                         prix, conditions et époque jugés opportuns; caractère facultatif pour le
                         mandataire.</head>
@@ -2610,7 +2621,7 @@
                             Bardan c. Cassa di Sconto e di Risparmio.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0220">
                     <head>100. - Vente de coton. — Garantie de l’exécution du contrat d’avances sur
                         coton; étendue; paiements faits par l’acheteur en règlement d’impôts
                         arriérés du vendeur; cas où ils ne sont pas opposables au garant.</head>
@@ -2687,7 +2698,7 @@
                             garants...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0230">
                     <head>101. - Vente de coton. — Livraison; insuffisance; clause garantissant la
                         quantité vendue, en toute éventualité; validité; conséquences; fixation du
                         prix; qualité de coton non cotée en Bourse; prix à fixer d’après le cours
@@ -2780,7 +2791,7 @@
                             l’autre partie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0240">
                     <head>102. - Vente de coton. — Livraison; insuffisance; pénalité contractuelle;
                         applicabilité à défaut d’avis donné par le vendeur à l’acheteur aux fins de
                         vérification. &lt;— Obligation; transmissibilité par voie d’endossement;
@@ -2807,7 +2818,7 @@
                             -— et les arrêts antérieurs publiés ds. Gaz. XXII, 322-362.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0250">
                     <head>103. - Vente de coton. — Livraison; insuffisance; pénalité contractuelle;
                         préjudice; baisse de prix; examen; non pertinence.</head>
                     <div type="summary">
@@ -2844,7 +2855,7 @@
                         <p>Note. — V. les arrêts publiés à Gaz. XXII, 322-362.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0260">
                     <head>104. - Vente de Coton. — Livraison; insuffisance; pénalité contractuelle;
                         préjudice; existence implicite dans les ventes de disponible. — Clause
                         pénale; cas d’applicabilité pour inexécution partielle. — Appel; appel
@@ -2886,7 +2897,7 @@
                         <p>Note. _ m. - V. Gaz. XXII, 322-362.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0270">
                     <head>105. - Vente de coton. — Livraison; insuffisance; pénalité contractuelle;
                         préjudice; nécessité pour Vacheteur de se couvrir par contrat en Bourse;
                         différence de prix justifiant l’application de la pénalité. — Prix des
@@ -2910,7 +2921,7 @@
                         <p>Note. — I. - V. les arrêts publiés ds. Gaz. XXII, 322-362.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0280">
                     <head>106. - Vente de coton. — Livraison; insuffisance; pénalité contractuelle;
                         vendeur non admis à invoquer la baisse des prix en cas de vente conclue au
                         prix des contrats cotés en Bourse; cumul des intérêts sur les avances et des
@@ -2933,7 +2944,7 @@
                             Sayed Hamad c. Banque Misr et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0290">
                     <head>107. - V ente de coton. — Saisie immobilière; transcription;
                         immobilisation des fruits; vente de la récolte par le débiteur saisi; simple
                         annulgbïlité; droits de l’acheteur. — Coupe et vente des fruits provenant
@@ -3115,7 +3126,7 @@
                             94-104).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-02-0300">
                     <head>108. - Vente. — Défaut de qualité; conservation et usage continu de la
                         chose, exclusifs du droit pour l’acheteur de demander la résiliation; cas
                         d’une vente avec prestation de services; nécessité où se trouverait

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1911-01-10">January 10, 1911</date><lb/>
-                    <biblScope unit="volume">Vol. 1</biblScope><lb/>
-                    <biblScope unit="number">No. 3</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1911-01-10">January 10, 1911</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 1</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 3</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -323,7 +334,7 @@
             <pb n="32" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0010">
                     <head>Accident du travail.</head>
                     <div type="summary">
                         <p>L’indemnité allouée à un enfant mineur indigène ne saurait être protégée
@@ -343,7 +354,7 @@
                             Trib., N° 1, p. 3.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0020">
                     <head>Action en nullité. — Demande prématurée. — Qualité de créancier.</head>
                     <div type="summary">
                         <p>L’action en nullité d’un acte pour simulation ou fraude doit être écartée
@@ -387,7 +398,7 @@
                             chose jugée l’encontre du débiteur ?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0030">
                     <head>Assurances. — Paiement de la somme assurée. — Pièces
                         justificatives.</head>
                     <div type="summary">
@@ -414,7 +425,7 @@
                             Mutual Life Insurance Cy.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0040">
                     <head>Bail. — Caution volontaire.</head>
                     <div type="summary">
                         <p>Les obligations de la caution volontaire sont de stricte interprétation.
@@ -446,7 +457,7 @@
                             Haïcalis.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0050">
                     <head>Bail. — Congé tardif ; tacite reconduction inapplicable.</head>
                     <div type="summary">
                         <p>Lorsqu'il a été stipulé que, faute de congé par écrit dans les deux mois
@@ -471,7 +482,7 @@
                             Farayoli.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0060">
                     <head>Cession. — Notification.</head>
                     <div type="summary">
                         <p>Il est de jurisprudence qu’une notification de cession peut être faite
@@ -483,7 +494,7 @@
                             et consorts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0070">
                     <head>Commandement.— Opposition. — Dépôt de bilan.</head>
                     <div type="summary">
                         <p>Le commerçant qui a déposé son bilan en vue d’un concordat préventif se
@@ -501,7 +512,7 @@
                             Crédit Foncier Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0080">
                     <head>Compétence.—Pevendication. — Faillite.</head>
                     <div type="summary">
                         <p>La revendication d’objets mobiliers contre une faillite n’est pas une
@@ -513,7 +524,7 @@
                             Meguerditchian esq.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0090">
                     <head>Compétence. — Taux de la demande.</head>
                     <div type="summary">
                         <p>Le taux de la demande, déterminant la compétence, se calcule sur le
@@ -531,7 +542,7 @@
                             c. Constantin Samarina.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0100">
                     <head>Contrebande. —Confiscation. —Revendication.</head>
                     <div type="summary">
                         <p>La confiscation, ordonnée par l’autorité compétente, soit administrative,
@@ -547,7 +558,7 @@
                             Gouvernement égyptien,)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0110">
                     <head>Contrebande. — Opposition à décision douanière. — Compétence des
                         Commissions Douanières. — Confiscation.</head>
                     <div type="summary">
@@ -580,7 +591,7 @@
                             Egyptiennes.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0120">
                     <head>Contredit. — Inscription hypothécaire.— Intérêts capitalisés.</head>
                     <div type="summary">
                         <p>La disposition de l’art. 692 Code civ. (art. 2151 Code Nap.), qui
@@ -618,7 +629,7 @@
                             Hypothécaire.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0130">
                     <head>Courtage.</head>
                     <div type="summary">
                         <p>Le courtage stipulé pour l’obtention du prêt d’une somme déterminée, en
@@ -632,7 +643,7 @@
                             Mohamed Mohamed Chabana).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0140">
                     <head>Domicile. — Signification an Parquet.— Revendication. — Wakfieh.</head>
                     <div type="summary">
                         <p>La loi n’exige pas qu’il soit fait un acte formel de recherche
@@ -654,7 +665,7 @@
                             Coucoudamis et dame Khadiga Hanem Serri.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0150">
                     <head>Donation. — Conditions de validité en droit musulman. — Condition
                         suspensive.</head>
                     <div type="summary">
@@ -680,7 +691,7 @@
                             Coury &lt;Sr Cie., en liq.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0160">
                     <head>Employé. - Renvoi intempestif.— Action en dommages-intérêts. — Compétence
                         du Tribunal de Commerce.</head>
                     <div type="summary">
@@ -705,7 +716,7 @@
                         <p>(Trib. Comm. Caire, 26 nov. 1916. — Victor Dahan c. Haggi Bassiliou).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0170">
                     <head>Enquête. — Prorogation de délais.</head>
                     <div type="summary">
                         <p>Le juge délégué, statuant en justice som-amire aux termes de l’art. 28
@@ -721,7 +732,7 @@
                             Alabba.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0180">
                     <head>Établissements incommodes.-Roksa.</head>
                     <div type="summary">
                         <p>Le décret du 28 août, sur les établisse' ments incommodes, qui a remplacé
@@ -736,7 +747,7 @@
                             Public.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0190">
                     <head>Faillite. — Fonds de commerce ( Vente de). — Employés.</head>
                     <div type="summary">
                         <p>La commission promise par un commerçant à son employé en cas de vente du
@@ -748,7 +759,7 @@
                             syndic de la faillite Emile Ravan.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0200">
                     <head>Faillite. — Syndic ( Remplacement dii).</head>
                     <div type="summary">
                         <p>Le syndic d’une faillite n’étant pas seulement le représentant des
@@ -763,7 +774,7 @@
                         <p>(Trib. Comm. Mansourali, 10 nov. 1910.—Faillite Ali Ali El Cheikh.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0210">
                     <head>Faillite. — Traité avec les créanciers. — Dissolution d’union.</head>
                     <div type="summary">
                         <p>Sans examiner si un concordat amiable est possible après refus
@@ -815,7 +826,7 @@
                             d’uneylzzvz/r, mais simplement à la constatation d’un état de fait.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0220">
                     <head>Faux. — Question préjudicielle. — Effets de commerce. — Débiteur illettré
                         ou aveugle.</head>
                     <div type="summary">
@@ -839,7 +850,7 @@
                             Mohamed Aly Chaouiche.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0230">
                     <head>Garantie. — Compétence commerciale.</head>
                     <div type="summary">
                         <p>Une garantie même purement civile, doit suivre le sort de la demande
@@ -854,7 +865,7 @@
                             Cie.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0240">
                     <head>Garantie. —Responsabilité du créancier..</head>
                     <div type="summary">
                         <p>L’inaction du créancier pendant un long-laps de temps après l’échéance ne
@@ -877,7 +888,7 @@
                             et qu., c. Mohame.l Amine-Abou el Dahab et Me Elie Sidawy esq.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0250">
                     <head>Mise en cause en degré d'appel. — (Recevabilité de la). — Preuve
                         testimoniale.</head>
                     <div type="summary">
@@ -894,7 +905,7 @@
                             Ibrahim et Marie Sursock.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0260">
                     <head>Nullité de vente de titres. — Sociétés anonymes. - Fraude à la loi
                         égyptienne. — Qualité substantielle.</head>
                     <div type="summary">
@@ -965,7 +976,7 @@
                         <p>Confirme, etc.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0270">
                     <head>Précision delà demande. —Revendication.</head>
                     <div type="summary">
                         <p>Doit être déclarée irrecevable, faute de précision de la demande, une
@@ -979,7 +990,7 @@
                             Mohamed Abdel Hadi c. Sayed el Seïdi et frères et Moh. El Bogdadli.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0280">
                     <head>Prête-nom. — Action en justice.</head>
                     <div type="summary">
                         <p>Il est licite, en droit civil comme en droit commercial, de constituer un
@@ -999,7 +1010,7 @@
                         <p>(Cour d’Appel, Î7 nov. 1910. — Ange Chelmis c. Paul Gros.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0290">
                     <head>Référé. — Difficulté d’exécution. — Matière penale. — Compétence ratione
                         matériel’.</head>
                     <div type="summary">
@@ -1013,7 +1024,7 @@
                             Consiglio et consorts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0300">
                     <head>Référé.—Incompétence en matière d’ordre.</head>
                     <div type="summary">
                         <p>Le juge des Référés, compétemment saisi aux termes de l’art. 583 Code
@@ -1028,7 +1039,7 @@
                             Duvopoulo.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0310">
                     <head>Requête civile. — Omission de statuer.</head>
                     <div type="summary">
                         <p>L’admission d’une requête civile basée sur une omission de statuer,
@@ -1042,7 +1053,7 @@
                             Moussallem et consorts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0320">
                     <head>Responsabilité. — Chèque faux. — Faute commune.</head>
                     <div type="summary">
                         <p>La banque qui a payé pour compte d’un de ses clients des chèques portant
@@ -1063,7 +1074,7 @@
                             d’Egypte.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0330">
                     <head>Revendication. — Référé. — Difficulté d’exécution.</head>
                     <div type="summary">
                         <p>Le recours au juge des Référés pour ordonner la continuation des
@@ -1080,7 +1091,7 @@
                     <div type="observations">
                         <p>NOTE. — Cette décision n’est qu’une nouvelle application des principes
                             déjà admis par la Cour en de précédentes espèces (V. not. 15 déc. 1909,
-                            />’»//. XXU,</p>
+                            /&gt;’»//. XXU,</p>
                         <p>р. 52); nous l’avons reproduite parcequ’elle caractérise nettement le
                             caractère de difficulté d’exécution de l’instance en revendication en
                             tant que cette instance suspend l’exécution. Le fond de la revendication
@@ -1089,7 +1100,7 @@
                             1910, Gaz. Trib., N° I, p. 6.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0340">
                     <head>Revendication d'objets saisis. — Compétence du Tribunal de justice
                         sommaire.</head>
                     <div type="summary">
@@ -1113,7 +1124,7 @@
                             nous relations.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0350">
                     <head>Saisie-arrêt. — Déclaration dolosive par le tiers-saisi. —
                         Dommages-intérêts.</head>
                     <div type="summary">
@@ -1160,7 +1171,7 @@
                         <p>Par ces motifs, condamne, etc.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0360">
                     <head>Surenchère. — Nullité constatée par procès-verbal (l’audience.</head>
                     <div type="summary">
                         <p>La nullité d’une surenchère, résultant de l’absence du dépôt du cinquième
@@ -1174,7 +1185,7 @@
                             Egypt et Ezra Sutton.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0370">
                     <head>Tierce opposition. — Irrecevabilité. — Commission Douanière.</head>
                     <div type="summary">
                         <p>Est irrecevable pour défaut d’intérêt la tierce opposition à un jugement
@@ -1186,7 +1197,7 @@
                             égyptiennes.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0380">
                     <head>Tiers détenteur. — Ayant-cause. — Créancier hypothécaire.</head>
                     <div type="summary">
                         <p>Si, en principe, la qualité de tiers détenteur appartient seulement à
@@ -1205,7 +1216,7 @@
                             Dib et consorts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-01-0390">
                     <head>Vente. — Trouble. — Garantie en cas d’éviction.</head>
                     <div type="summary">
                         <p>L’acheteur n’a pas à attendre d’être dépouillé effectivement de sa
@@ -1562,7 +1573,7 @@
                 <p>Abou Cbeecba El Hamchari, local à El A tan ah El Hiblia. dist. de Tantah
                     (Gharb.)</p>
                 <p>— Jug. décl. 5 déc. 1910. cess. p. 6 janv. 1911., Synd. Tabet., Réun. vérif. 31
-                    janv. 1911 9 h. > ».</p>
+                    janv. 1911 9 h. &gt; ».</p>
                 <p>Moreno Eicurel, local à Alex., r. Franque N. 11. — Synd. Tabet.—Jug. décl. 19
                     déc. 1910, cess.’p. 9 nov. 1910, synd. déf. 3 janv. 1911 10 h. 14. Ord. '22 déc.
                     autor. exploit, du</p>
@@ -2402,7 +2413,7 @@
                 <p>DÉPÔTS DE BILAN</p>
                 <p>Abdel Salam El Adl.</p>
                 <p>Négociant indig., Mansourah. Actif app. P.T. 208.073. Pass. app. P T. 97201,
-                    3t>j40. Réun. 11 janv. 1911 pour design, dél. cr.</p>
+                    3t&gt;j40. Réun. 11 janv. 1911 pour design, dél. cr.</p>
                 <p>FAILLITES CLÔTURÉES</p>
                 <p>Costi Pappa.</p>
                 <p>Nég. hellène. Mit Ghamr. Conc. hom. par jug. 1 déc. 1910, 20 0,0 en deux termes

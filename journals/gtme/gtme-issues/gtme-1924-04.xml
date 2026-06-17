@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0014-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0014-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1924-04-10">April 10, 1924</date><lb/>
-                    <biblScope unit="volume">Vol. 14</biblScope><lb/>
-                    <biblScope unit="number">No. 162</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1924-04-10">April 10, 1924</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 14</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 162</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -325,7 +336,7 @@
             <pb n="119" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0010">
                     <head>185. - Convention. — Inexécution; clau-„$c pénale; condition
                         d’application; justification du préjudice tubi. — Vente; inexécution;
                         préjudice représenté par les frais de transcription.</head>
@@ -352,7 +363,7 @@
                             1922.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0020">
                     <head>186. - Convention. — Condition résolutoire sous-entendue. —
                         Transaction.</head>
                     <div type="summary">
@@ -370,7 +381,7 @@
                             Constantinou, Valsamis &amp; Co. c. L. Lloyd Williams).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0030">
                     <head>187. - Courtage. — Vente retardée par la faute des parties; droit du
                         courtier.</head>
                     <div type="summary">
@@ -389,7 +400,7 @@
                             1921 cité par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0040">
                     <head>188. - Courtage, — Mandat de vente; caducité; conditions d'exigibilité du
                         courtage. — Intervention forcée; mise en cause d'une partie aux fins
                         d’obtenir des renseignements; inadmissibilité.</head>
@@ -411,7 +422,7 @@
                             Soussa et Cts c. Pierre Moughalian et autres.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0050">
                     <head>189. - Courtage. — Courtier chargé par le vendeur seulement; acheteur non
                         tenu ' au courtage, à défaut de mandat, mais à indemnité.</head>
                     <div type="summary">
@@ -523,7 +534,7 @@
                             Hoirs Sakakini peut être fixée ex aequo et bono à L.E. 201).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0060">
                     <head>190. - Droits proportionnels. — Acte mentionné dans le contexte d'un
                         contrat authentique; perception de droits proportionnels inadmissible. —
                         Autorisation maritale; intervention du mari dans un acte; défaut de
@@ -637,7 +648,7 @@
                             Hékékian n’y est pas intervenu en son nom personnel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0070">
                     <head>191. - Droits proportionnels. — Cas où les droits de mutation ont été
                         payés à l'occasion de la décision consacrant une vente et compris dans les
                         frais mis à la charge du vendeur; obligation de l’acheteur; quittance sans
@@ -712,7 +723,7 @@
                             être soumis à l'appréciation de la Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0080">
                     <head>192. - Droits proportionnels. — Concordat; cessions consenties par la
                         faillite; contrat annexe à un concordat; droits non dus.</head>
                     <div type="summary">
@@ -842,7 +853,7 @@
                             textuelle a disparu.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0090">
                     <head>193. - Droits proportionnels. — Demande en paiement ou en remboursement de
                         droits; forme; prescription; point de départ. — Vente; acte de résiliation
                         impliquant transaction et nouvelle vente; droits dus.</head>
@@ -938,7 +949,7 @@
                             au Greffe. -</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0100">
                     <head>194. - Droits proportionnels.. — Jugement de condamnation; droits
                         justifies par l'intervention de la justice; droits déjà payés pour la même
                         opération à l'occasion d'un acte de juridiction gracieuse. — Préemption;
@@ -1010,7 +1021,7 @@
                             fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0110">
                     <head>195. - Droits proportionnels. — Jugement de défaut; rétractation; cas où
                         il n'y a-pàs-lieu'à restitution des droits perçus.</head>
                     <div type="summary">
@@ -1095,7 +1106,7 @@
                             par les appelants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0120">
                     <head>196. - Droits proportionnels. — Jugement rendu sur titre. — Condamnation
                         rendue dans une action en reddition de comptes; montant reconnu; aveu
                         constituant preuve, mais non titre.</head>
@@ -1153,7 +1164,7 @@
                             profité du jugement dans la même mesure qu’elle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0130">
                     <head>197. - Droits proportionnels. — Leur nature en droit mixte; caractère de
                         taxe; condition de leur perception par l'Etat; — restitution due en cas de
                         défaut de cause. — Jugements annulés; restitution des droits perçus. —
@@ -1441,10 +1452,10 @@
                             fonctionnaires de justice, qu’il serait assez souvent difficile
                             d’établir de quel côté est la faute, et il n’est pas à exclure ■que,
                             quelquefois, la faute puisse être du côté de l’administration.</p>
-                        <p>Pour conclure sur ce point, le Tribunal es- > time que l’art. 8 du Tarif
-                            constitue l’application d’un principe général, qui régit expressément
-                            les rétractations et les réformations, et implicitement toutes
-                            annulations des actes de la juridiction contentieuse.</p>
+                        <p>Pour conclure sur ce point, le Tribunal es- &gt; time que l’art. 8 du
+                            Tarif constitue l’application d’un principe général, qui régit
+                            expressément les rétractations et les réformations, et implicitement
+                            toutes annulations des actes de la juridiction contentieuse.</p>
                         <p>IV.</p>
                         <p>Sur la question de savoir si une exception ■à ce principe peut être
                             admise, par suite d’un examen de fond sur les motifs de l'annulation, le
@@ -1515,7 +1526,7 @@
                         <p>■ pénsatiom totale. ’ •" '</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0140">
                     <head>198. - Droits proportionnels. — Leur nature en droit mixte; caractère de
                         taxe judiciaire; rémunération de la juridiction ' contentieuse ôü gracieuse.
                         — Jugements '.portant «attribution» de valeurs; caractère de titre
@@ -1685,7 +1696,7 @@
                             d’être rejetés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0150">
                     <head>199. - Droits proportionnels. — Leur nature en droit mixte; caractère de
                         taxe judiciaire; rémunération de la juridiction contentieuse. — Jugements
                         portant «attribution» de valeurs; caractère de litre déclaratif; droits dus.
@@ -1875,7 +1886,7 @@
                             Fahmy.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0160">
                     <head>200. - Droits proportionnels. — Leur nature en droit mixte; caractère de
                         taxe judiciaire; rémunération de la juridiction contentieuse.— Jugements
                         portant '«attribution» de valeurs; caractère de titre déclaratif; jugement
@@ -2059,7 +2070,7 @@
                             l’intention présumée du législateur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0170">
                     <head>201. - Droits proportionnels. — Leur nature en droit mixte; caractère de
                         taxe; rémunération de la juridiction gracieuse. — Contrats soumis à taxe;
                         critérium de la perception; recherche de la véritable nature d'un contrat,
@@ -2106,7 +2117,7 @@
                         <p>Note. — I, TV. la note sub § 197.</p>
                         <p>- II. - Gomp. ci-après § 205 le jug. Somm. Alex, du 5 Avril 1924 et § 203
                             l’arrêt du 17 Avril 1924,</p>
-                        <p>>' I et II. - L’arrêt rapporté expose:</p>
+                        <p>&gt;' I et II. - L’arrêt rapporté expose:</p>
                         <p>Attendu que par acte de vente du 21 Mars 1920 la Société du Domaine de
                             Cheikh Fadl a vendu à Mohamed Kamel Pacha Calai et Consorts un domaine
                             pour le prix de L.E. 7.100.1100. dont L.E. 400.000 ont été payées au
@@ -2225,7 +2236,7 @@
                             1/2 0/0 sur la somme reconnue dans l’acte du 31 Janvier 1922.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0180">
                     <head>202. - Droits proportionnels. — Leur nature en droit mixte; caractère de
                         taxe judiciaire; rémunération de la juridiction contentieuse ou gracieuse.
                         ■— Contrats soumis à taxe; critérium de la perception; recherche de la
@@ -2410,7 +2421,7 @@
                             125).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0190">
                     <head>203. - Droits proportionnels. — Ouverture de crédit; acte nouveau; droits
                         dus.</head>
                     <div type="summary">
@@ -2463,7 +2474,7 @@
                             s’en est prévalu ou non.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0200">
                     <head>204. - Droits proportionnels. — Partage sans soulte; défaut de
                         transcription des titres antérieurs; droits non dus. — Perception des droits
                         suivant la teneur des actes; droits perçus sur les mutations mentionnées
@@ -2594,7 +2605,7 @@
                             dont elles pourraient trouver de leur intérêt de perdre le bénéfice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0210">
                     <head>205. - Droits proportionnels. — Pecon-naissance de dette après ouverture
                         de crédit; acte de règlement de comptes comportant novation; droits
                         dus.</head>
@@ -2724,7 +2735,7 @@
                             sortira son plein et entier effet.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0220">
                     <head>206. - Droits proportionnels. — Solidarité des parties à l'acte ou au
                         jugement. — Vente immobilière; résiliation par décision de justice; droits
                         dus dans tous les cas. —• Jugements portant attribution de valeurs
@@ -2837,7 +2848,7 @@
                             Mixte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0230">
                     <head>207. - Droits proportionnels. — Taux dépendant du tarif en vigueur au
                         moment de la passation de l'acte, et non au moment de la perception des
                         droits par le Greffe.</head>
@@ -2863,7 +2874,7 @@
                             d’Alexandrie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0240">
                     <head>208. - Droits proportionnels. — Vente antérieure sous seing-privé non
                         transcrite mentionnée dans l'acte de revente; intervention du précédent
                         vendeur; perception de droits de mutation inadmissible. — Privilège du
@@ -2995,7 +3006,7 @@
                             prétentions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0250">
                     <head>209. - Revendication immobilière. — Condition de recevabilité: exercice de
                         l'action contre le possesseur même.</head>
                     <div type="summary">
@@ -3016,7 +3027,7 @@
                             18 Mai 1899, Bull. XI, 275; — 11 Février 1902, Bull. XIV, 121.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0260">
                     <head>210. - Taxe. — Opposition; délai; forme; autres contestations de forme ou
                         de fond. — Prescription; interruption; nouvelle prescription après
                         interruption; délai. — Commandement; citation en justice; effet interruptif
@@ -3042,7 +3053,7 @@
                     <div type="litigants">
                         <p>(Cour d’Appel, 2me Ch., Prés. M. R. A. Vaux, 10 Janvier 1924. ■— Ho’rs
                             Khalil Nakhlé c. Greffier en Chef de la Cour d’Appel Mixte). . ., . - .
-                            ></p>
+                            &gt;</p>
                     </div>
                     <div type="observations">
                         <p>Note. — L’arrêt expose:</p>
@@ -3110,7 +3121,7 @@
                             se trouvant présenté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0270">
                     <head>211. - Vente. — Achat contracté par un tuteur, par personne interposée,
                         des biens de ses pupilles; nullité; ratification; nécessité de termes précis
                         et non équivoques. — Copropriété par indivis, n'autorisant point le tuteur à
@@ -3251,7 +3262,7 @@
                             établira le titre de sa créance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0280">
                     <head>212. - Vente. — Achat contracté par un-tuteur pour des mineurs; défaut
                         d'autorisation de l'autorité tutélaire; condition non accomplie; résolution;
                         non responsabilité du tuteur envers le vendeur. —- Vente à plusieurs
@@ -3342,7 +3353,7 @@
                     </div>
                 </div>
                 <pb n="136" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0290">
                     <head>213. - Vente aléatoire. — Obligations du vendeur; remise des titres; bonne
                         foi essentielle.</head>
                     <div type="summary">
@@ -3359,7 +3370,7 @@
                             Rahmin Levy c. The Meadieh By the Sea Estâtes Syndicale).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0300">
                     <head>214. - Vente aléatoire. — Stipulation de non-garantie; validité sauf en
                         matière d'adjudication.</head>
                     <div type="summary">
@@ -3405,7 +3416,7 @@
                             sa demande contre la Land Bank.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0310">
                     <head>215. - Vente. — Ayant cause; chose jugée contre l'auteur; effets. —Pacte
                         de re-servati dominii; validité; nécessité d'une stipulation précise. —
                         Prescription quinquennale; juste titre; date certaine nécessaire. — Date
@@ -3527,7 +3538,7 @@
                             par l’intimé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0320">
                     <head>216. - Vente. — Courtier ayant nommé un acheteur; action en exécution
                         contre le vendeur; irrecevabilité.</head>
                     <div type="summary">
@@ -3598,7 +3609,7 @@
                             courtier de Coen.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0330">
                     <head>217. - Vente immobilière. — Achat intervenu postérieurement à la
                         transcription d'un commandement immobilier; paiements effectués par
                         l'acheteur aux créanciers inscrits; recours contre le vendeur; solidarité;
@@ -3778,7 +3789,7 @@
                             (art. 321-3°).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0340">
                     <head>218. - Vente immobilière. — Clause de résiliation de plein droit;
                         validité; portée.</head>
                     <div type="summary">
@@ -3841,7 +3852,7 @@
                             adopte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0350">
                     <head>219. - Vente immobilière. — Expropria-' tion pour cause d'utilité
                         publique; achats à l'amiable; «Taradi» non régulièrement signé par le
                         directeur du cadastre; prise de possession; portée; preuve.</head>
@@ -3865,7 +3876,7 @@
                             Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0360">
                     <head>220. - Vente immobilière. — Instance en résiliation; sujets locaux;
                         créanciers étrangers intéressés; Juridiction mixte; compétence. — Vente
                         d'immeubles grevés de charges; obligations du vendeur; droits de l'acheteur;
@@ -3976,7 +3987,7 @@
                             l’aliénation valable envers tout le monde.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0370">
                     <head>221. - Vente. — Option levée par l'acheteur; conclusion du contrat
                         indépendamment du paiement du prix et de la délivrance de la chose.</head>
                     <div type="summary">
@@ -3999,7 +4010,7 @@
                             Scerbo c. Ibrahim bey Aly El Nacha-herJy).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0380">
                     <head>222. - Vente. — Servitude «altius non tollendi» non déclarée au moment du
                         contrat; résiliation aux torts et griefs du vendeur; clause pénale.</head>
                     <div type="summary">
@@ -4049,7 +4060,7 @@
                         <p>Par conséquent, il y a lieu, sur ce chef,, d’accueillir sa demande;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0390">
                     <head>223. - Vente immobilière. — Troubla de jouissance; droits de l'acheteur;
                         rétention partielle du prix; abus; défaut total de paiement; résiliation aux
                         torts de l'acheteur. — Cahier des charges; défaut d'indication de
@@ -4178,7 +4189,7 @@
                             biens à l'intimée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-04-0400">
                     <head>224. - Vente. — Vente au cours d'une instance en revendication dirigée
                         contre le vendeur; ayant cause étranger; chose jugée au Tribunal
                         Indigène.</head>

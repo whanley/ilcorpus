@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1932-02-10">February 10, 1932</date><lb/>
-                    <biblScope unit="volume">Vol. 22</biblScope><lb/>
-                    <biblScope unit="number">No. 256</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1932-02-10">February 10, 1932</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 22</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 256</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -728,7 +739,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0010">
                     <head>96. - Indivision. — Copropriété; actions, entre copropriétaires;
                         compétence de la Juridiction mixte pour y statuer entre plaideurs de même
                         nationalité étrangère. — Copropriété; possession équivoque des communistes;
@@ -863,7 +874,7 @@
                         <p>Note. — III. - Rappr. cep. ci-après § 97 l’arrêt du 6 Février 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0020">
                     <head>97. - Indivision. — Copropriété; possession de l'un des communistes;
                         pres-scription acquisitive; inadmissibilité en principe.</head>
                     <div type="summary">
@@ -911,7 +922,7 @@
                         <p>Note. — Rappr. cép. ci-avant § 96 l’arrêt du 18 Mars 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0030">
                     <head>98. - Partage. — Licitation; cas où elle doit être ordonnée; caractère
                         préjudiciable du partage en nature.</head>
                     <div type="summary">
@@ -1102,7 +1113,7 @@
                         <p>V. ég. ds. ce sens l’arrêt du 10 Janvier 1928, Gaz. XX, 35-34.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0040">
                     <head>99. - Partage. — Licitation; surenchère; inadmissibilité de la part des
                         colicitants en cas de vente volontaire.</head>
                     <div type="summary">
@@ -1199,7 +1210,7 @@
                             un sens ou dans l’autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0050">
                     <head>100. - Partage. — Licitation; wakf; nazir remplacé en cours d'instance;
                         nou-t veau nazir non révélé au poursuivant; validité de la procédure.</head>
                     <div type="summary">
@@ -1218,7 +1229,7 @@
                             Zeinab Delpar c. Hoirs Zeinalla bey Yehia.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0060">
                     <head>101. - Partage. — Partage en nature, praticable d'une seule façon; faculté
                         pour les Tribunaux d'imposer un partage par attribution.</head>
                     <div type="summary">
@@ -1235,7 +1246,7 @@
                             34-33, Bull. XLI, 286.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0070">
                     <head>102. - Partage. — Partage provisionnel de jouissance; partage incomplet;
                         effets limités à la perception des fruits; droit du copropriétaire omis ou
                         incapable. — Wakf; partage; pouvoirs du nazir ne disposant pas de la faculté
@@ -1523,7 +1534,7 @@
                             indivisibles funiversale judicium, l’appelaient les Romains)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0080">
                     <head>103. - Partage. — Transcription; formalité nécessaire pour rendre le
                         partage opposable aux tiers; preuve de l'existence,‘ à l'égard des tiers,
                         d’un partage non; transcrit; inadmissibilité depuis la Loi No.‘ 19 de
@@ -1577,7 +1588,7 @@
                             Ibrahim Abdel Kader..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0090">
                     <head>104. - Préemption. — Clause de renonciation à la faculté de préemption par
                         l'acheteur contre les autres acheteurs du même vendeur; interprétation
                         restrictive de la clause; inopposabilité aux ayants cause ultérieurs. —
@@ -1710,7 +1721,7 @@
                             103-159. Con-trà: arrêt du 1er Mars 1921, Gaz., XI, 126-183.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0100">
                     <head>105. - Préemption. — Concours entre, l'acquéreur du fonds et le préempteur
                         ayant une situation égale par rapport au fonds; cas où Vacquisition est
                         faite en copropriété avec un tiers n'ayant pas la qualité de voisin
@@ -1893,7 +1904,7 @@
                             et que le prix réel n’était que de P. T. 215 le mètre carré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0110">
                     <head>106. - Préemption. — Conditions d'exercice; contiguilé; fonds agricoles
                         séparés par un drain privé.</head>
                     <div type="summary">
@@ -1965,7 +1976,7 @@
                             davantage...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0120">
                     <head>107. - Préemption. — Conditions d'exercice; insuffisance de description de
                         l'immeuble préempté; cas où elle n'empêche pas l'exercice de la préemption;
                         contiguïté partielle; caractère suffisant; appréciation du juge. — Appel;
@@ -2090,7 +2101,7 @@
                             contiguïté partielle répond à ladite condition, si elle est assez
                             importante pour justifier l’exercice du droit de préemption. C’est là
                             une appréciation que le législateur a dû nécessairement laisser au
-                            prudent ar-></p>
+                            prudent ar-&gt;</p>
                         <pb n="112" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>bitre du juge. Mais les cas sont très fréquents, dans lesquels l’exercice
                             de la fonction judiciaire implique l’appréciation discrétionnaire des
@@ -2114,7 +2125,7 @@
                         <p>HT. - V. Gaz., VIII, 271-316 l’arrêt du 14 Mai 1918.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0130">
                     <head>108. - Préemption. — Déchéance; délai imparti au préempteur par une
                         décision de justice pour le paiement du prix; défaut de paiement entraînant
                         déchéance de plein droit de la faculté de préempter; droit pour l'acheteur
@@ -2344,7 +2355,7 @@
                             l’appelant de ce chef à la somme de L.E. 100.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0140">
                     <head>109. - Préemption. — Demanda de préemption; influence sur les obligations
                         de l'acheteur envers le vendeur du fonds préempté; loyaux coûts; honoraires
                         d'avocat; mesure en laquelle ils incombent au préempteur; honoraires
@@ -2555,7 +2566,7 @@
                             saurait être fixée au delà de LE. 60.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0150">
                     <head>110. - Préemption. — Revente de l’immeuble avant la transcription de la
                         déclaration de préemption; cas où l’action en préemption peut être dirigée
                         contre le premier acheteur seulement. — Préemption; exercice; nécessité de
@@ -2734,7 +2745,7 @@
                         <p>(Omissis).</p>
                         <p>... Que ce n’est que par le résultat d’une erreur que le Tribunal, en son
                             jugement du 19 Juin 1924, a pu en venir à dire qu’en ce qui concerne
-                            cette parcelle, &lt;> la discussion « des parties semblait porter
+                            cette parcelle, &lt;&gt; la discussion « des parties semblait porter
                             uniquement sur « le prix à payer »;</p>
                         <p>Qu’au contraire, les appelants ont toujours insisté, et des plus
                             vivement, pour qu’avant tout les demandeurs justifiâssent de la qualité
@@ -2918,7 +2929,7 @@
                             un tiers des frais de première instance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0160">
                     <head>111. - Préemption. — Transcription, de la déclaration de préemption;
                         effets; vente consentie par le préempté postérieurement à cette
                         transcription; inopposabilité au préempteur. — Juridiction mirte; examen
@@ -3006,7 +3017,7 @@
                             fondé...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0170">
                     <head>112. - Prescription acquisitive. — Loi applicable; prescription spéciale
                         de 33 ans. du droit musulman; application exceptionnelle aux biens ivakfs;
                         actions successorales musulmanes; fin de non recevoir de 33 ans édictée par
@@ -3088,7 +3099,7 @@
                             sans fondement et comme tel il doit être rejeté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0180">
                     <head>113. - Prescription acquisitive. — Possession; ayant-cause ne pouvant
                         invoquer la possession de son auteur qui a été écartée par jugement.</head>
                     <div type="summary">
@@ -3102,7 +3113,7 @@
                             Pacifico Luzzatto c. Hoirs Dame Enrichetta Cardoso.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0190">
                     <head>114. - Prescription acquisitive. — Possession; nécessité d'un caractère
                         non équivoque; actes de tolérance.</head>
                     <div type="summary">
@@ -3185,7 +3196,7 @@
                             appel...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0200">
                     <head>115. - Prescription acquisitive. — Possession; preuve; demande d'enquête
                         tendant à prouver le fait juridique de la possession; irrecevabilité.</head>
                     <div type="summary">
@@ -3198,7 +3209,7 @@
                             Zoh.ra Mohamed Magrabia c. Dame Ayouche bent Salem.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0210">
                     <head>116. - Prescription acquisitive. — Prescription quinquennale; caractère
                         précaire de la possession du vendeur; bonne foi et juste titre de
                         l'acheteur.</head>
@@ -3212,7 +3223,7 @@
                             Moustafa c. Nicolas Xillas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0220">
                     <head>117. - Prescription acquisitive. — Prescription quinquennale;
                         inadmissibilité au profit de l'acquéreur qui a négligé de requérir des
                         certificats hypothécaires. — Jugement d'adjudication; valeur juridique;
@@ -3397,7 +3408,7 @@
                             degrés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0230">
                     <head>118. - Prescription acquisitive. — Prescription quinquennale; juste titre;
                         achat du véritable propriétaire; inopérance. — Inopposabilité de la
                         prescription quinquennale par celui qui a acheté du véritable propriétaire
@@ -3596,7 +3607,7 @@
                         <p>Note. —V. Gaz. XIV, 111-170 et 111-171, et les arrêts y cités.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0240">
                     <head>119. - Prescription acquisitivc. — Prescription quinquennale; titre non
                         applicable à l'immeuble possédé; inadmissibilité. — Wakf; constitution sur
                         le bien d'autrui; nullité; inefficacité au point de vue de la. prescription
@@ -3803,7 +3814,7 @@
                             122.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0250">
                     <head>120. - Propriété immobilière. — Allu-vion; caractéristiques; distinction
                         avec l'avulsion; conséquences.</head>
                     <div type="summary">
@@ -3870,7 +3881,7 @@
                             mérite d’être rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0260">
                     <head>121. - Propriété immobilière. — Construction sur le terrain d'autrui;
                         bonne foi du constructeur; faculté du propriétaire du sol; cas où le
                         propriétaire n'entend pas exercer la faculté de paiement; plus-value; mode
@@ -3974,7 +3985,7 @@
                             exagérées...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0270">
                     <head>122. - Propriété immobilière. — Construction sur le terrain d'autrui;
                         empiètement minime et non intentionnel; cas où il peut être toléré moyennant
                         indemnité.</head>
@@ -4062,7 +4073,7 @@
                         <p>Note. — Ds. le même sens, arrêt du 23 'Avril 1931, ci-avant § 119.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0280">
                     <head>123. - Propriété immobilière. — Revendications formées par l'Etat; règles
                         applicables; charge de la preuve; terres incultes faisant partie du domaine
                         privé; preuve de l'appropriation, à fournir par le possesseur; inopérance
@@ -4359,7 +4370,7 @@
                             conformité de l’art. 202 C. civ.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0290">
                     <head>124. - propriété immobilière. — Terres incultes; actes de possession
                         portant sur des parcelles isolées faisant partie d'un domaine plus étendu;
                         caractère de publicité; admissibilité de l’acquisition par la prescription
@@ -4625,7 +4636,7 @@
                             1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0300">
                     <head>125. - Propriété immobilière. — Terres incultes; actes de possession
                         portant sur des parcelles isolées faisant partie d’un domaine plus étendu;
                         caractère de publicité; défaut de clandestinité juridique; admissibilité de
@@ -4876,7 +4887,7 @@
                             Janvier 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0310">
                     <head>126. - Retrait d’indivision. — Appel; délai. — Retrait d'indivision et
                         préemption; adoption des deux voies; recevabilité; distinction entre le
                         retrait d'indivision et la préemption du Décret du 28 Mars 1900. -—Retrait
@@ -5235,7 +5246,7 @@
                             indivise*du cédant -dans plusieurs immeubles déterminés, a -posé
                             l’argument sans en faire une décision définitive. « En outre», dit. cet
                             arrêt, la Cour</p>
-                        <p>en se référant expressément à l’ouvrage précité, tome 111, ]>. 125, a
+                        <p>en se référant expressément à l’ouvrage précité, tome 111, ]&gt;. 125, a
                             voulu indiquer qu’il .est douteux que les appelants eussent pu exercer
                             Je rachat de la quote-part litigieuse, .même au cas où la vente aurait
                             eu lieu de .gré à gré. En effet, d’après Baudry-Lacanti-nerie et Wahl,
@@ -5402,7 +5413,7 @@
                             1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0320">
                     <head>127. - Retrait d’indivision. — Exercice en degré d'appel, et par voie
                         d'appel incident; mise en cause des auteurs du retrayant; modalités; retrait
                         d'indivision exercé dans un but. spéculatif; admissibilité. — Retrait
@@ -5946,7 +5957,7 @@
                             1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-02-0330">
                     <head>128. - Retrait d’indivision. — Faculté d'exercice dans tous les cas
                         d'indivision; art. 56! C. Civ.; interprétation, stricte; droit exclusif des
                         copropriétaires originaires; nouveau communiste; déchéance pour les
@@ -6029,10 +6040,10 @@
                             communiste, le Sieur Cicurel, mais ce dernier ne peut nullement être
                             considéré comme un copropriétaire originaire: en admettant un étranger
                             narmi les copropriétaires originaires, ces derniers ont définitivement
-                            j>erdu le droit de se prévaloir du retrait d’indivision à l’encontre des
-                            cessionnaires de cet étranger, et peu importe si la vente à l’étranger a
-                            eu lieu 3 jours ou 3 années après la vente constitutive de la
-                            copropriété originaire: la seule voie ouverte dans ces circonstances
+                            j&gt;erdu le droit de se prévaloir du retrait d’indivision à l’encontre
+                            des cessionnaires de cet étranger, et peu importe si la vente à
+                            l’étranger a eu lieu 3 jours ou 3 années après la vente constitutive de
+                            la copropriété originaire: la seule voie ouverte dans ces circonstances
                             c’est la préemption régie par le Décret de 1900 dont les appelants
                             aujourd’hui ne peuvent se prévaloir.</p>
                         <p>Il y a lieu par conséquent de confirmer purement et simplement le

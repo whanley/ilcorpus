@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1935-08-10">August 10, 1935</date><lb/>
-                    <biblScope unit="volume">Vol. 25</biblScope><lb/>
-                    <biblScope unit="number">No. 298</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1935-08-10">August 10, 1935</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 25</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 298</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -51,8 +62,8 @@
                 <p>ABONNEMENTS :</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de F Ordre des Avocats d’Egypte. Fondateurs
-                    : M- MAXIME PUPIKOFEB et LEON FANG-ALO, Avocats à la Cour Directeur: M> MAXIME
-                    PUPIKOFEB, Avocat à la Cour.</p>
+                    : M- MAXIME PUPIKOFEB et LEON FANG-ALO, Avocats à la Cour Directeur: M&gt;
+                    MAXIME PUPIKOFEB, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d'administration :</p>
                 <p>M« L. PAKGALO et R. 8CHEMEIL {Directeurs au Oairey M" E. DEGIARDE et LUCIEN BABDA
                     (Secrétaires üs la rédaction).</p>
@@ -494,7 +505,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0010">
                     <head>334 - Société anonyme. — Constitution; décret d'autorisation; portée;
                         nullités antérieures; annulation judiciaire basée sur la violation des
                         dispositions de la décision du Conseil des Ministres, du 17 Avril 1899;
@@ -625,7 +636,7 @@
                             sans motif, sous menace de refus d’autorisation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0020">
                     <head>335. - Société anonyme. — Constitution; décret d'autorisation; portée;
                         prescriptions des décisions du Conseil des Ministres des 17 Avril 1899, 2
                         Juin 1906 et 31 Mai 1927; violation; annulation judiciaire de la société;
@@ -820,7 +831,7 @@
                             ni administrativement, ni judiciairement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0030">
                     <head>336. - Société anonyme. — Obligations; actions; défaut de chose jugée à
                         l'égard ou au profit des obligataires ou actionnaires non présents ou
                         représentés au premier débat. — Société anonyme étrangère, ayant siège
@@ -1460,7 +1471,7 @@
                             Mars 1929 (aff. Grégoussi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0040">
                     <head>337. - Société. — Dissolution; action contre les associés non
                         liquidateurs; prescription; point de départ; but de l'art. 71 G. Com.;
                         publication fixée par l'article 54 et suiv. C. Com., seul point de départ du
@@ -1586,7 +1597,7 @@
                             devraient pas être respectées...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0050">
                     <head>338. - Société. — Dissolution; existence de la société pour le règlement
                         des rapports juridiques concernant sa liquidation; action introduite par une
                         société dissoute, en cours de liquidation; recevabilité. — Assignation;
@@ -1764,7 +1775,7 @@
                             qui par conséquent était, et toujours est demeurée, non motivée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0060">
                     <head>339. - Société. — Dissolution; inopposabilité aux tiers ayant contracté
                         avant la publication. — Société en nom collectif; garantie solidaire des
                         membres responsables; action des créanciers, dirigée contre la société et
@@ -1978,7 +1989,7 @@
                             d’y faire droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0070">
                     <head>340. - Société. — Dissolution; instance en dissolution introduite par l'un
                         des associés contre tous les autres; mise en cause de la société elle-même;
                         inutilité. ■— Dissolution avant terme; râle des tribunaux saisis de la
@@ -2346,7 +2357,7 @@
                             ce chef.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0080">
                     <head>341. - Société en commandite. — Commanditaire; responsabilité; conseils ou
                         actes de contrôle; droit pour le commanditaire de traiter avec la société et
                         de lui ouvrir des crédits; actes pouvant être justifiés par les nécessités
@@ -2669,7 +2680,7 @@
                             décider par fiction qu’elle est restée lettre morte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0090">
                     <head>342. - Société en commandite. — Révocation du gérant; conséquences;
                         dissolution de la société-</head>
                     <div type="summary">
@@ -2719,7 +2730,7 @@
                             Sarolidis et sa mise en liquidation...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0100">
                     <head>343. - Société en nom collectif. — Pouvoir de représentation entre
                         associés; comparution aux débats d'un membre en nom; caractère
                         contradictoire de la décision, même à l'égard de l'associé
@@ -2737,7 +2748,7 @@
                             Helal c. Mikhail Atalla &amp; Fils Hanna.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0110">
                     <head>344. - Société. — Existence; contestation; inadmissibilité de la part de
                         celui qui a traité avec la société sans en avoir contesté
                         l'existence.</head>
@@ -2752,7 +2763,7 @@
                             Filippi c. Ah ou Hassan Frères et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0120">
                     <head>345. - Société. — Existence; preuve; critérium; affectio societatis;
                         définition; subordination de l'employeur salarié, non conciliable avec la
                         notion de société. — Louage de services; rétribution au moyen d'une
@@ -2958,7 +2969,7 @@
                             lui ait causé le moindre préjudice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0130">
                     <head>346. - Société. — Liquidation; limites dans lesquelles le liquidateur est
                         tenu. — Société; comptes entre associés; inapplicabilité des règles du
                         mandat dans leurs rapports du chef de la détention de leurs avoirs. —
@@ -3018,7 +3029,7 @@
                             justice...,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0140">
                     <head>347. - Société. — Publications; inaccomplissement des formalités légales;
                         demande en nullité formée avant que la nullité n'ait été couverte par la
                         publication; caractère impératif.</head>
@@ -3170,7 +3181,7 @@
                             la décision à laquelle s’arrête la Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0150">
                     <head>348. - Société. — Retrait d’indivision; admissibilité en cas de cession de
                         part sociale; cas où la vente de part sociale est déguisée sous la forme
                         d'un mandat.</head>
@@ -3387,7 +3398,7 @@
                             128-126 l’arrêt du 25 Novembre 1933,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-08-0160">
                     <head>349. - Société. — Société étrangère; personnalité juridique; loi qui la
                         régit; société britannique ayant siège social et administratif en
                         Angleterre; loi qui la régit; qualité reconnue à toute société anonyme
@@ -4148,9 +4159,9 @@
                     visite de kantars 250, le détenteur du Certificat pourra, aux fins d’un
                     ajustement de poids et sans perdre le bénéfice du Certificat, demander par écrit
                     au Président du Comité du Coton de pouvoir retirer une partie des balles
-                    composant le dit lot. Le coton ouvert en >> sourrahs » faisant partie de ce lot
-                    ne pourra pas, en pareil cas, être livré et devra être retiré, mais si cet
-                    ajustement de poids nécessitait l’ouverture d’une balle, le coton nécessaire
+                    composant le dit lot. Le coton ouvert en &gt;&gt; sourrahs » faisant partie de
+                    ce lot ne pourra pas, en pareil cas, être livré et devra être retiré, mais si
+                    cet ajustement de poids nécessitait l’ouverture d’une balle, le coton nécessaire
                     pour compléter le poids, serait alors prélevé des « sourrahs » du dit lot.</p>
                 <p>« Le Président du Comité du Coton, lorsqu’il en sera requis, déléguera le
                     personnel de la Bourse pour désigner les balles à écarter qui perdront le
@@ -4339,7 +4350,7 @@
                 <p>Pré.mption. - Vente immobilière.</p>
                 <p>Accession. - Action possessoire. - Prescription acquisitive. - Propriété
                     immobilière. - Servitudes.</p>
-                <p>Juin > - Questions pénales.</p>
+                <p>Juin &gt; - Questions pénales.</p>
                 <p>Juillet » - Expropriation pour cause d’utilité pu-</p>
                 <p>blique. - Questions administratives.</p>
             </div>

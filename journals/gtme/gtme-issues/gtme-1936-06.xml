@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0026-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0026-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1936-06-10">June 10, 1936</date><lb/>
-                    <biblScope unit="volume">Vol. 26</biblScope><lb/>
-                    <biblScope unit="number">No. 308</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1936-06-10">June 10, 1936</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 26</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 308</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -60,7 +71,7 @@
                 <p>— Six mois............ » 85</p>
                 <p>— Trois mois........ » 50</p>
                 <p>— aux deux publications</p>
-                <p>réunies (un an)..... > 250</p>
+                <p>réunies (un an)..... &gt; 250</p>
                 <p>Administrateur-Gérant :</p>
                 <p>Max Buccianti.</p>
                 <p>Pour la Publicité:</p>
@@ -181,7 +192,7 @@
                     mesure de haute et saine justice.</p>
                 <p>Le sommaire de l’arrêt précité de la Cour d’Appel Mixte, du 30 Décembre 1930,
                     résume fort clairement en ces termes la situation de droit et de fait:</p>
-                <p>&lt;> S’il est vrai qu’en principe l’action principale et l’action en garantie
+                <p>&lt;&gt; S’il est vrai qu’en principe l’action principale et l’action en garantie
                     constituent deux actions distinctes susceptibles d’être éventuellement jugées
                     chacune par un tribunal différent, appartenant ou non à la même juridiction, il
                     n’en est pas moins certain que le plaideur indigène ne saurait être privé,
@@ -308,7 +319,7 @@
             <pb n="221" rendition=", Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0010">
                     <head>157. - Juridiction Mixte. — Compétence à l'égard des fonctionnaires
                         diplomatiques ou consulaires; immunité juridictionnelle; étendue; limites;
                         Décret du 1er Mars 1920. — Vente; dissimulation à une femme mariée du refus
@@ -400,7 +411,7 @@
                             encontre est tout à fait fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0020">
                     <head>158. - Juridiction. Mixte. — Compétence à raison de la nationalité des
                         parties; intérêt mixte; disparition en cours d'instance; maintien de la
                         compétence des Tribunaux Mixtes compé-temment saisis; cas d'interruption du
@@ -499,7 +510,7 @@
                             incompétent d’office.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0030">
                     <head>159. - Juridiction Mixte. — Compétence à raison de la nationalité des
                         parties; sociétés anonymes égyptiennes; théorie de l'intérêt mixte; société
                         fondée dans un but de service public, avec des capitaux fournis par des
@@ -568,16 +579,16 @@
                             intérêt étranger, entre une personne physique et une personne
                             morale;</p>
                         <p>Attendu qu’il en est de même quant à l’argument basé sur le caractère de
-                            &lt;> service public » que le Crédit Agricole s’attribue, en prétendant
-                            que ce caractère doit être considéré comme l’élément prépondérant de sa
-                            personnalité de nature à » effacer le concours » des capitaux étrangers;
-                            qu’il suffit d’observer que du moment que le Gouvernement Egyptien a
-                            estimé utile d’avoir recours au concours des capitaux étrangers et
-                            d’adopter pour l’institution créée, la forme d’une société anonyme,
-                            cette institution malgré la participation du Gouvernement Egyptien à sa
-                            constitution et sa portée sociale, ne saurait être considérée comme un
-                            organe d’Etat; que par conséquent la théorie de l’intérêt mixte
-                            conser</p>
+                            &lt;&gt; service public » que le Crédit Agricole s’attribue, en
+                            prétendant que ce caractère doit être considéré comme l’élément
+                            prépondérant de sa personnalité de nature à » effacer le concours » des
+                            capitaux étrangers; qu’il suffit d’observer que du moment que le
+                            Gouvernement Egyptien a estimé utile d’avoir recours au concours des
+                            capitaux étrangers et d’adopter pour l’institution créée, la forme d’une
+                            société anonyme, cette institution malgré la participation du
+                            Gouvernement Egyptien à sa constitution et sa portée sociale, ne saurait
+                            être considérée comme un organe d’Etat; que par conséquent la théorie de
+                            l’intérêt mixte conser</p>
                         <p>(*) Le second arrêt de même date se réfère purement et simplement aux
                             motifs du premier.</p>
                         <p>ve nécessairement toute sa valeur au point de vue de l’attribution de
@@ -626,7 +637,7 @@
                             Cassation Egyptienne.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0040">
                     <head>160. - Juridiction Mixte. — Compétence à raison de la nationalité des
                         parties; sociétés anonymes égyptiennes; titres au porteur; théorie de
                         Vintérêt mixte; caractère d'ordre public de la compétence des Tribunaux
@@ -743,7 +754,7 @@
                             1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0050">
                     <head>161. - Juridiction Mixte. — Compétence à statuer sur la revendication
                         d'objets saisis par divers créanciers contre un meme débiteur; nationalité
                         étrangère de l'un des créanciers saisissants, suffisante à attribuer
@@ -836,7 +847,7 @@
                         <p>Que, sur le fond, le dit jugement mérite donc pleine confirmation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0060">
                     <head>162. - Juridiction Mixte. — Compétence déterminée par la nationalité du
                         mandant; nationalité étrangère d'un exécuteur testamentaire sans effet sur
                         la compétence.</head>
@@ -887,7 +898,7 @@
                         <p>Qu’il y a lieu dès lors, de confirmer l’ordonnance déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0070">
                     <head>163. - Juridiction Mixte. — Compétence en cas de recours en garantie;
                         caractère incident du recours; compétence sur T action principale entraînant
                         compétence sur l'action en garantie entre parties de même nationalité; cas
@@ -970,7 +981,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0080">
                     <head>164. - Juridiction Mixte. .— Compétence en cas de recours en garantie;
                         caractère indépendant de l'action principale et du recours en garantie; cas
                         où i le recours en garantie doit donner lieu j à la déclaration
@@ -1159,7 +1170,7 @@
                             demandes en garantie. «</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0090">
                     <head>165. - Juridiction Mixte. — Compétence en matière d'hypothèque; étendue;
                         compétence à statuer sur une question touchant à rinaliénabüité de
                         l'immeuble; incompétence des tribunaux de statut personnel. — Statut
@@ -1341,13 +1352,13 @@
                     </div>
                 </div>
                 <pb n="227" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
-                    <head>166. - Juridiction Mixte. — Compétence; exceptions d'incompétence à
-                        raison de la matière du litige et à raison de la nationalité des parties;
-                        priorité d'examen de la question de compétence. — Nationalité hellénique;
-                        accord du 13 Octobre 1926 entre la Grèce et l'Albanie; cas de l'épouse et
-                        des enfants des hellènes devenus Albanais. — Albanais; incompétence des
-                        Juridictions Mixtes à connaître des procès civils entre Albanais.</head>
+                <div type="case" xml:id="gtme-1936-06-0100">
+                    <head>166. - Juridiction Mixte. — Compétence; exceptions d'incompétence à raison
+                        de la matière du litige et à raison de la nationalité des parties; priorité
+                        d'examen de la question de compétence. — Nationalité hellénique; accord du
+                        13 Octobre 1926 entre la Grèce et l'Albanie; cas de l'épouse et des enfants
+                        des hellènes devenus Albanais. — Albanais; incompétence des Juridictions
+                        Mixtes à connaître des procès civils entre Albanais.</head>
                     <div type="summary">
                         <p>I. - Les Tribunaux Mixtes doivent vérifier avant tout le caractère mixte
                             des procès qui leur sont déférés.</p>
@@ -1469,7 +1480,7 @@
                             Tribunaux Consulaires, à saisir les Tribunaux Mixtes. Ceux-ci, en l’état
                             du Réglement d’Organisation Judiciaire ‘Mixte, se refusèrent à une
                             extension de leur juridiction que commandaient sans doute la logique et
-                            l’équité >(V. Gaz. XIX, p. 217, l’étude de Me Raoul Pan-galo; « Les
+                            l’équité &gt;(V. Gaz. XIX, p. 217, l’étude de Me Raoul Pan-galo; « Les
                             Tribunaux Mixtes, forum de droit commun en Egypte. Le cas des Russes »)
                             mais que les textes ne paraissaient point permettre (jug. Caire du 2
                             Avril 1!â, Gaz. XIX, 12-6).</p>
@@ -1487,7 +1498,7 @@
                             lumière par l’arrêt rapporté perdra toute raison de subsister.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0110">
                     <head>167. - Juridiction Mixte. — Etranger assigné par sa faute devant la
                         Juridiction indigène; responsabilité à l'égard de son créancier;
                         dommages-intérêts à allouer à ce dernier par la Juridiction Mixte.</head>
@@ -1510,7 +1521,7 @@
                             Cheikh Ibrahim Bacha c. Abraham Salomon Nahmias.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0120">
                     <head>168. - Juridiction Mixte. .— Exécution d'un jugement indigène; opposition
                         faite par un étranger; compétence du Tribunal Mixte des Référés. — Gage
                         immobilier; cession; transcription postérieure au jugement d'adjudication
@@ -1587,8 +1598,8 @@
                             réelle, il échet de faire droit à l’opposition de l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>169. - Juridiction Mixte. >— Incompétence en cas de difficultés
+                <div type="case" xml:id="gtme-1936-06-0130">
+                    <head>169. - Juridiction Mixte. &gt;— Incompétence en cas de difficultés
                         d'exécution d'une vente entre indigènes, malgré l'existence d'un jugement
                         d'adjudication mixte comme titre originaire. — Difficultés d'exécution d'un
                         contrat de vente entre indigènes; appel en cause du vendeur étranger,
@@ -1684,7 +1695,7 @@
                             cause et même pour la première fois par devant la Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0140">
                     <head>170. - Juridiction Mixte. &lt;— Incompétence en cas d'endossement à un
                         étranger d’un tirage non accepté émis entre sujets locaux.</head>
                     <div type="summary">
@@ -1751,7 +1762,7 @@
                             Juridictions Mixtes sans juridiction.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0150">
                     <head>171. - Juridiction Mixte. — Incompétence; exception non soulevée en
                         première instance; dépens; charge; cas d’un demandeur intimé en appel qui
                         s'était faussement attribué une nationalité étrangère.</head>
@@ -1818,7 +1829,7 @@
                             degrés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0160">
                     <head>172. - Juridiction Mixte. — Instance engagée entre parties de même
                         nationalité; changement de nationalité en cours d’instance; acceptation de
                         la Juridiction consulaire par l'étranger devenu égyptien; portée de la chose
@@ -1880,7 +1891,7 @@
                             Atyat El Ayadi à titre de dommages-intérêts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0170">
                     <head>173. - Juridiction Mixte..— Instruction pénale ouverte,devant les
                         Juridictions Indigènes; cas où il y a lieu à sursis à statuer au civil par
                         la Juridiction Mixte.</head>
@@ -1930,7 +1941,7 @@
                             juges en tant qu’ils ont rejeté la demande de surseoir à statuer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0180">
                     <head>174. - Juridiction Mixte. — Pouvoirs juridictionnels; étendue; pension
                         alimentaire; compétence des Tribunaux du statut personnel; cas de compétence
                         des Tribunaux Mixtes; loi applicable. — Patriarcats; incompétence entre
@@ -2143,7 +2154,7 @@
                             partager l’état de fortune apparemment aisé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-06-0190">
                     <head>175. - Juridiction Mixte. — Prête-nom; cas où il constitue une manœuvre
                         destinée à soustraire les parties indigènes à leur juge naturel;
                         incompétence des Tribunaux Mixtes.</head>
@@ -2971,7 +2982,7 @@
                 <p>(4) de danser en costume de bain;</p>
                 <p>(5) d’amener, de laisser circuler ou de faire baigner des chiens, chevaux ou
                     autres animaux;</p>
-                <p>>6) de jeter des débris de verre, des détritus ou autres matières et objets
+                <p>&gt;6) de jeter des débris de verre, des détritus ou autres matières et objets
                     pouvant blesser ou incommoder les baigneurs;</p>
                 <p>(7) de jouer au football, au water-polo ou de pêcher;</p>
                 <p>(8) d’apporter ou d’utiliser des parasols, des périssoires ou autres embarcations

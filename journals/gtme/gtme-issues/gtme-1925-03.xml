@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1925-03-10">March 10, 1925</date><lb/>
-                    <biblScope unit="volume">Vol. 15</biblScope><lb/>
-                    <biblScope unit="number">No. 173</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1925-03-10">March 10, 1925</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 15</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 173</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -52,13 +63,13 @@
                 <p>D'ÉGYPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
-                <p>Fondateurs > M» MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.</p>
+                <p>Fondateurs &gt; M» MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.</p>
                 <p>Directeur : M- MAXIME PUPIKOFEH, Avocat à la Cour.</p>
                 <p>ABONNEMENTS :</p>
                 <p>—1 à la Gazette (un an).... P.T. 150</p>
                 <p>— au Jonrnal ;</p>
                 <p>— Un an................... • 150</p>
-                <p>— Six mois............. > 85</p>
+                <p>— Six mois............. &gt; 85</p>
                 <p>— Trois mois............. » 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an).......... » 250</p>
@@ -249,7 +260,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0010">
                     <head>135. - Action. — Demande comportant la nécessité d'une expertise;
                         recevabilité. — Retards dans l'exercice d'une action; conséquences. —
                         Juridiction Mixte; acte administratif; atteinte aux droits acquis d'un
@@ -389,7 +400,7 @@
                             rejeter la demande tendant à obtenir cette mesure d’instruction.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0020">
                     <head>136. - Action. — Gouvernement étranger; demande ne mettant pas en {eu sa
                         souveraineté; Juridiction Mixte; compétence. — Assignation; signification à
                         une succursale; nullité.</head>
@@ -522,7 +533,7 @@
                             l’appelante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0030">
                     <head>137. - Action oblique. — Action contre les débiteurs et sous-débiteurs du
                         premier débiteur.</head>
                     <div type="summary">
@@ -545,7 +556,7 @@
                         <p>181.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0040">
                     <head>138. - Action oblique. — Obligations purement civiles entre indigènes; non
                         nécessité du consentement du débiteur cédé. — Conditions d'exercice de
                         l’action oblique; négligence du débiteur. — Obligations; extinction par
@@ -658,7 +669,7 @@
                     </div>
                 </div>
                 <pb n="95" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0050">
                     <head>139. - Appel. — Acquiescement. — Jugement portant condamnation au profit
                         de deux personnes; règlement par le succombant de la quote-part revenant à
                         un des bénéficiaires du jugement; appel irrecevable contre Vautre. — Appel
@@ -737,7 +748,7 @@
                             indépendante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0060">
                     <head>140. - Appel, — Acquiescement; offre de paiement des frais. — Appel; moyen
                         de défense nouveau; admissibilité. ■— Terrains; consignation; charge des
                         frais.</head>
@@ -820,7 +831,7 @@
                             dommages-intérêts devant qui de droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0070">
                     <head>141. - Appel. — Acquiescement. — Paiement des condamnations prononcées par
                         un jugement exécutoire;. présomptions; circonstances spéciales.</head>
                     <div type="summary">
@@ -904,7 +915,7 @@
                             l’exécuter volontairement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0080">
                     <head>142. - Appel. — Action en revendication d'hypothèque; délai spécial de dix
                         jours non applicable.</head>
                     <div type="summary">
@@ -991,7 +1002,7 @@
                             revendication incidente n’est pas applicable à l’espèce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0090">
                     <head>143. - Appel. — Cession du bénéfice dit jugement cédé; notification avant
                         appel; appel dirigé contre le cédant seul; recevabilité.</head>
                     <div type="summary">
@@ -1034,7 +1045,7 @@
                             trouve pas d’objection à l’accueil de ces demandes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0100">
                     <head>144. - Appel. — Contrariété entre deux jugements; cas d'application de
                         l’art.3Q7 C. Proc.; recours inadmissible devant la Cour contre un jugement
                         rendu en degré d'appel.</head>
@@ -1102,7 +1113,7 @@
                             juridiction.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0110">
                     <head>145. - Appel. — Contrariété entre deux jugements; cas d'application de
                         l'art.397 C. Proc.; recours inadmissible devant la Cour contre un jugement
                         rendu en degré d'appel. — Jugements ayant successivement statué sur deux
@@ -1236,7 +1247,7 @@
                             d’irrecevabilité de l’appel soulevée par l’intimé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0120">
                     <head>146. - Appel. — Délai de quinze jours en matière de faillite;
                         applicabilité aux litiges continués ou intentés après concordat.</head>
                     <div type="summary">
@@ -1332,7 +1343,7 @@
                             de l’article 409 du Code de Procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0130">
                     <head>147. - Appel. — Délai; jugement rejetant une revendication du prix de
                         meubles vendus, par le bailleur privilégié. — Bailleur; privilège; droit de
                         revendiquer le prix des meubles vendus; cas de fail-lite; location consentie
@@ -1470,7 +1481,7 @@
                             faits pour la réalisation de ce mobilier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0140">
                     <head>148. - Appel. — Demande de radiation équivalente à désistement; opposition
                         de l'intimé non admissible.</head>
                     <div type="summary">
@@ -1531,7 +1542,7 @@
                             définitif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0150">
                     <head>149. - Appel. —■ Demande nouvelle; irrecevabilité pour cause de défaut de
                         signification des nouvelles conclusions de première instance au défendeur
                         défaillant (art. 336 C. Proc.). ■— Appel incident; rejet pour défaut
@@ -1588,7 +1599,7 @@
                             l’intimé Charles Ghali ne peut être frappée d’appel par lui.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0160">
                     <head>150. - Appel. — Demande nouvelle; transformation en degré d'appel;
                         irrecevabilité à relever d'office.</head>
                     <div type="summary">
@@ -1644,7 +1655,7 @@
                             Solomonidis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0170">
                     <head>151. - Appel. — Demande reconventionnelle; appel contre la partie d'un
                         jugement qui y a fait droit; taux. — Billet à ordre; aval donné par lettre;
                         négociabilité.</head>
@@ -1740,7 +1751,7 @@
                             Rachid Yared et le garant solidaire, Joseph Zogheb.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0180">
                     <head>152. - Appel. — Exception d'incompétence; acquiescement; charge des frais
                         d'appel.</head>
                     <div type="summary">
@@ -1781,7 +1792,7 @@
                             l’affaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0190">
                     <head>153. - Appel. — Exploit portant la date d'un seul jugement;
                         inadmissibilité de l'extension du recours à un autre jugement. — Motifs
                         insuffisants.</head>
@@ -1851,7 +1862,7 @@
                             il réclame le paiement, la susdite somme qu’il doit à l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0200">
                     <head>154. - Appel. — Jugements interlocutoires; irrecevabilité de l'appel au
                         cours des mesures d'instruction ordonnées et avant le jugement
                         définitif.</head>
@@ -2030,7 +2041,7 @@
                             intervenir.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0210">
                     <head>155. - Appel. — Jugements interlocutoires; irrecevabilité de l'appel au
                         cours des mesures d'instruction ordonnées et avant le jugement définitif;
                         irrecevabilité à relever d'office.</head>
@@ -2075,7 +2086,7 @@
                             p. 207, XXII p. 140 et XXVIII p. 150 parmi d’autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0220">
                     <head>156. - Appel. —Jugements interlocutoires; irrecevabilité de l'appel au
                         cours des mesures d'instruction ordonnées et avant le jugement définitif;
                         réserves faites à une première réunion d'enquête.</head>
@@ -2126,7 +2137,7 @@
                             par les Chambres réunies de la Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0230">
                     <head>157. - Appel. — Jugement ordonnant une comparution personnelle; cas où il
                         a le caractère interlocutoire; appel; recevabilité. — Comparution
                         personnelle; cas de difficultés matérielles; commission rogatoire.</head>
@@ -2205,7 +2216,7 @@
                             fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0240">
                     <head>158. - Appel. — Motifs; contestation générique; caractère insuffisant. —
                         Avocat; honoraires; convention stipulant paiement partiel après solution de
                         l'affaire; interprétation; usage; droit aux honoraires même en cas de perte
@@ -2387,7 +2398,7 @@
                             l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0250">
                     <head>159. - Appel. — Motifs; insuffisance; nullité.</head>
                     <div type="summary">
                         <p>Est nul pour insuffisance de motifs, et aux termes de l’art. 406 C. Proc,
@@ -2404,7 +2415,7 @@
                             Nicolas Modonaa c. Raoul B. Cohen &amp; Co. et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0260">
                     <head>160. - Appel. — Recevabilité en cas de défaut faute de conclure. — Appel
                         du garant; bénéfice pour le garanti.</head>
                     <div type="summary">
@@ -2425,7 +2436,7 @@
                             de la Cour citée au Bull. XXI, 28, XXII, 383, XXIII, 58 et 230.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0270">
                     <head>161. - Appel. — Taux; jugement ayant statué sur une demande inférieure à
                         L.E. 100; cas où la demande a été réduite à la suite d'une exception de
                         prescription; maintien de la compétence acquise; irrecevabilité de
@@ -2479,7 +2490,7 @@
                             frais de 1er degré à la charge de l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0280">
                     <head>162. - Appel. — Taux; jugement ayant statué sur une demande inférieure à
                         L.E. 100; incompétence non soulevée.</head>
                     <div type="summary">
@@ -2539,7 +2550,7 @@
                             rendu.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0290">
                     <head>163. - Opposition. — Appel interjeté et jugé après l'opposition;
                         désistement tacite de l'opposition; irrecevabilité.</head>
                     <div type="summary">
@@ -2576,7 +2587,7 @@
                             l’opposition de la Dame Olga Kyriaco Macridi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0300">
                     <head>164. - Opposition. — Arrêt de défaut; cas de non appel du jugement. —
                         Forme de l'opposition; conclusions prises à la barre; irrecevabilité.</head>
                     <div type="summary">
@@ -2639,7 +2650,7 @@
                             application.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0310">
                     <head>165. - Opposition. — Jugements par défaut; délai; point de départ;
                         connaissance de l'exécution; présence de la partie condamnée à
                         l’exécution.</head>
@@ -2695,7 +2706,7 @@
                             jour de la saisie susindiquée est recevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-03-0320">
                     <head>166. - Opposition. — Jugements par défaut; délai; point de départ;
                         connaissance de l'exécution; preuve.</head>
                     <div type="summary">

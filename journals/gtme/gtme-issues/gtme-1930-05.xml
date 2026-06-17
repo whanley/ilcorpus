@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1930-05-10">May 10, 1930</date><lb/>
-                    <biblScope unit="volume">Vol. 20</biblScope><lb/>
-                    <biblScope unit="number">No. 235</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1930-05-10">May 10, 1930</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 20</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 235</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -333,7 +344,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0010">
                     <head>166. - Responsabilité. — Abus de droit; propriété; voisinage; démolition
                         d'un ïmjur séparatif d'une hauteur anormale élevé sans intérêt
                         légitime.</head>
@@ -460,7 +471,7 @@
                             confirmer purement et simplement le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0020">
                     <head>167. - Responsabilité. — Abus de droit; propriété; voisinage;
                         responsabilité du constructeur à l'égard des propriétaires voisins;
                         fondations au marteau pilon; mauvais état des immeubles voisins; partage des
@@ -1115,7 +1126,7 @@
                             cet arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0030">
                     <head>168. - Responsabilité. — Accident; bâtiments; chute; bail; clause mettant
                         les réparations à charge du locataire; maintien de responsabilité du
                         propriétaire; défaut d'avis par le locataire au propriétaire du mauvais état
@@ -1234,7 +1245,7 @@
                             et notamment des délits et des quasi-délits commis par lui.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0040">
                     <head>169. - Responsabilité. — Accident; bâtiments; chute; responsabilité du
                         fait des choses; nécessité d'une faute du propriétaire de la chose; théorie
                         du risque; inadmissibilité en droit mixte; art. 1384 et 1386 C. Nap.;
@@ -1526,7 +1537,7 @@
                             déboutés par les premiers juges de leur demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0050">
                     <head>170. - Responsabilité. — Accident; bâtiments; chute; responsabilité du
                         fait des choses; nécessité d'une faute du propriétaire de la chose; théorie
                         du risque; inadmissibilité en droit mixte; chute du volet d'un appartement;
@@ -1631,7 +1642,7 @@
                     </div>
                 </div>
                 <pb n="1S7" rendition="Gatette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0060">
                     <head>171. - Responsabilité. — Accident; bâtiments; dégâts causés à un immeuble;
                         action intentée par le propriétaire apparent dont le droit de propriété
                         n'est pas contesté; recevabilité. — Preuve; expertise opérée devant un
@@ -1739,7 +1750,7 @@
                             sur ce point.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0070">
                     <head>172. - Responsabilité. — Accident; cheval emballé par suite de causes
                         extérieures constituant cas de force majeure; non responsabilité du
                         propriétaire du cheval.</head>
@@ -1788,7 +1799,7 @@
                             faute commise par le défendeur ou par ses employés en l'occurrence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0080">
                     <head>173. - Responsabilité. — Accident; collision d'un tramway et d'un camion;
                         passade à niveau; hiérarchie entre la circulation des trams et la
                         circulation ordinaire; responsabilité de l'auteur de toute perturbation de
@@ -1821,7 +1832,7 @@
                             Arvanitis),</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0090">
                     <head>174. - Responsabilité. — Accident; collision d'un tramway et d'une,
                         charrette; responsabilité commune du wattman et du charretier; faute de ce
                         dernier; condamnation solidaire de celui-ci jusqu'à concurrence du degré
@@ -1921,7 +1932,7 @@
                             en vue de la préparation de cette activité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0100">
                     <head>175. - Responsabilité. — 'Accident d'automobile; cas d'encombrement de la
                         chaussée par un groupe de piétons; faute du chauffeur. —
                         Assurance-responsabilité; défaut d'action directe. de la victime contre
@@ -1963,7 +1974,7 @@
                             question, a été d’un avis différent.</p>
                         <p>L’arrêt rapporté, dont on ne saurait guère discuter l’argumentation très
                             juridique', rend plus que souhaitable l’intervention législative, en la
-                            matière, à un> double point de vue.</p>
+                            matière, à un&gt; double point de vue.</p>
                         <p>D’une part, en effet, il serait équitable qu’une disposition inspirée de
                             la Loi française du 28 Mai 1913 vînt non seulement reconnaître à la
                             victime un privilège sur une indemnité à la distribution de laquelle les
@@ -2098,7 +2109,7 @@
                             appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0110">
                     <head>176. - Responsabilité. — Accident d'automobile causé par un conducteur
                         occasionnel; cas où le propriétaire de l'automobile est solidairement
                         responsable avec l'auteur de l'accident. — Assurance-automobile; désignation
@@ -2380,7 +2391,7 @@
                             ladite Dame Delalande résulte de cette dernière décision.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0120">
                     <head>177. - Responsabilité. — Accident d'automobile causé par un mineur; faute
                         de ce dernier; absence de responsabilité civile du père; représentation du
                         mineur en justice.</head>
@@ -2438,7 +2449,7 @@
                         <p>Qu’il y a donc lieu de faire droit à la demande. '</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0130">
                     <head>178. - Responsabilité. — Accident d'automobile; collision d'une auto
                         engagée dans un passage à niveau avec un tramway; faute commune du chauffeur
                         et du watman.</head>
@@ -2457,7 +2468,7 @@
                             Henry Hornboatel c Tho Alexandria Ramleh Railwaya Co Ltd).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0140">
                     <head>179. - Responsabilité. — Accident d'automobile; faute du chauffeur
                         conduisant sans attention suffisante une auto aux environs d'une école au
                         moment de la sortie; jeune écolier, victime d'un accident; absence de faute
@@ -2479,7 +2490,7 @@
                     <div type="observations">
                         <p>Note. — L’arrêt expose:</p>
                         <p>Vu le jugement rendu le 4 Janvier 1928 par le Tribunal Civil de Mansourah
-                            Ci >n-damnant Mohamed bey Ibrahim "El Cïià-haoui à payer à Antoine
+                            Ci &gt;n-damnant Mohamed bey Ibrahim "El Cïià-haoui à payer à Antoine
                             Hadjidimitriou la somme de L.E, 100 et ses intérêts à 5 0/0 l’an à
                             partir du 25 Octobre 1924;</p>
                         <p>Vu l’appel principal de Mohamed bey Ibrahim El Chahaoui et l’appel
@@ -2507,7 +2518,7 @@
                             extrajudiciaires devant la Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0150">
                     <head>180. - Responsabilité. — Accident d'au-tomobile; faute du chauffeur pour
                         excès de vitesse; autobus en stationnement; prudence requise.</head>
                     <div type="summary">
@@ -2609,7 +2620,7 @@
                             charge de Mugnier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0160">
                     <head>181. - Responsabilité. — Accident d’automobile; marche-arrière; faute
                         exclusive du chauffeur.</head>
                     <div type="summary">
@@ -2665,7 +2676,7 @@
                             accident...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0170">
                     <head>182. - Responsabilité. — Accident d’automobile; responsabilité objective;
                         théorie du risque; inadmissibilité en droit mixte; nécessité de la preuve
                         d'une faute; permis de conduire périmé; contravention n'équivalant pas à une
@@ -2743,7 +2754,7 @@
                             faute de l’intimé, il échet de confirmer le jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0180">
                     <head>183. - Responsabilité. — Accident d'automobile; responsabilité objective;
                         théorie du risque; inadmissibilité en droit mixte; nécessité de la preuve
                         d'une faute; propriétaire ayant confié sa voiture à un tiers; accident causé
@@ -2839,7 +2850,7 @@
                             circonstances démontrent incomplets ou périmés...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0190">
                     <head>184. - Responsabilité. — Accident de chemin de fer; imprudence de la
                         victime, en bas âge; non responsabilité de la Compagnie.</head>
                     <div type="summary">
@@ -2894,7 +2905,7 @@
                             prévenir.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0200">
                     <head>185. - Responsabilité. — Accident de chemin de fer; tamponnement d'un
                         camion par un train à un passage à niveau; panne causée par le mauvais état
                         du passage à niveau; faute de VAdministration des Chemins de Fer.</head>
@@ -3011,7 +3022,7 @@
                             n’arrivent pas à se mettre d’accord sur ce point.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0210">
                     <head>186. - Responsabilité. — Accident dtr tramway; arrêt non réglementaire;
                         obligations du receveur avant de donner le signal du départ; imprudence du
                         voyageur; faute commune.</head>
@@ -3089,7 +3100,7 @@
                             ex æquo et bono devoir fixer cette indemnité à L.E. 30.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0220">
                     <head>187. - Responsabilité. — 'Accident de tramway; voyageur resté sur le
                         marchepied d’une voiture; chute; non responsabilité de la Compagnie.</head>
                     <div type="summary">
@@ -3148,7 +3159,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0230">
                     <head>188. - Responsabilité. — Accident du travail; droit à indemnité de
                         l’accidenté par application de l’article il C. Civ.; responsabilité du
                         patron en dehors de toute faute. — Théorie du risque professionnel;
@@ -3283,7 +3294,7 @@
                             payait régulièrement ses salaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0240">
                     <head>189. - Responsabilité. — Actes de négligence ou d'imprudence; accident
                         causé par un rail; action dirigée contre une Compagnie de tramways;
                         recherche de la Véritable nature des rapports de celle-ci avec un
@@ -3375,7 +3386,7 @@
                             l’accident.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0250">
                     <head>190. - Responsabilité. — Actes de négligence oit d'imprudence; certificat
                         hypothécaire; omission; responsabilité du Greffe; cas où elle est exclue par
                         la négligence de l'intéressé. — Actes illicites; action en
@@ -3782,7 +3793,7 @@
                             lieu de suivre les parties plus outre en leur discussion.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0260">
                     <head>191. - Responsabilité. —Actes de négligence ou d'inéprudence. — Concession
                         de l'exclusivité de la vente d'un produit; inefficacité de ce dernier;
                         garantie assumée par le concédant; résiliation du contrat aux torts cl
@@ -3858,7 +3869,7 @@
                             jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0270">
                     <head>192. - Responsabilité. — Actes de négligence ou d'imprudence. —
                         Reconnaissances des Monts-de-Piété; création de fausses reconnaissances par
                         un employé, au moyen de l'utilisation frauduleuse des imprimés et du timbre
@@ -4917,7 +4928,7 @@
                         <p>Pour constater si la faute commise a pu occasionner ce préjudice il faut
                             se rendre compte de ce qui s’est passé.</p>
                         <p>La demanderesse dit avoir acheté les 26 reconnaissances en achat ferme du
-                            nommé «Patounas > par deux contrats des 8 et 16 Janvier 1929 pour un
+                            nommé «Patounas &gt; par deux contrats des 8 et 16 Janvier 1929 pour un
                             prix total de L.E. 3383 et fraction.</p>
                         <p>Elle conteste avoir eu des rapports avec les Hammam.</p>
                         <p>Elle dit que Patounas était fils d’un riche entrepreneur décédé et
@@ -4989,7 +5000,7 @@
                             protection de la justice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0280">
                     <head>193. - Responsabilité. — Actes de négligence ou d'imprudence; saisie
                         administrative due à une erreur; faute de VAdministration, même de bonne
                         foi.</head>
@@ -5054,7 +5065,7 @@
                             ■ y■: .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0290">
                     <head>194. - Responsabilité. — Administration; excès de pouvoirs; Tir aux
                         pigeons; règlement administratif visant le tenancier du stand; délit
                         commis.par.un tireur à l'égard du contrôleur du tir dans l'exercice de ses
@@ -5138,7 +5149,7 @@
                         <p>Le condamne en outre aux dépens...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0300">
                     <head>195. - Responsabilité. — Adminislra-lian publique (Municipalité
                         d'Alexandrie'); travaux publics; obligation générale de surveillance;
                         responsabilité directe.</head>
@@ -5171,7 +5182,7 @@
                             Messina, Juridiction administrative, No. 13, p. 56-57.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0310">
                     <head>196. - Responsabilité. — Aliments; art. 217 et 218 C. Civ. ne visant que
                         la filiation légitime; enfant naturel; prétendu aveu de paternité; défaut de
                         preuve; pension alimentaire réclamée par devant la Juridiction mixte;
@@ -5271,7 +5282,7 @@
                             de la débouter de cette demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0320">
                     <head>197. - Responsabilité. — Dépositaire; aubergiste; vol dans un hôtel
                         d'objets, appartenant aux voyageurs; responsabilité de l'hôtelier; cas où le
                         dépôt des valeurs à la direction de l'hôtel ne pouvait être exigé.</head>
@@ -5339,7 +5350,7 @@
                             le montant de lu condamnation à L.E. 26,750 mill.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0330">
                     <head>198. - Responsabilité. — Diffamation; attaques.politiques; droit de
                         pétition d'une colonie étrangère auprès de son Gouvernement pour le rappel
                         de son représentant diplomatique; défaut de base lé-’gale pour des
@@ -5501,7 +5512,7 @@
                             estime devoir fixer à L.E. •J 000.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0340">
                     <head>199. - Responsabilité. — Diffamation; droit de défense; allégation
                         calomnieuse portée' dans les conclusions d'une partie contre son adversaire;
                         rétractation ultérieure; droit de l'adversaire à des
@@ -5518,7 +5529,7 @@
                             Ayad c. R. 8. N. et M. Caesir).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0350">
                     <head>200. - Responsabilité. — Dommages-intérêts; accident; frais médicaux et
                         salaire de la victime pendant son immobilisation, payés par son patron;
                         action de ce dernier contre l'auteur responsable de l'accident en
@@ -5589,7 +5600,7 @@
                         <p>Qu’il convient en conséquence de faire droit à la demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0360">
                     <head>201. - Responsabilité. — Dommages-intérêts; accident; indemnité;
                         évaluation; pension servie par la victime, de son vivant, à ses père et
                         mère, ayant à leur charge ses sœurs mineures; droit des père et mère à des
@@ -5685,7 +5696,7 @@
                             préjudice qu’ils ont souffert.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0370">
                     <head>202. - Responsabilité. — Dommages-intérêts; accident; solidarité des
                         auteurs responsables.</head>
                     <div type="summary">
@@ -5742,7 +5753,7 @@
                             compris certains massages, la somme de L.E. 40.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0380">
                     <head>203. - Responsabilité. — Dommages-intérêts; accident; solidarité des
                         auteurs responsables; condition; défaut de solidarité en cas de quasi-délits
                         successifs et distincts.</head>
@@ -5907,7 +5918,7 @@
                             sentenza mérita conforma.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0390">
                     <head>204. - Responsabilité. — Dommages-intérêts; indemnité accordée par
                         décision définitive; intérêts de ladite somme pouvant être réclamés par
                         action séparée lorsqu'ils n'ont point été compris dans la demande
@@ -5997,7 +6008,7 @@
                             capitalisation est parfaitement justifiée</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0400">
                     <head>205. - Responsabilité. — Dommages-intérêts; préjudice moral; distinction
                         entre la réparation d'un préjudice moral réel et une simple réparation
                         morale.</head>
@@ -6018,7 +6029,7 @@
                             eff. Ghorab).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0410">
                     <head>206. - Responsabilité. — Propriétaire; boab; qualité de préposé du
                         propriétaire; mission de garde; vol commis dans l'appartement d'un
                         locataire; responsabilité du propriétaire en cas de faute ou de négligence
@@ -6132,7 +6143,7 @@
                             jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0420">
                     <head>207. - Responsabilité. — Propriétaire; responsabilité délictuelle envers
                         ses locataires pour les conséquences d'ordres donnés au boab d'interdire aux
                         locataires l'accès de leur appartement; blessures causées au locataire par
@@ -6323,7 +6334,7 @@
                             par défaut à son égard.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0430">
                     <head>208. - Responsabilité. — Propriétaire; ■responsabilité; limites; contrat
                         d'entreprise; cas où l'entrepreneur est le préposé du propriétaire; défaut
                         d'intervention du propriétaire dans Vexécution des travaux; dommage causé à
@@ -6408,7 +6419,7 @@
                             propriétaire, il aurait pris ce soin.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0440">
                     <head>209. - Responsabilité. — Propriétaire; responsabilité; limites; contrat
                         d'entreprise; cas où l'entrepreneur est le préposé du propriétaire; travaux
                         de canalisation confiés par le Gouvernement à un entrepreneur; accident;
@@ -6534,7 +6545,7 @@
                             elle...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-05-0450">
                     <head>210. - Responsabilité. — Quasi-délit; ordonnance de non lieu rendue par la
                         Juridiction pénale Consulaire hellénique; défaut d'autorité de chose jugée
                         devant la juridiction civile; admissibilité d'une action en responsabilité
@@ -7398,7 +7409,7 @@
                 <p>(♦) Cette loi n’a été approuvée par fAssemblée Générale de la Cour d’Appel Mixte
                     que le 31 Mai 1930. (Note de la RédJ.</p>
                 <p>modifiant la Loi No. 1 de 1901 sur les établissements publics, sera abrogé, sauf
-                    en ce qui concerne les infractions’-qui n’auraient l>as été définitivement
+                    en ce qui concerne les infractions’-qui n’auraient l&gt;as été définitivement
                     jugées avant la mise en vigueur de la présente loi.</p>
                 <p>Art. 3. — Nos Ministres de l’intérieur et de la Justice sont chargés, chacun, en
                     ce qui le concerne, de l’exécution de la présente loi qui entrera en vigueur
@@ -7418,8 +7429,8 @@
                     la</p>
                 <p>GAZETTE DES TRIBUNAUX MIXTES D EGÏPTE</p>
                 <p>Janvier</p>
-                <p>1928 > Actes de commerce. - Effets de commerce. - Opérations de Bourse. - Vente
-                    de coton.</p>
+                <p>1928 &gt; Actes de commerce. - Effets de commerce. - Opérations de Bourse. -
+                    Vente de coton.</p>
                 <p>Février » ■ Wakf.</p>
                 <p>Mars » - Partage immobilier. - Préemption. -</p>
                 <p>Retrait d’indivision.-Vente immobilière.</p>

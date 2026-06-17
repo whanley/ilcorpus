@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0035-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0035-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1945-05-10">May 10, 1945</date><lb/>
-                    <biblScope unit="volume">Vol. 35</biblScope><lb/>
-                    <biblScope unit="number">No. 415</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1945-05-10">May 10, 1945</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 35</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 415</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -197,7 +208,7 @@
                 <p>MM L. PANGALO et R.s8CHEMEIL (Directeur/ au Caire) M« E. DEGIAÜDÉ (Rédacteur en
                     Chef).</p>
                 <p>Me L. BAB.DA (Secrétaire de la rédaction)</p>
-                <p>M> A. FADEL (Directeur à Mansourah).</p>
+                <p>M&gt; A. FADEL (Directeur à Mansourah).</p>
                 <p>ABONNEMENTS</p>
                 <p>Administrateur-Gérant : Joseph A. Degiarde.</p>
                 <p>Pour la Publicité:</p>
@@ -207,7 +218,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE.</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-05-0010">
                     <head>75. - Vente avec réserve de propriété. — Clause de reservati dominii;
                         automobiles; bonne foi du sous-acquéreur; conditions.</head>
                     <div type="summary">
@@ -395,7 +406,7 @@
                             184-251, l’arrêt du 21 Mai 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-05-0020">
                     <head>76. - Vente avec résolue de propriété. — Clause de reservati dominii;
                         automobiles; bonne foi du sous-acquéreur; présomption; mauvaise foi; charge
                         de la preuve; risques assumés par le vendeur.</head>
@@ -524,7 +535,7 @@
                             184-251, l’arrêt du 21 Mai 1935, discuté par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-05-0030">
                     <head>77. - Vente avec réserve de propriété. — Clause de reservati dominii;
                         faculté d'exercice quel que soit le montant du solde dû; maintien de son
                         bénéfice en cas de demande de paiement du solde du prix, et de commandement;
@@ -647,9 +658,9 @@
                             droits de propriété;</p>
                         <p>Attendu, enfin, que la Société appelante est mal venue à prétendre que
                             les montants ' par elle reçus des acheteurs seraient absorbés, non
-                            seulement par « la valeur locative )> de la machine, mais encore par la
-                            dépréciation subie par cette machine installée dans les villages depuis
-                            si longtemps, puisqu’il suffit de lui rappeler, ainsi qu’il a été
+                            seulement par « la valeur locative )&gt; de la machine, mais encore par
+                            la dépréciation subie par cette machine installée dans les villages
+                            depuis si longtemps, puisqu’il suffit de lui rappeler, ainsi qu’il a été
                             ci-haut retenu, qu’elle a définitivement opté pour le paiement du prix
                             et non pour la résolution du contrat dans lequel cas, d’ailleurs, elle
                             n’aurait eu aucun droit de conserver les versements qu’elle a reçus à
@@ -666,7 +677,7 @@
                             et 13-7 (et la note), les arrêts du 23 Avril et du 23 Décembre 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-05-0040">
                     <head>78. - Vente avec réserve de propriété. — Clause de reservati dominii;
                         machines agricoles; immobilisation par destination; impossibilité juridique.
                         — Locations-ventes; assimilation aux'ventes avec réserve de propriété;
@@ -785,7 +796,7 @@
                             l’arrêt du 19 Janvier 1932. et les autres arrêts cités en note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-05-0050">
                     <head>79. - Vente avec réserve de propriété. — Clause de reservati dominii;
                         stipulation contractuelle autorisant le vendeur à exercer son droit de
                         reprise après saisie-revendication; validité.</head>
@@ -993,8 +1004,8 @@
                     Décembre 1944, dispose dans ses articles 31, 32 et 33 que:</p>
                 <p>Article 31. « La demande en obtention des états et certificats A’os 2, 3 et 4
                     visés à l’article 21 de la loi devra être adressée aux autorités compétentes sur
-                    des formules spéciales, modèles A'03 3, 4 et 5 « Successions >j suivant le cas.
-                    Ces formules pourront être obtenues aux Mâmouriehs des Impôts.</p>
+                    des formules spéciales, modèles A'03 3, 4 et 5 « Successions &gt;j suivant le
+                    cas. Ces formules pourront être obtenues aux Mâmouriehs des Impôts.</p>
                 <p>» Les intéressés présenteront ces formules, dûment remplies, au Màmour des lm-<pb
                         n="138" rendition="Gazette des Tribunaux Mixtes."/>pôts lequel y consignera,
                     par écrit, qu'ils sont autorisés à les présenter à l'autorité compétente et ce
@@ -2179,7 +2190,7 @@
                 <p>maximum des prix et bé-dans le commerce des ar-</p>
                 <p>ticles suivants sera fixé, tel qu’il qué devant chacun d’eux:</p>
                 <p>— € “2 S</p>
-                <p>H &lt;■> £</p>
+                <p>H &lt;■&gt; £</p>
                 <p>® § T) a»</p>
                 <p>Genre suivant la di- 5 h “</p>
                 <p>vision prévue à l’ar- 5J g S ®</p>

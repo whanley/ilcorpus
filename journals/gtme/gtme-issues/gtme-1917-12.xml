@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1917-12-10">December 10, 1917</date><lb/>
-                    <biblScope unit="volume">Vol. 8</biblScope><lb/>
-                    <biblScope unit="number">No. 86</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1917-12-10">December 10, 1917</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 8</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 86</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -328,7 +339,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0010">
                     <head>22. - Accident maritime. — Amarrage. — Responsabilité.</head>
                     <div type="summary">
                         <p>Le capitaine d’un navire amarré, qui a laissé la chaîne d’amarrage tendue
@@ -344,7 +355,7 @@
                             Gîacoppello c. M. J. Jenks).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0020">
                     <head>23. - Adjudication. — Ordonnances du juge délégué passant outre à la
                         vente.</head>
                     <div type="summary">
@@ -439,7 +450,7 @@
                             prononcé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0030">
                     <head>24. - Appel. — Délais de distance. — Signification à domicile élu. —
                         Inscription en faux. — Déclarations mensongères à l’huissier.</head>
                     <div type="summary">
@@ -465,7 +476,7 @@
                     </div>
                 </div>
                 <pb n="16" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYTPE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0040">
                     <head>25. - Appel. — Demande indéterminée. — Actions mobilières ou immobilières.
                         — Action en paiement d’une indemnité pour résiliation d’une vente
                         immobilière.</head>
@@ -530,7 +541,7 @@
                             échus postérieurement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0050">
                     <head>26. - Appel. — Ordonnances de la Chambre du Conseil. — Détournement
                         d’objets saisis. — Eléments constitutifs du délit.</head>
                     <div type="summary">
@@ -643,7 +654,7 @@
                             attaquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0060">
                     <head>27. - Cassation. — Intention frauduleuse. — Question de fait. —
                         Irrecevabilité du pourvoi.</head>
                     <div type="summary">
@@ -659,7 +670,7 @@
                     </div>
                 </div>
                 <pb n="17" rendition="GAZETTE DES TRIBUNAUX MIXTES d’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0070">
                     <head>28. - Cassation. — Tribunal correctionnel. — Jugement sur opposition. —
                         Défaut d'instruction orale à l'audience. — Nullité substantielle.</head>
                     <div type="summary">
@@ -749,7 +760,7 @@
                             composé d’autres juges. Frais à charge du trésor.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0080">
                     <head>29. - Changement d’état. — Décès. — Notification au créancier. —
                         Interruption d’instance.</head>
                     <div type="summary">
@@ -785,7 +796,7 @@
                             pendant le cours d’une ins-« tance, n’empêche pas la continuation de la
                             « procédure contre elle et que les parties adverses « ne sont pas
                             obligées d’appeler le mari en « cause, si le mariage ne leur pas été
-                            notifié >;</p>
+                            notifié &gt;;</p>
                         <p>Que l’instance introduite contre un tuteur est valablement poursuivie
                             contre lui nonobstant la majorité survenue du mineur tant que le
                             changement d’état n’a pas été notifié ;</p>
@@ -812,7 +823,7 @@
                             Crédit Foncier, et rien de tel n’a été fait.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0090">
                     <head>30. - Clause de non garantie. — Eviction partielle ou totale. —
                         Résiliation de l’adjudication. — Restitution du piix à
                         l'adjudicataire.</head>
@@ -833,7 +844,7 @@
                             Foncier Egyptien et Ct. c. Mohamed Metoually Issa et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0100">
                     <head>31. - Dénégation de signature. — Droit pour le juge d’écarter de piano une
                         pièce dont la signature est déniée.</head>
                     <div type="summary">
@@ -848,7 +859,7 @@
                             Karabetc-fî c. Ahmed Salama Yasso et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0110">
                     <head>32. - Diffamation. — Presse. — Application des art. 212 et suiv. C. Civ.
                         Mixte. — Responsabilité sans intention de nuire. — Publication du jugement.
                         — Demande indéterminée. — Compétence.</head>
@@ -995,7 +1006,7 @@
                             indéterminée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0120">
                     <head>33. - Distribution. — Contredit. — Créance fictive. — Jugement définitif.
                         — Compétence. — Tierce-opposition.</head>
                     <div type="summary">
@@ -1049,7 +1060,7 @@
                             clôture des distributions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0130">
                     <head>34. - Donation déguisée. — Règles, de forme. — Acte authentique. — Vente.
                         — Transcription. — Date certaine. — Affectation hypothécaire.</head>
                     <div type="summary">
@@ -1157,7 +1168,7 @@
                             premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0140">
                     <head>35. - Etablissements publics. — Boissons alcooliques ou fermentées —
                         Caractère personnel des licences. — Lois de police et de sûreté. — Décrets
                         des 13 Juin 1891 et 9 Janvier 1904.</head>
@@ -1185,7 +1196,7 @@
                             Novembre 3917. — Athanaski Nacopoulos c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0150">
                     <head>36. - Expropriation. — Dire. — Lotissement des immeubles expropriés. —
                         Expertise.</head>
                     <div type="summary">
@@ -1201,7 +1212,7 @@
                             Albert Boulad c. Société Anonyme Agricole et industrielle d’Egyptej.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0160">
                     <head>37. - Folle-enchère. — Etendue de la responsabilité du fol-enchérisseur. —
                         Intérêts du prix d’adjudication.</head>
                     <div type="summary">
@@ -1270,7 +1281,7 @@
                             autres questions sont prématurées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0170">
                     <head>38. - Folle-enchère. — Surenchère. — Irrecevabilité. — Acte d’appel. —
                         Nullité de forme. — Ordonnances du Juge Délégué aux Adjudications. —
                         Nullités de procédure tirées des art. 692 et 695 Code de Proc.</head>
@@ -1356,7 +1367,7 @@
                             folle-enchère au profit des appelants doit être maintenue.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0180">
                     <head>39. - Mesures d’instruction. — Déchéance. — Revendication. — Exception de
                         prescription. — Charge de la preuve.</head>
                     <div type="summary">
@@ -1372,7 +1383,7 @@
                             Municipalité d’Alexandrie c. Ibrahim Abdel Hadi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0190">
                     <head>40. - Objets perdus. — Rémunération des personnes les ayant trouvés. —
                         Décret du 18 Mai 1898.</head>
                     <div type="summary">
@@ -1474,7 +1485,7 @@
                             action manifestement mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0200">
                     <head>41. - Pacte « de quota litis ». — Nullité d’ordre public.</head>
                     <div type="summary">
                         <p>Le pacte « de quota litis, » comportant paiement d’un pourcentage sur le
@@ -1560,7 +1571,7 @@
                             une cause illicite, sinon une cause inexistante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0210">
                     <head>42. - Séquestre. — Référés. — Compétence. — Contrats de bail argués de
                         fraude et de fictivité.</head>
                     <div type="summary">
@@ -1584,7 +1595,7 @@
                         <p>Note. — V. dans ce sens: Gaz., VIll, 9-19.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0220">
                     <head>43. - Société de fait. — Défaut de publications. - Irrecevabilité de
                         l’exception tirée par le débiteur de l’annulation éventuelle de cette
                         société. — Appel. — Intimation des parties en cause en première instance. —
@@ -1720,7 +1731,7 @@
                             placier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0230">
                     <head>44. - Tierce-opposition. — Préjudice moral. — Dispositif. — Motifs.</head>
                     <div type="summary">
                         <p>Le préjudice moral, résultant des seuls motifs d’une décision judiciaire,
@@ -1733,7 +1744,7 @@
                             Moussa Saleh c. Aly Sabet Chafik et Zaki Schaoul).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0240">
                     <head>45. - Usure. — Preuve testimoniale. — Conditions de recevabilité.</head>
                     <div type="summary">
                         <p>Il est de principe que pour être admis à la preuve testimoniale de
@@ -1749,7 +1760,7 @@
                             Mached Goubrîal c. Dîmitri). Pyrgos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0250">
                     <head>46. - Vente parfaite. — Cotons. — — Prix à déterminer. — Cessation
                         d’existence de la vente. — Fermeture de la Bourse.</head>
                     <div type="summary">
@@ -1812,7 +1823,7 @@
                             de.cette somme au taux légal à partir de'la demande en justice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0260">
                     <head>47. - Vérification d’écriture. — Expertise.</head>
                     <div type="summary">
                         <p>On ne saurait retenir la sincérité d’une signature, sur la base du seul
@@ -1840,7 +1851,7 @@
                             l’encontre des conclusions de l’expert.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-12-0270">
                     <head>48. -Wakfs. — Cessibilité du droit aux revenus par le bénéficiaire.</head>
                     <div type="summary">
                         <p>S’il est exact que le droit aux revenus d’un wakf n’est ni aliénable, ni

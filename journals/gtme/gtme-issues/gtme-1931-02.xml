@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0021-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0021-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1931-02-10">February 10, 1931</date><lb/>
-                    <biblScope unit="volume">Vol. 21</biblScope><lb/>
-                    <biblScope unit="number">No. 244</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1931-02-10">February 10, 1931</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 21</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 244</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -268,7 +279,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0010">
                     <head>154. - Concordat préventif. — Conditions; dépôt de bilan dans la quinzaine
                         de la cessation des paiements; cessation des paiements établie par un protêt
                         dressé au lieu convenu pour le paiement, autre que celui du domicile du
@@ -307,8 +318,8 @@
                             bilan;</p>
                         <p>Attendu cependant que l’effet protesté à Londres avait été accepté par
                             Charles Anzarut qui a fixé le lieu de paiement pré3 d’une banque de
-                            cette ville, la Société Générale, et la date (22 Février) à laquelle >’
-                            devait être payé,, que c’est donc là qu’il devait être payé par le
+                            cette ville, la Société Générale, et la date (22 Février) à laquelle
+                            &gt;’ devait être payé,, que c’est donc là qu’il devait être payé par le
                             débiteur sous peine de défaillance de sa part qui établit
                             incontestablement sa cessation de paiement;</p>
                         <p>(Omissis)</p>
@@ -318,7 +329,7 @@
                         <pb n="151" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0020">
                     <head>155. - Concordat préventif. — Conditions; dépôt de bilan da.ns la
                         quinzaine de la cessation des paiements; renonciation par les créanciers au
                         bénéfice de leurs protêts; inopérance.</head>
@@ -378,7 +389,7 @@
                             des premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0030">
                     <head>156. Faillite. — Actions résultant de la faillite; contestation mettant en
                         conflit les droits des créanciers d'une faillite; demande. d un bailleur
                         formée contre son locataire tombé en faillite; compétence commerciale. —
@@ -542,7 +553,7 @@
                             à statuer dans la présente affaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0040">
                     <head>157. - Faillite. — Actions résultant de la faillite; jugement rendu sur
                         une demande en annulation d'une vente; appel; applicabilité du délai de
                         quinze jours prévu à l'article 409 C. Com.</head>
@@ -615,7 +626,7 @@
                             fictif et simulé l’acte de ; vente qu’il incrimine. ;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0050">
                     <head>158. - Faillite. —• Bail; déclaration de jaillite du locataire; effet;
                         relocation; différence de loyers à charge de la masse; agencement du fonds
                         de commerce restitué au bailleur; cession ne constituant pas une
@@ -660,7 +671,7 @@
                             privilégié la Daira Youssef Kémal pour la somme de L.E. 218,466 wM en
                             concluant au mal fondé de la demande d’admission de la dite Daira et à
                             sa condamnation à lui payer L.E. 325 montant de la différence entre'la
-                            somme de L.E. ^t></p>
+                            somme de L.E. ^t&gt;</p>
                         <pb n="153" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>seulement qu’il dit devoir pour les loyers des magasins loués à la dite
                             Daïra et la somme de L.E. 575 qu’il prétend lui être due du chef de
@@ -718,12 +729,12 @@
                             trouvait.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>159. Faillite. — Cautions; recours du créancier en cas de faillite du débiteur
-                        principal; étendue et limites; cas où la dette a été réglée par une dation
-                        en paiement tombant sous le coup de l'art. 235 C. Com.; caractère prématuré
-                        du recours contre les cautions; cautions; droit de produire à la faillite du
-                        débiteur principal; conséquences.</head>
+                <div type="case" xml:id="gtme-1931-02-0060">
+                    <head>159. Faillite. — Cautions; recours du créancier en cas de faillite du
+                        débiteur principal; étendue et limites; cas où la dette a été réglée par une
+                        dation en paiement tombant sous le coup de l'art. 235 C. Com.; caractère
+                        prématuré du recours contre les cautions; cautions; droit de produire à la
+                        faillite du débiteur principal; conséquences.</head>
                     <div type="summary">
                         <p>I. — La déclaration en faillite du souscripteur d’un billet à ordre, qui
                             s’est acquitté de sa dette par une dation en paiement susceptible d’être
@@ -801,7 +812,7 @@
                             4917.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0070">
                     <head>160. - Faillite. — Concordat amiable; garantie; cas où elle, ne constitue
                         pas un acte de commerce; demande dirigée contre le-garant seul; compétence
                         du Tribunal Civil. — Concordat amiable; défaut d'acceptation de l'unanimité
@@ -896,7 +907,7 @@
                             charge des créanciers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0080">
                     <head>161 - Faillite. — Concordat; défaut de propositions en temps utile;
                         ordonnance du Juge-Commissaire proclamant l'état d'union; recours; jugement
                         non susceptible d'appel; limites du rôle du Juge-Commissaire; faculté pour
@@ -1080,7 +1091,7 @@
                         <p>Qu’il y a donc lieu de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0090">
                     <head>162. - Faillite. — Concordat; délai à observer entre la vérification des
                         créances et le cote du concordat; caractère exceptionnel de l'art. 118 C.
                         Com. autorisant i admission à la séance même du concordat. — Etat d'union;
@@ -1256,7 +1267,7 @@
                         <p>Frais à la charge de la masse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0100">
                     <head>163. - Faillite. — Concordat; garantie concordataire; action à l'encontre
                         du garant eu paiement des dividendes concordataires; droit individuel à
                         chacun des créanciers; irrecevabilité de l'action en tant qu’exercée par le
@@ -1324,7 +1335,7 @@
                         <p>Qu’il y a donc lieu de confirmer le. jugement dont est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0110">
                     <head>164. - Faillite. — Concordat; garantie concordataire; cas où elle ne
                         constitue pas un acte de commerce; compétence du Tribunal de Commerce. —
                         Action en réalisation de garantie concordataire; cumul des demandes de
@@ -1376,9 +1387,9 @@
                         <p>A u le jugement rendu par défaut le 12 Janvier 1929 par le Tribunal de
                             Commerce uu Cane qui a condamné Khalil bev Abou</p>
                         <p>3 payer ? ,n liaison Sociale Alichael --ons à: Co. et Consorts la somme
-                            de -J.i . ;bl U>m. outre les accessoires re-piesentant le montant du
+                            de -J.i . ;bl U&gt;m. outre les accessoires re-piesentant le montant du
                             solde du dividende concordataire dû par la Raison Sociale
-                            \la-&lt;nïv.L,&amp; C°' C>1 garanti par Abou! Rehab
+                            \la-&lt;nïv.L,&amp; C°' C&gt;1 garanti par Abou! Rehab
                             vièè'11&lt;LoC01îc°rdat Préventif voté le 3 Jan-,,lu 1J.8 et homologué
                             par le Tribunal de Commerce le 21 Janvier 1928;</p>
                         <p>1929- l appel slSn|fié par acte du 29 Juillet A u les pièces;</p>
@@ -1464,7 +1475,7 @@
                         <p>Qu’il y a lieu dès lors de rejeter encore celte défense;...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0120">
                     <head>165. - Faillite. — Concordat; garantie concordataire; cas où elle ne
                         constitue pas un acte de. commerce; compétence du Tribunal de Commerce. —
                         Faillite; créances vérifiées et admises; contestation ultérieure par le
@@ -1564,7 +1575,7 @@
                             éléments du dossier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0130">
                     <head>166. - Faillite. — Concordat; homologation; absence de comptabilité n'y
                         faisant point obstacle.</head>
                     <div type="summary">
@@ -1578,7 +1589,7 @@
                             Mohamed c. H. Barocas èsq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0140">
                     <head>167. - Faillite. — Concordat; homologation; jugement ordonnant d'office le
                         sursis à l'homologation du concordat; recevabilité de l'appel; limites
                         d'application de l'article 410 C. Com. — Concordat; admissibilité malgré
@@ -1623,7 +1634,7 @@
                             et non celui où le , Tribunal a été saisi de l'homologation ou du :
                             rejet du concordat; . )</p>
                         <p>Dès lors le jugement d’un Tribunal qui -a ordonné d’office le sursis peut
-                            être déféré ; à l’appréciation de la Cour comme étant > susceptible
+                            être déféré ; à l’appréciation de la Cour comme étant &gt; susceptible
                             d’appel;</p>
                         <p>Qu'il est constant en fait que les associés qui composent la Raison
                             Sociale Habib et Hanna Day ne sont poursuivis que pour banqueroute
@@ -1641,7 +1652,7 @@
                             autrement statué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0150">
                     <head>168. - Faillite. — Concordat; homologation; opposition; délai; appel du
                         jugement déclarant irrecevable une opposition au concordai; recevabilité;
                         cas où l'examen du fond ne peut être abordé.</head>
@@ -1708,7 +1719,7 @@
                             homologuant un concordat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0160">
                     <head>169. - Faillite. — Concordât; homologation; pouvoir d'appréciation du
                         Tribunal; refus malgré une ordonnance de non-lieu de la Chambre du Conseil
                         saisie de poursuites pour banqueroute frauduleuse.</head>
@@ -1726,8 +1737,8 @@
                             créanciers.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d'Appri. ire Ch.. Prés. if. B. Favenc. 18 Février 1931.
-                            Abdel Axii Moustafa c. Alexandre 1)083 esq.).</p>
+                        <p>(Cour d'Appri. ire Ch.. Prés. if. B. Favenc. 18 Février 1931. Abdel Axii
+                            Moustafa c. Alexandre 1)083 esq.).</p>
                     </div>
                     <div type="observations">
                         <p>Note. — L'arrêt expose:</p>
@@ -1785,7 +1796,7 @@
                             montant; que l’intérêt des créanciers est donc illusoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0170">
                     <head>170. - Faillite. — Concordat; homologation; refus basé sur de simples
                         présomptions de détournement d'actif; rejet de la demande d’homologation
                         injustifié en cas d'avantage évident du concordat pour les
@@ -1849,7 +1860,7 @@
                             suspecte qu’ils avaient consentis antérieurement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0180">
                     <head>171. - Faillite. — Concordat; homologation; refus basé sur l’existence de
                         cessions de créances consenties au cours de la faillite, circonstance
                         insuffisante pour le refus d'homologation, à défaut de preuve de dol ou de
@@ -1928,7 +1939,7 @@
                             créanciers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0190">
                     <head>172. - Faillite. — Concordat; homologation; refus basé sur l'intérêt
                         public.</head>
                     <div type="summary">
@@ -1944,7 +1955,7 @@
                             Abdel Baki El Bittar c. Léon Ilanoka èsq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0200">
                     <head>173. - Faillite. — Concordai; homologation; refus plaçant de plein droit
                         les créanciers en état d'union; nouveau concordat; inadmissibilité à défaut
                         d'acceptation unanime.</head>
@@ -1986,7 +1997,7 @@
                             aux intérêts de la faillite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0210">
                     <head>174. - Faillite. -— Concordat; homologation; réouvertures successives de
                         la faillite ne faisant pas obstacle à l'homologation du noitrcau concordat
                         en cas de bonne foi du failli.</head>
@@ -2044,7 +2055,7 @@
                             entièrement exécutés par les faillis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0220">
                     <head>175. - Faillite. — Concordat obtenu à l'étranger; exécution en Egypte
                         subordonnée à la condition de réciprocité; concordat obtenu en Allemagne;
                         inopposabilité nu créancier égyptien qui n'y a point participé.</head>
@@ -2189,7 +2200,7 @@
                             faillite déclarée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0230">
                     <head>176. - Faillite. — Concordat; résolution; différence entre le texte des
                         propositions concordataires signées par les créanciers et les conditions
                         actées au procès-verbal; concordat homologué constituant la loi des
@@ -2248,7 +2259,7 @@
                             Belilos et Dorra résolu et leur faillite réouverte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0240">
                     <head>177. - Faillite. — Concordat; résolution; réouverture de la faillite;
                         demande formée par le syndic; défaut de qualité; fonction à une demande
                         formée par des créanciers concordataires.</head>
@@ -2291,7 +2302,7 @@
                             d’une demande ayant le même objet...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0250">
                     <head>178. - Faillite. — Concordat sur concordat; admissibilité soumise à
                         l'appréciation du juge.</head>
                     <div type="summary">
@@ -2352,7 +2363,7 @@
                             d’eux ne se présente à la barre pour faire opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0260">
                     <head>179. - Faillite. —• Concordat; vote; refus d'homologation; nouvelles
                         propositions; admissibilité; renvoi devant le Juge-Commissaire.</head>
                     <div type="summary">
@@ -2395,7 +2406,7 @@
                         <p>Frais à la charge du failli.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0270">
                     <head>180. - Faillite. •— Date de la cessation des paiements; demande de
                         modification de la date primitivement fixée; délai fixé par l'art. 408 C.
                         Com., accordé aux créanciers agissant dans l'intérêt de la masse; délai fixé
@@ -2482,7 +2493,7 @@
                         <p>r-.im1' leS "ombreux protêts faits contre</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0280">
                     <head>181. - Faillite. — Date de la cessation des paiements; fixation; critérium
                         serrant a déterminer celte date; protêt unique suivi de paiement.</head>
                     <div type="summary">
@@ -2530,7 +2541,7 @@
                             pour la fixation de la date de la cessation des paiements...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0290">
                     <head>182. - Faillite. — Déclaration; créance servant de base à la demande en
                         faillite; conditions requises.</head>
                     <div type="summary">
@@ -2596,7 +2607,7 @@
                             la demande par elle formée contre son débiteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0300">
                     <head>183. - Faillite. — Déclaration; créance servant de base à la demande en
                         faillite; garantie solidaire donnée à une dette commerciale.</head>
                     <div type="summary">
@@ -2638,7 +2649,7 @@
                             contesté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0310">
                     <head>184. - Faillite. —- Déclaration; demande basée sur une créance consistant
                         en accessoires excédant le principal; assignation précédée de réclamations
                         réitérées; caractère non vexatoire.</head>
@@ -2696,7 +2707,7 @@
                             contestations existant entre parties aient été solutionnées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0320">
                     <head>185. - Faillite. — Déclaration; qualité de commerçant; contestation;
                         charge de la preuve; principe. — Qualité de commerçant; fourniture d'eau par
                         un propriétaire foncier ne constituant pas un acte de commerce; exploitation
@@ -2733,7 +2744,7 @@
                             2tikhail c. Deutsches Kohlen Depot et autre èsq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0330">
                     <head>186. - Faillite. — Déclaration; qualité de commerçant; exercice habituel
                         d'actes de' commerce; indication de la qualité de commerçant dans un acte
                         passé par le débiteur; conséquences.</head>
@@ -2794,7 +2805,7 @@
                     </div>
                 </div>
                 <pb n="165" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0340">
                     <head>187. - Faillite. — Déclaration; qualité de ■commerçant; présomption créée
                         par l'emprunt de cette qualité; renversement du [aideau de la preuve;
                         circonstance révélant la qualité de commerçant.</head>
@@ -2856,7 +2867,7 @@
                             appelée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0350">
                     <head>188. - Faillite. — Déclaration pour inexécution des. conditions d'un
                         concordat amiable; inexécution découlant du fait du garant; responsabilité
                         de ce dernier ne faisant pas échec à la déclaration en faillite du
@@ -2921,7 +2932,7 @@
                             confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0360">
                     <head>189. - Faillite. — Dessaisissement du failli; actions intéressant la
                         masse; recours exercé par le failli personnellement; conditions de
                         recevabilité de l'appel; voies de recours extraordinaires; requête civile;
@@ -3000,7 +3011,7 @@
                             éventuellement résulter pour eux de cette circonstance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0370">
                     <head>190. -, Faillite. — Effets; contrats pas-'sés par le failli antérieurement
                         au jugement déclaratif; obligations de la masse; faillite de l entrepreneur;
                         paiements effectués par le maître aux sous-traitants; validité. — Faillite;
@@ -3190,7 +3201,7 @@
                             la somme de L.E. &lt;1 et 670 mm., déposée à la Caisse du Tribunal.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0380">
                     <head>191. - Faillite. — Effets; principe de la territorialité; syndic étranger;
                         défaut de qualité en Egypte. — Lettre de change; defaut d'acceptation;
                         propriété de la provision; faillite du tireur; opposition inadmissible en
@@ -3354,7 +3365,7 @@
                             qui doivent comprendre un tiers des honoraires de Me M...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0390">
                     <head>192. - Faillite. — Etat d'union; réclamation du syndic de l'union non
                         encore dissoute envers un débiteur de la masse; recevabilité. — Actes
                         annulables; dation en paiement pour dettes échues et non échues; opération
@@ -3429,7 +3440,7 @@
                             Badawi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0400">
                     <head>193. - Faillite. — Femme du failli; immeubles par elle acquis; présomption
                         légale de propriété de la masse; application de l'art. 374 C. Com.
                         indépendamment de la date de l'acquisition de l'immeuble revendiqué par la
@@ -3446,7 +3457,7 @@
                             Dame Bahia Hanna bey Guer-gues c. Mariufi Demanget èsq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0410">
                     <head>194. - Faillite. — Femme du failli; immeubles par elle acquis; présomption
                         légale. de propriété de la masse; constitution en œaltf par la femme;
                         application de l art. 79 C. Civ.</head>
@@ -3531,7 +3542,7 @@
                         <p>Attendu donc que le jugement attaqué mérite pleine confirmation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0420">
                     <head>195. - Faillite. — Femme du failli; immeubles par elle acquis; présomption
                         légale de propriété de la masse; revente consentie par la femme du failli;
                         application des règles régissant les nullités en matière de faillite; vente
@@ -3600,7 +3611,7 @@
                         <p>Qu’il éehet en conséquence de confirmer le jugement déféré...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0430">
                     <head>196. - Faillite. — Femme du failli; immeubles par elle acquis; présomption
                         légale de propriété de la masse; revente consentie par la femme du failli;
                         prescrip-cription; point de départ; défaut de suspension par le concordat;
@@ -3760,7 +3771,7 @@
                         <p>Qu’il y a donc lieu en définitive de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0440">
                     <head>197. - Faillite. — .Jugement déclaratif; demande en rétractation formée en
                         appel; état de cessation de paiements existant à la date du jugement
                         déclaratif; désintéressement des créanciers postérieurement au jugement;
@@ -3804,7 +3815,7 @@
                             commerçant en l’état d’une dette commerciale exigible.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0450">
                     <head>198. - Faillite. — Jugement déclaratif; demande en rétractation formée en
                         appel; état de cessation de paiements existant à la date du jugement
                         déclaratif; désintéressement du créancier unique postérieurement au
@@ -3826,7 +3837,7 @@
                             c. Banco Italo Egiziano et autre).</p>
                     </div>
                     <div type="observations">
-                        <p>Note. — Rappr. ci-avant § 197 l’arrêt > du 12 Novembre 1930.</p>
+                        <p>Note. — Rappr. ci-avant § 197 l’arrêt &gt; du 12 Novembre 1930.</p>
                         <p>L’arrêt rapporté expose:</p>
                         <p>Vu l’exploit du 19 Avril 1930 par lequel Daoud Zantout a régulièrement
                             relevé appel du jugement du Tribunal de Commerce d’Alexandrie du 14 du
@@ -3851,7 +3862,7 @@
                             jugement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0460">
                     <head>199. - Faillite. — Jugement déclaratif; demande en rétractation;
                         intervention d'un créancier du failli faite pour la première fois en appel;
                         recevabilité. — Demande en rétractation du jugement déclaratif de faillite;
@@ -3929,7 +3940,7 @@
                             qu’il a été déclaré en état de faillite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0470">
                     <head>200. - Faillite. — Jugement déclaratif; détermination provisoire de la
                         date de la cessation des paiements; appel; recevabilité; inutilité des
                         formalités de l'art. 221 G. Com. — Cessation des paiements; date; demande de
@@ -4024,7 +4035,7 @@
                             est réservée par la loi à tout intéressé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0480">
                     <head>201. - Faillite. — Jugement déclaratif; renonciation par les créanciers au
                         bénéfice de ce jugement; effets. — Société; décès de l’associé en nom;
                         héritiers continuant la société avec les associés survi-vants; qualité de
@@ -4172,7 +4183,7 @@
                             les décisions des premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0490">
                     <head>202. - Faillite. — Nullités spéciales; actes annulables; connaissance du
                         dérangement des affaires du failli par celui qui a contracté avec lui;
                         preuve ne résultant pas de l'existence d'un protêt ayant servi de base au
@@ -4267,7 +4278,7 @@
                             confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0500">
                     <head>203. - Faillite. — Nullités spéciales; actes annulables; contre-lettre
                         inopposable à la masse.</head>
                     <div type="summary">
@@ -4424,7 +4435,7 @@
                         <p>Qu’il y"a lieu dès lors d’infirmer la décision des premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0510">
                     <head>204. - Faillite. — Nullités spéciales; actes passés après un concordat
                         préventif, mais au cours de la période suspecte, en cas de déclaration de
                         faillite ultérieure; conditions de validité; avantages particuliers obtenus
@@ -4751,7 +4762,7 @@
                             d’appel...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0520">
                     <head>205. - Faillite. — Nullités spéciales; action en annulation d'une
                         hypothèque basée sur la simulation; cas où le Tribunal de Commerce est
                         compétent pour en connaître.</head>
@@ -4852,7 +4863,7 @@
                         <p>Que cependant, cette simulation n’est point prouvée par le syndic..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0530">
                     <head>206. - Faillite. — Nullités spéciales; affectation hypothécaire transcrite
                         pendant la. période suspecte; inapplicabilité de l'art. 236 C. Com.;
                         applicabilité de Tart. 239 C. Com.; conditions; point de départ du délai de
@@ -5223,7 +5234,7 @@
                             sa nature, ne peut • pas constituer un droit, et lu nécessité de la
                             requête ' et de l’ordonnance prévues dans le Code de fi Procédure n’est
                             édictée que pour pouvoir ’ contrôler l’exercice du droit que la loi
-                            accor- > de au détenteur d’un jugement pour empê-cher son abus ou son
+                            accor- &gt; de au détenteur d’un jugement pour empê-cher son abus ou son
                             exercice exorbitant.</p>
                         <p>Les avocats qui soutiennent la thèse que fi c’est l’ordonnance qui est
                             l’acte constitutif ; de l’affectation se prévalent du fait que far- fi
@@ -5322,7 +5333,7 @@
                             de « quinze jours entre lu date de l’acte cons-« titutif de l’hypothèque
                             ou du privilège et 11 celle de l’inscription. Ce délai sera aug-« mente
                             du délai légal de distance entre le " beu où le droit de l’hypothèque
-                            aura été « acquis et le lieu où l’inscription sera in i--> se »;</p>
+                            aura été « acquis et le lieu où l’inscription sera in i--&gt; se »;</p>
                         <p>Attendu que cette disposition de loi a pour but d’éviter qu’un commerçant
                             en état de cessation de paiements ou sur le point u v etre. conserve
                             jusqu’au jugement déclaratif, un crédit apparent, grâce à la connivence
@@ -5377,7 +5388,7 @@
                             matière d’affectations hypothécaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0540">
                     <head>207. - Faillite. — Nullités spéciales; affectation hypothécaire transcrite
                         pendant la période suspecte; retard de l'inscription; conséquences;
                         caractère facultatif de la nullité de l'art. 239 C. Com.; conditions
@@ -5521,7 +5532,7 @@
                         <p>Qu’il y a lieu dans ces conditions d’infirmer la décision déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0550">
                     <head>208. - Faillite. — Nullités spéciales; conditions d'application de l'art.
                         236 C. Coin.; inutilité de la preuve de la connaissance de l’existence
                         d'autres créanciers par le. bénéficiaire de l’acte incriminé.</head>
@@ -5579,7 +5590,7 @@
                         <p>Qu’il y a donc” lieu de l’annuler.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0560">
                     <head>209. - Faillite. — Nullités spéciales; conditions d'application de l'art.
                         236 C. Com.; inutilité de la preuve de la connaissance de l'existence
                         d'autres créanciers par le bénéficiaire de l'acte incriminé. —- Date de la
@@ -5672,7 +5683,7 @@
                         <p>il y a lieu dès lors d’infirmer la déci-sion des premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0570">
                     <head>210. - Faillite. — Nullités spéciales; constitution de wakf; réserve des
                         dix facultés; renonciation assimilable à une ‘nouvelle constitution;
                         applicabilité de l'article 76 C. Civ. — Droits d'n edkhal » et u « ekhrag »;
@@ -5730,7 +5741,7 @@
                             faire droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0580">
                     <head>211. - Faillite. — Nullités spéciales; irrecevabilité des créanciers à
                         s'en prévaloir individuellement. — Effets de commerce; escompte par le
                         failli; validité malgré la connaissance par l'endossataire de l'état de
@@ -5809,7 +5820,7 @@
                     </div>
                 </div>
                 <pb n="182" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0590">
                     <head>212. - Faillite. — Nullités spéciales; société déclarée en état de
                         faillite; action de la masse tendant à la répétition du versement d'une
                         commandite; prescription de cinq ans; cas d'opposabilité de la prescription
@@ -5882,7 +5893,7 @@
                             de renvoyer l’affaire pour les plaidoiries au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0600">
                     <head>213. - Faillite. — Nullités spéciales société déclarée en état de
                         faillite; dissolution non publiée d'une société originaire; désintéressement
                         des anciens associés au moyen de nouvelles dettes; droit pour le syndic de
@@ -5978,7 +5989,7 @@
                             retrait dont il s’agit, du moment qu’il a été établi à suffisance de
                             droit par les productions faites au dossier, que ces créanciers
                             postérieurs ont été effectivement lésés par les agissements des faillis
-                            qui n’ont eu er> vue que d’avantager leurs anciens associés</p>
+                            qui n’ont eu er&gt; vue que d’avantager leurs anciens associés</p>
                         <pb n="183" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>au détriment de leurs créanciers qui leur ont fait confiance;</p>
                         <p>Que partant le syndic en agissant au nom des nouveaux créanciers est en
@@ -6043,7 +6054,7 @@
                             Ibrahim Mahmoud.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0610">
                     <head>214. - Faillite. — Production et vérification des créances; créancier
                         hypothécaire non admis au passif de la faillite; cas où la. faillite s'est
                         terminée par un concordat; maintien de la garantie hypothécaire;
@@ -6142,7 +6153,7 @@
                             ci-dessus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0620">
                     <head>215. - Faillite. — Production et vérification des créances; hypothèque
                         inscrite en vertu d'un concordat préventif antérieur; production d'une
                         partie des créanciers à titre chirographaire; maintien de la garantie
@@ -6217,7 +6228,7 @@
                             conséquence le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0630">
                     <head>216. - Failli(e. —■ Réhabilitation; con-aitions; désintéressement intégral
                         de tous les créanciers; cession des créances; paiement partiel des dettes du
                         failli; demande de réhabilitation inadmissible. — Femme du failli; immeubles
@@ -6536,7 +6547,7 @@
                             procéder, ce qui, comme on vient de le voir, est absolument inexact.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0640">
                     <head>217. - Faillite. — Réhabilitation; conditions; désintéressement intégral
                         de tous les créanciers; preuve simple; décharge des créanciers
                         insuffisante.</head>
@@ -6587,7 +6598,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1931-02-0650">
                     <head>218. '- Faillite. —- Société en nom collectif; extension nécessaire de la
                         faillite à tous les associés en nom; demande de faillite par un associé en
                         nom solvable; inadmissibilité; solvabilité d'un associé en nom faisant échec
@@ -6841,9 +6852,9 @@
                 <p>Art. 4. — Il appartient au Service Vétérinaire de ne pas procéder à l'inoculation
                     d’un animal déterminé s’il estime qu'il no pourrait pas supporter cette
                     inoculation.</p>
-                <p>Art. 5. — Pour faire face aux frais d’ino>-culation, il sera perçu d’avance pour
-                    chaque tête de bétail à inoculer un droit qui sera fixé par arrêté du Ministre
-                    de ''Agriculture mais qui ne devra en aucun cas dépasser P. T. 10.</p>
+                <p>Art. 5. — Pour faire face aux frais d’ino&gt;-culation, il sera perçu d’avance
+                    pour chaque tête de bétail à inoculer un droit qui sera fixé par arrêté du
+                    Ministre de ''Agriculture mais qui ne devra en aucun cas dépasser P. T. 10.</p>
                 <p>Art. 6. — Si un animal, inoculé vient à succomber des suites de l’inoculation
                     alors qu’il est encore sous l’observation vétérinaire et pourvu qu’avis de la
                     mort soit donné immédiatement et avant l'enfouissement de la bête à l’agent du
@@ -6857,7 +6868,7 @@
                     sera déterminée souverainement dans les limites du tarif par les soins d’une
                     commission composée de l’Omdeh du village, du premier inspecteur vétérinaire de
                     la région et de l’inspecteur de l’agriculture de la Moudirieh.</p>
-                <p>Si l’animal succombe, après laq>ériode d’observation, il appartiendra au
+                <p>Si l’animal succombe, après laq&gt;ériode d’observation, il appartiendra au
                     Directeur du Service Vétérinaire de décider souverainement si l’animal est mort
                     dès suites de l’inoculation.</p>
                 <pb n="188" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>

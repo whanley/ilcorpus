@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1926-12-10">December 10, 1926</date><lb/>
-                    <biblScope unit="volume">Vol. 17</biblScope><lb/>
-                    <biblScope unit="number">No. 194</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1926-12-10">December 10, 1926</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 17</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 194</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -423,7 +434,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0010">
                     <head>26. - Bail. — Abus du droit; théorie inapplicable entre bailleur et
                         locataire; congé régulièrement donné à l'expiration du bail; conséquences;
                         perte pour le locataire du bénéfice d'un fonds de commerce par lui créé dans
@@ -851,7 +862,7 @@
                             question de voir si elle est prématurée ou non.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0020">
                     <head>27. - Bail. — Assignation en expulsion; domicile fermé; signification au
                         Gouver-norat; régularité. -— Opposition; délai; connaissance de l'exécution;
                         présomption de l'article 575 G. Proc.; interprétation restrictive. —
@@ -911,8 +922,9 @@
                             huissier, d’une façon théorique, puisque 1 appartement loué, après en
                             avoir forcé la porte, fut trouvé «vide de personnes et de choses»;</p>
                         <p>Que dans ces conditions, on ne saurait considérer cette exécution, qui
-                            fut convertie après en procès-verbal de carence, comme >e d’exécution à
-                            domicile réel pouvant Fe .e faillant du droit de former op-UolllQH ,</p>
+                            fut convertie après en procès-verbal de carence, comme &gt;e d’exécution
+                            à domicile réel pouvant Fe .e faillant du droit de former op-UolllQH
+                            ,</p>
                         <p>_ &lt;IU,e dans ces circonstances, il y</p>
                         <p>)nn.u de confirmer le jugement attaqué en vées-ClU1l a s a ue sur iaa
                             exceptions soule-</p>
@@ -935,7 +947,7 @@
                             a condamné le dit sieur Eghia Djambazian...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0030">
                     <head>28. - Bail. — Baux antérieurs, avec date certaine, à la constitution en
                         wakf des biens loués; inapplicabilité du régime juridique spécial des
                         locations de biens wakfs.— Baux non transcrits; réductibi-lité à neuf
@@ -1101,7 +1113,7 @@
                             a été exclu...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0040">
                     <head>29. - Bail. — Changements à l'immeuble; trouble à la jouissance; indemnité
                         due par le bailleur; Loi sur les loyers de 1921. — Référé; dépens; droit
                         pour le juge d'y statuer.</head>
@@ -1206,7 +1218,7 @@
                             l’instance d’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0050">
                     <head>30. - Bail. — Clause attribuant compétence au Juge des Référés en cas de
                         de contravention par le locataire aux, clauses du contrat; interprétation
                         restrictive; incompétence dû Tribunal des Ré-, fçrés pour ordonner
@@ -1272,7 +1284,7 @@
                             incompétent.: ■</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0060">
                     <head>31. - Bail. ■— Clause de paiement à ordre,, impliquant autorisation à la
                         cession par le bailleur indigène à un étranger. — Cessionnaire étranger d'un
                         bailleur indigène; droit de solliciter un séquestre, même en cas de litige
@@ -1331,7 +1343,7 @@
                             . ,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0070">
                     <head>32. - Bail. — Clause laissant la prise de possession à charge du preneur;
                         restitution des loyers payés d'avance en cas d'obstacle à l'entrée en
                         possession.</head>
@@ -1410,7 +1422,7 @@
                         <p>Qu’il y a lieu par conséquent, de faire droit à l’appel comme suit...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0080">
                     <head>33. - Bail. — Congé; lettre enjoignant au locataire de déclarer s'il
                         entend ou non renouveler le contrat; inefficacité en cas de silence du
                         locataire; tacite reconduction opérée.</head>
@@ -1470,7 +1482,7 @@
                             tendant à faire déguerpir ce dernier des lieux loués.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0090">
                     <head>34. - Bail. — Demande d’expulsion; Juge des Référés; compétence.</head>
                     <div type="summary">
                         <p>Le Juge des Référés saisi d’une demande en déguerpissement basée sur un
@@ -1546,7 +1558,7 @@
                             invraisemblables.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0100">
                     <head>35. - Bail. — Expulsion; clause d'un contrat entre indigènes attribuant
                         compétence au Juge des Référés indigène; application impossible en cas de
                         vente de l'immeuble à un étranger.</head>
@@ -1589,7 +1601,7 @@
                             parce que ces motifs touchent le fond du litige.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0110">
                     <head>36. - Bail. — Expulsion par voie de Référé; congé régulier; incompétence
                         du Juge des Référés pour accorder un délai de grâce; compétence pour
                         surseoir à l'expulsion en cas d'existence d'une instance au fond, en
@@ -1678,7 +1690,7 @@
                             signification de cet arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0120">
                     <head>37. - Bail. — Expulsion par voie de Référé; défaut de paiement des loyers;
                         incompétence du Juge des Référés pour accorder un délai de grâce; compétence
                         pour fixer un délai raisonnable pour l'expulsion. — Ordonnance de Référé;
@@ -1760,7 +1772,7 @@
                             statuer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0130">
                     <head>38. - Bail. —■ Expulsion par voie, de Référé; occupant sans titre;
                         stipulation conventionnelle attribuant compétence au Juge des Référés. — Loi
                         sur les loyers du 21 Février 1921; clause de déguerpissement contraire aux
@@ -1864,7 +1876,7 @@
                             convention de bail, prétend que son immeuble menace</p>
                         <p>ruine et fait valoir, ce qui est exact, que le Juge des Référés est resté
                             compétent sous ; l’empire de la loi de 1921 pour statuer dans j les cas
-                            de grande urgence; mais que ses al- > légations concernant l’état de
+                            de grande urgence; mais que ses al- &gt; légations concernant l’état de
                             l’immeuble ne sont pas justifiées; qu’il eut dû demander une expertise
                             judiciaire, et non se borner à produire des rapports d’architectes qui
                             sont peut-être intéressés aux travaux de reconstruction; qu’il importe
@@ -1879,7 +1891,7 @@
                             l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0140">
                     <head>39. - Bail. — Loi sur les loyers du 21 Février 1921 ; baux prorogés par
                         l'effet de la loi; délai de congé au terme de la protection légale; congé
                         donné hors mois avant l'expulsion; validité. ■— Juge des Référés; compétence
@@ -2067,7 +2079,7 @@
                             moins d’arbitraire, aller au delà.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0150">
                     <head>40. - Bail. — Loi sur tes loyers du 2i Février 1921; congé notifié avant
                         son abrogation et pour la date de celle-ci; inopérance.</head>
                     <div type="summary">
@@ -2134,7 +2146,7 @@
                             jusqu’au 23 Janvier 1927....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0160">
                     <head>41. - Bail. — Loi sur les loyers du 21 Février 1921; Loi du 13 Juin 1925;
                         locataire maintenu en possession par l'effet de la loi; demande d'expulsion
                         basée sur le défaut de paiement des loyers; sommation de payer n'ayant pas
@@ -2220,7 +2232,7 @@
                         <p>Attendu donc que la demande doit être écartée comme non justifiée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0170">
                     <head>42. - Bail. — Loi sur les loyers du 21 Février 1921; Loi sur-les loyers du
                         28 Juin 1925; valeur des congés donnés sous l'empire de la première loi; cas
                         où il existe une contestation sérieuse sur la portée du congé; incompétence
@@ -2283,7 +2295,7 @@
                             circonstances dans lesquelles il a été donné.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0180">
                     <head>43. - Bail. — Loi sur les loyers No. 4 de 1921; maintient des clauses du
                         bail originaire; clause de dernier ressort. — Tribunal Sommaire; compétence
                         à statuer sur les actions volontairement déférées par les parties.</head>
@@ -2402,7 +2414,7 @@
                             et que par suite le présent appel est irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0190">
                     <head>44. - Bail. —• Pluralité de locataires; congé signifié à quelques-uns
                         d'entre eux; assignation en expulsion; validité. — Inobservation des clauses
                         du bail; résiliation convenue de plein droit; occupant sans titre.</head>
@@ -2454,7 +2466,7 @@
                     </div>
                 </div>
                 <pb n="36" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0200">
                     <head>45. - Bail. — Propriété commerciale; clause interdisant au bailleur
                         certaines locations à des concurrents de son locataire; interprétation
                         restrictive. — Loi sur les loyers; maintien des clauses des baux
@@ -2536,7 +2548,7 @@
                             relatives au taux du loyer et à la durée de la location.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0210">
                     <head>46. - Bail. — Résiliation aux torts du locataire, pour défaut de paiement
                         des loyers. — Réparations; faute du bailleur; négligence du locataire; faute
                         commune.</head>
@@ -2634,7 +2646,7 @@
                     </div>
                 </div>
                 <pb n="■3*" rendition="Gazette des Tribunaux ? Mixtes d’Egypte ."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0220">
                     <head>47. - Bail. — Résiliation avant terme; indemnité de relocation; mode de
                         calcul.</head>
                     <div type="summary">
@@ -2654,7 +2666,7 @@
                             rapporté, et v. ci-après § 48 le jug. Civ. Alex, du 3 Avril 1926.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0230">
                     <head>48. - Bail. — Résiliation avant terme; indemnité de relocation; mode de
                         calcul; cas de relocation à un taux supérieur à celui du premier bail, mais
                         pour un laps de temps inférieur.</head>
@@ -2665,7 +2677,7 @@
                             qui peut s’être écoulée entre le déguerpissement du premier locataire et
                             la relocation effective, — ce qui pourrait avoir pour effet de mettre le
                             premier légataire à la merci de la négligence ou de la mauvaise volonté
-                            du bailleur, — ma>s celui de la période que les juges estiment
+                            du bailleur, — ma&gt;s celui de la période que les juges estiment
                             nécessaire à la relocation; ce temps est en principe celui qui doit
                             s’écouler jusqu’au moment pour lequel le locatai.e aurait pu donner
                             congé d’après les usages, ou, s’il n’existe pas d’usages, d’après le
@@ -2798,7 +2810,7 @@
                             locataire à la merci du bailleur...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0240">
                     <head>49. - Bail. — Responsabilité; clause d'exonération de la responsabilité du
                         bailleur; rupture d'un tuyau dans un dépôt de marchandises; dégâts
                         occasionnés; négligence du locataire; défaut de faute du bailleur;
@@ -2885,7 +2897,7 @@
                             l’article 5 qu’il •'à'Jàit insérer-dansdé contrat de location.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-12-0250">
                     <head>50. - Bail. —tribunal Sommaire; compétence à statuer sur les actions en
                         paiement de loyers inférieurs à L.E. 100, même si le loyer annuel est d'un
                         montant supérieur.</head>

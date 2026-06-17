@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0013-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0013-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1922-11-10">November 10, 1922</date><lb/>
-                    <biblScope unit="volume">Vol. 13</biblScope><lb/>
-                    <biblScope unit="number">No. 145</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1922-11-10">November 10, 1922</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 13</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 145</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -326,9 +337,9 @@
                     parce qu’ils te croient incapables de les tromper. Tu vas exploiter l’estime que
                     leur a inspirée non seulement ta vie, mais celle de ton père et la mienne.</p>
                 <p>Martigny. — Si je me borne à dire : ( « Ma cliente affirme qu’elle n’est pas
-                    coupable >, et si je m’arrête là, et si je n’affirme pas à son tour, ce serait
-                    comme si je disais: - L’accusée affirme. Croyez-làsi vous voulez, moi, je ne la
-                    crois pas*.</p>
+                    coupable &gt;, et si je m’arrête là, et si je n’affirme pas à son tour, ce
+                    serait comme si je disais: - L’accusée affirme. Croyez-làsi vous voulez, moi, je
+                    ne la crois pas*.</p>
                 <p>Le Président Martigny. — D’accord. Mais tu ne te contenteras pas d’une
                     affirmation. Il te faudra feindre l’émotion, l’indignation, fl te faudra mentir
                     avec aplomb, avec ardeur, avec une habileté que tu dissimuleras afin d’être
@@ -443,7 +454,7 @@
             <pb n="6" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0010">
                     <head>1. - Assurance-vie. — Défaut de paiement des primes; résiliation de plein
                         droit.. — Retard dans la jouissance de l’assurance, sans influence sur les
                         échéances fixées dans la police.</head>
@@ -454,7 +465,7 @@
                             définitivement acquis, ne saurait avoir pour effet de modifier les dates
                             d’échéance des primes fixées dans la demande d’assurance et la police,
                             et de reporter à une date ultérieure, l’époque à laquelle la police
-                            s’est trouvée de plein drç>it .résiliée pour défaut de paiement des
+                            s’est trouvée de plein drç&gt;it .résiliée pour défaut de paiement des
                             primes.</p>
                     </div>
                     <div type="litigants">
@@ -523,7 +534,7 @@
                             l’assuré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0020">
                     <head>2. - Chemins et lieux publics. — Dégradation ; suppression
                         d’installations, au terme de l'autorisation ; fait non punissable. — Roksa.
                         '</head>
@@ -616,7 +627,7 @@
                             frais.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0030">
                     <head>3. - Chose jugée. — Demande principale déjà jugée sous forme de demande
                         reconventionnelle.</head>
                     <div type="summary">
@@ -696,7 +707,7 @@
                             avait été son intention.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0040">
                     <head>4. - Commissionnaire. — Vente consentie sur ses propres achats de la
                         fabrique; réserves 'dans la note de commande ; livraison ; retard légitime ;
                         résiliation du marché sans dommages-intérêts.</head>
@@ -777,7 +788,7 @@
                             provenant d’un motif légitime ;</p>
                         <p>3° Que dans un pareil cas, de même que la Sté Battino et Zaccar, la
                             Société Ebbo Guetta &amp; Co., tout en ayant le droit de résilier le
-                            marché, n’avait pas celui de réclamer des dommages- > intérêts ;</p>
+                            marché, n’avait pas celui de réclamer des dommages- &gt; intérêts ;</p>
                         <p>Attendu qu’il reste à examiner si en l’espèce le Cotonificio Cantoni
                             avait eu un motif légitime de nature à justifier le retard apporté à
                             l’exécution de ses engagements envers la Maison Battino et Zaccar ;</p>
@@ -800,7 +811,7 @@
                             dommages-intérêts du chef de cette résiliation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0050">
                     <head>5. - Dernière Maladie. — Vente; défaut de ratification par les
                         co-héritiers de l'acheteur ; disposition de l’art. 320 Code Civ. applicable
                         dans tous les procès devant la furidiction Mixte. — Maladie chronique ;
@@ -1274,7 +1285,7 @@
                             doit pas rester au dossier et doit être remis à l’appelant. ' . '</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0060">
                     <head>6. - Dénégation d’écriture. — Vérification ; procédure non obligatoire
                         pour le fuge : aécision basée sur les circonstances de la cause.</head>
                     <div type="summary">
@@ -1407,7 +1418,7 @@
                             demande comme insuffisamment établie en fait et en droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0070">
                     <head>7. - Dépens. — Compensation. — Droits proportionnels. — Interprétation. —
                         Ultra petita ; erreur ne pouvant faire l’objet d’une action en
                         rectification.</head>
@@ -1522,7 +1533,7 @@
                             d’instruction.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0080">
                     <head>8. - Distribution. — Collocation des créanciers chirographaires par
                         contribution, à la suite de l’ordre, par une seule distribution.</head>
                     <div type="summary">
@@ -1566,8 +1577,8 @@
                             pas d’objection à opposer à la demande de l’appelant ;</p>
                         <p>Attendu que dans l’ordre ouvert dont il s’agit, ont produit à titre de
                             créanciers chirographaires, outre l’appelant, qui était aussi créancier
-                            hypothécaire, Cheikh Chaaban Hamad, Ibrahim Nasser bey,> Gabriel Boulad.
-                            et Dame Victoria Boulad, qui ont dû avoir connaissance de la
+                            hypothécaire, Cheikh Chaaban Hamad, Ibrahim Nasser bey,&gt; Gabriel
+                            Boulad. et Dame Victoria Boulad, qui ont dû avoir connaissance de la
                             distribution en cours par l’avis affiché dans l’enceinte de tribunal sur
                             le tableau affecté à cette publicité, conformément aux articles 593 et
                             720 du Code de Procédure ;</p>
@@ -1596,7 +1607,7 @@
                             créanciers produisants pour leur créance chirographaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0090">
                     <head>9. - Droit hellénique. — Propriété des biens dotaux durant le mariage;
                         inaliénabilité du fonds dotal, autorisation du tribunal du statut personnel,
                         partage d’un immeuble dotal. — Rappor* à la succession du père ; persistance
@@ -1982,7 +1993,7 @@
                             doivent être rejetées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0100">
                     <head>10. - Expropriation. — Revendication incidente ; caractère de l’action,
                         après l’adjudication ; mise en cause du débiteur saisi. — Demande nouvelle ;
                         conclusions tendant à la nullité du jugement d’adjudication, à la suite
@@ -2094,7 +2105,7 @@
                             rendrait cette demande inopérante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0110">
                     <head>11. - Faillite. — Demande de faillite introduite après décès ; calcul du
                         delai de 6 mois d’après le calendrier grégorien. — Faillite d’une société en
                         liquidation ; admissibilité tant que la liquidation n’est point terminée ;
@@ -2238,7 +2249,7 @@
                             considérer leur action comme vexatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0120">
                     <head>12. - Folle-enchère. — Créances continuant à porter intérêts contre le
                         débiteur exproprié; recours de ce dernier contre le fol-enchérisseur.</head>
                     <div type="summary">
@@ -2318,7 +2329,7 @@
                     </div>
                 </div>
                 <pb n="16" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-11-0130">
                     <head>13. - Patriarcats. — Compétence exclusive en matière de statut personnel
                         des communautés non musulmanes. — Compétence facultative en matière de
                         successions. — Tuteur; hypothèque non autorisée des biens du mineur;

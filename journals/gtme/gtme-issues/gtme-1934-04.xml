@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0024-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0024-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1934-04-10">April 10, 1934</date><lb/>
-                    <biblScope unit="volume">Vol. 24</biblScope><lb/>
-                    <biblScope unit="number">No. 282</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1934-04-10">April 10, 1934</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 24</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 282</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -51,7 +62,7 @@
                 <p>ABONNEMENTS :</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte. Fondateurs
-                    > M- MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.</p>
+                    &gt; M- MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour.</p>
                 <p>Directeur: M- MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d'Administration :</p>
                 <p>M- L. PANGALO et R. SCHEMEIL (Directeurs au Caire)</p>
@@ -424,7 +435,7 @@
             <pb n="202" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0010">
                     <head>181. - Chose jugée. — Ayant cause à titre particulier; conditions
                         d'opposabilité de la chose jugée à l'encontre de son auteur. — Chose jugée;
                         éléments constitutifs; décision de sursis du Juge délégué aux adjudications;
@@ -523,7 +534,7 @@
                         <p>Note. — I. - V. ci-après § 182, l’arrêt du 2 Février 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0020">
                     <head>182. - Chose jugée. — Ayant cause à titre particulier des parties en
                         procès; conditions d'opposabilité de la chose jugée à l'encontre de son
                         auteur.</head>
@@ -541,7 +552,7 @@
                         <p>Note. — V. ci-avant § 181 l’arrêt du 7 Avril 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0030">
                     <head>183. - Chose jugée. — Conditions; identité de cause.</head>
                     <div type="summary">
                         <p>Pour que l’exception de chose jugée relativement à une décision de
@@ -561,7 +572,7 @@
                         <p>Note. — V. Gaz. XV, 112-172, l’arrêt du 21 Juin 1923.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0040">
                     <head>184. - Chose jugée. — Conditions; identité d'objet; définition; changement
                         de qualité; augmentation ou diminution de la chose sans influence sur
                         l'identité de l'objet; jugement rendu sur la validité de la cession de
@@ -882,7 +893,7 @@
                         <p>II. - Rappr. Gaz., XX, 162-146 et XXII, 376-399.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0050">
                     <head>185. - Chose jugée. — Demande de réserves; silence observé au dispositif
                         de la décision, ne constituant pas chose jugée. — Action; conséquences
                         dommageables; demande en dommages-intérêts; exercice-par instance séparée;
@@ -992,7 +1003,7 @@
                             des principes ci-dessus,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0060">
                     <head>186. - Expertise. — Demande en nomination d'expert; nature; caractère .
                         accessoire; demande devant être greffée sur une demande principale; cas où
                         le demandeur a droit à des comptes; demande principale d'expertise;
@@ -1021,7 +1032,7 @@
                             Bigio &amp; Co. o. Dame Zina veuve Gamil Lévy et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0070">
                     <head>187. - Expertise. — Experts et séquestres; honoraires; taxe; opposition;
                         but; examen du principe de la taxé et des difficultés d’exécution;
                         compétence exclusive du juge du fond; contesiatio'n basée sur la prétention
@@ -1077,7 +1088,7 @@
                             il n’y a. pas lieu d’y statuer...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0080">
                     <head>188. - Expertise. — Frais, dent il ne doit pas être tenu compte dans le
                         montant de la taxe; frais de déplacement; cas où il y a lieu d'en tenir
                         compte. .</head>
@@ -1122,7 +1133,7 @@
                             représentant l'addition des deux montants ci-haut énoncés...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0090">
                     <head>189. - Expertise. — Honoraires, d'expert; taxe; débours à comprendre dans
                         l'évaluation des honoraires; frais à taxer séparément.</head>
                     <div type="summary">
@@ -1171,7 +1182,7 @@
                             mesure correspondante...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0100">
                     <head>190. - Expertise. — Honoraires, d'e.x-pért; taxe; éléments
                         d'appréciation.</head>
                     <div type="summary">
@@ -1187,7 +1198,7 @@
                         <p>Note. — V- ci-après § 191, l’arrêt du 19 Janvier 1933. et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0110">
                     <head>191. - Expertise. — Honoraires d'expert; taxe; éléments
                         d'appréciation.</head>
                     <div type="summary">
@@ -1206,7 +1217,7 @@
                             ég. ci-avant § 190 l’arrêt du 9 Décembre 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0120">
                     <head>192. - Expertise. — Honoraires d'expert; taxe; opposition; cas où la
                         contestation peut porter sur des questions autres que le quantum; expertise
                         extrajudiciaire; cas où elle peut donner lieu à taxe d'honoraires; partie
@@ -1316,8 +1327,8 @@
                             judiciaires qu’extrajudiciaires Jean Mog et C. Scarpocchi... » sans
                             toujours évaluer les dits frais d’expertise! Il est évident qu’un expert
                             qui a rédigé un rapport extrajudiciaire, ainsi adopté par la Cour (ce
-                            qui est parfaitement admissible) t>A. 17 Janvier 1918, Bull. XXX, 158)
-                            laquelle a expressément condamné la partie perdante à payer ses
+                            qui est parfaitement admissible) t&gt;A. 17 Janvier 1918, Bull. XXX,
+                            158) laquelle a expressément condamné la partie perdante à payer ses
                             honoraires, se trouve dans une situation tout autre que celle de
                             l’expert mentionné dans l’arrêt jcité ci-haut par la Communauté
                             Israélite. S’il ne possède pas, à proprement dire, « un mandat de
@@ -1366,7 +1377,7 @@
                             l’opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0130">
                     <head>193. - Expertise. — Honoraires d'expert; taxe, opposition; sursis à
                         statuer jusqu'à l'examen du fond; inopportunité même dans le cas où l'expert
                         a incomplètement accompli sa mission.</head>
@@ -1385,7 +1396,7 @@
                         <p>Note. — V.- Gaz. XXI. 265-302, 265-303, et 266-30 i.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0140">
                     <head>194. - Expertise. — H apport judiciaire; valeur; droit de contrôle des
                         Tribunaux.</head>
                     <div type="summary">
@@ -1403,7 +1414,7 @@
                             Mahmoud pacha Sedki c. Choukri Naguib et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0150">
                     <head>195. - Jugements de défaut. — Appel; jugement de défaut à l'égard d'une
                         partie et contradictoire à l'égard de son codébiteur solidaire; appel
                         interjeté par la partie défaillante au cours du délai d'opposition;
@@ -1443,7 +1454,7 @@
                         <p>Note. — V. ci-après ? 205 l’arrêt du L4 Mars 1932, el la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0160">
                     <head>196. - Jugements de défaut. — Appel; jugement de défaut à l'égard d'une
                         partie et contradictoire à l'égard d'une autre; appel formé par le défendeur
                         condamné contradictoirement; recevabilité. — Appel incident; partie contre
@@ -1476,11 +1487,11 @@
                         <p>Arrêt (extraits).</p>
                         <p>Vu l'exploit du 15 Janvier 1929, par lequel le Sieur Abdalla Moustapha a
                             régulièrement Interjeté appel du jugement du Tribunal Civil mixte du
-                            Caire du 17 Décembre: 1928, affaire No. 14983,52. qui l’a, sur la de->
-                            mande formée suivant exploit des 28/29 Septembre 1927 par le Sieur
-                            Raphaël LUciano,: condamné à payer à celui-ci la somme de L.E. 219.785,
-                            avec les intérêts a 9 % du 1er Juin 1927 et les frais, — ledit jugement
-                            ayant, par ailleurs, écarté comme’irrèceva1-’</p>
+                            Caire du 17 Décembre: 1928, affaire No. 14983,52. qui l’a, sur la
+                            de-&gt; mande formée suivant exploit des 28/29 Septembre 1927 par le
+                            Sieur Raphaël LUciano,: condamné à payer à celui-ci la somme de L.E.
+                            219.785, avec les intérêts a 9 % du 1er Juin 1927 et les frais, — ledit
+                            jugement ayant, par ailleurs, écarté comme’irrèceva1-’</p>
                         <pb n="208" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>De la déclaration d’iniervention qu’avait faite aux débats du 10 Décembre
                             1928 la Dame Ciélia Tragni pour conclure, en vertu d’une cession que lui
@@ -1549,7 +1560,7 @@
                         <p>Note. — V. ég. ci-après § 201 l’arrêt du 6 Décembre 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0170">
                     <head>197. Jugements de défaut. — Exécution; domicile inconnu du défaillant;
                         exécution par ou contre les tiers; cas où elle peut être ordonnée; art. 373
                         C. Proc.; exception.</head>
@@ -1631,7 +1642,7 @@
                             juge-ménis de défaut par les tiers ou contre eux ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0180">
                     <head>198. - Jugements de défaut. — Opposition; délai; point de départ;
                         signification à personne ou à domicile d'un acte d'ê-xécution; signification
                         d'un jugement convertissant une saisie conservatoire en saisie-exécution;
@@ -1721,7 +1732,7 @@
                         <p>Qu’il échet, partant, de retenir l’opposition comme irrecevable...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0190">
                     <head>199. - Jugements de défaut. — Péremption; conditions; jugements non
                         susceptibles de péremption; opposition d'un codébiteur solidaire,
                         n'empêchant pas la péremption; exécution contre un codébiteur solidaire,
@@ -2005,7 +2016,7 @@
                             1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0200">
                     <head>200. - Jugements de défaut. — Péremption;' droit, du bénéficiaire de la
                         décision périmée à un nouveau titre.</head>
                     <div type="summary">
@@ -2062,7 +2073,7 @@
                         <p>Frais du présent à charge de l’intimé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0210">
                     <head>201. - Jugements de défaut. — Péremption; nullité n'atteignant pas les
                         actes dé procédure ayant précédé la décision. — Péremption d'instance;
                         nécessité pour la partie qui l'invoque de la demander et l'obtenir par
@@ -2090,7 +2101,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0220">
                     <head>202. - Jugements de défaut. — Péremption; nullité non susceptible d'être
                         dé-clarée d'office; renonciation expresse ou tacite à s'en prévaloir;
                         affectdtion hypothécaire; cas où elle peut être requise en vertu d'un
@@ -2213,7 +2224,7 @@
                             ci-après F 203 l’arrêt du 1er Février 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0230">
                     <head>203. - Jugements de défaut. — Péremption; prescription des jugements non
                         exécutés dans les six mois; nature; déchéance du droit d'exécution; moyens
                         de s'en prévaloir; effets; nature de l'exception de prescription; cas de
@@ -2385,7 +2396,7 @@
                             205 l’arrêt du. I l Mars 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0240">
                     <head>204. Jugements de défaut. — Qualification erronée; défaut de portée
                         juridique. — Jugement de défaut à i'égard d'une partie et contradictoire à
                         l'égard d'une autre; appel formé par la partie à l'égard de qui le jugement
@@ -2421,7 +2432,7 @@
                         <p>II. - V. ég. ci-avant § 196 l’arrêt du 12 Avril 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0250">
                     <head>205. - Jugements de défaut. — Qualification erronée; redressement par voie
                         d'appel principal sur la question de qualification; droits des défendeurs
                         qui ont fait défaut; appel formé par la partie condamnée contradictoirement
@@ -2740,7 +2751,7 @@
                             comme en l’espèce, ce droit n’est pas exclu par la loi); nonobstant le
                             fait que le premier avait bien, évidemment, connaissance du procès,
                             puisque c’est lui-même qui l’a introduit, ou la circonstance que le
-                            second aurait reçu son assignation lui-même en personne. i> va de soi
+                            second aurait reçu son assignation lui-même en personne. i&gt; va de soi
                             que l’on ne saurait non plus traiter un défendeur défaillant autrement
                             que comme tel simplement du fait qu’en dehors de toute audience du
                             Tribunal il aurait répondu à la convocation d’un expert ou aurait été.
@@ -3002,7 +3013,7 @@
                     </div>
                 </div>
                 <pb n="217" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0260">
                     <head>206. - Jugement. — Péremption; jugement validant une saisie-arrêt;
                         inapplicabilité de la péremption.</head>
                     <div type="summary">
@@ -3017,7 +3028,7 @@
                             Zaki Mahmoud Metwalli c. Jacques Weinetein.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0270">
                     <head>207. - Preuve. — Cachet; preuve de l'apposition; reconnaissance de
                         l'identité d'un cachet; présomption; valeur; procédure d'inscription en
                         faux. — Cachet; force probante; assimilation à la signature au point de vue
@@ -3113,7 +3124,7 @@
                             les premiers juges eussent dû faire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0280">
                     <head>208. - Preuve. — Déboîtement de comptes avec production de livres; demandé
                         formée à l'occasion d'une contestation civile entre non commerçants;
                         irrecevabilité.</head>
@@ -3130,7 +3141,7 @@
                             Attia Baz c. Hoirs Sélim Chedid et Cts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0290">
                     <head>209. - Preuve. — Dénégation de signature; cas où U n'y a pas lieu à
                         vérification.</head>
                     <div type="summary">
@@ -3144,7 +3155,7 @@
                             Belleni c. Michel Mirchak et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0300">
                     <head>210. - Preuve. — Dol; preuve par présomptions; condition d'admissibilité;
                         doute.</head>
                     <div type="summary">
@@ -3159,7 +3170,7 @@
                             Commercial Company c. Dame Aziza Hussein Azab.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0310">
                     <head>211. - Preuve. — Inscription de faux; disparition de la pièce arguée de
                         faux n'arrêtant pas l'inscription de faux.</head>
                     <div type="summary">
@@ -3171,7 +3182,7 @@
                             hey Hamada El Chéri! et autres c. Nicolas Siderie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0320">
                     <head>212. - Preuve. — Description de faux; reconnaissance de la sincérité d'une
                         pièce en cours de procédure; inscription de faux en degré d'appel;
                         inadmissibilité.</head>
@@ -3207,7 +3218,7 @@
                             réitérée tant dans les conclusions qu’à la barre...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0330">
                     <head>213. - Preuve. — Inscription de faux subséquente à une dénégation de
                         signature; conditions d'admissibilité après une vérification
                         d'écriture.</head>
@@ -3224,7 +3235,7 @@
                             Paling bey c. Demoiselle Hélène Cafcaia et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0340">
                     <head>214. - Preuve. — Preuve testimoniale: cas où elle est admissible en
                         matière commerciale contre le contenu d'un acte. Affidavit; force probante
                         en droit mixte; pouvoir d'appréciation des juges.</head>
@@ -3245,7 +3256,7 @@
                         <p>Note. — V. ég. Gaz. XV, 178-288, l’arrêt du 17 Juin 1925.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0350">
                     <head>215. - Saisie-arrêt. — Jugement de validation; inapplicabilité de la
                         péremption; effets juridiques comportant attribution de la propriété dés
                         deniers saisis.</head>
@@ -3396,7 +3407,7 @@
                             est-il assujetti à la péremption de trois ans? ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0360">
                     <head>216. - Saisie-arrêt conservatoire. — Ordonnance du Juge dé Service;
                         recours devant ce magistrat; renonciation ne s'étendant pas au recours
                         devant le Tribunal; faculté pour le tribunal de disjoindre le jugement du
@@ -3577,7 +3588,7 @@
                             que leurs adversaires sont notoirement solvables.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0370">
                     <head>217. - Saisie-arrêt conservatoire. — Titre en vertu duquel elle ■peut être
                         pratiquée; jugement lion exécutoire par provision, même frappé d'appel,
                         susceptible de servir de base à une saisie-arrêt. — Dénonciation; formalité
@@ -3679,7 +3690,7 @@
                         <p>Qu’il y a donc lieu de confirmer l’ordonnance déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0380">
                     <head>218. - Saisie-arrêt. — Tiers saisi; déclaration. de tiers saisi; omission
                         n'impliquant le dol justifiant la condamnation du tiers saisi; cas où il y a
                         lieu à Condamnation au seul montant dû au débiteur saisi.</head>
@@ -3776,8 +3787,8 @@
                         <p>Note. — V. ci-après 219 l’arrêt du 4 Février 1932, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>219. - Saisie>-arrêt. — Tiers saisi; déclaration; inexactitude due à
+                <div type="case" xml:id="gtme-1934-04-0390">
+                    <head>219. - Saisie&gt;-arrêt. — Tiers saisi; déclaration; inexactitude due à
                         inadvertance ou à conviction erronée, n’entraînant pas condamnation du tiers
                         saisi.</head>
                     <div type="summary">
@@ -3838,7 +3849,7 @@
                             218, et ci-après, sub 220. 221 et 222.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0400">
                     <head>220. - Saisie-arrêt. — Tiers saisi; déclaration négative à la suite d'une
                         transaction avec le débiteur saisi, postérieurement à la saisie-arrêt;
                         réticence dolosive justifiant la condamnation du tiers saisi.</head>
@@ -3905,7 +3916,7 @@
                         <p>Note. — V. ci-avant § 219 l’arrêt du 4 Février 1932. et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0410">
                     <head>221. - Saisie-arrêt. — Tiers saisi; déclaration; omission ou insuffisance;
                         cctvb-damnation aux causes de la saisie; portée.</head>
                     <div type="summary">
@@ -4007,7 +4018,7 @@
                         <p>Note. ,— V. ci-avant S 219 l’arrêt du 4 Février 1932, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0420">
                     <head>222. - Saisie-arrêt. — Tiers saisi; déclaration; omission persistante,
                         constituant le dol et justifiant la condamnation aux causes de la
                         saisie.</head>
@@ -4056,7 +4067,7 @@
                         <p>Note. — V. ci-avant § 2'19, l’arrêt du 4 Février 1932, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0430">
                     <head>223. - Saisie mobilière. — Nullités de forme; défaut de qualité d'un
                         revendiquant pour s'en prévaloir; limites dés droits du revendiquant;
                         identification insuffisante des objets revendiqués; irrecevabilité en
@@ -4121,7 +4132,7 @@
                             bestiaux, res'ant dès lors toujours réservée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0440">
                     <head>224. - Saisie mobilière. — Revendication de la femme mariée musulmane;
                         apport d'un trousseau; nécessité de la preuve; meubles garnissait l'immeuble
                         de la femme habité par elle; propriété des meubles; appréciation suivant les
@@ -4192,7 +4203,7 @@
                         <p>Note. — V. ég. ci-après § 225 l’arrêt de même date.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0450">
                     <head>225. - Saisie mobilière. — Revendication de la. femme mariée musulmane;
                         cas où la présomption de possession par lê mari, est exclue; preuve de la
                         propriété des meubles; charge.</head>
@@ -4212,7 +4223,7 @@
                         <p>Note. — V. ég. ci-avant S 224 l’arrêt de même date.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-04-0460">
                     <head>226. - Saisie mobilière. — Saisie-brandon; détournement commis par le
                         gardien judiciaire; défaut de responsabilité du créancier saisissant. —
                         Responsabilité; saisie; cas où elle constitue un abus de droit pouvant

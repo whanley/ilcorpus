@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0013-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0013-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1923-05-10">May 10, 1923</date><lb/>
-                    <biblScope unit="volume">Vol. 13</biblScope><lb/>
-                    <biblScope unit="number">No. 151</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1923-05-10">May 10, 1923</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 13</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 151</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -198,11 +209,12 @@
                 <p>TITRE II.</p>
                 <p>Droits et devoirs des Egyptiens.</p>
                 <p>Art. 2. — La nationalité égyptienne est déterminée par la loi.</p>
-                <p>Art. 3. — Tous les Egyptiens sont égaux > devant la loi. Ils jouissent également
-                    des droits civils et politiques et sont également soumis aux charges et devoirs
-                    publics, sans aucune distinction de race, de langue ou de religion. Seuls, ils
-                    sont admissibles aux fonctions publiques, civiles et militaires ; les étrangers
-                    n’y sont admis que dans des cas exceptionnels déterminés par la loi.</p>
+                <p>Art. 3. — Tous les Egyptiens sont égaux &gt; devant la loi. Ils jouissent
+                    également des droits civils et politiques et sont également soumis aux charges
+                    et devoirs publics, sans aucune distinction de race, de langue ou de religion.
+                    Seuls, ils sont admissibles aux fonctions publiques, civiles et militaires ; les
+                    étrangers n’y sont admis que dans des cas exceptionnels déterminés par la
+                    loi.</p>
                 <p>Art. 4. - La liberté individuelle est garantie.</p>
                 <p>Art. 5. - Nul ne peut être arrêté ou détenu que conformément aux prescriptions de
                     la loi.</p>
@@ -973,7 +985,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0010">
                     <head>186. - Expropriation. — Commandement immobilier. — Transcription. —
                         Péremption de la transcription, mesure d’ordre. — Opposition à commandement;
                         interruption du délai de la transcription de la saisie. — Point de départ du
@@ -1123,7 +1135,7 @@
                             purement et simplement au dire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0020">
                     <head>187. - Expropriation. — jugement d’adjudication ; défaut de mention que
                         l’enchère de l’adjudicataire n’a pas été couver-ié pendant, trois minutes ;
                         nullité pour vice de forme.</head>
@@ -1168,7 +1180,7 @@
                             nullité pour vice de forme.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0030">
                     <head>188. - Faillite, — Concordat Judiciaire simple ; créanciers hypothécaires
                         ; droit au dividende, après la clôture de l’ordre seulement; action
                         personnelle. —Dividende concordataire; intérêts non dus sauf stipulation
@@ -1244,7 +1256,7 @@
                             justice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0040">
                     <head>189. - Paiement. — Assurances-vie.— Compagnies étrangères ayant un agent
                         en Egypte-, clause dérogatoire de compétence mixte; portée.—Non
                         applicabilité en Egypte du système des compensations établi par le Traité de
@@ -1366,7 +1378,7 @@
                             Hongroise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0050">
                     <head>190. - Paiement. — Assurances-vie ; règlement déjà opéré; réclamation
                         postérieure à l’exécution de la police, basée sur une interprétation
                         jurisprudentielle ; inopé-rance. — Erreur de droit ; elle n’existe pas pour
@@ -1471,7 +1483,7 @@
                         <p>Qu’il y a lieu dans ces conditions de rejeter la demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0060">
                     <head>191. - Paiement. — Assurances-vie. — Stipulation de paiement en “francs” ;
                         change ; paiement de “francs français” au pair ou au cours du change ;
                         présomption de soumission à un régime monétaire légal étranger ; volonté
@@ -1672,7 +1684,7 @@
                         <p>Attendu que, partant, l’appel mérite d’être accueilli.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0070">
                     <head>192. - Paiement. — Assurances-vie.— Stipulation de paiement en - “ francs
                         ” ; change ; paiement de “ francs français” au pair ou au cours du change ;
                         restitution de la somme numérique prêtée-, volonté contraire des parties
@@ -1758,7 +1770,7 @@
                             demander, si au cas de larges fluctuations dans le cours de
                             change,—alors non prévues,— les parties entendaient que le franc
                             français tût</p>
-                        <p>> calculé au pair ou au cours de change ;</p>
+                        <p>&gt; calculé au pair ou au cours de change ;</p>
                         <p>— que dans le silence du contrat, la question pourrait trouver sa
                             solution dans la disposition de l’article 1895 C.N., par lequel le
                             débiteur doit rendre la somme numérique ( valeur nominale) prêtée,
@@ -1840,7 +1852,7 @@
                             incontestable, et est, en effet, incontesté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0080">
                     <head>193. - Paiement. — Assurances-vie. — Stipulation de paiement “ en francs
                         en of” ; règlement en papier monnaie avec la différence entre la valeur
                         légale de la monnaie dépréciée et la valeur intrinsèque des monnaies en or;
@@ -2282,7 +2294,7 @@
                         <p>— Condamne le demandeur aux dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0090">
                     <head>194. - Paiement. — Assurances-vie. — Stipulation de paiement en “francs."
                         — Franc; valeur légale en Egypte; unité monétaire; tarif égyptien. — Change.
                         — Valeur conventionnelle des monnaies. — Interprétation du contrat par
@@ -2400,7 +2412,7 @@
                             prétendu mode de constitution de ses réserves mathématiques.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0100">
                     <head>195. - Propriétaire. — Ecroulement de l’immeuble ; responsabilité à
                         l'égard des tiers ; cas où l’entretien est à la charge du locataire.</head>
                     <div type="summary">
@@ -2455,7 +2467,7 @@
                             leurs maisons échapperaient à toute condamnation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0110">
                     <head>196. - Tanzim. — Constructions menaçant ruine; décret du 26 Août et
                         Règlement du 8 Septembre 1883 ; procédure de Référé inadmissible de la part
                         du Gouvernement, bailleur d’une telle construction.</head>
@@ -2548,7 +2560,7 @@
                             y baser les poursuites à intenter devant le Juge des Contraventions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0120">
                     <head>197. - Transcription. — Conflit entre le second acquéreur ayant seul
                         transcrit et le créancier ayant inscrit un droit réel contre le vendeur
                         originaire. — Effet de la transcription du dernier acte ; condition :
@@ -2599,11 +2611,11 @@
                             prétendu ment dû par l'immeuble en question, le dit Ahmed Sadek qui, au
                             regard des tiers, en serait d’après lui resté le seul propriétaire par
                             suite de la non transcription de la vente à Ismail bey Assem; et plus
-                            tard, ayant obtenu de la Cour d’Appel Indigène un arrêt en date du 2!j>
-                            Février 1919 qui condamne Ahmed Sadek à payer au nazir, à titre de hekr,
-                            une somme de Lstg. 1004 et fraction, le dit nazir prit à la date du 25
-                            Février 1919 affectation hypothécaire sur l’immeuble et en poursuivit
-                            l’expropriation devant lajuridiction Indigène;</p>
+                            tard, ayant obtenu de la Cour d’Appel Indigène un arrêt en date du
+                            2!j&gt; Février 1919 qui condamne Ahmed Sadek à payer au nazir, à titre
+                            de hekr, une somme de Lstg. 1004 et fraction, le dit nazir prit à la
+                            date du 25 Février 1919 affectation hypothécaire sur l’immeuble et en
+                            poursuivit l’expropriation devant lajuridiction Indigène;</p>
                         <p>Attendu qu’il ne s’agit pas, en l’espèce, de la question de savoir si le
                             hekr est dû et éventuellement par qui, mais que le litige qui a été jugé
                             par la décision dont appel et qui est soumis à la Cour, équivaut au fond
@@ -2682,7 +2694,7 @@
                             voit maintenant annuler sa procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0130">
                     <head>198. -Vente. — Résolution aux torts de l’acheteur ; rétroactivité ;
                         conséquences ; qualité de possesseur de mauvaise foi de l’acheteur;
                         enlèvement des constructions élevées sur le terrain vendu.</head>
@@ -2701,7 +2713,7 @@
                             Khalil Hawas c. Alexandre Alarcopoulos et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0140">
                     <head>199. - Vente de cotons. — Prix; preuve ; bulletin de pesage ; portée
                         limitée; arrêté *du 23 Février 1925 sur la profession de peseurs et
                         mesureurs publics.</head>
@@ -2723,7 +2735,7 @@
                             Kellaris c. Ismail bey Sallain).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1923-05-0150">
                     <head>200. — Vérification 'd’écriture. — Contestation de signature ; charge de
                         la preuve ; expiration du délai fixé ; déchéance ; contestations de nature
                         urgente ; procédure de distribution.</head>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1915-06-10">June 10, 1915</date><lb/>
-                    <biblScope unit="volume">Vol. 5</biblScope><lb/>
-                    <biblScope unit="number">No. 56</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1915-06-10">June 10, 1915</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 5</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 56</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -292,7 +303,7 @@
             <pb n="121" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0010">
                     <head>301. - Accident. — Chute d’escallier. — Immeuble placé sous séquestre. —
                         Res-. ponsabilité du propriétaire.</head>
                     <div type="summary">
@@ -307,7 +318,7 @@
                             Rachel Ventura c. Ibrahim . Pacha Tewfik Yakan et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0020">
                     <head>302. - Accident. — Jeune ouvrier. — .Mineur. — Responsabilité du patron. —
                         Cas fortuit.</head>
                     <div type="summary">
@@ -337,7 +348,7 @@
                             Tribunal L.Eg. 250.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0030">
                     <head>303. - Action possessoire. — Eléments de la possession. — Terrain à bâtir.
                         — Bornes et piquets. — Eviction. — Pé-titoire.</head>
                     <div type="summary">
@@ -449,7 +460,7 @@
                             titres respectifs de propriété.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0040">
                     <head>304. - Adjudicataire. — Danger d’éviction. — Opposition à la distribution
                         du prix. — Contredit.</head>
                     <div type="summary">
@@ -468,7 +479,7 @@
                             Jean D. Zejbîni c. Banque d’Orient: . et autres). (</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0050">
                     <head>305. -Affectation hypothécaire. — Erreur dans la désignation des
                         immeubles. — Nullité.</head>
                     <div type="summary">
@@ -494,7 +505,7 @@
                             entraîner nullité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0060">
                     <head>306. - Appel. — Jugement statuant contrairement à un précédent jugement. —
                         Suspension provisoire de l’exécution.</head>
                     <div type="summary">
@@ -510,7 +521,7 @@
                             Weintraub et Cts c. Joseph Urbanis et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0070">
                     <head>307. - Assurance. — Héritiers bénéficiaires. - Créanciers du défunt. —
                         Saisie arrêt inopérante. — Loi grecque. — Dévolution de la succession. —
                         Acceptation sous bénéfice d’inventaire. — Délai pour la déclaration.</head>
@@ -539,7 +550,7 @@
                             Kyriaz's c. Greffier en Chef du Trib. Mixte du Caire esq. et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0080">
                     <head>308. - Commerçant (Non). — Propriétaire de terrains. — Exploitation. —
                         Produits non naturels. — Elevage de bétail. — Elevage d’autruches.</head>
                     <div type="summary">
@@ -560,7 +571,7 @@
                             Sconto e di Risparmio c. Ange Chelmis esq. et et.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0090">
                     <head>309. - Construction sur le terrain d’autrui. — Bonne foi. — Paiement de la
                         valeur du sol usurpé. -</head>
                     <div type="summary">
@@ -580,7 +591,7 @@
                             Alexandre Livanos c. Mohamed Mohamed Chehata et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0100">
                     <head>310. - Contredit. - Créanciers de la société.</head>
                     <div type="summary">
                         <p>Le fait par des créanciers d’une société d’avoir par un contredit attaqué
@@ -594,7 +605,7 @@
                             Âlîltiade Alexiou c. Hoirs Nicolas Litsakis et Ct.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0110">
                     <head>311. - Convention. — Tiers.</head>
                     <div type="summary">
                         <p>Une partie au procès peut invoquer une convention passée entre son
@@ -607,7 +618,7 @@
                             Tringhidis c. Ibrahim El Sayed Omar et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0120">
                     <head>312. - Déboutement en l’état. — Absence de réserves.</head>
                     <div type="summary">
                         <p>Un jugement déboutant le demandeur de son action comme non justifiée et
@@ -624,7 +635,7 @@
                             cités par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0130">
                     <head>313. - Distribution. — Règlement définitif. — Contredit. — Motifs non
                         prévus par la loi. — Exécution non suspendue.</head>
                     <div type="summary">
@@ -648,7 +659,7 @@
                             Doss. Distrib. N. 294 , 39 A. J. Hassan El Zencini).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0140">
                     <head>314. - Faillite. — Cessation des paiements. — Conditions. — Contestation
                         de la date. — Procédure:</head>
                     <div type="summary">
@@ -666,7 +677,7 @@
                             Mohamed Aly Khaîil Abdel Gawad c. R-S. Btesh Brothers &amp; Co).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0150">
                     <head>315. - Faillite. — Instruction pour banqueroute frauduleuse, pendante. —
                         Créanciers désintétessés. — Possibilité pour le failli d’obtenir que soit
                         mis fin aux opérations de la faillite.</head>
@@ -690,7 +701,7 @@
                         <p>Note. — Cf. Arrêt Cour Ch. Réunies 4 Juin 1912, Gaz. II, p. 179.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0160">
                     <head>316. - Faillite. — Mineur. — Exercice du commerce. — Loi anglaise. —
                         Concordat préventif. — Intervention.</head>
                     <div type="summary">
@@ -817,7 +828,7 @@
                             conditions, ce qui, nous l’avons vu, n’est nullement la même chose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0170">
                     <head>317. - Faillite. — Production des créances. — Rôle du syndic et du juge
                         commissaire. — Obligations du produisant. — Vérification.</head>
                     <div type="summary">
@@ -847,7 +858,7 @@
                             syndic.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0180">
                     <head>318. - Gage. — Fruits de l’immeuble. — Imputation.</head>
                     <div type="summary">
                         <p>Les fruits de l’immeuble donné en gage viennent en déduction de la dette
@@ -860,7 +871,7 @@
                     </div>
                 </div>
                 <pb n="124" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0190">
                     <head>319. - Hypothèque. — Bordereau d’inscription. — Nullité. — Mention
                         substantielle. — Date de l’exigibilité de la créance. — Ouverture de crédit.
                         — Banque. — Usages locaux. — Contredit. — Droit musulman. — Séparation dés
@@ -1033,7 +1044,7 @@
                             des mineurs est conservé au préjudice de leurs créanciers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0200">
                     <head>320. - Hypothèque. — Part divise j dans des biens indivis. —
                         Partage.</head>
                     <div type="summary">
@@ -1053,7 +1064,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0210">
                     <head>321. - Hypothèque (Purge d’). — Acte d’acquisition. — Transcription
                         nécessaire.</head>
                     <div type="summary">
@@ -1071,7 +1082,7 @@
                             Bank of Egypt c. Dame Clémence Mikhaif et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0220">
                     <head>322. - Instruction pénale. — Nullité.— Prévenus étrangers. — Ordre
                         public.</head>
                     <div type="summary">
@@ -1182,7 +1193,7 @@
                             magistrats, en-entendu lui-même comme rapporteur en la dite Chambre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0230">
                     <head>323. - Intérêts usuraires. — Prescription de cinq ans. —
                         Inapplicabilité.</head>
                     <div type="summary">
@@ -1197,7 +1208,7 @@
                             Egyptienne de Commerce c. Andrea Constandi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0240">
                     <head>324. - Juridiction mixte. — Compétence. — Nullité de l’adjudication fuite
                         par la juridiction indigène. — Créancier étranger. — Immeubles par
                         destination, — Adjudicataire. — Revendication.</head>
@@ -1227,7 +1238,7 @@
                             Guirguis Soliman c. Agricultural Bank of Egypt et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0250">
                     <head>325. - Juridiction mixte. —. Compétence. — Nullité de l’adjudication faite
                         par la juridiction indigène. — Créancier étranger. — Saisie-arrêt.</head>
                     <div type="summary">
@@ -1253,7 +1264,7 @@
                             Dame Haneni El Sayed El Wechechi esn. et q. c. Zdohamed Aiÿ et Cls).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0260">
                     <head>326. - Juridiction mixte. — Inopposabilité aux créanciers étranger d’une
                         revendication accueillie contre l’adjudicataire par le Tribunal Indigène. —
                         Contredit.</head>
@@ -1275,7 +1286,7 @@
                             Giacomo Naggiar et Ct. c. Crédit Foncier Egyptien et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0270">
                     <head>327. - Juridiction Mixte. — Statut personnel. — Contrats dotaux. —
                         Interprétation. — Insaisissabilité. — Revenus de la dot.</head>
                     <div type="summary">
@@ -1297,7 +1308,7 @@
                             d’Alexandrie, 28 Mars 1914, Gaz. IV, 130-329.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0280">
                     <head>328. - Loi Martiale. — Proclamation du 25 Janvier 1915. — Sociétés
                         résidant en pays ennemi. — Succursales en Egypte.</head>
                     <div type="summary">
@@ -1327,7 +1338,7 @@
                             et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0290">
                     <head>329. - Pension alimentaire. — Conditions pour l’obtenir.</head>
                     <div type="summary">
                         <p>Pour avoir droit à une pension alimentaire il faut réunir deux conditions
@@ -1339,7 +1350,7 @@
                             Sourour Bey esq. c. Suce. Mohamed Emin Abou Zeid et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0300">
                     <head>330. - Pension alimentaire. — Insaisissabilité. — Secours accordés
                         volontairement ou en justice.</head>
                     <div type="summary">
@@ -1385,7 +1396,7 @@
                             l’ouvrier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0310">
                     <head>331. - Preuve testimoniale. — Contrat d’entreprise. — Acte de
                         commerce.</head>
                     <div type="summary">
@@ -1408,7 +1419,7 @@
                             Alongheda Hanem Vve Ibrahim bey El Dirvani c. Ugo Rossetto).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0320">
                     <head>332. - Requête Civile. — Dol personnel.</head>
                     <div type="summary">
                         <p>Il est de principe admis par une jurisprudence constante que le dol dans
@@ -1431,7 +1442,7 @@
                     </div>
                 </div>
                 <pb n="127" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0330">
                     <head>333. — Revendication. — Occupation indue. — Quasi-délit. —
                         Solidarité.</head>
                     <div type="summary">
@@ -1447,7 +1458,7 @@
                             Ports Chacalamdo Bolonachi et cts. c. François Rouse et cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0340">
                     <head>334. — Serment. — Cachet. — Femme indigène.</head>
                     <div type="summary">
                         <p>Ne saurait être considéré comme vexa-toire et non admissible le serment
@@ -1467,7 +1478,7 @@
                             et Co. C. Nadia dent Aly Daoud et et.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0350">
                     <head>335. - Surenchère. — Résolution de l’adjudication. — Débiteur saisi
                         redevenu propriétaire. — Créancier désintéressé. — Procédure abandonnée. —
                         Greffe. — Perception d'un droit de mutation. — Illégalité.</head>
@@ -1898,7 +1909,7 @@
                             Angelotos.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0360">
                     <head>336. - Transcription. — Affectation hypothécaire. — Bonne joi. — Achat et
                         revente non transcrits. — Date certaine. — Transcription d’un-commandement
                         immobilier. — Dessaisissement du débiteur.</head>
@@ -1999,7 +2010,7 @@
                             «ainsi que celui-ci était bien propriétaire de « la maison de la rue el
                             Dawawine, puisque ses « vendeurs, les Hoirs Hassan Pacha Mahmoud, «
                             avaient transcrit contre lui sur cet immeuble « un commandement
-                            immobilier tendant au paie-« ment du solde du prix d’achat >;</p>
+                            immobilier tendant au paie-« ment du solde du prix d’achat &gt;;</p>
                         <p>Or il est invraisemblable que Affif ait entendu parler de l’acquisition
                             de Gamgoum sans ap-<pb n="130"
                                 rendition="GAZETTE DES TRIBUNAUX MIXTES d’ÉGYPTE"/>prendre, en même
@@ -2031,7 +2042,7 @@
                             l’avait pas été non plus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0370">
                     <head>337. - Vente. — Inexistence de qualités promises. — Vices cachés. — Action
                         intentée par le vendeur. — Conclusions reconventionnelles de la part de
                         l’acheteur après le délai de huitaine. — Déchéance non encourue.</head>
@@ -2052,7 +2063,7 @@
                             Eaux du Caire c. C. W. de Gerber).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-06-0380">
                     <head>338. - Vente. — Refus de l’acheteur de prendre livraison. — Double faculté
                         laissée au vendeur.</head>
                     <div type="summary">
@@ -2085,7 +2096,7 @@
                     de neutres. Quand on combat tous les jours pour faire triompher le Juste contre
                     1’ Injuste, et qu’arrive l’heure de la Grande Lutte, il n’y a plus de place pour
                     les stériles discussions, les argumentations mesquines, et les exceptions
-                    honteuses. L’arrêt est prononcé d’avance. ,></p>
+                    honteuses. L’arrêt est prononcé d’avance. ,&gt;</p>
                 <p>Honneur donc à ceux d’entre nous qui déjà l’exécutent.</p>
                 <p>* *</p>
                 <p>Les vides que la Guerre crée à nouveau dans le personnel judiciaire rappellent
@@ -2292,7 +2303,7 @@
                     renv. au 15.6.15.</p>
                 <p>Cheikh Hassan El Rifi (Syndic Hanna Samaan); 11.5.15 séance vérification créanc.
                     renv. au 8.5 15.</p>
-                <p>Aly Hussein Harby (Syndic Constantinidis >;</p>
+                <p>Aly Hussein Harby (Syndic Constantinidis &gt;;</p>
                 <p>11.5.15 séance vérif. créanc. renv. au 15.5.15.</p>
                 <p>Hussein Hussein Harby (syndic Auritano);</p>
                 <p>11.5.15 malgré la convocation des créanc. aucun ne s’est présenté pour décider de

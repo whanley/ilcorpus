@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1932-09-10">September 10, 1932</date><lb/>
-                    <biblScope unit="volume">Vol. 22</biblScope><lb/>
-                    <biblScope unit="number">No. 263</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1932-09-10">September 10, 1932</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 22</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 263</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -794,7 +805,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0010">
                     <head>370. - Administration. — Détournement de pouvoirs; application arbitraire
                         à un particulier de règlements édictés dans l'intérêt général; abus de
                         droit; Municipalité d'Alexandrie; concession de cabines de bains de mer;
@@ -858,8 +869,8 @@
                         <p>Vu l’exploit introductif d’instance du 5-Juin 1930, par lequel le Sieur
                             Vafeas a assigné la Municipalité d’Alexandrie en paiement de P.T. 17330
                             à titre de dommages-intérêts, demande basée sur le refus de la
-                            Municipalité de consigner à Vafeas &lt;> l’em-pacement sur la plage de
-                            Stanley Bay du lot No. 132, année 1930, correspondant au</p>
+                            Municipalité de consigner à Vafeas &lt;&gt; l’em-pacement sur la plage
+                            de Stanley Bay du lot No. 132, année 1930, correspondant au</p>
                         <pb n="341" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>lot No. 37 de l’année 1929, pour lequel il a obtenu une rokhsa régulière
                             No. 1217 »;</p>
@@ -1077,7 +1088,7 @@
                             311).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0020">
                     <head>371. - Administration. — Détournement de pouvoirs; arrêt arbitraire de la
                         navigation d'une embarcation privée; responsabilité.</head>
                     <div type="summary">
@@ -1145,7 +1156,7 @@
                             préposé infidèle, au lieu de se faire justice à elle-même.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0030">
                     <head>372. - .Administration. — Digues et canaux; Décret du 22 Février 1894;
                         barque échouée; renflouement par VAdministration; changement de propriétaire
                         après l'accident; inopérance; applicabilité de l'art. 29 dudit Décret;
@@ -1244,7 +1255,7 @@
                             l’opération d’enlèvement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0040">
                     <head>373. - Administration. — Douanes; établissement de droits ou majoration
                         des tarifs; décision du pouvoir exécutif; validité; inutilité d'un vote du
                         Parlement. — Constitution égyptienne; non rétroactivité ■ des lois;
@@ -1426,7 +1437,7 @@
                             l’Administration des Douanes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0050">
                     <head>374. - Administration. — Douanes; Règlement Douanier Egyptien;
                         applicabilité aux étrangers nonobstant l'expiration des conventions
                         commerciales avec les Puissances Capitulaires; Protocoles d'adhésion de
@@ -2209,7 +2220,7 @@
                             dérivait du maintien en vigueur du Règlement Douanier Egyptien.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0060">
                     <head>375. - Administration. — Douanes; Règlement Douanier; majoration des
                         tarifs; marchandise ayant fait Vobjet d'un dépôt de droits, sur la base de
                         l'ancien tarif, après l'horaire réglementaire, jusqu'à production de
@@ -2354,7 +2365,7 @@
                             qu’il est de jurisprudence pour les cas de restitution de droits.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0070">
                     <head>376. - Administration. — Gaffirs; Décret du 10 Novembre 1884; suppression
                         de la surveillance normale d'un village sans remplacement du gaffir; vols
                         rendus possibles par cette faute; responsabilité du Gouvernement.</head>
@@ -2453,7 +2464,7 @@
                             ont profité de cette circonstance pour réaliser leur entreprise...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0080">
                     <head>377 - Administration. — Juridiction administrative; compétence; compétence
                         des Tribunaux civils en cas de violation-des droits acquis aux particuliers;
                         incompétence à l'égard des actes de souveraineté du Gouvernement. —
@@ -2563,7 +2574,7 @@
                             être anéantis par les Juridictions mixtes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0090">
                     <head>378. - Administration. — Lois sur la presse; loi du 26 Novembre 1881;
                         arrêté du 19 Décembre 1881; décision, du Conseil des Ministres du 25 Mars
                         1909; défaut d'assentiment des Puissances Capitulaires et d'approbation de
@@ -2826,7 +2837,7 @@
                             essentielle d’égalité exigée par l’art. 2, § 2. du Décret de 1889.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0100">
                     <head>379. - Administration. — Mesure de police; refus de débarquement d'un
                         voyageur étranger dans un port égyptien; action en dommages-intérêts dirigée
                         contre le Gouverneur du port; recevabilité; droit de souveraineté de l'Etat;
@@ -2944,7 +2955,7 @@
                             Juridiction, s’agissant en ce cas d’appliquer les principes de droit
                             commun en matière d’un droit acquis d’un étranger, reconnu par le Code
                             Civil et invoaué contre le Gouvernement comme partie contractante (arrêt
-                            de la Cour du 29 Avril lf>26, Bull. XXXVIII, page 371);</p>
+                            de la Cour du 29 Avril lf&gt;26, Bull. XXXVIII, page 371);</p>
                         <p>Attendu que le Tribunal ne partage pas la théorie de la défense du
                             Gouvernement, suivant laquelle les visas donnés par les représentants de
                             l’Egypte à l’étranger ne le seraient qu’aux risques et périls et sous la
@@ -2987,7 +2998,7 @@
                             et les sommes à lui accordées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0110">
                     <head>380. - Administration. — Municipalité d'Alexandrie; Société de secours
                         mutuels de ses employés; statuts; fonctionnaires ayant pris leur retraite en
                         vertu de l'Arrêté du 24 Juin 1931; défaut de droit à l'indemnité de
@@ -3155,9 +3166,9 @@
                             donnant lieu à la retraite forcée.</p>
                         <p>Qu’on ne saurait établir aucune analogie entre la retraite visée par le
                             Décret-loi No. 42 de 1929 et par la décision municipale du 24 Juin 1931
-                            et celle forcée visée pa>- le Décret-loi sur les Pensions No. 37 de 1929
-                            et par le Règlement de la Caisse des Pensions des employés classés de la
-                            Municipalité d’Alexandrie du 17 Septembre 1930;</p>
+                            et celle forcée visée pa&gt;- le Décret-loi sur les Pensions No. 37 de
+                            1929 et par le Règlement de la Caisse des Pensions des employés classés
+                            de la Municipalité d’Alexandrie du 17 Septembre 1930;</p>
                         <p>Que toute interprétation extensive ou par analogie de l’art. 20 des
                             statuts de la défenderesse ne saurait être autorisée pour le motif que
                             la disposition susdite est de stricte interprétation, régissant une
@@ -3202,7 +3213,7 @@
                             Tribunaux étant institués pour la stricte application de la loi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0120">
                     <head>381. - Administration. — Services publics; absence de loi réglementant la.
                         matière des concessions en Egypte; interprétation. — Concession; but
                         d'exploitation d'un service public; retrait de la concession; mode
@@ -3500,7 +3511,7 @@
                             administrative.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0130">
                     <head>382. - Administration. — Services publics; téléphones; abonné troublant le
                         service; légitimité des mesures prises à son encontre; suppression de la
                         ligne; droit de l'Administration.</head>
@@ -3582,7 +3593,7 @@
                             d’abonnement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0140">
                     <head>383. - Administration. — Service publies; téléphones; contrat
                         'd'abonnement; formules léonines; légitimité de la suppression du service,
                         faute de signature du contrat, d'adhésion préparé par VAdministration;
@@ -3721,7 +3732,7 @@
                             référé dans la même affaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0150">
                     <head>384. - Administration. — Services publics; téléphones; moyens de
                         contrainte pour l'exécution d'une obligation contestée à charge d'une
                         administration; incompétence du Juge des référés; mesures urgentes pour
@@ -3827,7 +3838,7 @@
                             dans la même affaire, par le Trib. Civ. du Caire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0160">
                     <head>385. - Administration. — Taxe illégale: perception illégale; étranger
                         ayant payé par erreur ou contrainte une taxe non applicable aux étrangers;
                         droit à restitution; taxe sur les peaux; perception illégale par la
@@ -3927,7 +3938,7 @@
                             alloués par les premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0170">
                     <head>386. - Expropriation pour cause d’utilité publique. — Contestation
                         relative à l'indemnité d'expropriation; inobservation par l'expropriant des
                         règles édictées par le Décret du 24 Décembre 1906; inapplicabilité des
@@ -3994,7 +4005,7 @@
                             Commission Municipale, de la parcelle expropriée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0180">
                     <head>387. - Expropriation pour cause d’utilité publique. — Dépôt à la Caisse du
                         Tribunal du montant de l'indemnité; condition à laquelle est subordonnée
                         l'obtention de l'arrêté de prise de possession; intérêts, dus à l'exproprié
@@ -4016,7 +4027,7 @@
                             Labiba Dimitri Klat Bey et Ct. c. Municipalité d’Alexandrie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0190">
                     <head>388. - Expropriation pour cause d’utilité publique. — Expertise; portée. —
                         Indemnité d'expropriation; défaut de règlement préalable; intérêts légaux
                         dus.</head>
@@ -4082,7 +4093,7 @@
                             jugement dans le sens demandé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0200">
                     <head>389. - Expropriation pour cause d’utilité publique. — Indemnité
                         d'expropriation; éléments, à prendre en considération poitr son
                         calcul.</head>
@@ -4102,7 +4113,7 @@
                             Municipalité d’Alexandrie c. Adam Hadjigeorgiou.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0210">
                     <head>390. - Expropriation pour cause d’utilité publique. — Occupation des
                         terrains antérieure, au quinzième jour suivant la date de l'arrêté de prise
                         de possession; droit pour le propriétaire à une indemnité locative.</head>
@@ -4118,7 +4129,7 @@
                             Emmanuel Valarakis c. Gouvernement Egyptien.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0220">
                     <head>391. - Impôts. — Impôt sur la propriété bâtie; Décret du 13 Mars 188i;
                         déclaration prévue à l'article 7; imposition double prevue à l'article^ 9;
                         responsabilité du propriétaire de l'immeuble; bonne foi, sans influence sur
@@ -4290,7 +4301,7 @@
                             jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0230">
                     <head>392. - Impôts^ — Impôt sur la propriété bâtie; Décret du 13 Mars 1884;
                         mutation, par suite de partage, sans effet sur l'évaluation de l'immeuble;
                         défaut de déclaration; droit pour l'Administration de s'adresser à l'ancien
@@ -4483,7 +4494,7 @@
                             pourraient avoir à faire contre les évaluations erronées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0240">
                     <head>393. - Impôts. — Impôt sur la propriété bâtie; Juridictions mixtes;
                         incompétence pour annuler ou modifier une évaluation; compétence pour
                         accorder une indemnité en cas d'atteinte aux droits acquis d'un étranger par
@@ -4644,7 +4655,7 @@
                             précitée du 31 Décembre 1928, où il demanda le dégrèvement partiel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0250">
                     <head>394. - Impôts. — Taxe des gaffirs; personne redevable de la taxe depuis le
                         Décret-loi No. fil de 1931; caractère foncier; application aux étrangers;
                         convention mettant à la charge du locataire l'obligation de rembourser1, au
@@ -4754,9 +4765,9 @@
                         <p>« Décrétons:</p>
                         <p>&lt;i Art. 1. — Les articles 1, 2, 3, 4 et 5 du Décret susvisé sont
                             abrogés et remplacés par les 3 articles 1, 2 et 3 ainsi conçus:</p>
-                        <p>&lt;> Art. 1. — Il sera perçu dans les villes assujetties à l’impôt sur
-                            la propriété bâtie, à titre de contribution des gaffirs, 20 % du montant
-                            du dit impôt...</p>
+                        <p>&lt;&gt; Art. 1. — Il sera perçu dans les villes assujetties à l’impôt
+                            sur la propriété bâtie, à titre de contribution des gaffirs, 20 % du
+                            montant du dit impôt...</p>
                         <p>« Art. 2. — Les locataires seront tenus solidairement avec le
                             propriétaire du paiement de la contribution des gaffirs jusqu’à
                             con-concurrence du montant de leurs loyers échus et non payés. Lés
@@ -5005,7 +5016,7 @@
                             en présence de la rédaction ambiguë de la clause en question.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-09-0260">
                     <head>395. - Séquestre Officiel des biens ennemis en Egypte. — Proclamation du 9
                         Mars 1920; opposabilité au Séquestre Officiel des procédure$ par lui
                         autorisées. — Distribution; droits du débiteur non sommé. — Traité de

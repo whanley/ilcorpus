@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0007-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0007-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1917-09-10">September 10, 1917</date><lb/>
-                    <biblScope unit="volume">Vol. 7</biblScope><lb/>
-                    <biblScope unit="number">No. 83</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1917-09-10">September 10, 1917</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 7</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 83</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -150,7 +161,7 @@
                     aurait à notifier son acte d’appel au Caire même, quoiqu'elle</p>
                 <pb n="166" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                 <p>_ ______ _______ ...____________________ ' _________________________ - .
-                    ______________________________>!</p>
+                    ______________________________&gt;!</p>
                 <p>n* ait généralement pas à se déplacer en fait.</p>
                 <p>Un résultat aussi contraire à l’esprit de justice et d’égalité qui a animé le
                     Législateur, ne saurait être admis en l’absence d’un texte formel consernant
@@ -165,7 +176,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0010">
                     <head>470. - Accident. — Propriétaire. — Responsabilité. — Locataire. — Faute
                         commune.</head>
                     <div type="summary">
@@ -180,7 +191,7 @@
                             Daoud El Messiri c. Alarie Riss Furolo et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0020">
                     <head>471. - Accidents. — Tramways. — Faute commune.</head>
                     <div type="summary">
                         <p>Le passant qui s’engage sur les voies d’un tramway sans s’assurer
@@ -198,7 +209,7 @@
                             Tramways d’Alexandrie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0030">
                     <head>472. - Acquiescement. — Désistement. — Dol. — Faux. — Reprise de l'affaire
                         par avenir. — Irrecevabilité.</head>
                     <div type="summary">
@@ -245,7 +256,7 @@
                             d’expédient.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0040">
                     <head>473. - Acquiescement. — Tiers-saisi. — Péremption des jugements par
                         défaut. — Demande de mise sous séquestre. — Wakf.</head>
                     <div type="summary">
@@ -266,7 +277,7 @@
                             Hamdi et autre c. Dme Teresa An-dreozzî et Ct.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0050">
                     <head>474. - Adjudication. — Droits litigieux. — Acquisition de l’immeuble
                         exproprié par l’avocat d’un prétendant droits.— Nullité de plein
                         droit.</head>
@@ -344,7 +355,7 @@
                             défendre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0060">
                     <head>475. - Adjudication (Jugement d’). — Dispense de dépôt du prix. — Juge
                         délégué aux adjudications.</head>
                     <div type="summary">
@@ -402,7 +413,7 @@
                             indispensable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0070">
                     <head>476. - Adjudication. — Séquestre contre l'adjudicataire en retard. — Folle
                         enchère.</head>
                     <div type="summary">
@@ -424,7 +435,7 @@
                             Mohamed dey Abdel Al c. Félix Rispoli et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0080">
                     <head>477. ----Appel. — Délai de distance. — Calcul.</head>
                     <div type="summary">
                         <p>I. - Le délai de distance prévu par l’art. 399 C. Proc., doit être ajouté
@@ -618,7 +629,7 @@
                             la disposition de l’article 416 bis C. Proc.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0090">
                     <head>478. - Appel. — Délai de distance. — Point de départ. — Signification à
                         domicile élu.</head>
                     <div type="summary">
@@ -737,7 +748,7 @@
                             l’appel du sieur Marient, non recevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0100">
                     <head>479. - Appel. — Signification au débiteur saisi. — Revendication sur
                         saisie. — Délai.</head>
                     <div type="summary">
@@ -752,7 +763,7 @@
                             bent Abdel Rahman Salem c. Carver bro-thers et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0110">
                     <head>480. - Assurances. — Compétence du tribunal du domicile de l’assuré. —
                         Clause contraire. — Loi française du 2 Janvier 1902. — Action successorale.
                         — Femme mariée musulmane. — Domicile. — Tunisiens. — Clause d’indivisibilité
@@ -865,7 +876,7 @@
                             Caire et que c’est au Caire que sa succession s’est ouverte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0120">
                     <head>481. - Billet à ordre. — Multiplicité des échéances. — Obligation civile.
                         — Clause à ordre. — Cession. — Consentement du débiteur cédé.</head>
                     <div type="summary">
@@ -883,7 +894,7 @@
                             Abdalla et autres c. Yousssef Hassoun et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0130">
                     <head>482. - Bornage. — Délai.</head>
                     <div type="summary">
                         <p>Si, lorsqu’il ordonne une mesure d’instruction, le jugement peut et doit
@@ -903,7 +914,7 @@
                     </div>
                 </div>
                 <pb n="170" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0140">
                     <head>483. - Cassation. — Interprétation des arrêts. — Condamnation aux frais. —
                         Faillite. — Intervention du syndic à l’instance pénale.</head>
                     <div type="summary">
@@ -967,7 +978,7 @@
                             supporter ces frais par le failli absous.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0150">
                     <head>484. - Cassation. — Procès-verbaux d’audience. — Dépositions des témoins.
                         — Refus de renvoi pour citer des témoins à décharge. — Détournement d'objets
                         saisis. — Motivation du jugement correctionnel.</head>
@@ -1049,7 +1060,7 @@
                             bien ■ appliquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0160">
                     <head>485. - Change (Achat de). — Moratorium.</head>
                     <div type="summary">
                         <p>I. - Une opération de banque, pour constituer un achat de change, doit
@@ -1219,7 +1230,7 @@
                             la demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0170">
                     <head>486. - Commandement. — Nullité couverte. — Formule exécutoire.</head>
                     <div type="summary">
                         <p>Les nullités d’un commandement sont couvertes si le débiteur, par son
@@ -1239,7 +1250,7 @@
                             Hamouda Alohamed El Kenawi c. Abdalla Souraty &amp; Co en liq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0180">
                     <head>487. - Commandement. — Transcription. — Nullité du gage constitué
                         postérieurement. — Charge de la preuve de la possession. — Wirds.</head>
                     <div type="summary">
@@ -1260,7 +1271,7 @@
                             bey Tewfick c. Bank of Egypt).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0190">
                     <head>488. - Concordat. — Inexécution. — Résolution. — Proclamation du 31
                         Juillet 1916. — Créanciers post-concordataires. — Mise en demeure. — Sujets
                         ennemis. — Législation de guerre. — Force majeure.</head>
@@ -1341,7 +1352,7 @@
                             donner.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0200">
                     <head>489. - Diffamation.—Presse— Guerre. — Commerce ennemi.</head>
                     <div type="summary">
                         <p>Si la jurisprudence de divers pays d’Europe a admis que les Tribunaux
@@ -1366,7 +1377,7 @@
                             Bernard Steinberg c. Georges Vayssié).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0210">
                     <head>490. - Domicile inconnu. — Signifi-fication au Parquet. — Effets.</head>
                     <div type="summary">
                         <p>La notification d’une assignation au Parquet n’a de valeur, au point de
@@ -1387,7 +1398,7 @@
                             Vita Lichtental et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0220">
                     <head>491. - Endossement. — Simples promesses à personne déterminée.</head>
                     <div type="summary">
                         <p>Des billets revêtant là forme non point de billets au porteur, mais de
@@ -1407,7 +1418,7 @@
                             Letton c. Marie Yoss et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0230">
                     <head>492. - Exécution (Difficultés d’). — Commandement. — Opposition. —
                         Irrecevabilité. — Juge des Référés. — Compétence pour les mesures
                         provisoires. — Tribunal du fond. — Compétence pour le principal.</head>
@@ -1426,7 +1437,7 @@
                             Théodore Bakhoum c. Farag eh. Néguib el Gamal). ,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0240">
                     <head>493. - Faillite. — Immeubles acquis par la femme du failli. — Revente à un
                         tiers.</head>
                     <div type="summary">
@@ -1442,7 +1453,7 @@
                             Dame Doha et El Osta Wahba El Haltan).,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0250">
                     <head>494. - Faillite. — Incarcération du failli. — Cas où il n'appartient pas
                         au Tribunal de commerce de l’ordonner.</head>
                     <div type="summary">
@@ -1474,7 +1485,7 @@
                             c. Anis Doss ésq.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0260">
                     <head>495. - Fermeture. — Règlements de police. — Bureaux de placement. — Action
                         civile.</head>
                     <div type="summary">
@@ -1553,7 +1564,7 @@
                             sont suffisantes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0270">
                     <head>496. - Grosses. — Délivrance de nouvelles expéditions exécutoires. — Cas
                         où une seconde grosse a. été déjà délivrée. — Référé.</head>
                     <div type="summary">
@@ -1622,7 +1633,7 @@
                             qui leur sont fournies et des circonstances de la cause....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0280">
                     <head>497. - Hypothèque. — Prescription quinquennale. — Statut personnel. — Loi
                         successorale hellénique.</head>
                     <div type="summary">
@@ -1647,7 +1658,7 @@
                             Marie Alexandre Capsalic. Alexandre Théodossiou et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0290">
                     <head>498. - Inscription de faux. — Conditions de recevabilité. — Faux
                         intellectuel.</head>
                     <div type="summary">
@@ -1693,7 +1704,7 @@
                             le résumer ainsi qu’il suit...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0300">
                     <head>499. - Intervention. — Contestation nouvelle soulevée en degré d’appel. —
                         Irrecevabilité. -</head>
                     <div type="summary">
@@ -1709,7 +1720,7 @@
                             Hassan El Rifi et autre c. Dme Gueneina dent El Menoufi et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0310">
                     <head>500. - Location. — Film cinématographique. — Conflit entre deux
                         locataires. — Possession.</head>
                     <div type="summary">
@@ -1727,7 +1738,7 @@
                             Armand Carlosi Olmi et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0320">
                     <head>501. - Mesures d’instruction. — Pétard. — Déchéance. — 'Prorogation de
                         délai.</head>
                     <div type="summary">
@@ -1743,7 +1754,7 @@
                             et Sidhom Ibrahim et autre c. A. Veillon).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0330">
                     <head>502. - Meubles. — Possession. — Preuve contraire de la propriété.</head>
                     <div type="summary">
                         <p>La règle qu’en fait de meubles possession vaut titre est une présomption
@@ -1755,7 +1766,7 @@
                             Haggar c. Anglo Egyptîan Bank et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0340">
                     <head>503. - Peine (Application de la) — Tribunal Correctionnel. — Circonstances
                         atténuantes. — Jugement pénal sur opposition.— Reproduction des textes
                         appliqués. — Détournements multiples faisant l’objet d’une même
@@ -1863,7 +1874,7 @@
                     </div>
                 </div>
                 <pb n="175" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0350">
                     <head>504. - Privilège. — Frais de conservation. — Droit de rétention. —
                         Remorqueur.</head>
                     <div type="summary">
@@ -1892,7 +1903,7 @@
                             Vita Biriotti c. Anglo-American Nile Cy. et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0360">
                     <head>505. - Référé. — Clause attributive de compétence. — Inadmissibilité. —
                         Compétence ratione materiæ.</head>
                     <div type="summary">
@@ -1957,7 +1968,7 @@
                             dispositions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0370">
                     <head>506. - Référé. — Examen du litige en degré d’appel.</head>
                     <div type="summary">
                         <p>Si, en principe, la Cour doit, pour apprécier les décisons qui lui sont
@@ -1971,7 +1982,7 @@
                             c. Crédit Foncier Egyptien et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0380">
                     <head>507. - Référé. — Urgence. — Appel. — Séquestre.</head>
                     <div type="summary">
                         <p>Le fait de laisser passer plusieurs mois sans interjeter appel d’une
@@ -1987,7 +1998,7 @@
                             c. Abdel Hamîd bey Abaza)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0390">
                     <head>508. - Requête civile. — Motif tiré d'une pièce décisive recouvrée. —
                         Conditions de recevabilité.</head>
                     <div type="summary">
@@ -2007,7 +2018,7 @@
                             Cheikh Ahmed et autres c. Joseph Simon et Neguib Mftri).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0400">
                     <head>509. - Retrait litigieux. — Indétermination du prix de la cession. —
                         Offres réelles.</head>
                     <div type="summary">
@@ -2029,7 +2040,7 @@
                             Orient Bank en hq. et autre c. Isrnafl et Amniar Mohamed Mahgoud).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0410">
                     <head>510. - Revendication en cours d’expropriation. — Suspension de la
                         vente.</head>
                     <div type="summary">
@@ -2101,7 +2112,7 @@
                             biens dont s’agit...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0420">
                     <head>511. - Risques. — Propriété. — Faits des tiers. — Force majeure. — Cas
                         fortuit.</head>
                     <div type="summary">
@@ -2129,7 +2140,7 @@
                             du Gaz c. Municipalité d’Alexandrie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0430">
                     <head>512. - Séquestre. — Action pautienne ou en simulation.</head>
                     <div type="summary">
                         <p>L’exercice de l’action paulienne ou de l’action en simulation ne suffit
@@ -2148,7 +2159,7 @@
                             Cherbini c. Yacoub Bentata et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0440">
                     <head>513. - Serment. — Caractère décisoire.</head>
                     <div type="summary">
                         <p>Il est de jurisprudence que le serment n’est pas décisoire lorsque, pour
@@ -2160,7 +2171,7 @@
                             Nackhlé c. Tadros Boulos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0450">
                     <head>514. - Sous-traitants. — Privilège. — Cautionnement.</head>
                     <div type="summary">
                         <p>Le privilège accordé aux sous-traitants par l’art. 506 C. Civ. ne s’étend
@@ -2216,7 +2227,7 @@
                             décision formelle du juge « obiter dictum »</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0460">
                     <head>515. - Sujets ennemis. — Lois et actes de l’autorité. — Contrats. —
                         Impossibilité d’exécution. — Proclamation du 16 Août 1916. — Fait du prince.
                         — Force majeure. — Liquidation. — Bail. — Résiliation.</head>
@@ -2466,7 +2477,7 @@
                             donnent droit à aucun recours.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0470">
                     <head>516. - Surenchère. — Appel. — Recevabilité. — Délai. —
                         Dénonciation.</head>
                     <div type="summary">
@@ -2524,7 +2535,7 @@
                             qu’à se référer aux motifs de l’ordonnance attaquée;</p>
                         <p>« Considérant que la dénonciation de la suren-« chère aux adjudicataires
                             n’a pas été faite dans « le délai de 6 jours prévu par l’art. 662 C. Pr.
-                            -> ;</p>
+                            -&gt; ;</p>
                         <p>« Que, pour prolonger ce délai, il n’est pas « possible d’invoquer les
                             délais de distance en « raison de l’éloignement entre la ville où siège
                             « le tribunal et le lieu du domicile réel des adju-« dicataires,
@@ -2570,7 +2581,7 @@
                         <p>Qu’il y a donc lieu de confirmer l’ordonnance attaquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0480">
                     <head>517. - Surenchère. — Nullité. — Compétence du Juge délégué aux
                         adjudications.</head>
                     <div type="summary">
@@ -2595,7 +2606,7 @@
                             d’expropriation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-09-0490">
                     <head>518. - Vente au poids.— Contrat de transport. — Fins de non recevoir. —
                         Manquants.— Preuve.— Recours de défendeur à défendeur sans
                         signification.—Mandat.— Faute.</head>

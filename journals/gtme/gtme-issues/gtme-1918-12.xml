@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1918-12-10">December 10, 1918</date><lb/>
-                    <biblScope unit="volume">Vol. 9</biblScope><lb/>
-                    <biblScope unit="number">No. 98</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1918-12-10">December 10, 1918</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 9</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 98</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -229,7 +240,7 @@
                     français, qu’il n’y aurait « pas de tradition française ! »</p>
                 <p>Et pour contredire l’évidence, à quel argument a-t-on recours? A la comparaison
                     du nombre des citoyens français avec celui des autres étrangers.</p>
-                <p>Ainsi, ce qu’on appelle les « traditions françaises -> ne seraient constituées
+                <p>Ainsi, ce qu’on appelle les « traditions françaises -&gt; ne seraient constituées
                     que par les seuls citoyens français établis en Egypte. Les autres étrangers,
                     ceux-là mêmes qui ont transporté en Egypte leurs affections et leurs intérêts
                     parcequ’ils y trouvaient une atmosphère française, ceux-là ne compteraient
@@ -401,7 +412,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0010">
                     <head>4. - Accident du travail. — Faute directe et indirecte du patron. —
                         Maladresse ou imprudence de l’ouvrier. — Cas fortuit. — Risque
                         professionnel. — Retard dans l’assignation en
@@ -423,11 +434,11 @@
                             de l’actionner.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour a’Appel, Ire Ch. Prés. M. F. Laloë, 13 Novembre iyl8. — Thos,
-                            Cook et Son c. El Sayed Risk).</p>
+                        <p>(Cour a’Appel, Ire Ch. Prés. M. F. Laloë, 13 Novembre iyl8. — Thos, Cook
+                            et Son c. El Sayed Risk).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0020">
                     <head>5. - Adjudication. — Difficultés d’exécution de la procédure
                         d’expropriation. — Pouvoirs du luge délégué. — Sommation à tiers détenteur
                         n’ayant pas transcrit son acte. — Cas où elle est nécessaire.</head>
@@ -453,7 +464,7 @@
                             ri et autres c. Crédit Foncier Egyptien et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0030">
                     <head>6. - Appel. — Taux. — Evaluation. — Acquiescement partiel. — Serment:
                         conditions d’admissibilité. —Jonction d’une demande en garantie à la demande
                         principale. — Évaluation séparée du taux d'appel.</head>
@@ -484,7 +495,7 @@
                             Moustafa Farrag c. Elias Derias Bi-chara et Boctor Bichara).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0040">
                     <head>7. - Construction sur le terrain d’autrui. —Bonne foi. — Responsabilité du
                         vendeur du terrain. — Etendue d’applicabilité de l’art. 91 du C. C. —
                         Accession au sol. — Empiètement partiel. — Règles de l’équité. — Preuve par
@@ -630,7 +641,7 @@
                             concurrence, le solde du prix de vente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0050">
                     <head>8. - Coptes orthodoxes. — Meglis El Milli. — Statut personnel. — Statut
                         musulman. — Droit du père d’aliéner les biens de ses enfants mineurs.—
                         Conditions requises.</head>
@@ -659,7 +670,7 @@
                             Youssef Sidki Sidhoni •esq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0060">
                     <head>9. - Dire formé avant le dépôt du •cahier des charges. —
                         Irrecevabilité.</head>
                     <div type="summary">
@@ -687,7 +698,7 @@
                             bey Ali El Achri c. Dame Fatma Hanem et Zahrani.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0070">
                     <head>10. - Distribution unique de sommes déjà déposées avec d’autres venant à
                         échéance à des termes périodiques. — Modalités.</head>
                     <div type="summary">
@@ -707,7 +718,7 @@
                             Auxiliaire Foncière c. Georges Bey Ayoub et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0080">
                     <head>11. - Exécution provisoire. — Expropriation immobilière. — Omission de
                         .fournir caution. — Dire. — Suspension des poursuites.</head>
                     <div type="summary">
@@ -725,7 +736,7 @@
                             Mohamed Laschine c. Salomon Frangi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0090">
                     <head>12. - Faillite. — Concordat. — Résolution. — Actes accomplis par le failli
                         depuis l’homologation. — Conditions d’annulation. — Effets du
                         dessaisissement.</head>
@@ -768,7 +779,7 @@
                             être considéré comme'fait en fraude des droits des créanciers. ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0100">
                     <head>13. - Folle-enchère. — Obligation des fols enchérisseurs successifs. —
                         Non-solidarité entre eux. — Tiers-détenteur. — Intérêts du prix
                         d’adjudication.</head>
@@ -792,7 +803,7 @@
                             Hefnaout c. Abdel Wahab Aly Moussa et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0110">
                     <head>14. - Gage postérieur à hypothèque. — Inopposabilité au créancier
                         hypothécaire. — Créancier gagiste. — Droit de rétention. —
                         Adjudicataire.</head>
@@ -808,7 +819,7 @@
                             Hassan Hosni El Zencini c. Agricultural Bank et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0120">
                     <head>15. - Jugement. — Dispositif. — Interprétation. — Motifs.</head>
                     <div type="summary">
                         <p>Les motifs d’un jugement ne peuvent servir à interpréter son dispositif
@@ -820,7 +831,7 @@
                             Calleja c. Ghimei et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0130">
                     <head>16. - Jugement. — Erreur de fait. — Renvoi par la Cour en continuation
                         d’instance devant le Tribunal.</head>
                     <div type="summary">
@@ -886,7 +897,7 @@
                             1917.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0140">
                     <head>17. - Mise en possession. — Dépossession. — Recours.</head>
                     <div type="summary">
                         <p>L’acheteur d’un immeuble, mis en possession par voie d’huissier, sans
@@ -899,7 +910,7 @@
                             Abdel Aziz et Hassan Fahnii Tolba c. Agricultural Bank et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0150">
                     <head>18. - Novation. — Changement de débiteur. — Preuve du consentement du
                         créancier. — Appel. — Parties à intimer.</head>
                     <div type="summary">
@@ -927,7 +938,7 @@
                             53-127.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0160">
                     <head>19. - Occupation de la voie publique. — Contravention. — Question
                         préjudicielle. — Partie civile. — Dommages-intéiêts. — Appel. — Tribunal
                         compétent.</head>
@@ -1035,7 +1046,7 @@
                             1914, Bull. 26; 4151.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0170">
                     <head>20. - Partage. — Créanciers personnels des co-partageants. — Droits des
                         créanciers communs.</head>
                     <div type="summary">
@@ -1054,7 +1065,7 @@
                             Hanna c. Cheikh Mohamed Ragab et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0180">
                     <head>21. - Prescription acquisitive impossible. — Immeuble non susceptible
                         d’usu-capion. — Cimetière. — Trouble posses-soire. —
                         Dommages-intérêts.</head>
@@ -1124,7 +1135,7 @@
                         <p>Or l’enquête a établi le mal fondé de la pré-fEntioii du sieur Mahmoud
                             Ismaïl. Non seulement H aétéétabli quele vendeur delà société intimée
                             ela'ten possession, mais l’appelant n’a pas prouvé que les tombeaux
-                            élevés sur le terrain objet de ! err>prise contenaient les restes des
+                            élevés sur le terrain objet de ! err&gt;prise contenaient les restes des
                             siens. D’ail-leurs, il a été établi que ces tombeaux sont restes
                             intacts, contrairement à l’allégation de l’ap-</p>
                         <p>pelant dans ses conclusions, qui prétend à l’exhumation ;</p>
@@ -1139,7 +1150,7 @@
                             s’arrêter à la demande de descente, non pertinente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0190">
                     <head>22. - Prescription. — Interruption. — — Ignorance de l'éviction par
                         l'acheteur. — Action en remboursement du prix. — Réserves.</head>
                     <div type="summary">
@@ -1204,7 +1215,7 @@
                             différent.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0200">
                     <head>23. - Récusation. — Cour de Justice Spéciale pour l’examen d’une
                         récusation contre les magistrats de la Cour d’Appel. — Procédure.— Charge
                         des frais exceptionnels nécessités par celle-ci.</head>
@@ -1261,7 +1272,7 @@
                             être</p>
                         <p>&lt; assignés; par suite les frais de cette assignation « sont des frais
                             frustratoires et ne sont pas exi-« gibles à l’encontre de l’opposant
-                            >;</p>
+                            &gt;;</p>
                         <p>Attendu que, si elle avait été admise, la récusation contre la Cour
                             d’Appel entière aurait eu pour effet de la dessaisir de la connaissance
                             de l’affaire au fond et de porter celle-ci devant la Cour Spéciale; que
@@ -1323,7 +1334,7 @@
                             exécutoire et autres, le sont également.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0210">
                     <head>24. - Référés. — Incompétence de la Cour pour défaut d'urgence en cas de
                         retard de l’appel.</head>
                     <div type="summary">
@@ -1355,7 +1366,7 @@
                             que la Cour doit donc se déclarer incompétente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0220">
                     <head>25. - Référé. — Vente commerciale. — Constatations urgentes. — Assignation
                         au vendeur en la personne d’un agent. — Vente aux enchères de marchandises.
                         — Nécessité d’une assignation au vendeur même.</head>
@@ -1373,7 +1384,7 @@
                             Hanafi El Zaki c M. E. Hazzan et fils esti. et q.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0230">
                     <head>26. - Transaction. — Homologation.</head>
                     <div type="summary">
                         <p>En dehors des cas prévus par la loi, les tribunaux ne peuvent intervenir
@@ -1403,7 +1414,7 @@
                             statuer sur les frais.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0240">
                     <head>27. - Transcription. — Valeur des copies authentiques d’actes sous-seing
                         privés transciits. — Défaut de production de l’original. — Cas fortuit. —
                         Absent. — Curateur de l’absent. — Commencement de preuve par écrit.</head>
@@ -1427,7 +1438,7 @@
                             El Gazaierli c. Dame Anissa).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-12-0250">
                     <head>28. -Vente administrative.— Sarrafs. — Inopposabilité du décret du 21
                         Avril 1885 aux créanciers inscrits étrangers. — Nullité de la saisie et
                         vente administrative faites sans dénonciation aux créanciers inscrits. —
@@ -1899,7 +1910,7 @@
                 <p>Mohamed Mohamed El Embabi (Syndic Ca-loyanni). Diss. union 23.12.18.</p>
                 <p>Mohamed Ramadan El Guergaoui (Syndic Papasian). Discuss. résultats expropr.
                     23.12.18.</p>
-                <p>Iscandar Hassan (Syndic Papasian>. Pour vote conc. 23.12.18.</p>
+                <p>Iscandar Hassan (Syndic Papasian&gt;. Pour vote conc. 23.12.18.</p>
                 <p>D. Caratzidis (Syndic Caloyanni). Pour att. rés. procès 23.12.18.</p>
                 <p>Les Fils de Mohamed Abou Bakr (Syndic Caloyanni). Pour rés. expr. 23.12.18.</p>
                 <p>Haehem bey Abdel Pattah el Mallaoui (Syndic Caloyanni). P. paiem. solde prix
@@ -2140,7 +2151,7 @@
                     16 Charing Cross, LOABIîE^, 8. W. I Agents d’Assurances, Agents maritimes pour
                     nolis et passegers. ALEXANDRIE : 27, Rue Chérif Pacha. LE CAIRE: 23, Sharia El
                     Manakh. PORT-SAÏD: Rue Sultan Hussein. </p>
-                <p>— -> </p>
+                <p>— -&gt; </p>
                 <p> » </p>
                 <p>Imprimerie Nouvelle Molco, Petrini &amp; So</p>
                 <p>EXÉCUTIONS d’imprimés pour Banques et Agents de Change, ALEXANDRIE, Egyptf</p>

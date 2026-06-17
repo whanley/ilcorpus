@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1935-03-10">March 10, 1935</date><lb/>
-                    <biblScope unit="volume">Vol. 25</biblScope><lb/>
-                    <biblScope unit="number">No. 293</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1935-03-10">March 10, 1935</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 25</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 293</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -246,8 +257,8 @@
                     toutes les actions qui intéressent la faillite et le régime qu’elle a créé. Ce
                     n’est donc qu’au moment où la défense d’un intérêt particulier à un créancier
                     déterminé dresse celui-ci contre les autres, qu’il se sépare de la masse et
-                    n’est plus représenté par le syndic, «>ui devient dès cet instant, à son égard,
-                    un tiers.</p>
+                    n’est plus représenté par le syndic, «&gt;ui devient dès cet instant, à son
+                    égard, un tiers.</p>
                 <p>En effet, il ne faut pas oublier que tous ceux qui se prétendent créanciers du
                     failli, quel que soit le caractère particulier de leurs titres, doivent produire
                     ; à la vérification des créances, sans qu’il y ait lieu de distinguer entre les
@@ -687,7 +698,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0010">
                     <head>109. - Faillite. — Actions de la masse; autorisation du Juge-commissaire;
                         ratification du Juge-commissaire couvrant le défaut d’autorisation. —
                         Expropriation sur saisie; dire au cahier des charges; moyen susceptible
@@ -744,7 +755,7 @@
                         <p>II. - V. Gaz. XXI, 15-15, l’arrêt du 6 Mars 1930, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0020">
                     <head>110. - Faillite. — Actions de la masse; intervention des créanciers en vue
                         d’appuyer l’action du syndic; admissibilité; inadmissibilité des conclusions
                         tendant à une condamnation au profit exclusif du créancier
@@ -766,7 +777,7 @@
                             Osman Fahmi c. Alexandre Doss èsq. et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0030">
                     <head>111. - Faillite. — Assurance-vig stipulée au profit des héritiers de
                         l’assuré; défaut de tout droit de la masse sur le montant de l’assurance. —
                         Assurance-vie; nature du contrat; tiers bénéficiaire; droit direct vis-à-vis
@@ -1023,7 +1034,7 @@
                             bénéficiaire déterminé, arrêt du 2 Janvier 1930, Gaz. XX, 88-94.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0040">
                     <head>112. - Faillite. — Cessation des paiements; demande de report par le
                         syndic; recevabilité; forme; délais. — Jugement de rejet en l’état; défaut
                         de chose jugée.</head>
@@ -1096,7 +1107,7 @@
                             cause, il échet également de rejeter cette exception...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0050">
                     <head>113. - Faillite. — Cessation des paiements; éléments de détermination;
                         appréciation souveraine du juge; signes extérieurs de gêne; emploi de
                         procédés irréguliers ou frauduleux, même occultes. — Faillite; déclaration;
@@ -1336,7 +1347,7 @@
                             vie commerciale ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0060">
                     <head>114. - Faillite. — Cessation des paiements; éléments de détermination;
                         fixation non liée à une sommation par protêt ou par exploit
                         d’huissier.</head>
@@ -1360,7 +1371,7 @@
                             commerciale ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0070">
                     <head>115. - Faillite. — Concordat; formalités; lecture préalable du rapport du
                         syndic; caractère essentiel; inobservation; sanction. — Concordat;
                         homologation; exagération manifeste non justifiée des frais d’exploitation
@@ -1515,7 +1526,7 @@
                             C. Com.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0080">
                     <head>116. - Faillite. — Concordat; homologation; pouvoir souverain
                         d’appréciation du tribunal.</head>
                     <div type="summary">
@@ -1533,7 +1544,7 @@
                         <p>Note, — Rappr. ci-après § 117 l’arrêt 21 Juin 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0090">
                     <head>117. - Faillite. — Concordat; homologation; pouvoir souverain
                         d’appréciation du tribunal; cas d’un concordat par abandon d’actif accepté
                         par la grande majorité des créanciers.</head>
@@ -1558,7 +1569,7 @@
                         <p>Note. — Rappr. ci-avant § 116 l’arrêt du 21 Novembre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0100">
                     <head>118. - Faillite. — Concordat par aban* don d’actif; application des règles
                         de l’état d’union; nullités spéciales; droit pour les créanciers et les
                         liquidateurs de l’actif abandonné d’exercer, après l’homologation du
@@ -1664,7 +1675,7 @@
                             circonstances de la cause indiquent que cette contrainte a existé...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0110">
                     <head>119. - Faillite. ■— Concordat préventif; concordat judiciaire; effets;
                         applicabilité de l’art. 338 C. Com. aux créances chirographaires consacrées
                         en justice postérieurement au concordat; exception à l’égard des créances
@@ -1826,7 +1837,7 @@
                         <p>Note. — II. - V. Gaz. XXV, 22-30 les arrêts du 8 Mai 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0120">
                     <head>120. - Faillite. — Concordat; règlement avant terme des dividendes
                         concordataires; régularité en cas de résolution du concordat.</head>
                     <div type="summary">
@@ -1843,7 +1854,7 @@
                             Auritano èsq.. c. Haim Cham-la Fils L Co.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0130">
                     <head>121. - Faillite. — Concordat; résolution par suite de la faillite
                         prononcée sur dépôt de bilan du débiteur concordataire. — Cessation des
                         paiements; date à fixer sur réouverture de la faillite, en cas de résolution
@@ -1948,7 +1959,7 @@
                             leur mise en état de faillite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0140">
                     <head>122. - Faillite. — Déclaration; demande basée sur un jugement de
                         condamnation consacrant une créance résultant d’un effet de commerce;.défaut
                         de signification, sans influence sur le caractère exigible de la
@@ -1967,7 +1978,7 @@
                     </div>
                 </div>
                 <pb n="121" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0150">
                     <head>123. - Faillite. — Déclaration; dépôt à la caisse effectué par le
                         débiteur; attribution exclusive au créancier nonobstant le défaut de
                         déclaration formelle d’affectation spéciale par le déposant et la faillite
@@ -2146,10 +2157,10 @@
                         <p>' Que sens s’arrêter à l’allégation de Pic-ciotto que la marchandise a
                             été retirée de la douane d’Alexandrie et expédiée par voie fluviale au
                             Caire depuis le 1er Octobre 1929, allégation qui est démentie par la
-                            date de la traite documentaire >18 Octobre) et du récépissé de paiement
-                            des droits de douane (31 Octobre), il y a cependant lieu de retenir que
-                            l’envoi a été fait par voie fluviale le 1er Novembre et que la
-                            marchandise a été reçue au Caire aux environs du 15 Novembre;</p>
+                            date de la traite documentaire &gt;18 Octobre) et du récépissé de
+                            paiement des droits de douane (31 Octobre), il y a cependant lieu de
+                            retenir que l’envoi a été fait par voie fluviale le 1er Novembre et que
+                            la marchandise a été reçue au Caire aux environs du 15 Novembre;</p>
                         <p>Que dans la lettre du 5 Décembre d’Elie Habet à Picciotto, aucune réserve
                             n’est faite quant à la mauvaise qualité de la marchandise;</p>
                         <p>Que c’est seulement dans la lettre du 7 Décembre à la suite de la réponse
@@ -2207,7 +2218,7 @@
                             étrangères ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0160">
                     <head>124. - Faillite. — Déclaration; droit de tout créancier de la demander
                         indépendamment de Vexistence d’autres créanciers.</head>
                     <div type="summary">
@@ -2225,7 +2236,7 @@
                             Moallem Radi Mohamed c. Wouters, Deffense &amp; Co. et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0170">
                     <head>125. - Faillite. — Déclaration en vertu d’une créance commerciale à raison
                         de la forme d’effet de commerce.</head>
                     <div type="summary">
@@ -2239,8 +2250,8 @@
                             Pangalo c. Edgard Suarès Fils &amp; Co. et autres.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>126. - Faillite. >— Déclaration nécessaire en cas de refus de concordat
+                <div type="case" xml:id="gtme-1935-03-0180">
+                    <head>126. - Faillite. &gt;— Déclaration nécessaire en cas de refus de concordat
                         préventif à un débiteur même malheureux et de bonne foi; proclamation de
                         l’état d’union faute de concordat; impossibilité à défaut de déclaration
                         préalable de faillite.</head>
@@ -2370,7 +2381,7 @@
                             cet article, de déclarer applicable toute la loi française.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0190">
                     <head>127. - Faillite. Déclaration par la Juridiction mixte; admissibilité en
                         cas d’intérêt mixte, même si les parties à l’instance sont toutes indigènes;
                         déclaration de faillite par la Juridiction mixte; effets à l’égard de la
@@ -2480,7 +2491,7 @@
                         <p>Attendu qu’il y a dès lors lieu d'infirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0200">
                     <head>128. - Faillite. •— Déclaration; qualité de commerçant; exercice d’une
                         profession libérale parallèlement à celui du commerce; effets.</head>
                     <div type="summary">
@@ -2539,7 +2550,7 @@
                         <p>Qu’il y a lieu dans ces conditions de confirmer la décision déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0210">
                     <head>129. - Faillite. ■— Déclaration; qualité de. commerçant; pratique
                         d’opérations de Bourse; cas où elles ne peuvent suffire à attribuer la
                         qualité de commerçant. — Déclaration; qualité de commerçant du souscripteur
@@ -2669,7 +2680,7 @@
                             d’aucune influence pour la solution du présent litige.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0220">
                     <head>130. - Faillite. — Dessaisissement du failli; conséquences; acte passé par
                         le débiteur et dont la validité à l’égard des tiers est soumise à certaines
                         formalités; condition d’opposabilité à la masse; gage constitué par un
@@ -2762,7 +2773,7 @@
                         <p>Qu’il y a lieu dès’ lors d’infirmer la décision déférée quant à ce...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0230">
                     <head>131. - Faillite. — Dessaisissement du failli; conséquences; vente
                         immobilière non transcrite consentie par le failli; exécution par le syndic;
                         inadmissibilité; caractère chirographaire de la créance de l’acheteur. ■—
@@ -2940,7 +2951,7 @@
                         <p>1931, et ci-après § 132, l’arrêt du 20 Février 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0240">
                     <head>132. - Faillite. — Dessaisissement du failli; conséquences; vente
                         immobilière non transcrite consentie par le failli; exécution par le syndic;
                         inadmissibilité; caractère chirographaire de la créance de l’acheteur. —
@@ -3048,7 +3059,7 @@
                             131, l’arrêt du 28 Mars 1933, cités par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0250">
                     <head>133. - Faillite. — Femme du failli; immeubles par elle acquis; origine des
                         derniers ayant servi à l’acquisition; admissibilité de la preuve par tous
                         moyens de -droit, lorsque la source est autre qu’une ■succession ou une
@@ -3145,7 +3156,7 @@
                         <p>Note. — V. ég. ci-après § 136 l’arrêt du 26 Décembre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0260">
                     <head>134. - Faillite. — Femme du failli;, immeubles par elle acquis;
                         présomption légale; applicabilité à la femme égyptienne.</head>
                     <div type="summary">
@@ -3212,7 +3223,7 @@
                         <p>Note. — V. ég. ci-après § 135 l’arrêt du 30 Mai 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0270">
                     <head>135. - Faillite. — Femme du failli; immeubles par elle acquis; présomption
                         légale; preuve contraire; admissibilité par toutes voies de droit; immeuble
                         acquis par remploi des deniers d’une donation ou d’une succession;
@@ -3329,11 +3340,11 @@
                             intérêt mixte qui est celui de la masse des créanciers, ce n’est pas la
                             loi égyptienne applicable par les Tribunaux indigènes mais la loi
                             égyptienne applicable par les Tribunaux mixtes qui régit, la matière; et
-                            l’argument qui fait valoir l’impossibilité pour une femme mariée à un>
-                            égyptien de prévoir la naissance future de-cet intérêt mixte à un moment
-                            où son mari n’avait pas cessé ses paiements, méconnaît tout simplement
-                            le principe même de la dualité de la législation dans ce pays,
-                            principe-qui entraîne une nécessité pour ainsi dire-objective
+                            l’argument qui fait valoir l’impossibilité pour une femme mariée à
+                            un&gt; égyptien de prévoir la naissance future de-cet intérêt mixte à un
+                            moment où son mari n’avait pas cessé ses paiements, méconnaît tout
+                            simplement le principe même de la dualité de la législation dans ce
+                            pays, principe-qui entraîne une nécessité pour ainsi dire-objective
                             d’appliquer la loi mixte chaque fois-, qu’un intérêt étranger est on
                             jeu;</p>
                         <p>Que les deux arrêts de cette Cour invoqués par la Dame Neemat n’énoncent
@@ -3427,7 +3438,7 @@
                         <p>II eit III. - V. ég. ci-après § 136 l’arrêt du 26 Décembre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0280">
                     <head>136. - Faillite. — Femme du failli; immeuble par elle acquis; vente
                         immobilière; origine des deniers ayant servi à l’acquisition; admissibilité
                         de la preuve par tous moyens de droit; preuve qu’une vente au profit de la
@@ -3515,7 +3526,7 @@
                             l’arrêt du 30 Mai 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0290">
                     <head>137. - Faillite. — Frais et honoraires; privilège; honoraires du syndic;
                         honoraires d’avocat; frais de. Greffe; collocations respectives sur les
                         deniers recouvrés.</head>
@@ -3586,7 +3597,7 @@
                             n’aurait rien récupéré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0300">
                     <head>138. - Faillite. — Hypothèque; inscription au Greffe des Tribunaux
                         Indigènes; inopposabilité à la masse d’une faillite déclarée par les
                         Tribunaux Mixtes. — Nullités spéciales; inscription hypothécaire tardive;
@@ -3689,7 +3700,7 @@
                         <p>Note. — V. ég. ci-après § loi l’arrêt du 27 Février 1935, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0310">
                     <head>139. - Faillite. — Incarcération du failli; jugement ordonnant
                         l’incarcération; appel; recevabilité; intimation du syndic seul; caractère
                         suffisant. — Incarcération du failli; cas où elle peut être ordonnée.</head>
@@ -3768,7 +3779,7 @@
                             XXIII, 120-126.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0320">
                     <head>140. - Faillite. — Interdit; dépôt de bi-« .lan effectué par son curateur;
                         régularité sans besoin d’autorisation. — Failli; cessation des paiements;
                         critérium de détermination.</head>
@@ -3871,7 +3882,7 @@
                             créanciers prendre affectation hypothécaire sur ses biens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0330">
                     <head>141. - Faillite. — Jugements intervenus sur des actions résultant de la
                         faillite; jugement rendu sur une action du syndic tendant à l’annulation de
                         poursuites irrégulièrement exercées contre le jailli sur des biens lui
@@ -4062,7 +4073,7 @@
                             procédure de distribution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0340">
                     <head>142. - Faillite. — Jugements intervenus sur des actions résultant de la
                         faillite; jugement rendu sur une action en annulation d’une vente consentie
                         par le failli et en restitution des fruits; délai d’appel de quinze
@@ -4104,7 +4115,7 @@
                             également suffi à motiver le rejet de l’appel comme irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0350">
                     <head>143. - Faillite. — Jugements intervenus, sur des actions résultant de la
                         faillite; jugement rendu sur une action en fictivité d’une vente immobilière
                         consentie par le failli; délai d’appel de quinze jours.</head>
@@ -4163,7 +4174,7 @@
                             fixer à cet effet audience ultérieure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0360">
                     <head>144. - Faillite. — Jugements intervenus sur des actions résultant de la
                         faillite; notion; jugement rendu sur opposition à la taxe d’honoraires du
                         syndic; délai d’appel de quinze jours.</head>
@@ -4248,7 +4259,7 @@
                             l’appel principal et, par voie de conséquence, l’appel incident.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0370">
                     <head>145. - Faillite. — Jugements relatifs, à la nomination ou au remplacement
                         des syndics; cas où ils peuvent être susceptibles d’appel et
                         d’opposition.</head>
@@ -4297,7 +4308,7 @@
                             l’irrecevabilité de l’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0380">
                     <head>146. - Faillite. — Juridiction mixte; compétence acquise même après
                         élimination des prétendus créanciers étrangers d’un débiteur
                         égyptien.</head>
@@ -4360,7 +4371,7 @@
                             saisie, de subir les conséquences d’une situation qu’il a créée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0390">
                     <head>147. - Faillite. — Nullités spéciales; actes à titre onéreux présentant un
                         avantage exceptionnel; critérium d’application de l'art. 236 C. Corn.;
                         créancier, en mesure de connaître le dérangement des affaires du débiteur;
@@ -4677,7 +4688,7 @@
                         <p>Note. — V. ég. ci-après § 148, l’arrêt du 1er Mars 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0400">
                     <head>148. - Faillite. — Nullités spéciales; actes à titre onéreux présentant un
                         avantage exceptionnel; critérium d’application de l’art. 236 C. Com.; gages
                         et hypothèques, constitués pour des dettes contractées simultanément ou pour
@@ -4897,7 +4908,7 @@
                         <p>Note. — I. - V. ég. ci-avant § 117, l’arrêt du 20 Mars 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0410">
                     <head>149. - Faillite. — Nullités spéciales; action intentée par un créancier;
                         admissibilité après dissolution de la masse en cas de concordat
                         simple.</head>
@@ -4914,7 +4925,7 @@
                         <p>Note. — V. Gaz. XXIII, 122-131.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0420">
                     <head>150. - Faillite. — Nullités spéciales; endossement d’un effet par le
                         failli; validité subordonnée à la condition de la sincérité de la créance de
                         l’endossataire.</head>
@@ -4980,7 +4991,7 @@
                             créance quelconque envers le failli pour la somme prétendue...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0430">
                     <head>151. - Faillite. — Nullités spéciales; hypothèque; annulation;
                         conséquences; distribution; demande de collocation de la masse par
                         préférence aux créanciers inscrits postérieurs à l’hypothèque annulée;
@@ -5187,7 +5198,7 @@
                             été consacrée par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0440">
                     <head>152. - Faillite. — Nullités spéciales; inapplicabilité au cautionnement
                         d’une dette du failli au profit d’un créancier.</head>
                     <div type="summary">
@@ -5253,7 +5264,7 @@
                             caution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0450">
                     <head>153. - Faillite. — Nullités spéciales; inapplicabilité aux paiements pour
                         dettes échues par souscription ou endossement d’effets. — Nullités
                         spéciales; reprise de marchandises à la suite de la résiliation d’un contrat
@@ -5444,7 +5455,7 @@
                             s’effectue de plein droit la compensation légale.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0460">
                     <head>154. - Faillite. — Nullités spéciales; inscriptions hypothécaires
                         tardives; conditions de l’annulation prévue par l’art. 239 C.Com.;
                         caractère, facultatif; preuve à fournir par la masse.</head>
@@ -5524,7 +5535,7 @@
                             l’arrêt du 5 Décembre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0470">
                     <head>155. - Faillite. — Production et vérifi-: cation des créances;
                         contestation de créance par le failli après admission; irrecevabilité;
                         contestation tardive par les créanciers; inadmissibilité après le vote du
@@ -5647,7 +5658,7 @@
                             conformité de l’art. 340 du C. Com,...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0480">
                     <head>156. - Faillite. — Production, et vérification des créances; délai;
                         limites; action en report de la date de cessation des paiements; délai
                         d’exercice. 1</head>
@@ -5698,7 +5709,7 @@
                     </div>
                 </div>
                 <pb n="142" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0490">
                     <head>157. - Faillite. — Production et vérification des créances; délai;
                         limites; concordat; délai à observer entre la vérification et le concordat;
                         demande de renvoi de la réunion aux fins de concordat ou de proclamation de
@@ -5776,7 +5787,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0500">
                     <head>158. - Faillite. — Réhabilitation; nécessité de la preuve de la libération
                         des dettes tant chirographaires que privilégiées ou hypothécaires.</head>
                     <div type="summary">
@@ -5829,7 +5840,7 @@
                             et le désintéressement de toute cette masse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0510">
                     <head>159. - Faillite. — Rétractation; cas où il' y lieu d’y faire droit.</head>
                     <div type="summary">
                         <p>II y a lieu de rétracter en degré d’appel la déclaration en état de
@@ -5842,7 +5853,7 @@
                             Ahmed Khalil et autre c. Habib Toledano &amp; Fils et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0520">
                     <head>160. - Faillite. — Saisie conservatoire d’objets en possession d’un tiers;
                         ordonnance présidentielle prévue par l’art. 213 C. Com.; cas.
                         d’admissibilité. " " '</head>
@@ -5938,7 +5949,7 @@
                             XVIII, 61-69 et 62-70).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0530">
                     <head>161. - Faillite. — Société; a.ss.ocié commanditaire déclaré solidairement
                         responsable des dettes d’une société en faillite; responsabilité de
                         l’associé pour les frais occasionnés par cette faillite.</head>
@@ -6018,7 +6029,7 @@
                             n’ont pas payé à temps les dettes sociales.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0540">
                     <head>162. - Faillite. — Société; directeur ayant dépassé son mandat en
                         contractant au nom de la société; demande d’extension de la faillite à son
                         encontre; irrecevabilité; nécessité d’une, action préalable en
@@ -6137,7 +6148,7 @@
                             ci-dessus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0550">
                     <head>163. - Faillite. ■— Société en commandite; jugement déclaratif n'indiquant
                         pas nommément les associés englobés dans la faillite; appel formé par un
                         associé commanditaire pour se. faire exclure de la faillite; irrecevabilité;
@@ -6199,7 +6210,7 @@
                             par une action déclaratoire la juridiction du premier degré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0560">
                     <head>164. - Faillite. ■— Société en nom collectif; faillite de la société
                         entraînant celle des associés en nom; faillite d’un associé en nom sans
                         influence sur la société; droits éventuels des créanciers, du failli contre
@@ -6294,7 +6305,7 @@
                         <p>Note. — I et II. - V. ég. ci-après § 165, l’arrêt du 6 Mars 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0570">
                     <head>165. - Faillite. — Société en no.m collectif; faillite d’un associé en nom
                         sans influence sur la société; droits éventuels des créanciers du failli
                         contre la société; ■défaut de qualité du syndic pour les faire valoir. —
@@ -6381,7 +6392,7 @@
                         <p>Note. — I à IV. - V. ég. ci-avant § 164, l’arrêt du 24 Janvier 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0580">
                     <head>166. - Faillite. — Tribunal de commerce; compétence à statuer sur les
                         actions nées de la faillite; action intentée contre le syndic de la faillite
                         et un débiteur de celle-ci par l’acheteur des activités de la
@@ -6484,7 +6495,7 @@
                             intérêts du chef d’action vexatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0590">
                     <head>167. - Faillite. — Union; dissolution; créance découverte ultérieurement;
                         action oblique exercée par un créancier; irrecevabilité; nécessité d’une
                         réouverture de la faillite.</head>
@@ -6577,7 +6588,7 @@
                         <p>Qu’il échet donc de déclarer la présente-action irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0600">
                     <head>168. - Faillite. — Union; vente aux enchères des créances du failli;
                         validité sur simple autorisation du Juge-commissaire.</head>
                     <div type="summary">
@@ -6740,7 +6751,7 @@
                             doute.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0610">
                     <head>169. - Faillite. — Union; vente des immeubles du failli; procédure à
                         suivre; Tribunal de coinirier.ee; incompétence à statuer sur la
                         question.</head>
@@ -6776,7 +6787,7 @@
                         <p>Note. — Rappr. ci-après § 170, l’arrêt du 21 Juin 1933, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0620">
                     <head>170. - Faillite. — Union; vente des immeubles du failli; procédure à
                         suivre; vente à l’amiable après enchères par devant le Juge-commissaire;
                         défaut de jugement d’adjudication; nullité; procédure applicable aux
@@ -6941,7 +6952,7 @@
                             créanciers devaient être préalablement consultés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0630">
                     <head>171. - Faillite. — Vente camnlerciale; droit du vendeur à
                         dommages-intérêts en cas de non retrait des marchandises par suite de
                         faillite ou de concordat préventif de l’acheteur; étendue; limites. —
@@ -7385,7 +7396,7 @@
                             la suite, v. ci-avant § 119 l’arrêt du 31 Octobre 1934, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0640">
                     <head>172. - Faillite. — Vérification de créances; demande d’admission tardive;
                         exercice contre le syndic après le vote mais avant l’homologation du
                         concordat; recevabilité.</head>
@@ -7475,7 +7486,7 @@
                             ci-dessus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0650">
                     <head>173. - Faillite. — Vérification de créances; inutilité pour le créancier
                         qui a obtenu une condamnation avant la faillite par un jugement frappé
                         d’appel; obligation pour le syndic de suivre l’action à la place du
@@ -7528,7 +7539,7 @@
                             syndic à la place du failli, comme pour la masse des créanciers...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-03-0660">
                     <head>174. - Faillite. — Vérification de créances; nécessité pour tous les
                         créanciers du failli; expropriation immobilière; procédure poursuivie sans
                         la formalité préalable de l’admission; irrégularité; admissibilité après
@@ -8124,7 +8135,7 @@
                     décret-loi, qui entrera en vigueur dès sa publication au &lt;&lt; Journal
                     Officiel ».</p>
                 <p>Nous ordonnons que le présent décret-loi soit revêtu du sceau de l’Etat, publié
-                    au &lt;> Journal Officiel » et exécuté comme loi de ■l’Etat.</p>
+                    au &lt;&gt; Journal Officiel » et exécuté comme loi de ■l’Etat.</p>
                 <p>Fait au Palais de Koubbeh, le 2 Zilhedjeh 1353 (7 Mars 1935).</p>
                 <p>FOUAD.</p>
                 <p>Par le Roi:</p>

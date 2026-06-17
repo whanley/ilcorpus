@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1921-07-10">July 10, 1921</date><lb/>
-                    <biblScope unit="volume">Vol. 11</biblScope><lb/>
-                    <biblScope unit="number">No. 129</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1921-07-10">July 10, 1921</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 11</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 129</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -150,7 +161,7 @@
                     pour protéger la vie de ses magistrats et de ses fonctionnaires européens?</p>
                 <p>Pas plus, — ni moins — bien certainement, que le Conseil de l’Ordre, en réclamant
                     des mesures immédiates et indispensables de protection.</p>
-                <p>M -></p>
+                <p>M -&gt;</p>
                 <p>si P</p>
                 <p>s*</p>
                 <p>a</p>
@@ -655,7 +666,7 @@
                 <p>Et sur les 28 membres dont se compose la Commission Municipale, le décret stipule
                     dans l’art. 2, alinéa final « qu’il ne pourra « être admis dans la Commission
                     Municipale « plus de trois membres élus d’une même « nationalité indigène ou
-                    étrangère >.</p>
+                    étrangère &gt;.</p>
                 <p>Le décret du 21 août 1918, modifiant l’organisation de la Commission Municipale à
                     Mansourah accorde sur dix sièges, cinq aux indigènes à élire par des indigènes
                     et cinq aux européens à élire par les européens. Et les commissions locales
@@ -1154,7 +1165,7 @@
             <pb n="143" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0010">
                     <head>195. - Bail. — Durée prévue au contrat. — Anticipation de l’entrée en
                         jouissance du locataire. — Conséquences. — Loi du 21 Février 1920. —
                         Détermination du loyer légal. — Certificat d'impôt sur la propriété bâtie,
@@ -1200,7 +1211,7 @@
                             égard.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0020">
                     <head>196. - Bail. — Loi sur les loyers. — Caractère d’ordre public. —
                         Engagement de déguerpir. — Inefficacité. — Convention de porte-fort. —
                         Engagement de consigner l’immeuble donné par l’acheteur; inexécution ;
@@ -1292,7 +1303,7 @@
                             la charge du demandeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0030">
                     <head>197. - Bail. — Loi sur les loyers du 21 Février 1920. — Détermination du
                         loyer légal. — Habitation louée pour la première fois après 1914.</head>
                     <div type="summary">
@@ -1348,7 +1359,7 @@
                             de 1914.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0040">
                     <head>198. - Distribution. — Contestation non fotmulée au contredit. —
                         Irrecevabilié. — Tardivité de production du titre à l’appui d’une
                         collocation.</head>
@@ -1427,7 +1438,7 @@
                             ou non justifiées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0050">
                     <head>199. - Distribution. — Règlement définitif. — Chose jugée. — Action
                         principale en dommages-intérêts contre un créancier colloqué par suite d’une
                         production dolosive. — Recevabilité.</head>
@@ -1555,7 +1566,7 @@
                             dommages-intérêts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0060">
                     <head>200. - Faillite. — Mineur de 21 ans. — Calendrier applicable. — Majorité
                         atteinte seulement au moment du jugement sur opposition au jugement
                         déclaratif de faillite.</head>
@@ -1642,7 +1653,7 @@
                             son opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0070">
                     <head>201 - Louage de services. — Participation aux bénéfices. — Mode de calcul
                         en ce qui concerce la valeur des marchandises en stock.</head>
                     <div type="summary">
@@ -1662,7 +1673,7 @@
                             Caravopoulo c. Diomède Cavadias).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0080">
                     <head>202. - Lettres de change. — Acceptation consentie par acte séparé avec le
                         tireur. — Action exercée par le porteur-, exceptions opposables par le
                         tiré.</head>
@@ -1678,11 +1689,11 @@
                             protégée par les règles établies en matière de lettre de change.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Trib. Comm. Mansourah, Prés. M. P. Beaeducci, 15 Mars 192>. — Abdel
+                        <p>(Trib. Comm. Mansourah, Prés. M. P. Beaeducci, 15 Mars 192&gt;. — Abdel
                             Hamid Mohamed Yeh’a c. Aly bey Leheîta).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0090">
                     <head>203. - Propriété ( Droit de ). — Conditions d’exercice d’une action basée
                         sur l’abus du droit. — Danger occasionné par une construction. —
                         Voisinage.</head>
@@ -1707,7 +1718,7 @@
                             Papadakis c. Mohamed Bayoumi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0100">
                     <head>204. - Requête civile. — Conditions d'admissibilité contre les décisions
                         préparatoires. — Caractère préparatoire de l’arrêt ordonnant une expertise
                         pour établir des bénéfices.</head>
@@ -1729,7 +1740,7 @@
                             Tosi c. Philippe Amman).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0110">
                     <head>205. - Saisie-arrêt. — Stipulation d’insaisissabilité des revenus dans une
                         Wakfieh ; non validité. — Wakf. — Déchéance du bénéficiaire par suite des
                         saisies-arrêts ; stipulation opposable aux créanciers.</head>
@@ -1864,7 +1875,7 @@
                             s’impose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0120">
                     <head>206. - Saisie-arrêt. — Tiers saisi. — Retard dans la déclaration. — Dol. —
                         Responsabilité personnelle. — Conditions. — Wakfs. — Déchéance du
                         bénéficiaire par suite de saisies-arrêts.</head>
@@ -1997,7 +2008,7 @@
                             a été déjà dit sur les dispositions de l'art. 491 Code de Procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0130">
                     <head>207. - Saisie-revendication. — Inadmissibilité en cas de dessaisissement
                         volontaire par le propriétaire de la chose.</head>
                     <div type="summary">
@@ -2016,7 +2027,7 @@
                             FHerzégovine)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0140">
                     <head>208. - Société Anonyme. — Effets de l’autorisation gouvernementale. —
                         Portée de la décision du Conseil des Ministres du 17 Avril 1899. — Nullité.
                         — Dissolution pour motifs graves. — Bases de l'appréciation des Tribunaux. —
@@ -2076,7 +2087,8 @@
                             d’émettre j</p>
                         <p>de nouvelles actions, ne peut avoir pour H</p>
                         <p>effet de priver la majorité du droit, que lui J</p>
-                        <p>confèrent les statuts, de décider une aug-mentation de capital. >&lt;</p>
+                        <p>confèrent les statuts, de décider une aug-mentation de capital.
+                            &gt;&lt;</p>
                     </div>
                     <div type="litigants">
                         <p>(Trib. Comm. Alex. Prés. M. Pereira e Cunha,28 Février 1921. — F g ï di
@@ -2465,7 +2477,7 @@
                             formulée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-07-0150">
                     <head>209. - Vente avec réserve de propriété. — Clause de “réservait dominü". —
                         Effets à l'égard des tiers. — Inopposabilité au créancier ayant pris
                         affectation hypothécaire sur le terrain où est installée une mdchine vendue
@@ -3271,7 +3283,7 @@
                     MM. Raphaël Waïche &amp; Salomon Benzakein faisant le comm. en général au Caire
                     pour la durée de deux années. Capital L.E. 11.000. Gér. et signature aux denx
                     associés.</p>
-                <p>t>. Hramer &lt;£ Cie. Société en nom collectif constituée le 18.5.21 entre MM.
+                <p>t&gt;. Hramer &lt;£ Cie. Société en nom collectif constituée le 18.5.21 entre MM.
                     Léon Kramef. Henri Kramer et Adolhpe Kramer faisant le com. de bijouteries au
                     Caire pour la durée de trois années. Capital Social L.E. 50.000. Gér. et sign.
                     aux trois associés.</p>
@@ -3285,7 +3297,7 @@
                     MM. Elie S. Sayegh, Ernest Sorer et Max Herzog faisant le commerce en général
                     avec siège au Caire et à Zurich (Suisse) pour la durée de quatre années Cap.
                     Social L.E. 27.000. Gér. et signature aux trois associés.</p>
-                <p>« The Sphinx Publishing Ey > P. S.</p>
+                <p>« The Sphinx Publishing Ey &gt; P. S.</p>
                 <p>Taylor &amp; Eo. Société en comm. constituée le 11 Mai 1921 ayant pour but
                     l’acquisition du Journal «The Sphinx» au Caire pour la durée d’une année.
                     Capital Social L.E. 3.000. Gér. et signature à M. P. S. Taylor.</p>
@@ -3345,7 +3357,7 @@
                 <p>lra Chambre: Lundi 17 Octobre 1921.</p>
                 <p>2“° » Jeudi 20 Justice Sommaire : lre Chambre : Samedi 22 Octobre 1921 2me »
                     Mardi 18 » » 3m0 » Mercredi 19 » » </p>
-                <p>Le ©aire. ></p>
+                <p>Le ©aire. &gt;</p>
                 <p> Audiences des Vacations.</p>
                 <p>En matière Civile et Commerciale, Chambre de Conseil et Correctionnelle s’il y a
                     lieu.</p>

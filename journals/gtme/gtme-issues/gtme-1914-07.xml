@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0004-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0004-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1914-07-10">July 10, 1914</date><lb/>
-                    <biblScope unit="volume">Vol. 4</biblScope><lb/>
-                    <biblScope unit="number">No. 45</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1914-07-10">July 10, 1914</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 4</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 45</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -56,7 +67,7 @@
                 <p>Publiée sous la Direction de Mes MAXIME PUPIKOFER et Léon PANGALO, Avocats ET
                     SOUS LE PATRONAGE DU CONSEIL DE L’ORDRE DES AVOCATS D’EGYPTE</p>
             </div>
-             <div type="section">
+            <div type="section">
                 <head>Extraits et Documents</head>
                 <p>Faillite et Concordat Préventif</p>
                 <p>(Rapport du Procureur Général)</p>
@@ -422,7 +433,7 @@
             <pb n="164" rendition="GAZETTE DES TRIBUNAUX. MIXTES D’EGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0010">
                     <head>386. - Action nominative. — Certificats provisoires endossés en blanc. —
                         Transfert. — Souscripteur. — Libération. — Recours en garantie. — Taux de
                         l’appel. — Connexité. — Indivisibilité. — Imprécision de la demande.
@@ -475,7 +486,7 @@
                         <p>Note. — Confirm. Jug. Comm. Alex. 24 Février 1913. Gaz. IV, 85-144.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0020">
                     <head>387. - Action paulienne. — Fraude. — Créancier. — Débiteur non commerçant.
                         — Cession. — Arrangement entre frères.</head>
                     <div type="summary">
@@ -513,7 +524,7 @@
                             paulienne.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0030">
                     <head>388. - Action possessoire. — Action pétitoire.</head>
                     <div type="summary">
                         <p>Il résulte de l’art. 31 C. Proc., qui interdit à la partie défenderesse
@@ -532,7 +543,7 @@
                             Cie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0040">
                     <head>389. - Adjudication. - Ordonnances du Juge-délégué. — Appel.— Compétence.
                         — Contestations relevant du Tribunal.</head>
                     <div type="summary">
@@ -638,7 +649,7 @@
                             outre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0050">
                     <head>390. - Adjudication. — Ordonnance du Juge-délégué. — Appel. — Motivation.
                         — Jugement d’adjudication.</head>
                     <div type="summary">
@@ -667,7 +678,7 @@
                             ég. arrêt 17 Avril 1913, Gaz. 135-276.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0060">
                     <head>391. - Appel. — Recevabilité. — Non présence en appel des parties ayant
                         figuré en lie instance.</head>
                     <div type="summary">
@@ -682,7 +693,7 @@
                             El Tounsi c. Hussein Amin Radouan et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0070">
                     <head>392. - Bail. — Trouble causé par un tiers. — Expropriation pour cause
                         d’utilité publique. — Alignement. — Indemnité. — Propriétaire.</head>
                     <div type="summary">
@@ -806,7 +817,7 @@
                             elles demeureront sans effet à l’égard de la Municipalité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0080">
                     <head>393. - Compétence mixte. — Action réelle immobilière. — Action
                         personnelle. — Action en résolution d’un . contrat de vente immobilière avec
                         paiement d’une clause pénale.</head>
@@ -830,7 +841,7 @@
                             Chamla et Cts c. Abdou Chamla).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0090">
                     <head>394. - Constructeur. — Privilège. — Frais de conservation ou
                         d’amélioration. — Inscription. — Droit de rétention. — Pos-sesssion.</head>
                     <div type="summary">
@@ -902,7 +913,7 @@
                             per cui lo hanno abban-donato...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0100">
                     <head>395. - Date certaine. — Qualité ou personnalité des parties. — Séquestre
                         judiciaire. — Bail.</head>
                     <div type="summary">
@@ -919,7 +930,7 @@
                             et Ct. c. Triandaîilo Straftiset autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0110">
                     <head>396. - Défense (Liberté de la). — Offenses contenues dans les écrits
                         produits ou les discours prononcés devant les Tribunaux. — Diffamation. —
                         Dommages-intérêts. — Rédaction et publication des jugements.</head>
@@ -1069,7 +1080,7 @@
                             indipendente, cioè la volonté dei giornalisti.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0120">
                     <head>397. - Demande. — Recevabilité. — Cumul de plusieurs revendications en
                         cours d’expropriation.</head>
                     <div type="summary">
@@ -1084,7 +1095,7 @@
                             Abdel Rahman Abou Kahla et Cts et Nasrî Huri et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0130">
                     <head>398. - Distribution par ordre et par contribution. — Fruits. — Radiation
                         des inscriptions. — Effet au regard de l’adjudicataire seul.</head>
                     <div type="summary">
@@ -1153,7 +1164,7 @@
                             un droit chirographaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0140">
                     <head>399. — Domaine public.— Terrains dégrevés de l’impôt foncier. — Tawalefs.—
                         Chemins de fer. — Digues et fossés. —-Décret du 21 Moharrem 1281.</head>
                     <div type="summary">
@@ -1193,7 +1204,7 @@
                             Franç. Antonini c. Gouv. Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0150">
                     <head>400. - Drogman. — Reconnaissance par le Gouvernement Egyptien.—Protection
                         étrangère.</head>
                     <div type="summary">
@@ -1208,7 +1219,7 @@
                             Monasterly c. Kamel bey Raphaël.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0160">
                     <head>401. - Ecole de Danse. — Café-bar. — Débit d’alcool. —
                         Contravention.</head>
                     <div type="summary">
@@ -1224,7 +1235,7 @@
                             Polyvios Evmorgiadès).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0170">
                     <head>402. - Endossement. — Portée de la clause de responsabilité jusqu’ à
                         parfait paiement. —Dispense des formalités légales pour l’exercice de
                         l’action en garantie.</head>
@@ -1242,7 +1253,7 @@
                             Chedid c. EISayed El Sayed Wakea).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0180">
                     <head>403. - Expropriation immobilière. — Notification du dépôt du cahier des
                         charges. — Mise à prix.</head>
                     <div type="summary">
@@ -1255,7 +1266,7 @@
                             Antoine Antonello c. Antoine Maksud).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0190">
                     <head>404. - Faillite. — Délai d’appel. — Action portant sur le caractère
                         privilégié ou chirographaire d’une créance admise.</head>
                     <div type="summary">
@@ -1272,7 +1283,7 @@
                             Wali c. Georges Mabardi esq. et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0200">
                     <head>405. - Faillite.— Mandataire failli.— Revendication d’une créance par le
                         mandant. — Droit Suisse. — Droit Egyptien.</head>
                     <div type="summary">
@@ -1292,7 +1303,7 @@
                             Iscandar Hanna c. Ghobrial Nessim et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0210">
                     <head>406. - Faillite. — Syndic. — Exercice des actions. — Autorisation du
                         Juge-Commissaire.</head>
                     <div type="summary">
@@ -1305,7 +1316,7 @@
                             Meguerditchian esq. c. Hoirs de feu El Hag Hamad Abuu Labau).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0220">
                     <head>407. - Frais ( Liquidation des ). — Droits de Greffe. — Action principale
                         ordinaire.</head>
                     <div type="summary">
@@ -1327,7 +1338,7 @@
                             Mixte).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0230">
                     <head>408. - Gage. — Hypothèque. — Ordre des transcriptions et inscriptions. —
                         Adjudication. — Distribution.</head>
                     <div type="summary">
@@ -1398,7 +1409,7 @@
                             d’ordre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0240">
                     <head>409. - Garoukha. — Terres Kharadjis et Ouchouris. — Gage
                         immobilier.</head>
                     <div type="summary">
@@ -1448,7 +1459,7 @@
                             Long, Gaz. N° 40 p. 53 et les arrêts et jugements y mentionnés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0250">
                     <head>410 - Greffe.— Supplément de droits.— Exécutoire de dépens. — Action
                         principale. — Acte notarié. — Qualification et clauses inopposables au
                         greffe pour la perception des droits. — Préemption. — Transaction. — Vente.
@@ -1570,7 +1581,7 @@
                             et 52 du Tarif Civil....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0260">
                     <head>411 - Hekr. — Action réelle immobilière. — Compétence sommaire. —
                         Louage.</head>
                     <div type="summary">
@@ -1593,7 +1604,7 @@
                             Ministère des Wakfs c. Charles Bacos et autre.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0270">
                     <head>412. - Interdit. — Omission des formalités de publicité de la sentence. —
                         Obligations contractées par l’interdit. — Nullité. .</head>
                     <div type="summary">
@@ -1613,7 +1624,7 @@
                             180-385; v. la note au bas de cette décision.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0280">
                     <head>413 - Jugement. — Nullité substantielle. — Signature.</head>
                     <div type="summary">
                         <p>Le jugement subsiste par suite etdès le moment de son prononcé, et alors
@@ -1632,7 +1643,7 @@
                             Mabrouk Hassan Hamza c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0290">
                     <head>414. - Jugement. — Signification. — Copie unique pour plusieurs parties. —
                         Domicile élu.</head>
                     <div type="summary">
@@ -1649,7 +1660,7 @@
                             Dagash et Cts c. D'ne Sarah Abramo-vitch et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0300">
                     <head>415. - Lettre de Change. — Perte. — Formalités à accomolir. — Traite
                         é-garée au Greffe. — Responsabilité du Greffe.</head>
                     <div type="summary">
@@ -1681,7 +1692,7 @@
                             défaut des protêts rendus impossibles par sa faute.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0310">
                     <head>416. - Loyers. — Libération. — Présomption. — Commencement de preuve par
                         écrit.</head>
                     <div type="summary">
@@ -1690,16 +1701,17 @@
                             juris et de Jure; mais seulement un commencement de preuve par écrit qui
                             autorise les juges à faire résulter de simples présomptions la preuve de
                             la libération du preneur pour les termes précédents (Cass. 27 Février
-                            1882. D. 82. 1. 414, et 8 Mars 1837. D. 37. 1. 282; Cour mixte, 28 Mai 1891. R. O. III, 360).</p>
+                            1882. D. 82. 1. 414, et 8 Mars 1837. D. 37. 1. 282; Cour mixte, 28 Mai
+                            1891. R. O. III, 360).</p>
                     </div>
                     <div type="litigants">
                         <p>(Trib. Civ. Alex. 1" Ch. Prés. M. G. Paulucci. 14 Mai 1914. — Aly el Kadi
                             et Cts c. Succession Gabriel Debbane).</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>418. <!-- sic -->- Mandat. — Présomption de gratuité. — Convention de salaire. —
-                        Condition du mandataire. — Frais d’administration.</head>
+                <div type="case" xml:id="gtme-1914-07-0320">
+                    <head>418. <!-- sic -->- Mandat. — Présomption de gratuité. — Convention de
+                        salaire. — Condition du mandataire. — Frais d’administration.</head>
                     <div type="summary">
                         <p>Le mandat étant toujours présumé gratuit, il incombe au mandataire de
                             prouver qu’un salaire a été expressément convenu, ou bien que sa
@@ -1717,7 +1729,7 @@
                             Zervudachi &amp; fils c. G. Stagnî e figli).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0330">
                     <head>419. - Patron. — Responsabilité. — Usine. — Jeunes ouvriers. —
                         Accident.</head>
                     <div type="summary">
@@ -1737,7 +1749,7 @@
                             d’Alexandrie c. Ahmed El Cherbini).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0340">
                     <head>420. - Protêt. — Lettre de change non acceptée . — Tireur. — Tiré. —
                         Responsabilité. — Registre des protêts.</head>
                     <div type="summary">
@@ -1762,7 +1774,7 @@
                     </div>
                 </div>
                 <pb n="171" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0350">
                     <head>421. - Responsabilité. - Accident-Propriétaire d’une voiture conduite par
                         les préposés d’un entrepreneur de transports.</head>
                     <div type="summary">
@@ -1775,7 +1787,7 @@
                             c. Worms &amp;Cu et VichelRochetin).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0360">
                     <head>422. - Revendication mobilière.— Femme musulmane. — Statut personnel
                         musulman. — Présomption légale. — Trousseau (djehaz). — Créanciers du
                         mari.</head>
@@ -1836,7 +1848,7 @@
                             mari...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0370">
                     <head>423. - Revendication mobilière. — Femme musulmane. — Statut personnel
                         musulman. — Présomption légale. — Trousseau (djehaz). - Créanciers du
                         mari.</head>
@@ -1903,7 +1915,7 @@
                             continue, après son mariage, à habiter le domicile de son père.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0380">
                     <head>424. - Séquestre. — Honoraires. — Privilège. — Recours du propriétaire
                         contre la partie qui a fait nommer à tort le séquestre.</head>
                     <div type="summary">
@@ -1920,7 +1932,7 @@
                             et Cts c. Bank of Egypt et antres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0390">
                     <head>425. - Témoins. — Dépositions. — Question de moralité. — Récusation. —
                         Tribunal Correctionnel. — Procès-verbal d'audience.</head>
                     <div type="summary">
@@ -1942,7 +1954,7 @@
                             Mohamed Aboul Nasr c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0400">
                     <head>426. - Terràins vagues. — Clôture. — Arrêté du 15 Juin 1893. — Villes. —
                         Périmètre. — Banlieues.</head>
                     <div type="summary">
@@ -1969,7 +1981,7 @@
                             Mars 1914.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-07-0410">
                     <head>427. - Vente. — Action en garantie pour vices cachés. — Fin de non
                         recevoir. — Pourparlers extrajudiciaires. •— Visite et vérification de la
                         chose.</head>
@@ -2514,7 +2526,7 @@
                     versé la somme de P.T. 4000 prétendant que cette somme a servi à l’entretien de
                     ses enfants, faill. clôt. p. insuff. d’actif, jug. du 20.6.14.</p>
                 <p>Sakellaris Frères, homol. conc. jud. p. jug. du 20.6.14, 10 % payable le 20.7.14.
-                    garant Vassili Angelopoulos. ></p>
+                    garant Vassili Angelopoulos. &gt;</p>
                 <p>F. Willaumeet Co, homol. conc. jud. p. jug. du 20.6.14, 30 % en 3 versements
                     annuels.</p>
                 <p>Mohamed el Sioufi, homol. conc. jud. p. jug. du 14.6.14. Abandon d’actif.</p>
@@ -2530,7 +2542,7 @@
                     déclarées).</p>
                 <p>Cesana, Tawil et Co, faill. déclarée p. jug. du 13.6.14 (V. faillites
                     déclarées).</p>
-                <p>Mohamed Soliman el Zakyouki, faill. déclarée p. jug.du 20.6.14 >V. failites
+                <p>Mohamed Soliman el Zakyouki, faill. déclarée p. jug.du 20.6.14 &gt;V. failites
                     déclarées).</p>
                 <p>A. Kamel et Co, homol. conc. prév. p. jug. du 24.6.14. 50 % en 10 versements
                     trimestriels, le premier payable le 30.11.14, garant: Hussein bey Sabti

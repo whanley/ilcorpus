@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0029-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0029-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1939-07-10">July 10, 1939</date><lb/>
-                    <biblScope unit="volume">Vol. 29</biblScope><lb/>
-                    <biblScope unit="number">No. 345</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1939-07-10">July 10, 1939</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 29</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 345</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -53,8 +64,8 @@
                 <p>Comité de Rédaction et d’Administration :</p>
                 <p>M* B. PANGÆLO et R. 8CHEMEIL {Directeurs au Caire) M** E. DEGTABDÉ et LUCIEN
                     BARDA (Secrétaires de la rédaction).</p>
-                <p>M» A. FADEL (Directeur à Mansourah), M> F. BRAUN ></p>
-                <p>MeO, MOUCHEAHANI (Correspondant à Port-Said). Me J. LAÇAT ></p>
+                <p>M» A. FADEL (Directeur à Mansourah), M&gt; F. BRAUN &gt;</p>
+                <p>MeO, MOUCHEAHANI (Correspondant à Port-Said). Me J. LAÇAT &gt;</p>
                 <p>(Correspondants à Paris).</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an). P.T. 150</p>
@@ -1217,7 +1228,7 @@
             <pb n="250" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0010">
                     <head>324. - Séquestre. — Biens hypothéqués; clause prévoyant la mise sous
                         séquestre à défaut de paiement à l'échéance; caractère licite; portée; cas
                         où il y a lieu à séquestre; inaction du créancier, ne lui faisant pas perdre
@@ -1473,7 +1484,7 @@
                             8 et 22 Novembre 1933, 20 Décembre 1933 et 9 Mai 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0020">
                     <head>325. - Séquestre. — Biens indivis: dispositions prises par un
                         copropriétaire contesté au préjudice de l'autre; cas où il y a lieu à
                         séquestre en siège de référé.</head>
@@ -1536,7 +1547,7 @@
                             nomination d’un séquestre du Tableau.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0030">
                     <head>326. - Séquestre. — Biens indivis; partage de culture ou de jouissance;
                         cantonnement de la mesure en base du partage.</head>
                     <div type="summary">
@@ -1554,7 +1565,7 @@
                     </div>
                 </div>
                 <pb n="252" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0040">
                     <head>327. - Séquestre. — Biens indivis; partage-dont la validité est attaquée;
                         cantonnement de la mesure à la pari de jouissance du débiteur. —
                         Expropriation; saisie immobilière pratiquée sur une part indivise;
@@ -1644,7 +1655,7 @@
                         <p>Note. — V. ég. ci-avant § 326, l’arrêt du 8 Avril 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0050">
                     <head>328. - Séquestre. — Biens litigieux; demande de mise sous séquestre;
                         admissibilité en l'état de prétentions éventuelles d'un tiers à la propriété
                         du bien.</head>
@@ -1659,7 +1670,7 @@
                             Anastase Tracadas c. Gaston Panelli.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0060">
                     <head>329. - Séquestre. — Biens saisis; compétence du Juge des Référés; examen
                         des conditions de fait nécessaires à l'accueil d'une demande de nomina-tien
                         de séquestre autre que le débiteur.</head>
@@ -1684,7 +1695,7 @@
                             15 Novembre 1933, 13 Décembre 1933 et 14 Février 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0070">
                     <head>330. - Séquestre. — Biens saisis; compétence du Juge des Référés; examen
                         des condition$ de fait nécessaires à l'accueil d'une demande de nomination
                         deséquestre autre que le débiteur.</head>
@@ -1761,7 +1772,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0080">
                     <head>331. - Séquestre. — Biens saisis; compétence du Juge des Référés pour
                         ordonner la mise sous séquestre indépendamment de l’urgence.</head>
                     <div type="summary">
@@ -1778,7 +1789,7 @@
                         <p>Note. — V. ég. ci-après H 332, l’arrêt du 15 Février 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0090">
                     <head>332. - Séquestre. — Biens saisis; compétence du Juge des Référés pour
                         ordonner la mise sous séquestre indépendamment de l’urgence; cas d’une
                         location apparemment fictive.</head>
@@ -1843,7 +1854,7 @@
                             et 335, les arrêts du 16 Juin 1937 êt du 30 Novembre 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0100">
                     <head>333. - Séquestre. — Biens saisis; demande de mise sous séquestre;
                         nécessité de mise en cause du saisi et du saisissant, mais non de tous les
                         créanciers inscrits; opposabilité de l’ordonnance à tous les créanciers
@@ -1920,7 +1931,7 @@
                             immeubles au service desquels ils étaient attachés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0110">
                     <head>334. - Séquestre. — Biens saisis; existence de locations; cas où il y a
                         lieu à mise sous séquestre par référé sur la base de l'art. 600 C.
                         Civ.</head>
@@ -2010,7 +2021,7 @@
                             335, l’arrêt du 30 Novembre 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0120">
                     <head>335. - Séquestre. —• Biens saisis; existence de locations; cas où H y a
                         lieu à mise sous séquestre sur la base de l'art. 622 C. Proc, malgré les
                         locations; compétence du Juge des Béférés; étendue.</head>
@@ -2083,7 +2094,7 @@
                             16 Juin 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0130">
                     <head>336. - Séquestre. — Biens saisis; maintien de la gestion du débiteur
                         saisi; condition; cas où il y a lieu à retrait de séquestration.</head>
                     <div type="summary">
@@ -2104,7 +2115,7 @@
                             Company c. Aly Abdel Rahman.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0140">
                     <head>337. - Séquestre. — Biens saisis; suspension des ventes forcées; demande
                         de mise sous séquestre; admissibilité.</head>
                     <div type="summary">
@@ -2150,7 +2161,7 @@
                             Décembre 1933, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0150">
                     <head>338. - Séquestre. — Biens saisis: suspension des ventes forcées; Loi i\'o.
                         3 de i(J3S); demande de mise sous séquestre; admissibilité.</head>
                     <div type="summary">
@@ -2210,7 +2221,7 @@
                             30-39, l’arrêt du 27 Décembre 1933, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0160">
                     <head>339. - Séquestre. — Biens successoraux; cas où il y a lieu à séquestre;
                         choix du séquestre.</head>
                     <div type="summary">
@@ -2285,7 +2296,7 @@
                     </div>
                 </div>
                 <pb n="256" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0170">
                     <head>340. - Séquestre. — Biens successoraux; succession musulmane; cas où il y
                         a lieu à séquestre.</head>
                     <div type="summary">
@@ -2339,7 +2350,7 @@
                         <p>Note. — V. ég. ci-avant H 339, l’arrêt du 16 Février 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0180">
                     <head>341. - Séquestre. — Biens wakfs; demande de mise sous séquestre;
                         intervention de l'usufruitier; recevabilité.</head>
                     <div type="summary">
@@ -2352,7 +2363,7 @@
                             Kouloub Ghaleb c. Lieto Farag Massouda et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0190">
                     <head>342. - Séquestre. — Biens wakfs; demande de mise sous séquestre; mise en
                         cause des bénéficiaires, non exigée.</head>
                     <div type="summary">
@@ -2365,7 +2376,7 @@
                             Fattah El Sayed Khalaf et Ct c. Marie veuve Athanase Xydis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0200">
                     <head>343. - Séquestre. — Biens wakfs; demande de mise sous séquestre par le
                         créancier d'un bénéficiaire; conditions d'admissibilité.</head>
                     <div type="summary">
@@ -2511,7 +2522,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0210">
                     <head>344. - Séquestre. —■ Biens wakfs; demande de mise sous séquestre par le
                         créancier d’un bénéficiaire; conditions d'admissibilité; compétence du Juge
                         des Référés en la matière.</head>
@@ -2532,7 +2543,7 @@
                             cités en note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0220">
                     <head>345. - Séquestre. — Biens wakfs; demande de mise sous séquestre par le
                         créancier du nazir bénéficiaire; conditions d'admissibilité; négligence du
                         créancier; défaut de saisie-arrêt; conséquences.</head>
@@ -2587,7 +2598,7 @@
                             cités en note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0230">
                     <head>346. - Séquestre. — Biens wakfs; demande de mise sous séquestre par le
                         créancier d'un bénéficiaire; conditions d’admissibilité; négligence du
                         créancier; conséquences.</head>
@@ -2654,7 +2665,7 @@
                         <pb n="258" rendition="Gazette des Tribunaux Mixtes."/>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0240">
                     <head>347. - Séquestre. — Biens wakfs; location consentie par une autre personne
                         que le séquestre; nullité.</head>
                     <div type="summary">
@@ -2669,7 +2680,7 @@
                             Ibrahim bey Orabi c. Zan-nouba bent Badawi El Kammar et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0250">
                     <head>348. - Séquestre. — Demande de mainlevée; motifs nouveaux en degré
                         d'appel; irrecevabilité. — Nationalité; preuve résultant d'un certificat
                         d'immatriculation. — Référé; chose jugée; caractère relatif.</head>
@@ -2690,7 +2701,7 @@
                             Mohamed El Rau et Cts c. V. J. Caralli et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0260">
                     <head>349. - Séquestre. —■ Demande de mise sous séquestre basée sur une créance
                         chirographaire; inadmissibilité; exception à l'égard des bénéficiaires de
                         certains wakfs.</head>
@@ -2705,7 +2716,7 @@
                             Mahmoud Bendari El Cher-bîni c. Mathilde Bernadoni et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0270">
                     <head>350. - Séquestre. — Demande de mise sous séquestre d'un journal;
                         conditions auxquelles la mesure peut être ordonnée. — Référé; mesures
                         provisoires; recherche des intérêts à protéger.</head>
@@ -2772,7 +2783,7 @@
                             solution, au fond, dans un avenir prochain.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0280">
                     <head>351. - Séquestre. —■ Demande de remplacement ou révocation; cas où le Juge
                         des Référés est incompétent à statuer.</head>
                     <div type="summary">
@@ -2789,7 +2800,7 @@
                             Abdel Sayed Yousset' c. Dresdner Bank et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0290">
                     <head>352. - Séquestre. — Demande de remplacement ou révocation; demande
                         introduite hors de la présence de certaines parties en cause en l'instance
                         en nomination; irrecevabilité; mise en cause en degré d'appel des parties
@@ -2853,7 +2864,7 @@
                         <p>Qu’il échet de confirmer la décision déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0300">
                     <head>353. - Séquestre. — Demande de remplacement ou révocation; personnes
                         autorisées à la formuler; conditions.</head>
                     <div type="summary">
@@ -2868,7 +2879,7 @@
                             Hassiba Hegab et autres c. Mi-ké Mavro et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0310">
                     <head>354. - Séquestre. — Demande de remplacement par assignation directe devant
                         la Cour; cas d'inadmissibilité.</head>
                     <div type="summary">
@@ -2923,7 +2934,7 @@
                             par devant la Cour; qu’elle est donc irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0320">
                     <head>355. - Séquestre. — Désignation; choix de l'une des parties; cas où il est
                         possible en siège de référé.</head>
                     <div type="summary">
@@ -2995,7 +3006,7 @@
                             il échet de confirmer l’ordonnance déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0330">
                     <head>356. - Séquestre. —• Désignation; choix; proposition faite en degré
                         d'appel; demande recevable pour la première fois devant la Cour.</head>
                     <div type="summary">
@@ -3056,7 +3067,7 @@
                             explicitement sur cette offre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0340">
                     <head>357. - Séquestre. — Honoraires et dépens; droit de rétention; biens sur
                         lesquels il ne peut s'exercer.</head>
                     <div type="summary">
@@ -3113,7 +3124,7 @@
                             la restitution des biens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0350">
                     <head>358. - Séquestre. — Honoraires et dépens; droit de rétention; condition
                         d'exercice; opposition à l'ordonnance de taxe; effet non suspensif; dépôt à
                         la Caisse du Tribunal.</head>
@@ -3187,7 +3198,7 @@
                         <p>(Motifs se référant à ceux du précédent arrêt).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0360">
                     <head>359. - Séquestre. — Honoraires; taxe; séquestre nommé par arrêt rendu en
                         infirmation d'une ordonnance de référé; qualité pour le Président de la Cour
                         de taxer les honoraires du séquestre: cas où celui-ci tient ses pouvoirs du
@@ -3205,7 +3216,7 @@
                             Vahram Djizmedjian et Cts c. Zarmayr Djizmedjian.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0370">
                     <head>360. - Séquestre. — Juge des Référés; cas où il peut ordonner la mise sous
                         séquestre à titre de mesure conservatoire urgente.</head>
                     <div type="summary">
@@ -3345,7 +3356,7 @@
                             sera prise sous réserve des droits des parties au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0380">
                     <head>361. - Séquestre. — Pluralité de séquestres; acte de gestion émané d'un
                         seul; validité. — Séquestre; responsabilité personnelle; limite et
                         fondement. — Séquestre; obligations contractées pour les besoins de la
@@ -3506,7 +3517,7 @@
                             droits des parties sont-réservés à cet égard.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-07-0390">
                     <head>362. - Séquestre. — Responsabilité; droit de surveillance du créancier et
                         du débiteur; paiements non autorisés; conséquences.</head>
                     <div type="summary">

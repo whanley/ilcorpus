@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1910-12-10">December 10, 1910</date><lb/>
-                    <biblScope unit="volume">Vol. 1</biblScope><lb/>
-                    <biblScope unit="number">No. 2</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1910-12-10">December 10, 1910</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 1</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 2</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -336,7 +347,7 @@
             <pb rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0010">
                     <head>Accident de tramway.- Responsabilité.</head>
                     <div type="summary">
                         <p>L’ouvrier travaillant sur une voie de tramway et blessé par une voiture
@@ -352,7 +363,7 @@
                             a’Alexandrie.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0020">
                     <head>Avocat. — Taxe. — Faillite. — Privilège.</head>
                     <div type="summary">
                         <p>La taxe de l’avocat qui a défendu le failli des accusations qui étaient
@@ -370,7 +381,7 @@
                             faillite Naggar Affif.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0030">
                     <head>Bilan (Dépôt de). — Délai de quinzaine.</head>
                     <div type="summary">
                         <p>Le jour du protêt, qui indique la date de la cessation des paiements,
@@ -393,7 +404,7 @@
                             considéré comme ayant interprété exactement le Code ?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0040">
                     <head>Cassation (Cas de\ -Nullité de jugement.</head>
                     <div type="summary">
                         <p>Le procès-verbal de police, qui est la base des poursuites pénales, ne
@@ -412,7 +423,7 @@
                             l’identité des pièces à conviction.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0050">
                     <head>Chose jugés. — Juridiction pénale.</head>
                     <div type="summary">
                         <p>S’il est de principe que les décisions rendues en matière pénale ne lient
@@ -429,7 +440,7 @@
                             Railway Cy. Ltd.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0060">
                     <head>Commerçant. — Faillite.</head>
                     <div type="summary">
                         <p>Le fait par un ancien commerçant de devenir administrateur d’une société
@@ -446,7 +457,7 @@
                             &amp; Exchange Ltd en lîq.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0070">
                     <head>Contravention. — Opposition à jugement faisant droit aux conclusions de la
                         partie civile. — Irrecevabilité.</head>
                     <div type="summary">
@@ -517,7 +528,7 @@
                         <p>Déclare les opposants irrecevables en leur opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0080">
                     <head>Détectives (Bureau de). —Non applicabilité de l’arrêté du 15 septembre
                         1902.</head>
                     <div type="summary">
@@ -535,7 +546,7 @@
                             Suntgate et consorts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0090">
                     <head>Dommages-intérêts. - Objet de la vente.</head>
                     <div type="summary">
                         <p>L’acheteur qui a refusé une marchandise à la réception sous prétexte
@@ -555,7 +566,7 @@
                             c. Carver brothers &amp; C0., Ltd.j</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0100">
                     <head>Faillite. — Admission au passif.— Effets de complaisance.</head>
                     <div type="summary">
                         <p>L’avalisent1 d’un billet à ordre de complaisance ne peut prétendre se
@@ -573,7 +584,7 @@
                             esq.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0110">
                     <head>Fictivité. — Effets de commerce. —Tiers porteur.</head>
                     <div type="summary">
                         <p>Des billets souscrits par un prodigue à la veille d’une sentence
@@ -590,7 +601,7 @@
                             et Cheick Bassîount Gohari el Menchaoui esq.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0120">
                     <head>Garantie. — Bénéfice de discussion.</head>
                     <div type="summary">
                         <p>Le garant qui invoque le bénéfice de dis-x mission ne saurait en
@@ -639,7 +650,7 @@
                             principal survenue par le défaut de poursuites.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0130">
                     <head>Honoraires de médecin. — Visites (Tarif des).</head>
                     <div type="summary">
                         <p>Il n’y a pas lieu de distinguer, au point de vue du tarif des visites
@@ -664,7 +675,7 @@
                             insuffisante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0140">
                     <head>Incendie. — Compagnie d’assurances.— Recours du voisin.</head>
                     <div type="summary">
                         <p>Que l’incendie ait résulté d’un cas fortuit ou d’une faute, négligence,
@@ -688,7 +699,7 @@
                             Commercial Loans Bank &amp; Ware-house et consort.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0150">
                     <head>Juge de service. — Ordonnance de saisie. — Compétence.</head>
                     <div type="summary">
                         <p>En admettant que d’après les clauses d’un contrat de bail, une partie ait
@@ -709,7 +720,7 @@
                             Pacha.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0160">
                     <head>Juridiction mixte. — Compétence. — Nationalité.</head>
                     <div type="summary">
                         <p>La compétence se détermine par la qualité des parties en cause et non par
@@ -728,7 +739,7 @@
                             1908 par le Tribunal civil de Mansourah, en sens contraire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0170">
                     <head>Juridiction mixte. — Expropriation.</head>
                     <div type="summary">
                         <p>La procédure d’expropriation initiée devant le Tribunal mixte contre le
@@ -743,7 +754,7 @@
                             Difounî.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0180">
                     <head>Juridiction mixte. — Nationalité.</head>
                     <div type="summary">
                         <p>Il appartient au demandeur de faire la preuve de sa capacité d’agir
@@ -760,7 +771,7 @@
                     </div>
                 </div>
                 <pb n="6" rendition="GAZETTE DES TRIBUNAUX MIXTES D’EGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0190">
                     <head>Litispendance. — Déguerpissement. — Compétence de Référé. — Renonciation à
                         une instance engagée.</head>
                     <div type="summary">
@@ -791,7 +802,7 @@
                             temps.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0200">
                     <head>Livres de commerce.—Responsabilité.</head>
                     <div type="summary">
                         <p>Les indications des livres de commerce’ établissant l’existence d’une
@@ -806,7 +817,7 @@
                             Cv.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0210">
                     <head>Mariage religieux. —- Validité en Egypte. — Nationalité de la
                         femme.</head>
                     <div type="summary">
@@ -827,7 +838,7 @@
                             Caterîna Pennina.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0220">
                     <head>Nullité (Demande en). — Acte d'appel. — Délai de huitaine. —
                         Avenir.</head>
                     <div type="summary">
@@ -855,7 +866,7 @@
                             comme s’il était valable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0230">
                     <head>Opposition. — Défaut faute de conclure.</head>
                     <div type="summary">
                         <p>L’art. 384 C. Proc, portant que le jugement rendu par défaut sur
@@ -872,7 +883,7 @@
                             autres.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0240">
                     <head>Précision de la demande. — Interprétation par le magistrat. — Action en
                         nullité pour simulation. — Action pan-tienne.</head>
                     <div type="summary">
@@ -905,7 +916,7 @@
                         <p>infirm. d’un jug. Trib. civ. Alex., 19 mars 1910.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0250">
                     <head>Référé - Interdit - Procédure d’exécution</head>
                     <div type="summary">
                         <p>Un créancier ne peut poursuivre contre son débiteur personnellement,
@@ -919,7 +930,7 @@
                             Daniel Fonquet.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0260">
                     <head>Roksa. — Retrait d’autorisation. — Fermeture par mesure
                         administrative.</head>
                     <div type="summary">
@@ -942,7 +953,7 @@
                             Public.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0270">
                     <head>Saisie-arrêt. — Sommation an tiers-saisi. — Omission de la
                         déclaration.</head>
                     <div type="summary">
@@ -960,7 +971,7 @@
                             et du 20 avril 1904, B. L., XVI, 202.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1910-12-0280">
                     <head>Témoin. —■ Citation directe à l’audience. — Jonction. — Demande
                         vexatoire.</head>
                     <div type="summary">
@@ -1677,7 +1688,7 @@
                 <p>Réun. le 20 déc. 9 h. 3/4 p. lect. du rapp. des sieurs Alby et Abdel Kader
                     Ghenani crâne, délég. et du sieur Georges Zacharo-poulo expert.</p>
                 <p>Abdallah Bassiounic</p>
-                <p>Réun. p. lect. du rapp. des exp. t> déc. 10 .h. 1,2.</p>
+                <p>Réun. p. lect. du rapp. des exp. t&gt; déc. 10 .h. 1,2.</p>
                 <p>Hag Ibrahim Abdel W ahedElHabbaz.</p>
                 <p>Réun. conc. 6 déc. 10 h. 1/2 a. m.</p>
                 <p>Abdel Razek Mohamed et C°.</p>

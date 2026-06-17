@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0029-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0029-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1939-03-10">March 10, 1939</date><lb/>
-                    <biblScope unit="volume">Vol. 29</biblScope><lb/>
-                    <biblScope unit="number">No. 341</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1939-03-10">March 10, 1939</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 29</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 341</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -54,7 +65,8 @@
                 <p>Bomité de Rédaction et d'Administration :</p>
                 <p>M" L. PANQALO et R. 8CHEMEIL (Directeur» au Caire)</p>
                 <p>M** H. DEGIARDÉ et LUCIEN BAŒIDA (Secrétaires de la rédaction).</p>
-                <p>M« A. FADEL (Directeur à Mansourah}. M- F. BBAUN > (Oorrespendantt â Parit,</p>
+                <p>M« A. FADEL (Directeur à Mansourah}. M- F. BBAUN &gt; (Oorrespendantt â
+                    Parit,</p>
                 <p>Me G. MOUCHBAHAJNT (Correspondant à Port-Saïd). Me J. LAÇAT )</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an). P.T. 150</p>
@@ -313,7 +325,7 @@
             <pb n="119" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0010">
                     <head>140. - Appel. — Absence de toute &lt;défense par l'intimé; obligation pour
                         l'appelant d'établir le bien fondé de son appel. — Cautionnement; action
                         récursoire du garant contre son propre ■garant; admissibilité du recours
@@ -385,7 +397,7 @@
                             précédemment rappelée, l’art. 2 de cet acte authentique;</p>
                         <p>que, toutefois, l’appelante . se trouvant elle-même avoir été assignée
                             par l’Administration des Wakfs en paiement de la somme par elle
-                            garantie.>envers cette dernière, Ton ne saurait apercevoir ce qui
+                            garantie.&gt;envers cette dernière, Ton ne saurait apercevoir ce qui
                             pouvait l’empêcher de mettre, dès ce moment, en cause dans ce procès-là
                             son propre garant, le Sieur Vita Jos. Mosseri, ou, par suite du décès de
                             celui-ci, ses Hoirs, à l’effet d’exercer contre eux son recours, à elle,
@@ -478,7 +490,7 @@
                             laissée tomber, telle cette question de solidarité...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0020">
                     <head>141. - Appel. — Acte; motifs; insuffisance; espèce. — Appel; exception
                         d'incompétence; examen préalable de la régularité de l'appel.</head>
                     <div type="summary">
@@ -526,7 +538,7 @@
                             régulièrement saisie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0030">
                     <head>142. - Appel. — Acte; motifs; insuffisance; nullité; caractère d'ordre
                         public.</head>
                     <div type="summary">
@@ -589,7 +601,7 @@
                             recevable ou non (v. arrêt du 27 Janvier 1935 Bull. XLVII, p. 135).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0040">
                     <head>143. - Appel. — Acte; motifs; référence aux moyens de première instance;
                         caractère suffisant.</head>
                     <div type="summary">
@@ -622,7 +634,7 @@
                         <p>Qu’il échet, partant, de recevoir l’appel en la forme...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0050">
                     <head>144. - Appel. — Action possessoire; appel ne portant que sur une demande
                         en dommages-intérêts; recevabilité devant la Cour.</head>
                     <div type="summary">
@@ -684,7 +696,7 @@
                             l’encontre de l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0060">
                     <head>145. - Appel. — Appel incident; irrecevabilité d'intimé à intimé.</head>
                     <div type="summary">
                         <p>L’intimé, auquel il est loisible de se rallier à un appel principal non
@@ -728,7 +740,7 @@
                         <p>Note. — Comp. ci-après § 146, l’arrêt du 14 Mai 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0070">
                     <head>146. - Appel. — Appel incident; irrecevabilité d'intimé à intimé;
                         recevabilité des conclusions prises par le garanti sur Vappel principal du
                         garant.</head>
@@ -776,7 +788,7 @@
                         <p>Note. :— Comp. ci-avant § 145, l’arrêt du 22 Février 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0080">
                     <head>147. - Appel. — Appel incident portant sur un chef autre que celui faisant
                         l'objet de l'appel principal; cas où ces chefs concernent une partie autre
                         que celle qui a interjeté appel principal; irrecevabilité.</head>
@@ -795,7 +807,7 @@
                         <p>Note. — V. ég. ci-après § 148, l’arrêt du 3 Décembre 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0090">
                     <head>148. - Appel. — Appel incident portant sur un chef autre que celui faisant
                         l'objet de l'appel principal; irrecevabilité.</head>
                     <div type="summary">
@@ -863,7 +875,7 @@
                         <p>Note. — V. ég. ci-avant H 147, l’arrêt du 5 Avril 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0100">
                     <head>149. - Appel. — Appel incident; recevabilité après acquiescement par
                         l'intimé.</head>
                     <div type="summary">
@@ -880,7 +892,7 @@
                             1922 et du 21 Juin 1923, cités par l'arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0110">
                     <head>150. - Appel. — Appel incident; recevabilité; délais; antériorité du
                         désistement de l'appel principal sur la déclaration d'appel incident, tous
                         deux formulés à la même audience, n’entrainant pas l'irrecevabilité de
@@ -934,7 +946,7 @@
                             235-233, l’arrêt du 30 Novembre 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0120">
                     <head>151. - Appel. — Astreinte; appel limité à l'astreinte; irrecevabilité; cas
                         où un délai a été fixé et où la partie gagnante a été autorisée à créditer
                         elle-même le jugement à l'expiration de ce délai; caractère non indéterminé
@@ -999,12 +1011,12 @@
                             d'astreinte qui avait été-formulée; les difficultés survenues entre
                             parties sont en somme des difficultés d’exécution qui devaient être
                             portées devant les juges compétents et qui pourront du reste encore
-                            l’être au moment de l’exécution; en> aucun cas ces difficultés ne
+                            l’être au moment de l’exécution; en&gt; aucun cas ces difficultés ne
                             pouvaient rendre appelable une décision qui ne l’était pas-au moment de
                             la mise en délibéré et de son. prononcé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0130">
                     <head>152. - Appel. — Conclusions prises en degré d'appel et tendant à
                         Vinterprétation du jugement; irrecevabilité; recours-formé contre un
                         jugement rendu conformément aux conclusions de l'appelant; irrecevabilité;
@@ -1154,7 +1166,7 @@
                             preuve fait défaut en l’occurrence...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0140">
                     <head>153. - Appel. — Cumul; réunion dans un même exploit de deux procédures
                         distinctes sans lien de connexité; irrecevabilité.</head>
                     <div type="summary">
@@ -1166,7 +1178,7 @@
                             Ibrahim bey Bahgat et Ct. et autres c. Jean D. Coconis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0150">
                     <head>154. - Appel. — Décès de l'une des parties; droit d'appel et
                         d'intervention reconnu à l'héritier en vue de se rallier à l'appel de ses
                         cohéritiers.</head>
@@ -1182,7 +1194,7 @@
                             Tork Afifi Hamed et autres c. P. Vassilopoulo Frères &amp; Co.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0160">
                     <head>155. - Appel. — Délai d’appel des jugements rendus par les Tribunaux
                         Civils et intéressant une faillite. — Juridiction Mixte; compétence à
                         statuer sur les actions affectant des faillites mixtes. — Wakf;
@@ -1281,7 +1293,7 @@
                             -Bull. XXXIX, 438)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0170">
                     <head>156. - Appel. — Délai; point de départ en cas de signification au
                         Parquet.</head>
                     <div type="summary">
@@ -1345,7 +1357,7 @@
                             Décembre 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0180">
                     <head>157. - Appel. — Délai; point de départ en cas de signification au
                         Parquet.</head>
                     <div type="summary">
@@ -1386,7 +1398,7 @@
                         <p>Note. — V. ég. ci-avant § 156, l’arrêt du 14 Mai 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0190">
                     <head>158. - Appel. — Délai; réserve du droit d'appel dans la signification du
                         jugement; portée.</head>
                     <div type="summary">
@@ -1398,12 +1410,12 @@
                             signification.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d’Appel, 2me Ch., Prés. S.E. Yussouf Zul-ficar pacha, 9 Juin 1938.
-                            — Fatma Mohamed Has-.san Dandan et autre c. Moussa Mohamed Has-;san
-                            Dandan et autre.</p>
+                        <p>Cour d’Appel, 2me Ch., Prés. S.E. Yussouf Zul-ficar pacha, 9 Juin 1938. —
+                            Fatma Mohamed Has-.san Dandan et autre c. Moussa Mohamed Has-;san Dandan
+                            et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0200">
                     <head>159. - Appel. — Délai: suspension: Jorce majeure. -— Appel: revendication
                         incidente; délai de dix jours; applicabilité à l'appel formé par le
                         saisissant contre le revendiquant.</head>
@@ -1504,7 +1516,7 @@
                             de statuer en conséquence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0210">
                     <head>160. - Appel. — Demande dirigée personnellement en appel contre un
                         défendeur assigné ès-qualité en première instance; irrecevabilité.</head>
                     <div type="summary">
@@ -1562,7 +1574,7 @@
                             jugement attaqué. ;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0220">
                     <head>161. - Appel. — Demande nouvelle; changement de base d'une demande ew
                         nullité de bail; irrecevabilité. ■ . - : p;</head>
                     <div type="summary">
@@ -1594,7 +1606,7 @@
                             telle...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0230">
                     <head>162. - Appel. — Désistement; inadmissibilité après appel incident par voie
                         de conclusions. — Appel incident; recevabilité par voie de
                         conclusions.</head>
@@ -1610,7 +1622,7 @@
                             Mayerakis c. William Lancaster.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0240">
                     <head>163. - Appel. — Désistement par un nazir de wakf; cas où il est
                         inopérant.</head>
                     <div type="summary">
@@ -1630,7 +1642,7 @@
                         <p>Note. — Rapp. Gaz. IL p. 126, l’arrêt du 28 Mars 1912.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0250">
                     <head>164. - Appel. — Effet dévolutif; cas où il se produit. — Evocation du
                         fond; cas où elle peut avoir lieu; déboutement en l'état; évocation du fond;
                         inadmissibilité.</head>
@@ -1651,8 +1663,8 @@
                             delà des cas fixés par la loi.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d’Appel, 3me Ch., Prés. Comte de Andino, 7 Janvier 1936. —> Sam Mol
-                            ho c. Habiba Greiss.</p>
+                        <p>Cour d’Appel, 3me Ch., Prés. Comte de Andino, 7 Janvier 1936. —&gt; Sam
+                            Mol ho c. Habiba Greiss.</p>
                     </div>
                     <div type="decision">
                         <p>Arrêt.</p>
@@ -1746,14 +1758,14 @@
                             l’espèce, d’un déboutement en l’état, la jurisprudence-s’étant toujours
                             prononcée dans le sens que les dispositions de la loi relatives à la.
                             faculté pour la Cour d’évoquer le fond doivent être interprétées
-                            restrictivement (arrêt 6 Janvier 1926, Bull. XXXVIII, 163> et que cette
-                            faculté ayant un caractère exceptionnel, puisqu’elle déroge au principe
-                            du double degré de juridiction, ne peut être-étendue au delà des cas
-                            fixés par la loi (arrêts 24 Mars 1921. Bull. XXXIII, 237; 2 Février
-                            1922, Bull. XXXIV, 149).</p>
+                            restrictivement (arrêt 6 Janvier 1926, Bull. XXXVIII, 163&gt; et que
+                            cette faculté ayant un caractère exceptionnel, puisqu’elle déroge au
+                            principe du double degré de juridiction, ne peut être-étendue au delà
+                            des cas fixés par la loi (arrêts 24 Mars 1921. Bull. XXXIII, 237; 2
+                            Février 1922, Bull. XXXIV, 149).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0260">
                     <head>165. - Appel. — Effet dévolutif; interprétation; tribunal compétent en
                         cas-d'appel. — Demande reconventionnelle;' irrecevabilité dérivant de
                         l'incompétence du tribunal à statuer sur la demande principale.</head>
@@ -2162,7 +2174,7 @@
                             dont l’interprétation échappe, à son avis, à sa compétence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0270">
                     <head>166. - Appel. — Exception d'incompétence ratione materiæ; condition à
                         laquelle elle peut cire soulevée pour la première fois en degré d'appel. —
                         Jugements rendus sur la compétence; appel prévu par l'art. 395 C. Proc.;
@@ -2258,7 +2270,7 @@
                             appelés à y statuer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0280">
                     <head>167. - Appel. — Indivisibilité d'intérêt; inapplicabilité entre débiteur
                         saisi et revendiquant. — Appel; recevabilité; condition; appel formé par le
                         débiteur saisi du jugement rendu sur revendication; irrecevabilité. —. Vente
@@ -2388,7 +2400,7 @@
                             vendeur et dont n’est responsable que Facheteur-revendiquant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0290">
                     <head>168. - Appel. — Indivisibilité; effets de l'appel formé dans le délai
                         légal È l'égard de l'une des parties; effets de-l'appel au profit des
                         litisconsorts de-l'appelant en matière indivisible. — Actes d'huissier;
@@ -2518,7 +2530,7 @@
                             celui-ci soit régulief... ’</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0300">
                     <head>169. - Appel. — Indivisibilité; effets de l'appel formé dans le délai
                         légal par l'un des coobligés solidaires; moyens propres au coobligé qui. n'a
                         point relevé appel; inopposabilité au créancier; conditions auxquelles les
@@ -2665,7 +2677,7 @@
                             Bull. XXV, p. 98 et arrêt du 3 Mai 1917, Bull. XXIX, p. 400).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0310">
                     <head>170. - Appel. — Indivisibilité; jugement annulant une vente et une
                         revente; appel formé par Vacquéreur, profitant au sous-acquéreur.</head>
                     <div type="summary">
@@ -2727,7 +2739,7 @@
                             cointéressés...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0320">
                     <head>171. - Appel. — Indivisibilité; jugement; nullité fondée sur un motif
                         commun à toutes les parties; effet à l'égard des autres; irrégularité
                         provenant de la remise au rôle à l'insu des défendeurs; appel; profit
@@ -2793,7 +2805,7 @@
                         <p>Il échet donc d’infirmer comme tel le dit jugement...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0330">
                     <head>172. - Appel. — Indivisibilité; opposition à commandement immobilier;
                         appel formé, par l'un des opposants, profitant aux autres. — Chose jugée;
                         dispositif et motif; cas où les motifs sont susceptibles d'acquérir
@@ -2929,7 +2941,7 @@
                             confirmer le jugement qui l’a rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0340">
                     <head>173. - Appel. — Indivisibilité; signification de jugement; cours des
                         délais d'appel: appel relevé par ou contre l'une des parties; effets à
                         l’égard des autres.</head>
@@ -2972,7 +2984,7 @@
                             passer outre à l’examen du fond...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0350">
                     <head>174. - Appel. .— Irrecevabilité dérivant de l'acquiescement au jugement;
                         acquiescement dérivant de l'exécution du jugement par son bénéficiaire;
                         réserve; portée.</head>
@@ -3039,7 +3051,7 @@
                         <p>Note. — V. par contre ci-après § 177, l’arrêt du 2 Février 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0360">
                     <head>175. - Appel. — Irrecevabilité dérivant de l'acquiescement à une
                         ordonnance de référé; assistance prêtée à un séquestre ne constituant pas
                         acquiescement à la décision qui l'a nommé. — Appel; moyen nouveau; éléments
@@ -3089,7 +3101,7 @@
                             Bull. XLVII, 4; 16 Janvier 1935, Bull. XLVII, 120)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0370">
                     <head>176. - Appel. — Irrecevabilité dérivant de l'acquiescement; acquiescement
                         dérivant de l'offre de paiement sans réserve des dépens de première
                         instance.</head>
@@ -3108,7 +3120,7 @@
                         <p>20 Février 1935 et 2 Avril 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0380">
                     <head>177. - Appel. — Irrecevabilité dérivant de l'acquiescement au jugement;
                         acquiescement ne dérivant pas de l'exécution du jugement par son
                         bénéficiaire; réserves; portée.</head>
@@ -3145,7 +3157,7 @@
                         <p>Note. — V. par contre ci-avant § 174, l’arrêt du 7 Décembre 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0390">
                     <head>178. - Appel. —. Irrecevabilité dérivant de l'acquiescement au jugement;
                         acquiescement ne dérivant pas de l'exécution d'un jugement
                         interlocutoire.</head>
@@ -3166,7 +3178,7 @@
                             1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0400">
                     <head>179. - Appel. — Irrecevabilité dérivant de l'acquiescement au jugement;
                         acquiescement ne dérivant pas du paiement sans réserve des dépens de
                         première instance en cas de décision exécutoire par provision.</head>
@@ -3185,7 +3197,7 @@
                             14 Février 1935, et ci-après § 180, l’arrêt du 2 Avril 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0410">
                     <head>180. - Appel. — Irrecevabilité dérivant de l'acquiescement au jugement;
                         acquiescement ne dérivant pas du paiement sans réserve des dépens de
                         première instance. — Expropriation sur saisie; lotissement des biens;
@@ -3247,7 +3259,7 @@
                             1935, et des 14 et 20 Février 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0420">
                     <head>181. - Appel. — Irrecevabilité dérivant du défaut de qualité de rappelant;
                         fin de non-recevoir; inopposabilité à celui qui a acquis postérieurement au
                         jugement de déboutement la qualité qui lui faisait défaut en première
@@ -3294,7 +3306,7 @@
                             152).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0430">
                     <head>182. - Appel. — Irrecevabilité; recours interjeté pendant le cours de
                         l'instance en opposition au même jugement, formée par les mêmes
                         parties~</head>
@@ -3308,7 +3320,7 @@
                             Sid Ahmed Hassan Basta c. Elie Yacoub Wahba.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0440">
                     <head>183. - Appel. — Jugement ayant annulé une vente sur une demande
                         alternativement basée sur l'action en simulation et l'action paulienne;
                         appel principal combattant l'accueil de l'action en simulation; caractère
@@ -3357,7 +3369,7 @@
                             besoin d’appel incident...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0450">
                     <head>184. - Appel. — Jugements en partie définitifs et en partie
                         interlocutoires; participation à la mesure d'instruction et plaidoiries au
                         fond sans réserve d'appel; irrecevabilité du recours. ■— Appel; jugement
@@ -3540,7 +3552,7 @@
                         <p>Note. — I. - V. ci-après § 185, l’arrêt du 13 Avril 1937, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0460">
                     <head>185. - Appel. — Jugements en partie interlocutoires et en partie
                         définitifs; cas où il y a connexité entre les différentes dispositions;
                         droit d'appel immédiat; appel interjeté après le second jugement définitif:
@@ -3780,7 +3792,7 @@
                         <p>Rapp. ég. ci-avant Z.184, l’arrêt du 4 Décembre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0470">
                     <head>186. - Appel. -— Jugements interlocutoires; condition de recevabilité de
                         l'appel; appel interjeté en cas d'exécution volontaire; recevabilité même
                         après l'expiration du délai de 60 jours de la signification. — Arbitrage;
@@ -3843,16 +3855,16 @@
                         <p>D’ailleurs, l’application exacte de l’art. 163 C. Pr. déterminerait déjà
                             par elle-même le rejet de l’exception de Trifiro, car, afin qu’une
                             stipulation particulière des parties puisse faire écarter la compétence
-                            spéciale du Tribunal saisi de la demande principale j>our le jugement de
-                            la demande en garantie, telle qu’elle est visée au susdit art. 163, il
-                            faudrait à tout le moins qu’elle eût expressément prévu le cas d’un tel
-                            recours en garantie, et non pas seulement, d’une façon générale, tous
-                            différends directs entre parties (Dalloz, N. C. Br. annoté art. 181, No.
-                            2013)...</p>
+                            spéciale du Tribunal saisi de la demande principale j&gt;our le jugement
+                            de la demande en garantie, telle qu’elle est visée au susdit art. 163,
+                            il faudrait à tout le moins qu’elle eût expressément prévu le cas d’un
+                            tel recours en garantie, et non pas seulement, d’une façon générale,
+                            tous différends directs entre parties (Dalloz, N. C. Br. annoté art.
+                            181, No. 2013)...</p>
                     </div>
                 </div>
                 <pb n="139" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0480">
                     <head>187. - Appel. — Jugements ordonnant la comparution personnelle des
                         parties; caractère préparatoire; appel, irrecevabilité.</head>
                     <div type="summary">
@@ -3892,7 +3904,7 @@
                             3me éd., No. 624).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0490">
                     <head>188. - Appel. — Jugements préparatoires; jugement ordonnant la réouverture
                         des débats pour production d'une pièce.</head>
                     <div type="summary">
@@ -3924,7 +3936,7 @@
                         <p>Le dit appel est irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0500">
                     <head>189. - Appel. — Jugements rendus sur demandes indéterminées; demande
                         tendant à la condamnation aux frais et dépens; cas où elle ne constitue pas
                         une demande indéterminée toujours susceptible d'appel. — Appel; jugement
@@ -4030,7 +4042,7 @@
                         <p>Note. — I. - V. ég. ci-après § 212, JTarrêt du 8 Décembre 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0510">
                     <head>190. - Appel. — Jugements rendus isur pièces arguées de faux; recours
                         Jormé après F expiration des délais légaux; irrecevabilité à défaut de toute
                         décision établissant le faux; suspension des délais dont à l'art. 403 C.
@@ -4051,8 +4063,8 @@
                             civile aux termes de l’art. A24. 3° G. Proc.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d’Appel, 2nie Ch., Prés. S.E. Yussout Zul-ïicar pacha, 9 Mars
-                            1939. — Me C... èsq. c. Ahmed Farag Sallam.</p>
+                        <p>Cour d’Appel, 2nie Ch., Prés. S.E. Yussout Zul-ïicar pacha, 9 Mars 1939.
+                            — Me C... èsq. c. Ahmed Farag Sallam.</p>
                     </div>
                     <div type="decision">
                         <p>Arrêt. .</p>
@@ -4211,7 +4223,7 @@
                             partie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0520">
                     <head>191. - Appel. ‘— Nullité; intimé ayant donné avenir et conclu à la
                         confirmation, non admis à l'invoquer. — Action paulienne; irrecevabilité;
                         créanciers postérieurs à l'acte; cas où ils sont admis à l'exercer.</head>
@@ -4281,7 +4293,7 @@
                             l’intimée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0530">
                     <head>192. - Appel. — Parties à intimer: appel relevé contre quelques-unes des
                         parties en cause en première instance; condition de recevabilité.</head>
                     <div type="summary">
@@ -4297,7 +4309,7 @@
                             Ibrahim Effendi Daoud et Cts c. Tafida Sedfaoui et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0540">
                     <head>193. - Appel. — Parties à intimer; délai; parties à l'égard desquelles il
                         doit être observé; mise en cause du débiteur saisi faite en siège de
                         contredit, en dehors du délai de 15 jours; admissibilité. — Appel;
@@ -4523,7 +4535,7 @@
                             ayant acquis la force de la chose jugée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0550">
                     <head>194. - Appel. — ‘Parties à intimer en cas d'indivisibilité; mise en cause
                         de certaines parties après l'expiration des délais d'appel; condition de
                         recevabilité.</head>
@@ -4570,7 +4582,7 @@
                             mjse de la procédure en état, et cette obligation n’existe pas...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0560">
                     <head>195. - Appel. — Parties à intimer. — Expropriation; Juge délégué aux
                         adjudication; demande de sursis basée sur une exception de compensation avec
                         une créance contestée et formant l'objet d'un débat; rejet,.</head>
@@ -4590,7 +4602,7 @@
                             — Hoirs Ahmed bey Fahmi El Rachid et Cts c. Marie Soliman.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0570">
                     <head>196. - Appel. — Becevabilité; examen d'office.</head>
                     <div type="summary">
                         <p>La Cour doit toujours, même d’office, vérifier préjudiciellement la
@@ -4601,7 +4613,7 @@
                             Khalil Aboul Leil c. Aristide Caramessinis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0580">
                     <head>197. - Appel. — Becevabilité; crânien d'office.- — Jugement de défaut;
                         opposition: limite des droits de l'opposé. — Appel incident; recevabilité en
                         cas de débats sur opposition. — Obligations; conventions; résiliation de
@@ -4998,7 +5010,7 @@
                             application dans toute sa. rigueur, il faut commencer par rapporter-la
                             preuve du préjudice et ensuite faut-il que le débiteur n’ait pas exécuté
                             son obligation dans sa totalité, d’où deux conditions pour l’application
-                            du susdit article: a)> preuve du préjudice et b) inexécution
+                            du susdit article: a)&gt; preuve du préjudice et b) inexécution
                             totale-(voir arrêt toutes Chambres réunies, 9 Février 1922, Bull. XXXIV,
                             p. 155);</p>
                         <p>Qu’en cas d’inexécution partielle, il n’est donc pas logique ni équitable
@@ -5076,7 +5088,7 @@
                             ci-haut.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0590">
                     <head>198. - Appel. — Recevabilité; examen d'office par la Cour. —■ Action en
                         déclaration de fictivité ou de fraude d'un acte; défaut de mise en cause de
                         toutes les parties à l'acte; irrecevabilité. — Appel; signification à
@@ -5218,7 +5230,7 @@
                             aucun doute, été interjeté que dans un but purement dilatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0600">
                     <head>199. - Appel. — Signification de conclusions en degré d'appel; régularité
                         de la notification à domicile élu. — Appel; demandes en provision incidentes
                         et accessoires; admissibilité pour la première fois devant la Cour.</head>
@@ -5274,7 +5286,7 @@
                             la demande dont s’agit recevable...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0610">
                     <head>200. - Appel. — Signification; exploit unique pour l'appel de deux
                         jugements; recevabilité en cas de connexité.</head>
                     <div type="summary">
@@ -5289,7 +5301,7 @@
                             Massabni c. Emile F. Latif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0620">
                     <head>201. - Appel. — Succession musulmane; validité de la signification au seul
                         héritier détenteur des&lt; biens.</head>
                     <div type="summary">
@@ -5317,7 +5329,7 @@
                             successoraux...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0630">
                     <head>202. - Appel. — Taux; demande réduite à moins de L.E. 100 par suite d'un
                         versement; cas où le jugement est susceptible d'appel devant la Cour.</head>
                     <div type="summary">
@@ -5369,7 +5381,7 @@
                             fondée et doit être rejetée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0640">
                     <head>203. - Appel. — Taux; demande relative aux rentes perpétuelles et
                         viagères; règle de l'art. 28 C. Proc.; applicabilité aux intérêts quant le
                         droit aux intérêts est contesté.</head>
@@ -5434,7 +5446,7 @@
                             pas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0650">
                     <head>204. - Appel. -— Taux; élément de détermination; examen de la teneur du
                         icontrat, rendant l'appel recevable même pour une demande inférieure à L.E.
                         100.</head>
@@ -5476,7 +5488,7 @@
                         <p>Note. — V. cep. contrà ci-après § 205, l’arrêt du 20 Février 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0660">
                     <head>205. - Appel. — Taux; élément de détermination; examen de la validité du
                         contrat initial et de la détermination de la partie en faute, sans influence
                         sur le taux du dernier ressort.</head>
@@ -5531,7 +5543,7 @@
                         <p>Note. — V. cep. contrà ci-avant § 204, l’arrêt du 30 Mars 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0670">
                     <head>206. - Appel. — Taux; évaluation de la demande. — Appel; jugement rendu
                         par un tribunal incompétent à raison du taux; défaut d'exception
                         d'incompétence; irrecevabilité de l'appel; caractère d'ordre public.</head>
@@ -5630,7 +5642,7 @@
                             taux étant d’ordre public, il échet de la prononcer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0680">
                     <head>207. - Appel. — Taux; évaluation de la demande au moment de la mise en
                         délibéré en première instance.</head>
                     <div type="summary">
@@ -5671,7 +5683,7 @@
                             le montant excède le taux de la compétence du Tribunal Civil...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0690">
                     <head>208. - Appel. — Taux; évaluation du taux du ressort en matière de
                         revendication immobilière sur saisie.</head>
                     <div type="summary">
@@ -5717,7 +5729,7 @@
                             déclaré recevable...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0700">
                     <head>209. - Appel. — Taux; jugement prononçant une condamnation inférieure à
                         L.E. 100 sur une réclamation supérieure à L.E. 100; recevabilité de l'appel
                         même en cas de simple demande de confirmation par l'intimé.</head>
@@ -5735,7 +5747,7 @@
                         <p>Note. — V. ég. ci-après H 210, l’arrêt du 5 Mai 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0710">
                     <head>210. - Appel. — Taux; jugement rendu sur des conclusions portant sur une
                         valeur supérieure à L.E. 100; recevabilité de l'appel même si les
                         conclusions devant la Cour ont un objet inférieur à ce taux.</head>
@@ -5753,7 +5765,7 @@
                         <p>Note. — V. ég. ci-avant § 209, l’arrêt du 22 Novembre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0720">
                     <head>211. - Appel. — Taux; jugement unique ayant statué sur plusieurs
                         oppositions à ordonnances de taxe chacune inférieur à L.E. 100; condition de
                         recevabilité de l'appel.</head>
@@ -5788,7 +5800,7 @@
                             Mixte...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0730">
                     <head>212. - Appel. =— Taux; recours limité aux frais; irrecevabilité.</head>
                     <div type="summary">
                         <p>Est irrecevable l’appel relevé seulement pour les frais si leur montant
@@ -5821,7 +5833,7 @@
                             l’arrêt du 27 Novembre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0740">
                     <head>213. - Appel. —- Taux; recours limité aux frais; irrecevabilité;
                         recevabilité de l'appel portant à la fois sur le fond et sur les frais;
                         rejet de l'appel sur le fond ne rendant pas irrecevable le recours sur les
@@ -5866,7 +5878,7 @@
                             partie son bien fondé...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0750">
                     <head>214. - Tribunal Sommaire. — Attribution conventionnelle de compétence;
                         clause de dernier ressort; cas où elle est tacite; caractère implicite dans
                         le cas de l'art. 29 dern. al. C. Proc.</head>
@@ -5943,7 +5955,7 @@
                             sujet...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-03-0760">
                     <head>215. - Tribunal Sommaire. — Attribution conventionnelle de compétence;
                         inefficacité à défaut de clause de dernier ressort. — Compétence; jugement
                         d'incompétence ne faisant pas obstacle au renvoi du dossier au
@@ -6255,7 +6267,7 @@
                     établis à l’avenir.</p>
                 <p>Art. 4. — Notre Ministre des Finances est chargé de l’exécution de la présente
                     loi, qui entrera en vigueur à partir de sa publication au « Journal Officiel ».
-                    ></p>
+                    &gt;</p>
                 <p>Nous ordonnons que la présente loi soit revêtue du sceau de l’Etat) publiée .au «
                     Journal Officiel » et exécutée comme loi de l’Etat.</p>
                 <p>Fait au Palais d’Abdine, le 5 Safar 1358 (26 Mars 1939).</p>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1911-08-10">August 10, 1911</date><lb/>
-                    <biblScope unit="volume">Vol. 1</biblScope><lb/>
-                    <biblScope unit="number">No. 10</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1911-08-10">August 10, 1911</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 1</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 10</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -395,7 +406,7 @@
             <pb n="144" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0010">
                     <head>Accident. — Tramways. — Passage à niveau.</head>
                     <div type="summary">
                         <p>Une Société de tramways qui, pour faciliter la circulation, laisse par
@@ -409,7 +420,7 @@
                             Alexandria &amp; Ramleh Ry. Cy. Ltd).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0020">
                     <head>Action Possessoire. — Tiouble de droit.</head>
                     <div type="summary">
                         <p>Le demandeur peut joindre à la durée de sa possession la durée de celle
@@ -428,7 +439,7 @@
                             Goubran).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0030">
                     <head>Action Possessoire. — Pétitoire.</head>
                     <div type="summary">
                         <p>Des troubles survenus après l’introduction du pétitoire peuvent donner
@@ -439,7 +450,7 @@
                             Administration Générale des Wakfs).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0040">
                     <head>Action possessoire. — Examen du titre ad colorandam possessionem. —
                         Passage d’eau dans une rigole d'usage public. — Complainte
                         (inadmissibilité).</head>
@@ -463,7 +474,7 @@
                             Patouna).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0050">
                     <head>Adjudication (jugement d’). — Grosses (délivrance des). — Cahier des
                         Charges.</head>
                     <div type="summary">
@@ -483,7 +494,7 @@
                             6 p. 86 8 Référé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0060">
                     <head>Bâtiments de mer. — Bac. — Propriété. — Revendication.</head>
                     <div type="summary">
                         <p>L’Art. 3 C. Com. Mar. qui exige à peine de nullité un acte authentique
@@ -496,7 +507,7 @@
                             Pacha c. S. A. Boulad &amp; Cte et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0070">
                     <head>Commandement. — Cession. — Subrogation.</head>
                     <div type="summary">
                         <p>Est valable et valablement signifié le commandement portant en tête copie
@@ -514,7 +525,7 @@
                             bey Abdel Al esn. et q. et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0080">
                     <head>Commerce (acte de). — Editeur. — Journaux.</head>
                     <div type="summary">
                         <p>Il est de principe de droit et d’une jurisprudence constante que l’achat
@@ -541,7 +552,7 @@
                             et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0090">
                     <head>Contrat. — Pollicitation. — Consentement.</head>
                     <div type="summary">
                         <p>Lorsqu’il est stipulé dans un contrat que l’agent d’une société ou tout
@@ -559,7 +570,7 @@
                             Lorraine des Anciens Etabl. Dietrich &amp; C,e c Alfred Farag.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0100">
                     <head>Contrebande. — Confiscation. — Commission Douanière.</head>
                     <div type="summary">
                         <p>Aux termes de l’art. 33, AI. 2, du Règlement Douanier, la confiscation du
@@ -583,7 +594,7 @@
                             Trib. N* 5 p- 68 § Contrebande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0110">
                     <head>Contredit. — Revendication. — Recevabilité.</head>
                     <div type="summary">
                         <p>La voie du contredit n’est ouverte qu’aux seuls créanciers du débiteur
@@ -597,10 +608,10 @@
                     </div>
                     <div type="litigants">
                         <p>(Cour d’Appel, lre Ch. 21 Juin 1911. - D,; Mariam épouse Gress bey et
-                            autre c. I> Fatma Tadros Vve Fadel). 1</p>
+                            autre c. I&gt; Fatma Tadros Vve Fadel). 1</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0120">
                     <head>Défaut. — Signification.</head>
                     <div type="summary">
                         <p>Il n’est pas nécessaire de notifier le jugement qui, rejetant une
@@ -613,7 +624,7 @@
                         <p>(Trib. Somm. Caire. 16 Mars 1910. - Faber c. Chalhoub et Ghirghis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0130">
                     <head>Demande reconventionnelle. — Taux de la demande. — Justice Sommaire. —
                         Compétence.</head>
                     <div type="summary">
@@ -629,7 +640,7 @@
                             Boutros.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0140">
                     <head>Faillite. — Jugement d’un tribunal étranger. — Concordat préventif.</head>
                     <div type="summary">
                         <p>Le jugement d’un tribunal étranger n’étant pas exécutoire en Egypte, la
@@ -641,7 +652,7 @@
                         <p>(Trib. Comm. Caire. 24 Juin 1911. - Hom. conc. prév. Isaac Silvera).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0150">
                     <head>Hekr. — Prescription. — Intervention du titre.</head>
                     <div type="summary">
                         <p>La concession du hekr n’est en réalité qu’une location pour longue durée
@@ -661,7 +672,7 @@
                             .Mohamed Ibrahim Gad et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0160">
                     <head>Honoraires d’Avocat. — Taxe. — Compétence. — Conseil de l’Ordre.</head>
                     <div type="summary">
                         <p>Il résulte de la disposition de l’art. 197 du Régi. Gén. Judic. qu’il
@@ -683,7 +694,7 @@
                             Khony).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0170">
                     <head>Hypothèque. — Compétence. — Juridiction Mixte.</head>
                     <div type="summary">
                         <p>La constitution d’une hypothèque sur les biens d’un débiteur n’empêche
@@ -703,7 +714,7 @@
                             Attia esq. et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0180">
                     <head>Impôt. — Taxes. — Gardiennage. — Ezbet. — Capitulations.</head>
                     <div type="summary">
                         <p>En soumettant à l’engagement de payer une taxe de gardiennage
@@ -718,7 +729,7 @@
                             Mikallef).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0190">
                     <head>Loi étrangère. — Sociétés à responsabilité limitée. — Faillite.</head>
                     <div type="summary">
                         <p>La faillite d’une société étrangère à responsabilité limitée (p. ex. les
@@ -746,7 +757,7 @@
                             mixte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0200">
                     <head>Mandat. — Intervention. — Trustée.</head>
                     <div type="summary">
                         <p>Un établissement de banque qui a été constitué trustée de certains
@@ -765,7 +776,7 @@
                             8 Mai 1911. Gaz. Trib. N° 8 p. 119 § Mandat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0210">
                     <head>Meubles. — Saisie. — Revendication.</head>
                     <div type="summary">
                         <p>La preuve de la propriété des meubles saisis incombe au créancier
@@ -781,7 +792,7 @@
                             Jules Brandi &lt;L Co. et Berthe Lagrille, dite Rislor).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0220">
                     <head>Musulmans. — Meubles. — Femme mariée.</head>
                     <div type="summary">
                         <p>Il est d’usage constant chez tous les Musulmans en Egypte que c’est la
@@ -822,7 +833,7 @@
                             accordés au mari, «à défaut de preuve contraire par la femme».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0230">
                     <head>Œuvre d’art. — Achat.</head>
                     <div type="summary">
                         <p>Celui qui achète d’avance une œuvre d’art à créer subit toujours le
@@ -840,7 +851,7 @@
                             Tsaoussis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0240">
                     <head>Patron. — Contrat d’emploi. — Clause nulle. — Compétence.</head>
                     <div type="summary">
                         <p>Est nulle la clause d’un contrat d’emploi stipulé entre une société
@@ -854,7 +865,7 @@
                         <p>(Trib. Somm. Caire. 10 Mars 1910. - Jacquenin c. Oakes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0250">
                     <head>Privilège. — Séquestre. — Inscription hypothécaire. — Intérêts. —
                         Collocation. — Indemnité de remploi.</head>
                     <div type="summary">
@@ -885,7 +896,7 @@
                             Foncier Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0260">
                     <head>Radiation. — Délibéré. — Débats (clôture des).</head>
                     <div type="summary">
                         <p>Dès que l’affaire est entrée en délibéré, le demandeur n’est plus maître
@@ -908,7 +919,7 @@
                             certaines demandes unilatérales de radiation d’affaires sub judice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0270">
                     <head>Réintégrande________Complainte. — Mise en possession par acte
                         d'huissier.</head>
                     <div type="summary">
@@ -939,7 +950,7 @@
                             Cts, c. Badare et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0280">
                     <head>Référé. — Saisie-arrêt. — Expulsion. — Sommation de déposer.</head>
                     <div type="summary">
                         <p>Le bailleur contre qui le locataire a obtenu dujuge de Service une
@@ -964,7 +975,7 @@
                             Résidences c. Paul Edouard Hergel).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0290">
                     <head>Revendication immobilière. - Expropriation. — Opposition. — Appel.</head>
                     <div type="summary">
                         <p>Les dispositions des Art. 685 et 686 C. Proc., qui réduisent les délais
@@ -982,7 +993,7 @@
                             Emile Merciei).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0300">
                     <head>Secours alimentaire. — Saisie-arrêt des revenus d’un Wakf.</head>
                     <div type="summary">
                         <p>Si par la constitution en Wakf d’une propriété, la substance des biens a
@@ -1055,7 +1066,7 @@
                             Ismaïl Abuu Diab et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0310">
                     <head>Serment. — Délation et rélation après contestation sur
                         l'admissibilité.</head>
                     <div type="summary">
@@ -1069,7 +1080,7 @@
                             Adaui).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0320">
                     <head>Société. — Publicité. — Dissolution.</head>
                     <div type="summary">
                         <p>L’omission des formalités de publicité prescrites par l’art. 54 C. Corn,
@@ -1089,7 +1100,7 @@
                             Rosenfeld.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0330">
                     <head>Successions. — Compétence. — Jugement étranger. — Juridiction
                         Mixte.</head>
                     <div type="summary">
@@ -1124,10 +1135,10 @@
                     </div>
                     <div type="litigants">
                         <p>(Trib. Cîv. Caire; lr‘ Ch. 26 Juin 1911. - Asile des Vieillards et Cts.
-                            c. l> Marie Moussalé esq. et Cts).</p>
+                            c. l&gt; Marie Moussalé esq. et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0340">
                     <head>Tribunal Sommaire. — Compétence. — Loyers.</head>
                     <div type="summary">
                         <p>La disposition de l’art. 28 § 2 du Code de Proc. Civ., en tant qu’elle
@@ -1146,7 +1157,7 @@
                         <p>(Trib. Somm. Caire. 5 Janvier 1910. - Tawakel bey c-Emmanuel).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-08-0350">
                     <head>Vente. — Inexécution. — Délai de grâce. — Pacte commissaire.</head>
                     <div type="summary">
                         <p>L’Art. 413 C. Civ. qui accorde au vendeur, en cas d’inexécution, le choix
@@ -1337,7 +1348,7 @@
                     journalières.</p>
                 <p>Georges Papadimitriou nég. hell. demie, à Alex, rue Gameh El Chek No. 6.</p>
                 <p>Passif app. P.T. 633.636,75</p>
-                <p>Actif - -> 638.808,50</p>
+                <p>Actif - -&gt; 638.808,50</p>
                 <p>Réun. p. nom. délég. créanc. 3-8-11 à 9 % a.m.</p>
                 <p>(1) Pour être agréables à nos lecteurs nous avons compris dans le compte-rendu du
                     mois de Juillet les résultats de l’audience du 1er Août, en raison de
@@ -1351,7 +1362,7 @@
                     Themelaridis, membres en nom coll. comp. la dite Ron. Sle. de nat. hell. ayant
                     siège à Alex, rue El Khandak N. 18.</p>
                 <p>Passif app. P.C. 92.623,25</p>
-                <p>Actif • -> 68.709,75</p>
+                <p>Actif • -&gt; 68.709,75</p>
                 <p>Réun. p. nom. exp. 17-8-11. à 10 h. % a.m.</p>
                 <p>FAILLITES TERMINÉES OU CLÔTURÉES</p>
                 <p>Ismaïl Nounou (Synd. Anastassiadis) 6-7-11. Diss. état d’union. Une somme de

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1940-10-10">October 10, 1940</date><lb/>
-                    <biblScope unit="volume">Vol. 30</biblScope><lb/>
-                    <biblScope unit="number">No. 360</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1940-10-10">October 10, 1940</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 30</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 360</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -53,7 +64,7 @@
                 <p>Fondateurs t M- MAXIME RUPIKOFER et LEON PANQALO, Avocats s la Cour Directeur: M*
                     MAXIME PUPIKOFER. Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’Rdministratlon :</p>
-                <p>Mm I>. PANGALO et H. BCHEMPllL (Directeur/ au Caire) M" B. DEGTAKDE et LUCIEN
+                <p>Mm I&gt;. PANGALO et H. BCHEMPllL (Directeur/ au Caire) M" B. DEGTAKDE et LUCIEN
                     BARDA (Secrétaires de la rédaction).</p>
                 <p>M« A. FADEL (Directeur à Mansourah). i ( Correspondants à Paris).</p>
                 <p>M.« J. LAÇAT I</p>
@@ -72,7 +83,7 @@
             </div>
             <div type="item">
                 <p>QUESTIONS FISCALES.</p>
-                <p>Les amortissements et l’impôt sur les revenus.e></p>
+                <p>Les amortissements et l’impôt sur les revenus.e&gt;</p>
                 <p>H y a deux sortes d’amortissements:</p>
                 <p>1°) Amortissement financier, qui consiste à remettre aux actionnaires tout ou
                     partie de leurs apports et aux obligataires la valeur de remboursement de leurs
@@ -545,7 +556,7 @@
             <pb n="481" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0010">
                     <head>333. - Distribution. — Appel; taux; cas où il y a plusieurs chefs
                         connexes.</head>
                     <div type="summary">
@@ -627,7 +638,7 @@
                             •</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0020">
                     <head>334. - Distribution. — Appel; taux; critérium de détermination. —
                         Juridiction Mixte; compétence en cas de distribution régulièrement ouverte
                         même en cas de disparition ultérieure de l’in-térèt mixte. ■— Contribution;
@@ -700,7 +711,7 @@
                             20 Juin 1940, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0030">
                     <head>335. - Distribution. — Appel; taux; distribution d'un montant inférieur à
                         L.E. 100; recevabilité de l'appel lorsque la contestation porte sur
                         l'existence même d'une créance supérieure à L.E. 100.</head>
@@ -772,7 +783,7 @@
                         <p>Note. — V. Gaz. XXI, 56-55 et XXVI, 47-63.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0040">
                     <head>336. - Distribution. — Appel; taux; irrecevabilité pour les collocations
                         inférieures à L.E. 100. — Cession de créance; cas où elle ne comporte pas le
                         bénéfice des garanties accessoires. — Subrogation légale; défaut
@@ -1134,7 +1145,7 @@
                         <p>Note. — I. - V. ci-avant § 335, l’arrêt du 17 Mai 1938, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0050">
                     <head>337. - Distribution. — Contredit; appel; parties à intimer; défaut
                         d'intimation du débiteur saisi en matière d'ordre; admissibilité. —
                         Intérêts; collocation à titre hypothécaire; art. 692 C. Civ.; extension au
@@ -1249,7 +1260,7 @@
                             provisoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0060">
                     <head>338. - Distribution. — Contredit; condamnation du contredisant succombant
                         aux intérêts de retard; calcul des intérêts au taux conventionnel; cas où le
                         contredit a été formé par des héritiers pour une créance successorale;
@@ -1355,7 +1366,7 @@
                             24 Juillet suivant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0070">
                     <head>339. - Distribution. —Contredit; condamnation du contredisant succombant
                         aux intérêts de retard; cas où la demande de condamnation est recevable par
                         action principale; condition d'admissibilité.</head>
@@ -1436,7 +1447,7 @@
                             Sieur Guebali a réservé à l’encontre de la Société Anony</p>
                         <p>me du Béhéra le droit de lui réclamer la différence des intérêts « au cas
                             où il ne serait pas désintéressé sur le prix du restant des terrains
-                            grevés de son privilège >>;</p>
+                            grevés de son privilège &gt;&gt;;</p>
                         <p>Que le Tribunal, tout en refusant de donner acte au Sieur Guebali de ses
                             réserves, a néanmoins retenu « que pour la sauvegarde des droits de ceux
                             qui les font, il suffit qu’elles soient formulées »;</p>
@@ -1514,7 +1525,7 @@
                             fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0080">
                     <head>340. - Distribution. — Contredit; contestations nouvelles; irrecevabilité.
                         — Distribution; jugement; appel; règles particulières; appel incident;
                         inadmissibilité de ce recours par un créancier du tiers détenteur n'ayant
@@ -1593,7 +1604,7 @@
                             1939, du 21 Mars 1939, du 28 Avril 1936 et du 20 Avril 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0090">
                     <head>341. - Distribution. — Contredit; contestations nouvelles; irrecevabilité
                         en matière de contribution et en matière d'ordre.</head>
                     <div type="summary">
@@ -1613,7 +1624,7 @@
                             Avril 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0100">
                     <head>342. - Distribution. — Contredit; contestations nouvelles; irrecevabilité;
                         moyen nouveau; admissibilité du moyen de prescription invoqué pour la
                         première fois, s'il a été prétendu au contredit que la créance aurait été
@@ -1661,7 +1672,7 @@
                             du 20 Avril 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0110">
                     <head>343. - Distribution. — Contredit; dé-batlement de comptes; épuration de
                         comptes d'un séquestre; cas d'admissibilité; cas où il y a lieu à sursis à
                         la distribution.</head>
@@ -1682,7 +1693,7 @@
                             Arcache c. Fahim Moursi Hassan.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0120">
                     <head>344. - Distribution. — Contredit; droit des créanciers chirographaires de
                         contredire à l'ordre.</head>
                     <div type="summary">
@@ -1701,7 +1712,7 @@
                             1896, Bull. VIII, 282, cités par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0130">
                     <head>345. - Distribution. — Contredit; jugement de défaut; appel; droit de la
                         partie défaillante intimée en appel de se joindre aux conclusions d'une
                         autre partie.</head>
@@ -1716,7 +1727,7 @@
                             Yacout El Beheri et autre c. Succession Giovanni Borg et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0140">
                     <head>346. - Distribution. — Contredit; motifs; insuffisance; précision tardive;
                         inadmissibilité; motif basé sur le fait que le créancier aurait été
                         désintéressé; cas où il est admissible. — Cession; notification du transport
@@ -1846,7 +1857,7 @@
                         <p>Note. — V. ég. ci-après § 347, l’arrêt du 28 Avril 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0150">
                     <head>347. - Distribution. — Contredit;-motifs; nécessité; contestations
                         nouvelles; irrecevabilité. — Contredit; cas d'irrecevabilité pour défaut
                         d'intérêt.</head>
@@ -1924,7 +1935,7 @@
                             Avril 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0160">
                     <head>348. - Distribution. — Contredit; parités à citer en conformité de l’art.
                         587 C. Proc, en matière de contribution; caractère facultatif en degré
                         d’appel.</head>
@@ -1975,7 +1986,7 @@
                         <p>Note. — V. ég. ci-après § 349, l’arrêt du 20 Avril 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0170">
                     <head>349. - Distribution. — Contredit; parties à citer en conformité de l'art.
                         587 C. Proc, en matière de contribution; mise en cause du saisi et du plus
                         ancien des créanciers, visée par l’art 587 C. Proc.; caractère facultatif en
@@ -2082,7 +2093,7 @@
                             1936, du 4 Février 1936, du 21 Mars 1939 et du 28 Avril 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0180">
                     <head>350. - Distribution. — Contredit; parties à citer en conformité de l'art.
                         734 C. Proc, en matière d'ordre; mise en cause du saisi, non obligatoire. —
                         Hypothèque; inscription; renouvellement; inscription périmée, non
@@ -2218,7 +2229,7 @@
                             droit pour qu’il soit décidé à qui d’entre eux elle revient.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0190">
                     <head>351. - Distribution. — Contredit; renonciation par le contredisant;
                         inopposabilité aux autres créanciers; droit d? le reprendre et le
                         soutenir.</head>
@@ -2311,7 +2322,7 @@
                             A.J., l’évocation pouvant avoir lieu d’office...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0200">
                     <head>352. - Distribution. — Contribution; saisie-arrêt; Caisses de prévoyance
                         constituées par les employeurs; fonds revenant aux employés et ouvriers;
                         caractère alimentaire; insaisissabilité.</head>
@@ -2397,7 +2408,7 @@
                         <p>Note. — V. ég. Gaz. XXIX, 185-253.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0210">
                     <head>353. - Distribution. — Contribution; wakf; distribution des revenus mis
                         sous séquestre; demande d'attribution par un bénéficiaire de sa quote-part
                         disponible; inadmissibilité par action principale, après confection du
@@ -2500,7 +2511,7 @@
                             personnellement...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0220">
                     <head>354. - Distribution. — Domicile élu dans l'instance en contredit; maintien
                         tacite au delà de six mois; signification à domicile élu plus de six mois
                         après le prononcé du jugement; validité. — Signification à domicile élu;
@@ -2582,7 +2593,7 @@
                             manifestement mal fondée et qu’il y a lieu de la rejeter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0230">
                     <head>355. - Distribution. — Juridiction Mixte; compétence en cas de
                         distribu--tion régulièrement ouverte même en cas de disparition de l'intérêt
                         mixte. — Contribution; saisie-arrêt; effet attributif dérivant du jugement
@@ -2708,7 +2719,7 @@
                             1940, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0240">
                     <head>356. - Distribution. — Prix d'adjudication sur folle enchère; droit des
                         créanciers dans le cas où le nouveau prix d'adjudication est inférieur à
                         celui de l'adjudication précédente; droits éventuels du fol
@@ -2728,7 +2739,7 @@
                             Mahmoud Mostafa Khalil c. Banque Nationale de Grèce et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0250">
                     <head>357. - Distribution. — Production; acte d'ouverture de crédit en forme
                         authentique; caractère suffisant comme titre de production; cas où il y à
                         lieu à justifications complémentaires en siège de contredit.</head>
@@ -2795,7 +2806,7 @@
                             1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0260">
                     <head>358. - Distribution. — Production; distribution des revenus d'un wakf;
                         créancier du constituant; droit de se prévaloir, en cours d'instance de
                         contredit, des stipulations de'la walcfieh; wakf; ‘hypothèque antérieure à
@@ -2927,7 +2938,7 @@
                             comme ci-après, en droit, de les inviter à plaider sur ce point ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0270">
                     <head>359. - Distribution. — Production en vertu d'un acte d'hypothèque et d'un
                         bordereau d'inscription; caractère suffisant pour constituer une demande
                         implicite de collocation au rang de l'inscription.</head>
@@ -2945,7 +2956,7 @@
                         <p>Note. — V. ci-après § 364, l’arrêt du 10 Mai 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0280">
                     <head>360. - Distribution. — Production: erreur; dépôt de la demande au dossieT
                         d'une autre distribution; rectification après l'expiration des délais mais
                         avant la clôture du règlement provisoire; admissibilité.</head>
@@ -3002,7 +3013,7 @@
                             fondé ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0290">
                     <head>361. - Distribution. — Production implicite résultant de la déduction par
                         le créancier poursuivant du prix de l'adjudication à lui versé; collocation
                         pour le tout, ne constituant pas ultra petita.</head>
@@ -3088,7 +3099,7 @@
                             confirmer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0300">
                     <head>362. - Distribution. — Production implicite; succession musulmane; demande
                         de collocation basée sur un jugement rendu contre les héritiers; portée. —
                         Succession musulmane; privilège des créanciers successoraux; exception en
@@ -3332,7 +3343,7 @@
                             jugement déféré, par adoption des motifs...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0310">
                     <head>363. - Distribution. — Production insuffisante ou incomplète; caractère
                         incomplet du titre n'emportant pas forclusion; production du Gouvernement
                         pour créance d'impôts; mentions exigées sut- kachf. — Impôts; privilège de
@@ -3433,7 +3444,7 @@
                             1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0320">
                     <head>364. - Distribution. — Production; rectification ou demande de collocation
                         à un autre titre; inadmissibilité après expiration des délais de production;
                         admissibilité du créancier chirographaire à demander, après expiration des
@@ -3478,7 +3489,7 @@
                         <p>Note. — V. ci-avant § 359, l’arrêt du 23 Mai 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0330">
                     <head>365. - Distribution. — Règlement définitif; chose jugée; demande de
                         rectification du règlement par règlement complémentaire après délivrance des
                         bordereaux de collocation; inadmissibilité; règlement complémentaire
@@ -3716,7 +3727,7 @@
                             sur l’intimée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0340">
                     <head>366. - Distribution. — Règlement définitif; chose jugée; mandement de
                         collocation; force exécutoire; difficulté d'exécution née d'une instance
                         principale contre le règlement définitif; compétence du Juge des Référés
@@ -3778,7 +3789,7 @@
                             que ce n’est que le montant de ce titre qu’il conteste ?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0350">
                     <head>367. - Distribution. — Règlement définitif; chose jugée; portée; limites:
                         cas d'une première distribution par ordre où' il a été statué sur le rang
                         d'une créance; faculté pour le créancier de produire à titre chirographaire
@@ -3910,7 +3921,7 @@
                             le montant de la collocation de la banque.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0360">
                     <head>368. - Distribution. — Règlement définitif; chose jugée; portée; limites;
                         défaut de chose jugée quant à l'ordre de délivrance des bordereaux de
                         collocation; indication de paiement susceptible de modification; cas de
@@ -4020,7 +4031,7 @@
                             qu’elle ne l'a estimé...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0370">
                     <head>369. - Distribution. — Règlement définitif; chose jugée; portée; limites;
                         inopposabilité, dans une nouvelle distribution, au créancier qui s'est
                         abstenu de contredire dans la précédente, faute d'intérêt.</head>
@@ -4137,7 +4148,7 @@
                     </div>
                 </div>
                 <pb n="502" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0380">
                     <head>370. - Distribution. — Règlement définitif; chose jugée; portée; limites;
                         solde attribué au débiteur exproprié; revendication par un tiers;
                         admissibilité par action principale. — Instance; péremption soulevée par
@@ -4263,7 +4274,7 @@
                         <p>II. - V. sur ce point Gaz. XXX, 426-269 l’arrêt du 9 Juin 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0390">
                     <head>371. - Distribution. — Règlement définitif; opposition; délai; point de
                         départ.</head>
                     <div type="summary">
@@ -4276,7 +4287,7 @@
                             Fahmy El Mahendes c. Jacob Weissman et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0400">
                     <head>372. - Distribution. — Sommation de produire; créanciers à sommer;
                         créanciers inscrits non sommés, seuls admis à contester la régularité de la
                         procédure; créancier gagiste, non assujetti à la formalité de la sommation.
@@ -4377,7 +4388,7 @@
                             dernier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0410">
                     <head>373. - Distribution. — Sommation de produire; signification à un autre
                         domicile élu que celui indiqué dans l'ins-criplion; nullité. — Créanciers
                         inscrits non sommés; demande d'admission par voie de contredit;
@@ -4481,7 +4492,7 @@
                     </div>
                 </div>
                 <pb n="504" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0420">
                     <head>374. - Distribution. — Tiers détenteur ayant payé au delà de son pria:;
                         subrogation légale; collocation au rang de l'obligation éteinte. —
                         Subrogation légale; tiers auxquels elle n'est pas opposable à défaut de
@@ -4630,7 +4641,7 @@
                         <p>Et attendu que le jugement déféré n’est pas autrement critiqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0430">
                     <head>375. - Distribution. —■ Tiers détenteur; demande d'attribution du solde du
                         prix T adjudication; admissibilité hors des délais de production et même par
                         contredit; admissibilité sur production des seuls créanciers du tiers
@@ -4757,7 +4768,7 @@
                             Youssef Gazia est réellement tiers détenteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0440">
                     <head>376. - Distribution. — Tiers détenteur; production dans l'ordre pour ses
                         dépenses; recevabilité. — Adjudication; constructions élevées par le tiers
                         détenteur; droits respectifs du tiers détenteur et des créanciers en cas de
@@ -4908,7 +4919,7 @@
                             intérêts au taux de 5 % l’an.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0450">
                     <head>377. - Expropriation. — Loi A0 3 de 1939; suspension des ventes forcées;
                         demande de mise sous séquestre des biens saisis; inadmissibilité en cas de
                         décision de la Commission ad hoc déclarant admissible la demande du
@@ -5311,7 +5322,7 @@
                             premier rang de ses préoccupations.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0460">
                     <head>378. - Saisie-arrêt. — Effet attributif dérivant de la saisie-exécution et
                         du jugement de'validation de là saisie conservatoire; portée;
                         inapplicabilité aux créances futures ou éventuelles; inapplicabilité aux
@@ -5523,7 +5534,7 @@
                             l’arrêt du 17 Avril 1934, cité par ïe jugement rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0470">
                     <head>379. - Saisie-arrêt. — Effet attributif dérivant du jugement de
                         validation; portée.</head>
                     <div type="summary">
@@ -5630,7 +5641,7 @@
                             de la saisie-arrêt ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-10-0480">
                     <head>380. - Saisie-arrêt. — Effet attributif dérivant du jugement de
                         validation; portée; inapplicabilité aux créances non échues ou éventuelles.
                         —Saisie-arrêt; portée; applicabilité aux créances futures provenant de la
@@ -6330,7 +6341,7 @@
                     et Téléphones de l’Etat dans sa séance du 6 Octobre 1940;</p>
                 <p>Sur la proposition du Directeur Général des Chemins de fer, Télégraphes et
                     Téléphones de l’Etat;</p>
-                <p>> > Arrête:</p>
+                <p>&gt; &gt; Arrête:</p>
                 <p>Art. 1er. — Le prix du transport de la Mélasse expédiée par charge complète dans
                     des barils et par petite vitesse sur le réseau des Chemins de fer de l’Etat des
                     Quais dé Gabbary à destination des gares du réseau Palestinien, sera calculé

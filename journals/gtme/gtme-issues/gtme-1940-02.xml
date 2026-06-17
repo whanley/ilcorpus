@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1940-02-10">February 10, 1940</date><lb/>
-                    <biblScope unit="volume">Vol. 30</biblScope><lb/>
-                    <biblScope unit="number">No. 352</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1940-02-10">February 10, 1940</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 30</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 352</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -63,8 +74,8 @@
                 <p>Comité de Rédaction et d* Administration : Pour la Publicité:</p>
                 <p>M* L. PANGALO et R. 8CHEMEIL (Directeur» au Caire) C7Ojj</p>
                 <p>M" E. DEGIARDE et LUCIEN BARDA (Secrétaires de la rédaction). Administration</p>
-                <p>M' A. FADEL (Directeur à Mansourah). M* F. BRAUN ; >çflrre ondants à F ' ^^edela
-                    Oare dll Caire,Alexandrie</p>
+                <p>M' A. FADEL (Directeur à Mansourah). M* F. BRAUN ; &gt;çflrre ondants à F '
+                    ^^edela Oare dll Caire,Alexandrie</p>
                 <p>Ma G. MOUCHBAHANI (Oorresoondant à Port-Saïd). Me J. LAÇAT J . aTU Téléphone:
                     25924</p>
             </div>
@@ -312,10 +323,10 @@
                 <p>« Si, après avoir été remis à l’une des personnes prévues par les articles 65
                     et</p>
                 <pb n="143" rendition="Gazette (tes Tribunaux Mixtes."/>
-                <p>4>7. l’en'fant -s’est rendu coupable d'une infraction dans l’année de sa remise à
-                    cette personne, celle-ci sera passible d’une amende n’excédant pas P.T. 50 si la
-                    seconde infraction est une contravention, ni L.E. L si elle constitue un délit,
-                    ni L.E. 4 si c’est un crime ».</p>
+                <p>4&gt;7. l’en'fant -s’est rendu coupable d'une infraction dans l’année de sa
+                    remise à cette personne, celle-ci sera passible d’une amende n’excédant pas P.T.
+                    50 si la seconde infraction est une contravention, ni L.E. L si elle constitue
+                    un délit, ni L.E. 4 si c’est un crime ».</p>
                 <p>B. — Les écoles de réforme.</p>
                 <p>L’Etat Egyptien a doté le pays de deux écoles de réforme seulement, ou
                     d’éducation des mineurs, l’une à Guizeh avec son annexe à Kanater El Khairieh,
@@ -810,7 +821,7 @@
             <pb n="147" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0010">
                     <head>84. - Concordat préventif. — Dépôt de bilan; effets; exclusion de la
                         compensation légale. — Coobligés; recours contre le failli après paiement au
                         créancier; application de la loi du dividende concordataire.</head>
@@ -957,7 +968,7 @@
                             Française.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0020">
                     <head>85. - Concordat préventif. — Qualité de débiteur malheureux et de bonne
                         foi; circonstances ne l'excluant pas; mauvaise tenue des livres de commerce;
                         omission de l'inventaire annuel; déficit comptable; cas où il n'exclut pas
@@ -1061,7 +1072,7 @@
                         <p>Qu’il y a lieu, partant, d’infirmer la décision entreprise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0030">
                     <head>86. - Concordat préventif. — Suspension des voies d'exécution;
                         inapplicabilité au bailleur. — Bail; défaut de paiement des loyers;
                         compétence du Juge des référés pour ordonner l'expulsion du locataire comme
@@ -1203,7 +1214,7 @@
                         <p>Note. — I et III. - V. Gaz. XIX, 167-149 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0040">
                     <head>87. - Faillite. — Action en simulation formée par le syndic contre une
                         vente consentie par le failli; compétence du tribunal civil. — Action en
                         simulation d’une vente consentie par le failli à un de ses parents;
@@ -1342,7 +1353,7 @@
                             demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0050">
                     <head>88. - Faillite. — Actions continuées par la faillite; charge des
                         honoraires d'avocat. — Recours formés par le syndic; autorisation du
                         juge-commissaire; omission; conséquences. — Taxe; ordonnance; défaut de
@@ -1434,7 +1445,7 @@
                             ces fins; qu’une distinction ne saurait dès lors être faite...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0060">
                     <head>89. - Faillite. —; Actions tendant à faire revenir une activité à la
                         masse; appel; délai de quinzaine prescrit par l'art. 409 C. Com.</head>
                     <div type="summary">
@@ -1474,7 +1485,7 @@
                             l’existence de ladite créance, sans cependant lui remettre la grosse du
                             jugement de condamnation sus-<pb n="151"
                                 rendition="Gazette des tribunaux Mixtes."/>indiqué et resta ainsi
-                            porteur de cette der- I ■> nièce; i</p>
+                            porteur de cette der- I ■&gt; nièce; i</p>
                         <p>Que le 9 Janvier 1937, le Sieur Abdou Te-ba adressa une requête à
                             Monsieur le Juge- : Commissaire de la faillite du Sieur Mitro- ; poulo
                             pour l'avertir que ce dernier avait consenti la cession de la dite
@@ -1564,7 +1575,7 @@
                             cause de tardiveté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0070">
                     <head>90. - Faillite. — Admission au passif; effets; défaut de novation de la
                         créance; conséquences; créance constituée par des effets de commerce;
                         compétence du Tribunal Sommaire sur la base du taux de chacun des effets;
@@ -1702,7 +1713,7 @@
                             prescription.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0080">
                     <head>91. — Faillite. — Commerçant décédé; assignation signifiée à la maison
                         mortuaire; nullité en cas de libellé au nom du défunt.</head>
                     <div type="summary">
@@ -1791,7 +1802,7 @@
                         <p>Note. — Rapp. ci-après H 92, l’arrêt du 29 Décembre 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0090">
                     <head>92. - Faillite. — Commerçant décédé; citation en faillite; appel interjeté
                         contre le jugement de rejet; parties auxquelles il doit être notifié; appel
                         dirigé contre la « maison mortuaire »; irrecevabilité.</head>
@@ -1862,7 +1873,7 @@
                         <p>Note. — Rapp. ci-avant § 91, l’arrêt du 16 Juin 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0100">
                     <head>93. - Faillite. — Concordat judiciaire; condamnation de caractère
                         quasi-délictuel intervenue postérieurement au concordat, non soumise au taux
                         concordataire.</head>
@@ -1881,7 +1892,7 @@
                             l’arrêt du 31 Octobre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0110">
                     <head>94. - Faillite. — Concordat judiciaire; créance admise ayant contribué à
                         la formation du concordat; contestation; inadmissibilité.</head>
                     <div type="summary">
@@ -1899,7 +1910,7 @@
                         <p>Note. •— V. ég. ci-après H 119, l’arrêt du 31 Mai 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0120">
                     <head>95. - Faillite. — Déclaration à l'étranger; demande d'extension à une
                         tierce personne demeurant en Egypte; admissibilité.</head>
                     <div type="summary">
@@ -1980,7 +1991,7 @@
                             1926.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0130">
                     <head>96. - Faillite. — Déclaration; condition; débiteur devenu commerçant
                         postérieurement aux poursuites; débiteur ayant cessé le commerce. — Société;
                         caractère commercial ou civil; éléments d'où il résulte. — Journal ou revue;
@@ -2119,7 +2130,7 @@
                             remisier, que celui de commis principal, ainsi d’ailleurs qu’il résulte
                             des termes delà lettre de Kahil à Carlo Naggiar en date du 21 Janvier
                             1928, produite par l’intimée, sous le N° 18 de son bordereau (D. P. V"
-                            Faillite p. 142 N-> 32);</p>
+                            Faillite p. 142 N-&gt; 32);</p>
                         <p>Mais attendu que cette qualité de commerçant qu’a pu avoir Kahil pendant
                             la période au cours de laquelle il a été attaché à l’agence Carlo
                             Naggiar est insuffisante à elle seule pour justifier une demande en
@@ -2209,7 +2220,7 @@
                             est inadmissible.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0140">
                     <head>97. - Faillite. — Déclaration; créance servant de base à la demande;
                         condition exigée.</head>
                     <div type="summary">
@@ -2224,7 +2235,7 @@
                             Association Ltd. et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0150">
                     <head>98. - Faillite. — Déclaration; créance servant de base à la demande;
                         créance résultant d'un quasi-délit; cas où elle peut servir de base à la
                         demande en déclaration de faillite; condamnation du chef d’un accident causé
@@ -2312,7 +2323,7 @@
                             arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0160">
                     <head>99. - Faillite. — Déclaration; créance servant de base à la demande; dette
                         de loyers d’un établissement commercial, justifiant la déclaration en
                         faillite.</head>
@@ -2354,7 +2365,7 @@
                             fond, de le rejeter comme mal fondé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0170">
                     <head>100. - Faillite. — Déclaration; débiteur ayant cessé le commerce;
                         condition à laquelle il est susceptible d'étre déclaré en état de faillite.
                         — Déclaration de faillite; qualité de commerçant; preuve.</head>
@@ -2373,7 +2384,7 @@
                             Bank c. Elie Arippol.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0180">
                     <head>101. - Faillite. — Dessaisissement du failli; actes conservatoires; appel
                         par le failli des jugements défavorables à la masse; recevabilité; délai;
                         point de départ. — Faillite; syndic; représentation du failli au.c procès
@@ -2525,7 +2536,7 @@
                             procès commencé auparavant. Le failli étant représenté par les syndics
                             dans les procès indentés ou subis par eux, la sentence a autorité de
                             chose jugée à son égard (V. Lyon-Caen et Renault: Manuel de Droit
-                            >Commercial, § 1066, page 768);</p>
+                            &gt;Commercial, § 1066, page 768);</p>
                         <p>Attendu qu’il n’est fait exception à cette règle que par l’article 227
                             Code Com. Mixte .relatif aux actions qui concernent exclusivement la
                             personne du failli, lesquelles pourront toujours être intentées par lui
@@ -2544,7 +2555,7 @@
                             l’appel formé par le failli en personne...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0190">
                     <head>102. - Faillite. — Entrepreneur recrutant et louant une main-d'œuvre;
                         qualité de commerçant.</head>
                     <div type="summary">
@@ -2590,7 +2601,7 @@
                             rapportée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0200">
                     <head>103. - Faillite. — Etat d'union; arrangement susceptible de mettre fin à
                         l'état d'union; admissibilité.</head>
                     <div type="summary">
@@ -2648,7 +2659,7 @@
                             d’union.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0210">
                     <head>104. - Faillite. — Etal d'union; continuation des opérations de la
                         faillite jusqu'à la dissolution de l'état d'union. — Production et
                         vérification des créances; contestation tardive; recevabilité au cours de la
@@ -2882,7 +2893,7 @@
                             d’union;</p>
                         <p>d) que, sur la jurisprudence invoquée parla défenderesse, il y a lieu de
                             faire observer:</p>
-                        <p>>.) que l'arrêt du 12 Janvier 11)21 (Bull. XXXIil, 131) établit la
+                        <p>&gt;.) que l'arrêt du 12 Janvier 11)21 (Bull. XXXIil, 131) établit la
                             doctrine saine que l’action de l'article 323 n’est pas recevable après
                             la clôture des opérations de la faillite, mais non seulement il ne dit
                             nullement que ces opérations sont clôturées par la proclamation de
@@ -2946,7 +2957,7 @@
                             1933 et du 24 Avril 1935, cités par le jugement rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0220">
                     <head>105. - Faillite. — Femme du failli; immeubles par elle acquis
                         postérieurement au mariage; présomption découlant de l'art. 3'7'1 C. Com.;
                         droit du syndic de se faire mettre en possession indépendamment de toute
@@ -3088,7 +3099,7 @@
                             activités de la faillite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0230">
                     <head>106. - Faillite. — Femme du failli; immeubles par elle acquis; présomption
                         de l'art. 374 C. Com.; preuve contraire; conditions.</head>
                     <div type="summary">
@@ -3108,7 +3119,7 @@
                         <p>Note. — V. ci-après § 107, l’arrêt du 18 Novembre 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0240">
                     <head>107. - Faillite. — Femme du failli; immeubles par elle acquis; présomption
                         de l'art. 374 C. Com.; preuve contraire; condition. — Loi applicable à un
                         litige pendant entre un sujet égyptien et le syndic d'une faillite mixte;
@@ -3196,7 +3207,7 @@
                     </div>
                 </div>
                 <pb n="161" rendition="Gazelle des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0250">
                     <head>108. - Faillite. — Intérêts; faillite du débiteur principal, sans effet
                         sur le cours des intérêts à l'égard des codébiteurs.</head>
                     <div type="summary">
@@ -3209,7 +3220,7 @@
                             Misr c. Robert Auritano èsq.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0260">
                     <head>109. - Faillite. — Jugement déclaratif; acquiescement; cas où il résulte
                         de la participation aux opérations de la faillite; appel;
                         irrecevabilité.</head>
@@ -3274,7 +3285,7 @@
                         <p>Note. — V. cep. contra, ci-après § 110, l’arrêt du 31 Mai 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0270">
                     <head>110. - Faillite. — Jugement déclaratif; acquiescement non constitué par la
                         participation forcée du failli aux opérations de la faillite; appel;
                         recevabilité. — Faillite; rétractation; frais; charge.</head>
@@ -3350,7 +3361,7 @@
                         <p>Note. — V. cep. contra, ci-avant H 109, l’arrêt du 16 Février 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0280">
                     <head>111. - Faillite. — Jugement déclaratif; opposition; forme; délai; point de
                         départ; cas d'une erreur ayant exigé une seconde publicité rectificative. —
                         Minorité; statut personnel musulman; exercice du commerce; interdiction sans
@@ -3492,7 +3503,7 @@
                             séparée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0290">
                     <head>112. - Faillite. — Nullités spéciales; affectation hypothécaire;
                         applicabilité de l'art. 239 C. Com.; cas d'applicabilité de l art. 238 C.
                         Com.; hypothèques et privilèges tardivement inscrits; conditions
@@ -3686,7 +3697,7 @@
                         <p>II. - V. ci-après H 116, l’arrêt du 6 Décembre 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0300">
                     <head>113. - Faillite. — Nullités spéciales; affectation hypothécaire;
                         applicabilité de l'art. 239 C. Com.; cas d'applicabilité de l'art. 236 C.
                         Com. —- Nullité de l’art. 236 C. Com.; condition d'application à
@@ -3802,7 +3813,7 @@
                         <p>Note. — III. - V. ci-avant § 112, l’arrêt du 4 Mai 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0310">
                     <head>114. - Faillite. — Nullités spéciales; connaissance du dérangement des
                         affaires du débiteur; lien de parenté, non considéré suffisant pour faire
                         présumer cette connaissance ou la connivence des parties.</head>
@@ -3825,7 +3836,7 @@
                         <p>— dans la seconde espèce, la belle-mère du fils d’une cousine.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0320">
                     <head>115. - Faillite. — Nullités spéciales; contestations tranchées par le
                         jugement déclaratif; irrecevabilité; continuation des actions par le syndic
                         après le concordat; admissibilité.</head>
@@ -3959,7 +3970,7 @@
                             il Janvier 1933, et XXVII, 71-100, l’arrêt du 3 Juin 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0330">
                     <head>116. - Faillite. — Nullités spéciales; hypothèques et privilèges
                         tardivement inscrits; conditions d'application de la nullité facultative
                         prévue par l'art. 239 C. Com.; opérations frauduleuses intervenues avec le
@@ -4065,7 +4076,7 @@
                         <p>II. - V. ég. ci-après H 117, l’arrêt du 22 Mars 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0340">
                     <head>117. - Faillite. — Nullités spéciales; opérations frauduleuses intervenues
                         avec le failli; conditions d'application de l’art. 238 C. Com.</head>
                     <div type="summary">
@@ -4100,7 +4111,7 @@
                         <p>Note. — V. ég. ci-avant H 116, l’arrêt du 6 Décembre 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0350">
                     <head>118. - Faillite. — Production et vérification des créances; actions déjà
                         intentées avant la faillite; continuation contre le syndic;
                         recevabilité.</head>
@@ -4193,7 +4204,7 @@
                             soulevée par le défendeur èsq...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0360">
                     <head>119. - Faillite. — Production et vérification des créances; admission;
                         caractère définitif; inadmissibilité de tout redressement ultérieur. —
                         Production et vérification des créances; contestation tardive;
@@ -4299,7 +4310,7 @@
                         <p>Note. — I. - V. ég. ci-avant H 94, l’arrêt du 9 Mars 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0370">
                     <head>120. - Faillite. — Production et vérification des créances; contestation;
                         charge de la preuve.</head>
                     <div type="summary">
@@ -4313,7 +4324,7 @@
                             autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0380">
                     <head>121. - Faillite. — Production et vérification des créances; contestation
                         par le failli seul; admissibilité; cas où le syndic s'en remet à
                         justice.</head>
@@ -4381,7 +4392,7 @@
                             décidé, à bon droit, les premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0390">
                     <head>122. - Faillite. — Production et vérification des créances; créances
                         hypothécaires soumises à la procédure de vérification.</head>
                     <div type="summary">
@@ -4398,7 +4409,7 @@
                             10 Juin 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0400">
                     <head>123. - Faillite. — production et vérification des créances; omission due
                         au défaut de convocation du créancier.</head>
                     <div type="summary">
@@ -4413,7 +4424,7 @@
                             Khadr Guetta c. Giovanni Servit!! èsq. et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-02-0410">
                     <head>124. - Faillite. — Vente des immeubles du failli; vente à l'amiable après
                         enchères devant le Juge-commissaire, homologation; incompétence du Tribunal
                         Civil.</head>
@@ -5612,7 +5623,7 @@
                 <p>Fait, le 15 Zulhedjeh 1358 (24 Janvier 1910).</p>
                 <p>(Signé): Hussein Sirry.</p>
                 <p>Arrêté du Ministère des Finances N° 19 de 1940 ajoutant l’article « 35 bis » au
-                    Règlement d’exécution de la Loi N-> 14 de 1939.</p>
+                    Règlement d’exécution de la Loi N-&gt; 14 de 1939.</p>
                 <p>(Journal Officiel N° 18 du 19 Février 1940).</p>
                 <p>Le Ministre des Finances,</p>
                 <p>Vu le Règlement d’exécution de la Loi N° 14 de 1939 promulgué le 7 Février 1939

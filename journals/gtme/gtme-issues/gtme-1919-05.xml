@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1919-05-10">May 10, 1919</date><lb/>
-                    <biblScope unit="volume">Vol. 9</biblScope><lb/>
-                    <biblScope unit="number">No. 103</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1919-05-10">May 10, 1919</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 9</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 103</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -80,7 +91,7 @@
                     42-12 AGENCE &amp; REPRÉSENTATIONS des meilleures marques de MACHINES à ÉCRIRE.
                     Fournitures et Accessoires. BUREAU SPÉCIAL d’Ecriture à la Machine. Traduction,
                     en toutes langues.</p>
-                <p> AUT0M0BILES ~ H w}--a >X>«v'âr ù.tnÿr às^ «âA^ , ,Æa»? TTTT ^7' â- . ■
+                <p> AUT0M0BILES ~ H w}--a &gt;X&gt;«v'âr ù.tnÿr às^ «âA^ , ,Æa»? TTTT ^7' â- . ■
                     z-t-k'T'»-—— TàLLT-TIO^k 44-47 The AUTOMOBILE EMPORIUM Rue Antoine (ALEXANDRIE) </p>
                 <p> lœ! </p>
             </div>
@@ -623,7 +634,7 @@
                 <p>Et cet autre, pour exposer la situation juridique du sieur Y : « Mon client est
                     un « acheteur intérimaire. »</p>
                 <p>Je m’en voudrais d’oublier cette perle courante: « L’adversaire a avalé le billet
-                    à ordre. ></p>
+                    à ordre. &gt;</p>
                 <p>Après celle-là, il semble qu’on ne pourrait que tirer l’échelle.</p>
                 <p>Mais vous comprendrez cependant encore l’indignation de cet avocat qui reprochait
                     à l’adversaire d’avoir enduit le Tribunal en erreur: ce serait le cas de dire:
@@ -865,7 +876,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0010">
                     <head>140 - Adjudication. — Revendication contre l’adjudicataire. — Charge de la
                         preuve. — Présomption dérivant de la mise en possession.</head>
                     <div type="summary">
@@ -881,7 +892,7 @@
                             Aly Chehata et CI. c. Zagdoun frères et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0020">
                     <head>141. -Association en participation. — Faillite de l'un des associés
                         participants. — Conséquences. — Dissolution.</head>
                     <div type="summary">
@@ -924,7 +935,7 @@
                             Pappa esq. c. A. van Millingen et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0030">
                     <head>142. - Bail. — Obligations du bailleut. — Location à deux industries
                         similaires..</head>
                     <div type="summary">
@@ -996,7 +1007,7 @@
                             des parties contractantes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0040">
                     <head>143. - Cassation. — Pourvoi. — Défaut de motivation. — Nullité.</head>
                     <div type="summary">
                         <p>Un pourvoi en cassation simplement basé sur l’irrégularité de la
@@ -1070,7 +1081,7 @@
                             nullité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0050">
                     <head>144. - Chose jugée. — Inopposabilité au créancier étranger du jugement sur
                         revendication rendu par la Juridiction Indigène contre le débiteur.</head>
                     <div type="summary">
@@ -1137,7 +1148,7 @@
                             titres par un expert s’impose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0060">
                     <head>145. - Chose jugée. — Règlement définitif. — Contestation par le débiteur
                         du montant de la créance, postérieurement à une distribution.</head>
                     <div type="summary">
@@ -1194,7 +1205,7 @@
                             implicitement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0070">
                     <head>146. - Décès. — Constatation judiciaire. — Incompétence des Tribunaux
                         Mixtes à cet effet. — Sursis à statuer.</head>
                     <div type="summary">
@@ -1259,7 +1270,7 @@
                         <p>Qu’elle surseoit en conséquence au jugement du fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0080">
                     <head>147. - Distribution. — Opposition au règlement définitif basé sur des
                         faits survenus postérieurement à la confection du règlement provisoire. —
                         Irrecevabilité. — Condamnation du succombant aux intérêts de retard. —
@@ -1293,7 +1304,7 @@
                             jug. Alex. 5 Décembre 1916, Gaz., VII, 36-103.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0090">
                     <head>148. -Exécution provisoire. — Responsabilité de la partie qui y procède. —
                         Plantations. — Paiement de leur valeur au preneur.</head>
                     <div type="summary">
@@ -1311,7 +1322,7 @@
                             Nakhla c. Salem Sidhom et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0100">
                     <head>149. - Expropriation. — Locations consenties après la transcription du
                         commandement. — Créanciers ayant droit de se prévaloir de l’art. 613 C.
                         Proc.</head>
@@ -1329,7 +1340,7 @@
                             Fattah bey Moharrem c. Moussaka ekkendi Hosni et autre.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0110">
                     <head>150. - Faillite. — Hypothèque concordataire. — Nullité de l'inscription
                         prise au profit des créanciers sans un contrat hypothécaire
                         préalable.</head>
@@ -1385,7 +1396,7 @@
                             délimitation précise de ces biens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0120">
                     <head>151. - Faillite. — Réouverture, après ■dissolution de l’union, à la suite
                         d’une erreur ou d’une omission dans la liquidation.</head>
                     <div type="summary">
@@ -1460,7 +1471,7 @@
                         <p>Confirme ainsi émendé le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0130">
                     <head>152. - Fins de non recevoir des art. 274 et 275 C. Corn. — Non
                         applicabilité aux avaries-frais. — Police d’assurance. — Caractère licite
                         des clauses étendant ou réduisant les délais de forclusion ou
@@ -1595,7 +1606,7 @@
                             lorsqu’ils ont lancé leur assignation le 24 Janvier 1917.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0140">
                     <head>153. - Hypothèque. — Droit pour le créancier hypothécaire non satisfait
                         sur le produit des biens hypothéqués d’obtenir jugement de condamnation pour
                         requérir afjectation.</head>
@@ -1686,7 +1697,7 @@
                             solde dû; que l’action du Crédit Foncier est donc recevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0150">
                     <head>154. - Inscription en faux. — Nécessité d’une vérification de signature. —
                         Déclaration de fausseté de piano.</head>
                     <div type="summary">
@@ -1703,7 +1714,7 @@
                             Mohamed bey Osman El Bannani c. Mo--hamed Ismail et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0160">
                     <head>155. - Juridiction indigène. — Incompétence purement relative à l’égard
                         des sujets persans. — Capitulations.</head>
                     <div type="summary">
@@ -1724,7 +1735,7 @@
                             Indigène d’Alexandrie et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0170">
                     <head>156. - Juridiction mixte. — Compétence pour interpréter un testament quant
                         à l’administration d’un legs. — Statut personnel. — Exécuteurs
                         testamentaires. — Gestion séparée.</head>
@@ -1819,7 +1830,7 @@
                             prononcer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0180">
                     <head>157. - Juridiction mixte. — Compétence. — Tripolilains. — Nationalité. —
                         Litispendance. — Causes portées aevant deux Juridictions d’ordre
                         différent.</head>
@@ -1863,7 +1874,7 @@
                             Mixtes sont donc compétents à son égard.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0190">
                     <head>158. -Juridiction mixte. — Maintien de la compétence mixte entre parties
                         indigènes après cessation des fonctions d’un séquestre nommé par la
                         Juridiction Mixte.</head>
@@ -1882,7 +1893,7 @@
                             c. Hoirs de feu Ibrahim El Diwani et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0200">
                     <head>159. - Location. — Cultures. — Superficie occupée par les drains et
                         rigoles. — Limitation de la culture séfi. — Interprétation.</head>
                     <div type="summary">
@@ -1896,7 +1907,7 @@
                             eff. Soliman El ûoudi c. MatteoCasoriaesq.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0210">
                     <head>160. - Location. — Paiement des impôts par le locataire. — Compensation
                         avec le montant des loyers, en cas de prescription de ceux-ci.</head>
                     <div type="summary">
@@ -1919,7 +1930,7 @@
                             Edhein et autre b. Salem eff. El Azzoumi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0220">
                     <head>161. - Louage de services. — Clause excluant toute indemnité en cas de
                         renvoi même intempestif. — Caractère illicite. — Indemnité. — Mode de
                         calcul.</head>
@@ -1959,7 +1970,7 @@
                     </div>
                 </div>
                 <pb n="98" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0230">
                     <head>162. - Louage de services. — Indemnité de licenciement. Mode d'évaluation.
                         — Contrat d'engagement. — Validité. — Consentement. — Contrainte morale. —
                         Renvoi intempestif.</head>
@@ -2074,7 +2085,7 @@
                             1904, etc.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0240">
                     <head>163. - Loyers. — Compétence du juge sommaire. —- Demande en paiement de
                         loyers pure et simple.</head>
                     <div type="summary">
@@ -2097,7 +2108,7 @@
                             Casoria c. Abdel Meguid El Aroussi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0250">
                     <head>164. - Nationalité. — Naturalisation hellénique. — Commission de
                         l’indigénat. — Assignation. — Omission de la date du mois de la
                         signification. — Prescription quinquennale des effets de commerce. —
@@ -2126,7 +2137,7 @@
                             Sayed eff. Fahmy).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0260">
                     <head>165. - Préemption. — Cas d’achat d’un domaine unique en deux lots. —
                         Servitude de passage. — Chemin séparant le domaine dupréempteur de celui du
                         préempté. — Contiguïté. — Doute.</head>
@@ -2204,7 +2215,7 @@
                             existent pour l’une et pour l’autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0270">
                     <head>166. - Prêt. — Remboursement. — Bénéfice du change. — Mode de paiement
                         stipulé dans l’intérêt du prêteur.</head>
                     <div type="summary">
@@ -2274,7 +2285,7 @@
                             inscriptions hypothécaires dont s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0280">
                     <head>167. - Preuve écrite. — Abus de confiance. — Fraude ayant entraîné
                         l’impossibilité pour les parties de se procurer un écrit.</head>
                     <div type="summary">
@@ -2305,7 +2316,7 @@
                             qu’on cesse d’être dans l’exception pour rentrer dans la règle. ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0290">
                     <head>168. - Preuve. —Portée dans un litige civil d’un procès verbal de constat
                         dressé en matière de contravention. — Loi pénale sur les digues et
                         canaux.</head>
@@ -2343,7 +2354,7 @@
                     </div>
                 </div>
                 <pb n="100" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0300">
                     <head>169. - Propriété. — Preuve. — Terres bourres.—Droits du Gouvernement
                         égyptien.</head>
                     <div type="summary">
@@ -2392,7 +2403,7 @@
                             cultivées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0310">
                     <head>170. - Puissance paternelle. — Accident. — Responsabilité des parents, en
                         droit égyptien, du chef des actes de leurs enfants mineurs. — Droit de garde
                         de la mère.</head>
@@ -2447,7 +2458,7 @@
                             qu’il y a lieu, par suite, de la décharger de celle-ci.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0320">
                     <head>171. - Puissance paternelle.—Droit musulman. — Coptes. — Capacité du père.
                         — Inconduite. — Cas de nullité des actes de disposition des biens de ses
                         enfants mineurs. — Opposabilité aux tiers.</head>
@@ -2591,7 +2602,7 @@
                             revenant à Mankarious lui-même dans les biens hypothéqués.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0330">
                     <head>172. - Référé. — Urgence. — Mode d’appréciation par les Juges d’appel. —
                         Mesures conservatoires. — Séquestre.</head>
                     <div type="summary">
@@ -2630,7 +2641,7 @@
                             solliciter une nouvelle du Juge du premier degré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0340">
                     <head>173. - Revendication en cas d’expropriation. — Charge de la preuve.— Cas
                         où l’hypothèque consentie au créancier est antérieure au titre invoqué par
                         le revendiquant.</head>
@@ -2653,7 +2664,7 @@
                             Romano et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0350">
                     <head>174. - Saisie-arrêt. — Inexactitude non dolosive de la déclaration du
                         tiers-saisi.</head>
                     <div type="summary">
@@ -2713,7 +2724,7 @@
                             l’art. 491 Code de Procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0360">
                     <head>175. - Serment litis décisoire déféré après une enquête. —
                         Recevabilité.</head>
                     <div type="summary">
@@ -2742,7 +2753,7 @@
                     </div>
                 </div>
                 <pb n="102" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYTPE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0370">
                     <head>176. - Transporteur. — Clause d’exonération de responsabilité. — Faute
                         lourde du transporteur.—Responsabilité. — Effets. — Police d'assurance —
                         Déchéance. — Subrogation de l’assureur au recours de l’assuré contre le
@@ -2858,7 +2869,7 @@
                             dite administration.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0380">
                     <head>177. -Vente à réméré. — Possession de l’immeuble vendu. — Gage
                         dissimulé</head>
                     <div type="summary">
@@ -2870,7 +2881,7 @@
                             Euphémie Axelos et Ct. c. Hoirs Goniaa Aîoussa).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0390">
                     <head>178. - Vente à réméré. — Présomption légale de nantisssement en cas de
                         doute sur la véritable nature du contrat. — Caducité de la clause de rachat
                         en cas de date incomplète de l’acte.</head>
@@ -2892,7 +2903,7 @@
                             esq. c. Boutros Abdel Messih).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0400">
                     <head>179. - Vente à réméré. — Recherche de la véritable nature de ce contrat. —
                         Gage. — Doute.</head>
                     <div type="summary">
@@ -2906,7 +2917,7 @@
                             Hoirs Farrag Yacoub Aslan Cohen c. Théodore Mitarakis et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0410">
                     <head>180. -Vente commerciale. — Défaut de livraison.—Appréciation des dommages
                         en cas de contrat judiciaire ayant substitué un nouveau terme aux dates de
                         livraison originairement fixées.</head>
@@ -2974,7 +2985,7 @@
                             conséquences.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0420">
                     <head>181. - Vente immobilière. — Obligations du vendeur. — Délivrance. — Remise
                         des titres de propriété. — Obligations de l’acheteur. — Vérification de la
                         situation hypothécaire.</head>
@@ -3033,7 +3044,7 @@
                             contraire à la sécurité des transactions immobilières.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-05-0430">
                     <head>182. - Wakf. — Location. — Paiements directement faits aux bénéficiaires
                         sans le consentement du nazir.</head>
                     <div type="summary">

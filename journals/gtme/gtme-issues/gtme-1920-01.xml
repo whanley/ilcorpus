@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0010-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0010-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1920-01-10">January 10, 1920</date><lb/>
-                    <biblScope unit="volume">Vol. 10</biblScope><lb/>
-                    <biblScope unit="number">No. 111</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1920-01-10">January 10, 1920</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 10</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 111</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -60,7 +71,7 @@
                 <p>SECRÉTAIRES:</p>
                 <p>de la Rédaction: Mb AZIZ ANTOINE. Avocat A LA Cour.</p>
                 <p>À NlANSOURAH: Ms ALBERT FADEL, AVOCAT À LA COUR. ..</p>
-                <p>À Paris (s, Avenue de l*opéra>: Me FERNAND BRAUN, avocat à la Cour.</p>
+                <p>À Paris (s, Avenue de l*opéra&gt;: Me FERNAND BRAUN, avocat à la Cour.</p>
             </div>
             <div type="article">
                 <p>Sajjort in Conseil âo l’Orflre Jes Avocats près les Juridictions Mixtes
@@ -366,7 +377,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0010">
                     <head>47. - Adjudication. — Distribution.. — Demande de collocation nécessaire
                         de la part du tiers qui a désintéressé les créanciers inscrits.</head>
                     <div type="summary">
@@ -475,7 +486,7 @@
                     </div>
                 </div>
                 <pb n="36" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0020">
                     <head>48. - Association en participation. — Caractère occulte. —Absence de
                         personnalité morale. — Critérium de la distinction d’avec la société en nom
                         collectif. — Connaissance par les tiers d’une association en participation.
@@ -678,7 +689,7 @@
                             l’allocation d’une somme importante à titre de dommages et intérêts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0030">
                     <head>49. - Cassation. — Contradiction entre «dispositif et motifs d’une
                         décision de justice. — Chambre du Conseil. — Ordonnance nulle.</head>
                     <div type="summary">
@@ -776,7 +787,7 @@
                             à nouveau.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0040">
                     <head>50. - Copie-lettres. — Force probante. — Présomption découlant des lettres
                         adressées par les banques à leurs clients.</head>
                     <div type="summary">
@@ -795,7 +806,7 @@
                             Belge pour l’étranger c. Hoirs Mahmoud Bey Chawkat).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0050">
                     <head>51. - Dation en paiement. — Effets de sa résiliation. — Subrogation légale
                         du débiteur. — Droit cédé. — Distribution, — Doute sur l’existence du droit
                         cédé. — Bonne foi du cédant et du cessionnaire.</head>
@@ -820,7 +831,7 @@
                             Hassoun et Bechir Odabachi c. Banque d'Orient et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0060">
                     <head>52. - Demande. — Modification en-. degré d’appel.</head>
                     <div type="summary">
                         <p>N’est pas admissible, en degré d’appel, la modification d’une demande
@@ -835,7 +846,7 @@
                             Abdel Razak Siderre c. Hoirs Hassan Gouda).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0070">
                     <head>53. - Demande reconventionnelle formulée seulement dans des conclusions
                         écrites. — Cas où elle est recevable.</head>
                     <div type="summary">
@@ -850,7 +861,7 @@
                     </div>
                 </div>
                 <pb n="38" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYTPE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0080">
                     <head>54. - Distribution. — Opposition à règlement définitif. — Recevabilité en
                         cas d’erreur matérielle du règlement provisoire non contesté.</head>
                     <div type="summary">
@@ -868,7 +879,7 @@
                             -- Assaad Saad c. Moustafa Kamel El Sananikly et Greffier en chef).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0090">
                     <head>55. - Inscription de faux. — Billet présenté et protesté. — Action en
                         nullité. — Radiation de l'instance en faux incident. — Reconnaissance de la
                         sincérité du titre. — Amende.</head>
@@ -954,7 +965,7 @@
                             rôle, la pièce saisie restera à la disposition du Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0100">
                     <head>56. - Péremption. — Opposition à taxe.</head>
                     <div type="summary">
                         <p>La déclaration d’opposition à taxe, faite au Greffe, et non suivie d’un
@@ -1006,7 +1017,7 @@
                             nécessaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0110">
                     <head>57. - Folle-enchère. — Responsabilité solidaire de l’avocat ' qui s’est
                         porté adjudicataire et du client au nom duquel il a déclaré command.</head>
                     <div type="summary">
@@ -1064,7 +1075,7 @@
                             manqué aux engagements découlant de l’adjudication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0120">
                     <head>58. - Saisie-arrêt. — Déclaration dolosive du tiers-saisi. — Distribution.
                         — Saisie-arrêt contre un adjudicataire.</head>
                     <div type="summary">
@@ -1082,7 +1093,7 @@
                     <div type="observations">
                         <p>Note. — Le jugement expose :</p>
                         <p>Attendu qu’il résulte de la consultation du dossier d'adjudication qu'à
-                            l’andience des C>iées du Tribunal Mixte de Céans, tenue le 24 Janvier
+                            l’andience des C&gt;iées du Tribunal Mixte de Céans, tenue le 24 Janvier
                             1918, le Sieur Mohamed Bey Abdel Nabi a été déclaré adjudicataire sur
                             surenchère, pour le prix de L.E. 3850, des biens expropriés à la requête
                             de la Land Bank Of Egypt et au préjudice des Sieurs Ibrahim Metwalli
@@ -1139,7 +1150,7 @@
                             prix d’adjudication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0130">
                     <head>59. - Sucre. — Droit d’accise. — Décret du 26 Septembre 1919. — Drawback.
                         — Remboursement du droit d’accise pour. le sucre fabriqué en Egypte et
                         exporté à l'étranger sous forme de confiseries.</head>
@@ -1374,7 +1385,7 @@
                         <p>(Omissis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0140">
                     <head>60. - Transcription. — Certificats hypothécaires contradictoires.</head>
                     <div type="summary">
                         <p>Si la délivrance de deux certificats contradictoires peut être le
@@ -1417,7 +1428,7 @@
                             revendication de la dame Chafika.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0150">
                     <head>61. - Vente. — Clause interdisant à l’acheteur toute concession de droit
                         réel et toute revente avant le paiement intégral du prix. — Tiers-détenteur
                         n’ayant pas transcrit, mais en possession. — Cas où sommation doit lui être
@@ -1519,7 +1530,7 @@
                             son prix, dont il restait toujours débiteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0160">
                     <head>62. -Vente (Promesse de). — Clause prévoyant remboursement ou perte des
                         arrhes en cas de non passation de l’acte définitif. — Droit de l’acheteur. —
                         Mesures conservatoires.</head>
@@ -1539,7 +1550,7 @@
                             eftendi Hafez Bannis c. Nicolas Staccos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0170">
                     <head>63. - Wakf. — Nationalité étrangère du nazir. — Nationalité étrangère d’un
                         bénéficiaire. —Juridictions Mixtes. — Compétence.</head>
                     <div type="summary">
@@ -1558,7 +1569,7 @@
                             Novembre 1919. — El Sayed Chahine Amer c. Wakf El Hanache).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-01-0180">
                     <head>64. - Wakf. — Séquestre Judiciaire mixte. — Nazir.</head>
                     <div type="summary">
                         <p>On ne saurait, dans la gestion d’un wakf, remplacer sans nécessité
@@ -1666,7 +1677,7 @@
                 <p>TRIBUNAL DU CAIRE</p>
                 <p>j (Juge-Commissaire: M. Nyholm)</p>
                 <p>[ faillites déclarées</p>
-                <p>;> Abdel Moneim Sayed El Assouar, nég. en ( manuf., sujet local à Tala, jug.
+                <p>;&gt; Abdel Moneim Sayed El Assouar, nég. en ( manuf., sujet local à Tala, jug.
                     décl. 13.12.19, i syndic Anis Doss, cess. paiem. le 5.11.19. Pour la rétract. le
                     3.1.20.</p>
                 <p>Abdel Sayed Mikhaïl, nég. suj. local à Béni-Souef, faill. décl. par arrêt delà
@@ -1895,8 +1906,8 @@
                 <p>Antoine Sednaoui et Cie. Soc. dissoute depuis le 6.7.17 Liquid. déjà faite.</p>
                 <p>N. Babani et M Nahmiàs. Soc. diss. depuis le 5.12.19. Liquid. M. N. Babani.</p>
                 <p>Dayan et Bitton frères. Soc. diss. depuis le 27.11.19. Liquid. déjà faite.</p>
-                <p>Dayan, Bitton frères et Youssef Che> hata Chamtnah. Soc. diss. depuis le 22.7.19.
-                    Liquid. déjà faite.</p>
+                <p>Dayan, Bitton frères et Youssef Che&gt; hata Chamtnah. Soc. diss. depuis le
+                    22.7.19. Liquid. déjà faite.</p>
             </div>
             <div type="item">
                 <p>RÈGliEHEHTS DE SERVICE des Juridictions Mtes Pour la XLVe Année Judiciaire</p>

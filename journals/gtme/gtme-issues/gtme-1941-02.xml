@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0031-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0031-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1941-02-10">February 10, 1941</date><lb/>
-                    <biblScope unit="volume">Vol. 31</biblScope><lb/>
-                    <biblScope unit="number">No. 364</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1941-02-10">February 10, 1941</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 31</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 364</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -51,7 +62,7 @@
                     PUPIKOFEB, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’Administration :</p>
                 <p>M* L. PANGALO et JB. 8CHEMEIL (Directeur» au Caire)</p>
-                <p>M » E. DEGIARDE et LUCIEN BARDA (Secrétaires de la rédaction>.</p>
+                <p>M » E. DEGIARDE et LUCIEN BARDA (Secrétaires de la rédaction&gt;.</p>
                 <p>M* F BRAUN 1</p>
                 <p>M* A. FADEL (Directeur à Mansourah). ' m I (Correspondants à Paris).</p>
                 <p>JjGLô J, 1 I</p>
@@ -267,7 +278,7 @@
                     Chambre du Conseil, estime que les raisons du pourvoi sont assez sérieuses.</p>
                 <p>Editions du “JOURNAL DES TRIBUNAUX MIXTES"</p>
                 <p>b La Vlla Conférence Internationale pour</p>
-                <p>> ('Unification du Droit Pénal....... P.T. 10</p>
+                <p>&gt; ('Unification du Droit Pénal....... P.T. 10</p>
                 <p>? LÉON BASSARD. Conseiller à la Cour b d’Appel Mixte. — Les contrats d’a-£ chat
                     et vente ferme de coton à livrer 2 entre maisons de commerce et culti-£ vateurs
                     propriétaires. .. .......... P.T. 10</p>
@@ -276,7 +287,7 @@
                 <p>£ en droit égyptien.................... P.T. 22</p>
                 <p>? MAXIME PUPIKOFER. Avocat à la</p>
                 <p>£ Cour. — Le Code de Commerce</p>
-                <p>> Egyptien Mixte annoté (ISIS)..... P.T. 122</p>
+                <p>&gt; Egyptien Mixte annoté (ISIS)..... P.T. 122</p>
                 <p>£ CONFÉRENCE MERZBACH. - Le se* ? cret professionnel de l'avocat en droit</p>
                 <p>2 comparé.. .. .. ............... P.T. 10</p>
                 <p>J CH. PUECH-BARRERA. Conseiller à la</p>
@@ -293,16 +304,16 @@
                 <p>£ MICHEL BOUARD. — Une méthode</p>
                 <p>? critique d’expertise on écritures. .. P.T. 10</p>
                 <p>£ R1ZKALLAH MEZHER. — Précis fhéo-</p>
-                <p>> rique et pratique de la transcription __</p>
+                <p>&gt; rique et pratique de la transcription __</p>
                 <p>2 Immobilière............ ............. P.T. 25</p>
                 <p>£ ALEXANDRE ASSABGHY BEY, Juge</p>
-                <p>> au Tribunal Mixte du Caire. — Les</p>
+                <p>&gt; au Tribunal Mixte du Caire. — Les</p>
                 <p>2 Accords de Montreux............. .. .. P.T. 23</p>
             </div>
             <pb n="155" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0010">
                     <head>170. - Vente immobilière. — Commandement immobilier; transcription, ne
                         conférant pas. de droits réels au créancier; transcription, postérieurement
                         à la transcription du commandement immobilier, d'un acte de vente ayant reçu
@@ -331,7 +342,7 @@
                     <div type="decision">
                         <p>Arrêt (Extrait).</p>
                         <p>Attendu que le Banco Italo-Egiziano ayant obtenu un jugement du Tribunal
-                            Civil Mixte &lt;> Alexandrie du 2 Mars 1937 qui a rejeté la
+                            Civil Mixte &lt;&gt; Alexandrie du 2 Mars 1937 qui a rejeté la
                             revendication immobilière incidente, introduite par le Sieur David
                             Arippol, tendant a distraire des poursuites engagées par oette banque
                             contre ses débiteurs Elle Arip-P°b et les hoirs Joseph Arippol, en leur
@@ -414,7 +425,7 @@
                             l’allègue la banque poursuivante...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0020">
                     <head>171. - Vente immobilière. — Eviction; clause d’exonération du vendeur du
                         du chef de toute différence de limites et déficit de superficie, et autres
                         faits semblables, ne dispensant pas le vendeur de la garantie pour éviction.
@@ -663,13 +674,13 @@
                         <p>Qu’il en est de même, vis-à-vis du vendeur, quant aux dommages-intérêts,
                             lesquels sont dus, en principe, par applica,-des articles 378 et 379 du
                             Code Civil</p>
-                        <p>,Q>Ve’ d’après les évaluations du rapport . t expert Montemagno en date
-                            du 21 No-mbre 1926 (voir dossier ci-annexe Alex, •h. 2931, A.J, 51°),
-                            c’est plutôt la somme réel. 213.500 et non celle de L.E. 290, ren ' à
-                            Par l’appelant, qui semble bien ..Présenter la partie proportionnelle du
-                            dont a6 18 feddans, 2 kirats et 9 salîmes nt il eS( évincé, par rapport
-                            au prix glo-les ^-E. 10000, stipulé entre parties pour fait i» texans, 3
-                            kirats et 11 sahmes ayant</p>
+                        <p>,Q&gt;Ve’ d’après les évaluations du rapport . t expert Montemagno en
+                            date du 21 No-mbre 1926 (voir dossier ci-annexe Alex, •h. 2931, A.J,
+                            51°), c’est plutôt la somme réel. 213.500 et non celle de L.E. 290, ren
+                            ' à Par l’appelant, qui semble bien ..Présenter la partie
+                            proportionnelle du dont a6 18 feddans, 2 kirats et 9 salîmes nt il eS(
+                            évincé, par rapport au prix glo-les ^-E. 10000, stipulé entre parties
+                            pour fait i» texans, 3 kirats et 11 sahmes ayant</p>
                         <p>O *,°bjet de la vente litigieuse;</p>
                         <p>mtéréf11 ce 9U* concerne les dommages-pri ■ S’ le bénéfice manqué ne peut
                             pas être iustir11 considération, en l’absence de tonie fautIica!’01) de
@@ -725,7 +736,7 @@
                             le jugement déféré, est également à accueillir, comme bien fondée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0030">
                     <head>172. - Vente immobilière. — Eviction; droit de l'acheteur de retenir le
                         prix. ne dérivant pas de l'insuffisance des titres de propriété du vendeur;
                         cas où cette insuffisance empêche l'acheteur de réaliser un emprunt destiné
@@ -979,7 +990,7 @@
                             ou profit de sa propre faute.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0040">
                     <head>173. - Vente immobilière. — Eviction; trouble; existence d'une hypothèque,
                         affectation ou tout autre droit réel; droit ae l acheteur de retenir le
                         prix. — Acte Préliminaire; stipulation servant à l'inerprétation du contrat
@@ -1154,7 +1165,7 @@
                             68-54, l’arrêt du 26 Mai 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0050">
                     <head>174. - Vente immobilière.— Eviction; recours en garantie; connaissance de
                         la cause de l'éviction, n'y faisant pas obstacle; sauf stipulation
                         contraire.</head>
@@ -1172,7 +1183,7 @@
                         <p>Bull. L, 310.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0060">
                     <head>175. - Vente immobilière. — Fictivité; défaut de droits des créanciers
                         hypothécaires; art. 176 et 197 C. Civ., applicabilité aux seuls actes
                         résolubles ou annulables.</head>
@@ -1289,10 +1300,10 @@
                             du vendeur simulé et les droits des tiers acquéreurs étant en réalité
                             nés sur la tête du mandant, donc du véritable propriétaire; la doctrine
                             et la jurisprudence en France restent d’ailleurs très divisées sur ces
-                            questions (voir notamment l’arrêt de la Cour de Nîmes du 16 Mai 192>-D.
-                            P. 29, 2, 68, et la note du Professeur Gabolde, et les diverses
-                            références citées), et les décisions favorables aux tiers-acquereurs
-                            sont basées sur une idée de mandat</p>
+                            questions (voir notamment l’arrêt de la Cour de Nîmes du 16 Mai
+                            192&gt;-D. P. 29, 2, 68, et la note du Professeur Gabolde, et les
+                            diverses références citées), et les décisions favorables aux
+                            tiers-acquereurs sont basées sur une idée de mandat</p>
                         <pb n="161" rendition="Gazette des Tribunaux Mixtes."/>
                         <p>très discutable et, en tous cas, inadmissible en matière d’affectations
                             hypothécaires, créancier de l’acquéreur simulé et non du vendeur simulé,
@@ -1326,7 +1337,7 @@
                             1932; — Gaz. XXVIII, 70-56, 1 arrêt du 4 Mai 1933).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0070">
                     <head>176. - Vente immobilière. — Garantie à vendeur; litige sur la propriété du
                         vien; connaissance par l’acheteur, ne Pouvant dispenser le vendeur de la
                         garantie que si la non garantie est stipule à l’acte.</head>
@@ -1341,7 +1352,7 @@
                             Khatab El Magdouba et 3 e. Joseph C. Hemsy et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0080">
                     <head>177. Vente immobilière. — Garantie vendeur; vice de construction; action
                         en garantie; inadmissibilité d'exercice dans le seul cas où l'immeuble a été
                         expertisé à l’avance et a satisfait l'acheteur; vices de construction;
@@ -1350,7 +1361,7 @@
                         l’immeuble.</head>
                     <div type="summary">
                         <p>I. - Le vendeur est, par application de l'art 387 G. Giv., responsable à
-                            l’égard >€'é expertisé de l’acheteur des défauts de construction de
+                            l’égard &gt;€'é expertisé de l’acheteur des défauts de construction de
                             l’immeuble vendu, alors surtout qu’il a déclaré vendre avec toutes les
                             garanties de fait et de droit.</p>
                         <p>II. - On ne peut refuser le droit d’exercice de l’action en garantie à
@@ -1506,7 +1517,7 @@
                             pas déterminé le point de départ.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0090">
                     <head>178. - Vente immobilière. — Incapables; interdits; défaut d'effet
                         translatif de la vente consentie après la publication de la décision
                         d'interdiction; droits des créanciers hypothécaires de bonne foi;
@@ -1633,7 +1644,7 @@
                             aux dommages-intérêts réclamés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0100">
                     <head>179. - Vente immobilière. — Privilège du vendeur; existence indépendamment
                         d’une réserve expresse dans l’acte; cas où la vente a eu lieu en vertu d’un
                         jugement tenant lieu de titre; privilège du vendeur dérivant de la
@@ -1784,7 +1795,7 @@
                         <p>(.Motifs similaires).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0110">
                     <head>180. - Vente immobilière. — Promesse de vente; acompte sur le prix;
                         arrhes; distinction; dédit; délai d’exercice; cas où aucun délai n’a été
                         stipulé; renonciation à la faculté de dédit stipulé; caractère formel et
@@ -2017,9 +2028,9 @@
                             autrement Cai Armant pour lui un enrichisse-ainc' sans cause, le
                             créancier se trouve son * dans ^obligation de la restituer à ce
                             ^mot-droit, soit l’acheteur, qui, dans len.as’ conserve le droit de
-                            réclamer aux nité- Urs une somme égale à titre d’indem-sow>^âu qu’ayant
-                            retenu que la susdite cette r de 64 représentait des arrhes, e tour
-                            estime que les vendeurs avaient mculté, conformément aux
+                            réclamer aux nité- Urs une somme égale à titre d’indem-sow&gt;^âu
+                            qu’ayant retenu que la susdite cette r de 64 représentait des arrhes, e
+                            tour estime que les vendeurs avaient mculté, conformément aux
                             dispositions</p>
                         <p>de l’art. V de l’acte préliminaire du 17 Février 1937, de se dédire, et
                             que, de ce chef, ils doivent, à part la restitution par le créancier de
@@ -2145,7 +2156,7 @@
                             forfaitairement évalué par les parties sous forme d’arrhes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0120">
                     <head>181. - Vente immobilière. — Promesse de vente; acte définitif; retard dans
                         la passation imputable au vendeur; droit de l'acheteur de ne pas donner
                         suite à la vente, même à défaut de préjudice; mise en demeure;
@@ -2334,7 +2345,7 @@
                             sur un chef.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0130">
                     <head>182. - Vente immobilière. — Promesse de vente; acte préliminaire;
                         stipula-hpn différant le transfert de la propriété jusqu'au paiement
                         intégral du prix; Irais de rédaction de l'acte définitif, légalisation de
@@ -2370,7 +2381,7 @@
                             Hoirs Ramadan Mohamed et autre c. Péricles Filippo et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0140">
                     <head>183. - Vente immobilière. — Promesse de vente; résolution; conséquences à
                         l'égard des tiers; paiement effectué par l'acheteur à un créancier
                         hypothécaire du vendeur; défaut de cause; action en restitution contre le
@@ -2533,7 +2544,7 @@
                             conjointe.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0150">
                     <head>184. - Vente immobilière. — Réméré; biens indivis; défaut de transfert de
                         la possession; nullité. — Gage immobilier; biens indivis; défaut de
                         possession; nullité.</head>
@@ -2589,7 +2600,7 @@
                             tout cas un élément essentiel à sa validité...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0160">
                     <head>185. - Vente immobilière. — Réméré; clause différant le transfert de la
                         propriété jusqu'à l'expiration d'un délai convenu si le vendeur n'use pas de
                         son droit de rachat et fixant une date fixe pour l'exercice du rachat;
@@ -2671,12 +2682,12 @@
                             la sincérité in-IevendicLt’1U titre invo(lUf- a l’appui de la Ibrak-Si
                             la Pàe dont se prévaut le Sieur seU)plni Abdel Salam, ne suffit pas à
                             elle Hvf. 1. Sooique émanant du Bureau des 1ü)elipneques’ a prouver que
-                            le contrat y blissan>C°>nslitue une vente à réméré éta-partani > droit
-                            de propriété et justifiant ment 11 ia revendication, ce n’est simple-de
-                            p Pafce qu’il s’agit d’une copie et non i>arite mais parce que la force
-                            proest s™, a copie produite sans l’original, dation I?lsa’ par l’art.
-                            296 C.C., à l’appré-DeUr L ,Juge’ lequel peut, d’après la te-ue 1 acte
-                            et tout autre élément con</p>
+                            le contrat y blissan&gt;C°&gt;nslitue une vente à réméré éta-partani
+                            &gt; droit de propriété et justifiant ment 11 ia revendication, ce n’est
+                            simple-de p Pafce qu’il s’agit d’une copie et non i&gt;arite mais parce
+                            que la force proest s™, a copie produite sans l’original, dation I?lsa’
+                            par l’art. 296 C.C., à l’appré-DeUr L ,Juge’ lequel peut, d’après la
+                            te-ue 1 acte et tout autre élément con</p>
                         <p>comitant, soit reconnaître ou dénier à la pièce toute valeur de preuve,
                             soit l’admettre comme commencement de preuve par</p>
                         <p>Déjà par arrêt du 19 Mars 1903 (Bull. XV, 203} la Cour retenait en effet
@@ -2773,7 +2784,7 @@
                             conséquence, le rejet du présent appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-02-0170">
                     <head>186. - Vente immobilière. — Résiliation pour défaut de paiement du prix;
                         clause pénale autorisant le vendeur à conserver les arrhes payées à titre de
                         dommages-intérêts; conditions d'application.</head>
@@ -3213,10 +3224,10 @@
                 <p>1. — The physiciens practising medical profession in Cairo City and suburbs, Giza
                     and Embaba Bandais whether they are Egyptiens or foreigners, Government
                     officiais or otherwise (doctors in the service of the Egyptian Army or the
-                    British Mm-tary Forces are exempt) will submit, pe>’-sonally or by a registered
-                    letter, to the Liaison Principal Medical Officer, Cairo, rue Champollion, N° 4,
-                    within 7 days from the date of publishing this Order, the foi' lowing
-                    particulars vvhich should be signes by them:</p>
+                    British Mm-tary Forces are exempt) will submit, pe&gt;’-sonally or by a
+                    registered letter, to the Liaison Principal Medical Officer, Cairo, rue
+                    Champollion, N° 4, within 7 days from the date of publishing this Order, the
+                    foi' lowing particulars vvhich should be signes by them:</p>
                 <p>Name, Surname, Age, Civil status (single or married), Nationality, Place or
                     place.3 where they practise their profession, Domicile (téléphoné number must be
                     shown n there was any), Nature of the medical præ fession they practise
@@ -3226,7 +3237,7 @@
                     service.</p>
                 <p>3. — This Proclamation will corne in*0 force from the date of its
                     publication.</p>
-                <p>Cairo, Moharram 27, 1360 (February - > 1941).</p>
+                <p>Cairo, Moharram 27, 1360 (February - &gt; 1941).</p>
                 <p>(s.): Mohamed El-Sayed Shahim</p>
             </div>
         </body>

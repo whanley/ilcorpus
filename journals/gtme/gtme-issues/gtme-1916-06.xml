@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0006-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0006-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1916-06-10">June 10, 1916</date><lb/>
-                    <biblScope unit="volume">Vol. 6</biblScope><lb/>
-                    <biblScope unit="number">No. 68</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1916-06-10">June 10, 1916</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 6</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 68</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -581,7 +592,7 @@
             <pb n="117" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0010">
                     <head>343. - Accident.— Tramway..— Faute &lt;du receveur.</head>
                     <div type="summary">
                         <p>Le receveur d’une Compagnie de tramways qui, alors que le tram est en
@@ -595,7 +606,7 @@
                             bent Attaya c. Soc. des Tramways 'du Caire).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0020">
                     <head>344. - Action paulienne. — Créanciers postérieurs à i’acte annulé. —
                         Effets *de f annulation prononcée en vertu des Art. 235 et suiv. C.
                         Com.</head>
@@ -612,7 +623,7 @@
                             Constantinidis es. q. c. Yehouda Moussa Levi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0030">
                     <head>345. - Adjudication. — Formalités &lt;des Criées.</head>
                     <div type="summary">
                         <p>Si l’art. 552 C. Proc, dit que l'adjudication aura lieu «à la criée de
@@ -629,7 +640,7 @@
                             bey Abou Awad c. G. Stagni et figli ^t autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0040">
                     <head>346. - Appel. — Effet suspensif.</head>
                     <div type="summary">
                         <p>Pour tenir en suspens les effets d’un jugement, il ne suffit pas qu’il
@@ -641,7 +652,7 @@
                             El Ghebali c. Caisse Hypothécaire -d’Egypte, et autresL</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0050">
                     <head>347. - Arbitrage. — Compromis. — Opposition.</head>
                     <div type="summary">
                         <p>Le compromis est une convention par laquelle les parties stipulent que
@@ -661,7 +672,7 @@
                             Aiitonius c. Georges Cordahi bey).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0060">
                     <head>348. - Association en participation. — Assurance. — Déclaration dans la
                         police. — Déchéance.</head>
                     <div type="summary">
@@ -681,7 +692,7 @@
                             Manusardi c. Cie l’Urbaine).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0070">
                     <head>349. - Billets à ordre. — Acte de commerce. — Compétence
                         commerciale.</head>
                     <div type="summary">
@@ -696,7 +707,7 @@
                             The Egyptian Engineering Cy Ltd.L</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0080">
                     <head>350. - Cahier des charges. — Notification du procès-verbal du dépôt. —
                         Mise à prix.</head>
                     <div type="summary">
@@ -710,7 +721,7 @@
                             Hamid eff. Aly et Cts c. Démetrius Casdagli).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0090">
                     <head>351. - Cassation. — Pourvoi. — Motivation. — Sujets ottomans. — Sujets
                         indigènes. — Nationalité égyptienne. — Textes de loi à transcrire dans le
                         jugement. ; — Solidarité. — Abus d’autorité. — Voies de fait.</head>
@@ -776,7 +787,7 @@
                             s’impose aujourd’hui.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0100">
                     <head>352. - Cession pro solvendo. — Loyers. — Garantie. ,</head>
                     <div type="summary">
                         <p>En l’absence de toute convention contraire, une cession faite à un
@@ -795,7 +806,7 @@
                             Industrial Building Cy b. Mohamed dey . Haki Abou Gabal)..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0110">
                     <head>353. - Chose jugée. — Règlement définitif. — Contredit.</head>
                     <div type="summary">
                         <p>Suivant l’esprit du Code Mixte, le règlement définitif dans la
@@ -807,7 +818,7 @@
                             Mossaa Allam c. Georges et Michel Dib et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0120">
                     <head>354. - Commerçant (Qualité de). — Colporteur. — Détournement. —
                         Motivation-du jugement.</head>
                     <div type="summary">
@@ -834,7 +845,7 @@
                             Aly Mohamed Goniaa c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0130">
                     <head>355. - Commissionnaire. — Responsabilité. — Défaut d’indication d’origine
                         de la marchandise vendue. — Perte d’une marchandise de genre. — Vente
                         commerciale.</head>
@@ -854,7 +865,7 @@
                             Lagnado c. Alîredo Luigi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0140">
                     <head>356. - Commissionnaire. — Responsabilité. — Farines. — Vente.</head>
                     <div type="summary">
                         <p>I. - Il ne suffit pas de nommer le nom du commerçant domicilié à
@@ -882,7 +893,7 @@
                             Moustata et autre c. Cugiui Viterbo).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0150">
                     <head>357. - Concordat par abandon d’actif. — Union. — Autorisation au
                         liquidateur a'intenter une demande en justice.</head>
                     <div type="summary">
@@ -916,7 +927,7 @@
                             l’homologation met fin à la mission, très limitée du juge-commis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0160">
                     <head>358 - Convention. —. Mode d’exécution.</head>
                     <div type="summary">
                         <p>Il ne saurait appartenir au juge de? substituer sa volonté à celle des
@@ -929,7 +940,7 @@
                             Khalil Mirshack et auttes c. Jean Ma-nuelidis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0170">
                     <head>359. - Curât sur. — Interdit. — Vente^ Autorisation du Meglis
                         Hasbi.</head>
                     <div type="summary">
@@ -948,7 +959,7 @@
                             Mohamed Mohamed Gomaa et autres c*. Sterghios Dassoukas).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0180">
                     <head>360. - Daïra. — Domicile aux fins d’assignation, — Daïra sous contrôle. —
                         Assignation en matière personnelle. — Nullité de. la signification.</head>
                     <div type="summary">
@@ -1011,7 +1022,7 @@
                             l’étranger”.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0190">
                     <head>361. - Défense (Violation des droits -de la). — Citation des témoins. —
                         Publicité de l’audience. — Procès verbal de récolement. — Dépositions
                         séparées des témoins. — Textes de loi à transcrire dans le jugement. —
@@ -1071,7 +1082,7 @@
                         <p>IV. - Comp. cep. arrêt 23 Février 1916, précité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0200">
                     <head>362. - Demande. — Multiplicité de demandeurs. — Indivisibilité de
                         droits.</head>
                     <div type="summary">
@@ -1088,7 +1099,7 @@
                             Moustafa et Cts. c. Habib Dimitri Boulad),</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0210">
                     <head>363. - Demande nouvelle. — Appel,</head>
                     <div type="summary">
                         <p>Il est de doctrine et de jurisprudence française et mixte que le
@@ -1108,7 +1119,7 @@
                             Anna bent Aly Abou Mohamed c. Hassan eîfendi Abdel Hadi et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0220">
                     <head>364. - Demande nouvelle. — Appel, — Revendication immobilière. —
                         Dommages-intérêts.</head>
                     <div type="summary">
@@ -1129,7 +1140,7 @@
                             autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0230">
                     <head>365. - Détournement d’objets saisis, Dissimulation. - Fait
                         punissable.</head>
                     <div type="summary">
@@ -1193,7 +1204,7 @@
                             C.P.M.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0240">
                     <head>366. — Donation. — Acte authentique. — Acte à titre giatuit et à titre
                         onéreux en même temps. -</head>
                     <div type="summary">
@@ -1208,7 +1219,7 @@
                             Kyriacuu c. iriandafillou Kyriacou).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0250">
                     <head>367. - Droits proportionnels. — Prescription de deux années. — Tarif
                         Judi-ciaiie. — Délivrance des giosses. — Greffe.</head>
                     <div type="summary">
@@ -1286,7 +1297,7 @@
                             affaires qu’il a plu à ces derniers d’introduire à leur encontre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0260">
                     <head>368. - Enquête sommaire. — Dénonciation de la liste des témoins.</head>
                     <div type="summary">
                         <p>A supposer même que, lorsqu’il s’agit: de matières urgentes, dans
@@ -1308,8 +1319,8 @@
                         <p>Note. — Comp. ci-après arrêt 30 Mars» 1916, § 369.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>369. > Enquête sommaire. — Dénonciation de la liste des témoins. —
+                <div type="case" xml:id="gtme-1916-06-0270">
+                    <head>369. &gt; Enquête sommaire. — Dénonciation de la liste des témoins. —
                         Délai.</head>
                     <div type="summary">
                         <p>I. — Alors même que le dispositif d’uni arrêt interlocutoire ne porterait
@@ -1331,7 +1342,7 @@
                         <p>Note. — Comp. ci-haut, arrêt 8 Mars 1916» § 368.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0280">
                     <head>370. - Expert. — Honoraires. — Taxe.,</head>
                     <div type="summary">
                         <p>Le Tribunal n’est pas tenu, dans une. taxation d’honoraires, de prendre
@@ -1346,7 +1357,7 @@
                             Gouvernement Egyptien c. N. C. Minglis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0290">
                     <head>371. - Faillite. - Délai d'appel. — Jugement rendu sur une demande
                         d'annulation de gage immobilier.</head>
                     <div type="summary">
@@ -1364,7 +1375,7 @@
                             Hoirs Tadros Kyriacos c. D. Caralli esq).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0300">
                     <head>372. - Folle-enchère. — Fixation de la mise à prix. — Obligation du
                         poursuivant. — Renvoi sur baisse.</head>
                     <div type="summary">
@@ -1383,10 +1394,10 @@
                         <p>Attendu que les motifs du jugement dont appel justifient suffisamment la
                             décision attaquée ;</p>
                         <p>Que le juge délégué, passant en revue les modifications que la procédure
-                            d’expropriation a > subies depuis 1875, arrive à cette conclusion, que
-                            si l’art. 698 C. Proc, est resté tel quel lors de la révision d’autres
-                            articles concernant la mise à prix, avec les mots «la mise à prix
-                            offerte «par le poursuivant en folle enchère,» c’est par une pure
+                            d’expropriation a &gt; subies depuis 1875, arrive à cette conclusion,
+                            que si l’art. 698 C. Proc, est resté tel quel lors de la révision
+                            d’autres articles concernant la mise à prix, avec les mots «la mise à
+                            prix offerte «par le poursuivant en folle enchère,» c’est par une pure
                             inadvertance, ce qui est bien possible, la phrase sus indiquée, si l’on
                             veut qu’elle impose l’obligation au poursuivant sur folle enchère de
                             rester adjudicataire, étant en contradiction avec les nouvelles
@@ -1439,7 +1450,7 @@
                             prix offerte par celui qui poursuit la folle enchère.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0310">
                     <head>373. — Garantie. - - Compte courant. — Intérêts.</head>
                     <div type="summary">
                         <p>La garantie conjointe et solidaire d’une somme déterminée constituant le
@@ -1459,7 +1470,7 @@
                             Française d’Egypte contre Simon dey Sednaoui).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0320">
                     <head>374. - Garantie (Recours en). — Opposition à commandement.</head>
                     <div type="summary">
                         <p>Un recours en garantie peut être greffé sur une opposition à
@@ -1475,7 +1486,7 @@
                             Mars 1916, Gaz., VI, 108-341.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0330">
                     <head>375. - Gestion d’affaires. — Intention. — Remboursement des frais par le
                         véritable intéressé.</head>
                     <div type="summary">
@@ -1496,7 +1507,7 @@
                             Meguid Chahine et Co. c. Banque d’Athènes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0340">
                     <head>376. - Hekr. — Augmentation. — Valeur locative.</head>
                     <div type="summary">
                         <p>Il est de principe incontesté en droit musulman que le hekr peut être
@@ -1511,7 +1522,7 @@
                             Toueg c. Ministère des Wakfs).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0350">
                     <head>377. - Huissier. — Responsabilité. — Préjudice subi. — Prix des objets
                         vendus.</head>
                     <div type="summary">
@@ -1525,7 +1536,7 @@
                             Abdel Dayan c. Abdel Latif bey Fayed et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0360">
                     <head>378. - Intérêts. — Point de départ. — Assignation au fond.</head>
                     <div type="summary">
                         <p>C’est à bon droit quf le Tribunal prend pour point de départ des intérêts
@@ -1540,7 +1551,7 @@
                             des Tramways du Caire c. Abdel Rahman Gasser et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0370">
                     <head>379. - Juridiction Mixte. — Compétence. — Délits commis contre les
                         sentences et mandats de justice. — Nationalité des parties^</head>
                     <div type="summary">
@@ -1580,7 +1591,7 @@
                             les parties étaient de même nationalité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0380">
                     <head>380. - Juridiction mixte. — Compétence. — Statut personnel. — Sursis. —
                         Nationalité. — Loi brésilienne. — Epoux de nationalités différentes mariés
                         sans contrat. — Régime des biens. — Loi nationale du mari.— Condition
@@ -1756,7 +1767,7 @@
                     </div>
                 </div>
                 <pb n="123" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYTPE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0390">
                     <head>381. - Khoulou-el-intifa. — Hekr. — Wakf. — Dommages-intérêts.</head>
                     <div type="summary">
                         <p>I. - Le contrat de khoulou el intifa n’a pas pour objet la création de
@@ -1874,7 +1885,7 @@
                             sa jouissance dont il a été privé depuis lors.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0400">
                     <head>382. - Novation. — Prorogation de terme. —Gaianties. — Remplacement d’un
                         acte sous seing privé par un acte notarié.</head>
                     <div type="summary">
@@ -1889,7 +1900,7 @@
                             Fath El Bab El Hossary c. lonian Bank Ltd.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0410">
                     <head>383. - Péremption. — Instance en opposition. — Jugement de défaut. —
                         Demande irrecevable.</head>
                     <div type="summary">
@@ -1905,7 +1916,7 @@
                         <p>Note. — Ds. ce,sens Jug. Alex. 16 Novembre 1914, Gaz., V, 15 33.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0420">
                     <head>384. - Péremption. — Jugements définitifs. — Partie interlocutoire. —
                         Prescription.</head>
                     <div type="summary">
@@ -1929,7 +1940,7 @@
                             Cts.j.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0430">
                     <head>385. - Port d’Alexandrie. — Passes. — Droits de pilotage. —
                         Remorqueurs.</head>
                     <div type="summary">
@@ -2016,7 +2027,7 @@
                             confirmation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0440">
                     <head>386. - Prête-nom. — Poursuites d’expropriation. — Subrogation. — Coobligés
                         solidaires.</head>
                     <div type="summary">
@@ -2114,7 +2125,7 @@
                             nom.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0450">
                     <head>387. - Propriétaire. — Responsabilité. — Locataire. — Défaufde
                         construction bu vétusté de l’immeuble.</head>
                     <div type="summary">
@@ -2135,7 +2146,7 @@
                             c. Vita Lichtental tt autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0460">
                     <head>388. - Propriété littéraire. — Presse. Articles littéraires, artistiques,
                         scientifiques, ou politiques. —Nouvelles et informations. Traductions. —
                         Reproduction directe. — Demande reconventionnelle.</head>
@@ -2265,7 +2276,7 @@
                             cro-nista.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0470">
                     <head>389. - Règlement définitf. — Contredit. — Fixation du prix. — Sommation à
                         l’adjudicataire.</head>
                     <div type="summary">
@@ -2284,7 +2295,7 @@
                             et Fils c. Land Bank of Egypt et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0480">
                     <head>390. - Réquisition. — Sous-locataire. — Loyers. — Indemnité. — Gestion
                         d’affaire.</head>
                     <div type="summary">
@@ -2303,7 +2314,7 @@
                             Nungovich Egyptiau Hotels Cy c. Fohoomull Brothers).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0490">
                     <head>391. - Saisie-exécution. — Tiers détenteur. — Saisie-airêt. —
                         Saisie-conservatoire.</head>
                     <div type="summary">
@@ -2324,7 +2335,7 @@
                             c. Ministère des Wakfs et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0500">
                     <head>392. - Séquestre judiciaire.— A vocal. - — Faute. —Responsabilité. — Choix
                         du séquestre. — Bénéfice de discussion.</head>
                     <div type="summary">
@@ -2364,7 +2375,7 @@
                             S. bey C. c. Mohamed dey Aboul Foutouh, et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0510">
                     <head>393. - Séquestre judiciaire. — Responsabilité. — Mandat.</head>
                     <div type="summary">
                         <p>La situation juridique du séquestre chargé d’administrer un immeuble est
@@ -2393,7 +2404,7 @@
                             Ahmed Abou El Fetouh Pacha c. L. Savon et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0520">
                     <head>394. - Serment. — Contrat judiciaire. — Caractère irrévocable.</head>
                     <div type="summary">
                         <p>Il est de principe constant que la partie qui a déféré ou référé un
@@ -2414,7 +2425,7 @@
                             N. Rigakis c. Abdel Rahman effendi Ibrahim).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0530">
                     <head>395. - Serment litis-décisoire. — Admissibilité. _</head>
                     <div type="summary">
                         <p>Le serment décisoire est admissible non seulement en substitution de tout
@@ -2426,7 +2437,7 @@
                             c. Raison Sociale Khoury Bros.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0540">
                     <head>396. - Soustraction d’actif. — Détournement. — Dissimulation. — Recel. —
                         Abus de confiance. .</head>
                     <div type="summary">
@@ -2439,7 +2450,7 @@
                             Mohamed Sid Ahmed el Hammach c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0550">
                     <head>397 - Sous-traitant. — Ouvriers. — Saisie-arrêt. — Action directe contre
                         le maître.</head>
                     <div type="summary">
@@ -2453,7 +2464,7 @@
                             Stiliano N. Perrakis c. Mohamed Pacha Yaken èsq. et autres). '</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0560">
                     <head>398. - Sujets ennemis. — Contrats. — Impossibilité d'exécution. — Lois et
                         actes de l’autorité. — Force majeure. — Fait du prince. — Faute. —
                         Liquidation. — Neutres. — Dommages-intérêts. — Responsabilité.</head>
@@ -2646,7 +2657,7 @@
                             responsabilité des défendeurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0570">
                     <head>399. - Taklif (Inscriptions au). — Portée.</head>
                     <div type="summary">
                         <p>L’ inscription au taklif, qui est une formalité d’ordre purement
@@ -2659,7 +2670,7 @@
                             Sakakini Pacha c. Gouvernement Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0580">
                     <head>400. - Tierce-opposition. — Co-débi-teuis solidaires.</head>
                     <div type="summary">
                         <p>Bien que les co-débiteurs solidaires soient en principe représentés les
@@ -2674,7 +2685,7 @@
                             Guirguis et Ct. c. Dame Victoria Ser-ghidis et Ct.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0590">
                     <head>401. -Tiers-détenteur. —Sommation. — Commandement immobilier. —
                         Désignation des biens.</head>
                     <div type="summary">
@@ -2689,7 +2700,7 @@
                             —'Radouan dey Attia c. Allia Shenouda).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-06-0600">
                     <head>402. - Transcription. — Inopposabilité au tiers acquéreur d’une
                         affectation hypothécaire non transcrite au Tribunal Mixte.</head>
                     <div type="summary">

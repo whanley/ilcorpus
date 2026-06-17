@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1927-02-10">February 10, 1927</date><lb/>
-                    <biblScope unit="volume">Vol. 17</biblScope><lb/>
-                    <biblScope unit="number">No. 196</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1927-02-10">February 10, 1927</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 17</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 196</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -179,7 +190,7 @@
             <pb n="64" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0010">
                     <head>87. - Appel. — Actes n’impliquant pas acquiescement; exécution partielle
                         d'une décision; appel formé pour un autre chef; recevabilité. — Séquestre;
                         immeuble sous expropriation; partie affectée à l'habitation du débiteur
@@ -296,7 +307,7 @@
                             devant la justice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0020">
                     <head>88. - Appel. — Délai; expiration; déchéance d'ordre public. —
                         Garantie-droits du garant; appel du garant profitant au garanti. —
                         Indivision; revendication de part indivise; admissibilité. — Partage;
@@ -422,7 +433,7 @@
                             partage...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0030">
                     <head>89. - Appel. —- Délai; point de départ contre la partie ayant procédé à la
                         signification du jugement. — Action posses-soire; appel déféré au Tribunal;
                         jugement incompétemment rendu, mais en dernier ressort;
@@ -480,7 +491,7 @@
                             n’était que l’accessoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0040">
                     <head>90. - Appel. — Demande nouvelle; demande comprise dans la demande
                         originaire; recevabilité; demande nouvelle à l'encontre d'une des parties;
                         irrecevabilité.</head>
@@ -565,7 +576,7 @@
                             irrecevable à l’encontre des Consorts Merminga...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0050">
                     <head>91. - Appel. — Dommages-intérêts inférieurs au taux d'appel réclamés en
                         vertu d'un contrat de valeur supérieure.</head>
                     <div type="summary">
@@ -611,7 +622,7 @@
                             du contrat inexécuté soit supérieure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0060">
                     <head>92. - Appel. — Erreur matérielle n'en-traînant pas nullité en cas de
                         rectification immédiate; nullité couverte par la comparution des parties. —
                         Adjudication; jugement; moyens ne constituant pas vice de forme; appel
@@ -687,7 +698,7 @@
                             du Code de Procédure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0070">
                     <head>93. - Appel. — Jugement ayant admis la réduction concordataire opposée par
                         le débiteur; appel visant la condamnation même; irrecevabilité.</head>
                     <div type="summary">
@@ -737,11 +748,11 @@
                         <p>Dans cet état de choses, la décision des premiers juges ne fait aucun
                             grief aux appelants qui, par conséquent, ne sont pas recevables à en
                             relever appel, comme cela a été plusieurs fois -statué: arrêts du 19
-                            Décembre 1888, 14 Février 1906 et 13 Janvier 1919, L>. I, 27, XVIII, 117
-                            et XXI, 120.</p>
+                            Décembre 1888, 14 Février 1906 et 13 Janvier 1919, L&gt;. I, 27, XVIII,
+                            117 et XXI, 120.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0080">
                     <head>94. - Appel. — Jugement ayant statué sur une demande inférieure à L.E.
                         100; appel irrecevable.</head>
                     <div type="summary">
@@ -819,7 +830,7 @@
                             degré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0090">
                     <head>95. - Appel. — Jugement ayant statué sur une demande inférieure à L.E.
                         100, nonobstant une demande de renvoi devant le Juge Sommaire; appel
                         recevable.</head>
@@ -888,7 +899,7 @@
                             formulée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0100">
                     <head>96. - Appel. — Jugement déclaratif de faillite rétracté par un jugement
                         subséquent non frappé de recours; appel non recevable.</head>
                     <div type="summary">
@@ -945,7 +956,7 @@
                             appel a. été relevé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0110">
                     <head>97. - Appel. —Jugement exécutoire par provision: paiement . des frais,
                         n'impliquant pas acquiescement. — Appel tardif; nullité d'ordre public,
                         inefficacité d'une renonciation à l'irrecevabilité.</head>
@@ -992,7 +1003,7 @@
                             par la Cour. (Bull. XXII. 140, XXVIII, 150).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0120">
                     <head>98. - Appel. — Jugement interlocutoire; recevabilité de l'appel interjeté
                         après la fixation de la date du commencement des mesures d'instruction
                         ordonnées, mais avant la connaissance donnée de cette fixation à
@@ -1089,7 +1100,7 @@
                             production des livres de commerce pouvait être ordonnée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0130">
                     <head>99. - Appel. — Jugement interlocutoire; réserves inutiles au moment de la
                         mesure d'instruction ordonnée. — Jugement interlocutoire; demande
                         d'interprétation n'impliquant point acquiescement. — Expertise ordonnée par
@@ -1306,7 +1317,7 @@
                             défense...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0140">
                     <head>100. - Appel. — Jugement ordonnant la représentation de livres de
                         commerce; caractère généralement interlocutoire; cas où un tel jugement est
                         seulement préparatoire; irrecevabilité, en ce cas, d'un appel séparé.</head>
@@ -1378,7 +1389,7 @@
                             appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0150">
                     <head>101. - Appel. — Jugement ordonnant une enquête; caractère partiellement
                         définitif et partiellement interlocutoire; admissibilité de l'appel. —
                         Jugements ordonnant une mesure d'instruction; exécution provisoire;
@@ -1427,9 +1438,10 @@
                             en prétendant que le jugement déféré est simplement préparatoire;</p>
                         <p>Mais qu’il n’y a pas lieu de s’arrêter à celte exception le dit jugement
                             étant non seulement interlocutoire en tant qu’il a préjugé le fond en
-                            ordonnant une enquête sur c>es faits considérés par les premiers juges
-                            comme pouvant justifier la demande, mais encore définitif, en tant qu’il
-                            a statué sur l’admissibilité en l’espèce de la preuve testimoniale;</p>
+                            ordonnant une enquête sur c&gt;es faits considérés par les premiers
+                            juges comme pouvant justifier la demande, mais encore définitif, en tant
+                            qu’il a statué sur l’admissibilité en l’espèce de la preuve
+                            testimoniale;</p>
                         <p>Que l’intimé soutient en outre que l’appelant a acquiescé au jugement
                             dont est appel, puisqu’il a participé à l’enquête et procédé à la contre
                             enquête;</p>
@@ -1509,7 +1521,7 @@
                         <p>Or attendu que. si la qualité du mandataire permet de présumer, le cas
                             échéant,</p>
                         <p>l’existence d’une convention tacite dérogeant au principe de la gratuité
-                            du mandat, en> l’espèce tant la nature des services rendus» que la
+                            du mandat, en&gt; l’espèce tant la nature des services rendus» que la
                             qualité du mandataire et les relations existant entre lui et le mandant,
                             s’opposent à l’admission d’une pareille présomption;</p>
                         <p>Que d’autre part le fait par l’intimé d’avoir laissé servir son
@@ -1522,7 +1534,7 @@
                             conséquence ce dernier mal fondé en son action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0160">
                     <head>102. - Appel. — Jugement ordonnant une expertise; caractère
                         interlocutoirep recevabilité de l'appel. — Vente commerciale; marchandise
                         refusée pour non conformité au contrat; preuve à charge de l’acheteur; vente
@@ -1615,7 +1627,7 @@
                             des frais d’un protêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0170">
                     <head>103. - Appel. — Jugement ordonnant un partage; caractère définitif. —
                         Jugement non signifié; chose jugée; inexistance. — Action en partage;
                         irrecevabilité faute de décision préalable sur la propriété
@@ -1699,7 +1711,7 @@
                             favorable à l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0180">
                     <head>104. - Appel. — Jugement rendu au possessoire; irrecevabilité du- recours
                         formé par une partie mise en cause par un intervenant; prétendus ayante
                         droit du demandeur au possessoire; défaut de droit personnel d'appel; litige
@@ -1838,7 +1850,7 @@
                             Ghattas n’avait pas le droit de les mettre en cause.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0190">
                     <head>105. - Appel. — Jugement signifié à domicile élu; mode de calcul du délai
                         de distance. — Avocat; domicile élu; mandat de faire appel; refus de
                         réception de la signification du jugement. — Jugement par défaut; appel;
@@ -1905,7 +1917,7 @@
                             de l’appelant;</p>
                         <p>Que la question présentement soumise à la Coar reste donc entière,
                             nonobstant les termes du dit arrêt;</p>
-                        <p>&lt;>r attendu qu’il a été admis par de nombreux ai rets qulen cas de
+                        <p>&lt;&gt;r attendu qu’il a été admis par de nombreux ai rets qulen cas de
                             signification du jugement au domicile élu, la seule augmentation de
                             délai à envisager était celle résul-<pb n="74"
                                 rendition="Gazette des Tribunaux Mixtes d’Egypte."/>tant du lieu de
@@ -1965,7 +1977,7 @@
                         <p>Qu’il y a donc lieu, en définitive, de dire l’appel irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0200">
                     <head>106. - Appel. — Jugement signifié à un autre domicile que celui établi en
                         première instance; preuve d'un changement de domicile non rapportée; délai
                         de distance. — Contrat sous seing privé transcrit; dénégation de signature;
@@ -2050,7 +2062,7 @@
                             probante, reus absolvitur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0210">
                     <head>107. - Appel. — Jugements statuant sur les recours contre les ordonnances
                         du. juge de service; non recevabilité de. l'appel.</head>
                     <div type="summary">
@@ -2146,7 +2158,7 @@
                             fond présentés par cet appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0220">
                     <head>108. - Appel. — Recours formé par un seul exploit, contre deux jugements;
                         validité. — Inscription de faux; objet de cette procédure spéciale: cas de
                         falsification; contestations contre le contenu d'un acte, soumises à la
@@ -2276,7 +2288,7 @@
                             application de l’art. 313 du C. Pr.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0230">
                     <head>109. - Appel. — Taux; demande supérieure au taux d'appel au moment du
                         jugement; réduction en appel; recevabilité de l'appel.</head>
                     <div type="summary">
@@ -2331,7 +2343,7 @@
                             l'appel est irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0240">
                     <head>110. - Assignation. — Défaut de qualité de la personne assignée; nullité
                         couverte par un jugement sur défaut faute de conclure. — Exception
                         d'incompétence rations loci, couverte par un jugement sur défaut faute de
@@ -2418,7 +2430,7 @@
                             est forclose de le faire aujourd’hui.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0250">
                     <head>111. - Assignation. — Défectuosité; défaut de mention de la personne
                         agissant au nom d'une société demanderesse; intervention ultérieure;
                         validité. — Serment décisoire; formule contredite par des écrits.</head>
@@ -2439,7 +2451,7 @@
                     </div>
                 </div>
                 <pb n="77" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0260">
                     <head>112. - Prise à partie. — Magistrat du Parquet; prise à partie par un
                         étranger contre un magistrat indigène. — Dommages-intérêts; poursuites
                         dirigées par la Juridiction Indigène contre un étranger. — Débats limités
@@ -2652,7 +2664,7 @@
                             dans son acte introductif du 19 Juillet 1923.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0270">
                     <head>113. - Requête civi'e. — Condamnation &lt;aux dépens; ultra petita.</head>
                     <div type="summary">
                         <p>La condamnation aux dépens de la partie qui succombe est dé droit et doit
@@ -2721,7 +2733,7 @@
                         <p>L’a Cour estime qu’il y a lieu de maintenir cette jurisprudence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0280">
                     <head>114. - Requête civile. — Cumul du rescindant et du rescisoire.</head>
                     <div type="summary">
                         <p>La séparation du rescindant et du rescisoire est une règle établie dans
@@ -2769,7 +2781,7 @@
                             inutile.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1927-02-0290">
                     <head>115. - Requête civile. — Dol personnel; définition; affirmations inexactes
                         ne donnant pas lieu à requête civile.</head>
                     <div type="summary">

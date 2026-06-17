@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1925-02-10">February 10, 1925</date><lb/>
-                    <biblScope unit="volume">Vol. 15</biblScope><lb/>
-                    <biblScope unit="number">No. 172</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1925-02-10">February 10, 1925</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 15</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 172</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -44,18 +55,18 @@
                 <p>43, Rue El Msnakh.</p>
                 <p>Tél. 7237</p>
                 <p>à Mansourah,</p>
-                <p>>Rue Hussenieh. Tél. 207</p>
+                <p>&gt;Rue Hussenieh. Tél. 207</p>
                 <p>:Rue Ismaïl Tél. 282</p>
                 <p>à Port-Saïd,</p>
                 <p>4, Quai Eugénie.</p>
                 <p>Tél. 4C9</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
-                <p>Fondateurs > M“ MAXIME PUPIKOFEH et LÉON PANGALO, Avocats à la Cour.</p>
+                <p>Fondateurs &gt; M“ MAXIME PUPIKOFEH et LÉON PANGALO, Avocats à la Cour.</p>
                 <p>Directeur: M® MAXIME PUPIEOFER, Avocat à la Cour.</p>
                 <p>— à la Gazette (un an).,.. P,T, 150</p>
                 <p>— sm Journal ;</p>
-                <p>— Un an................... > 150</p>
+                <p>— Un an................... &gt; 150</p>
                 <p>— Six mois........ » 85</p>
                 <p>— Trois mois......... » 50</p>
                 <p>— aux deux publications</p>
@@ -241,7 +252,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0010">
                     <head>108. - Accident. — Affaissement d'une chaussée; canalisation d'égoûts
                         défectueuse; responsabilité de l'Administration; Municipalité d'Alexandrie;
                         obligation de surveillance d'une installation souterraine; Compagnie de
@@ -511,10 +522,10 @@
                             exposées, et aussi le fait qu’il s’agit d’une automobile fabriquée -Sa1,
                             3’ ,a Cour fixe ex æ(lu° et boup.A L.E. Ï20 le montant des
                             dommages-intérêts dus A Bolanachi, outre le coût des réparations fixé
-                            j>ar I expert.</p>
+                            j&gt;ar I expert.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0020">
                     <head>109. - Accident. — Compagnie de navigation; défectuosité des installations
                         pour l'embarquement des passagers à bord des navires;
                         .responsabilité.</head>
@@ -571,7 +582,7 @@
                             indemnité de L.E. 100.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0030">
                     <head>110. - Accident du travail. — Faute du patron; charge de la preuve;
                         accident survenu à un enfant chargé d'un travail dangereux; renversement du
                         fardeau de la preuve.</head>
@@ -592,7 +603,7 @@
                             i Mohamed Se:d c. The Mercantilô”' Cotton Cy of Egypt)..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0040">
                     <head>111. - Accident. -— Tramway; collision;' dommages indirects non
                         susceptibles de-réclamation.</head>
                     <div type="summary">
@@ -637,7 +648,7 @@
                             Raphaël de leur action.l’ac-cident survenu à ce dernier n’avant pas été7
                             occasionné par sa faute. Et, dans ses conclusions, il demande la
                             confirmation du jugement d'incompétence en ce qui concerne-Elias Raphaël
-                            et que soit déclarée irreceva-<pb/>t>le l’action de la Société des
+                            et que soit déclarée irreceva-<pb/>t&gt;le l’action de la Société des
                             Tramways, .celle-ci n’ayant pas le droit de se substituer à son employé
                             pour demander une partie des dommages-intérêts. Et subsidiairement, il
                             ..demande d’être autorisé à prouver par tous moyens les faits signalés
@@ -667,7 +678,7 @@
                             confirmer le jugement d’incompétence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0050">
                     <head>112. - Accident. ■— Tramway; collision; ■voyageur, se tenant sur le
                         marchepied ■d'une voiture; faute; collision due à la .faute des agents de la
                         Compagnie; faute commune; partage des responsabilités. — Préjudice moral;
@@ -779,7 +790,7 @@
                             veuve et de L.E. 250 pour la fille mineure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0060">
                     <head>113. - Accident. ■— Tramways; courts-circuits; brûlures occasionnées à un
                         voyageur; cas fortuit; preuve à charge de la Compagnie;
                         responsabilité.</head>
@@ -821,7 +832,7 @@
                             court-circuit, dont a été victime Michel Papandonakis devait être
                             attribué à un cas fortuit;</p>
                         <p>Attendu, d’autré part, qu’il n’est plus sérieusement contesté, même en
-                            l’état de la lé>-</p>
+                            l’état de la lé&gt;-</p>
                         <pb n="72" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                         <p>gislation des Tribunaux Mixtes, que toute personne est en principe
                             responsable de la chose quelle a sous sa garde et dont elle tire profit
@@ -838,7 +849,7 @@
                             éprouvé par le demandeur et de l’obliger à le réparer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0070">
                     <head>114. - Administration. — Actes d'administration publique; immunités
                         capitulaires. — Pesage public; loi No. 9 de 1914; caractère obligatoire à
                         l'égard des étrangers. — Professions et industries; exercice en Egypte; loi
@@ -994,7 +1005,7 @@
                         <p>sauces capitulaires, dont l’art. 1er dit; «Le libre exercice de toute
                             profession ou industrie, de tout art, commerce ou métier est as-:suré à
                             tous les habitants de l’Egypte, indigènes ou étrangers indistinctement,
-                            à la condition d’observer les lois générales . du .pays... i>.</p>
+                            à la condition d’observer les lois générales . du .pays... i&gt;.</p>
                         <p>finalement, et en dehors de ces considérations, il y a iieu d’observer
                             que la loi No. 9 -de 1914, laquelle contient les .dispositions
                             fondamentales réglant cette manière, a été .soumise à l’Assemblée
@@ -1162,7 +1173,7 @@
                             pioteges par la loi civile mixte. L’art. 117 du code Civil édicte en
                             termes formels le principe qui régit la propriété privée: «Nul ne?</p>
                         <pb n="74" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                        <p>Î' >erd sa propriété, si ce n’est... quand il y a ieu à expropriation
+                        <p>Î' &gt;erd sa propriété, si ce n’est... quand il y a ieu à expropriation
                             pour cause d’utilité publique». L’ampleur de cette formule conçue -dans
                             un esprit plus large que les formules correspondantes du Code Napoléon
                             (art. 545) et du C. Civ. italien (art. 438),étend manifestement la
@@ -1281,7 +1292,7 @@
                             d’instruction.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0080">
                     <head>115. - Administration. — Adjudication? administrative; Cahier des Charges;
                         lettre de soumission; convention régie par le cahier des charges; clause
                         autorisant le refus, sans indemnité, de la fourniture dont le besoin a
@@ -1418,7 +1429,7 @@
                             l’Adminisfration la résiliation du contrat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0090">
                     <head>116. - Administration. —• Droits privés susceptibles de protection
                         judiciaire; conditions. — Mokallafa; inscription au tekeliff; règles;
                         responsabilité de VAdministration; 1 déduction arbitraire du tekc-liff;
@@ -1556,7 +1567,7 @@
                             d’instruction étant toute indiquée doit être ordonnée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0100">
                     <head>117. - Administration. — Services publics; tarifs; caractère de règlements
                         ad-ministratifs; interprétation; pouvoirs de VAdministration; limites.—
                         Contrats d'abonnement aux services publics; défaut de liberté du
@@ -1772,9 +1783,10 @@
                         <p>a)</p>
                         <p>Sul testa da interpretare:</p>
                         <p>Che la pretesa deU’Amministrazione, di voler regolare l’applicazione
-                            délia Tariffa sul teste inglese, pubblicato nei «Giornale U/fi-ciale»>
-                            del 28 Settembre 1919, non è compati-bile coi. principii, generali del
-                            diritto pubblico cgiziano, nè con quelli del diritto misto.</p>
+                            délia Tariffa sul teste inglese, pubblicato nei «Giornale
+                            U/fi-ciale»&gt; del 28 Settembre 1919, non è compati-bile coi.
+                            principii, generali del diritto pubblico cgiziano, nè con quelli del
+                            diritto misto.</p>
                         <p>In diritto pubblico cgiziano non è ammis-sibile ebe un ente pubblico
                             locale, qual’è l’Amministrazione dei Telefoni dello State, abbia, corne
                             mezzo di manifestazione délia sua volonté, a servirai di una lingua che
@@ -1814,11 +1826,12 @@
                         <p>Sulla retta interpretazione del testa arabo: Che il teste arabo délia
                             tariffa non ammet-te dubbi di sorte, qualificando «domicilié», ai fini
                             dell’applicazione délia tariffa generale, i luoghi nei quali il telefono
-                            non sia usato «ti achghâal Tigarge»>, cioè, per affari commercial!.</p>
-                        <p>Ora, quale che sia la misura nella quale v»>-glia considerarsi influente
-                            sul carattere Je’la professione sanitaria il lucre che l’esercizio di
-                            essa comporta, non è pensabile se non ner absurdum che i corisulti dati
-                            da un medieo</p>
+                            non sia usato «ti achghâal Tigarge»&gt;, cioè, per affari
+                            commercial!.</p>
+                        <p>Ora, quale che sia la misura nella quale v»&gt;-glia considerarsi
+                            influente sul carattere Je’la professione sanitaria il lucre che
+                            l’esercizio di essa comporta, non è pensabile se non ner absurdum che i
+                            corisulti dati da un medieo</p>
                         <p>siano degli affari di natura commerciale; e che il medieo abbia pertanto
                             la qualité cor-rispondente aU’esercîzio abitualc di detti'affari, con le
                             sanzioni che vi sarebbe connesser a termini délia legge commerciale.</p>
@@ -1903,7 +1916,7 @@
                         <p>Condamna l’Amministrazione dei Telefoni .dello Stato aile spese.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0110">
                     <head>118. - Administration. — Voirie; classement, déclassement et reclassement
                         de rues publiques; atteinte aux facultés d'usage spécial de la rue;
                         condition; indemnité; actes administratifs légitimes.</head>
@@ -2061,7 +2074,7 @@
                     </div>
                 </div>
                 <pb n="79" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0120">
                     <head>119. - Douanes. — Contrebande; saisie; amende; Commission douanière;
                         absence de décision régulière; mesure administrative; contrôle des
                         Tribunaux.</head>
@@ -2224,7 +2237,7 @@
                             douanière ne fût rendue.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0130">
                     <head>120. - Douanes. — Contrebande; saisie;' amende; Commission douanière;
                         transaction avec les contrevenants; irrégularité. — Effets neufs;
                         introduction czi Egypte; déclaration nécessaire; droits dus.</head>
@@ -2386,7 +2399,7 @@
                             ce qui constitue par conséquent, un fait caractérisé de contrebande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0140">
                     <head>121. - Gouvernement. — Souveraineté; droit de police; acte
                         d'administration; irrégularité; responsabilité civile du Gouvernement;
                         manifestations; émeutes; répression; coup de feu tiré sur un étranger; faute
@@ -2523,7 +2536,7 @@
                             continuée en son nom par ces derniers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0150">
                     <head>122. - Gouvernement. — Souveraineté; droit de police; acte
                         d'administration; irrégularité; responsabilité civile du Gouvernement;
                         manifestations; faute de la police; abstention systématique
@@ -2628,7 +2641,7 @@
                             au Gouvernement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0160">
                     <head>123. - Gouvernement. — Souveraineté; .responsabilité; acte de
                         Gouvernement. •— — Etat de guerre; décision du Conseil des ■Ministres
                         d'Egypte du 6 Août 1911; suspension des Capitulations avec les pays .en
@@ -2934,7 +2947,7 @@
                             de la Partie X (clauses économiques).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0170">
                     <head>124. - Guerre. — Biens allemands en Egypte; revendication par un
                         propriétaire neutre; Juridiction Mixte; compétence.—• Séquestre Officiel des
                         Biens Ennemis en Egypte; pouvoirs; qualité; Proclamation, du Q Mars 1920;
@@ -3142,7 +3155,7 @@
                             aucune définition du terme ressortis-</p>
                         <p>- ’ sant allemand: mais il ne faut pas oublier, .que les traites
                             internationaux ne deviennent l obligatoires pour les citoyens, que par
-                            l’in- > ter.médiairê des lois internes' qui les promut- j guent dans
+                            l’in- &gt; ter.médiairê des lois internes' qui les promut- j guent dans
                             chaque Etat. Aussi, si la pro- i clamation du 9 Mars 1920 en promut- I
                             guant en Egypte une disposition du Trai- ; té de Versailles a cru y
                             ajouter une définition interprétative, celle-ci est obligé- : foire,
@@ -3221,7 +3234,7 @@
                             en cette hypothèse, la solution du procès no serait pas différente. Car
                             la doctrine, d’après laquelle la Dame Merkle et ses enfants auraient été
                             réintégrés dans la nationalité suisse, non pas à partir du décret qui
-                            prononça leur réintégration i(> Mai 1920), mais rétroactivement à la
+                            prononça leur réintégration i(&gt; Mai 1920), mais rétroactivement à la
                             date de la dissolution du mariage (10 Janvier 1918) — ce qui ferait qu’à
                             la date de la mise en vigueur du traité (22 Janvier 1920) ______ ils</p>
                         <p>aient déjà acquis la nationalité neutre, n’est pas acceptable;</p>
@@ -3235,7 +3248,7 @@
                             la volonté des requérants et de l’Etat auquel ils aspirent de
                             revenir;</p>
                         <p>Mais attendu que le texte de l’art. 10, pa-ragr. b. de la loi fédérale du
-                            25 Juin 19!>3 est incompatible avec la thèse de la réintégration ipso
+                            25 Juin 19!&gt;3 est incompatible avec la thèse de la réintégration ipso
                             jure, car il la subordonne aux conditions suivantes: domicile en Suisse
                             — demande dans les 10 ans, à partir de la dissolution du mariage — avis
                             du Canton d’origine — prononciation du Conseil Fédéral, qui semble jouir
@@ -3280,7 +3293,7 @@
                             conséquent, le caractère ennemi de ses biens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0180">
                     <head>125. - Municipalité d’Alexandrie.-' — Taxe sur les spectacles; arrêté du
                         28 Décembre 1920; obligation de l'exploitant de la salle de
                         spectacle.</head>
@@ -3375,7 +3388,7 @@
                             reconventionnelle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0190">
                     <head>126. - Propriété. — Abus de droit; voisinage; installation d'une palissade
                         de clôture d'une hauteur excessive, portant atteinte à la jouissance normale
                         d'un immeuble voisin; démolition partielle nécessaire même en l'absence
@@ -3472,7 +3485,7 @@
                             hauteur de 2 mètres du sol. -</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0200">
                     <head>127. - Responsabilité. — Caisse des fonds judiciaires; paiement effectué
                         sur la base d'une procuration fausse; titre de «Cheikh» attribué sans droit
                         au prétendu mandant; absence de faute du greffe.</head>
@@ -3551,7 +3564,7 @@
                         <p>A tous points de vue, donc, l’action est mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0210">
                     <head>128. - Responsabilité. — Chemins de {er;. modification des lieux d'arrêt
                         des trains; acte arbitraire; réparation duc aux voyageurs lésés.</head>
                     <div type="summary">
@@ -3568,7 +3581,8 @@
                     </div>
                     <div type="litigants">
                         <p>(Trib. Somm. Alex., Prés. Jonkhccr van Asch van ‘Wyck, 15 Avr-1 1921. —
-                            El tavecl Alohamcd El ^îa>van et Cts. c. Delta Light Railway Cy.).</p>
+                            El tavecl Alohamcd El ^îa&gt;van et Cts. c. Delta Light Railway
+                            Cy.).</p>
                     </div>
                     <div type="observations">
                         <p>Note. — Le jugement expose:</p>
@@ -3633,7 +3647,7 @@
                             des bil-let^ portent les noms des demandeurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0220">
                     <head>129. - Responsabilité civile. — Commettant; faute;. erreur d'un préposé
                         n'agissant pas dans l'exercice de ses fonctions.</head>
                     <div type="summary">
@@ -3648,7 +3662,7 @@
                             1 arrell èsq. c. Egyptian Bondcd Warehouses Cy.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0230">
                     <head>130. - Responsabilité civile. — Commettant; préposé agissant en dehors de
                         ses attributions normales mais pour compte et dans l'intérêt du commettait';
                         responsabilité du commettant pour négligence.</head>
@@ -3753,7 +3767,7 @@
                             victime, dont celle-ci était le soutien.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0240">
                     <head>131. - Responsabilité. — Médecin ayant signalé aux autorités la présence
                         dans sa clinique d'un patient recherché par la police; devoir social. —
                         Médecin; honoraires; évaluation; opéra'ion; soins consécutifs; rémunération
@@ -3839,7 +3853,7 @@
                             rémunération pour tous les soins médicaux dont s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0250">
                     <head>132. - Responsabilité. — Médecin; indépendance; ingérence impossible des
                         Tribunaux dans T appréciation des méthodes adoptées. — Remèdes dangereux;
                         précautions'à prendre par le médecin; imprudence; faute.</head>
@@ -4047,7 +4061,7 @@
                             à la fille du demandeur, a pu contribuer à sa mort.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0260">
                     <head>133. - Responsabilité. — Promesse de mariage; rupture; concubinage;
                         dommages-intérêts; condition necessaire.</head>
                     <div type="summary">
@@ -4111,7 +4125,7 @@
                             naturelle du scandale et du chantage...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-02-0270">
                     <head>134. - Responsabilité. — Séduction; remariage de la victime.</head>
                     <div type="summary">
                         <p>Une femme qui s’est mariée deux fois après avoir été séduite, ne peut

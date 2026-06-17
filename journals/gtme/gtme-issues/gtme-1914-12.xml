@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1914-12-10">December 10, 1914</date><lb/>
-                    <biblScope unit="volume">Vol. 5</biblScope><lb/>
-                    <biblScope unit="number">No. 50</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1914-12-10">December 10, 1914</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 5</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 50</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -37,7 +48,7 @@
                 <p>DIRECTION,</p>
                 <p>RÉDACTION, ADMINISTRATION :</p>
                 <p>Alexandrie,</p>
-                <p>T>, Rue Mahmoud Pacha el-Falaky.</p>
+                <p>T&gt;, Rue Mahmoud Pacha el-Falaky.</p>
                 <p>Tél. 12-44.</p>
                 <p>Bureaux au Caire,</p>
                 <p>15. Rue El Madabegh.</p>
@@ -83,11 +94,11 @@
                     loi « nouvelle était faite pour régir une situa-« lion normale, et qu’on ne
                     pourrait donc « songer à l’appliquer que lorsque la « situation serait normale
                     ».</p>
-                <p>&lt;*> Entrée en vigueur le 1" Janvier 1914. V. Gaz. III, p. U2. et IV, p.
+                <p>&lt;*&gt; Entrée en vigueur le 1" Janvier 1914. V. Gaz. III, p. U2. et IV, p.
                     27.</p>
                 <p>, (*’ ‘ Voir à ce sujet la note présentée par le Conseil de ■l’Ordre des Avocats
                     à l’Assemblée Législative, lors des travaux préparatoires de la loi du I"
-                    Décembre 1913 (Goz. NI, p. I(X>).</p>
+                    Décembre 1913 (Goz. NI, p. I(X&gt;).</p>
                 <p>Normale, la situation l’est certainement aujourd'hui moins que jamais: du moins,
                     le Barreau voit-il avec reconnaissance Monsieur le Président Sandars considérer
                     avec toute l’attention qu’elle mérite, cette question de l’expédition des
@@ -289,7 +300,7 @@
             <pb n="11" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0010">
                     <head>11. - Acte authentique exécutoire. — Délai de grâce.</head>
                     <div type="summary">
                         <p>Rien ne s’oppose à ce que les délais de grâce prévus par l’art. 231 C.
@@ -301,7 +312,7 @@
                             la Princesse Chewekar Hanem c. Crédit Foncier Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0020">
                     <head>12. - Action en résiliation de bail et en déguerpissement. — Action
                         réelle. — Clause dérogatoire de compétence. — Nullité.</head>
                     <div type="summary">
@@ -336,7 +347,7 @@
                             nazionalità.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0030">
                     <head>13. - Affectation hypothécaire. — Nullité. — Inscription tardive. —
                         Pouvoirs d’appréciation du juge.</head>
                     <div type="summary">
@@ -431,7 +442,7 @@
                             jurisprudence antérieure.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0040">
                     <head>14. - Appel. — Rejet des conclusions principales. — Adjudicataire. —
                         Remise de la grosse du jugement d’adjudication. — Revendication après
                         adjudication.</head>
@@ -473,7 +484,7 @@
                             jugement d’adjudication, d’une demande en revendication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0050">
                     <head>15. - Appel. — Recevabilité. — Jugement en partie préparatoire et en
                         partie définitif. — Partage.</head>
                     <div type="summary">
@@ -498,7 +509,7 @@
                             Aly Rida bey Yeghen c Çts. Antonini).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0060">
                     <head>16. - Bornage. — Action possessoire. — Terrains ruraux. — Propriétés
                         certaines.</head>
                     <div type="summary">
@@ -547,7 +558,7 @@
                             revendication ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0070">
                     <head>17. - Cassation. — Inculpation inexacte ou excessive. — Détournement de
                         cotons.</head>
                     <div type="summary">
@@ -569,7 +580,7 @@
                             1914. — Aîahmoud Bastawissi el Guindî c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0080">
                     <head>18. - Cassation. — Nullité substantielle. — Fausse qualification du
                         prévenu. — Gardien judiciaire.</head>
                     <div type="summary">
@@ -583,7 +594,7 @@
                             1914. — Youssef Elouan c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0090">
                     <head>19. - Compétence. — Ecole Abet. — Accord russo-égyptien du 29 Septembre
                         1875. — Caractère personnel des actions en paiement de loyers. — Ordonnance
                         de saisie conservatoire. — Paiement fait à l’huissier. — Non
@@ -623,7 +634,7 @@
                             1914, ci-dessus, § 12.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0100">
                     <head>20. - Compétence. — Tribunal de Commerce. — Billets à ordre représentant
                         le prix d’une vente immobilière contestée.</head>
                     <div type="summary">
@@ -653,7 +664,7 @@
                             ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0110">
                     <head>21. - Commission Douanière. — Appel des jugements statuant sur opposition
                         à leurs décisions. — Contrebande. — Bonne foi. — Confiscation.</head>
                     <div type="summary">
@@ -719,7 +730,7 @@
                         <p>Qu’elle a même déclaré, sans faire de distinction, que la Commission ne
                             prenait que des décisions administratives contre lesouelles « le droit
                             de recours reste ouvert » devant les deux degrés de juridiction
-                            organisés par les Codes (arrêt du 14 Janvier 1891 > ;</p>
+                            organisés par les Codes (arrêt du 14 Janvier 1891 &gt; ;</p>
                         <p>Attendu, d’ailleurs, que si la décision judiciaire, rendue en dernier
                             ressort sur l’opposition, déclare mal fondée la décision de la
                             Commission douanière, le propriétaire de la marchandise a droit « à une
@@ -739,7 +750,7 @@
                             à son profit l’ouverture du droit d’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0120">
                     <head>22. - Concurrence déloyale. — Contrefaçon. — Bonne foi. — Charge de la
                         preuve.</head>
                     <div type="summary">
@@ -751,7 +762,7 @@
                             Balekdjîan).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0130">
                     <head>23. - Domicile élu. — Inscription hypothécaire. — Distribution. —
                         Sommation de produire. — Forclusion.</head>
                     <div type="summary">
@@ -766,7 +777,7 @@
                             de feu Youssef Liait c. MoursLFialeh et autres),</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0140">
                     <head>24. - Droits Proportionnels {Restitution des). Jugement de défaut rétracté
                         sur opposition. — Refus du greffe de rembourser les droits. ' - Obligations
                         du greffier en chef.</head>
@@ -862,7 +873,7 @@
                             rétractation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0150">
                     <head>25. - Faillite. — Privilège du bailleur. — Saisie-conservatoire. —
                         Vérification et admission. — Loyers postérieurs à la déclaration en
                         faillite. — Ordonnances sur requête. — Voie de recours. — Saisie sans
@@ -1009,7 +1020,7 @@
                             attaquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0160">
                     <head>26. - Gage. — Clause compromissoire. — Ratification tacite.</head>
                     <div type="summary">
                         <p>S’il est vrai que le dernier alinéa de l’art. 84 Code Com. frappe de
@@ -1026,7 +1037,7 @@
                             Politîs c. Brasseries d’Egypte).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0170">
                     <head>27. - Garantie. — Objet et durée. — Révocation.</head>
                     <div type="summary">
                         <p>L’indication de la somme garantie et de la durée de la garantie ne sont
@@ -1041,7 +1052,7 @@
                             Salem Baabed c. Algasoff &amp; C").</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0180">
                     <head>28. - Intérêts. — Prescription.</head>
                     <div type="summary">
                         <p>L’art. 275 C. Civ., relatif à la prescription des intérêts et arrérages,
@@ -1058,7 +1069,7 @@
                             Egyptian Estâtes Ltd. en liq. c. Isaac Ezri).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0190">
                     <head>29. - Médecin. — Preuve des soins. — Production des registres ou calepins.
                         — Médecin ami de la maison. — Réclamation , après la mort du patient.</head>
                     <div type="summary">
@@ -1083,7 +1094,7 @@
                             Musso c. Baron Rey esq. liquid. -de la Suce. V” Roman).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0200">
                     <head>30. - Nationalité, — Originaires de l’île de Chio. — Traité de Londres du
                         30 ■Mai 1913. — Arbitrage des Puissances. — Non-notification à l'Egypte.—
                         Refus par la Porte de le reconnaîtie.</head>
@@ -1145,7 +1156,7 @@
                             ceux qui sont domiciliés « hors de l’Empire Ottoman».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0210">
                     <head>31. - Opposition à commandement. — Biens dotaux. - Statut réel.
                         Transcription du contrat de mariage.</head>
                     <div type="summary">
@@ -1197,7 +1208,7 @@
                             traitèrent avec l’opposante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0220">
                     <head>32. - Opposition à taxe. — Déclaration au Greffe. — Assignation devant le
                         Tribunal. — Recevabilité.</head>
                     <div type="summary">
@@ -1213,7 +1224,7 @@
                             Abdel Kader Zeîtoun c. G. de Sylva).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0230">
                     <head>33. - Péremption. — Instance en opposition. — Jugement de défaut. —
                         Demande irrecevable.</head>
                     <div type="summary">
@@ -1265,7 +1276,7 @@
                     </div>
                 </div>
                 <pb n="16" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0240">
                     <head>34. -Propriété industrielle. — Nom patronymique. — Dénomination. — Effigie
                         d’une personne décédée. — Marque de fabrique. — Domaine public. — Droit des
                         héritiers du défunt.</head>
@@ -1359,7 +1370,7 @@
                             dû à la mémoire de leur auteur, ce qui n’est pas le cas.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0250">
                     <head>35. - Radiation. — Désistement d’instance. — Demande reconventionnelle
                         formulée.</head>
                     <div type="summary">
@@ -1374,7 +1385,7 @@
                             Abdel Fattah Aly c. Yorks New En-geneèring).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0260">
                     <head>36. - Radiation. — Instance d’Appel.</head>
                     <div type="summary">
                         <p>La radiation d’une affaire du rôle ne peut intervenir que d’office ou
@@ -1389,7 +1400,7 @@
                             — Koch et Bein c. J. Hornstein).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0270">
                     <head>37. - Référé. — Compétence. — Difficultés d’exécution. — Saisie
                         irrégulière.</head>
                     <div type="summary">
@@ -1416,7 +1427,7 @@
                             Egyptian Bank c. Badraoui dey et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0280">
                     <head>38. -, Responsabilité directe et indirecte. — Administrations publiques. —
                         Entrepreneur. — Faute. —Accident. — Do--maine public. — Juridiction mixte. —
                         Compétence. — Intérêt mixte.</head>
@@ -1507,7 +1518,7 @@
                             24 Juin 1913).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0290">
                     <head>39. - Société. — Objet. —- Pouvoirs du gérant. — Publications. — Tiers. —
                         Droits des créanciers. — Ayant-droits.</head>
                     <div type="summary">
@@ -1554,7 +1565,7 @@
                             (Gaz. IV, 111-279).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0300">
                     <head>40. - Voie publique. — Usage ou occupation. — Arrêté du 31 Mai 1885. —
                         Pose dé tuyaux sous la voie publique.</head>
                     <div type="summary">
@@ -1575,7 +1586,7 @@
                             Alexandre Caramboukidis c. .Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-12-0310">
                     <head>41. - Wakf. — Annulation partielle.— Action paulienne.</head>
                     <div type="summary">
                         <p>S’il est permis aux créanciers de faire annuler une constitution de Wakf

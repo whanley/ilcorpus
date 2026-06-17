@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0029-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0029-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1939-02-10">February 10, 1939</date><lb/>
-                    <biblScope unit="volume">Vol. 29</biblScope><lb/>
-                    <biblScope unit="number">No. 340</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1939-02-10">February 10, 1939</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 29</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 340</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -50,12 +61,12 @@
                 <p>D’ÉGYPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte. Fondateurs
-                    > M“ MAXIME PUPIKOFEB et LÉON PANGALO, Avocats à la Cour. Directeur: M» MAXIME
-                    PUPIKOFER, Avocat à la Cour.</p>
+                    &gt; M“ MAXIME PUPIKOFEB et LÉON PANGALO, Avocats à la Cour. Directeur: M»
+                    MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>eomité de Rédaction et d’Hdministration :</p>
                 <p>M- L. PANGALO et R. 8CIIEMEIL (Directeurs au Caire) M" E. DEGIARRÉ et LUCIEN BARD
                     L. (Secrétaires de la rédactionj.</p>
-                <p>M» A. PADEL (Directeur à Mansourah). M* F. BRAUN ></p>
+                <p>M» A. PADEL (Directeur à Mansourah). M* F. BRAUN &gt;</p>
                 <p>Me G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT (</p>
                 <p>(Correspondants à Paris).</p>
                 <p>ABONNEMENTS :</p>
@@ -439,7 +450,7 @@
             <pb n="96" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0010">
                     <head>127. - Chose jugée. — Acquiescement; contestation de Vautorité de la chose
                         jugée; condition.</head>
                     <div type="summary">
@@ -456,7 +467,7 @@
                         <p>Note. — V. Gaz. XVII, 83-116, l’arrêt du 19 Janvier 1926 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0020">
                     <head>128. - Chose jugée. — Décisions émanant de la Juridiction Indigène; cas où
                         le défaut de juridiction ne fait pas obstacle à ce quelles acquièrent
                         l'autorité de la chose jugée à l'égard d'un étranger. — Agents diplomatiques
@@ -575,7 +586,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0030">
                     <head>129. - Chose jugée. — Décisions émanant d'une juridiction égyptienne,
                         indigène, patriarcale ou ntixte; nationalité des parties; contestation non
                         soulevée; chose jugée devant la Juridiction Mixte.</head>
@@ -667,7 +678,7 @@
                             nouveau Régi. d’Org. Jud.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0040">
                     <head>130. - Chose jugée. — Demande d'indemnité pour faute quasi-délictuelle;
                         demande nouvelle pour chefs de préjudice omis dans la première demande;
                         inadmissibilité après jugement sur celle-ci.</head>
@@ -733,7 +744,7 @@
                             fondée au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0050">
                     <head>131. - Chose jugée. — Identité d'objet; définition. — Identité de cause;
                         définition. — Revendication d'une quote-part héréditaire; vocation
                         successorale basée sur la nationalité du de cujus; rejet; nouvelle
@@ -1091,13 +1102,13 @@
                             pothèse que feu Youssef Behor aurait été A ■sujet étranger, mais non
                             capitulairéN et o avaient soutenu que, même dans ce cas, • la loi à
                             appliquer à la succession serait i toujours la loi charéi, c’est-à-dire
-                            celle du > domicile et de la situation des biens (voir leur note après
-                            plaidoiries du 26 Décembre -■ 1933, page 10, in fine), ils n’avaient pas
-                            / moins exclu expressément l’hypothèse que ■ « le de ■cujus- aurait
-                            (été-sujet hongrois ou • ; ' tchécoslovaque; que. cela cependant impli-:
-                            •: que nécessairement que le juge a. été saisi ’ de la question de
-                            savoir quelle serait la loi « h à appliquer au cas où le défunt ne
-                            serait 1</p>
+                            celle du &gt; domicile et de la situation des biens (voir leur note
+                            après plaidoiries du 26 Décembre -■ 1933, page 10, in fine), ils
+                            n’avaient pas / moins exclu expressément l’hypothèse que ■ « le de
+                            ■cujus- aurait (été-sujet hongrois ou • ; ' tchécoslovaque; que. cela
+                            cependant impli-: •: que nécessairement que le juge a. été saisi ’ de la
+                            question de savoir quelle serait la loi « h à appliquer au cas où le
+                            défunt ne serait 1</p>
                         <p>■ pas retenu sujet local et que,-dans ces. com.i .4</p>
                         <pb n="100" rendition="Gazette' des Tribunaux Mixtes."/>
                         <p>ditions, la Cour ne pouvait pas se dispenser de l’examen d’une telle
@@ -1185,7 +1196,7 @@
                             O’Brien, Nahon et Granberg.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0060">
                     <head>132. - Chose jugée. — Motifs; conditions an i quelles ils acquièrent
                         l'autorité de la chose jugée.</head>
                     <div type="summary">
@@ -1366,7 +1377,7 @@
                         <p>Note. — V. ég. ci-après § 133, l’arrêt du 25 Mai 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0070">
                     <head>133. - Chose jugée. — Motifs; conditions auxquelles ils acquièrent
                         l’autorité de la chose jugée.</head>
                     <div type="summary">
@@ -1388,7 +1399,7 @@
                         <p>V, ég. ci-avant § 132, l’arrêt du il Juin 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0080">
                     <head>134. - Chose jugée. — Nullité d'ordre public; décision passée en force de
                         chose jugée; nullité couverte; jugement tranchant une question de minorité;
                         opposition à commandement basée sur la minorité du débiteur;
@@ -1453,7 +1464,7 @@
                             propos de l’exécution de ce jugement même.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0090">
                     <head>135. - Chose jugée. — Portée; effet relatif; droit des tiers de remettre
                         en discussion une question tranchée en dehors d'eux, sans besoin de
                         tierce-opposition.</head>
@@ -1527,7 +1538,7 @@
                             fond...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0100">
                     <head>136. - Chose jugée. — Portée; inopposabilité aux créanciers hypothécaires
                         des jugements rendus contre le débiteur, depuis l'inscription de
                         l'hypothèque.</head>
@@ -1621,7 +1632,7 @@
                             d'acquisition-en cours d'instance ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0110">
                     <head>137. - Chose jugée. — Portée; points-auxquels elle s'attache; qualité
                         attribuée à une partie; condition de chose jugée, — Preuve; circonstances de
                         fait anorma-les; appréciation de la justice.—Person-. ne morale; formation
@@ -1935,7 +1946,7 @@
                         <p>Note. — I. - V. ég. ci-après § 138, l’arrêt du 3 Novembre 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0120">
                     <head>138. - Chose jugée. — Portée; points auxquels elle s'attache; réclamation
                         de dommages-intérêts pour défense vexa-toire à l'occasion d'un précédent
                         liti-ge entre mêmes parties; exception de chose jugée; inadmissibilité. —
@@ -2116,7 +2127,7 @@
                     </div>
                 </div>
                 <pb n="106" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-02-0130">
                     <head>139. - Chose jugée. — Réserves; rejet dans les motifs d'un arrêt; défaut
                         d'effet juridique; demande principale ultérieure; recevabilité.</head>
                     <div type="summary">
@@ -2257,7 +2268,7 @@
                     doit être considérée comme étant affectée aux opérations en Egypte.</p>
                 <p>Art. 4. — Pour les dividendes, intérêts, arrérages (3 4), amortissements, etc.,
                     payés par des sociétés ou entreprises étrangères, ainsi que pour tous intérêts
-                    et rentes de toute nature d’obligations étrangères, de titres. > ou de fonds
+                    et rentes de toute nature d’obligations étrangères, de titres. &gt; ou de fonds
                     publics (4) étrangers, l’impôt est également dû si les bénéficiaires sont des
                     Egyptiens ou des étrangers domiciliés ou résidant habituellement en Egypte,
                     qu’il s’agisse de personnes physiques ou de personnes morales.</p>
@@ -3817,7 +3828,7 @@
                 <p>GAZETTE DES TRIBUNAUX MIXTES D’EGYPTE</p>
                 <p>Juin 1937 - Transports maritimes et fluviaux. -Vente commerciale.</p>
                 <p>Juillet » - Nationalité.</p>
-                <p>Août > - Juridiction Mixte.</p>
+                <p>Août &gt; - Juridiction Mixte.</p>
                 <p>Septembre » - Arbitrage. - Exéquatur.</p>
                 <p>Octobre » - Questions de statut personnel.</p>
                 <p>Novembre » - Donation. - Vente avec réserve de propriété. - Vente mobilière.</p>
@@ -3828,7 +3839,7 @@
                     -Partage.</p>
                 <p>Avril » - Prescription.</p>
                 <p>Mai » ■ Assurances. - Paiement.</p>
-                <p>Juin • > - Contrats civils (Bail. - Cession. -Courtage. - Gage. - Mandat. -
+                <p>Juin • &gt; - Contrats civils (Bail. - Cession. -Courtage. - Gage. - Mandat. -
                     Prêt).</p>
                 <p>Juillet » - Obligations.</p>
                 <p>Août » - Questions pénales (Infractions diverses).</p>

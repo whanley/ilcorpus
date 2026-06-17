@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1911-10-10">October 10, 1911</date><lb/>
-                    <biblScope unit="volume">Vol. 1</biblScope><lb/>
-                    <biblScope unit="number">No. 12</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1911-10-10">October 10, 1911</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 1</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 12</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -220,7 +231,7 @@
                     tiers acquéreurs à titre gratuit n’ ont rien donné comme corrélatif de leur
                     acquisition et certant de lucro captando, tandis que celui qui réclame la
                     résolution d’un contrat pour les causes non sus énoncées certat de damno
-                    vitando. &lt;>- ■■■</p>
+                    vitando. &lt;&gt;- ■■■</p>
                 <p>En outre celui qui a acquis frauduleusement un droit sur un immeuble de concert
                     avec le propriétaire constituant ne saurait se plaindre si le juge annule son
                     prétendu droit au bénéfice de tiers dont les véritables droits sont lésés par
@@ -531,7 +542,7 @@
                     connais-sance d’un acte de disposition antérieur, mais par l’accord dolosif avec
                     l’auteur commun dans le but de frustrer les droits</p>
                 <p>(*) Bulletin XVIII, 136.</p>
-                <p>(*> Recueil officiel VI. 149</p>
+                <p>(*&gt; Recueil officiel VI. 149</p>
                 <pb n="167" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                 <p>d’un précédent acquéreur, ou d’un créancier hypothécaire. (')</p>
                 <p>b) S’il s’agit d’un indigène, il faut distinguer si l’acte de cet indigène est
@@ -630,7 +641,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-10-0010">
                     <head>Saisie-Brandon. — Part indivise. — Débiteur saisi.</head>
                     <div type="summary">
                         <p>Pour apprécier si une saisie pratiquée à l’encontre d’une chose indivise
@@ -651,7 +662,7 @@
                             c. Dimitri Pittacos &amp; Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-10-0020">
                     <head>Nationalité. — Juridiction Mixte.</head>
                     <div type="summary">
                         <p>Lorsque un défendeur, après avoir décliné la compétence des Tribunaux

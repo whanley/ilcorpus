@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0026-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0026-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1936-02-10">February 10, 1936</date><lb/>
-                    <biblScope unit="volume">Vol. 26</biblScope><lb/>
-                    <biblScope unit="number">No. 304</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1936-02-10">February 10, 1936</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 26</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 304</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -456,7 +467,7 @@
                     conditions de livraison et de pesée, etc... •</p>
                 <p>Quant au prix, il n’est, la plupart du temps, pas. fixé. Le vendeur a la faculté
                     dé le fixer entre la date de.la consignation de la marchandise et une .date
-                    déterminée au contrat. ■ > [</p>
+                    déterminée au contrat. ■ &gt; [</p>
                 <p>Enfin le vendeur se fait remettre un? sommé à valoir sur le prix. Le contrat
                     prévoit le versement d’autres sommes à partir de la consignation de la
                     marchandise.</p>
@@ -619,7 +630,7 @@
                 <p>pule que « la poursuite contre le tireur seul libère les endosseurs, la poursuite
                     contre un endosseur libère les endosseurs subséquents non poursuivis ».</p>
                 <p>Le Tribunal Sommaire avait fait droit à cette irrecevabilité.</p>
-                <p>Le Tr>bunal d’appel infirma le jugement. Il déclara que pour rendre l’art. 171
+                <p>Le Tr&gt;bunal d’appel infirma le jugement. Il déclara que pour rendre l’art. 171
                     applicable à l’espèce, il avait fallu au premier juge assimiler le souscripteur
                     d’un billet à ordre au tireur d’une lettre de change. Or, dit le Tribunal, une
                     telle analogie n’est pas admissible car le souscripteur d’un billet à ordre est
@@ -951,9 +962,9 @@
                 <p>« La réponse, dit le Tribunal, ne peut être qu’affirmative en présence des termes
                     généraux du Code de Commerce et du fait que la loi ne prévoit aucune sanction
                     contre les endosseurs après échéance.</p>
-                <p>>&lt; Cette question réglée, il restait à rechercher si un endosseur peut comme
-                    le souscripteur, opposer des exceptions au tiers porteur. qui n’est pas de bonne
-                    foi.</p>
+                <p>&gt;&lt; Cette question réglée, il restait à rechercher si un endosseur peut
+                    comme le souscripteur, opposer des exceptions au tiers porteur. qui n’est pas de
+                    bonne foi.</p>
                 <p>« Sur ce point, le Tribunal a également répondu par l’affirmative en faisant
                     valoir que l’endosseur ne peut être mis dans une situation moins favorable que
                     le souscripteur, et que le porteur après échéance n’est que le mandataire de son
@@ -970,7 +981,7 @@
                     le montant du billet à Salem, que ce dernier . devait, par contre, pareil
                     montant à Sidhom, et que celui-ci était lui-même débiteur de Cozzika, l’action
                     de ce dernier aurait été fondée.</p>
-                <p>&lt;> Les débats se réduisaient donc à une question de fait.</p>
+                <p>&lt;&gt; Les débats se réduisaient donc à une question de fait.</p>
                 <p>« Or, les pièces produites par Anso, — pour édifiantes qu’elles fussent, en ce
                     qui concernait son intention de donner procuration pour le recouvrement —
                     révélaient l’existence d’une dette envers Salem, dette qui justifiait
@@ -1094,7 +1105,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0010">
                     <head>91. - Effets de commerce. — Billets à ordre; aval; droit du premier
                         bénéficiaire, contr.e lequel est exercé le recours du tiers porteur, de se
                         faire relever par l'avaliseur du billet.</head>
@@ -1108,7 +1119,7 @@
                             Assaad c. Félix Argi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0020">
                     <head>92. - Effets de commerce. — Billets à ordre; aval; nullité de l'aval donné
                         par un mineur non commerçant.</head>
                     <div type="summary">
@@ -1141,7 +1152,7 @@
                             contre la Dame Sania....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0030">
                     <head>93. - Effets de commerce. — Billets à ordre; caractère autonome; cumul des
                         montants; admissibilité pour la détermination du taux de la compétence dans
                         les rapports entre le souscripteur et le bénéficiaire originaire ou l'endos-
@@ -1273,7 +1284,7 @@
                             l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0040">
                     <head>94. - Effets de commerce. — Billets à ordre; caractère autonome; montants;
                         inadmissibilité pour la détermination du taux de la compétence.</head>
                     <div type="summary">
@@ -1292,10 +1303,10 @@
                         <p>Note. — Un jugement du même Trib., dans le même sens, du 29 Novembre
                             1932, a été infirmé par arrêt du 7 Mars 1934 (ci-avant § 93), s’agissant
                             des rapports entre le souscripteur et le bénéficiaire originaire. — V.
-                            >ég. ci-après § 106 Trib. Comm. Caire, 11 Juin 1935.</p>
+                            &gt;ég. ci-après § 106 Trib. Comm. Caire, 11 Juin 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0050">
                     <head>95. - Effets de commerce. — Billets à ordre; compétence à raison du taux;
                         cumul de billets causés valeur suivant contrat; compétence du Tribunal de
                         Commerce.</head>
@@ -1360,7 +1371,7 @@
                             civil...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0060">
                     <head>96. - Effets de commerce. — Billets à ordre; convention tséparée stipulant
                         l'exigibilité avant terme de billets en cas de défaut de paiement d'un seul
                         billet; échéance; validité; compétence du Tribunal de Commerce pour statuer
@@ -1619,7 +1630,7 @@
                             ibid. 352-413, le jug. civ. Mans, du 20 Juin 1934 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0070">
                     <head>97. - Effets de commerce. — Billets à ordre; endossement; rétrocession ne
                         résultant pas d'un nouvel endossement; inefficacité.</head>
                     <div type="summary">
@@ -1670,7 +1681,7 @@
                             ci-après § 98 l’arrêt du 6 Juin 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0080">
                     <head>98. - Effets de commerce. — Billets à ordre; endossement; rétrocession
                         sans nouvel endossement; régularité.</head>
                     <div type="summary">
@@ -1708,7 +1719,7 @@
                             22 Janvier 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0090">
                     <head>99. - Effets de commerce. — Billets à ordre payables à vue; intérêts;
                         point de départ en cas de stipulation; réclamation de paiement par dépêche,
                         équivalant à présentation.</head>
@@ -1723,7 +1734,7 @@
                             Hefni Ghoneimi El Cheikh c. Hosni Yassa et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0100">
                     <head>100. - Effets de commerce. — Billets à ordre; prescription quinquennale;
                         condamnation à l'égard du souscripteur principal; effet interruptif à
                         l'égard de l’avaliseur. — Billets à ordre; intérêts à défaut de stipulation
@@ -1793,7 +1804,7 @@
                             réclamation en justice à son encontre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0110">
                     <head>101. - Effets de commerce. — Billets à ordre; prescription quinquennale;
                         condition à laquelle elle peut être opposée; qualité de commerçant du
                         souscripteur; preuve; charge.</head>
@@ -1809,7 +1820,7 @@
                             Aboul Saad c. Jacques Benzakein et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0120">
                     <head>102. - Effets de commerce. — Billets à ordre souscrits en contre-valeur
                         d'avances sur prix de marchandises; caractère abusif de cette pratique;
                         endossement générateur de dommages-intérêts.</head>
@@ -1875,7 +1886,7 @@
                             Syméon; qu’il échet en conséquence d’y faire droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0130">
                     <head>103. - Effets de commerce, — Billets à ordre; tiers porteur de bonne foi;
                         exception de nullité de rengagement pour incapacité du souscripteur;
                         opposabilité.</head>
@@ -1893,7 +1904,7 @@
                         <p>Note. — Rapp. Gaz., XXIV, 16-38 l’arrêt du 11 Mai 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0140">
                     <head>104. - Effets de commerce. — Billets à ordre; usure; inopposabilité de
                         l'exception au tiers porteur de bonne foi, indépendamment de la nature
                         civile ou commerciale du billet.</head>
@@ -1935,7 +1946,7 @@
                         <p>Note. — V. Gaz. XXII, 172-18-5, l’arrêt du 19-Février 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0150">
                     <head>105. - Effets de commerce. — Caractère commercial; compétence; règlements
                         échelonnés, sans influence sur la nature de Vobligation et sur la
                         compétence.</head>
@@ -1953,7 +1964,7 @@
                             Dib c. Dr. Ahmed Abdel Salam et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0160">
                     <head>106. - Effets de commerce. — Compétence; nature de l'endossement (t un
                         étranger, sans influence sur la compétence de la Juridiction Mixte; cas de
                         préte-nom. — Prèle-nom; cession fictive pour modifier les règles de la.
@@ -2033,7 +2044,7 @@
                             Caire du 15 Novembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0170">
                     <head>107. - Effets de commerce. — Compétence; nature de l'endossement à un
                         étranger sans influence sur la compétence de la Juridiction Mixte, meme en
                         cas de prèle-nom.</head>
@@ -2065,7 +2076,7 @@
                             163-169, 164-170 et 164-171.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0180">
                     <head>108. - Effets de commerce. — Compétence rationc loci; clause prorogative
                         entre sujets indigènes; interprétation; compétence des Tribunaux Mixtes en
                         cas d'endossement à un étranger.</head>
@@ -2111,7 +2122,7 @@
                             entrepris...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0190">
                     <head>109. - Effets de commerce. — Endossement à titre de procuration; droit
                         qu'il confère en justice. — Cause exprimée; force probantej. — Solidarité
                         entre souscripteurs; exclusion de la solidarité pour les billetts à ordre
@@ -2131,7 +2142,7 @@
                             Bahga Sarkis et autre c. Brandt &amp; Co. et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0200">
                     <head>110. - Effets de commerce. — Endossement; défaut de clause à ordre;
                         irrégularité de l'endossement; conséquence quant à l'opposabilité des
                         exceptions..— Juridictions Mixtes; wakf; solution dépendant d'une question
@@ -2211,7 +2222,7 @@
                             d’Organisation Judiciaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0210">
                     <head>111. - Effets de commerce. — Endossement irrégulier après échéance;
                         recours du porteur contre l'endosseur; admissibilité. —: Endossement; droit
                         de l'endosseur d'opposer des exceptions au tiers porteur qui n'est pas de
@@ -2320,7 +2331,7 @@
                             le mandataire de son endosseur...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0220">
                     <head>112. - Effets de commerce. — Endossement irrégulier; endossement avant
                         échéance pouvant conférer à l'endossataire la qualité de tiers porteur de
                         bonne foi. — Billets à ordre; paiement par le. souscripteur au premier
@@ -2343,7 +2354,7 @@
                             1934, cité par le jug. rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0230">
                     <head>113. - Effets de commerce. — Endossement; modes de transmission des
                         lettres de change cl billets à ordre; transfert par voie de cession
                         ordinaire.</head>
@@ -2362,7 +2373,7 @@
                         <p>Note. — V. ci-avant §.98 l’arrêt du 6 Juin 1934, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0240">
                     <head>114. - Effets de commerce. — Endossement; recours du porteur contre
                         l'endosseur; stipulation de garantie solidaire de l'endosseur empêchant la
                         déchéance de son recours. — Protêt; dispense; intention des parties; clause
@@ -2496,7 +2507,7 @@
                             fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0250">
                     <head>115. - Eîîels de commerce. — Endossement; tiers porteur de bonne foi;
                         présomption; perle de cette qualité; preuve du défaut de bonne foi; charge.
                         ■— Endossement régulier; valeur de l'endossement déguisant une cession en
@@ -2707,7 +2718,7 @@
                             1927, lors du premier endossement à l’appelant...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0260">
                     <head>116. - Effets de commerce. — Premier bénéficiaire; mise en cause non
                         prescrite par la loi en l'action en paiement intentée par le porteur; défaut
                         d'intimation du premier bénéficiaire, sans influence sur la recevabilité de
@@ -2728,7 +2739,7 @@
                             Rachouan Hussein Mohamed c. Louis Ghattas Yassa.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0270">
                     <head>117. - Effets de commerce. — Prescription quinquennale; condition
                         d'application aux effets réputés simples promesses.</head>
                     <div type="summary">
@@ -2777,7 +2788,7 @@
                             fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0280">
                     <head>118. - Effets de commerce. — Prescription quinquennale; exception non
                         subordonnée à l'allégation de paiement; serment ne pouvant être déféré
                         d'office.</head>
@@ -2883,7 +2894,7 @@
                             souscription du billet.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0290">
                     <head>119. - Effets de commerce. — Prescription quinquennale; inadmissibilité de
                         l'exception au cas où elle est en contradiction avec un autre moyen.</head>
                     <div type="summary">
@@ -2928,7 +2939,7 @@
                             était, ou non, susceptible d’application en l’espèce...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0300">
                     <head>120. - Effets de commerce. — Promesses de paiement sous forme de chèque
                         portant indication d'échéance; nature; condition de transmissibilité par
                         voie d'endossement. •— Endossement irrégulier; actes compatibles avec la
@@ -3026,7 +3037,7 @@
                             l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0310">
                     <head>121. - Effets de commerce. — Tribunal de Commerce; compétence à l'égard de
                         la caution civile; conditions et limite^.</head>
                     <div type="summary">
@@ -3092,7 +3103,7 @@
                             et XXIV, 57-55.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0320">
                     <head>122. - Effets de commerce. — Tribunal de. Commerce; compétence; étendue;
                         limites.</head>
                     <div type="summary">
@@ -3108,7 +3119,7 @@
                         <p>Note. — V. Gaz. XXII, 148-136 et XXIV, 45-34 et 45-35.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0330">
                     <head>123. - Chèque. — Nature; présentation; retard; défaut de paiement;
                         conséquences. — Cession; endossement: tardif de chèque; applicabilité de
                         l'art. 436 C. Civ,; nullité de la cession en cas d'obligation civile entre
@@ -3178,7 +3189,7 @@
                             défendeur sur la compétence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0340">
                     <head>124. - Opérations de Bourse. — Agent; marge; réclamation; limite;
                         Règlement Général de la Bourse; art. 49; portée; substitution de
                         l'obligation de fournir ,une marge par tin ordre de slop-loss;
@@ -3318,7 +3329,7 @@
                             de cette position...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-02-0350">
                     <head>125. - Opérations de Bourse. — Exception de jeu; non opposabilité au
                         banquier intermédiaire des ordres. — Liquidation; accord avec un. banquier
                         quant au maintien de la position jusqu'à une. certaine date; droit élu

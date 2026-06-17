@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -8,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -16,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0010-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0010-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1920-02-10">February 10, 1920</date><lb/>
-                    <biblScope unit="volume">Vol. 10</biblScope><lb/>
-                    <biblScope unit="number">No. 112</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1920-02-10">February 10, 1920</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 10</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 112</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -269,9 +279,9 @@
                     a nettement indiqué qu’il entendait que chaque Etat allié fît la liquidation
                     distincte et séparée, au profit exclusif de ses propres ressortissants, de
                     l’actif allemand saisi et séquestré sur son territoire. La généralité de l’actif
-                    allemand constitue > ainsi autant de masses qu’il y a d’Etats alliés, et chacune
-                    de ces masses est exclusivement affectée aux seuls ressortissants de chaque
-                    Etat. Comment, d’ailleurs, pourrait-il en être autrement? C’est l’intérêt
+                    allemand constitue &gt; ainsi autant de masses qu’il y a d’Etats alliés, et
+                    chacune de ces masses est exclusivement affectée aux seuls ressortissants de
+                    chaque Etat. Comment, d’ailleurs, pourrait-il en être autrement? C’est l’intérêt
                     national qui peut seul justifier la main-mise de l’Etat sur l’actif ennemi et il
                     serait impossible de concevoir que l’Etat en fasse bénéficier un étranger. Ici
                     encore, il faut dire que, le voulût-il, l’Etat ne le pourrait pas, car il ne
@@ -300,7 +310,7 @@
             <pb n="47" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0010">
                     <head>65. - Avocat. — Honoraires. — Inadmissibilité d’une demande de taxe par le
                         client au profit de l’avocat. — Convention excluant la voie de la taxe.
                         '</head>
@@ -345,7 +355,7 @@
                             attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0020">
                     <head>66. - Chose jugée. — Identité de cause. — Cause juridique des obligations.
                         — Consentement. — Usure.</head>
                     <div type="summary">
@@ -485,7 +495,7 @@
                     </div>
                 </div>
                 <pb n="48" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYTPE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0030">
                     <head>67. - Distribution. — Demande en annulation de la procédure à la suite
                         d’un paiement fait par l’adjudicataire. — Irrecevabilité.</head>
                     <div type="summary">
@@ -504,7 +514,7 @@
                             et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0040">
                     <head>68. - Distribution. — Répartition du solde du prix entre le débiteur saisi
                         et le tiers-détenteur.</head>
                     <div type="summary">
@@ -573,7 +583,7 @@
                             trouverait sans cause.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0050">
                     <head>69. Exploit. — Nullité. — Erreur de date.— Erreur de plume.</head>
                     <div type="summary">
                         <p>La copie d’un exploit tient lieu d’original pour la partie qui la reçoit
@@ -589,7 +599,7 @@
                             El Tahaoui c. Jean Triandafillou et Abdallah Bey Chédîd).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0060">
                     <head>70. - Grève. — Cas où elle constitue force majeure et cas où elle ne
                         constitue point une cause d’exonération.</head>
                     <div type="summary">
@@ -626,7 +636,7 @@
                             unconditionally</p>
                         <p>&lt; undertakes a duty, lie is bound to perforai it « or take the
                             conséquences, notwithstanding any-« accident of inévitable necessity;
-                            ></p>
+                            &gt;</p>
                         <p>(Nichols v. Marsland, 2 Ex. D. I. C. A. 1876 v. aussi River Wear
                             Commissioners v. Adamson (1877) 2. App. Cass. 743); - . .</p>
                         <p>Attendu que d’après cet exposé très clair du droit anglais, la force
@@ -661,7 +671,7 @@
                             stato « impedito in modo assolulo di adempire la sua « obligazione, non
                             quando l’adempimento sia « divenuto più difficile e notevolmente
                             gravoso» ;</p>
-                        <p>Attendu que le 1er Juin >917 (Joc. cit. No 116) la Cour d’Appel de
+                        <p>Attendu que le 1er Juin &gt;917 (Joc. cit. No 116) la Cour d’Appel de
                             Palerme a décidé que : « il</p>
                         <p>&lt; rialzo dei prezzi e dei salari non costituisce « impossibilité che
                             esoneri dall’obbligazione »;</p>
@@ -842,7 +852,7 @@
                             dommages intérêts, doit être rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0070">
                     <head>71. - Juridiction mixte. — Compétence. — Chypriotes. — Annexion. —
                         Conséquences. — Naturalisation. — Sujets britanniques. — Sujets Ottomans. —
                         Conseil Sanitaire, Maritime et Quarantenaire d’Egypte. — Intérêt mixte. —
@@ -1059,7 +1069,7 @@
                             compris les honoraires de la défense, taxés à P.T. 800.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0080">
                     <head>72. - Juridiction mixte. — Compétence. — Référés. — Action en
                         déguerpissement introduite par un nouveau locataire contre un précédent
                         locataire. — Inopposabilité au locataire indigène de la cession du droit
@@ -1121,7 +1131,7 @@
                             locataires Hamad Fils, tous deux sujets locaux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0090">
                     <head>73. - Préemption. — Vente aux enchères publiques du domaine privé de
                         l’état.</head>
                     <div type="summary">
@@ -1195,7 +1205,7 @@
                             question).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0100">
                     <head>74. - Saisie-arrêt déguisée. — Irrecevabilité. — Revendication d’une
                         marchandise et du produit de sa vente, formée par le créancier
                         chirographaire contre le véritable propriétaire.</head>
@@ -1315,7 +1325,7 @@
                             de déclarer la dite action irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0110">
                     <head>75. - Saisie-arrêt. — Recours contre l'ordonnance du juge de service. —
                         Recevabilité.</head>
                     <div type="summary">
@@ -1376,7 +1386,7 @@
                             fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0120">
                     <head>76. - Succession musulmane. — Perte du droit de préférence des créanciers
                         des droits successoraux. — Confusion de patrimoines.</head>
                     <div type="summary">
@@ -1431,7 +1441,7 @@
                             quoique du chef de la succession de leur père et mari respectif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0130">
                     <head>77. - Transcription. — Bonne foi. — Tiers.</head>
                     <div type="summary">
                         <p>I. - En matière immobilière, les droits résultant d’actes translatifs de
@@ -1537,7 +1547,7 @@
                             succesion n’aurait pas de bonne foi consenti l’hypothèque.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-02-0140">
                     <head>78. - Transcription. — Jugements rendus sur titres transcrits. —
                         Aliénations successives. — Priorité de la première transcription,
                         bénéficiant au sous-acquéreur qui n'a point transcrit son propre
@@ -1847,7 +1857,7 @@
                     ans du 1.1.20 renouv. tac.</p>
                 <p>E. Dine et frères Constantinou. Par contr. 23.12.19 diss. soc. susnom. Liquid.
                     Stelio</p>
-                <p>N. Constantinou. -></p>
+                <p>N. Constantinou. -&gt;</p>
                 <p>Greenberg et Gareh. Par un contr. s.s.p.</p>
                 <p>18.12.19 const. soc. en nom coll. entre Isaac Greenberg et Albert M. Gareh avec
                     siège à Alexandrie pour comm. draperie. Sign. conj. Durée: 3 ans du 18.12.19
@@ -1957,11 +1967,11 @@
                     Gagonelli et D. B. Stergiou faisant le comm. en génér. pour la durée de cinq
                     annés au Caire. Gér. et sign. aux deux assoc.</p>
                 <pb n="56" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE '"/>
-                <p>Francesco Buffoni et Namour, Cha> hyne et Co.Soc. en nom coll. const. le28.11.19
-                    entre M. Francesco Buffoni. et la Raison Sociale Namour, Chahyne et Co faisant
-                    le comm. de dentelles avec siège au Caire et succursale à Gallarate (Italie)
-                    pour la durée de 9 années. Cap. social: Lit. 300.000. Gér. et sign. aux 2
-                    ass.</p>
+                <p>Francesco Buffoni et Namour, Cha&gt; hyne et Co.Soc. en nom coll. const.
+                    le28.11.19 entre M. Francesco Buffoni. et la Raison Sociale Namour, Chahyne et
+                    Co faisant le comm. de dentelles avec siège au Caire et succursale à Gallarate
+                    (Italie) pour la durée de 9 années. Cap. social: Lit. 300.000. Gér. et sign. aux
+                    2 ass.</p>
                 <p>Mohamed Hbdalla Salem et Co. Soc. en command. const. le 15.12.19 entre Mohamed
                     eff. Abdalla Salem et Mohamed effendi Abdel Latif ayant pour objet des travaux
                     mécaniques au Caire pour la durée de dix années. Capital Social: L.E. 8000. Gér.
@@ -2007,8 +2017,9 @@
                 <p>Cette Chambre connaîtra: I* des revendications immobilières incidentes; 2* de
                     toutes les affaires relatives aux expropriations immobilières depuis et y
                     compris l’opposition à commandement jusques et y compris l’adjudication, à
-                    l’exception des dires au Cahier des Charges qui sont dévolus à la 3">" Chambre;
-                    3° des actions relatives aux partages et celles relatives aux licitations.</p>
+                    l’exception des dires au Cahier des Charges qui sont dévolus à la 3"&gt;"
+                    Chambre; 3° des actions relatives aux partages et celles relatives aux
+                    licitations.</p>
                 <p>(Audience: Tous les Jeudis à 8 h. et demie du matin). 1</p>
                 <p>3mo Chambre: M.M. M. Monteiro, Président; P. Beneducci, Mourad bey Wahba.</p>
                 <p>Cette Chambre connaîtra : 1° dès dires au Cahier des Charges; 2° des contredits

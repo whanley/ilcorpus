@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1922-02-10">February 10, 1922</date><lb/>
-                    <biblScope unit="volume">Vol. 12</biblScope><lb/>
-                    <biblScope unit="number">No. 136</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1922-02-10">February 10, 1922</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 12</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 136</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -49,7 +60,7 @@
                 <p>Abonnement annuel :</p>
                 <p>Edition complète, comprenant le service du Journal des Tribunaux Mixtes . P.T.
                     250</p>
-                <p>Edition simple.... > 150</p>
+                <p>Edition simple.... &gt; 150</p>
                 <p>'Prix du numéro.... » 15</p>
                 <p>Pour la Publicité s’adresser à I’Imprimerie Nouvelle Rue Cléopâtre,
                     Alexandrie.</p>
@@ -79,11 +90,11 @@
                     plus ni législation à ! appliquer ni juridiction supérieure pour i confirmer ou
                     infirmer ses décisions. La révolution russe avait en effet balayé le</p>
                 <p>■ .Sénat comme les Codes eux-mêmes.</p>
-                <p>\ Le Tribunal Consulaire de Russie ne > semble pas s’être beaucoup préoccupé de t
-                    la difficulté: il continua à appliquer les Codes Tzaristes, comme si rien ne
-                    s’était . passé à Pétrograd, et,ne pouvant cependant plus juger au nom du Tzar,
-                    il continua à le faire “au nom de la loi", formule vague correspondant assez
-                    bien au chaos constitutionnel.</p>
+                <p>\ Le Tribunal Consulaire de Russie ne &gt; semble pas s’être beaucoup préoccupé
+                    de t la difficulté: il continua à appliquer les Codes Tzaristes, comme si rien
+                    ne s’était . passé à Pétrograd, et,ne pouvant cependant plus juger au nom du
+                    Tzar, il continua à le faire “au nom de la loi", formule vague correspondant
+                    assez bien au chaos constitutionnel.</p>
                 <p>Mais la seconde difficulté était plus sérieuse. Les lois mêmes de procédure que
                     le Tribunal Consulaire continuait à appliquer prévoyaient un recours en appel.
                     Il n’était vraiment pas possible de priver les justiciables d’un second degré de
@@ -335,7 +346,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0010">
                     <head>79. - Appel. — Irrecevabilité de l’appel d'an jugement par défaut avant
                         l’expiration des délais fixés pour l’opposition, augmentés des délais de
                         distance.</head>
@@ -389,7 +400,7 @@
                             défaut peut démontrer qu’il renonce à exercer cette voie de recours.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0020">
                     <head>80 - Appel. — Ordonnances de la Chambre du Conseil, rendues sur opposition
                         aux ordonnances du Juge d'instruction. — Ministère Public; droit
                         d’intervention dans la discussion sur l’admissibilité de la partie
@@ -425,7 +436,7 @@
                             dujuge d’instruction à l’occasion de l’interrogatoire des inculpés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0030">
                     <head>81. - Avocat. — Honoraires. — Opposition à taxe: objet. — Discussion sur
                         l’existence du mandat. — Irrecevabilité dans l’instance en opposition à
                         taxe.</head>
@@ -444,7 +455,7 @@
                             1921. — Dme Hafiza Hanem esq. et cts, c. Me. N... O...)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0040">
                     <head>82. - Bail. — Loi sur les loyers du 21 Février 1921. — Appel; taux. —
                         Instances introduites antérieurement à ’ la nouvelle loi devant le Tribunal
                         Civil; dispositions nouvelles applicables. — Détermination de la valeur du
@@ -550,7 +561,7 @@
                             contre les appelants, elle ne dépasse pas non plus L.E. 50.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0050">
                     <head>83. - Bail. — Loi sur les loyers du 21 Février 1921.— Clause de
                         renonciation au bénéfice de la loi; cas où elle est consentie par l’Etat
                         lui-même ; validité. — Locaux régis par la loi sur les loyers. — Examen
@@ -726,7 +737,7 @@
                             basée ■sur les art. 193 et 195 C. U.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0060">
                     <head>84. - Bail. — Loi sur les loyers du 21 Février 1921. — Clause de
                         renonciation au bénéfice de la loi ; caractère contraire à l’ordre public. —
                         Congé donné en vue de transformation importante de l’immeuble.</head>
@@ -825,7 +836,7 @@
                             locataire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0070">
                     <head>85. - Bail. — Loi sur les loyers du 21 Février 1921. — Clause de
                         renonciation au bénéfice de la loi, quant à la durée du bail
                         -validité.</head>
@@ -863,7 +874,7 @@
                         <p>Qu’ils doivent donc le tenir.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0080">
                     <head>86. - Bail. — Loi sur les loyers du 21 Février 1921. — Détermination du
                         loyer légal. — Cas où un appartement n’était point loué en 1914 à usage
                         d’habitation, mais à celui de bureau.</head>
@@ -905,7 +916,7 @@
                             (L.E. 150 plus 10% plus 50 %).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0090">
                     <head>87. - Chambre du Conseil de la Cour. — Arrêts en matière pénale. —
                         Opposition; irrecevabilité. — Forme des recours en matière pénale ;
                         procès-verbal au greffe.</head>
@@ -976,7 +987,7 @@
                             leur recours non recevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0100">
                     <head>88. - Compétence. — Tribunal de Justice Sommaire. — Taux. — Demande
                         impliquant la solution d’une question de principe. — Compagnie des Eaux. —
                         Intérêts sur le montant des dépôts.</head>
@@ -1030,7 +1041,7 @@
                         <p>Attendu en conséquence que la demande doit être rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0110">
                     <head>89. - Concordat préventif. — Refus d’homologation. — Jugement ayant statué
                         sur une demande en faillite avant la clôture de la procédure de concordat
                         préventif ; il ne constitue pas chose jugée au moment de l’homologation du
@@ -1120,7 +1131,7 @@
                             débiteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0120">
                     <head>90. - Concurrence déloyale. - Saisie conservatoire-, objet; conditions
                         pourl’obtenir. — Violation d’une concession exclusive en Egypte. — Juge de
                         service.</head>
@@ -1149,7 +1160,7 @@
                     <div type="observations">
                         <p>Note. - L’ordonnance expose :</p>
                         <p>Vu l’acte de recours en date du 4 Août 1921, huissier Stivala ;</p>
-                        <p>Vu l’intervention de la Maison Felice Bisleri &amp; Co ; ></p>
+                        <p>Vu l’intervention de la Maison Felice Bisleri &amp; Co ; &gt;</p>
                         <p>Revu notre ordonnance du 26 Juillet 1921 ;</p>
                         <p>Vu les pièces et conclusions des parties ;</p>
                         <p>Vu la rectification faite par les opposants que leur recours est dirigé
@@ -1214,7 +1225,7 @@
                             rétractée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0130">
                     <head>91. - Courtage. — Droit au courtage en cas de non réalisation de
                         l’opération.—-Evaluation.—Non solidarité des mandants envers le
                         mandataire.</head>
@@ -1240,7 +1251,7 @@
                             d’aujourd’hui ie mandat est rarement gratuit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0140">
                     <head>92. - Dist r ibution. — Contredit formé contre le- nouveau règlement
                         provisoire dressé après une première distribution, pour la répartition
                         d’intérêts supplémentaires ; irrece vabilité.—A djudicataire;compensation
@@ -1340,7 +1351,7 @@
                             découlent des clauses du cahier des charges de l’adjudication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0150">
                     <head>93. - Faillite.— Concordat judiciaire.— Refus d’homologation basé sur des
                         motifs d'intérêt public.</head>
                     <div type="summary">
@@ -1436,7 +1447,7 @@
                             refuser l’homologation de son concordat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0160">
                     <head>94. - Faillite. — Droits de la femme du failli. — Nullité des donations
                         faites par le mari au cours du mariage. -- Action en reprise. —
                         Inadmissibilité de la prescription au profit de la femme du failli contre le
@@ -1570,7 +1581,7 @@
                             Juillet 1920, et d’en ordonner la radiation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0170">
                     <head>95. - Immeuble par destination. — Conditions de la cessation de
                         l’immobilisation. — Droit proportionnel.</head>
                     <div type="summary">
@@ -1612,7 +1623,7 @@
                             % sera dû sur la totalité du « prix, à moins qu’il n’y ait un inventaire
                             dé-« taillé mentionnant la valeur des meubles et « annexé à l’acte de
                             vente; dans ce cas il sera « perçu sur la valeur des biens meubles le
-                            droit •> proportionnel de 1/2 % », percevoir L.E. 300 sur le prix des
+                            droit •&gt; proportionnel de 1/2 % », percevoir L.E. 300 sur le prix des
                             terrains et des constructions, et L.E. 75 sur le prix des ustensiles,
                             matériel, machines, briques et mobilier, soit L.E, 375 au lieu de L.E.
                             600, et elle réclame par conséquent la restitution de L.E. 225 ;</p>
@@ -1668,7 +1679,7 @@
                             de l’article 33 susdit, n’avàit pas à en tenir compte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0180">
                     <head>96. - Inscription de faux. — Irrecevabilité d'une action en faux devant la
                         Juridiction Mixte, incidemment à une instance devant le Tribunal
                         Indigène.</head>
@@ -1713,7 +1724,7 @@
                             l’apport du dossier de l’affaire indigène.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0190">
                     <head>97. — Intervention. — Irrecevabilité de l’intervenant à s’opposer à la
                         radiation de l'affaire principale.</head>
                     <div type="summary">
@@ -1791,7 +1802,7 @@
                             intervention.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0200">
                     <head>98. - Juridiction Mixte. — Nationalité. — Conflit diplomatique. — Sursis
                         jusqu’à solution de la question préjudicielle. — Appréciation provisoire de
                         la nationalité contestée pour éviter un déni de justice.</head>
@@ -1866,7 +1877,7 @@
                             l’affaire à l’audience du 1er Mars 1922.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0210">
                     <head>99. - Juge de service. — Recours contre une ordonnance de saisie-arrêt.
                         --Assignation donnée devant le juge des Référés, renvoyée devant le juge de
                         service ; recevabilité:</head>
@@ -1957,7 +1968,7 @@
                             recours du sieur Papanastassiou.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0220">
                     <head>100. - Obligations. — Portée réelle résultant des actes
                         d’exécution.—Négligence du créancier. — Déchéance.</head>
                     <div type="summary">
@@ -1976,7 +1987,7 @@
                             Dame Aziza Chalom Abou Haroun c. Wadih Cassir).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0230">
                     <head>101. — Péremption. —Inadmissibilité contre une demande formée par le
                         demandeur même en péremption. — Cas où la demande en péremption a été suivie
                         d’un arrêt interlocutoire.—Prescription.</head>
@@ -2053,13 +2064,13 @@
                             péremption invoquée tout d’abord contre lui ; que ce moyen ne peut plus
                             être invoqué depuis que plus de trois années se sont écoulés à partir du
                             dernier acte de procédure qui est la clôture de la' contre-enquête et
-                            que la péremption est demandée de nouveau, > sans que de nouveaux
+                            que la péremption est demandée de nouveau, &gt; sans que de nouveaux
                             pourparlers soient allégués pour s’y opposer;</p>
                         <p>Attendu que la péremption en cause d’appel donne au jugement attaqué la
                             force de la chose jugée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0240">
                     <head>102. - Péremption—Caractère non indivisible d’un commandement dirigé
                         contre deux co-partageants distincts,, et du jugement unique ayant statué
                         sur les oppositions faites.</head>
@@ -2117,7 +2128,7 @@
                             péremption doit donc être admise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0250">
                     <head>103. - Retrait d’indivision. — Droit de rachat recevable contre ' la part
                         d’un tiers acquéreur dans la communauté. — Droit de retrait primant le droit
                         de préemption.</head>
@@ -2207,7 +2218,7 @@
                             devant la Cour à cet égard.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0260">
                     <head>104. - Serment litis-décisoire.- Cas où il est déféré dans une intention
                         vexatoire.</head>
                     <div type="summary">
@@ -2229,7 +2240,7 @@
                     </div>
                 </div>
                 <pb n="61" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0270">
                     <head>105. - Stipulation pour autrui. — Tiers-, droit personnel d’en poursuivre
                         l’exécution. — Société; dissolution; obligation non conditionnelle.— Preuve
                         testimoniale ; inadmissibilité pour établir les détails d’un écrit non
@@ -2300,7 +2311,7 @@
                             retiré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0280">
                     <head>106. — Transcription. — Inopérance si elle est effectuée dans un greffe
                         autre que celui du Tribunal de la situation des biens. — Affectation
                         hypothécaire prise contre l’acquéreur qui a mal transcrit ; inopposabilité à
@@ -2361,7 +2372,7 @@
                             inscrite au Tribunal au Caire le 2jJanvier 1916 No. 196.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0290">
                     <head>107. - Vente de coton. — Non livraison; calcul des
                         dommages-intérêts.</head>
                     <div type="summary">
@@ -2375,7 +2386,7 @@
                             Naghi Deraz c. Liq. J. Hicks 4 Pauli &amp; Co.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0300">
                     <head>108. - Vente immobilière.— Vendeur impayé; perte du droit de demander la
                         résiliation en cas d’inaction pour obtenir le règlement du prix dans une
                         distribution.</head>
@@ -2445,7 +2456,7 @@
                             en la forme.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0310">
                     <head>109. — Vente. — Vices cachés. — Action rédhibitoire. — Irrecevabilité en
                         matière de vente en justice, lorsque l’objet vendu a pu être visité. —
                         Nullité d’une demande ne précisant-point les vices cachés ; inadmissibilité
@@ -2496,7 +2507,7 @@
                             précise de l’article en question.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0320">
                     <head>110. - Vente volontaire.—Facu lté de surenchère. — Immeuble successoral
                         appartenant en partie à des mineurs ; formes de la vente ; vente par des
                         exécuteurs testamentaires ; formalités prescrites par la loi dans le cas où
@@ -2660,7 +2671,7 @@
                             Adès est sans qualité pour la soulever.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-02-0330">
                     <head>111. - Wakfs. - Domaine public. — inapplicabilité en ces matières de la
                         prescription quinquennale spéciale au profit à créancier hypothécaire de
                         bonne foi.</head>

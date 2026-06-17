@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1921-11-10">November 10, 1921</date><lb/>
-                    <biblScope unit="volume">Vol. 12</biblScope><lb/>
-                    <biblScope unit="number">No. 133</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1921-11-10">November 10, 1921</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 12</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 133</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -294,7 +305,7 @@
             <pb n="5" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0010">
                     <head>1. - Adjudication. — Jugement rendu par le Tribunal Indigène. — Chan-.
                         gement de nationalité en cours d’instance. — Maintien de la compétence
                         indigène.— Originaires des territoires cédés à la Grèce. — Nationalité
@@ -389,7 +400,7 @@
                             poursuivies par lui contre la dame Despina Panayotti.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0020">
                     <head>2. - Appel. — Tardivité; irrecevabilité à relever d’office. — Matière
                         indivisible; appel incident tardivement soulevé. — Servitude d’irrigation;
                         nécessité du réglement d'une indemnité préalable.</head>
@@ -414,7 +425,7 @@
                             c* Eugénie AHet, Saleh El Chorbaghi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0030">
                     <head>3. - Chose jugée. — Décisions rendues sur opposition à commandement ;
                         motifs ne mettant pas obstacle à l’examen au fond du litige entre créancier
                         et débiteur.</head>
@@ -434,7 +445,7 @@
                             Banco di Roma).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0040">
                     <head>4. - Comptes. — Débattement inopportun en degré d’appel.</head>
                     <div type="summary">
                         <p>Lorsqu’une contestation dépend de comptes entre le tireur d’une traite et
@@ -448,7 +459,7 @@
                             Samuel Rabinovitz et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0050">
                     <head>5. - Contrats commerciaux. — Liberté des stipulations. — Contrats
                         d’association et de louage de services; résiliation au gré des parties. —
                         Mise en demeure; répétition inutile en cas de rupture formelle d’un contrat
@@ -476,7 +487,7 @@
                     </div>
                 </div>
                 <pb n="6" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0060">
                     <head>6. - Décès. — Assignation signifiée à un défunt et jugement rendu contre
                         lui; validité et effets juridiques. - Péremption d’instance. - Péremption
                         des jugements par défaut ; interruption. — Signification à un défunt valant
@@ -563,7 +574,7 @@
                             Février 1921, Bull. XIII. 179).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0070">
                     <head>7. - Distribution. — Contredit causé par une production erronée ou
                         défectueuse; intérêts non dus au créancier responsable du retard. —
                         Collocation des intérêts antérieurs à l’adjudication (anc. art. 632 C. Civ.)
@@ -609,10 +620,10 @@
                         <p>II. - L’arrêt rapporté se base sur un arrêt du 2 Mars 1920 (Gaz. X,
                             126-159).</p>
                         <p>III. - L’arrêt rapporté se rapporte sur ce point aux « motifs
-                            convaincants > d’un arrêt du 8 Mars 1899 (Bull XI, 149).</p>
+                            convaincants &gt; d’un arrêt du 8 Mars 1899 (Bull XI, 149).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0080">
                     <head>8. - Distribution. — Contredit. — Irrecevabilité contre un second
                         réglement définitif, dressé après folle enchère.</head>
                     <div type="summary">
@@ -661,7 +672,7 @@
                             Mohamed Aboul Fetouh Pacha.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0090">
                     <head>9. - Distribution. — Contredit ; motivation indispensable ; nullité
                         couverte par une défense au fond. — Contredit devenu irrecevable apiès le
                         rejet d’une opposition à commandement sur laquelle il était fondé. — Chose
@@ -781,7 +792,7 @@
                             suit que le contredit doit être rejeté comme non recevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0100">
                     <head>10. - Distribution.—Demande de collocation ; nécessité de la prodution du
                         titre, même authentique; cas où il existe une impossibilité ou un
                         empêchement à cette production.</head>
@@ -858,7 +869,7 @@
                     </div>
                 </div>
                 <pb n="8" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0110">
                     <head>11. - Effets de commerce. — Faiblesse d’esprit notoire du souscripteur. —
                         Tiers porteur-, preuve formelle du paiement à sa charge.</head>
                     <div type="summary">
@@ -880,7 +891,7 @@
                             Produce Export Co. Ltd. et autres c. E. et A. Lydis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0120">
                     <head>12. - Expropriation. — Non nécessité de la notification du dépôt du cahier
                         des charges aux créanciers inscrits du tiers détenteur. — Acte d’appel ;
                         moyen non invoqué-, renonciation non présumée.</head>
@@ -936,7 +947,7 @@
                             prétendue renonciation....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0130">
                     <head>13. - Faillite. — Compensation légale. — Compensation conventionnelle.—
                         Connexité entre une dette et une créance de la faillite.</head>
                     <div type="summary">
@@ -956,7 +967,7 @@
                             c. Albert Schinazi). .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0140">
                     <head>14. - Faillite. — Créancier hypothécaire ou gagiste insuffisamment garanti
                         ; division de la créance et vote au concordat.</head>
                     <div type="summary">
@@ -1015,7 +1026,7 @@
                             de voter au concordat pour la dite somme.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0150">
                     <head>15. - Faillite. — Droits de la femme du failli. — Nullité des donations
                         faites par le mari au cours du mariage. — Action en reprise. — Immeubles
                         acquis par la femme de ses deniers personnels; preuve de l’origine des
@@ -1037,7 +1048,7 @@
                     </div>
                     <div type="litigants">
                         <p>(Trib. Comm. Alex. Prés. M. Pereira e Cunha, 23 Mai 1921. Auguste
-                            Béranger esq. C. E. M. Caramano et Cie et cts.>-</p>
+                            Béranger esq. C. E. M. Caramano et Cie et cts.&gt;-</p>
                     </div>
                     <div type="observations">
                         <p>Note. - Le jugement expose sur ces deux points :</p>
@@ -1089,7 +1100,7 @@
                             commun.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0160">
                     <head>16. - Garantie. — Stipulation prise au profit du seul créancier. — Recours
                         du premier garant contre le second; mal fondé.</head>
                     <div type="summary">
@@ -1189,7 +1200,7 @@
                             puisque c’est lui qui s’est obligé en donnant sa garantie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0170">
                     <head>17. - Interprétation. — Demande nouvelle. — Interprétation d’une décision
                         ayant porté condamnation à des intérêts sans préciser leur caractère
                         capitalisable.- ■ -</head>
@@ -1211,7 +1222,7 @@
                             Cheikh Hassan Aly El Gheziri c. Ministère des Wakfs et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0180">
                     <head>18. - Marque de fabrique. — Dépôt ne conférant pas droit de propriété,
                         lequel dépend exclusivement de l’usage continu de la marque. — Contrefaçon ;
                         déchéance du propriétaire d’une marque qui n’actionne pas son concurrent
@@ -1232,7 +1243,7 @@
                             Cie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0190">
                     <head>19. - Nationalité hellénique. — Possession d’état. — Accord gréco-égyptien
                         du 2 Février 1890. — Reconnaissance implicite de la nationalité étrangère
                         d’un « raya » par le Gouvernement Egyptien.</head>
@@ -1341,7 +1352,7 @@
                             doit par conséquent être régie par la loi hellénique.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0200">
                     <head>20. - Référé. — Compétence. — Vente de marchandises litigieuses. — Cas où
                         elle ne peut plus être ordonnée en référé.</head>
                     <div type="summary">
@@ -1361,7 +1372,7 @@
                             Secker &amp; Co. Ltd. c. Les Fils de I. Roditi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0210">
                     <head>21. - Requête Civile.— Dol personnel.</head>
                     <div type="summary">
                         <p>Le dol personnel donnant ouverture à requête civile consiste en des
@@ -1380,7 +1391,7 @@
                             contradictoire ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0220">
                     <head>22. - Revendication en cours d’expropriation. — Rectification en degré
                         d’appel. — Demande nouvelle. — Dépôt des titres au Greffe. — Défaut
                         d’opposition à l’adjudication par le revendiquant ; conséquences,</head>
@@ -1408,7 +1419,7 @@
                             Hassaballah c. Bochra bey Hanna et ctsj</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0230">
                     <head>23. - Saisie arrêt. — Prescription de quinze ans. — Tiers-saisi;
                         déclaration.</head>
                     <div type="summary">
@@ -1529,7 +1540,7 @@
                             objet.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0240">
                     <head>24. - Serment. — Succession. — Connaissance par les héritiers d’un fait
                         personnel à leur auteur.</head>
                     <div type="summary">
@@ -1547,7 +1558,7 @@
                             Sachs c. Abramino Gaber et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0250">
                     <head>25. - Succession musulmane. — Pouvoirs de l’exécuteur testamentaire d’une
                         succession endettée. — Vente des immeubles successoraux. — Droits des
                         cohéritiers. — Séparation des patrimoines. — Actes de disposition de biens
@@ -2230,7 +2241,7 @@
                             accueillie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0260">
                     <head>26. — Succession musulmane. — Compétence mixte dans un litige entre la
                         succession, et un autre indigène lorsqu'il existe des créanciers
                         successoraux étrangers.</head>
@@ -2259,7 +2270,7 @@
                             mixte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-11-0270">
                     <head>27. - Vente volontaire. — Faculté de surenchère. - Immeuble successoral
                         appartenant en partie à des mineurs ; vente par des exécuteurs
                         testamentaires ; formalités prescrites par la loi à peine de

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1915-07-10">July 10, 1915</date><lb/>
-                    <biblScope unit="volume">Vol. 5</biblScope><lb/>
-                    <biblScope unit="number">No. 57</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1915-07-10">July 10, 1915</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 5</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 57</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -332,7 +343,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0010">
                     <head>339. - Avocat. — Honoraires. — Taxe. — Compétence mixte.</head>
                     <div type="summary">
                         <p>I. - Alors même que la partie et son -avocat appartiendraient à la même
@@ -357,7 +368,7 @@
                             pag. 135.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0020">
                     <head>340. - Banqueroute. — Action publique. — Prescription. — Point de départ.
                         — Calendrier de l’hégire. — Faits antérieurs, et faits postérieurs à la
                         faillite. — Acte interruptif. — Effets à l’égard des -■complices.</head>
@@ -482,7 +493,7 @@
                             interrompu la prescription de l'action publique contre Acham Boctor.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0030">
                     <head>341. - Banqueroute. — Eléments du délit. —Juridiction répressive. —
                         Faillite. — Qualité de commerçant. — Pouvoirs d'appréciation, indépendants
                         de la Juridiction commerciale.</head>
@@ -578,7 +589,7 @@
                             d’un délit inexistant en droit</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0040">
                     <head>342. - Cahier des charges. — Notification. — Créanciers transcrits. —
                         Gage.</head>
                     <div type="summary">
@@ -592,7 +603,7 @@
                             eff. Aly c. Bank of Egypt Ltd en liq. et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0050">
                     <head>343. - Cassation. —Moyens nouveaux. — Procès-verbal de pourvoi. —
                         Renonciation. — Détournement d’objets saisis. — Point de départ de la
                         prescription. — Récolement.</head>
@@ -618,14 +629,14 @@
                             Guirguis Bibaoui Nosseîr c.. Ministère Publie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0060">
                     <head>344. - Contredit. — Mise en cause du dernier créancier utilement colloqué.
                         — Faillite. — Privilège des gens de service.</head>
                     <div type="summary">
                         <p>I. - Lorsque tous les créanciers hypothécaires,ayant le même
                             titre,ontétécolloqués au marc le franc entre eux, il n’y a pas de «
-                            dernier créancier utilement colloqué > dont la mise en cause doive être
-                            effectuée à peine d’irrecevabilité du contredit.</p>
+                            dernier créancier utilement colloqué &gt; dont la mise en cause doive
+                            être effectuée à peine d’irrecevabilité du contredit.</p>
                         <p>II. - L’employé qui a quitté le service du failli plus de six mois avant
                             la faillite ne peut pas se prévaloir du privilège de l’Àrt. 363 C. Corn,
                             qui ne profite qu’aux salaires des six mois qui auront précédé la
@@ -638,7 +649,7 @@
                     </div>
                 </div>
                 <pb n="139" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0070">
                     <head>345. - Dommages-intérêts. — Mise en demeure. — Obligation dérivant du
                         fait. — Revendication. — Restitution des fruits. — Enrichissement
                         indû.</head>
@@ -658,7 +669,7 @@
                             Azoulaz et Cts c. Moudir de Béhéra).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0080">
                     <head>346. - Droits proportionnels. — Jugements « attributifs » de sommes ou
                         valeurs. — Action en répétition de droits indûnients réclamés et perçus par
                         le Greffe.</head>
@@ -747,7 +758,7 @@
                             dommages-intérêts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0090">
                     <head>347. - Droits proportionnels. — Vente consentie par des mandataires de
                         justice. — Acte notarié.</head>
                     <div type="summary">
@@ -842,7 +853,7 @@
                             rentrant pas dans le cas prévu dans le par. b de l’art. 34 du tarif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0100">
                     <head>348. - Effets de commerce. — Cause civile. — Tribunal de Commerce. —
                         Compétence.</head>
                     <div type="summary">
@@ -856,7 +867,7 @@
                             Youssef Seid c. Elie Mansour et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0110">
                     <head>349. - Effets de commerce. — Cause. — Endossement. — Tiers porteur de
                         bonne foi.</head>
                     <div type="summary">
@@ -870,7 +881,7 @@
                             Chafei c. Guindi bey Wissa et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0120">
                     <head>350. - Employé. — Renvoi par suppression d’emploi ou pour cause de
                         maladie. — Indemnité. — Règlements administratifs sur les pensions.</head>
                     <div type="summary">
@@ -891,7 +902,7 @@
                             Ferraino c. Gouvernement Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0130">
                     <head>351. - Entreprise (Contrat d’). — Acte de commerce. — Tribunal de Justice
                         Sommaire. — Compétence.</head>
                     <div type="summary">
@@ -912,7 +923,7 @@
                             — Georges bey Wissa c. Hag Ahmed Hezaayem).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0140">
                     <head>352. - Faillite. — Production tardive postérieure à l’état d’union. —
                         Opposition régulière. — Répartition déjà ordonnancée. — Effet de
                         l’opposition. — Nécessité d’un jugement déterminant par provision les sommes
@@ -949,7 +960,7 @@
                             Silvera c. Marco Dassa esq. et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0150">
                     <head>353. - Fins de non-recevoir. — Action contre le chargeur.</head>
                     <div type="summary">
                         <p>Les fins de non-recevoir prévues aux Art. 274 et 275 C. Com. sont de
@@ -961,7 +972,7 @@
                             frères c. Riches, Toriel &amp; Co).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0160">
                     <head>354. - Fol-enchérisseur. — Limite de son obligation. — Intérêts.</head>
                     <div type="summary">
                         <p>La disposition de l’Art. 702 C. Proc., selon laquelle le fol enchérisseur
@@ -980,7 +991,7 @@
                             Bank c. Dame Gamila Hanem, et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0170">
                     <head>355. - Gestion d’affaires. — Mandat.. — Opérations de Bourse.</head>
                     <div type="summary">
                         <p>Les contrats aléatoires et les opérations de Bourse ne peuvent rentrer
@@ -996,7 +1007,7 @@
                             Doummar c. Miltiade G. Vitiadis et Cie, et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0180">
                     <head>356. - Juridiction mixte. — Compétence. — Action en partage. — Action en
                         liquidation de droits successoraux. — Juge du statut personnel. —
                         Juridiction consulaire Brésilienne. — Déni de justice</head>
@@ -1027,7 +1038,7 @@
                             Brésilienne.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0190">
                     <head>357. - Juridiction Mixte. — Compétence. — Capitulations. — Conseil dé
                         guerre. — Etranger contractant un service militaire en Egypte. —
                         Gardes-Côtes. — Renvoi intempestif. — Droit de défense.</head>
@@ -1122,7 +1133,7 @@
                             l’inculpé a été suffisamment garantie...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0200">
                     <head>358. - Lettres de change. — Perte. — Formalités à accomplir. — Traite
                         égarée au Greffe. — Responsabilité.</head>
                     <div type="summary">
@@ -1152,7 +1163,7 @@
                             ». -</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0210">
                     <head>359. - Libération. — Avocat. — Pouvoirs pour encaisser. — Remise de la
                         grosse.</head>
                     <div type="summary">
@@ -1174,7 +1185,7 @@
                             c. Hoirs Jean Philippin).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0220">
                     <head>360. - Loi Martiale. — Proclamation du 25 janvier 1915.</head>
                     <div type="summary">
                         <p>Toute décision de l’autorité souveraine restreignant le droit de
@@ -1322,7 +1333,7 @@
                             compense les frais extrajudiciaires».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0230">
                     <head>361. - Loi Martiale. — Proclamation du 25 Janvier 1915. — Etranger
                         résidant en pays ennemi. — Appel. — Demande recon venlionnelle. . y</head>
                     <div type="summary">
@@ -1339,7 +1350,7 @@
                             Amerika Unie c. D. E. Munari).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0240">
                     <head>362. - Péremption. — Affaire pendante au rôle spécial. — Appel principal
                         et appel incident.</head>
                     <div type="summary">
@@ -1366,7 +1377,7 @@
                             extraire » : n’est-ce point là un euphémisme ?.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0250">
                     <head>363. - Péremption. — Jugement par défaut faute de comparaître. —
                         Acquiescement.</head>
                     <div type="summary">
@@ -1383,7 +1394,7 @@
                             Macran c. Dame Paraskevi Vve de feu Jean Georgiadis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0260">
                     <head>364. - Presse. — Propriété des dépêches. — Publication. — Délai. — Domaine
                         public.</head>
                     <div type="summary">
@@ -1498,7 +1509,7 @@
                             l’allocation d’une somme de L.E. 15 « ex œquo et bono ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0270">
                     <head>365. - Prête-nom. — Juridiction mixte. — Compétence. — Cession
                         fictive.</head>
                     <div type="summary">
@@ -1517,7 +1528,7 @@
                         <p>Note. — V. arrêt récent du 16 Mars 1915, Gaz. V, 105-267.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0280">
                     <head>366. - Renvoi intempestif. — Indemnité. — Mode de calcul.</head>
                     <div type="summary">
                         <p>En cas de renvoi intempestif, le mode de réparation basé sur un mois
@@ -1534,7 +1545,7 @@
                             Alexandre Divans c. Crédit Lyonnais).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0290">
                     <head>367. - Revendication. — Appel. — Défaut de mise en cause du débiteur
                         saisi. — Irrecevabilité.</head>
                     <div type="summary">
@@ -1611,7 +1622,7 @@
                             son intérêt commande de relever * appel ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0300">
                     <head>368. - Revendication. — Appel. — Défaut de mise en cause du débiteur
                         saisi. — Irrecevabilité. — Régularisation de la procédure.</head>
                     <div type="summary">
@@ -1665,7 +1676,7 @@
                             merito dell’appello.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0310">
                     <head>369. - Revendication. — Appel sur la compétence. — Irrecevabilité. —
                         Ordonnance émanant de la juridiction mixte. — Parties indigènes. —
                         Compétence mixte.</head>
@@ -1742,7 +1753,7 @@
                             indigène.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0320">
                     <head>370. - Revendication immobilière. — Procédure d’expropriation. — Mise en
                         cause du débiteur saisi. — Intervention volontaire après V expiration des
                         délais d’appel.</head>
@@ -1769,7 +1780,7 @@
                             et l’arrêt du 15 Avril 1915, ci-dessus § 367 et note, et § 368).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0330">
                     <head>371. - Serment litis-décisoire. — Admissibilité.</head>
                     <div type="summary">
                         <p>La loi ayant accordé à une partie quelconque le droit de mettre un terme
@@ -1786,7 +1797,7 @@
                             Sayed Nasr c. Louis Charles Defontaine).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0340">
                     <head>372. - Serment litis-décisoire. — Délation en voie subsidiaire.</head>
                     <div type="summary">
                         <p>Le sens de l’interdiction de déférer le serment en voie subsidiaire,
@@ -1807,7 +1818,7 @@
                     </div>
                 </div>
                 <pb n="145" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0350">
                     <head>373. - Société. — Forme étrangère. — Responsabilité limitée. — Clause
                         réputée non écrite. — Juridiction mixte. — Proclamation du 25 Janvier 1915.
                         — Capacité d’ester en justice. — Nationalité.</head>
@@ -2014,7 +2025,7 @@
                         <p>Attendu que dans ces conditions il y a lieu d’accueillir la demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0360">
                     <head>374. - Sous-traitant. — Action directe. — Saisie-arrêt. - Cessionnaire de
                         l’entrepreneur.</head>
                     <div type="summary">
@@ -2038,7 +2049,7 @@
                             216.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0370">
                     <head>375. - Usure. — Répétition de l’indû.</head>
                     <div type="summary">
                         <p>Il est de principe que des intérêts usu-raires payés ne peuvent être
@@ -2052,7 +2063,7 @@
                         <p>Note. — Comp. cep. Jug. Caire, 15 Mars 1915, Gaz., V, 109-292.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-07-0380">
                     <head>376. - Vente. — Prescription de l’action en résiliation, diminution ou
                         augmentation du prix. — Point de départ. — Mesurage stipulé au
                         contrat.</head>
@@ -2395,7 +2406,7 @@
                     Magrabi, jtig. décl. le 12.6.15, syndic E. Fréville. Cess. paiera, le 25.4.15,
                     nom. syndic déf. le 20.7.15.</p>
                 <p>El Hag Soliman El Nattas et flls, société indigène faisant le comm. en cuivre
-                    ayant siège au Caire, composée des sieurs Soliman Hassan el> Nahas, Tewfik
+                    ayant siège au Caire, composée des sieurs Soliman Hassan el&gt; Nahas, Tewfik
                     Soliman Hassan el Nahas et Ahmed Soliman Hassan el Nahas, jug. décl. le 12.6.15,
                     syndic A. Doss. Cess. p. 18.8.14, vérif. créanc. le 12.7.15, nom. syndic déf. le
                     20.7.15.</p>

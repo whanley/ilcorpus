@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1940-08-10">August 10, 1940</date><lb/>
-                    <biblScope unit="volume">Vol. 30</biblScope><lb/>
-                    <biblScope unit="number">No. 358</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1940-08-10">August 10, 1940</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 30</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 358</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -50,13 +61,13 @@
                 <p>D'ÉGYPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avooats d’Egypte, Fondateurs
-                    > M» MAXIME PUPIKOl'EP. et LÉON PANGALO, Avooats à la Cour Directeur: M- MAXIME
-                    PUPIKOFEH, Avocat à la Cour</p>
+                    &gt; M» MAXIME PUPIKOl'EP. et LÉON PANGALO, Avooats à la Cour Directeur: M-
+                    MAXIME PUPIKOFEH, Avocat à la Cour</p>
                 <p>Bomité de Rédaction et d'Mdmlnistration :</p>
                 <p>M* L. PANGALO et R. 8CHEMEIL (Directeurs au Caire) M“ E. DEGIABDÉ et LUCIEN BARDA
                     (Secrétaires de la rédaction).</p>
                 <p>M* A. FADEL (Directeur à Mansourah). \ (Correspondants d Paris).</p>
-                <p>Me J. LAÇAT ></p>
+                <p>Me J. LAÇAT &gt;</p>
                 <p>ABONNEMENTS</p>
                 <p>— à la Gazette (un an). P.T. 150</p>
                 <p>— au Journal ;</p>
@@ -400,7 +411,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0010">
                     <head>213. - Assurance maritime. — Notification du sinistre; délai prescrit par
                         l’art. H14 C. Mar.; inobservation; condition de la déchéance de l'assurance.
                         — Assurance; cession; notification faite dans l’assignation; régularité. —
@@ -602,7 +613,7 @@
                             jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0020">
                     <head>214. - Assurance maritime. — Présomption édictée par les art. 207 et 208
                         C. Mar.; caractère absolu; inadmissibilité de la preuve contraire. — Clause
                         d'assurance sur bonnes ou mauvaises nouvelles; nécessité d'une stipulation
@@ -695,7 +706,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0030">
                     <head>215. - Assurance maritime. — Sinistre ayant eu plusieurs causes; critérium
                         de détermination des responsabilités entre assureur et assuré. — Vice
                         propre; conditions auxquelles ce risque est exclu de l'assurance. —Indemnité
@@ -937,7 +948,7 @@
                             dommages-intérêts de ce chef.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0040">
                     <head>216. - Navire. — Abordage; cas d'inapplicabilité de la fin de non recevoir
                         des art. 274 et 275 C. Mar. — Capitaine; intervention d'un pilote imposé,
                         non exclusive de sa responsabilité. — Capitaine; direction du navire confiée
@@ -1142,7 +1153,7 @@
                     </div>
                 </div>
                 <pb n="371" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0050">
                     <head>217. - Navire. — Abordage; fins de non recevoir prévues aux art. 274 et
                         275 C. Mar.; lirrüte d'application; inapplicabilité à un accrochage d'un
                         navire par un chaland non destiné habituellement à la navigation en mer. —
@@ -1292,7 +1303,7 @@
                         <p>Note. — III. - V. ég. ci-après § 230, l’arrêt du 25 Janvier 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0060">
                     <head>218. - Navire. '— Affrètement; Canal de Suez; règlement de navigation;
                         transbordement imposé à raison de la nature de la marchandise; frais;
                         charge; responsabilité du chargeur :domicilié en Egypte en cas d'affrètement
@@ -1455,7 +1466,7 @@
                             totalité de la somme réclamée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0070">
                     <head>219. - Navire. — Affrètement; Inexécution; indemnité; clause limitative;
                         interprétation; cas où l'inexécution est due à la défaillance de l'armateur;
                         indemnité à évaluer selon le droit commun.</head>
@@ -1577,7 +1588,7 @@
                             ci-dessus, le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0080">
                     <head>220. - Navire. — Gens d'équipage; accidents mortels survenus en cours de
                         voyage; défaut de droit à indemnité.</head>
                     <div type="summary">
@@ -1727,7 +1738,7 @@
                         <p>Note. — V. Gaz. XXII, 301-311, l’arrêt du 21 Janvier 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0090">
                     <head>221. - Navire. — Gens d'équipage; frais d'inhumation; cas où ils sont à la
                         charge du navire.</head>
                     <div type="summary">
@@ -1774,7 +1785,7 @@
                             produits, à la somme globole de L.E. 82.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0100">
                     <head>222. - Navire. — Pilotes; faute commise dans l'exécution des -manœuvres de
                         pilotage; défaut de responsabilité de VAdministration des Ports et Phares;
                         transmission par le pilote d'un ordre du capitaine du port, n'établissant
@@ -1867,7 +1878,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0110">
                     <head>223. - Navire. — Vente; forme authentique exigée à peine de nullité; art.
                         3 C. Mar.; inapplicabilité aux barques de pêche.</head>
                     <div type="summary">
@@ -1947,7 +1958,7 @@
                             forme dont se prévaut l’appelant...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0120">
                     <head>224. - Transports. — Action contre le voiturier; déchéance prévue à l'art.
                         104 C. Com.; inapplicabilité au cas de perte de la marchandise. — Transport;
                         consignation à un tiers désigné par le destinataire ou agissant comme son
@@ -2065,7 +2076,7 @@
                             Co. que par Abdel Rahman Hassan.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0130">
                     <head>225. - Transports aériens. — Règlements généraux des compagnies de
                         navigation aérienne; clauses opposables aux voyageurs; clauses d'abréviation
                         de prescription pour l'exercice de l'action; inopérance; clauses
@@ -2296,7 +2307,7 @@
                             12 Mars 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0140">
                     <head>226. - Transports fluviaux. — Clause d’exonération de responsabilité; «
                         assu-Tance-clause » non exclusive de la responsabilité du transporteur en
                         cas d'accident attribuable à l’état d'innavigabilité d'un chaland; dommage
@@ -2401,7 +2412,7 @@
                         <p>Note. — V. les arrêts groupés sub Gaz. XXVII, 240-179, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0150">
                     <head>227. - Transports fluviaux. — Sauvetage; accident de navigation; secours;
                         prix convenu de l'assistance; vice du consentement; pouvoir des tribunaux de
                         fixer la rémunération due au sauveteur; éléments d'appréciation. —
@@ -2750,7 +2761,7 @@
                         <p>L’appel incident est rejeté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0160">
                     <head>228. - Transports maritimes. — Affrètement; transport de bois; clause
                         autorisant une certaine marge dans les dimensions de la marchandise pour le
                         calcul du fret; portée.</head>
@@ -2794,7 +2805,7 @@
                             des parties, ainsi que l’ont décidé à bon droit les premiers, juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0170">
                     <head>229. - Transports maritimes. — Connaissement émis sous le régime du «
                         Harter Act n; clause non exclusive de la garantie de navigabilité;
                         armateur;: responsabilité en cas d'innavigabilité du navire; production de
@@ -3088,7 +3099,7 @@
                             comme mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0180">
                     <head>230. - Transports maritimes. — Connaissement émis sous le régime du «
                         Harter Act »; clause tendant à relever le transporteur de sa responsabilité
                         légale; nullité. — Assurance maritime; clause stipulant la déchéance de
@@ -3217,7 +3228,7 @@
                             la Navigazione Libéra invoque le bénéfice de la clause dudit
                             connaissement (N° 23) d’après laquelle « en cas de perte ou dommage
                             quelconques pour lesquels la Compagnie ou tout transporteur subséquent
-                            (« connecting carrier >>), pourraient être tenus responsables, ces
+                            (« connecting carrier &gt;&gt;), pourraient être tenus responsables, ces
                             derniers jouiront du bénéfice de toute assurance contractée sur lesdites
                             marchandises en faveur du chargeur, propriétaire ou consignataire des
                             marchandises, ou de tous paiements faits par ou pour compte des
@@ -3385,7 +3396,7 @@
                         <p>Note. — III. - y. ég. ci-avant § 217, l’arrêt du 24 Mai 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0190">
                     <head>231. - Transports maritimes. — Fins de non recevoir des art. 274 et 275 C.
                         Mar.; applicabilité à l'action en indemnité pour déficit constaté ou dommage
                         subi par Ig. marchandise.</head>
@@ -3461,7 +3472,7 @@
                             irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0200">
                     <head>232. - Transports maritimes. — Innavigabilité du navire ayant déterminé le
                         capitaine à revenir au port de départ; responsabilité du
                         transporteur.</head>
@@ -3529,7 +3540,7 @@
                             lors de confirmer, en ce qui le concerne, le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0210">
                     <head>233. - Transports maritimes. — Livraison de la marchandise, contre lettre
                         de garantie, avant remise du connaissement; portée de là garantie; droits de
                         recours du transporteur qui a réglé à l’expéditeur le montant d'une traite
@@ -3737,7 +3748,7 @@
                             elle effectué par les Messageries Maritimes ait été indûment perçu.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0220">
                     <head>234. - Transports maritimes. — Livraison de la marchandise sans remise du
                         connaissement; clause contraire du connaissement; portée; responsabilité du
                         transporteur même en cas de connaissement à personne dénommée.</head>
@@ -3833,7 +3844,7 @@
                             conditions, de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0230">
                     <head>235. - Vente commerciale. — Commissionnaire; commande approuvée par la
                         fabrique; lien direct entre l'acheteur et la fabriqué.</head>
                     <div type="summary">
@@ -3849,7 +3860,7 @@
                             Bennoun c. L. Bar-bar! &amp; fils et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0240">
                     <head>236. - Vente commerciale. — Exécution; suspension par suite de
                         l’interruption des rapports économiques entre deux pays; effets juridiques
                         sur le contrat. — Livraison; mise en demeure tardive de livrer; déchéance du
@@ -3968,7 +3979,7 @@
                             l’intimée pour les deux degrés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0250">
                     <head>237. - Vente commerciale. — Résiliation aux torts et griefs des deux
                         parties; cas où elle s'impose.</head>
                     <div type="summary">
@@ -3983,7 +3994,7 @@
                             Cotton Company Ltd. c. Guirguis Saleh.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0260">
                     <head>238. - Vente commerciale. — Résiliation de plein droit; prix convenu;
                         droit du vendeur reconnu par l'art. 418 C. Civ.</head>
                     <div type="summary">
@@ -4177,7 +4188,7 @@
                             ces points.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-08-0270">
                     <head>239. - Vente commerciale. — Vente cif; délais d'embarquement;
                         inobservation; droit de l'acheteuf' de demander la résiliation même sans,
                         mise en demeure; cas où l'acheteur a insisté pour l'exécution du
@@ -4622,7 +4633,7 @@
                 <p>(2) Les Dentistes;</p>
                 <p>(3) Les Pharmaciens;</p>
                 <p>(4) Les Vétérinaires.</p>
-                <p>Un Ordre Spécial pour toute autre pro-> fession paramédicale pourra, sur la
+                <p>Un Ordre Spécial pour toute autre pro-&gt; fession paramédicale pourra, sur la
                     proposition du Conseil de t’Ordre Supérieur et l’avis conforme du Ministère de
                     l’Hygiène Publique, être institué par décision du Conseil des Ministres.</p>
                 <p>Art. 3. — L’Ordre Supérieur sera composé des membres des dites professions
@@ -5573,8 +5584,9 @@
                     candidat au grade de « Ph. D. »;</p>
                 <p>3. ) Poursuivre, sous la surveillance d’un professeur désigné par le Conseil de
                     la Faculté, des recherches scientifiques et des études supérieures pour une
-                    période de trois ans au moins s’il est porteur du « B. E. » ou du &lt;> B. Arch.
-                    », et de deux ans au moins s’il est porteur du « M. E. » ou du « M. Arch. ».</p>
+                    période de trois ans au moins s’il est porteur du « B. E. » ou du &lt;&gt; B.
+                    Arch. », et de deux ans au moins s’il est porteur du « M. E. » ou du « M. Arch.
+                    ».</p>
                 <p>Toutefois, le candidat peut, sur la recommandation du professeur surveillant,
                     obtenir l’autorisation du Conseil de la Faculté de passer un an de recherches
                     dans une autre Université ou Institut du même rang;</p>

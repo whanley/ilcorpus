@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1932-07-10">July 10, 1932</date><lb/>
-                    <biblScope unit="volume">Vol. 22</biblScope><lb/>
-                    <biblScope unit="number">No. 261</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1932-07-10">July 10, 1932</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 22</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 261</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -31,7 +42,7 @@
     <text>
         <body>
             <div type="nameplate">
-                <p>22““ ANNEE (57me Ann.ee Judiciaire>.</p>
+                <p>22““ ANNEE (57me Ann.ee Judiciaire&gt;.</p>
                 <p>N° 261</p>
                 <p>JUILLET 1932.</p>
                 <p>DIRECTION,</p>
@@ -92,10 +103,10 @@
                     se mit à. adapter les mêmes principes de "liberté d’option pour les femmes
                     belges épousant des étrangers que pour les femmes étrangères qui épousaient un
                     Belge, ■et la législation française s’en est du reste fortement inspirée.</p>
-                <p>La législation française, en vigueur avant >la loi du 10 Août 1027. était imbue
-                    ■de l’ancien principe de l’unité de nationalité dans les foyers, c’est-à-dire
-                    que la femme française qui épousait un étranger devenait étrangère: elle
-                    conservait, (néanmoins, sa nationalité française toutes les fois qu’elle
+                <p>La législation française, en vigueur avant &gt;la loi du 10 Août 1027. était
+                    imbue ■de l’ancien principe de l’unité de nationalité dans les foyers,
+                    c’est-à-dire que la femme française qui épousait un étranger devenait étrangère:
+                    elle conservait, (néanmoins, sa nationalité française toutes les fois qu’elle
                     n’acquerrait pas la nationalité de son mari en vertu de la loi propre de ce
                     dernier. De même, une femme •étrangère qui épousait un français acquérait, de
                     plein droit la nationalité française; mais cette unité de nationalité ne pouvait
@@ -612,7 +623,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0010">
                     <head>320. - Responsabilité. — Accident; compagnie d'électricité; obligations
                         lui incombant; charge de la preuve d'une imprudence.</head>
                     <div type="summary">
@@ -665,7 +676,7 @@
                             établie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0020">
                     <head>321. - Responsabilité. — Accident; tramway; priorité de passage reconnue
                         sur les autres voitures; obligation à la charge des autres véhicules avant
                         de s'engager sur les rails du tram. — Hés-ponsabilité; voiture débouchant
@@ -765,7 +776,7 @@
                             fondé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0030">
                     <head>322. - Responsabilité. — Accident d'au-tomobile; assurance sur les
                         accidents d'automobile s; action directe de la victime contre l'assureur de
                         l'auteur de l'accident; action oblique de la victime contre l'assureur;
@@ -1132,7 +1143,7 @@
                         <p>; que c’est spécialement sur l’autorité du se- ‘</p>
                         <p>i cond de ce s auteurs que la Compagnie d’as-. I</p>
                         <p>surancè base sa défense enseignaient ce qui ! suit: &lt;i Les polices
-                            d’assurance contre les me- ></p>
+                            d’assurance contre les me- &gt;</p>
                         <p>• cidents du travail garantissent Je. chef d’en-. î j treprise même quand
                             l’accident a’ été causé f par sa faute inexcusable. Pareillement les I
                             polices d’assurance contre les accidents d’au- j ; tomobiles couvrent la
@@ -1409,7 +1420,7 @@
                             de l’accident.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0040">
                     <head>323. - Responsabilité. — Accident d'automobile; assurance sur les
                         accidents d'automobiles; action directe de la victime contre l'assureur de
                         l'auteur de l'accident; inexistence en droit mixte; action oblique de la
@@ -1537,7 +1548,7 @@
                         <p>Note. — Y. ci-avant § 322 l’arrêt du 15 15 Juin 1932, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0050">
                     <head>324. - Responsabilité. — Accident d’automobile; nature de la preuve à
                         rapporter par l’auteur de Vaccident; -présomption de responsabilité à charge
                         de l'auteur de l'accident; théorie du risque; accident dû à la rencontre de
@@ -1676,7 +1687,7 @@
                             d’automobiles », par E. Vroonen.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0060">
                     <head>325. - Responsabilité. — Accident d'automobile; personne confiant la
                         conduite de son automobile à une personne non munie de permis de conduire;
                         responsabilité solidaire avec l'auteur de l’accident.</head>
@@ -1785,7 +1796,7 @@
                             Hilmy...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0070">
                     <head>326. - Responsabilité. — Accident d'automobile; responsabilité du chef de
                         famille en qualité de commettant du chauffeur conduisant l'automobile d'un
                         membre de la famille. — Preuve par témoins; enquête; nouvelle audition d'un
@@ -1847,7 +1858,7 @@
                         <p>Attendu que pour ce qui concerne la première question, les témoignages
                             recueillis-lors de l’enquête ordonnée par le Tribunal ne laissent place
                             à aucun doute;</p>
-                        <p>> {Omissis).</p>
+                        <p>&gt; {Omissis).</p>
                         <p>... Attendu, sur la régularité de cette enquête supplémentaire, que rien
                             n’empêche le magistrat enquêteur de faire venir de nouveau devant lui un
                             témoin qui a déjà déposé pour être interrogé sur un fait nouveau, tel
@@ -1908,7 +1919,7 @@
                             prétentions étaient en définitive écartées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0080">
                     <head>327. - Responsabilité. — Accident d'automobile; transport gratuit; preuve
                         nécessaire d'une faute lourde du transporteur. — Demande; dommages-intérêts
                         réclamés par une assignation unique par plusieurs victimes d'un même
@@ -2046,7 +2057,7 @@
                             30 Juin 1926. Gaz. Pal, 1926, 2, 408).</p>
                         <p>Par contre, dans cette jurisprudence, « la gratuité du transport ne fait
                             pas échec1 à la règle commune, suivant laquelle la faute légère aussi
-                            bien que la faute lourde engage la responsabilité de son auteur ,>
+                            bien que la faute lourde engage la responsabilité de son auteur ,&gt;
                             (Nîmes. 14 Décembre 1925, Gaz. Pal. 1926. 1, 298).</p>
                         <p>Toul en tenant compte que la responsabilité de l’automobiliste doit être
                             appréciée moins sévèrement qu en matière d’accident ordinaire, s
@@ -2079,7 +2090,7 @@
                             et uniquement imputable au conducteur de l’automobile.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0090">
                     <head>328. - Responsabilité. — Accident de chemin de fer; compagnie de
                         transport; obligation de précautions, de surveillance et de vigilance sur le
                         matériel et le personnel; déraillement dû à la dilatation des rails; défaut
@@ -2213,7 +2224,7 @@
                             700.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0100">
                     <head>329. - Responsabilité. — Accident de chemin fer; passages à niveau;
                         distinction entre passages à niveau gardés et non gardés: obligations
                         incombant à l’Administration; obligations incombant <pb n="285"
@@ -2971,7 +2982,7 @@
                         <p>On ne pourrait mieux dire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0110">
                     <head>330. - Responsabilité. — Accident de tramway; faute commise par un mineur
                         ayant agi sans discernement; absence de responsabilité; dommages-intérêts
                         réclamés au profit d’un mineur à un tiers; appréciation. — Accident de
@@ -3079,7 +3090,7 @@
                             juste réparation du préjudice occasionné.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0120">
                     <head>331. - Responsabilité. — Accident du travail; obligations du patron;
                         étendue; travaux dangereux; omission de précautions nécessaires pour la
                         sécurité de l'ouvrier; obligation de surveillance; faute de l'ouvrier
@@ -3326,7 +3337,7 @@
                             contraire, au moyen d’un certificat médical...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0130">
                     <head>332. - Responsabilité. — Accidents de la circulation; usage suivi aux
                         bifurcations et croisements, de chemins; routes de même importance et
                         d’importance différente; critérium d’appréciation de l’importance des
@@ -3434,7 +3445,7 @@
                         <p>Note. — Rappr. ci-après § 338 l’arrêt du 13 Novembre 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0140">
                     <head>333. - Responsabilité. — Actes de négligence ou d'imprudence;
                         quasi-délits; dénonciation; plainte déclarée non [ondée; cas où son auteur
                         encourt une responsabilité.</head>
@@ -3492,7 +3503,7 @@
                             et d’infirmer le jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0150">
                     <head>334. - Responsabilité. — Actes de négligence ou d'imprudence. —
                         Reconnaissances des Monls-de-Piélé; création de fausses reconnaissances par
                         un employé, au moyen de l'utilisation frauduleuse des imprimés et du timbre
@@ -3803,8 +3814,8 @@
                         <p>Que si, au contraire, la loi établit des restrictions qui sont
                             incompatibles avec cette complète autonomie des droits du dernier
                             porteur par rapport aux précédents titulaires, il y a dans ce fait la
-                            preuve indiscutable de ce que la qualification du titre « au porteur )>
-                            est faite dans le seul but d’indiquer qu’il s’agit d’un titre
+                            preuve indiscutable de ce que la qualification du titre « au porteur
+                            )&gt; est faite dans le seul but d’indiquer qu’il s’agit d’un titre
                             négociable, à savoir transmissible par tradition manuelle sans que la
                             question de l’opposabilité des exceptions puisse être résolue par cette
                             qualification;</p>
@@ -4100,7 +4111,7 @@
                             1931 (aff. du's/s « Costi »).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0160">
                     <head>335. - Responsabilité. — Actes du pouvoir judiciaire; membres du Parquet;
                         Ministère dont ils relèvent; action en dommages-intérêts dirigée à
                         l'encontre du Ministère de l'intérieur du chef d'agissements des membres du
@@ -4314,7 +4325,7 @@
                         <p>(Ensuite: mêmes motifs que pour l'arrêt précédent).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0170">
                     <head>336. - Responsabilité. — Banque; ouverture de crédit; clause d'exonération
                         en cas de documents faux présentés à la banque; validité.</head>
                     <div type="summary">
@@ -4369,7 +4380,7 @@
                             suffisance de droit...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0180">
                     <head>337. - Responsabilité. — Bâtiments: chute; accident dû à la vétuste de
                         l'immeuble; responsabilité du bailleur même non propriétaire; droits du
                         locataire.</head>
@@ -4437,7 +4448,7 @@
                         <p>Qu’il échet de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0190">
                     <head>338. - Responsabilité. — Choses que l’on a sous sa garde. — Défaut de
                         surveillance des personnes que l'on a sous sa garde; responsabilité du
                         commettant; propriétaire de taris. — Accident d'automobile; règles de la
@@ -4552,7 +4563,7 @@
                         <p>III. - Rappr. ci-avant S 332 l’arrêt du 3 Mars 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0200">
                     <head>339. - Responsabilité. — Cohabitation maritale; survenance d'enfant;
                         obligation naturelle du père de subvenir aux frais d'éducation de l'enfant;
                         obligation naturelle convertie en obligation civile par le fait de
@@ -4831,7 +4842,7 @@
                             pays.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0210">
                     <head>340. - Responsabilité. — Commettant; actes de ses préposés; dommages
                         causés par suite de la contrainte d'un tiers; défaut de responsabilité
                         civile du patron. -— Gouvernement; actes dommageables commis. par la police;
@@ -4929,7 +4940,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0220">
                     <head>341. - Responsabilité. —- Commettant; actes de scs préposés; fautes
                         commises par les préposés dans l'exercice de leurs fonctions et actes
                         criminels commis pendant l'exercice de leurs fonctions; distinction;
@@ -5026,7 +5037,7 @@
                         <p>Il ne résulte pas des déclarations des témoins qu’il ait opposé une
                             résistance, l’électricien, dont la déclaration est la seule qui se
                             réfère à la mort de Mayafis, faisant observer simplement qu’il avait vu
-                            ce dernier >&lt; allant s’informer de quoi il s’agis-<pb n="302"
+                            ce dernier &gt;&lt; allant s’informer de quoi il s’agis-<pb n="302"
                                 rendition="Gazette des Tribunaux Mixtes d’Egypte."/>sait... » et qu
                             il avait ensuite entendu des coups de feu et l’avait vu ensanglanté.</p>
                         <p>Son cadavre lut je te à la mer avec ceux des deux autres victimes, et ce
@@ -5036,9 +5047,9 @@
                             l’assistance d’un avocat (vu que. le procès se déroulait seulement sur
                             le fait de savoir si le vapeur avait été précédemment russe), le
                             capitaine ès-qualité fut condamné à la livraison du vapeur aux autorités
-                            soviétiques et au paiement d’une indemnité de 12(M> roubles. Plus tard,
-                            les membres de 1 équipage qui ne demandaient pas à rester en Russie ont
-                            été renvoyés à Alexandrie.</p>
+                            soviétiques et au paiement d’une indemnité de 12(M&gt; roubles. Plus
+                            tard, les membres de 1 équipage qui ne demandaient pas à rester en
+                            Russie ont été renvoyés à Alexandrie.</p>
                         <p>La présente action a pour base les prétentions suivantes:</p>
                         <p>1.) Responsabilité de l’armateur pour négligence et défaut de
                             surveillance particulièrement en laissant pénétrer les bandits dans le
@@ -5146,7 +5157,7 @@
                             (aff. des Monts-de-Piété Egyptiens).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0230">
                     <head>342. - Responsabilité. — Décision sur le droit en principe aux
                         dommages-intérêts ■ et non sur l'existence de ces dommages; ' limites de la
                         chose jugée. — Faute; preuve du préjudice; éléments d’appréciation;
@@ -5203,7 +5214,7 @@
                             que sur le prix du navire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0240">
                     <head>343. - Responsabilité. — Délits et quasi-délits; avances consenties sur
                         des titres ■ faux; responsabilité conjointe et solidaire de tous ceux qui se
                         sont rendu complices du faux.</head>
@@ -5278,7 +5289,7 @@
                             de cette somme. -</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0250">
                     <head>344. - Responsabilité. — Dommages-in-térèls; dommage moral; indemnité due;
                         parents de la. victime; caractère de droit personnel; limite du droit des
                         héritiers à la réparation du seul dommage subi par eux-mêmes. — Demande;
@@ -5365,7 +5376,7 @@
                             Hassanein;</p>
                         <p>Que Fratelli Bertoni d’une part, et A. Sierra &amp; Cie, d’autre part,
                             reprennent en. appel les conclusions récursoires qu’ils ont.
-                            réciproquement prises en première instance; ></p>
+                            réciproquement prises en première instance; &gt;</p>
                         <p>Attendu que pour ce qui est de l’exception de l’irrecevabilité de
                             l’action soulevée par, A. Sierra &amp;• Cie, il importe de faire
                             remarquer que les premiers juges ont admis à juste raison que les
@@ -5491,7 +5502,7 @@
                             1 ont pas fait...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0260">
                     <head>345. - Responsabilité. — Dommages-intérêts; dommage moral; préjudice subi
                         par le père par suite de la perte de son enfant en bas âge; défaut de
                         préjudice matériel; indemnité; principe; évaluation. Juridiction indigène;
@@ -5569,7 +5580,7 @@
                         <p>Que dès lors en l’espèce une indemnité de 200 livres semble adéquate.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0270">
                     <head>346. - Responsabilité. — Donimages-intérêts; évaluation; préjudice
                         susceptible d'être évité par la. victime.</head>
                     <div type="summary">
@@ -5621,7 +5632,7 @@
                             intérêt...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0280">
                     <head>347. - Responsabilité. — Dommages-intérêts; indemnité contractuelle due
                         par le patron à l'ouvrier victime d'un accident; cumul avec l'indemnité due
                         par l'auteur de l'accident.</head>
@@ -5699,7 +5710,7 @@
                             de droit au premier appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0290">
                     <head>348. - Responsabilité. — Fautes successives; causa proxima; causa remota;
                         responsabilité de l'auteur de la causa causans. — Transport fluvial;
                         accident; voie d'eau duc à la vétusté du bateau; choc extérieur ne
@@ -5789,7 +5800,7 @@
                         <p>Note.— V. ésr. ci-après S 349 l’arrêt du 17 Février 1932?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0300">
                     <head>349. - Responsabilité. — Fautes succès-sives; causa remota; causa proximà;
                         causa causans; définition; cas où la faute nouvelle indépendante de la
                         première faute devient la causa causans, la première faute devenant sans
@@ -5879,7 +5890,7 @@
                         <p>Note. — V. ég. ci-avant § 348 l'arrêt du 15 Avril 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0310">
                     <head>350 - Responsabilité. — Maison de commerce prenant la suite d'une autre
                         maison; effet quant à la charge des dettes.</head>
                     <div type="summary">
@@ -5893,7 +5904,7 @@
                             èsq.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0320">
                     <head>351. -Responsabilité. — Promesse de mariage; relations intimes déterminées
                         par la promesse; rétractation; réparation due.</head>
                     <div type="summary">
@@ -5962,7 +5973,7 @@
                         <p>Note. — Rappr. ci-après § 352 l’arrêt du 2 Avril 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0330">
                     <head>352. - Responsabilité. — Promesse de mariage; rupture intempestive;
                         absence de toute idée de séduction; réparation due pour le seul préjudice
                         matériel occasionné.</head>
@@ -6043,7 +6054,7 @@
                         <p>Note. — Rappr. ci-avant § 351 l’arrêt du 23 Février 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-07-0340">
                     <head>353. - Responsabilité. — Quasùdélits; usurpation de terrains;
                         responsabilité solidaire des usurpateurs. —Intérêts; capitalisation;
                         anatocisme; cas où il est autorisé par une demande en justice.</head>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0027-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0027-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1937-06-10">June 10, 1937</date><lb/>
-                    <biblScope unit="volume">Vol. 27</biblScope><lb/>
-                    <biblScope unit="number">No. 320</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1937-06-10">June 10, 1937</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 27</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 320</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -55,7 +66,7 @@
                 <p>Comité de Rédaction et d’Administration :</p>
                 <p>M- L. PANGALO et B. 8CHEMEIL (Directeurs au Caire)</p>
                 <p>M” E. DEGTARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
-                <p>M- A. FADEL (Directeur à Mansourah). M- F. BRAUN | „ à Parfe></p>
+                <p>M- A. FADEL (Directeur à Mansourah). M- F. BRAUN | „ à Parfe&gt;</p>
                 <p>Me G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT f</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an). P.T. 150</p>
@@ -456,7 +467,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0010">
                     <head>172. - Assurance fluviale. ,— Police relative aux « dommages matériels
                         causés à autrui »; étendue des risques couverts; inapplicabilité aux
                         dommages causés aux personnes.</head>
@@ -497,7 +508,7 @@
                         <p>... Enfin, pour ce qui est de l’application de la police d’assurance, la
                             Cour , ne peut quiadopter l’interprétation absolument cor-</p>
                         <p>l recte des premiers juges, ayant décidé que la clause contractuelle
-                            couvrant &lt;> les dommages matériels causés à autrui » couvre les
+                            couvrant &lt;&gt; les dommages matériels causés à autrui » couvre les
                             dommages aux choses, mais ne couvre pas les dommages aux personnes. La
                             solution, en effet, s’impose pour quatre considérations:</p>
                         <p>a) parce que, dans le langage courant, l’expression « dommages matériels
@@ -519,7 +530,7 @@
                             effet...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0020">
                     <head>173. - Assurance maritime. — Assurance conclue après la perte ou l'arrivée
                         des objets assurés; art. 207 et 208 C. Mar.; interprétations; assimilation
                         entre la nouvelle de Véchouement et la nouvelle survenue postérieurement de
@@ -584,7 +595,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0030">
                     <head>174. - Assurance maritime. ■— Police; clauses relatives aux obligations de
                         l’assuré; cas de modification en cours de route de la désignation de la
                         marchandise; aggravation des risques assurés; déchéance.</head>
@@ -687,7 +698,7 @@
                             d’Anastassiadis...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0040">
                     <head>175. - Assurance maritime. — Bisques couverts par la police; formule c
                         tout autre péril »; risques qu'elle comprend; négligence du capitaine ayant
                         occasionné l'avarie de la marchandise; non assimilation à la baraterie;
@@ -902,7 +913,7 @@
                             par l’armateur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0050">
                     <head>176. - Navire. -— Armateur; limite de ses obligations; indemnité due au
                         marin mutilé; décès n’entraînant pas l'obligation d'indemniser les parents
                         de la victime.</head>
@@ -1016,7 +1027,7 @@
                             (art. 1er).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0060">
                     <head>177. - Navire. — Capitaine; engagements; responsabilité du propriétaire. —
                         Affrètement; autorisation spéciale exigée par l'art. 47 C.Mar.; présomption;
                         conséquences.</head>
@@ -1093,8 +1104,8 @@
                             simplement le jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>178. - Transport. >— Action contre le ■voiturier; déchéance prévue à
+                <div type="case" xml:id="gtme-1937-06-0070">
+                    <head>178. - Transport. &gt;— Action contre le ■voiturier; déchéance prévue à
                         l'art. 104 C.Com.; application aux envois en port dû payé; application en
                         cas d'avarie survenue à cause d’un retard; inapplication au bénéfice du
                         commissionnaire de transport. ■— Voiturier; détention de la marchandise à la
@@ -1231,7 +1242,7 @@
                             l’arrêt rapporté</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0080">
                     <head>179. - Transports fluviaux. — Connaissement; clause d’exonération de
                         responsabilité; validité sauf en cas de dol ou de faute lourde; cas
                         particuliers; dommages causés par incendie, par eau de pluie, par mauvais
@@ -1626,7 +1637,7 @@
                             Tribunal Mixte de Commerce d’Alexandrie en date du 11 Décembre 1933;</p>
                         <p>Attendu que par la présente action, la Compagnie d’Assurance
                             Anglo-Elementar (ci-dessous désignée « Anglo ») poursuit la United
-                            Egyptian Nile Transport (ci-dessous dénommée « United Nile >>) en
+                            Egyptian Nile Transport (ci-dessous dénommée « United Nile &gt;&gt;) en
                             recouvrement des préjudices par elle subis du fait du naufrage d’un
                             chaland de la United à bord du</p>
                         <p>quel voyageaient des marchandises appartenant à son assurée, la Société
@@ -2131,7 +2142,7 @@
                             prescriptions les plus sévères.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0090">
                     <head>180. - Transports fluviaux. ■— Connaissement; clause d'exonération pour le
                         cas de coulage; validité. — Transport fluvial; voiturier; détention de la
                         marchandise à la fin du transport; responsabilité non régie par les règles
@@ -2243,7 +2254,7 @@
                         <p>Note. — II. - V. ég. ci-avant § 178 l’arrêt du 15 Mai 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0100">
                     <head>181. - Transports terrestres. — Chemins de fer; tarif; erreur; cas où il
                         n'y a pas lieu à redressement.</head>
                     <div type="summary">
@@ -2340,7 +2351,7 @@
                             conséquences do la faute évidente de l’Administration.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0110">
                     <head>182. - Vente commerciale. — Cession du contrat par l'acheteur;
                         inadmissibilité à défaut de stiirulation spéciale.</head>
                     <div type="summary">
@@ -2355,8 +2366,8 @@
                             Banna c. R. S. « Fra-telli Piha ».</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>183. - Vente commerciale. >— Clause « expédition par bateau postal »;
+                <div type="case" xml:id="gtme-1937-06-0120">
+                    <head>183. - Vente commerciale. &gt;— Clause « expédition par bateau postal »;
                         inobservation; conséquence. ■— Clause déférant les difficultés à trancher au
                         vendeur originaire; portée; obligation du vendeur. — Conclusions; demande
                         nouvelle; affaire retenue en première instance sans conclusion; recevabilité
@@ -2483,7 +2494,7 @@
                             de justice contraindre son acheteur à subir son exécution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0130">
                     <head>184. - Vente commerciale. — Consignation; refus de réception non motivé
                         par le retard; demande ultérieure de résiliation pour retard;
                         inadmissibilité.</head>
@@ -2534,7 +2545,7 @@
                             ces conditions, de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0140">
                     <head>185. - Vente eommerciale. — Prix; paiement; règlement par effets
                         subordonné par le vendeur à Vétranger à la condition d'approbation par le
                         commissionnaire; appréciation discrétionnaire de ce dernier.</head>
@@ -2613,7 +2624,7 @@
                             du vendeur est en principe bien fondée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0150">
                     <head>186. - Vente commerciale. — Vente cïf; examen de la marchandise;
                         inadmissibilité avant le règlement des documents; transport; transbordement;
                         cas d’admissibilité; défense de l'acheteur basée sur la non conformité de la
@@ -2764,7 +2775,7 @@
                             1929.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0160">
                     <head>187. - Vente commerciale. — Vente maritime; délai d'embarquement; retard
                         provoqué par des escales exagérées; droits de l'acheteur; résiliation aux
                         torts du vendeur. ■— Appel; taux; contrats de vente distincts mais se
@@ -2873,7 +2884,7 @@
                         <p>Qu’il y a lieu, dans ces conditions, de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-06-0170">
                     <head>188. - Vente. — Diminution des sûretés; art. 353 C. Civ.; applicabilité
                         aux ventes au comptant.</head>
                     <div type="summary">

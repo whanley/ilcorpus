@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0002-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0002-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1912-01-10">January 10, 1912</date><lb/>
-                    <biblScope unit="volume">Vol. 2</biblScope><lb/>
-                    <biblScope unit="number">No. 15</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1912-01-10">January 10, 1912</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 2</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 15</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -1343,7 +1354,7 @@
             <pb n="40" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0010">
                     <head>Adjudicataire. — Cahier des charges. — Prix (paiement du).</head>
                     <div type="summary">
                         <p>N’est pas admissible l’insertion au cahier des charges d’une clause
@@ -1361,7 +1372,7 @@
                             Egyptien c. Matteo Marco Benachî).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0020">
                     <head>Appel (acte d’). — Motivation. —Nullité.</head>
                     <div type="summary">
                         <p>Un acte d’appel reprochant au jugement attaqué une prétendue
@@ -1375,7 +1386,7 @@
                             ekksndl Ismaïl c. Ch. Dilaveri et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0030">
                     <head>Assesseurs indigènes. — Tribunal Correctionnel.</head>
                     <div type="observations">
                         <p>Note. — Un arrêt de la Cour (P- Ch. Prés. M. Gescher) en date du 13
@@ -1386,7 +1397,7 @@
                             p. 5, § Assesseurs Indigènes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0040">
                     <head>Bénéfice de discussion. — Vente. — Sous-acquéreur. — Action
                         oblique.</head>
                     <div type="summary">
@@ -1419,7 +1430,7 @@
                             autres)."</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0050">
                     <head>Bourse eu Valeurs (Commission de la). — Personnalité morale. — Inscription
                         à la cote; - ;</head>
                     <div type="summary">
@@ -1447,7 +1458,7 @@
                             d’Alexandrie.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0060">
                     <head>Cession (Signification de). — Omission de la copie du titre. — Mention du
                         transfert. — Validité. ;</head>
                     <div type="summary">
@@ -1463,15 +1474,15 @@
                             là tout ce que l’exploit doit signifier au débiteur.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Trib. desAnpels Somm. Caire 6 novembre 1911. R. S>« E. et R. Abdella c.
-                            Gabriel Nasra).</p>
+                        <p>(Trib. desAnpels Somm. Caire 6 novembre 1911. R. S&gt;« E. et R. Abdella
+                            c. Gabriel Nasra).</p>
                     </div>
                     <div type="observations">
                         <p>Note. Cf. Trib. Comm. Alex. 27 Novembre 1911. Gaz. Trib. IL 14, p. 20, A
                             Cession.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0070">
                     <head>Chose jugée. — Déboutement en l’état.</head>
                     <div type="summary">
                         <p>Il n’est pas possible d’échapper à là chose jugée pour reprendre, en
@@ -1484,7 +1495,7 @@
                             Curiel c. Crédit Foncier Egyptien et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0080">
                     <head>Compétence. — Echange d’immeubles. — Inscription hypothécaire. — Intérêt
                         mixte.</head>
                     <div type="summary">
@@ -1499,7 +1510,7 @@
                             Sayed eff. Hamia Antoun et consorts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0090">
                     <head>Compétence civile. — Comptes.</head>
                     <div type="summary">
                         <p>Le Tribunal Civil, saisi de l’exécution d’un acte de nature civile, est
@@ -1511,7 +1522,7 @@
                             Schelling &amp; L. Glissing).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0100">
                     <head>Concordat préventif. — Créanciers délégués. — Experts.</head>
                     <div type="summary">
                         <p>L’art. 206 du Code de Commerce, interprété littéralement, peut prêter à
@@ -1552,7 +1563,7 @@
                             Caire).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0110">
                     <head>Concurrence déloyale. — Cigarettes. — Contenant.</head>
                     <div type="summary">
                         <p>La mise en vente de cigarettes dans des boîtes entièrement dissemblables
@@ -1564,7 +1575,7 @@
                             &amp; Cie. c. Moustafa Hassan el Messin).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0120">
                     <head>Contrebande. — Tabac. — Armes et munitions. — Commission douanière —
                         Confiscation.</head>
                     <div type="summary">
@@ -1581,7 +1592,7 @@
                             c. Douanes Egyptiennes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0130">
                     <head>Défaut profit-joint. — Demandeur. — Mise en cause.</head>
                     <div type="summary">
                         <p>S’il est vrai que le défendeur peut être considéré comme demandeur
@@ -1606,7 +1617,7 @@
                         <p>Note. — Cf. Alex. 13 Août 1910. Gaz. Trib. I, p. 5, § Profit-joint.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0140">
                     <head>Détournement. d’objets saisis. — Séquestré. — Juridiction Mixte.</head>
                     <div type="summary">
                         <p>L’Art. 8 du Titre II R.O.J. qui a soumis à la juridiction mixte la
@@ -1627,7 +1638,7 @@
                             Public.c.Ahmed Moustafa el Gohari et Ct.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0150">
                     <head>Distribution. — Intérêts. — Contredit. — Imputation. — Faillite.</head>
                     <div type="summary">
                         <p>I. Le créancier hypothécaire qui, pendant la procédure de distribution,
@@ -1776,7 +1787,7 @@
                             en premier lieu sur le capital.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0160">
                     <head>Distribution. — Sommation de produire. — Créancier gagiste.</head>
                     <div type="summary">
                         <p>La sommation de produire dans une distribution n’est obligatoirement
@@ -1801,7 +1812,7 @@
                             Charges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0170">
                     <head>Domicile. — Résidence.</head>
                     <div type="summary">
                         <p>Le fait pour une personne de résider à certaines époques dans une ville
@@ -1818,7 +1829,7 @@
                             Barthe Dejean c. Hussein bey El Choucri).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0180">
                     <head>Donation entre époux. — Délivrance.</head>
                     <div type="summary">
                         <p>On ne saurait considérer comme sincère et valable, la donation faite par
@@ -1842,7 +1853,7 @@
                             Nicolas Vlandi et consorts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0190">
                     <head>Ecurie publique. — Contravention.</head>
                     <div type="summary">
                         <p>On ne peut faire rentrer dans la dénomination d’écurie publique à
@@ -1869,7 +1880,7 @@
                             Hustermann).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0200">
                     <head>Exécution. — Procès-verbal de carence. — Opposition.</head>
                     <div type="summary">
                         <p>Un procès-verbal de carence dressé en l’absence de l'intéressé, dont le
@@ -1886,7 +1897,7 @@
                             c. Ibrahim Hussein Moez et consort).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0210">
                     <head>Exécution (difficulté d’). — Référé. — Mise en possession.</head>
                     <div type="summary">
                         <p>La mise en possession par voie d’huissier d’une propriété indivise
@@ -1900,7 +1911,7 @@
                             contre Ahmed Hassan Bedouchi et Moussa Aly).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0220">
                     <head>Faillite. — Commerçant. — Associé en nom collectif. — Publications de
                         Société.</head>
                     <div type="summary">
@@ -1926,7 +1937,7 @@
                         <pb n="43" rendition="GAZETTE DES TRIBUNAUX MIXTES D’EGYPTE"/>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0230">
                     <head>Faillite. — Compétence latione loci. — Domicile. — Imprésario
                         théâtral.</head>
                     <div type="summary">
@@ -1941,7 +1952,7 @@
                             &amp; Lie. c. F. Castellano).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0240">
                     <head>Inscription de faux. — Recevabilité.</head>
                     <div type="summary">
                         <p>L’inscription de faux incident n’est plus recevable après la clôture des
@@ -1953,7 +1964,7 @@
                             Soliman c. Jacques V. Adda).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0250">
                     <head>Louage de Services. — Domestique. — Congé.</head>
                     <div type="summary">
                         <p>Le droit mutuel de rupture inhérent au contrat de louage de services
@@ -1969,7 +1980,7 @@
                             Khamis el Soudant c. Arthur Fi-nardi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0260">
                     <head>Meubles. — Cabines de bain. — Saisie mobilière.</head>
                     <div type="summary">
                         <p>Des cabines de bain en bois installées sur le domaine public pendant une
@@ -1983,7 +1994,7 @@
                             Sambaqueros c. A. Delageorgi et Riga Coroneo).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0270">
                     <head>Nationalité. — Protégés austro-hongrois. — Statut personnel. —
                         Majorité.</head>
                     <div type="summary">
@@ -2010,7 +2021,7 @@
                             esq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0280">
                     <head>Opposition. — Demande nouvelle. — Conclusions (modification).</head>
                     <div type="summary">
                         <p>S’il est vrai qu’il ■ est de principe que l’opposition ne remet en
@@ -2029,7 +2040,7 @@
                             Directeur des Wakfs Helmieh).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0290">
                     <head>Paiement par intervention. — Subrogation légale. — Effets de commerce. —
                         Aval. — Tiers porteur. — Gestion d'affaires.</head>
                     <div type="summary">
@@ -2054,7 +2065,7 @@
                             Ibrahim Said elKholi c. A. AntoneHo et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0300">
                     <head>Profit joint. — Opposition. — Avocat. — Mandat. — Désaveu (action
                         en).</head>
                     <div type="summary">
@@ -2072,7 +2083,7 @@
                             Abdallah El Fiki c. Hoirs Basile Cotzaüs).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0310">
                     <head>Saisie-Arrêt. — Validation (instance en). — Sursis (jugement de).</head>
                     <div type="summary">
                         <p>S’il est de droit que le Tribunal saisi de l’instance en validité d’une
@@ -2087,7 +2098,7 @@
                             Protopappa c. Attia Moustafa et Antoine Cantzillieri). • ?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0320">
                     <head>Société Anonyme. — Existence de fait. — Firman Khédivial.</head>
                     <div type="summary">
                         <p>Par cela seul qu’une société existe et fonctionne en fait, les tiers sont
@@ -2103,7 +2114,7 @@
                             Girard c. Pharmacie Normale).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0330">
                     <head>Surenchère. — Nullité.</head>
                     <div type="summary">
                         <p>Le délai de trois jours accordé par l'Art. 662 C. Proc, au
@@ -2117,7 +2128,7 @@
                             LalomonRouben c. KhalH Boulad et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0340">
                     <head>Surenchère. — Nullité. — Appel. — Recevabilité.</head>
                     <div type="summary">
                         <p>I. Les jugements statuant sur un moyen de nullité d’une surenchère après
@@ -2145,7 +2156,7 @@
                             Abdel Halim c. Moussa Cohen et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0350">
                     <head>Témoins. — Cassation. — Nullité de procédure pénale.</head>
                     <div type="summary">
                         <p>Le Code d’instruction Criminelle ne reproduisant pas la disposition de
@@ -2160,7 +2171,7 @@
                             c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0360">
                     <head>Tiers détenteur. — Adjudicataire. — Revendication.</head>
                     <div type="summary">
                         <p>Le tiers détenteur qui se prévaut de la non - signification de la
@@ -2181,7 +2192,7 @@
                             Immobilières sur expropriation forcée : Gaz. Trib. I § 5 p. 114-115.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0370">
                     <head>Tiers détenteur. — Contredit. — Distribution.</head>
                     <div type="summary">
                         <p>Le tiers détenteur ne peut pas être assimilé à un créancier inscrit
@@ -2194,7 +2205,7 @@
                             c. Stamati Alitarakis et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0380">
                     <head>Vente. — Clause pénale.</head>
                     <div type="summary">
                         <p>Quand il est intervenu un acte de vente sous-seing privé parfait dans
@@ -2210,7 +2221,7 @@
                             Awad c. Moïse Tilchefils).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0390">
                     <head>Vente. — Coton non égrené.— Prix. — Usage commercial. J~</head>
                     <div type="summary">
                         <p>Il est d’usage courant qu’à défaut de convention contraire,; la vente du
@@ -2223,7 +2234,7 @@
                             consorts c. Georges Pando).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-01-0400">
                     <head>Vente forcée (par les autorités). — Chose certaine. — Perte par cas
                         fortuit.</head>
                     <div type="summary">
@@ -2775,7 +2786,7 @@
                 <p>Fathy et Cie. (Syndic L. Meguerditchian). Le</p>
                 <p>12-12-11 vente de la moitié par indivis de 43 feddans 4 kirats et 20 sahmes sis
                     au village de Oubour El Omar, district de Delingat, au Hod El Nethawi. Mise à
-                    prix L.Eg. 1190, plus frais taxés à L.Eg. 21 8l%&lt;»> le tout augmenté d’un
+                    prix L.Eg. 1190, plus frais taxés à L.Eg. 21 8l%&lt;»&gt; le tout augmenté d’un
                     dixième, par suite de la surench. du Sr. Assaad Hanna.</p>
                 <p>■ Feu Ahmed Salem Deghem (Synd. Tabet). Vérif. et conc. 16-1-12 à 9 h. % a.m.</p>
                 <p>Société C. Zervudaehi et fils (Synd. Berninzone). Renvoi syndicat déf. au 30-1-12
@@ -2897,7 +2908,7 @@
                 <p>Ahmed Effendi Omar, Le 2-1-12 à 10 h. a.m. lecture du rapport de M. Tabet en
                     qualité d’expert et du Sieur J. Cavaliero, de la maison San-guinetti et Lie., en
                     qualité de créancier délégué. Ord. 13-12-11 aut. l’exploit, prov.</p>
-                <p>Théodore Zoumboulaki. Le 9-1-12 à 10 h. '/> a.m. lect du rapp. de M.
+                <p>Théodore Zoumboulaki. Le 9-1-12 à 10 h. '/&gt; a.m. lect du rapp. de M.
                     Anastassiades, expert.</p>
                 <p>Société Rodocanaehi Reynolds and Cy. Ld. Nom. de M.Méguerditchian en qualité
                     d’expert et des Sieurs: 1°G. Semiani, 2° Zutrauii, fondé de pouvoirs de la Sté
@@ -2911,7 +2922,7 @@
                 <p>Banque de Mételin. Nomination de Mr. Anas-tassiadis en qualité d’expert et fix.
                     séance 2-1-12 à 10 h. '/z a.m. pour lecture rapport.</p>
                 <p>Guglielmo Irone. Nom. de Mr. G. Consanti-nidis en qualité d’expert et fix. séance
-                    16-1-12 à 10 h. *.&lt;>' a.m pour lecture rapport. Bilan du</p>
+                    16-1-12 à 10 h. *.&lt;&gt;' a.m pour lecture rapport. Bilan du</p>
                 <p>28-11-11“: Passif Frs. 24014,46. Actif Frs. 20415,82.</p>
                 <p>TRIBUNAL DU CAIRE</p>
                 <p>(Juge-Commissaire : Nauqary Bey )</p>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0031-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0031-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1941-04-10">April 10, 1941</date><lb/>
-                    <biblScope unit="volume">Vol. 31</biblScope><lb/>
-                    <biblScope unit="number">No. 366</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1941-04-10">April 10, 1941</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 31</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 366</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -54,11 +65,11 @@
                 <p>réunies (un an)...... » 250</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée bous le Patronage du Conseil de l’Ordre des Avooata d’Egypte. Fondateurs
-                    t M« MAXIME PUPIKOFEB et LÉON PANUALO, Avooata à la Cour Directeur: M> MAXIME
+                    t M« MAXIME PUPIKOFEB et LÉON PANUALO, Avooata à la Cour Directeur: M&gt; MAXIME
                     FUPIKOFEB, Avocat à la Cout.</p>
                 <p>Comité de Rédaction et d'administration :</p>
-                <p>M" L. PANGALO et B. 8CHEMEIL (JMrecteurs au Oa»r«></p>
-                <p>M>* E. DEGIABDE et LUCIEN BARDA (Secrétaires de la rédaction).</p>
+                <p>M" L. PANGALO et B. 8CHEMEIL (JMrecteurs au Oa»r«&gt;</p>
+                <p>M&gt;* E. DEGIABDE et LUCIEN BARDA (Secrétaires de la rédaction).</p>
                 <p>M» A. FADEL (Directeur à Mansourah). F- BRAUN i Correspondants à Paris).</p>
                 <p>Ms J. LAÇAT I</p>
                 <p>Administrateur-Gérant :</p>
@@ -184,7 +195,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-04-0010">
                     <head>192. - Vente immobilière. — Préemption; acquiescement des vendeurs et
                         acheteurs; effets quant aux droits des parties; acquiescement dispensant de
                         la déclaration par voie de justice et empêchant toute déchéance. — Vente
@@ -300,7 +311,7 @@
                             justice, dès lors il ne peut plus y avm question de la déchéance
                             prescrite par 1 al 15 de la loi. ,</p>
                         <p>Attendu qu’il échet de retenir d’ores e déjà le caractère insoutenable du
-                            mo)on de défense de l’intimé Rachid tendant a > nullité de la
+                            mo)on de défense de l’intimé Rachid tendant a &gt; nullité de la
                             déclaration de préemption 0</p>
                         <pb n="203" rendition="Gazette des Tribunaux Mixtes,."/>
                         <p>19 Octobre 1936 faute de contenir une indication du prix, l’intimé
@@ -356,8 +367,8 @@
                             demandait pour l’évacuation des üeux; que si donc l’on devait
                             s’arrêter-là, est incontestable qu’aucune rétractation e la déclaration
                             de préemption n’en dé-•ciéf•’ alors surtout que l’avocat de la So-cen
-                            >de Métallurgie Egyptienne qui signa de lettre, à supposer qu’il eût eu
-                            mandat</p>
+                            &gt;de Métallurgie Egyptienne qui signa de lettre, à supposer qu’il eût
+                            eu mandat</p>
                         <p>de faire pareille rétractation (ce qui, pourtant, n’est même pas
                             sérieusement allégué), déclarait formellement s’en remettre à sa cliente
                             pour toute décision éventuelle sur les modifications proposées;</p>
@@ -401,7 +412,7 @@
                             bono à L.E. 50.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-04-0020">
                     <head>193. - Vente immobilière. — Préemption; affectation hypothécaire prise
                         contre le préempté après la transcription de là déclaration de préemption;
                         inefficacité même en cas de non transcription du jugement de
@@ -486,7 +497,7 @@
                             et qu’il y a lieu de faire droit à l’action en revendication...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-04-0030">
                     <head>194. - Vente immobilière. — Préemption; délai d'exercice; connaissance de
                         la vente; notion. — Déclaration de préemption; inopérance en cas de défaut
                         de qualité; préemption exercée par un tuteur pour compte d'un mineur avant
@@ -1055,7 +1066,7 @@
                             Cour ■ d’Appel Nat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-04-0040">
                     <head>195. - Vente immobilière. — Préemption; délai d'exercice; prorogation
                         lorsque le quinzième jour est un jour férié. — Préemption; connaissance de
                         la, vente; notion; preuve; charge. — Préemption; immeuble grevé de hekr. —
@@ -1240,7 +1251,7 @@
                             les premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-04-0050">
                     <head>196. - Vente immobilière. — Préemption; loyaux coûts; contestation de leur
                         opportunité; limites. — Exercice du droit de préemption au profit d'un
                         tiers; inadmissibilité.</head>
@@ -1360,7 +1371,7 @@
                             montant à L.E. 20.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-04-0060">
                     <head>197. - Vente immobilière. — Préemption; prix; paiement partiel par
                         l'acheteur avant la préemption; obligation du préempteur à l'égard du
                         vendeur; serment déféré par le préempteur tendant à établir le prix effectif
@@ -1541,7 +1552,7 @@
                             est de L.E. 350 avec les conséquences que cela comporte’</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-04-0070">
                     <head>198. - Vente immobilière. — Préemption; revente antérieure à la
                         transcription de la première déclaration de préemption; défaut de préemption
                         contre le nouvel acquéreur dans la quinzaine de la connaissance de la
@@ -1567,7 +1578,7 @@
                             l’affaire inscrite sub N° 7794, de la Glme A.J., les déboutant d’une
                             demande en préemption des terrains sous-mentionnés comme mal fondée;</p>
                         <p>Attendu en fait, que suivant acte préliminaire de vente en date du 5 Mai
-                            1936,. l’intimé Sieur Edouard Karam, èsn. et èsq.> vendit à son
+                            1936,. l’intimé Sieur Edouard Karam, èsn. et èsq.&gt; vendit à son
                             cointimé, Sieur Amin Moustafa El Sayed El Meadawi, une quantité de 3
                             feddans, 12 kirats et 1 sahme de terrains-par indivis dans 3 feddans, 17
                             kirats et 19 sahmes sis au village de Ménouf, Markaz. Ménouf, au hod El
@@ -1633,7 +1644,7 @@
                             seconde vente n’aura pas été appor-</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-04-0080">
                     <head>199. - Vente immobilière. — Préemption; subrogation du préempteur aux
                         droits et obligations de l'acheteur; exer-CICÇ du droit de préemption contre
                         un Préempté tombé en état de faillite; admissibilité.</head>
@@ -1652,7 +1663,7 @@
                             — Gohara Moza Lobos et autre c. Soliman Ishac et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-04-0090">
                     <head>200. - Vente immobilière. — Préemption. — Voisinage; concours entre
                         préempteur s; avantage retiré de l'exercice de la préemption;
                         appréciation.</head>
@@ -1914,7 +1925,7 @@
                             26 Mars 1900.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-04-0100">
                     <head>201. - Vente immobilière. — Préemption. — Voisinage; existence d'une
                         privée créée de commun accord des pro~ priéta'ires; inadmissibilité de la
                         préemption. — Préemption; titres distincts portant sur des parcelles
@@ -2261,12 +2272,12 @@
                 <p>Attendu que l’application de la Charieh s impose aux Tribunaux Civils que le cas
                     de rapports civils qui ont pré-edé l’institution des Tribunaux Nationaux, d dans
                     les cas où la loi renvoie elle-mè-à la Charieh (comme pour les succes-p ous, ie
-                    hekr); quant aux dispositions (npnmtées par le législateur à la Cha-> ?h en les
-                    faisant entrer dans ses 18 , et en leur donnant ses propres ca-v oteristiques,
-                    telles que les règles de la nie dans la dernière maladie, celles de o
-                    préemption, celles des droits de la fem-tih ^driée en droit commercial, elles
-                    cons-. uent par elles-mêmes une loi que les Tri-uaux Civils appliqueront et
-                    interpréte</p>
+                    hekr); quant aux dispositions (npnmtées par le législateur à la Cha-&gt; ?h en
+                    les faisant entrer dans ses 18 , et en leur donnant ses propres ca-v
+                    oteristiques, telles que les règles de la nie dans la dernière maladie, celles
+                    de o préemption, celles des droits de la fem-tih ^driée en droit commercial,
+                    elles cons-. uent par elles-mêmes une loi que les Tri-uaux Civils appliqueront
+                    et interpréte</p>
                 <p>ront sans être liés par les opinions des jurisconsultes musulmans, leurs
                     décisions étant au surplus soumises au contrôle de la Cour de Cassation;</p>
                 <p>Attendu que tant la Charieh que les lois religieuses des Egyptiens, Chrétiens et
@@ -4323,7 +4334,7 @@
                     dice de tout droit éventuel à la réparation du dommage subi.</p>
                 <p>Le Caire, le 13 Avril 1941.</p>
                 <p>Hussein Sirry-</p>
-                <p>Toutes les communications conce^ nant la rédaction doivent être adressee> au
+                <p>Toutes les communications conce^ nant la rédaction doivent être adressee&gt; au
                     Rédacteur en Chef.</p>
             </div>
         </body>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1918-07-10">July 10, 1918</date><lb/>
-                    <biblScope unit="volume">Vol. 8</biblScope><lb/>
-                    <biblScope unit="number">No. 93</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1918-07-10">July 10, 1918</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 8</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 93</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -276,8 +287,8 @@
                 <p>C’est là une garantie élémentaire de défense. Comment pourrait-on un seul
                     instant, avec le jugement du 19 Janvier 1918, admettre que « le Tribunal doit «
                     s’incliner devant les décisions de la « Chambre du Conseil » et les « faire «
-                    siennes, > même devant celles qu’il con-> sidérerait comme inadmissibles et
-                    injustifiables ?</p>
+                    siennes, &gt; même devant celles qu’il con-&gt; sidérerait comme inadmissibles
+                    et injustifiables ?</p>
                 <pb n="227" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                 <p>Pour nous, le seul système conciliant les droits des prévenus avec les
                     dispositions de la loi existante, c’est le système laissant aux tribunaux de
@@ -320,7 +331,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0010">
                     <head>244. - Accident. — Action en dommages-intérêts intentée par la victime. —
                         Droit successoral.</head>
                     <div type="summary">
@@ -353,7 +364,7 @@
                             examinant le fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0020">
                     <head>245. - Acquiescement. — Exécution provisoire.</head>
                     <div type="summary">
                         <p>S’il est vrai qu’en règle générale l’offre faite volontairement,
@@ -372,7 +383,7 @@
                             Georges Kahil ès-q. c. Abdel El Aziz El Cherbini et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0030">
                     <head>246. - Adjudication. — Opposition par le débiteur exproprié à un arrêt de
                         défaut rejetant contradictoirement vis-à-vis de l’adjudicataire une action
                         en annulation exercée par ce dernier. — Irrecevabilité. — Revendication. —
@@ -468,7 +479,7 @@
                             cette action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0040">
                     <head>247. Appel. — Exécution provisoire. — Acquiescement. — Nationalité.
                         —Protection ennemie. — Guerre. — Agent Consulaire.</head>
                     <div type="summary">
@@ -485,7 +496,7 @@
                             c. Andrea Guidon!).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0050">
                     <head>248. - Capitaine. — Licenciement. — Indemnité.</head>
                     <div type="summary">
                         <p>Aucune convention contraire ne peut valoir contre la disposition formelle
@@ -506,7 +517,7 @@
                             and Graving Dock Cy Ltd).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0060">
                     <head>249. - Cession nulle. — Signification. — Saisie-arrêt.</head>
                     <div type="summary">
                         <p>La signification d’une cession nulle ne peut pas valoir saisie-arrêt.</p>
@@ -516,7 +527,7 @@
                             Adda et fils c. S. Aniniar &amp; Co).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0070">
                     <head>250. - Compétence. — Jugements susceptibles d'Appel. — Hekr. — Taux de la
                         demande.</head>
                     <div type="summary">
@@ -535,7 +546,7 @@
                             Sandidi).'</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0080">
                     <head>251. - Droits de Greffe. — Solidarité des parties. '— Partie non condamnée
                         aux frais. — Dépôt d’enrôlement. — Amende.</head>
                     <div type="summary">
@@ -702,7 +713,7 @@
                             pas encore épuisé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0090">
                     <head>252. - Effets de commerce. — Nature. — Novation. — Concession d’un terme.
                         — Obligations. — Courtier: — Remisier. — Responsabilité. — Garantie. —
                         Remise de dette.</head>
@@ -835,7 +846,7 @@
                             favorable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0100">
                     <head>253. - Expropriation. — Opposition à une reprise de piocédure signifiée au
                         Greffier. — Irrecevabilité.</head>
                     <div type="summary">
@@ -878,7 +889,7 @@
                             aucun intérêt étranger n’étant en jeu.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0110">
                     <head>254. - Expropriation pour cause d’utilité publique. — Demande principale
                         d’expertise. — Titres de propriété non transcrits.</head>
                     <div type="summary">
@@ -953,7 +964,7 @@
                             notifié.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0120">
                     <head>255. - Expropriation pour cause d’utilité publique. — Droits des
                         propriétaires jusqu’à l’exécution du décret. — Action possessoire: — Ouvrage
                         de vue. — Astreinte.</head>
@@ -1066,7 +1077,7 @@
                             de l’intimée de faire procéder aux travaux nécessaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0130">
                     <head>256. - Faillite. — Tierce-opposition. — Délai d’appel des jugements rendus
                         sur tierce-opposition aux jugements intervenus sur des actions résultant de
                         la faillite. — — Revendication mobilière. — Taux d’appel. — Créanciers. —
@@ -1160,7 +1171,7 @@
                             de tiers ayant été acquise postérieurement au dit jugement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0140">
                     <head>257. - Faillite. — Vente commerciale. — Résolution. — Revendication. —
                         Autorisation du Juge Commissaire.</head>
                     <div type="summary">
@@ -1233,7 +1244,7 @@
                             la marchandise vendue et en souffrance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0150">
                     <head>258. - Marque de fabrique. — Papier à cigarettes. — Etiquette. —
                         Enregistrement. — Sujets ennemis. — Radiation d'office.</head>
                     <div type="summary">
@@ -1256,7 +1267,7 @@
                             Nicolas M. Gavalas).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0160">
                     <head>259. - Partage immobilier. — Créancier inscrit. — Vente sur licitation. —
                         Partage en nature.</head>
                     <div type="summary">
@@ -1277,7 +1288,7 @@
                             Dimitri Zafirès c. Manoli Zachari et Ci.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0170">
                     <head>260. - Péremption. — Exception d’incompétence. Juridiction Mixte. —
                         Nationalité. — Transaction.</head>
                     <div type="summary">
@@ -1302,7 +1313,7 @@
                             Dame Khadra dent Mohamed et Nour-gahan ChaJabia c. AleJeka Ghali).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0180">
                     <head>261. - Prescription. — Hypothèque. — Tiers-détenteur. — Prescription de
                         quinze ans. — Bonne foi. — Saisie.</head>
                     <div type="summary">
@@ -1474,7 +1485,7 @@
                             s’impose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0190">
                     <head>262. - Propriété (Droit de). — Obligations de voisinage. — Machines
                         génératrices d’électricité. — Trépidations. — Expertise extrajudiciaire. —
                         Architectes. — Responsabilité.</head>
@@ -1523,7 +1534,7 @@
                             instance dans les mêmes circonstances.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0200">
                     <head>263. - Propriété littéraire et artistique. —• Chants arabes. —Droits
                         d’auteur.</head>
                     <div type="summary">
@@ -1661,7 +1672,7 @@
                             caractère abusif ou de vexation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0210">
                     <head>264. - Propriété littéraire et artistique. — Droit d’auteur. — Conditions
                         de protection. — Preuves -de la propriété.</head>
                     <div type="summary">
@@ -1812,7 +1823,7 @@
                             l’Opérette «La Poupée» du compositeur Audran.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0220">
                     <head>265. - Revendication en cours d’expropriation. — Distraction provisoire
                         des biens revendiqués. — Opposition au jugement de défaut. —
                         Irrecevabilité.</head>
@@ -1834,7 +1845,7 @@
                             266.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0230">
                     <head>266. - Revendication en cours d’expropriation. — Opposition aux jugements
                         de défaut. — Irrecevabilité.</head>
                     <div type="summary">
@@ -1892,7 +1903,7 @@
                             par l’art. 685.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0240">
                     <head>267. - Revendication immobilière. — Propriété nécessaire du revendiquant.
                         — Intervention ad ajuvandum.</head>
                     <div type="summary">
@@ -1908,7 +1919,7 @@
                             Abou Zeid Moussa c. Abdel Rahman Ela et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0250">
                     <head>268. - Saisie-arrêt. — Sommes incessibles et insaisissables. — Décret du
                         26 Février 1890.</head>
                     <div type="summary">
@@ -1973,7 +1984,7 @@
                     </div>
                 </div>
                 <pb n="236" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYTPî"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0260">
                     <head>269. - Saisie arrêt. — Tiers-saisi. — Déclaration tardive. — Absence de
                         pièces justificatives. — Responsabilité.</head>
                     <div type="summary">
@@ -1995,7 +2006,7 @@
                             1917, Gaz., VIII, 8.2-204.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0270">
                     <head>270. - Solidarité. — Remise de dette à l’un des co-débiteurs.</head>
                     <div type="summary">
                         <p>Lorsqu’un créancier fait remise à l’un de ses co débiteurs solidaires, de
@@ -2008,7 +2019,7 @@
                             Salvatore Falanga c. Abdallah Sayed etCts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0280">
                     <head>271. - Surenchère. — Irrecevabilité après folle-enchère.</head>
                     <div type="summary">
                         <p>La surenchère après adjudication sur folle enchère est irrecevable, si
@@ -2127,7 +2138,7 @@
                             enchère au profit des appelants gardant toute sa valeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0290">
                     <head>272. - Tiers-détenteur. — Intervention dans une procédure d’ordre. —
                         Règlement provisoire.—Honoraires du commandement. — Huissier.</head>
                     <div type="summary">
@@ -2145,7 +2156,7 @@
                             Flisco c. Hoirs de fett Mohamed Aly Bey Cheir).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0300">
                     <head>273. - Tribunal. — Composition. — Plaidoiries et jugement. —
                         Prononcé.</head>
                     <div type="summary">
@@ -2194,7 +2205,7 @@
                             siégeaient MM. Qvale et Zeki bey Berzi ; ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0310">
                     <head>274. Vente de droits litigieux. — Incapacité d’acheter. — Employés des
                         tribunaux.</head>
                     <div type="summary">
@@ -2211,7 +2222,7 @@
                             Nadim, ès-q. c. Dame Adla El Yasgui).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0320">
                     <head>275. - Vente. — Objet de la vente. — Obligations du vendeur. — Garantie
                         des vices cachés.</head>
                     <div type="summary">
@@ -2236,7 +2247,7 @@
                             Herzenstein et Grümberg c. Georges Tinarelly).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0330">
                     <head>276. - Vente. — Terme non stipulé. — Résolution. — Sommation. — Terme
                         implicite. — Vente contre remboursement. — Arrhes: restitution.</head>
                     <div type="summary">
@@ -2263,7 +2274,7 @@
                             effendi Mohamed El Barman c. Albert D. Gattegno).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0340">
                     <head>277. - Wakf. — Immeuble. — Vente. — Matériaux de démolition.</head>
                     <div type="summary">
                         <p>I. - L’acheteur d’un plafond, qui a contracté son achat au moment où le
@@ -2344,7 +2355,7 @@
                             qui peut lui être due.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0350">
                     <head>278. - Wakfs. — Nazirah exercée par les Souverains d'Egypte. — Reddition
                         de comptes. — Mandataire.</head>
                     <div type="summary">
@@ -2429,7 +2440,7 @@
                             l’instruction pénale indigène ; ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0360">
                     <head>279. - Wakf. — Prescription de 33 ans.</head>
                     <div type="summary">
                         <p>Le détenteur d’un bien porté et mentionné dans une wakfieh, à quelque
@@ -2485,7 +2496,7 @@
                             alors que le demandeur n’était pas dans l’impossibilité d’agir et
                             n’avait pas d’empêchement légal, l’art. 376 susdit dispose dans son
                             alinéa 3: « Cette disposition n’est applicable que si le « défendeur n’a
-                            pas reconnu le droit du deman-« deur pendant tout ce délai >.</p>
+                            pas reconnu le droit du deman-« deur pendant tout ce délai &gt;.</p>
                         <p>Il résulte de ce qui précède que le détenteur du bien litigieux, à
                             quelque titre que soit sa détention, peut opposer à l’action du wakf
                             l’exception d’irrecevabilité pour inaction pendant 33 ans.</p>
@@ -2495,7 +2506,7 @@
                             appelant et que sa constitution date du 13 Moharrem 966.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-07-0370">
                     <head>280. - Wakf. — Statut successoral. — Statut réel. — Compétence mixte. —
                         Avenir. — Règlement du rôle d’audience.</head>
                     <div type="summary">
@@ -2543,7 +2554,7 @@
                 <p>Les premières audiences utiles de rentrée après les vacations de 1918 sont ainsi
                     fixées:</p>
                 <p>Pour la Cour d’Appel Mixte :</p>
-                <p>lri> Chambre: Mercredi 16 Octobre 1918 à 8 h. y2 du matin.</p>
+                <p>lri&gt; Chambre: Mercredi 16 Octobre 1918 à 8 h. y2 du matin.</p>
                 <p>2me Chambre: Jeudi 17 Octobre 1918 à 8 h, % du matin,</p>
                 <p>3me Chambre: Mardi 22 Octobre 1918 à 8 h. y2 du matin.</p>
                 <p>Pour les Tribunaux Mixtes de lrc Instance d’Alexandrie :</p>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0007-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0007-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1916-11-10">November 10, 1916</date><lb/>
-                    <biblScope unit="volume">Vol. 7</biblScope><lb/>
-                    <biblScope unit="number">No. 73</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1916-11-10">November 10, 1916</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 7</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 73</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -249,7 +260,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0010">
                     <head>1. - Acte sous seing privé.— Reconnaissance ou contestation de la
                         signature.— Droits des héritiers du souscripteur. — Expertise.</head>
                     <div type="summary">
@@ -283,7 +294,7 @@
                             Carogna c. Dlle Rose Kevork Youssef et Alexandre Youssef).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0020">
                     <head>2. - Acquiescement. — Paiement total ou partiel des condamnations.—
                         Irrecevabilité de l’appel.</head>
                     <div type="summary">
@@ -298,7 +309,7 @@
                             El Saycd bey Hassan Gazieh c. Carver Brothers et Co.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0030">
                     <head>3. - Appel. — Recevabilité. — logements préparatoires et interlocutoires.
                         — Jugement ordonnant une comparution personnelle.</head>
                     <div type="summary">
@@ -315,7 +326,7 @@
                             1916.—Umberto Marussig c. Farag Aly Tahoun)..*</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0040">
                     <head>4. - Bail. — Loyers. — Résiliation. — -Déguerpissement.</head>
                     <div type="summary">
                         <p>L’appel interjeté par un locataire d'un jugement qui le condamne au
@@ -329,7 +340,7 @@
                             Catherine Trîcatzoula c. Antoine P. Yoannîdis et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0050">
                     <head>5. - Billets à ordre. — Actes de commerce. — Tribunal de Commerce. —
                         Compétence.</head>
                     <div type="summary">
@@ -350,7 +361,7 @@
                             Ishak Adès c. Moïse Sasson).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0060">
                     <head>6. - Commissionnaire. — Contrat de commande. — Clause « pour compte de «
                         tiers, sans engagement de sa part. » — Arrhes. — Vente parfaite.</head>
                     <div type="summary">
@@ -374,7 +385,7 @@
                         <p>II. - Voir arrêt du 27 Mai 1915, Gaz., V, 153-383.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0070">
                     <head>7. - Contrat de louage de services.— Interprétation. — Indemnité.</head>
                     <div type="summary">
                         <p>Les contrats de louage de services doivent être interprétés, à l’instar
@@ -390,7 +401,7 @@
                             Fabri c. The Gabbari Land Co.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0080">
                     <head>8. - Grosses (Délivrance des). — Erreur matérielle commise par le Greffe
                         dans les qualités d'un arrêt.—Rectification par voie de Référés.</head>
                     <div type="summary">
@@ -406,7 +417,7 @@
                             Cour).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0090">
                     <head>9. - Inscription de faux. — Effets.~ Sursis.</head>
                     <div type="summary">
                         <p>C’est à tort que, sur le vu d’un procès-verbal d’inscription de faux
@@ -430,7 +441,7 @@
                             1908, 8 Juin 1910, 30 Novembre 1911).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0100">
                     <head>10. - Juridiction. Mixte. — Compétence. — Jugement d’admission de créance
                         dans une faillite mixte. — Opposition à commandement. —Affectation
                         hypothécaire.</head>
@@ -498,7 +509,7 @@
                             d’opposition....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0110">
                     <head>11. - Prescription acquisitive. — Durée de la possession.—Loi applicable.—
                         Juste titre. — Prescription quinquennale.— Proclamation du 25 Janvier
                         1915.—Sujets ennemis.</head>
@@ -646,7 +657,7 @@
                             comme ci-dessus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0120">
                     <head>12. - Référé.—Compétence.—Difficultés, d’exécution.</head>
                     <div type="summary">
                         <p>C’est compétemment et à bon droit que le juge des référés, se basant sur
@@ -670,7 +681,7 @@
                     </div>
                 </div>
                 <pb n="7" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0130">
                     <head>13. - Référé. — Compétence. — Difficultés d’exécution. — Expertise.</head>
                     <div type="summary">
                         <p>Le Juge des Référés, saisi d’une difficulté d’exécution d’un jugement
@@ -683,7 +694,7 @@
                             c. Constantin Comanos). •</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0140">
                     <head>14. - Référé. — Compétence. — Difficultés d’exécution. — Saisie mobilière.
                         — Immeuble par destination.</head>
                     <div type="summary">
@@ -706,7 +717,7 @@
                             Wolf c. Mohamed Ahmed Soultan).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0150">
                     <head>15. - Référé. — Compétence. — Séquestre.</head>
                     <div type="summary">
                         <p>Le Juge des Référés qui nomme un séquestre judiciaire, n’est pas
@@ -719,7 +730,7 @@
                             bey Moussa c. Alortgage Cy. of Egypt).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0160">
                     <head>16. - Ressort (Taux du)—Jugements des Tribunaux de lre Instance en matière
                         de loyers.</head>
                     <div type="summary">
@@ -739,7 +750,7 @@
                             Salamon c. C. R. Beasley es-q.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0170">
                     <head>17. - Société anonyme. — Administrateur.—Faute lourde.—Responsabilité.—
                         Avances à découvert.— Violations du pacte social et de la loi. — Quitus. —
                         Assemblée généiale.</head>
@@ -785,7 +796,7 @@
                         <p>Note. — III et IV. - V. Arrêt 16 Mai 1916, üaz., VI, 153-485.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0180">
                     <head>18. - Société. — Dissolution.—Publicité.</head>
                     <div type="summary">
                         <p>La dissolution d’une société commerciale qui n’a pas fait l’objet d’une
@@ -797,7 +808,7 @@
                             Frères et Ct. c. Francesco Colonna etCts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0190">
                     <head>19. - Tuteur. —Statut personnel musulman.—Hypothèque des biens du mineur.—
                         Ratification.</head>
                     <div type="summary">
@@ -896,11 +907,11 @@
                             d’obtenir des intimés une quittance de l’annuité 1912 dont il devait
                             parfaire le surplus ;</p>
                         <p>Attendu que d’après les dispositions du droit I musulman, les actes
-                            civils faits par un mineur à > l’âge de raison et qui peuvent lui être
-                            profitables bu préjudiciables, sont subordonnés à la ratifi-i cation du
-                            tuteur (à plus forte raison à celle du mineur devenu majeur) en tant que
-                            l’acte puisse être validé par cette ratification (Art. 486 du ; Statut
-                            Personnel) ;</p>
+                            civils faits par un mineur à &gt; l’âge de raison et qui peuvent lui
+                            être profitables bu préjudiciables, sont subordonnés à la ratifi-i
+                            cation du tuteur (à plus forte raison à celle du mineur devenu majeur)
+                            en tant que l’acte puisse être validé par cette ratification (Art. 486
+                            du ; Statut Personnel) ;</p>
                         <p>Que les dispositions de l’article 1338-3 C.C.fr. ! . sont conformes à
                             cette règle ;</p>
                         <p>i Que le 3me alinéa du susdit article dispose que « la confirmation,
@@ -926,7 +937,7 @@
                             premiers juges qui se trouve pleinement justifiée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0200">
                     <head>20. - Vente. — Cotons. — Refus par l'acheteur de prendre livraison. —
                         Dommages-intérêts. — Retard.</head>
                     <div type="summary">
@@ -945,7 +956,7 @@
                             Choukri Boutros c. Mohamed Hassanein Chehata).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0210">
                     <head>21. - Vente. — Location-vente.— Pacte “ reservati dominii ”. —
                         Inexécution. — Pénalité. — Pouvoir du juge.</head>
                     <div type="summary">
@@ -965,8 +976,8 @@
                             les droits des parties.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Trib. Som. Caire> Ch. des vacat. Prés. M. Falqtii Cao, 31 Août 1916. —
-                            Singer Manufacturîng Cy. c. Hassanein Hassan Karkir et Abdel Aziz
+                        <p>(Trib. Som. Caire&gt; Ch. des vacat. Prés. M. Falqtii Cao, 31 Août 1916.
+                            — Singer Manufacturîng Cy. c. Hassanein Hassan Karkir et Abdel Aziz
                             Aly).</p>
                     </div>
                     <div type="observations">
@@ -976,7 +987,7 @@
                         <p>IV, 127-114).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0220">
                     <head>22. - Vente commerciale. — Usages. Obligations de l'acheteur. — Mise en
                         demeure.</head>
                     <div type="summary">
@@ -1041,7 +1052,7 @@
                             d’exister, et ce par la faute de l’acheteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0230">
                     <head>23. - Wakf. — Annulation. — Conditions. — Fraude. — Contrat d’entreprise.—
                         Acte authentique. — Formule exécutoire.— Exécution.</head>
                     <div type="summary">
@@ -1172,7 +1183,7 @@
                             l’engagement de la payer, a été valablement poursuivie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0240">
                     <head>24. - Wakf. — Bénéficiaire. — Saisie-arrêt-</head>
                     <div type="summary">
                         <p>Il est de jurisprudence que les créanciers du bénéficiaire d’un Wakf ne
@@ -1186,9 +1197,9 @@
                             des Wakfs c. Mosseri et Cie et autres).</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>25. - Wakf. — Licitation d’immeuble indivis. — Co-propriétaire étranger.
-                        — Autorisation du Cadi. — Remploi.</head>
+                <div type="case" xml:id="gtme-1916-11-0250">
+                    <head>25. - Wakf. — Licitation d’immeuble indivis. — Co-propriétaire étranger. —
+                        Autorisation du Cadi. — Remploi.</head>
                     <div type="summary">
                         <p>Conformément aux principes très nettement posés par l’arrêt du 16 Janvier
                             1896, (Bull., VIII, 85), en matière de licitation des immeubles d’un
@@ -1204,7 +1215,7 @@
                             Ctsj.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-11-0260">
                     <head>26. - Wakf. — Pouvoirs du nazir. — Baux. — Transaction.</head>
                     <div type="summary">
                         <p>Le nazir étant autorisé à consentir des baux pour une durée de trois ans

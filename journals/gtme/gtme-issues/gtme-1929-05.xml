@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0019-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0019-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1929-05-10">May 10, 1929</date><lb/>
-                    <biblScope unit="volume">Vol. 19</biblScope><lb/>
-                    <biblScope unit="number">No. 223</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1929-05-10">May 10, 1929</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 19</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 223</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -64,7 +75,7 @@
                 <p>Comité de Rédaction et d'administration :</p>
                 <p>M« L. PANGALO et R. SCHEMKIL (Directeurs au Caire)</p>
                 <p>Mes E. DEGIAR.DÉ et B. SMYRNIADIS (Secrétaires de la rédaction).</p>
-                <p>M‘ A. F AD EL (Directeur à Mansourah). M> F. BRAUN (Secrétaire à Paris).</p>
+                <p>M‘ A. F AD EL (Directeur à Mansourah). M&gt; F. BRAUN (Secrétaire à Paris).</p>
                 <p>Administrateur-Gérant :</p>
                 <p>■ Jules Schutz.</p>
                 <p>Pour la Publicité:</p>
@@ -241,7 +252,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0010">
                     <head>129. - Effets de commerce. — Aval; billet à ordre garanti par un non
                         commerçant; assignation du garant seul devant le Tribunal de Commerce;
                         incompétence. —• Cautionnement d'une dette commerciale; caractère civil;
@@ -313,16 +324,16 @@
                             d’incompétence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0020">
                     <head>130. - Effets de commerce. — Billets à &lt;vue; échéance; prescription
                         quinquennale; point de départ.</head>
                     <div type="summary">
                         <p>Le billet ne stipulant pas une échéan-■ce doit être payé à
                             présentation.</p>
                         <p>Dès lors, le délai de la prescription •quinquennale prévu par l’article
-                            201 G. >Com. ne peut commencer à courir, aux termes d’une jurisprudence
-                            constante •de la Cour, qu’à partir de la date de la mise en demeure qui
-                            doit être considérée -comme la date de l’échéance.</p>
+                            201 G. &gt;Com. ne peut commencer à courir, aux termes d’une
+                            jurisprudence constante •de la Cour, qu’à partir de la date de la mise
+                            en demeure qui doit être considérée -comme la date de l’échéance.</p>
                     </div>
                     <div type="litigants">
                         <p>(Trib. Somm. Alex., Prés. M. P. Randet, 5 Mars 1928. — Raison Sociale
@@ -346,7 +357,7 @@
                             prescription...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0030">
                     <head>131. - Effets de commerce. — Billets à vue; échéance; prescription
                         quinquennale; point de départ.</head>
                     <div type="summary">
@@ -393,7 +404,7 @@
                             les intimés à payer à l’appelant le montant du billet litigieux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0040">
                     <head>132. - Effets de commerce. — Billets souscrits par un interdit avant 1925;
                         Arrêté du 26 Janvier 1897; admissibilité de la preuve par tous moyens de
                         droit de la connaissance par le bénéficiaire originaire de l'état
@@ -511,7 +522,7 @@
                             derniers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0050">
                     <head>133. - Effets de commerce. — Billets souscrits par un mineur émancipe
                         autorisé à contracter des emprunts par ordonnance du Meglis Hasbi; validité;
                         Loi du 13 Octobre 1925 portant réorganisation des Meglis Hasbis; pouvoirs
@@ -626,7 +637,7 @@
                             l’infirmation du jugement dont appel s’impose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0060">
                     <head>134. - Effets de commerce. — Billets, souscrits par un prodigue;
                         interdiction pour prodigalité; droit musulman; actes antérieurs à
                         l'interdiction; fraude du créancier; non validité desdits actes.</head>
@@ -658,7 +669,7 @@
                             Bull., \ XVI, 123, cités par le jugement rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0070">
                     <head>135. - Effets de commerce. — Billets souscrits par un prodigue, relevé de
                         son interdiction; validité. — Billet souscrit . par un prodigue; garantie
                         donnée ' par. les enfants de ce dernier; présomption. en. résultant.
@@ -727,7 +738,7 @@
                             droit à l’action du demandeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0080">
                     <head>136. - Effets rie commerce. — Chèques; effet tiré par une. banque sur une
                         agence d'une autre place, ne constituant pas un chèque. — Effets constituant
                         simples promesses; cas où ils sont commerciaux. — Perte d'effets de commerce
@@ -855,24 +866,24 @@
                             pas rendre ce siège incompétent et ceci d’autant moins que les termes dé
                             l’article 130 C. Proc, mixte (dans les cas où la partie aura le droit de
                             demander une ordonnance), ensemble à la règle que la compétence des
-                            pir>dictions d’exception doit s’interpréter strictement, peuvent prêter
-                            à des doutes; qu’en tous cas je simple bon sens exige en l’espèce, faute
-                            de règlement contraire exprès de par la. loi, une décision de justice,
-                            pour donner à la banque défenderesse toute garantie de la validité de
-                            son paiement futur au deuxième demandeur ou son ayant-droit, paiement
-                            qu’en principe elle ne peut valablement effectuer que contre
-                            présentation de l’effet; que les demandeurs ont si bien compris cette
-                            situation, qu’ils ne discutent même pas la question, si la banque était
-                            tenue de payer sans une décision judiciaire; que la question sur
-                            laquelle portent effectivement les débats, est celle de savoir, dans
-                            quelle époque l’engagement de la caution à constituer par les demandeurs
-                            doit être éteint, soit comme proposé par la défenderesse après 15 ans de
-                            l’émission de l’effet, durée de la prescription générale — soit comme
-                            proposé très subsidiairement par les demandeurs, après 5 ans de
-                            l’émission de l’effet, durée de la prescription pour les effets de
-                            commerce, soit enfin, comme proposé subsidiairement par les demandeurs
-                            après 3 ans de l’émission de l’effet — durée de l’engagement de la
-                            caution à constituer au cas d’une lettre de change égarée;</p>
+                            pir&gt;dictions d’exception doit s’interpréter strictement, peuvent
+                            prêter à des doutes; qu’en tous cas je simple bon sens exige en
+                            l’espèce, faute de règlement contraire exprès de par la. loi, une
+                            décision de justice, pour donner à la banque défenderesse toute garantie
+                            de la validité de son paiement futur au deuxième demandeur ou son
+                            ayant-droit, paiement qu’en principe elle ne peut valablement effectuer
+                            que contre présentation de l’effet; que les demandeurs ont si bien
+                            compris cette situation, qu’ils ne discutent même pas la question, si la
+                            banque était tenue de payer sans une décision judiciaire; que la
+                            question sur laquelle portent effectivement les débats, est celle de
+                            savoir, dans quelle époque l’engagement de la caution à constituer par
+                            les demandeurs doit être éteint, soit comme proposé par la défenderesse
+                            après 15 ans de l’émission de l’effet, durée de la prescription générale
+                            — soit comme proposé très subsidiairement par les demandeurs, après 5
+                            ans de l’émission de l’effet, durée de la prescription pour les effets
+                            de commerce, soit enfin, comme proposé subsidiairement par les
+                            demandeurs après 3 ans de l’émission de l’effet — durée de l’engagement
+                            de la caution à constituer au cas d’une lettre de change égarée;</p>
                         <p>Attendu qu’il n’y a évidemment aucune raison de fixer cette époque en
                             l’espèce à la durée générale de la prescription de 15 ans; qu’en effet
                             s’agissant d’un effet de commerce créé entre commerçants et souscrit par
@@ -968,7 +979,7 @@
                             judiciaires...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0090">
                     <head>137. - Effets de commerce. — Conditions d'existence des lettres de change
                         et billets à ordre; billet se référant aux conditions stipulées dans un
                         contrat, ne-constituant qu'une simple reconnaissance de dette. —
@@ -1122,7 +1133,7 @@
                             des créances.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0100">
                     <head>138. - Effets de commerce. — Date; billets antidatés; conséquences
                         juridiques; cas où la supposition de date n'équivaut pas à l'absence de
                         date. — Billets souscrits par un interdit pour prodigalité; condition
@@ -1281,7 +1292,7 @@
                             Tribunal de Commerce sur ce chef.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0110">
                     <head>139. - Eîîets de commerce. — Effet souscrit par plusieurs personnes dont
                         une femme; incompétence du Tribunal de Commerce; compétence du Tribunal
                         Civil; application des lois commerciales; effets des jugements rendus par un
@@ -1358,7 +1369,7 @@
                     </div>
                 </div>
                 <pb n="151" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0120">
                     <head>140. - Effets de commerce. — Effets souscrits par des non commerçants et
                         n'ayant pas pour cause des faits de commerce; prescription quinquennale
                         inapplicable.</head>
@@ -1412,7 +1423,7 @@
                             prescrite, était loin de l’être...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0130">
                     <head>141. - Effets de commerce. — Endossement après l'échéance; caractère
                         irrégulier. — Billets «à vue» ou «à réquisition»; détermination de la date
                         de l'échéance; endossement opéré: 1.) après le jour de la souscription; 2.)
@@ -1566,7 +1577,7 @@
                             titre de procuration.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0140">
                     <head>142. - Effets de commerce. — Traite émise en Angleterre; résidence du tiré
                         en Angleterre au moment de l’émission acceptation par ce dernier du paiement
                         à Londres; loi anglaise applicable. — Stipulation d'intérêts usuraires faite
@@ -1691,7 +1702,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0150">
                     <head>143. - Effets de commerce. — Vente cif; caractère; obligations de
                         l'acheteur; étendue; traite non acceptée par le tiré; tiers porteur de bonne
                         foi; droits de ce dernier; inopposabilité par le tiré des exceptions qu'il
@@ -1897,7 +1908,7 @@
                             dommages-intérêts qu’il réclame.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-05-0160">
                     <head>144. - Prescription. — Interruption; lettre recommandée ne constituant pas
                         une cause d’interruption. — </head>
                     <div type="summary">
@@ -3149,18 +3160,18 @@
                     pharmacien ou toute autre habitation. Cette disposition a été prise en vue de
                     prévenir toute soustraction de subs-' tances stupéfiantes à l’occasion ou
                     au.cours, d’une inspection, l’inspecteur sanitaire n’ayant pas le droit de
-                    visiter les locaux non affectés à la pharmacie. D’autre part, il a> été constaté
-                    que les pharmaciens profitent de l’absence des médecins ayant leur clinique dans
-                    la pharmacie pour lès remplacer et se faire passer aux yeux du public comme les
-                    véritables titulaires de la clinique.</p>
+                    visiter les locaux non affectés à la pharmacie. D’autre part, il a&gt; été
+                    constaté que les pharmaciens profitent de l’absence des médecins ayant leur
+                    clinique dans la pharmacie pour lès remplacer et se faire passer aux yeux du
+                    public comme les véritables titulaires de la clinique.</p>
                 <p>Hôpitaux, Dispensaires et Cliniques.</p>
                 <p>Bon nombre d’hôpitaux, dispensaires et cliniques délivrent des médicaments
                     contenant des substances vénéneuses à des malades externes non hospitalisés par
                     eux; ces. médicaments sont souvent préparés par des. personnes qui ne sont ni
                     pharmaciens n£ aides-pharmaciens. C’est pourquoi il a été prévu dans le projet
-                    de loi un texte imposant aux dits établissements l’obligation de> faire préparer
-                    les médicaments contenant des substances vénéneuses par des pharmaciens ou des
-                    aides-pharmaciens inscrits.</p>
+                    de loi un texte imposant aux dits établissements l’obligation de&gt; faire
+                    préparer les médicaments contenant des substances vénéneuses par des pharmaciens
+                    ou des aides-pharmaciens inscrits.</p>
                 <p>Dans le même ordre d’idées, le projet prévoit l’obligation au médecin, qui désire
                     préparer lui-même des médicaments dans sa clinique à l’usage exclusif de sa
                     clientèle, de faire une déclaration préalable dans ce sens à l’Hygiène Publique

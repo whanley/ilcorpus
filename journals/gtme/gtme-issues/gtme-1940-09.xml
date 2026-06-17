@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1940-09-10">September 10, 1940</date><lb/>
-                    <biblScope unit="volume">Vol. 30</biblScope><lb/>
-                    <biblScope unit="number">No. 359</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1940-09-10">September 10, 1940</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 30</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 359</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -407,7 +418,7 @@
             <pb n="408" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0010">
                     <head>240. - Expropriation. — Action principale en nullité des poursuites; cas
                         où elle constitue une opposition à commandement. — Commandement; opposition;
                         délai; irrecevabilité après la saisie; caractère d'ordre public de cette
@@ -502,7 +513,7 @@
                             et 22 Février 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0020">
                     <head>241. - Expropriation. — Action principale en nullité des poursuites et du
                         jugement d'adjudication; irrecevabilité lorsque le demandeur partie à la
                         procédure d négligé d'exercer une voie de recours. — Action principale en
@@ -611,7 +622,7 @@
                         <p>Note. — III. - Rapp. ci-après § 289, l’arrêt du 17 Juin 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0030">
                     <head>242. - Expropriation. — Action principale en nullité des poursuites et du
                         jugement d'adjudication; parties par qui elle ne peut être formée; tiers
                         détenteur apparent sommé dans la procédure d'expropriation; action
@@ -697,7 +708,7 @@
                         <p>Note. — V. cep. ci-après § 244, l’arrêt du 22 Février 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0040">
                     <head>243. - Expropriation. — Action principale en nullité des poursuites et du
                         jugement d'adjudication; recevabilité en dehors de tous délais lorsqu'il
                         s'agit de nullités de fond visant le droit de poursuite; demande de nullité
@@ -831,7 +842,7 @@
                             contrà, ci-avant § 240, l’arrêt du 23 Décembre 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0050">
                     <head>244. - Expropriation. — Action principale en nullité des poursuites et du
                         jugement d'adjudication; recevabilité lorsqu'il s'agit de nullité radicale
                         pour défaut ou retard de sommation au tiers détenteur; recevabilité
@@ -916,7 +927,7 @@
                         <p>IV. - V. ég. ci-après § 331, l’arrêt du 17 Juin 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0060">
                     <head>245. - Expropriation. — Adjudication; changement dans l'état des lieux
                         après la saisie; constructions nouvelles rentrant dans les biens adjugés. —
                         Hypothèque; extension aux constructions nouvelles.</head>
@@ -995,7 +1006,7 @@
                             pas été l’objet de la saisie immobilière.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0070">
                     <head>246. - Expropriation. — Adjudication; changement dans l'état des lieux
                         après l'inscription hypothécaire; constructions nouvelles; conditions pour
                         qu'elles rentrent dans les biens adjugés. — Hypothèque; extension aux
@@ -1070,8 +1081,8 @@
                             il sera parlé plus loin, — une parcelle de terrain en forme de
                             quadrilatère légèrement irrégulier, dont la limite Nord sera de 29 m.
                             70, la limite Sud de 29 m. 40, la limite Est de 25 m. 55, et la limite
-                            Ouest de 27 m>. 90, et dont partant la superficie serait de 789 m2 72,
-                            mais de laquelle il serait à déduire, comme appartenant à un tiers,
+                            Ouest de 27 m&gt;. 90, et dont partant la superficie serait de 789 m2
+                            72, mais de laquelle il serait à déduire, comme appartenant à un tiers,
                             autrefois le nommé Aly Mohamed, et actuellement le nommé Abdel Aziz
                             Mohamed, la partie Sud-Est, de 11 m. sur 9 m., soit donc de 99 m2,
                             laissant ainsi de la superficie de 789m2 72 susindiquée un restant de
@@ -1561,7 +1572,7 @@
                         <p>Note. — V. cep. conlrà, ci-avant § 245, l’arrêt du 19 Mars 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0080">
                     <head>247. - Expropriation. — Adjudication; demande d'annulation en cas de
                         revendication d'un occupant des biens; admissibilité après rejet d'une
                         première demande provoquée par une précédente revendication. —
@@ -1646,7 +1657,7 @@
                             1940, du 19 Mai 1936, du 13 Mai 1937 et du 13 Mars 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0090">
                     <head>248. - Expropriation. — Adjudication; enchères; modalités; défaut de
                         rappel de l'affaire après l'expiration des trois minutes et avant le
                         prononcé du jugement; usage; inobservation.</head>
@@ -1732,7 +1743,7 @@
                             des appelants et qu’il convient de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0100">
                     <head>249. - Expropriation. — Adjudication; enchères; modalités; vente en
                         plusieurs lots; offre cumulative après l'adjudication;
                         inadmissibilité.</head>
@@ -1747,7 +1758,7 @@
                             of Egypt c. Vittorio Giannotti.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0110">
                     <head>250. - Expropriation. — Adjudication; erreur de désignation des biens dans
                         les annonce et placard en langue arabe; défaut de portée en cas
                         d'adjudication conforme au cahier des charges et de circonstances de fait
@@ -2013,7 +2024,7 @@
                         <p>Qu’il y a lieu partant de confirmer la décision attaquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0120">
                     <head>251. - Expropriation. — Adjudication; éviction; action en nullité de
                         l'adjudication par l'adjudicataire; recevabilité dès la manifestation du
                         trouble de droit; droits de l'adjudicataire; remboursement du prix, des
@@ -2168,7 +2179,7 @@
                             du 13 Mars 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0130">
                     <head>252. - Expropriation. — Adjudication; éviction; dépossession par un tiers
                         en vertu de justes titres; restitution du prix. — Distribution; règlement
                         définitif! opposition basée sur des faits postérieurs au règlement
@@ -2266,7 +2277,7 @@
                             du 13 Mars 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0140">
                     <head>253. - Expropriation. — Adjudication; éviction ou déficit; cahier des
                         charges; clause d'exonération de responsabilité du poursuivant; portée
                         limitée aux dommages-intérêts excédant la restitution proportionnelle du
@@ -2376,7 +2387,7 @@
                             1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0150">
                     <head>254. - Expropriation. — Adjudication; éviction ou déficit; cahier des
                         charges; clause refusant à l'adjudicataire le droit à une diminution de prix
                         pour erreur dans la désignation de la contenance; caractère licite.</head>
@@ -2438,7 +2449,7 @@
                             1936, du 25 Juin 1940, du 19 Mai 1936 et du 13 Mai 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0160">
                     <head>255. - Expropriation. — Adjudication; interdiction du débiteur
                         postérieurement aux derniers actes de procédure mais avant la vente;
                         régularité de l'adjudication.</head>
@@ -2494,7 +2505,7 @@
                             présence et n’oblige pas le créancier poursuivant à le citer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0170">
                     <head>256. - Expropriation. — Adjudication; prix; dispense de dépôt;
                         conditions.</head>
                     <div type="summary">
@@ -2511,7 +2522,7 @@
                         <p>Note. — V. ci-après § 279, l’arrêt du 27 Octobre 1938, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0180">
                     <head>257. - Expropriation. — Adjudication; prix; dispense de dépôt;
                         conditions.</head>
                     <div type="summary">
@@ -2611,7 +2622,7 @@
                             Octobre 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0190">
                     <head>258. - Expropriation. — Adjudication; prix; dispense de dépôt; infirmation
                         de l'ordonnance accordant la dispense; conséquence.</head>
                     <div type="summary">
@@ -2631,7 +2642,7 @@
                         <p>V. ég. ci-après § 279, l’arrêt du 27 Octobre 1938, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0200">
                     <head>259. - Expropriation. — Adjudication; prix; dispense de dépôt; pouvoir
                         souverain d'appréciation du Juge délégué aux adjudications; ordonnance
                         statuant sur la demande de dispense et ordonnant la revente sur
@@ -2715,7 +2726,7 @@
                             l’arrêt du 27 Octobre 1938, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0210">
                     <head>260. - Expropriation. — Cahier des charges; conditions; rectification ou
                         annulation; dire, seule voie ouverte.</head>
                     <div type="summary">
@@ -2728,7 +2739,7 @@
                             Mohamed Aly Hafez c. Dr. Sadek Abdel Chehid.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0220">
                     <head>261. - Expropriation. — Cahier des charges; dépôt; défaut de notification
                         à un créancier inscrit; cas où l'omission a été due à un changement
                         administratif non mentionné dans le renouvellement de l'inscription
@@ -2826,7 +2837,7 @@
                             elle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0230">
                     <head>262. - Expropriation. — Cahier des charges; dépôt; notification aux
                         créanciers inscrits; formalité non édictée à peine de nullité; condition à
                         laquelle son omission donne le droit de faire annuler la procédure.</head>
@@ -2846,7 +2857,7 @@
                             bey Hanna et Cts c. Hoirs Rizgallah Nakhla et Cts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0240">
                     <head>263. - Expropriation. — Commandement immobilier; élection de domicile du
                         poursuivant; effets. — Opposition à commandement; signification à domicile
                         réel à l'étranger; effet suspensif de la saisie; cas où il ne peut être
@@ -2966,7 +2977,7 @@
                             au ■lieu qu’au domicile élu au Caire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0250">
                     <head>264. - Expropriation. — Commandement immobilier; opposition; effet
                         suspensif; désistement: conséquences. — Saisie immobilière; délai; point de
                         départ en cas d'opposition à commandement suivie de désistement. —
@@ -3116,7 +3127,7 @@
                     </div>
                 </div>
                 <pb n="424" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0260">
                     <head>265. - Expropriation. — Commandement immobilier; opposition par une partie
                         des héritiers du débiteur; portée générale résultant de l’indivisibilité. —
                         Succession; droits des créanciers successoraux; paiement de la quote-part
@@ -3210,7 +3221,7 @@
                         <p>Qu’il convient en conséquence de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0270">
                     <head>266. - Expropriation. — Commandement immobilier; opposition; recevabilité
                         jusqu'à la saisie; effet suspensif. — Dire; effet suspensif. — Action
                         principale en nullité de la procédure d'expropriation; effet non suspensif;
@@ -3298,7 +3309,7 @@
                         <p>Note. — I. - V. Gaz. XXVI, 14-9, l’arrêt du 18 Mai 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0280">
                     <head>267. - Expropriation. — Commandement immobilier; opposition quant au
                         montant de la créance; cas où elle est admissible.</head>
                     <div type="summary">
@@ -3320,7 +3331,7 @@
                             Chehata et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0290">
                     <head>268. - Expropriation. — Commandement immobilier; péremption; conséquence;
                         péremption de la sommation au tiers détenteur. — Commandement;
                         transcription; nullité des aliéna-lions ultérieures; créanciers ayant le
@@ -3605,7 +3616,7 @@
                         <p>VIII. - V. ég. ci-après § 269, l’arrêt du 9 Juin 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0300">
                     <head>269. - Expropriation. — Commandement immobilier; transcription; effets;
                         vente consentie après cette transcription; validité en cas de prescription
                         de la procédure d'expropriation; qualité de tiers détenteur de l’acquéreur.
@@ -3790,7 +3801,7 @@
                         <p>Note. — I. - V. ég. ci-avant § 268, l’arrêt du 21 Décembre 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0310">
                     <head>270. - Expropriation. — Commandement immobilier; transcription;
                         péremption; effet non suspensif d'un recours contre le jugement exécutoire
                         en vertu duquel le commandement a été signifié.</head>
@@ -3834,7 +3845,7 @@
                             les deux commandements périmés parce qu’il en ferait mention...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0320">
                     <head>271. - Expropriation. — Dire au cahier des charges; irrecevabilité s'il
                         est basé sur un moyen déjà né au moment du commandement.</head>
                     <div type="summary">
@@ -3847,7 +3858,7 @@
                         <p>— sur une contestation relative à la responsabilité du retard dans les
                             paiements — (1er arrêt);</p>
                         <p>— sur la nullité de la notification de la cession en vertu de laquelle le
-                            poursuivant a signifié commandement >— (2me arrêt);</p>
+                            poursuivant a signifié commandement &gt;— (2me arrêt);</p>
                         <p>— sur l’existence de paiements justifiés par des quittances antérieures à
                             la signification du commandement immobilier — (âme arrêt);</p>
                         <p>— sur la nullité des poursuites d’expropriation en l’état des
@@ -3860,10 +3871,10 @@
                             1936. Sania Matta Mikhaïl et autre c. Joakimoglou Commercial Cy. —1 2.)
                             Prés. M. C. van Ackere. 4 Mars 1937. Hoirs Sayed Off et Cts c. Alice
                             Lagnado. — 3.) Prés. S.E. Yussouf Zulficar pacha. 3 Février 1938.
-                            Francis Sourour c. Michel Batanian. —> 4.) Prés. S.E. Yussouf Zulficar
-                            pacha. 23 Juin 1938. Hector Dia-cono c. Ibrahim Hassanein Dessouki et
-                            autre. — 5.) Prés. Scandar Azer dey, 1er Février 1940. — Ibrahim Salem
-                            c. Charlotte Brunet.</p>
+                            Francis Sourour c. Michel Batanian. —&gt; 4.) Prés. S.E. Yussouf
+                            Zulficar pacha. 23 Juin 1938. Hector Dia-cono c. Ibrahim Hassanein
+                            Dessouki et autre. — 5.) Prés. Scandar Azer dey, 1er Février 1940. —
+                            Ibrahim Salem c. Charlotte Brunet.</p>
                     </div>
                     <div type="decision">
                         <p>Quatrième Arrêt (extrait).</p>
@@ -3900,7 +3911,7 @@
                         <p>Note. —■ v. les arrêts rapportés ds Gaz. XXVI, 14-9, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0330">
                     <head>272. - Expropriation. — Dire au cahier des charges; mise à prix; pouvoirs
                         du tribunal; base de détermination. — Commandement; opposition émanant d'une
                         partie des débiteurs solidaires; effet suspensif de la saisie erga
@@ -4014,7 +4025,7 @@
                             l’a pratiquée contre tous qu’après le jugement de rejet...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0340">
                     <head>273. - Expropriation. — Folle enchère; dénonciation de la date de la vente
                         au seul adjudicataire; régularité; droits du débiteur saisi et des.
                         créanciers inscrits. — Folle enchère; contestations du fol enchérisseur;
@@ -4120,7 +4131,7 @@
                             tenu de vendre et qu’il y a lieu d’infirmer sa décision.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0350">
                     <head>274. - Expropriation. — Folle enchère: distribution subséquente;
                         contredit; non nécessité de la présence en cause du fol enchérisseur. —
                         Tiers détenteur; créance contre le débiteur saisi; cession à Vadjudicataire;
@@ -4382,7 +4393,7 @@
                             mesure à la Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0360">
                     <head>275. - Expropriation. — Folle enchère; droit du débiteur exproprié d'y
                         procéder en vertu de son mandement de collocation dans la distribution;
                         prescription de la procédure de folle enchère; point de départ;
@@ -4699,7 +4710,7 @@
                             1928, et ds ce N°, la note sous l’article de la page 405.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0370">
                     <head>276. - Expropriation. — Folle enchère; droit d'y procéder contre
                         l'acquéreur de l'adjudicataire.</head>
                     <div type="summary">
@@ -4781,7 +4792,7 @@
                             Serafi appert mal fondé et il échet de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0380">
                     <head>277. - Expropriation. — Folle enchère; impossibilité après l'expropriation
                         de l'adjudicataire sur saisie à son encontre. — Distribution après
                         expropriation de l'adjudicataire; sommation aux créanciers inscrits du
@@ -4894,7 +4905,7 @@
                             aucun intérêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0390">
                     <head>278. - Expropriation. — Juge délégué aux adjudications; demande de remise
                         de la vente et octroi d'un délai de grâce; pouvoir discrétionnaire du juge.
                         — Loi du 26 Août 1938 sur la suspension des adjudications; subrogation aux
@@ -4991,7 +5002,7 @@
                             1938, et § 306, l’arrêt du 27 Avril 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0400">
                     <head>279. - Expropriation. — Juge délégué aux adjudications; recours contre ses
                         ordonnances; appel; cas où il est recevable; ordonnances statuant sur les
                         demandes de sursis à la vente; ordonnances statuant sur les demandes de
@@ -5322,7 +5333,7 @@
                             Avril 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0410">
                     <head>280. - Expropriation. — Juge délégué aux adjudications; recours contre ses
                         ordonnances; appel d'une ordonnance accordant une remise de plus de soixante
                         jours; recevabilité.</head>
@@ -5375,7 +5386,7 @@
                         <p>Note. — Comp. ci-avant les arrêts groupés sub.§ 279 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0420">
                     <head>281. - Expropriation. — Juge délégué aux adjudications; i'ecours contre
                         ses ordonnances; appel d'une ordonnance statuant sur des formalités de
                         procès-dure; irrecevabilité.</head>
@@ -5395,7 +5406,7 @@
                         <p>Note. — Comp. ci-avant les arrêts groupés sub § 279, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0430">
                     <head>282. - Expropriation. — Juge délégué aux adjudications; recours contre ses
                         ordonnances; appel; délai de quinze jours en cas d'ordonnances touchant à
                         des questions de fond. — Décret-loi du 1er Mars 1938; suspension des
@@ -5604,7 +5615,7 @@
                     </div>
                 </div>
                 <pb n="439" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0440">
                     <head>283. - Expropriation. — Juge délégué aux adjudications; recours contre ses
                         ordonnances; appel; inadmissibilité des ordonnances accordant ou refusant
                         une remise. — Adjudication; demande de nullité tirée de l'indication
@@ -5728,7 +5739,7 @@
                         <p>Note. — I. - Gomp. ci-avant les arrêts groupés sub § 279, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0450">
                     <head>284. - Expropriation. — Juridiction Mixte; compétence en cas d'inscription
                         au profit d'un étranger; conditions; incompétence en cas. de subrogation
                         d'inscription à un étranger postérieurement au commandement immobilier. —
@@ -5845,7 +5856,7 @@
                         <p>II. - V. ds. le même sens, ci-après § 288, l’arrêt de même date.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0460">
                     <head>285. — Expropriation. — Juridiction Mixte; incompétence en cas
                         d'affectation hypothécaire au profit d'un étranger; art. 36 R.O.J. nouv.;
                         interprétation.</head>
@@ -5929,7 +5940,7 @@
                             pro-fit d'un étranger ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0470">
                     <head>286. - Expropriation. — Juridiction Mixte; incompétence en cas de
                         subro-gation d'un Egyptien au créancier ins-crit étranger.</head>
                     <div type="summary">
@@ -6033,7 +6044,7 @@
                             3435 par le Sieur Albert Homsy, sujet étranger.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0480">
                     <head>287. - Expropriation. — Juridiction Mixte; Juge des Référés; compétence en
                         matière de demande de séquestre entre Egyptiens, sur des biens en cours
                         d'expropriation devant les Tribunaux Mixtes. ■— Suspension des ventes
@@ -6121,7 +6132,7 @@
                     </div>
                 </div>
                 <pb n="442" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0490">
                     <head>288. - Expropriation. — Juridiction Nationale; adjudication de biens
                         grevés d'une inscription iau profit d'un étranger; nullité relative; cas où
                         elle est couverte. ■— Prescription acquisitive quinquennale; faculté de
@@ -6199,7 +6210,7 @@
                         <p>II. - V. ds. le même sens, ci-avant § 284, l’arrêt de même date.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0500">
                     <head>289. - Expropriation. — Juridiction Nationale; adjudication de biens
                         grevés d'une inscription au profit d'un étranger; nullité relative;
                         conditions d'exercice; cas où le prix d'adjudication pourrait suffire à
@@ -6256,7 +6267,7 @@
                         <p>Note. — Rapp. ci-avant § 241, l’arrêt du 14 Décembre 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0510">
                     <head>290. - Expropriation. — Loi des cinq feddans; champ d'application;
                         applicabilité à tous les petits cultivateurs sans: distinction de sexe;
                         applicabilité au petit propriétaire n'exploitant pas personnellement ses
@@ -6308,7 +6319,7 @@
                             23 Mars 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0520">
                     <head>291. - Expropriation. — Loi des cinq feddans; champ d’application;
                         applicabilité à un petit cultivateur syndiqué. — ,Solidarité; faculté
                         reconnue au créancier à l’égard de ses débiteurs solidaires, sous la
@@ -6382,7 +6393,7 @@
                             appert mal fondé et qu’il échet de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0530">
                     <head>292. - Expropriation. — Loi des cinq feddans; champ d’application;
                         applicabilité au petit propriétaire n'exploitant pas personnellement ses
                         terres; achats de terres faits en vue d'emprunter sur hypothèque;
@@ -6470,7 +6481,7 @@
                     </div>
                 </div>
                 <pb n="444" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0540">
                     <head>293. - Expropriation. — Loi des cinq feddans; champ d'application; cas
                         d'exercice d'actes de commerce ou d'une profession par un petit
                         cultivateur.</head>
@@ -6579,7 +6590,7 @@
                             .Mai 1910.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0550">
                     <head>294. - Expropriation. — Loi des cinq feddans; champ d'application;
                         inapplicabilité au cultivateur ayant vendu une récolte de plus, de cinq
                         feddans.</head>
@@ -6597,7 +6608,7 @@
                         <p>Note. — V. cep. ci-après § 295, l’arrêt du 9 Mai 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0560">
                     <head>295. - Expropriation. — Loi des cinq feddans; condition à laquelle le
                         tiers détenteur est admis à l'invoquer. — Loi des 5 feddans; déchéance;
                         accomplissement d'un seul acte de commerce, insuffisant à faire déchoir le
@@ -6669,7 +6680,7 @@
                             du 15 Juin 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0570">
                     <head>296. - Expropriation. — Loi des cinq feddans; preuve; charge; champ
                         d'application; applicabilité au petit proprétaire exploitant ses terres en
                         ^amodiation.</head>
@@ -6690,7 +6701,7 @@
                             et du 23 Mars 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0580">
                     <head>297. - Expropriation. — Loi N° 3 de 1939; suspension des ventes forcées;
                         cas prévu par l'art. 31; diminution de la dette résultant d'une adjudication
                         partielle et non d'un paiement volontaire.</head>
@@ -6773,7 +6784,7 @@
                         <p>1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0590">
                     <head>298. - Expropriation. — Loi N° 3 de 1939; suspension des ventes forcées;
                         demande de mise sous séquestre des biens saisis; admissibilité.</head>
                     <div type="summary">
@@ -6799,7 +6810,7 @@
                             13 Septembre 1940, qui a statué en sens contraire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0600">
                     <head>299. - Expropriation. — Loi N° 3 de 1939; suspension des ventes forcées;
                         demande de mise sous séquestre des biens-saisis; inadmissibilité en cas de
                         décision de la Commission ad hoc déclarant admissible la demande du
@@ -6941,8 +6952,8 @@
                             de faire remarquer que dans la version française du même article, il y
                             fut mentionné par erreur la traduction des mots par « aucune action »,
                             alors que signifie</p>
-                        <p>« aucune procédure », tandis que « aucune action » se traduit par &lt;>»
-                            — qu’il est superflu de relever que le texte arabe</p>
+                        <p>« aucune procédure », tandis que « aucune action » se traduit par
+                            &lt;&gt;» — qu’il est superflu de relever que le texte arabe</p>
                         <p>est celui qui prévaut, celui en français n’étant qu’une traduction;</p>
                         <p>Qu’en admettant même, par pure hypothèse, que la séquestration étant une
                             mesure conservatoire dans l’intérêt des deux parties, serait permise, il
@@ -7233,7 +7244,7 @@
                             débiteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0610">
                     <head>300. - Expropriation. — Loi N° 3 de 1939; suspension des ventes forcées;
                         portée; effet suspensif des demandes présentées à la Commission spéciale;
                         Juge délégué aux adjudications; incompétence pour se prononcer sur
@@ -7331,7 +7342,7 @@
                             seul effet de la promulgation de la oi N° 3 de 1939, mais seulement à
                             partir de la publication dans le « Journal Officiel » de la décision de
                             la Commission déclarant admissible la demande du débiteur, laquelle,
-                            selon les termes de l’article 13 de la loi &lt;> aura pour effet de
+                            selon les termes de l’article 13 de la loi &lt;&gt; aura pour effet de
                             suspendre la vente... jusqu’à la décision définitive de la Commission
                             ».</p>
                         <p>Or, selon l’intimé, lors du rejet de la demande de sursis, le juge
@@ -7419,7 +7430,7 @@
                             qu’il réclame.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0620">
                     <head>301. - Expropriation. — Mise à prix; détermination.</head>
                     <div type="summary">
                         <p>Dans le doute sur la valeur exacte d’un bien mis en expropriation, il est
@@ -7433,7 +7444,7 @@
                             Arippol c. Barclay’s Bank.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0630">
                     <head>302. - Expropriation. —- péremption, de la procédure; conditions.</head>
                     <div type="summary">
                         <p>Les poursuites en expropriation, à l’instar de toute instance, peuvent
@@ -7447,7 +7458,7 @@
                             autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0640">
                     <head>303. - Expropriation. — Péremption de la procédure; fixation de la vente;
                         caractère interruptif de la péremption même à défaut de signification du
                         procès-verbal au débiteur.</head>
@@ -7504,7 +7515,7 @@
                             la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0650">
                     <head>304. - Expropriation. — Revendication incidente; appel; délai.</head>
                     <div type="summary">
                         <p>Le délai d’appel du jugement rendu sur revendication immobilière
@@ -7588,7 +7599,7 @@
                             l’intimée, de rejeter, comme irrecevable, le présent ap-</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0660">
                     <head>305. - Expropriation.. — Revendication incidente; appel; mise en cause du
                         débiteur saisi; nécessité.</head>
                     <div type="summary">
@@ -7601,7 +7612,7 @@
                             Karam et Ct c. Hay Khadr Guetta.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0670">
                     <head>306. - Expropriation.. — Revendication incidente; effet suspensif;
                         conditions auxquelles il est de droit; ordonnance du Juge délégué aux
                         adjudications refusant le sursis à la vente en l’état d’une revendication
@@ -7730,7 +7741,7 @@
                         <p>III. - V. Gaz. XXI, 19-19, l’arrêt du 9 Janvier 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0680">
                     <head>307. - Expropriation. — Revendication incidente; exception de simulation
                         du titre du revendiquant.</head>
                     <div type="summary">
@@ -7764,7 +7775,7 @@
                             134-144)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0690">
                     <head>308. - Expropriation. — Revendication incidente; mise en cause du débiteur
                         saisi; irrecevabilité soulevée pour la première fois en degré d'appel. —
                         Revendication non incidente; cas, où la mise en cause du débiteur saisi
@@ -8091,7 +8102,7 @@
                             somme de L.E. 140, en restitution du prix de la vente de 2 feddans.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0700">
                     <head>309. - Expropriation. — Revendication, incidente; mise en cause du premier
                         créancier inscrit.</head>
                     <div type="summary">
@@ -8106,7 +8117,7 @@
                             Ibrahim Mohamed El Sai c. Hoirs Aly Hassan El Borai et Cts et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0710">
                     <head>310. - Expropriation. — Revendication incidente; multiplicité de
                         revendications incidentes à la même expropriation; cumul;
                         admissibilité.</head>
@@ -8166,7 +8177,7 @@
                         <p>Qu’il échet, dès lors, de rejeter cette exception...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0720">
                     <head>311. - Expropriation. — Revendication incidente; notion; appel; délai; cas
                         spéciaux.</head>
                     <div type="summary">
@@ -8302,7 +8313,7 @@
                             la signification du jugement...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0730">
                     <head>312. - Expropriation. — Revendication incidente; propriété des biens
                         saisis en vertu d’une affectation hypothécaire; preuve; charge.</head>
                     <div type="summary">
@@ -8346,7 +8357,7 @@
                         <p>V. ég. ci-avant sub § 247, l’arrêt du 19 Mars 1936.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0740">
                     <head>313. - Expropriation.— Saisie immobilière; dénonciation; délai non
                         prescrit à peine de nullité. — Dire au cahier des charges; irrecevabilité
                         des moyens déjà nés au moment du commandement.</head>
@@ -8365,7 +8376,7 @@
                         <p>Note. — il. - V. les arrêts rapp. ds. Gaz. XXVI, 14-9.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0750">
                     <head>314. - Expropriation. — Saisie immobilière; transcription; effets;
                         immobilisation des fruits; cas où le débiteur habite les lieux; nomination
                         d'un séquestre judiciaire; droit de ce dernier de demander l'expulsion du
@@ -8753,7 +8764,7 @@
                             ordonnance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0760">
                     <head>315. - Expropriation. — Saisie immobilière; transcription; immobilisation
                         des fruits; conséquences; droits de l'adjudicataire aux récoltes sur pied;
                         obligation de rembourser les fiais de culture; étendue; cas d'enlèvement des
@@ -8883,7 +8894,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0770">
                     <head>316. - Expropriation. — Saisie immobilière; transcription; immobilisation
                         des fruits; conséquences; effets généraux; cas. où ie créancier qui g
                         pratiqué saisie-arrêt a perçu les fruits après accord avec le débiteur
@@ -9069,7 +9080,7 @@
                             déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0780">
                     <head>317. - Expropriation. — Séquestre; but et objet de la mesure; cas où il y
                         a lieu de l’ordonner.</head>
                     <div type="summary">
@@ -9120,7 +9131,7 @@
                             se réalisent amplement et justifient la demande de l’intimée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0790">
                     <head>318. - Expropriation. — Séquestre; cas de biens expropriés dont le
                         débiteur a conservé la possession par suite de faillite de
                         l'adjudicataire.</head>
@@ -9187,7 +9198,7 @@
                             cause.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0800">
                     <head>319. - Expropriation. — Séquestre; cas où il y a lieu de l'ordonner; cas
                         d'existence d'une location.</head>
                     <div type="summary">
@@ -9206,7 +9217,7 @@
                             Hypothécaire Agricole d’Egypte c. Banco Italo-Egiziano et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0810">
                     <head>320. - Expropriation. — Séquestre; demande; admissibilité même en cas de
                         suspension des poursuites.</head>
                     <div type="summary">
@@ -9267,7 +9278,7 @@
                             qui fait partant leur loi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0820">
                     <head>321. - Expropriation. — Séquestre; droit des créanciers hypothécaires;
                         Proclamations .V°s 6 et 58; mise sous séquestre des biens des ressortissants
                         ennemis, ne faisant pas obstacle à la désignation d'un séquestre
@@ -9320,7 +9331,7 @@
                         <p>Note. — Rapp. le jug. Civ. Caire du 2 Mars 1940, Gaz. XXX, 348-210.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0830">
                     <head>322. -----Expropriation. — Signification des actes aux débiteurs à
                         l'étranger; application et mode de calcul des délais de distance.</head>
                     <div type="summary">
@@ -9331,7 +9342,7 @@
                             effective des actes aux intéressés.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d’Appel, 2me Ch., Prés. Scandar Azer bey> 20 Mai 1939. — Asma
+                        <p>Cour d’Appel, 2me Ch., Prés. Scandar Azer bey&gt; 20 Mai 1939. — Asma
                             Sabbagh c. Ibrahim Sabbagh et Ct.</p>
                     </div>
                     <div type="decision">
@@ -9471,7 +9482,7 @@
                             en la matière.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0840">
                     <head>323. - Expropriation. — Subrogation aux poursuites; créanciers ayant le
                         droit de l'obtenir. — Hypothèque; indivisibilité; droits respectifs du
                         créancier à hypothèque générale et des créanciers à hypothèque Spéciale; cas
@@ -9679,7 +9690,7 @@
                             infirmation du jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0850">
                     <head>324. - Expropriation. — Subrogation aux poursuites; demande; intervention
                         et droit d'appel du débiteur; Juge délégué aux adjudications; ordonnance de
                         subrogation statuant sur une question de fond; délai d'appel. — Subrogation
@@ -9849,7 +9860,7 @@
                         <p>Il échet, en conséquence, de confirmer l’ordonnance déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0860">
                     <head>325. - Expropriation. — Subrogation aux poursuites; droit du créancier
                         subrogé de continuer la procédure même sur les biens des débiteurs autres
                         que le sien; conséquences.</head>
@@ -10013,7 +10024,7 @@
                     </div>
                 </div>
                 <pb n="465" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0870">
                     <head>326. - 'Expropriation. — Surenchère; appel du premier jugement
                         d'adjudication; effet non suspensif.</head>
                     <div type="summary">
@@ -10027,12 +10038,12 @@
                             Aly Mansour c. Abram Adda et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0880">
                     <head>327. - Expropriation. — Surenchère; demande en nullité de la nouvelle
                         adjudication; défaut de qualité du débiteur exproprié. — Revente sur
                         surenchère; parties intéressées à la requérir. — Surenchère; déclaration;
-                        signification au Greffe à un créancier décédé; cas de validité. — Loi >N° 15
-                        de 1937; entrée en vigueur pour les expropriations devant la Juridiction
+                        signification au Greffe à un créancier décédé; cas de validité. — Loi &gt;N°
+                        15 de 1937; entrée en vigueur pour les expropriations devant la Juridiction
                         Mixte.</head>
                     <div type="summary">
                         <p>I. - Le débiteur exproprié est sans intérêt et partant sans qualité pour
@@ -10189,7 +10200,7 @@
                             reconnaître le mal fondé de l’appel et de le rejeter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0890">
                     <head>328. - Expropriation. — Tiers détenteur; qualité juridique résultant de la
                         transcription; connaissance de la vente par le créancier, ne l’obligeant pas
                         à signifier sommation de payer ou de délaisser. — Procédure d'expropriation;
@@ -10285,7 +10296,7 @@
                             procédure d’expropriation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0900">
                     <head>329. - Expropriation. — Tiers détenteur; sommation; omission de
                         signification faute de domicile connu, entraînant la nullité de la procédure
                         et du jugement. — Poursuivant; responsabilité en cas d'annulation de la
@@ -10651,7 +10662,7 @@
                             la cession du 3 Février 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0910">
                     <head>330. - Expropriation. — Tiers détenteur; sommation; omission; nullité de
                         la saisie; cas où elle est couverte par l'attitude du tiers
                         détenteur.</head>
@@ -10677,7 +10688,7 @@
                             Juin 1937).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0920">
                     <head>331. - Expropriation. — Tiers détenteur; sommation signifiée après la
                         transcription de la saisie; tardiveté; connaissance de la procédure par le
                         tiers détenteur; inopérance.</head>
@@ -10728,7 +10739,7 @@
                         <p>II. - Comp. cep- ci-avant § 330, l’arrêt du 11 Mai 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-09-0930">
                     <head>332. - Expropriation. — Tiers détenteur; sommation signifiée
                         personnellement au nazie d'un wakf; cas où elle est valable à l'égard du
                         wakf. — Procédure d'expropriation; nullités non soulevées devant le Juge

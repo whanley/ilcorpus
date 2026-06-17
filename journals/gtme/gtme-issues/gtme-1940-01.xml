@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1940-01-10">January 10, 1940</date><lb/>
-                    <biblScope unit="volume">Vol. 30</biblScope><lb/>
-                    <biblScope unit="number">No. 351</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1940-01-10">January 10, 1940</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 30</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 351</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -52,8 +63,8 @@
                     PUPIKOFEB, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d*Administration :</p>
                 <p>M* L. PANGALO et R. 8CHEMEIL (Directeurs au Caire)</p>
-                <p>•M>* E. DEGIARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
-                <p>M' A- FADEL (Directeur à Mantourah). M- F. BRAUN. (0oTrttpmdant> d Porù,</p>
+                <p>•M&gt;* E. DEGIARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
+                <p>M' A- FADEL (Directeur à Mantourah). M- F. BRAUN. (0oTrttpmdant&gt; d Porù,</p>
                 <p>M« G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT î</p>
                 <p>ABONNEMENTS</p>
                 <p>— à la Gazette (un an). P.T. 150</p>
@@ -296,8 +307,8 @@
                     une colonie pénitentiaire. Cette infraction si légère n’implique en général ni
                     perversion, ni, par suite, nécessité i d’un régime d’amendement. ■</p>
                 <p>Il importe de remarquer ici que le lé- ; gislateur dès 1904 avait déjà supprimé ;
-                    l’excuse de minorité en cas d’infraction > délictuelle commise par un mineur de
-                    i</p>
+                    l’excuse de minorité en cas d’infraction &gt; délictuelle commise par un mineur
+                    de i</p>
                 <pb n="113" rendition="Gazette des Tribunaux Mixtes."/>
                 <p>15 ans, ce qui paraîtrait une sévérité à l’égard de ces jeunes délinquants.</p>
                 <p>Mais en réalité cette sévérité est adoucie par les dispositions des juges qui les
@@ -647,7 +658,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0010">
                     <head>58. - Absence. — Statut personnel musulman; déclaration de décès de
                         l'absent; point de départ. — Procureur judiciaire de l'absent; pouvoirs;
                         encaissement des revenus; validité. —■ Mandat entre époux; présomption de
@@ -945,7 +956,7 @@
                             dessaisissement du dit immeuble par une autre voie légale.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0020">
                     <head>59. - Donation. — Statut personnel musulman; obligation de garantie du
                         donateur en cas de revendication; cas d'exonération. — Minorité; vente d'un
                         immeuble par un père à son enfant mineur; conservation de la possession par
@@ -986,7 +997,7 @@
                             1924, cité par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0030">
                     <head>60. - Interdiction. — Actes nuis; ratification; effet rétroactif entre
                         parties; défaut d'effet rétroactif à l'égard des tiers; conséquences; cas de
                         ratification d'une inscription prise contre un mineur, intervenue
@@ -1041,7 +1052,7 @@
                             généraux de droit et s’impose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0040">
                     <head>61. - Interdiction. — Faiblesse mentale; actes antérieurs à
                         l'interdiction; cas où ils. méritent protection.</head>
                     <div type="summary">
@@ -1057,7 +1068,7 @@
                             Cherif Toussoun El Alaily c. Hoirs Dimitri Kitromllids.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0050">
                     <head>62. - Interdiction. — Prodigalité; défaut d'effet rétroactif de
                         l'interdiction; actes antérieurs; annulabilité en cas de fraude ou de
                         simulation; preuve de la simulation par le curateur de l'interdit.</head>
@@ -1215,7 +1226,7 @@
                             débats, suffisent pour mettre l’affaire en état...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0060">
                     <head>63. - Interdiction. — Statut personnel hellénique; démence; point de
                         départ de l'incapacité légale; actes juridiques accomplis avant
                         l'interdiction; condition d'annulation; commandement notifié par un
@@ -1349,7 +1360,7 @@
                             réclament réciproquement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0070">
                     <head>64. - Interdiction. — Statut personnel musulman; décision du Méglis Hasby;
                         défaut de transcription conformément aux dispositions de la Loi du 13
                         Octobre 1925; inopposabilité aux tiers.</head>
@@ -1402,7 +1413,7 @@
                             Novembre 1938 de la Cour d’Appel Nationale du Caire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0080">
                     <head>65. - Interdiction. —■ Statut personnel musulman; levée provisoire de
                         l'interdiction à titre d’essai; pouvoirs de l’interdit; souscription d’une
                         reconnaissance de dette avec cession d’une pension alimentaire à échoir;
@@ -1505,7 +1516,7 @@
                             l’appelante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0090">
                     <head>66. - Israélites algériens. — Successions; applicabilité de la loi
                         française; inapplicabilité de la loi mosaïque; hypothèque consentie par le
                         veuf d’une isréalite algérienne sur un immeuble dévolu à ses enfants
@@ -1709,7 +1720,7 @@
                             Janvier 1934, Gaz., XXIV, 155-124.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0100">
                     <head>67. - Israélites —• Statut personnel; propriété des meubles garnissant le
                         domicile conjugal; présomption; preuve de la propriété de la femme résultant
                         de la « ketouba ».</head>
@@ -1790,7 +1801,7 @@
                         <p>Note. — V. Gaz. XXIV, 155-125, l’arrêt du 26 Janvier 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0110">
                     <head>68. - Minorité. — Actes nuis; exception de nullité; admissibilité sans
                         besoin d'action préalable. — Statut personnel musulman; nullité absolue des
                         actes du mineur lorsqu'il s'agit de la forme des actes; billets à
@@ -1849,7 +1860,7 @@
                             ce qui est précisément le cas en l’espèce...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0120">
                     <head>69. - Minorité. — Statut personnel, musulman; actes, que le tuteur est
                         autorisé à accomplir sans autorisation du. Méglis Hasby; vente de coton. —
                         Fermages; vente des récoltes du fermier par le bailleur; usages.</head>
@@ -1916,7 +1927,7 @@
                             de ses loyers sur le prix provenant de la vente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0130">
                     <head>70. - Minorité. — Statut personnel musulman; Décret du 13 Octobre 1925;
                         portée; puissance paternelle; étendue; actes accomplis par le père pour
                         compte de ses enfants mineurs; validité dépendant du comportement du père et
@@ -2196,7 +2207,7 @@
                             dernier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0140">
                     <head>71. - Minorité. — Statut personnel musulman; prolongation de la tutelle;
                         interdiction; mainlevée de l'interdiction; retrait des pouvoirs du tuteur
                         légal; décision du Méglis Hasby; défaut de publication au « Journal Officiel
@@ -2315,7 +2326,7 @@
                             tuteur, il n’a pas publié dans le dit « Journal Officiel » la décision
                             du Méglis Hasby concernant Moustafa Mohamed Mohamed Abdalla et qu’il
                             s’est borné à en faire insérer un avis dans les journaux « La Bourse
-                            Egyptienne » et u Al Mokattam >>;</p>
+                            Egyptienne » et u Al Mokattam &gt;&gt;;</p>
                         <p>Mais attendu que s’il est évident que pareilles publications ne peuvent
                             suppléer à la forme de publicité édictée par l’arrêté d’exécution
                             ci-dessus, la non-publication au « Journal Officiel » de la décision
@@ -2377,7 +2388,7 @@
                             1938, de la Cour d’Appel Nationale du Caire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0150">
                     <head>72. - Statut personnel. — Dot et contre-dot; action en paiement intentée
                         par la femme contre la succession de son mari; contestations basées sur un
                         testament dont la validité est contestée par devant un Tribunal Consulaire;
@@ -2509,7 +2520,7 @@
                             compétente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0160">
                     <head>73. - Statut personnel. — Tribunaux Consulaires Italiens; maintien de leur
                         compétence entre époux italiens en matière de séparation de corps et de
                         pension alimentaire; incompétence du Mehkémeh Charieh malgré la conversion
@@ -2615,7 +2626,7 @@
                             (Gaz. XXX, 18-10).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0170">
                     <head>74. - Succession musulmane. — Assignation en la personne d'un ou plusieurs
                         héritiers; condition de validité.</head>
                     <div type="summary">
@@ -2632,7 +2643,7 @@
                             § 78, l’arrêt du 5 Mai 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0180">
                     <head>75. - Succession musulmane. — Dettes successorales; affectations et
                         inscriptions posthumes; efficacité pour assurer la séparation des
                         patrimoines, inefficacité pour la création de droits de préférence après le
@@ -2742,7 +2753,7 @@
                         <p>1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0190">
                     <head>76. - Succession musulmane. — Dettes successorales; affectations
                         hypothécaires posthumes; efficacité pour assurer la séparation des
                         patrimoines; inefficacité pour la créaiton de droits de préférence. —
@@ -2848,7 +2859,7 @@
                         <p>Note. — V. ci-avant Z 75, l’arrêt du 7 Juin 1938, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0200">
                     <head>77. - Succession musulmane. — Dettes successorales; paiement par
                         l'héritier de certains créanciers de préférence à d'autres, n'engendrant pas
                         sa responsabilité personnelle; responsabilité personnelle d'un héritier
@@ -2964,7 +2975,7 @@
                             ci-après § 78, 1 arrêt du 5 Mai 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0210">
                     <head>78. - Succession musulmane. — Déliés successorales; règlement;
                         interdiction pour les héritiers de vendre ou de disposer d'une part
                         déterminée ou indivise dans la succession avant le règlement des dettes
@@ -3104,7 +3115,7 @@
                             du 21 Avril 1938.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0220">
                     <head>79. - Successions. — Créanciers successoraux; droit d'assigner tous les
                         héritiers apparents, y compris les usufruitiers et les acceptants sous
                         bénéfice d'inventaire; droit d’assigner une succession insolvable. —
@@ -3209,7 +3220,7 @@
                             obligations, c’est-à-dire ses dettes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0230">
                     <head>80. - Successions. — Jugement prononcé en vertu d'un testament
                         authentique; exécution provisoire; admissibilité.</head>
                     <div type="summary">
@@ -3290,7 +3301,7 @@
                             testaments soient recevables, il faut que le testament soit fait par
                             acte authentique ou écrit en entier de la main du testateur, et par acte
                             authentb que on entend celui émanant d’un fonction-</p>
-                        <p>■ Are> compétent de par sa charge;</p>
+                        <p>■ Are&gt; compétent de par sa charge;</p>
                         <p>Qu en l’espèce le testament de feu Sid-AOw a été écrit sous dictée par un
                             notaire, uevant quatre témoins; que cette cérémonie in ?. uné le
                             caractère d’authenticité, que a loi charéi exige; et c’est précisément r
@@ -3307,7 +3318,7 @@
                             plaidoiries au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0240">
                     <head>81. - Successions. — Musulmans; faculté d’hériter les uns des autres. —
                         Etrangers non musulmans; qualité de « moustameins »; acquisition d'immeubles
                         en Egypte ne leur attribuant pas la qualité de « zimmis »; succession non
@@ -3441,10 +3452,11 @@
                         <p>tiS Ç.3 Ja'uJJ j l'L'i/l Aù) U</p>
                         <p>S J—i AS</p>
                         <p>âU-i Jù' I j -yA A jj'3) A3 Tj ’ÿl ûy?</p>
-                        <p>( \ Y Y > G \Yj\0 .yr ùU >>) ce qui équivaut à dire que le « zimmi » est
-                            celui à qui confiance et droit d’habiter paisiblement un Etat Musulman,
-                            ont été donnés, à condition de payer la capitation (kha-radj) £'>■ ou un
-                            tribut (voir Encyclopédie Arabe, t. 15 et 16, page 112);</p>
+                        <p>( \ Y Y &gt; G \Yj\0 .yr ùU &gt;&gt;) ce qui équivaut à dire que le «
+                            zimmi » est celui à qui confiance et droit d’habiter paisiblement un
+                            Etat Musulman, ont été donnés, à condition de payer la capitation
+                            (kha-radj) £'&gt;■ ou un tribut (voir Encyclopédie Arabe, t. 15 et 16,
+                            page 112);</p>
                         <p>Attendu que la Loi du 18 Juin 1867 (7 Safar 1284), en accordant aux
                             européens le droit d’acquérir des immeubles en Turquie (dont dépendait à
                             l’époque l’Egypte), les a assimilés aux sujets ottomans pour tout ce qui
@@ -3457,7 +3469,7 @@
                             nationalité et cette acquisition n’est pas un mode de perte de la
                             nationalité suivant la législation en vigueur. La conception musulmane,
                             en la matière, garde à l’étranger non musulman sa qualification de «
-                            Moustâmein » à-ù—> quoiqu'ayant</p>
+                            Moustâmein » à-ù—&gt; quoiqu'ayant</p>
                         <p>des biens en Egypte et se conformant aux lois du pays; — jamais la notion
                             du « zimmi » ne peut s’étendre à lui, pour la raison bien simple qu’il a
                             une autre patrie que l’Egypte ou autrement dit une autre nationalité
@@ -3470,7 +3482,7 @@
                             côté 1ers titres avaient une apparence tout au moins complète...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0250">
                     <head>82. - Successions. — Patriarcats; loi applicable; compétence; attitude
                         impliquant acceptation; conséquences. — Elam Charéi; conditions; cas de
                         contestation entre héritiers. — Succession d’un égyptien non musulman;
@@ -4027,7 +4039,7 @@
                             § 83, les jug. Civ. Caire des 6 Février et 20 Juin 1939.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-01-0260">
                     <head>83. - Successions. — Testament d'un égyptien grec-orthodoxe; compétence du
                         Patriarcat grec-orthodoxe pour recevoir et rédiger le testament. —
                         Succession testamentaire; compétence des communautés religieuses; condition.
@@ -4271,8 +4283,8 @@
                     fructifier au profit du ménage.</p>
                 <p>En conséquence, les contestations au sujet de la dot relèvent de la compétence
                     des Tribunaux Nationaux et non ues tribunaux de statut personnel.</p>
-                <p>â’Appel Nat. du Caire, Ch. Civ. et Com., v', m>di Aboul Ezz pacha, 21 Avril 1928.
-                    loianda Assis c. Antoine Moussalli.</p>
+                <p>â’Appel Nat. du Caire, Ch. Civ. et Com., v', m&gt;di Aboul Ezz pacha, 21 Avril
+                    1928. loianda Assis c. Antoine Moussalli.</p>
                 <p>Arrêt (extrait et traduction).</p>
                 <p>Alten&lt;iu que l’appel se fonde sur le fait que le Tribunal de première instance
                     au</p>

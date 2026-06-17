@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1918-04-10">April 10, 1918</date><lb/>
-                    <biblScope unit="volume">Vol. 8</biblScope><lb/>
-                    <biblScope unit="number">No. 90</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1918-04-10">April 10, 1918</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 8</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 90</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -433,7 +444,7 @@
             <pb n="76" rendition="GAZETTE-DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0010">
                     <head>179. - Adjudication. — Eviction. — Opposition à la mise en possession. —
                         Rétention du prix. — Demande en réduction du prix. — Cahier des charges. —
                         Clause de non garantie pour déficit de contenance.</head>
@@ -506,7 +517,7 @@
                             prix d’adjudication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0020">
                     <head>180. - Cassation. — Refus par le Juge des Contraventions d’accorder un
                         renvoi pour citer des témoins à charge.</head>
                     <div type="summary">
@@ -535,7 +546,7 @@
                             un moment où l’accusation ne s’est pas encore précisée, et où le prévenu
                             ne peut pas encore savoir, pour employer, en la renversant, la formule
                             de l’arrêt du 21 Février dernier, « s’il faudra &lt; opposer à ces
-                            témoins (ceux de l’ac-« cusation) des témoins à décharge ? ></p>
+                            témoins (ceux de l’ac-« cusation) des témoins à décharge ? &gt;</p>
                         <p>L’arrêt rapporté expose:</p>
                         <p>Attendu que le Ministère Public, ayant formé pourvoi en Cassation contre
                             le jugement du Tribunal des Contraventions du Caire, en date du 16
@@ -573,7 +584,7 @@
                             l’appui du procès-verbal de contravention.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0030">
                     <head>181. - Demande reconventionnelle. — Gardien Judiciaire. —
                         Séquestre.</head>
                     <div type="summary">
@@ -585,7 +596,7 @@
                             Hanem esq. c. Mohamed eff. Zaki et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0040">
                     <head>182. - Domaine public. — « Gan-nabiehs ». — Expropriation pour cause
                         d’utilité publique. — Revendication. — Prescription.</head>
                     <div type="summary">
@@ -602,7 +613,7 @@
                             El Kadeni c. Administration des Chemins de Fer de l’Etat).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0050">
                     <head>183. - Faillite. — Vente de titres à tempérament. — Résiliation aux torts
                         du vendeur. — Admission de l’acheteur au passif.</head>
                     <div type="summary">
@@ -676,7 +687,7 @@
                             posées par les articles 348 et 368 précités.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0060">
                     <head>184. - Hekr. — Taux. — Majoration. — Terrains wakfs.</head>
                     <div type="summary">
                         <p>Par application des principes du droit musulman, qui régissent le contrat
@@ -742,7 +753,7 @@
                             l’Eglise Copte, d’accueillir son action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0070">
                     <head>185. - Hypothèque. — Inscription. — Non rétroactivité du nouvel art. 692.
                         — Collocation des intérêts.</head>
                     <div type="summary">
@@ -815,7 +826,7 @@
                             donner de rétroactivité; qu’on y rappelle, en effet, &lt; qu’il s’agit,
                             non d’une loi de procédure, mais d’une modification- d’une disposition
                             du droit matériel (c’est à dire relative au fond du droit) qui ne
-                            saurait avoir aucun effet rétroactif >;</p>
+                            saurait avoir aucun effet rétroactif &gt;;</p>
                         <pb n="78" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYTPE"/>
                         <p>Attendu que la jurisprudence s’est, du reste, d’une façon constante,
                             prononcée en ce sens (voir B. L. XXVIII p. 79 et 399; Gazette des
@@ -826,7 +837,7 @@
                             pour lui.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0080">
                     <head>186. - Immeuble par destination. — Conditions. — Catégories. — Machines
                         agricoles.</head>
                     <div type="summary">
@@ -888,7 +899,7 @@
                             rapportée la saisie mobilière pratiquée par l’intimé est valable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0090">
                     <head>187. - Interrogatoire sur faits et articles. — Preuve testimoniale.</head>
                     <div type="summary">
                         <p>L’interrogatoire sur faits et articles n’implique pas l’abandon de tout
@@ -937,7 +948,7 @@
                             l’interrogatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0100">
                     <head>188. - Juridiction mixte. — Compétence. — Tiers-saisi.</head>
                     <div type="summary">
                         <p>I. - Un changement de nationalité survenu en cours d’instance ne saurait
@@ -959,7 +970,7 @@
                             Dimitri et Antoine Schoungara c. Kha-ralambos Ka’idos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0110">
                     <head>189. - Jurisprudence. — Portée juridique des arrêts des Chambres Réunies
                         de la Cour.</head>
                     <div type="summary">
@@ -991,7 +1002,7 @@
                             effet rétroactif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0120">
                     <head>190. - Lettre de change. — Acceptation. — Provision. — Compétence
                         mixte.</head>
                     <div type="summary">
@@ -1016,7 +1027,7 @@
                     </div>
                 </div>
                 <pb n="79" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0130">
                     <head>191. - Loi des cinq feddans. — Prorogations de terme. — Commandement
                         immobilier visant des biens indivis alors qu'ils sont divis.</head>
                     <div type="summary">
@@ -1045,7 +1056,7 @@
                             Abdel Halim Osman c. The Commercial Estâtes Cy of Egypt).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0140">
                     <head>192. - Nationalité. — Certificats consulaires.</head>
                     <div type="summary">
                         <p>I.-Si, lorsque le Gouvernement égyptien ne revendique pas une personne
@@ -1121,7 +1132,7 @@
                             l’arrêt de cette Cour rendu en date du 22 Décembre 1897 (B. X. 68).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0150">
                     <head>193. - Nationalité. — Possession d’état. — Accord diplomatique. —
                         Succession italienne. — Erreur de droit.</head>
                     <div type="summary">
@@ -1305,7 +1316,7 @@
                             parer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0160">
                     <head>194. - Ouverture de crédit. — Gage. — Coton égrené ou non égrené. —
                         Assurance contre l’incendie.</head>
                     <div type="summary">
@@ -1321,7 +1332,7 @@
                             pour l’Etranger c. Philippe Kfoury).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0170">
                     <head>195. - Péremption. — Appel. —Acte, de procédure interruptif. — Citation en
                         référé.</head>
                     <div type="summary">
@@ -1336,7 +1347,7 @@
                             Guabali et et. c. Khalil Effendi Ibrahim Boutros et Ct.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0180">
                     <head>196. - Préemption. — Réserves. — Question préjudicielle. —
                         Déchéance.</head>
                     <div type="summary">
@@ -1406,7 +1417,7 @@
                     </div>
                 </div>
                 <pb n="81" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0190">
                     <head>197. - Prescription quinquennale. — Débiteurs solidaires. — Reconnaissance
                         de la dette d’un co-débiteur. — Fin de la solidarité. - Fraude.</head>
                     <div type="summary">
@@ -1430,7 +1441,7 @@
                             Greiche c. Bayoumi Etman et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0200">
                     <head>198. - Presse. — Critique. — Jockey. — Diffamation.</head>
                     <div type="summary">
                         <p>La critique de presse doit pouvoir se produire avec une plus grande
@@ -1513,7 +1524,7 @@
                             journal intimé paraît devoir être une suffisante réparation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0210">
                     <head>199. - Puissance paternelle. — Droit musulman. — Capacité. — Nullité
                         relative, des actes intéressant les mineurs.</head>
                     <div type="summary">
@@ -1617,7 +1628,7 @@
                             lésion quelconque, mais qu’elle était bien avantageuse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0220">
                     <head>200. - Requête civile. — Omission de statuer.</head>
                     <div type="summary">
                         <p>Pour donner lieu à requête civile, il faut que le jugement ou l’arrêt
@@ -1632,7 +1643,7 @@
                             Bey Tewfick Hassan c. Andraous Pacha Bichara et Ct.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0230">
                     <head>201. - Requête civile. — Signification à domicile élu: nullité radicale. —
                         Amende. — Dommages-intérêts.</head>
                     <div type="summary">
@@ -1652,7 +1663,7 @@
                             Christou c. Dame Evantie Cristou).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0240">
                     <head>202. - Revendication immobilière. — Précision de la demande.</head>
                     <div type="summary">
                         <p>L’omission de l’indication des limites dans un exploit introductif de
@@ -1687,7 +1698,7 @@
                             introductif d’instance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0250">
                     <head>203. - Saisie-arrêt. — Défense de payer. — Rétention des sommes par le
                         débiteur. — Dépôt à la Caisse.</head>
                     <div type="summary">
@@ -1705,7 +1716,7 @@
                             Riso c. Ahmed bey Moukhtar et Ct esq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0260">
                     <head>204. - Saisie-arrêt. — Effets et portée. — Fausses déclarations du
                         tiers-saisi. — Responsabilité et sanctions. — Dépôt à la Caisse. — Jugement
                         de validation. — Attribution au créancier.</head>
@@ -1930,7 +1941,7 @@
                             Alexakis en validant la saisie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0270">
                     <head>205. - Stipulation pour autrui. — Effet vis-à-vis du tiers.</head>
                     <div type="summary">
                         <p>Il est de principe admis et consacré par l’art. 198 C. C. que la
@@ -1946,7 +1957,7 @@
                             autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0280">
                     <head>206. - Sujets ottomans. — Leur situation avant la guerre. — Distinction
                         entre ottomans domiciliés en Egypte et hors d’Egypte. — Séquestre. —
                         Autorités militaires anglaises. — Juridiction mixte. — Compétence.</head>
@@ -2026,7 +2037,7 @@
                             les Autorités militaires au sieur Russel, ne sont pas semblables à
                             celles confiées quelquefois à un mandataire qui devait soigner
                             civilement les intérêts d’une personne absente ou hors d’état de gérer
-                            s>‘s affaires, tel le cas signalé par le défendeur où le directeur du
+                            s&gt;‘s affaires, tel le cas signalé par le défendeur où le directeur du
                             Crédit Foncier avait été désigné séquestre pour l’administration de la
                             Daira de la Princesse Fatma Hanem, que le défendeur voudrait indiquer
                             comme exemple de comparaison;</p>
@@ -2058,7 +2069,7 @@
                             entièrement réservés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0290">
                     <head>207. - Surenchère. — Dénonciation. — Débiteur saisi.</head>
                     <div type="summary">
                         <p>Le débiteur saisi demeure nécessairement partie à la procédure
@@ -2277,7 +2288,7 @@
                             demandeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0300">
                     <head>208. - Tierce-opposition. — Délai d’appel. — Distribution. —
                         Contredit.</head>
                     <div type="summary">
@@ -2326,7 +2337,7 @@
                             suspensif à la tierce-opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-04-0310">
                     <head>209. - Tiers-détenteur. — Expropriation. — Collocation à titre
                         chirographaire.</head>
                     <div type="summary">
@@ -2405,9 +2416,9 @@
                             chirographaire.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>201. <!-- sic -->- Wakf. — Nazir. — Nomination. — Pouvoir du constituant, de
-                        l’exécuteur testamentaire, et du juge. — Révocation. — Référés. —
+                <div type="case" xml:id="gtme-1918-04-0320">
+                    <head>201. <!-- sic -->- Wakf. — Nazir. — Nomination. — Pouvoir du constituant,
+                        de l’exécuteur testamentaire, et du juge. — Révocation. — Référés. —
                         Compétence. — Séquestre. — Reddition de comptes.</head>
                     <div type="summary">
                         <p>I. - Il est de principe en matière de wakf que la nomination du nazir

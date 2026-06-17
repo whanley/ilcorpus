@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0035-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0035-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1945-07-10">July 10, 1945</date><lb/>
-                    <biblScope unit="volume">Vol. 35</biblScope><lb/>
-                    <biblScope unit="number">No. 417</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1945-07-10">July 10, 1945</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 35</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 417</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -158,7 +169,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE.</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0010">
                     <head>91. - Assurance-vie. — Bénéfice; substitution de bénéficiaire; droit de
                         l'assuré d'y procéder; forme; cas où la police prescrit la forme de
                         l'avenant; nullité d'une cession par acte séparé.</head>
@@ -288,7 +299,7 @@
                     </div>
                 </div>
                 <pb n="174" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0020">
                     <head>92. - Assurance-vie; — Bénéficiaire nommément désigné; droit propre;
                         conséquences. — Cession du bénéfice de l'assurance; défaut de forme;
                         tardivelé.</head>
@@ -374,7 +385,7 @@
                             la Compagnie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0030">
                     <head>93. - Assurance-vie. — Clause d'incontestabilité de la police; cas de
                         réserve de fraude; déclarations inexactes n'entraînant- pas
                         annulabilité.</head>
@@ -455,7 +466,7 @@
                             faites dans le but d’induire en erreur l’assureur sur une question
                             touchant l’opinion du risque »;</p>
                         <p>Attendu que bien que c’est à tort que les premiers juges, assimilant le
-                            cas de « fraude » à celui de >&lt; manœuvre frauduleuse », ont posé,
+                            cas de « fraude » à celui de &gt;&lt; manœuvre frauduleuse », ont posé,
                             pour l’examen de la présente affaire, un critérium qui ne s’accorde pas
                             avec la jurisprudence citée, il n’est pas sans intérêt de souligner
                             qu’au point de vue du fait, ils n’ont.pas manqué de rele-<pb n="175"
@@ -481,7 +492,7 @@
                             et Gaz. XXVIII, 134-124 l’arrêt du 22 Décembre 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0040">
                     <head>94. - Assurance-vie. — Demande d'annulation de la police pour fraude sur
                         l'dge de l'assuré; rejet et condamnation de l’assureur au paiement du
                         capital assuré; cas où ils ne constituent pas chose jugée faisant obstacle à
@@ -834,7 +845,7 @@
                             réformation de l’arrêt ordonnant le dépôt à la Caisse du Tribunal; ce
                             qu’elle peut faire, en l’occurrence, c'est de profiter de la fixation
                             décisive de l’âge de l’assurée, dans les limites des clauses prévues au
-                            contrat >d’assurance et dans les termes de la Loi française du 13
+                            contrat &gt;d’assurance et dans les termes de la Loi française du 13
                             Juillet 1939 applicable en l’espèce, soit de demander la réduction
                             proportionnelle du capital assuré. En effet, l’art. 13 du contrat
                             d’assurance énonce qu’il doit être présenté à la Compagnie d’assurances:
@@ -1022,7 +1033,7 @@
                             Consorts Moschos et que les autres parties ont laissé défaut.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0050">
                     <head>95. - Assurance-vie. — Fausses déclarations entraînant déchéance;
                         proposition rédigée de la main de ragent d'assurances; conséquences au point
                         de vue des frais du litige.</head>
@@ -1115,7 +1126,7 @@
                             du présent procès en ses deux instances.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0060">
                     <head>96. - Assurance-vie. — Médecin; secret professionnel; exception en cas
                         d'autorisation donnée par le malade dans une proposition d'assurance. —
                         Assurance sur la vie; clause d'incontestabilité; réserve du cas de fraude;
@@ -1254,7 +1265,7 @@
                             .médecin).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0070">
                     <head>97. - Assurance-vie. — Obligations de l’assureur avant l’émission de la
                         police, en cas de réclamation judiciaire de la première prime.</head>
                     <div type="summary">
@@ -1315,7 +1326,7 @@
                             adopte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0080">
                     <head>98. - Assurance-vie. — Primes; caractère quérable résultant de la pratique
                         suivie; conséquence quant à la déchéance pour défaut de paiement.</head>
                     <div type="summary">
@@ -1421,12 +1432,14 @@
                             Compagnie défenderesse ne saurait se prévaloir de la déchéance pour
                             contester - au demandeur, soit au.paiement du montant de la
                             police...</p>
-                        </div><div type="observations"><p>NOTE. — V. Gaz. XXV, 306-354 les arrêts du 16 Novembre 1933, du 26 Avril
+                    </div>
+                    <div type="observations">
+                        <p>NOTE. — V. Gaz. XXV, 306-354 les arrêts du 16 Novembre 1933, du 26 Avril
                             1934 et du 28 Mars 1935; — et Gaz. XXX, 317-193' et 318-194 les arrêts
                             du 31 Mai 1939 et du 15 Février 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0090">
                     <head>99. - Assurance-vie. — Primes; déchéance pour défaut de paiement;
                         condition; nécessité d'une mise en demeure; forme de la mise en demeure; cas
                         où les primes sont quérables.</head>
@@ -1799,7 +1812,7 @@
                             cités en note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0100">
                     <head>100. - Assurance-vie. — Proposition non suivie d’exécution malgré
                         l'acceptation de l'assureur; obligation du proposant; paiement obligatoire
                         de la première prime; caractère licite de la stipulation.</head>
@@ -1880,7 +1893,7 @@
                             entreprise, ne présmte rien d’illicite ni d’abusif, et se justifie
                             amplement par des considérations d’ordre économique inhérentes à toute
                             entreprise de ce genre (v. dans de sens, jugement Trib. Civ. Alex.,
-                            Prés. Her-reros, 6 Janvier>4923, Gaz. XIV,-13, N° 17;</p>
+                            Prés. Her-reros, 6 Janvier&gt;4923, Gaz. XIV,-13, N° 17;</p>
                         <p>— jug. Trib. Civ. Alex., 24 Mars 1931, Prés. Beneducci, R.G.* N°
                             11116/56me' A.J., Dila-veris c. Phoenix Espagnol (inédit); — jug. Trib.
                             Mixte Sommaire du Caire, 25 Février 1937, Compagnie Paternelle-Vie c.
@@ -1901,7 +1914,7 @@
                         <p>Note. — V. Gaz. XIV, 13-17; XXV, 301-350, et XXX, 319-195.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0110">
                     <head>101. - Assurance-vie. — Règlement soumis à quittance sans réserves; droit
                         de la Compagnie de l'exiger; défaut de contrainte morale. — Polices mixtes
                         avec participation aux bénéfices capitalisés; décès de l'assuré;
@@ -2084,7 +2097,7 @@
                             ayants droit n’ont pas droit à autre chose qu’au capital assuré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0120">
                     <head>102. - Assurance-vie. — Remise en vigueur d'une police annulée ou réduite;
                         droit réservé à l'assuré de son vivant. — Rachat de la police par l'assureur
                         à défaut de paiement des primes; faculté non susceptible d’être exercée
@@ -2229,7 +2242,7 @@
                             paiement des primes, est dû par l’appelante...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1945-07-0130">
                     <head>103. - Assurance-vie. — Réticences et fausses déclarations; inexactitude
                         de l'indication de l'âge de l'assuré; distinction entre le cas d'erreur de
                         bonne foi et le cas de fraude.</head>
@@ -3151,7 +3164,7 @@
                 <p>Art. 8. — Il est interdit de faciliter sciemment la fabrication clandestine des
                     briquets, soit en louant ou en sous-louant des locaux, soit en fournissant des
                     fonds, des appareils ou parties d’appareils ou de toute autre manière
-                    quelconque. ></p>
+                    quelconque. &gt;</p>
                 <p>Art. 9. — Les briquets qui ne porteraient’ pas le poinçon de l’Administration
                     constatant l’acquittement du droit, ne pourront être vendus, ni mis en vente ni
                     détenus en vue de leur vente.</p>
@@ -3296,7 +3309,7 @@
                 <p>Vu le Décret du 1er Septembre 1939 déclarant l’état de siège sur tout le
                     territoire égyptien;</p>
                 <p>Vu l’article 3 (dernier alinéa) de la Loi N’ 15 de 1923 réglementant l’état de
-                    siège; ></p>
+                    siège; &gt;</p>
                 <p>Vu la décision du Conseil des Ministres du 9 Juin 1945;</p>
                 <p>Attendu que cette décision n’empêche pas l’application des restrictions résultant
                     de l’état de siège à tout ce qui touche les questions militaires, par la voie de

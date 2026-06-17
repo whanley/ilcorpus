@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1911-05-10">May 10, 1911</date><lb/>
-                    <biblScope unit="volume">Vol. 1</biblScope><lb/>
-                    <biblScope unit="number">No. 7</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1911-05-10">May 10, 1911</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 1</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 7</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -675,7 +686,7 @@
             <pb n="100" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0010">
                     <head>Action paulienne. — Créancier.</head>
                     <div type="summary">
                         <p>Le tiers qui, sans motifs apparents, contracte avec un individu qu’il
@@ -691,7 +702,7 @@
                             Princesse Alexandra de Avierino Wiezniewska et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0020">
                     <head>Action Paulienne. (Conditions).</head>
                     <div type="summary">
                         <p>Le créancier qui veut attaquer les actes de son débiteur par l’action
@@ -705,7 +716,7 @@
                             Kahîl et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0030">
                     <head>Acquiescement. — Appel. — Exécution.</head>
                     <div type="summary">
                         <p>Le paiements des frais de première in-stancê ne peut constituer un
@@ -717,7 +728,7 @@
                             Mugnier).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0040">
                     <head>Adjudication. — Expropriation (nullité de procédure).</head>
                     <div type="summary">
                         <p>S’il appartient à toute partie intéressée de se pourvoir en nullité de la
@@ -741,7 +752,7 @@
                             CtS.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0050">
                     <head>Administrateur. — Mandat. — Gestion d’ajjaire.</head>
                     <div type="summary">
                         <p>L’administrateur d’une Société anonyme dont le mandat a expiré ou dont la
@@ -759,7 +770,7 @@
                             et de Travaux c. J. Porthos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0060">
                     <head>Cession. — Demande reconventionnelle. — Reprise d'instance.</head>
                     <div type="summary">
                         <p>Le cessionnaire du demandeur originaire reprend valablement seul la
@@ -776,7 +787,7 @@
                             Zerbini).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0070">
                     <head>Commerce (actes de). — Entreprise. — Terrassement.</head>
                     <div type="summary">
                         <p>Une entreprise de travaux de terrassement et de curage d’un canal est un
@@ -788,7 +799,7 @@
                             Mohamed Abdel Kader).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0080">
                     <head>Contredit. — Appel (Délais d’).</head>
                     <div type="summary">
                         <p>Les jugements statuant en matière de contredit n’étant pas susceptibles
@@ -801,7 +812,7 @@
                             Fahmy).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0090">
                     <head>Droits de Greffe. — Amende. — Exécution. — Appel suspensif.</head>
                     <div type="summary">
                         <p>La loi fiscale en matière de droits de Greffe forme l’exception à la
@@ -823,7 +834,7 @@
                             en Chef). . . .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0100">
                     <head>Endossement. — Date réelle. ..—&lt; Effets de Commerce.</head>
                     <div type="summary">
                         <p>La mention matérielle sur le titre avec la signature de l’endosseur,
@@ -845,7 +856,7 @@
                             Bank).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0110">
                     <head>Fins de non recevoir. — Appel. — Faillite. — Traité avec les créanciers. —
                         Dissolution d'union.</head>
                     <div type="summary">
@@ -923,7 +934,7 @@
                             N° 3 p. 32 §. Faillite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0120">
                     <head>Huissier. — Exécution arbitraire. — Gouvernement. — Partie requérante. —
                         ■Responsabilité.</head>
                     <div type="summary">
@@ -1135,7 +1146,7 @@
                         <p>(f.) PlOLA CASELU</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0130">
                     <head>Hypothèque. — Créance conditionnelle (détermination). — Action en nullité
                         pour simulation. — Présomptions. — Distribution. — Collocation. — Production
                         des titres.</head>
@@ -1168,7 +1179,7 @@
                             bey Fand Ismaïl et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0140">
                     <head>Juridiction Mixte. — Affectation hypothécaire. — Nationalité.</head>
                     <div type="summary">
                         <p>Est nulle et de nul effet l’affectation hypothécaire prise en vertu d’un
@@ -1182,7 +1193,7 @@
                             Guetsos et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0150">
                     <head>Opérations de Bourse.—Dommages-intérêts.</head>
                     <div type="summary">
                         <p>L’agent de bourse qui, pour sauvegarder ses propres intérêts, menace un
@@ -1198,7 +1209,7 @@
                             Exchange Cy. Ltd, c. F. Sousour).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0160">
                     <head>Propriété (droit de). — Préjudice, — Voisinage.</head>
                     <div type="summary">
                         <p>Le propriétaire qui a le droit de jouir et d’user de sa chose a aussi le
@@ -1221,7 +1232,7 @@
                             R. Aghion).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0170">
                     <head>Référé. — Grosses (délivrance des).</head>
                     <div type="summary">
                         <p>La compétence exceptionnelle des Référés en ce qui concerne la délivrance
@@ -1248,7 +1259,7 @@
                             N» 6. p. 86. §. Référé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0180">
                     <head>Référé. — Locataire. — Expulsion. Saisie conservatoire.</head>
                     <div type="summary">
                         <p>Le bailleur, bénéficiaire d’une ordonnance de Référé portant expulsion
@@ -1263,7 +1274,7 @@
                             Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0190">
                     <head>Réhabilitation. — Faillite.</head>
                     <div type="summary">
                         <p>La réhabilitation ne saurait être obtenue par un failli sur la production
@@ -1277,7 +1288,7 @@
                             arrêt en cause Essayed Khadra).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0200">
                     <head>Renvoi non intempestif. — Ouvrier à la journée.</head>
                     <div type="summary">
                         <p>Il est de jurisprudence que l’ouvrier à la journée peut être licencié à
@@ -1295,7 +1306,7 @@
                         <p>NOTE. — Cf. dans le même sens. 15 Juin 1899. Bull XI. 299.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0210">
                     <head>Rue publique. — Contravention.</head>
                     <div type="summary">
                         <p>L’ouverture d’une rue publique sans autorisation préalable de
@@ -1315,7 +1326,7 @@
                             Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0220">
                     <head>Saisie-Arrêt. — Compétence. — Taux de la demande. — Tribunal
                         Sommaire.</head>
                     <div type="summary">
@@ -1332,7 +1343,7 @@
                             Fakhr).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0230">
                     <head>Servitude d’écoulement des eaux. — Propriété (droit de)</head>
                     <div type="summary">
                         <p>Le propriétaire du fonds inférieur (fonds servant), soumis à la servitude
@@ -1348,7 +1359,7 @@
                             Gianaclis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0240">
                     <head>Société en nom collectif. — Liquidation. — Membres. — Action en
                         justice.</head>
                     <div type="summary">
@@ -1364,7 +1375,7 @@
                             Motandos et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0250">
                     <head>Solidarité. — Frais. — Chose jugée.</head>
                     <div type="summary">
                         <p>Quand la solidarité n’a pas été expressément prononcée même pour les
@@ -1378,7 +1389,7 @@
                             feu Abdel Salam el Kholi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0260">
                     <head>Succession. — Vente. — Droit musulman. — Saisine.</head>
                     <div type="summary">
                         <p>La saisine n’ayant lieu en droit musulman qu’après l’extinction des
@@ -1394,7 +1405,7 @@
                             Pacha Toussoum et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0270">
                     <head>Taxe (opposition à).</head>
                     <div type="summary">
                         <p>L’opposition à taxe ne pouvant porter que sur le quantum de l’allocation
@@ -1407,7 +1418,7 @@
                             Moustafa el Naggar et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0280">
                     <head>Testament. — Statut personnel. — Juridiction Mixte. — Sursis.</head>
                     <div type="summary">
                         <p>Les Tribunaux Mixtes ne sont pas compétents pour statuer sur la validité
@@ -1429,7 +1440,7 @@
                             Tréhaki).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0290">
                     <head>Usure. — Présomptions. — Preuve (charge de la).</head>
                     <div type="summary">
                         <p>Aux termes d’une jurisprudence constante il y a présomption d’usure
@@ -1448,7 +1459,7 @@
                             Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0300">
                     <head>Vérification d’écriture. — Enquête. — Expertise.</head>
                     <div type="summary">
                         <p>L’enquête, en matière de vérification, n’est pas nécessairement le
@@ -1465,7 +1476,7 @@
                     </div>
                 </div>
                 <pb n="104" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-05-0310">
                     <head>Vente à livraison. — Preuve.</head>
                     <div type="summary">
                         <p>En matière de ventes à livraison, faute d’un contrat ou d’un ordre par

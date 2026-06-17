@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1917-11-10">November 10, 1917</date><lb/>
-                    <biblScope unit="volume">Vol. 8</biblScope><lb/>
-                    <biblScope unit="number">No. 85</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1917-11-10">November 10, 1917</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 8</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 85</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -144,9 +155,10 @@
                 <p>Ouï les avocats des parties;</p>
                 <p>Déclare Z. coupable du délit prévu par les art. 408 du C. Pénal et 5 de la loi du
                     12 Mars 1900 ainsi conçus :</p>
-                <p>« Art. 408 du Code Pénal. » (L. 13 Mai >863). Quiconque aura détourné ou dissipé,
-                    au préjudice des propriétaires, possesseurs ou détenteurs, des effets, deniers,
-                    marchandises, billets, quittances ou tous autres écrits contenant ou opé-</p>
+                <p>« Art. 408 du Code Pénal. » (L. 13 Mai &gt;863). Quiconque aura détourné ou
+                    dissipé, au préjudice des propriétaires, possesseurs ou détenteurs, des effets,
+                    deniers, marchandises, billets, quittances ou tous autres écrits contenant ou
+                    opé-</p>
                 <pb n="4" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                 <p>„ ; ---------- .------------- ■ ------</p>
                 <p>rant obligation ou décharge, qui ne lui auraient été remis qu’à titre de louage,
@@ -316,7 +328,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0010">
                     <head>1. - Accident du travail. — Risque professionnel.</head>
                     <div type="summary">
                         <p>Lorsqu’aucune faute ne peut être relevée à l’encontre de l’employeur, un
@@ -332,7 +344,7 @@
                         <p>Note. — V. Gaz., VII, 102-282, 119-358.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0020">
                     <head>2. - Acte authentique de prêt avec hypothèque. — Exécution sur des biens
                         non hypothéqués, pour le solde dû au créancier après expropriation des biens
                         grevés. — Commandement immobilier.</head>
@@ -352,7 +364,7 @@
                             Abdel Ghanem c. lonian Bank).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0030">
                     <head>3. - Appel incident. — Intervention en appel d'une partie non
                         intimée.</head>
                     <div type="summary">
@@ -371,7 +383,7 @@
                             et Zîssi Livanos c. Hoirs Mohamed Chehata et Elias Sourati).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0040">
                     <head>4. - Défense vexatoire. — Dommages-intérêts. — Inscription de faux.</head>
                     <div type="summary">
                         <p>Une demande de dommages-intérêts pour défense vexatoire ne doit pas
@@ -384,7 +396,7 @@
                             Caravassilîs c. Ahmed Hussein El Mekawel).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0050">
                     <head>5. - Etablissements de bains de mer. — Responsabilité du propriétaire, en
                         cas de perte des vêtements des baigneurs. — Dépôt nécessaire. — Force
                         majeure.</head>
@@ -485,7 +497,7 @@
                             moyens de ceux qui les portent.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0060">
                     <head>5.<!-- sic --> - Faillite. — Juge-Commissaire. — a. Appel de ses
                         ordonnances. — Appel du Jugement qui a statué sur une demande !! en nullité
                         d’une ordonnance du Juge-•' Commissaire. — Nullité d’une délibération ii
@@ -685,7 +697,7 @@
                             Samaan pour les créanciers vérifiés et admis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0070">
                     <head>6. - Juridiction mixte. — Compétence. — Saisissant. — Responsabilité. —
                         Demande accessoire.</head>
                     <div type="summary">
@@ -713,7 +725,7 @@
                             El Hefnaoui c. Dame Ayoucha Aloha-med el Zeini et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0080">
                     <head>7. - Litispendance. — Caution. — Action du garant contre le
                         débiteur.</head>
                     <div type="summary">
@@ -729,7 +741,7 @@
                             Youssef Barghout c. Aly Mohamed Farag).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0090">
                     <head>8. - Meglis-Hasbi. — Honoraires des tuteurs nommés par lui. — Juridiction
                         mixte. — Succession indigène.</head>
                     <div type="summary">
@@ -745,7 +757,7 @@
                             Badr El Dîne c. Abdel Salam eff. El Dalil esq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0100">
                     <head>9. - Mesures d’instruction. — Délai. — Déchéance. — Dépôt des Jrais ou de
                         la provision.</head>
                     <div type="summary">
@@ -758,7 +770,7 @@
                             Carasso c. Attilio Candida et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0110">
                     <head>10. - Occupant sans titre. — Référé. — Expulsion. — Titre exécutoire. —
                         Difficulté d’exécution.</head>
                     <div type="summary">
@@ -814,7 +826,7 @@
                         <p>Confirme.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0120">
                     <head>11. - Péremption. — Caractère accessoire de cette action. — Délai d’appel.
                         — Instance en préemption.</head>
                     <div type="summary">
@@ -878,7 +890,7 @@
                         <p>| préemption.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0130">
                     <head>12. - Préemption. — Indivision. — Exercice de l’action par un seul des
                         co-propriétaires limitrophes. — Irrecevabilité de son exercice au profit
                         d'un tiers.</head>
@@ -898,7 +910,7 @@
                             Bedrossian c. Angèle Legiadrini</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0140">
                     <head>13. - Prescription quinquennale. — Juste titre. — Mineur. — Suspension de
                         la prescription. — Indivision. — Nullité relative.</head>
                     <div type="summary">
@@ -972,7 +984,7 @@
                             suspension appartenant à sa sœur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0150">
                     <head>14. - Référés. — Compétence en matière de difficultés d’exécution. —
                         Mesures provisoires. — Usufruit d’un wakf déclaré insaisissable par décret
                         du 15 Octobre 1888.</head>
@@ -987,7 +999,7 @@
                             Prince Azîz Hassan c. F. Philippe et M. letton).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0160">
                     <head>15. - Référés. — Compétence. — Mesures provisoires. — Modification dans la
                         situation des parties depuis une décision rendue au fond.</head>
                     <div type="summary">
@@ -1002,7 +1014,7 @@
                             Garabed et Ct. c. Mohamed Abdel Ka-led Pacha Madkotrr et autres.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0170">
                     <head>16. - Revendication immobilière.— Adjudicataire. — Procès-verbal de
                         com-mand.</head>
                     <div type="summary">
@@ -1020,7 +1032,7 @@
                             feu Mohamed El Tagouri c. Fatma Abdel Latif Ghobachi et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0180">
                     <head>17. - Revendication. — Non-assignation de tous les co-propriétaires d’un
                         bien indivis. — Conséquences.</head>
                     <div type="summary">
@@ -1036,7 +1048,7 @@
                             Hassan Hussein c. Daoud Sahb Salama).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0190">
                     <head>18. - Saisie. — Gardien judiciaire. — Possession. — Mesures
                         conservatoires. — Danger d’inondation.</head>
                     <div type="summary">
@@ -1069,7 +1081,7 @@
                             et Sons Ltd. c. Mohamed bey Cotta Korachi et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0200">
                     <head>19. - Séquestre. — Action en simulation. — Référé. — Dépossession.</head>
                     <div type="summary">
                         <p>L’appréciation des moyens de fraude et de fictivité invoqués contre un
@@ -1090,7 +1102,7 @@
                             1917, Gaz. VIII, 176-512.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0210">
                     <head>20. - Tierce-opposition. — Ordonnance du Juge délégué aux adjudications. —
                         Subrogation aux poursuites.</head>
                     <div type="summary">
@@ -1173,7 +1185,7 @@
                             dernière heure, c’est-à-dire l’audience même fixée pour la vente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-11-0220">
                     <head>21. - Transport maritime. — Fins de non recevoir des an. 274 et 275 C.
                         Corn. Mar. — Manquants. — Marchandises non chargées. — Bon de livraison. —
                         Mention « short-shipped ». — Prescription annale des art. 271 et 273 C.

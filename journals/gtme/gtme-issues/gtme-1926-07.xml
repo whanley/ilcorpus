@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0016-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0016-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1926-07-10">July 10, 1926</date><lb/>
-                    <biblScope unit="volume">Vol. 16</biblScope><lb/>
-                    <biblScope unit="number">No. 189</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1926-07-10">July 10, 1926</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 16</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 189</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -545,7 +556,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0010">
                     <head>229. - Association en participation. — Cumul de la qualité d'employé d'une
                         société et d’associé en participation; violation des obligations de
                         l'associé entraînant résolution du contrat de louage de services;
@@ -673,7 +684,7 @@
                             condannarlo ancora ai danni di esso.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0020">
                     <head>230. - Association en participation. — Dissolution judiciaire en cas de
                         difficultés entre associés; jugement prononçant la dissolution et ordonnant
                         un établissement de comptes; caractère définitif; appel.</head>
@@ -766,7 +777,7 @@
                             celle d’un expert en vue d’établir, les comptes entre parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0030">
                     <head>231. - Association en participation. — Obligation pour l'associé gérant de
                         tenir-une comptabilité et des livres spéciaux à l'exploitation sociale; cas
                         où les passations sociales ont été confondues dans les écritures du commerce
@@ -844,7 +855,7 @@
                             et en discussion.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0040">
                     <head>232. - Société. — Dissolution et cession fictives; inopposabilité de la
                         fictivité aux tiers de bonne foi. — Défaut de publication d'un acte de
                         dissolution de société; droit pour les tiers de ne point invoquer la
@@ -874,7 +885,7 @@
                             par ceux des créanciers sociaux.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appel, Ire Ch., Prés. M. M. Hansson, 19 Mai >1926. — Salvator
+                        <p>(Cour d’Appel, Ire Ch., Prés. M. M. Hansson, 19 Mai &gt;1926. — Salvator
                             Cicurel c. Pierre Guzel et autre»).</p>
                     </div>
                     <div type="observations">
@@ -990,8 +1001,8 @@
                             dette contractée, stipulation qui pour les tiers pouvait très bien être
                             considérée la contre-partie de la cession. Et enfin en ce qui concerne
                             la nullité qui résulterait du défaut de publicité, à bon droit Guzel a
-                            fait valoir que cette nullité n’est pas absolue et que les tierces pei>
-                            sonnes de bonne foi qui ont contracté avec</p>
+                            fait valoir que cette nullité n’est pas absolue et que les tierces
+                            pei&gt; sonnes de bonne foi qui ont contracté avec</p>
                         <pb n="224" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>la société ou ses associés, sont en droit de se prévaloir ou de ne pas se
                             prévaloir de l’inobservation des formalités prescrites par l’art. 64
@@ -1029,7 +1040,7 @@
                             n’est pas justifiée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0050">
                     <head>233. - Société. — Versement effectué en vue d'une commandite; accords non
                         réalisés; contrat inexistant; faillite du commerçant qui a reçu les fonds;
                         admission au passif, comme créancier de celui qui les a versés.</head>
@@ -1089,7 +1100,7 @@
                             faillite pour la dite créance de L.E. 700.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0060">
                     <head>234. - Société anonyme. — Assemblée Générale; omnipotence; action basée
                         sur des violations de la loi et des statuts; recevabilité. — Action sociale;
                         action individuelle; distinction; action exercée dans l'intérêt d'une
@@ -1528,7 +1539,7 @@
                             sommes lui revenant et qu’en tous les cas un actionnaire ne pourrait
                             exercer l’action sociale individuellement lorsque les actionnaires
                             avaient ratifié les décisions attaquées, ce qui aurait eu lieu en
-                            l’espèce par le vote des bilans. *></p>
+                            l’espèce par le vote des bilans. *&gt;</p>
                         <p>Cette exception repose sur une conception •erronée de la nature de
                             l’action de Schinasi. En effet, la Société explique elle-même que
                             l’action sociale est celle qui intéresse également tous les actionnaires
@@ -2238,7 +2249,7 @@
                             autres conclusions comme mal fondées...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0070">
                     <head>235. - Société anonyme. — Assemblée Générale; omnipotence; limites;
                         délibérations entachées de vices de forme ou de substance; action
                         individuelle tendant à leur annulation; recevabilité. — Actions concernant
@@ -2634,7 +2645,7 @@
                         <p>ment, pour déclarer que les cinq Assemblées 1</p>
                         <p>ci-dessus auraient erré en qualifiant d’amor- *</p>
                         <p>tissements les prélèvements qu’elles ont, «</p>
-                        <p>dans l’intérêt social, écartés, sous cette dé- ></p>
+                        <p>dans l’intérêt social, écartés, sous cette dé- &gt;</p>
                         <p>nomination, d’une répartition au profit des ,</p>
                         <p>porteurs d’actions de capital; — qu’au cours de la consultation à
                             laquelle il a procédé de la doctrine et de la jurisprudence, le Tribu- «
@@ -2643,7 +2654,7 @@
                             d’ordre économique et industriel qui ont dé-, &lt; terminé les décisions
                             de l’Assemblée; — que ■ cette interdiction d’appréciation du juge dans
                             ce domaine est apparue avoir été si compté- j tement consacrée par les
-                            nécessités couran-, > tes, que certaines législations n’ont pas hé-
+                            nécessités couran-, &gt; tes, que certaines législations n’ont pas hé-
                             ’</p>
                         <p>sité à l’incorporer dans leurs prescriptions; ,</p>
                         <p>— que c’est ainsi que le Code de Commerce italien a, dans son article
@@ -2675,7 +2686,7 @@
                             se-^ confie catégorie en examen, leur proportion, à l’égard du capital
                             s’y opposant; — que déjà la défenderesse, utilisant des éléments qui
                             n’ont pas été contesté, avait relevé (v.; p. 47 de ses premières
-                            conclusions) que Ie> total de ses amortissements n’avait atteint, en
+                            conclusions) que Ie&gt; total de ses amortissements n’avait atteint, en
                             moyenne, que le 1,31 0/0 des dépenses, engagées, en 19 années— que, de
                             son côté,' ne considérant que les 5 années sur lesquel-.’ les il a admis
                             que portât l’action, le Tribunal; a procédé à un autre calcul, d’où il
@@ -2731,7 +2742,7 @@
                             dépens...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0080">
                     <head>236. - Société anonyme. — Conseil d'Administration; inaction: droit des
                         actionnaires; irrecevabilité de Partion directe c.rcrcée par un ae'ionnaire
                         contre un tiers ayant contracté avec le Conseil d'Administration.</head>
@@ -2888,7 +2899,7 @@
                             accueillie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0090">
                     <head>237. - Société anonyme. — Demande de dissolution basée sur la perte d’une
                         partie du capital social; quotité des pertes justifiant cette demande;
                         dispositions des statuts. — Action «ut singuli» en dissolution; conditions
@@ -3175,7 +3186,7 @@
                             demande reconventionnelle ne peut être en conséquence accueillie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0100">
                     <head>238. - Société anonyme. — Objet statutaire; vente de l'actif social; cas
                         où il n'entraîne pas liquidation. — Bénéfices statutaires; sources;
                         bénéfices distribuables; calcul du tantième statutaire des administrateurs;
@@ -3622,7 +3633,7 @@
                             intimés ès-qualité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0110">
                     <head>239. - Société civile. — Décès d'un associé; dissolution de la Société;
                         clinique médicale; évaluation de la part d'un associé médecin, après décès;
                         participation provisoire des héritiers aux bénéfices-nature de la convention
@@ -3808,7 +3819,7 @@
                             l’appel incident en résulte rejeté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0120">
                     <head>240. - Société de fait. — Défaut de publications; droit des tiers. — Pacte
                         social; clause de non participation d'un associé aux pertes; inopposabilité
                         aux tiers.</head>
@@ -3905,7 +3916,7 @@
                             d’instruction qu’on estime inutile.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0130">
                     <head>241. - Société en commandite.— Associé commanditaire; perte de cette
                         qualité; déclaration formelle nécessaire.</head>
                     <div type="summary">
@@ -3992,7 +4003,7 @@
                             voulu établir l’égalité entre la commanditaire et les autres associés
                             dans ce sens que pour aucun d’eux il n’v aurait pas de limitation dans
                             les pertes en dehors de celles résultant du pourcentage, on aurait dit
-                            que l’appelante participerait avec 25 c/-> et les autres dans les
+                            que l’appelante participerait avec 25 c/-&gt; et les autres dans les
                             proportions de 30 0 11 pour De Zuttere et de 22 1/2 0/0 pour de Ceulener
                             et Ruelens. Au lieu de ce faire, on a dit que l’appelante prendra part
                             pour 25 pour cent et que te solde sera réparti à raison de 40 0/0 pour
@@ -4009,7 +4020,7 @@
                             convenu entre elle et les associés solidaires do la société.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0140">
                     <head>242. - Société en commandite. — Clause exonérant le commanditaire des
                         pertes et bénéfices; nullité. — Nullité de la participation du commanditaire
                         à la société, n'entraînant pas dissolution de la société; défaut d'influence
@@ -4168,7 +4179,7 @@
                             assuré par les clauses sus-relatées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0150">
                     <head>243. - Société en commandite. — Engagements pris par le futur gérant,
                         avant la constitution de la Société; nullité; conséquences. — Abus de la
                         raison sociale; inopposabilité aux tiers de bonne foi; collusion entre le
@@ -4306,7 +4317,7 @@
                             pratiquée le jour même de sa dissolution légale...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0160">
                     <head>244. - Société en commandite. — Société dissoute par le décès du
                         commanditaire; liquidation laissant un passif à éteindre; obligation par les
                         héritiers du commanditaire de verser le solde de la commandite. —
@@ -4441,7 +4452,7 @@
                             premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0170">
                     <head>245. - Société en commandite par actions. — Souscription incomplète; droit
                         du souscripteur recherché en paiement; exception non couverte par une [in de
                         non recevoir dans les statuts.</head>
@@ -4499,7 +4510,7 @@
                             souscription pour ces actions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0180">
                     <head>246. - Société en commandite par actions. — Souscription incomplète du
                         capital au moment de la constitution; nullité non édictée par la loi;
                         irrégularité couverte au moment de l'assignation; maintien de l'obligation
@@ -4603,7 +4614,7 @@
                             engagée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0190">
                     <head>247. - Société en nom collectif. — Action dirigée contre les tiers par un
                         seul associé, à concurrence de ses droits personnels; recevabilité. — Vente
                         commerciale; inexécution; circonstances ne constituant pas force
@@ -4726,7 +4737,7 @@
                             Gazieh &amp; Cie....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0200">
                     <head>248. - Société en nom collectif. — Action dirigée contre un seul associé
                         après la fin de la liquidation; recevabilité. — Conventions; interprétation
                         indépendante de la qualification donnée par les parties; contrat de prêt
@@ -4903,7 +4914,7 @@
                             irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0210">
                     <head>249. - Société en nom collectif. — Biens personnels des associés;
                         revendication par un associé d'une activité personnelle à l'autre comme bien
                         social; charge de la preuve. — Serment litis-décisoire; délation ou
@@ -5058,7 +5069,7 @@
                             le jugement attaqué et de faire droit à la demande des appelants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0220">
                     <head>250. - Société en nom collectif. — Irrégularité commise sur l'ordre d'un
                         associé au détriment de l'autre; employé responsable; faute; dénonciation
                         justifiée; licenciement non intempestif; indemnité non due. — Faillite de la
@@ -5239,7 +5250,7 @@
                             déférée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-07-0230">
                     <head>251. - Société en nom collectif ou en commandite. — Dissolution; mise en
                         liquidation par la vente du fonds social à un associé; maintien du lien
                         social jusqu’à la liquidation définitive; défaut de créance personnelle

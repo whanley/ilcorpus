@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1940-04-10">April 10, 1940</date><lb/>
-                    <biblScope unit="volume">Vol. 30</biblScope><lb/>
-                    <biblScope unit="number">No. 354</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1940-04-10">April 10, 1940</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 30</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 354</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -651,12 +662,12 @@
                 <p>(1) En ce sens Niboyet, loc cit.</p>
                 <p>(2) Arminjon, op. cit. I, p. 139.</p>
                 <p>(3) Niboyet, op. cit. p. 486.</p>
-                <p>Enfin, le renvoi ne permet pas de réa7 liser l’uniformité du droit dans les rap->
-                    ports des pays envisagés. Il aboutit, au contraire, au résultat diamétralement
-                    opposé. Voici comment : Le juge français, dans l’affaire Forgo, a appliqué la
-                    loi française successorale par renvoi de la loi internationale bavaroise. Le
-                    juge bavarois, dans la même espèce, aurait au contraire appliqué le Code
-                    bavarois par renvoi de la loi française C1 1).</p>
+                <p>Enfin, le renvoi ne permet pas de réa7 liser l’uniformité du droit dans les
+                    rap-&gt; ports des pays envisagés. Il aboutit, au contraire, au résultat
+                    diamétralement opposé. Voici comment : Le juge français, dans l’affaire Forgo, a
+                    appliqué la loi française successorale par renvoi de la loi internationale
+                    bavaroise. Le juge bavarois, dans la même espèce, aurait au contraire appliqué
+                    le Code bavarois par renvoi de la loi française C1 1).</p>
                 <p>Le renvoi conduit à des conséquences contraires aux principes fondamentaux de la
                     logique, car il conduit à un cercle vicieux. Si la législation étrangère
                     désignée par les règles de conflit forme un tout indivisible, et si cette idée
@@ -884,7 +895,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-04-0010">
                     <head>152. - Paiement. — Clause-or; Décrets-lois égyptiens de 1914 et 1935;
                         inapplicabilité aux contrats stipulés à l'étranger en monnaie étrangère et
                         devant être exécutés à l'étranger; monnaie de paiement en Egypte.</head>
@@ -1021,7 +1032,7 @@
                             28 Mars 1938, Gaz., XXVIII, 148-133.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-04-0020">
                     <head>153. - Paiement. — Créance libellée en monnaie étrangère; mode de paiement
                         du dividende concordataire en cas de conversion en monnaie égyptienne lors
                         de la production au passif de la faillite du débiteur.</head>
@@ -1081,7 +1092,7 @@
                             confirmation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-04-0030">
                     <head>154. - Paiement. — Présomption de stipulation en or; dette en livres
                         turques; paiement sur la base d'un taux de conversion représentant un
                         rapport or; conséquences; transformation d'un contrat or de fait en contrat
@@ -1089,9 +1100,8 @@
                         en Egypte. — Contrats internationaux, critérium; inapplicabilité du cours
                         forcé; rapports de droit de durée indéterminée; acquisition du caractère
                         international.</head>
-                    
                     <div type="observations">
-                        <p>Note. — Le jug. Connu. Alex, du 15> Avril 1935, dont le sommaire et le
+                        <p>Note. — Le jug. Connu. Alex, du 15&gt; Avril 1935, dont le sommaire et le
                             texte avaient été publiés sous ces rubriques-(Gaz. XXV, 320-361), a été
                             infirmé, à la suite de la promulgation du Décret-loi du 2 Mai 1935, sur
                             accord des parties, constaté dans les termes suivants par arrêt du 19
@@ -1161,7 +1171,7 @@
                             par ce jugement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-04-0040">
                     <head>155. - Paiement. — Société anonyme; ■obligations; monnaie de paiement;
                         litige entre la société et ses obligataires; intervention des actionnaires,
                         des porteurs de parts de fondateurs, et de tout tiers intéressé à la
@@ -2136,7 +2146,7 @@
                             état de cause » pour dire, comme nous l’avons vu, que, suivant le Code
                             Mixte, le droit d’intervention en degré d’appel est le même qu’en
                             première instance, — car, — observe-t-il, — s’il en était autrement
-                            &lt;> même l’intervention accessoire en degré d’appel serait non
+                            &lt;&gt; même l’intervention accessoire en degré d’appel serait non
                             recevable ».</p>
                         <p>Le même arrêt répond, in Jine, à une objection soulevée par l’une des
                             parties qui avait soutenu que si l’intervention principale qui, à la
@@ -2330,10 +2340,10 @@
                             succursale en France de la Société égyptienne défenderesse, mais que le
                             domicile social de la défenderesse est en Egypte, à son siège social,
                             avec lequel il se confond;</p>
-                        <p>>&lt; Dit que la défenderesse débitrice en Egypte d’une obligation de 500
-                            francs ne peut s’en libérer que par le paiement de 500 fois la valeur
-                            légale du franc fixée en Egypte en la monnaie y ayant cours légal à P.T.
-                            3,8575;</p>
+                        <p>&gt;&lt; Dit que la défenderesse débitrice en Egypte d’une obligation de
+                            500 francs ne peut s’en libérer que par le paiement de 500 fois la
+                            valeur légale du franc fixée en Egypte en la monnaie y ayant cours légal
+                            à P.T. 3,8575;</p>
                         <p>« Condamne la défenderesse à payer sur cette base aux demandeurs et
                             intervenants les coupons échus, et les obligations amorties dont ils
                             sont porteurs ».</p>
@@ -2518,7 +2528,7 @@
                             du 18 Février 1936 a une importance capitale dans ce procès.</p>
                         <p>En effet, si une monnaie internationale n’existe pas, la Cour — en
                             parlant, dans la phrase existant dans son arrêt du 4 Juin 1925 et si
-                            souvent répétée dans le présent litige, &lt;> du franc tout court, le
+                            souvent répétée dans le présent litige, &lt;&gt; du franc tout court, le
                             franc universel d’un système monétaire commun à plusieurs pays, ayant
                             une valeur fixe et déterminée en Egypte où le louis d’or avait alors
                             cours légal en vertu des dispositions législatives de 1834 », — n’a pas
@@ -3062,7 +3072,7 @@
                         <p>Les condamner aux frais.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-04-0050">
                     <head>156. - Paiement. — Société anonyme; obligations; monnaie de paiement;
                         litige entre la société et ses obligataires; intervention d'une association
                         d'obligataires; recevabilité. — Intervention accessoire; recevabilité en
@@ -3691,7 +3701,7 @@
                         <p>V. ci-avant § 155, l’arrêt du 24 Février 1940.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-04-0060">
                     <head>157. - Paiement. — Société anonyme; obligations; remboursement avant
                         terme; cas où il n'est pas admissible.</head>
                     <div type="summary">
@@ -3820,7 +3830,7 @@
                             Gaz. XXVIII, 51-40.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1940-04-0070">
                     <head>158. - Paiement. — Wakfieh constitutive de rente viagère en francs
                         français; interprétation; cas où l'intention des parties révèle l'adoption
                         d'une valeur fixe. — Paiement; clause-or; inopéran-ce; Loi A’° 45 de 1935. —
@@ -5386,7 +5396,7 @@
                 <p>(Journal Officiel A’0 45 du 30 Avril 1940).</p>
                 <p>I, The Military Governor, Cairo Military Zone, after perusal of Law N° 15 of 1923
                     on Martial Law and in exercise of the powers vested in me by virtue of
-                    Proclamation N-> 5 of September 4, 1939, hereby proelaim and order as
+                    Proclamation N-&gt; 5 of September 4, 1939, hereby proelaim and order as
                     follows:</p>
                 <p>1. — For the purpose of this order under Martial Law, a secret brothel is
                     considered to be any place frequented by any member of the Egyptian Army or of

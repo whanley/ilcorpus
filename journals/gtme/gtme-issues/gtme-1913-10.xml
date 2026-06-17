@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0003-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0003-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1913-10-10">October 10, 1913</date><lb/>
-                    <biblScope unit="volume">Vol. 3</biblScope><lb/>
-                    <biblScope unit="number">No. 36</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1913-10-10">October 10, 1913</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 3</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 36</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -295,7 +306,7 @@
             <pb n="223" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-10-0010">
                     <head>465. - Adjudication. — (Jugement d’) — Droits proportionnels. —
                         Surenchère. — Annulation de l’adjudication par ordonnance. — Restitution des
                         droits.</head>
@@ -354,7 +365,7 @@
                         <p>Attesochè il medesimo, avendo richiesto alla Cancelleria di questo
                             Tribunale ed avendogli la Cancelleria rifiutata la restituzione del
                             deposito di L.E. 30 da lui precedentemente fatto ai sensi dell’art. 13
-                            délia Tariffa Civile, a titolo di diritti proporzionali 2 %> abbia
+                            délia Tariffa Civile, a titolo di diritti proporzionali 2 %&gt; abbia
                             convenuto in giudizio il cancelliere del Tribunale, i creditori
                             esproprianti, i debitori espropriati e il rincarante, chiedendo che
                             fossero tutti condannati in solido a pagargli la cennata somma di L.E.
@@ -472,7 +483,7 @@
                     </div>
                 </div>
                 <pb n="224" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-10-0020">
                     <head>466 - Action Possessoire. — Réintégra nde. — Séquestre judiciaire —
                         Locataire. — Ayant-cause.</head>
                     <div type="summary">
@@ -488,7 +499,7 @@
                             Abou Sakr Hamac! c. Mohamed Hachem el Ghandour et cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-10-0030">
                     <head>467. - Enfant Adultérin. — Filiation reconnue. — Action tendant à obtenir
                         une pension alimentaire. — Recevabilité et fondement de l’action.</head>
                     <div type="summary">
@@ -547,7 +558,7 @@
                             Prés. Herzbruch. 12Mai 1913.— pme Francesca Kobal c. C. Eustathiou).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-10-0040">
                     <head>468. - Exequatur. — Tribunal compétent. — Tribunaux italiens en Lybie. —
                         Traité de Lausanne. .</head>
                     <div type="summary">
@@ -569,7 +580,7 @@
                         <p>Note. — Comp. Ord. .Mansourah, 22 Juin 1913, Gaz. III, 177, § 369.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-10-0050">
                     <head>469. - Loi Nouvelle. — Rétroactivité. Procédures en cours. — Délai pour
                         recourir. — Opposition.</head>
                     <div type="summary">
@@ -677,7 +688,7 @@
                         <p>Que l’exception de non recevabilité de l’appel est donc mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-10-0060">
                     <head>470. - Meubles. — Débiteur. — Copropriété. — Droits du créancier.</head>
                     <div type="summary">
                         <p>Le créancier d’un communiste peut, exerçant les droits de son débiteur,
@@ -718,7 +729,7 @@
                             le mobilier commun insaisissable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-10-0070">
                     <head>471. - Opposition. — Demande additionnelle.</head>
                     <div type="summary">
                         <p>L’opposition ayant pour effet de remettre les choses en l’état, de rendre
@@ -737,7 +748,7 @@
                         <p>Note. — Comp. cep. Alex. 30 Mars 1911. Gaz II, p. 124, § Opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-10-0080">
                     <head>472 - Protection Etrangère. Différence avec la naturalisation. — Loi la
                         régissant. — Certificat Consulaire. — Force probante.</head>
                     <div type="summary">
@@ -807,7 +818,7 @@
                             l’attribution légale de la protection espagnole au demandeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-10-0090">
                     <head>473. - Séquestre judiciaire. — Locataires. — Mandat. — Référé.</head>
                     <div type="summary">
                         <p>Un séquestre judiciaire, mandataire à la fois de justice et des parties
@@ -821,7 +832,7 @@
                             Couladis esq, c. Mahmoud Pacha El Etribi et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-10-0100">
                     <head>474. - Succursale. — Agence. — Compagnies de navigation.</head>
                     <div type="summary">
                         <p>Une raison sociale qui s’occupe de la fourniture de charbons aux navires
@@ -845,7 +856,7 @@
                             véritable domicile au siège social.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-10-0110">
                     <head>475. - Tiers détenteur. — Sommation de payer ou de délaisser. — Nullité
                         d’adjudication. — Action principale. — Recevabilité.</head>
                     <div type="summary">
@@ -945,7 +956,7 @@
                             de déclarer l’action des appelants recevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-10-0120">
                     <head>476 - Vente Volontaire. — Subrogation.</head>
                     <div type="summary">
                         <p>La comparaison des termes de l’art. 677 C. Proc., relatif à la

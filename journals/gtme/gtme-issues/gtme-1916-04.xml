@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0006-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0006-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1916-04-10">April 10, 1916</date><lb/>
-                    <biblScope unit="volume">Vol. 6</biblScope><lb/>
-                    <biblScope unit="number">No. 66</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1916-04-10">April 10, 1916</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 6</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 66</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -44,7 +55,7 @@
                 <p>ÉGYPTE............... P.T. 100</p>
                 <p>Alexandrie, ~ DES Étranger............ Frs. 28</p>
                 <p>V, Rue Mahmoud Pacha el-Falaky. ^Tél. 12-44. Bureaux au Caire,</p>
-                <p>5, Rue El Madabegh. T'urrr'wr>-rr?</p>
+                <p>5, Rue El Madabegh. T'urrr'wr&gt;-rr?</p>
                 <p>Têi. 17-72. DiMjYrlE, S’adresser à l’Administration.</p>
                 <p>=■===■==■======":==: = REVUE JUDICIAIRE MENSUELLE ' - ■ = -= . =</p>
                 <p>- Publiée sous la Direction de Mes MAXIME- PUPIKOFER et LÉON PANGALO, Avocats à
@@ -111,7 +122,7 @@
                 <p>Pour celui-ci, il faut constater que son droit de retenir la chose dérive du
                     contrat de gage et qu’il est formellement consacré par un texte de loi; que ce
                     droit est d’ailleurs une obligation, que la « chose « gagée doit être mise en la
-                    possession « du créancier et y rester > (souligné dans le texte Planiol, Tome
+                    possession « du créancier et y rester &gt; (souligné dans le texte Planiol, Tome
                     II, N° 2404).</p>
                 <p>Ce droit et cette obligation ne sont pas mis en échec par l’article 675 du Code
                     de Procédure aux termes duquel:</p>
@@ -435,7 +446,7 @@
             <pb n="84" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0010">
                     <head>249. - Accident. — Responsabilité. — Mécanicien. — Chaudière. — Soupape de
                         sûreté.</head>
                     <div type="summary">
@@ -451,7 +462,7 @@
                             bey c. Dme Marie Vaston).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0020">
                     <head>250. - Adjudication. — Déclaration non opposable à l’adjudicataire. —
                         Hekr. — Demande en réduction du prix.</head>
                     <div type="summary">
@@ -474,7 +485,7 @@
                             49-125.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0030">
                     <head>251. - Adjudication. — Tribunal indigène. — Inscriptions hypothécaires au
                         profit de créanciers étrangers. — Nullité relative.</head>
                     <div type="summary">
@@ -499,7 +510,7 @@
                             Aziz Baliari c. Ghattas Ayoub et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0040">
                     <head>252. - Affrètement. — Non changement dans le délai déterminé. —
                         Charte-partie. — Demi-fret.</head>
                     <div type="summary">
@@ -515,7 +526,7 @@
                             Aly Mohamed El Beiedi c. Nicolas Si-méon et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0050">
                     <head>253. — Appel. — Effet dévolutif. — .Contredits. — Intervention.</head>
                     <div type="summary">
                         <p>Bien que non contredisant, l’intervenant dans une instance sur contredit
@@ -531,7 +542,7 @@
                             Mickail Naggiar c. Thos Cook et Son et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0060">
                     <head>254. - Appel (Exploit d’). — Validité. — Citation à jour férié.</head>
                     <div type="summary">
                         <p>Le simple fait d’avoir fixé un jour férié pour la comparution à
@@ -543,7 +554,7 @@
                             G. Stagni e figli c. Abdel Fattah el Achri et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0070">
                     <head>255. — Avocat. — Honoraires. — Exécutoire de taxe. — Instance ordinaire. —
                         furidiction Mixte. — Compétence.</head>
                     <div type="summary">
@@ -655,7 +666,7 @@
                             en vertu de l’art. 478 du Code de Proc. Civ. et Corn.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0080">
                     <head>256. - Avocat. — Honoraires. — Taxe requise par citation directe devant le
                         Tribunal. — Recevabilité.</head>
                     <div type="summary">
@@ -694,7 +705,7 @@
                             temps une expertise pour les frais éventuellement dûs au demandeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0090">
                     <head>257. - Banque. — Dépôt à terme fixe. — Echéance. — Transport en compte
                         courant. — Nécessité d’un ordre à cet effet.-— Intérêts.</head>
                     <div type="summary">
@@ -755,7 +766,7 @@
                             reversée en compte courant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0100">
                     <head>258. - Cachet. — Vérification. — Expertise. — Enquête. '</head>
                     <div type="summary">
                         <p>En matière de vérification de cachet contesté, l’expertise est prescrite
@@ -769,7 +780,7 @@
                             Ghidas c. Ibrahim Aîifi Ab ou Agala).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0110">
                     <head>259. - Cassation. — Nullités ne touchant point le prévenu. — Perquisition.
                         — Visite domiciliaire. — Avis au Consulat de l’étranger. — Dépositions des
                         témoins à l’audience du Tribunal Correctionnel. — Mention au procès-verbal.
@@ -869,7 +880,7 @@
                             El Masri c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0120">
                     <head>260. - Cession. — Conditions d’opposabilité aux tiers. — Notification par
                         lettre recommandée au débiteur cédé. — Acceptation par suite d’exécution. —
                         Transcription de la saisie immobilière. — Immobilisation des fruits.</head>
@@ -891,7 +902,7 @@
                             d’Athènes c. The Mortgage Cy oî Egypt)..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0130">
                     <head>261. - Chèque. — Absence de protêt. — Force majeure. — Obligation de
                         l’endosseur. — Fait du prince.</head>
                     <div type="summary">
@@ -949,7 +960,7 @@
                             auprès de l’intimé dans cette ville.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0140">
                     <head>262. - Concordat. — Procès-verbal; de véiification des créances. —
                         Jugement d'homologation. — Condamnation contre le garant solidaire du
                         concordat.</head>
@@ -1022,7 +1033,7 @@
                             changer par là même son droit de créance en un titre exécutoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0150">
                     <head>263. - Concordat préventif. — Bailleur. — Saisie-conservatoire. —
                         Nullité.</head>
                     <div type="summary">
@@ -1034,14 +1045,14 @@
                             tombent sous l’application de cette disposition.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Trib. des Appels Somm. Civils, Caire, Prés. M. Kraft, 18 Janvier 1916.
-                            — Habib bey Muscat et Cts c. Société bassine et Louvary frères).</p>
+                        <p>(Trib. des Appels Somm. Civils, Caire, Prés. M. Kraft, 18 Janvier 1916. —
+                            Habib bey Muscat et Cts c. Société bassine et Louvary frères).</p>
                     </div>
                     <div type="observations">
                         <p>Note. — V. Gaz. 1, p. 84, § Concordat préventif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0160">
                     <head>264. - Concordat préventif. — Dépôt de bilan. — Délai de quinzaine
                         péremptoire. — Forme et conditions du bilan.</head>
                     <div type="summary">
@@ -1058,7 +1069,7 @@
                             c. Charles Freylinger).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0170">
                     <head>265. - Contredit. — .Action en diminution du prix. — Action en annulation
                         de l’adjudication. — Transformation de la demande. — Irrecevabilité.</head>
                     <div type="summary">
@@ -1076,7 +1087,7 @@
                             autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0180">
                     <head>266. - Dommages intérêts. — Action vexatoire. — Condition. —
                         Quasi-délit.</head>
                     <div type="summary">
@@ -1121,7 +1132,7 @@
                             marques arguées de contre façon.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0190">
                     <head>267. - Exécution. — Signification. —-Requête civile. — Délai. —
                         Acquiescement.</head>
                     <div type="summary">
@@ -1216,7 +1227,7 @@
                             peut pas y recourir .davantage.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0200">
                     <head>268. - Expropriation. — Poursuites Simultanées.</head>
                     <div type="summary">
                         <p>Un créancier a le droit de poursuivre la procédure d’expropriation sur
@@ -1232,7 +1243,7 @@
                             VI, . 76-238.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0210">
                     <head>269. - Faillite.— Créanciers privilégiés. •—Frais de réalisation du gage.
                         — Privilège du bailleur. — Frais et honoraires du syndic. — Masse.</head>
                     <div type="summary">
@@ -1280,7 +1291,7 @@
                             atteint, mais à la charge de la masse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0220">
                     <head>270. - Faillite.— Nullité d^s actes faits après la cessation des
                         paiements.</head>
                     <div type="summary">
@@ -1295,7 +1306,7 @@
                             Brothers &amp; Co c. Ed. Papaztan et M. Dassa èsq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0230">
                     <head>271. -Faillite. — Ordonnance du Juge-Commissaire. — Juridiction gracieuse.
                         — Recours. —- Irrecevabilité. —Droits des tiers.</head>
                     <div type="summary">
@@ -1322,7 +1333,7 @@
                             Yacoub c. Frédéric Rathje esq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0240">
                     <head>272. - Fins de non recevoir. — Action en dommages-intérêts pour manquant.
                         — Action en délivrance de marchandises.</head>
                     <div type="summary">
@@ -1339,15 +1350,15 @@
                             justice dans les 31 jours de la protestation. .</p>
                     </div>
                     <div type="litigants">
-                        <p>(Trib. Somm. Alex. Prés. M. E. O. de Herreros, s Mars 1916. — E. M. Ghiz c.
-                            America Levant Line Ltd).</p>
+                        <p>(Trib. Somm. Alex. Prés. M. E. O. de Herreros, s Mars 1916. — E. M. Ghiz
+                            c. America Levant Line Ltd).</p>
                     </div>
                     <div type="observations">
                         <p>Note. — Comp. le cas tranché par arrêt du 24^ Mars 1915, Gaz. V,
                             111-298.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0250">
                     <head>273. - Folle-enchère. — Fixation delà mise a prix. — Obligation du
                         poursuivant» —Renvoi sur baisse.</head>
                     <div type="summary">
@@ -1459,7 +1470,7 @@
                             renvoi de la vente avec baisse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0260">
                     <head>274. - Gage. — Droit de rétention. — Non remise de Vimmeuble gagé à
                         l’adjudicataire.</head>
                     <div type="summary">
@@ -1520,7 +1531,7 @@
                             texte de loi ne le lui impose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0270">
                     <head>275. - Gage. — Mandat de vendre le bien gagé. — Conditions de
                         révocabilité.</head>
                     <div type="summary">
@@ -1538,7 +1549,7 @@
                             Ibrahim Hassoun c. Hamed Abdu Zeid)._</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0280">
                     <head>276. - -Garantie. — Compétence. — Billet à ordre. — Action contre le
                         garant solidaire seul.</head>
                     <div type="summary">
@@ -1556,7 +1567,7 @@
                             Cocouis c. Saad Ahmed el Guîiuii et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0290">
                     <head>277. - Incendie. — Locataire. — Responsabilité. — Assurance.</head>
                     <div type="summary">
                         <p>I. - Le locataire qui a accepté dans son contrat de bail de se placer
@@ -1577,7 +1588,7 @@
                             Ltd c. Eratelli Jacovelli et autres.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0300">
                     <head>278. - Interdiction. — Publicité. — Tiers.</head>
                     <div type="summary">
                         <p>La publication au Journal Officiel de la sentence d’interdiction des
@@ -1612,7 +1623,7 @@
                         <p>V. note sub Jug. Alex. 2 Juin 1913, Gaz. III, 180-385.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0310">
                     <head>279. - Irrecevabilité. — Non examen du fond par le juge.</head>
                     <div type="summary">
                         <p>L’irrecevabilité d’une action non seulement dispense le juge de
@@ -1628,7 +1639,7 @@
                             Latif et Cts c. Camel Boutros et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0320">
                     <head>280. - Juridiction mixte. — Compétence.— Sujet local et sujet
                         ottoman.</head>
                     <div type="summary">
@@ -1642,7 +1653,7 @@
                             et Cie c. Mohamed Yousri Salam el Maksaraoui et Ct.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0330">
                     <head>281. - Mehkémehs. — Actes transcrits. — Catégorie publique et catégorie
                         privée. — Nécessité d’une autorisation pour avoir copie des actes de cette
                         dernière catégorie.</head>
@@ -1662,7 +1673,7 @@
                             de Bienfaisance Autrichienne c. Dame Fatma Hanem Aïenchaoui et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0340">
                     <head>282. - Obligation de faire. — Exécution. — Dommages-intérêts.</head>
                     <div type="summary">
                         <p>Il est de principe que l’exécution directe est la règle pour toute espèce
@@ -1679,7 +1690,7 @@
                             autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0350">
                     <head>283. - Péremption. — Conditions d’admission de la demande. — Actes
                         judiciaires susceptibles d’interrompre la péremption. — Requête aux fins de
                         désignation de magistrat enquêteur.</head>
@@ -1709,7 +1720,7 @@
                             &amp; Son c. Ella Angelis et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0360">
                     <head>284. - Référé. — Compétence. — Exécution provisoire. — Suspension.</head>
                     <div type="summary">
                         <p>Bien que compétent aux termes de l’art. 136 C. Proc,, pour statuer sur
@@ -1725,7 +1736,7 @@
                             Theodossîon et Cts. c. Ch. Rupp es. q. et Dame Marie Capsalès.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0370">
                     <head>285. - Référé. — Compétence. — Poursuites d’expropriation. —
                         Suspension.</head>
                     <div type="summary">
@@ -1740,7 +1751,7 @@
                             c. Haim Chamla.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0380">
                     <head>286. - Séquestre. — Mesure conservatoire.</head>
                     <div type="summary">
                         <p>La mise sous séquestre peut être ordonnée par justice toutes les fois
@@ -1755,7 +1766,7 @@
                             Fréville èsq. c. Hoirs Ghirguis Ghobrial • et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0390">
                     <head>287. - Signification au Parquet. — Non transmission de la copie en raison
                         de l’état de guerre. — Irrégularité de la citation. — Défaut.</head>
                     <div type="summary">
@@ -1774,7 +1785,7 @@
                             B. Serapion c. Siméon Ihtiaroglou).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0400">
                     <head>288. - Solidarité. — Stipulation précise.</head>
                     <div type="summary">
                         <p>S’il est certain que d’après l’art. 608 C. Civ. le cautionnement
@@ -1790,7 +1801,7 @@
                             About Leil c. I. A4. Sapriel et fils et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0410">
                     <head>289. - Stipulation pour autrui. — Ratification par le tiers. — Délai. —
                         Consentement du stipulant. — Acquéreur. — Obligation de régler le créancier
                         du vendeur.</head>
@@ -1898,11 +1909,11 @@
                         <p>« Attendu qu’ayant à son tour revendu, le « domaine et le nouvel acheteur
                             ayant pris à .« sa charge le prêt, l’obligation de Moursi se « trouve
                             être transférée au nouvel acheteur, » et l’obligation ancienne de
-                            Moursi, qui « aurait pu, le cas échéant, prendre existence > effective
-                            par l’approbation de la part du « tiers, c’est-à-dire la demanderesse,
-                            ne sau-, « rait être rappelée à la vie par une appro-« bation donnée
-                            post feston, à un moment « oû Moursi effendi ne détenait plus le do-«
-                            maine et n’était plus redevable d’une partie</p>
+                            Moursi, qui « aurait pu, le cas échéant, prendre existence &gt;
+                            effective par l’approbation de la part du « tiers, c’est-à-dire la
+                            demanderesse, ne sau-, « rait être rappelée à la vie par une appro-«
+                            bation donnée post feston, à un moment « oû Moursi effendi ne détenait
+                            plus le do-« maine et n’était plus redevable d’une partie</p>
                         <p>&lt; quelconque du prix... »</p>
                         <p>Ce jugement disait à tort que la ratification de tiers doit se faire dans
                             un délai imposé par les circonstances, car il n’y a pas de prescription
@@ -1953,7 +1964,7 @@
                         <p>C’est ce que l’arrêt infirmatif a reconnu une fois de plus. -p</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0420">
                     <head>290. - Sujet ennemi. — Commissionnaire ducroire. — Paiement. — Répétition.
                         — Proclamation du 25 Janvier 1915.</head>
                     <div type="summary">
@@ -1972,7 +1983,7 @@
                         <p>Note. — Comp. Jug. Somm. Alex. 25 Novembre 1915, Gaz. VI, 54-156.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1916-04-0430">
                     <head>291. - Surenchère. — Dénonciation. — Délai. — Nullité.</head>
                     <div type="summary">
                         <p>Est nulle la surenchère lorsque le surenchérisseur ne l’a dénoncée

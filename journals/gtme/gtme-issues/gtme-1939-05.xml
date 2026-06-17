@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0029-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0029-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1939-05-10">May 10, 1939</date><lb/>
-                    <biblScope unit="volume">Vol. 29</biblScope><lb/>
-                    <biblScope unit="number">No. 343</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1939-05-10">May 10, 1939</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 29</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 343</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -50,8 +61,8 @@
                 <p>D’ÉGYPTE</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte. Pondateurs
-                    > M- MAXIME PUPIKOFEB et BEON PANÜ-ALO, Avocats à la Cour. Directeur : M* MAXIME
-                    PUPIKOFEB, Avocat à la Cour.</p>
+                    &gt; M- MAXIME PUPIKOFEB et BEON PANÜ-ALO, Avocats à la Cour. Directeur : M*
+                    MAXIME PUPIKOFEB, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’administration :</p>
                 <p>M» L. PANGALO et K. 8CHEMEIL (Directeur» au Caire)</p>
                 <p>M“ K. DEGIARDÉ et LUCIEN BARDA (Secrétaires de ia rédaction),</p>
@@ -61,7 +72,7 @@
                 <p>— à la Gazette (un an). P.T. 130</p>
                 <p>— au Journal -</p>
                 <p>— Un an........... » 150</p>
-                <p>— Six mois............ > 85</p>
+                <p>— Six mois............ &gt; 85</p>
                 <p>— Trois mois........ » 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an)..... ■ » 250</p>
@@ -448,7 +459,7 @@
             <pb n="184" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0010">
                     <head>251. - Revendication mobilière. — Acheteur de bonne foi; adage « en fait
                         de meubles possession vaut titre »; opposabilité au revendiquant; bonne foi
                         de l’acheteur; présomption; preuve contraire; charge; remboursement du prix
@@ -648,9 +659,9 @@
                             l’art. 67 C. Civ. : 1( ia propriété des meubles et des immeubles est
                             acquise par l’effet de la convention de donner, quand la chose est la
                             propriété de l'obligé », l’article 68 a, en vertu du susdit adage,
-                            apporté cette exception que, néanmoins, &lt;> la propriété des meubles
-                            s’acquiert par la délivrance en vertu d’un juste titre, bien que celui
-                            qui le livre, ne soit pas propriétaire », la loi a cependant
+                            apporté cette exception que, néanmoins, &lt;&gt; la propriété des
+                            meubles s’acquiert par la délivrance en vertu d’un juste titre, bien que
+                            celui qui le livre, ne soit pas propriétaire », la loi a cependant
                             immédiatement ajouté cette restriction: « pourvu que celui qui reçoit,
                             soit de bonne foi », — le cas des choses perdues ou volées étant encore
                             réservé et traité tant par le même article 68 que par les</p>
@@ -731,7 +742,7 @@
                             s’impose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0020">
                     <head>252. - Saisie-arrêt. —• Appointements et salaires; insaisissabilité et
                         incessibilité; effets étendus aux accessoires des salaires. — Distribution;
                         contredit; demande formulée pour la première fois en degré d'appel tendant à
@@ -752,7 +763,7 @@
                             Perrin c. Minas J. Mous-souris et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0030">
                     <head>253. - Saisie-arrêt. —■ Appointements et salaires; montants revenant aux
                         employés dans les Caisses de Prévoyance de leurs employeurs; caractère
                         insaisissable.</head>
@@ -907,7 +918,7 @@
                             Aff. R.G. No. 6361, 49me. A.J..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0040">
                     <head>254. - Saisie-arrêt. — Appointements et salaires; quotité insaisissable;
                         caractère alimentaire; saisissabilité pour dettes d'aliments; mesure; dettes
                         d'aliments; définition.</head>
@@ -994,8 +1005,8 @@
                             ainsi conçu: &lt;&lt; Les sommes alimentaires sont saisissa-1j1®s Pour
                             dettes d’aliments ».</p>
                         <p>Le Sieur Edmond Negrin observe d’abord que « les sommes alimentaires sont
-                            les >1?n?.mes ânes pour fourniture matérielle , munenfs » celles dues au
-                            boucher, au boulanger, etc.; ensuite que l’art. 499 C. Pr. n’apporte
+                            les &gt;1?n?.mes ânes pour fourniture matérielle , munenfs » celles dues
+                            au boucher, au boulanger, etc.; ensuite que l’art. 499 C. Pr. n’apporte
                             qu’une dérogation à l’art, 498 , , , .lui le précède, visant les «
                             pensions, tes frais accordés par justice et les sommes</p>
                         <p>données ou léguées à titre alimentaire ou sous condition
@@ -1087,7 +1098,7 @@
                             mentionné par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0050">
                     <head>255. - Saisie-arrêt. — Compétence du Juge des Déférés pour la déclarer
                         inopérante; demande fournie par le tiers-saisi; recevabilité; condition
                         d'admissibilité; saisie-arrêt portant sur des sommes incessibles et
@@ -1178,7 +1189,7 @@
                             déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0060">
                     <head>256. - Saisie-arrêt. — Effet attributif dérivant de la saisie-exécution et
                         du juge ment de validation de la saisie conservatoire; distribution par
                         contribution; priorité des■ créanciers saisissants sur les autres créanciers
@@ -1251,7 +1262,7 @@
                             la saisie-arrêt ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0070">
                     <head>257. - Saisie-arrêt. — Indemnité parlementaire; insaisissabilité; Loi No.
                         29 de l!)32; portée; caractère relatif; droit du débiteur d'y renoncer;
                         distribution; conflit entre créanciers saisissants antérieurement à l'entrée
@@ -1677,9 +1688,13 @@
                             Rushdi de la distribution, les autres créanciers demeurent directement
                             intéressés au contredit de ce dernier dans toutes les phases du procès,
                             puisque l’arrêt est commun à tous...</p>
-                      </div></div><div type="case"><head>258. - Saisie-arrêt. — Objet sur lesquels elle porte; coffres loués auprès des
-                            banques; objets y contenus; saisie-arrêt; inopérance; compétence du Juge
-                            des Référés pour la constater.</head><div type="summary">  
+                    </div>
+                </div>
+                <div type="case" xml:id="gtme-1939-05-0080">
+                    <head>258. - Saisie-arrêt. — Objet sur lesquels elle porte; coffres loués auprès
+                        des banques; objets y contenus; saisie-arrêt; inopérance; compétence du Juge
+                        des Référés pour la constater.</head>
+                    <div type="summary">
                         <p>Les objets contenus dans les coffres-forts loués auprès des banques
                             peuvent</p>
                         <p>faire l’objet de saisie-exécution, mais non de saisie-arrêt. ,</p>
@@ -1687,9 +1702,13 @@
                             l’inopé-rance d’une saisie-arrêt en pareille matière et pour autoriser
                             le libre accès du débiteur à son coffre nonobstant la saisie-arrêt
                             pratiquée eptre les mains de la banque.</p>
-                     </div><div type="litigants">   <p>Cour d’Appel, Ire Ch., Prés. M. J. Y. Brinton, 17 Mars 1937. — Vassiliki
+                    </div>
+                    <div type="litigants">
+                        <p>Cour d’Appel, Ire Ch., Prés. M. J. Y. Brinton, 17 Mars 1937. — Vassiliki
                             Vve. G. Zissou c. Grégoire Kyrkos et autre. v</p>
-                     </div><div type="decision">  <p>Aurêt.</p>
+                    </div>
+                    <div type="decision">
+                        <p>Aurêt.</p>
                         <p>Vu l’appel régulièrement formé selon exploit du 26 Janvier 1937 par la
                             Dame Vassiliki veuve O. Zissou . contre l’ordonnance rendue par le
                             Juge.des Référés du Tribunal Mixte d’Alexandrie en date du 20 Janvier
@@ -1750,7 +1769,7 @@
                             son gré et en retirer tout ou partie, de son contenu.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0090">
                     <head>259. - Saisie-arrêt. — Saisie conservatoire; défaut de
                         contre-dénonciation; effets; droits du tiers-saisi.</head>
                     <div type="summary">
@@ -1770,7 +1789,7 @@
                             rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0100">
                     <head>260. - Saisie-arrêt. — Saisie conservatoire; Juge de Service; ordonnance
                         de liquidation de créance; caractère provisoire ; nature; recours. — Juge de
                         Service; ordonnances sur requête et ordonnances statuant en référé sur
@@ -2000,7 +2019,7 @@
                             Référés est compétent pour connaître d’une pareille demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0110">
                     <head>261. - Saisie-arrêt. — Saisie-exécution: dénonciation dans la huitaine;
                         formalité non prescrite à peine de nullité.</head>
                     <div type="summary">
@@ -2045,7 +2064,7 @@
                             d’enlever une arme au débiteur récalcitrant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0120">
                     <head>262. - Saisie-arrêt. — Saisie-exécution; péremption; délai; point de
                         départ.</head>
                     <div type="summary">
@@ -2081,7 +2100,7 @@
                             ne peut donc invoquer la péremption...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0130">
                     <head>263. - Saisie-arrêt. — Tiers-saist; responsabilité; condamnation aux
                         causes de la saisie; art. /dit C. Proc.; portée et limites; cas de
                         déclaration inexacte mais non dolosive.</head>
@@ -2192,7 +2211,7 @@
                             1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0140">
                     <head>264. - Saisie-arrêt. — Tiers-saisi; responsabilité; condamnation aux
                         causes de la saisie: art. 49) C. Proc.; portée et limites; cas de
                         déclaration inexacte mais non dolosive.</head>
@@ -2280,7 +2299,7 @@
                         <p>Note. — V. ci-avant H 263, l’arrêt du 10 Janvier 1935 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0150">
                     <head>265. - Saisie-arrêt. — Tiers-saisi; responsabilité; condamnation aux
                         causes-de la saisie; art. 491 C. Proc.; portée et limites; cas de
                         déclaration inexacte mais non dolosive; demande en condamnation du
@@ -2347,7 +2366,7 @@
                         <p>Note. — V. ci-avant H 263, l’arrêt du 10 Janvier 1935, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0160">
                     <head>266. - Saisie-arrêt. — Tiers-saisi; responsabilité; condamnation aux
                         causes de la saisie; art. 1.9/ C. Proc.; portée et limites; cas de défaut de
                         paiement par le tiers-saisi des sommes qu'il reconnaît devoir; conséquences;
@@ -2541,7 +2560,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0170">
                     <head>267. - Saisie-arrêt. — Tiers-saisi; responsabilité; condamnation au.r
                         causes de la saisie; art. 491 C. Proc.: portée et limites; faculté
                         d'appréciation des tri-bunaur; omission de déclaration; cas où la
@@ -2619,7 +2638,7 @@
                         <p>Note. — V. ci-avant § 263, l’arrêt du 10 Janvier 1935, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0180">
                     <head>268. - Saisie-arrêt. — Tiers-saisi; responsabilité; condamnation aux
                         causes de la saisie; art. 491 C. Proc.; portée et limites; omission de
                         déclaration; caractère dolosif; conditions: cas d'existence de contestations
@@ -2733,7 +2752,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0190">
                     <head>269. - Saisie-arrêt. — Tiers-saisi; responsabilité: condamnation aux
                         causes de la saisie; demande basée d T origine sur l'omission dolosive de
                         déclaration et ultérieurement sur l'art. 212 C. €iv.; irrecevabilité.</head>
@@ -2802,7 +2821,7 @@
                             nullement le défendeur actuel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0200">
                     <head>270. - Saisie-arrêt. — Transfert des facultés mobilières du débiteur
                         saisi, existant entre les mains du tiers-saisi; preuve; admissibilité entre
                         commerçants des moyens admis en matière commerciale-.</head>
@@ -2863,7 +2882,7 @@
                             Novembre 1933 à celle de Béni-Souef.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0210">
                     <head>271. - Saisie mobilière. — Gardien judiciaire; choix; remplacement;
                         condition. -</head>
                     <div type="summary">
@@ -2879,7 +2898,7 @@
                             Goldstein c. Nicolas Nicolopoulo et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0220">
                     <head>272. - Saisie mobilière. — Rapports entre créanciers et débiteurs;
                         exclusion de toute obligation alimentaire à charge du créancier; biens
                         saisissables; obligation du créancier à défaut d'abandon au saisi de farines
@@ -2950,7 +2969,7 @@
                             Dictionnaire de Droit français, V», Saisie Immobilière, No. 862).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0230">
                     <head>273. - Saisie mobilière. — Revendication; assignation à domicile élu;
                         irrecevabilité.</head>
                     <div type="summary">
@@ -2989,7 +3008,7 @@
                             réel ? »</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0240">
                     <head>274. - Saisie mobilière. — Revendication; assignation à domicile élu;
                         nullité couverte par la défense au fond.</head>
                     <div type="summary">
@@ -3043,7 +3062,7 @@
                             réel ? »</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0250">
                     <head>275. - Saisie mobilière. — Revendication; délais d'exercice prescrits par
                         l'art. 542 C. Proc.; applicabilité aux revendications portées devant les
                         Tribunaux Mixtes, à la suite d'une .saisie pratiquée par un huissier des
@@ -3118,12 +3137,12 @@
                             bénéfice d’un délai supplémentaire, dit de distance, n’avait,1 aux
                             termes du susdit article 512, qu’un délai de dix jours dès cette
                             signification pour interjeter son appel de façon utile;</p>
-                        <p>Que, cette signification ayant eu lieu le 1er Mai 1935, l'appel >du Sieur
-                            Mohamed Bekhit qui n’a été interjeté que le 16 du dit mois, ne peut
-                            qu’être écarté comme irrecevable pour cause de tardiveté...</p>
+                        <p>Que, cette signification ayant eu lieu le 1er Mai 1935, l'appel &gt;du
+                            Sieur Mohamed Bekhit qui n’a été interjeté que le 16 du dit mois, ne
+                            peut qu’être écarté comme irrecevable pour cause de tardiveté...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0260">
                     <head>276. - Saisie mobilière. — Revendication des meubles garnissant le
                         domicile conjugal; preuve de la propriété; charge; présomption de propriété
                         au profit du mari.</head>
@@ -3365,7 +3384,7 @@
                             mari...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0270">
                     <head>277. - Saisie mobilière. — Revendication; mise en cause du débiteur saisi;
                         nécessité; délai en première instance; intimation en appel; délai; omission;
                         retard; conséquences. — Appel formé contre le revendiquant par un saisissant
@@ -3531,7 +3550,7 @@
                             prescrit, peut se faire utilement jusqu’aux débats...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0280">
                     <head>278. - Saisie mobilière. — Revendication; pluralité de renvendii[uauls;
                         condition de. recevabilité d'une instance unique. — Demande; détermination
                         de l'objet du procès; précision érigée dans l'acte introductif d'instance et
@@ -3681,7 +3700,7 @@
                             confirmation du dit jugement sur le fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-05-0290">
                     <head>279. - Saisie mobilière. — Bevendi-caticm; taux de la demande; présomption
                         édictée à Tari. 28, 7° C. Proc.; admissibilité de la preuve contraire. —.
                         Saisie mobilière; opposition à la main-' levée, par un autre créancier;
@@ -3890,7 +3909,7 @@
                     No. 14 de 1939, paru au « Journal Officiel » No. 14 Extraordinaire, du 12
                     Février 1939, il y a lieu de faire les rectifications suivantes:</p>
                 <p>Article premier, ligne 8:</p>
-                <p>Lire: >, Mâmour des Impôts » au lieu de: « Mâmour ».</p>
+                <p>Lire: &gt;, Mâmour des Impôts » au lieu de: « Mâmour ».</p>
                 <p>Article 10, 4me paragraphe, 4me ligne:</p>
                 <p>Lire: « Etablissement principal » au lieu de: &lt;&lt; Etablissement ».</p>
                 <p>Livre III, Titre I:</p>
@@ -4614,10 +4633,10 @@
                     administratives.</p>
                 <p>Mars » » Propriété commerciale et industrielle. - Propriété intellectuelle.</p>
                 <p>Avril » - Action possessoire. - Servitudes.</p>
-                <p>Mai > » Les Accords de Montreux.</p>
+                <p>Mai &gt; » Les Accords de Montreux.</p>
                 <p>Juin » • Transports maritimes et fluviaux. -Vente commerciale.</p>
                 <p>Juillet » » Nationalité.</p>
-                <p>Août > - Juridiction Mixte.</p>
+                <p>Août &gt; - Juridiction Mixte.</p>
                 <p>Septembre » - Arbitrage. - Exéquatur.</p>
                 <p>Octobre » » Questions de statut personnel.</p>
                 <p>Novembre » ■ Donation. - Vente avec réserve de propriété. - Vente mobilière.</p>
@@ -4628,7 +4647,7 @@
                 <p> Partage.</p>
                 <p>Avril » - Prescription.</p>
                 <p>Mai » ■ Assurances. - Paiement.</p>
-                <p>Juin > » Contrats civils (Bail. - Cession. - Courtage. - Gage. - Mandat. -
+                <p>Juin &gt; » Contrats civils (Bail. - Cession. - Courtage. - Gage. - Mandat. -
                     Prêt).</p>
                 <p>Juillet - » Obligations.</p>
                 <p>Août » - Questions pénales (Infractions diverses'.</p>

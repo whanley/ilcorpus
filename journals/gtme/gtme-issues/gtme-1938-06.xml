@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0028-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0028-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1938-06-10">June 10, 1938</date><lb/>
-                    <biblScope unit="volume">Vol. 28</biblScope><lb/>
-                    <biblScope unit="number">No. 332</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1938-06-10">June 10, 1938</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 28</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 332</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -50,14 +61,15 @@
                     PUPIKOFEK, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’Rdministration :</p>
                 <p>M- L. PANGALO et R. 8CHEMEIL (Directeurs au Caire)</p>
-                <p>M>* E. DEGTARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
-                <p>M- A. FADEL (Directeur à Mansourah). M&lt; F. BRAUN > (0orrespmdan(s à Parü).</p>
+                <p>M&gt;* E. DEGTARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
+                <p>M- A. FADEL (Directeur à Mansourah). M&lt; F. BRAUN &gt; (0orrespmdan(s à
+                    Parü).</p>
                 <p>M« G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT 1</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an). P.T. 150</p>
                 <p>— au Journal '</p>
                 <p>— Un an............... » 150</p>
-                <p>— Six mois............ > 85</p>
+                <p>— Six mois............ &gt; 85</p>
                 <p>— Trois mois........ » 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an)...... » 250</p>
@@ -280,7 +292,7 @@
                 <p>A la vérité, tout bien considéré, le texte est mal exprimé parce qu’il a été mal
                     conçu, ou bien conçu et mal exprimé, ce qui mène toujours au même résultat
                     fâcheux de contradiction et d’incohérence.</p>
-                <p>En réalité, il ne peut y avoir que deux intéressés, le demandeur et le défen->
+                <p>En réalité, il ne peut y avoir que deux intéressés, le demandeur et le défen-&gt;
                     deur, celui-ci ne pouvant toutefois être intéressé qu’à partir du jugement,
                     puis-qu’auparavant il n’a aucun intérêt pour annoter ou transcrire la demande.
                     II arrivera parfois qu’ils seront intéressés tous les deux en même temps; c’est
@@ -463,7 +475,7 @@
                 <p>(4) 11 Décembre 1928, précité.</p>
                 <p>(5) 11 Décembre 1928, précité.</p>
                 <p>(6) 11 Décembre 1928, précité.</p>
-                <p>(7) Loi No. 19 de 1923, art. l>t:</p>
+                <p>(7) Loi No. 19 de 1923, art. l&gt;t:</p>
                 <p>« La présente loi ne sera pas applicable aux actes ayant acquis date certaine et
                     aux jugements rendus anté-</p>
                 <p>de date certaine et jugements rendus avant la date de sa mise en vigueur: I. Dans
@@ -586,7 +598,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0010">
                     <head>143 - Bail. — Loyers agricoles; Lois No. 32 de 1932. et No,. 12 de 1934;
                         époque à considérer aux fins d'application des réductions de loyers.</head>
                     <div type="summary">
@@ -600,7 +612,7 @@
                             Latif Ahmed Refay et Cts c. Aziza Hanem Reda et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0020">
                     <head>144. - Bail. — Obligations du bailleur; exonération; clause, rendant
                         lej,ocataire responsable des pertes et détériorations; portée. —
                         Dommages-intérêts; preuve du préjudice; estimation ex a?quo et bono;
@@ -889,13 +901,13 @@
                             Banco di Borna de L.E. 780 à L.E. 250...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0030">
                     <head>145. - Bail. — Obligations du bailleur; exonération; réparations
                         locatives; mauvais état des carrelages; infiltrations d'eau; responsabilité
                         du locataire. — Appel; moyen nouveau tendant à discuter pour la première
                         fois la responsabilité personnelle du représentant d'un syndicat condamné
-                        èsn. et qu.; recevabilité. >—k Personnalité civile; condition à laquelle il
-                        y a lieu de la reconnaître à tout groupement licite.</head>
+                        èsn. et qu.; recevabilité. &gt;—k Personnalité civile; condition à laquelle
+                        il y a lieu de la reconnaître à tout groupement licite.</head>
                     <div type="summary">
                         <p>I. S’il n’est pas permis à un bailleur de s’exonérer de sa faute à
                             l’occasion de l’exécution d’une obligation qu’il a assumée, rien ne
@@ -999,7 +1011,7 @@
                             1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0040">
                     <head>146. - Bail. — Privilège du bailleur; application sur les meubles des
                         tiers garnissant les. lieux loués; exclusion des objets remis, au locataire
                         aux fins de transformation ou de réparation.</head>
@@ -1074,7 +1086,7 @@
                             revendication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0050">
                     <head>147. - Bail. — Qualité du bailleur; défaut de mention de ses droits de
                         simple usufruitier, n'entraînant pas la nullité du bail; cas où le bail a
                         déjà été résolu aux torts et griefs du preneur.</head>
@@ -1183,7 +1195,7 @@
                             laquelle-ne serait donc en droit de rien réclamer à la bailleresse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0060">
                     <head>148. - Bail. — Résiliation pour cause de vente; art. 474 C. Civ.;
                         application au profit exclusif du bailleur.</head>
                     <div type="summary">
@@ -1200,7 +1212,7 @@
                             c. Abdel Moneim Aly Attieh.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0070">
                     <head>149. - Bail. — Résolution par suite de perte totale de la jouissance
                         résultant d'un cas de force majeure; dessèchement d’un marais loué pour la
                         chasse; conséquences.</head>
@@ -1252,7 +1264,7 @@
                             reconventionnelle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0080">
                     <head>150. - Bail. — Responsabilité du bailleur en cas de vol; conditions;
                         clause d'exonération; validité.</head>
                     <div type="summary">
@@ -1329,7 +1341,7 @@
                             clause d’exonération serait inadmissible.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0090">
                     <head>151. - Bail. — Séquestre judiciaire; limite de ses pouvoirs; bail
                         supérieur à trois années; nullité.</head>
                     <div type="summary">
@@ -1389,7 +1401,7 @@
                     </div>
                 </div>
                 <pb n="168" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0100">
                     <head>152. - Cession de créance. — Appointements des fonctionnaires du
                         Gouvernement; insaisissabilité; mandat autorisant le mandataire à percevoir
                         une fraction des appointements; assimilation à une cession; nullité.</head>
@@ -1438,7 +1450,7 @@
                             créancier par le fonctionnaire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0110">
                     <head>153. - Cession de créance. — Cession pro sol vendu; action en justice du
                         cédant; admissibilité. — Bail; durée du bail comportant engagement d'édifier
                         des constructions; cas où le locataire ne s'acquitte pas régulièrement des
@@ -1672,7 +1684,7 @@
                             1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0120">
                     <head>154. - Cession de créance. ■— Cession j:ro solvendo; disparition des
                         causes de la cession; retour de plein droit de la créance au cédant; droit
                         du cédant indépendamment de toute nouvelle notification au débiteur
@@ -1750,10 +1762,10 @@
                         <p>Note. — V. à le même sens ci-avant § 153 l’arrêt du 13 Avril 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0130">
                     <head>155. - Cession de créance. ■— Créance civile entre indigènes; exception de
                         nullité pour défaut d'acceptation du débiteur cédé; débiteur cédé seul
-                        qualifié à l’invoquer. >— Délégation; condition; clause consistant en une
+                        qualifié à l’invoquer. &gt;— Délégation; condition; clause consistant en une
                         simple indication de paiement comportant dépôt, ne constituant pas
                         délégation. — Donation entre égyptiens; biens non susceptibles de tradition;
                         condition de validité.</head>
@@ -1789,12 +1801,12 @@
                             Bassatine, au prix total de L.E. 425 dont L.E. 125 payées au comptant et
                             le solde de L.E. 300 payable par versements mensuels de L.E. 5 chacun à
                             partir du 15 Octobre 1930, la clause stipulant paiement du dit solde du
-                            prix étant conçue dans les ternies suivants: >&lt; L.E. 300 — l’acheteur
-                            s’engage de les payer par termes mensuels de L.E. 5 chacun à la Caisse
-                            de la Banque Misr au nom des mineurs Mahmoud et Ibrahim fils de Abbas
-                            Abdel Khalek Mohamed Sobh El Tahaoui, affaire No. 384 de 1930, vieux
-                            Caire — Méglis Hasbi du Caire — Le terme sera payé le 15 de chaque mois
-                            à partir du 15 Octobre 1930.</p>
+                            prix étant conçue dans les ternies suivants: &gt;&lt; L.E. 300 —
+                            l’acheteur s’engage de les payer par termes mensuels de L.E. 5 chacun à
+                            la Caisse de la Banque Misr au nom des mineurs Mahmoud et Ibrahim fils
+                            de Abbas Abdel Khalek Mohamed Sobh El Tahaoui, affaire No. 384 de 1930,
+                            vieux Caire — Méglis Hasbi du Caire — Le terme sera payé le 15 de chaque
+                            mois à partir du 15 Octobre 1930.</p>
                         <p>« La venderesse n’aura aucun droit de recours contre ses deux fils
                             mineurs du chef de cette somme ni au présent ni à l’avenir quel qu’en
                             serait le motif.</p>
@@ -1902,9 +1914,9 @@
                             demandes.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>156. - Cession de créance. >— Défaut de notification; cas où le débiteur
-                        cédé a eu connaissance du transport par des publications légales;
+                <div type="case" xml:id="gtme-1938-06-0140">
+                    <head>156. - Cession de créance. &gt;— Défaut de notification; cas où le
+                        débiteur cédé a eu connaissance du transport par des publications légales;
                         opposabilité de la cession au débiteur cédé; reconnaissance implicite de
                         Vexistence de la cession.</head>
                     <div type="summary">
@@ -2010,8 +2022,8 @@
                             cessionnaires, aujourd’hui intimés...</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>157. - Cession de créance. >— Défaut de notification; conséquences;
+                <div type="case" xml:id="gtme-1938-06-0150">
+                    <head>157. - Cession de créance. &gt;— Défaut de notification; conséquences;
                         cession de garanties réelles; opposabilité aux tiers par la mention en marge
                         de l’inscription ou de la transcription; conséquences; tierce opposition du
                         cessionnaire aux jugements rendus contre le cédant; cas où elle est
@@ -2283,7 +2295,7 @@
                             qui pour autant que renouvelée est en tout cas actuellement rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0160">
                     <head>158. - Cession de créance. ,— Droits du cessionnaire; exceptions que peut
                         invoquer le débiteur cédé contre le cessionnaire; compensation.</head>
                     <div type="summary">
@@ -2298,7 +2310,7 @@
                             Moursi Ammar c. Georges V. Xoudis.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0170">
                     <head>159. - Cession de créance. -— Signification; omission; production
                         régulière d'un cessionnaire dans la distribution; cas où le débiteur ne peut
                         contester la qualité du cessionnaire. — Caution; bail; perte de. garanties
@@ -2365,7 +2377,7 @@
                             la caution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0180">
                     <head>160. - Cession de créance. — Transport-cession consenti par plusieurs
                         cédants à un seul cessionnaire; recevabilité de l'action intentée par le
                         cessionnaire seul. — Legs; caractère de créance purement civile
@@ -2527,7 +2539,7 @@
                             saisie-arrêt pratiquée par Mizrahi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0190">
                     <head>161. - Cession de créance. •— Transport des accessoires et garanties;
                         droits du cessionnaire à Végard du débiteur hypothécaire; opposabilité aux
                         tiers de la cession et de l'hypothèque; condition. — Statut personnel
@@ -2777,7 +2789,7 @@
                             de fond et non de forme comme l’ont retenu les premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0200">
                     <head>162. - Contrat de publicité. — Nature; caractère d'entreprise; droit de.
                         résiliation unilatérale de l'annonceur; indemnité due; détermination.</head>
                     <div type="summary">
@@ -2934,7 +2946,7 @@
                         <p>Attendu que la partie qui succombe doit supporter les dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0210">
                     <head>163. - Gage. &lt;— Biens indivis; défaut de validité du gage même dans le
                         cas où le créancier gagiste aurait, comme mandataire de. tous les
                         copropriétaires, la gérance et la possession de la totalité des
@@ -2956,7 +2968,7 @@
                             Spiro Nicolopoulo c. Maximes Douek et Cts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0220">
                     <head>164. - Gage. — Gage commercial; procédure de réalisation; sommation
                         d'huissier prévue à l'art. 84 C. Com.; omission; conséquences; affiches et
                         insertions; mode de justification. — Gage commercial; vente de bijoux;
@@ -3128,7 +3140,7 @@
                             partie de leur appel incident.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0230">
                     <head>165. - Gage. — Monts-de-Piété; réalisation des gages; procédure collective
                         prévue par les Décrets du 13 Avril et du 24 Décembre 1900 pour les
                         établissements de prêts sur gage autorisés; caractère suffisant.</head>
@@ -3216,7 +3228,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0240">
                     <head>166. - Location.,— Matériel; clause de reprise sans formalité en cas de
                         retard dans les loyers; valeur juridique; application faite sans opposition
                         du locataire contre le sous-locataire non reconnu par le locateur.</head>
@@ -3311,7 +3323,7 @@
                             entièrement les motifs de leur jugement pour le confirmer également.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0250">
                     <head>167. - Mandat. — Abus de mandat; faute lourde; responsabilité du
                         mandataire.</head>
                     <div type="summary">
@@ -3327,7 +3339,7 @@
                             — G. M. de Vella-Clary c. Hélène Faro.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0260">
                     <head>168. - Mandat. — Abus de mandat; mandat collectif; conflit d'intérêts
                         entre mandants mettant fin au mandat.</head>
                     <div type="summary">
@@ -3501,7 +3513,7 @@
                         <p>Attendu que la partie qui succombe doit supporter les dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0270">
                     <head>169. - Mandat. — Courtage; conditions auxquelles il est dû; échec de
                         l'affaire indépendant de, la faute du mandant excluant toute
                         rémunération.</head>
@@ -3567,7 +3579,7 @@
                         <p>Note. — V. Gaz. XXVI, 285-201 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0280">
                     <head>170. - Mandat. — Courtage; demande introduite par une seule instance à
                         l’encontre du vendeur, et de l'acheteur; taux de compétence; non cumul de
                         deux demandes pour la détermination du taux.</head>
@@ -3623,7 +3635,7 @@
                             1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0290">
                     <head>171. - Mandat. — Justification; droit de celui qui traite avec le
                         mandataire; abus de pouvoirs du mandataire; défaut de responsabilité des
                         tiers.</head>
@@ -3640,7 +3652,7 @@
                             Nahed c. Miké Mavro, èsq.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0300">
                     <head>172. - Mandat. — Mandataire, substitué; cas où le mandataire substitué est
                         un avocat; faute; responsabilité; action du mandant contre le mandataire
                         principal; recevabilité.</head>
@@ -3698,7 +3710,7 @@
                             certificats des charges grevant le terrain donné en hypothèque...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0310">
                     <head>173. - Mandat. — Prête-nom; pouvoir de 'transiger; cas où les tiers ont
                         connu la qualité du prête-nom; nullité de la transaction faute de mandat
                         spécial en ce cas.</head>
@@ -3862,7 +3874,7 @@
                             leurs conclusions et doivent en être déboutés...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0320">
                     <head>174. - Mandat. — Représentation; nature du contrat; caractère;
                         révocabilité; maintien après le décès du mandataire par accord des parties;
                         extinction des droits appartenant à une société par sa dissolution;
@@ -3951,7 +3963,7 @@
                             non pas pour compte de feu O. Giuliotti et comme obligation personnelle
                             de ce dernier, mais en tant qu’obligation sociale dont il serait
                             solidairement responsable;</p>
-                        <p>> Qu’ainsi, il a- payé les semestrialités échues les 30 Avril et 31
+                        <p>&gt; Qu’ainsi, il a- payé les semestrialités échues les 30 Avril et 31
                             Octobre 1931 et 30 Avril 1932 pour compte de la société formée entre lui
                             et la veuve O. Giuliotti;</p>
                         <p>Que même après la dissolution dé la Société, Disegni aurait continué, en
@@ -4016,7 +4028,7 @@
                             directement à elle et non à Disegni, représentant de celle-ci.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0330">
                     <head>175. - Prêt. — Usure; réduction; droits de l’emprunteur; limites.</head>
                     <div type="summary">
                         <p>Le débiteur qui a souscrit un engagement entaché d’usure est en droit de
@@ -4053,7 +4065,7 @@
                             Marie Soliman...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0340">
                     <head>176. - Transaction. — Conditions; existence; offre de transaction; refus;
                         caducité; inopposabilité à la partie qui a offert la transaction;
                         encaissement sous réserves par le créancier d'un montant offert à titre
@@ -4173,11 +4185,11 @@
                             Leheta au solde par elle dû.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1938-06-0350">
                     <head>177. - Transaction. — Définition; abandon de simples prétentions, non
                         constitutif de transaction; conséquences; contrat erronément qualifié de
                         transaction; condition de validité des obligations respectivement assumées
-                        par les contractants. >— Chose jugée; cas où elle s'étend aux décisions
+                        par les contractants. &gt;— Chose jugée; cas où elle s'étend aux décisions
                         résultant des motifs et non expressément reproduites au dispositif. —
                         Propriété; droit aux fruits au profit du possesseur de bonne foi; condition;
                         acquisition des fruits en vertu d'un titre simulé; inadmissibilité.</head>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1932-01-10">January 10, 1932</date><lb/>
-                    <biblScope unit="volume">Vol. 22</biblScope><lb/>
-                    <biblScope unit="number">No. 255</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1932-01-10">January 10, 1932</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 22</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 255</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -85,8 +96,8 @@
                     logiquement conduire à la nullité pure et simple de tout acte de disposition ne
                     portant pas sur un bien figurant dans le patrimoine du disposant, la
                     jurisprudence mixte a, d une façon plus ou moins constante, toléré dé tels actes
-                    de disposition, en s’efforçant même, dans toute la mesure du pos-s>ble, de leur
-                    permettre de produire effet.</p>
+                    de disposition, en s’efforçant même, dans toute la mesure du pos-s&gt;ble, de
+                    leur permettre de produire effet.</p>
                 <p>Cependant, un arrêt relativement récent de la Cour d’Appel mixte, en date du 10
                     Mars 1931 (ds. ce numéro, p. 91, § 91) a tenté une énergique réaction contre
                     celle thèse trop libérale, et place désormais es plaideurs en présence d’un
@@ -256,7 +267,7 @@
                     tranchant, qui nous paraît avoir le tort de méconnaître le véritable fondement
                     dé- I la nullité: le défaut d’objet. ?</p>
                 <p>Car, dans la vente d’un immeuble divis,. ( c’est le fus in re, et non un fus. ad
-                    item. > que doit transférer le vendeur. S’il a cédé -une propriété dont il ne
+                    item. &gt; que doit transférer le vendeur. S’il a cédé -une propriété dont il ne
                     dispose pas (n’y ■ ayant qu’une vocation aléatoire), il n’a. pas vendu son bien,
                     il n’a rien pu vendre- ii</p>
                 <p>L’exercice de ce droit de l’acheteur, » conséquence pourtant directe des dispo- (
@@ -747,7 +758,7 @@
             <pb n="69" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0010">
                     <head>63. - Vente immobilière. — Acquéreur üe mauvaise foi; opposabilité du
                         jugement rendu contre le vendeur, même non transcrit.</head>
                     <div type="summary">
@@ -780,10 +791,10 @@
                             auteur de Figitakis, la consignation de cet immeuble à ladite Dame, lui
                             est inopposable et ne saurait constituer envers lui la chose jugée;</p>
                         <p>Qu’en effet, la Cour plénière mixte a posé définitivement le principe que
-                            &lt;> n’est pas op-« posable à l'acquéreur qui a transcrit son ti-« tre,
-                            le jugement statuant sur une deman-« de en revendication dirigée contre
-                            le ven-« deur, s’il n’a pas été antérieurement trans-« crit » (arrêt
-                            Chambres réunies, 15 Janvier 1914, Bull. XXVI, 142);</p>
+                            &lt;&gt; n’est pas op-« posable à l'acquéreur qui a transcrit son ti-«
+                            tre, le jugement statuant sur une deman-« de en revendication dirigée
+                            contre le ven-« deur, s’il n’a pas été antérieurement trans-« crit »
+                            (arrêt Chambres réunies, 15 Janvier 1914, Bull. XXVI, 142);</p>
                         <p>Mais attendu que la mauvaise foi et le but de fraude des auteurs de
                             Figitakis, soit, Ab-derrahrnan Aly Farghali. Mahmoud Ahmed Hassan et
                             Mohamed Aly Farghali, sont à retenir, conformément aux motifs des
@@ -829,7 +840,7 @@
                             censé s’être désistée d’une telle action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0020">
                     <head>64. - Vente immobilière. — Action en diminution du prix pour déficit;
                         prescription annale. — Action en délivrance d'une partie de la chose vendue,
                         ou en restitution du prix pour éviction; prescription ordinaire de quinze
@@ -891,8 +902,8 @@
                             reconventionnelle de l’appelant;</p>
                         <p>(Omissis).</p>
                         <p>... Attendu, par contre, que c’est à tort que les premiers juges ont cru
-                            pouvoir, et comme a priori, considérer les conclusions sul> sidiaires de
-                            l’appelant envers les Hoirs Romano comme une action en diminution du
+                            pouvoir, et comme a priori, considérer les conclusions sul&gt; sidiaires
+                            de l’appelant envers les Hoirs Romano comme une action en diminution du
                             prix pour cause d’un déficit de contenance, qui tomberait sous la
                             prescription d’un an édictée à l’art. 370 C. Civ.;</p>
                         <p>Qu’en effet, ce dont l’appelant se prétend en droit de se plaindre, c'est
@@ -916,7 +927,7 @@
                             faire, de passer à l’examen de la demande à cet égard au fond...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0030">
                     <head>65. - Venin immobilière. — Action en résiliation; caractère; nature
                         juridique; compétence; actions réelles immobilières; compétence ratione
                         loci; facidté pour les partie d'y déroger; faculté pour les Tribunaux de se
@@ -1043,7 +1054,7 @@
                             111.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0040">
                     <head>66. - Vente immobilière. — Action en résiliation entre vendeur et acheteur
                         tous deux sujets locaux; existence d'une inscription au profit d'un
                         étranger,antérieure à la signification de l'assignation, en résolution;
@@ -1062,7 +1073,7 @@
                             Faylougha c. Raison Sociale^ Palacci Haim et Co et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0050">
                     <head>67. - Vente immobilière. — Conclusion du contrat; convention; accord
                         momentae né des parties pouvant être rétracté; distinction entre le
                         consentement analytique; et, la volonté synthétique des contractants. —
@@ -1199,7 +1210,7 @@
                             24 Février 1&amp;3L</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0060">
                     <head>68. - Vente immobilière. — Conditions imposées à l'acheteur; restrictions
                         à la faculté de construire; caractère d'obligations personnelles et non de
                         servitudes; autorisations administratives; défaut d'effet sur la situation
@@ -1506,7 +1517,7 @@
                             d’un arrêt définitif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0070">
                     <head>69. - Vente immobilière. — Conditions imposées à l’acheteur; restrictions
                         à l’exploitation des lieux; stipulation opposable aux héritiers de
                         l'acheteur; ouverture d'un restaurant constituant concurrence aux
@@ -1568,7 +1579,7 @@
                             droit à l’appel incident tendant à la faire augmenter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0080">
                     <head>70. - Vente immobilière. — Contrats antérieurs à la Loi No. 19 de 1923;
                         défaut de transcription; jugement d'adjudication contre le vendeur; droit de
                         l'acheteur en cas de concert frauduleux entre l'adjudicataire et le débiteur
@@ -1657,7 +1668,7 @@
                             qu’il échet de le confirmer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0090">
                     <head>71. - Vente immobilière. — Eviction; danger; droit de rétention du prix;
                         conditions; trouble de fait constituant menace d’éviction; usurpation d’un
                         tiers; mise en cause de ce tiers dans l’instance en opposition à
@@ -1770,7 +1781,7 @@
                         <p>Note. — Rappr. cep. ci-après § 72 l’arrêt du 10 Avril 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0100">
                     <head>72. - Vente immobilière. — Eviction; danger; droit de rétention du prix;
                         conditions; trouble de fait ne constituant pas menace d'éviction; preuve à
                         rapporter par l'acheteur. — Commandement immobilière. —• Dépôt à la Caisse
@@ -1836,7 +1847,7 @@
                         <p>Note. — Rappr. cep. ci-avant § 71 l’arrêt •du 22 Mai 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0110">
                     <head>73. - Venle immobilière. — Eviction; danger; droit de rétention du prix;
                         faculté pour le Tribunal d'ordonner le versement du prix à la Caisse.</head>
                     <div type="summary">
@@ -1850,7 +1861,7 @@
                             la disparition du danger d’éviction.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d’Anpel, 3me Ch., Prés. M. A. C Mc Barnet, t> "o-rembre 1930. —
+                        <p>Cour d’Anpel, 3me Ch., Prés. M. A. C Mc Barnet, t&gt; "o-rembre 1930. —
                             Mohamed Ahmed Zeidan c. Dame Ayoucha Hanem El Sayed El Tounsi.</p>
                     </div>
                     <div type="decision">
@@ -1926,7 +1937,7 @@
                             l'hypothèque de biens divis avant le partage.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0120">
                     <head>74. - Vente immobilière. — Eviction; droits de l'acheteur; clause de non
                         garantie; point de départ du calcul des intérêts dus à l'acheteur évincé;
                         taux de ces intérêts: défaut de solidarité des vendeurs pour les
@@ -2201,7 +2212,7 @@
                             et il y a lieu d’y faire droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0130">
                     <head>75. - Vente immobilière. — Eviction; servitude non apparente, non
                         déclarée; connaissance de la part de l'acheteur; conséquences.</head>
                     <div type="summary">
@@ -2219,7 +2230,7 @@
                             Consorts Ayoub Pacha c. E. Papa-damianos et autre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0140">
                     <head>76. - Vente immobilière. — Loi No. 19 de 1923; existence du contrat
                         indépendamment de la transcription; droit de l'acheteur de recourir en
                         justice pour obtenir un titre susceptible d'être transcrit; conditions
@@ -2728,7 +2739,7 @@
                             ne saurait estimer ce préjudice, ex æquo et bono, à plus de L.E. 40.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0150">
                     <head>77. - Vente ininioblièrc. — Loi No. 19 de 1923; existence du contrat
                         indépendant ment de la transcription; droit de l'acheteur de recourir en
                         justice pour obtenir un titre susceptible d’être transcrit; droit acquis du
@@ -2834,7 +2845,7 @@
                             Janvier'1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0160">
                     <head>78. - Vente iinmoblière. — Loi No. 19 de 1923; transcription; acte
                         préliminaire de vente et promesse de vente non exécutés; actions
                         personnelles immobilières; objet. — Obligation de faire; dommages-intérêts;
@@ -2991,7 +3002,7 @@
                             Conséquence de la non transcription » déclare:</p>
                         <p>« Au point de vue pratique ce principe a aussi le grand avantage de
                             couper court aux nombreuses contestations surgies sur la portée
-                            juridique, en la matière, du mot « tiers >»</p>
+                            juridique, en la matière, du mot « tiers &gt;»</p>
                         <pb n="82" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>et de la restriction prétendant un droit réel qui y fait suite à
                             l'article 737 (ancien) du Code Civil mixte, ou ayant des droits sur
@@ -3106,7 +3117,7 @@
                             ferme et définitive.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0170">
                     <head>79. - Vente immobilière. — Loi No. 19 de 1923; transcription retardée;
                         revendication formée contre le vendeur avant la transcription de la vente;
                         mise en cause de l'acheteur en degré d'appel; recevabilité. ■— Date
@@ -3272,7 +3283,7 @@
                             rapporté que nous n'hésitons pas à nous ranger.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0180">
                     <head>80. - Vente inunoblière. — Loi No. 19 de 1923; ventes successives;
                         transcription du dernier contrat; insuffisance. — Prescription acquisitive
                         quinquennale; inadmissibilité au profit de l'acquéreur qui n ignorait pas le
@@ -3430,7 +3441,7 @@
                             de la courte prescription de cinq ans.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0190">
                     <head>81. - Vente innnoblière. — Nullité de la vente consentie en cours
                         d'expropriation; tiers n'ayant pas qualité pour la soulever. — Prescription
                         libératoire quinquennale; inapplicabilité à une demande de loyers réclamés
@@ -3483,7 +3494,7 @@
                             mal fondées...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0200">
                     <head>82. - Vente innnoblière. — Nullité pour cause de simulation;
                         inopposabilité aux créanciers inscrits et aux sous-acquéreurs de bonne
                         foi.</head>
@@ -3591,7 +3602,7 @@
                             du droit cédé, ou par la simulation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0210">
                     <head>83. - Vente immohlière. — Nullité pour défaut de consentement;
                         opposabilité aux créanciers hypothécaires; fruits; restitution; exception en
                         faveur de l'acquéreur de bonne foi. — Obligations; consentement; incapacité
@@ -3746,7 +3757,7 @@
                             arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0220">
                     <head>84. - Vente immoblière. — Nullité pour, vice du consentement; erreur
                         excusable; négligence excessive.</head>
                     <div type="summary">
@@ -3799,7 +3810,7 @@
                             litigieux...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0230">
                     <head>85 - Vente imnioblière. — Paiement ! du prix; action en diminution du prix
                         ; pour déficit; prescription annale; appli- j cabilité même au cas où la
                         réduction a J été prévue par convention. — Eviction; I danger; droit de
@@ -3864,7 +3875,7 @@
                             411 C.C.M...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0240">
                     <head>86. - Vente immoblière. — Prix convenu en bloc; déficit de contenance de
                         moins d'un vingtième; demande de résiliation injustifiée; vente à la mesure;
                         déficit de contenance justifiant la demande de résiliation.</head>
@@ -3930,7 +3941,7 @@
                         <p>Attendu que le second motif n’est pas mieux fondé...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0250">
                     <head>87. - Vente immoblière. — Prix; détermination; vente en bloc; clause d'un
                         cahier des charges réservant au vendeur la faculté de réclamer un supplément
                         de prix en cas d'excédent, et excluant la réciprocité en cas de déficit;
@@ -4326,7 +4337,7 @@
                         <p>j</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0260">
                     <head>88. - Vente imniobllère. — Rescision pour cause de ded; terrain vendu à un
                         prix inférieur à sa juste valeur; absence de toutes manœuvres frauduleuses;
                         inadmissibilité; fraude; conditions pour pouvoir l’invoquer; vileté de prix;
@@ -4494,17 +4505,17 @@
                         <p>Le Sieur Orner prétend qu’il y a dans l'es- ' pèce erreur viciant le
                             consentement, l’erreur consistant, à l’en croire, que sa mandataire, ■
                             le Dame Hélène, a vendu un terrain à bâtir ' pour le prix d’un terrain
-                            de culture. Mais > en admettant qu’il y ait eu une erreur pa- \ reille,
-                            ce n’est qu’une erreur sur la valeur, ce qui produit ce qu’on appelle
-                            une lésion. { Même sous l’empire du Code français, la [ lésion, quelque
-                            grande qu’elle soit, n’est une ; cause de nullité qu’aux fermes de
-                            certains j articles; en droit mixte elle est strictement j limitée par
-                            l’article 419 du Code Civil au pro- : fit des vendeurs qui sont mineurs
-                            (v. A. 22 Février 1923, Bull. XXXV. 246). Il n’y a pas j erreur sur la
-                            substance de l’objet, le terrain i vendu: le fait que le terrain était
-                            de culture -ou à bâtir n’a eu aucune influence sur le con- ' seulement
-                            donné par la Dame Hélène au I contrat de vente, mais seulement sur
-                            l'éva- | iuation du prix. Si la Dame Hélène a eu le ! défaut de
+                            de culture. Mais &gt; en admettant qu’il y ait eu une erreur pa- \
+                            reille, ce n’est qu’une erreur sur la valeur, ce qui produit ce qu’on
+                            appelle une lésion. { Même sous l’empire du Code français, la [ lésion,
+                            quelque grande qu’elle soit, n’est une ; cause de nullité qu’aux fermes
+                            de certains j articles; en droit mixte elle est strictement j limitée
+                            par l’article 419 du Code Civil au pro- : fit des vendeurs qui sont
+                            mineurs (v. A. 22 Février 1923, Bull. XXXV. 246). Il n’y a pas j erreur
+                            sur la substance de l’objet, le terrain i vendu: le fait que le terrain
+                            était de culture -ou à bâtir n’a eu aucune influence sur le con- '
+                            seulement donné par la Dame Hélène au I contrat de vente, mais seulement
+                            sur l'éva- | iuation du prix. Si la Dame Hélène a eu le ! défaut de
                             perspicacité de faire une mauvaise k appréciation de la valeur des
                             terrains, c’est | le. risque naturel des opérations que font les »
                             particuliers “'Planiol, II, § 1055, n. 356, 3me édit.).</p>
@@ -4542,7 +4553,7 @@
                             le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0270">
                     <head>89. - Vente immoblière. — Rescision pour cause de dol; terrain vendu à un
                         prix inférieur à sa juste valeur; absence de toutes manœuvres frauduleuses;
                         inadmissibilité; lésion pour vil prix; inadmissibilité.</head>
@@ -4574,7 +4585,7 @@
                         <p>Note. — V. ci-avant § 88 l’arrêt du 15 Décembre 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0280">
                     <head>90. - Vente hnmoblière. — Vente à réméré: gage immobilier; élément
                         distinctif; intention des parties.</head>
                     <div type="summary">
@@ -4630,7 +4641,7 @@
                             Charaf El Dine...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0290">
                     <head>91. - Vente immohlière. — Vents, de la chose d'autrui; nullité radicale. —
                         Indivision; vente de parts divises consenties avant le partage par certains
                         coproprié-ta.ires; nullité radicale; conséquences; hypothèque consentie par
@@ -4978,7 +4989,7 @@
                         <p>X. - V. cep. ci-avant § 82 l’arrêt du 1er Décembre 1931, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0300">
                     <head>92. - Vente immoblière. — Vente de la chose d'autrui; nullité relative;
                         actes justificatifs de la confirmation du véritable propriétaire; conditions
                         de forme; transcription indispensable; Loi No. 19 de 1923. — Eviction;
@@ -5224,7 +5235,7 @@
                             venLe et de l'hypothèque de biens divis avant le par-tage.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0310">
                     <head>93. - Vente immobilière. — Vente émanant de vendeurs différents; conflit
                         entre acheteurs; priorité ne dérivant pas de la transcription. — Indivision;
                         communauté composée d'immeubles distincts; droits <pb
@@ -5422,7 +5433,7 @@
                         <p>Attendu que l'appelant a requis en voie subsidiaire à ce qu’il soit fait
                             droit à sa demande quant aux trois cinquièmes en lui allouant les trois
                             cinquièmes des 8 kirats et 12 sahmes litigieux;</p>
-                        <p>Attendu que la Minieh Ginning Company k> excipé de l’irrecevabilité de
+                        <p>Attendu que la Minieh Ginning Company k&gt; excipé de l’irrecevabilité de
                             cette demande pour avoir été formulée pour la première fois en
                             appel;</p>
                         <p>Attendu que cette exception est mal fondée, car ce que la Minieh Ginning
@@ -5474,7 +5485,7 @@
                         <p>VI. - Rappr. Gaz. XXI, 303-337, l’arrêt du 27 Février 1929.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0320">
                     <head>94. - Vente. — Paiement du prix; clause de résiliation et d’attribution
                         des arrhes au vendeur, faute de paiement d'une échéance.</head>
                     <div type="summary">
@@ -5493,7 +5504,7 @@
                             Voilât c. Pétioles Zouro et autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-01-0330">
                     <head>95. - Vente. — Paiement du prix; intérêts de retard; renonciation tacite;
                         paiement tardif accepté par le créancier; résiliation inadmissible.</head>
                     <div type="summary">
@@ -5597,7 +5608,7 @@
                     développement de l’œuvre jurisprudentielle mixte.</p>
                 <p>Il est vrai que, dans le même esprit de sévère critique, l’auteur ne s’est pas
                     abstenu de rejeter sur la Cour d’Appel mixte elle-même la responsabilité
-                    partielle de l’« inondation de procès >- qui la submerge. C’est ainsi qu’il
+                    partielle de l’« inondation de procès &gt;- qui la submerge. C’est ainsi qu’il
                     reproche aux Tribunaux mixtes d’avoir, « dans le premier élan de leurs pouvoirs
                     nouveaux, laissé développer leurs appétits pour attraire à eux des procès qui,
                     en réalité, auraient dû revenir à la Juridiction indigène locale », et de s’être

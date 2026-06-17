@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0024-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0024-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1934-02-10">February 10, 1934</date><lb/>
-                    <biblScope unit="volume">Vol. 24</biblScope><lb/>
-                    <biblScope unit="number">No. 280</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1934-02-10">February 10, 1934</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 24</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 280</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -570,7 +581,7 @@
             <pb n="147" rendition="Gazette des Tribunaux Mixtes d’Egypté."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0010">
                     <head>116. - Femme mariée. — Statut personnel français; autorisation maritale;
                         fot-ynes; acte impliquant consentement tacite.</head>
                     <div type="summary">
@@ -684,7 +695,7 @@
                             L’autorisation maritale y est manifeste.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0020">
                     <head>117. - Interdiction. — Effets à l'égard des tiers; publicité des décisions
                         d'interdiction; cas où l’omission des formalités légales n'empêche point
                         l'interdiction de. produire ses effets: curateur; qualité; preuve. — Chose
@@ -1019,7 +1030,7 @@
                             Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0030">
                     <head>118. - Interdiction. — Effets quant à la continuation des procédures;
                         Statut personnel musulman; publicité des décisions d'interdiction;
                         transcription dans un' registre du Méglis Hasbi du Caire; opposabilité aux
@@ -1174,7 +1185,7 @@
                             Février 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0040">
                     <head>119. - Interdiction. — Statut personnel musulman; majeur de dix-huit ans;
                         remise sous tutelle avant interdiction; période d'essai; pouvoirs; limites;
                         exclusion de la faculté d'emprunter; billet à ordre souscrit pendartf la
@@ -1253,7 +1264,7 @@
                             l’arrêt du 3 Janvier 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0050">
                     <head>120. - Interdiction. — Statut personnel musulman; publicité des décisions
                         d'in-.terdiclion; transcription dans un registre ,du. Méglis Hasbi du Caire;
                         opposabilité ■aux tiers sans besoin de publication au Journal Officiel;
@@ -1361,7 +1372,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0060">
                     <head>121. - Interdiction. — Statut personnel musulman; publicité des décisions
                         d'interdiction; transcription dans un registre du Méglis Hasbi du Caire;
                         opposabilité aux tiers sans besoin de publication au Journal Officiel;
@@ -1518,7 +1529,7 @@
                         <p>Note — V. ci-avant § 118 l’arrêt du 26 Janvier 1933, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0070">
                     <head>122. - Interdiction. — Statut personnel musulman; publicité des décisions
                         d'interdiction; transcription dans un registre du Méglis Hasbi du Caire;
                         opposabilité aux tiers, sans besoin de publication au Journal 'Officiel;
@@ -1633,7 +1644,7 @@
                             juridictionnel, mais d’ordre interne.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0080">
                     <head>123. - Israélites algériens. — Successions; applicabilité de la loi
                         française; inapplicabilité de la loi mosaïque; séna-tus-consulte du 14 Juin
                         1865; applicabilité aux Israélites algériens établis en Egypte; statut
@@ -1925,7 +1936,7 @@
                     </div>
                 </div>
                 <pb n="155" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0090">
                     <head>124. - Israélites algériens. — Successions; applicabilité de la loi
                         française; inapplicabilité de la loi mosaïque; séna-■tus-consulle du 14 Juin
                         1865; hypothèque, consentie par le veuf d'une Israélite algérienne sur un
@@ -2062,7 +2073,7 @@
                         <p>Note. — II. - V. ci-avant § 123 l’arrêt du 26 Mai 1932, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0100">
                     <head>125. - Israélites. — Nationalité étrangère; kélouba passée devant
                         l'autorité rab-binique par des Israélites de nationalité britannique;
                         adoption du régime matrimonial mosaïque; caractère licite; conséquences;
@@ -2131,7 +2142,7 @@
                             accepté, éri lui 'augmentant du sien, comme augmentation sur le capital
                             de son contrat nuptial, la somme de 350 napoléons de 20 francs, ce qui
                             .fait tout ensemble, entre capital du contrat .nuptial (Nedounia) et
-                            augmentation, la somme de 500 napoléons de 20 francs... »;. — &lt;>
+                            augmentation, la somme de 500 napoléons de 20 francs... »;. — &lt;&gt;
                             l’œuvre de sa femme appartient air mari •et il lui doit l’habillement et
                             l’habitation suivant la loi de Moïse... ».</p>
                         <p>Il n’est pas possible de regarder lé document ci-haut cité, autrement que
@@ -2173,7 +2184,7 @@
                         <p>Note. — V. ci-après § 126 l’arrêt du 21 Décembre 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0110">
                     <head>126. - Israélites. — Protection étrangère; loi civile et loi religieuse
                         dont ils relèvent; conditions auxquelles la loi mosaïque peut être
                         applicable; régime successoral et matrimonial des Israélites; Tcétouba
@@ -2387,7 +2398,7 @@
                             (ci-après, Jnrisp. Cous. p. 173 ? 2).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0120">
                     <head>127. - Minorité. —- Faillite; statut per? sonnel musulman; exercice du
                         commerce par un mineur ayant accompli sa dix-huitième année; conditions; cas
                         où le mineur a été tacitement autorisé par son père à faire le commerce;
@@ -2473,7 +2484,7 @@
                         <p>Qu’il échet dans ces conditions de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0130">
                     <head>128. - Minorité. — Preuve; présomption d'état de majorité renversant la
                         charge de la preuve; certificat de majorité émanant d'une. autorité
                         religieuse, établi sur de simples déclarations; défaut de force probante
@@ -2533,7 +2544,7 @@
                             majeur au moment où il a été assigné en déclaration de faillite...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0140">
                     <head>129. - Minorité. — Statut personnel musulman; dette contractée par un
                         mineur de plus de dix-huit ans, même autorisé à gérer ses biens; nullité;
                         validité des obligations souscrites par un mineur à concurrencé des sommes
@@ -2555,7 +2566,7 @@
                         <p>Note. — V. ci-avant § 119 l’arrêt du 12 Mars 1930, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0150">
                     <head>130. - Minorité. — Statut personnel musulman; mineur âgé de plus de
                         dix-huit ans; exercice du commerce; autorisation du Méglis Hasbi; nécessité
                         en cas de tutelle; mineurs sous puissance paternelle; autorisation du père;
@@ -2646,7 +2657,7 @@
                         <p>Note. — Rappr. ci-après § 132 l’arrêt du 14 Février 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0160">
                     <head>131. - Minorité. — Statut personnel musulman; mineur âgé de plus de
                         dix-huit .ans; pouvoirs reconnus par Vart. 29 du Décret-loi du 13 Octobre;
                         1925; vente des récoltes par anticipation; admissibilité; litiges;
@@ -2765,7 +2776,7 @@
                             cotons, v. Gaz. XXII, 322-362.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0170">
                     <head>132. - Minorité. — Statut personnel musulman; mineur; exercice du commerce
                         par le tuteur; admissibilité; conséquences; faillite; autorisation du Meglis
                         Hasbi; portée; étendue; pouvoirs conférés au tuteur; Décret, du 13 Octobre
@@ -2915,7 +2926,7 @@
                             mineurs.1</p>
                         <p>Attendu que dans l’espèce actuelle, ce ne: sont pas les mineurs en
                             personne qui ont procédé à des actes de commerce pour qu’il y ait ainsi
-                            lieu à application de l'article 1Ç> du C. Com. relatif aux conditions
+                            lieu à application de l'article 1Ç&gt; du C. Com. relatif aux conditions
                             dans lesquelles le commerce est permis aux personnes n’ayant pas l’âge
                             de 21 ans accomplis;</p>
                         <p>Que dans l’exercice du commerce, ils ont. été représentés par leur tuteur
@@ -3147,7 +3158,7 @@
                         <p>Rappr. ci-avant §130 le jug. Comm. Alex, du 22 Mai 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0180">
                     <head>133. - Minorité. — Statut personnel musulman; pouvoirs de disposition du
                         père sur les biens de ses enfants mineurs; qualités exigées par la loi;
                         actes accomplis par un père n'ayant pas les qualités requises à l'art, 422
@@ -3253,7 +3264,7 @@
                             pour appel vexatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0190">
                     <head>134. - Minorité. — Vente immobilière; lésion; action en rescision; délai
                         d'exercice; calcul selon le calendrier grégorien; admissibilité même en cas
                         d'accomplissement des formalités légales; conditions d'admissibilité.</head>
@@ -3361,7 +3372,7 @@
                             juges, et qu’elle adopte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0200">
                     <head>135. - Succession. — Créance née après lé décès du de cujus mais ayant son
                         origine dans un engagement contracté de son vivant; caractère de dette
                         successorale. — Succession musulmane; privilège des créanciers successoraux
@@ -3459,7 +3470,7 @@
                             débouter Yassa bey Bichara de son action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0210">
                     <head>136. - Succession. — Droit allemand; legs; droit de créancier du
                         légataire; concours avec des créanciers personnels de l'héritier; privilège
                         des créanciers successoraux sur lés biens de la succession; conditions
@@ -3625,13 +3636,13 @@
                             2365 d'après laquelle « celui qui est désigné par le certificat
                             d’héritifer comme héritier, est présumé posséder tous les droits
                             mentionnés dans ledit certificat et n’être tenu par d’autres
-                            prescriptions que celles qui y sont intéressées >> ne s’appliquent
+                            prescriptions que celles qui y sont intéressées &gt;&gt; ne s’appliquent
                             qu’aux dispositions ayant un effet réel et non à celles qui ne font
                             qu’engendrer une obligation comme l’institution de legs ou
                             décharges...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0220">
                     <head>137. - Succession. — Droit hellénique; créances héréditaires; partage
                         automatique entre les héritiers; droit des héritiers de réclamer
                         individuellement leur part sans le concours des cohéritiers; créance
@@ -3755,7 +3766,7 @@
                         <p>Note. — Rapnr. Trib. Comm. Alex. 9 Mai 1932, Gaz. XXIV. 55-51.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0230">
                     <head>138. - Succession. — Droit hellénique; dettes héréditaires: limites de
                         Vobligation des héritiers.</head>
                     <div type="summary">
@@ -3770,7 +3781,7 @@
                             Ahmed Daher.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0240">
                     <head>139. - Succession. — Loi applicable; na-. tionalité du de cujus;
                         possession d'état de nationalité: ■ portée; nationalité acquise par fraude
                         par les auteurs du de cujus; contestation post mortem; inadmissibilité au
@@ -4054,7 +4065,7 @@
                             agrément des gouvernements intéressés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0250">
                     <head>140. - Succession musulmane. — Dévolution héréditaire; preuve; Ichad
                         Charéi; force probante; acheteur traitant sur la foi d'un simple Ichad
                         Charéi; bonne foi entière nécessaire pour le maintien de ses droits en cas
@@ -4122,7 +4133,7 @@
                             conditions, il échet de confirmer le jugement attaqué...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0260">
                     <head>141. - Succession musulmane. — Représentation en justice par une partie
                         des héritiers; admissibilité; assignation en justice; régularité de la
                         signification faite en la personne dès héritiers connus, détenteurs de la
@@ -4231,7 +4242,7 @@
                         <p>Note. — il. - V. ég. ci-après § 142 l’arrêt du 12 Mars 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0270">
                     <head>142. - Succession musulmane. — Représentation en justice par une partie
                         des héritiers; admissibilité; procédure d'expropriation contre les seuls
                         héritiers connus; validité. — Expropriation; jugement d’adjudication sur
@@ -4384,7 +4395,7 @@
                         <p>Note. — I. - V. ég. ci-avant § 141 l’arrêt du 10 Mai 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0280">
                     <head>143. - Succession musulmane. — Séparation des patrimoines; droit des
                         créanciers des héritiers; poursuites d'expropriation sur la quote-part des
                         immeubles reçue en héritage par chaque héritier; droit des créanciers
@@ -4527,7 +4538,7 @@
                     </div>
                 </div>
                 <pb n="170" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0290">
                     <head>144. - Succession musulmane. — Séparation des patrimoines; droit des
                         créanciers successoraux; affectation prise après le décès du débiteur;
                         portée. — Liquidation d'une succession musulmane; défaut d'intervention dans
@@ -4636,7 +4647,7 @@
                             v. Gaz. XIX, 136-119, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0300">
                     <head>145. - Succession musulmane. — Séparation des patrimoines; limites; droit
                         des créanciers successoraux sur les biens héréditaires acquis de bonne foi;
                         exercice soumis à la condition que le créancier se soit révélé dans un délai
@@ -4799,7 +4810,7 @@
                             somme de L.E. 40.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0310">
                     <head>146. - Succession musulmane. — Sépa-paration des patrimoines; privilège du
                         profit des créanciers du de cujus; héritier tenu « intra vires hereditatis
                         ». — Distribution; collocation; nécessité de l'indication formelle du rang
@@ -4869,7 +4880,7 @@
                     </div>
                 </div>
                 <pb n="172" rendition="Gazette des Tribunaux Mixtes d’Egypte. •"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1934-02-0320">
                     <head>147. - Succession. — Renonciation; action paulienne en annulation;
                         exercice dépendant de la saisine; défaut de saisine en droit hellénique,
                         avant une déclaration d’acceptation; inadmissibilité de l’action paulienne;
@@ -5008,7 +5019,7 @@
                             vérification ultérieure) le montant, de la réserve légale revenant au
                             Sieur Jean Joannidis dans la succession de feu Georges Joannidis » (L.E.
                             176.510,884 mill.) « pour faire l’objet d’une distribution entre les
-                            créanciers personnels de Jean Joannidis >>; '</p>
+                            créanciers personnels de Jean Joannidis &gt;&gt;; '</p>
                         <p>Attendu, sur la discussion de la cause:</p>
                         <p>1.) Que la demanderesse et l’intervenante soutiennent:</p>
                         <p>a) Qu’elles auraient, en qualité de créanciers de J. Joannidis, le droit
@@ -5913,7 +5924,7 @@
                 <p>Avril » - Actes de commerce. - Compte courant. -</p>
                 <p>Mai Gage commercial. - Opérations de bourse. - Vente mobilière et commerciale.
                     -Titres au porteur. ■ Contrats civils : Cession. - Courtage. -</p>
-                <p>Juin > Donation. - Gage. - Mandat. - Personnes morales. ■ Obligations. -
+                <p>Juin &gt; Donation. - Gage. - Mandat. - Personnes morales. ■ Obligations. -
                     Prescrition libératoire. -</p>
                 <p>Juillet » Preuve. - Responsabilité.</p>
                 <p>Août » - Clause pénale. - Vente de coton.</p>

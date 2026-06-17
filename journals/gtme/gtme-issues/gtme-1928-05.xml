@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1928-05-10">May 10, 1928</date><lb/>
-                    <biblScope unit="volume">Vol. 18</biblScope><lb/>
-                    <biblScope unit="number">No. 211</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1928-05-10">May 10, 1928</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 18</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 211</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -58,7 +69,7 @@
                 <p>M« A. FADEL (Directeur à Mansourah). M* F. BRAUN (Secrétaire à Paris).</p>
                 <p>— à la Gazette (un an).... P.T. 150</p>
                 <p>— au Journal; .</p>
-                <p>— Un an........... > 150</p>
+                <p>— Un an........... &gt; 150</p>
                 <p>— Six mois........... » 85</p>
                 <p>— Trois mois........ » 50</p>
                 <p>— aux deux publications</p>
@@ -505,7 +516,7 @@
             <pb n="156" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0010">
                     <head>178. - Propriété industrielle. — Assignation en contrefaçon et en
                         concurrence déloyale; caractère téméraire; responsabilité du demandeur. —
                         Demande ve-xatoire; cas où le demandeur a rayé son instance; faculté pour le
@@ -620,7 +631,7 @@
                             arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0020">
                     <head>179. - Propriété industrielle. — Brevet d'invention; découvertes faites
                         par un employé dans l'exercice de ses fonctions;: défaut de droit
                         privatif.</head>
@@ -726,7 +737,7 @@
                             appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0030">
                     <head>180. - Propriété industrielle. — Brevet d'invention; idées non
                         susceptibles en elles-mêmes d'être brevetées; application d’éléments se
                         trouvant dans le domaine public; projection sur un écran spécial •de
@@ -905,7 +916,7 @@
                             préjudice subi par l’American Cos-mograph.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0040">
                     <head>181. - Propriété industrielle. — Brevet d'invention; protection en Egypte;
                         conditions; dépôt au Greffe; nécessité d'un mémoire descriptif.</head>
                     <div type="summary">
@@ -955,7 +966,7 @@
                             ont parfaitement le droit — surtout dans le cas où ils n’envisageraient
                             l’exploitation de leur invention que dans le pays même, — de se limiter
                             à veiller à la sauvegarde de leur propriété industrielle en Egypte. A
-                            quel titre >es inventeurs devraient-ils être obligés de faire
+                            quel titre &gt;es inventeurs devraient-ils être obligés de faire
                             préalablement breveter leur invention dans un autre pays?</p>
                         <p>La seule conséquence de leur abstention serait le défaut de toute
                             protection légale hors d’Egypte.</p>
@@ -1050,7 +1061,7 @@
                         <p>Qu’il y a donc lieu en définitive de dire l’appel mal fondé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0050">
                     <head>182. - Propriété industrielle. — Concession exclusive en Egypte d'un
                         produit étranger; rapports entre fabricant et représentant; liberté
                         commerciale des tiers.</head>
@@ -1181,7 +1192,7 @@
                             opposable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0060">
                     <head>183. - Propriété industrielle. — Concurrence déloyale; action exercée par
                         l'agent exclusif en Egypte d'une fabrique étrangère; recevabilité. —- Brevet
                         d'invention; droit en dérivant; preuve nécessaire; distinction entre les
@@ -1307,7 +1318,7 @@
                             régulièrement effectuée, tant en appel qu’en première instance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0070">
                     <head>184. - Propriété industrielle. — Concurrence déloyale; contrefaçon;
                         dessins affectés à l’usage industriel; protection judiciaire. — Marchandise
                         contrefaite; responsabilité personnelle du débitant; défaut, en principe, de
@@ -1441,7 +1452,7 @@
                             montant de l’indemnité allouée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0080">
                     <head>185 - Propriété industrielle. — Concurrence déloyale. —■ Contrefaçon;
                         revendeur de produits contrefaits; mauvaise foi.</head>
                     <div type="summary">
@@ -1456,7 +1467,7 @@
                             autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0090">
                     <head>186. - Propriété industrielle. — Concurrence déloyale; emballage; usage
                         d'anciens sacs d'un autre fabricant; ciment; identification de la
                         marchandise vendue; responsabilité.</head>
@@ -1540,7 +1551,7 @@
                             tout en adoptant leurs motifs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0100">
                     <head>187. - Propriété industrielle. — Concurrence déloyale; marque de fabrique;
                         dépôt au Greffe; effets. — Usage d'une marque déjà adoptée par un tiers;
                         bonne foi: responsabilité. — Droit d'un fabricant à. interdire l'usage de
@@ -1799,7 +1810,7 @@
                             sérieuse pour justifier le maintien de son ordonnance...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0110">
                     <head>188. - Propriété industrielle. — Concurrence déloyale; produit spécial;
                         marque déposée à l'étranger; utilisation de la dénomination pour la
                         désignation de produits similaires; caractère abusif; sanction en cas de
@@ -1887,7 +1898,7 @@
                             droits de la demanderesse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0120">
                     <head>189. - Propriété industrielle. — Contrefaçon; responsabilité du revendeur;
                         concurrence déloyale. — Action dirigée contre le revendeur en Egypte du
                         produit contrefait; recevabilité; procès pendant à l'étranger contre les
@@ -2049,7 +2060,7 @@
                             exagérée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0130">
                     <head>190 - Propriété industrielle. — Contrefaçon; responsabilité du revendeur
                         de bonne foi; commissionnaire; recours, contre le fabricant.</head>
                     <div type="summary">
@@ -2126,7 +2137,7 @@
                             par la Farbenfabriken.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0140">
                     <head>191. - Propriété industrielle. — Contrefaçon; responsabilité du revendeur;
                         présomption de mauvaise foi.</head>
                     <div type="summary">
@@ -2180,7 +2191,7 @@
                             laissant à charge de l’appelant les frais de son recours.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0150">
                     <head>192. - Propriété industrielle. — Invention; élément essentiel pour sa
                         protection.</head>
                     <div type="summary">
@@ -2215,7 +2226,7 @@
                             moment de" son retour en Egypte, en 1915. Sur la base de ces faits,
                             Cosakis a le 31 Mars 1926 assigné la Compagnie des Trams du Caire en
                             paiement de L.E. 250.000 à titre de dommages;</p>
-                        <p>Attendu que la défenderesse oppose que le ?> système des marchepieds
+                        <p>Attendu que la défenderesse oppose que le ?&gt; système des marchepieds
                             mobiles que Cosakis prétend avoir inventé en 1913 est adopté depuis 1901
                             par différentes compagnies, telles que les Sociétés des Trams de
                             Trieste, de -Bruxelles et de Damas. Elle ajoute que les plans de ses
@@ -2260,7 +2271,7 @@
                             pratiqués en 1913.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0160">
                     <head>193. - Propriété industrielle. — Marques de fabrique; concession de
                         fabrication et de vente d'un produit; restriction et réserves; titulaire du
                         droit de propriété; action contre les tiers, même de bonne foi.</head>
@@ -2376,7 +2387,7 @@
                             le Tribunal estime allouer à lu demanderesse Livres Egyptiennes 80.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0170">
                     <head>194. - Propriété industrielle. — Marques de fabrique et de commerce;
                         caractéristiques; dépôt d'une marque contenant un nom dans le dessin; droit
                         à la dénomination résultant d'un tel dépôt, sans besoin d'un enregistrement
@@ -2543,7 +2554,7 @@
                             l’action principale.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0180">
                     <head>195. - Propriété industrielle. — Marques de fabrique et de commerce;
                         contrefaçon; revendeur; bonne foi; responsabilité civile.</head>
                     <div type="summary">
@@ -2598,7 +2609,7 @@
                             s’impose.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0190">
                     <head>196. - Propriété industrielle. — Nom commercial; nom patronymique;
                         cession; nécessité du consentement du titulaire du nom: droits du
                         cessionnaire; usage abusif par un tiers; bonne foi; droits du <pb n="168"
@@ -2674,7 +2685,7 @@
                             P.T. par jour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0200">
                     <head>197. - Propriété littéraire et artistique. — Nature; défaut de protection
                         en Egypte; œuvres musicales tombant dans le domaine public par le seul [ait
                         de leur édition.</head>
@@ -2857,7 +2868,7 @@
                             pour défaut de qualité ne sont pas fondées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0210">
                     <head>198. - Propriété littéraire et artistique. — Protection en Egypte; droit
                         d'impression et de publication; droit d'exécution ou de représentation
                         publique; exécution non autorisée; dommages-intérêts dus par les
@@ -3000,7 +3011,7 @@
                             dommages-intérêts à accorder en l’espèce à la somme de L.E. 30.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0220">
                     <head>199. - Propriété littéraire et artistique. — Protection en Egypte; œuvres
                         musicales; exécution publique non autorisée; personnes responsables;
                         dommages-intérêts dus par les infracteurs; évaluation; mode de preuve de
@@ -3145,7 +3156,7 @@
                             à la somme de L.E. 25.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0230">
                     <head>200. - Propriété littéraire et artistique. — Protection en Egypte; œuvres
                         musicales; exécutions non autorisées dans un établissement public; mode de
                         preuve; constat privé; validité.</head>
@@ -3207,7 +3218,7 @@
                             par conséquent do l’accorder,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-05-0240">
                     <head>201. - Propriété littéraire et artistique. — Société des Auteurs,
                         Compositeurs et Editeurs de Musique; droit de réclamer en Egypte les droits
                         d'auteur dus à ses sociétaires.</head>

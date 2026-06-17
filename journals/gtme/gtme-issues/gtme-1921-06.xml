@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1921-06-10">June 10, 1921</date><lb/>
-                    <biblScope unit="volume">Vol. 11</biblScope><lb/>
-                    <biblScope unit="number">No. 128</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1921-06-10">June 10, 1921</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 11</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 128</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -591,7 +602,7 @@
             <pb n="121" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0010">
                     <head>167. - Bail. — Loi sur les loyers du 21 février 1921. — Détermination du
                         loyer légal. — Preuve directe résultant du contrat. — Faculté d’appréciation
                         des Tribunaux. — Certificat municipal de la taxe du 2%. — Caractère
@@ -679,7 +690,7 @@
                             demande et de partager entre parties les frais du présent procès.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0020">
                     <head>168. - Bail. — Loi sur les loyers du 21 Février 1921. — Jugement
                         d’expulsion prononcé après la promulgation de la loi. — Exécution.</head>
                     <div type="summary">
@@ -749,7 +760,7 @@
                             ministère est limité à leur exécution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0030">
                     <head>169. - Bail. — Loi sur les loyers du 21 Février 1921. — Pensions. —
                         Expulsion, pour usage de l'habitation d’une manière en conflit avec les
                         stipulations raisonnables du bail.</head>
@@ -813,7 +824,7 @@
                             croire et avancer que la pension de l’appelant était malfamée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0040">
                     <head>170. - Bourse ( Ordre de ). — Caducité après un temps déterminé. •</head>
                     <div type="summary">
                         <p>Un ordre de vendre aussitôt que les cours atteindront un prix indiqué
@@ -904,7 +915,7 @@
                             valable au 31 Mai 1917.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0050">
                     <head>171. - Cassation. — Contravention.— Pourvoi basé sur l'insuffisance de
                         motivation d’un jugement d’acquittement. — Cas où il existe un procès-verbal
                         de police faisant foi jusqu'à preuve contraire.</head>
@@ -997,7 +1008,7 @@
                             condamne Charles Rofé aux dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0060">
                     <head>172. - Contravention. — Jugement de ■défaut après une première
                         comparution. — ■Caractère contradictoire.</head>
                     <div type="summary">
@@ -1016,7 +1027,7 @@
                             Pericles Vacousis c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0070">
                     <head>173. - Contre-lettre. — Ecrit transcrit .portant limitation d’une vente
                         antérieure.— Opposabilité aux tiers.</head>
                     <div type="summary">
@@ -1095,7 +1106,7 @@
                             recQnnue à Mohamed bey Hussein el Bennaoui.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0080">
                     <head>174 - Droits proportionnels. — Acte de partage rectificatif d’un partage
                         antérieur. — Nouvelle perception des droits de mutation. — Renonciation au
                         bénéfice d’une transcription ; inefficacité sur la perception du
@@ -1120,7 +1131,7 @@
                             Mansourah).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0090">
                     <head>175. - Juridiction Mixte. — Compétence à l’égard des étrangers n'ayant
                         jamais habité l’Egypte. —.Compétence en matière commerciale.</head>
                     <div type="summary">
@@ -1190,7 +1201,7 @@
                             défendeurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0100">
                     <head>176. - Juridiction mixte. — Compétence. — Mandataire. — Exception
                         d’incompétence.</head>
                     <div type="summary">
@@ -1208,7 +1219,7 @@
                             Cassis c. Aziz de Saab et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0110">
                     <head>177. - Mandataire. — Action en justice au nom du mandant.</head>
                     <div type="summary">
                         <p>Il est généralement admis par la doctrine que la maxime « Nul ne plaide
@@ -1230,7 +1241,7 @@
                             c. Henri Barocas esq. et autres )</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0120">
                     <head>178. - Marque de fabrique. — Effets du dépôt au Greffe. — Perte du droit à
                         la marque par défaut d’usage. — Combinaison pouvant constituer une marque. —
                         Absence de droits pour une partie de la marque séparée de l'ensemble.—
@@ -1358,7 +1369,7 @@
                             concurrence déloyale d’autrui, soitactuellementsoit àl’avenir..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0130">
                     <head>179. - Mesures d’instruction. — Notification de la date fixée. —
                         Irrégularité couverte. — Accident. — Responsabilité civile du chef d’un
                         animal échappé.</head>
@@ -1379,7 +1390,7 @@
                     </div>
                 </div>
                 <pb n="125" rendition="GAZETTE DES TRIBUNAUX MIXTES D’EGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0140">
                     <head>180. - Navire. — Abandon. — Perte fatale. — Baraterie de patron. — Preuve.
                         — Assureur. — Fortune de mer. — Avarie particulière. — Sauvetage. — Saisie
                         du navire abandonné par le navire sauveteur. Appel. — Exception
@@ -1405,7 +1416,7 @@
                             Tsargiratis et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0150">
                     <head>181. - Navire. — Vente. — Forme authentique. — Distinction entre les
                         bâtiments de mer et bâtiments de servitude.</head>
                     <div type="summary">
@@ -1465,7 +1476,7 @@
                             navigation maritime, qn’il prévoit en effet la vente « avant ou pendant
                             le voyage » et la rédaction de l’acte authentique dans l’empire ottoman
                             et à l’étranger; que son application doit donc être limitée aux «
-                            bâtiments de mer >.</p>
+                            bâtiments de mer &gt;.</p>
                         <p>Que les premiers Juges ont ajouté à bon droit que, à raison de sa
                             disposition restrictive, cet article était d’interprétation étroite et
                             ne pouvait s'appliquer aux navires de service dans les ports, tels que
@@ -1543,7 +1554,7 @@
                             jours prévu au contrat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0160">
                     <head>182. -Pharmaciens. — Contraventions en matière de préparation des
                         médicaments contenant des substances vénéneuses. — Fermeture de la
                         pharmacie.</head>
@@ -1636,7 +1647,7 @@
                             la mise en cause du principal intéréssé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0170">
                     <head>183. - Préemption. — Caractère de droit réel. — Clause de renonciation. —
                         Validité. — Renonciation aux droits conditionnels ou éventuels. — Défaut de
                         transcription; conséquences. — Adjudication ; droits transférés à
@@ -1712,7 +1723,7 @@
                             l’avait accueillie par jugement du 22 Mai 1920 ;</p>
                         <p>Attendu que le sieur Attilio Pinto a régulièrement relevé appel du dit
                             jugement;</p>
-                        <p>> ♦ ♦ -</p>
+                        <p>&gt; ♦ ♦ -</p>
                         <p>Attendu, sur le mérite de ce recours, que les premiers juges ont
                             incontestablement erré en retenant que la clause susmentionnée de l’acte
                             du 28Juillet 1906 n’était pas opposable à la dame Cheboub 1° parce
@@ -1848,7 +1859,7 @@
                             sur le fonds préempté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0180">
                     <head>184. - Préemption. — Déclaration et demande en justice formées par le même
                         acte; validité. — Offre du prix non faite à deniers découverts; validité. —
                         Bénéfice du terme au profit du préempteur. — Renonciation à une servitude,
@@ -2043,7 +2054,7 @@
                             demandent les intimés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0190">
                     <head>185. - Prescription extinctive longi tempo ris. — Action réelle. —
                         Prescription acquisitive. — Bonne foi.</head>
                     <div type="summary">
@@ -2093,7 +2104,7 @@
                             équivaut évidemment à une reconnaissance de leur possession ;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0200">
                     <head>186. - Préemption.— Servitudes d’irrigation et de drainage établies par un
                         acte de partage. — Canaux et drains parcourant deux domaines.</head>
                     <div type="summary">
@@ -2117,7 +2128,7 @@
                             deux propriétés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0210">
                     <head>187. - Propriété littéraire. — Articles de journal. — Propriété légale de
                         leur auteur. — Emprunts entre journaux. — Contrefaçon.</head>
                     <div type="summary">
@@ -2246,7 +2257,7 @@
                             L.E. 200 le montant des dommages-intérêts qui lui sont dûs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0220">
                     <head>188. - Requête civile. — Demande d’interprétation formée en voie
                         subsidiaire.</head>
                     <div type="summary">
@@ -2259,7 +2270,7 @@
                             Vve Lambros Marangakis c. Dme Engénie Lévy).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0230">
                     <head>189. -Transcription. - Bonne foi.— Counaissance par Vacquéreur d’une vente
                         antérieure non transcrite. — Vente forcée. — Droi{ du poursuivant. —
                         Personnalité de l’adjudicataire.</head>
@@ -2401,7 +2412,7 @@
                             des 303 feddans litigieux, ceux-ci étaient déjà définitivement sortis du
                             patrimoine de Ahmed Pacha Cherei à la suite de la première adjudication
                             — dont la validité n’est pas contestée — prononcée au profit de la
-                            Raison Sociale &lt; Nessim Sayba et Cie > ;</p>
+                            Raison Sociale &lt; Nessim Sayba et Cie &gt; ;</p>
                         <p>Attendu que les appelants invoquent mal à propos l’article 874 du Code de
                             Procédure qui n’est en somme que l’application à un cas spécial du
                             principe posé par l’article 333 du Code Civil d’après lequel la vente de
@@ -2422,7 +2433,7 @@
                             amplement leur décision.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0240">
                     <head>190. - Transporteur. — Marchandise déchargée en vrac. — Répartition entre
                         destinataires. — Responsabilité du déchargeur.</head>
                     <div type="summary">
@@ -2445,7 +2456,7 @@
                             Décembre 1920. — Adolphe Serène c. W. F. Vander Zee et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0250">
                     <head>191. - Usage (Droit d’). — Caractère personnel. — Incessibilité et
                         insaisissabilité. — Droit personnel de chasse. — Vente.</head>
                     <div type="summary">
@@ -2473,7 +2484,7 @@
                             Rouen, 25 Août 1857, D. 57.2.27.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0260">
                     <head>192. - Vente. — Action en garantie. — Retard dans son exercice. —
                         Déchéance. — Dol. — Preuve.</head>
                     <div type="summary">
@@ -2526,7 +2537,7 @@
                             l’article 402 du C.C. ne serait pas applicable).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0270">
                     <head>193. - Vente. — Rescision pour cause de lésion. — Inadmissibilité en droit
                         mixte. Vices du consentement. — Dol. — Preuve des manoeuvres
                         frauduleuses.</head>
@@ -2548,7 +2559,7 @@
                             Palomboc. Aslan Palombo et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-06-0280">
                     <head>194. - Vol. — Acheteur de l’objet volé. — Droit du propriétaire
                         volé.</head>
                     <div type="summary">
@@ -3094,9 +3105,9 @@
                     13.6.21 pour homol. Rapp. du 26.5.21 ; l’éval.des mardi, d’après l’inv. est, de
                     L.E; 487 env. mais le s. doit constater dans l’int. de fa justice, que les
                     estim. faites d’ailleurs avec le concours d’un chef de rayon de la Maison
-                    Sidnaoui très compétant, ont été réduites, d’a->■ bord à raison de la baisse des
-                    prix en général, et ensuite et surtout, à raison de la dépréc. inévitable que
-                    forcém. subissent les mardi, mises</p>
+                    Sidnaoui très compétant, ont été réduites, d’a-&gt;■ bord à raison de la baisse
+                    des prix en général, et ensuite et surtout, à raison de la dépréc. inévitable
+                    que forcém. subissent les mardi, mises</p>
                 <p>• sous scellés, démodées, défraîchies et finalement . liquid. à des prix
                     dérisoires; et le s. a dû passer</p>
                 <p>outre aux protest, justifiées du failli contre des - estim. réduites à l/3 et au
@@ -3145,8 +3156,8 @@
                     sur l’exploit, du mag.; à la dite réun. l’exploit, du mag. fût autorisée par
                     l’entrem. du syndic.</p>
                 <p>Youssef Aly, nég. en manuf., indig. à Cher-bine (E. Sidaoui, s.). Réun. le
-                    31.5.21 pour n. s. déf. et dép. rapp. à la dite réun. le >. a dép. son rapp. par
-                    lequel il conclût à la clôt, de la fte p. manque d’act. Réun. à l’aud. du
+                    31.5.21 pour n. s. déf. et dép. rapp. à la dite réun. le &gt;. a dép. son rapp.
+                    par lequel il conclût à la clôt, de la fte p. manque d’act. Réun. à l’aud. du
                     13.6.21.</p>
                 <p>Moustafa Nada, négoc. en manuf., indig. à Ekhtab (E. Ghalioungui, s.). Réun. le
                     31.5.21 p. n. s. déf. et dép. rapp. renv. à l’aud. du 14.6.21 et le s. déposera

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0017-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1926-11-10">November 10, 1926</date><lb/>
-                    <biblScope unit="volume">Vol. 17</biblScope><lb/>
-                    <biblScope unit="number">No. 193</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1926-11-10">November 10, 1926</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 17</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 193</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -48,7 +59,7 @@
                 <p>D'</p>
                 <p>RL VUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte.</p>
-                <p>Fondateurs : M> MAXIME PUPIKOFER et LÉON PANG-ALO, Avocats à la Cour.</p>
+                <p>Fondateurs : M&gt; MAXIME PUPIKOFER et LÉON PANG-ALO, Avocats à la Cour.</p>
                 <p>Directeur: Me MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an),... P.T. 150</p>
@@ -57,9 +68,9 @@
                 <p>— Six mois................. » 85</p>
                 <p>— Trois mois............... » 50</p>
                 <p>— aux deux publications</p>
-                <p>réunies (un an)........ > 250</p>
+                <p>réunies (un an)........ &gt; 250</p>
                 <p>Comité de Rédaction et d’Administration :</p>
-                <p>M> U. PANGALO et R. SCHEMEIL (Directeurs au Caire).</p>
+                <p>M&gt; U. PANGALO et R. SCHEMEIL (Directeurs au Caire).</p>
                 <p>M* E. DEGIARDÉ (Secrétaire de la rédaction). M« A. F AD EL (Directeur à
                     Mansourah).</p>
                 <p>M° F. BRAUN (Secrétaire à Paris).</p>
@@ -413,7 +424,7 @@
             <pb n="6" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0010">
                     <head>1. - Propriété. — Droits du propriétaire; limites. — Voisinage;
                         obligations; faute.</head>
                     <div type="summary">
@@ -472,7 +483,7 @@
                             d’accepter comme exacte son évaluation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0020">
                     <head>2. - Propriété. — Droits du propriétaire; limites. —- Voisinage;
                         obligations; faute; usage de procédés modernes de construction. —
                         Entreprise; clause générale dégageant la responsabilité du propriétaire du
@@ -628,7 +639,7 @@
                             adverse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0030">
                     <head>3. - Propriété. — Mitoyenneté. — Construction accolée à un mur limitrophe;
                         pression anormale exercée sur les fondations de ce mur.</head>
                     <div type="summary">
@@ -690,7 +701,7 @@
                             aux fins d’avoir tous apaisements à cet égard.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0040">
                     <head>4. - Responsabilité. — 'Accident causé par un cheval attelé; imprudence du
                         cocher; cocher mis avec un cheval au service d'un tiers par location au
                         mois; surveillance du cocher déléguée tacitement au client par le
@@ -808,7 +819,7 @@
                             médical.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0050">
                     <head>5. - Responsabilité. — Accident; faute du patron; charge de la preuve;
                         défaut de surveillance; entrepreneur chargé du recrutement des ouvriers;
                         lien direct entre l'ouvrier et le patron.</head>
@@ -896,7 +907,7 @@
                             étaient préposés...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0060">
                     <head>6. - Responsabilité. — Accident; responsabilité civile du propriétaire
                         pour les fautes des ouvriers au service de son-entrepreneur. — Principes
                         justifiant la responsabilité générale des commettants. — Action en
@@ -928,8 +939,8 @@
                             préjudice personnel.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appel, 2iue Ch-, Prés. M. B. A- Vaux, 7 Mat I92>. — Hoirs Abdel
-                            Mottaleb El Dakama y. Société de Pressage et de Dépôts),</p>
+                        <p>(Cour d’Appel, 2iue Ch-, Prés. M. B. A- Vaux, 7 Mat I92&gt;. — Hoirs
+                            Abdel Mottaleb El Dakama y. Société de Pressage et de Dépôts),</p>
                         <pb n="9" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                     </div>
                     <div type="observations">
@@ -1037,7 +1048,7 @@
                             allouer aux ascendants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0070">
                     <head>7. - Responsabilité. — Accident; responsabilité civile du propriétaire
                         pour les imprudences de son entrepreneur. — Procédé dangereux de travail;
                         faute engageant la responsabilité de l'industriel.</head>
@@ -1130,7 +1141,7 @@
                             suffisante pour l’indemniser.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0080">
                     <head>8. - Responsabilité. — Affichage volant; abus; dommages-intérêts.</head>
                     <div type="summary">
                         <p>L’affichage volant constitue un acte licite aussi longtemps qu’il est
@@ -1201,7 +1212,7 @@
                             somme de L.E. 50.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0090">
                     <head>9. - Responsabilité. — Atteinte au crédit commercial; informations
                         inexactes données par un commerçant sur un autre commerçant concurrent;
                         faute; réparation due.</head>
@@ -1279,7 +1290,7 @@
                             100.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0100">
                     <head>10. - Responsabilité. — Banque détentrice des documents relatifs à un
                         transport maritime; retard dans le retrait du bon de livraison.</head>
                     <div type="summary">
@@ -1360,7 +1371,7 @@
                             occurrence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0110">
                     <head>11. - Responsabilité. — Banque; documents remis au propriétaire de
                         marchandises; insuffisance; réclamation tardive; faute inexistante. — Appel;
                         paiement des frais d’un jugement exécutoire; défaut d'acquiescement.</head>
@@ -1408,7 +1419,7 @@
                             la Banque pour obtenir la police.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0120">
                     <head>12. - Responsabilité. — Banque; obligation de paiement d'un chèque tiré
                         par une succursale de Banque sur une autre succursale; révocation de
                         paiement par celui qui a commandé le chèque; inopé-rance; maintien de
@@ -1459,7 +1470,7 @@
                             payer le montant du chèque...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0130">
                     <head>13. - Responsabilité. — Banque; paiement d’un chèque faux; défaut de
                         circonspection; imprudence; faute dispensant de la recherche de la
                         responsabilité civile de la partie lésée, père du faussaire.</head>
@@ -1552,7 +1563,7 @@
                             fils dont on veut tenir le père responsable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0140">
                     <head>14. - Responsabilité. — Choses inanimées; accident; théorie du risque
                         créé; admissibilité en Egypte; propriétaire de la chose; gardien;
                         connaissance du danger; conséquences.</head>
@@ -1669,7 +1680,7 @@
                     </div>
                 </div>
                 <pb n="13" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0150">
                     <head>15. - Responsabilité. — Choses inanimées; responsabilité du possesseur,
                         indépendamment de la propriété; immeubles; chute d'un balcon; accident;
                         défaut de vérification par un acquéreur de l'état de l'immeuble; faute.. —
@@ -1792,7 +1803,7 @@
                             état, et le jugement déféré étant confirmé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0160">
                     <head>16 - Responsabilité. — Concubinage'; défaut d'action de la concubine
                         contre les héritiers de son amant. — Obligation naturelle; reconnaissance
                         ouvrant une action en justice.</head>
@@ -1878,7 +1889,7 @@
                             également à rejeter de ce chef.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0170">
                     <head>17. - Responsabilité. — Demande en garantie intentée devant la Juridiction
                         mixte; irrecevabilité dans le cas où la condamnation principale a été
                         prononcée par une juridiction incompétente.</head>
@@ -1975,7 +1986,7 @@
                             du Marshal.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0180">
                     <head>18. - Responsabilité. — Dépôt; obligation du dépositaire; certificat de
                         dépôt mentionnant le mauvais état apparent de certaines marchandises;
                         expertise effectuée par les soins du dépositaire sur la demande du
@@ -2094,7 +2105,7 @@
                             action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0190">
                     <head>19. - Responsabilité. — Dépôt; obligations du dépositaire; pesage;
                         omission de signaler au déposant le mauvais état de la marchandise; faute;
                         clauses d’exonération; portée.</head>
@@ -2210,7 +2221,7 @@
                             l’appelante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0200">
                     <head>20. - Responsabilité. — Dommages-intérêts pour procédures vexatoires;
                         réclamation par instance principale; cas où elle est admissible. — Appel;
                         connaissance du fond par la juridiction d'appel, en cas d'infirmation sur
@@ -2316,7 +2327,7 @@
                             mari.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0210">
                     <head>21. - Responsabilité. — Femme conduisant une auto; responsabilité civile
                         du mari.</head>
                     <div type="summary">
@@ -2365,7 +2376,7 @@
                         <p>Qu'il y a donc lieu de déclarer la responsabilité du Sieur Costa...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0220">
                     <head>22. - Responsabilité. — Presse; diffamation; articles dus à des rédacteurs
                         multiples; action en réparation civile visant l'un des coauteurs; action
                         intentée contre l'un des rédacteurs seulement; recevabilité. — Délit pénal
@@ -2464,7 +2475,7 @@
                             même ouvrage No. 225 et arrêts sous renvoi No. 2)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0230">
                     <head>23. - Responsabilité. — Presse; droit de critique; exercice de bonne foi;
                         absence de faute.</head>
                     <div type="summary">
@@ -2588,7 +2599,7 @@
                             dommages.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0240">
                     <head>24. - Responsabilité. — Presse; droit de réponse; ses conséquences sur les
                         actions nées de la diffamation. — Droit pour la presse de dénoncer les abus
                         publics; devoir de prudence; malveillance et injures. — Responsabilité de
@@ -2666,7 +2677,7 @@
                             attaquée par voie de la presse de répondre à l’attaque ne peut
                             évidemment pas la priver des actions de justice qui peuvent lui être
                             ouvertes du chef de cette attaque (comparer l’article 15 de la loi du
-                            2C> Novembre 1881 sur la presse).</p>
+                            2C&gt; Novembre 1881 sur la presse).</p>
                         <p>En outre, il n’est pas exact que la Khédivial soit déchue de ses actions
                             à la suite d’un désistement.</p>
                         <p>Il est vrai que par lettre du 2 Juin 1923 la Khédivial Mail demanda à
@@ -2889,7 +2900,7 @@
                             honoraires de l’avocat de la demanderesse, taxés à L.E. 30.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-11-0250">
                     <head>25. - Responsabilité. — Propriétaire; accident dû à un vice de
                         construction et au défaut d'entretien de l'immeuble; faute; responsabilité
                         du propriétaire à l’égard des sous-locataires même en cas d’interdiction de

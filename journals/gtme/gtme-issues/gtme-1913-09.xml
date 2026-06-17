@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0003-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0003-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1913-09-10">September 10, 1913</date><lb/>
-                    <biblScope unit="volume">Vol. 3</biblScope><lb/>
-                    <biblScope unit="number">No. 35</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1913-09-10">September 10, 1913</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 3</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 35</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -588,7 +599,7 @@
             <pb n="209" rendition="GAZETTE DES TRIBUNAUX MIXTES D’EGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0010">
                     <head>439. - Accident. —Tramways. — Rupture d'un fil aérien. — Cas fortuit. —
                         Responsabilité. — Risque professionnel.</head>
                     <div type="summary">
@@ -604,7 +615,7 @@
                             c. Tramways d’Alexandrie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0020">
                     <head>440. - Acte d’Huissier. — Commandement immobilier.— Domicile non indiqué.
                         — Signification au Parquet sans recherches préalables. — Nullité.</head>
                     <div type="summary">
@@ -621,7 +632,7 @@
                             Psiachi et Cts c. Patriarcat Compte ■Catholique et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0030">
                     <head>441. - Action Oblique. — Créancier étranger exerçant les droits de son
                         débiteur indigène. — Compétence Mixte.</head>
                     <div type="summary">
@@ -649,26 +660,29 @@
                         <p>Il a été jugé par contre:</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0040">
                     <head>442. - </head>
-                    <div type="summary"><p>L’art. 202 du Code Civil Mixte, en conférant aux créanciers le
-                        droit d’exercer les actions de leur débiteur à l’exception des actions
-                        purement personnelles,a donné aux créanciers européens d’un débiteur
-                        indigène le pouvoir d’actionner celui-ci devant la seule juridiction
-                        compétente pour connaître des litiges entre européens et indigènes, c’
-                        est-à-dire la juridiction Mixte, puisque ce Code étant inapplicable par la
-                        juridiction indigène n’a pu créer un droit à exercer devant une juridiction
-                        qui ne peut l’appliquer. Il importe donc peu que la créance soit née entre
-                        indigènes, puisque le créancier exerce un droit qu’il tient de l’art. 202 C.
-                        Civ. Mixte, et qu’il ne peut exercer ce droit que devant la juridiction
-                        mixte. Lui contester ce pouvoir équivaut à la négation du droit que lui
-                        donne,en le créant pour lui,l’art. 202 précité.</p> </div>
+                    <div type="summary">
+                        <p>L’art. 202 du Code Civil Mixte, en conférant aux créanciers le droit
+                            d’exercer les actions de leur débiteur à l’exception des actions
+                            purement personnelles,a donné aux créanciers européens d’un débiteur
+                            indigène le pouvoir d’actionner celui-ci devant la seule juridiction
+                            compétente pour connaître des litiges entre européens et indigènes, c’
+                            est-à-dire la juridiction Mixte, puisque ce Code étant inapplicable par
+                            la juridiction indigène n’a pu créer un droit à exercer devant une
+                            juridiction qui ne peut l’appliquer. Il importe donc peu que la créance
+                            soit née entre indigènes, puisque le créancier exerce un droit qu’il
+                            tient de l’art. 202 C. Civ. Mixte, et qu’il ne peut exercer ce droit que
+                            devant la juridiction mixte. Lui contester ce pouvoir équivaut à la
+                            négation du droit que lui donne,en le créant pour lui,l’art. 202
+                            précité.</p>
+                    </div>
                     <div type="litigants">
                         <p>(Trib. Somm. Caire. Prés. M. Giraud. 30 Janvier 1913. — Gaston Demercière
                             c. Etnian Etman Aly el Kholi et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0050">
                     <head>443. - Adjudicataire. — Paiement du prix. — Séquestre.</head>
                     <div type="summary">
                         <p>L’adjudicataire auquel la loi défend de prendre possession des biens
@@ -682,7 +696,7 @@
                             fils c. Matta bey Hanna El Daif).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0060">
                     <head>444. - Adjudication (fugement d'). Actes de procédure signifiés au Parquet
                         par négligence. — Conséquence. — Dommages-intérêts. — Validité du jugement
                         d’adjudication.</head>
@@ -707,7 +721,7 @@
                             Mars 1903, Bull. XV, p. 191.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0070">
                     <head>445. - Affectation hypothécaire. — fugement d’expédient. — Cessation des
                         paiements.</head>
                     <div type="summary">
@@ -732,7 +746,7 @@
                             esq. c. Deutche Orient Bank &amp; cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0080">
                     <head>446. - Assistance Judiciaire. — Transaction. — Paiement des frais et
                         honoraires. — Radiation de l’affaire. — Recevabilité de l’intervention du
                         Greffier en Chef et de l’avocat de l’assisté judiciaire.</head>
@@ -752,7 +766,7 @@
                             &amp; et. c. Sté des Automobiles et Omnibus du Caire).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0090">
                     <head>447. - Chose Jugée. — Comptes. — Erreurs, omissions ou doubles emplois —
                         fugement interlocutoire. — Règlement provisoire. — Règlement définitif
                         partiel. — Contredit.</head>
@@ -786,7 +800,7 @@
                             1913.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0100">
                     <head>448. - Compagnie des Eaux. — Rupture d’une conduite. — Dégâts à un
                         immeuble. — Responsabilité.</head>
                     <div type="summary">
@@ -805,7 +819,7 @@
                         <p>Note. — Comp. arrêt 11 Juin 1913. Gaz. III, 192-412.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0110">
                     <head>449. - Compétence Sommaire. — Contestations volontairement déférées. —
                         Dernier ressort.</head>
                     <div type="summary">
@@ -829,7 +843,7 @@
                             Sommaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0120">
                     <head>450. - Démolition. — Infraction à un règlement administratif. — Préjudice
                         effectif. — Dommages-intérêts. — Précision de la demande.</head>
                     <div type="summary">
@@ -852,7 +866,7 @@
                             Karabedoff c. Municipalité d’Alexandrie et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0130">
                     <head>451. - Distribution par ordre et par contribution. — Fruits.</head>
                     <div type="summary">
                         <p>Il est de jurisprudence constante qu’une fois que la distribution par
@@ -868,7 +882,7 @@
                             bey Sapriel c. Caisse Hypothécaire d'Egypte et autres;.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0140">
                     <head>452 - Employé provisoire. — Licenciement. - Etranger. — Droits acquis. —
                         Responsabilité. — Inspecteur.</head>
                     <div type="summary">
@@ -884,7 +898,7 @@
                             Fredrigo c. Gouvernement Egyptien et Fritz Ehrlich).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0150">
                     <head>453. - Faillite. — Banqueroute. — Détournement d'actif. — Cessation des
                         paiements.</head>
                     <div type="summary">
@@ -905,7 +919,7 @@
                             Phéleinon Costi c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0160">
                     <head>454. - Faillite. — Jugement sur opposition. — Délai d’appel.</head>
                     <div type="summary">
                         <p>Le délai de quinzaine pour l’appel d’un jugement de faillite rendu sur
@@ -920,7 +934,7 @@
                             c. J. Picciotto esq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0170">
                     <head>455. - Faillite. — Privilèges (Ordre des). — Bailleur. — Gens de
                         service.</head>
                     <div type="summary">
@@ -1018,7 +1032,7 @@
                             sauf celle des frais de justice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0180">
                     <head>456. — Gage immobilier. — Expropriation et adjudication des biens gagés. —
                         Droits du créancier gagiste.</head>
                     <div type="summary">
@@ -1038,7 +1052,7 @@
                             sens contr. arrêt du 4 Février 1891. Bull. III, 194.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0190">
                     <head>457. - Grosses (Délivrance des). — Compétence de Référé. — Droits
                         d’évocation de la Cour. — Coobligés solidaires. — Subrogation
                         partielle.</head>
@@ -1208,7 +1222,7 @@
                             procès en opposition au commandement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0200">
                     <head>458. - Intérêts. — Condamnation. — Demande.</head>
                     <div type="summary">
                         <p>Les intérêts sont toujours dus sur le montant de la condamnation, alors
@@ -1219,7 +1233,7 @@
                             Hadji Nicologlou c. Panos Alexakis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0210">
                     <head>459. - Novation. — Délégation.</head>
                     <div type="summary">
                         <p>Une délégation même parfaite en elle-même n’entraîne novation que si elle
@@ -1231,7 +1245,7 @@
                             bey Chedid c. Bichara Asfar).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0220">
                     <head>460. - Référé (Compétence de). — Difficulté d’exécution. — Privilège du
                         bailleur. — Opposition à la saisie par un sous-locataire.</head>
                     <div type="summary">
@@ -1250,7 +1264,7 @@
                             Peraldi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0230">
                     <head>461. - Revendication Mobilière. — Usages locaux. — Statut personnel. —
                         Musulmans. — Préparation du Trousseau. — Inventaire.</head>
                     <div type="summary">
@@ -1472,7 +1486,7 @@
                             bien fondée dans sa revendication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0240">
                     <head>462. - Succession. — Droit Musulman. — Indivisibilité des créances
                         vis-à-vis des héritiers.</head>
                     <div type="summary">
@@ -1491,7 +1505,7 @@
                             Aloussa Levi et Cts. c. Hoirs Abdel Latif el Sebbagh).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0250">
                     <head>463. - Surenchère. — Déclaration de conimand. — Validité de la
                         dénonciation à l’adjudicataire appâtent.</head>
                     <div type="summary">
@@ -1603,7 +1617,7 @@
                         <p>— si le surenchérisseur connaît les commands, il suffit qu’il leur fasse
                             la dénonciation prescrite par l’article 709, et il serait tout à fait
                             inutile de faire cette dénonciation à l’adjudicataire qui a déclaré le
-                            command > et les Pandectes Françaises, N° 920 ajoutent: “Il faut même
+                            command &gt; et les Pandectes Françaises, N° 920 ajoutent: “Il faut même
                             dire que c’est aux commands que régulièrement la dénonciation devait
                             être faite” et c’est seulement un jugement d’un Tribunal de Confolens de
                             1892 qui dans des conditions toutes spéciales, dit que c’est aux
@@ -1635,7 +1649,7 @@
                             débiteur exproprié.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-09-0260">
                     <head>464. - Tanzim. — Clôture des terrains vagues. — Expropriation pour cause
                         d’utilité publique. — Prise de possession par le Gouvernement.</head>
                     <div type="summary">
@@ -2256,7 +2270,7 @@
                 <p>P.E. 928.180</p>
                 <p>- 795.229</p>
                 <p>» 474.878</p>
-                <p>> 1.306.881</p>
+                <p>&gt; 1.306.881</p>
                 <p>P?E. 3.505.168</p>
                 <p>Rais. Soc. Kimon et Solon Tsakonas frères, Société hellène, épiciers dem. à
                     Minieh, bilan déposé le 26 Août 1913. Passif: P.T. 159.574,75. Cessation paiem.

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1918-10-10">October 10, 1918</date><lb/>
-                    <biblScope unit="volume">Vol. 8</biblScope><lb/>
-                    <biblScope unit="number">No. 96</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1918-10-10">October 10, 1918</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 8</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 96</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -81,7 +92,7 @@
                     entendue...</p>
                 <p>Donc, depuis le 24 Mai 1918, le créancier hypothécaire muni d'un bordereau de
                     col-</p>
-                <p>(*> V. Gaz., VU, 15.</p>
+                <p>(*&gt; V. Gaz., VU, 15.</p>
                 <p>location n’a qu’à se présenter à la Caisse pour être réglé; en donnant quittance,
                     il déclare simplement consentir à la radiation de son inscription.</p>
                 <p>C’est fort simple, à la vérité; mais, selon nous, ce nouveau système est
@@ -169,7 +180,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0010">
                     <head>363. - Accident. — Tramways. — Dommage moral.</head>
                     <div type="summary">
                         <p>I. - Les conducteurs de voitures circulant sur des rails qu’elles ne
@@ -196,7 +207,7 @@
                             Wahed c. Société des Tramways d’Alexandrie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0020">
                     <head>364. - Acquiescement tacite. — Eléments nécessaires. — Collocation. —
                         Distribution.</head>
                     <div type="summary">
@@ -213,7 +224,7 @@
                             Banque d’Athènes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0030">
                     <head>365. - Acte authentique. — Force exécutoire. — Ouverture de crédit. —
                         Hypothèque. — Validité.</head>
                     <div type="summary">
@@ -235,7 +246,7 @@
                             Assaad bey Abdel Chehid c. Banque d’Athènes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0040">
                     <head>366. - Action possessoire. — Complainte. — Possession annale. — Servitude
                         par destination du père de famille. — Prescription.</head>
                     <div type="summary">
@@ -304,7 +315,7 @@
                         <p>B. I. J. XVII, p. 188).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0050">
                     <head>367. - Adjudicataire. — Concordat. — Privilège conservé par la
                         transcription du jugement d’adjudication.</head>
                     <div type="summary">
@@ -319,7 +330,7 @@
                     </div>
                 </div>
                 <pb n="279" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0060">
                     <head>368. - Adjudication. — Compensation de droit entre le prix d’adjudication
                         et la ■créance de l'adjudicataire. — Intérêts. — Taux. — Mise en
                         possession.</head>
@@ -346,7 +357,7 @@
                             Hassanein Badaoui Feîssal c. Hoirs Zacharia et Farîd Gibara).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0070">
                     <head>369. -Adjudication. —Demande principale en nullité. — Nullité des
                         procédures et des jugements ayant suivi une assignation irrégulière. — Dol.
                         — Fraude. — Etranger non domicilié en Egypte. — Domicile inconnu en Egypte.—
@@ -715,7 +726,7 @@
                             propriétaire originaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0080">
                     <head>370. - Adjudication. —- Demande principale en nullité. — Nullité des
                         procédures et des jugements ayant suivi une assignation irrégulière. —
                         Restitution in intégrant. — Revendication immobilière. — Jugement par défaut
@@ -1199,7 +1210,7 @@
                             préalables.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0090">
                     <head>371. - Adjudication. — Vente. — Action personnelle. — Préjudice causé aux
                         terrains vendus par le fait d’un tiers. — Vice apparent.</head>
                     <div type="summary">
@@ -1296,7 +1307,7 @@
                             jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0100">
                     <head>372. - Affectation hypothécaire. — Inscription cans une ciiconscription
                         antre que celle de la situation des biens. — Non responsabilité du
                         Greffe.</head>
@@ -1351,7 +1362,7 @@
                             précise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0110">
                     <head>373. - Cassation. — Contravention. — Principe de la personnalité des
                         peines. — Exception. — Commis. — Faux poids.</head>
                     <div type="summary">
@@ -1486,7 +1497,7 @@
                             faute de son préposé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0120">
                     <head>374. - Cassation. — Pourvoi. — A-men.de. — Désistement.</head>
                     <div type="summary">
                         <p>L’amende prévue par l’art. 154 C. Instr. Cr. ne peut pas être prononcée
@@ -1536,7 +1547,7 @@
                             citées).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0130">
                     <head>375. - Cassation. — Réquisitoire aux fins d’instruction. — Caractère
                         interruptif de la prescription pénale. — Nullité pour défaut de forme. —
                         Instruction à l’égard des étrangers. — Autorisation préalable. — Magistrat
@@ -1779,7 +1790,7 @@
                             prescription.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0140">
                     <head>376. - Chèque. — Mode de paiement.. — Banque. — Obligations du tiré. —
                         Paiement à un tiers au préjudice du porteur. — Faute. — Quasi-délit. —
                         Solidarité.</head>
@@ -1870,7 +1881,7 @@
                             retenu à leur charge.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0150">
                     <head>377. - Compagnies concessionnaires de services publics. — Détournement de
                         courant électrique. — Police d’abonnement. — Pésdiation.</head>
                     <div type="summary">
@@ -1968,7 +1979,7 @@
                             ne partira que de la huitaine du prononcé de son arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0160">
                     <head>378. - Contravention. — Démolition de travaux. — Expertise.</head>
                     <div type="summary">
                         <p>Le Tribunal des Contraventions ne saurait ordonner la démolition de
@@ -1981,7 +1992,7 @@
                             Juin 1918. — Mikhali Coniades c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0170">
                     <head>379. - Denrées alimentaires.—Falsification. — Altération. — Répression. —
                         Laiteries. — Conditions d’exploitation. — Etablissements incommodes,
                         insalubres ou dangereux. — Municipalité d'Alexandrie. — Roksas contenant des
@@ -2126,7 +2137,7 @@
                             terme</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0180">
                     <head>380. - Denrées alimentaires. — Lait. — Falsification. — Répression. —
                         Ordonnances et règlements de police. — Application par la Juridiction
                         Mixte.</head>
@@ -2152,7 +2163,7 @@
                             1918, ci-avant § 379.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0190">
                     <head>381. -Distribution. — Créancier omis. — Demande en nullité de la procédure
                         d’ordre. — Déchéance.</head>
                     <div type="summary">
@@ -2210,7 +2221,7 @@
                             vulneratam causant, remédiant « quaerere » ;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0200">
                     <head>382. - Distribution. — Documents nécessaires à l’appui d’une pioauction. —
                         Bordereau d’inscription hypothécaire. — Contrat de prêt. — Contredit. —
                         Forclusion.</head>
@@ -2231,7 +2242,7 @@
                             Keldani c. Crédit Foncier Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0210">
                     <head>383. - Distribution. — Faillite du débiteur exproprié. — Ses effets sur la
                         procédure. — Hypothèque consentie après la cessation des paiements. —
                         Tribunal Civil. — Compétence.</head>
@@ -2353,7 +2364,7 @@
                             résultat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0220">
                     <head>384. - Distribution. — Indemnité de remboursement. — Indivisibilité de
                         l’hypothèque. — Créancier à hypothèque générale. — Subrogation légale. —
                         Solidarité.</head>
@@ -2380,7 +2391,7 @@
                             Foncier Egyptien et Georges A. Eid c. Gabriel Bey Nassif et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0230">
                     <head>385. - Droits proportionnels. — Taxe. — Opposition. — Action en répé-tion
                         de P indû contre le Greffe. — Jugement d’expédient. — Transaction. —
                         Homologation.</head>
@@ -2493,7 +2504,7 @@
                             proportionnels en vertu de l’article 52 du Tarif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0240">
                     <head>386. - Droits proportionnels. — Vente simulée. — Jugement déclaratif de
                         nullité. — Caractère attributif de cette décision.</head>
                     <div type="summary">
@@ -2613,7 +2624,7 @@
                             opposition ou de réformation sur appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0250">
                     <head>387. - Effets de commerce. — Prescription .quinquennale. — Interruption. —
                         Instance non périmée. — Point de départ de la prescription.</head>
                     <div type="summary">
@@ -2631,7 +2642,7 @@
                             c. S. A. Mirés).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0260">
                     <head>388. - Frais de justice. — Assiette du privilège.</head>
                     <div type="summary">
                         <p>Par frais de justice, il ne faut pas entendre seulement ceux qui ont été
@@ -2687,7 +2698,7 @@
                             à cause de son hypothèque sur l’usine.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0270">
                     <head>389. - Impôt foncier. — Terres de culture transformées en terrains de
                         construction. — Dégrèvement.</head>
                     <div type="summary">
@@ -2811,7 +2822,7 @@
                             époque de spéculation désordonnée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0280">
                     <head>390. - Juge de service (Ordonnance du). — Recours. — Tribunal
                         compétent.</head>
                     <div type="summary">
@@ -2829,7 +2840,7 @@
                         <p>Note. — Le jugement cite un arrêt du 6 Janvier 1908, Bull., XX, 54.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0290">
                     <head>391. - Jugements. — Caractère déclaratif de droits préexistants. —
                         Novation. — Obligation de remise aa débiteur du titre exécutoire acquitté. —
                         Dépôt à la Caisse.</head>
@@ -2940,7 +2951,7 @@
                             avait procédé tout d’abord par la voie de la saisie-arrêt.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0300">
                     <head>392. - Libéralité. — Annulation. — Droits des créanciers.</head>
                     <div type="summary">
                         <p>Lorsqu’un compte courant a existé entre deux personnes pendant plusieurs
@@ -2995,7 +3006,7 @@
                             non fondé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0310">
                     <head>393. - Machines à vapeur. — Décret du 5 Novembre 1900. — Roksa. —
                         Nécessité d'une nouvelle autorisation pour les machines mêmes installées
                         avant 1900, en cas de transfert.</head>
@@ -3011,7 +3022,7 @@
                     </div>
                 </div>
                 <pb n="293" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0320">
                     <head>394. - Mariage. — Libéralités en vue du mariage. — Caractère
                         irrevocable.</head>
                     <div type="summary">
@@ -3029,7 +3040,7 @@
                             Georges Bogdadli c. Zachetto Cohen &amp; Brothers et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0330">
                     <head>395. -Meubles. — Briques. — Produits du sol. — Accessoires du fonds. —
                         Incorporation au sol.</head>
                     <div type="summary">
@@ -3049,7 +3060,7 @@
                             El Stribi c. Georges Kyriacopoulo).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0340">
                     <head>396. - Musulmans. — Majorité. — Calendrier arabe. — Meglis Hasby. —
                         Décision de continuation de la tutelle.</head>
                     <div type="summary">
@@ -3218,7 +3229,7 @@
                             Meglis Hasbys, imprimé en l’année 1917).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0350">
                     <head>397. - Nationalité. — Occupation militaire.</head>
                     <div type="summary">
                         <p>L’occupation militaire d’un territoire ne peut influer sur la nationalité
@@ -3310,7 +3321,7 @@
                             des autorités militaires qui président à cet état de siège.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0360">
                     <head>398. - Préemption. — Action commune par plusieurs voisins. — Condition
                         a’ad-missibilité.</head>
                     <div type="summary">
@@ -3382,7 +3393,7 @@
                             appel, quoique pour d’autres motifs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0370">
                     <head>399. - Préemption. — Délai d’option. — Mise en demeure. — Connaissance de
                         la vente. — Sommes à payer par le préempteur.</head>
                     <div type="summary">
@@ -3464,7 +3475,7 @@
                             des frais de voyage.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0380">
                     <head>400. - Prescription, quinquennale. — Conditions. — Nécessité d’une
                         possession dans les limites du titre.</head>
                     <div type="summary">
@@ -3481,7 +3492,7 @@
                             of Egypt c. The Val de Travers Asphalte Lie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0390">
                     <head>401. - Récusation. — Cour de Justice Spéciale pour l’examen d’une
                         récusation contre les magistrats de la Coût d’Appel. — Procédure. —
                         Plaidoiries. — Cause de récusation. — Connaissance du différend.</head>
@@ -3600,7 +3611,7 @@
                     </div>
                 </div>
                 <pb n="296" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0400">
                     <head>402. - Requête civile. — Omission de statuer. — Dot.</head>
                     <div type="summary">
                         <p>I. - Pour qu’il y ait ouverture à requête civile en vertu du § 1er de
@@ -3617,7 +3628,7 @@
                             Wechahy c. Banco di Roma).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0410">
                     <head>403. - Subrogation légale. — Concours de ciéanciers à hypothèque générale
                         et de créanciers à hypothèque spéciale.</head>
                     <div type="summary">
@@ -3646,7 +3657,7 @@
                         <p>V, 72-183.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0420">
                     <head>404. - Sujets ennemis. — Guerre. — Liquidation de Daïra. — Force majeure.
                         — Indemnité aux employés congédiés. — Préavis.</head>
                     <div type="summary">
@@ -3670,7 +3681,7 @@
                             Gaz., VI, 15548a et VII, 40-122.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0430">
                     <head>405. - Tiers-détenteur. — Rang de sa collocation dans la distribution du
                         prix de son immeuble.</head>
                     <div type="summary">
@@ -3789,7 +3800,7 @@
                             transcription de son acte de vente, pour les sommes suivantes. ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0440">
                     <head>406. - Transcription. — Publicité des droits immobiliers. — Bonne foi. —
                         Affectation hypothécaire. — Privilège du vendeur.</head>
                     <div type="summary">
@@ -3872,7 +3883,7 @@
                             hypothécaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0450">
                     <head>407. - Transport maritime. — Connaissement. — Clause dérogatoire de
                         compétence.— Transports successifs. —Avaries. — Pertes. — Responsabilité des
                         commissionnaires de transport. — Recours du dernier commissionnaire. — Fret.
@@ -4005,7 +4016,7 @@
                             d’avaries.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0460">
                     <head>408. -Vendeur. — Privilège. — Inopposabilité au co-acquéreur déchargé de
                         la solidarité et qui a payé plus que sa part.</head>
                     <div type="summary">
@@ -4071,7 +4082,7 @@
                             deficiamus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0470">
                     <head>409. - Vente. — Simulation. — Sous-acquéreurs de bonne foi.</head>
                     <div type="summary">
                         <p>La déclaration de simulation d’un acte d’achat ne réfléchit pas contre
@@ -4178,7 +4189,7 @@
                             acquis de bonne foi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-10-0480">
                     <head>410. - Wakf. — Bénéficiaire. — Déchéance. — Droit des créanciers des
                         bénéficiaires.</head>
                     <div type="summary">
@@ -4277,7 +4288,7 @@
                     11.11.18.</p>
                 <p>Khalil Mohamed Ismaïl (Syndic Demanget). Att. rés. expropr. 11.11.18.</p>
                 <p>A. et C. Goûtas et fils (Syndic Papasian). Résuit. Instr. pénale 11.11.18.</p>
-                <p>Mohamed Amin El Machali (Syndic Deman-get>. Redd. comptes 11.11.18.</p>
+                <p>Mohamed Amin El Machali (Syndic Deman-get&gt;. Redd. comptes 11.11.18.</p>
                 <p>Ramadan èff. Bouchdi Syndic Demanget). Contin. vérif. créanc. 11.11.18.</p>
                 <p>D. Douras (Syndic Papasian). Cont. vérif. créanc. et conc. 11.11.18.</p>
                 <p>Ibrahim Badaoui (Syndic Caralli). Att. rés. peurs, pénale 11.11.18.</p>

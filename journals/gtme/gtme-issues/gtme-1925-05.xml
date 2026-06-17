@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1925-05-10">May 10, 1925</date><lb/>
-                    <biblScope unit="volume">Vol. 15</biblScope><lb/>
-                    <biblScope unit="number">No. 175</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1925-05-10">May 10, 1925</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 15</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 175</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -172,7 +183,7 @@
             <pb n="128" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0010">
                     <head>206. - Execution. — Jugement; signification préalable à l'exécution
                         forcée. — Exécution par suite d'instance; renvoi ordonné par jugement
                         contradictoire; signification inutile. — Défense d'exécution; décision
@@ -310,7 +321,7 @@
                             s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0020">
                     <head>207. - Exécution provisoire. — Cas où elle peut être ordonnée;
                         reconnaissance-de dette; conditions. — Impossibilité d'ordonner d'office
                         l'exécution provisoire.</head>
@@ -348,7 +359,7 @@
                     </div>
                 </div>
                 <pb n="129" rendition="GAZETTE DES TRIBUNAUX MIXTES D'EGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0030">
                     <head>208. - Exécution provisoire. — Caution; dépôt du produit de l'exécution à
                         la Caisse des Fonds Judiciaires; montant appartenant au créancier
                         poursuivant; conséquences. — Faillite; concordats; nullité ..des art. 235 et
@@ -527,7 +538,7 @@
                             des parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0040">
                     <head>209. - Exécution provisoire. — Défense d'exécuter; limites d'appréciation
                         du juge d'appel.</head>
                     <div type="summary">
@@ -584,7 +595,7 @@
                             l’un des cas prévus par les articles 448 et suivants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0050">
                     <head>210. - Exécution provisoire. — Défense d'exécuter; limites d'appréciation
                         du fuge d'appel. — Séquestre judiciaire; jugement ordonnant la consignation
                         des biens occupés par un locataire; exécution provisoire justifiée.</head>
@@ -640,7 +651,7 @@
                             présent recours.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0060">
                     <head>211. - Execution provisoire. — Déclamation de dommages-intérêts pour
                         immobilisation à la Caisse des fonds judiciaires d'une somme non due;
                         instance principale nouvelle; chose jugée non opposa-, ble. — Exécution
@@ -741,7 +752,7 @@
                             d'intérêts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0070">
                     <head>212. - Exécution. — Recours en garantie; condamnation prononcée contre le
                         ■garant au profit de la partie condamnée; ■cession de cette condamnation au
                         créancier; régularité.</head>
@@ -825,7 +836,7 @@
                         <p>131</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0080">
                     <head>213. - Juge de service.' — Ordonnancé de saisie-conservatoire; recours en
                         rétractation; irrecevabilité de la part du propriétaire des objets saisis,
                         autre que le débiteur.</head>
@@ -885,7 +896,7 @@
                             439 et l’action en revendication de l’art. 542 Code Pr. Mixte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0090">
                     <head>214. - Juge de service. — Ordonnancé de saisie-conservatoire; recours en
                         rétrac tation; partie intéressée; intervention dii <pb n="132"
                             rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/> détenteur des objets
@@ -958,7 +969,7 @@
                             définitive...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0100">
                     <head>215. - Juge de service. — Ordonnance de saisie-conservatoire; recours en
                         rétractation; recevabilité nonobstant une assignation au fond.</head>
                     <div type="summary">
@@ -976,7 +987,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0110">
                     <head>216. - Juge de service. — Ordonnance de saisie-conservatoire; recours en
                         rétractation; recevabilité nonobstant une assignation au fond.</head>
                     <div type="summary">
@@ -1001,8 +1012,8 @@
                             ordonnance;</p>
                         <p>Sur l'irrecevabilité:</p>
                         <p>Attendu que le saisissant, se basant sur l’arrêt du 23 Avril 1919, excipe
-                            de l’irrecevabilité de ce recours parce qu'il aurait dp -’> assigné les
-                            opposants en validité de la saisie-arrêt litigieuse;</p>
+                            de l’irrecevabilité de ce recours parce qu'il aurait dp -’&gt; assigné
+                            les opposants en validité de la saisie-arrêt litigieuse;</p>
                         <p>Attendu qu’en suivant le saisissant dans ce moyen, il y a lieu de
                             retenir, qu’en l’espèce, le recours a été présenté avant que la
                             dénonciation eh validité des saisies-arrêts n’ait été portée à la
@@ -1048,7 +1059,7 @@
                             application des articles-135 et 474 du Code de Procédure...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0120">
                     <head>217. - Juge de service. — Ordonnance de saisie-conservatoire; recours en
                         rétractation; recevabilité nonobstant une assignation au fond; retard;
                         défaut d'urgence.</head>
@@ -1073,7 +1084,7 @@
                             fixée et renvoyée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0130">
                     <head>218. - Juge de service. — Recours devant le Tribunal; Tribunal compétent;
                         Tribunal Sommaire. — Ordonnances du Juge de Service; difficultés
                         d'exécution; incompétence du Tribunal Sommaire.</head>
@@ -1097,7 +1108,7 @@
                             Chcboub o. Dame Hélène Diamantopoulo).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0140">
                     <head>219. - Référé. — Compétence; appréciation provisoire des titres des
                         parties. —‘ .Mandat de gestion; révocabilité. — Mandataire révoqué; biens;
                         détention indue .■des biens du mandant; caractère d'occupant sans titre;
@@ -1210,7 +1221,7 @@
                             devoir au juge des Référés de l’ordonner.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0150">
                     <head>220. - Référé. — Compétence; clause conférant compétence au Juge des
                         Béférés pour ordonner la mise en possession, comme séquestre, du vendeur
                         impayé; effets; urgence nécessaire.</head>
@@ -1246,8 +1257,8 @@
                             serait compétent à ordonner une telle mesure sans tenir compte s’il
                             existe d’urgence;</p>
                         <p>Que le seul fait que les dits termes restent impayés ne saurait
-                            constituer une telle urgence, vu que les demandeurs n’ont pas ex> pliqué
-                            pourquoi la procédure normale d’exécution n’a pas été utilement
+                            constituer une telle urgence, vu que les demandeurs n’ont pas ex&gt;
+                            pliqué pourquoi la procédure normale d’exécution n’a pas été utilement
                             intentée;</p>
                         <p>Attendu que le consentement des défendeurs ne suffirait pas pour rendre
                             le Juge des Référés compétent;</p>
@@ -1259,7 +1270,7 @@
                         <p>Que cet acte est transcrit le 29 Septembre 1920.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0160">
                     <head>221. - Référé. ■— Compétence; clause conférant compétence au Juge des
                         Béférés pour ordonner la remise en possession du vendeur en cas de
                         résolution dé la vente par le fait de l'acheteur. — Vente; non paiement du
@@ -1508,7 +1519,7 @@
                             Antoniadis. ce qui rend inutile l’examen de sa demande subsidiaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0170">
                     <head>222. - Référé. — Compétence; clause conférant compétence au Juge des
                         Référés pour ordonner l’expulsion d’un locataire pour défaut de paiement de
                         sommes autres que des loyers; inopérance en cas de défaut d'urgence;
@@ -1643,7 +1654,7 @@
                         <p>Qu’il y a lieu en conséquence d’infirmer l’ordonnance dont est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0180">
                     <head>223. - Référé. — Compétence en matière de délivrance de grosses d'actes
                         authentiques.</head>
                     <div type="summary">
@@ -1705,7 +1716,7 @@
                             reconnu.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0190">
                     <head>224. - Référé. — Compétence en matière de difficulté d'exécution. —
                         Impossibilité matérielle d'exécution; indigence; inopérance. — Décisions par
                         défaut; péremption faute d'exécution; conséquences; connaissance de la
@@ -1855,7 +1866,7 @@
                             sensi dell’art. 022 C. Pr.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0200">
                     <head>225. - Référé. — Compétence en matière de difficultés d'exécution, en cas
                         de ■ conflit ou concours entre créanciers saisissants. — Urgence; mesures
                         conservatoires. — Saisie-arrêt; validation; portée de la décision
@@ -2009,7 +2020,7 @@
                             l’espèce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0210">
                     <head>226. - Référé. — Compétence; exception ■de défaut de juridiction
                         impliquant examen d'une question de fond. — Péril en la demeure;
                         appréciation; mesures requises aux frais, risques et périls du demandeur. —
@@ -2131,7 +2142,7 @@
                             accorder une mesure ayant ce seul objet.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0220">
                     <head>227. - Référé. ■— Compétence; saisie-arrêt pratiquée entre les mains de
                         débiteurs d’un tiers; recours du tiers lésé.— Succession musulmane;
                         caractère de tiers des héritiers à l'égard des créanciers de la succession.
@@ -2239,7 +2250,7 @@
                         <p>1924.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0230">
                     <head>228. - Réfère. — Compétence; saisie-exécution; cas où il y a lieu à
                         sursis. — Concordat; créancier reconnu postérieurement; droits.</head>
                     <div type="summary">
@@ -2349,7 +2360,7 @@
                             réserve les dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0240">
                     <head>229. - Référé- — Défense de payer signifiée par le cédant au débiteur
                         cédé; contestation de fond entre cédant et cessionnaire; incompétence du
                         Juge des Déférés pour ordonner le paiement.</head>
@@ -2429,7 +2440,7 @@
                             remplies.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0250">
                     <head>230. - Référé. — Difficulté d'exécution; décision rejetant une
                         revendication sans ordonner une mise en possession. — Intervention; limites;
                         effets juridiques.</head>
@@ -2515,7 +2526,7 @@
                             statuer sur l’in-cident. tel qu’il en a été. saisi. '</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0260">
                     <head>231. - Réfère. — Difficultés d'exécution,è jugement d'adjudication;
                         opposition par un détenteur; provision due au titre.</head>
                     <div type="summary">
@@ -2576,7 +2587,7 @@
                             l’opposition do l’intimé...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0270">
                     <head>232. - Référé. —- Litispendance; conditions; exception soulevée en siège
                         de référés; inopérance; déclaration en référé de ne pas insister devant le
                         juge du fond, n'équivalant pas à une renonciation de l'instance au fond. —
@@ -2676,7 +2687,7 @@
                             en cause.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0280">
                     <head>233. - Référé. — Urgence; existence d’une instance au fond. — Expertise
                         ordonnée en Référé; supplément d'expertise possible; nouvelle expertise non
                         justifiée par un contre-rapport extrajudiciaire.</head>
@@ -2773,7 +2784,7 @@
                             déjà été exécutée par le premier expert.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0290">
                     <head>234. - Saisie-arrêt. — Conditions: exigibilité. — Créance à terme;
                         déchéance du terme non demandée; saisie-inadmissible; responsabilité du
                         créancier. — Terme; diminution des garanties par le débiteur; portée de
@@ -2895,7 +2906,7 @@
                             L.E. 5.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0300">
                     <head>235. - Saisie-arrêt-conservatoire. — Exploit de dénonciation et
                         d'assignation en validité; copie du titre inutile.</head>
                     <div type="summary">
@@ -2914,7 +2925,7 @@
                             Chamass c. Giuseppe Ricci).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0310">
                     <head>236. - Saisie-arrêt-conservatoire. — Instance en validation de
                         saisie-arrêt; vidé des questions se rattachant à la déclaration du
                         tiers-saisi; légalité de la procédure en cas d'assentiment des
@@ -2930,7 +2941,7 @@
                             Assaf o. Ahmed Salem El Garban et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0320">
                     <head>237. - Saisie-arrêt-conservatoire. — Signification en vertu du dispositif
                         d'un jugement; validité. — Signification en vertu d'un jugement susceptible
                         d'appel et non signifié; validité.</head>
@@ -2995,7 +3006,7 @@
                             conversion en saisie-exécution jusqu’au vidé de l’appel en cours.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0330">
                     <head>238. - Saisie-arrêt-conservatoire. — Signification en vertu d'un jugement
                         susceptible d'appel et non exécutoire par provision; validité. — Dépôt
                         effectué à la Caisse des Fonds Judiciaires en exécution d'une
@@ -3072,7 +3083,7 @@
                             Tribunal Mixte de Commerce d’Alexandrie, aux fins d’entendre dire pour
                             droit que le montant du dépôt effectué le 3 Août 1922 par The Lancashire
                             Insurance Co. et The Insurance Co. fait partie des activités de la
-                            faillite > t que partant lui, syndic, est autorisé à en effectuer le
+                            faillite &gt; t que partant lui, syndic, est autorisé à en effectuer le
                             retrait;</p>
                         <p>Attendu que la demande du Sieur G. Za-charopoulo ès-uualité avait été
                             accueillie par jugement du 24 Décembre 1923, ct que de ce jugement le
@@ -3128,7 +3139,7 @@
                             attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0340">
                     <head>239. - Saisie-arrêt. — Production dans une distribution, valant saisie. —
                         Validation; attribution des deniers au créàncier saisissant; conditions;
                         concours de nouvelles saisies. — Prescription; procès-verbal de suspension
@@ -3294,7 +3305,7 @@
                             engagé avant d’arriver à son but.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0350">
                     <head>240. - Saisie-arrêt. — Provisions alimentaires; insaisissabilité.</head>
                     <div type="summary">
                         <p>Les provisions alimentaires, allouées temporairement par les Tribunaux
@@ -3340,7 +3351,7 @@
                             fondé...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0360">
                     <head>241. - Saisie-arrêt. — Responsabilité du saisissant; mauvaise foi ou
                         erreur grossière; refus injustifié de mainlevée; erreur excusable.</head>
                     <div type="summary">
@@ -3463,7 +3474,7 @@
                             au dol.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0370">
                     <head>242. - Saisie-arrêt. — Tiers-saisi; déclaration muette sur ses rapports
                         d'affaires avec le saisi; caractère suspect. — Défaut de production de
                         pièces justificatives; condamnation du tiers-saisi basée sur le dol. —
@@ -3604,7 +3615,7 @@
                             appel, et de dire la demande de l’appelante bien fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0380">
                     <head>243. - Saisie-arrêt. — Tiers-saisi; re~ tard dans la déclaration;
                         responsabilité; étendue; action entre parties de même nationalité, au sujet
                         d'une saisie-arrêt mixte; Juridiction Mixte; compétence. —-Intervention;
@@ -3673,7 +3684,7 @@
                         <p>Que partant il y a lieu de la confirmer. 1</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0390">
                     <head>244. - Saisie brandon. — Responsabilité du saisissant; faute du débiteur
                         saisi; abstention réciproque de prendre des mesures conservatoires pour la
                         sauvegarde des récoltes saisies; partage des responsabilités.</head>
@@ -3793,7 +3804,7 @@
                             Abdel Latif la somme de L.E. 75 à titre de dommages-intérêts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0400">
                     <head>245. - Saisie brandon. — Responsabilité du saisissant; faute du débiteur
                         saisi; saisie sur des récoltes n'appartenant pas au débiteur; retard dans la
                         mainlevée; faute partagée avec le propriétaire <pb n="148"
@@ -3816,7 +3827,7 @@
                             1925.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0410">
                     <head>246. - Saisie foraine. — Débiteur sans domicile fixe en Egypte;
                         imprésario. \</head>
                     <div type="summary">
@@ -3851,7 +3862,7 @@
                             a en Egypte un domicile fixe au sens de l’art. 764 C. Pr. Civ....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0420">
                     <head>247. - Saisie mobilière. — Droits du saisissant; aliénations consenties
                         par le débiteur postérieurement à la saisie; validité.</head>
                     <div type="summary">
@@ -3888,7 +3899,7 @@
                             meubles...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0430">
                     <head>248. - Saisie mobilière. — Revendication; désistement d’instance;
                         inadmissibilité.</head>
                     <div type="summary">
@@ -3935,7 +3946,7 @@
                         <p>Qu’il échet donc de le débouter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0440">
                     <head>249. - Saisie mobilière. — Revendication; femme hellène. — Loi mucienne;
                         biens paraphernaux; propriété; preuve.</head>
                     <div type="summary">
@@ -3956,7 +3967,7 @@
                             Shalom &amp; Co. c. Marguerite Foun-doulakis et Ct.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-05-0450">
                     <head>250. - Saisie mobilière. — Revendication; -femme musulmane; propriété des
                         meubles meublant le domicile conjugal; usage; inventaire dépourvu de date
                         certaine; preuve par témoins.</head>
@@ -3977,7 +3988,7 @@
                     </div>
                     <div type="litigants">
                         <p>(Cour d’Appel, 3me Ch., Prés. M. M. Hansson, 8 Mai 1923. — Dame Aziza
-                            Hanem c. Eïd Israël et autre). ></p>
+                            Hanem c. Eïd Israël et autre). &gt;</p>
                     </div>
                 </div>
             </div>

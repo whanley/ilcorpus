@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0022-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1932-06-10">June 10, 1932</date><lb/>
-                    <biblScope unit="volume">Vol. 22</biblScope><lb/>
-                    <biblScope unit="number">No. 260</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1932-06-10">June 10, 1932</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 22</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 260</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -62,12 +73,12 @@
                 <p>Tél. 409</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée bous le Patronage du Conseil de l'Ordre des Avocats d’Egypte, Fondateurs
-                    > M« MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour Directeur: M* MAXIME
+                    &gt; M« MAXIME PUPIKOFER et LÉON PANGALO, Avocats à la Cour Directeur: M* MAXIME
                     PUVIKOFER, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d’Rdministration :</p>
                 <p>Ij. PANGALO et R. SCHEMEIL (Directeurs au Caire) M” E. DEGTAUDE et LUCIEN BARDA,
                     (Secrétaires de la rédaction).</p>
-                <p>M> A. FADEL (Directeur à Mansourah). M* F. BRAUN (Secrétaire à Paris).</p>
+                <p>M&gt; A. FADEL (Directeur à Mansourah). M* F. BRAUN (Secrétaire à Paris).</p>
                 <p>Administrateur-Gérant : Max Buccianti.</p>
                 <p>Pour la Publicité:</p>
                 <p>S’adresser aux Bureaux du «Journal» (Concessionnaire: J. A. DegiardéJ 3,Rue de la
@@ -223,7 +234,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0010">
                     <head>273. - Action paulienne. — Action en simulation; demande d'annulation
                         alternative; acte passé en fraude des droits des créanciers et acte simulé;
                         ordre logique de l'examen de la demande.</head>
@@ -257,7 +268,7 @@
                             sera prouvé par les considérations ci-après...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0020">
                     <head>274. - Action paulienne. — Action en simulation; demande formée par un
                         créancier muni d'une créance non définitivement reconnue; sursis à la
                         demande; intervention d'un autre, créancier; effets.</head>
@@ -347,7 +358,7 @@
                             _ et qui devait aboutir au sursis doit être rejeté.;.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0030">
                     <head>275 - Obligations. — Astreinte; caractère et portée en droit mixte; mesure
                         dans laquelle elle doit être accordée. — Demande reconventionnelle;
                         recevabilité; demandes pouvant être formulées en voie reconventionnelle;
@@ -494,7 +505,7 @@
                         <p>Note. — I. - Rappr. ci-après § 276, l’arrêt du 24 Mars 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0040">
                     <head>276. - Obligations. — Astreinte; caractère et portée; liquidation
                         définitive de l'astreinte par instance nouvelle; faculté appartenant au
                         bénéficiaire de l'astreinte et à celui contre lequel elle est prononcée. —
@@ -845,7 +856,7 @@
                         <p>Note. — I. - Rappr. ci-avant § 275 l’arrêt du 31 Décembre 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0050">
                     <head>277. - Obligations. — Cachet; validité des actes cachetés; emploi du
                         cachet par une tierce personne; preuve de l'apposition par le propriétaire
                         ou du consentement donné par celui-ci; moyens de preuve admissibles.</head>
@@ -894,7 +905,7 @@
                             L.E. 700, mon</p>
                         <p>tant d’une reconnaissance de dette datée du 1er Octobre 1923 avec
                             constitution de gage immobilier, reconnaissance libellée « notre dette
-                            pour cause légitime ->;</p>
+                            pour cause légitime -&gt;;</p>
                         <p>Attendu que le titre susvisé portait la signature de Ahmed Mohamed El
                             Baragjiil qui. ayant été d’abord poursuivi en justice seul, fut
                             définitivement condamné à en payer le montant par arrêt de cette Cour
@@ -1164,7 +1175,7 @@
                             cachets.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0060">
                     <head>278. - Obligations. — Capacité; mineur non valablement représenté dans une
                         instance; inopposabilité du jugement intervenu. — Chose jugée; effets;
                         limites à l'égard des personnes non légalement représentées à une instance.
@@ -1309,12 +1320,12 @@
                             évident pour les intérêts des mineurs, celui de ne pas
                             être-«■onvenablement défendus dans le procès;</p>
                         <p>Attendu, au fond, que, en ce qui touche ces terrains de Kafr Bouline et
-                            El Zaafarane, la> seule preuve que la Maison Casulli et les-créanciers
-                            de Issaoui qui se rallient à ses conclusions, peuvent produire pour
-                            établir la propriété de leur débiteur sur 22 feddans-et 4 Lirais,
-                            résulte du dire au cahier descharges dans lequel le susdit débiteur a
-                            déclaré que les terrains laissés par sa femme dans les dits villages
-                            sont de 108 feddans,. 3 Lirais et 14 sahmes;</p>
+                            El Zaafarane, la&gt; seule preuve que la Maison Casulli et
+                            les-créanciers de Issaoui qui se rallient à ses conclusions, peuvent
+                            produire pour établir la propriété de leur débiteur sur 22 feddans-et 4
+                            Lirais, résulte du dire au cahier descharges dans lequel le susdit
+                            débiteur a déclaré que les terrains laissés par sa femme dans les dits
+                            villages sont de 108 feddans,. 3 Lirais et 14 sahmes;</p>
                         <p>Attendu que, en droit, une pareille déclaration faite par une personne
                             dépourvue de-qualité pour représenter les mineurs ne saurait être
                             invoquée contre ces derniers, comme un aveu judiciaire;</p>
@@ -1365,7 +1376,7 @@
                             Zohra plaident en faveur de sa demande...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0070">
                     <head>279. - Obligations. — Cause immorale ou illicite; dette de jeu; billet
                         souscrit en règlement d'un prêt consenti par la caisse d'un cercle en jetons
                         et en espèces: cas où l'exception de jeu ne peut être opposée.</head>
@@ -1406,7 +1417,7 @@
                         <p>Note. — Comp. ci-après § 280 le jug. Alex. 17 Mai 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0080">
                     <head>280. - Obligations.— Cause immorale ou illicite; dette de jeu; prêt
                         consenti à l'occasion du jeu; avances faites à un joueur par la caisse d'un
                         cercle ou par un garçon de cercle en son nom personnel; caractère immoral;
@@ -1688,7 +1699,7 @@
                     </div>
                 </div>
                 <pb n="251" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0090">
                     <head>281. - Obligations. — Cause; inexacte tude ne viciant pas l'obligation;
                         cause fausse; charge de la preuve de l'existence de la cause véritable.
                         —Obligation; cause exprimée dans une convention; pouvoir d'appréciation du
@@ -1740,7 +1751,7 @@
                             principale au rejet de la demande, il s’est limité en voie subsidiaire à
                             conclure pour la comparution personnelle des parties « avant recours à
                             la procédure de vérification d’écriture ».</p>
-                        <p>Par son jugement du 1er Mars 1928, le Tribunal, tout en considérant ->
+                        <p>Par son jugement du 1er Mars 1928, le Tribunal, tout en considérant -&gt;
                             très anor</p>
                         <p>males » les conditions qui avaient accompagné la vente litigieuse et »
                             suspecte la véritable nature de l’opération » a estimé « que, toutefois,
@@ -1888,7 +1899,7 @@
                             l’inscription de faux ou avant d’en connaître.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0100">
                     <head>282. - Obligations. — Cautionnement; bénéfice de discussion; récoltes
                         appartenant au débiteur garanti; cas où elles peuvent permettre au garant de
                         se prévaloir du bénéfice de discussion. — Caution simple; bénéfice de
@@ -1986,7 +1997,7 @@
                             son échéance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0110">
                     <head>283. - Obligations. — Cautionne me ut; caractère civil; cas où il a un
                         caractère commercial; caution poursuivie séparément; compétence du Tribunal
                         Civil bien , que l'obligation du débiteur principal soit de nature
@@ -2010,7 +2021,7 @@
                             Ghandour c. Raison Sociale Osmo et Tazartez.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0120">
                     <head>284. - Obligations. — Cautionnement; cause; obligation non conditionnelle;
                         garantie donnée à raison des avantages envisagés par le garant; défaut
                         d'influence sur la validité de l’engagement.</head>
@@ -2090,7 +2101,7 @@
                         <p>Qu’il y a donc lieu de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0130">
                     <head>285. - Obligations. — Cautionnement; droits dont peut se prévaloir le
                         garant. — Vente immobilière; obligation de garantie du vendeur; extinction
                         en cas de prescription acquisitive par l'acquéreur.</head>
@@ -2112,7 +2123,7 @@
                             XXXVI, 390.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0140">
                     <head>286. - Obligations. — Cautionnement; remise faite à l'une des cautions;
                         effets; décharge des autres cautions à due concurrence. — Comptes;
                         reconnaissance; effets; redressement de l'imputation des paiements.</head>
@@ -2189,7 +2200,7 @@
                             l’arrêt rapporté, et qui avait statué en sens contraire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0150">
                     <head>287. - Obligations. — Cautionnement; situation du garant solidaire
                         vis-à-vis du débiteur principal; clause réservant le droit au porteur d'un
                         effet de réclamer paiement au garant avant l'échéance; ino-pérance; cas
@@ -2301,7 +2312,7 @@
                             la Cour alloue à l’appelant la somme de L.E. 25.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0160">
                     <head>288. - Obligations. — Cautionnement; solidarité entre plusieurs débiteurs
                         d'un même prêt; répartition du prêt entre les codébiteurs; volonté
                         expressément énoncée par les débiteurs d'être traités vis-à-vis du créancier
@@ -2498,13 +2509,13 @@
                         <p>1. ) que l’article 623 du Code Civil déchargeant la caution au cas où le
                             créancier aurait laissé perdre par sa faute les autres, garanties de la
                             créance jusqu’à concurrence de ces garanties, s’applique, il est vrai, à
-                            toute caution même solidaire parce que >&lt; le cautionnement, quelles
-                            que soient ses modalités, impose au créancier l’obligation de conserver
-                            ses garanties à la caution » mais ne s’applique pas au profit des
-                            codébiteurs-solidaires; que du reste cet article, ainsi que l’indiquent
-                            clairement les termes dans lesquels il est conçu, suppose la perte d’une
-                            garantie spéciale telle qu’un gage ou une hypothèque, ce qui n’est pas
-                            le cas de l’espèce;</p>
+                            toute caution même solidaire parce que &gt;&lt; le cautionnement,
+                            quelles que soient ses modalités, impose au créancier l’obligation de
+                            conserver ses garanties à la caution » mais ne s’applique pas au profit
+                            des codébiteurs-solidaires; que du reste cet article, ainsi que
+                            l’indiquent clairement les termes dans lesquels il est conçu, suppose la
+                            perte d’une garantie spéciale telle qu’un gage ou une hypothèque, ce qui
+                            n’est pas le cas de l’espèce;</p>
                         <p>2. ) Que Veillon et ses Hoirs ne sauraient se réclamer d’une faute des
                             Consorts Stern tirée de ce que ceux-ci n’auraient pas déclaré leur
                             créance contre Trinklein au Séquestre Officiel, car à supposer que les
@@ -2574,7 +2585,7 @@
                             leur appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0170">
                     <head>289. - Obligations. — Consentement; vices; dol; erreur; distinction;
                         conditions. — Intervention; retrait de l'intervention; renonciation au
                         retrait de l'intervention par le dépôt de conclusions. — Preuves; enquête et
@@ -2825,7 +2836,7 @@
                             rejeter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0180">
                     <head>290. - Obligations. — Conventions; interprétation; éléments
                         d'appréciation. — Location d'un terrain; clause stipulant indemnité au
                         profit du locataire, en cas de résiliation par suite de la vente de la
@@ -2861,7 +2872,7 @@
                             Cordahi et autres c. Raison Sociale Hewat, Bridson and Hargreaves.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0190">
                     <head>291. - Obligations. — Conventions; interprétation; recherche de
                         l'intention des parties dans l'exécution par elles donnée au contrat; clause
                         stipulant la déchéance du bénéfice d'une convention en cas de non paiement;
@@ -2960,7 +2971,7 @@
                             résolutoires expresses ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0200">
                     <head>292. - Obligations. — Conventions; interprétation; recherche de
                         l'intention des parties dans l'exécution par elles donnée au contrat; clause
                         stipulant l'e.rigi- ' bilité de plein droit du solde du prix en cas de non
@@ -3039,7 +3050,7 @@
                             ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0210">
                     <head>293. - Obligations. — Conventions; stipulation dans le contrat d'une
                         faculté de résiliation à tout moment et sans préavis; défaut de nécessité
                         d'un motif grave; dédit ne constituant pas un abus de droit.</head>
@@ -3108,7 +3119,7 @@
                             intimés comme mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0220">
                     <head>294. - Obligations. — Délai de grâce; application aux seuls débiteurs
                         malheureux et de bonne foi.</head>
                     <div type="summary">
@@ -3125,7 +3136,7 @@
                             Co.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0230">
                     <head>295. - Obligations. — Engagement unilatéral ayant pour objet la
                         stipulation d’une vente; titre ne constituant pas une vente ni une promesse
                         de. vente; reçu du versement ayant pour cause, une vente à consentir
@@ -3214,7 +3225,7 @@
                             qui s’est vérifiée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0240">
                     <head>296. - Obligations. — Exécution; terme non stipulé; obligation exigible
                         immédiat tement. — Délégation; rapports entre déléguant et délégué,
                         étrangers au délégataire.</head>
@@ -3237,7 +3248,7 @@
                     </div>
                 </div>
                 <pb n="260" rendition="Gazette des t ribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0250">
                     <head>297. - Obligations. — Novation; changement de créancier et de cause; cals1
                         d'inexistence, de nullité ou d'annulabilité de la première obligation; sort
                         de l'obligation nouvelle; exception dans le cas où le débiteur s’engage en
@@ -3334,7 +3345,7 @@
                             faire droit à l’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0260">
                     <head>298. - Obligations. — Novation; changement de débiteur; nécessité de
                         l'acceptation par le créancier de décharger le débiteur originaire.</head>
                     <div type="summary">
@@ -3347,7 +3358,7 @@
                             Chibli Hussein Amine c. Alexandre Boustani.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0270">
                     <head>299. - Obligations. — Novation; changement de débiteur; souscription par
                         le garant d’un effet en renouvellement; engagement du créancier à une
                         obligation nouvelle; novation; effet. — Novation; substitution du débiteur
@@ -3446,7 +3457,7 @@
                             a donc lieu de confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0280">
                     <head>300. - Obligations. — Novation; débiteur cédé se portant débiteur, direct
                         envers le cessionnaire; extinction de la garantie de l'obligation
                         principale.</head>
@@ -3460,7 +3471,7 @@
                             et autre c. D. J. Ca-ralli èsq</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0290">
                     <head>301. - Obligations. — Novation; souscription de billets à ordre au profit
                         du créancier par un tiers; délégation imparfaite; absence d'intention de
                         nover. — Délégation; réclamation au délégué par action principale; droit
@@ -3537,7 +3548,7 @@
                             ordre signés par le délégué seul.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0300">
                     <head>302. - Obligations. — Novation; souscription de billets à ordre
                         n'emportant pas novation de la créance qu'ils ont pour cause.</head>
                     <div type="summary">
@@ -3566,7 +3577,7 @@
                             confirmer le jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0310">
                     <head>303. - Obligations. — Reconnaissance de dette sous forme de billet à ordre
                         ne constituant, pas effet de commerce; endossement; cas où il ne peut valoir
                         cession de créance; exceptions opposables par le souscripteur au dernier
@@ -3687,7 +3698,7 @@
                             l’intimée de sa demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0320">
                     <head>304. - Obligations. — Reconnaissance de dette sous forme de billet à ordre
                         ne constituant pas effet de commerce; endossement; f ictivité opposable au
                         porteur; obligation du cessionnaire d’établir la cause réelle de l'effet. —
@@ -3780,7 +3791,7 @@
                             confirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0330">
                     <head>305. - Obligations. — Stipulation pour autrui; règles applicables en droit
                         mixte; cas où elle revêt la forme d'une délégation imparfaite; faculté de
                         révocation; révocation indirecte résultant de la résolution du contrat
@@ -3808,7 +3819,7 @@
                             Chawki bey El Khatib èsq. c. Osman bey Amin Abou Zeid et- autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0340">
                     <head>306. - Obligations. — Transaction en cours d'instance entre parties
                         maîtresses de leurs droits; homologation; inadmissibilité.</head>
                     <div type="summary">
@@ -3848,7 +3859,7 @@
                             transaction, pour conférer à celle-ci force exécutoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0350">
                     <head>307. - Obligations. — Usure; preuve; caractère usuraire d'un prêt rendu
                         vraisemblable par des présomptions graves; admissibilité de la preuve par
                         témoins ou par présomptions; fardeau de la preuve; preuve non rapportée par
@@ -3871,7 +3882,7 @@
                             Ibrahim Mohamed Foda et autre c. Ahmed El Emari èsq. et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0360">
                     <head>308. - Obligations. — Usure; preuve; demande d'enquête formulée sans
                         articulation des faits; exception invoquée pour la première fois en degré
                         d'appel; inadmissibilité.</head>
@@ -3890,7 +3901,7 @@
                             ïïanna Sorial et autres c. Pavlo Giovanni Triay.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0370">
                     <head>309. - Obligations. — Usure; preuve; production de livres; cas où elle ne
                         peut être ordonnée.</head>
                     <div type="summary">
@@ -3940,7 +3951,7 @@
                         <p>Que partant la décision des premiers juges est à confirmer.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0380">
                     <head>310. - Obligations. — Usure; preuve; production de livres; présomptions
                         rendant vraisemblable l'existence d'intérêts usuraires.</head>
                     <div type="summary">
@@ -3991,7 +4002,7 @@
                             production par eux requise des registres de Serag.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0390">
                     <head>311. - Prescription libératoire. — Interruption; actes interruptifs autres
                         que ceux indiqués, à l'article 111 C. Civ.; effet interruptif d'une
                         procédure d'expropriation; créance consacrée par jugement ayant fait l'obiel
@@ -4163,7 +4174,7 @@
                             qu’il appartient dè statuer sur la validité du dit commandement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0400">
                     <head>312. - Prescription libératoire. — Suspension; incapacité d'agir; guerre;
                         personnes résidant en territoire ennemi; durée de leur empêchement légal;
                         Proclamation No. 12 du 25 Janvier. 1915; Bill d'indemnité du 5 Juillet
@@ -4271,7 +4282,7 @@
                             lui seul suspendre légalement le cours de la prescription.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0410">
                     <head>313. - Prescription libératoire. — Vente immobilière; action en garantie
                         pour éviction, en cas de reconnaissance judiciaire d'un droit de hekr; point
                         de départ; prescription extensive de l’action; suspension; pourparlers
@@ -4374,7 +4385,7 @@
                             d'une renonciation volontaire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0420">
                     <head>314. - Preuve. — Actes authentiques; force probante; portée; limites. —
                         Preuve; cas où la preuve par témoins ou par présomptions est admissible;
                         impossibilité morale de se procurer un écrit.</head>
@@ -4484,7 +4495,7 @@
                             aux fins de la preuve, que l’interrogatoire déféré à Comninos.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0430">
                     <head>315. - Preuve. — Actes d'huissier; force probante; faculté pour les
                         Tribunaux d'apprécier librement la foi due à un procès-verbal
                         d'huissier.</head>
@@ -4501,7 +4512,7 @@
                             autre</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0440">
                     <head>316. - Preuve. — Conventions; inopposabilité aux tiers à defaut de date
                         certaine; exception à celte règle lorsqu'il s'agit d'établir une situation
                         de fait.</head>
@@ -4560,7 +4571,7 @@
                             l’accident.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0450">
                     <head>317. - Preuve. — Empreinte digitale; force probante d'identité.</head>
                     <div type="summary">
                         <p>L’empreinte digitale apparaît comme un signe distinctif de l’identité des
@@ -4608,7 +4619,7 @@
                             valeur...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0460">
                     <head>318. - Preuve. — Libération; remise du litre au débiteur; caractère de
                         présomption légale de paiement; admissibilité de la preuve de la possession
                         du titre par le débiteur pour un autre motif; preuve par présomption;
@@ -4674,7 +4685,7 @@
                             du 4 Juin 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1932-06-0470">
                     <head>319. - Preuve. — Production des livres de commerce; pouvoir
                         discrétionnaire du juge; doute existant sur la qualité de commerçant de
                         celui dont on demande la. production des livres; rejet.</head>

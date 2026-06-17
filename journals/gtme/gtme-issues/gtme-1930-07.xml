@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1930-07-10">July 10, 1930</date><lb/>
-                    <biblScope unit="volume">Vol. 20</biblScope><lb/>
-                    <biblScope unit="number">No. 237</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1930-07-10">July 10, 1930</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 20</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 237</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -61,7 +72,7 @@
                 <p>— au Journal ;</p>
                 <p>— Un an................... » 150</p>
                 <p>— Six mois............... » 85</p>
-                <p>— Trois mois.......... > 50</p>
+                <p>— Trois mois.......... &gt; 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an)........ » 255</p>
                 <p>Administrateur-Gérant :</p>
@@ -207,7 +218,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0010">
                     <head>243. - Bail. — Action en paiement de loyers; compétence du Tribunal
                         Sommaire si la demande est inférieure à L.E. 100, même s'il s'agit d’un
                         bail, non contesté, d’un taux annuel supérieur à celte somme. — Jugements;
@@ -453,7 +464,7 @@
                             affaire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0020">
                     <head>244. - Bail. — Biens wakfs; location supérieure à trois ans; nécessité
                         d'une autorisation du Cadi; constructions élevées par le locataire sur le
                         terrain du wakj; stipulation du paiement de la valeur de ces dernières au
@@ -484,7 +495,7 @@
                             Ministère des Wakfs c. Me Elie Tbtieini). .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0030">
                     <head>245. - Bail. — Concours de plusieurs locataires; conditions de préférence
                         dérivant de la transcription, ou de la prise de possession; contrat simulé;
                         transcription inopérante. — Wakf; nazir seul bénéficiaire; droit de louer
@@ -630,7 +641,7 @@
                             débats.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0040">
                     <head>246. - Bail. —- Consignation; clause pénale stipulant une indemnité au
                         profit du preneur en cas de retard dans la consignation du local par le
                         bailleur; défaut de force majeure; conditions de responsabilité du bailleur.
@@ -779,7 +790,7 @@
                             du 9 Février 1922, Bull., 34, p. 155.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0050">
                     <head>247. - Bail. — Consignation; stipulation de dommages-intérêts au profit du
                         locataire en cas de retard du bailleur dans la consignation; droit du
                         locataire ayant subi un préjudice; étendue de celui-ci. — Compensation;
@@ -942,8 +953,8 @@
                             portant cette somme- à L.E. 874, 020 mill.;</p>
                         <p>Attendu, d’autre part, que le jugement qui a été rendu en faveur de
                             l’intimé.et qui a condamné la Société appelante au paiement du montant
-                            des loyers fixés à L.E. 2363, 75O> mill., ce jugement doit être maintenu
-                            en tant qu’il fixe les loyers dus par la Société appelante;</p>
+                            des loyers fixés à L.E. 2363, 75O&gt; mill., ce jugement doit être
+                            maintenu en tant qu’il fixe les loyers dus par la Société appelante;</p>
                         <p>Mais ce jugement avait en outre ordonné-que du montant de ces loyers
                             déduction soit faite de la somme accordée à la Société appelante à titre
                             de dommages;</p>
@@ -970,7 +981,7 @@
                             que relativement aux dépens la décision des premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0060">
                     <head>248. - Bail. — Constructions surélevées sur un immeuble loué; occupation
                         indue; droit du propriétaire à indemnité; personnes auxquelles cette
                         dernière incombe; prescription quinquennale inapplicable; mode d'évaluation
@@ -997,7 +1008,7 @@
                             autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0070">
                     <head>249. - Bail. — Demande en renouvellement; transformation en appel en
                         demande en dommages-intérêts; cas de recevabilité. — Acquiescement du
                         locataire à l'expulsion en référé n'impliquant point renonciation au
@@ -1081,7 +1092,7 @@
                             dommages-intérêts...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0080">
                     <head>250. - Bail. —■ Expropriation pour cause d'utilité publique; locataire;
                         réclamation d'indemnité au bailleur exproprié; inadmissibilité.</head>
                     <div type="summary">
@@ -1099,7 +1110,7 @@
                             Hélène Paachkes c. Succession Cordahi Bey).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0090">
                     <head>251. - Bail. — Immeuble menaçant ruine; résolution du bail avant terme;
                         cas de force majeure; défaut d'obligation du propriétaire à une indemnité;
                         aménagements faits par le locataire; droit à indemnité de ce chef.</head>
@@ -1187,7 +1198,7 @@
                             la Cour évalue, ex æquo et bono, à la somme de L.E. 50.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0100">
                     <head>252. - Bail. — Incendie; responsabilité du locataire; faute de ce dernier;
                         charge de la preuve; clause aggravant la responsabilité du locataire;
                         interprétation restrictive; cas fortuit; cas d'exonération du locataire;
@@ -1357,7 +1368,7 @@
                             jugement attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0110">
                     <head>253. - Bail. — Incendie; responsabilité ■du locataire; stipulation se
                         référant à l’application des articles 1731 et 1733 C. Civ. fr.; conditions
                         d'exonération du locataire; ■charge de la preuve. —Mesures urgentes; droits
@@ -1614,7 +1625,7 @@
                             rendu la chose impropre ù la jouissance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0120">
                     <head>254. - Bail. — Jouissance; privation; démolition et reconstruction de V
                         immeuble-par le propriétaire en cours de bail; abus;: droit du locataire à
                         des dommages-intérêts.</head>
@@ -1768,7 +1779,7 @@
                             nécessaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0130">
                     <head>255. - Bail. — Location d'ttn terrain à titre gratuit à charge par le
                         locataire de le consigner à l’expiration du terme avec les constructions
                         pouvant y être édifiées par lui, sans indemnité; validité; sous-location de
@@ -2014,7 +2025,7 @@
                             valoir ses prétentions y relatives par action séparée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0140">
                     <head>256. - Bail. — Location d'un théâtre relative à une entreprise de
                         spectacles; caractère commercial.</head>
                     <div type="summary">
@@ -2027,7 +2038,7 @@
                             Mohamed Elba c. Bettino Cône-gliano).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0150">
                     <head>257. - Bail. — Loyers; clause à ordre; validité; endossement par acte
                         séparé ne constituant qu'une cession de créance; conditions d'opposabilité
                         au débiteur cédé.</head>
@@ -2120,7 +2131,7 @@
                             effet....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0160">
                     <head>258. - Bail. — Loyers; défaut de paiement; saisie-conservatoire; droit
                         pour le bailleur d'y procéder même en l'état d'une convention autorisant le
                         preneur à élever des constructions en imputant leur prix sur le bail;
@@ -2247,7 +2258,7 @@
                             qu’il y a lieu par conséquent d’infirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0170">
                     <head>259. - Bail. — Loyers; prescription quinquennale; interruption par
                         l'instance introduite par le locataire contre son bailleur; demande
                         reconventionnelle de ce dernier en paiement de. loyers; prescription. —
@@ -2370,7 +2381,7 @@
                             par le créancier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0180">
                     <head>260. - Bail. — Loyers; prescription quinquennale; personnes pouvant
                         l'invoquer. — A'ovation; conditions d'existence; nécessité de libération du
                         débiteur originaire; mode de preuve; délégation imparfai-te; effets;
@@ -2622,7 +2633,7 @@
                             Hoirs Abdel Mé-guid Bey El Saadi comme mal fondé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0190">
                     <head>261. - Bail. — Loyer variable; stipulation au profit du bailleur d'un
                         pourcentage déterminé sur certaines recettes et d’un pourcentage forfaitaire
                         sur toutes les autres recettes; non participation du bailleur aux pertes de
@@ -2817,7 +2828,7 @@
                             y avait celle de payer la lumière électrique dé l’établissement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0200">
                     <head>262. - Bail. — Privilège du bailleur; défaut d'exercice sans influence, en
                         droit, sur la créance du bailleur; créance de ce dernier contestée, et
                         admise à titre privilégié par le jugement sur contredit; ultra
@@ -2878,7 +2889,7 @@
                             été examinée, tous droits des parties à cet égard sont réservés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0210">
                     <head>263. - Bail. — Renouvellement par tacite reconduction; impossibilité en
                         cas de contrat antérieur à la Loi sur les loyers, No. 4 de 1921, el modifié
                         en vertu de celle-ci; faculté pour les parties de mettre fin au bail dès
@@ -2982,7 +2993,7 @@
                             préjudice?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0220">
                     <head>264. - Bail. — Réparations locatives incombant au locataire; limites;
                         réception par le bailleur des locaux avec réserves au sujet des dégâts;
                         droit de ce dernier à la réclamation d'une indemnité; mode d'évaluation des
@@ -3170,7 +3181,7 @@
                             locative des .lieux, une fois les réparations nécessaires faites.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0230">
                     <head>265. - Bail. — Résiliation cirant terme par le locataire; local devenu
                         impropre à la jouissance; preuve; insuffisance; indemnité due par le
                         locataire; éléments de détermination.</head>
@@ -3280,7 +3291,7 @@
                             juges justifient amplement leur décision.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0240">
                     <head>266. - Bail. — Signature du contractai, suivie de la mention de sa qualité
                         de wakil d'un tiers; portée.</head>
                     <div type="summary">
@@ -3332,7 +3343,7 @@
                             personnellement consenti...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0250">
                     <head>267. - Bail. ■— Sous-location; défaut d'action directe du bailleur contre
                         le sous-locataire; portée de la garantie due au bailleur par le locataire
                         principal; privilège du bailleur; biens sur lesquels il s'exerce; défaut de
@@ -3474,7 +3485,7 @@
                             par contribution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0260">
                     <head>268. - Bail. — Sous-location; défaut de prise de possession du
                         sous-locataire; conséquences.— Sous-locataire dépossédé par la faute du
                         propriétaire; action du locataire principal en paiement des loyers, dirigée
@@ -3622,7 +3633,7 @@
                             «de l’indemnisation allouée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0270">
                     <head>269. - Bail. — Sous-location; échéances concomitantes des loyers du
                         sous-locataire et du locataire principal; ga.rantie fournie par le
                         sous-locataire, ne pouvant modifier ces échéances; cas d'expulsion par
@@ -3701,7 +3712,7 @@
                             déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0280">
                     <head>270. - Bail. — Sous-location; interdiction de sous-louer stipulée dans le
                         contrat; sous-location consentie à un étranger; date certaine; poursuites
                         engagées devant le Tribunal Indigène; demande en discontinuation formée par
@@ -3744,7 +3755,7 @@
                         <p>Qu’il y a donc lieu de confirmer l’ordonnance déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0290">
                     <head>271. - Bail. — Terme fixe; non nécessité de congé; récoltes du locataire
                         acquises au bailleur à l'expiration du bail en vertu d'une stipulation
                         expresse; défaut de droit du locataire à des dommages-intérêts; loyers dus
@@ -3844,7 +3855,7 @@
                             rejeter et de confirmer le jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0300">
                     <head>272. - Gage. — Constitution en gage; exploitation continuée par le
                         débiteur avec le concours du créancier; nullité du gage.</head>
                     <div type="summary">
@@ -3970,7 +3981,7 @@
                             lesquels on reviendra plus tard, à la connaissance du public...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0310">
                     <head>273. - Gage. — Défaut de production à la faillite du débiteur; maintien du
                         privilège du créancier gagiste.</head>
                     <div type="summary">
@@ -3983,7 +3994,7 @@
                             Anonyme «Dalmatia» c. Auguste Leneveux èsn. et qu. et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-07-0320">
                     <head>274. - Location. — Films cinématographiques; défaut de livraison par le
                         bail-deur; refus d'autorisation de la censure ne constituant pas un cas de
                         force mafeu-■re; dommages-intérêts dus par le bailleur au locataire.</head>
@@ -5070,8 +5081,8 @@
                 <p>Janvier 1928 ■ Actes de commerce. - Effets de com-</p>
                 <p>Février merce.-Opérations de Bourse. - Vente de coton. - Wakf.</p>
                 <p>Mars » - Partage immobilier. - Préemption. -</p>
-                <p>Avril >x Retrait d’indivision.-Vente immobilière. - Action possessoire.- Bail.-
-                    Prescription.</p>
+                <p>Avril &gt;x Retrait d’indivision.-Vente immobilière. - Action possessoire.-
+                    Bail.- Prescription.</p>
                 <p>Mai » - Propriété industrielle. - Propriété lit-</p>
                 <p>Juin » téraire et artistique. - Administration.- Droits proportionnels.</p>
                 <p>Juillet » - Questions de procédure: Appel. - Op-</p>
@@ -5104,7 +5115,7 @@
                 <p>» - Paiement. - Sociétés.</p>
                 <p>» - Fonctionnaires. - Louage d’industrie. -Louage de services.</p>
                 <p>» - Responsabilité.</p>
-                <p>> - Administration. - Expropriation pour cause d’utilité publique.</p>
+                <p>&gt; - Administration. - Expropriation pour cause d’utilité publique.</p>
             </div>
         </body>
     </text>

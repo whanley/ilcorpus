@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0020-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1930-06-10">June 10, 1930</date><lb/>
-                    <biblScope unit="volume">Vol. 20</biblScope><lb/>
-                    <biblScope unit="number">No. 236</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1930-06-10">June 10, 1930</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 20</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 236</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -59,9 +70,9 @@
                 <p>M- E. DEGIARDÉ et B. SMYRNIADIS (Secrétaires de la rédaction).</p>
                 <p>M* A. FADEL (Directeur à Mansourah). M' F. BRAUN (Secrétaire à Paris).</p>
                 <p>— au Journal;</p>
-                <p>- b’n an................. > 150</p>
-                <p>— Six mois............... > 85</p>
-                <p>— Trois mois............. > 50</p>
+                <p>- b’n an................. &gt; 150</p>
+                <p>— Six mois............... &gt; 85</p>
+                <p>— Trois mois............. &gt; 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an)....... . 25b</p>
                 <p>Administrateur-Gérant :</p>
@@ -895,7 +906,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0010">
                     <head>211. - Administration. — Arreté municipal; retrait d’une concession
                         administrative d'intérêt public; légalité; incompétence de la Juridiction
                         mixte pour en connaître; compétence pour établir l'indemnité contractuelle
@@ -1116,7 +1127,7 @@
                             concession.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0020">
                     <head>212. - Administration. — Commissions locales et Conseils de villages;
                         personnalité juridique propre; ta.res facultatives indûment perçues; action
                         en restitution dirigée contre le Ministère de l'intérieur;
@@ -1247,7 +1258,7 @@
                             indûment perçu les taxes facultatives.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0030">
                     <head>213. - Administration. — Digues et canaux publics; Décret du 22 Février
                         1891; pouvoirs de VAdministration; décision administrative relative à la
                         modification d'un drain; recours d'un étranger au pos-sessoire devant la
@@ -1352,7 +1363,7 @@
                             combattant avec acharnement le Wakf Assia Hanem.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0040">
                     <head>214. - Administration. — Digues et canaux publics; travaux de
                         consolidation; emprunts de terres; abus; dommages causés aux propriétés
                         privées; responsabilité; compensation inadmissible.</head>
@@ -1439,7 +1450,7 @@
                             exagérée, il échet d’allouer la dite somme aux demandeurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0050">
                     <head>215. - Administration. — Etablissements incommodes, insalubres ou
                         dangereux; refus de rokhsa de la part de l'Administration; retard à se
                         prononcer n'engendrant pas sa responsabilité envers l'intéressé. —- Actes de
@@ -1550,7 +1561,7 @@
                             juridique acquise, en d’autres termes, une inégalité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0060">
                     <head>216. - Administration. — Etat; 'Administrations indépendantes;
                         représentation en justice.</head>
                     <div type="summary">
@@ -1570,7 +1581,7 @@
                             Pardo c. Saïd.Aly Nasr).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0070">
                     <head>217. - Administration. — Réglementation de l'accès à bord des navires;
                         restrictions; légitimité; pouvoirs du Gouvernement Egyptien.</head>
                     <div type="summary">
@@ -1594,7 +1605,7 @@
                             èsq. c. Gouvernement Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0080">
                     <head>218. - Administration. — Responsabilité du chef de Vexécution d'un
                         jugement de démolition; Tanzim; exécution au domicile d'un étranger;
                         condition.</head>
@@ -1626,7 +1637,7 @@
                             1929. — Municipalité d'Alexandrie c. Dame Sarina Mattatia et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0090">
                     <head>219. - Administration. — Responsabilité; rues dépourvues d'égouts; rues
                         ayant un profil défectueux; entretien du système d'égouts.</head>
                     <div type="summary">
@@ -1655,9 +1666,9 @@
                             Rafîaella llaffaelli c. Municipalité d’Alexandrie).</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>220. - Administration. — Saisie administrative; Décret du 25 Mars
-                        1880; étrangers; inviolabilité de leur domicile en Egypte; étendue; coutume;
+                <div type="case" xml:id="gtme-1930-06-0100">
+                    <head>220. - Administration. — Saisie administrative; Décret du 25 Mars 1880;
+                        étrangers; inviolabilité de leur domicile en Egypte; étendue; coutume;
                         garages.</head>
                     <div type="summary">
                         <p>I. - Le Protocole Bourée du 9 Juin 1868, ayant fixé en termes restrictifs
@@ -1688,7 +1699,7 @@
                             126.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0110">
                     <head>221. - Administration. — Saisie administrative; irrégularité; compétence
                         de la Juridiction mixte pour la constater. — Sommes dues au Gouvernement
                         pour fournitures d'engrais; recouvrement par voie de saisie administrative;
@@ -1729,7 +1740,7 @@
                             Ungricht èsq. c. Dame F. Veuve Vit a Curiel et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0120">
                     <head>222. - Administration. — Système d'irrigation; pouvoir discrétionnaire de
                         T Administration; faute de celle-ci; préjudice subi par un propriétaire;
                         droit de ce dernier à des dommages-intérêts.</head>
@@ -1916,7 +1927,7 @@
                             le jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0130">
                     <head>223. - Administration. — Tanzim; travaux faits sans rokJisa, niais dans
                         l'ali-gnement; caractère licite des travaux, quant à l'alignement;
                         conséquences; démolition ordonnée par VAdministration;
@@ -2097,7 +2108,7 @@
                             L.E. 250 représente une réparation équitable de ce préjudice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0140">
                     <head>224. - Administration. — Tarif douanier; application; droits acquis;
                         limites lois fiscales.</head>
                     <div type="summary">
@@ -2223,7 +2234,7 @@
                             contre le Gouvernement Egyptien est à rejeter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0150">
                     <head>225. - Administration. — Tare des gaf-firs; caractère; inapplicabilité du
                         principe de U indivisibilité de l'impôt. — Distribution: créance;
                         production; inapplicabilité du titre originairement produit;
@@ -2325,7 +2336,7 @@
                         <p>B. — Sur le second motif (omissis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0160">
                     <head>226. - Administration. — Tare, des gaf-firs. — Ezbe.lt; gardiennage
                         n'entraînant pas un droit pour VAdministration à une rétribution spéciale;
                         taxe, des gaffirs; caractère de lare personnelle; inapplicabilité aux
@@ -2611,7 +2622,7 @@
                             fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0170">
                     <head>227. - Administration. — Taxe sur les véhicules. — Amende fiscale; cas de
                         recours devant les Tribunaux mixtes; pouvoirs de ces derniers; limites;
                         intention frauduleuse non nécessaire. pour le paiement de l'amende. —
@@ -2834,7 +2845,7 @@
                             ce consentement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0180">
                     <head>228. - Administration. — Taxes indûment perçues; action en restitution;
                         recevabilité; déchéance spéciale inapplicable; Juridiction mixte; atteinte
                         à. un droit acquis d'un étranger; compétence pour en connaître. —
@@ -3472,7 +3483,7 @@
                             préjudice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0190">
                     <head>229. - Administration. — Taxes municipales facultatives; engagement par un
                         étranger de s'y soumettre; caractère définitif.</head>
                     <div type="summary">
@@ -3567,7 +3578,7 @@
                             contributions régulières.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0200">
                     <head>230. - Administration. — Taxes municipales facultatives; engagement par un
                         étranger de s'y soumettre; caractère définitif; limites. — Commissions
                         locales; recouvrement par voie de saisie administrative; abus;
@@ -3664,7 +3675,7 @@
                             subsidiaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0210">
                     <head>231. - Administration. — Tares municipales facultatives; engagement par un
                         étranger de s'y soumettre; caractère revocable; étendue. — Commissions
                         Locales; taxes municipales; recouvrement par voie de saisie administrative;
@@ -3820,7 +3831,7 @@
                             à la somme de P.T. 1.000.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0220">
                     <head>232. - Administration. — Foies publiques: incorporation d'une parcelle
                         dans le domaine public: incompétence des Tribunaux ordinaires pour
                         l'ordonner.</head>
@@ -3841,7 +3852,7 @@
                             Gerber c. Gouvernement Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0230">
                     <head>233. - Administration. — Voies publiques; occupation; contravention; rue
                         décrétée mais non en état.</head>
                     <div type="summary">
@@ -3912,7 +3923,7 @@
                             précitées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0240">
                     <head>234. - Administration. — Voies publiques; occupation; contravention; rue
                         décrétée mais non ouverte.</head>
                     <div type="summary">
@@ -3992,7 +4003,7 @@
                             dommages-intérêts civils pour l’occupation du dit terrain.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0250">
                     <head>235. - Administration. — Voies publiques; occupation; trottoirs. — Notion;
                         rues pourvues de trottoirs; bande de terrain longeant un trottoir.</head>
                     <div type="summary">
@@ -4030,7 +4041,7 @@
                             1930. — Municipalité d’Alexandrie c. R. 8. Sel and et s et Co.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0260">
                     <head>236. - Commission Douanière. — Oppo-position à ses décisions; article 33
                         du Réellement Douanier; delai; point de départ; date de la remise de la
                         copie de la. décision au Consulat du prévenu; doute profilant à ce
@@ -4091,7 +4102,7 @@
                             l’opposition d’Appak.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0270">
                     <head>237. - Expropriation pour cause d’utilité publique. — Adjudication; partie
                         des biens expropriés pour utilité publique avant l'adjudication; droits de
                         l'adjudicataire contre les créanciers utilement colloqués: compensation
@@ -4159,7 +4170,7 @@
                             de les porter à la charge des deux parties qui l’ont demandée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0280">
                     <head>238. - Expropriation pour cause d’utilité publique. — Indemnité;
                         détermination; expertise; opposition faite par le Gouvernement ne pouranl
                         profiler au propriétaire exproprié; formes de ladite opposition; conclusions
@@ -4249,7 +4260,7 @@
                             édictée par les premiers juges, mérite simplement le rejet.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0290">
                     <head>239. - Expropriation pour cause d’utilité publique. —Indemnité; opposition
                         du propriétaire exproprié au montant offert; bien fondé; obligation de
                         l'Administration au.r intérêts de la somme allouée au propriétaire;
@@ -4268,7 +4279,7 @@
                             Municipalité d’Alexandrie c. Simon CourtoubeHidis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0300">
                     <head>240. - Expropriation pour cause d’utilité publique. — Indemnité;
                         plus-value; éléments de détermination; transformation et modernisation d'un
                         quartier.</head>
@@ -4329,7 +4340,7 @@
                             pour cent seulement sur le prix de la partie non expropriée...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0310">
                     <head>241. - Expropriation pour cause d’utilité publique. — Indemnité; retard de
                         la justification des litres de l'exproprié; responsabilité incombant au
                         vendeur de ce dernier; conséquence.</head>
@@ -4405,7 +4416,7 @@
                             conséquence être tenus responsables des intérêts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1930-06-0320">
                     <head>242. - Expropriation pour cause d’utilité publique. — Terrain creusé par
                         VAdministration avant l'expropriation; demande en paiement d'indemnité
                         introduite par le propriétaire; dépôt du prix en cours d'instance;

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0001-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1911-06-10">June 10, 1911</date><lb/>
-                    <biblScope unit="volume">Vol. 1</biblScope><lb/>
-                    <biblScope unit="number">No. 8</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1911-06-10">June 10, 1911</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 1</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 8</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -872,7 +883,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0010">
                     <head>Accident.— Chemin de fer.</head>
                     <div type="summary">
                         <p>I. Lorsque l’accès de l’endroit d’une gare où manœuvrent des trains n’est
@@ -899,7 +910,7 @@
                             eff. Saféidine et cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0020">
                     <head>Adjudication (jugement d’). — Appel. — Dires. — Tiers détenteur. — Purge
                         hypothécaire.</head>
                     <div type="summary">
@@ -944,7 +955,7 @@
                             Hanem fille de Mohamed).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0030">
                     <head>Administration (acte d’).— Intérêt public.— Responsabilité.</head>
                     <div type="summary">
                         <p>L’autorité administrative a la faculté discrétionnaire d’établir et
@@ -959,7 +970,7 @@
                             Municipalité d’Alexandrie). . .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0040">
                     <head>Affectation hypothécaire.— Réméré.— Condition.</head>
                     <div type="summary">
                         <p>Tous les biens du débiteur, aussi bien ceux dont il est définitivement
@@ -981,7 +992,7 @@
                             Christodoulides).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0050">
                     <head>Assurances (bénéficiaires).— Succession.</head>
                     <div type="summary">
                         <p>Il est de jurisprudence que le capital qui est l’objet d’une assurance
@@ -1008,7 +1019,7 @@
                             Hamada c. The Commercial and Agency Cy. of Egypt Ltd.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0060">
                     <head>Billet à Ordre.— Paiement.— Remise du titre.— Tiers Porteur.—
                         Preuve.</head>
                     <div type="summary">
@@ -1025,7 +1036,7 @@
                             consorts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0070">
                     <head>Billets de banque. — Faux. — Responsabilité.</head>
                     <div type="summary">
                         <p>Personne ne pouvant, en principe, être tenu d’un fait de tiers, une
@@ -1049,7 +1060,7 @@
                             National Bank of Egypt et El Chinnaoui Osman).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0080">
                     <head>Commissionnaires.— Usages commerciaux. — Mandat.</head>
                     <div type="summary">
                         <p>Suivant les usages commerciaux en Egypte, les agents commissionnaires
@@ -1061,7 +1072,7 @@
                             et Aknin).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0090">
                     <head>Compétence.— Tribunal de Commerce.— Délit.— Quasi-délit.—
                         Accessoire.</head>
                     <div type="summary">
@@ -1079,7 +1090,7 @@
                             eff. Safeidine et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0100">
                     <head>Concordat Préventif (homologation). — Débiteur indigne.</head>
                     <div type="summary">
                         <p>Au vœu de la loi, la faveur du Concordat préventif ne saurait être
@@ -1099,7 +1110,7 @@
                         <p>(Trib. Comm. Caire : 1 Avril 1911. - Conc. Prév. Steliog. Lycos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0110">
                     <head>Courtiers. — Contrats Civils. — Salaires.</head>
                     <div type="summary">
                         <p>La loi Egyptienne ne reconnaît pas l’existence de courtiers pour des
@@ -1130,7 +1141,7 @@
                             Meleka et consorts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0120">
                     <head>Diffamation. — Injure. — Presse. — Preuve.</head>
                     <div type="summary">
                         <p>La publication par la voie de la presse d’un article qui porte atteinte à
@@ -1149,7 +1160,7 @@
                             Pisani &amp; O).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0130">
                     <head>Endossement. — Cession. — Créance Civile.</head>
                     <div type="summary">
                         <p>Est recevable l’action du cessionnaire agissant en vertu de l’endossement
@@ -1163,7 +1174,7 @@
                             Chaban Enedat).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0140">
                     <head>Enquête. —.Assignation (décès du préempté).</head>
                     <div type="summary">
                         <p>I. Il est de jurisprudence suivie que la citation à comparaître devant le
@@ -1180,7 +1191,7 @@
                             consorts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0150">
                     <head>Etablissememt public. — Jeux de hasard. — Contravention.</head>
                     <div type="summary">
                         <p>Bien que le fait de tenir une maison de jeux de hasard où le public est
@@ -1196,7 +1207,7 @@
                             Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0160">
                     <head>Exécution provisoire.— Opposition.</head>
                     <div type="summary">
                         <p>I. Un jugement par défaut ne peut, sur opposition être réformé qu’en
@@ -1241,7 +1252,7 @@
                             reconnaissance totale.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0170">
                     <head>Faillite. — Cessation de paiements.</head>
                     <div type="summary">
                         <p>L’état de cessation de paiements ne résulte pas à suffisance de la
@@ -1255,7 +1266,7 @@
                             Mohamed Rohayem).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0180">
                     <head>Garantie (appel en).— Opposition à commandement.</head>
                     <div type="summary">
                         <p>Est irrecevable l’appelen garantie qui n’a pas été effectué dans
@@ -1268,7 +1279,7 @@
                             Adda).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0190">
                     <head>Impôts Fonciers. — Personnes morale (création). —Administration (actes
                         d’). — Etranger (droit acquis). — Tribunaux Mixtes (compétence).</head>
                     <div type="summary">
@@ -1301,7 +1312,7 @@
                             Egyptien). -</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0200">
                     <head>Inscription de faux.</head>
                     <div type="summary">
                         <p>Si, aux termes de l’art. 319 C. Proc; l’inscription de faux suspend le
@@ -1314,7 +1325,7 @@
                             &amp; C!° &amp; autres.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0210">
                     <head>Mandat. — Intervention. — Trustée.</head>
                     <div type="summary">
                         <p>Un établissement de banque qui a été constitué trustée de certains
@@ -1328,7 +1339,7 @@
                             Egypt ; Deutsche Orient Bank, interv.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0220">
                     <head>Marque de Fabrique. — Dépôt au Greffe.</head>
                     <div type="summary">
                         <p>La sauvegarde du droit de propriété des marques industrielles n’est pas
@@ -1340,7 +1351,7 @@
                         <p>(Trib. Comm. Caire : 6 Mai 1911.-Clark &amp; Cie c. Maroun frères).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0230">
                     <head>Nationalité. — Juridiction Mixte. — Capitulations. — Congrégations. —
                         Protection française.</head>
                     <div type="summary">
@@ -1438,7 +1449,7 @@
                         <p>Le Président: (s). E. G. de Herreros</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0240">
                     <head>Patron. — Préposé. — Responsabilité civile.</head>
                     <div type="summary">
                         <p>Le fait d’un contremaître qui, dans un moment de colère causé par un
@@ -1452,7 +1463,7 @@
                             Marco Aksero Hadgi ou Xirouhaki &amp; Société Worms &amp; C10).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0250">
                     <head>Patron. — Suspension d’emploi.</head>
                     <div type="summary">
                         <p>Le droit de suspension rentre dans les droits d’un patron. Il est des
@@ -1472,7 +1483,7 @@
                             Handels Gessellschaft).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0260">
                     <head>Péremption.— Action civile.— Action pénale.</head>
                     <div type="summary">
                         <p>Contrairement à la plupart des législations européennes, la législation
@@ -1487,7 +1498,7 @@
                             Hanna).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0270">
                     <head>Propriétaire. — Entrepreneur. — Responsabilité.</head>
                     <div type="summary">
                         <p>La responsabilité du propriétaire d’une maison pour les accidents et
@@ -1504,7 +1515,7 @@
                             Amina Hanem.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0280">
                     <head>Vente Commerciale. — Mise en demeure. — Dommages-intérêts.</head>
                     <div type="summary">
                         <p>Le silence gardé pendant une longue -période par l’acheteurmuni d’une
@@ -1519,7 +1530,7 @@
                             Hassan El Mogali).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-06-0290">
                     <head>Vente.— Vice caché.— Décision (action en). — Délai. — Force majeure. —
                         Déchéance.— Huissier.</head>
                     <div type="summary">
@@ -2456,8 +2467,8 @@
                 <p>Jeuci 12 Octobre à 8 h. % du matin.</p>
                 <p>Audiences &lt;ie Rentrée :</p>
                 <p>Ve Chambre Civile: Mardi 17 Octobre à 8 h. */2 a.m.</p>
-                <p>IP Chambre Civile: Jeudi 19 Octobre à 8 h. >2 a.m.</p>
-                <p>Chambre des Criées: Jeudi 19 Octobre à 8 h. >2 a.m.</p>
+                <p>IP Chambre Civile: Jeudi 19 Octobre à 8 h. &gt;2 a.m.</p>
+                <p>Chambre des Criées: Jeudi 19 Octobre à 8 h. &gt;2 a.m.</p>
                 <p>Tribunal de Comaierce.- Jeudi 19 Octobre à 8 h. X a.m.</p>
                 <p>DÉLÉGATION DE PORT-SAÏD</p>
                 <p>Justice sommaire, Référés et Contraventions</p>

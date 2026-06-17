@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0026-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0026-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1936-04-10">April 10, 1936</date><lb/>
-                    <biblScope unit="volume">Vol. 26</biblScope><lb/>
-                    <biblScope unit="number">No. 306</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1936-04-10">April 10, 1936</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 26</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 306</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -68,8 +79,8 @@
                     DEGIARDÉ)</p>
                 <p>Met E. DEGIARDÉ et LUCIEN BARDA (Secrétaires de la rédaction). S'adresser aux
                     Bureaux du Journal</p>
-                <p>M. A. FADEL (Directeur à Mansourah). M- F. BRAUN > ( Oorrttpondantt à Paris, r,
-                    Rue de la Gare du Caire, Alexandrie</p>
+                <p>M. A. FADEL (Directeur à Mansourah). M- F. BRAUN &gt; ( Oorrttpondantt à Paris,
+                    r, Rue de la Gare du Caire, Alexandrie</p>
                 <p>Me G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT i Téléphoné: 25924</p>
             </div>
             <div type="article">
@@ -347,7 +358,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-04-0010">
                     <head>128. - Nationalité égyptienne. — Maintien par application de la Loi
                         ottomane du 18 Janvier 1869; naturalisation étrangère obtenue sans
                         autorisation du Gouvernement Ottoman; inefficacité à défaut de résidence
@@ -371,8 +382,8 @@
                         <p>Vu le jugement du Tribunal Civil Mixte du Caire en date du 27 Février
                             1930 (affaire B.G, No. 13896. A.J. 53e), signifié le 28 Mai 1930;</p>
                         <p>Vu l’appel interjeté contre le dit jugement par la Dame Malaka Assal,
-                            veuve de Naoum Goubran Savegh. suivant exploit daté du 1&lt;> et du 17
-                            Juillet 1930;</p>
+                            veuve de Naoum Goubran Savegh. suivant exploit daté du 1&lt;&gt; et du
+                            17 Juillet 1930;</p>
                         <p>Attendu que Naoum Sayegh. originaire d’Alep. avait laissé à son décès,
                             survenu du Caire le 6 Juin 1928, deux immeubles, non partageables en
                             nature, dont sa veuve ,a Dame Malaka Assal. demanda la mise en
@@ -513,7 +524,7 @@
                             1912-</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-04-0020">
                     <head>129. - Nationalité. -— Preuve; admissibilité à défaut d'inscription dans
                         les registres consulaires; Hellènes; preuve de nationalité résultant du
                         démolition. — Nationalité égyptienne; nationalité de la femme mariée;
@@ -669,7 +680,7 @@
                             pour prétendu appel vexatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-04-0030">
                     <head>130. - Nationalité. — Preuve; entente diplomatique; caractère décisif pour
                         les Tribunaux Mixtes. — Juridiction Mixte; compétence à raison de la
                         na-tionalité des parties. — Juridiction Mixte; compétence; théorie de
@@ -892,8 +903,8 @@
                             jugement précité du 21 Janvier 1925.</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>131. - Nationalité. >— Preuve; entente diplomatique; caractère non
+                <div type="case" xml:id="gtme-1936-04-0040">
+                    <head>131. - Nationalité. &gt;— Preuve; entente diplomatique; caractère non
                         décisif, pour les Tribunaux Mixtes; faculté pour les tribunaux d'admettre
                         les preuves de nationalité fournies par un particulier contrairement à la
                         déclaration de son propre Gouvernement. — Nationalité; certificat d'une
@@ -1212,7 +1223,7 @@
                             note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-04-0050">
                     <head>132. - Nationalité. — Preuve; Hellènes; certificat délivré par un maire;
                         précisions exigées; accords gréco-égyptiens sur la nationalité. —
                         Juridiction Mixte; exceptions visant la compétence juridictionnelle et la
@@ -1273,7 +1284,7 @@
                             exceptions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-04-0060">
                     <head>133. - Nationalité. — Preuve ne résultant pas de l'indication fournie par
                         l'intéressé dans une procédure judiciaire.</head>
                     <div type="summary">
@@ -1288,7 +1299,7 @@
                             Apodiacos.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1936-04-0070">
                     <head>134. - Nationalité. — Sujets ottomans d'origine albanaise résidant en
                         Egypte avant la constitution de l'Albanie en Principauté autonome et
                         demeurés en Egypte en 1926; nationalité égyptienne par application des lois

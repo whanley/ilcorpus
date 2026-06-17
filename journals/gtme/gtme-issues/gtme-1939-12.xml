@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0030-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1939-12-10">December 10, 1939</date><lb/>
-                    <biblScope unit="volume">Vol. 30</biblScope><lb/>
-                    <biblScope unit="number">No. 350</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1939-12-10">December 10, 1939</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 30</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 350</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -61,7 +72,8 @@
                 <p>Comité de Rédaction et d'administration :</p>
                 <p>M“ L. PANGALO et R,. 8CHEMEIL (Directeurs au Cairt)</p>
                 <p>M" E. DEGIARDÉ et LUCIEN BARDA (Secrétaires de la rédaction), -</p>
-                <p>H- A. F ADSL (Virecttur à Mansourah). M- F. BRAUN > (Oarrapeniant, à Parit,</p>
+                <p>H- A. F ADSL (Virecttur à Mansourah). M- F. BRAUN &gt; (Oarrapeniant, à
+                    Parit,</p>
                 <p>Me G. MOUCHBAHANI ("Correspondant à Port-Saïd). Me J. LAÇAT I</p>
                 <p>Administrateur-Gérant :</p>
                 <p>JOSEPH A. DEGIARDE.</p>
@@ -516,7 +528,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-12-0010">
                     <head>52. - Nationalité. — Lybicns; accord du 1-1 Avril 1923 entre l'Egypte et
                         l'Italie; conditions de reconnaissance de la nationalité italienne.</head>
                     <div type="summary">
@@ -542,7 +554,7 @@
                         <p>Attendu que l’exception d’incompétence soulevée par l’Administration des
                             Gardes-Côtes s’avère bien fondée; qu’en effet il est</p>
                         <p>constant aux débats (v. certificats émanant: a) du Consulat Général
-                            d’Italie, b) de la &lt;> Frontier District Administration », c) du «
+                            d’Italie, b) de la &lt;&gt; Frontier District Administration », c) du «
                             Tiibunale Régionale di Misurata », ainsi que la déclaration faite par
                             l’appelante, note en réplique p. 1), que feu Mohamed Agha Lad gain, mari
                             de l’appelante, est né à Misurata, eh Tripolitaine, et qu’il s’est
@@ -592,7 +604,7 @@
                             déclarer la Juridiction Mixte incompétente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-12-0020">
                     <head>53. - Nationalité. — Nationalité étrangère; certificats consulaires; force
                         probante; cas de doute sur l'identité de la personne inscrite; cas de double
                         nom patronymique.</head>
@@ -703,7 +715,7 @@
                             jugement dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-12-0030">
                     <head>54. - Nationalité. — Nationalité étrangère; certificats consulaires; force
                         probante. — Femme étrangère mariée à un égyptien; perte de sa nationalité;
                         récupération de sa nationalité d'origine; conditions; Décret-loi N° 19 de
@@ -780,7 +792,7 @@
                             appel, et même d’office...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-12-0040">
                     <head>55. - Nationalité. —• Nationalité étrangère; perte en cours d’instance;
                         radiation de registres consulaires; cas où elle n’entraîne pas effet
                         rétroactif; Juridiction Mixte; maintien de sa compétence acquise. — Action
@@ -873,7 +885,7 @@
                             unique instance et ce aux termes d’une jurisprudence constante...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-12-0050">
                     <head>56. - Nationalité. — Naturalisation étrangère; autorisation du
                         Gouvernement Egyptien; défaut de nécessité de cette condition pour les
                         personnes dont la nationalité égyptienne n'est que présumée. — Certificats
@@ -1199,7 +1211,7 @@
                         <p>III. — V. Gaz. XXVII, 273-190, l’arrêt du 23 Mars 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1939-12-0060">
                     <head>57. - Nationalité. — Preuve; contesla-lion élevée après le décès, pour le
                         règlement de la succession; admissibilité;, possession d'élal d'une
                         nationalité; caractère de simple présomption; inefficacité en l'état d’une
@@ -3292,7 +3304,7 @@
                 <p>d) En éléments de Chimie:</p>
                 <p>Un enseignement d’une heure par semaine.</p>
                 <p>e) En enseignement pratique à .L'hôpital:</p>
-                <p>Six heures par jour. > &lt; •.. «</p>
+                <p>Six heures par jour. &gt; &lt; •.. «</p>
                 <p>Art. 154. — Aucune étudiante-ne sera admise à suivre les programmes des études
                     pour le deuxième examen du diplôme ,d;in-r firmière, à moins d’avoir réussi au
                     premier examen.</p>
@@ -4878,7 +4890,7 @@
                 <p>Mai » - Les Accords de Montreux.</p>
                 <p>Juin * - Transports maritimes et fluviaux. -Vente commerciale.</p>
                 <p>Juillet » - Nationalité.</p>
-                <p>Août > - Juridiction Mixte.</p>
+                <p>Août &gt; - Juridiction Mixte.</p>
                 <p>Septembre » - Arbitrage. - Exéquatur.</p>
                 <p>Octobre » - Questions de statut personnel.</p>
                 <p>Novembre » - Donation. - Vente avec réserve de propriété. - Vente mobilière.</p>

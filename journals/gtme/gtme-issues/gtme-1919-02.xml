@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1919-02-10">February 10, 1919</date><lb/>
-                    <biblScope unit="volume">Vol. 9</biblScope><lb/>
-                    <biblScope unit="number">No. 100</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1919-02-10">February 10, 1919</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 9</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 100</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -79,7 +90,7 @@
                     passée la quinzaine de la publication. .1,</p>
                 <p>Toutes les quittances, pour être valables, doivent porter la signature de l’un
                     des directeurs ou du secrétaire,</p>
-                <p>Imprimerie Nouvelle MOLCO, PETR1NI L Co. - Alexandrie, rue Cléopâtre. ;></p>
+                <p>Imprimerie Nouvelle MOLCO, PETR1NI L Co. - Alexandrie, rue Cléopâtre. ;&gt;</p>
                 <p>I I IUIA ’J</p>
                 <pb rendition="GAZETTE DES TRIBUNAUX MIXTES D'EGYPTE"/>
                 <p>IE</p>
@@ -322,7 +333,7 @@
                     séances de cette Commission sont pour le moment suspendues, je vous serais
                     reconnaissant de me permettre de traiter en vos colonnes de certains malentendus
                     sur lesquels je crois que se trouvent basées certaines de ces appréhensions.</p>
-                <p>1°> Les signataires du Mémoire expriment leurs regrets que le projet de Loi
+                <p>1°&gt; Les signataires du Mémoire expriment leurs regrets que le projet de Loi
                     d’Organisation Judiciaire, sur lequel la Commission a travaillé, n’ait pas été
                     communiqué au Conseil de l’Ordre.</p>
                 <p>Les Membres de la Commission sont les premiers à regretter qu’il ait été
@@ -395,7 +406,7 @@
                     me rendre à ce que j’ai considéré comme devant être l’opinion</p>
                 <p>I générale du Barreau local. Mais dès qu’un Barreau spécial est créé, un certain
                     contrôle pour l’admission à ce Barreau devient nécessaire afin</p>
-                <p>> que le niveau de celui-ci ne soit point abaissé par l’admission d’hommes de
+                <p>&gt; que le niveau de celui-ci ne soit point abaissé par l’admission d’hommes de
                     capacité médiocre qui se seraient formé une opinion par trop confiante de leur
                     propre avenir. Et si la Cour elle-même a été proposée pour l’exercice d’un tel
                     contrôle, la seule raison en a été dans le sentiment que par sa composition
@@ -1124,7 +1135,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0010">
                     <head>49. - Adjudicataire. — Paiement du prix et des intérêts. — Droit pour
                         l’adjudicataire de recevoir les fruits de l’immeuble depuis
                         l’adjudication.</head>
@@ -1140,7 +1151,7 @@
                             esq. c. Cheikh Hassan Aboul Cheikh).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0020">
                     <head>50. - Adjudication. — Mise à prix. — Expert. — Cahier des charges. —
                         Clause de non garantie.— Inapplicabilité au poursuivant vendeur lui-même de
                         l’immeuble au débiteur saisi.</head>
@@ -1168,7 +1179,7 @@
                             Mohamed Sedki Pacha c. Moustà Bey Rida et Cls.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0030">
                     <head>51. - Adjudication. — Opposition à la vente devant le Juge des Criées. —
                         Pouvoirs et compétence du juge. — Dépôt des titres au Greffe par le
                         revendiquant en cours d’expropriation.</head>
@@ -1194,7 +1205,7 @@
                             Radouan Moustafa et Cts c. Bechir Odabachi et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0040">
                     <head>52. - Adjudication. — Récoltes sur pied au moment de l’adjudication. —
                         Droits respectifs du locataire et de l’adjudicataire. — Cahier des
                         charges.</head>
@@ -1212,7 +1223,7 @@
                             ok Egypt c. Antoine Melad et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0050">
                     <head>53. - Affectation hypothécaire prise postérieurement à la transcription
                         d’un commandement immobilier. — Non opposabilité au créancier poursuivant et
                         à ceux ayant fait signifier commandement, même sans inscription.</head>
@@ -1303,7 +1314,7 @@
                             Ottomane sera attribuée à Samaridis frères.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0060">
                     <head>54. - Arbitre. — Honoraires. — Taxe. Non commercialité de l’arbitrage. —
                         Tribunal compétent.</head>
                     <div type="summary">
@@ -1374,7 +1385,7 @@
                             suivi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0070">
                     <head>55. - Cassation. — Contravention. — — Art étés des 8 Novembre 1886, 31
                         Juillet 1887 et 2 Juin 1910 sur les vidanges. — Responsabilité personnelle
                         du propriétaire1.</head>
@@ -1435,7 +1446,7 @@
                             Code.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0080">
                     <head>56. - Caution. — Décharge dérivant de la renonciation à son rang par un
                         créancier inscrit.</head>
                     <div type="summary">
@@ -1491,7 +1502,7 @@
                             déchargée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0090">
                     <head>57. - Chemins de Fer. — Tarif réduit. — Perte d’une partie de la
                         marchandise en cours de transport. — Irresponsabilité de
                         l’Administration.</head>
@@ -1511,7 +1522,7 @@
                             Brothers Cy Ltd c. Administration des Chemins de fer).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0100">
                     <head>58. - Chèque. — Paiement effectué par une succursale du tiré. — Défaut de
                         recours contre le porteur.</head>
                     <div type="summary">
@@ -1561,7 +1572,7 @@
                             garantie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0110">
                     <head>59. - Chose jugée. — Usure. — Prodigue. — Annulation de Jugements de
                         défaut et d'acquiescement obtenus par violence motale.</head>
                     <div type="summary">
@@ -1620,7 +1631,7 @@
                             plaisir et de débauche.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0120">
                     <head>60. - Distribution. — Collocation d’une même créance. — Rang. — Contredit
                         à règlement définitif.</head>
                     <div type="summary">
@@ -1639,7 +1650,7 @@
                     </div>
                 </div>
                 <pb n="45" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0130">
                     <head>61. - Distribution. — Contredit au règlement définitif. — Condition de
                         recevabilité.</head>
                     <div type="summary">
@@ -1666,7 +1677,7 @@
                             Dine et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0140">
                     <head>62. - Distribution. — Ordre. — Contribution. — Présence du débiteur saisi
                         dans la procédure. — Adjudicataire. — Droit de contredire du débiteur saisi
                         non sommé.</head>
@@ -1770,7 +1781,7 @@
                             intéressés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0150">
                     <head>63. - Distribution. — Production, contredit et procédures formés et suivis
                         par le tuteur après fin de la minorité de l’intéressé. — Valeur juridique. —
                         Tierce-opposition.</head>
@@ -1788,7 +1799,7 @@
                             Sophie Gibara et autre c. Farag Hassanein Gibara).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0160">
                     <head>64. - Distribution. — Production tardive valant saisie arrêt. — Sens et
                         portée de l’art. 595 C. Proc. — Sous collocation.</head>
                     <div type="summary">
@@ -1817,7 +1828,7 @@
                             Greffier en Chef).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0170">
                     <head>65. - Faillite. — Dessaisissement du failli. — Avocat. — Défense du failli
                         devant le Tribunal Correctionnel. — Honoraires.</head>
                     <div type="summary">
@@ -1896,7 +1907,7 @@
                             demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0180">
                     <head>66. - Intérêt, mesure des actions. — Examen de l’exception tirée du défaut
                         d’intérêt. — Irrecevabilité d’une action en nullité de procédure de purge,
                         exercée par un créancier dont le rang n’est pas utile.</head>
@@ -1915,7 +1926,7 @@
                     </div>
                     <div type="litigants">
                         <p>(Cour d’Appel, 2me Ch. Prés. M. A. de Souza Larcher, 9Janvier 1919. —
-                            Buildings Lands of Egypt c. DameAmalia De Martino et Ct.>.</p>
+                            Buildings Lands of Egypt c. DameAmalia De Martino et Ct.&gt;.</p>
                     </div>
                     <div type="observations">
                         <p>Note. — II.-L’arrêt expose sur ce point:</p>
@@ -1969,7 +1980,7 @@
                             leur action n’est pas suffisamment démontré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0190">
                     <head>67. - Juridiction mixte. — Compétence. — Mise en cause du poursuivant
                         étranger dans une instance en revendication entre l’adjudicataire indigène
                         et un tiers également indigène.</head>
@@ -1988,7 +1999,7 @@
                             Neguîb El Gamal c. Ibrahim Ibrahim El Charawî et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0200">
                     <head>68. - Référés. — Clause conférant conpétence au Juge des Référés pour
                         ordonner la remise en possesion du vendeur en cas de résiliation de la vente
                         par le fait de l’acheteur. — Inopérance.</head>
@@ -2069,7 +2080,7 @@
                             appréciées que par le Juge du fond ; ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0210">
                     <head>69. - Témoins. — Consultation de notes éciites. — Portée juridique d’un
                         tel témoignage.</head>
                     <div type="summary">
@@ -2114,7 +2125,7 @@
                             la sincérité lui parait indiscutable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0220">
                     <head>70. - Tiers-détenteur. — Paiements faits au créancier hypothécaire. —
                         Subrogation légale. — Expropriation. — Hypothèque. — Indivisibilité.</head>
                     <div type="summary">
@@ -2197,7 +2208,7 @@
                             Orientbank.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0230">
                     <head>71. - Tierce-opposition. — Examen d’office de sa recevabilité. — Décès
                         d’une partie. — Continuation valable de la procédure vis-à-vis des
                         héritiers.</head>
@@ -2288,7 +2299,7 @@
                             application de l’amende prévue par l’art. 423 précité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-02-0240">
                     <head>72. - Transport. — Clause limitative de la responsabilité du transporteur.
                         — Condition d’application. — Faute lourde — Vol.</head>
                     <div type="summary">

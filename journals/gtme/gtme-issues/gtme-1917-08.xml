@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0007-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0007-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1917-08-10">August 10, 1917</date><lb/>
-                    <biblScope unit="volume">Vol. 7</biblScope><lb/>
-                    <biblScope unit="number">No. 82</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1917-08-10">August 10, 1917</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 7</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 82</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -263,8 +274,8 @@
                 <p>Faudra-t-il perpétuer l’erreur pour ne pas l’avouer?</p>
                 <p>Léon Castro</p>
                 <p>Avocat à la Cour</p>
-                <p>(*) Nous nous limiterons à relever, quant à nous, que>, encore une fois, en cette
-                    matière, la procédure prévue par l'art. 416 bisC. Proc, semblait s’imposer
+                <p>(*) Nous nous limiterons à relever, quant à nous, que&gt;, encore une fois, en
+                    cette matière, la procédure prévue par l'art. 416 bisC. Proc, semblait s’imposer
                     impérieusement.</p>
                 <p>N. d. 1. R,</p>
             </div>
@@ -396,7 +407,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0010">
                     <head>431. - Acte d’ouverture de crédit. — Exécution. — Commandement. — Remise
                         du compte. — Créance certaine et liquide.</head>
                     <div type="summary">
@@ -468,7 +479,7 @@
                             que de droit, lors de. la distribution du prix d’adjudication.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0020">
                     <head>432. - Action paulienne. — Insolvabilité du débiteur. — Transformation en
                         action en simulation.</head>
                     <div type="summary">
@@ -488,7 +499,7 @@
                             Abdel Salam et autre c. Nessim Sayba et Co et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0030">
                     <head>433. - Affectation hypothécaire. — Cession. — Signification au débiteur
                         cédé. — Mainlevée illégalement donnée par le cédant. — Transcription.</head>
                     <div type="summary">
@@ -590,7 +601,7 @@
                             observé les formalités nécessaires..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0040">
                     <head>434. - Appel. — Délai de citation. — Nullité. — Renvoi. — Distribution. —
                         Elimination des créances de liquidation difficile ou lente. — Wakf. —
                         Créanciers des bénéficiaires.</head>
@@ -637,7 +648,7 @@
                     </div>
                 </div>
                 <pb n="149" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0050">
                     <head>435. - Autorité ecclésiastique. — Droit byzantin. — Représentation des
                         pauvres en justice. — Eglises chrétiennes d’Orient. — Revenus. —
                         Tierce-opposition.</head>
@@ -828,7 +839,7 @@
                     </div>
                 </div>
                 <pb n="150" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0060">
                     <head>436. - Bailleur. — Privilège. — Opposition entre les mains d’un huissier
                         indigène. — Action en paiement et en validité.</head>
                     <div type="summary">
@@ -846,7 +857,7 @@
                             Vincenzo Mandofia c. Hag Aly bey Rida Chaker et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0070">
                     <head>437. - Caution. — Perte des sûretés par le créancier. — Délai.</head>
                     <div type="summary">
                         <p>Le seul fait par le créancier d’accorder un délai à son débiteur ne
@@ -882,7 +893,7 @@
                             poursuivant pas à l’échéance, elle en éprouve un dommage.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0080">
                     <head>438. - Contrebande. — Confiscation.</head>
                     <div type="summary">
                         <p>En matière de contrebande la confiscation frappe les objets saisis entre
@@ -895,7 +906,7 @@
                             Gerondakis c. Douanes Egyptiennes et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0090">
                     <head>439. - Contrebande. — 'Défaut de saisie de. l’objet de la contrebande. —
                         Amende.</head>
                     <div type="summary">
@@ -913,7 +924,7 @@
                             Douanes Egyptiennes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0100">
                     <head>440. - Date certaine. — Livres de commerce. — Preuve entre commerçants. —
                         Vente de cotons.</head>
                     <div type="summary">
@@ -944,7 +955,7 @@
                             &amp; Ço c. W. Escher et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0110">
                     <head>441. - Démolition. — Saillies. — Décret du 26 Août 1889. — Procès-verbal
                         de contravention.</head>
                     <div type="summary">
@@ -966,7 +977,7 @@
                             —-Ministère Public c. Caralambo Limatos).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0120">
                     <head>442. -Détournement d’objets saisis. — Peine applicable. — Vol.</head>
                     <div type="summary">
                         <p>La soustraction par le saisi ou même par des tiers sous son ordre des
@@ -992,7 +1003,7 @@
                         <p>V. aussi, celui plus récent du 8 Novembre 1916 (Gaz., VII, 20-45).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0130">
                     <head>443. - Dispositif. — Jugement de condamnation. — Mention des chefs pour
                         lesquels condamnation est prononcée.</head>
                     <div type="summary">
@@ -1007,7 +1018,7 @@
                             Mai 1917. — El Sayed et Mohamed Annous c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0140">
                     <head>444. - Droits proportionnels. — Perception à faire sur les valeurs
                         attribuées par les jugements et arrêts. — Instance en revendication
                         solutionnée par l'annulation d’une affectation hypothécaire. — Tarif Civil.
@@ -1159,7 +1170,7 @@
                             droits.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0150">
                     <head>445. - Effets de commerce. — Ap-position d’un faux cachet par le débiteur.
                         — Preuve. — Tribunal de Commerce. — Compétence. — Expeitise. —
                         Enquête.</head>
@@ -1179,7 +1190,7 @@
                             Meguid c. Panayotti Archontogiorgi),</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0160">
                     <head>446. - Effets de commerce. — Lettres de change. — Femmes et simples
                         cultivateurs indigènes. — Tiers-porteur. — Daïra, — Wekil.</head>
                     <div type="summary">
@@ -1202,7 +1213,7 @@
                             Hanem c. Banque Belge pour l’Etranger).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0170">
                     <head>447. - Entreprise. — Sous-traitant. — Droit de rétention du prix par le
                         propriétaire contre le cessionnaire de l’entrepreneur tenu à
                         garantie.</head>
@@ -1286,7 +1297,7 @@
                             exécutés par Gohar que les malfaçons ont été établies.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0180">
                     <head>448. - Expropriation. — Poursuites contre le tiers-détenteur. — Sommation
                         de payer ou de délaisser.</head>
                     <div type="summary">
@@ -1567,7 +1578,7 @@
                             accueilli ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0190">
                     <head>449. - Faillite. — Créanciers hypothécaires, privilégiés ou gagistes. —
                         Vérification et admission. — Droit de poursuite et de collocation dans la
                         distribution.</head>
@@ -1635,7 +1646,7 @@
                             leurs créances.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0200">
                     <head>450. - Faillite. —Jugements statuant sur les contestations de créances. —
                         Délai d'appel de quinze jours.</head>
                     <div type="summary">
@@ -1652,7 +1663,7 @@
                             RaSeb et Ct. c. G. Stagni e iigli et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0210">
                     <head>451. - Gage. — Autorisation de vente au mieux. — Responsabilité du
                         créancier gagiste.</head>
                     <div type="summary">
@@ -1668,7 +1679,7 @@
                             Assem c. Banco di Roma).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0220">
                     <head>452. - Huissiers. — Personnes chargées d’une signification par délégation
                         du Tribunal. — Huissiers provisoires. — Officiers de justice. — Tribunal
                         correctionnel. — Examen des dépositions de témoins non entendus. — Nullité
@@ -1743,7 +1754,7 @@
                             153, 154 et 175 du Code d’instruction Criminelle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0230">
                     <head>453. - Hypothèque. — Erreur doubla désignation de. l'immeuble. — Cas
                         de-nullité. — Erreur dans le nom du hod.</head>
                     <div type="summary">
@@ -1766,7 +1777,7 @@
                             Hypothécaire Agricole et Urbain d’Egypte c. Nessim Khoury et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0240">
                     <head>454. - Instruction. — Réquisitoire. — Prescription. — Interruption. —
                         Banqueroute simple et banqueroute frauduleuse. — Qualification légale des
                         faits délictueux. — Juge d’instruction. — Officiers de police judiciaire. —
@@ -2029,7 +2040,7 @@
                             mettre à sa charge que le cinquième des frais relatifs au pourvoi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0250">
                     <head>455. - Instruction. — Réquisitoire. — Prescription. — Interruption. —
                         Banqueroute frauduleuse. — Qualification légale des faits délictueux. — juge
                         d'instruction. ' — Officiers de police judiciaire. — Détournement. —
@@ -2245,7 +2256,7 @@
                             Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0260">
                     <head>456. - Juridiction mixte. — Compétence.. — Instance en faillite entre
                         personnes delà même nationalité. — Tunisiens. — Certificats consulaires et
                         certificats gouvernementaux. — Sursis.</head>
@@ -2282,7 +2293,7 @@
                         <p>Note. — IV. - V. aussi arrêt 25 Avril 1917, Gaz., VII, 125-375.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0270">
                     <head>457. - Juridiction mixte. — Compétence pénale. — Ordonnances du Juge
                         d’instruction. — Opposition. — Chambre du Conseil. — Appel. — Saisies
                         opérées en vertu d’actes authentiques. — Crimes et délits contre l’exécution
@@ -2422,7 +2433,7 @@
                             accueilli.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0280">
                     <head>458. - Mandat. — Réduction du salaire convenu même après exécution.</head>
                     <div type="summary">
                         <p>Il est constant en doctrine et en jurisprudence, que même dans le cas de
@@ -2447,7 +2458,7 @@
                         <p>Note. — Voir Carpentier: Mandat, N° 620 et suivants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0290">
                     <head>459. - Nationalité. — Certificat consulaire. — Tripolitain.</head>
                     <div type="summary">
                         <p>I. - Les Tribunaux Mixtes ne sauraient ordonner l’apport, par l’entremise
@@ -2464,7 +2475,7 @@
                             Mohamed Mohamed El Chalet c. Aly eff.’ Abbassi et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0300">
                     <head>460. - Prescription libératoire. — Intérêts. — Calendrier arabe. —
                         Prescription des intérêts. — Effet interruptif d’une production dans une
                         distribution.</head>
@@ -2488,7 +2499,7 @@
                         <p>Note. —-I.-V. Gaz., VI, 40-108, et note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0310">
                     <head>461. - Preuve testimoniale. — Acte authentique.</head>
                     <div type="summary">
                         <p>La preuve qu’une somme dont la remisé matérielle par le prêteur à
@@ -2504,7 +2515,7 @@
                             Mohamed bey Osman El Bannani c. Said dey Helmy).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0320">
                     <head>462. - Puissance paternelle. — Chrétiens sujets ottomans. — Loi
                         patriarcale. — Nullité de /’hypothèque consentie par le père sur les biens
                         de ses enfants'mineurs.</head>
@@ -2603,7 +2614,7 @@
                             enfants.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0330">
                     <head>463. - Réintégrande. Acte administratif. — Sakieh. — Atteinte aux droits
                         acquis d’un étranger. — Juridiction mixte.</head>
                     <div type="summary">
@@ -2688,7 +2699,7 @@
                             résultant de l’atteinte portée à un droit acquis par elle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0340">
                     <head>464. - Saisie-arrêt. — Créance entre indigènes. — Action en
                         validité.</head>
                     <div type="summary">
@@ -2775,7 +2786,7 @@
                             poursuivre l’exécution quand il lui plairait.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0350">
                     <head>465. - Séquestre. — Biens indivis.</head>
                     <div type="summary">
                         <p>Lorsque les biens à séquestrer sont indivis, le séquestre, par voie de
@@ -2786,7 +2797,7 @@
                             bey Fahmy Khoga Ahmed Zada et Cts c. Dame Sembel Nada et autres). .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0360">
                     <head>466. - Servitude de vue. — Effets.</head>
                     <div type="summary">
                         <p>La servitude ou le droit de vue, lorsque son effet ou son étendue ne
@@ -2801,7 +2812,7 @@
                             Casdagli &amp; Son c. Gouvernement Egyptien et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0370">
                     <head>467. - Succession. — Statut personnel musulman. —Rapport successoral.—
                         Droits des créanciers personnels du successible débiteur de la succession. —
                         Compensation.</head>
@@ -3258,10 +3269,10 @@
                         <p>provisoire du présent jugement qui doit être rejetée, cette demande étant
                             en effet manifestement contraire à l’accord intervenu entre parties
                             suivant le procès-verbal du 25 Mai 1916 prérappelé, et en vertu duquel
-                            la Bank of Egypt a déclaré provisoirement distraire de la vente le 2">°
-                            lot du Cahier des Charges, jusqu’à ce qu’il soit eh dernier ressort
-                            décidé par justice, ou convenu par accord amiable, sur les prétentions
-                            des disants (sic) ;</p>
+                            la Bank of Egypt a déclaré provisoirement distraire de la vente le
+                            2"&gt;° lot du Cahier des Charges, jusqu’à ce qu’il soit eh dernier
+                            ressort décidé par justice, ou convenu par accord amiable, sur les
+                            prétentions des disants (sic) ;</p>
                         <p>Que par conséquent, tout en autorisant la Bank of Egypt à procéder à la
                             vente du 2me lot en-question, il échet néanmoins de surseoir à la
                             fixation du jour de la vente de ce lot jusqu'au vidé en dernier ressort,
@@ -3269,7 +3280,7 @@
                             sera passée en force de chose jugée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0380">
                     <head>468. - Succession musulmane. — Conflit entre créanciers successoraux et
                         créanciers des héritiers. — Succession notoirement insolvable. — Inaction
                         des créanciers successoraux. — Antériorité des créances contre les
@@ -3299,7 +3310,7 @@
                             fils, ebautres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1917-08-0390">
                     <head>469. - Tanzim. — Travaux exécutés en contravention avec la roksa, mais en
                         conformité du plan approuvé par l’Administration. — Démolition. —
                         Responsabilité de l’Administration.</head>
@@ -3361,7 +3372,7 @@
                     l’approbation de l’Assemblée Législative prévue à l’article 12 du Code Civil
                     Mixte.</p>
                 <p>Le Caire, le 10 Mars 1917.</p>
-                <p>Le Ministre de la Justice \s.> A. Saroit.</p>
+                <p>Le Ministre de la Justice \s.&gt; A. Saroit.</p>
             </div>
             <div type="section" feature="lois">
                 <head>Décrets, Règlements et Proclamations.</head>
@@ -3493,7 +3504,7 @@
                 <p>Kelada Rofaïl (Syndic Piromaly). Cont. vér.</p>
                 <p>cr. et conc. 22.8.17. '</p>
                 <p>Mohamed Abdel Salam et Mahmoud Mohamed. El Sebaï (Syndic Barocas). 22.8.17.</p>
-                <p>Iskandar Hanna (Syndic Papasian). Dissol. union 22.8.17. ></p>
+                <p>Iskandar Hanna (Syndic Papasian). Dissol. union 22.8.17. &gt;</p>
                 <p>Mehami Makari Biehaï (Syndic Demanget).</p>
                 <p>Cont. vér. cr. et conc. et résultat appel 22.8.17.</p>
                 <p>The Egyptian et Syrien Land (Syndic Ca-rallii. Cont. vér. cr. 22.8.17.</p>

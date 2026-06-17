@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0023-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0023-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1933-10-10">October 10, 1933</date><lb/>
-                    <biblScope unit="volume">Vol. 23</biblScope><lb/>
-                    <biblScope unit="number">No. 276</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1933-10-10">October 10, 1933</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 23</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 276</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -45,14 +56,14 @@
                 <p>Tél. Ataba 54237</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte. Fondateurs
-                    > M" MAXIME PUPIKOFER et LÉON PANGALO, Avocate à la Cour.</p>
+                    &gt; M" MAXIME PUPIKOFER et LÉON PANGALO, Avocate à la Cour.</p>
                 <p>Directeur : M- MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d'Administration :</p>
                 <p>M“ L. PANGALO et B. 8CHEMEIL (Directeurs au Caire)</p>
                 <p>M»» E. DEGIARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
                 <p>M« A. FADEL (Directeur à Afansourah). M» F. BRAUN' 1</p>
-                <p>N e G. M OUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT ! (C&lt;>mspondants
-                    d Paris).</p>
+                <p>N e G. M OUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT !
+                    (C&lt;&gt;mspondants d Paris).</p>
                 <p>— à la Gazette (un an).... P.T. 150</p>
                 <p>— au Journal ;</p>
                 <p>— Un an. » 150</p>
@@ -350,7 +361,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0010">
                     <head>353. - Hekr. — Apport social d'un immeuble grevé d'un hekr; charge assumée
                         par l'associé; étendue; défaut (Tabligaction de rachat; cas de rachat du
                         hekr par la société; faculté pour elle de réclamer à l'apporteur la valeur
@@ -614,7 +625,7 @@
                             antérieurs à cette transaction...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0020">
                     <head>354. - Hekr. — Définition; nature du droit; nécessité de la transcription
                         et de la légalisation des signatures des contractants; faculté pour le
                         hekeriste de requérir un jugement destiné à lui servir de titre; étendue de
@@ -800,7 +811,7 @@
                     </div>
                 </div>
                 <pb n="382" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0030">
                     <head>355. - Hekr. — Obligation de garantie du vendeur d'un bien déclaré libre
                         de tout droit de hekr; responsabilité en cas d’existence d’un tel droit. —
                         Obligation de faire; inexécution; conversion en une somme d’argent; acheteur
@@ -968,7 +979,7 @@
                     </div>
                 </div>
                 <pb n="383" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0040">
                     <head>356. - Ilekr. — Preuve; recevabilité de l'action en paiement de la
                         redevance non subordonnée à la production du hodget constitutif, si le titre
                         du possesseur révèle le hekr; détermination de la redevance; hodget non
@@ -1064,7 +1075,7 @@
                             l’exploit introductif de l’instance compétemment introduite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0050">
                     <head>357. - Ilekr. — Rachat; refus du wakf; réclamation d'un prix de rachat
                         exorbitant; conséquences; vente; obligation du vendeur de dégrever
                         l'immeuble; impossibilité d’exécution; droit de l'acheteur;
@@ -1246,7 +1257,7 @@
                         <p>Ce déboutement rend sans objet l’appel incident.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0060">
                     <head>358. - Hekr. — Taux; augmentation; base de détermination; Tribunal
                         compétent. — Donation déguisée; validité.</head>
                     <div type="summary">
@@ -1336,7 +1347,7 @@
                             travaux faits par les occupants, aura pu obtenir depuis 1920.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0070">
                     <head>359. - Wakf.— Annulation; action basée sur l'art. 76 G. Civ.; conditions
                         d'exercice.</head>
                     <div type="summary">
@@ -1398,7 +1409,7 @@
                             1932, et 392 l’arrêt du 12 Janvier 1933. '</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0080">
                     <head>360. - Wakf. — Annulation; action basée sur l'art. 76 C. Civ.; conditions
                         d'exercice.</head>
                     <div type="summary">
@@ -1567,7 +1578,7 @@
                             l’arrêt du 12 Janvier 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0090">
                     <head>361. - Wakf. — Annulation; action basée sur l'art. 76 C. Civ.; conditions
                         d'exercice. — Intérêts; capitalisation; prescription quinquennale; cas où
                         elle n'est pas applicable.</head>
@@ -1691,7 +1702,7 @@
                             du 23 Mars 1933, et ci-après § 392 l’arrêt du 12 Janvier 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0100">
                     <head>362. - Wakf. — Annulation; action basée sur l'art. 237 C. Com.;
                         inadmissibilité; action basée sur l’art. 76 C. Civ.; &lt;conditions
                         d'exercice; compétence du Tribunal Civil même en cas de faillite; ■exception
@@ -1752,7 +1763,7 @@
                             mêmes parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0110">
                     <head>363. - Wakf. — Annulation; action basée sur la simulation par
                         interposition de personnes au moment de la constitution; compétence
                         théorique des Juridictions mixtes; sursis el renvoi au Mehkémeh Charieh. ■—
@@ -1943,8 +1954,8 @@
                             prête-nom du ) Sieur Guindi Mikhail, les terrains, objet de cet acte,
                             étant entrés, eux aussi, dans lé patrimoine dudit Sieur. Mais la
                             situation est ; complètement changée par l’existence du Hodget Charieh
-                            en date du 21 Juillet 1902, par > lequel la feu Dame Farida a constitué
-                            ces 19 feddans et fraction en wakf.</p>
+                            en date du 21 Juillet 1902, par &gt; lequel la feu Dame Farida a
+                            constitué ces 19 feddans et fraction en wakf.</p>
                         <p>La Dame Tomsich demande l’annulation de cette wakfieh, comme faite a non
                             domino:</p>
                         <p>■ c’est-à-dire l’acte de 1899 étant simulé, la propriété de ces 19
@@ -1984,7 +1995,7 @@
                             375 l’arrêt du 8 Novembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0120">
                     <head>364. - Wakf. — Bénéficiaires; droits de , leurs créanciers; décision
                         indigène ren-. due sur une question de propriété de '■ biens wakf s;
                         inopposabilité au sujet étranger invoquant un droit sur la part des revenus
@@ -2087,7 +2098,7 @@
                             ne rend pas l’action, telle qu’introduite, irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0130">
                     <head>365. - Wakf. — Bénéficiaires; droits de leurs créanciers sur les fruits;
                         limites en cas de décès du bénéficiaire.</head>
                     <div type="summary">
@@ -2157,7 +2168,7 @@
                             attaqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0140">
                     <head>366. - Wakf. — Constitution par longue possession; inadmissibilité. —
                         Réserves; portée au point de vue de la chose jugée.</head>
                     <div type="summary">
@@ -2235,7 +2246,7 @@
                             faute...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0150">
                     <head>367. - Wakf. — Constitution; publicité et preuve; formalités exigées,
                         depuis le Décret du 27 Mai 1897; nécessité de la transcription de l'acte
                         constitutif au registre Siguil.</head>
@@ -2331,7 +2342,7 @@
                         <p>Note. — V. ég. ci-après § 392 l’arrêt du 12 Janvier 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0160">
                     <head>368. - Wakf. — Constructions sur un terrain wakf; cas où elles ont été
                         élevées des dénier s du constituant; étendue de? droits de celui-ci; faculté
                         d'enlever le^ matériaux de construction; hypothèque, consentie sur les
@@ -2623,7 +2634,7 @@
                             Novembre 1931, et ci-après § 376 les deux arrêts du 10 Février 1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0170">
                     <head>369. - Wakf. — Echange autorisé par le Mehkémeh Charieh; inaliénabilité de
                         l'immeuble acquis par le nazir en remplacement des biens originairement
                         constitués en wakf; droits du vendeur, impayé: défaut de droit de suite;
@@ -2780,7 +2791,7 @@
                             indépendamment de la somme réclamée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0180">
                     <head>370. - Wakf. — Etendue du wakf; excèdent de mesurage; caractère 'wakf. —
                         Prescription en matière de wakf.</head>
                     <div type="summary">
@@ -2807,7 +2818,7 @@
                             l’arrêt du 14 Avril 1932 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0190">
                     <head>371. - Wakf. — Location; règles applicables par les Tribunaux mixtes; «Agr
                         El Misl»; action pour lésion intentée par le nazir bailleur; cas où le nazir
                         est seul bénéficiaire et cas où U est le constituant du wakf; admissibilité.
@@ -3082,7 +3093,7 @@
                     </div>
                 </div>
                 <pb n="395" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0200">
                     <head>372. - Wakf. — Location; séquestre de biens wakfs; autorisation de louer
                         émanant du Tribunal de droit commun qui a .nommé le séquestre;
                         admissibilité; location consentie au delà des limites autour sées;
@@ -3233,7 +3244,7 @@
                             son intégralité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0210">
                     <head>373. - Wakf. — Nationalité; personnalité distincte de celle du constituant
                         et de ses bénéficiaires; nationalité étrangère des bénéficiaires, sans
                         influence sur la sujétion locale du wakf constitué en Egypte sur des biens
@@ -3259,7 +3270,7 @@
                         <p>Note. — V. ci-après § 375, l’arrêt du 8 Novembre 1932, et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0220">
                     <head>374. - Wakf. — Nature; différence avec la substitution fidéicommissaire;
                         caractère sui generis; matière rentrant dans le statut réel immobilier;
                         différences avec le testament et la donation; applicabilité de la loi
@@ -3708,7 +3719,7 @@
                         <p>Note. — II, V et VI. - V. ci-après § 375 l’arrêt du 8 Novembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0230">
                     <head>375. - Wakf. — Nature; matière rentrant dans le statut réel; contestations
                         en matière de wakf; compétence; Juridictions mixtes; sursis à statuer et
                         renvoi au Mehkémeh Charieh. — Wakf; jugement d'un Tribunal consulaire
@@ -3953,7 +3964,7 @@
                             arrêts du 10 Février 1931, cités par l'arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0240">
                     <head>376. - Wakf. — Nature; matière rentrant dans le statut réel; contestations
                         en matière de wakf; compétence; Mehké-mehs Chariehs seuls compétents en
                         matière de constitution de wakf entre Egyptiens; compétence à l'égard des
@@ -4499,7 +4510,7 @@
                             contradictoires:</p>
                         <p>D’une part, qu’il n’y a pas d’interdiction pour les Tribunaux mixtes
                             (contrairement à ce qui a lieu pour les Tribunaux indigènes) de
-                            connaître des questions relatives aux >vakfs, même à leur
+                            connaître des questions relatives aux &gt;vakfs, même à leur
                             constitution.</p>
                         <p>D’autre part, qu’il s’agit d’une question touchant aux croyances des
                             musulmans (à tort ou à raison, mais ils sont seuls maîtres de leurs
@@ -4599,7 +4610,7 @@
                         <p>Cette famille ne bénéficie même pas d’une pension proprement dite.</p>
                         <p>Au cas seulement, où elle serait dans l'indigence il est prescrit de lui
                             donner un secours.</p>
-                        <p>Le mot « u/l" » signifie >&lt; pension » et signifie aussi « secours
+                        <p>Le mot « u/l" » signifie &gt;&lt; pension » et signifie aussi « secours
                             ».</p>
                         <p>Ce serait fausser l’intention du constituant que de s'attacher au premier
                             de ces sens</p>
@@ -4664,7 +4675,7 @@
                     </div>
                 </div>
                 <pb n="404" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0250">
                     <head>377. - Wakf. — Nazie; actes de gestion; responsabilité personnelle du
                         nazie. — Solidaeité; condamnation prononcée contre plusieurs co-débiteurs;
                         recours exercé par l'un d'eux, profitant aux seuls codébiteurs présents aux
@@ -4826,7 +4837,7 @@
                             XXI, 242-281, l’arrêt du 19 Décembre 1930.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0260">
                     <head>378. - Wakf. — Nazir; commandes de fournitures faites par le nazir de deux
                         wakfs sans désignation de celui auquel elles sont destinées; condamnation
                         des deux wakfs pour la totalité de la somme due au créancier.</head>
@@ -4925,7 +4936,7 @@
                             et à charge de la Delta Trading le quart.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0270">
                     <head>379. - Wakf. — Nazir; dédoublement de ses qualités; comparution
                         es-qualité; effets; condamnation personnelle prononcée contre le nazir à
                         défaut de toute conclusion requise contre, lui à ce titre; ultra petita
@@ -5004,7 +5015,7 @@
                             action contre les Sieurs El Gammal ès nom person-. nel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0280">
                     <head>380. - Wakf. — Nazir; pouvoir de gestion; étendue; clause attributive de
                         compétence au Tribunal mixte de tel lieu, statuant en dernier ressort;
                         validité.</head>
@@ -5088,7 +5099,7 @@
                             de l’exécution du contrat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0290">
                     <head>381. - Wakf. — Nazir; pouvoirs; droit d'emprunter; limites; dualité de
                         nazies; engagement émanant d'un seul nazir; inopposabilité au 'wakf.</head>
                     <div type="summary">
@@ -5138,7 +5149,7 @@
                         <p>Qu’il échet dans ces conditions d’infirmer le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0300">
                     <head>382. - Wakf. — Nazir; pouvoirs; droit d’emprunter; limites; opération
                         comportant la constitution d'une dette à charge du wakf; défaut de qualité
                         du nazir; nécessité d'une autorisation préalable du Cadi. — Vente de
@@ -5216,7 +5227,7 @@
                             recherché du chef de la vente des récoltes litigieuses.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0310">
                     <head>383. - Wakf. — Nazir; pouvoirs; limites; actes que le nazir est autorisé à
                         accomplir sans l'autorisation préalable du Cadi; « Khoulou El Intifaa »;
                         location à durée indéterminée d'un terrain wakf avec l'autorisation de
@@ -5416,7 +5427,7 @@
                             effectués ..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0320">
                     <head>384. - Wakf. — Nazir; pouvoirs; nullité de la location consentie par le
                         nazir seul bénéficiaire sans l'autorisation du cona-zir. — Wakf;
                         bénéficiaire interdit; levée de l'interdiction par décision du Meglis Hasby,
@@ -5490,7 +5501,7 @@
                             confirmé...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0330">
                     <head>385. - Wakf. — Nazir; représentation \ du wakf; décision rendue contre
                         lui; tierce opposition d'un bénéficiaire; irre-\ cevabilité.</head>
                     <div type="summary">
@@ -5544,7 +5555,7 @@
                             leur tierce opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0340">
                     <head>386. - Wakf. — Pension alimentaire; conditions d'octroi en cas de cession
                         des bénéfices.</head>
                     <div type="summary">
@@ -5561,8 +5572,8 @@
                     </div>
                     <div type="decision">
                         <p>Arrêt (extrait).</p>
-                        <p>Attendu que par exploit du 14 Janvier 1932, ’ le Crédit Immobilier
-                            Suisse Egyptien, aux ; poursuites et diligences de son Àdministra-(
+                        <p>Attendu que par exploit du 14 Janvier 1932, ’ le Crédit Immobilier Suisse
+                            Egyptien, aux ; poursuites et diligences de son Àdministra-(
                             teur-Directeur le Sieur Bernard Michel, re-! lève appel du jugement
                             rendu par le Tribu-! nal mixte du Caire, en date du It Décembre ; 1931,
                             B.C. 18038 A.J. LVT, en tant que cette ; décision a accordé à la Dame
@@ -5658,7 +5669,7 @@
                         <p>Note. — V. cep. ci-après § 387 les arrêts des 16 et 23 Février 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0350">
                     <head>387. - Wakf. — Pension alimentaire; conditions d'octroi en cas de cession
                         des bénéfices.</head>
                     <div type="summary">
@@ -5740,7 +5751,7 @@
                             cette nouvelle conception).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0360">
                     <head>388. - Wakf. — Pension alimentaire; conditions d'octroi en cas de cession
                         ou de saisie des bénéfices; tribunaux compétents pour y statuer; décisions
                         rendues en la matière; défaut de chose jugée; Tribunaux mixtes non liés par
@@ -5980,7 +5991,7 @@
                             1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0370">
                     <head>389. - Wakf. — Prescription de 33 ans; inaction du ivakf; conditions
                         nécessaires à l’accomplissement de la prescription; wakfs Khairis et Wakfs
                         Ahlis; règles communes. — Prescription quinquennale de l'art. 107 C. civ.;
@@ -6173,7 +6184,7 @@
                             1931.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0380">
                     <head>390. - Wakf. — Représentation en justice'; absence ou décès du nazir,
                         autorisant le bénéficiaire à agir directement contre les locataires. —
                         Juridiction mixte; continuation de poursuites commencées devant la
@@ -6347,7 +6358,7 @@
                             ci-après § 393 l’arrêt du 11 Mai 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0390">
                     <head>391. - Wakf. — Représentation, en justice; action dirigée contre une
                         partie seulement des nazirs; recevabilité; défaut d'action directe des tiers
                         contre les bénéficiaires.</head>
@@ -6395,7 +6406,7 @@
                             Pacha)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0400">
                     <head>392. - Wakf. — Représentation en justice; nazir seul qualifié pour agir au
                         nom du wakf; droit pour le débiteur exproprié de faire valoir que les biens
                         constitués en Wakf ne font plus partie de son patrimoine. — Wakf;
@@ -6521,7 +6532,7 @@
                         <p>IV. - V. ég. ci-avant § 367 l’arrêt du 6 Décembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0410">
                     <head>393. - Wakî. — Représentation en justice; séquestre judiciaire; qualité
                         pour agir en justice pour compte du wakf. — Wakf; nazir; changement survenu
                         en cours, d'instance, sans influence sur la nature de l'action engagée
@@ -6654,7 +6665,7 @@
                             l’arrêt du 25 Février J 932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0420">
                     <head>394. - Wakf. — Séquestre; cas où il n'y a pas lieu de l'ordonner.</head>
                     <div type="summary">
                         <p>Lorsque le nazir d’un wakf n’est pas personnellement débiteur des parties
@@ -6676,7 +6687,7 @@
                             Novembre 1931, 4 Décembre 1929, 22 Juin 1932 et 4 Février 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0430">
                     <head>395. - Wakf. — Séquestre; cas où il y lieu de limiter, la mesure au lot du
                         bénéficiaire débiteur.</head>
                     <div type="summary">
@@ -6705,7 +6716,7 @@
                             Février 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0440">
                     <head>396. - Wakf. — Séquestre; cas où il y a lieu de l'ordonner.</head>
                     <div type="summary">
                         <p>La mise sous séquestre d’un wakf dans l’intérêt des créanciers d’un
@@ -6722,7 +6733,7 @@
                             4 Février 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0450">
                     <head>397. - Wakf. — Séquestre; cas où il y a lieu de l'ordonner; demande;
                         inutilité de la mise en cause des bénéficiaires; Tribunal compétent. —
                         Exception de nullité d'un acte introductif d'instance; moyen soulevé pour la
@@ -6753,7 +6764,7 @@
                             4 Février 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1933-10-0460">
                     <head>398. - Wakf. — Séquestre; cas où il y lieu de l’ordonner; limites.</head>
                     <div type="summary">
                         <p>La nomination d’un séquestre de biens wakfs est une mesure exceptionnelle

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0019-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0019-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1929-10-10">October 10, 1929</date><lb/>
-                    <biblScope unit="volume">Vol. 19</biblScope><lb/>
-                    <biblScope unit="number">No. 228</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1929-10-10">October 10, 1929</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 19</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 228</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -277,7 +288,7 @@
             <pb n="263" rendition="Gazette des Tribunaux Mixtes d’Egyple."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0010">
                     <head>259. - Hekr. — Augmentation du taux; base d'évaluation.</head>
                     <div type="summary">
                         <p>Dans l’évaluation du montant auquel il y a lieu d’élever un hekr, c’est
@@ -316,7 +327,7 @@
                             acceptée par les parties...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0020">
                     <head>260. - Hekr. — Constitution sur un immeuble «mulk»; admissibilité.</head>
                     <div type="summary">
                         <p>Le hekr peut avoir pour objet un immeuble libre aussi bien qu’un immeuble
@@ -332,7 +343,7 @@
                             le jugement rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0030">
                     <head>261. - Hekr. — Droit de «karar» quant aux constructions élevées sur un
                         terrain; location annuelle dudit terrain; portée; cas où il s'agit d'une
                         concession perpétuelle; existence d'un véritable droit de hekr au profit du
@@ -527,7 +538,7 @@
                             à l’art. 378 du Code de Kadri Pacha.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0040">
                     <head>262. - Hekr. — Précarité de la possession; preuve. — Hekeriste; possession
                         précaire; caractère discutable. — Hekr; prescription par 33 ans;
                         irrecevabilité de la revendication du droit de hekr.</head>
@@ -639,7 +650,7 @@
                             qu’elle est soulevée par l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0050">
                     <head>263. - Wakf. — Action paulienne; condition d'exercice; insolvabilité du
                         débiteur provenant de la constitution du wakf, non établie; inadmissibilité
                         de l'action. — Action de in rem verso; travaux et fournitures exécutés avant
@@ -750,7 +761,7 @@
                             exclut toute possibilité d’intérêts antérieurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0060">
                     <head>264. - Wakf. — Annulation par voie d'action oblique; admissibilité. —
                         Action oblique; faculté d'exercice cumulativer ment avec une action
                         personnelle au créancier, tendant au même but. — Sur brogation judiciaire;
@@ -790,7 +801,7 @@
                             Vassoe Vassiliou et Cta c. Boules Rizkallah et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0070">
                     <head>265. - Wakf. — Constructions et plantations sur un terrain wakf;
                         conditions pour leur nature. de wakf; affectation hypothécaire grevant ces
                         constructions; preuve de la propriété incombant au créancier agissant en
@@ -882,7 +893,7 @@
                             contestation par le nazir de ce wakf.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0080">
                     <head>266. - Wakî. — Jugement d’adjudication ayant passé outre à l'exception
                         basée sur la nature du bien wakf; chose jugée limitée à l'opportunité de la
                         vente; action principale en revendication introduite ultérieurement;
@@ -929,7 +940,7 @@
                         <p>Attendu que la présente revendication; 'est basée sur une wakfieh dressée
                             au Caire le 1er Mars 1903, et transcrite en extrait le même jour à
                             Dékernes, chose suspecte, aux dires des intimés, vu la distance entré
-                            ces deux- villes; >7;</p>
+                            ces deux- villes; &gt;7;</p>
                         <p>Mais attendu que sans s’arrêter aüxkch'-eonstances extérieures de cette
                             wakfieh,;.il suffit de constater que le constituant, bénéficiaire et
                             nazir, était déjà débiteur des poursuivants au moment de la.
@@ -960,7 +971,7 @@
                             l’art. 76 du Code Civil Mixte susdit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0090">
                     <head>267. - Wakf. — Juridiction mixte; compétence pour l'interprétation d'une
                         wak-jieh, sur une question de fait.</head>
                     <div type="summary">
@@ -979,7 +990,7 @@
                             Clémence Mikhaïl c. S. E. Mahmoud Pacha Sidky).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0100">
                     <head>268. - Wakf. — Nationalité; détermination; nationalité du nazir sans
                         influence sur la nationalité du wakf; existence de bénéficiaires étrangers
                         n'entraînant pas compétence des Tribunaux mixtes à connaître d'un litige
@@ -1098,7 +1109,7 @@
                             Hindi à l’encontre du Wakf Hassan Kothoda El Chaaraoui... ■ -</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0110">
                     <head>269. - Wakf. — Nazir; gestion du wakf; mandataire substitué; légitimité. —
                         Rémunération du tiers substitué.</head>
                     <div type="summary">
@@ -1186,7 +1197,7 @@
                         <p>(Omissis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0120">
                     <head>270. - Wakf. — Nazir; responsabilité; faute de gestion; applicabilité du
                         droit musulman; caractère du mandat du nazir; conséquence juridique;
                         révocation pour faute grave; négligences; détermination; nécessité de
@@ -1672,7 +1683,7 @@
                             point.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0130">
                     <head>271. - Wakf. — Prescription applicable; inadmissibilité de la prescription
                         civile ordinaire; prescription de 33 ans seule applicable. — Wakf;
                         institution relevant du statut religieux. — Wakfieh; conflit entre les
@@ -1976,7 +1987,7 @@
                             résultant d’un billet souscrit par Osman Pacha Galeb Je 19 Novembre 1895
                             pour L.E. 639,07 à l’ordre du Prince Halim;</p>
                         <p>Attendu que la Cour a examiné ladite exception en tant qu’elle se basait
-                            sur les créances de la Bank of Egypt, qui était représentée ei> cause
+                            sur les créances de la Bank of Egypt, qui était représentée ei&gt; cause
                             par The Commercial &amp; Estâtes, et l’a rejetée, parce que les Moursi
                             mêmes avouaient n’avoir sur l’antérorité de ces créances que de vagues
                             présomptions, mais elle n’a pas examiné l’exception en tant que basée
@@ -2243,8 +2254,9 @@
                             leur affirmation par des pièces qui paraissaient irréfutables.</p>
                         <p>(Omissis).</p>
                         <p>...Ainsi The Mortgage Cy n’a pu douter des droits de propriété
-                            de-sës>débiteurs dont la possession depuis de longues années lui a été
-                            amplement établie et sa bonne foi est hors de toute discussion...</p>
+                            de-sës&gt;débiteurs dont la possession depuis de longues années lui a
+                            été amplement établie et sa bonne foi est hors de toute
+                            discussion...</p>
                         <p>(Omissis).</p>
                         <p>III.</p>
                         <p>Il serait inutile d’investiguer quelle a été la situation des étrangers
@@ -2367,7 +2379,7 @@
                         <p>Par conséquent l’opposition est à rejeter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0140">
                     <head>272. - Wakf. — Revendication; jugement prononcé au profil du nazir, décédé
                         en cours d'instance; nullité; caractère relatif; conséquences. — Juridiction
                         mixte; compétence en matière de Statut personnel; limites; examen de la
@@ -2376,9 +2388,9 @@
                         ou des chefs de jugements définitifs au fond. — Jugement ayant rejeté , une
                         exception de fond; inopposabilité à une partie en cause en une nouvelle qua-
                         '' lité. — Wakf; inaction; prescription de . 33 ans; point de départ. —
-                        Désistement -, d'instance; nullité des jugements inter- > locataires et des
-                        expertises faites en ver- ’ lu de ces derniers; caractère d'éléments &lt; de
-                        preuve. — Droit musulman; concessions à long terme; transfert au
+                        Désistement -, d'instance; nullité des jugements inter- &gt; locataires et
+                        des expertises faites en ver- ’ lu de ces derniers; caractère d'éléments
+                        &lt; de preuve. — Droit musulman; concessions à long terme; transfert au
                         concessionnaire du domaine utile ou d'un droit réel de superficie;
                         conséquences. — Wakf; constitution sur un immeuble reçu en hekr;
                         validité.</head>
@@ -2691,7 +2703,7 @@
                             faire droit à la revendication...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1929-10-0150">
                     <head>273. - Wakf. —. Séquestre; demande en nomination; parties en cause, de
                         nationalité égyptienne; existence d’un étranger créancier d’un des
                         bénéficiaires du wakf; défaut de mise en cause de ce dernier; incompétence

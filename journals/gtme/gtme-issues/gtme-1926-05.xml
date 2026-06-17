@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0016-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0016-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1926-05-10">May 10, 1926</date><lb/>
-                    <biblScope unit="volume">Vol. 16</biblScope><lb/>
-                    <biblScope unit="number">No. 187</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1926-05-10">May 10, 1926</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 16</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 187</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -61,7 +72,7 @@
                 <p>— Six mois............... » 85</p>
                 <p>— Trois mois.......... » 50</p>
                 <p>— aux deux publications</p>
-                <p>réunies (un an)....... > 250</p>
+                <p>réunies (un an)....... &gt; 250</p>
                 <p>Administrateur-Gérant :</p>
                 <p>Joseph Gazaleh</p>
                 <p>Pour la Publicité:</p>
@@ -274,7 +285,7 @@
             <pb n="181" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0010">
                     <head>192. - Propriété industrielle. — Atteinte résultant d'une mesure de
                         guerre; interprétation restrictive de ces mesures; Allemagne; vente de biens
                         alliés; conséquences. — Marques de fabrique; contrefaçon; usage illicite;
@@ -719,7 +730,7 @@
                             droit légitime.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0020">
                     <head>193. - Propriété industrielle. — Brevet 'd'invention; propriété reconnue
                         en E-gypte aux inventeurs; conditions; dépôt au Greffe; effets; portée;
                         conditions.</head>
@@ -742,7 +753,7 @@
                             et XXXI, 264) cités par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0030">
                     <head>194. - Propriété industrielle. — Concurrence déloyale; contrefaçon;
                         marques de fabrique; empaquetages; ressemblances et dissemblances;
                         cigarettes; confusion possible.</head>
@@ -827,7 +838,7 @@
                             montant à la somme de L.E. 100.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0040">
                     <head>195. - Propriété industrielle. — Concurrence déloyale; contrefaçon;
                         marques de fabrique; empaquetages; ressemblances et dissemblances; confusion
                         possible; papier à cigarettes; marchandises non destinées à la vente.</head>
@@ -976,7 +987,7 @@
                             et français affectés à la publication des annonces judiciaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0050">
                     <head>196. - Propriété industrielle. — Concurrence déloyale; contrefaçon;
                         revente de produits contrefaits; détaillant de bonne foi; présomption de
                         mauvaise foi; concurrence non déloyale mais illicite; simple négligence;
@@ -1140,7 +1151,7 @@
                             condamnation mise à sa charge.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0060">
                     <head>197. - Propriété industrielle. — Contrefaçon; action en dommages-intérêts
                         contre les revendeurs; défaut de mise en cause du fabricant étranger de
                         l’article contrefait; non nécessité d'une telle mise en cause. — Marques de
@@ -1297,7 +1308,7 @@
                             attendaient incessamment de ces cartes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0070">
                     <head>198. - Propriété industrielle. — Dénomination; concurrence déloyale;
                         action recevable contre le commissionnaire ayant mis en vente en Egypte les
                         articles incriminés; mention sur une note de commandes d'une dénomination ou
@@ -1481,7 +1492,7 @@
                             dédommagée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0080">
                     <head>199. - Propriété industrielle. — Dénomination; désignation d'usage
                         général; simple adjonction de provenance ou de qualité; défaut de droit
                         privatif. — Marque de fabrique; étiquette; banalité. — Concurrence déloyale;
@@ -1634,7 +1645,7 @@
                     </div>
                 </div>
                 <pb n="189" rendition="Gazette des Tribunaux Mixtes d’Egypte,"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0090">
                     <head>200. - Propriété industrielle. — Dénomination. — Marques de fabrique;
                         cigarette portant le nom d'un hôtel; vente dans cet hôtel, et sur
                         recommandation de celui-ci, en Egypte et à l'étranger; droit acquis pour’le
@@ -1775,7 +1786,7 @@
                             cigarette elle-même.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0100">
                     <head>201. - Propriété industrielle. — Dénomination; terme de fantaisie,
                         susceptible d'un droit privatif; usurpations n'établissant pas que la
                         dénomination serait tombée dans le domaine public.</head>
@@ -1796,7 +1807,7 @@
                             Salem &lt;t Co. e. Hassan Ahmed El Assal et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0110">
                     <head>202. - Propriété industrielle.— Marques de fabrique; contrefaçon;
                         concurrence déloyale en Egypte; défaut de chose jugée dérivant d'un jugement
                         étranger entre parties au sujet des mêmes marques.</head>
@@ -1823,7 +1834,7 @@
                             Arcifiriglio A Co. c. Nicolas Seferidis ou Sefe-roglon).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0120">
                     <head>203. - Propriété industrielle. — Marques de fabrique; contrefaçon;
                         imitation déloyale; droit de l'acheteur trompé; imitation d'une marque pour
                         servir à des produits similaires; marque appartenant à un fabricant de
@@ -2135,7 +2146,7 @@
                             dépens pour suivre le sort de la cause au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0130">
                     <head>204. - Propriété industrielle. — Marques de fabrique; dessins et modèles
                         industriels; notion de la nouveauté; dessins basés sur des éléments connus;
                         usage privatif; contrefaçon. — Dépôt de dessins au Greffe; durée de la
@@ -2176,8 +2187,8 @@
                             saisissant n’est pas sérieusement discuté.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Ord. Juge Serv, Caire, Prés. AL II. Houriet, 2 Avril 1926. — Société
-                            des Echarpes Egyptiennes c. Ch. G. Zaffiri &amp; Fils c. Chas. God.dk 11
+                        <p>(Ord. Juge Serv, Caire, Prés. AL II. Houriet, 2 Avril 1926. — Société des
+                            Echarpes Egyptiennes c. Ch. G. Zaffiri &amp; Fils c. Chas. God.dk 11
                             &amp; Son Ltd.).</p>
                     </div>
                     <div type="observations">
@@ -2459,7 +2470,7 @@
                             l’opposante de cette déclaration.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0140">
                     <head>205. - Séquestre Officiel des biens ennemis en Egypte. — Loi martiale;
                         abrogation;. «.bill d'indemnité» du 5 Juillet 1923; réserve des pouvoirs
                         antérieurement conférés au Public Custodian;main-tien de sa qualité pour la
@@ -2549,7 +2560,7 @@
                             l’action recevable en la forme.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0150">
                     <head>206. - Séquestre Officiel des biens ennemis en Egypte. — Loi martiale;
                         liquidation des biens des sujets ennemis; validité des mesures prises en
                         vertu de la loi martiale; reconnaissance de l'état de sièqe par les
@@ -2682,7 +2693,7 @@
                             dits honoraires dans les proportions indiquées ci-après.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1926-05-0160">
                     <head>207. - Séquestre Officiel des biens ennemis en Egypte. — Représentation en
                         justice; biens libérés; cessation de sa qualité.</head>
                     <div type="summary">
@@ -2815,7 +2826,7 @@
                 <p>1. ) Toute personne qui déplacerait, oblité-</p>
                 <p>rerait, altérerait ou endommagerait, avant la 1 date officiellement annoncée de
                     la fin du re- „ censément, les lettres, marques ou numéros apposés, inscrits ou
-                    peints pour les besoins > de cette opération; ■[</p>
+                    peints pour les besoins &gt; de cette opération; ■[</p>
                 <p>2. ) Toute personne qui refuserait ou négli- !'■</p>
                 <p>gérait de fournir dans les délais indiqués à l’article 2 du présent arrêté, les
                     informations visées par le bulletin du recensement ou qui donnerait sciemment
@@ -3061,7 +3072,7 @@
                     affecter les revenus municipaux, sur les taxes arriérées, etc.;</p>
                 <p>«(m) L’approbation des devis des travaux dont le coût dépasse L.E. 500, de toute
                     proposition tendant à passer outre à une adjudication publique pour achat,
-                    fourniture ou confection de travaux au-dessus de L.E. 1(H>. ainsi que des
+                    fourniture ou confection de travaux au-dessus de L.E. 1(H&gt;. ainsi que des
                     marchés et adjudications publiques dont la valeur dépasse L.E. 1.000;</p>
                 <p>«(zi) L’approbation, en vue de la sanction du Président, de toute proposition du
                     Directeur Général concernant la nomination dans le personnel municipal qui

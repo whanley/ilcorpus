@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0027-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0027-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1937-04-10">April 10, 1937</date><lb/>
-                    <biblScope unit="volume">Vol. 27</biblScope><lb/>
-                    <biblScope unit="number">No. 318</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1937-04-10">April 10, 1937</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 27</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 318</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -54,8 +65,8 @@
                 <p>Somité de Rédaction et d’Hdministration :</p>
                 <p>M* L. PANGALO et R. 8CHEMEIL {Directeurs au Caire)</p>
                 <p>M" B. DEGIARDÉ et LUCIEN BARDA (Secrétaires de la rédaction).</p>
-                <p>M. A. FADEL (Directeur à Uansourah). M- F. BRAUN > fComspQndan!s à Paris),</p>
-                <p>Me G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT ></p>
+                <p>M. A. FADEL (Directeur à Uansourah). M- F. BRAUN &gt; fComspQndan!s à Paris),</p>
+                <p>Me G. MOUCHBAHANI (Correspondant à Port-Saïd). Me J. LAÇAT &gt;</p>
                 <p>ABONNEMENTS :</p>
                 <p>~ à la Gazette (un an), P.T. 150</p>
                 <p>— au Journal :</p>
@@ -185,7 +196,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0010">
                     <head>159. - Action possessoire. — Complainte; servitude de passage; trouble;
                         action possessoire du propriétaire enclavé; conditions d'exercice.</head>
                     <div type="summary">
@@ -231,7 +242,7 @@
                             clôture.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0020">
                     <head>160. - Action possessoire. — Complainte; trouble de droit résultant de la
                         signification d'un exploit d'huissier faisant défense de modifier un mur;
                         admissibilité de l'action en complainte. — Complainte; objet et conditions
@@ -341,7 +352,7 @@
                         <p>B) L’appel incident vient par conséquent à manquer d’objet.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0030">
                     <head>161. - Action possessoire. — Juridiction Mixte; compétence à connaître
                         u.tine action en réintégrande entre indigènes en cas de dépossession
                         résultant de l'exécution d'un jugement d adjudication prononcé par un
@@ -430,7 +441,7 @@
                         <p>Il échet donc d’infirmer le jugement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0040">
                     <head>162. - Action, possessoire. — Possession; preuve; délimitation au moyen de
                         piquets de bois; caractère suffisant.</head>
                     <div type="summary">
@@ -499,7 +510,7 @@
                             introduite dès le mois de Septembre 1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0050">
                     <head>163. - Action possessoire. ■— Réinté-grande; cas de dépossession du
                         bailleur par suite de menaces contre ses locataires.</head>
                     <div type="summary">
@@ -570,7 +581,7 @@
                             rejeter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0060">
                     <head>164. - Action possessoire. — Réintégrande; constitution d’un gardien sur
                         les terrains d’autrui, pouvant donner ouverture à la réintégrande.</head>
                     <div type="summary">
@@ -583,7 +594,7 @@
                             Hugon Bresson c. Naima Ahmed Hamdi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0070">
                     <head>165. - Action possessoire. — Réinté-tégrande; objet; personnes à qui elle
                         est ouverte; disparition du trouble de fait mettant fin à l'action. &lt;—
                         Complainte; conversion de l'action en réintégrande en action en complainte;
@@ -659,7 +670,7 @@
                             d’agir, le cas échéant, au pétitoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0080">
                     <head>166. - Servitudes. ■— Servitude de passage; droit qu'elle comporte. —
                         Servitude non ædificandi; droit qu'elle comporte.</head>
                     <div type="summary">
@@ -789,7 +800,7 @@
                             déféré mérite confirmation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0090">
                     <head>167. - Servitudes. — Servitude de passage; occupation abusive d'une rue
                         privée; action en cessation de trouble; caractère pétitoire.</head>
                     <div type="summary">
@@ -843,7 +854,7 @@
                             la connaissance n’appartient pas à la juridiction du juge sommaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0100">
                     <head>168. - Servitudes. — Servitude de vue; convention non transcrite; effets
                         entre parties.</head>
                     <div type="summary">
@@ -885,7 +896,7 @@
                             lieu de faire droit à cette demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0110">
                     <head>169. - Servitudes. — Servitude de vue; jours de tolérance; conditions
                         d'admissibilité; usages; limite.</head>
                     <div type="summary">
@@ -1017,7 +1028,7 @@
                             pas lieu de procéder à une enquête.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0120">
                     <head>170. - Servitudes. — Servitude de vue; vues obliques; défaut de distance
                         légale.</head>
                     <div type="summary">
@@ -1092,7 +1103,7 @@
                             rappr. arrêt du 9 Novembre 1922, Gaz., XIII, 126-216.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-04-0130">
                     <head>171. - Servitudes. — Servitude légale de pass'age; appréciation de ïétat
                         d'enclave; fonds au préjudice duquel le passage doit être établi; indemnité;
                         fixation; modalités; propriétaires qualifiés pour utiliser le passage créé
@@ -1376,8 +1387,8 @@
                         <p>Aussi bien la parole de S.E. Zaghloul pacha n’était-elle que la
                             réaffirmation, dans l’ordre législatif et judiciaire, du « programme
                             politique » présenté à Lausanne par la Délégation Egyptienne, et qui, en
-                            toute première ligne, comportait >> rélargissement de la compétence des
-                            Tribunaux Mixtes ».</p>
+                            toute première ligne, comportait &gt;&gt; rélargissement de la
+                            compétence des Tribunaux Mixtes ».</p>
                         <p>Nul ne pouvait d’ailleurs se méprendre sur la portée exacte de la
                             terminologie employée par Saad pacha Zaghloul lorsqu’il envisageait «
                             l’édifice capitulaire futur », chacun comprenant fort bien que le grand
@@ -2014,7 +2025,7 @@
                         <p>paration pour d’autres carrières, soit à un moment où la durée de leur
                             carrière professionnelle aurait été insuffisante pour leur permettre de
                             se constituer d’autres revenus.</p>
-                        <p>l>. — L’exercice do la profession d’avocat implique, plus encore que
+                        <p>l&gt;. — L’exercice do la profession d’avocat implique, plus encore que
                             celui de toute autre profession libérale, le maintien par les membres du
                             Barreau d’un minimum de &lt;i standing » social. Les conditions do vie
                             exigées par une telle situation sociale et adoptées par la plupart des

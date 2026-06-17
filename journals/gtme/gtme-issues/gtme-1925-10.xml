@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1925-10-10">October 10, 1925</date><lb/>
-                    <biblScope unit="volume">Vol. 15</biblScope><lb/>
-                    <biblScope unit="number">No. 180</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1925-10-10">October 10, 1925</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 15</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 180</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -353,7 +364,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0010">
                     <head>360. - Donation. — Meubles; délivrance; transfert de titres en banque. —
                         Donation entre époux; règles applicables dépendant du statut personnel du
                         mari, sufet local, de race grecque et de religion catholique: statut
@@ -483,7 +494,7 @@
                     </div>
                 </div>
                 <pb n="240" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0020">
                     <head>361. - Partage. — Droits des créanciers; inadmissibilité d'une opposition
                         au principe même du partage. — Stipulation comportant restriction du droit
                         de procéder au partage; nullité.</head>
@@ -570,7 +581,7 @@
                             pour prévenir cette éventualité?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0030">
                     <head>362. - Partage. — Evaluation des biens; conditions. — Stjstème de partage
                         non basé sur l'égalité des lots; admissibilité en droit mixte.</head>
                     <div type="summary">
@@ -684,7 +695,7 @@
                             avant! i primi giudici pel corso ulteriore dei giudizio.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0040">
                     <head>363. - Partage. — Parties nécessaires aux débats; appel; intimation;
                         irrecevabilité. — Jugement entérinant une expertise aux fins de partage;
                         copropriétaire ■ayant pris part sans réserves au tirage au sort;
@@ -704,7 +715,7 @@
                             Chamla c. Haïm Chamla et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0050">
                     <head>364. - Préemption. — Acquéreur ayant bénéficié d'un prix de faveur; vente
                         néanmoins susceptible de préemption.</head>
                     <div type="summary">
@@ -816,7 +827,7 @@
                             testimoniale articulée ainsi que ci-dessous...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0060">
                     <head>365. - Préemption. — Biens grevés de hekr. — Préemption d'un terrain hekr;
                         admissibilité. — Préemption exercée par le propriétaire d'un terrain grevé
                         de hekr; préemption exercée par le propriétaire d'un immeuble élevé sur un
@@ -968,7 +979,7 @@
                             qui devra être mise à la charge de la demanderesse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0070">
                     <head>366. - Préemption. — Communication verbale de la vente au voisin:
                         félicitations par ce dernier; formule de politesse n'impliquant pas
                         renonciation à la préemption. — Délai de l'action en préemption; point--de
@@ -1153,7 +1164,7 @@
                             être leur conviction en la bonté de leur cause. Dura lex, sed lex.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0080">
                     <head>367. - Préemption. — Construction élevée sur le terrain d'autrui;
                         location; préemption inadmissible. — Droit de superficie; preuve. — Demande
                         subsidiaire écartée par les premiers luges; effet dévolutif de l'appel. —
@@ -1251,7 +1262,7 @@
                         <p>Et le droit de superficie étant une servitude grevant l’immeuble
                             d’autrui, il doit être -établi, s'il n’est pas acquis par prescription,
                             par une convention formelle réglant ses conditions (arrêt 20 Avril 1916,
-                            Bull. XXVIII, X66). Tel n’est pas le cas en l’espèce, régie J>àr une
+                            Bull. XXVIII, X66). Tel n’est pas le cas en l’espèce, régie J&gt;àr une
                             convention dont les clauses excluent a constitution d’un droit
                             quelconque de ser</p>
                         <p>vitude en faveur du locataire et ne lui accordent qu’un droit précaire de
@@ -1343,7 +1354,7 @@
                             appelante pour l’acceptation de son offre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0090">
                     <head>368. - Préemption. — Défaut d'assignation régulière au vendeur;
                         assignation donnée au mandataire du vendeur; pouvoirs insuffisants de ce
                         dernier; mise en cause du mandant; ratification par ce dernier de
@@ -1414,7 +1425,7 @@
                             Richmond pour l’aliénation de sa propriété de Mazarita il n’y avait pas
                             celui d’ester en justice;</p>
                         <p>Attendu qu’il s’ensuit que — le Sieur Richmond n’ayant pas qualité pour
-                            représenter •en justice Sir Alderson — celui-ci ne peut Î>as être
+                            représenter •en justice Sir Alderson — celui-ci ne peut Î&gt;as être
                             considéré comme ayant été mis va-ablement en cause par le dit exploit,
                             dans le délai prescrit;</p>
                         <p>Attendu que le bien fondé de la déchéance invoquée est donc évident;</p>
@@ -1464,7 +1475,7 @@
                             attaqué, sans procéder à l’examen des autres exceptions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0100">
                     <head>369. - Préemption. — Demande conditionnelle; inadmissibilité. — Offre de
                         prix inférieure au prix indiqué dans l'acte; inadmissibilité.</head>
                     <div type="summary">
@@ -1513,7 +1524,7 @@
                             couvrir la déchéance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0110">
                     <head>370. - Préemption. — Pluralité d'acheteurs; conflit; rétrocession par l'un
                         des acheteurs à son coacheteur; inopposabilité au préempteur. — Acheteur;
                         droit d'opposer au préempteur son propre droit de préemption; formalités
@@ -1665,7 +1676,7 @@
                             Tégard de laquelle le retrait pourrait être exercé. :</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0120">
                     <head>371. - Préemption. — Prescription de six mois; calcul du délai d'après le
                         calendrier arabe. — Retrait d'indivision; étendue en droit mixte; exercice
                         en cas de revente.</head>
@@ -1761,7 +1772,7 @@
                             Chérif.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0130">
                     <head>372. - Préemption. — Servitude de drainage; canalisations d'utilité
                         commune ne donnant pas ouverture au droit de préemption. — Appel; recours
                         dirigé contre le jugement définitif seulement; .chose jugée sur les
@@ -1853,7 +1864,7 @@
                             rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0140">
                     <head>373. - Préemption. — Terrains agricoles; contiguïté de deux terrains
                         préempteurs avec le terrain préempté; inadmissibilité. — Servitude;
                         existence incontestable nécessaire pour l'exercice du droit de préemption.
@@ -1926,7 +1937,7 @@
                             d’autres motifs a rejeté la demande de rappelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0150">
                     <head>374. - Préemption. — Voisinage; contiguïté d'un seul côté; condition
                         suffisante pour les terrains à bâ'ir; vente portant sur un grand nombre de
                         parcelles; existence d'un plan de lotissement; divisibilité des biens
@@ -2037,10 +2048,10 @@
                             litigieuse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0160">
                     <head>375. - Retrait d’indivision. — Droits dw sous-acquéreur; remboursement du
                         prix-et des loyaux coûts; droit aux intérêts. — Débats; conclusions déposées
-                        après leur clôture; >effets juridiques. — Demande; désistement tardif;
+                        après leur clôture; &gt;effets juridiques. — Demande; désistement tardif;
                         contrat judiciaire.</head>
                     <div type="summary">
                         <p>I. - Les conclusions déposées après clôture des débats ne peuvent être
@@ -2091,7 +2102,7 @@
                             Juillet 1919, sans avoir égard à la revente-partielle consentie à
                             l’appelant, et ce contre-payement du prix pour le montant de L.E. 7000,
                             dont L.E. 100 aux Hoirs Bertrand, ou pour eux à l’appelant, et L.E. 6900
-                            à la su&lt;> cession de la Dame Ramzi Hanem représentée par son
+                            à la su&lt;&gt; cession de la Dame Ramzi Hanem représentée par son
                             séquestre. Et par jugement en date du 27 Novembre 1923 la demande en
                             retrait de l’indivision à l’égard des Hoirs Joseph Bertrand a été
                             accueillie, contre payement. du prix à raison de P. T. 70 le pic carré,
@@ -2222,7 +2233,7 @@
                             solde du prix de son achat. ;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0170">
                     <head>376. - Vente avec stipulation de «réservât! dominai». — Machine agricole;
                         installation sur le terrain de l'acheteur; transfert provisoire de la
                         propriété du sol au vendeur. — Jugement obtenu par lè vendeur pour le
@@ -2359,7 +2370,7 @@
                             saisie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0180">
                     <head>377. - Vente. — Contrat préliminaire; action en résiliation basée sur le
                         défaut de justification de la propriété du vendeur; admissibilité. — Contrat
                         définitif; éviction autorisant seule la résiliation.— Société civile;
@@ -2785,7 +2796,7 @@
                             est restée presque dans l’ombre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0190">
                     <head>378. - Vente. — Convention modificative des conditions de paiement; retard
                         dans l'acceptation de l'acheteur; défaut de sanction résolutoire expresse;
                         condition résolutoire tacite; pouvoir souverain d'appréciation du
@@ -2886,7 +2897,7 @@
                             somme d’environ L.E. 15.500...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0200">
                     <head>379. - Vente. — Convention portant sur des biens à acquérir aux enchères
                         publiques; validité; écrit unique; caractère synallagmatique; respect de la
                         liberté des enchères; exécution; résiliation.</head>
@@ -3029,7 +3040,7 @@
                             terrains vendus,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0210">
                     <head>380. - Vente. — Courtage; usage; cas de non réalisation du contrat;
                         indemnité due au courtier par la partie défaillante; arbitrage du juge. —
                         Mandat. — Mandant non révélé. — Engagement direct et personnel du
@@ -3063,7 +3074,7 @@
                             27 Janvier 1925. — André Bagnara c. Albert Schinazi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0220">
                     <head>380. - Vente. — Défaut de livraison d'une partie de la chose; action en
                         réduction du prix; prescription annale inapplicable. — Restitution de sommes
                         indûment retenues; intérêts compensatoires; point de départ; mise en demeure
@@ -3211,7 +3222,7 @@
                             livrée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0230">
                     <head>381. - Vente. — Déficit; action en résiliation; fins de non recevoir;
                         vérification idu takclif; mesurage; connaissance de Terreur par l'acheteur;
                         ventes faites conformément au takclif; garantie générale du vendeur;
@@ -3432,7 +3443,7 @@
                             que les premiers juges l’ont débouté de sa demande subsidiaire...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0240">
                     <head>383. - Vente.— Eviction; existence d’un hekr sur l’immeuble vendu;
                         dommages-intérêts dus par le vendeur; mode de détermination; sursis jusqu'à
                         la fixation de la valeur de rachat. — Juridiction Mixte; compétence en
@@ -3615,7 +3626,7 @@
                             la plus diligente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0250">
                     <head>384. - Vente. — Eviction; plus-value: calcul; restitution du prix; droit
                         du sous-acquéreur; possesseur de mauvaise foi; obligation de restituer les
                         revenus; moment où cesse la bonne foi; présomption ■de bonne foi; droit aux
@@ -3667,7 +3678,7 @@
                             Pandectes Françaises, au mot Vente, Nos 1642 et suivant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0260">
                     <head>385. - Vente. — Eviction; possesseur; obligation de restituer les fruits
                         au véritable propriétaire à partir de la revendication; dénonciation de
                         dépôt de cahier des charges équivalant à une mise en demeure. — Quasi-délit;
@@ -3794,7 +3805,7 @@
                             acheteurs...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0270">
                     <head>386. - - Vente. — Eviction; recours en garantie; prescription; point de
                         départ.</head>
                     <div type="summary">
@@ -4003,14 +4014,14 @@
                             longtemps:</p>
                         <p>Que quant à l’action en garantie, celle-ci est également éteinte en.
                             vertu de l’art. 272 dm même Code qui stipule que: «les obligations;*
-                            «sauf les exceptions ci-après et ' celles qui> «sont spécifiées par la
-                            loi dans les cas particuliers se prescrivent par quinze années»; il n’y
-                            a aucune exception quelconque en faveur de l’action en garantie;</p>
+                            «sauf les exceptions ci-après et ' celles qui&gt; «sont spécifiées par
+                            la loi dans les cas particuliers se prescrivent par quinze années»; il
+                            n’y a aucune exception quelconque en faveur de l’action en garantie;</p>
                         <p>Qu’en vain Aghion cherche à se prévaloir du texte de l’art. 2257 du Code
                             Civil Iran-1 çais (texte qui, d’ailleurs, n’a point été reproduit par
                             les Codes Mixtes) stipulant que: «la prescription ne court point... à
                             l’égard «d’une action en garantie jusqu’à ce que l’é-«viction ait eu
-                            lieu»; ></p>
+                            lieu»; &gt;</p>
                         <p>Qu’en admettant le principe «actioni non natæ non prescribitur, il échet
                             de dire que l’éviction qui peut servir comme point de départ pour la
                             prescription, doit s’être pro» duite avant l’expiration des 15 années
@@ -4024,10 +4035,10 @@
                             libéré de toute obligation en garantie; - 1</p>
                         <p>Que décider autrement serait admettre l’existence d’obligations
                             perpétuelles, ce qui serait inconciliable avec le principe établi par
-                            les Codes et contraire à l’art. 272 du Cc> de Civil Mixte... '</p>
+                            les Codes et contraire à l’art. 272 du Cc&gt; de Civil Mixte... '</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0280">
                     <head>387. - Vente. — Graine de coton; vente conditionnée. par une revente dans
                         un but de: profit commercial; acte de corri1 mer ce. — Vente de graine de
                         coton; pris; stipulé sur la base des cours de la Bourse de Minet-el-Bassal;
@@ -4158,7 +4169,7 @@
                             cette marchandise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0290">
                     <head>388. - Vente. — Mise en possession de l'acheteur par ministère d'huissier;
                         droit du propriétaire-bailleur; usage local; locataire; droits; trouble
                         inexistant; opposition non justifiée.</head>
@@ -4226,7 +4237,7 @@
                             prévenir l’intimée la veille du jour ou elles seront reprises.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0300">
                     <head>389. - Vente. — Obligation de l'acheteur; conservation du privilège;
                         assurance contre l'incendie.</head>
                     <div type="summary">
@@ -4293,7 +4304,7 @@
                         <p>Et déboute la demanderesse de sa demande....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0310">
                     <head>390. - Vente. — Privilège du vendeur; mainlevée; [rais à charge de
                         l'acheteur.</head>
                     <div type="summary">
@@ -4306,7 +4317,7 @@
                             Anonyme Agricole et Industrielle d’Egypte c. Nestor Gianaclïs).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0320">
                     <head>391. - Vente. — Propriété du vendeur; défaut de justification;
                         conséquences; garantie. — Action en déclaration de propriété;
                         recevabilité.</head>
@@ -4504,7 +4515,7 @@
                             récursoire de Ricci contre les Teymour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0330">
                     <head>392. - Vente. — Vente sur échantillon; vente sur type; différence;
                         commande de marbre; contestation sur les veines et les nuances du
                         marbre.</head>
@@ -4544,7 +4555,7 @@
                             rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0340">
                     <head>393. - Wakî. — Acquisition des revenus par le bénéficiaire, de die in
                         diem; portée de ce principe. — Paiements faits par le locataire pour compte
                         des héritiers du nazir; non opposabilité au Wakf; paiements faits pour
@@ -4699,7 +4710,7 @@
                         <p>Attendu que le Cheikh El Islam ne réclame pas d’intérêts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0350">
                     <head>394. - Wakf. — Dettes; conditions spéciales de création; obligations
                         personnelles au nazir.</head>
                     <div type="summary">
@@ -4776,7 +4787,7 @@
                             vise pas une mesure provisoire, mais une décision sur le fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0360">
                     <head>395. - Wakf. — Hekr; conditions d'augmentation ou de diminution; limites
                         du pouvoir des Tribunaux; recherche de la valeur locative du bien Wakf;
                         conditions du hodget originaire; proportion d'augmentation résultant de
@@ -5034,7 +5045,7 @@
                             fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0370">
                     <head>396. - Wakf. — Hekr; conditions d'augmentation ou de diminution; limites
                         du pouvoir des Tribunaux; recherche de la valeur locative du bien Wakf;
                         proportion d'augmentation établie par le constituant du Wakf;
@@ -5160,7 +5171,7 @@
                             de l’expert.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0380">
                     <head>397. - Wakf. — Nazir; changement en cours d'instance; remplacement de
                         droit par le nouveau nazir. — Défaut de personnalité morale; conditions;
                         défaut de personnalité morale du Wakf. — Fautes du nazir; responsabilité
@@ -5370,7 +5381,7 @@
                             fois à la Cour par le Nouveau Nazir Abdel Rahim Pacha Fahmy).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0390">
                     <head>398. - Wakf. — Nullité de la constitution en Wakf des constructions et
                         plantations, lorsque le sol est exclu du Wakf.</head>
                     <div type="summary">
@@ -5412,7 +5423,7 @@
                             (art. 58 Kadri Pacha)...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0400">
                     <head>399. - Wakf. — Question de droit aux bénéfices; Juridiction Mixte;
                         compétence. — Succession musulmane; décisions Cha-réi constatant le décès ou
                         l’hérédité; portée absolue. — Nazir; comptes approuvés par une partie des
@@ -5511,7 +5522,7 @@
                             confirmation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-10-0410">
                     <head>400. - Wakf. — Séquestre; mainlevée; accord des bénéficiaires inopérant
                         pour son maintien. — Séquestre; conditions.</head>
                     <div type="summary">

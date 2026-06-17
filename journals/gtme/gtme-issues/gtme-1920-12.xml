@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1920-12-10">December 10, 1920</date><lb/>
-                    <biblScope unit="volume">Vol. 11</biblScope><lb/>
-                    <biblScope unit="number">No. 122</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1920-12-10">December 10, 1920</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 11</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 122</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -254,7 +265,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0010">
                     <head>24. - Accident. —Automobile.— Responsabilité du conducteur.</head>
                     <div type="summary">
                         <p>Le seul fait d’avoir corné ne décharge point la responsabilité du
@@ -267,7 +278,7 @@
                             Aîchelin et autre c. R. P. Miklnii Abadir).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0020">
                     <head>25. - Accident de travail. — Responsabilité.— Faute.—Charge de la
                         preuve.</head>
                     <div type="summary">
@@ -284,7 +295,7 @@
                             c. Guglielmo Galagna).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0030">
                     <head>26. - Adjudication. — Cahier des charges. — Clause de non garantie. —
                         Eviction. — Restitution du prix.</head>
                     <div type="summary">
@@ -361,7 +372,7 @@
                             réelle, d’après sa propre estimation. .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0040">
                     <head>27. - Adjudication. — Pouvoirs du Juge Délégué. — Caractère suspensif de
                         la revendication. — Titre apparent.</head>
                     <div type="summary">
@@ -434,7 +445,7 @@
                             solution de la question du fond...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0050">
                     <head>28. - Affrètement. — Preuve. — Ecrit nécessaire.</head>
                     <div type="summary">
                         <p>Toute convention d’affrètement doit être rédigée par écrit. Pour en
@@ -491,7 +502,7 @@
                             eux qu’elle ne pourrait être ordonnée dans l’espèce...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0060">
                     <head>29. - Appel. — Clause de renonciation anticipée. — Validité et portée. —
                         Compétence ratione materiae. — Référé. — Incompétence à statuer sur la
                         validité d'un bail.</head>
@@ -521,7 +532,7 @@
                             18-32, et 10 Mai 1917, Gaz., VII, 136-401.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0070">
                     <head>30. - Appel. — Demande nouvelle.</head>
                     <div type="summary">
                         <p>Greffer en degré d’appel, sur une action en revendication, une action en
@@ -563,7 +574,7 @@
                             originaire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0080">
                     <head>31. - Bail. — Clause de style contenant défense de sous-louer.—
                         Contravention.— Conséquence.</head>
                     <div type="summary">
@@ -636,7 +647,7 @@
                         <p>Que par conséquent l^demande est mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0090">
                     <head>32. - Bail. — Congé donné par l'un seul des bailleurs.</head>
                     <div type="summary">
                         <p>Il est de principe que le congé signifié par l’un des copropriétaires
@@ -649,7 +660,7 @@
                             Stavro c. Mohamed Mohamed Hassan El Gamal et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0100">
                     <head>33. - Bail. — Loi du 21 Février 1920 sur les loyers. — Sous-location
                         meublée.— Clause contenant défense de sous-louer.— Contravention. —
                         Conséquences.</head>
@@ -742,7 +753,7 @@
                             peine expresse de résiliation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0110">
                     <head>34. - Bail. — Loi sur les loyers du 21 Février 1920. — Mode de
                         détermination du loyer d'Août 1914.— Contrats antérieurs.— Evaluation aux
                         fins de l’impôt.</head>
@@ -763,7 +774,7 @@
                             incertitude dans les rapports entre propriétaires et locataires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0120">
                     <head>35. - Bail. — Loi sur les loyers du 21 Février 1920.—Mode de détermination
                         du loyer d'Août 1914.— Contrats antérieurs.— Evaluation aux fins de
                         l’impôt.</head>
@@ -830,7 +841,7 @@
                             reconnu fondé sur ce premier chef.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0130">
                     <head>36. - Bail.—Loi sur les loyers du 21 Février 1920.—
                         Déguerpissement.—Référé.— Compétence. — Question de fond. — Applicabilité de
                         la loi sur les loyers, aux maisons de tolérance. — Congé accepté
@@ -910,7 +921,7 @@
                             intimés accueillies par l’ordonnance déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0140">
                     <head>37. - Contrat. — Différences entre les divers exemplaires. — Doute
                         bénéficiant au débiteur.</head>
                     <div type="summary">
@@ -924,7 +935,7 @@
                             Sayeda bent Ahmed Saad c. Dame Warda Israël et Ct.J.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0150">
                     <head>38. - Contravention. — Etablissements incommodes, insalubres ou dangereux.
                         — Dispense de roksa accordée par un fonctionnaire, contrairement à la loi. —
                         Nullité. — Abus de pouvoir.</head>
@@ -986,7 +997,7 @@
                             donc bénéficier des circonstances atténuantes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0160">
                     <head>39. - Distribution. — Ouverture sur requête des créanciers
                         chirographaires. — Compensation entre le prix d’adjudication et la créance
                         du poursuivant. — Adjudicataire.— Cas où il y a pluralité de
@@ -1142,7 +1153,7 @@
                             à la collocation définitive de l’adjudicataire une fois obtenue.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0170">
                     <head>40. - Efiets de commerce.— Cause : valeur en marchandises. — Exceptions
                         opposables au bénéficiaire.</head>
                     <div type="summary">
@@ -1157,7 +1168,7 @@
                             Pinto &amp; Fils c. Ibrahim Khalil Bekhit).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0180">
                     <head>41. - Etat étranger. — Immunité de juridiction.—Acte de puissance
                         publique.— Acte de gestion des intérêts privés de l'Etat. — Tribunaux.
                         Mixtes — Compétence.</head>
@@ -1254,7 +1265,7 @@
                         <p>Attendu que l’exception d’incompétence n’est donc pas fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0190">
                     <head>42. - Femme italienne. — Statut personnel. — Loi italienne du 17 Juillet
                         1919. — Capacité de la femme italienne.— Autorisation judiciaire en cas
                         d'opposition d’intérêts avec son mari. — Prêt. — Restitution. — Paiement
@@ -1567,7 +1578,7 @@
                         <p>(Omissis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0200">
                     <head>43. - Mariage. — Rupture d’un contrat de fiançailles. — Nullité d’une
                         clause contractuelle d’indemnité. — Dommages-intérêts pour rupture de
                         promesse de mariage.</head>
@@ -1628,7 +1639,7 @@
                             doit, dès lors, au point de vue en examen, être rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0210">
                     <head>44. - Mesures d’instruction.— Délai et déchéance de l’art. 169 nouveau C.
                         Pr.</head>
                     <div type="summary">
@@ -1646,7 +1657,7 @@
                             Gheziri).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0220">
                     <head>45. - Offres réelles. — Tardivité et insuffisance. — Pouvoir
                         discrétionnaire du juge.— Vente immobilière.</head>
                     <div type="summary">
@@ -1661,7 +1672,7 @@
                             el Chora c. Mohamed Ramousi et Land Bank of Egypt).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0230">
                     <head>46. - Prescription longi temporis. — Droit par un usurpateur de
                         l’invoquer. — Droit de servitude.—Edit du 20 Moharram 1281.</head>
                     <div type="summary">
@@ -1681,7 +1692,7 @@
                             autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1920-12-0240">
                     <head>47. - Renvoi intempestif. — Indemnité non due en cas d’absence de
                         préjudice.</head>
                     <div type="summary">

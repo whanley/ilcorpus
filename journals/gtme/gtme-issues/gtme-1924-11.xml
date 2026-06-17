@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0015-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1924-11-10">November 10, 1924</date><lb/>
-                    <biblScope unit="volume">Vol. 15</biblScope><lb/>
-                    <biblScope unit="number">No. 169</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1924-11-10">November 10, 1924</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 15</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 169</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -63,7 +74,7 @@
                 <p>— aux deux publications</p>
                 <p>réunies (un an)....... • 250</p>
                 <p>Comité de Rédaction et d'administration :</p>
-                <p>M> L. PANGALO et R. 8CHEMEIL (Directeurs au Caire).</p>
+                <p>M&gt; L. PANGALO et R. 8CHEMEIL (Directeurs au Caire).</p>
                 <p>M« E. DEGIARDÉ (Secrétaire de la rédaction). M* A. FADEL (Directeur à
                     Mansourah).</p>
                 <p>M* F. BRAUN (Secrétaire à Paris).</p>
@@ -578,7 +589,7 @@
             <pb n="7" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0010">
                     <head>1. - Wakf. ■— Allocations mensuelles versées par le Ministère des Wakfs
                         aux bénéficiaires; caractère alimentaire et incessible; droits du
                         cédant.</head>
@@ -634,7 +645,7 @@
                             j’UgCS r°nt nUssi condamné aux</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0020">
                     <head>2. Wakf. — Bénéficiaire; cession et saisie-arrêt; transport au profit des
                         créanciers cessionnaires ou saisissants. — Pension alimentaire; caractère
                         exceptionnel; base de détermination.</head>
@@ -743,7 +754,7 @@
                             années 1920,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0030">
                     <head>3. - Wakf. — Bénéficiaires; décès sans descendance, attribution de la
                         Quote-part; disponible.</head>
                     <div type="summary">
@@ -763,7 +774,7 @@
                             Octobre 1909 et 4 Avril 1903; Hanki, Nos. 474 et 486.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0040">
                     <head>4. - Wakf. — Bénéficiaire; nature de son droit. — Cession des bénéfices;
                         formes et conditions; cas où le bénéficiaire cédant est également nazir;
                         notification inutile. — Cession de revenus déterminés; inopérance sur les
@@ -894,7 +905,7 @@
                             obligés d’agir contre le débiteur commun.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0050">
                     <head>5. - Wakf. — Caractère de perpétuité; énonciations de la wakfieh;
                         intention du constituant; attribution des bénéfices par le Cadi après
                         disparition des premiers bénéficiaires. — Prescription de 33 ans;
@@ -1155,7 +1166,7 @@
                             valore...».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0060">
                     <head>6. - Wakf. — Changement dans la constitution; forme; partage sous seing
                         privé, non dénié; validité; partage «tahayo».</head>
                     <div type="summary">
@@ -1266,8 +1277,8 @@
                             fond) doit ■ être maintenue...</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>7. - Wakf. — Concession des dix facul- > tés; mandat; renonciation du
+                <div type="case" xml:id="gtme-1924-11-0070">
+                    <head>7. - Wakf. — Concession des dix facul- &gt; tés; mandat; renonciation du
                         constituant; disparition des droits du cessionnaire.</head>
                     <div type="summary">
                         <p>Celui à qui les dix facultés ont été concédées, étant considéré comme
@@ -1334,7 +1345,7 @@
                             Foncière...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0080">
                     <head>8. - Wakf. — Condition d'inaliénabili-të; déroaations; contrats de hekr et
                         de houlou intifa; conditions de validité. — IJekr: défaut de paiement de la
                         redevance; déchéance.</head>
@@ -1433,7 +1444,7 @@
                             consignation, sont des actes suffisants pour l’établir...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0090">
                     <head>9. - Wakf. — Constitution; anciennes wakfiehs; désignation incomplète des
                         biens; validité. —Hodjet comportant acquisition complète de jouissance;
                         distinction avec le contrat de ahoulou-el-intifa». — Prescription de 33 ans;
@@ -1470,7 +1481,7 @@
                             rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0100">
                     <head>10. - Wakf. — Constitution; Règlement du 17 Juin 1880 sur les Mehkémehs;
                         défaut de transcription de la wakfieh au registre «Sigill»; inopposabilité
                         aux créanciers inscrits.</head>
@@ -1529,7 +1540,7 @@
                             inopposable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0110">
                     <head>11. - Wakf. — Emprunt contracté sans l'autorisation du Cadi; nullité;
                         conséquence. — Action de in rem verso contre un Wakf; conditions.</head>
                     <div type="summary">
@@ -1630,7 +1641,7 @@
                             Wakf, l’appel régulièrement fait par ceux-ci doit lui profiter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0120">
                     <head>12. - Wakf. — Hekr; augmentation; conditions et limites.</head>
                     <div type="summary">
                         <p>Il est nécessaire et équitable, lorsque la Justice est appelée à fixer le
@@ -1842,7 +1853,7 @@
                             au Wakf El Noubi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0130">
                     <head>13. - Wakf. — Hekr; augmentation: conditions et limites. — Prescription
                         quinquennale de l'augmentation du hekr; inadmissibilité à défaut de
                         prescription du hekr lui-même.</head>
@@ -1915,7 +1926,8 @@
                             l’article 1119 du Projet du Code Civil Tunisien par Santillana):</p>
                         <p>c) l’augmentation n’est permise que si elle s’impose par le progrès
                             naturel et n’émane pas do« faits et des dépenses du hekeriste (voir le
-                            même ouvrage et les articles 337 et 3qo a.. vy»>kf nar Kadri Pacha):</p>
+                            même ouvrage et les articles 337 et 3qo a.. vy»&gt;kf nar Kadri
+                            Pacha):</p>
                         <p>d) l’aimmentation n’est pas acceptable si elle est offerte par un
                             concurrent vindicatif «zindnt pi Mmifaanet» (voir article 339 du Wakf
                             nar Kadri Pacha);</p>
@@ -1977,7 +1989,7 @@
                             est son accessoire, ne pourrait l’être...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0140">
                     <head>14. - Wakf. — Hekr; réclamation; prescription de 33 ans; interruption;
                         reconnaissance du hekr dans le titre de l’acheteur du bien grevé. — Wakfieh;
                         production; inutilité.— Hekr; constitution;droits, du nazir; limites;
@@ -2007,7 +2019,7 @@
                             prescription «spéciale de 33 ans en matière de Wakf».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0150">
                     <head>15. - Wakf. — Hekr; règles du droit musulman seules applicables; nature et
                         conditions du contrat de hekr; défaut de paiement de la redevance;
                         déchéance; disparition du fonds; conséquences; disparition des constructions
@@ -2036,7 +2048,7 @@
                             éminent.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour a'App^i, 3me ch _ I>à M. M. Hansson, 27 Fé-vner 7923. — Wakf
+                        <p>(Cour a'App^i, 3me ch _ I&gt;à M. M. Hansson, 27 Fé-vner 7923. — Wakf
                             Mansour Agha El Naggar c. Hoirs Georges Cordahi bey).</p>
                     </div>
                     <div type="observations">
@@ -2157,7 +2169,7 @@
                             El Tani 1258.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0160">
                     <head>16. - Wakf. — Livres de comptes entre nazir et bénéficiaires; force
                         probante. — Bénéficiaires; dénégation de leur qualité; <pb n="16"
                             rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/> /orme; portée. —
@@ -2189,7 +2201,7 @@
                             et 12 Février 1918, cités par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0170">
                     <head>17. - Wakf. — Location; Agr-el-Misl; détermination des loyers au taux des
                         loyers coutumiers. — Litispendance; exception non recevable en degré
                         d'appel. — Effets de commerce; lettre de change tirée pour une dette
@@ -2217,7 +2229,7 @@
                         <p>' H- - V. Dalloz, Rép. Prat. V° Exception No. 206.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0180">
                     <head>18. - Wakf. — Location; trouble de jouissance; responsabilité du Wakf pour
                         les agissements de son nazir; devoirs du séquestre.</head>
                     <div type="summary">
@@ -2328,7 +2340,7 @@
                             premiers juges et que les Geday ont accepté, n’est pas exagéré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0190">
                     <head>19. - Wakf. — Loi applicable: dispositions du Charei; prescription de 33
                         ans, seule possible. — Hekr; prescription du droit de le réclamer;
                         interruption résultant de la mention du hekr dans le titre d'acquisition.—
@@ -2638,7 +2650,7 @@
                             hekr des 5 dernières années antérieures au 15 Décembre 1921.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0200">
                     <head>20. - Wakf. — Loi applicable; statut réel. — Servitude, établie par la
                         prescription de 33 ans. — Distance légale; obligation du Wakf de la
                         respecter.</head>
@@ -2769,7 +2781,7 @@
                             résultat, mais sans sanctionner une partie de ses attendus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0210">
                     <head>21. - Wakf. —- Alise sous séquestre; main-levée; compétence du Juge des
                         Référés. — Gestion du nazir; cas où il n'y a pas lieu à nomination d'un
                         séquestre autre que le nazir lui-méme.</head>
@@ -2802,7 +2814,7 @@
                             438).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0220">
                     <head>22. - Wakf. •— Nationalité dépendant du pays de la situation des biens;
                         nationalité étrangère du na-zir inopérante; Juridiction Mixte; incompétence
                         à connaître d'une action entre un Wakf et un sujet local.</head>
@@ -2863,7 +2875,7 @@
                             tiers sujets locaux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0230">
                     <head>23. — - Wakf. — Nazir; détournements; responsabilité; Wakfs royaux privés;
                         ancien Khédive; Daïra; responsabilité du directeur. — Jugement
                         interlocutoire; portée.</head>
@@ -2894,7 +2906,7 @@
                             Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0240">
                     <head>24. - Wakf. — Nazir; location; stipulation de remboursement au locataire
                         des constructions par lui établies sur le bien Wakf; nullité. — Compétence;
                         demande reconventionnelle attribuant compétence à un tribunal à raison du
@@ -2959,7 +2971,7 @@
                             l’autre, et de renvoyer les parties devant le Tribunal Civil...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0250">
                     <head>25. - Wakf. — Prescription de 33 ans, ouverte au seul possesseur à titre,
                         non précaire; déchéance du Wakf; conditions requises pour s'en prévaloir;
                         hekr; interversion du titre nécessaire.</head>
@@ -3088,7 +3100,7 @@
                             les principes généraux qui n’admettent nullement qu’un possesseur à
                             titre précaire puisse prescrire et contre également et surtout le but
                             indubitablement protecteur que le Législateur musul-WakP poursuivi à
-                            l’égard des institutions de rr>-m^vndu dU *1 échet d’ailleurs de
+                            l’égard des institutions de rr&gt;-m^vndu dU *1 échet d’ailleurs de
                             remarquer à 1 exception du seul arrêt du 23 Mai 1922 fait actuellement
                             état la jurisprudence de la Cour d'Appel Mixte d’A-dTnrZ-Prrlant’ en
                             cetfe matière, d’abord de prescription extinctive et ensuite de dé-S»
@@ -3161,7 +3173,7 @@
                             Avril 1921 précité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0260">
                     <head>26. - Wakf. — Prescription de 33 ans, ouverte à tout détenteur; locataire;
                         non nécessité d'une interversion de son titre.</head>
                     <div type="summary">
@@ -3219,7 +3231,7 @@
                             l’expiration du délai fatal, ce qui n’est point le cas en l’espèce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0270">
                     <head>27. - Wakf. — Prescription; revendication introduite par le nazir
                         personnellement, n'ayant point effet interruptif. Mesures d'instruction;
                         délai fixé pour une expertise; retard à demander l'assistance judiciaire en
@@ -3243,7 +3255,7 @@
                             Abdel Rahman El Bakri c. Dame Elise Slffert).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1924-11-0280">
                     <head>28. - Wakf. — Séquestre judiciaire; obligation de respecter ïes
                         prescriptions du constituant. — Location consentie par un séquestre
                         contrairement aux conditions prescrites par le constituant du Wakf;

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1928-01-10">January 10, 1928</date><lb/>
-                    <biblScope unit="volume">Vol. 18</biblScope><lb/>
-                    <biblScope unit="number">No. 207</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1928-01-10">January 10, 1928</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 18</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 207</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -37,7 +48,7 @@
                 <p>DIRECTION,</p>
                 <p>RÉDACTION, ADMINISTRATION</p>
                 <p>Alexandrie,</p>
-                <p>4>, Rue Avéroff.</p>
+                <p>4&gt;, Rue Avéroff.</p>
                 <p>Tél. 2724</p>
                 <p>Bureaux au Caire,</p>
                 <p>13. Rue El Manakh.</p>
@@ -60,8 +71,8 @@
                 <p>— à la Gazette (un an).... P.T. 150</p>
                 <p>— au Journal;</p>
                 <p>— Un an................... » 150</p>
-                <p>— Six mois................ > 85</p>
-                <p>— Trois mois........ > 50</p>
+                <p>— Six mois................ &gt; 85</p>
+                <p>— Trois mois........ &gt; 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an)....... » 259</p>
                 <p>Administrateur-Gérant : Jules Sciiutz.</p>
@@ -463,7 +474,7 @@
             <pb n="74" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0010">
                     <head>82. - Actes de commerce. — Billets souscrits par un commerçant;
                         présomption de commercialité. ■— Juridiction mixte; prête-nom;
                         admissibilité.</head>
@@ -560,7 +571,7 @@
                             au souscripteur commerçant de prouver que sa dette est civile...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0020">
                     <head>83. - Actes de commerce. — Caution solidaire; non commerçant; dette;
                         garantie commerciale; obligation civile de la caution; Tribunal civil
                         competent en cas de poursuites contre la caution seule.</head>
@@ -587,7 +598,7 @@
                             1917, B. XXIX, 408 et 10 Juin 1914, B. XXVI, 413.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0030">
                     <head>84. - Actes de commerce. — Démolition; matériaux; achat pour revendre. ■—
                         Entrepreneur de constructions; fourniture de matériaux; qualité de
                         commerçant. — Mise en démettre; règles en matière commerciale.</head>
@@ -644,7 +655,7 @@
                             commerce...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0040">
                     <head>85. - Actes de commerce. — Fabrique de matières colorantes; société ayant
                         pour objet la manipulation des extraits du sol; caractère commercial.</head>
                     <div type="summary">
@@ -718,7 +729,7 @@
                             colorantes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0050">
                     <head>86. - Actes de commerce. ■— Imprimerie; entreprise commerciale; imprimeur
                         exerçant occasionnellement la profession de journaliste; commerçant.</head>
                     <div type="summary">
@@ -785,7 +796,7 @@
                             Aly Hassan.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0060">
                     <head>87. - Actes de commerce. — Prêts ou dépôts consentis par un non commerçant
                         à un commerçant; caractère non commercial.</head>
                     <div type="summary">
@@ -871,7 +882,7 @@
                             de droit à partir de la demande en justice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0070">
                     <head>88. - Bon de livraison. — Original égaré; durée de la caution à fournir
                         pour la délivrance d'un duplicata</head>
                     <div type="summary">
@@ -933,7 +944,7 @@
                             demandeur et à sa diligence...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0080">
                     <head>89. - Bourse (Opérations de). — Contrat; formule imprimée; lieu
                         d'exécution; lieu où le contrat a été signé; Tribunal compétent.</head>
                     <div type="summary">
@@ -1022,7 +1033,7 @@
                             Gombos devaient être effectués; qu’il doit se déclarer incompétent.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0090">
                     <head>90. - Bourse (Opérations (te). — Courta-tage; ristourne de moitié;
                         convention; caractère illicite; serment déféré pour l'établir. — Demande en
                         paiement; chef contesté inférieur au taux d'appel; demande
@@ -1101,7 +1112,7 @@
                             la loi a mis à leur disposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0100">
                     <head>91. - Bourse (Opérations de). — Notes signées; preuve; absence de
                         dénégation de signature; demande de production de livres; inadmissibilité;
                         comptes; défaut de contestations précises.</head>
@@ -1123,7 +1134,7 @@
                             Alexandroff et Co. c. Hoirs Boulos Mina et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0110">
                     <head>92. - Chemins de fer. — Contrat de transport. —■ Clauses limitatives de
                         responsabilité. — Avarie partielle; mesure de l'indemnité.</head>
                     <div type="summary">
@@ -1148,7 +1159,7 @@
                             1927. — Lagnado Frères c. Chemins de Fer de l’Etat).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0120">
                     <head>93. - Chemins de fer. — Exploitation par l'Etat; caractère non commercial;
                         applicabilité de l'art. 109 C Com. — Responsabilité en matière de transport;
                         clause limitative; application aux seuls risques ordinaires du transport;
@@ -1257,7 +1268,7 @@
                             le jugement dont est appel...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0130">
                     <head>94. - Effets de commerce. — Billets à ordre souscrits en règlement du prix
                         de marchandises; défaut de novation; garantie donnée au vendeur par un
                         tiers; obligation du garant; défaut de stipulation de la garantie sur les
@@ -1349,7 +1360,7 @@
                             être évalué à L.E. 4.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0140">
                     <head>95. - Effets de commerce. — Endossement régulier; conséquences; loi
                         régissant P endossement. — Loi allemande du 5 Juin 1869 sur le change;
                         condition de validité de l'endossement; défaut de clause à ordre; régularité
@@ -1467,7 +1478,7 @@
                             confirmer la décision attaquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0150">
                     <head>96. - Eîîets de commerce. — Locataire de terrains; vente de sa récolte de
                         coton; acte civil. — Billet à ordre souscrit par un non commerçant; absence
                         de cause commerciale; prescription quinquennale de l'art. 201 C Com. non
@@ -1508,7 +1519,7 @@
                             par des commerçants, ni pour faits de commerce...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0160">
                     <head>97. - Effets de commerce. — Prescription quinquennale; calcul selon le
                         calendrier grégorien.</head>
                     <div type="summary">
@@ -1556,7 +1567,7 @@
                             Code de Commerce...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0170">
                     <head>98. - Effets de commerce. — Prescription quinquennale; nouvelles
                         poursuites engagées plus de 5 ans après la radiation de l'affaire;
                         prescription encourue. — Billets à ordre à échéances multiples; prescription
@@ -1619,7 +1630,7 @@
                             montant du solde réclamé en vertu de ces deux billets.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0180">
                     <head>99. - Effets «le commerce. — Souscripteurs multiples; solidarité. —
                         Obligation; garant; stipulation d'indivisibilité de la créance à Vencontre
                         des héritiers de ce dernier; droits du créancier.</head>
@@ -1667,7 +1678,7 @@
                             fondée en son appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0190">
                     <head>100. - Effets de commerce. — Traite;-clause stipulant paiement sous
                         condition; acceptation conditionnelle; validité; réalisation de la
                         condition; paiement dû à. l'échéance.</head>
@@ -1713,8 +1724,8 @@
                             condamnation, s’il venait à en êue prononcée au profit de Vvadih Cassir
                             et Co.;</p>
                         <p>Attendu qu’il est constant que le «Fane-romeni» a levé 1 ancre dans les
-                            derniers jours de Novembre lt>26, qu’il a quitté le port d’Alexanune, et
-                            que par suite d’un accident de navi^at.on, il s est échoué, le même
+                            derniers jours de Novembre lt&gt;26, qu’il a quitté le port d’Alexanune,
+                            et que par suite d’un accident de navi^at.on, il s est échoué, le même
                             jour, à deux mules de distance des passes;</p>
                         <p>Attendu que le premier juge a considéré que l’acceptation donnée par les
                             intimés à la traite ue L.E. 75, stipulée payable le lendemain du départ
@@ -1811,7 +1822,7 @@
                             décision attaquée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0200">
                     <head>101. - Vente de coton. — Clause pénale stipulant l'indemnité due en cas de
                         résiliation; indemnité convenue pour inexécution partielle; cumul
                         inadmissible.</head>
@@ -1861,7 +1872,7 @@
                             relevant l’appelant de ce chef de condamnation s’élevant à L.E. 150.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0210">
                     <head>102. - Vente de cotom. — Colons vendus ne provenant pas de la récolte du
                         vendeur; présomption d'acte au commerce. — Compétence; preuve à charge du
                         demandeur.</head>
@@ -1925,7 +1936,7 @@
                             de compétence, le jugement . dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0220">
                     <head>103. - Vente de coton. — Indemnité stipulée en cas de retard dans la
                         livraison; défaut de justification d'un préjudice par l'acheteur; défaut de
                         mise en demeure pour fixation de la livraison; ..indemnité non due.</head>
@@ -1969,7 +1980,7 @@
                             et d’émender par conséquent le jugement déféré quant à ce.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0230">
                     <head>104. - Vente de coton. — Livraison insuffisante; cas où U s'agit des
                         récoltes du vendeur. —• Clause pénale stipulant l'indemnité due en cas de
                         non livraison; réduction impossible en cas de préjudice constant. —
@@ -2148,7 +2159,7 @@
                             dont appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0240">
                     <head>105. - Vente de coton. — Prix stipulé sur la base des contrats de Bourse;
                         conditions de fixation; retard dans la livraison; absence de mise en
                         demeure; droits des parties; conditions de la résolution prévue par l'art.
@@ -2363,7 +2374,7 @@
                             parties par le silence par elles gardé pendant assez longtemps.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-01-0250">
                     <head>106. - Vente de coton. — Vente à terme; paiement d'arrhes; restitution
                         partielle impliquant présomption de résïlior tion du contrat.</head>
                     <div type="summary">
@@ -3609,7 +3620,7 @@
                     explications qu’il croira utiles.</p>
                 <p>- En cas de non comparution, il sera jugé par défaut.</p>
                 <p>Le Conseil de Discipline délibérera hors de sa présence.</p>
-                <p>> Le Conseil de Discipline pourra s’entourer de tous les renseignements qu’il
+                <p>&gt; Le Conseil de Discipline pourra s’entourer de tous les renseignements qu’il
                     jugera utiles; il pourra entendre tous les témoins</p>
                 <p>et .procéder a toutes vérifications de: livres où pièces comptables tant du
                     membre, de la Bourse poursuivi que de ceux des membres de la Bourse où il

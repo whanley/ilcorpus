@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0031-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0031-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1941-09-10">September 10, 1941</date><lb/>
-                    <biblScope unit="volume">Vol. 31</biblScope><lb/>
-                    <biblScope unit="number">No. 371</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1941-09-10">September 10, 1941</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 31</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 371</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -55,7 +66,7 @@
                     (Secrétaires de la rédaction/.</p>
                 <p>M4 2? jjj? a tttv',</p>
                 <p>M&lt; A. FADEL (Directeur à MansouraM. 7Correspondants à Paris).</p>
-                <p>Ms J.LAÇAT ></p>
+                <p>Ms J.LAÇAT &gt;</p>
                 <p>ABONNEMENTS</p>
                 <p>— à la Gaxette (un an). ?.T. 153</p>
                 <p>— au Journal;</p>
@@ -72,7 +83,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE.</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0010">
                     <head>241. - Servitudes. — Etendue dépendant du litre constitutif; servitude de
                         vue; titre précisant le nombre et la situation des fenêtres; extension;
                         inadmissibilité. — Servitude de vue; acquisition par prescription;
@@ -212,7 +223,7 @@
                             conclusions de première instance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0020">
                     <head>242. - Servitudes. — Lotissements; vente immobilière; conditions imposées
                         à l'acheteur; restrictions à la faculté de construire; cas où elles
                         constituent des obligations personnelles; cas où elles constituent des
@@ -763,7 +774,7 @@
                         <p>Note. — V. ci-après § 244. l'arrêt du 6 Février 1941 el la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0030">
                     <head>243. - Servitudes. — Lotissements; vente immobilière; conditions imposées
                         à l'acheteur; restrictions à la faculté de construire; cas où elles
                         constituent des obligations personnelles; cas où elles peuvent constituer
@@ -906,7 +917,7 @@
                             244, l’arrêt du 6 Février 1941 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0040">
                     <head>244. - Servitudes. — Lotissements; vente immobilière; conditions imposées
                         à U acheteur; restrictions à la faculté de construire; cas où elles
                         constituent des obligations personnelles; cas où elles peuvent constituer
@@ -1346,12 +1357,12 @@
                         <p>■qu’on réserverait au seul vendeur, ce dernier n’ayànt point traité à son
                             Seul profit, mais ayant également stipulé pour autrui.</p>
                         <p>' La véritable difficulté ne consiste pas .d’ailleurs à déterminer la
-                            >véritable nature de la restriction: elle surgit lorsque, son caractère
-                            de servitude ne pouvant être méconnu, il s’agit de savoir si et dans
-                            quelle mesure le titre constitutif d’une telle servitude pourrait
-                            demeurer opposable aux tiers, alors que les transcriptions opérées au
-                            cours de ta dernière période de quinze ans n’en relèveraient plus
-                            l’existence.</p>
+                            &gt;véritable nature de la restriction: elle surgit lorsque, son
+                            caractère de servitude ne pouvant être méconnu, il s’agit de savoir si
+                            et dans quelle mesure le titre constitutif d’une telle servitude
+                            pourrait demeurer opposable aux tiers, alors que les transcriptions
+                            opérées au cours de ta dernière période de quinze ans n’en relèveraient
+                            plus l’existence.</p>
                         <p>Cette question a été examinée dans le jugement du 4 Avril 1940, confirmé
                             par l’arrêt rapporté, et dont on aura lu plus haut les motifs. La
                             restriction imposée par le vendeur originaire au premier acquéreur
@@ -1388,7 +1399,7 @@
                             décret».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0050">
                     <head>245. - Servitudes. — Prescription ac-guisilive; inadmissibilité pour les
                         scr-riludes discontinues et non apparentes: admissibilité pour les
                         servitudes de passage et de vue; condition. — Servitudes actives; cas où le
@@ -1482,7 +1493,7 @@
                             que l’appes tant comptait raisonnablement avoir de ce côté un espace
                             libre d’au moins 3 mètres qui était la largeur présumée de. la ruelle,
                             en tablant sur l’ouvrage le plus avancé, des constructions du Wakf (voir
-                            mémo, plan). . , ></p>
+                            mémo, plan). . , &gt;</p>
                         <p>Et cette déduction est d’autant plus rationnelle, comme le remarque
                             l'expert, que-, la limite Ouest est donnée comme « espace libre de
                             Servitude du terrain Karbouti».</p>
@@ -1498,7 +1509,7 @@
                             mètres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0060">
                     <head>246. - Servitudes. — Jlenouciation non ■ susceptible de faire échec à unei
                         préemption basée sur l'e.iislenie de la servitude et déjà exercée. —
                         Préemp-* lion: condition de contiguïté; réalisation' en cas d'existence de
@@ -1645,7 +1656,7 @@
                             1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0070">
                     <head>247. - Servitudes. — Rues privées; propriétaires riverains; servitudes
                         dont ils jouissent; opposition du vendeur originaire à la jouissance des
                         droits de servitude des propriétaires successifs; inadmissibilité. — Rue
@@ -1685,7 +1696,7 @@
                             quartier transformé.</p>
                     </div>
                     <div type="litigants">
-                        <p>Cour d’Appel, 3me Ch., Prés. Comte de Andino, -t> Juin 1939. — Raphaël
+                        <p>Cour d’Appel, 3me Ch., Prés. Comte de Andino, -t&gt; Juin 1939. — Raphaël
                             Belleli c. Société Anonyme Immobilière des Terrains Guizeh &amp;
                             Roda.</p>
                     </div>
@@ -1927,7 +1938,7 @@
                             préjudice subi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0080">
                     <head>248. - Servitudes. — Rues privées; servitude de passage; acquisition par
                         prescription. — Jugements interlocutoires; appel; faculté pour le tribunal
                         de statuer sur le fond avant le vidé de l'appel. — Ventes judiciaires;
@@ -1998,7 +2009,7 @@
                             dit arrêt ds. Gaz. XXIV, 185-153).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0090">
                     <head>249. -Servitudes.—Servitude d'écoulement d'eau; drain creusé sur le
                         terrain d'autrui; condition d'acquisition de la servitude
                         d'écoulement.</head>
@@ -2185,7 +2196,7 @@
                             dernière demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0100">
                     <head>250. - Servitudes. — Servitude de pus-sage d'eau; droit du bénéficiaire en
                         cas d'expropriation pour cause d'utilité publique.</head>
                     <div type="summary">
@@ -2403,7 +2414,7 @@
                             est mal fondé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0110">
                     <head>251. - Servitudes. — Servitude de passage d'eau; limites; déversement de
                         l'excédent d'eau dans le fonds inférieur; abus de droit; cas où les dégâts
                         causés sont imputables à la nature du sol. — llesponsabililé; responsabilité
@@ -2601,7 +2612,7 @@
                             que l’on ne peut donc considérer comme une faute, le fait de n’avoir.pas
                             exécuté des travaux qui n’eussent été d’aucune utilité ou d’une utilité
                             très relative pour les demandeurs; •</p>
-                        <p>G. — Sur l’abus de droit: ■ :></p>
+                        <p>G. — Sur l’abus de droit: ■ :&gt;</p>
                         <p>Attendu qu’il reste à examiner dans quèb-les limites la Kom Ombo a exercé
                             ses droits de propriétaire; que si l’expertise a d é*-montré que les
                             infiltrations étaient inévitables, quelques mesures que la Kom Ombo ait
@@ -2649,7 +2660,7 @@
                             d’expertise. :</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0120">
                     <head>252. - Servitudes. — Servitude de passage sur un chemin enclavé; traversée
                         en largeur; admissibilité; droit de clôtu-,'. re du propriétaire du chemin
                         grevé;., étendue et limites.</head>
@@ -2774,7 +2785,7 @@
                             l’appel mal fondé et de maintenir le jugement déféré.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0130">
                     <head>253. - Servitudes. — Servitude de pas-sage; trouble de jouissance; droit
                         d’agir par la voie de l’action possessolre; recevabilité.</head>
                     <div type="summary">
@@ -2789,7 +2800,7 @@
                             Neromiliotis c. Michel Tetteris.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0140">
                     <head>254. - Servitudes. — Servitude d'irrigation apparente et continue;
                         maintien en egs d’aliénation.</head>
                     <div type="summary">
@@ -2897,7 +2908,7 @@
                             à sa charge.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1941-09-0150">
                     <head>255. - Servitudes. — Vue; distance légale; caractère obligatoire quelle
                         que soit la nature de la propriété voisine.</head>
                     <div type="summary">

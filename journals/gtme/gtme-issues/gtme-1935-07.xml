@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1935-07-10">July 10, 1935</date><lb/>
-                    <biblScope unit="volume">Vol. 25</biblScope><lb/>
-                    <biblScope unit="number">No. 297</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1935-07-10">July 10, 1935</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 25</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 297</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -48,7 +59,7 @@
                 <p>Rue Abdel Moneim, Ta. &lt;os</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte. Fondateurs
-                    > M- MAXIME PUPIKOFEK et LEON RANGALO, Avocats à la Cour</p>
+                    &gt; M- MAXIME PUPIKOFEK et LEON RANGALO, Avocats à la Cour</p>
                 <p>Directeur: M» MAXIME PUPIKOFEE, Avocat à la Cour.</p>
                 <p>Comité de Rédaction et d'Administration :</p>
                 <p>M» L. PANGALO et R. SCHEMEIL (Directeurs au Caire;</p>
@@ -205,7 +216,7 @@
                     un cours de droit à l’étranger ou dans une des écoles établies en Egypte.</p>
                 <p>Les garanties morales. — Avoir fait des études ne suffit pas. L’avocat doit aussi
                     (nous allions dire surtout) offrir' des garanties morales. L’ancien texte lui
-                    demandait «de jouir d’une réputation intacte >&lt;- Le. nouveau .apporte
+                    demandait «de jouir d’une réputation intacte &gt;&lt;- Le. nouveau .apporte
                     quelques précisions. .11 ■exige d’abord que cette réputation intacte soit
                     appuyée d’un certificat de bonne vie et mœurs et d’un casier judiciaire net.-La
                     Commission du Tableau et plus spécialement les chefs de l’Ordre feront à ce
@@ -717,7 +728,7 @@
             <pb n="242" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0010">
                     <head>295. - Administration. — Automobiles; Règlement du 16 Juillet 1913;
                         enlèvement par voie administrative des plaques d’un camion privé; caractère
                         arbitraire.</head>
@@ -776,7 +787,7 @@
                             l’appel principal doit donc être rejeté au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0020">
                     <head>296. - Administration. — Automobiles; taxe municipale d’Alexandrie;
                         confiscation pour défaut de justification du règlement de la taxe d’une
                         automobile régulièrement déclarée; caractère arbitraire.</head>
@@ -988,7 +999,7 @@
                             suffisamment prouvée, et qu’elle doit être rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0030">
                     <head>297. - Administration. — Cafés-concerts; ouverture; transformation d’une
                         école de danse en café-concert; procédure administrative applicable; Loi No.
                         4 de 1904 sur les établissements publics; règlement sur les théâtres du 12
@@ -1225,7 +1236,7 @@
                             s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0040">
                     <head>298. - Administration. — Commerce des antiquités; Loi No. 14 de 1912;
                         dispositions applicables aux étrangers; permis d’exportation des antiquités;
                         pouvoir discrétionnaire de l’Administration; antiquités circulant dans le
@@ -1408,7 +1419,7 @@
                             existait.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0050">
                     <head>299. - Administration. — Commissions locales; taxes facultatives;
                         étrangers; Capitulations; immunité fiscale; renonciation; caractère
                         définitif; conditions; Décret du 21 Août 1918 modifiant la Commission
@@ -1714,7 +1725,7 @@
                             limites de l’immunité fiscale des étrangers capitulaires en Egypte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0060">
                     <head>300. - Administration. — Commissions locales; taxes facultatives;
                         étrangers; Capitulations; immunité fiscale; renonciation; caractère
                         définitif des taxes facultatives acceptées:</head>
@@ -1844,7 +1855,7 @@
                         <p>II. - V. Gaz. XXIV, 14-9, l’arrêt du 17 Novembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0070">
                     <head>301. - Administration. — Commissions locales; taxes facultatives;
                         étrangers; Capitulations; immunité fiscale; renonciation; forme; portée; Loi
                         No. 20 du 5 Juin 1905 instituant la Commission locale mixte de Tantah;
@@ -1988,7 +1999,7 @@
                             Gaz. XXIV, 14-9, l’arrêt du 17 Novembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0080">
                     <head>302. - Administration. — Commissions locales; taxes facultatives;
                         étrangers; Capitulations; immunité fiscale; renonciation; inopposabilité aux
                         héritiers; ratification; conditions.</head>
@@ -2126,7 +2137,7 @@
                             Novembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0090">
                     <head>303. - Administration. — Commissions locales; taxes facultatives;
                         étrangers; Capitulations; immunité fiscale; renonciation; inopposabilité aux
                         héritiers ou successeurs; ratification; conditions. — Engagement de payer
@@ -2218,7 +2229,7 @@
                         <p>II. - V. sur ce point Gaz. XXIV, 14-9, l’arrêt du 17 Novembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0100">
                     <head>304. - Administration. — Commissions locales; taxes facultatives;
                         étrangers; Capitulations; immunité fiscale; renonciation; services publics
                         municipaux; subordination à l’engagement de payer les taxes municipales
@@ -2323,7 +2334,7 @@
                             ci-avant § 299 le jug. civ. Mansourah, du 3 Mai 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0110">
                     <head>305. - Administration. — Commissions locales; taxes facultatives;
                         étrangers; Capitulations; immunité fiscale; renonciation; soumission
                         définitive pour l’avenir; nécessité d’un engagement écrit; taxes
@@ -2435,7 +2446,7 @@
                         <p>II. - V. ég. Gaz. XXIV, 9-5, l’arrêt du 3 Novembre 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0120">
                     <head>306. - Administration. — Commissions locales; taxes facultatives;
                         étrangers; Capitulations; immunité fiscale; renonciation; taxes réglées par
                         contrainte par un étranger n’ayant pas renoncé à son immunité fiscale; point
@@ -2455,7 +2466,7 @@
                         <p>Note. — Rappr. ci-après § 307 l’arrêt de même date.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0130">
                     <head>307. - Administration. — Commissions locales; taxes facultatives;
                         étrangers; Capitulations; immunité fiscale; renonciation; taxes réglées par
                         contrainte par un étranger n’ayant pas renoncé à son immunité fiscale; point
@@ -2505,7 +2516,7 @@
                         <p>Note. — II. - Rappr. ci-avant § 306 l’arrêt de même date.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0140">
                     <head>308. - Administration. — Domaine public; banquette d’un canal; mode de
                         désaffectation. — Digues et canaux; occupation par les particuliers; relevés
                         des plans cadastraux; inopérance pour la délimitation du domaine public. —
@@ -2542,7 +2553,7 @@
                             rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0150">
                     <head>309. - Administration. — Douanes; Décret du 22 Juin 1891 et Loi du 3
                         Juillet 1933 sur la contrebande du tabac; cigarettes hygiéniques ne
                         contenant pas de tabac mais présentées dè façon à le laisser croire;
@@ -2705,7 +2716,7 @@
                             être rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0160">
                     <head>310. - Administration. — Douanes; Règlement douanier; indemnité due au
                         propriétaire de marchandises saisies en vertu d’une décision de la
                         Commission Douanière reconnue mal fondée; responsabilité légale de
@@ -2865,7 +2876,7 @@
                             ordonner la restitution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0170">
                     <head>311. - Administration. — Droits d’accise; assiette; détermination; droits
                         d’accise sur la consommation des bières fabriquées dans le pays; perception
                         selon le tarif en vigueur au moment de la sortie de la fabrique; Décrets du
@@ -2984,7 +2995,7 @@
                             vexatoire ni téméraire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0180">
                     <head>312. - Administration. — Etat et administrations; personnalités
                         distinctes; Règlement douanier; majoration des droits de douane; défaut
                         d’effet quant aux obligations contractuelles à l’égard du Gouvernement
@@ -3161,7 +3172,7 @@
                         <p>A tous les points de vue, donc, l’appel se révèle mal fondé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0190">
                     <head>313. - Administration. — Expropriation pour cause d’utilité publique;
                         contestation portant sur le droit de rétention de l’expropriant sur
                         l’indemnité d’expropriation en raison d’un droit de hekr; recevabilité de
@@ -3326,7 +3337,7 @@
                             ce dernier argument.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0200">
                     <head>314. - Administration. — Expropriation pour cause d’utilité publique;
                         indemnité d’expropriation; droit de Vexproprié aux intérêts même à défaut de
                         réclamation en première instance.</head>
@@ -3357,7 +3368,7 @@
                     </div>
                 </div>
                 <pb n="257" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0210">
                     <head>315. - Administration. — Expropriation pour cause d’utilité publique;
                         indemnité d’expropriation; intérêts; point de départ du calcul.</head>
                     <div type="summary">
@@ -3376,7 +3387,7 @@
                             18 Décembre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0220">
                     <head>316. - Administration. — Expropriation pour cause d’utilité publique
                         résultant en fait d’un plan d’alignement. — Décret du 26 Août 1889; ouvrages
                         visés; alignement imposé au propriétaire d’ouvrages bordant une voie
@@ -3484,7 +3495,7 @@
                             indemnité »; que l’article 167 de la Constitution relatif au maintien en
                             vigueur des lois et décrets antérieurs, soumet formellement ce maintien
                             à la condition que ces mesures soient « en harmonie avec les principes
-                            de liberté et d’égalité garanties par la Constitution >>, parmi
+                            de liberté et d’égalité garanties par la Constitution &gt;&gt;, parmi
                             lesquelles, figure sans aucun doute, la garantie précitée, sauvegarde
                             essentielle du droit de propriété;</p>
                         <p>Qu’il est manifeste (sous réserve bien entendu des considérations
@@ -3526,7 +3537,7 @@
                         <p>V. ég. ci-après § 318 l’arrêt du 18 Décembre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0230">
                     <head>317. - Administration. — Expropriation pour cause d’utilité publique
                         résultant en fait d’un plan d’alignement empêchant un propriétaire de
                         construire; incorporation de fait à la voie publique; indemnité due par
@@ -3703,7 +3714,7 @@
                         <p>V. ég. ci-après § 318 l’arrêt du 18 Décembre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0240">
                     <head>318. - Administration. — Expropriation pour cause d’utilité publique
                         résultant en fait d’un plan d’alignement; Loi No. 27 du 24 Décembre 1906;
                         application; expertise pon préalable; indemnité d’expropriation; intérêts;
@@ -3807,7 +3818,7 @@
                         <p>1935.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0250">
                     <head>319. - Administration. — Fonctionnaires des Juridictions Mixtes; nouveaux
                         cadres; exclusion du bénéfice de la solde d’expatriation.</head>
                     <div type="summary">
@@ -3921,7 +3932,7 @@
                             aucune base sérieuse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0260">
                     <head>320. - Administration. — Fonctionnai-, res étrangers; pensions; monnaie de
                         paiement; magistrats retraités des Juridictions Mixtes; droit au bénéfice de
                         l’art. 20 de la Loi No. 28 de 1923; interprétation de ce. texte; défaut de
@@ -4093,7 +4104,7 @@
                         <p>Les fonctionnaires étrangers bénéficiant des nouvelles dispositions en
                             étaient Informés par la publication au Journal Officiel du 25 Décembre
                             de la même année de l’Avis suivant:</p>
-                        <p>-> Il a été décidé d’étendre à tout fonctionnaire étranger du
+                        <p>-&gt; Il a été décidé d’étendre à tout fonctionnaire étranger du
                             Gouvernement Egyptien qui se trouve déjà à la retraits ou qui sera mis à
                             la retraite à l’avenir, le bénéfice de l’art. 20 de la Loi No. 28 de
                             1923 ».</p>
@@ -4262,7 +4273,7 @@
                         <p>Compense entre parties frais et honoraires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0270">
                     <head>321. - Administration. — Fonctionnaires; pensions; retenue pour droit de
                         timbre; illégitimité; décisions du Conseil des Ministres du 28 Octobre 1931
                         et du 30 Janvier 1932.</head>
@@ -4435,7 +4446,7 @@
                             parfaitement justifiée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0280">
                     <head>322. - Administration. — Hygiène publique; épidémie; Décret du 27 Mai
                         1899; visite au domicile d’un étranger; avertissement au Consulat; cas où il
                         n’est pas exigé.</head>
@@ -4510,7 +4521,7 @@
                             dommages et intérêts accordés par les premiers juges est à rejeter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0290">
                     <head>323. - Administration. — Impôt foncier; assiette; collocation de
                         l’Administration dans une distribution du produit de terrains; condition;
                         nécessité de la preuve qu’il s’agit d’impôts grevant les terrains mêmes dont
@@ -4581,7 +4592,7 @@
                             contribution.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0300">
                     <head>324. - Administration. — Impôt sur la propriété bâtie; Décret du 13 Mars
                         1884; base de l’impôt; assiette et contentieux de l’impôt; autorités à qui
                         ils sont dévolus; Conseil de Révision; caractère de juridiction
@@ -4805,7 +4816,7 @@
                             précèdent.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0310">
                     <head>325. - Administration. — Loi sur la presse; Décret-loi du 18 Juin 1931;
                         défaut d’assentiment des Puissances Capitulaires cl d’approbation de
                         l’Assemblée Législative de la Cour d’Appel Mixte; inapplicabilité aux
@@ -5117,7 +5128,7 @@
                     </div>
                 </div>
                 <pb n="267" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0320">
                     <head>326. - Administration. — Municipalité d’Alexandrie; impôts sur les bars et
                         établissements de débit de boissons; privilège mobilier assurant leur
                         recouvrement; objets appartenant à des tiers; conditions auxquelles le
@@ -5187,7 +5198,7 @@
                         <p>Attendu que le jugement a quo doit donc être confirmé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0330">
                     <head>327. - Administration. — Ports et Phares; droits de quai et de mahonne;
                         Décret du 22 Décembre 1880; bateau-citerne; autorisation provisoire
                         d’utilisation dans un port; révocation; conditions; inapplicabilité de la
@@ -5276,7 +5287,7 @@
                             Gouvernement, est mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0340">
                     <head>328. - Administration. — Postes; secret de la correspondance; principe;
                         étendue et. limites; violation du secret des lettres missives par la Poste
                         et la Police Egyptiennes; circonstances de fait la justifiant;
@@ -5462,13 +5473,13 @@
                             demandeurs mal fondés en leur action et de les en débouter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0350">
                     <head>329. - Administration. — Services publics; réglementation; pouvoir
                         discrétionnaire de l’Administration; limites; transports en commun;
                         réglementation; violation de la Constitution Egyptienne et des règlements;
                         atteinte aux. droits acquis des exploitants; responsabilité du Gouvernement;
                         étendue. — Automobiles; règlement; Arretés du 16 Juillet 1913 et du 3
-                        Septembre 1930: interprétation; du->ée des permis de circulation:
+                        Septembre 1930: interprétation; du-&gt;ée des permis de circulation:
                         dispositions applicables aux autobus; droit au renouvellement des permis de
                         circulation; conditions; transports en commun; droit de VAdministration au
                         changement des itinéraires: étendue et limites.</head>
@@ -5693,7 +5704,7 @@
                             des commerçants en autobus et camions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0360">
                     <head>330. - Administration. — Services publics; réglementation; transports en
                         commun; violation de la Constitution Egyptienne et des règlements sur les
                         automobiles; responsabilité du Gouvernement; défaut de droit à réparation au
@@ -5718,11 +5729,11 @@
                             Valsamidès c. Gouvernement Egyptien.</p>
                     </div>
                     <div type="observations">
-                        <p>Note. — V. ci-avant § 329 le jug. de même date au profit des
-                            exploitants de services d’autobus.</p>
+                        <p>Note. — V. ci-avant § 329 le jug. de même date au profit des exploitants
+                            de services d’autobus.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0370">
                     <head>331. - Administration. — Voie publique; occupation; preuve; portée en
                         matière civile des procès-verbaux de contravention; instance en paiement des
                         droits d’occupation; retard■ de l’Administration; conséquence. —
@@ -5813,7 +5824,7 @@
                             l’impossibilité de faire la preuve contraire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0380">
                     <head>332. - Administration. — Voirie; domaine public; chemin privé non fermé à
                         la circulation, conformément au Décret du 26 Août 1889; maintien de son
                         caractère non public.</head>
@@ -5878,7 +5889,7 @@
                             représentant l’emprise C. D. du plan;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-07-0390">
                     <head>333. - Expropriation pour cause d’utilité publique. — Locataires et
                         usufruitiers; droits contre l’exproprié; Art. 1 de la Loi No. 27 de 1906;
                         applicabilité dans les rapports entre les locataires de la partie expropriée

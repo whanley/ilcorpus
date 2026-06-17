@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1915-02-10">February 10, 1915</date><lb/>
-                    <biblScope unit="volume">Vol. 5</biblScope><lb/>
-                    <biblScope unit="number">No. 53 [should be 52]</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1915-02-10">February 10, 1915</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 5</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 53 [should be 52]</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -49,7 +60,8 @@
                 <p>ÉTRANGER.......!.. Frs. 28</p>
                 <p>S’adresser à l’Administration.</p>
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
-                <p>Publiée sous la Direction de Mes MAXIME PUPIKOFER et LÉON PANGALO, Avocats >.</p>
+                <p>Publiée sous la Direction de Mes MAXIME PUPIKOFER et LÉON PANGALO, Avocats
+                    &gt;.</p>
                 <p>ET SOUS LE PATRONAGE DU CONSEIL DE L’ORDRE DES AVOCATS D’ÉGYPTE</p>
             </div>
             <div type="article">
@@ -294,7 +306,7 @@
             <pb n="41" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE -"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0010">
                     <head>81. - Acte authentique exécutoire. — Expropriation immobilière. — Délai
                         de. grâce.</head>
                     <div type="summary">
@@ -362,7 +374,7 @@
                             Ernest Aboutakia c. Deutche Orientbank.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0020">
                     <head>82. - Adjudicataire. — Mise en possession. — Tiers possesseur.</head>
                     <div type="summary">
                         <p>L’adjudicataire ne peut prétendre à la mise en possession lorsqu’il se
@@ -376,7 +388,7 @@
                             Kerassiotis c. Dame Ayuocha bent Mohamed Khalil).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0030">
                     <head>83. - Appel. — Moyens nouveaux. — Acquiescement.</head>
                     <div type="summary">
                         <p>Tout appel régulièrement formé autorise l’appelant à développer devant la
@@ -390,7 +402,7 @@
                             bey Osman Abaza c. Choremi Bena-chi et Cie.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0040">
                     <head>84. - Appel. — Pourvoi en Cassation. — Qualification erronée. — Règlement
                         sur les machines à vapeur.</head>
                     <div type="summary">
@@ -430,7 +442,7 @@
                             administrative.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0050">
                     <head>85. - Appel. — Recevabilité. — Conclusions principales et subsidiaires. —
                         Séquestre. — Choix de la personne.</head>
                     <div type="summary">
@@ -446,7 +458,7 @@
                             Engineering Cy Ltd et autres c. Arthur -Antianig Fendian).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0060">
                     <head>86. - Assignation. — Modification de la demande. — Instance en faillite. —
                         Demande en paiement. — Lettre de change. — Chèque. — Mandat de paiement. —
                         Révocation.</head>
@@ -509,7 +521,7 @@
                             titre substitué au texte mixte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0070">
                     <head>87. - Aveu. — Présomptions.</head>
                     <div type="summary">
                         <p>S’agissant d’un aveu ou prétendu tel fait dans un procès, il est permis
@@ -526,7 +538,7 @@
                         <p>Note. — V. Dalloz, Code Civil Annoté, Art. 1356, Nos 149 et 160.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0080">
                     <head>88. - Bail. — Trouble causé par un tiers. — Expropriation pour cause
                         d’utilité publique. — Alignement. — Servitude. —■ Indemnité. —
                         Propriétaire.</head>
@@ -562,7 +574,7 @@
                             Gaz. IV, 165-392.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0090">
                     <head>89. - Caution. —.Perte des sûretés par le créancier. — Abstention des
                         poursuites.</head>
                     <div type="summary">
@@ -585,7 +597,7 @@
                             Baudry-Lacantinerie, Vol. 21, § 1179).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0100">
                     <head>90. - Clause pénale. — Absence de préjudice. ,— Charge de la preuve. —
                         Location:</head>
                     <div type="summary">
@@ -639,7 +651,7 @@
                             promis de payer une peine en cas d’inexécution de son obligation? »</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0110">
                     <head>91. -Commandement. — Sommation. — Demande en Justice. — Cours des
                         intérêts.</head>
                     <div type="summary">
@@ -654,7 +666,7 @@
                             des Wakfs c. Jacques Paul Tramoni et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0120">
                     <head>92. - Compensation. — Chose jugée. — Prescription.</head>
                     <div type="summary">
                         <p>Si la compensation s’opère de plein droit, jusqu’à concurrence de la
@@ -676,7 +688,7 @@
                             Çoghdadia).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0130">
                     <head>93. - Compétence Sommaire. — Clause compromissoire. — Appel.</head>
                     <div type="summary">
                         <p>La partie condamnée par un jugement de justice sommaire rendu .en vertu
@@ -704,7 +716,7 @@
                             le 13 Juin 1913 par l’Assemblée Législative: Gaz. 111, p. 171).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0140">
                     <head>94. - Concordat Préventif. — Cessation des paiements. — Délai du' dépôt de
                         bilan.</head>
                     <div type="summary">
@@ -723,7 +735,7 @@
                         <p>Note. — V. Gaz., I, p. 49.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0150">
                     <head>95. - Copropriétaire. — Hypothèque d’une part divise dans l’immeuble
                         indivis. — Partage entre cohéritiers. — Transcription. — Prescription. —
                         Appel incident. — Contredit. — Gage. — Nullité pour défaut de
@@ -775,7 +787,7 @@
                             Juin 1914, Gaz. 180-440. i</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0160">
                     <head>96. - Cotons. — Preuve de la livraison. — Notes de pesage.</head>
                     <div type="summary">
                         <p>Les notes de pesage ne constituent pas à elles seules preuve de la
@@ -789,7 +801,7 @@
                             Dame Marie veuve S. Skenderany c. Ahmed Mohamed Chadly et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0170">
                     <head>97. - Délai de Grâce. — Conditions. — Crise générale.</head>
                     <div type="summary">
                         <p>C’est en envisageant la situation personnelle du créancier et du débiteur
@@ -805,7 +817,7 @@
                             Moustapha Pacha Khalil c. G. Stagni e îigli et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0180">
                     <head>98. - Délai de grâce. — Crise générale. — Cas fortuit. — Contrat de bail.
                         — Clause léonine. — Dépôt.</head>
                     <div type="summary">
@@ -835,7 +847,7 @@
                             feu Sayed Ibrahim Gemei c. Paolo Farrugia).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0190">
                     <head>99 - Demande nouvelle. — Appel. — Dommages-intérêts.</head>
                     <div type="summary">
                         <p>Il ne peut être fait, en matière de dommages et intérêts, exception à la
@@ -849,7 +861,7 @@
                             Herbert Milton c. G. L. Sursock).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0200">
                     <head>100. - Exequatur. — Réciprocité. — Jugement italien.</head>
                     <div type="summary">
                         <p>La condition de réciprocité exigée par l’art. 468 Code Proc, pour
@@ -982,7 +994,7 @@
                             juridiction que la demande d’exequatur doit être portée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0210">
                     <head>101. - Expertise. - Convocation. — Dispense de notification.</head>
                     <div type="summary">
                         <p>La partie qui a été régulièrement convoquée par lettre à une première
@@ -996,7 +1008,7 @@
                             Tewfik bey c. E. B. Lian).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0220">
                     <head>102. - Expropriation immobilière. — Subrogation aux poursuites.</head>
                     <div type="summary">
                         <p>Pour agir dans l’intérêt des créanciers et diriger une procédure commune
@@ -1011,7 +1023,7 @@
                             Mahmoud Aly Mohamed c. Bank of Egypt en liq.f et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0230">
                     <head>103. - Faillite. — Choix du syndic. — Société. — Liquidateur.</head>
                     <div type="summary">
                         <p>Aucune disposition de la loi ne fait au tribunal un devoir de choisir
@@ -1028,7 +1040,7 @@
                             Medawar c. Jean de Beaupuis esq. et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0240">
                     <head>104. - Faillite. — Hypothèque concordataire. — Immeubles des cautions.
                         •</head>
                     <div type="summary">
@@ -1041,7 +1053,7 @@
                             Ibrahim Yousscf Salama c. L. Méguer-ditchian esq. et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0250">
                     <head>105. - Faillite. — Instance en déclaration. — Intervention des créanciers
                         en degré d’appel. — Ordre public.</head>
                     <div type="summary">
@@ -1063,7 +1075,7 @@
                             Geahel et Cîe c. Mohamed Saada et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0260">
                     <head>106. - Folle enchère. — Responsabilité du fol enchérisseur. —
                         Commandement. — Bordereau de collocation.</head>
                     <div type="summary">
@@ -1116,7 +1128,7 @@
                             folle-enchère.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0270">
                     <head>107. - Gage. — Nullité. — Délaissement en cas d’adjudication.</head>
                     <div type="summary">
                         <p>Le délaissement fait par le créancier gagiste au profit de
@@ -1131,7 +1143,7 @@
                             Mitarachi c. Hoirs de feu Osman Abaza).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0280">
                     <head>108. - Juridictions disciplinaires. — Administration. — Renvoi
                         intempestif. — Municipalité d’Alexandrie. — Réglements du 16 Mai 1900 et du
                         20 Mai 1912.</head>
@@ -1238,7 +1250,7 @@
                             de la Caisse de Prévoyance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0290">
                     <head>109. - Juridiction Mixte. — Compétence. — Administrations de l'Etat. —
                         Conseil Sanitaire, Maritime et Quarante-naire d’Egypte.</head>
                     <div type="summary">
@@ -1345,7 +1357,7 @@
                             son sein.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0300">
                     <head>110. - Juridiction Mixte. — Compétence. — Agents de la force publique. —
                         Résistance ou voies de fait. — Officiers de justice et officiers de police
                         judiciaire.— Exécution des jugements en matière pénale.</head>
@@ -1541,7 +1553,7 @@
                             un argument d’analogie. G. S.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0310">
                     <head>111. - Juridiction Mixte. — Compétence. — Bulgares. — Cession. —
                         Consentement du débiteur cédé.</head>
                     <div type="summary">
@@ -1645,7 +1657,7 @@
                         <p>Attendu dèslorsqu’iléchet d’accueillir l’exception d’irrecevabilité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0320">
                     <head>112. - Juste titre. — Prescription de cinq ans. — Nullité relative.</head>
                     <div type="summary">
                         <p>Si la nullité relative d’un .acte ne l’empêche pas de constituer un juste
@@ -1663,7 +1675,7 @@
                         <p>IV, 205-489. .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0330">
                     <head>113. - Jugement de défaut. — Partie non comparante et non réassignée à une
                         audience ultérieure.</head>
                     <div type="summary">
@@ -1690,7 +1702,7 @@
                             parfaitement être prononcé contre la partie non comparante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0340">
                     <head>114. - Juridiction Mixte. — Compé-• tence. — Avocat. — Liquidation des
                         honoraires dûs pour assistance devant une juridiction étrangère.</head>
                     <div type="summary">
@@ -1712,7 +1724,7 @@
                     </div>
                     <div type="litigants">
                         <p>(Cour d’Appel, l'° Cli. Prés. M. L. Sandars,23 Décembre 1914. — Dme Marie
-                            de Zogheb Vve Kahil Pacha c. M" A. M. Pacha et E. M...>.</p>
+                            de Zogheb Vve Kahil Pacha c. M" A. M. Pacha et E. M...&gt;.</p>
                     </div>
                     <div type="observations">
                         <p>Note. — Par la lecture du texte intégral de l’arrêt il est plus aisé de
@@ -1809,7 +1821,7 @@
                             secondaire, qu’ils ne sauraient avoir d’influence sur la compétence.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0350">
                     <head>115. - Juridiction mixte. — Compétence. — Intérêt mixte.</head>
                     <div type="summary">
                         <p>Si le fait seul d’tïn intérêt mixte en cause au procès rend les Tribunaux
@@ -1824,7 +1836,7 @@
                             autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0360">
                     <head>116. - Loi Martiale. — Égypte. — Etat de siège. — Tribunaux de droit
                         commun. — Demandes en paiement par les sujets allemands. —- Avocat. —
                         Mandat.</head>
@@ -1900,7 +1912,7 @@
                             mentionnées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0370">
                     <head>117. - Mesures d’instruction. — Délai fixé par le jugement. — Point de
                         départ. — Déchéance. — Expertise.</head>
                     <div type="summary">
@@ -1948,14 +1960,14 @@
                             autre disposition législative ultérieure. Il faut au contraire s’en
                             tenir strictement au but qu’a pu rechercher le législateur au moment où
                             il a adopté la disposition en question, et en l’état des autres textes
-                            de la loi>à la même époque. Or, avant les dispositions nouvelles, plus
-                            radi-dicales, de l’art. 169, l’ancien art. 258 (art. 257 nouv.) avait
-                            parfaitement sa raison d’être, qui était de supprimer la signification
-                            comme une' formalité frustratoire et inutile en l’état de la présence
-                            des parties à l’audience au moment du prononcé. Ainsi éclairé, ce texte
-                            ne prête pas à équivoque: il s’agit bien de la présence des parties au
-                            moment où cette présence présentait un intérêt, c’est-à-dire au moment
-                            où lecture leur était donnée de la décision.</p>
+                            de la loi&gt;à la même époque. Or, avant les dispositions nouvelles,
+                            plus radi-dicales, de l’art. 169, l’ancien art. 258 (art. 257 nouv.)
+                            avait parfaitement sa raison d’être, qui était de supprimer la
+                            signification comme une' formalité frustratoire et inutile en l’état de
+                            la présence des parties à l’audience au moment du prononcé. Ainsi
+                            éclairé, ce texte ne prête pas à équivoque: il s’agit bien de la
+                            présence des parties au moment où cette présence présentait un intérêt,
+                            c’est-à-dire au moment où lecture leur était donnée de la décision.</p>
                         <p>Encore fallait-il qùe cette présence fut constatée par le procès-verbal
                             d’audience: et force nous est bien de reconnaître ici que dans la
                             pratique, l’ancien art. 258 C. Proc, restait lettre-morte. En l’état de
@@ -2109,7 +2121,7 @@
                             Contemporaine, 1915, N° 20-21, p. 121).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0380">
                     <head>118. - Mineur. — Action en rescision. — Conditions.</head>
                     <div type="summary">
                         <p>L’incapacité du mineur est relative, aussi lorsqu’il demande la rescision
@@ -2126,7 +2138,7 @@
                             Bittar c. Hoirs 8. Midi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0390">
                     <head>119. - Motivation. — Jugement correctionnel. — Cassation. — Prélèvements
                         excessifs. — Dépôt de bilan. — Achats pour revendre au dessous des cours. —
                         Tenue de livres. — Enonciation des délits dans le dispositif.</head>
@@ -2164,7 +2176,7 @@
                             cette mention qui a été retenue insuffisante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0400">
                     <head>120. - Nationalité. — Femme étrangère épousant un ottoman.</head>
                     <div type="summary">
                         <p>La femme étrangère qui épouse un ottoman acquiert la nationalité
@@ -2350,7 +2362,8 @@
                             Affaires Etrangères de France suivi de la lettre du Ministère à
                             i’Ambassade française à Constantinople du 27 Mai 1869, savoir que « la
                             nationalité ottomane ne peut être imposée à personne contrairement à sa
-                            volonté ni sans le consentement spontané de la partie intéressée >.</p>
+                            volonté ni sans le consentement spontané de la partie intéressée
+                            &gt;.</p>
                         <pb n="52" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                         <p>Soutenir que fa femme étrangère en consentant à se marier à un ottoman ne
                             consent pas implicitement, mais nécessairement à devenir ottomane,
@@ -2396,7 +2409,7 @@
                             s’agit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0410">
                     <head>121. - Plainte. — Responsabilité. — Légèreté. — Malveillance. — Mauvaise
                         foi. — Faute aquilienne.</head>
                     <div type="summary">
@@ -2430,7 +2443,7 @@
                             de légère la conduite du défendeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0420">
                     <head>122. - Prescription extinctive. — Billets à vue. — Seneds. — Interruption.
                         — Preuve.</head>
                     <div type="summary">
@@ -2520,7 +2533,7 @@
                             le.serment.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0430">
                     <head>123. - Presse.— Propriété des nouvelles et dépêches. — Domaine
                         public.</head>
                     <div type="summary">
@@ -2626,7 +2639,7 @@
                             débouter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0440">
                     <head>124. - Propriétaire. — Privilège. — Remise des récoltes par les
                         fermiers.</head>
                     <div type="summary">
@@ -2643,7 +2656,7 @@
                             Banoun et autres c. Deutsche Orient Bank et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0450">
                     <head>125. - Référé. — Constatations urgentes pour constituer preuve.</head>
                     <div type="summary">
                         <p>Il est de jurisprudence constante que le Juge des Référés est compétent
@@ -2656,7 +2669,7 @@
                             Badran c. Aristide Polymeris).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0460">
                     <head>126. - Référé. — Opposition à taxe.</head>
                     <div type="summary">
                         <p>Si en principe l’opposition à taxe doit être portée devant le Juge qui
@@ -2705,7 +2718,7 @@
                         <p>Que l’exception doit par suite être rejetée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0470">
                     <head>127. - Référé. — Urgence. — Vente de sacs à cotons.</head>
                     <div type="summary">
                         <p>De même que le coton, les sacs à coton sont des marchandises sujettes à
@@ -2720,7 +2733,7 @@
                             .Torîel &amp; Co. c. Frédéric Ott &amp; Co.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0480">
                     <head>128. - Retrait d’indivision. — Héritier. — Succession musulmane. —
                         Préemption. — Vente entre alliés. — Offre du prix. — Déchéance.</head>
                     <div type="summary">
@@ -2743,7 +2756,7 @@
                             Dme Nazie bent Mohamed Gaba c. Mohamed Hussein El Anddîli).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0490">
                     <head>129. - Retrait litigieux. — Créance résultant d’acte authentique.</head>
                     <div type="summary">
                         <p>L’art. 442 C. Civ. n’autorise lé rachat par le débiteur du droit cédé que
@@ -2762,7 +2775,7 @@
                             Raouf Abdel Gaffar Omar c. Bassiouni Harb et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0500">
                     <head>130. - Rue. — Tranchée ouverte. — Absence de lanterne au fond.</head>
                     <div type="summary">
                         <p>Le règlement de police ne prescrit point de placer des lanternes au fond
@@ -2776,7 +2789,7 @@
                             Manugian c. Sté. des Egoûts du Caire).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0510">
                     <head>131. - Séparation des Pouvoirs. — Pouvoir exécutif et pouvoir législatif.—
                         Souverain. — Vente des biens des mineurs.</head>
                     <div type="summary">
@@ -2805,7 +2818,7 @@
                             Abdel Sayed c. Ftancesco S. Angelo et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0520">
                     <head>132. - Séquestre. — Distribution des revenus provenant de son
                         administration. — Sommation au créancier ayant requis le séquestré. —
                         Forclusion.</head>
@@ -2826,7 +2839,7 @@
                         <p>1913, Gaz. III, 119-262.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0530">
                     <head>133. - Société. — Associé cl’industrie. — Inventeur. — Clause de non
                         participation aux pertes.</head>
                     <div type="summary">
@@ -2869,7 +2882,7 @@
                             de déni-cotisation du tabac que le demandeur assumait.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0540">
                     <head>134. - Société. — Exécution impossible d’une obligation essentielle. —
                         Résiliation. — Guerre entre l’Egypte et l’Allemagne. — Nationalité.</head>
                     <div type="summary">
@@ -2890,7 +2903,7 @@
                             et Gustave Aghion c. Wilhelm Trapp esn. et q.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0550">
                     <head>135. - Tiers-détenteur. — Remboursement des frais de conservation et
                         d’amélioration. — Fol enchérisseur.</head>
                     <div type="summary">
@@ -2907,7 +2920,7 @@
                             Hypothécaire d’Egypte c. Mahmoud Etfendi Metwalli).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0560">
                     <head>136. - Tribunal Correctionnel. — Lecture des dépositions des témoins
                         empêchés, et des déclarations des experts. — Citation des textes
                         appliqués.</head>
@@ -2928,7 +2941,7 @@
                             1914. — Selim Zamati et autres c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0570">
                     <head>137. - Usages commerciaux. — Responsabilité. — Connaissement.</head>
                     <div type="summary">
                         <p>I. - On ne peut reconnaître force obligatoire à un usage qu’à la
@@ -2952,7 +2965,7 @@
                             Garangiotti c. Norddeutcher Lloyd et W. Hal-berstadh).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0580">
                     <head>138. - Vente. — Clause de non-garantie. — Eviction. —Remboursement du
                         prix.</head>
                     <div type="summary">
@@ -2982,7 +2995,7 @@
                             trouverait sans cause entre les mains du vendeur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0590">
                     <head>139. - Vente à terme..— Coton.</head>
                     <div type="summary">
                         <p>Lorsque les contractants ont prévu un appoint fixe à payer au moment de
@@ -3001,7 +3014,7 @@
                             Andrès et Cie e. Mohamed Hussein Ghanem et Cts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0600">
                     <head>140. - Vente à terme. — Défaut de mise en demeure. — Présomption en faveur
                         de la résiliation du contrat.</head>
                     <div type="summary">
@@ -3020,7 +3033,7 @@
                             § 141.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0610">
                     <head>141. - Vente Commerciale. — Résiliation pour cause de retard dans la
                         livraison. — Mise en demeure. — Marchandises vendables en toute saison.
                         .</head>
@@ -3043,7 +3056,7 @@
                             1912, Gaz. Il, 193.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0620">
                     <head>142. - Vente. — Récolte non individualisée. — Revendication irrecevable. —
                         Vente au poids ou à la mesure.</head>
                     <div type="summary">
@@ -3070,7 +3083,7 @@
                             c. Georges Bey Eid &amp; Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-02-0630">
                     <head>143. - Vice Caché. — Définition. — Obligations de l’acheteur.</head>
                     <div type="summary">
                         <p>On ne peut entendre comme vice caché que celui qui ne peut être découvert
@@ -3333,7 +3346,7 @@
                 <p>12. — Les interdictions édictées par cette proclamation et par la décision du
                     Conseil des Ministres en date du 5 août 1914 étant d’ordre public, toute
                     juridiction en Egypte devra en tenir compte, même d’office.</p>
-                <p>(Signé> J. G. Maxwell Lieutenant-Général</p>
+                <p>(Signé&gt; J. G. Maxwell Lieutenant-Général</p>
                 <p>Comm. en Chef les Forces de S.M.B. en Egypte.</p>
                 <p>God save the Ring!</p>
             </div>
@@ -3487,7 +3500,7 @@
                 <p>Mahmoud El Meehe (Expert Hanna Somaân)</p>
                 <p>12.1.15 séance lect. rapp. renv. à 19.1.15 Rapp.</p>
                 <p>conclut à mauvaise foi du déb. Renv. devant Trib. pour décl. l’office en faillite
-                    (Voir faillites prononcées). ></p>
+                    (Voir faillites prononcées). &gt;</p>
                 <p>FAILLITES EN COURS.</p>
                 <p>Hag Soultan Mohamed (Syndic Anastassia-des). 5.1.15 ord. aut. contin. exploit,
                     avec gar de Mohamed Farag. 2.2.15 séance vérif. cr. renv. à 23.2.15.</p>
@@ -4113,9 +4126,9 @@
                     opposé à un conc. en prétendant que les déb. seraient de mauvaise foi parceque
                     les registres seraient nouveaux, que le dél. -ne se serait pas rendu sur les
                     lieux pour examiner les1 terrains ; qu’il n’aurait pas fait l’inventaire des
-                    marchandises et que la comp-> tabilité des débiteurs serait mal trnue. L’affaire
-                    fut renvoyée au 8.2.15 pour que les cr. prennent communication du japp. du
-                    délégué.</p>
+                    marchandises et que la comp-&gt; tabilité des débiteurs serait mal trnue.
+                    L’affaire fut renvoyée au 8.2.15 pour que les cr. prennent communication du
+                    japp. du délégué.</p>
                 <p>Mouafi Dessouki parfumeur indig. domicilié à Mit Ghamr (Mohamed Bey Osman El
                     Bannani, délégué des créanciers). Rapp. déposé à la séance du 18.1.15. Actif
                     réal. P.T. 21125. Passif réal. P.T. 42819,11’; il conclut que le dél. est
@@ -4197,7 +4210,7 @@
                     aux trois associés. Durée: 3 années faute de dé-nonciat. 3 mois avant expirât.
                     (Contr. 14.1.15).</p>
                 <p>, Hazzopoulo &amp; Rie. Prorogat. pour deux années expirant le 31.12.15 de la
-                    soc. const. par acte du 10 Juillet 1908 et modifiée suivant > acte du
+                    soc. const. par acte du 10 Juillet 1908 et modifiée suivant &gt; acte du
                     11.1.12.</p>
                 <p>Racomanolis Psorulla et Papas. Const. d’une soc. en nom collectif entre Grégoire
                     Ca-comanolis, Spiro Psorulla et Néarchos Papas. Objet continuât, des aff. de la

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0004-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0004-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1914-10-10">October 10, 1914</date><lb/>
-                    <biblScope unit="volume">Vol. 4</biblScope><lb/>
-                    <biblScope unit="number">No. 48</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1914-10-10">October 10, 1914</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 4</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 48</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -153,7 +164,7 @@
             <pb n="202" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0010">
                     <head>478. - Adjudicataire. — Domicile élu. — Jugement d’adjudication. — Appel.
                         — Vice de forme. — Débiteur décédé. — Erreur matérielle.</head>
                     <div type="summary">
@@ -278,7 +289,7 @@
                             rectifier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0020">
                     <head>479. - Cahier des charges. — Clause concernant les cultures. — Impenses. —
                         Droits du locataire. — Adjudicataire.</head>
                     <div type="summary">
@@ -298,7 +309,7 @@
                             Dessouki c. Emin bey Yehia et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0030">
                     <head>480. - Compagnie des Eaux. — Base de l’abonnement. — Concession
                         municipale..</head>
                     <div type="summary">
@@ -397,7 +408,7 @@
                             condamner la défenderesse à payer la somme réclamée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0040">
                     <head>481. - Echange. — Eviction. - Résolution du contrat. — Tiers. —
                         Transcription. — Hypothèque. — Droits réels.</head>
                     <div type="summary">
@@ -453,7 +464,7 @@
                             ils ne pouvaient plus le revendiquer ou le répéter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0050">
                     <head>482. - Exécution provisoire. — Jugement commercial. — Défense
                         d’exécuter.</head>
                     <div type="summary">
@@ -514,7 +525,7 @@
                         <p>Réserve les dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0060">
                     <head>483. - Faillite. — Période suspecte. — Hypothèque conventionnelle. —
                         Sûreté subséquente. — Privilège du constructeur.</head>
                     <div type="summary">
@@ -552,7 +563,7 @@
                             suspecte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0070">
                     <head>484. - Faillite. —Rétractation. — Appel du jugement de rétractation. —
                         Syndic. — Mesures conservatoires.</head>
                     <div type="summary">
@@ -574,7 +585,7 @@
                             de la faillite Youssef Mohamed Leeda).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0080">
                     <head>485. - Folle enchère. — Nullité. — Action principale. — Notification du
                         jour de l’adjudication. — Signification. — Cohabitation.</head>
                     <div type="summary">
@@ -688,7 +699,7 @@
                             saisi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0090">
                     <head>486. - Intervention. — Recevabilité.. — Droit acquis. — Accident. —
                         Dommages.</head>
                     <div type="summary">
@@ -702,7 +713,7 @@
                             c. Tramways du Caire).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0100">
                     <head>487. - Juridiction Mixte. — Compétence. — Bulgares.</head>
                     <div type="summary">
                         <p>L’Art. 9 R. O. J. s’applique aux étrangers en général sans distinction de
@@ -761,7 +772,7 @@
                             Tribunaux Mixtes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0110">
                     <head>488. - Juridiction mixte. — Com-pétence. — Intérêt moral. — Intérêt mixte.
                         — Société Khédiviale d’Agriculture.</head>
                     <div type="summary">
@@ -901,7 +912,7 @@
                             le renvoi devant la juridiction indigène.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0120">
                     <head>489. - Juste titre. — Prescription de cinq ans. — Nullité relative.</head>
                     <div type="summary">
                         <p>Si la nullité relative dont un acte est entaché ne l’empêche pas de
@@ -915,7 +926,7 @@
                             Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0130">
                     <head>490. - Opposition à taxe. — Appel. — Taux.</head>
                     <div type="summary">
                         <p>Est recevable l’appel contre un jugement ayant statué sur l’opposition à
@@ -931,7 +942,7 @@
                             Aïcha et Naima Sabri).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0140">
                     <head>491. - Qualité (Défaut de) — Exception. — Tuteur. — Conseil de famille. —
                         Ratification.</head>
                     <div type="summary">
@@ -950,7 +961,7 @@
                             Xenophon Agallopoulos c. Nicolas La dis et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0150">
                     <head>492. - Propriété (Droit de). — Obligation de voisinage. — Usine
                         génératrice de lumière. — Trépidations. — Obligations du
                         propriétaire.</head>
@@ -1125,7 +1136,7 @@
                             relatifs aux travaux à exécuter dans ce but.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0160">
                     <head>493. - Revendication mobilière. — Femme musulmane. — Preuve du mariage. —
                         Loi sur les Mehkémés. — Présomption légale sur la propriété des
                         meubles.</head>
@@ -1257,7 +1268,7 @@
                             faisant partie du trousseau de la demanderesse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0170">
                     <head>494. - Saisie-arrêt. — Recours devant le juge qui a rendu l’ordonnance. —
                         Recevabilité.</head>
                     <div type="summary">
@@ -1318,7 +1329,7 @@
                             Eeman (Gaz. I, p. 29).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0180">
                     <head>495. - Séquestre. — Honoraires. — Privilège. — Non indivisibilité —
                         Collocation.</head>
                     <div type="summary">
@@ -1346,7 +1357,7 @@
                             bey Delawer esq. et autres c. Andrea Montano).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0190">
                     <head>496. - Société anonyme. — Assemblée Générale. — Statuts. — Actionnaire. —
                         Action individuelle. — Liquidation judiciaire.</head>
                     <div type="summary">
@@ -1467,7 +1478,7 @@
                             par l’assemblée générale est également irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1914-10-0200">
                     <head>497. - Vente à réméré. - Bail. — Part indivise. — Gage.</head>
                     <div type="summary">
                         <p>I. - Aucun texte de loi ne s’oppose à ce qu’un acheteur à réméré donne à

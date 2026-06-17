@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0002-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0002-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1912-08-10">August 10, 1912</date><lb/>
-                    <biblScope unit="volume">Vol. 2</biblScope><lb/>
-                    <biblScope unit="number">No. 22</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1912-08-10">August 10, 1912</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 2</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 22</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -147,12 +158,13 @@
                     fellah ?</p>
                 <p>Aux termes de ce même projet, l’insaisissabilité serait étendue « à l’habitation
                     « des cultivateurs et à ses dépendances, « à deux animaux de trait et aux
-                    usten-« siles d’agriculture nécessaires à l’exploi-« tation des dites terres. ->
-                    Cette extension de l’insaisissabilité ferait jusqu’à un certain point double
-                    emploi avec quel-<pb n="174" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"
-                    />ques-unes des dispositions prohibitives de. l’art. 518 C. proc. lequel défend
-                    entre autres la saisie d’une vache ou de trois chèvres ou de trois brebis, au
-                    choix du saisi, ainsi que les outils nécessaires au travail.</p>
+                    usten-« siles d’agriculture nécessaires à l’exploi-« tation des dites terres.
+                    -&gt; Cette extension de l’insaisissabilité ferait jusqu’à un certain point
+                    double emploi avec quel-<pb n="174"
+                        rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>ques-unes des
+                    dispositions prohibitives de. l’art. 518 C. proc. lequel défend entre autres la
+                    saisie d’une vache ou de trois chèvres ou de trois brebis, au choix du saisi,
+                    ainsi que les outils nécessaires au travail.</p>
                 <p>La réprobation quasi universelle que ce projet de loi a encourue dès qu’il eut
                     transpiré — car en Egypte les lois s’élaborent dans l’ombre et le secret et si
                     elles parviennent au jour avant leur promulgation ce n’est guère, que par
@@ -558,7 +570,7 @@
             <pb n="177" rendition="GAZETTE DES TRIBUNAUX MIXTES D’EGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0010">
                     <head>Accident. — Dommages-intérêts. — Solidarité entre les coparticipants au
                         quasi-délit.</head>
                     <div type="summary">
@@ -573,7 +585,7 @@
                             Delta Nile Navigation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0020">
                     <head>Adjudication. — Revendication partielle. — Cahier des charges. — Clause de
                         non garantie.</head>
                     <div type="summary">
@@ -603,7 +615,7 @@
                             jurisprudence la plus récente de la Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0030">
                     <head>Arbitrage. — Médiation. — Honoraires.</head>
                     <div type="summary">
                         <p>Des arbitres dont l’arbitrage a été annulé comme portant sur des matières
@@ -616,7 +628,7 @@
                             G... c. Bedros Boghos Garabedîan).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0040">
                     <head>Compétence. — Tribunal Sommaire. — Juge de l’action, juge de
                         l’exception.</head>
                     <div type="summary">
@@ -637,7 +649,7 @@
                             Fratelli Yacovelli).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0050">
                     <head>Compétence. — Tribunaux Mixtes. — Etrangers non domiciliés en Egypte. —
                         Appel en garantie. .</head>
                     <div type="summary">
@@ -661,7 +673,7 @@
                             Cie c. Rubens^Boss &amp; Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0060">
                     <head>Compétence commerciale. — Employé. — Patron. ;</head>
                     <div type="summary">
                         <p>La double compétence du Tribunal Civil et du Tribunal de Commerce
@@ -679,7 +691,7 @@
                             c. VT* C. Al. Piperno;.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0070">
                     <head>Compétence territoriale. — Défendeur domicilié à l’étranger.</head>
                     <div type="summary">
                         <p>Quand l’un des défendeurs demeure en Egypte et l’autre &lt;à l’étranger,
@@ -695,7 +707,7 @@
                             Constantina V" Théodorou c. Spiridion Evan-gelistis et Ct.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0080">
                     <head>Concordat préventif. — Action en justice. — Surenchère. — Revendication
                         sur expropriation.</head>
                     <div type="summary">
@@ -712,7 +724,7 @@
                             Aristomène Didicas et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0090">
                     <head>Concordat préventif. — Protêt. — Cessation des paiements.</head>
                     <div type="summary">
                         <p>Le fait par un créancier porteur d’un protêt de ne pas faire état de ce
@@ -727,7 +739,7 @@
                             D”e Sault).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0100">
                     <head>Concurrence Déloyale. — Protection légale. — Enregistrement non
                         nécessaire.</head>
                     <div type="summary">
@@ -743,7 +755,7 @@
                             c. Pandellis Carvellis). •</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0110">
                     <head>Contribuable.-— Municipalité d’Alexandrie. — Action en Justice. — Droit
                         administratif.</head>
                     <div type="summary">
@@ -830,7 +842,7 @@
                         <p>Déclare l’action irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0120">
                     <head>Convention. — Prêt (contrat de). — Intention des parties.</head>
                     <div type="summary">
                         <p>En interprétant sainement, d’après l’intention des parties au moment dé
@@ -845,7 +857,7 @@
                             Hessein c. The Land and Mortgage Cy Ltd).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0130">
                     <head>Diffamation. — Presse (campagne de). Intention.</head>
                     <div type="summary">
                         <p>Des excès de langage, insinuations et qualificatifs déplacés et
@@ -863,7 +875,7 @@
                             Antoine Arcache).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0140">
                     <head>Dira. — Notification du dépôt du cahier des charges. — Mise à prix. —
                         Titre (signification du). — Compte courant.</head>
                     <div type="summary">
@@ -880,7 +892,7 @@
                             Fetouh et Cts c. Maison de Commerce Georges Riecken).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0150">
                     <head>Entrepreneur. — Responsabilité. — Puits artésien. — Dégradation.</head>
                     <div type="summary">
                         <p>L’expression “travaux de construction” employée par l’art. 500 C. Civ.
@@ -895,7 +907,7 @@
                             c. El Biali Omar et Ct ).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0160">
                     <head>Exécution. — Référé. — Compétence«.</head>
                     <div type="summary">
                         <p>I. Il est loisible aux parties de soustraire, par des stipulations
@@ -975,7 +987,7 @@
                             incompetente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0170">
                     <head>Faillite. — Liquidateurs. — Unité de la faillite. — Dissolution d’union. —
                         Traité avec les créanciers. — Dessaisissement.</head>
                     <div type="summary">
@@ -1141,7 +1153,7 @@
                         <p>Réforme. Le Président (s) Gescher.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0180">
                     <head>Faillite. — Revendication. — Corps certain. •</head>
                     <div type="summary">
                         <p>Les dispositions du Code de Commerce en matière de revendication en cas
@@ -1160,10 +1172,9 @@
                             c. Faillite Georges Zervudachi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0190">
                     <head>Gestion d’affaires. — Actionnaire. — Associé. — Action de in rem verso. —
                         Action sociale. — Frais. — Honoraires.</head>
-                    
                     <div type="observations">
                         <p>Note. — Par arrêt du 15 Mai 1912, la lre Chambre de la Cour, Prés. M.
                             Gescher, a confirmé le jugement rendu le 23 Décembre 1911 par le
@@ -1172,7 +1183,7 @@
                             d’espèce, le chiffre des condamnations.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0200">
                     <head>Jonction d’instances. — Complications et difficultés possibles. — Faculté
                         du Juge.</head>
                     <div type="summary">
@@ -1193,7 +1204,7 @@
                             136-137.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0210">
                     <head>Lettre de Change. — Extinction de la dette par confusion. — Endossement
                         ultérieur.</head>
                     <div type="summary">
@@ -1208,7 +1219,7 @@
                             Dr Alphandary.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0220">
                     <head>Livres de Commerce. — Revendication — Sursis. — Douane (droits de). —
                         Action en paiement d’un complément de droits douaniers.</head>
                     <div type="summary">
@@ -1236,7 +1247,7 @@
                             c. Grands Magasins Chalons).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0230">
                     <head>Référés. — Taxe d’experts. — Opposition. — Compétence:</head>
                     <div type="summary">
                         <p>Le juge des Référés dont la compétence a été reconnue pour1 taxer les
@@ -1255,7 +1266,7 @@
                             Cts c. Th. Bakhoum et Ct).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0240">
                     <head>Saisie-Arrêt. — Société en participation. — Entreprise de travaux. —
                         Cession. — Référé.</head>
                     <div type="summary">
@@ -1286,7 +1297,7 @@
                             &amp; W. Florence c. National Bank &amp; cts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0250">
                     <head>Saisie Immobilière. — Ouverture de crédit. — Prêt déguisé. — Créance non
                         liquide.</head>
                     <div type="summary">
@@ -1308,7 +1319,7 @@
                             Mohamed Chahine et Cts c. Agricultural Bank of Egypt).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0260">
                     <head>Titre exécutoire. — Créancier hypothécaire. — Diminution de valeur de
                         l’immeuble affecté. — Affectation hypothécaire.</head>
                     <div type="summary">
@@ -1338,7 +1349,7 @@
                         <pb n="181" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0270">
                     <head>Vente. — Eviction. — Restitution du prix et dommages-intérêts.</head>
                     <div type="summary">
                         <p>L’acheteur qui a été victime d’une é-viction ne peut exiger des hoirs de
@@ -1356,7 +1367,7 @@
                             Sakakini c. Ahmed eff. Chanan et Cts. N° 7137. Rg. XXXIIe A. J.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0280">
                     <head>Wakf. — Nazir. — Pouvoirs. — Législation britannique. — Exécuteurs
                         testamentaires. — Pouvoirs.</head>
                     <div type="summary">
@@ -1374,7 +1385,7 @@
                             Aziz El Hindi c. julien Nacamuli).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0290">
                     <head>Wakfs. — Prescription acquisitive. — Droit musulman.</head>
                     <div type="summary">
                         <p>Les biens wakfs sont, d’après la loi musulmane, inaliénables et
@@ -1386,7 +1397,7 @@
                             bent Nasr Amer esq. c. Ahmed Mohammed El Moghrabi et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1912-08-0300">
                     <head>Wakf. — Représentant légal. — Action dirigée contre le nazir
                         personnellement.</head>
                     <div type="summary">
@@ -1582,7 +1593,7 @@
                 <p>Rais. Soc. D. Zouro et Cie (Synd. Anastassiadis). Etat d’un, dissout le 18.7.12.
                     Il y a une somme de P.T. 18.626 5%o à repartir.</p>
                 <p>Serour Bichara (Synd, Bank of Egypt). Etat d’union dissout le 20.7.12.</p>
-                <p>Bedros Babikian (Synd. Méguerditchian >. Etat d’un, dissout le 25.7,12 (rien à
+                <p>Bedros Babikian (Synd. Méguerditchian &gt;. Etat d’un, dissout le 25.7,12 (rien à
                     repartir).</p>
                 <p>Aly BawadiEl Seghir (Synd. Méguerditchian)</p>
                 <p>30.7.12. Jug. hom. Conc. Le failli fait les prop.</p>
@@ -2273,17 +2284,17 @@
                     Co. Objet : Commerce des fers, matériaux de construction et en gén. l’importât,
                     et l’exportât; Gér. et sig. app. à Henri Pollak. Siège Caire et succursale
                     Alexandrie. (Contr. 5.7.12).</p>
-                <p>Soc. Nationale de Publications, Man> sour Pacha Youssef, Abdel Razeh bey El Far,
-                    Mohamed bey El Wékil, Abdel Aziz ekkendi Osman et So. Const d’une Soc. en comm.
-                    par actions entre Mansour pacha Youssef, Abdel Razek bèy El Far, Mshamed Pacha
-                    Cherci, Aly Pacha Mehanna, Mohamed bey El Wekil, El Sayed bey El Chair, Abdel
-                    Kader bey El Ghériani, Hàssabo bey Mohamed, Abdallah bey Ghériani, Ibrahim Eff.
-                    Sid Ahmed, Abdel Aziz Effendi Osman. Objet: toutes entreprises de pubblicité en
-                    Egypte et à ['Etranger notamment d’imprimeries, de publications etc. et plus
-                    spécialement l’exploitât, du journal quotidien «El Ahaly «. .Capital composé par
-                    l’apport de la propriété dû journal « El Ahaly et le matériel évalué à L E. 3200
-                    et de 6800 L E. en numéraire représenté par 1700 actions entièrement souscrites.
-                    Durée 50 ans. .Sign. appart.</p>
+                <p>Soc. Nationale de Publications, Man&gt; sour Pacha Youssef, Abdel Razeh bey El
+                    Far, Mohamed bey El Wékil, Abdel Aziz ekkendi Osman et So. Const d’une Soc. en
+                    comm. par actions entre Mansour pacha Youssef, Abdel Razek bèy El Far, Mshamed
+                    Pacha Cherci, Aly Pacha Mehanna, Mohamed bey El Wekil, El Sayed bey El Chair,
+                    Abdel Kader bey El Ghériani, Hàssabo bey Mohamed, Abdallah bey Ghériani, Ibrahim
+                    Eff. Sid Ahmed, Abdel Aziz Effendi Osman. Objet: toutes entreprises de
+                    pubblicité en Egypte et à ['Etranger notamment d’imprimeries, de publications
+                    etc. et plus spécialement l’exploitât, du journal quotidien «El Ahaly «.
+                    .Capital composé par l’apport de la propriété dû journal « El Ahaly et le
+                    matériel évalué à L E. 3200 et de 6800 L E. en numéraire représenté par 1700
+                    actions entièrement souscrites. Durée 50 ans. .Sign. appart.</p>
                 <p>à un Comité de gestion formé par les associés en nom. Un conseil de surveillance
                     composé de 5 membres est institué pour représenter les actionnaires dans leurs
                     rapports avec la gérance. (Contr. 20.12.11 enregis. le 8.7.12.</p>

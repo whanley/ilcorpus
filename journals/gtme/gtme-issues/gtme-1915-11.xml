@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0006-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0006-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1915-11-10">November 10, 1915</date><lb/>
-                    <biblScope unit="volume">Vol. 6</biblScope><lb/>
-                    <biblScope unit="number">No. 61</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1915-11-10">November 10, 1915</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 6</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 61</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -569,7 +580,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-11-0010">
                     <head>1. - Concordat préventif. — Sujets ennemis. — Vote. — Proclamation du 25
                         Janvier 1915.</head>
                     <div type="summary">
@@ -643,7 +654,7 @@
                             évitant les charges et les lenteurs d’une faillite.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-11-0020">
                     <head>2. - Dire. — Demande de limitation de la vente. —Juge délégué aux.
                         adjudications.</head>
                     <div type="summary">
@@ -661,7 +672,7 @@
                             Choucri et Cts c. Triandafillo (j. Straftîs).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-11-0030">
                     <head>3. - Faillite. — Créanciers gagistes et hypothécaires. — Obligation de
                         faire vérifier leurs créances. — Distribution.</head>
                     <div type="summary">
@@ -684,7 +695,7 @@
                             Sid Ahmed Shabanas).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-11-0040">
                     <head>4. - Faillite. — Femme du failli. — Immeubles. — Présomption de propriété
                         de la masse. — Action possessoire.</head>
                     <div type="summary">
@@ -746,7 +757,7 @@
                             instance.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-11-0050">
                     <head>5. - Loi Martiale. — Sujets ennemis. — Mesures conservatoires. —■ Juge de
                         service.</head>
                     <div type="summary">
@@ -793,7 +804,7 @@
                             mois a été transmise aux Tribunaux mixtes. ,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-11-0060">
                     <head>6. - Opposition à taxe. — Assignation devant la juridiction compétente. —
                         Opposition par exploit. — Délais de distance.</head>
                     <div type="summary">
@@ -817,7 +828,7 @@
                             c. Greffier en Chef de la Cour d’Appel Atixte).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-11-0070">
                     <head>7. - Quotité saisissable. — Paiement. — Cession. — Annulation.</head>
                     <div type="summary">
                         <p>Si, aux termes de l’article 497 C. Proc, le paiement de la partie non
@@ -834,7 +845,7 @@
                             Riffis c. Nicolas Mouzouris et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-11-0080">
                     <head>8. - Radiation du rôle. — Renonciation à l’instance.</head>
                     <div type="summary">
                         <p>L’art. 349 Code Proc., qui oblige le défendeur à accepter la renonciation
@@ -897,7 +908,7 @@
                     </div>
                 </div>
                 <pb n="9" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-11-0090">
                     <head>9. - Sous-traitant. — Saisie-arrêt. — Cessionnaire de l’entrepreneur. —
                         Ouvriers. — Sous-entrepreneurs.</head>
                     <div type="summary">
@@ -1380,7 +1391,7 @@
                     jug. I du 5.10.15 ordonnant la levée de la mesure de garde, séance le 22.10.15
                     pour form. conc. renv. i à l’aud. du 4.11.15 pour l’homol. ,</p>
                 <p>Ismaïl Ibrahim Zeid et El Sayed Aly ; Ibrahim Zeid, nég. en manuf. indig. à
-                    Belcas > (H. Razzouk, syndic! jug. du 5.10.15 nommant i le sieur H. Razzouk,
+                    Belcas &gt; (H. Razzouk, syndic! jug. du 5.10.15 nommant i le sieur H. Razzouk,
                     syndic déf. rapp. du 17.10.15, ) le syndic après l’examen des écritures du 1er f
                     failli conclut à un banq. fraud.; vu la dissimul. et le détourn. de l’actif il
                     n’a pu jusqu’à présent j connaître la véritable situation de fortune du , second

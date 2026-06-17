@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1921-03-10">March 10, 1921</date><lb/>
-                    <biblScope unit="volume">Vol. 11</biblScope><lb/>
-                    <biblScope unit="number">No. 125</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1921-03-10">March 10, 1921</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 11</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 125</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -467,7 +478,8 @@
                 <p>Et dès lors, de l’avis très ferme du Conseil, aucune réorganisation judiciaire ne
                     peut être envisagée sans la discussion et l’approbation préalables par tous les
                     intéressés de textes précis prévoyant les formalités à suivre avant la
-                    promulgation des > lois à appliquer par les Tribunaux Mixtes reconstitués. “</p>
+                    promulgation des &gt; lois à appliquer par les Tribunaux Mixtes reconstitués.
+                    “</p>
                 <p>La question est d’autant plus importante que les lacunes sont plus grandes dans
                     la Législation actuelle, et plus sensible la nécessité de les combler.</p>
                 <p>Le Conseil ne pouvait passer à l’examen des autres dispositions prévues par les
@@ -754,7 +766,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0010">
                     <head>103. - Bail. — Immeuble indivis. — Dédit. — Validité du congé donné par un
                         seul des copropriétaires. — Tacite reconduction.</head>
                     <div type="summary">
@@ -815,7 +827,7 @@
                             jugement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0020">
                     <head>104. - Bail. — Locataire abusant de la procédure pour se maintenir sur les
                         lieux. — Défense vexatoire. — Dommages-intérêts.</head>
                     <div type="summary">
@@ -831,7 +843,7 @@
                             Kliouri épouse Khalil Badr esn et esq. c. Gainil Yureiden cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0030">
                     <head>105. - Bail. — Loi sur les loyers du 21 Février 1920. — Détermination du
                         loyer légal. — Cas où le loyer en Août 1914 ne représentait pas la valeur
                         locative réelle. — Taxe Municipale du 2%.</head>
@@ -901,7 +913,7 @@
                             d’alors.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0040">
                     <head>106. - Bail. — Loi sur les loyers du 2T Février 1920. — Clause portant
                         interdiction de sous-louer. — Sous-location partielle.</head>
                     <div type="summary">
@@ -923,7 +935,7 @@
                     </div>
                 </div>
                 <pb n="73" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0050">
                     <head>107. - Bail. — Loi sur les loyers du 21 ■i.Février 1920. — Détermination
                         du loyer légal. — Contrats sans authenticité. — Convention synallagmatique.
                         — Différence ■entre les deux exemplaires du contrat. — -Sous-location
@@ -957,7 +969,7 @@
                             le rapport de la Commission des Loyers sur cette question.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0060">
                     <head>108. - Bail. — Loi sur les loyers du 21 ■Février 1920. — Détermination du
                         loyer légal. - Défaut de paiement du loyer ' contesté. — Expulsion.</head>
                     <div type="summary">
@@ -976,7 +988,7 @@
                             Georges Manolakis c. Arthur Nash Presser).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0070">
                     <head>109. - Bail. — Loi sur les loyers du 21 Février 1921. — Rétroactivité. —
                         Appel. — Effet dévolutif. — Référé. — Chose jugée. — Changement survenu dans
                         la législation depuii la date d’une décision de première ins an :c.</head>
@@ -1091,7 +1103,7 @@
                             dépens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0080">
                     <head>110. - Bail. — Trouble causé par un tiers. — Evénements de Mars 1919. —
                         Diminution de loyers.</head>
                     <div type="summary">
@@ -1104,10 +1116,10 @@
                     </div>
                     <div type="litigants">
                         <p>(Cour d‘AppeL3me Ch. Prés,- AT. M. Hansson. ïR Janvier 1921. — D“# Emilia
-                            Ablou Aûuniesq.c. J>“e Hélène Taschko esn. etq).</p>
+                            Ablou Aûuniesq.c. J&gt;“e Hélène Taschko esn. etq).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0090">
                     <head>111. - Evocation. — Cas d’infîmiation par la Cour d'un jugement
                         d'irrecevabilité.</head>
                     <div type="summary">
@@ -1141,7 +1153,7 @@
                             recevable, de renvoyer cause et parties devant les premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0100">
                     <head>112. - Faillite. — Action engagée par le faili. — Intervention du syndic.
                         — Absence de l’autorisation du juge commissaire. — Irrecevabilité.</head>
                     <div type="summary">
@@ -1155,7 +1167,7 @@
                             Gawad Reda et Guirguis Soliman).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0110">
                     <head>113. - Prescription acquisitive quinquennale. — Point de départ. —
                         Possession. — Caractère paisible. — Conditions. — Trouble.</head>
                     <div type="summary">
@@ -1260,7 +1272,7 @@
                             permettre à ces derniers de prescrire;...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0120">
                     <head>114. - Prise à partie. — Juridiction compétente, sur l’admissibilité et
                         sur le fond.. — Objet. — Conditions d’admissibilité. — Amende.</head>
                     <div type="summary">
@@ -1472,7 +1484,7 @@
                             avoir également pour sanction la condamnation à l’amende de L E. 80.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0130">
                     <head>115. - Propriétaire. — Responsabilité. Accident. — Effondrement de
                         l’immeuble. — Charge de la preuve. — Obligations du locatai'e.</head>
                     <div type="summary">
@@ -1550,7 +1562,7 @@
                             établie la responsabilité des propriétaires.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-03-0140">
                     <head>116. -Vente à terme. — Gage déguisé. — Pacte commissaire. — Nullité d'une
                         vente de titres gagés, sans les formalités de l’art. 84 C. Corn.</head>
                     <div type="summary">
@@ -1621,8 +1633,8 @@
                             l’état où « elles se trouvaient avant le contrat, comme « l'exige l’art.
                             1184 C. N., étaient au contraire « obligées de se tenir réciproquement
                             compte de « la différence entre le prix de la vente primitive « et celui
-                            de la revente en Bourse ; — Qu’ainsi la « vente > rimitive continuait de
-                            produire tous les « effets; - Attendu dès lors que la clause par «
+                            de la revente en Bourse ; — Qu’ainsi la « vente &gt; rimitive continuait
+                            de produire tous les « effets; - Attendu dès lors que la clause par «
                             laquelle le vendeur s’était réservé la détention « du titre vendu et la
                             faculté de le vendre en « Bourse en cas de non-paiement intégral du &lt;
                             prix, n’a pu être qu’une condition de gage, et « que la réalisation du
@@ -2002,10 +2014,10 @@
                     vigueur de la loi, et il est proposé à l’art. 10 alinéa 2 du projet ci-annexé de
                     s’en rapporter, à cet égard, à l’intention des parties au moment de la
                     conclusion du contrat.</p>
-                <p>11) -/?. C. (N> 14) - L’article 6 (article 12 de la nouvelle loi) est nécessaire,
-                    car sans lui, il eût été bien facile de dépasser le taux maximum autorisé en
-                    imposant aux locataires des clauses accessoires, comme le payement de l’impôt,
-                    des frais d’entretien, de boab, etc...</p>
+                <p>11) -/?. C. (N&gt; 14) - L’article 6 (article 12 de la nouvelle loi) est
+                    nécessaire, car sans lui, il eût été bien facile de dépasser le taux maximum
+                    autorisé en imposant aux locataires des clauses accessoires, comme le payement
+                    de l’impôt, des frais d’entretien, de boab, etc...</p>
                 <pb rendition="GAZETTE DES TRIBUNAUX MIXTES D’EGYPTE"/>
                 <p>l’article 1er, continuer à être perçus, aux taux prévus par les contrats, jusqu’à
                     la date de l’expiration des dits contrats, mais, en tout cas, pas
@@ -2864,7 +2876,7 @@
                     honor. taxés par ord. du 28.1 920 sont ramenés à L.E. 100 qu’il est autorisé à
                     retirer sur les sommes à distribuer.</p>
                 <p>Ghobrial Youssef Messiha, nég et propr. indigène à Mit Glramr (voir Abdou Y.
-                    M.ssiha pour le reste>.</p>
+                    M.ssiha pour le reste&gt;.</p>
                 <p>R. S. Moussa et Issa Khouri, nég. en man. indig. à Mansourah. (P. Landi, s ) Ant
                     Bey Keldani, j. com. Réun le 7 2.921 p n.s. déf. et dép. rapp., à la dite réun
                     le s a déposé son rapp. coud, que le caractère de la fte. est grave et demand la

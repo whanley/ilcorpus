@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0008-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1918-08-10">August 10, 1918</date><lb/>
-                    <biblScope unit="volume">Vol. 8</biblScope><lb/>
-                    <biblScope unit="number">No. 94</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1918-08-10">August 10, 1918</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 8</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 94</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -275,7 +286,7 @@
             <pb n="243" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0010">
                     <head>281. - Adjudication. — Clause de non garantie. — Déficit. — Vice du
                         consentement. — Intérêts à payer par l’adjudicataire.</head>
                     <div type="summary">
@@ -345,7 +356,7 @@
                             l’immeuble.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0020">
                     <head>282. - Appel. — Cas de solidarité ou d’indivisibilité. — Action
                         provocatoire.</head>
                     <div type="summary">
@@ -423,7 +434,7 @@
                             Juges, quoique pour d’autres motifs, l’ont débouté de son action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0030">
                     <head>283. - Appel. — Jugement interlocutoire non expressément visé dans l’acte
                         d’appel. — Revendication. — Effet de la reconnaissance du droit du
                         revendiquant par un co-héritier.</head>
@@ -455,7 +466,7 @@
                             III, 176-354.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0040">
                     <head>284. - Appel. — Evocation. — Confirmation de jugement.</head>
                     <div type="summary">
                         <p>I à VI. - (v. ci-après § 286, N0’ I à VI). VI à VIII. - (v. ci-après §
@@ -481,7 +492,7 @@
                             nous publions ci-après, § 286 et 287, le sommaire et le texte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0050">
                     <head>285. - Appel. — Taux. — Recevabilité. — Contredit. — Revendication.</head>
                     <div type="summary">
                         <p>Lorsqu’une revendication a été greffée sur une instance en contredit à
@@ -495,7 +506,7 @@
                             Boulad c. Bokhor Bialobos et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0060">
                     <head>286. - Assurances. — Liquidation de maisons ennemies. — Nullité des
                         contrats d’assurance antérieurs à la guerre. — Décision du Conseil des
                         Ministres égyptiens du 5 Août 1914. — Fins de non recevoir des art. 274 et
@@ -754,7 +765,7 @@
                             son obligation de la payer...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0070">
                     <head>287. - Assurances. — Risques de guerre. — Capture. — Refuge. —
                         Déroutement. — Frais couverts par l'assurance.</head>
                     <div type="summary">
@@ -913,7 +924,7 @@
                             innavigabilité relative résultant du risque de guerre. ...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0080">
                     <head>288. - Avocat. — Honoraires dus. — Saisie revendication de
                         dossiers.</head>
                     <div type="summary">
@@ -941,7 +952,7 @@
                             »</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0090">
                     <head>289. - Bailleur de fonds. — Participation forfaitaire. — Commission. —
                         Association en participation. — Garant. — Recours contre le débiteur
                         principal.</head>
@@ -962,7 +973,7 @@
                             Abdel Maïak c. Moussa Yahouda Mizrahi et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0100">
                     <head>290. - Cassation. — Détournement des biens d’une faillite. — Compétence
                         mixte. — Textes à reproduire dans les jugements correctionnels. —
                         Attribution souveraine des frais par le Tribunal Correctionnel. — Contrainte
@@ -1054,7 +1065,7 @@
                             donner ouverture à Cassation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0110">
                     <head>291. - Cassation. — Non identité du réquisitoire et de la citation au
                         correctionnel. — Composition du Tribunal Correctionnel.</head>
                     <div type="summary">
@@ -1074,7 +1085,7 @@
                             Mars 1918. — Joseph Rahmin Salama c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0120">
                     <head>292. - Chose jugée. — Identité de cause et d’objet. — Expropriation. —
                         Incident entre indigènes. — Compétence mixte.</head>
                     <div type="summary">
@@ -1095,7 +1106,7 @@
                             Bey El Menzalaoui et Ct. c. Mohamed et Hussein Bey El Menzalaoui).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0130">
                     <head>293. - Détournement d’objets saisis. — Caractère punissable. — Biens
                         immeubles par incorporation. — Compétence mixte. — Cassation.</head>
                     <div type="summary">
@@ -1147,7 +1158,7 @@
                             N° 2231).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0140">
                     <head>294. -Détournement d’objets saisis. — Constitution du débiteur saisi comme
                         gardien judiciaire. — Saisie irrégulière. — Cassation.</head>
                     <div type="summary">
@@ -1224,7 +1235,7 @@
                     </div>
                 </div>
                 <pb n="248" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0150">
                     <head>295. -Détournement d’objets saisis. — Délit perpétré par un tiers. —
                         Caractère punissable. — Compétence mixte. — Cassation.</head>
                     <div type="summary">
@@ -1244,7 +1255,7 @@
                             Mars 1918. — Abdel Rehîm Aly Mohamed et Ct. c. Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0160">
                     <head>296. - Dire. — Moyen tiré du remboursement de la créance motivant les
                         poursuites.</head>
                     <div type="summary">
@@ -1263,7 +1274,7 @@
                             et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0170">
                     <head>297. - Distribution. — Contredit. — Dommages-intérêts dus par le
                         contredisant. — Solidarité. — Règlement définitif partiel.</head>
                     <div type="summary">
@@ -1286,7 +1297,7 @@
                             Apostolo Pringo c. Ibrahim Aly Badr et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0180">
                     <head>298. - Distribution. — Règlement provisoire et règlement définitif. —
                         Chose jugée. — Adjudicataire. — Danger d’éviction. — Action principale.
                         ______________</head>
@@ -1343,7 +1354,7 @@
                             contredit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0190">
                     <head>299. - Distribution. — Règlement provisoire et règlement définitif. —
                         Contredit. — Bordereau de collocation. — Opposition à commandement.</head>
                     <div type="summary">
@@ -1363,7 +1374,7 @@
                             Cy of Egypt Ltd c. N. J. Cara-messinis et fils).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0200">
                     <head>300. - Droits proportionnels. — Vente immobilière. — Intervention d’un
                         tiers à l’acte avec délégation du prix à son profit.</head>
                     <div type="summary">
@@ -1397,7 +1408,7 @@
                         <p>Que les appelants allèguent que ce droit ne se justifie aucunement par
                             l’argument invoqué par le Tribunal, à savoir, qu’il y a, dans cette
                             opération, une cession de créance avec subrogation, qui doit être
-                            soumise, comme les autres cessions, à un droit de l/t %> car, en
+                            soumise, comme les autres cessions, à un droit de l/t %&gt; car, en
                             l’espèce, il n’y a jamais eu de cession, mais une simple délégation de
                             prix, la subrogation dans le privilège du vendeur, ai: profit du
                             bailleur de fonds, s’effectuant de par la loi, sans aucun besoin de
@@ -1431,7 +1442,7 @@
                             point de vue duTarif qui taxe chaque convention distincte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0210">
                     <head>301. - Expropriation. — Qualité juridique de tiers-détenteur. — Sommation
                         au tiers-détenteur. — Péremption.</head>
                     <div type="summary">
@@ -1531,7 +1542,7 @@
                             la mise en vente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0220">
                     <head>302. - Faillite. — Femme du failli. — Prête-nom du mari. — Actes consentis
                         après la date de cessation des paiements. — Conditions d’annulation. —
                         Créanciers du jailli. — Effets de la transcription du jugement de
@@ -1589,7 +1600,7 @@
                             affaires du failli a traité avec lui (art. 236).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0230">
                     <head>303. - Faux (Inscription en). — Inscription incidente à une saisie
                         conservatoire. — Réouverture des débats. — Exceptions et nullités
                         préjudicielles. — Nullité de forme de ïassignation. — Défenses au
@@ -1769,7 +1780,7 @@
                             Panzetta de leur rapporter cette preuve.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0240">
                     <head>304. - Jeu (Etablissement de). — Clause d’arbitrage. — Société civile —
                         Club. — Exploitation. — Acte commercial. — Cause illicite. — Demande en
                         nullité par un associé. — Recevabilité. — Liquidation.</head>
@@ -1816,7 +1827,7 @@
                             c. ici ris Bey Ragheb et autres [aff. du Club Memphis]).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0250">
                     <head>305. - Jugement interlocutoire. — Appel. — Expertise. — Limites du droit
                         d’évocation de la Cour.</head>
                     <div type="summary">
@@ -1836,7 +1847,7 @@
                             Il N° 574 et s., auxquels se réfère la décision rapportée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0260">
                     <head>306. - Liquidation. — Conséquence d’une réalisation de l'actif social. —
                         Créanciers sociaux.</head>
                     <div type="summary">
@@ -1852,7 +1863,7 @@
                             de feu Alenchaoui Pacha c. Abdel \ Hamid bey Abaza;.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0270">
                     <head>307. - Péremption. — Procédure d’exécution.</head>
                     <div type="summary">
                         <p>Les procédures d’exécution ne sont pas des instances susceptibles de
@@ -1863,7 +1874,7 @@
                             Hanna Abdel Maïak Youssef Alassoud c. G. Stagnî et figlî et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0280">
                     <head>308. - Prête-nom. — Tierce-opposition. — intervention dans un
                         litige.</head>
                     <div type="summary">
@@ -1883,7 +1894,7 @@
                             Bent Chehata c. Hag Youssef Ghimei et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0290">
                     <head>309. - Référés. — Compétence. — Examen de la sincérité des contrats. —
                         Exécution des mesures urgentes ordonnées par le Juge des Référés, avant le
                         recours au Juge du fond.</head>
@@ -1905,7 +1916,7 @@
                             Abbassi c. Abdel Hamid Bey Abaza et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0300">
                     <head>310. - Revendication. — Charge de la preuve. — Possession.</head>
                     <div type="summary">
                         <p>Le revendiquant qui n’a pas été trouvé sur les lieux lors de la saisie
@@ -1921,7 +1932,7 @@
                             Abdalla c. Chenouda et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0310">
                     <head>311. - Revendication immobilière. — Indivision. — Partage.</head>
                     <div type="summary">
                         <p>Une revendication de biens divis, basée sur un prétendu droit à une
@@ -1933,7 +1944,7 @@
                             Ela Raya c. Hoirs Chafei Raya et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0320">
                     <head>312. - Revendication incidente à une expropriation nulle. — Délai d’appel.
                         — Signification du jugement sur la revendication. — Indivisibilité.</head>
                     <div type="summary">
@@ -2026,7 +2037,7 @@
                             faire courir à l’égard de tous le délai légal de l’appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0330">
                     <head>313. - Séquestre. —- Clause contractuelle déterminant la personne du
                         séquestre. — Référé.</head>
                     <div type="summary">
@@ -2073,7 +2084,7 @@
                             le séquestre conventionnel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0340">
                     <head>314. - Serment litis-décisoire. — — Preuve contre le contenu d'un acte
                         écrit.</head>
                     <div type="summary">
@@ -2087,7 +2098,7 @@
                             Mahmoud Beteit c. Abdel Salam Aly El Chami et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0350">
                     <head>315. - Servitude de vue. — Vue droite. — Simples ouvertures
                         (jours).</head>
                     <div type="summary">
@@ -2106,7 +2117,7 @@
                             rapporté et l’arrêt du 1er Avril 1914, Gaz., IV, 153-377.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0360">
                     <head>316. - Signification au Parquet pour domicile inconnu. — Domicile à
                         l’étranger. — Recherches à faire.</head>
                     <div type="summary">
@@ -2125,7 +2136,7 @@
                             Adamidis c. Mohamed Bey Hussein El Bennaoui et autres). . ..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0370">
                     <head>317. - Succession musulmane. — Perte du droit de préférence des créanciers
                         successoraux. — Confusion des patrimoines. — Novation. — Transaction nulle
                         homologuée par une décision de Justice. — Inopposabilité aux tiers.</head>
@@ -2215,7 +2226,7 @@
                             contre lui.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0380">
                     <head>318. - Vente. — Action en paiement du prix. — Action personnelle. — Action
                         oblique. — Sursis.</head>
                     <div type="summary">
@@ -2276,7 +2287,7 @@
                             juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0390">
                     <head>319. - Vente de cotons. — Insuffisance de la récolte du vendeur. —
                         Fixation des piix. — Présomption.</head>
                     <div type="summary">
@@ -2346,7 +2357,7 @@
                             rencontre souvent dans les contrats de ce genre, mais qui n’existe dans
                             aucun de ceux intervenus entre punies, qu’une pareille obligation
                             pourrait prendre naissance;</p>
-                        <p>Attendu que c’est dans ce se>.s que la question litigieuse a été déjà
+                        <p>Attendu que c’est dans ce se&gt;.s que la question litigieuse a été déjà
                             tranchée par un arrêter, date du 13 Décembre 1917, rendu en cause Ahmed
                             Effendi Rifaat El Zarka contre Société Agricole de Kafr Dawar ;</p>
                         <p>Attendu que l’intimée invoque à tort, à l’appui de sa thèse, deux arrêts,
@@ -2364,7 +2375,7 @@
                             localité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1918-08-0400">
                     <head>320. - Vente immobilière. — Déficit. — Action en diminution du prix. —
                         Exercice de l’action. — Présomption de renonciation.</head>
                     <div type="summary">

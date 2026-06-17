@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0027-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0027-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1937-08-10">August 10, 1937</date><lb/>
-                    <biblScope unit="volume">Vol. 27</biblScope><lb/>
-                    <biblScope unit="number">No. 322</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1937-08-10">August 10, 1937</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 27</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 322</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -54,7 +65,7 @@
                 <p>Comité de Rédaction et d’Administration :</p>
                 <p>M“ L. P AN G AL O et R. 8CHEMEIL (directeurs au Caire)</p>
                 <p>M" E. DEGIAUDÉ et LUCIEN BAKD A (Secrétaires de la rédaction).</p>
-                <p>M- A. FABEL (Directeur à Mansourah}. M- F. BRAUN > (Oorrespmdants à Paris)</p>
+                <p>M- A. FABEL (Directeur à Mansourah}. M- F. BRAUN &gt; (Oorrespmdants à Paris)</p>
                 <p>M e G. MOUCHBAHANI (Corresvondant à Port-Saïd). Me «T. LAÇAT !</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an). P.T. 150</p>
@@ -450,7 +461,7 @@
                     procédure mixte.</p>
                 <p>Ce principe est désormais modifié.</p>
                 <p>Aux termes de l’article 7 de la Convention du 8 Mai 1937:</p>
-                <p>&lt;> Le changement de nationalité de l’une des parties, survenu en cours
+                <p>&lt;&gt; Le changement de nationalité de l’une des parties, survenu en cours
                     d’instance devant les Tribunaux Nationaux, ne pourra modifier la compétence du
                     tribunal saisi ».</p>
                 <p>De son côté, et toujours en hommage au parallélisme que nous avons déjà signalé,
@@ -552,7 +563,7 @@
             <pb n="283" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0010">
                     <head>193. - Juridiction Mixte. —Allemands cl Autrichiens; compétence à leur
                         égard; Convention du 14 Octobre 1929 entre l'Egypte et VAutriche; portée.
                         ■■— Etrangers non capitulaires justiciables des Tribunaux Mixtes;
@@ -928,7 +939,7 @@
                             à ces seules questions par le moyen d’une nouvelle action.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0020">
                     <head>194. - Juridiction Mixte..— Compétence en matière d'expropriation sur
                         saisie; compétence subordonnée à l'existence d'une charge au profit d'un
                         étranger; cessation de l'intérêt mixte; preuve ne résultant que de la
@@ -1085,7 +1096,7 @@
                             de l’appelant ne sont pas justifiées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0030">
                     <head>195. - Juridiction Mixte. — Compétence. en matière d'expropriation sur
                         saisie; hypothèque; constitution au profit d’un étranger; condition à
                         laquelle elle peut conférer compétence à la Juridiction Mixte; cas d’actions
@@ -1187,7 +1198,7 @@
                         <p>Note. -— V. ég. ci-après § 196 l’arrêt du 18 Mars 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0040">
                     <head>196. - Juridiction Mixte..— Compétence en matière d'expropriation sur
                         saisie; nullité d’une expropriation incom-pétemment portée devant les
                         Tribunaux Indigènes en raison d'une charge existant au profit d'un étranger;
@@ -1274,7 +1285,7 @@
                         <p>Note. — II. - V. ég. ci-avant § 195 l’arrêt du 27 Mai 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0050">
                     <head>197. - Juridiction Mixte. — Compétence en matière d'opposition au.c
                         décisions des Commissions Douanières, pour tous les étrangers sans
                         distinction; compétence à connaître des demandes d'élargissement en cas de
@@ -1788,7 +1799,7 @@
                             contraintes, l’équité conseille de ne pas l’admettre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0060">
                     <head>198. - Juridiction Mixte. — Décisions de. la Juridiction Pénale Indigène;
                         influence sur les décisions des Tribunaux Mixtes. — Assurance-accidents;
                         droits de défense de la Compagnie d'assurance contre son assuré
@@ -1883,7 +1894,7 @@
                     </div>
                 </div>
                 <pb n="291" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0070">
                     <head>199. - Juridiction Mixte..— Faillite des étrangers non domiciliés en
                         Egypte; compétence pour la prononcer; conditions. — Sociétés étrangères;
                         Compagnie d'assurance ayant siège social à l'étranger; faillite en Egypte.
@@ -2325,7 +2336,7 @@
                         <p>Si la Cour est d’accord avec moi sur ces conclusions, et retient qu’elle
                             est compétente pour déclarer la faillite de l’intimée, l’exception
                             d’irrecevabilité, que le Tribunal a accueillie, tombe d’elle-même, car
-                            ce Tribunal a dit avec raison que si la Société étrangère &lt;> Le
+                            ce Tribunal a dit avec raison que si la Société étrangère &lt;&gt; Le
                             Phénix » de Vienne, était justiciable des Tribunaux Mixtes en ce qui
                             concerne sa mise en faillite, il était évident que la procédure suivie
                             par le demandeur serait parfaitement régulière.</p>
@@ -2336,7 +2347,7 @@
                             l’encontre de la Société elle-même.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0080">
                     <head>200. - Juridiction Mixte. — Incompétence à l'égard des ressortissants des
                         Etals détachés de l'Empire Ottoman par le Traité de Lausanne; sociétés
                         anonymes étrangères de ces Etats; cas où l’intérêt mixte n'existe pas. ■—
@@ -2429,7 +2440,7 @@
                             rappelé par l’arrêt rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0090">
                     <head>201. - Juridiction Mixte. — Instance entre parties de niènie nationalité;
                         mise en cause d'une partie d'une nationalité différente; déboutement à
                         l'égard de cette dernière; compétence des Tribunaux Mixtes à statuer à
@@ -2547,7 +2558,7 @@
                         <p>Note. — V. êg. ci-après § 202 l’arrêt du 19 Mai 1937.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0100">
                     <head>202. - Juridiction Mixte. — Instance entre parties de même nationalité;
                         mise en cause d'une partie d'une nationalité différente; irrecevabilité;
                         incompétence des Tribunaux Mixtes à l’égard des autres parties.</head>
@@ -2600,7 +2611,7 @@
                             irrecevabilité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0110">
                     <head>203. - Juridiction Mixte. — Intérêt mixte; application de ce principe de
                         compétence aux sociétés anonymes étrangères; limites. ■-— Sociétés anonymes
                         étrangères; nationalité; critérium de détermination.</head>
@@ -2664,7 +2675,7 @@
                             juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0120">
                     <head>204. - Juridiction Mixte. — Intérêt mixte; cas où il est attributif de
                         compétence. — Expropriation pour cause d’utilité publique; créancier inscrit
                         étranger; attitude; présence aux débats en l’instance ayant pour objet la
@@ -2755,7 +2766,7 @@
                             peut-être porter une atteinte irréparable...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0130">
                     <head>205. - Juridiction Mixte. .— Intérêt mixte; cas où il est attributif de
                         compétence; nécessité d'un intérêt sérieux; société, en nom collectif entre
                         associés de même nationalité; cas d'une participation insignifiante d'un
@@ -2833,7 +2844,7 @@
                             compétence du Tribunal Mixte doit être écartée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1937-08-0140">
                     <head>206. - Juridiction Mixte. — Persans; compétence à leur égard; Traité du 28
                         Novembre 1928 entre l'Egypte et la Perse; litige en cours entre un Egyptien
                         et un Persan, lors de la ratification du Traité.</head>

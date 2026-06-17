@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0018-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1928-09-10">September 10, 1928</date><lb/>
-                    <biblScope unit="volume">Vol. 18</biblScope><lb/>
-                    <biblScope unit="number">No. 215</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1928-09-10">September 10, 1928</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 18</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 215</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -61,7 +72,7 @@
                 <p>— à la Gazette (un an).... P.T. 150</p>
                 <p>— au Journal ;</p>
                 <p>— Un an.................. » 150</p>
-                <p>— Six mois............... > 85</p>
+                <p>— Six mois............... &gt; 85</p>
                 <p>— Trois mois.......... » 50</p>
                 <p>— aux deux publications</p>
                 <p>réunies (un an)....... » 250</p>
@@ -414,7 +425,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0010">
                     <head>285. - Responsabilité. — Accident; affaissement du sol: Compagnie des
                         Eaux; canalisations souterraines; construction défectueuse; partage des
                         responsabilités; responsabilité du fait des choses qu'on a sous sa garde;
@@ -562,7 +573,7 @@
                             frais devant être supportés par l’intimée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0020">
                     <head>286. - Responsabilité. — Accident; compagnies de transports; appareils
                         défectueux.</head>
                     <div type="summary">
@@ -640,7 +651,7 @@
                             allouer à l’appelant à titre d’indemnité pour le préjudice subi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0030">
                     <head>287. - Responsabilité. — Accident d'automobile; action oblique de la
                         victime contre l'assureur; action directe; droit privilégié de la victime
                         sur l'indemnité due par l’assureur. — Assurance-automobile; clause de
@@ -812,7 +823,7 @@
                             de suppléer par les règles de l’équité aux lacunes de la loi;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0040">
                     <head>288. - Responsabilité. — Accident d'automobile; collision au croisement
                         d'une grande route; responsabilité du conducteur d'un véhicule débouchant
                         d'une rue transversale.</head>
@@ -873,7 +884,7 @@
                             contestable...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0050">
                     <head>289. - Responsabilité. — Accident d’automobile; non responsabilité du fait
                         de la garde.</head>
                     <div type="summary">
@@ -954,7 +965,7 @@
                             ceux-ci;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0060">
                     <head>290. - Responsabilité. — Accident d'automobile; vol; accident causé par le
                         voleur; défaut de responsabilité du propriétaire; notion de garde,</head>
                     <div type="summary">
@@ -1026,7 +1037,7 @@
                             lors de débouter le demandeur dè son action comme mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0070">
                     <head>291. - Responsabilité. — Accident de tramway; voyageurs sur la
                         plate-forme; mesures normales de précaution.</head>
                     <div type="summary">
@@ -1096,7 +1107,7 @@
                             l’accident, d’infirmer le jugement condamnant la Compagnie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0080">
                     <head>292. - Responsabilité. — Accident du travail; chef d'équipe ayant charge
                         de surveillance; défaut de. surveillance; faute de la victime; commettant
                         non responsable.</head>
@@ -1202,7 +1213,7 @@
                             sa demande et d’infirmer par suite le jugement dont est appel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0090">
                     <head>293. - Responsabilité. — Accident dit travail; négligence de l'employeur.
                         — Droit des parents à des dommages.</head>
                     <div type="summary">
@@ -1284,7 +1295,7 @@
                             mineur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0100">
                     <head>294. - Responsabilité. — Accident du travail; négligence de
                         l'ouvrier.</head>
                     <div type="summary">
@@ -1331,7 +1342,7 @@
                             propres risques.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0110">
                     <head>295. - Responsabilité. — Accident du travail; responsabilité de
                         l'employeur indépendante de toute faute; théorie du risque professionnel;
                         applicabilité en Egypte.</head>
@@ -1488,7 +1499,7 @@
                             dernière l’a déclaré dans sa note du 26 Mai 1927.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0120">
                     <head>296. - Responsabilité. — Accident du travail: risques extérieurs;
                         responsabilité du patron. — Indemnité pour accident: cas où il y a lieu à
                         allocation d'intérêts.</head>
@@ -1612,7 +1623,7 @@
                             justice.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0130">
                     <head>297. - Responsabilité. — Accident du. travail; travail dangereux;
                         responsabilité du patron pour manque de prévoyance.</head>
                     <div type="summary">
@@ -1715,7 +1726,7 @@
                             L.E. 1.000.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0140">
                     <head>298. - Responsabilité. — Accident du travail; travail rentrant dans les
                         attributions habituelles de la victime: pension servie sans réserve par le
                         patron, n'impliquant pas aveu de faute; manque de précautions de la victime;
@@ -1796,7 +1807,7 @@
                             somme.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0150">
                     <head>299. - Responsabilité. — Accidents; faute; preuve: déclaration faite par
                         la victime; caractère purement relatif. — Droit des parents à des dommages.
                         — Intervention principale: objet; limites; intervention accessoire.</head>
@@ -1961,7 +1972,7 @@
                             actuel.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0160">
                     <head>300. - Responsabilité. — Bail; consentement donné par les locataires à la
                         construction d'un nouvel étage; clause interdisant au locataire d'élever des
                         réclamations au cas d'exécution de travaux-portée; interprétation. —
@@ -2059,7 +2070,7 @@
                             dommages-intérêts à accorder ne peuvent pas dépasser les loyers...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0170">
                     <head>301. - Responsabilité. — Bail; dommage dû au défaut d'entretien, et de
                         surveillance des objets sous la garde d'un locataire; recours entre
                         locataires; préjudice; montant; preuve.</head>
@@ -2145,7 +2156,7 @@
                     </div>
                 </div>
                 <pb n="238" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0180">
                     <head>302. - Responsabilité. — Bail; incendie; charge de la preuve. — Clause
                         interdisant au locataire, en cas. de réparations, de demander des dommages;
                         portée; limites. — Droit du locataire en cas de grosses réparations. — Droit
@@ -2339,7 +2350,7 @@
                             ultérieurs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0190">
                     <head>303. - Responsabilité. — Bail; vice de construction d'un immeuble; chute
                         d'un balcon; imprudence du locataire; faute commune. — Jugement en partie
                         définitif et en partie interlocutoire; défaut d’appel spécial; discussion de
@@ -2446,7 +2457,7 @@
                             qui incombe à l’appelant, en vue de la faute commune des parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0200">
                     <head>304. - Responsabilité. — Bail; vice de construction d'un immeuble; défaut
                         d’entretien de l'immeuble loué; responsabilité des choses qu’on a sous sa
                         garde; immeuble loué: cas où le propriétaire reste responsable. — Faute
@@ -2591,7 +2602,7 @@
                             dans son rapport.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0210">
                     <head>305. - Responsabilisé. — Bail; vice de-construction d'un immeuble; défaut
                         d'entretien de l'immeuble loue; responsabilité du propriétaire tant pour le
                         dommage-direct que pour le préjudice indirect résultant de
@@ -2669,7 +2680,7 @@
                             montant des dommages-intérêts à allouer à l’appelante.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0220">
                     <head>306. - Responsabilité. — Cimetière; concession à perpétuité; destruction
                         d’une sépulture par suite d'erreur; dommages-intérêts dus aux parents du
                         défunt.</head>
@@ -2746,7 +2757,7 @@
                             exhumés ' et réunis dans l’ossuaire général.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0230">
                     <head>307. - Responsabilité. — Diffamation; attaques politiques.</head>
                     <div type="summary">
                         <p>Dans les luttes politiques où ce n’est pas le fonctionnaire
@@ -2982,7 +2993,7 @@
                             fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0240">
                     <head>308. - Responsabilité. — Dommages; preuves; constatations non
                         contradictoires; admissibilité. — Entreprise; date de la rokhsa sans portée
                         pour la preuve de la date du commencement des travaux. — Propriétaire;
@@ -3110,7 +3121,7 @@
                             développées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0250">
                     <head>309. - Responsabilité. — Exécution dé legs testamentaire.</head>
                     <div type="summary">
                         <p>Lorsqu’un testateur a légué une somme d’argent, destinée à l’éducation
@@ -3200,7 +3211,7 @@
                             testament de Miss Bridge.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0260">
                     <head>310. - Responsabilité. — Faute; cas où la victime du dommage en est
                         elle-même responsable par négligence. ■— Expropriation; nullité; annulation;
                         question de responsabilité du poursuivant; défaut de chose jugée.</head>
@@ -3343,7 +3354,7 @@
                             adoption des motifs des premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0270">
                     <head>311. - Responsabilité. — Garantie; responsabilité du fait du garant. —
                         Transport; voilier; responsabilité du capitaine en cas de retard. — Valeur
                         des marchandises transportées; portée des mentions de la lettre de
@@ -3411,7 +3422,7 @@
                             conclusions subsidiaires...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0280">
                     <head>312. - Responsabilité. — Guerre; Egypte; état de siège; proclamation des
                         Autorités Militaires; portée; ordre de licenciement des fonctionnaires
                         sujets ennemis; actes du Gouvernement Egyptien; caractères; erreur commise
@@ -3493,14 +3504,14 @@
                         <p>Il échet de remarquer que, malgré les observations de son avocat, la
                             sincérité de ce document n’est pas sérieusement contestée.</p>
                         <p>A ce moment, le Gouvernement Egyptien, agissant sur les ordres des
-                            autorités militaires, cherchait à >se débarrasser de ses fonctionnaires
-                            sujets ennemis. Parmi ceux-ci, le Sieur Mayr était licencié, ses droits
-                            ayant été régulièrement liquidés le 7 Décembre 1914. Le 3 Mars 1917, le
-                            Sieur Mayr ayant obtenu une «Patente ' de Protection» du Consulat
-                            d’Espagne (inscription depuis le 26 Janvier 1915) il a demandé sa
-                            réintégration. Les autorités militaires n’ayant exprimé aucune
-                            objection, il a été réengagé le 31 Mai 1917. mais dans un poste
-                            inférieur à celui par lui occupé auparavant.</p>
+                            autorités militaires, cherchait à &gt;se débarrasser de ses
+                            fonctionnaires sujets ennemis. Parmi ceux-ci, le Sieur Mayr était
+                            licencié, ses droits ayant été régulièrement liquidés le 7 Décembre
+                            1914. Le 3 Mars 1917, le Sieur Mayr ayant obtenu une «Patente ' de
+                            Protection» du Consulat d’Espagne (inscription depuis le 26 Janvier
+                            1915) il a demandé sa réintégration. Les autorités militaires n’ayant
+                            exprimé aucune objection, il a été réengagé le 31 Mai 1917. mais dans un
+                            poste inférieur à celui par lui occupé auparavant.</p>
                         <pb n="246" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
                         <p>Aujourd’hui, le Sieur Mayr demande une indemnité, se basant:</p>
                         <p>1. ) sur l’erreur prétendument faite quant à sa nationalité, au moment de
@@ -3599,7 +3610,7 @@
                             outre, le Gouvernement les ayant produites par devant la Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0290">
                     <head>313. - Responsabilité. — Location; res-jtonsabilité du locataire d'objets
                         en cas d’incendie. — Cinématographes; commission administrative de
                         contrôle.</head>
@@ -3669,7 +3680,7 @@
                             réclamer leur valeur...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0300">
                     <head>314. - Responsabilité. — Mandataire gratuit et mandataire salarié; faute
                         lourde; faute légère; distinction.</head>
                     <div type="summary">
@@ -3746,7 +3757,7 @@
                             cette définition...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0310">
                     <head>315. - Responsabilité. — Médecins; honoraires; détermination; preuve. —
                         Responsabilité médicale; pouvoir d'appréciation limité des Tribunaux;
                         accusation; diffamation contre un médecin.</head>
@@ -3779,7 +3790,7 @@
                             88-132.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0320">
                     <head>316. - Responsabilité. — Plainte portée à la légère; faute génératrice de
                         dommages-intérêts, même en l'absence, de dénonciation calomnieuse. — Avocat;
                         examen des titres de propriété à l'occasion d'une vente; titre de propriété
@@ -3913,7 +3924,7 @@
                             confiée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0330">
                     <head>317. - Responsabilité. — Presse; diffamation; gérant; responsabilité
                         solidaire. — Délits; quasi-délits; action civile; compétence de la
                         Juridiction mille. — Amnistie; prescription pénale; défaut d'influence sur
@@ -4064,7 +4075,7 @@
                             tiendrait à une réparation purement pécuniaire....</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0340">
                     <head>318. - Responsabilité. — Presse; informations inexactes; préjudice moral;
                         sanction civile; publication du jugement.</head>
                     <div type="summary">
@@ -4085,7 +4096,7 @@
                         <p>V. ég. ci-avant § 317 l’arrêt du 19 .Mai 1927.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0350">
                     <head>319. - Responsabilité. — Presse; informations inexactes; responsabilité
                         civile de l'auteur de l'article et du propriétaire du journal;
                         dommages-intérêts; préjudice moral. — Diffamation; défaut d'intention de
@@ -4251,7 +4262,7 @@
                             æquo et bono à L.E. 250.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0360">
                     <head>320. - Responsabilité. •— Propriétaire; responsabilité des choses qu'on a
                         sous sa garde; immeuble; vice de construction; preuve à la charge de la
                         victime s'établissant par tous moyens, même par présomptions. — Cas fortuit;
@@ -4335,7 +4346,7 @@
                             retenu la responsabilité des appelants...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0370">
                     <head>321. - Responsabilité. — Quasi-délit; faute donnant ouverture à l'action
                         civile. —Juridiction mixte; compétence à statuer sur les recours accessoires
                         entre sujets locaux. — Vol; mauvaise foi de l'acheteur de l'objet volé;
@@ -4450,7 +4461,7 @@
                             Cour.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0380">
                     <head>322. - Responsabilité. — Risque professionnel; maladies professionnelles;
                         conditions hygiéniques auxquelles l'ouvrier est soumis dans son travail;
                         défaut de responsabilité du patron.</head>
@@ -4575,7 +4586,7 @@
                             son employé avait librement acceptées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0390">
                     <head>323. - Responsabilité. — Séduction; promesse de mariage; rupture.</head>
                     <div type="summary">
                         <p>Il est de jurisprudence que la rupture de promesse de mariage ne donne
@@ -4620,7 +4631,7 @@
                             qu’elle faisait...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0400">
                     <head>324. - Responsabilité. — Séduction; promesse de mariage; rupture;
                         préjudice moral.</head>
                     <div type="summary">
@@ -4676,7 +4687,7 @@
                             que le mariage soit un acte librement consenti.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0410">
                     <head>325. - Responsabilité. — Titres perdus ou volés; droit du possesseur de
                         bonne foi; situation de l'acquéreur de mauvaise foi; prescription.</head>
                     <div type="summary">
@@ -4776,7 +4787,7 @@
                             accessoires, et qu’il y a lieu d’y faire droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0420">
                     <head>326. - Responsabilité. — Voisinage; responsabilité du constructeur à
                         Végard des propriétaires voisins; fondations au marteau-pilon; mauvais étal
                         des immeubles voisins; partage des responsabilités.</head>
@@ -4891,7 +4902,7 @@
                             fondations de l’immeuble voisin.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0430">
                     <head>327. - Responsabilité. — Voisinage; responsabilité du constructeur à
                         l'égard des propriétaires voisins; fondations au marteau-pilon; mauvais état
                         des immeubles voisins; partage des responsabilités. — Entreprise; cahier des
@@ -5125,7 +5136,7 @@
                             d’accueillir l’action récursoire du Ministère des Wakfs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0440">
                     <head>328. - Responsabilité. — Voisinage; responsabilité du constructeur à
                         l'égard des propriétaires voisins; fondations au marteau-pilon; préjudice;
                         droits du propriétaire voisin. — Entreprise; cahier des charges; obligation
@@ -5396,7 +5407,7 @@
                             d’agir à leur encontre.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0450">
                     <head>329. - Responsabilité. — Vol de récépissés des chemins de fer; défaut
                         d'ordre et de surveillance de VAdministration; faute de cette dernière;
                         tiers de bonne foi ayant traité avec le porteur des récépissés volés;
@@ -5547,7 +5558,7 @@
                             tierces personnes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1928-09-0460">
                     <head>330. - Responsabilité. — Vol; recel; titres; coupons volés; responsabilité
                         du receleur.</head>
                     <div type="summary">
@@ -5749,14 +5760,14 @@
                 <p>» - Questions de nationalité et de Statut personnel.</p>
                 <p>» - Propriété industrielle. - Séquestre officiel.</p>
                 <p>- Questions possessoires. - Servitudes. -Prescription.</p>
-                <p>> - Sociétés.</p>
+                <p>&gt; - Sociétés.</p>
                 <p>Août » - Assurances. - Concession de services publics. - Change. - Paiement.</p>
                 <p>Septembre » - Concordat. - Faillite.</p>
                 <p>Octobre » - Préemption. - Vente immobilière.</p>
                 <p>Novembre » - Propriété. - Questions de responsabilité.</p>
                 <p>Décembre » - Bail.</p>
                 <p>Janvier 1927 - Contrats civils et obligations.</p>
-                <p>Février > - Questions de procédure : Appel. - As-</p>
+                <p>Février &gt; - Questions de procédure : Appel. - As-</p>
                 <p>signation. - Requête civile.</p>
                 <p>Mars » - Questions de procédure: Demande. -Instance. - Jugements. - Exceptions.
                     -Preuves. - Signification.</p>
@@ -5772,13 +5783,13 @@
                 <p>» - Questions administratives.</p>
                 <p>Septembre » - Questions pénales.</p>
                 <p>Octobre » - Assurances. - Change. - Paiement. -Sociétés.</p>
-                <p>Novembre > - Compétence. - Juridiction mixte. - Na-</p>
+                <p>Novembre &gt; - Compétence. - Juridiction mixte. - Na-</p>
                 <p>tionalité. - Statut personnel.</p>
-                <p>Décembre > - Concordat. - Faillite.</p>
+                <p>Décembre &gt; - Concordat. - Faillite.</p>
                 <p>Janvier 1928 - Actes de commerce. - Effets de commerce. - Opérations de Bourse. -
                     Vente de coton.</p>
                 <p>Février - Wakf.</p>
-                <p>Mars > - Partage immobilier. - Préemption. -Retrait d’indivision.-Vente
+                <p>Mars &gt; - Partage immobilier. - Préemption. -Retrait d’indivision.-Vente
                     immobilière.</p>
                 <p>Avril</p>
                 <p>Mai</p>

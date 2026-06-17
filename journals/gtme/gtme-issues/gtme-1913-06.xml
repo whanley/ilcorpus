@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0003-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0003-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1913-06-10">June 10, 1913</date><lb/>
-                    <biblScope unit="volume">Vol. 3</biblScope><lb/>
-                    <biblScope unit="number">No. 32</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1913-06-10">June 10, 1913</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 3</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 32</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -103,7 +114,7 @@
                     mesure :</p>
                 <p>(‘) Indépendamment des renvois, qui vont jusqu’à huit et neuf mois !</p>
                 <p>(-) Rapport du Procureur Général pour 1912, « Observations Générales, » V. Gaz.
-                    III> p. 131.</p>
+                    III&gt; p. 131.</p>
                 <p>« Aussi longtemps que cinq magistrats sont nécessaires pour former une Chambre,
                     il sera tout à fait impossible de créer suffisamment de Chambres pour tenir un
                     nombre suffisant d’audiences. Quoique le projet de réduction des chambres à la
@@ -438,7 +449,7 @@
                     réplique avec les. pièces qui la justifient.</p>
                 <p>Article 55</p>
                 <p>Les délais ci-dessus comporteront déchéance -les parties ne pourront en être
-                    relevées qus> pour des motif graves et par jugement rendu, sur requête.</p>
+                    relevées qus&gt; pour des motif graves et par jugement rendu, sur requête.</p>
                 <p>Article 56</p>
                 <p>Le défendeur qui aura comparu à l’audience et demandé un délai pour préparer sa
                     défense sera considéré comme présent au débat et le jugement sera contradictoire
@@ -930,7 +941,7 @@
             <pb n="156" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0010">
                     <head>323. - Acte sous seing privé.— Absence de date certaine. — Exécution
                         virtuelle du contrat. — Opposabilité aux tiers. — Preuve. — Renonciation. —
                         Preuve reprise en Appel.</head>
@@ -956,7 +967,7 @@
                             limitatives.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0020">
                     <head>324. - Assignation — Date d’audience erronée. — Original. — Copie. —
                         Enrôlement. — Jugement par défaut. — Nullité.</head>
                     <div type="summary">
@@ -978,7 +989,7 @@
                             Nag-giar c. Mohamed el Houmani et Mohamed Omar).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0030">
                     <head>325. - Assignation. — Obligations divisibles et pluralité de débiteurs.
                         —Source unique.— Souscription d’action. — Compétence commerciale.</head>
                     <div type="summary">
@@ -1003,7 +1014,7 @@
                             193.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0040">
                     <head>326. - Billet à ordre. — Endossement irrégulier. — Omission de la mention
                         de valeur reçue. — Usure. — Présomptions.</head>
                     <div type="summary">
@@ -1021,7 +1032,7 @@
                             Abdaila c. Hugo Foscolo).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0050">
                     <head>327. - Billets à vue. — Formules imprimées. — Echéance non marquée.</head>
                     <div type="summary">
                         <p>Il est d’usage en Egypte que les billets imprimés dont la date d’échéance
@@ -1032,7 +1043,7 @@
                             Çheickhc. Ibrahim Mohamed Chabana).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0060">
                     <head>328. <!-- sic -->- Cassation. — Moyen nouveaux. — Témoins récusables. —
                         Nullité. — Tribunal correctionnel.—Enonciations desfaits matériels.</head>
                     <div type="summary">
@@ -1119,7 +1130,7 @@
                     </div>
                 </div>
                 <pb n="157" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE •'"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0070">
                     <head>328. - Clause Pénale. — Applicabilité. Indemnité de retard. — Indemnité
                         d'inexécution du contrat.</head>
                     <div type="summary">
@@ -1144,7 +1155,7 @@
                             287.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0080">
                     <head>329. - Compétence mixte. — Revendication mobilière. — Indigènes.</head>
                     <div type="summary">
                         <p>La revendication de meubles saisis en exécution d’un jugement mixte est
@@ -1156,7 +1167,7 @@
                             El Sabbahi c. Youssef eff. E. Sabbahi et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0090">
                     <head>330. - Compétence. — Tribunal de Commerce. — Femme garante.</head>
                     <div type="summary">
                         <p>Par application du principe de l’accessoire, le Tribunal de Commerce est
@@ -1184,7 +1195,7 @@
                             74.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0100">
                     <head>331. - Compétence. — Tribunal de Commerce. — Garant non-commerçant assigné
                         seul.</head>
                     <div type="summary">
@@ -1199,7 +1210,7 @@
                             Back c. Abdel Sayed Mikhaïl).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0110">
                     <head>332. - Connexité. — Litispendance. — Caractères distinctifs.</head>
                     <div type="summary">
                         <p>I. - Il y a lieu à renvoi pour cause de connexité toutes les fois qu’il
@@ -1225,7 +1236,7 @@
                             Bateaux-Omnibus c. The Delta Nile Navigation).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0120">
                     <head>333. - Etablissement Publie. — Loueurs en garni. — Location d’une pièce
                         unique.</head>
                     <div type="summary">
@@ -1242,7 +1253,7 @@
                             Dame S.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0130">
                     <head>334. - Exécutoire de frais. — Droits proportionnels. — Opposition à taxe.
                         — Opposition à commandement.</head>
                     <div type="summary">
@@ -1267,7 +1278,7 @@
                             Exécutoire de Frais.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0140">
                     <head>335. - Femme mariée. — Fournitures personnelles. — Charges du mariage.
                         —-Obligation du mari. —Non responsabilité de. la femme.</head>
                     <div type="summary">
@@ -1340,7 +1351,7 @@
                             dépenses personnelles, en vertu des principes généraux du droit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0150">
                     <head>336. - Femme mariée. — Fournitures personnelles. — Obligation solidaire du
                         mari et de la femme.</head>
                     <div type="summary">
@@ -1375,7 +1386,7 @@
                             coprirsi sol-tanto con la leggendaria foglia di fico (!).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0160">
                     <head>337. - Gardes-Côtes (Administration des). — Révocation d’un officier
                         Civil. — Décision du Conseil de guerre. — Renvoi non intempestif. —
                         Séparation des pouvoirs.</head>
@@ -1408,7 +1419,7 @@
                             ont commis des infractions ou des manquements à leurs devoirs.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0170">
                     <head>338. - Garouka. — Validité.</head>
                     <div type="summary">
                         <p>Bien que le dernier alinéa de l’art. 553 C. Civ. Ind. aux termes duquel «
@@ -1425,7 +1436,7 @@
                             Naîm et cts. c. Azer bey Konfaïl esq. et cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0180">
                     <head>339. - Gouvernement. — Intmeuble compris dans un plan d’expropriation. —
                         Action tendant à obtenir l’expropriation. — Irrecevabilité. ■</head>
                     <div type="summary">
@@ -1439,7 +1450,7 @@
                             Gouv. Egyptien).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0190">
                     <head>340. - Impôt. — Propriété bâtie — Tribunaux Mixtes. — Droit acquis d’un
                         étranger. — Décret du 13 mars 1884. — Impôt en blanc. — Renonciation tacite.
                         — Egalité de l’impôt en Egypte.</head>
@@ -1830,7 +1841,7 @@
                             s’est obligée (art. 201 C. Civ.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0200">
                     <head>341. - Louage de Service. — Durée déterminée. — Rupture du contrat. —
                         Indemnité. — Exécution provisoire sans caution.</head>
                     <div type="summary">
@@ -1852,7 +1863,7 @@
                             d’appointements à titre d’indemnité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0210">
                     <head>342. - Litispendance. — Juridiction Mixte. — Chose jugée à
                         l’indigène.</head>
                     <div type="summary">
@@ -1870,7 +1881,7 @@
                             brothers &amp; C°c. El Sayed Ibrahim Zeina).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0220">
                     <head>343. - Location d’objets mobiliers. — Vente sous condition suspensive. —
                         Référé. — Compétence conventionnelle.</head>
                     <div type="summary">
@@ -2014,7 +2025,7 @@
                             résiliation pour paiement irrégulier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0230">
                     <head>344. - Postas (Administration des). —Responsabilité.—Lettres recommandées.
                         — Perte ou vol. — Indemnité. — Valeur déclarée.</head>
                     <div type="summary">
@@ -2040,7 +2051,7 @@
                         <p>Note. — Confirm. jug. Somm. Alexandrie 5 Octobre 1912.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0240">
                     <head>345. - Revendication Immobilière. — Enonciation des titres de
                         propriété.</head>
                     <div type="summary">
@@ -2055,7 +2066,7 @@
                             Tawab).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0250">
                     <head>346. - Revendication Mobilière. — Bail. — Absence de date certaine. —
                         Exécution du contrat.• — Présomption de propriété des meubles.</head>
                     <div type="summary">
@@ -2074,7 +2085,7 @@
                             Carie Boustros c. Fils de M. Cicurel et cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0260">
                     <head>347. - Serment litisdécisoire. — Notification préalable. —
                         Recevabilité.</head>
                     <div type="summary">
@@ -2091,7 +2102,7 @@
                             Bentata c. Chaloni Ibrahim Wahba).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-06-0270">
                     <head>348. - Subrogation aux poursuites d’expropriation. — Référé. — Prorogation
                         de délai accordée au débiteur par le poursuivant. — Droit des créanciers
                         subséquents.</head>

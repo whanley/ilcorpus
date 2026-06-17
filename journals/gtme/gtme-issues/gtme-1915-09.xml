@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0005-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1915-09-10">September 10, 1915</date><lb/>
-                    <biblScope unit="volume">Vol. 5</biblScope><lb/>
-                    <biblScope unit="number">No. 59</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1915-09-10">September 10, 1915</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 5</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 59</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -154,7 +165,7 @@
             <pb n="168" rendition="GAZETTE DES TRIBUNAUX MIXTES d’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0010">
                     <head>431. - Action oblique. — Conditions d'exercice. — Créancier contesté. -
                         Banque. — Dépositaire.</head>
                     <div type="summary">
@@ -178,7 +189,7 @@
                             Chryssokefalo c. Nicolas Chryssokefalo et Anglo Egyptian Bank).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0020">
                     <head>432. - Action paulienne. — Action en simulation. — Précision de la
                         demande.</head>
                     <div type="summary">
@@ -266,7 +277,7 @@
                             pour les frustrer dans l’exercice de leurs droits.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0030">
                     <head>433. - Acquiescement. — Jugement interlocutoire. — Exécution provisoire. —
                         Chose jugée. — Contredit. — Contestations en matière d’otdre entre
                         créanciers. — Taux de l'appel.</head>
@@ -354,7 +365,7 @@
                             Rizgailah bey Chédid.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0040">
                     <head>434. - Appel. — Contrariété de jugements. — Clause attributive de
                         compétence au Juge Sommaire.</head>
                     <div type="summary">
@@ -477,7 +488,7 @@
                             1913 à l’art. 29 C.Pr.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0050">
                     <head>435. - Appel. — Recevabilité. — Appels multiples par un seul acte. —
                         Jonction. — Assignation. — Sociétés civiles. — Personnalité. —
                         Représentation en justice.</head>
@@ -502,7 +513,7 @@
                             autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0060">
                     <head>436. - Cahier des Charges. — Frais d’expropriation. — Poursuivant. —
                         Clause illicite.</head>
                     <div type="summary">
@@ -520,7 +531,7 @@
                             Ahmed Pacha Mahmoud c. Soliman Ismaïl El Mallauanb.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0070">
                     <head>437. - Cahier des Charges. — Notification. — Délai.</head>
                     <div type="summary">
                         <p>Le délai de l’art. 629 Code Proc, n’est pas prescrit à peine de nullité:
@@ -534,7 +545,7 @@
                     </div>
                 </div>
                 <pb n="170" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE^"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0080">
                     <head>438. - Contravention. — Tarif des denrées. .— Eléments constitutifs du
                         délit.</head>
                     <div type="summary">
@@ -551,7 +562,7 @@
                             Ministère Public c. Emile Siegl).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0090">
                     <head>439. - Chose Jugée. — Jugement avant faire droit. — Interlocutoire. —
                         Décision implicite. — Dispositif. — Entrepreneur. — Droit de rétention. —
                         Expertise.</head>
@@ -581,7 +592,7 @@
                             Banque Impériale Ottomane c. Moustapha bey Reda et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0100">
                     <head>440. - Chose Jugée. — Opposabilité aux tiers des décisions rendues sur la
                         propriété. — Créancier hypothécaire. — Simulation. — Hypothèque contractée
                         par le prête-nom.</head>
@@ -611,10 +622,10 @@
                     </div>
                     <div type="litigants">
                         <p>(Cour d’Appel, Ire Ch. Prés. M. L. Sandars, 9 Juin 1915. — Crédit Foncier
-                            Egyptien.c. Dame Zohra fille de feu Mohamed Azab, et autres). .></p>
+                            Egyptien.c. Dame Zohra fille de feu Mohamed Azab, et autres). .&gt;</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0110">
                     <head>441. - Concordat. — Homologation. -</head>
                     <div type="summary">
                         <p>On ne peut, dans lé but de défendre les intérêts des créanciers au sujet
@@ -632,7 +643,7 @@
                             Heliotis c. A. Piromally esq. et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0120">
                     <head>442. - Contredit. — Irrecevabilité.</head>
                     <div type="summary">
                         <p>Il ne peut être porté à l’audience de contestations autres que celles
@@ -653,7 +664,7 @@
                             d’Athènes c. Marcel Tilche, et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0130">
                     <head>443. - Courtier. — Contrepartie. — Responsabilité. — Usage contraire à la
                         loi suivi en Bourse. — Effets. — Souscripteur., — Titres nominatifs.
                         -</head>
@@ -690,7 +701,7 @@
                             Rachid dey Moutian).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0140">
                     <head>444. - Détournement d’objets saisis. — Dissimulation temporaire. — Denrées
                         périssables.</head>
                     <div type="summary">
@@ -713,7 +724,7 @@
                     </div>
                 </div>
                 <pb n="171" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0150">
                     <head>445. - Détournement d’obj ets saisis. — Nullité de la saisie.</head>
                     <div type="summary">
                         <p>Dès qu’une saisie présente les caractères extérieurs de cet acte, qu’elle
@@ -740,7 +751,7 @@
                             l’application de la Loi pénale.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0160">
                     <head>446. - Donation. — Vente déguisée. — Statut personnel musulman. — Mineurs.
                         Acceptation.</head>
                     <div type="summary">
@@ -802,7 +813,7 @@
                             la disposition formelle de l’art. 70 C. G. ,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0170">
                     <head>447. - Droits proportionnels. — Ancien tarif. •— Acte d’ouvertuie de
                         crédit. — Réalisation. — Prêt d’argent. — Condition suspensive. —
                         Prescription. — Point de départ. — Renouvellement d’inscription
@@ -950,7 +961,7 @@
                         <p>Que dès lors l’exception de prescription est mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0180">
                     <head>448. - Exécution provisoire. — Inscription de faux.</head>
                     <div type="summary">
                         <p>En disposant que l’inscription de faux suspend le jugement de l’affaire
@@ -1027,7 +1038,7 @@
                             irrecevable et au surplus mal fondée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0190">
                     <head>449. - Faillite. — Concordat. — Homologation. — Droits des créanciers. —
                         Clause contraire à tordre public.</head>
                     <div type="summary">
@@ -1065,7 +1076,7 @@
                             Billas c. E. Fréville èsq. et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0200">
                     <head>450. - Faillite. — Droits du vendeur en cas de résolution du contrat. —
                         Dommages-intérêts.</head>
                     <div type="summary">
@@ -1120,7 +1131,7 @@
                             s’impose à tous les créanciers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0210">
                     <head>451. - Faillite. — Qualité de commerçant. — Omdeh.</head>
                     <div type="summary">
                         <p>La qualité d’omdeh ne peut avoir pour effet de mettre obstacle à une
@@ -1142,7 +1153,7 @@
                             Mohamed Eita c. Choukri Boutros, et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0220">
                     <head>452. - Faillite. — Société en nom ■collectif— Faillite personnelle des
                         associés. — Scellés. — Concordat social. — Effets. — Créanciers personnels
                         des -associés.</head>
@@ -1201,7 +1212,7 @@
                             Les conditions du concordat s’imposent donc à Bahnassi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0230">
                     <head>453. - Hypothèque. — Inscription. — Nullité. — Erreur dans la désignation
                         de l’immeuble.</head>
                     <div type="summary">
@@ -1223,7 +1234,7 @@
                             statué sur un cas analogue.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0240">
                     <head>454. - Inscription de faux. — Moyens.</head>
                     <div type="summary">
                         <p>La loi entend par les moyens de faux que le demandeur en faux devra
@@ -1231,12 +1242,12 @@
                             circonstances et preuves par lesquels il prétend établir le faux ou la
                             falsification comme il est dit à l’art. 229 du Code de Proc. Français
                             correspondant à l’art. 320 susmentionné ; la doctrine et la
-                            jurisprudence françaises sont d’accord > que le demandeur en faux doit,
-                            à peine de déchéance, indiquer les faits, circonstances et preuves par
-                            lesquels il prétend établir le faux: une simple dénégation du fait qui
-                            serait énoncé dans l’acte et sur lequel porterait l’inscription de faux,
-                            une simple contestation de la sincérité de l’écriture ne seraient pas
-                            suffisantes (voir Dalloz ; répertoire tome 24, page 677 et s., et
+                            jurisprudence françaises sont d’accord &gt; que le demandeur en faux
+                            doit, à peine de déchéance, indiquer les faits, circonstances et preuves
+                            par lesquels il prétend établir le faux: une simple dénégation du fait
+                            qui serait énoncé dans l’acte et sur lequel porterait l’inscription de
+                            faux, une simple contestation de la sincérité de l’écriture ne seraient
+                            pas suffisantes (voir Dalloz ; répertoire tome 24, page 677 et s., et
                             supplément Dalloz tome 8, page 739 et s. note 85 et s.). Par suite la
                             dénégation pure et simple formée par le demandeur en faux t dans le
                             procès-verbal d’inscription en faux D dont une copie a été signifiée à
@@ -1251,7 +1262,7 @@
                             Ibrahim Mohamed Chadi c. Land Bank of Egyptl.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0250">
                     <head>455. - Juridiction Mixte. — Compétence.—Bulgares. </head>
                     <div type="summary">
                         <p>Aux termes de l’art. 9 R. O. J., les Juri- j dictions Mixtes sont les
@@ -1260,7 +1271,7 @@
                             Egypte, sans 1</p>
                         <p>distinction entre les Puissances qui ont j</p>
                         <p>adhéré à la Réforme et celles qui n’y ont point adhéré, ni entre celles
-                            qui jouis- j saient-antérieurement des avantages des ></p>
+                            qui jouis- j saient-antérieurement des avantages des &gt;</p>
                         <p>capitulations et celles qui n’en jouissent ?</p>
                         <p>pas actuellement. ;</p>
                         <p>C’est ainsi que les Tribunaux Mixtes ;</p>
@@ -1331,7 +1342,7 @@
                             Bulgarie ne jouit pas du bénéfice des Capitulations.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0260">
                     <head>456. - Municipalité d’Alexandrie. — Employés. — Licenciement. — Caisse de
                         Prévoyance.</head>
                     <div type="summary">
@@ -1356,7 +1367,7 @@
                             d'Alexandriec. Abramo di G. Cohen).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0270">
                     <head>457. - Port d’Alexandrie. — Passes. — Droits de pilotage. -—
                         Remorqueur.</head>
                     <div type="summary">
@@ -1480,7 +1491,7 @@
                     </div>
                 </div>
                 <pb n="175 '" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE _"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0280">
                     <head>458. - Préemption. — Renonciation. —- Immeubles urbains et ruraux. —
                         Périmètre des ville§.</head>
                     <div type="summary">
@@ -1505,7 +1516,7 @@
                             Salem c. Panayotti Kypriadis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0290">
                     <head>459. - Preuve testimoniale. — Contre-enquête. — Témoins déjà entendus à
                         l’enquête.</head>
                     <div type="summary">
@@ -1520,7 +1531,7 @@
                             c. Alexandria &amp; Ramleh Ry Cy Ltd).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0300">
                     <head>460. - Propriétaire. — Voisinage. — ' Obligations. — Construction.</head>
                     <div type="summary">
                         <p>Il est de principe admis par la doctrine et la jurisprudence'que,
@@ -1550,7 +1561,7 @@
                         <p>Note. - V. Bull. XII, 153 et XV11I, 314.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0310">
                     <head>461. - Référé. 3- Compétence. — Difficultés d’exécution.</head>
                     <div type="summary">
                         <p>Si le Juge des Référés est autorisé à apprécier le mérite des difficultés
@@ -1566,7 +1577,7 @@
                             et Cie c. Fratelli Jacovelli et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0320">
                     <head>462. - Saisie-exécution. — Heure non légale. — Nullité. •</head>
                     <div type="summary">
                         <p>La saisie faite sans autorisation, après les heures fixées par la loi,
@@ -1581,7 +1592,7 @@
                             en l’espèce la dite saisie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0330">
                     <head>463. - Saisie-mobilière. — Notification au débiteur. &lt;— Délai.</head>
                     <div type="summary">
                         <p>La notification de la copie du procès-verbal de saisie au débiteur, dans
@@ -1594,7 +1605,7 @@
                             Namek Abou Osbah c. Cassa di Sconto e di Risparmio).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0340">
                     <head>464. - Serment. — Modification de la formule. — Chose jugée.</head>
                     <div type="summary">
                         <p>S’il est vrai que la partie à laquelle une serment a été déféré peut être
@@ -1610,7 +1621,7 @@
                             Setton c. Alexandre Choremi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0350">
                     <head>465. - Signification au Gouver-norat. — Condition de validité.</head>
                     <div type="summary">
                         <p>Pour être valable, la signification faite au Gouvernorat, à la suite du
@@ -1662,7 +1673,7 @@
                         <p>Que l’appel de la dite société est partant valable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0360">
                     <head>466. - Société dissoute. — Assignation. — Liquidateur. — Gérant en
                         faillite. — Production. — Assignation directe.</head>
                     <div type="summary">
@@ -1690,7 +1701,7 @@
                             c. J. Helou et Lie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0370">
                     <head>467. - Solidarité. — Co-débiteurs. — Acquiescement. — Date certaine. —
                         Jugements par défaut faute de comparaître. — Péremption. — Mandat. —
                         Tiers.</head>
@@ -1791,7 +1802,7 @@
                             infirmée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0380">
                     <head>468. - Succession musulmane. — Séparation des patrimoines. — Droits
                         respectifs des héritiers et des créanciers. — Aliénations. — Successions
                         solvables et' insolvables.</head>
@@ -1974,7 +1985,7 @@
                             considérées comme parfaitement légitimes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0390">
                     <head>469. - Taxe. — Délais d’opposition. — Notification.</head>
                     <div type="summary">
                         <p>Il est de jurisprudence que la connaissance, même non contestée, de la
@@ -1993,7 +2004,7 @@
                             taxe.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0400">
                     <head>470. - Taxe. — Exécution. — Tribunal Sommaire. — Compétence. — Difficulté
                         d’exécution. — Interprétation de jugement.</head>
                     <div type="summary">
@@ -2043,7 +2054,7 @@
                             d’exécution ou une question d’interprétation du jugement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0410">
                     <head>471. - Tiers-détenteur. — Créancier hypothécaire. — Subrogation. —
                         Répétition de l'indû. — Sous-collocation.</head>
                     <div type="summary">
@@ -2067,7 +2078,7 @@
                             et fils c. J. Triandafilou esq.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0420">
                     <head>472. - Tiers-détenteur. — Saisie-immobilière. — Immobilisation des fruits
                         de l'immeuble.</head>
                     <div type="summary">
@@ -2082,7 +2093,7 @@
                             Egyptien c. Aly Pacha Fahmy, et autres)..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0430">
                     <head>473. - Tiers-saisi. — Obligation. — Compétence.</head>
                     <div type="summary">
                         <p>Le créancier saisissant ne pouvant faire valoir à l’encontre du
@@ -2097,7 +2108,7 @@
                             Coriatopoulo c. Dame Hafida Hanem esn. et q. et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0440">
                     <head>474. - Wakf. — Personnalité morale. — Tiers-détenteur. — Sommation de
                         payer ou de délaisser. — Action paulienne. — Conditions d’exercice. —
                         Créanciers hypothécaires.</head>
@@ -2251,7 +2262,7 @@
                     </div>
                 </div>
                 <pb n="179" rendition="Gazette des tribunaux mixtes d’égypte"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1915-09-0450">
                     <head>475. - Wakf. — Wakfleh non transcrite dans le registre Séguil.— Nullité
                         vis-à-vis des tiers.</head>
                     <div type="summary">

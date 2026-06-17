@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0002-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0002-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1911-12-10">December 10, 1911</date><lb/>
-                    <biblScope unit="volume">Vol. 2</biblScope><lb/>
-                    <biblScope unit="number">No. 14</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1911-12-10">December 10, 1911</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 2</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 14</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -759,7 +770,7 @@
             <pb n="19" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0010">
                     <head>Acte de Commerce. — Droit de douane. — Compétence commerciale.</head>
                     <div type="summary">
                         <p>Bien que l’obligalion d’acquitter les droits de douane soit de nature
@@ -772,7 +783,7 @@
                             Douanes Egyptiennes c. Klink et Lauer).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0020">
                     <head>Affectation hypothécaire. — Dépôt de bilan. — Période suspecte. —
                         Créancier (droits du).</head>
                     <div type="summary">
@@ -946,7 +957,7 @@
                     </div>
                 </div>
                 <pb n="20" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0030">
                     <head>Appel (taux de 1’). — Demandes distinctes.</head>
                     <div type="summary">
                         <p>La réunion dans une même assignation de deux demandes distinctes
@@ -959,7 +970,7 @@
                             Nebi c. Hassan el Chami).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0040">
                     <head>Assignation. — Revendication mobilière. — Domicile élu.</head>
                     <div type="summary">
                         <p>S’il n’est pas expressément stipulé dans la loi — comme pour la
@@ -979,7 +990,7 @@
                             aux régies ordinaires de la signification ?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0050">
                     <head>Bail verbal. —Possession. — Preuve.</head>
                     <div type="summary">
                         <p>Là possession d’un terrain ne peut constituer l’exécution prévue par
@@ -992,7 +1003,7 @@
                             Industrielle d’Egypte c. Korayem Ekab).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0060">
                     <head>Billet à Ordre. — Ca'use. — Simple promesse. — Prescription.</head>
                     <div type="summary">
                         <p>Lorsque la cause d’un billet à ordre n’est pas énoncée dans le corps du
@@ -1008,7 +1019,7 @@
                         <p>(Trib. Comm. Caire: 18 Nov. 1911.—Joseph Hun et Léonidas Checca).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0070">
                     <head>Cassation. — Exception préjudicielle (Jugement correctionnel rejetant
                         une).</head>
                     <div type="summary">
@@ -1028,7 +1039,7 @@
                             indigènes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0080">
                     <head>Cession. — Notification.</head>
                     <div type="summary">
                         <p>Pour opérer le transport d’une créance vis-à-vis des tiers, y compris le
@@ -1042,7 +1053,7 @@
                             Constantinides).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0090">
                     <head>Compétence. — Adjudication. - Tribunal Indigène. — Créancier
                         étranger.</head>
                     <div type="summary">
@@ -1069,7 +1080,7 @@
                             comme ne pouvant pas être couverte.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0100">
                     <head>Contredit. — Règlement définitif.</head>
                     <div type="summary">
                         <p>Les dispositions formelles de l’art. 736 C. Proc, n’autorisent
@@ -1085,7 +1096,7 @@
                             Sapriel èt Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0110">
                     <head>Démolition. — Contravention. — Responsabilité civile.</head>
                     <div type="summary">
                         <p>Le fait que l’état de ruine d’une maison aurait été occasionné par une
@@ -1102,7 +1113,7 @@
                             Ministère Public).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0120">
                     <head>Distribution. — Collocation (demande de). — Titres (production
                         des).</head>
                     <div type="summary">
@@ -1123,7 +1134,7 @@
                             Banque d’Athènes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0130">
                     <head>Effets de Commerce. — Paiement (mode de). — Novation. — Prescription
                         libératoire.</head>
                     <div type="summary">
@@ -1139,7 +1150,7 @@
                             Serafini).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0140">
                     <head>Folle enchère. — Mise à prix. — Référé (compétence de).</head>
                     <div type="summary">
                         <p>L’art. 697 C. Proc., n’attribue compétence au juge des Référés, en
@@ -1175,7 +1186,7 @@
                         <p>Note.—Ainsi jugé par infirmation d’une Ord. Réf. Caire 15 Juin 1911.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0150">
                     <head>Honoraires d’AvocatOpposition.-Taxe.</head>
                     <div type="summary">
                         <p>I. Si l’art. 123 du Code de Proc, prévoit que l’opposition à taxe doit
@@ -1213,7 +1224,8 @@
                             l’estimation des honoraires de l’avocat du créancier.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Trib. Somm. Caire Ch. des Vac. Prés. M. Houriet, 25 Octobre 1911 .Mch.Ahmed Issaouic.R. S. Rudolf Kirchmayer</p>
+                        <p>(Trib. Somm. Caire Ch. des Vac. Prés. M. Houriet, 25 Octobre 1911
+                            .Mch.Ahmed Issaouic.R. S. Rudolf Kirchmayer</p>
                     </div>
                     <div type="observations">
                         <p>Note. — Cette très intéressante décision élargit considérablement la
@@ -1225,7 +1237,7 @@
                         <p>AL P.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0160">
                     <head>Honoraires de médecin.</head>
                     <div type="summary">
                         <p>En admettant même qu’il existe un engagement du médecin assurant
@@ -1239,7 +1251,7 @@
                             Picramenos c. Mohamed Abdel Atti Louaient).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0170">
                     <head>Jeu de hasard. — Billard américain. -Cassation. — Qualification légale des
                         faits.</head>
                     <div type="summary">
@@ -1328,7 +1340,7 @@
                             Isidore Ribas et Abramino N.Lévy et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0180">
                     <head>Nationalité. — Passeport.</head>
                     <div type="summary">
                         <p>Le passeport seul n’établit pas la nationalité.</p>
@@ -1339,7 +1351,7 @@
                         <pb n="22" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0190">
                     <head>Novation.— Acte authentique.— Billets à ordre.</head>
                     <div type="summary">
                         <p>La souscription par le débiteur de billets . à ordre en paiement des
@@ -1353,7 +1365,7 @@
                             Lassin et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0200">
                     <head>Péremption. — Acquiescement. — Action oblique.</head>
                     <div type="summary">
                         <p>La péremption d’un jugement n’est pas couverte vis-à-vis des tiers par
@@ -1363,11 +1375,11 @@
                             des délais de péremption.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appel 1"> Ch. 8 Novembre 1911. —Georges Ouetsos c. Démosthène
+                        <p>(Cour d’Appel 1"&gt; Ch. 8 Novembre 1911. —Georges Ouetsos c. Démosthène
                             Jacovidès et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0210">
                     <head>Prescription. — Interruption. — Instance abandonnée.</head>
                     <div type="summary">
                         <p>L’instance en justice interrompt la prescription de l’action tant que
@@ -1380,7 +1392,7 @@
                             Hussein Pacha Kamel etCts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0220">
                     <head>Preuve. — Délation de Serment. — Rénonciation à tout autre mode de
                         preuve.</head>
                     <div type="summary">
@@ -1397,7 +1409,7 @@
                             Nungovich).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0230">
                     <head>Référé. — Cession d’une créance non encore existente. —
                         Saisie-arrêt.</head>
                     <div type="summary">
@@ -1430,7 +1442,7 @@
                             Chawkatly et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0240">
                     <head>Requête Civile. — Do/. — Preuve.</head>
                     <div type="summary">
                         <p>S’il est vrai que les auteurs et les Tribunaux français considèrent comme
@@ -1457,7 +1469,7 @@
                             Andromaki Zaraconti).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0250">
                     <head>Responsabilité. — Plainte pénale. — Police.</head>
                     <div type="summary">
                         <p>Quel que soit le sort de la plainte déposée par lui, et pourvu qu’il ne
@@ -1471,7 +1483,7 @@
                             Green esq.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0260">
                     <head>Revendication mobilière. — Débiteur saisi. — Recevabilité.</head>
                     <div type="summary">
                         <p>Il est loisible au Tribunal, dans l’intérêt de la bonne administration de
@@ -1485,7 +1497,7 @@
                             Nikitaïdes).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0270">
                     <head>Société. — Liquidation prématurée.' — Frais. — Associé fautif.</head>
                     <div type="summary">
                         <p>Lorsqu’il est établi qu’une société a été mise en liquidation par la
@@ -1499,7 +1511,7 @@
                             Assayas).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0280">
                     <head>Société en Commandite. — Commanditaire (Droit du).</head>
                     <div type="summary">
                         <p>L’associé commanditaire ale droit d’examiner et de consulter la
@@ -1511,7 +1523,7 @@
                             Ct.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1911-12-0290">
                     <head>Tiers détenteur. — Acheteur.</head>
                     <div type="summary">
                         <p>L’acheteur qui, dans son contrat, a pris un engagement personnel et
@@ -1820,7 +1832,7 @@
                     d’Appel sur une liste alphabétique dressée par l’Assemblée Générale de chaque
                     tribunal, et comprenant cinq candidats à Alexandrie et au Caire et trois
                     candidats à Mansourah. (2i</p>
-                <p>(>) V. Gaz. Trib. N» 13 p. 5.</p>
+                <p>(&gt;) V. Gaz. Trib. N» 13 p. 5.</p>
                 <p>r) Ancien texte :</p>
                 <p>L’un des juges étrangers présidera avec le titre de Vice-Président, et sera
                     désigné par la majorité absolue des membres étrangers et indigènes du
@@ -2314,8 +2326,8 @@
                     L.E) 1T7)</p>
                 <pb n="28" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
                 <p>- G. et L. Georgiaffendis (synd. L. Méguer-ditchian) Vente le26-12-11: 1°
-                    k>tde964 p.c.sis à Ramleh (Abou Nawatir) ; 2“ lot un terrain de 3950 p.c. sis à
-                    Ramleh (Abou Nawatir); 3° lot terrain 3018 p.c. sis à Ramleh (Abou Nawatir).
+                    k&gt;tde964 p.c.sis à Ramleh (Abou Nawatir) ; 2“ lot un terrain de 3950 p.c. sis
+                    à Ramleh (Abou Nawatir); 3° lot terrain 3018 p.c. sis à Ramleh (Abou Nawatir).
                     Mise à prix: 1er lot L.E. 205; 2me lot L.E. 198; 3me lot L.E.263.</p>
                 <p>Hag Mohamed Yazcli (synd. Anis Doss) Vente le 2-1-12 à 4 heures de 75 feddans par
                     indivis dans 201 feddans 13 kirats et 22 sahmes -sis au village Sidi-Ghazi et
@@ -2527,8 +2539,8 @@
                 <p>Hassan Ahmed, concordat prév. homol. le 11 nov., 25% en quatre versem.
                     trimestriels, le premier payable le 11 fév. 1912 avec la garantie de Mahmoud
                     Ahmed.</p>
-                <p>Georges Saleh, cÔ)ic. prév. homol. le 11 nov. >00% en douze versements trimestr.,
-                    le premier payable le 11 mai 1912. '</p>
+                <p>Georges Saleh, cÔ)ic. prév. homol. le 11 nov. &gt;00% en douze versements
+                    trimestr., le premier payable le 11 mai 1912. '</p>
                 <p>FAILLITES EN COURS</p>
                 <p>Gabra Wassef (synd. Barocas). Rapport du 23 oct. le failli a déclaré avoir des
                     biens immob. mais il n’a pas encore donné le détail de ses propriétés. Le syndic
@@ -2559,11 +2571,11 @@
                 <p>Mahamad Farès (sÿnd. Barocas). Rapp du 14 nov. L’actif se compose de créances
                     irrécour, quant aux march. elles ont été vendues par P.T. 800 que serviront à
                     régler les dehors et les frais du dossier.</p>
-                <p>-></p>
+                <p>-&gt;</p>
                 <p>César Abdou (synd Fréville; Rapp. du 13 nov. Le failli a déclaré avoir dépuis
-                    longtemps vendu un magasin qu’il avait rue Clôt bey. La maison qu’il occupe à>
-                    Darb El Barki est vide. Il déclare posséder quelques créanc. p. L.E. 200 env.
-                    remontant à 3 ans. Vérif. créanc. le 11 décembre. .</p>
+                    longtemps vendu un magasin qu’il avait rue Clôt bey. La maison qu’il occupe
+                    à&gt; Darb El Barki est vide. Il déclare posséder quelques créanc. p. L.E. 200
+                    env. remontant à 3 ans. Vérif. créanc. le 11 décembre. .</p>
                 <p>’ A. Staraselsky (synd. Papasian). Redd. des comptes du 14 nov. Sûr les sommes
                     réalisées il y a lieu de payer L.Eg. 97 au bailleur. Il resterait aptes ce
                     paiement P.V. 2626 qui viendront en règlement des frais du dossier et en acompte

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0025-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1935-06-10">June 10, 1935</date><lb/>
-                    <biblScope unit="volume">Vol. 25</biblScope><lb/>
-                    <biblScope unit="number">No. 296</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1935-06-10">June 10, 1935</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 25</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 296</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -49,7 +60,7 @@
                 <p>REVUE JUDICIAIRE MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l’Ordre des Avocats d’Egypte. Fondateurs
                     i M“ MAXIME FUPIKOFEB et LÉO» PAHGALO, Avocats à la Cour.</p>
-                <p>Directeur : M> MAXIME FUPIKOFEH, Avocat à la Cour,</p>
+                <p>Directeur : M&gt; MAXIME FUPIKOFEH, Avocat à la Cour,</p>
                 <p>Comité de Rédaction et d'administration :</p>
                 <p>M- L. PANGALO et B. 8CHEMEIL (Directeur» au Caire)</p>
                 <p>M" E. DEGIABDÉ et LUCIE» BARDA (Secrétaires de la rédaction).</p>
@@ -433,7 +444,7 @@
             <pb n="216" rendition="Gazette des Tribunaux Mixtes."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0010">
                     <head>238. - Alcool. — Droits d’accise; Décret du 25 Juin 1921; confiscation
                         ordonnée par l’art. 6; inapplicabilité aux étrangers capitulaires.</head>
                     <div type="summary">
@@ -478,7 +489,7 @@
                             véritable nature de la mesure de confiscation par lui requise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0020">
                     <head>239. - Automobiles. — Arrêté du 16 Juillet 1913; emploi abusif du clakson;
                         assimilation aux bruits incommodes; contravention.</head>
                     <div type="summary">
@@ -542,7 +553,7 @@
                             Public, tendant à la condamnation du prévenu, au vœu de la loi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0030">
                     <head>240. - Automobiles. — Arrêté du 3 Septembre 1930; mise en circulation
                         d’une automobile hors des localités où elle a été immatriculée; obligation
                         de notification prescrite à l’art. 8; champ d’application. — Autorisation
@@ -672,7 +683,7 @@
                         <p>Qu’il échet dès lors d’accueillir les pourvois.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0040">
                     <head>241. - Cassation. —- Exception d’ordre public; prescription; examen
                         d’office par le Tribunal même si le prévenu n’a fuit que la signaler;
                         omission donnant Heu à cassation.</head>
@@ -726,7 +737,7 @@
                             l’examen des autres moyens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0050">
                     <head>242. - Cassation. — Pourvoi basé sur la mauvaise application de la loi par
                         le Tribunal des Contraventions; déclaration d’irrecevabilité de l’appel du
                         jugement de contravention faisant obstacle à l’admissibilité du
@@ -748,7 +759,7 @@
                             Théodora Psaroudis c. Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0060">
                     <head>243. - Cassation- — Pourvoi basé sur la nullité de la citation par devant
                         le Tribunal Correctionnel; irrecevabilité du moyen non formulé devant le
                         Tribunal préalablement à l’instruction d’audience. — Détournement d’objets
@@ -773,7 +784,7 @@
                             1933, du 21 Juin 1933, et du 17 Décembre 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0070">
                     <head>244. - Cassation- — Pourvoi basé sur la prescription; caractère d’ordre
                         public; recevabilité du moyen pour la première fois, devant la Cour. —
                         Banqueroute simple; tenue des livres de commerce; limite de l’obligation
@@ -800,7 +811,7 @@
                             Zaki Mohamed Safar c. Ministère Public,</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0080">
                     <head>245. - Cassation- — Pourvoi basé sur 'la violation du droit de défense;
                         refus au prévenu du droit de reprendre la parole pour se défendre au fond,
                         donnant lieu à cassation.</head>
@@ -859,7 +870,7 @@
                             de policé ne mettait même pas à sa charge.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0090">
                     <head>246. - Cassation. — Pourvoi basé sur le défaut de citation par le
                         Ministère Public de tous les témoins entendus à l’instruction;
                         inadmissibilité.</head>
@@ -877,7 +888,7 @@
                             Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0100">
                     <head>247. - Cassation. — Pourvoi basé sur le défaut de communication au prévenu
                         d’un procès-verbal de mesure d’instruction; omission donnant lieu à
                         cassation.</head>
@@ -967,7 +978,7 @@
                             invoqués au pourvoi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0110">
                     <head>248. - Cassation- — Pourvoi basé sur le défaut de discussion de moyens de
                         fait invoqués par le prévenu; cas où il n’y a pas lieu à cassation.</head>
                     <div type="summary">
@@ -982,7 +993,7 @@
                             Abdel Malek Moussa Abdel' Maksud et Ct. c. Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0120">
                     <head>249. - Cassation- — Pourvoi basé sur le défaut de motifs suffisants; cas
                         d’admissibilité; détournement d’objets saisis; cléments constitutifs du
                         délit; obligation <pb n="219" rendition="Gazette des Tribunaux Mixtes."/>
@@ -1037,7 +1048,7 @@
                             nouveau.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0130">
                     <head>250. - Cassation- — Pourvoi basé sur le défaut de motifs suffisants;
                         nécessité de tenir compte des motifs du premier jugement confirmé en appel.
                         — Procédure pénale; condamnation; circonstances atténuantes; appréciation
@@ -1118,7 +1129,7 @@
                             inutile.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0140">
                     <head>251. - Cassation. — Pourvoi basé sur le défaut de sursis jusqu’au vidé
                         d’une inscription de faux; inadmissibilité; Tribunal Correctionnel; faculté
                         d’application de l’art. 333 C. Proc. — Procédure pénale; étendue
@@ -1181,7 +1192,7 @@
                             l’art; 333 précité.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0150">
                     <head>252. - Cassation.. — Pourvoi basé sur le refus par le Tribunal d’ordonner
                         une remise; cas d’inadmissibilité.</head>
                     <div type="summary">
@@ -1221,7 +1232,7 @@
                         <p>Note. — V. ég. ci-après § 253 l’arrêt du 21 Juin 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0160">
                     <head>253. - Cassation. — Pourvoi basé sur le refus par le Tribunal d’ordonner
                         une remise; cas d’inadmissibilité.</head>
                     <div type="summary">
@@ -1260,7 +1271,7 @@
                         <p>Note. — V. ég. ci-avant § 252 l’arrêt du 19 Décembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0170">
                     <head>254. - Cassation. — Pourvoi basé sur les contradictions dans les
                         dépositions des témoins; inadmissibilité; appréciation souveraine du
                         Tribunal. — Procédure pénale; condamnation; circonstances atténuantes;
@@ -1282,7 +1293,7 @@
                             255 l’arrêt du 6 Mars 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0180">
                     <head>255. - Cassation. — Pourvoi basé sur une irrégularité de procédure, tirée
                         du défaut d’instruction de l’inculpation par le juge d’instruction et non
                         invoquée devant le Tribunal; déchéance. — Procédure pénale; condamnation;
@@ -1308,7 +1319,7 @@
                             1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0190">
                     <head>256. - Cassation. — Pourvoi basé sur une nullité de la procédure non
                         invoquée par devant le Tribunal; déchéance. ■— Banqueroute simple;
                         imprudence ou faute grave causant une perte aux créanciers, visées à l’art.
@@ -1421,7 +1432,7 @@
                         <p>III. - Rappr. ci-après § 288 et 289 les -deux arrêts du 20 Juin 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0200">
                     <head>257. - Cassation- — Pourvoi basé sur une nullité de la procédure tirée du
                         défaut de désignation d’office d’un avocat, lors de l’interrogatoire de
                         l’inculpé; nullité non soulevée par devant le Tribunal; déchéance.</head>
@@ -1441,7 +1452,7 @@
                             du 6 Mars 1933 et du 21 Juin 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0210">
                     <head>258. - Cassation. — Pourvoi basé sur un moyen non repris par le prévenu en
                         appel par devant le Tribunal Correctionnel; inadmissibilité.</head>
                     <div type="summary">
@@ -1455,7 +1466,7 @@
                             Stamati Peridis c. Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0220">
                     <head>259. - Cassation. — Pourvoi; défaut de précision; irrecevabilité.</head>
                     <div type="summary">
                         <p>Est irrecevable un pourvoi en cassation, dont le défaut de précision
@@ -1478,7 +1489,7 @@
                         <p>Note. — V. ég. ci-après § 260 le second arrêt du 16 Janvier 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0230">
                     <head>260. - Cassation. — Pourvoi; défaut de précision; irrecevabilité. —
                         Pourvoi basé sur la nullité d’un procès-verbal de contravention;
                         inadmissibilité du moyen en cas de contravention constatée et de
@@ -1566,7 +1577,7 @@
                             Novembre 1933 et du 7 Mai 1934. '</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0240">
                     <head>261. - Cassation- — Pourvoi formé par le Ministère Public; moyens;
                         modification ou renonciation; inadmissibilité; cas d’un pourvoi tendant
                         originairement à la nullité du jugement et modifié par des conclusions
@@ -1737,7 +1748,7 @@
                         <p>Note. — I. - V. ég. ci-après § 270 l’arrêt du 6 Février 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0250">
                     <head>262. - Détournement d’objets saisis. — Caractère juridique; éléments
                         constitutifs du délit; dissimulation provisoire des objets; caractère
                         punissable. — Procédure pénale; jugement; rejet de moyens de défense; cas où
@@ -1767,7 +1778,7 @@
                         <p>Note. — I. - V. Gaz. XXIII, 57-48 et la note.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0260">
                     <head>263. — - Détournement d’objets saisis. — Caractère juridique; existence du
                         délit, même en cas de saisie nulle.</head>
                     <div type="summary">
@@ -1788,7 +1799,7 @@
                             58-50.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0270">
                     <head>264. - Détournement d’objets saisis. — Cassation; pourvoi basé sur une
                         contestation quant à la propriété d’objets saisis détournés;
                         inadmissibilité.</head>
@@ -1826,7 +1837,7 @@
                         <p>Qu’il échet partant de rejeter le pourvoi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0280">
                     <head>265. - Détournement d’objets saisis. — Eléments constitutifs;
                         désintéressement du saisissant; existence du délit s’il a été consommé avant
                         le paiement de la dette.</head>
@@ -1840,7 +1851,7 @@
                             Dayhoum Kenawi Hamed et autre c. Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0290">
                     <head>266. - Détournement d’objets saisis. — Emploi du prix de vente des objets,
                         au paiement d’autres créanciers, non exclusif du délit de
                         détournement.</head>
@@ -1859,7 +1870,7 @@
                             Abdel Malek Moussa c. Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0300">
                     <head>267. - Détournement d’objets saisis. — Personnes punissables.</head>
                     <div type="summary">
                         <p>Le détournement d’objets saisis est punissable non seulement dans la
@@ -1871,7 +1882,7 @@
                             Mohamed Abdel Moneim El Leissi c. Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0310">
                     <head>268. - Détournement d’objets saisis. — Poursuites engagées par devant les
                         Juridictions Indigènes; admissibilité de poursuites par devant les
                         Juridictions Mixtes pour détournement des mêmes objets; cas où les
@@ -1908,7 +1919,7 @@
                             Mahmoud Omar Abdel Batik c. Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0320">
                     <head>269. - Détournement d’objets saisis. — Saisie administrative; Loi du 4
                         Novembre 1885; faculté du débiteur de vendre les récoltes saisies; saisie
                         mobilière d’un créancier, subordonnant cette faculté à l’autorisation du
@@ -2018,7 +2029,7 @@
                             condamnation.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0330">
                     <head>270. - Etablissements incommodes ou insalubres. — Exploitation sans roksa
                         ou défaut d’exécution des prescriptions sanitaires ordonnées par
                         Vadministration; fermeture; obligation pour le juge de l’ordonner, en cas de
@@ -2095,7 +2106,7 @@
                         <p>Note. — V. - ég. ci-avant § 261 l’arrêt du 2 Janvier 1933.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0340">
                     <head>271. - Etablissements incommodes, insalubres et dangereux. — Loi No. 13 de
                         19(44; Arrêté du 29 Août 1904; arrêtés individuels prescrivant un mode
                         déterminé' d’exploitation aux établissements autorisés; défaut de signature
@@ -2206,13 +2217,13 @@
                             être retenus comme constituant une contravention;</p>
                         <p>Attendu que le second moyen des pourvoyants est conçu dans les termes
                             suivants:</p>
-                        <p>&lt;> Que le fait n’est point punissable (art. 153, par. 1) car d’après
-                            l’esprit de la loi et l’interprétation de la Cour, les prescriptions de
-                            la nature de celles visées par l’article 6 de la Loi No. 13 de 1904
-                            doivent, au préalable, être ordonnées d’une façon générale, puis ensuite
-                            d’une façon individuelle, de telle sorte qu’elles puissent être
-                            obligatoires à tous les établissements d’une même catégorie de manière à
-                            établir une égalité de traitement »;</p>
+                        <p>&lt;&gt; Que le fait n’est point punissable (art. 153, par. 1) car
+                            d’après l’esprit de la loi et l’interprétation de la Cour, les
+                            prescriptions de la nature de celles visées par l’article 6 de la Loi
+                            No. 13 de 1904 doivent, au préalable, être ordonnées d’une façon
+                            générale, puis ensuite d’une façon individuelle, de telle sorte qu’elles
+                            puissent être obligatoires à tous les établissements d’une même
+                            catégorie de manière à établir une égalité de traitement »;</p>
                         <p>Attendu que ce moyen est également bien fondé;</p>
                         <p>Attendu, en effet, que la mesure administrative qui a donné lieu aux
                             poursuites contre les demandeurs au pourvoi est nettement en conflit
@@ -2286,7 +2297,7 @@
                             il y a lieu de casser la décision déférée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0350">
                     <head>272. - Etablissements publics. — Jeux de hasard; interdiction; Loi No. 1
                         de 1904; jeu du councan; caractère licite.</head>
                     <div type="summary">
@@ -2368,7 +2379,7 @@
                             Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0360">
                     <head>273. - Juridiction pénale. — Chose jugée; défaut de portée au civil; faux;
                         acquittement du faussaire par une Juridiction Consulaire; faculté pour la
                         Juridiction Mixte de retenir le faux.</head>
@@ -2493,7 +2504,7 @@
                             Melenicli concernant les deux chèques...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0370">
                     <head>274. - Loteries. — Loi No. 10 de 1905; portée; applicabilité aux billets
                         destinés à l’étranger; confiscation prescrite par la Loi No. 10 de 1905;
                         objets sur lesquels elle peut porter.</head>
@@ -2607,7 +2618,7 @@
                             l’état annexé au procès-verbal de police.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0380">
                     <head>275. - Médecin. — Exercice de la profession par des étrangers en Egypte;
                         inscription auprès de l’Hygiène Publique; omission; contravention; refus
                         arbitraire d’autorisation; droits du médecin lésé; limites.</head>
@@ -2670,7 +2681,7 @@
                             l’art. 7 du C. Civil.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0390">
                     <head>276. - Peines. — Auteur et complice; identité de peine édictée par l’art.
                         73 Code Pénal; portée; faculté pour le juge ■de condamner le complice à une
                         peine plus forte, mais de même nature.</head>
@@ -2734,7 +2745,7 @@
                         <p>Note. — V. Gaz., V, 154-388 l’arrêt du 9 Juin 1915.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0400">
                     <head>277. - Poids et mesures. — Loi No. 9 de 1914 sur les poids et mesures;
                         usage de faux poids; personnes visées par la loi; responsabilité pénale du
                         propriétaire d’un fonds de commerce et non du gérant.</head>
@@ -2786,7 +2797,7 @@
                             contestés par le Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0410">
                     <head>278. - Procédure pénale. — Appel; jugement du Tribunal des Contraventions;
                         nullité pour défaut de motivation ne pouvant donner lieu à cassation après
                         décision en appel du Tribunal Correctionnel. — Jugements de condamnation;
@@ -2878,7 +2889,7 @@
                             prescriptions des art.' 146 et 173 C. I. Cr...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0420">
                     <head>279. - Procédure pénale. — Chose jugée; acquittement faisant obstacle à de
                         nouvelles poursuites en vertu d’un nouveau réquisitoire.</head>
                     <div type="summary">
@@ -2891,11 +2902,11 @@
                             Ministère Public c. Maurice Levy et Ct.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0430">
                     <head>280. - Procédure pénale. — Chose jugée; caractère d’ordre public;
                         exception pouvant être soulevée pour la première fois devant la Cour de
-                        Cassation. >— Détournement d’objets saisis; admissibilité de l’exception de
-                        chose jugée, subordonnée à la preuve de l’identité des objets.</head>
+                        Cassation. &gt;— Détournement d’objets saisis; admissibilité de l’exception
+                        de chose jugée, subordonnée à la preuve de l’identité des objets.</head>
                     <div type="summary">
                         <p>I. - L’exception de chose jugée au pénal se rattache à l’ordre public et
                             peut, partant, être soulevée pour la première fois devant la Cour de
@@ -2910,7 +2921,7 @@
                             Agami Mahgoub c. Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0440">
                     <head>281. - Procédure pénale. — Jugement de défaut non susceptible
                         d’opposition; cassation; délai de pourvoi; point de départ. — Procédure
                         pénale; représentation; règle édictée à l’art. 129 C. Proc.; non
@@ -2969,7 +2980,7 @@
                             l’audience.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0450">
                     <head>282. - Procédure pénale. — Jugement sur opposition à un jugement de
                         défaut; pourvoi en cassation; admissibilité; jugement d’irrecevabilité sur
                         opposition formée contre un jugement de condamnation par défaut; condition
@@ -3028,7 +3039,7 @@
                             fond aurait en tout cas un pouvoir souverain de décider.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0460">
                     <head>283. - Procédure, pénale. -— Oralité de l’instruction à l’audience;
                         connaissance donnée à l’audience de l’aveu de l’inculpé fait à
                         l’instruction; nullité donnant ouverture à cassation; pourvoi basé sur une
@@ -3123,7 +3134,7 @@
                             1931, du 22 Février 1932, du 6 Juin 1932 et du 7 Novembre 1932.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0470">
                     <head>284. - Procédure pénale. — Oralité de l’instruction à l’audience; limites
                         de l’interdiction de l’art. 163 C. Inst. Cr.; pièces pouvant être prises en
                         considération par le Tribunal; rapport du syndic de la faillite de l’inculpé
@@ -3233,7 +3244,7 @@
                             l’activité du juge d’instruction...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0480">
                     <head>285. - Procédure pénale. — Représentation du prévenu; comparution en
                         personne; règle édictée à l’art. 159 C. Inst. Cr.; limite; refus de la
                         parole au défenseur mandaté de l’inculpé défaillant; cas où il entraîne
@@ -3284,7 +3295,7 @@
                             des autres moyens.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0490">
                     <head>286. - Procédure pénale. — Représentation du prévenu; droit de défense;
                         assistance d’un défenseur; caractère obligatoire devant la Cour d’Assises et
                         facultatif devant les autres Tribunaux de répression.</head>
@@ -3321,7 +3332,7 @@
                             d’audience que l’inculpé ait demandé la désignation d’un avocat.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0500">
                     <head>287. - Procédure pénale. — Réquisitoire de poursuites; mentions; omission
                         sur la copie signifiée, de la signature du substitut qui a signé l’original;
                         conclusions au fond prises par l’inculpé, présent à l’audience, couvrant
@@ -3337,7 +3348,7 @@
                             Al Hassan Hassanein c. Ministère Public.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0510">
                     <head>288. - Procédure pénale. — Témoins; citation; formalité non considérée
                         comr me, substantielle; audition d’un témoin non cité ne donnant pas
                         ouverture à cassation. — Banqueroute frauduleuse; détournement d’actif;
@@ -3435,7 +3446,7 @@
                             le second arrêt du 20 Juin 1934.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0520">
                     <head>289. - Procédure pénale. — Tribunal Correctionnel; mentions
                         obligatoirement imposées au greffier-audiencier; mentions prescrites par
                         l’art. 143 C. Inst. Cr.; inapplicabilité devant le Tribunal Correctionnel. —
@@ -3548,7 +3559,7 @@
                     </div>
                 </div>
                 <pb n="33" rendition="Gazette des Tribunaux Mixtes."/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0530">
                     <head>290. - Résistance envers l’autorité publique. — Outrage à un officier
                         public; définition. — Procédure pénale; prévention; qualification donnée par
                         le Ministère Public; droit et devoir des Tribunaux de la redresser.</head>
@@ -3627,7 +3638,7 @@
                             irrecevables aux termes de l’art. 153 bis, 3 alinéa C. I. C.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0540">
                     <head>291. - Résistance envers l’autorité publique. — Violences envers les
                         personnes assistant l’huissier instrumentant; caractère punissable;
                         résistance passive et obstruction matérielle à Vexécution; caractère
@@ -3721,7 +3732,7 @@
                         <p>Qu’il échet donc de rejeter le pourvoi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0550">
                     <head>292. - Tanzim. — Arrêté du 8 Septembre 1889; démolition prescrite à l’art.
                         14 al. 2 de l’arrêté; faculté d’appréciation reconnue au Tribunal.</head>
                     <div type="summary">
@@ -3796,7 +3807,7 @@
                             du Trésor.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0560">
                     <head>293. - Tribunal Correctionnel. — Composition; nationalité des assesseurs;
                         cas où elle doit être la même que celle de l’inculpé. — Banqueroute simple;
                         dépôt de bilan; défaut de tenue de livres, ne constituant pas une excuse
@@ -3912,7 +3923,7 @@
                             légalement poursuivi que comme complice de ces créanciers.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1935-06-0570">
                     <head>294. - Voirie. — Occupation de la voie publique; auvents; définition au
                         sens de l’article 10 du Règlement du 31 Mai 1885. •— Tanzim; Règlement du 26
                         Août 1889; application aux saillies fixes des constructions bordant la voie

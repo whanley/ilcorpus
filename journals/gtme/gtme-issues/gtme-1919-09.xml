@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0009-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1919-09-10">September 10, 1919</date><lb/>
-                    <biblScope unit="volume">Vol. 9</biblScope><lb/>
-                    <biblScope unit="number">No. 107</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1919-09-10">September 10, 1919</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 9</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 107</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -292,7 +303,7 @@
                 <p>Il n’y a donc plus que l’interprétation seule que nous avons donnée de l’article
                     en question qui doive être retenue.</p>
                 <p>Reste à examiner l’argument tiré de l’expression « tiers-détenteur » employée par
-                    le législateur mixte à la place du mot « nouveau propriétaire -> ou « ogni
+                    le législateur mixte à la place du mot « nouveau propriétaire -&gt; ou « ogni
                     acqui-« rente » dont se servent les législateurs français et italien; mais il
                     sera à peine besoin de s'y arrêter; cet argument est encore plus fragile que les
                     autres: est tiers-détenteur, en effet, tout acquéreur de biens grevés — au
@@ -349,7 +360,7 @@
             <pb n="153" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0010">
                     <head>255. - Action paulienne. —"Créancier hypothécaire. — Droit de
                         suite.</head>
                     <div type="summary">
@@ -364,7 +375,7 @@
                             Polychronopoulo).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0020">
                     <head>256. - Action possessoire. — Doute sur la possession. — Récréance ou garde
                         .provisionnelle des biens.</head>
                     <div type="summary">
@@ -457,7 +468,7 @@
                             sous l’application de cette disposition prohibitive et dérogatoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0030">
                     <head>257. - Adjudication. — Expropriation de biens divis et délimités. — Corps
                         certain. — Excédent de taklif. — Débiteur exproprié.</head>
                     <div type="summary">
@@ -479,7 +490,7 @@
                             Bigio c. Mahmoud Mohamed Chamam et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0040">
                     <head>258. - Appel, — Nullités d’assignation couvertes par des conclusions au
                         fond.</head>
                     <div type="summary">
@@ -526,7 +537,7 @@
                             conclusions au fond.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0050">
                     <head>259. - Assurance maritime. — Fins de non recevoir des art. 274 et 215 Code
                         Corn. Mar. — Prescription conventionnelle de l’action. — Avaries
                         matérielles. — A-varies-frais. — Suspension de la prescription par des
@@ -556,7 +567,7 @@
                     </div>
                     <div type="litigants">
                         <p>(Cour d’Appel, Ire Ch. Prés. M. F. Laloë, 23 Avril 1919. — Cugini Viterbo
-                            c. Cie d'Assurances « Rossia >).</p>
+                            c. Cie d'Assurances « Rossia &gt;).</p>
                     </div>
                     <div type="observations">
                         <p>Note. - L’arrêt expose :</p>
@@ -649,7 +660,7 @@
                             introduite par Cugini Viterbo le 15 Avril suivant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0060">
                     <head>260. - Brevet d’invention. — Période de protection en Egypte.</head>
                     <div type="summary">
                         <p>Il est de jurisprudence que le dépôt d’un brevet d’invention au Greffe
@@ -703,7 +714,7 @@
                             environ six semaines après l’assignation en justice de l’appelant.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0070">
                     <head>261. 5- Caisse des Dépôts et Consignations. — Responsabilité. —
                         Distribution. — Faillite. — Répartitions. — Responsabilité du syndic. —
                         Créanciers privilégiés ou hypothécaires.</head>
@@ -837,7 +848,7 @@
                             prescriptions de la loi ont été observées « pour le retrait de tout ou
                             partie des sommes &lt; déposées, et de n’exécuter que les décisions qui
                             « lui paraissent conformes à ces prescriptions ou « qui sont rendues par
-                            la juridiction compétente >;</p>
+                            la juridiction compétente &gt;;</p>
                         <p>Il y a lieu de signalée,que, dans le cas de 1891, la distribution n’avait
                             pâs encore eu lieu et c’est pourquoi l’arrêt ordonna la reconstitution
                             du dépôt et l’ouverture d’un ordre, tandis que dans l’espèce actuelle la
@@ -914,7 +925,7 @@
                             sanction suffisante de la faute par lui commise.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0080">
                     <head>262. - Chose jugée. — Appel de Référé.</head>
                     <div type="summary">
                         <p>Pas plus qu’une ordonnance de Référé, un arrêt rendu sur appel de Référé
@@ -925,7 +936,7 @@
                             Fathalla c. Nicolas Haridi et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0090">
                     <head>263. -Détournement d’objets saisis. — Détournement des matériaux d’un
                         immeuble saisi, après la vente. — Immeubles par destination ou
                         incorporation.</head>
@@ -988,7 +999,7 @@
                             Octobre 1850.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0100">
                     <head>264. - Droits de mutation. — Droits de quittance du prix. — Perception
                         cumulative.</head>
                     <div type="summary">
@@ -1006,7 +1017,7 @@
                             of Egypt c. Greffier en Chef du Tribunal Mixte d’Alexandrie).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0110">
                     <head>265. - Faillite. Annulation d’une admission. — Irrecevabilité du failli à
                         la poursuivre. — Recevabilité des créanciers à la requérir, après la
                         .clôture de la faillite. — Concordat non entièrement exécuté.</head>
@@ -1065,7 +1076,7 @@
                             par une action directe devant le Tribunal, une « créance produite ou
                             admise, pourvu qu’il ne «soit pas intervenu un jugement d’admission «
                             passé en force de chose jugée, mais sans ar-« rêter les opérations de la
-                            faillite; ></p>
+                            faillite; &gt;</p>
                         <p>« Les syndics et le failli seront mis en cause; »</p>
                         <p>Attendu que la base de cet article est naturellement l’intérêt des
                             créanciers d’assurer que le passif ne soit pas injustement augmenté;</p>
@@ -1155,7 +1166,7 @@
                             du procès.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0120">
                     <head>266. - Hypothèque. — Intérêts garantis par l’inscription, avant la
                         modification de l’art. 692 C. Civ. — Cession civile entre indigènes. —
                         Consentement du débiteur cédé. — Vente à réméré. — Présomption de
@@ -1214,7 +1225,7 @@
                             l’ancien art. 692 C. C.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0130">
                     <head>267. - Meubles. &lt;— Possession. — Date ceitaine. — Ventes de
                         chevaux.</head>
                     <div type="summary">
@@ -1230,7 +1241,7 @@
                             Philippou c. Panayotti Raptopoulo et autre). . . ..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0140">
                     <head>268. - Nationalité hellénique. — Traité d’Athènes du 1-14 Novembre 1913. —
                         Originaires des nouvelles provinces grecques. — Conditions d’acquisition de
                         la nationalité hellénique. — Accord gréco-égyptien du 17. Octobre
@@ -1348,7 +1359,7 @@
                     </div>
                 </div>
                 <pb n="158" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYTPE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0150">
                     <head>269. - Référés. — Compétence. — Urgence. — Appel. — Parties à intimer. ■—
                         Chose jugée. — Séquestre. — Mainlevée.</head>
                     <div type="summary">
@@ -1387,13 +1398,13 @@
                     </div>
                     <div type="litigants">
                         <p>(Cour d’Appel, Ire Ch. Prés. M. F. Laloe, 20 Mai 1919. — Abdel Al Sayed
-                            El Ridî et autres c. A ni s Doss èsq. > et autres).</p>
+                            El Ridî et autres c. A ni s Doss èsq. &gt; et autres).</p>
                     </div>
                 </div>
-                <div type="case">
-                    <head>270. - Pétitoire. — Mesures provisoires pour la garde ou la > conservation
-                        de la chose litigieuse. — Inadmissibilité d’une action possessoire
-                        incidemment au pétitoire.</head>
+                <div type="case" xml:id="gtme-1919-09-0160">
+                    <head>270. - Pétitoire. — Mesures provisoires pour la garde ou la &gt;
+                        conservation de la chose litigieuse. — Inadmissibilité d’une action
+                        possessoire incidemment au pétitoire.</head>
                     <div type="summary">
                         <p>Si le juge du pétitoire peut, sans violer la règle qui défend de cumuler
                             le pétitoire et le possessoire, prendre, dans le cours de l’instance
@@ -1408,7 +1419,7 @@
                             Arsenouhi Bididimian c. Kevork Sarkissian).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0170">
                     <head>271. - Prête-nom. — Juridiction Mixte. — Compétence. — Cas où le prête-nom
                         a pour objet de soustraire les parties à une législation étrangère.</head>
                     <div type="summary">
@@ -1437,7 +1448,7 @@
                             soutenant que le tirage au profit de S. Ammar ne constitue pas une
                             opération réelle, Ammarn’étant qu’un prête-nom, destiné à soustraire'le
                             débiteur Esses de ses juges naturels britanniques, seuls compétents pour
-                            une affaire entre deux sujets de cette dernière nationalité ; ></p>
+                            une affaire entre deux sujets de cette dernière nationalité ; &gt;</p>
                         <p>Attendu que Esses avait, déposé parmi ses pièces une formule de serinent
                             à prêter par le demandeur Ammar aux fins d’établir la fictivité du
                             tirage;</p>
@@ -1476,7 +1487,7 @@
                             Tribunaux Mixtes.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0180">
                     <head>272. - Vente administrative. — Clause soumettant l’adjudication à
                         l’approbation du Ministère des Finances. —Validité. — Délai.</head>
                     <div type="summary">
@@ -1558,7 +1569,7 @@
                             administratives.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0190">
                     <head>273. - Vente à réméré. — Vileté du prix. — Présomption de gage.</head>
                     <div type="summary">
                         <p>La vileté du prix dans une vente à réméré ne figure pas parmi les
@@ -1572,7 +1583,7 @@
                             Arab Hassan el Ghandour c. Georges A. Costandi et Cts.)</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1919-09-0200">
                     <head>274. Wakt.— Revendication.— Prescription de 33 ans.— Fin de non recevoir.—
                         Conditions.-Possession delà partie adverse.</head>
                     <div type="summary">
@@ -1606,7 +1617,7 @@
                             d’après lui, mal dirigée à son encontre et aurait dû être introduite
                             contre le Gouvernement, qui, le cas échéant, pourrait opposer au wakf la
                             prescription de 33 ans de l’action !</p>
-                        <p>Comme le Gouvernement, n’est pas en cause, >1 n’est pas nécessaire
+                        <p>Comme le Gouvernement, n’est pas en cause, &gt;1 n’est pas nécessaire
                             d’examiner l’exception</p>
                         <p>au point de vue de la dite hypothèse. Il en est de même quant à une
                             seconde hypothèse présentée par Sakakini, d’après laquelle la

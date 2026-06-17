@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0011-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1921-10-10">October 10, 1921</date><lb/>
-                    <biblScope unit="volume">Vol. 11</biblScope><lb/>
-                    <biblScope unit="number">No. 132</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1921-10-10">October 10, 1921</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 11</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 132</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -176,7 +187,7 @@
             <pb n="192" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-10-0010">
                     <head>265. - Concordat préventif. — Mode de paiement des créances évaluées en
                         piastres lors du concordat ; monnaie étrangère.</head>
                     <div type="summary">
@@ -238,7 +249,7 @@
                             d’homologation du concordât.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-10-0020">
                     <head>266. - Expropriation. — Commandement immobilier non précédé de la copie du
                         titre exécutoire; nullité. — Exécution.</head>
                     <div type="summary">
@@ -306,7 +317,7 @@
                             inutile d’examiner les autres chefs de la présente opposition.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-10-0030">
                     <head>267. - Faillite. — Condamnation prononcée contre le liquidateur de l'actif
                         abandonné par le failli concordataire; effets juridiques. — Procédure de
                         production et vérification. — Commandement ; titre exécutoire à signifier. —
@@ -398,7 +409,7 @@
                             du 7 Mai 1918, qui -confirme simplement le dit jugement.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-10-0040">
                     <head>268. - Faillite. — Dessaisissement du Jailli. — Actions purement
                         personnelles. — Avocat. — Défense du failli devant le Tribunal
                         Correctionnel. — Honoraires.</head>
@@ -489,7 +500,7 @@
                             défense, puisqu’il n’en, avait pas été demandé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-10-0050">
                     <head>269. - Faillite. — Vente commerciale.— Droit de revendication du vendeur
                         impayé en cas de non tradition de la marchandise dans les magasins du
                         failli. — Entreposage de la marchandise au nom de l’acheteur dans un magasin
@@ -622,7 +633,7 @@
                             prix, lesquels devront être restitués au •Syndic.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-10-0060">
                     <head>270. - Inscription hypothécaire. — Intérêts garantis. — Expropriation. —
                         Cahier des charges. — Clause de non garantie.</head>
                     <div type="summary">
@@ -643,7 +654,7 @@
                             Egypt et autres c Hoirs Hag Ibrahim Khadra et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-10-0070">
                     <head>271. - Loi martiale. — Proclamation du 15 Octobre 1919. — Proclamation du
                         8 Juillet 1921. —Juridiction mixte; incompétence pour toutes demandes se
                         rattachant aux troubles. — Référé; urgence.</head>
@@ -676,7 +687,7 @@
                             commission compétente.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-10-0080">
                     <head>272. - Paiement. — Appointements et pensions. — Société établie en France
                         et en Egypte. — Règlements à effectuer en Egypte en francs au pair. — Valeur
                         officielle du franc en Egypte ; cours légal. — Caisse de retraites d’une
@@ -950,9 +961,9 @@
                     </div>
                 </div>
                 <pb n="196" rendition="GAZETTE DES TRIBUNAUX MIXTES D'ÉGYPTE"/>
-                <div type="case">
-                    <head>273. - Paiement. — Prêt. — Libération. — Stipulation de paiement «en francs
-                        français, en bonnes espèces d’or » ; portée; interprétation.— Lieu de
+                <div type="case" xml:id="gtme-1921-10-0090">
+                    <head>273. - Paiement. — Prêt. — Libération. — Stipulation de paiement «en
+                        francs français, en bonnes espèces d’or » ; portée; interprétation.— Lieu de
                         paiement. — Interprétation de la convention par le commencement d’exécution,
                         inadmissible en cas d'erreur du débiteur. — Système monétaire égyptien;
                         décrets des 14 Novembre 1885, 11 Septembre 1887, 25 Juin 1898, 2 Août 1914
@@ -1090,7 +1101,7 @@
                             sous la relation de co-débiteurs solidaires, uu acte authentique aux
                             termes duquel, chacun d’eux à concurrence de moitié,, ils prêtaient à
                             ces derniers &lt;art. 1er) « la somme de 900000 (neuf cent mille) francs
-                            français, > pour être ♦ payée en leur acquit et libération à The
+                            français, &gt; pour être ♦ payée en leur acquit et libération à The
                             Standard Life Assurance Cy Ltd », contre mainlevée de l’inscription
                             hypothécaire prise par celle-ci en son temps en vertu du susdit acte du
                             27 Juin 1907 ;</p>
@@ -1447,7 +1458,7 @@
                             ;</p>
                         <p>Que l’on a vu, dans l’exposé des faits de la cause, et spécialement
                             d’après le document intitulé « note sur l’emprunt Lebaudy pour le mode
-                            de paiement >, qu’aussitôt après la signature, au: Greffe de ce
+                            de paiement &gt;, qu’aussitôt après la signature, au: Greffe de ce
                             Tribunal, de l’acte authentique dit 25 juin 1912, l’avocat des
                             défendeurs a dû informer ceux-ci de ce fait par dépêche, — qu’au, reçu
                             de cette dernière les défendeurs ont versé, de façon quelconque, la
@@ -1639,7 +1650,7 @@
                             ;</p>
                         <p>Que l’on a vu, dans l’exposé des faits de la cause, et spécialement
                             d’après le document intitulé « note sur l’emprunt Lebaudy pour le mode
-                            de paiement >, qu’aussitôt après la signature, au: Greffe de ce
+                            de paiement &gt;, qu’aussitôt après la signature, au: Greffe de ce
                             Tribunal, de l’acte authentique dit 25 juin 1912, l’avocat des
                             défendeurs a dû informer ceux-ci de ce fait par dépêche, — qu’au, reçu
                             de cette dernière les défendeurs ont versé, de façon quelconque, la
@@ -1856,7 +1867,7 @@
                             P.T. 10) ;</p>
                         <p>Que, quant aux monnaies étrangères, il donne, en son art. 17 alin. 3,
                             compétence au Ministre de Finances à l’effet: de déterminer celles de
-                            ses monnaies qui seraient •> admises dans la circu-« lation « et le
+                            ses monnaies qui seraient •&gt; admises dans la circu-« lation « et le
                             maximum de la somme pouvant être payée avec elles « dans les rapports de
                             l’Etat &lt; avec les particuliers » et, en outre, d’en fixer le « tarif
                             » ;</p>
@@ -1981,12 +1992,12 @@
                             à déterminer par le Ministre de Finances ;</p>
                         <p>Qu’en application de ce décret, un arrêté du Ministre des Finances de
                             même date, 18 octobre 1916, a décidé, art 1er; «le taux de la livre
-                            sterling (encore une fois, ayant cours légal) est fixé à P.T. 97,5 >, —
-                            et art. 2: « sont admises dans la circulation sur le territoire égyptien
-                            (mais sans cours légal), au taux uniforme de P.T. 77, 15, et seront
-                            reçues à ce taux et sans restriction dans les Caisses publiques les
-                            pièces d’or des différents pays de l’Union latine équivalant à la pièce
-                            d’or française de vingt francs » ;</p>
+                            sterling (encore une fois, ayant cours légal) est fixé à P.T. 97,5 &gt;,
+                            — et art. 2: « sont admises dans la circulation sur le territoire
+                            égyptien (mais sans cours légal), au taux uniforme de P.T. 77, 15, et
+                            seront reçues à ce taux et sans restriction dans les Caisses publiques
+                            les pièces d’or des différents pays de l’Union latine équivalant à la
+                            pièce d’or française de vingt francs » ;</p>
                         <p>Qu’enfin, un avis publié au Journal Officiel du 30 du même mois (Rec. des
                             docum. relatifs à la geurre. III p. 878) porte « qu’il a été décidé» de
                             relâcher provisoirement, et dans une certaine mesure, l’obligation pour
@@ -2852,7 +2863,7 @@
                             d’une obligation à leur charge.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-10-0100">
                     <head>274. - Prescription. — Privilège du vendeur. — Opposabilité aux
                         tiers.</head>
                     <div type="summary">
@@ -2892,7 +2903,7 @@
                             établie.</p>
                         <p>Il est vrai qu’il semble résulter des termes de l’art. 742 C.C., qu’à
                             défaut, de transcription ou d’inscription quand elle est exigée, « les
-                            droits « ci-dessus >, c’est-à-dire les droits réels - y compris les
+                            droits « ci-dessus &gt;, c’est-à-dire les droits réels - y compris les
                             privilèges sur les immeubles généralement parlant — ne doivent être
                             considérés comme non avenus qu’à l’égard de ceux qui ont des droits sur
                             l’immeuble et qui les ont conservés en se conformant à la loi. Mais à
@@ -2938,7 +2949,7 @@
                             son-pouvoir de renvoyer l’affaire devant la Cour entière.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1921-10-0110">
                     <head>275. - Société de bienfaisance. — Vente des pi oduits fabriqués par les
                         assistés. — Caractère non commercial. — Absence de fonds social. — Société
                         civile imparfaite-, représentation en justice.</head>
@@ -3362,8 +3373,9 @@
                 <p>Léon Zarmati et Cie-, « Papeterie L’Union » Par échange de lettres des
                     28et29.</p>
                 <p>4.21 dissolution à partir du 30.4.21 dite soc. en command. simp. const. par
-                    contrat s.s.p. 10.10. 1918.. Suites affaires de la papeterie « L’Union -> sise à
-                    Alexandrie 19, Rue Chérit Pacha, assumée par Léon Zarmati personnellement.</p>
+                    contrat s.s.p. 10.10. 1918.. Suites affaires de la papeterie « L’Union -&gt;
+                    sise à Alexandrie 19, Rue Chérit Pacha, assumée par Léon Zarmati
+                    personnellement.</p>
                 <p>Albert D. Gattegno et Co. Par acte s.s.p. du 5.9.21 const. d’une soc. de
                     national, espagnole en command. simp. entre Albert D. Gattegno, commerçant
                     espagnol comme assoc. indéfin. responsable. Siège à Alexandrie avec faculté
@@ -3405,7 +3417,7 @@
                     en remplacement des actions subdivisées. L’art 5 des statuts sera modifié par
                     constation réduction du nombre des actions de la société.</p>
                 <p>Jacob Hazan, par acte s.s.p. 10.9.21 cession faite par susnommé de son fonds de
-                    commerce de librairie 6, Rue Chérif, Alexandrie à M. Meyer Apfelbaum. ></p>
+                    commerce de librairie 6, Rue Chérif, Alexandrie à M. Meyer Apfelbaum. &gt;</p>
                 <p>James Charlton and Co, par acte s.s.p.</p>
                 <p>24.4.21 const. dite soc. en command. simple avec James Charlton comme assoc.
                     respons. Siège à Alexandrie. Objet : opérations de courtage à la Bourse des

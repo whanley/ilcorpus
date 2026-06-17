@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0016-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0016-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1925-11-10">November 10, 1925</date><lb/>
-                    <biblScope unit="volume">Vol. 16</biblScope><lb/>
-                    <biblScope unit="number">No. 181</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1925-11-10">November 10, 1925</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 16</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 181</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -50,7 +61,7 @@
                 <p>WI! II! MMIIIII!!</p>
                 <p>RLVUL MENSUELLE</p>
                 <p>Publiée sous le Patronage du Conseil de l'Ordre des Avocats d’Egypte. Fondateurs
-                    > M" MAXIME PUPIKOFEH et LÉON PANGALO, Avocats à la Cour.</p>
+                    &gt; M" MAXIME PUPIKOFEH et LÉON PANGALO, Avocats à la Cour.</p>
                 <p>Directeur : M* MAXIME PUPIKOFER, Avocat à la Cour.</p>
                 <p>ABONNEMENTS :</p>
                 <p>— à la Gazette (un an).... P.T. 150</p>
@@ -97,7 +108,7 @@
                     léguées plusieurs siècles d’expérience.</p>
                 <p>Les dirigeants des Colonies européennes étaient, il est vrai, tous d’accord pour
                     demander d’urgence une réforme; mais une réforme toute autre que celle proposée
-                    par Nubar Pacha dont la hardiesse les effrayait. En ce temps là — qui n’est >
+                    par Nubar Pacha dont la hardiesse les effrayait. En ce temps là — qui n’est &gt;
                     pourtant pas si lointain — il n’existait, en Egypte, en dehors des Tribunaux
                     consulaires, aucun Tribunal local digne de fce nom, il n’y avait que des
                     Conseils</p>
@@ -171,7 +182,7 @@
             <pb n="■4" rendition="Gazette des Tribunaux Mixtes d’Egypte."/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0010">
                     <head>1. ' - Assurance maritime. — Agent' d'assurances; défaut de responsabilité
                         personnelle. —• Iléticenee entraînant la nullité du contrat d'assurance;
                         effets de cette nullité. "</head>
@@ -364,7 +375,7 @@
                             •</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0020">
                     <head>2. - Assurance maritime. — Fins de non recevoir des art. 274 et 275 C.
                         Com. Mar.; pourparlers; cas où la déchéance est définitivement
                         acquise.</head>
@@ -408,7 +419,7 @@
                             l’expiration des délais légaux.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0030">
                     <head>3. - Navire. — Affrètement à temps; sous-affrètement; privilège du fréteur
                         principal; étendue; limites; surestaries; (udespatch-moneyn'j à déduire du
                         fret. — Charte-partie principale; inopposabilité au sous-affréteur. —
@@ -586,7 +597,7 @@
                             hors de cause</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0040">
                     <head>4. - Navire. — Affrètement; charte-partie; stipulation de chargement d'une
                         cargaison pleine et entière; portée; obligation réciproque. — Mode de
                         chargement; faute de l’affréteur; conséquences.</head>
@@ -657,7 +668,7 @@
                             l’égard du calcul de l’indemnité due pour le vide.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0050">
                     <head>5. - Navire. — Déchargement; charte-partie; fours de planche entièrement
                         utilisés; empêchement dans le déchargement par suite d'avaries du navire;
                         réclamation de prime de célérité (udes-patch-moncy») basée sur le délai
@@ -709,7 +720,7 @@
                             qui l’aurait empêché de bénéficier de ce droit...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0060">
                     <head>6. - Navire. — Déchargement; jours de ' planche; calcul de la prime de
                         célérité («despatch-money»); accostage à un quai impropre au débarquement. —
                         Retard dans le débarquement; charge de la preuve.</head>
@@ -791,7 +802,7 @@
                             ment...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0070">
                     <head>7. - Navire. — Déchargement; jours de j planche; calcul de la prime de
                         célérité : («despatch-money»); défaut de réception i par l'affréteur. —
                         Chargement; pouvoirs &lt; du Capitaine. •— Déchargement; désigna-1 tion d'un
@@ -864,8 +875,9 @@
                             l’absence de toute preuve d’un usage contraire, de retenir que c’était
                             le devoir de l’affréteur de faire le nécessaire pour ■ être à même de
                             régler définitivement le fret ; dû au navire au moment de la
-                            terminaison> du déchargement (Voir Tribunal Commerce. Alger. 22 Décembre
-                            1924 Suppl. Droit Maritime Français t. 3 No. 2, 15 Janvier 1925,' p.</p>
+                            terminaison&gt; du déchargement (Voir Tribunal Commerce. Alger. 22
+                            Décembre 1924 Suppl. Droit Maritime Français t. 3 No. 2, 15 Janvier
+                            1925,' p.</p>
                         <p>, 74);</p>
                         <p>Qu’à cet égard c est à tort que l’affréteur, cherche à se prévaloir de la
                             disposition de la | charte-partie par lui produite, se référant au ’
@@ -961,7 +973,7 @@
                             précision quant au dommage subi, de rejeter ce chef de la demande.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0080">
                     <head>8. - Navire. — Distribution du prix de vente; classement des créances sur
                         la base de la loi du pavillon; cas de changement de pavillon; loi
                         applicable. — Distribution basée sur une loi non applicable; renvoi par le
@@ -1040,7 +1052,7 @@
                             nom et jouit d’une nationalité indiquée par le pavillon qu’il arbore;
                             qu’il est donc régulier de lui appliquer la loi de ce pavillon, de même
                             qu’on applique aux individus le statut personnel de la nation à laquelle
-                            ils appartiennent (voir Danjon, T. 1, No. 88); ></p>
+                            ils appartiennent (voir Danjon, T. 1, No. 88); &gt;</p>
                         <pb n=".9" rendition="Gazette des Tribunaux Mixtes d’Egypte.."/>
                         <p>• Attendu que ces principes, déjà appliqués par la jurisprudence de ce
                             Tribunal (voir notamment jugement du 30 Avril 1924, affaire Cap. GrosS
@@ -1153,7 +1165,7 @@
                             objet...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0090">
                     <head>9. - Navire. —Distribution du prix de vente. — Gages et loyers.du
                         Capitaine et de l'équipage; prescription; point de départ. — Qualité de
                         membre de l'équipage; preuve. — Frais d'amélioration y du navire; caractère
@@ -1280,7 +1292,7 @@
                             dommages-intérêts réclamés par l’équipage.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0100">
                     <head>10. - Navire. — Droit de suite, réservé aUx créanciers «du chef du
                         navire»; créance pour courtage à l’occasion de la vente du navire, ne
                         jouissant pas du droit de suite.</head>
@@ -1429,7 +1441,7 @@
                         <p>Qu’il y a lieu par conséquent d’infirmer la -décision attaquée. .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0110">
                     <head>11. - Navire. — Loyers des gens de l'équipage; défaut’ de mention au rôle
                         d'armement et de désarmemen’; perte du privilège légal.</head>
                     <div type="summary">
@@ -1487,7 +1499,7 @@
                             rôle d’équipage compulsé. .</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0120">
                     <head>12. - Navire. — Sauvetage; assistance en haute mer ou dans un port;
                         chalands non destinés à sortir du port; Convention Internationale de
                         Bruxelles de 1909; principes applicables par les Tribunaux égyptiens. —
@@ -1598,7 +1610,7 @@
                             avoisi-..nantes aux mahonnes en feu, puis les autres, i En ce qui
                             concerne ces dernières, il fût aidé</p>
                         <p>■par le remorqueur «Dardanelles»,appartenant ' au susdit intimé, Raïs
-                            Attia. ></p>
+                            Attia. &gt;</p>
                         <p>4. — L’assistance donnée par l’appelant ou par son préposé, le raïs du
                             «Lübeck».— n’exposa peut-être pas ce'bateau à un danger réel malgré la
                             chaleur sahs doute forte qui se ! dégageait des allèges en feu;il est
@@ -1657,7 +1669,7 @@
                         <p>sèment au premier jugement, mais on constate d’autre part que dans
                             celui-ci le Tribunal a longuement développé les motifs qui l’ont ■amené
                             à considérer irrecevable la demande!</p>
-                        <p>de-l'appelant contre la Compagnie d'Entre- ></p>
+                        <p>de-l'appelant contre la Compagnie d'Entre- &gt;</p>
                         <p>■ prises et il aurait pu y statuer par un dispo- ' sitif formel tout dé
                             suite. Le fait par lui de j</p>
                         <p>■n’avoir prononcé l’irrecevabilité que dans Je; • dispositif du jugement
@@ -1741,9 +1753,9 @@
                             aussi, critique que celle créée par l’incendie éclaté, au milieu d’une
                             cargaison de nitrate de soude, la chose réellement importante était
                             l’intervention instantanée de l’appelant.Pour! l’extinction du feu et
-                            surtout pour sa cir-> conscription, le moindre retard peut souvent être
-                            fatal. C’est pourquoi le mérite du remorqueur de l’appelant est sans
-                            doute plus grand que celui du «Dardannelles» intervenu plus; tard
+                            surtout pour sa cir-&gt; conscription, le moindre retard peut souvent
+                            être fatal. C’est pourquoi le mérite du remorqueur de l’appelant est
+                            sans doute plus grand que celui du «Dardannelles» intervenu plus; tard
                             seulement, après que le «Lübeck» avait, déjà éloigné les deux allèges
                             avoisinant .aux. mahonnes en feu. — Il y a lieu de souligner’ à nouveau
                             que le dit remorqueur le jour do’ l’assistance, n’était pas au service
@@ -1777,7 +1789,7 @@
                             charge.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0130">
                     <head>13. - Transport maritime. — Action en délivrance des marchandises;
                         prescription; titre pu obligation nouvelle y faisant obstacle; lettre d’un
                         agent de la Compagnie de Navigation faisant part d'une erreur de
@@ -1818,7 +1830,7 @@
                             n’étant Ique les agents de la dite Compagnie.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0140">
                     <head>14. - Transport maritime. — Agent de l armateur; qualité pour répondre à
                         l'action du chargeur. — Chargement sur le pont; défaut de consentement du
                         chargeur; responsabilité du Capitaine; bon de chargement non signé par
@@ -1888,10 +1900,10 @@
                             et simplement ; l’évaluation faite par les premiers juges.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0150">
                     <head>15. - Transport maritime. — Connais-., sement; clause d'exonération de la
                         res-&lt; ponsabilité du transporteur pour les marchandises débarquées;
-                        marchandises abandonnées sur quai; défaut d'avis àu> destinataire; non
+                        marchandises abandonnées sur quai; défaut d'avis àu&gt; destinataire; non
                         responsabilité de la Compagnie de Navigation. — Banquier détenteur des
                         documents relatifs à un transport maritime; retard dans le retrait ; du bon
                         de livraison; responsabilité. .</head>
@@ -2044,7 +2056,7 @@
                             0/0.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0160">
                     <head>16. - Transport maritime. — Connaissement; clause d'exonération pour
                         baraterie ou négligence; applicabilité aux opérations de débarquement; cas
                         où le transporteur a un agent dans le port où a été commise la faute
@@ -2178,7 +2190,7 @@
                             déclarée irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0170">
                     <head>17. - Transport maritime. — Connaissement; clause d’exonération pour
                         baraterie ou négligence; validité; portée. — Assurance maritime; agent
                         d'assurances; défaut de responsabilité personnelle. —• Retard du chargeur à
@@ -2329,7 +2341,7 @@
                             Navigation qui était indispensable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0180">
                     <head>18. - Transport maritime. — Connaissement; endossement à un banquier;
                         défaut de droit propre du banquier.</head>
                     <div type="summary">
@@ -2410,7 +2422,7 @@
                             que celui-ci...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0190">
                     <head>19. - Transport maritime. — Contrat établi par simple reçu; référence aux
                         clauses d'un connaissement déterminé; validité. — Fins de non recevoir des
                         art. 274 et 275 C. Com. Mar.; connaissement déterminant le délai de
@@ -2458,7 +2470,7 @@
                             suivis.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appèl, Ire Ch., Prés. M. M. Hansson, 11 Mars > 1925. — The
+                        <p>(Cour d’Appèl, Ire Ch., Prés. M. M. Hansson, 11 Mars &gt; 1925. — The
                             Furness Egypt Ltd c. Kereztozoglou &amp; Co.).</p>
                     </div>
                     <div type="observations">
@@ -2566,7 +2578,7 @@
                             montant des dommages alloués à l’intimé.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0200">
                     <head>20. - Transport maritime. — Fins de ; non recevoir des art. 274 et 275 C.
                         Com. Mar.; caractère non d’ordre public; clauses du connaissement en tenant
                         lieu; renonciation tacite par le transporteur. — Connaissement; remise du
@@ -2607,9 +2619,9 @@
                             lors du chargement, c’est à bon droit que le transporteur invoque la
                             clause de non responsabilité figurant au connaissement quant au coulage,
                             la casse et remballage défectueux. ;</p>
-                        <p>VII. - Est responsable du préjudice> subi par le destinataire, l’agent du
-                            navire qui au lieu de partager entre les. différents destinataires de la
-                            même marchandise, au prorata de leurs lots respectifs, la perte subie
+                        <p>VII. - Est responsable du préjudice&gt; subi par le destinataire, l’agent
+                            du navire qui au lieu de partager entre les. différents destinataires de
+                            la même marchandise, au prorata de leurs lots respectifs, la perte subie
                             par la marchandise, ■ a au contraire attribué, sans en donner de
                             justification, presque exclusivement cette perte à l’un seul des
                             destinataires.</p>
@@ -2752,7 +2764,7 @@
                             ce point aux conclusions de l’appelante en la fixant à 500 dollars.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0210">
                     <head>21. - Transport maritime. — Fins de non recevoir des art. 274 et 275 C.
                         Com. Mar.; faculté de les soulever en degré d'appel; cours des délais;
                         renonciation tacite; correspondance tardive; inexistence de
@@ -2819,7 +2831,7 @@
                             par la loi.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0220">
                     <head>22. - Transport maritime. — Fins de non recevoir des art. 274 et 275
                         C.C.Mar.; pourparlers; expertise judiciaire; cas où la déchéance est
                         définitivement acquise.</head>
@@ -2845,7 +2857,7 @@
                             di Borna), Gaz., XIV, 260-400.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0230">
                     <head>23. - Transport maritime. — Manquant; énonciations du connaissement;
                         preuve contraire à charge du Capitaine. — Clauses d'exonération de
                         responsabilité; «négligence clause»; inapplicabilité en cas de charte-partie
@@ -2907,7 +2919,7 @@
                             Mixtes No. 168, p. 257).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0240">
                     <head>24. - Vente commerciale. — Clause d'emballage en doubles sacs d’origine;
                         portée. — Retard dans l’embarquement; calcul; effets; mise en demeure
                         nécessaire; déchéance de l’acheteur pour réception de la marchandise. —-
@@ -2971,7 +2983,7 @@
                             Sachs-Laniado, s’ap dressa à Sachs en demandant le nom du bateau sur;
                             lequel serait chargé le sucré litigieux; que par lettre du 17 Septembre
                             Sachs, sur renseignements donnés par la Sociétés d’Avances, répondit que
-                            . la mai> chandise voyageait sur le «Half Moon»;</p>
+                            . la mai&gt; chandise voyageait sur le «Half Moon»;</p>
                         <p>Que par lettre du 20 Septembre Ja Société d’Avances avisa Sachs que le
                             sucre avait été chargé sur le «Singapore Maru» et non pas sur le «Half
                             Moon», que d’après ce qu'il paraît Halifa Sachs n’avisa pas Chatila du
@@ -3095,7 +3107,7 @@
                             frais à sa propre charge. - ■</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0250">
                     <head>25. - Vente commerciale. — Commande faite pendant la guerre; clause «war
                         conditions:»; effets; réquisition par le Gouvernement; retards dans la
                         livraison; inexécution; fait du principe; mise en demeure inopérante; non
@@ -3295,7 +3307,7 @@
                             des deux parties, comme il a été déjà dd.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0260">
                     <head>26. - Vente commerciale. — Commissionnaire; clause ((sauf approbation de
                         la fabrique»; défaut de mention du nom du fabricant; indication ultérieure
                         du nom de la fabrique; inopérance. — Paiement du prix à terme ou au
@@ -3369,21 +3381,23 @@
                             de livrer la marcham dise...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0270">
                     <head>27. - Vente commerciale. — Connaissement; preuve de la date du chargement.
                         — Vendeur; obligation d'embarquer la marchandise dans un delai fixé;
                         chargement normal; retard dans le départ du navire; non responsabilité du
                         vendeur, sauf faute de sa part; preuve à charge de l'acheteur. — </head>
-                    <div type="summary"> <p>I. - Le
-                        connaissement fait foi aussi bien de son contenu que de sa date jusqu’à la
-                        preuve contraire, preuve incombant à celui qui conteste la sincérité des
-                        mentions du connaissement. — II. - Le vendeur qui s’est engagé à embarquer
-                        la marchandise dans un délai fixé a satisfait à son obligation s’il a chargé
-                        avant l’expiration du délai sur un navire devant quitter le port sans autre
-                        retard que celui nécessité par un chargement normal. Et si un plus grand
-                        retard se produit, le vendeur n’en est pas responsable ' à moins que
-                        l’acheteur ne prouve une faute à sa charge, y compris le fait que le vendeur
-                        ait pu prévoir le retard avant le chargement.</p></div>
+                    <div type="summary">
+                        <p>I. - Le connaissement fait foi aussi bien de son contenu que de sa date
+                            jusqu’à la preuve contraire, preuve incombant à celui qui conteste la
+                            sincérité des mentions du connaissement. — II. - Le vendeur qui s’est
+                            engagé à embarquer la marchandise dans un délai fixé a satisfait à son
+                            obligation s’il a chargé avant l’expiration du délai sur un navire
+                            devant quitter le port sans autre retard que celui nécessité par un
+                            chargement normal. Et si un plus grand retard se produit, le vendeur
+                            n’en est pas responsable ' à moins que l’acheteur ne prouve une faute à
+                            sa charge, y compris le fait que le vendeur ait pu prévoir le retard
+                            avant le chargement.</p>
+                    </div>
                     <div type="litigants">
                         <p>(Cour d’Appel, Ire Ch., Prés. M. M. Hansson, 25 Mars 1£25. — Abdel Rahman
                             Samakieh &amp; Fils c. N. A. Caralis).</p>
@@ -3444,7 +3458,7 @@
                             par conséquent inutile de répéter.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0280">
                     <head>28. - Vente commerciale. — Connaissement; preuve de la quantité du
                         chargement. — Contestation basée sur un vice d'emballage, soulevée en degré
                         d'appel; demande nouvelle; tardivité.</head>
@@ -3518,7 +3532,7 @@
                             irrecevanle pour tardivité...</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0290">
                     <head>29. - Vente commerciale. — Contrat ayant fait l'objet de cessions
                         successives; stipulation de solidarité entre les acheteurs successifs; droit
                         du premier acheteur qui a retiré la marchandise et payé le prix.</head>
@@ -3536,7 +3550,7 @@
                             &amp; Co. c. Mohamed Hassan El Chamî. &amp; Frères et Cts.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0300">
                     <head>30. - Vente commerciale. — Contrat. ayant fait l'objet de cessions
                         successives; stipulation de subrogation du sous-acquéreur dans les droits de
                         son vendeur contre le vendeur originaire; portée juridique. — Vente cif;
@@ -3655,8 +3669,8 @@
                             Sieurs L. P. Loisidis &amp; ! Co. dont Jean Poulakis a pris la suite) ne
                             ’ sont tenus qu’à subroger l’acheteur dans</p>
                         <p>■ leurs droits contre les vendeurs originaires» ’ rend irrecevable tout
-                            recours de S.A. Wis-> nom à l’encontre de son vendeur direct, il y ; a à
-                            relever qu’il est constant des 2 rapports ’ d’experts de l’agent du
+                            recours de S.A. Wis-&gt; nom à l’encontre de son vendeur direct, il y ;
+                            a à relever qu’il est constant des 2 rapports ’ d’experts de l’agent du
                             Lloyd à Kobé pro-! doits par Suzuki &amp; Co. que la farine vendue ; par
                             lui à L.P. Loisidis &amp; Co., expédiée sur ’ le navire «West Campgen»
                             et livrée par ces ! derniers à leurs acheteurs de Port-Saïd,Cons-;
@@ -3752,7 +3766,7 @@
                             Whittall &amp; Co. pur S. A. Wisnom irrecevable.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0310">
                     <head>31. - Vente commerciale. — Défaut de qualité; refus de réception;
                         constatations à charge de Vacheteur; preuve; denrées périssables ou sujettes
                         à fluctuations;actes de disposition par le vendeur. — Mise en demeure;
@@ -3897,7 +3911,7 @@
                             dire qu’elle soit revêtue de caractère vexatoire. '</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0320">
                     <head>32. - Vente commerciale. — Livraison; ■ délai; retard; mise en demeure
                         inutile.</head>
                     <div type="summary">
@@ -3919,7 +3933,7 @@
                             c. Papadakis Sons &amp; Co.).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0330">
                     <head>33. .- Vente commerciale. — Livraison; délai; retard; résiliation.
                         -</head>
                     <div type="summary">
@@ -4003,7 +4017,7 @@
                             la marchandise «Castor» si elle venait à lui être expédiée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0340">
                     <head>34. - Vente commerciale. — Non conformité de la marchandise avec la
                         commande; demande de résolution apres livraison; délai de huitaine;
                         déchéance.</head>
@@ -4063,7 +4077,7 @@
                             reconventionnelle.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0350">
                     <head>35. - Vente commerciale. — Vendeur; obligation d'expédier la marchandise
                         dans un délai fixé; chargement normal; retard dans le départ du navire; non
                         responsabilité du vendeur sans faute de sa part; défaut d'avis à l'acheteur;
@@ -4216,7 +4230,7 @@
                             quelconque au dit acheteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0360">
                     <head>36. - Vente commerciale. — Vente «cif»; dommages provenant d'un défaut
                         antérieur au voyage; vice d'emballage; responsabilité du vendeur; réception
                         sans réserves; réexpédition de la marchandise; constatations tardives; perte
@@ -4252,9 +4266,9 @@
                             à statuer sur la , demande en validité de la saisie-arrêt que à Negrin
                             &amp; Co. avait pratiquée jà Alexandrie en-i tre ses mains et entre les
                             mains de la Ban-} que Belge pour l’Etranger; ■■</p>
-                        <p>Vu l’appel signifié à la requête de la Rai-> son Sociale Negrin &amp; Co.
-                            les 12 et 13 Juin j 1923 et l’appel signifié le 30 Juin 1923 par F. ,
-                            Mathieu;</p>
+                        <p>Vu l’appel signifié à la requête de la Rai-&gt; son Sociale Negrin &amp;
+                            Co. les 12 et 13 Juin j 1923 et l’appel signifié le 30 Juin 1923 par F.
+                            , Mathieu;</p>
                         <p>; Vu les pièces;</p>
                         <p>| En fait:</p>
                         <p>j Attendu que F. Mathieu d’Anvers vendit à ! Negrin &amp; Co. cif
@@ -4404,7 +4418,7 @@
                             preuve impossible.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0370">
                     <head>37. - Vente commerciale,— Vente «cif»; stipulation de livraison par
                         .remise d'un bon sur un entrepôt; spécialisation de la marchandise
                         impossible; dérogation aux règles ordinaires.</head>
@@ -4493,7 +4507,7 @@
                             (Marseille, 4 Août 1898,-Autran XII, 502).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0380">
                     <head>38. - Vente commerciale. -- Vente de marchandises au compte; réception au
                         moyen de bons sur un tiers; identification; manquant; art. 307 C. Civ.;
                         inapplicabilité; conséquences.</head>
@@ -4510,8 +4524,8 @@
                             manqué.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Cour d’Appel,' Ire Ch., Prés. M. SE Hansson, 3 Décem> bre 1924. —
-                            Mohamed Chita &amp; Co. c. Mohamed El Sayed El Béhéri). ></p>
+                        <p>(Cour d’Appel,' Ire Ch., Prés. M. SE Hansson, 3 Décem&gt; bre 1924. —
+                            Mohamed Chita &amp; Co. c. Mohamed El Sayed El Béhéri). &gt;</p>
                     </div>
                     <div type="observations">
                         <p>Note. — L’arrêt expose:</p>
@@ -4568,14 +4582,14 @@
                             bons émanant des Autorités Militaires et qu’ils les ont laissées
                             identifiées entre les mains de ces dernières, à leurs propres risques et
                             périls. Et ce résultat s’impose d’autant plus qu’il n’est pas mis au
-                            clair si le voleur s’est servi d’un bon de livraison faux ou s’il a pu >
-                            mettre sa main sur l’un des bons des appelants qui, dans ce cas auraient
-                            commis une imprudence dont ils devaient seuls supporter les
+                            clair si le voleur s’est servi d’un bon de livraison faux ou s’il a pu
+                            &gt; mettre sa main sur l’un des bons des appelants qui, dans ce cas
+                            auraient commis une imprudence dont ils devaient seuls supporter les
                             conséquences, à supposer même que la marchandise fût au risque des
                             vendeurs au moment du vol.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0390">
                     <head>39. - Vente commerciale. — Vente de marchandises «in généré»; stipulation
                         de paiement au comptant contre remise d'un ordre de livraison; droits du
                         vendeur; constatations préalables; inadmissibilité; résiliation aux torts de
@@ -4704,7 +4718,7 @@
                             bénéfices et qui doivent leur rester définitivement acquises.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0400">
                     <head>40. - Vente commerciale. — Vente sur embarquement; obligation du vendeur;
                         défaut de justification de la date de l'embarquement; résiliation aux torts
                         du vendeur. -</head>
@@ -4779,7 +4793,7 @@
                             place.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0410">
                     <head>41. - Vente commerciale. — Vice caché; défaut de fabrication; action
                         rédhibitoire; délai de huitaine; forclusion. — Pourparlers suspendant les
                         effets de la déchéance. - </head>
@@ -4880,7 +4894,7 @@
                             marchandise il avait prélevé des échantillons qu’il avait essayés.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1925-11-0420">
                     <head>42. - Vente commerciale. — Vice caché; défaut de qualité apparent.</head>
                     <div type="summary">
                         <p>S’agissant de non conformité de la marchandise livrée avec la marchandise

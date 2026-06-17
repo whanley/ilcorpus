@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0004-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0004-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1913-11-10">November 10, 1913</date><lb/>
-                    <biblScope unit="volume">Vol. 4</biblScope><lb/>
-                    <biblScope unit="number">No. 37</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1913-11-10">November 10, 1913</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 4</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 37</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -622,7 +633,7 @@
                     viable en fait. Aussi l’auteur suggére-t-il aux juristes, non sans quelque
                     ironie,; de l’admettre comme légal « pour donner, dit-il, au public, l’im-«
                     pression de ne pas transiger sur le droit ».</p>
-                <p>> Raoul Pangalo</p>
+                <p>&gt; Raoul Pangalo</p>
                 <p>Nous publierons dans potre prochain numéro une étude sur un sujet qui présente
                     souvent un très grand intérêt devant nos Tribunaux;</p>
                 <p>De la Dévolution Héréditaire</p>
@@ -681,7 +692,7 @@
             <pb n="8" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0010">
                     <head>1. - Acte d’ouverture de crédit.— Exécution. — Commandement. — Créance
                         certaine et liquide. — Référé.</head>
                     <div type="summary">
@@ -719,7 +730,7 @@
                             des précédents » (Voir notes au bas des arrêts précités).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0020">
                     <head>2. - Adjudicataire. — Dispense de dépôt du prix. — Juge délégué aux
                         adjudications siégeant en Référé. — Compétence.</head>
                     <div type="summary">
@@ -734,7 +745,7 @@
                             1913. — Emile Joseph Hassoun c. Deutche Orient Bank et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0030">
                     <head>3. - Adjudicataire. — Eviction. — Cahiei des charges. — Clause de
                         non-garantie. — Restitution du prix. — Répétition de l’indu. — Créanciers
                         colloqués. — Action personnelle. — Compétence sommaire.</head>
@@ -794,7 +805,7 @@
                             deve proporre la sua azione..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0040">
                     <head>4. - Appel. — Recevabilité. — Opposition à commandement.</head>
                     <div type="summary">
                         <p>Le fait qu’une opposition a été formée contre un commandement immobilier
@@ -807,7 +818,7 @@
                             Bassiouni El Hamadi c. G. Stagnîe figli)..</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0050">
                     <head>5 - Cahier des charges. — Adjudicataire. — Erreur dans la contenance. —
                         Poursuivant. — Subrogation.</head>
                     <div type="summary">
@@ -833,7 +844,7 @@
                         <p>V. ég. ci-haut § 3.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0060">
                     <head>6. - Cession. — Contrats entre indigènes. — Bail. — Clause à ordre. —
                         Endossement. — Obligations Civiles.</head>
                     <div type="summary">
@@ -882,7 +893,7 @@
                             forma del titolo all’ordine per eccellenza.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0070">
                     <head>7. - Citation. — Validité. — Date de l’audience. — Mentions portées en
                         marge en langue arabe.</head>
                     <div type="summary">
@@ -899,7 +910,7 @@
                             d’Egypte).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0080">
                     <head>8. - Contrats synallagmatiques. — Connaissement. — Note de chargement. —
                         Transporteur.</head>
                     <div type="summary">
@@ -914,7 +925,7 @@
                             Caramaounas c. Khédivial Alail et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0090">
                     <head>9 - Contravention. — Citation. — Absence de mentions substantielles.—
                         Omission du nom de la personne injuriée. — Nullité.</head>
                     <div type="summary">
@@ -969,7 +980,7 @@
                         <p>Que ce motif suffit ‘pour annuler la citation donnée sur ce chef.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0100">
                     <head>10. - Dénégation de signature. — Billet à ordre. — Protêt. — Acte sous
                         seing-privé. — Acte authentique. — Reconnaissance de la dette.</head>
                     <div type="summary">
@@ -987,7 +998,7 @@
                             Luchedina c. Abbas Helmi Zeid).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0110">
                     <head>11. - Dépens. — Liquidation. — Taxe. — Honoraires taxés. — Commandement. —
                         Nullité. i</head>
                     <div type="summary">
@@ -1017,7 +1028,7 @@
                             matière de frais, qu’une formalité inutile et purement onéreuse.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0120">
                     <head>12. - Difficultés d’exécution. — Jugement Indigène. — Référé. — Tribunal
                         Sommaire. — Compétence. — Revendication.</head>
                     <div type="summary">
@@ -1034,7 +1045,7 @@
                             Chenouda c. Yanni Macroyanni et N. Nicolaïdis).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0130">
                     <head>13. - Droit Incorporel. — Vente de la dénomination d’un établissement
                         d'instruction et de ses accessioires.</head>
                     <div type="summary">
@@ -1043,8 +1054,8 @@
                             être saisi et vendu en vertu de l’art. 530 C. Civ.</p>
                     </div>
                     <div type="litigants">
-                        <p>(Ord. Refér. Caire. Prés. M. Giraud. 1 Octobre 1913. — Abdalla bey
-                            Talaat c. Galanos et Cts).</p>
+                        <p>(Ord. Refér. Caire. Prés. M. Giraud. 1 Octobre 1913. — Abdalla bey Talaat
+                            c. Galanos et Cts).</p>
                     </div>
                     <div type="observations">
                         <p>Note. — La question s’est posée de savoir si la loi mixte autorise la
@@ -1101,7 +1112,7 @@
                             donner les mêmes garanties que son locataire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0140">
                     <head>14. - Exécution provisoire. — Choix (le la caution. — Dépôt à la Caisse. —
                         Commandement itératif.</head>
                     <div type="summary">
@@ -1118,7 +1129,7 @@
                             Bank of Egypt c. Amin el Aly Mohamed Ayoub).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0150">
                     <head>15 - Opposition. — Action récursoire. — Compétence mixte. — Signification
                         de conclusions.</head>
                     <div type="summary">
@@ -1137,7 +1148,7 @@
                             Menoufi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0160">
                     <head>16. - Preuve testimoniale. — Billet à ordre. — Libération.</head>
                     <div type="summary">
                         <p>Lorsqu’il est stipulé que la libération d’un billet à ordre ne pourra
@@ -1151,7 +1162,7 @@
                             Mohamed El Kadi).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0170">
                     <head>17. - Référé. — Compétence. — Rang des privilèges. — Bailleur. — Frais de
                         conservation.</head>
                     <div type="summary">
@@ -1171,7 +1182,7 @@
                             Administration des Wakfs c. Oalanos, Mouelhi et Cts).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0180">
                     <head>18. - Référé. — Compétence. — Saisie-arrêt. — Nullité. — Défense
                         vexatoire. — Dommages-intérêts.</head>
                     <div type="summary">
@@ -1192,7 +1203,7 @@
                             rapportée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0190">
                     <head>19 - Référé. — Difficultés d’exécution d’un jugement pénal. —
                         Interprétation. — Responsabilité civile du gouvernement du chef de ses
                         agents.</head>
@@ -1270,7 +1281,7 @@
                             l’arrêt ?</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0200">
                     <head>20. - Réintégrande. — Voie de fait. — Dépossession par voie
                         d’huissier.</head>
                     <div type="summary">
@@ -1290,7 +1301,7 @@
                             jugement rapporté.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0210">
                     <head>21. - Revendication en cours d’expropriation. — Délai d’appel. — Procédure
                         de saisie-immobilière. — Commandement.</head>
                     <div type="summary">
@@ -1404,7 +1415,7 @@
                             aucune saisie n’a eu lieu ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0220">
                     <head>22. - Séquestre. — Adjudicataire en retard. — Créanciers inscrits. —
                         Fruits.</head>
                     <div type="summary">
@@ -1427,7 +1438,7 @@
                             accessoires de l’immeuble, sollicitent sa « mise sous séquestre ».</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0230">
                     <head>23. - Séquestre judiciaire. — Remplacement. — Inscription au Tableau. —;
                         Cautionnement.</head>
                     <div type="summary">
@@ -1441,7 +1452,7 @@
                             c. Jean Furnari et autres).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1913-11-0240">
                     <head>24. - Tierce Opposition. — Référé. — Irrecevabilité. — Tiers. — Difficulté
                         d'exécution.</head>
                     <div type="summary">
@@ -2011,7 +2022,7 @@
                 <p>Moussa Lévi (Syndic Anis Doss). Cont. vér. cr. le 17.11.13.</p>
                 <p>Yassa Soliman et Wissa Soliman (Syndic Demanget). Cont. vér. cr. le 17.11.13.</p>
                 <p>G. Gazarian (Syndic Anis Doss). Cont. vér. cr. le 17.11.13.</p>
-                <p>Hassan bey Bakri >Synd. Barocas). Contin. vérif. créanc. et conc. le
+                <p>Hassan bey Bakri &gt;Synd. Barocas). Contin. vérif. créanc. et conc. le
                     17.11.913.</p>
                 <p>Agaïbi Yacoub Saad (Syndic Anis Doss). Contin. vérif. créanc. et conc. le
                     17.11.913.</p>
@@ -2105,7 +2116,7 @@
                 <p>II. Willaume et Cie. Rapp. de l’exp. dél. Piromaiy du 15.10.13. L’acte de soc.
                     encommand. remonte au 10.10.11 au cap. de L. Eg. 1C00, ayant pour objet des
                     travaux d’ameublement. Comptabilité pas très régulière mais suffisante
-                    p>'permettre d’établir la situation. Elle se présente actuellement ainsi'.
+                    p&gt;'permettre d’établir la situation. Elle se présente actuellement ainsi'.
                     Actif: P.T. 67.081 dont P.T. 16.092 en mobil. et install. P.T. 33.725 en mardi.
                     P.T. 17.248 en débit, divers. P.T. 15 en caisse. Passif: P.T. 157.301 d’où il
                     résulte une perte de P.T. 90.219. La réalisation forcée de l’actif réduirait au
@@ -2129,7 +2140,7 @@
                 <p>, A, Malatesta syndic. Juge Comm. M. Fournier, , Juge délégué à Port-Said. Cess.
                     p. le 12.3.13. i Nomin. syndic déf. au 14.11.13.</p>
                 <p>FAILLITES CLÔTURÉES</p>
-                <p>El Bassiouni Mohamed Emara, nég., sujet > local, dem.à
+                <p>El Bassiouni Mohamed Emara, nég., sujet &gt; local, dem.à
                     BourgNourElHommosiM.Tadeos, ' syndic), hom. conc. le 16.10.13. 25 % en 4
                     termes</p>
                 <p>1 sein, égaux à partir de l’hom. et avec la garantie</p>

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +9,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-04-07">April 7, 2026</date></edition>
+                <edition>
+                    <date when="2026-04-07">April 7, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,15 +19,22 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimiles:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63274-0012-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>Gazette des Tribunaux Mixtes</title><lb/>
-                    <date when="1922-01-10">January 10, 1922</date><lb/>
-                    <biblScope unit="volume">Vol. 12</biblScope><lb/>
-                    <biblScope unit="number">No. 135</biblScope><lb/>
-                    <extent><measure unit="pages">0</measure>pages</extent>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
+                    <title>Gazette des Tribunaux Mixtes</title>
+                    <lb/>
+                    <date when="1922-01-10">January 10, 1922</date>
+                    <lb/>
+                    <biblScope unit="volume">Vol. 12</biblScope>
+                    <lb/>
+                    <biblScope unit="number">No. 135</biblScope>
+                    <lb/>
+                    <extent>
+                        <measure unit="pages">0</measure>pages</extent>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -384,7 +395,7 @@
             </div>
             <div type="section" feature="jurisprudence">
                 <head>JURISPRUDENCE</head>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0010">
                     <head>55. - Chemins de fer. — Question de responsabilité en matière de
                         transport. — Demande non indéterminée. — Compétence; taux. — Tribunal de
                         Justice Sommaire Transporteur.—Tarif des chemins de fer; défaut
@@ -522,7 +533,7 @@
                             devenus ses sous-fermiers et ses débiteurs directs; que s’agissant donc
                             au préalable d’apprécier la qualité et le titre de Judenne, le Juge de
                             Paix était évidemment incompétent tant sur la demande principale que sur
-                            les autres. > 1</p>
+                            les autres. &gt; 1</p>
                         <p>Pourvoi de Berny : arrêt :</p>
                         <p>«La Cour: Vu l’art. 9 tit. 3 de la loi24 Août 1790;</p>
                         <p>« Attendu que cette loi attribuait aux Juges de Paix le droit de statuer
@@ -784,7 +795,7 @@
                             pour suffisante et libératoire.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0020">
                     <head>56. — Chemins de Fer. — Responsabilité en matière de transport. — Clause
                         limitative; application aux seuls risques ordinaires du transport. — Force
                         majeure; preuve à charge de l’Aministration. — Vol — Perte totale. — Etendue
@@ -915,7 +926,7 @@
                             manqué.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0030">
                     <head>57. — Chemins de Fer. - Responsabilité en matière de transport. — Clause
                         limitative ; non application au cas de vol ; charge de la preuve du cas
                         fortuit ; présomption à charge du transporteur. — Effraction de wagons
@@ -1136,7 +1147,7 @@
                             marchandises à elle confiées.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0040">
                     <head>58. - Concordat préventif. — Gage commercial. — Réalisation par ordonnance
                         du Juge de Service. — Référé.</head>
                     <div type="summary">
@@ -1315,7 +1326,7 @@
                             cette question.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0050">
                     <head>59. - Expropriation.— Irrecevabilité d’une demande de séquestre avant la
                         saisie-immobilière. — Tiers détenteur.</head>
                     <div type="summary">
@@ -1366,7 +1377,7 @@
                             favorable pour le tiers détenteur.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0060">
                     <head>60. - Exequatur. — Jugement rendu en France.- Réciprocité admise en
                         Egypte. — Inadmissibilité de l’exéquatur pour un jugement étranger
                         exécutoire par provision, mais frappé d’appel.</head>
@@ -1413,7 +1424,7 @@
                             comme prématurée.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0070">
                     <head>61. - Exequatur. — Jugements rendus en Angleterre. — Réciprocité admise en
                         Egypte.—Absence de révision du fond par les Tribunaux Mixtes. — Formes des
                         extraits de jugements étrangers à produire en Egypte. - Condamnation aux
@@ -1594,7 +1605,7 @@
                     </div>
                 </div>
                 <pb n="42" rendition="GAZETTE DES TRIBUNAUX MIXTES D’ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0080">
                     <head>62. - Faillite. — Représentation de la masse par le
                         syndic.—Tierce-opposition des créanciers-, irrecevabilité. — Opposition des
                         tiers au jugement déclaratif.—Publications du jugement déclaratif; lieux où
@@ -1722,7 +1733,7 @@
                             dès cette date.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0090">
                     <head>63. - Hekr. — Prescription inapplicable. — Péremption de l’action du Wakf
                         par 33 ans. — Juridiction mixte.—Application des règles du droit musulman en
                         matière de Wakf. -</head>
@@ -1786,7 +1797,7 @@
                     </div>
                 </div>
                 <pb n="43" rendition="GAZETTE DES TRIBUNAUX MIXTES L)'ÉGYPTE"/>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0100">
                     <head>64. — Jugement étranger. — Déclaration judiciaire de décès d’un étranger.
                         — Incompétence de la juridiction Mixte pour apprécier le mérite en droit de
                         la décision rendue en matière de statut personnel d’un étranger. — Allemand.
@@ -1866,7 +1877,7 @@
                             mois après sa mort survenue sur un champ de bataille.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0110">
                     <head>65. — Jugement interlocutoire. — Portée de la règle que l’interlocutoire
                         ne lie pas le juge. — Appel incident ; n’est pas recevable contre un
                         jugement interlocutoire non frappé d’appel principal.</head>
@@ -1926,7 +1937,7 @@
                             considérations.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0120">
                     <head>66. — Juridiction Mixte. — Compétence exclusive pour l’adjudication de
                         biens grevés d’une inscription au profit d'un étranger. — Adjudication
                         prononcée par le Tribunal Mixte. — Jugement indigène annulant les droits du
@@ -1991,7 +2002,7 @@
                             transcrit.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0130">
                     <head>67. — Jugement. — Signification ; conditions; qualités: — Appel. —
                         Délais.</head>
                     <div type="summary">
@@ -2030,7 +2041,7 @@
                             fait et de droit contestés entre parties.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0140">
                     <head>68. — Louage de services. — Renvoi intempestif. — Indemnité ; mode de
                         calcul.</head>
                     <div type="summary">
@@ -2049,7 +2060,7 @@
                             Rilama Bull. XXX, 71).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0150">
                     <head>69. — Mesures d’instruction. — Délai. — Déchéance. — Demande de
                         prorogation ; procédure à suivre. — Dénégation de signature. —
                         Vérification.</head>
@@ -2126,7 +2137,7 @@
                             de la déchéance encourue.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0160">
                     <head>70. - Paiements. — Imputation. — ’ Cas où le débiteur ne peut point
                         modifier après coup l’imputation originairemeiit faite. —Inapplicabilité, en
                         droit mixte, du principe du droit fiançais prévoyant l’imputation sur la
@@ -2200,7 +2211,7 @@
                             légales édictées par la loi, d’en créer d’autres.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0170">
                     <head>71. - Prescription acquisitive quinquennale. — Juste titre. — Jugement
                         d’adjudication nul pour défaut de sommation au tiers-détenteur.</head>
                     <div type="summary">
@@ -2225,7 +2236,7 @@
                             de base à la prescription acquisitive.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0180">
                     <head>72. - Prêt. — Clause d’indemnité de remploi; caractère licite même en cas
                         de remboursement après échéance, — Stipulation rendant obligatoire le
                         paiement intégral d’une période d’intérêts en cours au moment du règlement
@@ -2313,7 +2324,7 @@
                             semestre en cours serait dû en entier.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0190">
                     <head>73. - Référé. — Incompétence pour ordonner le paiement nonobstant une
                         saisie faite contre un autre que le propriétaire des fonds déposés ou en
                         vertu d’un titre annulé.</head>
@@ -2340,7 +2351,7 @@
                             citée dans cette décision.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0200">
                     <head>74. - Revendication mobilière. — Charge de la preuve.—Revendication entre
                         époux.—Juridiction mixte; application de la loi nationale des parties. —
                         Hellènes. — Dogme Mucien.</head>
@@ -2466,7 +2477,7 @@
                             acquisitions.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0210">
                     <head>75. — Subrogation légale. — Opposabilité aux tiers sans aucune formalité.
                         Droits réels; hypothèque-, prescription libératoire de quinze ans seule
                         applicable. — Prescription acquisitive quinquennale. — Tiers
@@ -2643,7 +2654,7 @@
                             Kachaba.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0220">
                     <head>76. — Sucre. — Droit d’accise. — Décret du 26 Septembre 1919. — Draw-back
                         ; non remboursement du droit d’accise pour le sucre fabriqué en Egypte et
                         exporté à l’étranger sous forme de confiseries. — Droit de 1 % perçu à
@@ -2840,7 +2851,7 @@
                             consorts.</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0230">
                     <head>77. — Transports maritimes. — Loi du pavillon : cas d’application. —
                         Charte-partie. — Clause du connaissement stipulant que le fret payé d’avance
                         est toujours acquis ; validité ; portée. — Force majeure ; pouvoir
@@ -2865,7 +2876,7 @@
                             East Asiatic Cy. c. Van den Breghs Ltd. et autre).</p>
                     </div>
                 </div>
-                <div type="case">
+                <div type="case" xml:id="gtme-1922-01-0240">
                     <head>78. — Vente commerciale. — Livraison; délai non fixé ; retard indéfini
                         justifié par l’impossibilité de se procurer la matière première.</head>
                     <div type="summary">
