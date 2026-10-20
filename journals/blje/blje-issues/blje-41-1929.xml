@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?> <?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +7,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-03-10">March 10, 2026</date></edition>
+                <edition>
+                    <date when="2026-03-10">March 10, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,14 +17,19 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimile:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63487-0012-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63487-0012-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
                     <title>Bulletin de législation et de jurisprudence égyptiennes = Bollettino di
-                        legislazione egiziana</title><date when="1900-01-01">1900</date><biblScope
-                        unit="volume">12</biblScope><extent><measure unit="pages" quantity="0"
-                            >0</measure>pages</extent></bibl>
+                        legislazione egiziana</title>
+                    <date when="1900-01-01">1900</date>
+                    <biblScope unit="volume">12</biblScope>
+                    <extent>
+                        <measure unit="pages" quantity="0">0</measure>pages</extent>
+                </bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -141,7 +148,7 @@
                     <p>Règlement d'Organisation Judiciaire Mixte R. O. J.</p>
                     <p>Statut personnel et successions_________ S. P.</p>
                     <p>Table Décennale du Bulletin (1888-1898). T. D. I.</p>
-                    <p>» » > . »- (1898-1908). T. D. II.</p>
+                    <p>» » &gt; . »- (1898-1908). T. D. II.</p>
                     <p>» » » » (1908-1918). T. D. III.</p>
                     <p>Bulletin -..................___________ Bull.</p>
                     <p>Gazette des Tribunaux Mixtes.......... Gaz. </p>
@@ -658,7 +665,7 @@
                         cédé ou délivré, à quelque titre que ce soit, des substances stupéfiantes
                         sans ordonnance médicale, en dehors du cas prévu à l'alinéa 2 de l'article
                         10 de la présente loi, ou carte-permis ou en quantités supérieures à celles
-                        autorisées par la présente loi ou indiquées dans la carteq>ermis.</p>
+                        autorisées par la présente loi ou indiquées dans la carteq&gt;ermis.</p>
                     <p>3° Toute personne autorisée au commerce des substances stupéfiantes qui aura
                         contrevenu aux dispositions de l'article 30, alinéa 1, de la présente
                         loi.</p>
@@ -834,7 +841,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-1-10">
                         <head>24 octobre 1928. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Intimé ; conclusions aux fins de confirmation; exception
@@ -900,7 +907,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-1-20">
                         <head>24 octobre 1928. — Prés, Favenc.</head>
                         <div type="summary">
                             <p>Exploit d'appel ; intimé ; magasin fermé ; signification au
@@ -931,8 +938,8 @@
                             <p>Vu l'exploit d'avenir du 12 juillet 1928;</p>
                             <p>Attendu qu'il résulte' des deux exploits susmentionnés que les
                                 huissiers instrumentants, ayant trouvé le magasin de l'intimé fermé,
-                                ont glissé sous la porte l'avis usuel et ont signifié le> dits actes
-                                au .gouvernorat;</p>
+                                ont glissé sous la porte l'avis usuel et ont signifié le&gt; dits
+                                actes au .gouvernorat;</p>
                             <p>Que sans doute, la signification au gouvernorat est autorisée par
                                 l'art. 9 C. Pr. lorsque l'huissier ne trouve au domicile de la
                                 partie ni cette dernière, ni un domestique, ni un parent habitant
@@ -954,7 +961,7 @@
                                 que l'exploit d'avenir du 12 juillet de la même année.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-1-30">
                         <head>25 octobre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Saisie immobilière ; subrogation aux poursuites ; inadmissibilité;
@@ -1043,7 +1050,7 @@
                             <p>Par ces motifs: infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-1-40">
                         <head>25 octobre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Droit d'appel ; cas. — Il Taxe; opposition; défaut d'offre reelle
@@ -1119,7 +1126,7 @@
                                 •parties les honoraires de l'instance en appel.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-1-50">
                         <head>. 25 octobre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. - Propriété ; défaut de titre ; prétendue irrecevabilité de
@@ -1227,7 +1234,7 @@
                             <p>Par ces motifs: confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-1-60">
                         <head>3 novembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Etranger; contrat passé en Egypte; Tribunaux mixtes; compétence;
@@ -1315,7 +1322,7 @@
                                 l'Administration des chemins de fer ne pouvant, pas plus que ne le
                                 peut un voiturier quelconque, s'exonérer du dommage occasionné par
                                 sa faute lourde;</p>
-                            <note place="bottom"> (■>) Arrêt 19 avril 1923 {Bull., XXXV, 387). </note>
+                            <note place="bottom"> (■&gt;) Arrêt 19 avril 1923 {Bull., XXXV, 387). </note>
                             <pb n="18"/>
                             <p>Qu'il est du reste exact que la faute lourde doit être prouvée par
                                 l'expéditeur et que celui-ci ne saurait se borner à faire des
@@ -1393,7 +1400,7 @@
                                 solidaire de l'Administration des chemins de fer égyptiens....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-1-70">
                         <head>6 novembre 1928. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Louage ; chose louée ; jouissance impossible ; constatation. — II-
@@ -1502,7 +1509,7 @@
                             <p>.. Par ces motifs: réforme en partie et confirme pour le surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-1-80">
                         <head>7 novembre 1928. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Difficulté d'exécution ; juge des référés saisi ; compétence; cas.
@@ -1605,7 +1612,7 @@
                         </div>
                     </div>
                     <pb n="22"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-1-90">
                         <head>7 novembre 1928. — l'rés.'FAVENC.</head>
                         <div type="summary">
                             <p>I. Appel sur la compétence ; paiements postérieurs ; renonciation
@@ -1683,7 +1690,7 @@
                         </div>
                     </div>
                     <pb n="23"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-1-100">
                         <head>7 novembre 1928. — Prés. Favexc.</head>
                         <div type="summary">
                             <p>I. Appel; délai; point de départ; cas. — U- Saisie immobilière ;
@@ -1752,7 +1759,7 @@
                             <p>Par ces motifs: confirme. ;</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-1-110">
                         <head>7 novembre 1928 — Prés. Favexc.</head>
                         <div type="summary">
                             <p>I. Effets de commerce ; prescription quinquennale ; inapplicabilité;
@@ -1971,7 +1978,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>cour.d'appel mixte</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-10">
                         <head>7 novembre 1928. — Prés. I'avknc.</head>
                         <div type="summary">
                             <p>Commerçant : faillite : cas.</p>
@@ -2067,7 +2074,7 @@
                         </div>
                     </div>
                     <pb n="28"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-20">
                         <head>13 novembre 1928. — Prés Baviera.</head>
                         <div type="summary">
                             <p>Taxe; opposition; greffe incompétent; nullité.</p>
@@ -2124,7 +2131,7 @@
                             <p>Par ces motifs: déclare nulle l'opposition à taxe litigieuse.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-30">
                         <head>14 novembre 1928. — Prés. Eavenc.</head>
                         <div type="summary">
                             <p>I. Titres déposés ; prétendu usufruit ; opposition ; référé;
@@ -2213,7 +2220,7 @@
                         </div>
                     </div>
                     <pb n="30"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-40">
                         <head>20 novembre 1928. -- Prés Baviera.</head>
                         <div type="summary">
                             <p>I. Inscription de faux; affaire pendante en appel; greffe compétent.
@@ -2321,7 +2328,7 @@
                                 confirme quant au surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-50">
                         <head>20 novembre 1928. - Prés. Bavieiia.</head>
                         <div type="summary">
                             <p>Droit musulman; biens successoraux; transmission; paiement de dettes
@@ -2349,7 +2356,7 @@
                         </div>
                         <div type="litigants">
                             <p>(Jean D. Nicolaïdis et Cts.</p>
-                            <p>c. The Land Bank of Eg>pt et Cts.).</p>
+                            <p>c. The Land Bank of Eg&gt;pt et Cts.).</p>
                         </div>
                         <div type="decision">
                             <p>La Cour: — Attendu qu'après divers renonciations et acquiescements,
@@ -2405,7 +2412,7 @@
                             <p>Par ces motifs: confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-60">
                         <head>20 novembre 1928. — Prés. Favexc.</head>
                         <div type="summary">
                             <p>Saisie-arrêt; défaut de titre; référé; contestation; incompétence ;
@@ -2492,7 +2499,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-70">
                         <head>21 novembre 1928. — Prés. Favexc.</head>
                         <div type="summary">
                             <p>I. Concordat préventif; procédure; instances pendantes. — II. Litige;
@@ -2602,7 +2609,7 @@
                                 vente...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-80">
                         <head>21 novembre 1928. — Prés. Favexc.</head>
                         <div type="summary">
                             <p>Concordat préventif ; jugement d'homologation ; appel ;
@@ -2622,7 +2629,7 @@
                                 concordat préventif obtenu par la raison sociale Hammouda Omar
                                 Marzouk &amp; fils;</p>
                             <p>Attendu que cette dernière soutient tout d abord que l'appel est
-                                irrecevable, puisque le législateur a exclu >en pareil cas cette
+                                irrecevable, puisque le législateur a exclu &gt;en pareil cas cette
                                 voie. de recours;</p>
                             <p>Que cette exception est évidemment bien fondée, car l'art. 208 C. Co.
                                 déclare expressément que le jugement d'homologation d'un concordat
@@ -2699,7 +2706,7 @@
                             <p>Par ces motifs: déclare l'appel irrecevable..</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-90">
                         <head>21 novembre 1928 — Prés. Favesc.</head>
                         <div type="summary">
                             <p>I. Jugement déclaratif de faillite; chose jugée; appel;
@@ -2764,7 +2771,7 @@
                             <p>Par ces motifs: rejette...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-100">
                         <head>22 novembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. - Appel; taux d'appel ; évaluation de la demande ; art. 392 et 394
@@ -2873,7 +2880,7 @@
                             <p>Par ces motifs: réforme et réduit....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-110">
                         <head>22 novembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Appel entre intimés; irrecevabilité; intimé; droit d'appuyer la
@@ -2935,8 +2942,8 @@
                             <p>d'appel à laquelle ils ont été joints, pour formuler des conclusions
                                 contenues dans celles qui ont t!é prises par les appelants, en
                                 appuyant la réclamation de ces derniers, puisqu'ils ont un intérêt
-                                évident à justifier, vis-à->is de leurs acheteurs, de leur droit de
-                                propriété sur les biens revendiqués par leurs ayants cause;</p>
+                                évident à justifier, vis-à-&gt;is de leurs acheteurs, de leur droit
+                                de propriété sur les biens revendiqués par leurs ayants cause;</p>
                             <p>Attendu, en outre, qu'il ne faut pas perdre de vue que c'est au
                                 créancier qui prend affectation hypothécaire sur les biens qu'il
                                 prétend appartenir à son débiteur, qu'incombe la preuve de la
@@ -2994,7 +3001,7 @@
                             <p>Par ces motifs : infirme.-.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-120">
                         <head>27 novembre 1928. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>Louage de service : renvois intempestifs, injustifiés ou non
@@ -3129,7 +3136,7 @@
                             <p>Par ces motifs: réforme en réduisant-..</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-130">
                         <head>27 novembre 1928. — Pés. Baviera.</head>
                         <div type="summary">
                             <p>I. Immeubles; action en partage; nature ; juridiction mixte;
@@ -3313,7 +3320,7 @@
                                 deuxième est contesté, sont toutefois, au point de vue de la
                                 transcription, qui seule intéresse dans la question, dans la même
                                 situation, car ni l'un ni l'autre n'ont acquis date certaine avant
-                                le 31 décembre, 1923 >et n'ont été transcrits. Il ne serait pas
+                                le 31 décembre, 1923 &gt;et n'ont été transcrits. Il ne serait pas
                                 sérieux de donner importance à l'acte transcrit par Michel Belleni
                                 le 31 décembre 1920, et qui n'est qu'une copie du contrat dé société
                                 du 25 juin 1914, faite et signée par Michel Belleni seul, et par lui
@@ -3362,7 +3369,7 @@
                                 les suites du partage.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-140">
                         <head>28 novembre 1928. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Jugement d'adjudication ; adjudicataire ; mise en possession ;
@@ -3433,7 +3440,7 @@
                             <p> Attendu, il est vrai, que les dits opposants prétendent avoir acquis
                                 les biens dont il s'agit par prescription, et déclarent qu'ils 'les
                                 possèdent depuis l'année 1912;</p>
-                            <p>Mais qu'il >e!st à remarquer qu'ils n'ont pas demandé au juge du
+                            <p>Mais qu'il &gt;e!st à remarquer qu'ils n'ont pas demandé au juge du
                                 possessoire de faire cesser le trouble apporté à leur jouissance par
                                 le procès-verbal du 26 avril 1928 et ont agi directement en
                                 revendication devant le juge du fond ;</p>
@@ -3448,7 +3455,7 @@
                                 jugement d'adjudication, le déguerpissement, des intimés.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-150">
                         <head>28 novembre 1928, — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Saisie-arrêt régulière ; mainlevée ; référé ; incompétence ; cas.</p>
@@ -3524,7 +3531,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-2-160">
                         <head>28 novembre 1928. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Faillite ; concordat ; créance non soumise à réduction ; cas.</p>
@@ -3984,7 +3991,7 @@
                         .... Générale .... — 4 4 — — 8 8 — Minieh Zone Séfi ... — 4 4 — — 8 8 — »
                         Chetai i 8 8 4 — — — —— Assiout Zone Séfi . . — 4 4 — 8 8 — — » Chetwi. 3 8
                         8 5 — — — — Guirgueh ... Générale .... 4 8 8 4 — — — — Kéneh » . . 4 8 8 4
-                        —• — — — Assouan.... Rég. Nord .. 4 8 8 4 — — — — » Sud — 6 « 6 6 — >
+                        —• — — — Assouan.... Rég. Nord .. 4 8 8 4 — — — — » Sud — 6 « 6 6 — &gt;
                         Réservoir — - — ! 24 —</p>
                     <p>Art. 2. — Le ministre des finances pourra modifier, à titre temporaire, par
                         simple arrêté publié au «Journal officiel», les échéances et quotités
@@ -4155,7 +4162,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>cour d'appel mixte</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-10">
                         <head>28 novembre 1928. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Cassation ; pourvoi ;défaut de moyens ; irrecevabilité.</p>
@@ -4201,7 +4208,7 @@
                             <p>Par ces motifs: rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-20">
                         <head>28 novembre 1928. — Prés. Hanssox.</head>
                         <div type="summary">
                             <p>Contravention; transformation en appel; jugement; cassation ;
@@ -4254,7 +4261,7 @@
                             <p>Par ces motifs : casse.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-30">
                         <head>28 novembre 1928. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Matière contraventionnelle; constatations sommaires; pouvoir du juge;
@@ -4341,7 +4348,7 @@
                             <p>Par ces motifs : rejette....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-40">
                         <head>28 novembre 1928. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Jugement d'adjudication ; appel ; situation juridique des parties;
@@ -4411,7 +4418,7 @@
                             <p>Par ces motifs: confirme-</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-50">
                         <head>28 novembre 1928. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Appel ; exception d'incompétence « ratione materia ». — II. Effets
@@ -4575,7 +4582,7 @@
                             <p>Par ces motifs: réformant, réduit...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-60">
                         <head>29 novembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Jugement; prononciation d'astreinte; appel; confirmation ; montant
@@ -4656,7 +4663,7 @@
                                 interprétation...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-70">
                         <head>29 novembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Appel ; taux ; demande ; évaluation ; moment ; réduction en appel ;
@@ -4722,7 +4729,7 @@
                             <p>... Par ces motifs: infirme ...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-80">
                         <head>29 novembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Saisie immobilière; subrogation dans les poursuites; ordonnance;
@@ -4791,7 +4798,7 @@
                             <note place="bottom">(1) Arrêt 1" mars 1877 (R.O. II, 167).</note>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-90">
                         <head>29 novembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Jugement ; nullité substantielle ; évocation ; art. 416 0 Pr. ;
@@ -4844,7 +4851,7 @@
                                 pour y être statué ce qu'il appartiendra.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-100">
                         <head>29 novembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Procédure d'expropriation ; demande principale en nullité; délai
@@ -4878,9 +4885,9 @@
                         <div type="decision">
                             <p>La Cour: — Attendu que Mahmoud Abou Zahra est appelant du jugement
                                 rendu le 30 juin 1927 par le Tribunal civil mixte de Mansourah. qui
-                                >a déclaré mal fondée sa demande en nullité dé la procédure
+                                &gt;a déclaré mal fondée sa demande en nullité dé la procédure
                                 d'expropriation immobilière dirigée à son encontre aux poursuites de
-                                Ia> Menzaleh Canal et Navigation Co.;</p>
+                                Ia&gt; Menzaleh Canal et Navigation Co.;</p>
                             <p>Qu'une exception d'irrecevabilité de l'appel est .d'Iabord soulevée
                                 par la société intimée, motif pris de ce que l'appel en question n'a
                                 pas été signifié dans les dix jours prescrits par l'art. 609 C. Pr-
@@ -5031,7 +5038,7 @@
                                 cette demande n'est pas recevable en droit-</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-110">
                         <head>29 novembre 1928. — Prés. Vadx.</head>
                         <div type="summary">
                             <p>I. Saisie immobilière; opposition à commandement; jugement de rejet ;
@@ -5141,7 +5148,7 @@
                             <p>Par ces motifs: faut défense d'exécuter le jugement</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-120">
                         <head>4 décembre 1928. — Prés, Baviera.</head>
                         <div type="summary">
                             <p>I. Exploit d'huissier ; constatations ; déclarations des parties;
@@ -5284,7 +5291,7 @@
                             <p>Par ces motifs: confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-3-130">
                         <head>5 décembre 1928. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Juridiction indigène; mesure provisoire; circonstances nouvelles ;
@@ -5428,7 +5435,7 @@
                         et périls de l'acheteur ; conséquences ; cas (p. 78).</p>
                     <p>I. Vente à réméré; nantissement; acheteur: qualité de tiers détenteur:
                         inexistence.— II. Dation en paiement; réserve de reprendre les immeubles ;
-                        incompatibilité.>-</p>
+                        incompatibilité.&gt;-</p>
                     <p>III. Chose jugée ; objet différent ; inexistence ; cas. —</p>
                     <p>IV. Chose jugée ; créanciers hypothécaires ; opposabilité ; limites ;
                         collusion (p. 79).</p>
@@ -5460,7 +5467,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-4-10">
                         <head>28 novembre 1928. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Saisie-arrêt régulière; mainlevée; référé; incompétence</p>
@@ -5534,7 +5541,7 @@
                             <p>Par ces motifs: confirme-</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-4-20">
                         <head>5 décembre 1928. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Faillite ; juge-commissaire ; proclamation de l'état d'union;
@@ -5584,7 +5591,7 @@
                             <p>Par ces motifs : déclare l'appel irrecevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-4-30">
                         <head>6 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Habitation; changement indiqué par le débiteur; changement de
@@ -5716,7 +5723,7 @@
                             <p>Par ces motifs : confirme. . ,</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-4-40">
                         <head>6 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Procès ; procès antérieur entre parties ; constatations et
@@ -5805,7 +5812,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-4-50">
                         <head>6 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Vente; danger d'éviction; connaissance par l'acheteur; achat aux
@@ -5876,7 +5883,7 @@
                             <p>Par ces motifs: confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-4-60">
                         <head>6 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Vente à réméré ; nantissement; acheteur; qualité de tiers
@@ -6019,8 +6026,8 @@
                             <p>Attendu que teille est, en effet, la portée de l'arrêt du 4 février
                                 1919 qui ia terminé une procédure de partage intentée par la dame
                                 Jeanne Maksud sur la baise die l'acte du 1er juin 1912; mais cette
-                                procédure >die partage ne visait que la part indivise de 386 m. 12
-                                cm. dans les constructions mentionnées à l'acte, de sorte qu'il
+                                procédure &gt;die partage ne visait que la part indivise de 386 m.
+                                12 cm. dans les constructions mentionnées à l'acte, de sorte qu'il
                                 appariait tout de suite, quels que puissent être les motifs sur.
                                 lesquels la Cour a basé sa décision, que Ifobjet de cette instance
                                 était tout différent de l'objet die Ha présente instance, qui tend à
@@ -6059,7 +6066,7 @@
                                 1925.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-4-70">
                         <head>6 décembre 1928. — Prés. Vaux. .</head>
                         <div type="summary">
                             <p>Statut personnel musulman ; père ; droit de gage sur les biens du
@@ -6165,7 +6172,7 @@
                             <p>Par oes motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-4-80">
                         <head>11 décembre 1928. — Prés. Bavieha.</head>
                         <div type="summary">
                             <p>Saisie immobilière ; adjudication ; surenchère ;• affectation ;
@@ -6243,7 +6250,7 @@
                                 uniquement à titre chirographaire.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-4-90">
                         <head>11 décembre 1928. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Cession de créance: signification. — 11. Ordre entre créanciers ;
@@ -6284,7 +6291,7 @@
                                 la date de la première adjudication et non de la dernière que le
                                 débiteur est définitivement dessaisi de sa propriété, que les droits
                                 des créanciers sont définitivement transportés sur le prix et que le
-                                cours de toutes nouvelles ins-> criptions ou transcriptions est
+                                cours de toutes nouvelles ins-&gt; criptions ou transcriptions est
                                 arrêté (Voir Note).</p>
                             <p>V. La purge des hypothèques n'est pas subordonnée au dépôt ou au
                                 paiement du prix d'adjudication : le défaut de paiement du prix n'a
@@ -6927,7 +6934,7 @@
                                 jugement d'adjudication prononcé contre ce dernier.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-4-100">
                         <head>11 décembre 1928. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Malade; reconnaissance au profit d'un héritier; nullité; art. 564
@@ -7055,7 +7062,7 @@
                                 dire droit quant au chef subsidiaire...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-4-110">
                         <head>12 décembre 1928 — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Billet à ordre; souscripteurs; caractère civil ou commercial ;
@@ -7138,7 +7145,7 @@
                         </div>
                     </div>
                     <pb n="96"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-4-120">
                         <head>12 décembre 1928. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Litiges entre Égyptiens et ex-Ottomans; Juridiction mixte;
@@ -7638,7 +7645,7 @@
                     <p>(a) Lorsque le vendeur ou celui qui expose l'engrais à la vente auront refusé
                         d'assister aux opérations de prélèvements ou que, dûment convoqués, ils
                         n'auront pas comparu à l'heure fixée pour ces opérations ;</p>
-                    <p>(/>) Lorsque ayant assisté aux opérations, le vendeur ou celui qui expose
+                    <p>(/&gt;) Lorsque ayant assisté aux opérations, le vendeur ou celui qui expose
                         l'engrais à la vente auront refusé de signer le procès-verbal';</p>
                     <p>Dans ces deux cas, mention sera faite au procès-verbal de la non comparution
                         après convocation, ou du refus d'assister ou signer après comparution.</p>
@@ -7795,7 +7802,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-5-10">
                         <head>12 décembre 1928. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Concordat préventif; procédure; instances pendantes.— II- Référé;
@@ -7923,11 +7930,11 @@
                                 ceux des meubles spécifiés dans le procès-verbal de saisie de
                                 l'huissier Cohen en date du 22 septembre 1927, qui n'ont été</p>
                             <p>consignés ni à l'appelant ni au séquestre Lévy, ! et qui se trouvent
-                                actuellement dans l'immeu-' file Sasso; ></p>
+                                actuellement dans l'immeu-' file Sasso; &gt;</p>
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-5-20">
                         <head>' 12 décembre 1928. — Prés. Hanssos.</head>
                         <div type="summary">
                             <p>I. Etablissements incommodes ; cuisines ; cas. — II. Etablissements
@@ -8009,7 +8016,7 @@
                             <p>Par ces motifs : rejette-</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-5-30">
                         <head>12 décembre 1928. — Prés. Hansson,</head>
                         <div type="summary">
                             <p>Jugement de condamnation; défaut de constatation des faits la
@@ -8058,7 +8065,7 @@
                             <p>Par ces motifs : casse et renvoie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-5-40">
                         <head>13 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Gouvernement ; fournitures ; maisons étrangères ; représentant;
@@ -8138,7 +8145,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-5-50">
                         <head>13 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. - Cautionnement; sous-cautionnements; créancier; action; cas — II.
@@ -8307,7 +8314,7 @@
                                 et sur l'appel de Jean D. Nicolaïdis, condamne...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-5-60">
                         <head>13 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Obligation naturelle; notion; cas. —II. Obligation naturelle ;
@@ -8431,7 +8438,7 @@
                             <p>Par ces motifs: confirme en réduisant.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-5-70">
                         <head>13 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Acquiescement; inexistence; cas. — II. Acte d'appel; prescription;
@@ -8624,7 +8631,7 @@
                             <p>Par ces motifs: confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-5-80">
                         <head>19 décembre 1928. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Tribunal correctionnel ; circonstances atténuantes ; admission ;
@@ -8715,7 +8722,7 @@
                         </div>
                     </div>
                     <pb n="117"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-5-90">
                         <head>19 décembre 1928. — Prés. Favknc.</head>
                         <div type="summary">
                             <p>I. Marchandise; forme; marque; possibilité; conditions. — 11.
@@ -8877,7 +8884,7 @@
                             <p>Par ces motifs: infirme en partie, réduit...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-5-100">
                         <head>19 décembre 1928. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Marchandise transportée; expertise; art.lO4C.Co.; délais;
@@ -9286,7 +9293,7 @@
                         ordonnance d'un médecin, d'un vétérinaire, d'un dentiste ou d'une sage-femme
                         (mouwal-leda) inscrits, sauf lorsqu'il s'agit d'une fourniture à faire à un
                         autre pharmacien pour les besoins de son commerce. Dans ce cas il suffira
-                        d'une demande écrite .signée par le dit pharmacien. > ,</p>
+                        d'une demande écrite .signée par le dit pharmacien. &gt; ,</p>
                     <p>Les médicaments simples c'est-à-dire ceux ne contenant pas une des substances
                         vénéneuses visées à l'article suivant peuvent être délivrés sans
                         ordonnance.</p>
@@ -9303,7 +9310,7 @@
                     <p>3° Les substances stupéfiantes énumérées au tableau (III).</p>
                     <p>On suivra, en ce qui les concerne, les règles prescrites par à loi No. 21 de
                         1928 sur le commerce et l'emploi des stupéfiants.</p>
-                    <p>Les substances énumérées aux tableaux (I)> (II) et (III) seront conservées
+                    <p>Les substances énumérées aux tableaux (I)&gt; (II) et (III) seront conservées
                         séparément dans une armoire fermée dont la clef sera gardée par le
                         pharmacien seul. S'il s'agit d'une pharmacie dont le propriétaire n'est pas
                         un pharmacien inscrit, la clef devra être remise à l'administration de
@@ -10043,7 +10050,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-6-10">
                         <head>20 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Dire ; débat devant le tribunal ; contestation différente;
@@ -10089,7 +10096,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-6-20">
                         <head>20 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Ordonnance de taxe ; opposition ; pouvoir du juge; appréciation ;
@@ -10154,8 +10161,9 @@
                             <note place="bottom">(1) Dans le même sens, arrêt du même jour en cause
                                 Hassan bey Fonnd contre Maître X. <p>Les deux arrêts sont rendus en
                                     matière de taxe d'honoralres d'avocat. Il a été jugé de même en
-                                    matière de taxe d'honoraires d'expert: arrêt du 17 dèce >'bre
-                                    1914 (Bull., XXVII, 70). </p></note>
+                                    matière de taxe d'honoraires d'expert: arrêt du 17 dèce &gt;'bre
+                                    1914 (Bull., XXVII, 70). </p>
+                            </note>
                             <pb n="137"/>
                             <p>questions souvent délicates qui peuvent se présenter au sujet du
                                 paiement éventuel des honoraires et des personnes qui en seraient
@@ -10187,12 +10195,12 @@
                                 taxe;</p>
                             <p>Par ces motifs : déclare recevable mais mal fondé l'appel du sieur
                                 Salem Ghobrial; met hors de cause Me N. ; confirme.</p>
-                            <note place="bottom">(1> Arrêt-30 mnl 1M2 (Bull., XXn.,380).</note>
-                            <note place="bottom">(2) irrêt S avril i'>_?8 (/?,&amp;lt;//„ XL,
+                            <note place="bottom">(1&gt; Arrêt-30 mnl 1M2 (Bull., XXn.,380).</note>
+                            <note place="bottom">(2) irrêt S avril i'&gt;_?8 (/?,&amp;lt;//„ XL,
                                 281).</note>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-6-30">
                         <head>20 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Jugement d'adjudication; appel; vice de forme; en quoi il
@@ -10294,7 +10302,7 @@
                             <p>Par ces motifs: déclare l'appel irrecevable...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-6-40">
                         <head>26 décembre 1928 — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Faillite; action paulienne: tribunal de commerce; compétence.— II.
@@ -10364,7 +10372,7 @@
                             <p>Par ces motifs : déclare l'appel irrecevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-6-50">
                         <head>26 décembre 1928, — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Ordonnance sur requête ; recours : nouvelle ordonnance ; appel ;
@@ -10437,7 +10445,7 @@
                             <p>Par ces motifs : se déclare d'office incompétente.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-6-60">
                         <head>27 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Appartement loué; locataire; vol; propriétaire; responsabilité ;
@@ -10541,7 +10549,7 @@
                         </div>
                     </div>
                     <pb n="142"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-6-70">
                         <head>27 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Liquidateur ; attaques éventuelles de tiers non en cause ; garantie
@@ -10603,7 +10611,7 @@
                                 intervenue...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-6-80">
                         <head>27 décembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Concordat amiable; acceptation unanime; nécessité ; acceptations
@@ -10686,7 +10694,7 @@
                         </div>
                     </div>
                     <pb n="144"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-6-90">
                         <head>31 décembre 1928. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Jugement prononcé au profit d'une partie décédée; nullité; qui
@@ -10761,7 +10769,7 @@
                         </div>
                         <div type="decision">
                             <p>La Cour : — Attendu que 'la maison — sise à Alexandrie, rue Zawiet el
-                                Galay No. 16> </p>
+                                Galay No. 16&gt; </p>
                             <pb n="145"/>
                             <p>Souk cl Bersim — a fait l'objet de trois instances successives en
                                 revendication, dont :</p>
@@ -11248,7 +11256,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-10">
                         <head>31 décembre 1928. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>Action paulienne ; créancier antérieur ; conditions.</p>
@@ -11336,7 +11344,7 @@
                             <p>Par ces motifs : infirme et annule l'acte de vente...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-20">
                         <head>3 janvier 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Entrepreneur de travaux; responsabilité; cas. — II. Travaux donnés
@@ -11417,7 +11425,7 @@
                                 pour le surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-30">
                         <head>' 3 janvier 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Terrain wakf; constructions; plantations; naturò; exception; cas.
@@ -11502,7 +11510,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-40">
                         <head>8 janvier 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Saisie immobilière; allégation de la nature wakf des biens saisis;
@@ -11582,7 +11590,7 @@
                             <p>Par ces motifs : infirme et déboute....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-50">
                         <head>9 janvier 1929. — Prés. Favknc.</head>
                         <div type="summary">
                             <p>I. Jugement; délation de serment supplétif; dispense de signification
@@ -11687,7 +11695,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-60">
                         <head>9 janvier 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Société anonyme; actionnaire; demande en conversion des titres ;
@@ -11840,7 +11848,7 @@
                                 compétents à statuer et infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-70">
                         <head>9 janvier 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Prescription ; citation en justice ; instance non périmée;
@@ -11999,7 +12007,7 @@
                             <p>Par ces motifs : infirme en partie, confirme pour le surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-80">
                         <head>10 janvier 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Société anonyme étrangère; champ d'activité en Egypte; obligations
@@ -12161,7 +12169,7 @@
                                 demande du sieur Alfred J. Cori et len déboute.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-90">
                         <head>10 janvier 1929. — Prés. \aux.</head>
                         <div type="summary">
                             <p>Etrangers non capitulaires ; Ottomans ; contestations avec des sujets
@@ -12340,7 +12348,7 @@
                                 locaux.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-100">
                         <head>10 janvier 1929. — Prés. Vaux. ■</head>
                         <div type="summary">
                             <p>I. - Jugement d'adjudication ; action en annulation ; poursuivant ;
@@ -12554,7 +12562,7 @@
                             <p>Par ces motifs : infirme et déclare l'action irecevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-110">
                         <head>15 janvier 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Requête civile ; titres ; confusion ; demande ; omission de
@@ -12591,8 +12599,8 @@
                                 la banque, dé la même date du 5 décembre 1923, lui disant qu'elle
                                 avait reçu «des mains de El Chamli, L.E. 200 à valoir sur son billet
                                 de L.E. 350»,</p>
-                            <note place="bottom">(1) V. T.D., III, v° Requête civile, n«> 49'4/6 et
-                                4958/9.</note>
+                            <note place="bottom">(1) V. T.D., III, v° Requête civile, n«&gt; 49'4/6
+                                et 4958/9.</note>
                             <p>la Cour a fait droit à l'appel et a écarté la collocation El Chamli
                                 pour le motif: que la lettre du 5 décembre 1923 — seul titre invoqué
                                 par El Far à l'appui de sa collocation» — prouvait par contre, que
@@ -12700,7 +12708,7 @@
                         </div>
                     </div>
                     <pb n="171"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-120">
                         <head>15 janvier 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Assignation en déclaration du Jugement commun; caractère; tierce
@@ -12875,7 +12883,7 @@
                             <p>...Par ces motifs : fait droit à l'appel incident....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-130">
                         <head>15 janvier 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Contrat de services; tacite reconduction; durée ; louage des
@@ -13032,7 +13040,7 @@
                             <p>Par ces motifs : faisant droit en partie à rappel principal...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-7-140">
                         <head>16 janvier 1929. - Prés, Favenc.</head>
                         <div type="summary">
                             <p>I. Faillite; wakfs; annulation; tribunal civil; compétence; art 76 C.
@@ -13202,7 +13210,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-8-10">
                         <head>16 janvier 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. - Commission douanière ; décision ; composition ; directeur de la
@@ -13531,7 +13539,7 @@
                             <p>Par ces motifs: confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-8-20">
                         <head>17 janvier 1929. - Prés. Vaux.</head>
                         <div type="summary">
                             <p>Travaux; entrepreneur: propriétaire; responsabilité.</p>
@@ -13605,7 +13613,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-8-30">
                         <head>17 janvier 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. - Irrigations ; décret du 22 février 1894 : autorité
@@ -13834,16 +13842,17 @@
                                 incompétentes pour connaître de la demande des intimés.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-8-40">
                         <head>22 janvier 1929. — Prés Baviera.</head>
                         <div type="summary">
                             <p>Affirmations mensongères ; requête civile ; condition.</p>
                             <p>En. admettant même, ce qui est controversé tant en doctrine qu'en
                                 jurisprudence, que de simples affirmations mensongères puissent
-                                donner ouverture à requête civile> toujours est-il que la condition
-                                nécessaire pour que pareil chef de recours trouve application est
-                                que la décision du juge dont on se plaint Soit fondée exclusivement
-                                sur les pures assertions de la partie en dol (1).</p>
+                                donner ouverture à requête civile&gt; toujours est-il que la
+                                condition nécessaire pour que pareil chef de recours trouve
+                                application est que la décision du juge dont on se plaint Soit
+                                fondée exclusivement sur les pures assertions de la partie en dol
+                                (1).</p>
                         </div>
                         <div type="litigants">
                             <p>(Mohamed Hussein el Toubgui c. François Pons).</p>
@@ -13894,7 +13903,7 @@
                             <p>Par ces motifs : déclare inadmissible la requête civile.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-8-50">
                         <head>23 janvier 1929 — Prés Fave.sc.</head>
                         <div type="summary">
                             <p>I. - Concordat préventif; propriétaire; droit de reprise des lieux;
@@ -13943,8 +13952,8 @@
                                 pouvait être expulsé des locaux où il exerce son commerce et qu'il
                                 ne saurait en conséquence être question de s'inspirer ici de l'art.
                                 241 C. Co, qui, en</p>
-                            <note place="bottom">(1) Voir arrêts :> avril 1912 (Bull., XXIV, 254- et
-                                28 janvier 1914 (Bull., XXVI, 188). </note>
+                            <note place="bottom">(1) Voir arrêts :&gt; avril 1912 (Bull., XXIV, 254-
+                                et 28 janvier 1914 (Bull., XXVI, 188). </note>
                             <pb n="188"/>
                             <p>matière de faillite, permet au propriétaire, nonobstant le sursis de
                                 30 jours qui lui est imposé pour l'exercice des voies d'exécution
@@ -14043,7 +14052,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-8-60">
                         <head>23 janvier 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Faillite; pays étrangers; activités éparses; domicile de la
@@ -14155,7 +14164,7 @@
                                 d'Egypte; déclare l'appel non fondé.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-8-70">
                         <head>24 janvier 192'). — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. - Exceptions; rejet ; jugement interlocutoire ; mesures
@@ -14170,7 +14179,7 @@
                                 parties étaient en droit d'attendre une solution préalable, il faut
                                 raisonnablement admettre que le premier juge a rendu probable le
                                 rejet de ces exceptions (1).</p>
-                            <note place="bottom">&amp;lt;1) lïapp. arrêt k> novembie 1914 (Bull.,
+                            <note place="bottom">&amp;lt;1) lïapp. arrêt k&gt; novembie 1914 (Bull.,
                                 XXVII, 10) </note>
                             <pb n="191"/>
                             <p>II. L'appel d'un jugement interlocutoire, pour être recevable
@@ -14356,7 +14365,7 @@
                                 parties....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-8-80">
                         <head>29 janvier 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Ordre entre créanciers ; unité ; conséquence ; cas. — 11.
@@ -14487,7 +14496,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-8-90">
                         <head>30 janvier 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Justice civile ; justice pénale ; indépendance ; conséquence ;
@@ -14563,7 +14572,7 @@
                             <p>Par ces motifs : casse et renvoie....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-8-100">
                         <head>5 février 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Vente ; transcription ; transfert de la propriété ; effet du
@@ -14694,7 +14703,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-8-110">
                         <head>5 février 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Adjudication indigène ; charges au profit d'étrangers ; nullité ;
@@ -14940,7 +14949,7 @@
                         inefficacité (p. 204).</p>
                     <p>Louage d'industrie ; cas fortuit ; force majeure ; perte de la chose ;
                         ouvrier ; non responsabilité ; conditions ; cas (p. 206).</p>
-                    <p>Actes de commerce ; exercice ; qualité de commerçant > cas (p. 2o8).</p>
+                    <p>Actes de commerce ; exercice ; qualité de commerçant &gt; cas (p. 2o8).</p>
                     <p>I. Péremption d'instance ; calcul ; base ; cas.—II. Péremption d'instance
                         d'appel ; partie à mettre en cause. — III. Péremption d'instance ; art. 397
                         C.Pr. français ; loi mixte (p. 208).</p>
@@ -14986,7 +14995,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-10">
                         <head>3 novembre 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Créance civile entre indigènes ; cession ; consentement ;
@@ -15120,7 +15129,7 @@
                                 compétents pour connaître de la demande des intimés.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-20">
                         <head>5 février 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Prescription ; causes d'interruption ; déchéances ; citation en
@@ -15160,7 +15169,7 @@
                                 délai de quinze jours» à partir de la connaissance de la vente,
                                 résultant du premier exploit susdit;</p>
                             <p>Attendu que la société répond que la dé- possible, acquis l'autorité
-                                de la chose jugée, ___!... 2"_______>- i par l'acquiescement
+                                de la chose jugée, ___!... 2"_______&gt;- i par l'acquiescement
                                 résultant de Fintroduc-</p>
                             <p>claration d'irrecevabilité en l'état de Tins</p>
                             <p>tance du 31 janvier 1928 n'est pas de nature à lui enlever Yeffet
@@ -15217,7 +15226,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-30">
                         <head>5 février 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Tiers détenteur ; sommation ; jugement d'adjudication;
@@ -15311,7 +15320,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-40">
                         <head>6 lévrier 1929 — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Louage d'industrie; cas fortuit; force majeure; perte de la chose;
@@ -15462,7 +15471,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-50">
                         <head>6 février 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Actes de commerce; exercice; qualité de commerçant; cas.</p>
@@ -15495,7 +15504,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-60">
                         <head>7 févnei* 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Péremption d'instance ; calcul ; base ; cas. — II. Péremption
@@ -15579,7 +15588,7 @@
                                 Andraous Bichara.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-70">
                         <head>7 février 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Cession de créance ; cessionnaire de bonne foi ; prétendue
@@ -15766,7 +15775,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-80">
                         <head>12 février 1929. — Prés Baviera.</head>
                         <div type="summary">
                             <p>I. - Arrêt; magistrat ayant jugé en première instance; action en
@@ -15847,7 +15856,7 @@
                                 recours en requête civile...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-90">
                         <head>13 février 1929. - Prés. Favenc.</head>
                         <div type="summary">
                             <p>Assurances ; exagération de demande d'indemnité ; mauvaise foi ;
@@ -15993,7 +16002,7 @@
                             <p>Par ces motifs: réforme et déclare l'intimé déchu...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-100">
                         <head>13 février 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Décisions indigènes ; saisie mobilière ; revendication par un
@@ -16054,7 +16063,7 @@
                             <p>Par ces motifs: confirme.'</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-110">
                         <head>13 février 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Faillite; admission de créance; nullité; révision.-II. Faillite;
@@ -16324,7 +16333,7 @@
                         </div>
                     </div>
                     <pb n="220"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-120">
                         <head>13 février 1929. — Prés. Favknc.</head>
                         <div type="summary">
                             <p>I. Vente « cif » ; modalités spéciales ; absence ; obligations ;
@@ -16473,7 +16482,7 @@
                         </div>
                     </div>
                     <pb n="222"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-130">
                         <head>14 février 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Propriétaire; construction ; procédés nouveaux ; trépidations du sol
@@ -16565,7 +16574,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-9-140">
                         <head>19 février 1929. — Piés. Bavieux.</head>
                         <div type="summary">
                             <p>Jugement ;• chefs distincts ; arrêt ; decision sur un chef; avant
@@ -17149,8 +17158,8 @@
                         transmis, au plus tôt, au Ministère des Finances pour la liquidation de la
                         pension, s'il y a lieu, conformément aux dispositions de la présente
                         loi.</p>
-                    <p>>Si les constatations médicales n'ont été faites que par un seul médecin, le
-                        rapport doit faire connaître les motifs qui peuvent justifier cette
+                    <p>&gt;Si les constatations médicales n'ont été faites que par un seul médecin,
+                        le rapport doit faire connaître les motifs qui peuvent justifier cette
                         procédure et le chef de l'administration à laquelle appartient le
                         fonctionnaire ou l'employé victime de l'accident, de même que le Mi- </p>
                     <pb n="232"/>
@@ -17562,7 +17571,7 @@
                         indemnités des fonctionnaires et employés, les déductions à opérer, en vertu
                         du présent article, pourront dépasser le quart des dits traitements,
                         pensions ou indemnités.</p>
-                    <p>Toute déduction mensuelle cessera lors du décès du fonctionnaire, >de
+                    <p>Toute déduction mensuelle cessera lors du décès du fonctionnaire, &gt;de
                         l'employé ou du pensionnaire débiteur.</p>
                     <p>Les demandes adressées au Ministère des Finances devront être constatées par
                         un récépissé émanant du Contrôleur général du personnel de l'Etat et des
@@ -17628,7 +17637,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>cour d'appel mixte</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-10-10">
                         <head>9 janvier 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>L Fonds limitrophes; rue séparative; existence ; titres; conflit.—II.
@@ -17853,7 +17862,7 @@
                             <p>Par ces motifs : réformé en partie...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-10-20">
                         <head>19 février 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>J. Paris; courses de chevaux; pelote basque; législation spéciale. —
@@ -17995,7 +18004,7 @@
                             <p>... Par ces motifs: confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-10-30">
                         <head>20 février 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Tribunal des contraventions ; acquittement ; appel du Ministère
@@ -18031,7 +18040,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-10-40">
                         <head>20 février 192sK — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Tribunal correctionnel; composition illégale; jugement; nullité.</p>
@@ -18072,7 +18081,7 @@
                             <p>Par ces motifs : met à néant la décision attaquée et renvoie....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-10-50">
                         <head>20 février 1929. — Prés. Hanssox.</head>
                         <div type="summary">
                             <p>I. Tribunal correctionnel; moyen de défense; devoir d'y statuer
@@ -18158,7 +18167,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-10-60">
                         <head>21 février 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>L Procédure d'expropriation ; péremption.—II. Interruption de la
@@ -18209,7 +18218,7 @@
                             <p>Attendu que la contestation de l'existence d'un jugement ayant rejeté
                                 le 'dire formé par l'appelant est incompréhensible du moment que le
                                 jugement en question se trouve dans le</p>
-                            <note place="bottom">(1) Voir arrêt du 1f> novembre 1917 (Bull., XXX,
+                            <note place="bottom">(1) Voir arrêt du 1f&gt; novembre 1917 (Bull., XXX,
                                 39) et I.D., III, v° Interruption de procédure, n» 2839. . Voir
                                 aussi T.D., III, v° Péremption d'instance, n«» 4163 à 4166.</note>
                             <p>dossier des ajudications et porte la date du 17 janvier 1914;</p>
@@ -18309,7 +18318,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-10-70">
                         <head>21 février 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Ordre entre créanciers; règlement définitif; chose jugée ; créancier
@@ -18546,7 +18555,7 @@
                     <p>Tableau de rachat des pensions des anciens fonctionnaires et employés de
                         l'Etat d'après leur âge et sur la base d'une pension annuelle de L.E. 100
                         (1).</p>
-                    <p>-----------------------_y>g-----------------------</p>
+                    <p>-----------------------_y&gt;g-----------------------</p>
                     <p>llécret-loi No 39 du 28 mai 1929, réglant le paiement des arriérés de retenue
                         pour la pension par les fonctionnaires autorisés à faire compter leurs
                         services provisoires pour la pension (2).</p>
@@ -18842,7 +18851,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>cour d'appel mixte</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-11-10">
                         <head>21 février 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Sommes existant au greffe ; cessionnaire ; retrait; légalisation.
@@ -18955,7 +18964,7 @@
                             <p>Par ces motifs: infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-11-20">
                         <head>26 février 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Distribution par contribution ; créancier ; montant absorbé;
@@ -19067,7 +19076,7 @@
                             <p>Par ces motifs: confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-11-30">
                         <head>26 février 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Titres de propriété ; application; limites; conflit;
@@ -19097,8 +19106,8 @@
                             <pb n="258"/>
                             <p>aux fins d'éviter la tierce opposition à l'exécution de l'arrêt à
                                 intervenir, opposition qui devrait être portée devant la Cour.</p>
-                            <p>III. L'adjudicataire évincé a, en principe>. non seulement une action
-                                en garantie pour éviction contre le débiteur saisi et en
+                            <p>III. L'adjudicataire évincé a, en principe&gt;. non seulement une
+                                action en garantie pour éviction contre le débiteur saisi et en
                                 responsabilité pour faute contre le créancier poursuivant, mais
                                 aussi une action en restitution de l'indu contre le créancier qui,
                                 tout en étant créancier du saisi, n'a pas droit de retenir, un prix
@@ -19592,7 +19601,7 @@
                                 dits adjudicataires et de leurs ayants cause.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-11-40">
                         <head>26 lévrier 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Prescription extinctive; mineur; loi applicable.— II. Droit
@@ -19896,7 +19905,7 @@
                             <p>Par ces motifs : réforme....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-11-50">
                         <head>26 février 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Entrepreneur; cessionnaire; sous-traitant; privilège;
@@ -20010,7 +20019,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-11-60">
                         <head>27 février 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Transport; commissionnaire intermédiaire; art. 98 C. Co. ;
@@ -20358,7 +20367,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-12-10">
                         <head>26 février 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Contredit; héritiers; non indication de noms; nullité couverte. —
@@ -20665,7 +20674,7 @@
                             <p>Par ces motifs : infirme en partie et confirme pour le surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-12-20">
                         <head>27 février 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Appel; demandes; interversion; défaut de précision; exception ;
@@ -20705,8 +20714,8 @@
                                 l'aurait acquise qu'à la suite d'un acquiescement, considéré comme
                                 entaché de dol et comme ne pouvant, par suite, faire acquérir eu
                                 jugement l'autorité de la chose jugée. En ee sens également, arrêt
-                                du 25 janvier 1917 (Bull., XXIX, 175>, qui admet, en cas de fraude,
-                                la discussion de la portée de la chose jugée et la-refuse au
+                                du 25 janvier 1917 (Bull., XXIX, 175&gt;, qui admet, en cas de
+                                fraude, la discussion de la portée de la chose jugée et la-refuse au
                                 jugement pour non Identité de cause, c'est-à-dire de ce qui a été
                                 demandé au juge et débattu dans le litige. </note>
                             <pb n="280"/>
@@ -20781,7 +20790,7 @@
                         </div>
                     </div>
                     <pb n="281"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-12-30">
                         <head>27 février 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Juridiction indigène ; juridiction mixte ; homologation;
@@ -20851,7 +20860,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-12-40">
                         <head>28 février 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Administration; saisie; faute; responsabilité; dommages-intérêts ;
@@ -20938,7 +20947,7 @@
                         </div>
                     </div>
                     <pb n="283"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-12-50">
                         <head>28 février 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Poursuites d'expropriation; subrogation aux poursuites; art. 677 à
@@ -21157,7 +21166,7 @@
                             <p>Par ces motifs: infirme....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-12-60">
                         <head>5 mars 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Immeuble commun ; mauvais état ; instance en démolition ;
@@ -21270,7 +21279,7 @@
                             <p>Par cés motifs : infirme...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-12-70">
                         <head>6 mars 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. - Traite à l'étranger; droit des parties; loi applicable. — 11.
@@ -21396,7 +21405,7 @@
                             <p>Par ces motifs : confirme....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-12-80">
                         <head>7 mars 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. - Exécutoire de taxe; opposition au greffe; débats; limites. — II.
@@ -21537,7 +21546,7 @@
                                 la taxe sur la valeur réelle par rapport à la valeur déclarée par la
                                 partie ou estimée par le greffe;</p>
                             <p>Attendu dès lors que c'est à bon droit que les appelants,— qui
-                                établissent que même en multipliant par 60 le montant de> l'impôt
+                                établissent que même en multipliant par 60 le montant de&gt; l'impôt
                                 grevant les immeubles litigieux on ne dépasserait par L.E. 30.000,
                                 et prétendent que si l'on s'en tenait, comme on aurait dû le faire,
                                 aux évaluations des catalogues de la péréquation de l'impôt foncier,
@@ -21550,7 +21559,7 @@
                             <p>Par ces motifs : infirme...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-12-90">
                         <head>9 mars 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>Société anonyme des tramways du Caire ; obligations en francs ;
@@ -22379,7 +22388,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-10">
                         <head>18 mars 1929. — Prés. Haxssov.</head>
                         <div type="summary">
                             <p>I. Jugement pénal : motivation suffisante ; cas. — II. Jugement pénal
@@ -22431,7 +22440,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-20">
                         <head>19 mars 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>Règle « nul ne plaide par procureur » ; application ; cas.</p>
@@ -22490,7 +22499,7 @@
                             <p>Par ces motifs : déclare l'opposition irrecevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-30">
                         <head>19 mars 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>Requête civile ; pièce décisive retenue et recouvrée ; cas.</p>
@@ -22569,7 +22578,7 @@
                             <p>Par ces motifs : déclare la requête civile inadmissible...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-40">
                         <head>19 mars 19^9. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Impôt foncier ; excédent ou déficit ; ordre du 8 Safar 1277 ;
@@ -22668,7 +22677,7 @@
                             <p>Par ces motifs : avant dire droit....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-50">
                         <head>19 mars 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Obligations ; terme échu ; inexécution ; délai accordé ; droits du
@@ -22946,7 +22955,7 @@
                                 commencement d'exécution du contrat.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-60">
                         <head>20 mars 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Faillite; vendeur; droit de rétention; conséquence.</p>
@@ -23081,7 +23090,7 @@
                                 réalisation de la marchandise par voie de justice.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-70">
                         <head>20 mars 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Concordat préventif ; bailleur ; voies d'exécution; suspension.</p>
@@ -23201,7 +23210,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-80">
                         <head>20 mars 1929 — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Faillite ; jugement d'office ; défaut d'assignation ou de requête;
@@ -23273,7 +23282,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-90">
                         <head>20 mars 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Dépôt de bilan; demande de concordat préventif; renvoi au tribunal
@@ -23301,7 +23310,7 @@
                                 d'une vente fictive, suite d'une collusion entre le débiteur et un
                                 tiers, il n'y a pas lieu d'annuler les mesures de protection
                                 ordonnées (2).</p>
-                            <note place="bottom">(1 et 2) Voir T.D., IV, v« faillite, a»> 1907 et
+                            <note place="bottom">(1 et 2) Voir T.D., IV, v« faillite, a»&gt; 1907 et
                                 1908.</note>
                         </div>
                         <div type="litigants">
@@ -23467,7 +23476,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-100">
                         <head>20 mars 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Apposition de scellés ; art- 213 C. Go. ; objet ; tiers ;
@@ -23637,7 +23646,7 @@
                                 commerce de Zouel frères.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-110">
                         <head>20 mars 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Déclaration de faillite; acquiescement; cessation de paiements ;
@@ -23704,7 +23713,7 @@
                             <p>Par ces motifs : réformant....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-120">
                         <head>21 mars 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Créances civiles entre indigènes; cession; consentement du
@@ -23802,7 +23811,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-13-130">
                         <head>25 mars 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>Guerre; actes de l'autorité militaire; autorité judiciaire; contrôle;
@@ -24016,7 +24025,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>cour d'appel mixte</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-10">
                         <head>28 mars 1929.. — Prés, Vaux.</head>
                         <div type="summary">
                             <p>E Patriarche; soins médicaux; Grèce; usage ; gratuité; Egypte; doute;
@@ -24117,7 +24126,7 @@
                             <p>Par ces motifs : infirme et déboute.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-20">
                         <head>2 avril 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Fonctionnaire étranger ; domicile de choix en Egypte ; solde
@@ -24186,7 +24195,7 @@
                                 des Ministres. Aussi « ont-ils estimé plus prudent d'interpréter la
                                 « dite décision de la façon suivante :</p>
                             <p>« Il s'agit, de savoir qùel est le fonction-« naire qui serait
-                                considéré comme non do->&amp;lt; micilié en Egypte lors de son
+                                considéré comme non do-&gt;&amp;lt; micilié en Egypte lors de son
                                 recrutement « et qui par conséquent aurait droit à une </p>
                             <pb n="328"/>
                             <p>« solde d'expatriation; or, mes collègues et « moi l'expliquons ainsi
@@ -24370,7 +24379,7 @@
                             <p>Par ces motifs : avant dire droit...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-30">
                         <head>2 avril 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Fonctionnaire étranger ; domicile de choix en Egypte ; solde
@@ -24385,8 +24394,8 @@
                                 sa mise à la retraite (1).</p>
                             <p>II. Le fonctionnaire étranger qui a débuté comme déssinateur à la
                                 journée et qui est un technicien, ne saurait être assimilé à un
-                                ouvrier à la journée qui n'est pas admis au bénéfice de la solde d>
-                                expatriation.</p>
+                                ouvrier à la journée qui n'est pas admis au bénéfice de la solde
+                                d&gt; expatriation.</p>
                         </div>
                         <div type="litigants">
                             <p>(Gouvernement égyptien c. Auguste Zahra)</p>
@@ -24459,7 +24468,7 @@
                             <p>avant dire droit...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-40">
                         <head>2 avril 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Adjudicataire ; parcelle provenant de la crue du Nil; non prise de
@@ -24580,7 +24589,7 @@
                             <p>Par ces motifs : avant dire droit...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-50">
                         <head>-, 3 avril 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Convention ; société ; gérant non associé ; action personnelle;
@@ -24766,7 +24775,7 @@
                                 jugement ainsi que celui du 21 février 1928....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-60">
                         <head>3 avril 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Demande de mise sous séquestre entre indigènes ; existence d'un
@@ -24820,7 +24829,7 @@
                                 à statuer et annule en conséquence l'ordonnance dont est appel.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-70">
                         <head>3 avril 1929. — Prés. Favenc. '</head>
                         <div type="summary">
                             <p>I. Système ; prétendue œuvre artistique ; simple invention
@@ -24949,7 +24958,7 @@
                             <p>Par ces motifs : confirme... émendant....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-80">
                         <head>3 avril 1929. — Prés. Eavenc.</head>
                         <div type="summary">
                             <p>I. - Cotons; obligation défaire presser; prix fixé; réduction
@@ -25071,10 +25080,11 @@
                                 que réalisent les sociétés de pressages prorient du nombre de balles
                                 qu'elles pressent et des opérations additionnelles qu'elles sont
                                 amenées à exécuter pour leur clientèle, et que ce bénéfice est en
-                                pro?jk>rtion directe avec le nombre des balles pressées; que tenus
-                                par conséquent à apporter à la Société de pressage pour la campagne
-                                1926-1927 l'appoint de leur clientèle, ils ont, en ne le faisant pas
-                                volontairement, privé celle-ci d'un bénéfice direct incontesta</p>
+                                pro?jk&gt;rtion directe avec le nombre des balles pressées; que
+                                tenus par conséquent à apporter à la Société de pressage pour la
+                                campagne 1926-1927 l'appoint de leur clientèle, ils ont, en ne le
+                                faisant pas volontairement, privé celle-ci d'un bénéfice direct
+                                incontesta</p>
                             <p>ble, pour lequel réparation lui est certainement due;</p>
                             <p>Attendu que pour déterminer le montant du préjudice qui lui serait
                                 dû, la Société de pressage et de dépôts établit d'une part le nombre
@@ -25142,7 +25152,7 @@
                             <p>Par ces motifs : confirme; émendant...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-90">
                         <head>3 avril 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Créancier chirographaire ; biens du débiteur ; demande de mise
@@ -25223,7 +25233,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-100">
                         <head>4 avril 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Saisie-arrêt ; compensation antérieure ; cas.</p>
@@ -25332,7 +25342,7 @@
                             <p>Par ces motifs : infirme....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-110">
                         <head>9 avril 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Immeuble ; vente frauduleuse ; revente ; action paulienne;
@@ -25397,7 +25407,7 @@
                         </div>
                     </div>
                     <pb n="345"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-120">
                         <head>9 avril 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>Créancier; wakf constitué par le débiteur; préjudice direct ; effet
@@ -25504,7 +25514,7 @@
                             <p>Par ces motifs : infirme et condamne...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-130">
                         <head>9 avril 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Canaux publics; digues; caractère juridique. — II. Domaine public;
@@ -25623,7 +25633,7 @@
                             <p>Par ces motifs : avant dire droit...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-140">
                         <head>10 avril 1929. — Prés. Favb.\c.</head>
                         <div type="summary">
                             <p>I. Navire ; saisie foraine ; condition; cas. —II. Navire ;
@@ -25804,12 +25814,12 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-14-150">
                         <head>10 avril 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Navire ; affrètement à un tiers ; fourniture de charbon ; traite
                                 tirée par le capitaine sur le tiers ; propriétaire; non
-                                responsabilité. — 1>- Choses; responsabilité réelle; droit mixte;
+                                responsabilité. — 1&gt;- Choses; responsabilité réelle; droit mixte;
                                 inexistence.</p>
                             <p>I. Même à défaut de preuve que le fournisseur du charbon au capitaine
                                 avait connaissance que le navire était affrété à un tiers, la
@@ -26009,7 +26019,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>cour d'appel mixte</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-10">
                         <head>10 avril 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Fait dommageable ; poursuite en dommages-intérêts; cas. — IL
@@ -26118,7 +26128,7 @@
                             <p>Par ces motifs : faisant droit en partie à l'appel incident...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-20">
                         <head>10 avril 1929 — Prés. Eavenc.</head>
                         <div type="summary">
                             <p>I. Mandataire; sommes reçues; intérêts; prescription; point de
@@ -26186,7 +26196,7 @@
                             <p>Par ces motifs : confirme...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-30">
                         <head>11 avril 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Servitude non apparente; preuve.— II. Servitude de circulation ;
@@ -26291,7 +26301,7 @@
                             <p>Par ces motifs : confirme...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-40">
                         <head>16 avril 1929. — Prés. Baviera..</head>
                         <div type="summary">
                             <p>Fonctionnaires étrangers ; solde d'expatriation ; origine européenne
@@ -26419,7 +26429,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-50">
                         <head>17 avril 1929. — Prés. Hanssox.</head>
                         <div type="summary">
                             <p>Jugement pénal ; motifs insuffisants ; cassation.'</p>
@@ -26455,7 +26465,7 @@
                             <p>Par ces motifs : casse et renvoie...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-60">
                         <head>17 avril 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Détournement d'objets saisis; jugement; doute exprimé par le
@@ -26515,7 +26525,7 @@
                             <p>Par ces motifs : casse et renvoie...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-70">
                         <head>17 avril 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Failli ; détournement d'actif ; punissabilité ; condition;
@@ -26577,7 +26587,7 @@
                             <p>Par ces motifs : casse et renvoie...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-80">
                         <head>17 avril 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Jugement indigène; nomination de séquestre; nomination antérieure
@@ -26651,7 +26661,7 @@
                             <p>Par ces motifs : confirme...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-90">
                         <head>17 avril 1929. — Prés. Fave.ac.</head>
                         <div type="summary">
                             <p>I. Arbitrage ; objet du litige ; précision au cours des débats;
@@ -26711,7 +26721,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-100">
                         <head>17 avril 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Faillite ; report ; tardivité ; exception ; nature ;
@@ -26782,7 +26792,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-110">
                         <head>17 avril 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Instances; défendeur; qualification de commerçant ; non
@@ -26867,7 +26877,7 @@
                         </div>
                     </div>
                     <pb n="365"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-120">
                         <head>17 avril 1929. — Prés. Favfnc.</head>
                         <div type="summary">
                             <p>I. Concordat; homologation; devoir du tribunal. — II- Faillite;
@@ -26975,7 +26985,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-130">
                         <head>18 avril 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Jugement ; exécution ; astreinte ; caractère ; commandement ;
@@ -27054,7 +27064,7 @@
                                 jugement du 6 février 1923...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-140">
                         <head>18 avril 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. - Biens indivis ; expropriation d'une partie divise ;
@@ -27140,7 +27150,7 @@
                             <p>Par ces motifs : confirme...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-150">
                         <head>23 avril 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Bénéficiaire de wakf ; prêt ; cession en garantie de revenus;
@@ -27266,7 +27276,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-160">
                         <head>23 avril 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Revendication accueillie; appel; déclaration du revendiqué;
@@ -27410,7 +27420,7 @@
                                 kirats, avant de statuer au fond....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-170">
                         <head>24 avril 1929. — Prés. Favenc</head>
                         <div type="summary">
                             <p>I. Contrat; inexécution; dommages-intérêts; somme inférieure à L.E.
@@ -27498,7 +27508,7 @@
                                 statuer et annule en conséquence le jugement déféré...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-180">
                         <head>24 avril 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Billet à ordre à vue ; jour de la souscription ; endossement ;
@@ -27649,7 +27659,7 @@
                                 fait à titre de procuration.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-15-190">
                         <head>1er mai 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. - Interdiction ; Meglis Hasby ; décision ; tiers ; opposabilité;
@@ -27834,9 +27844,9 @@
                         wakf ; hekriste; obligation d'améliorer ; inobservation: prétendue
                         résolution du contrat; cas; inexistence (p- 391).</p>
                     <p>I. Exception de jeu; silence de la loi; art. 148C.U, ; application.—II. Jeu
-                        et pari; loi n° '(> de 1922 ; portée ; droit civil; non modification.—III.
-                        Loteries; loin» >0de 1905; obligations à lots; droit civil; validité.— IV.
-                        Vari mu-</p>
+                        et pari; loi n° '(&gt; de 1922 ; portée ; droit civil; non
+                        modification.—III. Loteries; loin» &gt;0de 1905; obligations à lots; droit
+                        civil; validité.— IV. Vari mu-</p>
                     <p>- . tuel ; enjeu : tiers dépositaire: société sportive; action; pari entre
                         joueurs ; action ; inexistence ; exception. —</p>
                     <p>V. Prêt ; destination ; jeu ; défaut d'action (p. 391).</p>
@@ -27864,7 +27874,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>cour d'appel mixte</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-10">
                         <head>1er mai 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Faillite; traite; paiement; léger retard; dérangement des
@@ -28076,7 +28086,7 @@
                             <p>... Par ces motifs' : réforme en partie...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-20">
                         <head>1er mai 1929. - Prés. Favenc.</head>
                         <div type="summary">
                             <p>Faillite ; rétractation en appel ; conditions ; conséquence.</p>
@@ -28118,7 +28128,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-30">
                         <head>2 mai 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Arbitrage ; droits de la défense ; respect ; sentence stipulée
@@ -28157,7 +28167,7 @@
                             <p>Par ces motifs : déclare l'appel irrecevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-40">
                         <head>2 mai 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Nationalité contestée ; preuve suffisante ; . Tribunaux mixtes;
@@ -28212,7 +28222,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-50">
                         <head>2 mai 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Etrangers non capitulaires; contestations avec des sujets locaux ;
@@ -28453,7 +28463,7 @@
                                 locaux.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-60">
                         <head>2 mai 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Ressortissants des provinces détachées de l'Empire ottoman ;
@@ -28492,7 +28502,7 @@
                                 Lausanne, dans leurs litiges avec des sujets locaux. .</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-70">
                         <head>13 mai 1928. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Matière pénale ; procédure civile ; règles ; applicabilité;
@@ -28536,7 +28546,7 @@
                             <p>Par ces motifs : rejette l'opposition.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-80">
                         <head>13 mai 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Jugement de contravention ; ministère public ; appel; droit;
@@ -28625,7 +28635,7 @@
                             <p>Par ces motifs: rejette en partie, renvoie pour le surplus...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-90">
                         <head>13 mai 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Cassation; pourvoi; recevabilité; cas.—II. Loi4 de 1926; mélange
@@ -28727,7 +28737,7 @@
                             <p>Par ces motifs : rejette...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-100">
                         <head>13 mai 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. - Tribunal correctionnel; arguments et moyens de défense ; réponse
@@ -28898,7 +28908,7 @@
                             <p>Par ces motifs : rejette...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-110">
                         <head>14 mai 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Terrain wakf; location annuelle; droit de construire ; propriété
@@ -29110,7 +29120,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-120">
                         <head>15 mai 1929. — Prés. Fave.nc.</head>
                         <div type="summary">
                             <p>I. Exception de jeu ; silence de la loi ; art. 148 C-C. ;
@@ -29264,7 +29274,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-130">
                         <head>16 mai 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Nationalité hellénique; originaire de Crète; option; Egypte;
@@ -29341,7 +29351,7 @@
                             <p>Par ces motifs : rejette l'exception d'incompétence.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-140">
                         <head>16 mai 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. - Action en dommages-intérêts; fonctionnaire étranger; colonie;
@@ -29375,7 +29385,7 @@
                                 arbitrer par le juge (1).</p>
                             <note place="bottom">(1) Sur la responsabilité en matière de
                                 diffamation, voir T.D., III, v« Responsabilité, n»s 505' à 5059, et
-                                T.D., IV, v> Responsabilité, n»5 4589/4591, 4621 et 4647. </note>
+                                T.D., IV, v&gt; Responsabilité, n»5 4589/4591, 4621 et 4647. </note>
                         </div>
                         <pb n="398"/>
                         <div type="litigants">
@@ -29516,7 +29526,7 @@
                         </div>
                     </div>
                     <pb n="400"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-16-150">
                         <head>16 mai 1928. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Opposition à commandement ; rejet ; exécution provisoire; défense
@@ -29622,9 +29632,9 @@
                         soins médicaux ; responsabilité.— II. Interdit; internement antérieur; frais
                         d'hôpitalisation; curateur ; condamnation.— III. Ordre ; règlement définitif
                         ; chose jugée ; distribution ultérieure ; revendication de privilège;
-                        admissibilité. — IV. Wakf; bénéficiaire; re- > venus ; droits des créanciers
-                        : besoins du bénéficiaire ; conciliation ; jurisprudence mixte ; cas (p.
-                        404).</p>
+                        admissibilité. — IV. Wakf; bénéficiaire; re- &gt; venus ; droits des
+                        créanciers : besoins du bénéficiaire ; conciliation ; jurisprudence mixte ;
+                        cas (p. 404).</p>
                     <p>I. Nazir; mandataire «sui generis» ; retrait du mandat; faute; droit
                         musulman.—II. Nazir; obligation primordiale : inaccomplissement ; faute. —
                         III. Nazir; terrain du wakf; amélioration; retard ; faute.—IV. Nazir; actes
@@ -29661,7 +29671,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>cour d'appel mixte</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-17-10">
                         <head>16 mai 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Référé ; chose jugée ; sens ; portée ; voies de nullité;
@@ -29867,7 +29877,7 @@
                             <p>Par ces motifs : faisant droit en partie à l'appel incident...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-17-20">
                         <head>16 mai 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Aliéné; internement par un parent; hôpital; frais d'entretien et
@@ -30191,7 +30201,7 @@
                             <p>Par ces motifs : déclare fondé l'appel principal et réforme...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-17-30">
                         <head>16 mai 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Nazir ; mandataire « sui generis » ; retrait du mandat; faute;
@@ -30288,7 +30298,7 @@
                                 terre et à la rendre plus productive à l'avenir (1).</p>
                             <p>X. Allègue vainement les principes charéi, et l'homologation par le
                                 cadi, le Ministère des wakfs, pour compter au débit du wakf un</p>
-                            <note place="bottom">(1) V. arrêt f> janvier 1915 (Bull., XXVXI,
+                            <note place="bottom">(1) V. arrêt f&gt; janvier 1915 (Bull., XXVXI,
                                 105).</note>
                             <p>courtage qui aurait été payé pour l'acquisition de terrains à la
                                 place de ceux du wakf expropriés par le Gouvernement, alors qu'étant
@@ -30345,7 +30355,7 @@
                                 relevés par l'expert Limongelli dans un tableau comparatif, indiqués
                                 comme suit:</p>
                             <p>Année 1903 ... ... L.E. 767 revenus nets )) 1904 .... ... )) ■ 1 - ■
-                                )) » )) 1905 ... ... )) 219 7> a )) 1906 ... .... )) 264 » )ì ))
+                                )) » )) 1905 ... ... )) 219 7&gt; a )) 1906 ... .... )) 264 » )ì ))
                                 1907 ... ... » 411 )) )) )) 1908 ... ... )) 366 )) )) )) 1909 ...
                                 .., » 564 )) » )) 1910 .,. » — )) » Attendu que ce résultat piteux
                                 relevé par</p>
@@ -30516,7 +30526,7 @@
                                 fussent vrais, sont tolérés par l'usage ;</p>
                             <p>Attendu qu'il échet donc de passer outre aux critiques mal fondées
                                 des appelantes sur ce chef, et de confirmer sur ce point le jugement
-                                attaqué; ></p>
+                                attaqué; &gt;</p>
                             <p>III. — Sur le remploi du produit des é~ changes :</p>
                             <p>Attendu que les appelantes réclament à titre de dédommagement la
                                 somme de L. E. 2364, représentant le 5 0/0 d'intérêts de retard sur
@@ -30744,7 +30754,7 @@
                             <p>Par ces motifs : réforme en partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-17-40">
                         <head>23 mai 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Procédures spéciales ; voies de recours ; art. 401 C.Pr. ;
@@ -30798,7 +30808,7 @@
                                 surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-17-50">
                         <head>27 mai !929. — Prés. HvN'.sox.</head>
                         <div type="summary">
                             <p>Appel pénal; délai expiré; prétendue force majeure; simple
@@ -30850,7 +30860,7 @@
                             <p>Par ces motifs : casse.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-17-60">
                         <head>27 mai 1929. — Prés. Haxsson.</head>
                         <div type="summary">
                             <p>Récoltes saisies ; cueillette et vente autorisées par le créancier ;
@@ -30906,7 +30916,7 @@
                             <p>Par ces motifs : rejette le pourvoi.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-17-70">
                         <head>30 mai 1929. — Prés. Valx.</head>
                         <div type="summary">
                             <p>Codébiteur ; créancier inscrit ; paiement ; demande de subrogation ;
@@ -30970,7 +30980,7 @@
                         </div>
                     </div>
                     <pb n="420"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-17-80">
                         <head>30 mai 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Expropriation ; juridiction mixte; charges; étranger; compétence;
@@ -31038,9 +31048,9 @@
                                 évident que pour l'interprétation et l'exécution de l'acte
                                 authentique en litige, seule la juridiction mixte avait compétence;
                                 qu'enfin,</p>
-                            <note place="bottom">(1) V. arrêts 15 avril 192 > (Bull., XXXII, 279), 7
-                                juin 1923 (Ilui!., XXXV, 497), 17 décembre 19^5 (Bull., XXXVIII,
-                                106), 17 février 1927 (Bull., XXXIX, 246).</note>
+                            <note place="bottom">(1) V. arrêts 15 avril 192 &gt; (Bull., XXXII,
+                                279), 7 juin 1923 (Ilui!., XXXV, 497), 17 décembre 19^5 (Bull.,
+                                XXXVIII, 106), 17 février 1927 (Bull., XXXIX, 246).</note>
                             <note place="bottom">(2) V. arrêts 11 novembre 1914 (Bull., XXVII, 14),
                                 4 janvier 1922 (Bull., XXXIV, 100). </note>
                             <pb n="421"/>
@@ -31051,7 +31061,7 @@
                             <p>...Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-17-90">
                         <head>30 mai 1929. - Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. - Prêt ; mandat; faux; créanciers; poursuites; débiteur ; faute ;
@@ -31106,9 +31116,9 @@
                                 stipulation du prêt, a reçu le testament de feu Jean Tattaris ainsi
                                 que l'acte de partage entre ses héritiers de l'étude de Mes Y. et
                                 Z., avocats de la dame Tattaris et que, d'autre part, Antoine
-                                Tattaris se trouvait en possession des reçus constatant le> paiement
-                                des impôts des divers trimestres, ainsi que d'un duplicata de la
-                                police d'assurance et de certaines quittances de primes;</p>
+                                Tattaris se trouvait en possession des reçus constatant le&gt;
+                                paiement des impôts des divers trimestres, ainsi que d'un duplicata
+                                de la police d'assurance et de certaines quittances de primes;</p>
                             <p>Attendu que, sans s'arrêter à examiner si les déductions des premiers
                                 juges sont exactes ou non sur ce point, il convient de relever que
                                 si la dame Tattaris pouvait être recherchée du chef de la négligence
@@ -31193,7 +31203,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-17-100">
                         <head>4 juin 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Sous-iocation; art. 451 0.0. ; garantie du locataire principal ;
@@ -31381,7 +31391,7 @@
                     <p>I. Faillite; créanciers de la masse; vérification: dispense.— II. Faillite;
                         passif; composition ; créanciers de la masse: prélèvement : cas. — Ili.
                         Faillite ; créanciers : action ; exercice ; frais ; charge ; distinction ;
-                        cas (j>. 437).</p>
+                        cas (j&gt;. 437).</p>
                     <p>I. Banque; employé; situation obérée; licenciement; droit; in tempesti vite ;
                         Indemnité. — II. Banque ; caisse de retraites ; personnalité ;
                         représentation ; procédure ; irrégularité couverte.—III. Banque ; caisse des
@@ -31405,7 +31415,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-10">
                         <head>4 juin 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Demande ; non contestation ; appel ; droit de la contester.—II.
@@ -31563,7 +31573,7 @@
                             <p>En deuxième lieu, en dehors de la constitution de prête-nom,
                                 l'analyse de la convention révèle un contrat de prêt d'argent. Le
                                 sieur Harari a payé les créanciers inscrits, les frais, les droits,
-                                etc. pour le sieur Choucri, qu> n'a pas pu le faire en raison de
+                                etc. pour le sieur Choucri, qu&gt; n'a pas pu le faire en raison de
                                 l'échec de l'emprunt qu'il projetait; Harari lui-même a payé les
                                 créanciers inscrits pour éviter la folle enchère.</p>
                             <p>En troisième lieu, la convention présente </p>
@@ -31606,7 +31616,7 @@
                             <p>.... Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-20">
                         <head>4 juin 1929. — Prés. Hansson</head>
                         <div type="summary">
                             <p>I. - Saisie-arrêt; étranger; dépôt; distribution ; Juridiction mixte;
@@ -31771,7 +31781,7 @@
                             <p>... Par ces motifs: réforme en partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-30">
                         <head>4 juin 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Serment supplétoire: jugement; renvois: acquiescement; appel;
@@ -31841,7 +31851,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-40">
                         <head>4 juin 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>I. Commandement: transcription; affectations hypothécaires;
@@ -31969,7 +31979,7 @@
                             <p>.... Par ces motifs : réforme en partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-50">
                         <head>5 juin 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Faits punissables; peines; cumul; admissibilité; cas.</p>
@@ -32024,7 +32034,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-60">
                         <head>5 juin 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Concordat judiciaire ; opposition ; delai expiré ; . homologation
@@ -32160,7 +32170,7 @@
                                 sans distinction.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-70">
                         <head>5 juin 1929. — Prés. Haxsson.</head>
                         <div type="summary">
                             <p>Détournement d'objets saisis ; jugement correctionnel ; cassation ;
@@ -32215,7 +32225,7 @@
                             <p>Par ces motifs : casse....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-80">
                         <head>5 juin 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Etablissements incommodes, insalubres ou dangereux ; art. 6 de la loi
@@ -32245,8 +32255,8 @@
                             <p>Les autorités sanitaires de Mansourah a-vaieut décidé d'inviter la
                                 dame Calmouti de</p>
                             <note place="bottom">(i) V. arrêts 6 novembre 19ì0 (Bull., XXIII 10), U
-                                juin 1917 (Ibid, XXIX, 5->7). 5 avril 1922 (Ibid, XXXIV, 295), 9 mal
-                                1923 (Ibid, XXXV, 430).</note>
+                                juin 1917 (Ibid, XXIX, 5-&gt;7). 5 avril 1922 (Ibid, XXXIV, 295), 9
+                                mal 1923 (Ibid, XXXV, 430).</note>
                             <note place="bottom">(2) V. arrêt 16 novembre 1898 (Bull., XI.J2). </note>
                             <pb n="437"/>
                             <p>séparer complètement son épicerie du bar qu'elle exploitait aussi,
@@ -32297,7 +32307,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-90">
                         <head>5 juin 1929 — Prés. Favexc.</head>
                         <div type="summary">
                             <p>I. Faillite; créanciers de la masse; vérification; dispense. — II.
@@ -32358,7 +32368,7 @@
                                 honoraires des avocats du syndic, taxés par ordonnance des 14 et 16
                                 juin 1927, a, par son jugement du 23 juin 1928 dont est appel, dit
                                 que les susdits honoraires, exposés dans l'intérêt de la masse,
-                                doivent être supportés par > Ja. dite masse, et a admis en
+                                doivent être supportés par &gt; Ja. dite masse, et a admis en
                                 conséquence pour être ainsi payées, les créances consta</p>
                             <p>tées par les ordonnances de taxe sus-mem tionnées;</p>
                             <p>Or attenidu que les créances dont il s'agit en l'espèce sont nées à
@@ -32455,7 +32465,7 @@
                             <p>Par ces motifs: infirme en partie...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-100">
                         <head>5 juin 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Banque; employé; situation obérée; licenciement; droit:
@@ -32566,7 +32576,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-110">
                         <head>6 juin 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>Chemin de fer; accident; imprudence grave de la victime ; cas ;
@@ -32629,7 +32639,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-120">
                         <head>6 juin 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Taxe; opposition; recevabilité; cas. — Il Intérêts légaux ; cours
@@ -32708,7 +32718,7 @@
                             <p>....Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-130">
                         <head>6 juin 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Saisie-arrêt; tiers saisi ; déclaration dolosive; cas.—11.
@@ -32836,7 +32846,7 @@
                                 saisie porte à effet parce que le tiers saisi serait devenu débiteur
                                 du débiteur saisi après cette déclaration,'ne qui nécessitera la
                                 création d'une nouvelle procé- </p>
-                            <pb n="->4ô"/>
+                            <pb n="-&gt;4ô"/>
                             <p>dure vis-à-vis du tiers, à savoir une nouvelle sommation pour
                                 l'inviter à procéder à une autre déclaration ou une assignation
                                 tendant à reconnaître sa responsabilité envers le saisissant,
@@ -32929,7 +32939,7 @@
                                 justice.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-18-140">
                         <head>6 juin 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Dette; paiement en divers termes ; non paiement; déchéance du
@@ -33178,7 +33188,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-10">
                         <head>6 juin 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Chemin de fer; concession; extension; importance ; situation des
@@ -33296,7 +33306,7 @@
                                 avant comme après l'exécution j des travaux, il est évident que
                                 cette indem- ( ni té doit être fixée et payée d'avance, soit avant
                                 la prise de possession par le Gouver- J nement des travaux exécutés
-                                et des terrains > appartenant au Gouvernement et occupés j par la
+                                et des terrains &gt; appartenant au Gouvernement et occupés j par la
                                 ligne, le tout conformément au princi- j pe édicté par l'art. 117 C.
                                 C. qui prévoit, en ; pareil cas, l'expropriation pour cause d'uti- j
                                 lité publique, avec paiement de toute indem- ' nité préalablement à
@@ -33425,7 +33435,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-20">
                         <head>11 juin 1929. — Prés. Hassson.</head>
                         <div type="summary">
                             <p>Séquestre judiciaire; frais et honoraires; privilège.</p>
@@ -33505,7 +33515,7 @@
                             <p>Par ces motifs : infirme en partie, confirme pour le surplus....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-30">
                         <head>18 juin 1928. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Expertise; taxe; circulaire du 2 avril 1929; inapplicabilité; cas;
@@ -33581,7 +33591,7 @@
                             <p>Par ces motifs : maintient ses précédentes décisions.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-40">
                         <head>18 juin 1929. — Prés. Baviera.</head>
                         <div type="summary">
                             <p>Vente; courtage; demande en paiement; instance unique.</p>
@@ -33626,7 +33636,7 @@
                                 l'acheteur.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-50">
                         <head>18 juin 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Demande ; offre du défendeur acceptée à valoir ; réduction au-dessous
@@ -33674,7 +33684,7 @@
                             <p>Par ces motifs : déclare l'appel non recevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-60">
                         <head>18 juin 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Meubles; possession; faute lourde du tiers; revendication;
@@ -33780,7 +33790,7 @@
                             <p>Par ces motifs : infirme....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-70">
                         <head>19 juin 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Jugement pénal ; motifs insuffisants ; cassation; cas-</p>
@@ -33815,7 +33825,7 @@
                             <p>Par ces motifs : casse.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-80">
                         <head>19 juin 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Alcools en contravention ; simple possession ; conséquence.—U.
@@ -33881,7 +33891,7 @@
                             <p>Par ces motifs : casse.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-90">
                         <head>19 juin 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Usine d'égrenage de coton ; coton non égrené ; consignation;
@@ -33962,7 +33972,7 @@
                             <p>Par ces motifs : émendant réduit...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-100">
                         <head>19 juin 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>I. Saisie-arrêt; mainlevée; Juridiction mixte, compétence; cas. — II.
@@ -34046,7 +34056,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-110">
                         <head>20 juin 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Jugement d'adjudication; appel; vice de forme; inexistence; cas;
@@ -34128,7 +34138,7 @@
                             <p>Par ces motifs : dit que l'appel n'est pas recevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-120">
                         <head>20 juin 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Législation égyptienne; majorité; fixation; application; cas. —
@@ -34226,7 +34236,7 @@
                                 réduit...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-130">
                         <head>20 juin 1929. — Prés. Vaux.</head>
                         <div type="summary">
                             <p>I. Saisie immobilière; vente; remise; juge délégué ; pouvoir
@@ -34322,7 +34332,7 @@
                         </div>
                     </div>
                     <pb n="465"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-140">
                         <head>25 juin 1929. — Prés. Favenc.</head>
                         <div type="summary">
                             <p>Juridiction mixte ; décisions ; suites ; contestations nouvelles ;
@@ -34442,7 +34452,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-41-1929-19-150">
                         <head>25 juin 1929. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Créancier hypothécaire ; gage antérieur; action en nullité ;
@@ -34871,7 +34881,7 @@
                 <p>______</p>
                 <p>TABLE CHRONOLOGIQUE</p>
                 <p>DES ARRÊTS DE LA COUR D'APPEL MIXTE</p>
-                <p>1928 Octobre » » » » Novembre » » » » » » n )> » » )> » » » » » »</p>
+                <p>1928 Octobre » » » » Novembre » » » » » » n )&gt; » » )&gt; » » » » » »</p>
                 <p>_______________</p>
                 <p>M. S. Casulli &amp; C° c. Mahmoud Tataoui__________________________ Nicolas
                     Wlandi c. Karam Labib___________________________________ Hussein bey Abaza c.
@@ -35165,22 +35175,23 @@
                     c. Saleh bey Nanic Abou Osbaa 345 9 » Gouvernement égyptien c. Hoirs J. C.
                     Lagoudakis 346 10 » N. &amp; M. Cassir c. Società anonima di navigazione
                     «Puglia» 348 IO » Edmond Aghion c. Società anonima di navigazione «Puglia» 351
-                    10 » M. Rotschild &amp; C° c. S. A. Suédoise Aktiebolaget B. A. Hjorth 354 10 )>
-                    Me X. c. E. Ghaliounghi ès. q. 355 11 » Nessim Behar c. Zeinab Hanem El Tawdia
-                    ... 356 18 » Gouvernement égyptien c. ' Salvatore Bonan 357 17 » Abdel Gawad
-                    Rohayem Sélim c. Ministère public 359 17 • » Abdel Radi bey Badr c. Ministère
-                    public 356 17 » Zayan Zeidan c. Ministère public 360 17 » Antoine Stavro Kabaros
-                    c. Mahmoud El Moursi 361 17 v Hamed bey Mawardi c. J. M. Lichtenstern 362 17 »
-                    Ismail Aly El Tabbakh c. M. Demanget ès. q 363 17 » G. Lotfallah c. N. Cressaty
-                    ... 364 17 » J. J. Dayan &amp; C c. L. Hanoka ès. q 365 18 » Hoirs Sayed Hassan
-                    Kassir El Deil c. A. Rizzo 366 18 v Galila Amine Hussein ès. n. &amp;q. c. M.
-                    Triandafilou 367 23 » Crédit Foncier d'Orient c. Jean Gyras 368 23 . » Nassar
-                    Ali Hammouda c. Hoirs .Comte Sélim Chédid 370 24 ' » Mohamed Hassan El Chami et
-                    frères c. Khalil &amp; Ph. Habib 372 24 » Ahmed Mohamed El Khadem c. R.. Adler
-                    373 1er Alai Mahmoud bey Hassan Gazia c. Boustarii, Léondi &amp; C°... 375 rr »
-                    Comptoir National d'Escompte de Paris c. Faillite Samman Frères 378 1er »
-                    Mahmoud Tolba c. G. Nehmé &amp; C° 380 2 » Georges Georgantas c. Môhamed Awad
-                    381 2 » Gouvernement égyptien c. Rose Naggiar 381 <pb/>— Vili —</p>
+                    10 » M. Rotschild &amp; C° c. S. A. Suédoise Aktiebolaget B. A. Hjorth 354 10
+                    )&gt; Me X. c. E. Ghaliounghi ès. q. 355 11 » Nessim Behar c. Zeinab Hanem El
+                    Tawdia ... 356 18 » Gouvernement égyptien c. ' Salvatore Bonan 357 17 » Abdel
+                    Gawad Rohayem Sélim c. Ministère public 359 17 • » Abdel Radi bey Badr c.
+                    Ministère public 356 17 » Zayan Zeidan c. Ministère public 360 17 » Antoine
+                    Stavro Kabaros c. Mahmoud El Moursi 361 17 v Hamed bey Mawardi c. J. M.
+                    Lichtenstern 362 17 » Ismail Aly El Tabbakh c. M. Demanget ès. q 363 17 » G.
+                    Lotfallah c. N. Cressaty ... 364 17 » J. J. Dayan &amp; C c. L. Hanoka ès. q 365
+                    18 » Hoirs Sayed Hassan Kassir El Deil c. A. Rizzo 366 18 v Galila Amine Hussein
+                    ès. n. &amp;q. c. M. Triandafilou 367 23 » Crédit Foncier d'Orient c. Jean Gyras
+                    368 23 . » Nassar Ali Hammouda c. Hoirs .Comte Sélim Chédid 370 24 ' » Mohamed
+                    Hassan El Chami et frères c. Khalil &amp; Ph. Habib 372 24 » Ahmed Mohamed El
+                    Khadem c. R.. Adler 373 1er Alai Mahmoud bey Hassan Gazia c. Boustarii, Léondi
+                    &amp; C°... 375 rr » Comptoir National d'Escompte de Paris c. Faillite Samman
+                    Frères 378 1er » Mahmoud Tolba c. G. Nehmé &amp; C° 380 2 » Georges Georgantas
+                    c. Môhamed Awad 381 2 » Gouvernement égyptien c. Rose Naggiar 381 <pb/>— Vili
+                    —</p>
                 <p>____________________________________________________________________________________________________________</p>
                 <p>1929</p>
                 <p>Mai</p>
@@ -35463,7 +35474,7 @@
                 <p>— b — <pb/>- X -</p>
                 <p> 1928 PAGE 7 Novembre Boutros Khalil Boutros c. Gabr Mâssouda ès. q ... 23 13 ))
                     Bichara Yassa Andraous c. Me X ... 28 20 » Banco di Roma c. Abdalla Cosbar ...
-                    30 27 )> Bellini Michel c. Parissi Beileni ... 42 28 » Bodigitch Francesca c.
+                    30 27 )&gt; Bellini Michel c. Parissi Beileni ... 42 28 » Bodigitch Francesca c.
                     Ministère public ... 57 12 Décembre Boucherot Georges c. Ministère public ...
                     106 20 » Bartau Agop bey .c. The Commercial &amp; Estâtes C° of Egypt ... 137 27
                     » Baraize Emile c. Société Belge égyptienne de l'Ezbékieh... ... 140 1929 9
@@ -35485,7 +35496,7 @@
                     )) Choeb Kholeif c. Crédit Foncier Egyptien ... 283 18 Mars Calfopoulo Georges
                     c. Ministère public ... 303 2 Avril Coucoudamis Vassili c. Gouvernement égyptien
                     ... 332 10 » Cassir N. &amp; M. c. Società anonima di navigazione «Puglia» 348
-                    23 )> Crédit Foncier d'Orient c. Jean Gyras 368 1" Mai Comptoir National
+                    23 )&gt; Crédit Foncier d'Orient c. Jean Gyras 368 1" Mai Comptoir National
                     d'Escompte de Paris c. Faillite Samman frères... 378 5 Juin Calmanti Fotini c.
                     Ministère public 436 20 Chehata Zagloul c. Greffier mixte Caire 461</p>
                 <p>1929</p>
@@ -35513,7 +35524,7 @@
                     F. Hill Cole 287 19 Juin Fahmi Ibrahim Farah c. Mathilde Assaab 460</p>
                 <p>G</p>
                 <p> 1928 7 Novembre 28 » 29 » 12 Décembre 12 » 19 » 20 » 1929 10 Janvier 13 Février
-                    21 )) 9 Mars 21 » 2 Avril 9 )) 16 » 18 » 2 Mai 2 » 2 » 13 )> 5 Juin</p>
+                    21 )) 9 Mars 21 » 2 Avril 9 )) 16 » 18 » 2 Mai 2 » 2 » 13 )&gt; 5 Juin</p>
                 <p>Ghocho Federico c. Amos G. Vaccari___________________________ Gannagé Elias &amp;
                     Fils c. Ahmed Hassan Faddoul_______________ Ganci Mary c. Georges
                     Touloumisakis_________________________ Galanti Nathan Ibrahim c. Labiba
@@ -35684,10 +35695,10 @@
                     c. Aghaton &amp;C° 203 14 » Menasche Mayer c. Société Kodak (Egypt) 222 26 »
                     Ministère des wakfs c. Hoirs Ismail Hussein 258 20 Mars Messawar Fouad c.
                     Faillite Assaissou 314 20 » Mohamed Metwalli c. Georges Zacharopoulo ès. q 315 9
-                    Avril Me X. c. Aly Hassan El Sayegh , 344 10 )> Me X. c. E. Ghaliounghi ès. q
+                    Avril Me X. c. Aly Hassan El Sayegh , 344 10 )&gt; Me X. c. E. Ghaliounghi ès. q
                     355 24 » Mohamed Hassan El Chain! et frères c. Khalil &amp; Ph. Habib 372 1" Mai
                     Mahmoud bey Hassan Gazia c. Boustani, Léondi &amp; C° 375 1" » Mahmoud Tolba c.
-                    G. Nehmé &amp;C° 380 13 » Mohamed El Mahmoudi c. Ministère public 386 13 )>
+                    G. Nehmé &amp;C° 380 13 » Mohamed El Mahmoudi c. Ministère public 386 13 )&gt;
                     Ministère public c. Dimitri Zerbini 386 13 » Ministère public c. Aleco Boustani
                     388 14 » Ministère des wakfs c. David Rofé &amp; Sons 392 16 » Mirza Nasrallah
                     Khan Cheibani Djelil El Molk c. Mirza Mohamed Ali 16 » Fadlalah Abdel Gawad
@@ -37703,7 +37714,7 @@
                     inexistante. - 20 novembre 1928, 3fL</p>
                 <p>v. Faillite, 8; Référé, 11. <pb/>— XLin —</p>
                 <p>INSCRIPTION HYPOTHECAIRE</p>
-                <p>Inscription > hypothécaire. —' v. Saisie immobilière, 16.</p>
+                <p>Inscription &gt; hypothécaire. —' v. Saisie immobilière, 16.</p>
                 <p>Instance judiciaire.</p>
                 <p>Si un procès n'est que la suite et la conséquence d'un précédent procès entre les
                     mêmes parties, celles-ci sont en droit de se prévaloir des constatations et des
@@ -37803,7 +37814,7 @@
                 <p>1. - Le jugement prononcé au profit d'un nazir dont le décès a été dénoncé avant
                     que la cause fût en état et sans que l'instance ait été reprise par le nouveau
                     nazir, est nul, mais la nullité est relative et ne peut être soulevée -que par
-                    le successeur du décédé. - 31 décembre 1928, 144. - ■ ■ . ></p>
+                    le successeur du décédé. - 31 décembre 1928, 144. - ■ ■ . &gt;</p>
                 <p>- 2. -.En cas.vde décès-oh de'changement d'état, l'interruption de la procédure
                     n'a lieu qu'à partir de la notification de la mort ou du changement d'état à la
                     partie adverse. Lorsque le changement d'état découle de l'interdiction légale
@@ -37841,7 +37852,7 @@
                     XLV — JEU</p>
                 <p>tonte judiciaire pour obtenir la consécration des droits privés dont l'autorité
                     administrative n'est pas compétente à connaître. - 17 janvier 1929, 183.</p>
-                <p>> '</p>
+                <p>&gt; '</p>
                 <p>J</p>
                 <p>Jeu. — v. Courses de chevaux, 1; Obligation, 9; Répétition d'indu, 1.</p>
                 <p>Juge-commissaire. — v. Faillite, 2.</p>
@@ -37969,7 +37980,7 @@
                     telle qu'une mise sous séquestre, peut être rapportée par le juge mixte si des
                     circonstances nouvelles sont survenues rendant inutile la mesure 'ordonnée. Mais
                     s'agissant d'une mesure de séquestration acceptée par les parties dans une
-                    transaction que le tribunal indigène s'est borné à > homologuer, le juge des
+                    transaction que le tribunal indigène s'est borné à &gt; homologuer, le juge des
                     référés .mixte n'est pas compétent pour rechercher s'il existe des circonstances
                     nouvelles permet- <pb/>-- XLVII - JURIDICTION MIXTE</p>
                 <p>tant d'ordonner' la-cessation dé' cfette mesure.</p>
@@ -39071,7 +39082,7 @@
                     puiser des droits. -12 février 1929,-212. ' . " . , ,t./.</p>
                 <p>Réduction de demande..— v. Appel civil, 6,' 23;</p>
                 <p> Compétence, ;.l. ,</p>
-                <p>Référé. ' >,</p>
+                <p>Référé. ' &gt;,</p>
                 <p>R - La mise sous séquestre d'une chose litigieuse dépend de, l'appréciation,
                     du'juge et» le <pb/>— LXIII -</p>
                 <p>REFERE</p>
@@ -39427,7 +39438,7 @@
                     saisie conservatoire a été rendue contre le bateau et son capitaine représentant
                     l'armateur quel qu'il soit, ne saurait légitimer la saisie. - 10 avril 1929,
                     348.</p>
-                <p>Saisie illégale. — v. Responsabilité, 8. ></p>
+                <p>Saisie illégale. — v. Responsabilité, 8. &gt;</p>
                 <p>Saisie immobilière.</p>
                 <p>1. - Le créancier dont la procédure de saisie immobilière a été suspendue par
                     l'opposition faite à son commandement, ne peut user de la voie indirecte de la

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?> <?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +7,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-08-06">August 6, 2026</date></edition>
+                <edition>
+                    <date when="2026-08-06">August 6, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,14 +17,19 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimile:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63487-0032-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63487-0032-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
                     <title>Bulletin de législation et de jurisprudence égyptiennes = Bollettino di
-                        legislazione egiziana</title><date when="1920-01-01">1920</date><biblScope
-                        unit="volume">32</biblScope><extent><measure unit="pages" quantity="0"
-                            >0</measure>pages</extent></bibl>
+                        legislazione egiziana</title>
+                    <date when="1920-01-01">1920</date>
+                    <biblScope unit="volume">32</biblScope>
+                    <extent>
+                        <measure unit="pages" quantity="0">0</measure>pages</extent>
+                </bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -196,7 +203,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-10">
                         <head>28 octobre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Vente immobilière; titres de propriété; communication ; obligation du
@@ -279,7 +286,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-20">
                         <head>4 novembre 1919 — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Taxe : opposition ; délai ; moyens. — II. Vente immobilière :
@@ -395,7 +402,7 @@
                             <p>Par ces motifs : réduit la taxe.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-30">
                         <head>4 novembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Préemption; contestation du prix; offre; serment. — II. Préemption
@@ -467,7 +474,7 @@
                                 préemption.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-40">
                         <head>5 novembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Juridiction mixte; incompétence ; exception ; ordre public. — II.
@@ -543,7 +550,7 @@
                             <p>Par ces motifs : condamne.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-50">
                         <head>11 novembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Vente immobilière ; accessoires ; exclusion ; cas. — II. Vente
@@ -753,7 +760,7 @@
                             <p>Par ces motifs : réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-60">
                         <head>11 novembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Ordre entre créanciers ; privilège non demandé ; contredit ;
@@ -805,7 +812,7 @@
                             <p>Par ces motifs : déboute.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-70">
                         <head>11 novembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Adjudication ; créancier inscrit ; désintéressement en dehors de
@@ -915,7 +922,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-80">
                         <head>11 novembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Preuve testimoniale ; admissibilité ; conditions.</p>
@@ -933,7 +940,7 @@
                             <p>c. Mohamed Effendi Tewfik Ragab et Ct.).</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-90">
                         <head>12 novembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Wakf ; riazir ; séquestre ; remplacement.</p>
@@ -990,7 +997,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-100">
                         <head>12 novembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Juridiction mixte ; faux principal ; inexistence ; cas.</p>
@@ -1059,7 +1066,7 @@
                                 damila et Zo-beida.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-110">
                         <head>12 novembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Instance pendante au fond ; mesures provisoires ; séquestre ; référé
@@ -1114,7 +1121,7 @@
                             <p>Par ces motifs : annule.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-120">
                         <head>18 novembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>L Distribution par contribution ; bordereau contesté; appel; taux. —
@@ -1199,7 +1206,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-1-130">
                         <head>19 novembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Séquestre ; référé ; compétence ; conditions.</p>
@@ -1558,7 +1565,7 @@
                         termes.</p>
                     <p>4. Nos Ministres des Finances et de l'intérieur sont chargés, chacun en ce
                         qui le concerne, de l'exécution de la présente loi.</p>
-                    <p>Fait au Palais d'Abdine, le 1" Gamad el Tani 1338 (2> février 1920).</p>
+                    <p>Fait au Palais d'Abdine, le 1" Gamad el Tani 1338 (2&gt; février 1920).</p>
                     <p>FOUAD.</p>
                     <p>-----------------------szs----------------------</p>
                     <p>Loi n° 14 du 21 février 1920, portant Règlement sur l'exercice de la
@@ -1713,7 +1720,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-2-10">
                         <head>20 novembre 1919. — Prés. E. Eeman.</head>
                         <div type="summary">
                             <p>I. Cession ; condition ; inaccomplissement; résiliation ; offre
@@ -1818,7 +1825,7 @@
                             <p>Par ces motifs : confirme en tant....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-2-20">
                         <head>25 novembre 1919. — Prés Bernardi.</head>
                         <div type="summary">
                             <p>Terrains ; autorités locales ; déclaration ; valeur.</p>
@@ -1910,7 +1917,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-2-30">
                         <head>25 novembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Adjudication ; vente de biens adjugés ; délégation du prix ;
@@ -2014,7 +2021,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-2-40">
                         <head>25 novembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Employé a titre temporaire; nomination définitive ; patron;
@@ -2070,7 +2077,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-2-50">
                         <head>25 novembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Dation en paiement ; résiliation ; effet rétroactif ; renaissance des
@@ -2177,7 +2184,7 @@
                             <p>Par ces motifs : Infirme en partie, confirme pour le smqjlus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-2-60">
                         <head>2lì novembre 1919 - Prés. Laloë.</head>
                         <div type="summary">
                             <p>Saisie-arrêt; saisissant et saisi indigènes; tiers saisi étranger ;
@@ -2259,7 +2266,7 @@
                         </div>
                     </div>
                     <pb n="30"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-2-70">
                         <head>27 novembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Tuteur; vente des récoltes du mineur; responsabilité personnelle ;
@@ -2422,7 +2429,7 @@
                             <p>Par ces motifs : réforme en partie, confirme pour le surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-2-80">
                         <head>27 novembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Surenchère ; déclaration ; dénonciation ; déclaration de command ;
@@ -2489,12 +2496,12 @@
                         bordereau par un des acheteurs ; lolle enchère contre l'adjudicataire;
                         inadmissibilité (p. 31).</p>
                     <p>Convention ; stipulations expresses; juge; motiks d'équité; application;
-                        impossibilité (p. 3G>.</p>
+                        impossibilité (p. 3G&gt;.</p>
                     <p>I. Vente non transcrite; inscription sur l'acheteur; inscription postérieure
                         sur le vendeur ; préférence.-II. Vente non transcrite ; créancier du vendeur
                         ; connaissance de la vente ; opposabilité (p. 37).</p>
                     <p>Expropriation ; machine ; placards ; mention ; absence ; prix d'adjudication;
-                        diminution (j>. 38).</p>
+                        diminution (j&gt;. 38).</p>
                     <p>Faillite ; créanciers chirographaires; vérification; action directe ; non
                         recevabilité (p. 39,.</p>
                     <p>Copie de lettres ; force probante ; présomptions (p. 39).</p>
@@ -2520,7 +2527,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-3-10">
                         <head>19 novembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Navire ottoman ou égyptien ; pavillon etranger ; acquisition ;
@@ -2610,7 +2617,7 @@
                                 incompétemment saisi.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-3-20">
                         <head>27 novembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Adjudication ; vento des biens adjugés ; solidarité entre acheteurs ;
@@ -2701,7 +2708,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-3-30">
                         <head>27 novembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Convention ; stipulations expresses ; juge ; motif'd'cquité;
@@ -2791,7 +2798,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-3-40">
                         <head>2 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Vente non transcrite ; inscription sur l'acheteur ; inscription
@@ -2869,7 +2876,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-3-50">
                         <head>2 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Expropriation ; machine ; placards ; mention ; absence : prix
@@ -2938,7 +2945,7 @@
                             <p>Par ces motifs : émendant... confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-3-60">
                         <head>2 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Faillite ; créanciers chirographaires ; vérification ; action directe
@@ -2993,7 +3000,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-3-70">
                         <head>2 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Copie de lettres; force probante ; présomptions.</p>
@@ -3051,7 +3058,7 @@
                             <p>Par ces motifs : confirme................</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-3-80">
                         <head>2 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Jugement d'adjudication ; droits qu ii confère; excédent d'arpentage
@@ -3100,7 +3107,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-3-90">
                         <head>3 décembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Droit musulman ; succession ; héritiers ; séparation des patrimoines;
@@ -3182,7 +3189,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-3-100">
                         <head>3 décembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Association en participation ; société en nom collectif; caractère
@@ -3467,7 +3474,7 @@
                             <p>»</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-3-110">
                         <head>4 décembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Expropriation immobilière ; surenchère ; dénonciation ; débiteur
@@ -3547,8 +3554,8 @@
                                 étant elle-même une ex- </p>
                             <pb n="47"/>
                             <p>ception à la règle qu'une convention est défi- i nitivement formée
-                                par l'acceptation de l'offre, !> que la vente est parfaite quand il
-                                y a eu consentement des deux parties, l'une pour vendre, l'autre
+                                par l'acceptation de l'offre, !&gt; que la vente est parfaite quand
+                                il y a eu consentement des deux parties, l'une pour vendre, l'autre
                                 pour acheter, et qu'elles sont d'accord sur la chose et sur le prix
                                 (C. C. 301) ;</p>
                             <p>Que l'on ne saurait d'autre part invoquer l'art. 709 du code
@@ -3578,7 +3585,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-3-120">
                         <head>4 décembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Saisie immobilière ; adjudicataire ; obligation ; prix ; payement ;
@@ -3686,7 +3693,7 @@
                                 j tenu qu'au paiement de son prix, sans tenir I aucun compte des
                                 changements survenus aux | immeubles; tous les cahiers des charges
                                 por- j tent d'ailleurs la clause: «l'adjudicataire pren- i dra les
-                                dits biens dans l'état où ils se trou- > vent au jour de
+                                dits biens dans l'état où ils se trou- &gt; vent au jour de
                                 l'adjudication » ; '</p>
                             <p>Attendu que l'appel est également mal fondé en ce qui concerne la
                                 condamnation aux i frais, lesquels doivent retomber sur celui qui, l
@@ -3875,8 +3882,8 @@
                         touchait, mais dans les limites maxima prévues aux dits paragraphes.</p>
                     <p>(4) Les Magistrats étrangers et leur famille seront admis à jouir des
                         avantages pécuniaires de la Loi n° 5 de 1909 sur les pensions civiles. Ces
-                        Magistrats seront tenus de verser au Trésor > retenue de 5 pour cent prétuo
-                        par la dite loi.</p>
+                        Magistrats seront tenus de verser au Trésor &gt; retenue de 5 pour cent
+                        prétuo par la dite loi.</p>
                     <p>(5) Les dispositions des paragraphes 6, 7 et 8 de l'article précédent sont
                         applicables aux Magistrats qui seront nommés après la date de la publication
                         de la présente loi.</p>
@@ -3947,7 +3954,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-4-10">
                         <head>4 décembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Serment ; transaction; preuve ; délation ; mandataires ;
@@ -4018,7 +4025,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-4-20">
                         <head>4 décembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Jugement pénal ; nullités substantielles ; cas ; cassation.</p>
@@ -4060,7 +4067,7 @@
                             <p>Par ces motifs : casse.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-4-30">
                         <head>4 décembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Droit hellénique ; dot ; mari ; propriété ; administration ; actions
@@ -4111,7 +4118,7 @@
                             <p>Par ces motifs : confirme</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-4-40">
                         <head>4 décembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Adjudicataire ; folles enchères successives ; différence de prix ;
@@ -4264,7 +4271,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-4-50">
                         <head>9 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Succession ; créanciers du défunt ; séparation de patrimoines :
@@ -4326,7 +4333,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-4-60">
                         <head>9 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Avocat; adjudication ; command au profit du client; folle enchère ;
@@ -4381,7 +4388,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-4-70">
                         <head>10 décembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Jugement par défaut ; péremption ; faillite du défaillant. — II.
@@ -4468,14 +4475,14 @@
                                 Vitiadis &amp; C° qui n'y figurent pas;</p>
                             <p>Que l'on ne peut donc reconnaître que ces j derniers aient employé le
                                 mode d'exécution | auquel il leur était facile de recourir, ni que
-                                ></p>
-                            <p>le débiteur Kharpakis ait acquiescé au juge- ></p>
+                                &gt;</p>
+                            <p>le débiteur Kharpakis ait acquiescé au juge- &gt;</p>
                             <p>ment par défaut. ;</p>
                             <p>Par ces motifs : confirme. , </p>
                         </div>
                     </div>
                     <pb n="59"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-4-80">
                         <head>10 décembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Cession de droit; accessoires; garanties.—II. Concordat ;
@@ -4634,7 +4641,7 @@
                             <p>Par ces motifs : dit résolu le concordat.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-4-90">
                         <head>10 décembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Exploit d'huissier; copie; valeur; erreur matérielle;
@@ -4746,7 +4753,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-4-100">
                         <head>il décembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Vente; payement à terme; interdiction d'aliéner; validité. — II.
@@ -4966,7 +4973,7 @@
                         II. Honoraires; convention; taxe; inexistence (p. 76,.</p>
                     <p>Hodget; transcription régulière; certificats erronés; responsabilité (p. 77).
                         '</p>
-                    <p>Transcription ; omission ; tiers ; bonne foi ; définition ll> ").</p>
+                    <p>Transcription ; omission ; tiers ; bonne foi ; définition ll&gt; ").</p>
                     <p>I. Péremption d'instance ; opposition à taxe: déclaration au greffe ; point
                         de départ — II Péremption d'instance; pourparlers; suspension ; inefficacité
                         (p. 78).</p>
@@ -5371,7 +5378,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-5-10">
                         <head>11 décembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Matière pénale ; ordonnance de la Chambre du conseil ; absence de
@@ -5478,7 +5485,7 @@
                             <p>Par ces motifs : casse.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-5-20">
                         <head>16 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Distribution ; appel incident d'intimé à intimé ;
@@ -5622,7 +5629,7 @@
                             <p>Par ces motifs : infirme en partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-5-30">
                         <head>17 décembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Acte préliminaire de vente ; restitution des arrhes ; stipulation
@@ -5688,7 +5695,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-5-40">
                         <head>17 décembre 1919. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Action en faux; pièce signifiée, communiquée ou produite.—11.
@@ -5778,7 +5785,7 @@
                             <p>Par ces motifs : dit..</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-5-50">
                         <head>18 décembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Cumul; honoraires; taxation; droit exclusif; client;
@@ -5836,7 +5843,7 @@
                         </div>
                     </div>
                     <pb n="77"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-5-60">
                         <head>18 décembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Hodget; transcription régulière; certificats erronés;
@@ -5884,7 +5891,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-5-70">
                         <head>18 décembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Transcription; omission; tiers; bonne foi ; définition.</p>
@@ -5981,7 +5988,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-5-80">
                         <head>18 décembre 1919. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Péremption d'instance ; opposition à taxe ; déclaration au greffe
@@ -6051,7 +6058,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-5-90">
                         <head>23 décembre 1919. — Prés.- Bernardi.</head>
                         <div type="summary">
                             <p>Préemption) ; vente administrative ; biens des particuliers ; saisie
@@ -6140,7 +6147,7 @@
             <div type="issue" n="6">
                 <div type="nameplate">
                     <p>Anno Trentaduesimo (1919-1920)</p>
-                    <p>->■ N° 6 — Trente-deuxième Année (1919-1920)</p>
+                    <p>-&gt;■ N° 6 — Trente-deuxième Année (1919-1920)</p>
                     <p>BOLLETTINO</p>
                     <p>BULLETIN</p>
                     <p>DI</p>
@@ -6457,7 +6464,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-6-10">
                         <head>23 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Distribution ; règlement ; absence de contredit ; action en
@@ -6538,7 +6545,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-6-20">
                         <head>23 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Expropriation ; adjudicataire ; revendication partielle ; demande de
@@ -6618,7 +6625,7 @@
                                 incident bien fondé.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-6-30">
                         <head>23 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Domaine vendu ; locataires : village ; habitations ; revendication ;
@@ -6771,7 +6778,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-6-40">
                         <head>30 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Contredit ; formule vague ; inadmissibilité.</p>
@@ -6837,7 +6844,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-6-50">
                         <head>30 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Sujets ottomans ; statut ; contestation avec des sujets locaux ;
@@ -6907,7 +6914,7 @@
                                 d'exclure les Allemands du privilège de pouvoir porter leurs litiges
                                 en matière civile devant les tribunaux mixtes (ordonnance du juge
                                 des référés d'Alexandrie — non appelée — du 27 août 1914, voir
-                                Gazette> IV, 196, No. 472);</p>
+                                Gazette&gt; IV, 196, No. 472);</p>
                             <p>Aujourd'hui c'est justement le contraire qu'on prétend, à savoir que
                                 puisque l'Egypte ne fait plus partie de l'Empire ottoman et que les
                                 sujets ottomans sont — momentanément — considérés en Egypte comme
@@ -7012,7 +7019,7 @@
                             <p>Par ces motifs : déclare les juridictions mixtes incompétentes.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-6-60">
                         <head>30 décembre 1919. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Vente ; perfection ; offre d'achat ; acceptation ; chose ; prix ;
@@ -7024,17 +7031,17 @@
                                 propriétaire, notifiée à l'acheteur par lettre, ce qui résulte
                                 d'une, apostille apposée au bas de la lettre d'offre, transcrite au
                                 bureau des hypothèques, constitue donc une vente parfaite, à partir
-                                de la transcription de laquelle commence à courir le délai de 6 mor>
-                                imparti par l'art. 22 du décret du 26 mars 1900 sur l'exercice du
-                                droit de préemption. Les clauses d'après lesquelles le solde du prix
-                                devait être payé au moment de la passation de l'acte définitif à la
-                                première réquisition du vendeur et l'acheteur ne devait prendre
-                                possession des biens en sa qualité de propriétaire qu'après paiement
-                                du prix et passation de l'acte définitif, n'enlèvent pas à l'accord
-                                le caractère de vente parfaite et irrévocable, alors même qu'en cas
-                                de retard dans le paiement du prix et la passation de l'acte
-                                définitif, 1er vendeur pouvait considérer l'accord comme nul et non
-                                avenu.</p>
+                                de la transcription de laquelle commence à courir le délai de 6
+                                mor&gt; imparti par l'art. 22 du décret du 26 mars 1900 sur
+                                l'exercice du droit de préemption. Les clauses d'après lesquelles le
+                                solde du prix devait être payé au moment de la passation de l'acte
+                                définitif à la première réquisition du vendeur et l'acheteur ne
+                                devait prendre possession des biens en sa qualité de propriétaire
+                                qu'après paiement du prix et passation de l'acte définitif,
+                                n'enlèvent pas à l'accord le caractère de vente parfaite et
+                                irrévocable, alors même qu'en cas de retard dans le paiement du prix
+                                et la passation de l'acte définitif, 1er vendeur pouvait considérer
+                                l'accord comme nul et non avenu.</p>
                         </div>
                         <div type="litigants">
                             <p>(Aly Badr et Cts. c. Land Bank of Egypt et Cts.)..</p>
@@ -7082,7 +7089,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-6-70">
                         <head>3 janvier 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Vente ; simulation ; sous-acquéreur de bonne foi ; créancier
@@ -7185,7 +7192,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-6-80">
                         <head>3 janvier 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Journal; imputation calomnieuse ; espionnage; démenti ; restrictions
@@ -7277,7 +7284,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-6-90">
                         <head>3 janvier 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Offres réelles ; action en validation'; domicile du créancier ;
@@ -7601,7 +7608,7 @@
                     <p>Le Caire, le 7 juin 1920 (2G Ramadan 1338).</p>
                     <p>M. Tewfick Nassim.</p>
                     <p>----------------------szs----------------------</p>
-                    <p>Loi n-> 22 du 8 juin 1920 relative au Pilotage dans le Port d'Alexandrie
+                    <p>Loi n-&gt; 22 du 8 juin 1920 relative au Pilotage dans le Port d'Alexandrie
                         (1).</p>
                     <p>Nous, Sultan d'Egypte,</p>
                     <p>Vu le Décret du 30 décembre 1896 relatif aux droits de pilotage dans le port
@@ -7648,7 +7655,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-10">
                         <head>3 janvier 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Action possessore ; titrés ; examen ; objet spécial.</p>
@@ -7749,7 +7756,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-20">
                         <head>3 janvier 192C. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Expropriation ; subrogation aux poursuites ; juge délégué; examen
@@ -7872,10 +7879,10 @@
                                 maître de ses droits;</p>
                             <p>Et attendu que rien ne permet de croire que le législateur mixte
                                 aurait voulu s'écarter de la rigueur de ces principes: que s'il a
-                                résumé les conditions de l'art. 1250 C. N., on ne voit >pas pourquoi
-                                il les aurait modifiées et rendues moins strictes; qu'il semble
-                                qu'il a, au contraire, rappelé ce qu'elles ont d'essentiel en disant
-                                que l'emprunt et l'emploi doivent être constatés par acte
+                                résumé les conditions de l'art. 1250 C. N., on ne voit &gt;pas
+                                pourquoi il les aurait modifiées et rendues moins strictes; qu'il
+                                semble qu'il a, au contraire, rappelé ce qu'elles ont d'essentiel en
+                                disant que l'emprunt et l'emploi doivent être constatés par acte
                                 authentique; qu'il paraît difficile de donner à ce mot «l'emploi» un
                                 autre sens que celui du paiement effectivement fait et réalisé au
                                 profit du créancier et constaté par lui suivant reconnaissance ou
@@ -7887,7 +7894,7 @@
                             <p>Par ces motifs : déclarant l'appel recevable, infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-30">
                         <head>6 janvier 192,0. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Subrogation ; tiers ; payement effectif ; deniers du débiteur :
@@ -7952,7 +7959,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-40">
                         <head>6 janvier 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Expropriation ; tiers détenteur ; distribution ; solde du prix ;
@@ -8041,7 +8048,7 @@
                             <p>Par ces motifs : avant dire droit....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-50">
                         <head>6 janvier 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Saisie ; revendication ; femme ; circonstances.— II. Revendication
@@ -8132,7 +8139,7 @@
                             <p>Par ces motifs : maintient.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-60">
                         <head>8 janvier 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Saisie immobilière ; adjudication; prix; dépôt; dispense ; caractère
@@ -8267,7 +8274,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-70">
                         <head>S janvier 19-0 — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Voisins: convention; parcelle usurpée ; restitution ; transcription ;
@@ -8353,7 +8360,7 @@
                             <p>Par ces motifs : confirme</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-80">
                         <head>8 janvier 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Khédives d'Egypte ; pansions ; matière religieuse ; limite; Wakfs
@@ -8465,7 +8472,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-90">
                         <head>12 janvier 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Assurance maritime ; risque de guerre ; refuge ; suites.</p>
@@ -8582,7 +8589,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-100">
                         <head>12 janvier 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Jugement ; signification ; chose jugée ; cas. — II. Jugement;
@@ -8686,7 +8693,7 @@
                                 contre les jugements interlocutoires des 2 et 30 mai 1918.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-110">
                         <head>12 janvier 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Délaissement ; défaut de nouvelles ; délais. — II. Appel ;
@@ -8942,7 +8949,7 @@
                                 justifié par la perte totale;</p>
                             <p>Attendu que, bien que la fin de non recevoir édictée par l'art. 412
                                 C. Pr., ne soit pas d'ordre public.il convient de rechercher tout
-                                d'abord s> cette conclusion constitue une demande nouvelle ou
+                                d'abord s&gt; cette conclusion constitue une demande nouvelle ou
                                 seulement un moyen autorisé par l'art. 413;</p>
                             <p>Attendu qu'une demande ne doit pas être considérée comme nouvelle en
                                 appel, quand la cause génératrice du droit, la qualité des parties,
@@ -8984,7 +8991,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-120">
                         <head>13 janvier 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Reconnaissance de dette; commandement; opposition ; rejet. — IL
@@ -9133,7 +9140,7 @@
                             <p>Par ces motifs : déclare non recevable le contredit.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-130">
                         <head>13 janvier 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Billets à ordre ; assignation en paiement ; contestation de la dette
@@ -9204,7 +9211,7 @@
                             <p>Par ces motifs : déclare non recevable le contredit.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-140">
                         <head>13 janvier 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Transcription ; défaut ; tiers ; bonne foi.</p>
@@ -9304,7 +9311,7 @@
                             <p>Par ces motifs : avant dire droit....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-150">
                         <head>13 janvier 1920 — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Debiteur exproprié ; possession ; adjudication ; revendication ;
@@ -9379,7 +9386,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-160">
                         <head>13 janvier 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Hypothèque ; fiers détenteur ; poursuites ; péremption de
@@ -9468,7 +9475,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-170">
                         <head>15 janvier 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Art. 692 C. Pr.; nullité de fond; juge délégué; incompétence ;
@@ -9628,7 +9635,7 @@
                             <p>Par ces motifs : renvoie les parties....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-7-180">
                         <head>15 janvier 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Adjudication ; participant ; prix ; dépôt ; condamnation ; frais.</p>
@@ -9761,7 +9768,7 @@
                         alimentaire ; situation des intéressés ; modification. — IV. Action
                         alimentaire ; source; textes de lois applicables. — V. Aliments ; père
                         putatif; ascendants légitimes (p. 129).</p>
-                    <p>Propriétaire par indivis ; expropriation &amp;lt; prò diviso > ; jugement
+                    <p>Propriétaire par indivis ; expropriation &amp;lt; prò diviso &gt; ; jugement
                         d'adjudication ; annulation (p. 131).</p>
                     <p>I. Annexion ; naturalisation ; Ile de Chypre ; Ottomans établis ailleurs. —
                         II. Conseil Sanitaire, Maritime et Quarantenaire ; contestations pécuniaires
@@ -9814,7 +9821,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-10">
                         <head>15 janvier 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Mère ; action en déclaration de paternité ; autorité consulaire ;
@@ -9980,7 +9987,7 @@
                                 fondée.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-20">
                         <head>20 janvier 1920. — Prés: Bernardi.</head>
                         <div type="summary">
                             <p>Propriétaire par indivis; expropriation «prò diviso»; jugement
@@ -10041,7 +10048,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-30">
                         <head>21 janvier 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Annexion ; naturalisation ; Ile de Chypre ; Ottomans établis
@@ -10188,7 +10195,7 @@
                                 gain ou à la perte du procès, parce que « c'est le seul Gouvernement
                                 « Egyptien qui paiera la note comme il est seul « à faire face au
                                 budget du Conseil » ;</p>
-                            <p>> Attendu que cette indication est loin d'être exacte;</p>
+                            <p>&gt; Attendu que cette indication est loin d'être exacte;</p>
                             <p>Attendu que l'administration des recettes et des dépenses du Conseil
                                 est confiée à un comité de cinq membres, dont trois sont étrangers
                                 et sont désignés par lui; qu'il lui est recommandé d'équilibrer les
@@ -10242,7 +10249,7 @@
                                 composé.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-40">
                         <head>21 janvier 1920 — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Vente ; vice caché ; vice apparent ; droits. — II. Vente; vice
@@ -10397,7 +10404,7 @@
                             <p>Par ces motifs confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-50">
                         <head>22 janvier 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Sentence d'appel ; pourvoi en cassation ; recevabilité. — II. Lait
@@ -10450,7 +10457,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-60">
                         <head>27 janvier 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Ordre ; règlement provisoire ; règlement définitif non conforme ;
@@ -10563,7 +10570,7 @@
                             <p>Par ces motifs : Infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-70">
                         <head>27 janvier 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Saisie ; revendication ; charge de la preuve. — II. Appel ;
@@ -10638,7 +10645,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-80">
                         <head>27 janvier 1'920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Hypothèque ; tiers détenteur ; transcription ; nécessité ; simple
@@ -10674,8 +10681,8 @@
                                 cet acheteur comme tiers détenteur et lui attribuer les droits que
                                 la loi confère au tiers détenteur, en imposant au poursuivant les
                                 charges correspondantes;</p>
-                            <note place="bottom">(l> Rapp. 28 décembre 1901 (Bull., XVIf, 53) et 7
-                                novembre 1918 (Bull., XXXI, 11). </note>
+                            <note place="bottom">(l&gt; Rapp. 28 décembre 1901 (Bull., XVIf, 53) et
+                                7 novembre 1918 (Bull., XXXI, 11). </note>
                             <pb n="141"/>
                             <p>Plusieurs arrêts de cette Cour ont décidé, il est vrai, que le tiers
                                 — qui (sans être tenu de s'enquérir en dehors des registres
@@ -10718,7 +10725,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-90">
                         <head>27 janvier 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Codébiteur solidaire ; paiement ; subrogation. — II. Livres
@@ -10960,7 +10967,7 @@
                         </div>
                     </div>
                     <pb n="145"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-100">
                         <head>28 janvier 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Société ; faillite jugement déclaratif ; dispositif ;
@@ -11068,7 +11075,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-110">
                         <head>28 janvier 19-20 — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Maison de commerce ; chef de rayon ; pouvoirs ; vente à terme ;
@@ -11159,7 +11166,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-120">
                         <head>29 janvier 1920. — Prés. Larchbr.</head>
                         <div type="summary">
                             <p>Titres transcrits ; jugement ultérieur ; non transcription ;
@@ -11226,7 +11233,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-130">
                         <head>29 janvier 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Dette ; intérêts ; arrêt de leur cours ; procédure à suivre.</p>
@@ -11272,7 +11279,7 @@
                                 toutefois....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-140">
                         <head>3 février 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Retrait successoral ; jugement de partage; déchéance. — II.
@@ -11371,7 +11378,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-150">
                         <head>5 février 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Revendication incidente ; nullité couverte. — II. Contrat
@@ -11516,13 +11523,13 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-160">
                         <head>5 février 1920. — Prés. La.kciier.</head>
                         <div type="summary">
                             <p>Placards ; mise à prix ; erreur ; délai pour en exciper.</p>
                             <p>L'irrégularité consistant dans l'indication, dans les placards, d'une
                                 mise à prix inférieure à celle fixée, est une de celles prévues aux
-                                art. 692 et 695 C. Pr. qui doivent, à peine dè> déchéance, être
+                                art. 692 et 695 C. Pr. qui doivent, à peine dè&gt; déchéance, être
                                 proposées avant l'ouverture des enchères et sans qu'il y ait lieu à
                                 opposition ou appel.</p>
                         </div>
@@ -11564,7 +11571,7 @@
                             <p>Par ces motifs : déclare l'appel non recevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-170">
                         <head>11 février 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Faillite ; recours réservé ; exercice. — II. Jugement ;
@@ -11714,7 +11721,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-180">
                         <head>11 lévrier 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Saisie mobilière ; revendication ; référé : mesures conservatoires,
@@ -11773,7 +11780,7 @@
                                 comme étant ceux revendiqués par les intimés.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-190">
                         <head>12 lévrier 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Surenchère ; dénonciation ; délai utile.</p>
@@ -11900,7 +11907,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-200">
                         <head>17 février 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Ordre ; erreur ; collocations indues ; conséquence; cas.</p>
@@ -12047,7 +12054,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-210">
                         <head>19 février 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Action oblique; débiteur; mise en cause.</p>
@@ -12113,7 +12120,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-8-220">
                         <head>24 février 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Immeuble ; acquéreur ; prix ; créanciers inscrits ; paiement ;
@@ -12227,7 +12234,7 @@
                 </div>
                 <div type="section" feature="jurisprudence">
                     <p>Cour d'appel mixte</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-9-10">
                         <head>22 février 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Sous-traitant; privilège; cessionnaire de l'entrepreneur :
@@ -12379,7 +12386,7 @@
                                 cessionnaire de ce dernier.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-9-20">
                         <head>25 février 1920. — Prés. Laloî:.</head>
                         <div type="summary">
                             <p>I. Jugement ordonnant une expertise ; appel ; expertise; résultats ;
@@ -12498,7 +12505,7 @@
                             <p>Par ces motifs : confirme en partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-9-30">
                         <head>2 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Prescription ; procès-verbal non notifié ; interruption ;
@@ -12576,7 +12583,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-9-40">
                         <head>2 mars 1920. - Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Réserves ; donné acte ; inutilité. — II. Ordre ; créance
@@ -12729,7 +12736,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-9-50">
                         <head>2 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Faillite ; actes à titre onéreux ; annulation ; art. 236 C.Co. ;
@@ -12787,7 +12794,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-9-60">
                         <head>3 mars 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Appel ; exception d'incompétence ; recevabilité ; condition. — II.
@@ -12868,7 +12875,7 @@
                             <p>Par ces motifs : annule et condamne.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-9-70">
                         <head>4 mars 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Contravention ; occupation de la voie publique ; roksa ; date ; objet
@@ -12924,7 +12931,7 @@
                             <p>Par ces motifs : casse.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-9-80">
                         <head>4 mars 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Cahier des charges; déficit; clause de non garantie ;
@@ -12994,7 +13001,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-9-90">
                         <head>9 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Expropriation ; prix d'adjudication ; séquestre ; revenus ;
@@ -13045,7 +13052,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-9-100">
                         <head>9 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Reprise d'instance ; assignation d'une nouvelle partie ;
@@ -13144,7 +13151,7 @@
                                 ces</p>
                             <p>héritiers le devoir de fournir la preuve pleine et entière qu'ils
                                 n'ont rien recueilli de la succession, ce que les hoirs de la dame
-                                Zohra > Hanem n'ont pas fait et ne pouvaient faire, étant donné
+                                Zohra &gt; Hanem n'ont pas fait et ne pouvaient faire, étant donné
                                 qu'il n'a jamais été prétendu au cours du procès que, par exemple,
                                 la parcelle litigieuse fasse partie du wakf.</p>
                             <p>Le jugement attaqué doit donc sur ce point principal être
@@ -13182,7 +13189,7 @@
                             <p>Par ccs motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-9-110">
                         <head>9 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Adjudication ; locataire ; expulsion ; responsabilité ;
@@ -13350,7 +13357,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-10-10">
                         <head>9 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Juridiction mixte; saisie-arrêt; indigènes; étranger; mise en
@@ -13432,7 +13439,7 @@
                             <p>Infirme le jugement 1 1 décembre 1918.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-10-20">
                         <head>10 mars 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Charte-partie ; clause d'arbitrage ; exception ; non recevabilité
@@ -13559,7 +13566,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-10-30">
                         <head>10 mars 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Navire ; privilèges ; extinction ; délais. — II. Navire ; droit de
@@ -13732,7 +13739,7 @@
                             <p>Par ces motifs : surseoit.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-10-40">
                         <head>11 mars 1922. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Appel ; recevabilité ; cas. — II. Opposition à commandement ;
@@ -13869,7 +13876,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-10-50">
                         <head>11 mars 19J0. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Juridiction mixte ; immeuble ; indigène : créancier inscrit étranger
@@ -13943,7 +13950,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-10-60">
                         <head>41 mars 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Cassation ; pourvoi; réserve. — II. Art. 136 C. I. Cr. ;
@@ -13985,8 +13992,8 @@
                                 personne de l'huissier, alors qu'en droit cette circonstance devait
                                 amener à l'inexistence de tout délit » ;</p>
                             <p>Qu'il est à retenir qu'invité par le greffier à déclarer sur qupls
-                                numéros de l'art. 153 C.I.Cr. il basait son recours, Mr&amp;lt;> X.,
-                                pour le demandeur en cassation, s'est réservé de les indiquer en
+                                numéros de l'art. 153 C.I.Cr. il basait son recours, Mr&amp;lt;&gt;
+                                X., pour le demandeur en cassation, s'est réservé de les indiquer en
                                 temps et lieu, ce qui constitue une irrégularité, le pourvoi en
                                 cassation devant se référer à l'un des quatre numéros de l'art. 153
                                 C.I.Cr. avec indication des moyens sur lesquels le pourvoi est basé,
@@ -14133,7 +14140,7 @@
                         </div>
                     </div>
                     <pb n="189"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-10-70">
                         <head>11 mars 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Dire ; contestation de la dette ; recevabilité. — II. Succession ;
@@ -14238,7 +14245,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-10-80">
                         <head>16 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Femme musulmane; mandat; mari; vente; déclaration de wakf; radiation;
@@ -14309,7 +14316,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-10-90">
                         <head>16 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Vente à réméré ; qualification par le vendeur ; fait décisif ;
@@ -14348,7 +14355,7 @@
                         </div>
                     </div>
                     <pb n="192"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-10-100">
                         <head>16 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Adjudication ; biens divis ; indivision ; annulation.</p>
@@ -14469,7 +14476,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-11-10">
                         <head>16 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Hypothèque ; désignation de l'immeuble ; inexactitude ; nullité;
@@ -14614,7 +14621,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-11-20">
                         <head>16 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Ordre ; règlement provisoire ; défaut de notification ; forclusion
@@ -14659,7 +14666,7 @@
                                 séquestre, et dont l'intérêt est de n'avancer que les frais
                                 strictement nécessaires, il ne suffit pas à un contredisant
                                 d'alléguer que les frais ont été inutilement élevés sans fournir
-                                d'amples et précis renseignements. ></p>
+                                d'amples et précis renseignements. &gt;</p>
                             <p>VI. On ne saurait reprocher à un séquestre d'avoir gardé à son
                                 service un ancien nazir du domaine, en lui diminuant, d'ailleurs,
                                 ses salaires (2).</p>
@@ -14898,7 +14905,7 @@
                             <p>Par ces motifs : confirme ; dit que la Land Bank..........'</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-11-30">
                         <head>16 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Droits réels ; transfert ; transcription ; préférence. — II.
@@ -15045,7 +15052,7 @@
                         </div>
                     </div>
                     <pb n="202"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-11-40">
                         <head>17 mars 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Mandataire; faute personnelle ; responsabilité.— II. Société
@@ -15255,7 +15262,7 @@
                         </div>
                     </div>
                     <pb n="205"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-11-50">
                         <head>17 mars 1920. — Prés. Laloê.</head>
                         <div type="summary">
                             <p>I. Maison ; meubles la garnissant; propriétaire du sol; privilège;
@@ -15446,7 +15453,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-11-60">
                         <head>mars 1920. — Prés. L'arciier.</head>
                         <div type="summary">
                             <p>I. Instance indigène ; jugement; péremption ; nullité ; faillite;
@@ -15592,12 +15599,12 @@
                     <p>I. Distribution ; contredit ; désistement à titre provisoire ;
                         inadmissibilité. — II. Salaires; moufettiche ; privilège; commis. — III.
                         Salaires; privilège; art. 727 C. C. • étendue (p. 223).</p>
-                    <p>----------------L></p>
+                    <p>----------------L&gt;</p>
                 </div>
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-12-10">
                         <head>18 mars 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Expropriation ; adjudication ; tiers ; revendication ; acte non
@@ -15688,7 +15695,7 @@
                         </div>
                     </div>
                     <pb n="211"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-12-20">
                         <head>18 mars 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Instance; prescription; 15 années; wakf; applicabilité.</p>
@@ -15791,7 +15798,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-12-30">
                         <head>- 18 mars 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>J. Mandat; salaire; juge; arbitrage; condition. — II. Mandat;
@@ -15944,7 +15951,7 @@
                                 serment....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-12-40">
                         <head>18 mars 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Adjudicataire ; dépenses d'amélioration ou de construction:
@@ -16088,7 +16095,7 @@
                             <p>Pai' ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-12-50">
                         <head>23 mars 1920. — l'rés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Saisie-revendication ; art. 542 C. Pr.; inapplicabilité. — II.
@@ -16186,7 +16193,7 @@
                             <p>Par ces motifs : confirme en modifiant.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-12-60">
                         <head>23 mars 1920. — Prés. Bkrnabdi.</head>
                         <div type="summary">
                             <p>I. Louage ; locataire ; meubles ; propriété ; présomption. — II.
@@ -16252,7 +16259,7 @@
                                 délai......</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-12-70">
                         <head>23 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Bail; réserve d'annulation ; clause licite ; résiliation ; clauses ;
@@ -16415,7 +16422,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-12-80">
                         <head>23 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Préemption ; canal commun ; tiers ; droit au maintien ; effet. —
@@ -16540,7 +16547,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-12-90">
                         <head>23 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Distribution ; contredit ; désistement à titre provisoire;
@@ -16681,7 +16688,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-13-10">
                         <head>24 mars 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Loi sur la limitation des loyers; location à usage de chambres
@@ -16765,7 +16772,7 @@
                             <p>Par ces motifs : confirme, émendant......</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-13-20">
                         <head>24 mars 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Juge des référés; séquestre; dépossession; acquéreur; remise en
@@ -16823,7 +16830,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-13-30">
                         <head>24 mars 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Saisie conservatoire : Juge des référés ; incompétence ; intervention
@@ -16917,7 +16924,7 @@
                         </div>
                     </div>
                     <pb n="229"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-13-40">
                         <head>24 mars 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Ouvrier ; infirmité ; patron ; responsabilité ; cas ; risque
@@ -17004,7 +17011,7 @@
                             <p>Par ces motifs : infirme pour partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-13-50">
                         <head>25 mars 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Saisie immobilière ; folle enchère ; poursuivant ; obligation ;
@@ -17297,7 +17304,7 @@
                             <p>Par ces motifs: infirme en partie ; dit..</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-13-60">
                         <head>25 mars 1920. — Prés. Larcher. </head>
                         <div type="summary">
                             <p>Commandement immobilier; opposition; jugement; appel ; taux ;
@@ -17368,7 +17375,7 @@
                             <p>Par ces motifs : dit l'appel non recevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-13-70">
                         <head>25 mars 1920. — Prés. Larchhr.</head>
                         <div type="summary">
                             <p>I. Prêt; monnaie; remboursement—II. Créancier; libération du débiteur
@@ -17458,7 +17465,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-13-80">
                         <head>'25 mars 1920. — Prés. La.rcher.</head>
                         <div type="summary">
                             <p>Expert inscrit au tableau ; désignation; acceptation; obligation ;
@@ -17504,7 +17511,7 @@
                             <p>Par ces motifs : enjoint...................</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-13-90">
                         <head>25 mars 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Lésion; loi mixte. — 11. Tribunaux mixtes: loi mixte. — III.
@@ -17626,7 +17633,7 @@
                             <p>Par ces motifs : infirme sur l'appel incident.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-13-100">
                         <head>31 mars 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Non rétroactivité des lois ; juges ; législateur ; pouvoir. — II.
@@ -17776,7 +17783,7 @@
                     <head>SOMMARIO — SOMMAIRE</head>
                     <p>LìGISLAT1OR . —</p>
                     <p>Décision -du 28 septembre 1920, instituant une Commission dénommée «
-                        Commission des Loyers > (page 241).</p>
+                        Commission des Loyers &gt; (page 241).</p>
                     <p>Jurisprudence. — Cour d'Appel Mixte.</p>
                     <p>I. Contredit ; profit. — II. Sons-traltant ; privilège ; opposabilité. — III.
                         Entreprise ; défense de sous-traiter ; inopposabilité. — IV. Jugement par
@@ -17848,7 +17855,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-14-10">
                         <head>30 mars 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Contredit; profit. — II. Sous-traitant; privilège; opposabilité. —
@@ -17996,7 +18003,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-14-20">
                         <head>31 mars 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Interrogatoire sur faits et articles; partie adverse.—II.
@@ -18058,7 +18065,7 @@
                             <p>Par ces motifs : continue.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-14-30">
                         <head>31 mars 1920 — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Père ; faillite ; constitution de dot ; art 235 et 237 C.Co. ;
@@ -18192,7 +18199,7 @@
                         </div>
                     </div>
                     <pb n="247"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-14-40">
                         <head>1er avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Saisie-arrêt; règlement; billet à ordre; responsabilité.</p>
@@ -18294,7 +18301,7 @@
                             <p>Par ces motifs: infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-14-50">
                         <head>1er avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Action en simulation; action paulienne; distinction. — IL
@@ -18413,7 +18420,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-14-60">
                         <head>6 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Loi des 5 feddans; maison; dépendances; habitation de la famille ;
@@ -18486,7 +18493,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-14-70">
                         <head>6 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Vente à terme ; sûretés : diminution ; délivrance ; consignation ;
@@ -18578,7 +18585,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-14-80">
                         <head>6 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>L Ordre; créancier; cession de rang; cas.— II. Chose jugée;
@@ -18711,7 +18718,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-14-90">
                         <head>6 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Ordre ; collocation sur un reliquat de prix ; précision;
@@ -18850,7 +18857,7 @@
                             <p>Par ces motifs : réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-14-100">
                         <head>6 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Partage ; créanciers individuels ; mise en cause ; faculté ;
@@ -18971,7 +18978,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-15-10">
                         <head>6 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Préemption ; déclaration ; assignation ; exploit unique; validité.
@@ -19044,7 +19051,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-15-20">
                         <head>7 avril 1920. — Prés. Laloê.</head>
                         <div type="summary">
                             <p>I. Hypothèque ; action en nullité ; bénéficiaire apparent ; maintien
@@ -19175,7 +19182,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-15-30">
                         <head>7 avril 1820. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Patron ; employé ; profession ; clause* d'interdiction; limite. —
@@ -19251,7 +19258,7 @@
                             <p>Par ces motifs : émendant, réduit.... pour le surplus confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-15-40">
                         <head>8 avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Appel ; délai de distance ; calcul. — II. Saisie immobilière ;
@@ -19304,7 +19311,7 @@
                             <p>Par ces motifs : déclare l'appel irrecevable quant au fond.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-15-50">
                         <head>8 avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Saisie immobilière ; revendication ; Juge délégué ; sursis ;
@@ -19409,7 +19416,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-15-60">
                         <head>8 avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Adjudication; mise en possession; biens non adjugés; cas. — H.
@@ -19499,7 +19506,7 @@
                         </div>
                     </div>
                     <pb n="265"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-15-70">
                         <head>8 avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Appel ; arrêt par défaut; opposition; péremption d'instance;
@@ -19664,7 +19671,7 @@
                                 novembre 1909 et y statuant, dit pour droit...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-15-80">
                         <head>8 avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Appel; arrêt par défaut : opposition ; demande en péremption ;
@@ -19750,7 +19757,7 @@
                             <p>Par ces motifs : déclare la demande en péremption non recevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-15-90">
                         <head>13 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Femme autrichienne; mariage avec un sujet grec ; nationalité
@@ -19882,7 +19889,7 @@
                             <note place="bottom">(1) Arrêt 16 avril 1918 {Bull., XXX, 364).</note>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-15-100">
                         <head>13 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Prête-nom; débiteur; situation aggravée; inadmissibilité. 11.
@@ -19973,7 +19980,7 @@
                             <p>Par ces motifs : déclare la juridiction mixte non compétente.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-15-110">
                         <head>13 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Clause pénale; art. 181 C.C. ; applicabilité; condition.</p>
@@ -20157,7 +20164,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-16-10">
                         <head>13 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Hypothèque générale ; hypothèque spéciale ; conflit; collocation;
@@ -20223,7 +20230,7 @@
                         </div>
                     </div>
                     <pb n="275"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-16-20">
                         <head>14 avril 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Effets de commerce ; prescription par 5 ans ; point de départ. —
@@ -20316,7 +20323,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-16-30">
                         <head>14 avril 1920 — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Vente ; clause « cif » : livraison ; promesse ; compétence. — 11.
@@ -20444,7 +20451,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-16-40">
                         <head>15 avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Détenteur précaire ; créancier gagiste : interversion de titre ;
@@ -20527,7 +20534,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-16-50">
                         <head>15 avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Immeuble; hypothèque au profit d'étrangers; expropriation;
@@ -20622,7 +20629,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-16-60">
                         <head>20 avril Î92O. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Vente ; nullité ; créanciers inscrits ; inopposabilité. — 11.
@@ -20687,7 +20694,7 @@
                             <p>Par.ces motifs: confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-16-70">
                         <head>20 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Servitude ; acquisition par destination du père de famille ;
@@ -20714,7 +20721,7 @@
                                 convention conclue entre lui et Idris Bey Ragheb, auteur de
                                 l'intimée, en date du 2 septembre 1907, il est dit que les 9 leddans
                                 et fraction dont s'agit appartenant à l'appelant « sont privés de
-                                drain ->.</p>
+                                drain -&gt;.</p>
                             <p>La Cour ne partage pas l'avis du tribunal.</p>
                             <p>En effet :</p>
                             <p>1° Le terme cité semble simplement signifier que les terrains de
@@ -20774,7 +20781,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-16-80">
                         <head>20 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Acquéreur préempté ; recours contre le vendeur; inexistence. — IL
@@ -20866,7 +20873,7 @@
                         </div>
                     </div>
                     <pb n="284"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-16-90">
                         <head>21 avril 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Déclaration remise à découvert ; lettre missive ; principe ;
@@ -20940,7 +20947,7 @@
                         </div>
                     </div>
                     <pb n="285"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-16-100">
                         <head>21 avril 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Vente; conditions; modifications; étendue ; portée; juge des
@@ -21005,7 +21012,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-16-110">
                         <head>21 avril 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Vente; marchandise; perte; valeur; appel; recevabilité. — II.
@@ -21097,7 +21104,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-16-120">
                         <head>22 avril 1920. — Prés. Larchbr.</head>
                         <div type="summary">
                             <p>Droit hellénique : père ; dot ; obligation ; conséquence ; cas.</p>
@@ -21284,7 +21291,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-10">
                         <head>22 avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Grèce ; provinces annexées ; nationalité grecque ; option; délai;
@@ -21381,7 +21388,7 @@
                         </div>
                     </div>
                     <pb n="291"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-20">
                         <head>22 avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Appel; matière indivisible; profit; condition.</p>
@@ -21479,7 +21486,7 @@
                             <p>Par ces motifs : déclare l'appel non recevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-30">
                         <head>27 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Créancier ignoré ; distribution ; non production : forclusion. —
@@ -21539,7 +21546,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-40">
                         <head>27 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Règlement provisoire; demande en nullité; omission de quelques
@@ -21727,7 +21734,7 @@
                         </div>
                     </div>
                     <pb n="296"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-50">
                         <head>27 avril 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Loyers; cession ; objet ; précision; cas.—IL Cession; défaut de
@@ -21876,7 +21883,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-60">
                         <head>28 avril 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Bail imprimé; sous-location ; interdiction; clause de style ;
@@ -21984,7 +21991,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-70">
                         <head>29 avril 1920. - Prés. Lahchkh.</head>
                         <div type="summary">
                             <p>Hypothèque ; radiation ; consentement ; droit ; justification.</p>
@@ -22083,7 +22090,7 @@
                                 l'action de l'appelante irrecevable.....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-80">
                         <head>29 avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Adjudication; instance en nullité; placards; contestation ;
@@ -22154,7 +22161,7 @@
                         </div>
                     </div>
                     <pb n="302"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-90">
                         <head>29 avril 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Appel incident entre intimés ; non recevabilité ; tin de non recevoir
@@ -22199,7 +22206,7 @@
                             <p>Par ces motifs : réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-100">
                         <head>4 mai 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Requête civile; défaut de l'adversaire; recevabilité; examen. —
@@ -22274,7 +22281,7 @@
                             <p>Par ces motifs : dit irrecevable la requête civile.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-110">
                         <head>4 mai 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Expropriation ; éviction partielle ; éviction totale. — II.
@@ -22503,7 +22510,7 @@
                             <p>Bar ces motifs: annule.......................</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-120">
                         <head>5 mai 1920. — Prés. Lalox.</head>
                         <div type="summary">
                             <p>Vente de marchandises; terme; filière; cessionnaires successifs ;
@@ -22597,7 +22604,7 @@
                             <p>.... Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-130">
                         <head>5 mai 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Convention sous seing privé ; sanction ; juge des référés ;
@@ -22644,7 +22651,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-140">
                         <head>5 mai 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Référé ; instance au fond ; caractère sérieux; appréciation ;
@@ -22727,7 +22734,7 @@
                             <p>Par ces motifs: confirme, dit toutefois....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-150">
                         <head>11 mai 1920. — Prés. Bernardi</head>
                         <div type="summary">
                             <p>Action : expertise ; objet ; preuves précises ; recherches
@@ -22782,7 +22789,7 @@
                         </div>
                     </div>
                     <pb n="310"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-160">
                         <head>11 mai 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Gage; relocation au débiteur; tiers; non opposabilité ; parties ;
@@ -22829,7 +22836,7 @@
                             <p>Par ces motifs : réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-170">
                         <head>12 mai 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Grèce ; provinces annexées ; nationalité grecque ; option ; individus
@@ -22903,7 +22910,7 @@
                             <p>Par ces motifs : avant dire droit......</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-17-180">
                         <head>12 mai 1920 — Prés. Laloü.</head>
                         <div type="summary">
                             <p>Avocat; honoraires ; taxe; opposition ; contestation du droit à la
@@ -23058,7 +23065,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-18-10">
                         <head>12 mai 1920. — Prés. Lalok.</head>
                         <div type="summary">
                             <p>I. Intervention ; procédure viciée ; inefficacité. — II. Faillite;
@@ -23249,7 +23256,7 @@
                                 recevable......................</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-18-20">
                         <head>15 mai 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Expertise; rapport; défaut de motivation: nullité.— II. Jugements
@@ -23344,7 +23351,7 @@
                             <p>Par ces motifs : avant dire droit.;......</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-18-30">
                         <head>15 mai 1920. — Prés. Làrciibr. .</head>
                         <div type="summary">
                             <p>Adjudication; Juge délégué; pouvoirs; limites; ordonnances ; appel ;
@@ -23386,7 +23393,7 @@
                                 (Bt&amp;lt;(Z.,XXX, 24 et 89); 24 janvier 1918 (id., 172) ; 14 mars
                                 1918 (ibid., 235).</note>
                             <note place="bottom">(2) V. arrêts 14 décembre 19Ì6 (Biai-, XXIX, 109);
-                                12 décembre 1918 (Bull;, XXXI, 63). r ' . , &amp;lt;>.ir </note>
+                                12 décembre 1918 (Bull;, XXXI, 63). r ' . , &amp;lt;&gt;.ir </note>
                             <pb n="319"/>
                             <p>Vu les conclusions de Mavroidis tendant tout d'abord à déclarer
                                 irrecevables les appels, se basant sur les art. 692, 693, et 695 C.
@@ -23451,7 +23458,7 @@
                         </div>
                     </div>
                     <pb n="320"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-18-40">
                         <head>15 mai 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Chemins de fer de l'Etat; marchandises; vol ; responsabilité.</p>
@@ -23573,7 +23580,7 @@
                             <p>Par ces motifs': confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-18-50">
                         <head>19 mai 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Serment décisoire ; modification ; objet ; conditions. — II.
@@ -23644,7 +23651,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-18-60">
                         <head>19 mai 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Ordonnances de référé; appel. — II. Louage; lettre-congé ; tacite
@@ -23706,7 +23713,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-18-70">
                         <head>22 mai 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Défense en Justice ; attaques ; imputations ,* conditions ; abus ;
@@ -23890,7 +23897,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-18-80">
                         <head>22 mai 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Instances en appel; abréviation de délai; Cour d'appel ; juge de
@@ -24022,7 +24029,7 @@
                             <p>Par ces motifs : déclare................</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-18-90">
                         <head>22 mai 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Requête civile ; arrêt ; acquiescement ; inadmissibilité.</p>
@@ -24141,7 +24148,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-19-10">
                         <head>18 mai 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Revendication ; possession ; propriété ; charge de la preuve.</p>
@@ -24268,7 +24275,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-19-20">
                         <head>18 mai 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Ordre ; art. 692 C. C. ; loi nouvelle ; contestation ; créancier
@@ -24379,7 +24386,7 @@
                             <p>Par ces motifs : maintient ....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-19-30">
                         <head>18 mai 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Requête civile ; défaut de juridiction ; manque de motifs ;
@@ -24425,7 +24432,7 @@
                             <p>Par ces motifs : déclare inadmissible la requête civile.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-19-40">
                         <head>25 mai 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Arrêt ; interprétation ; Cour d'appel : compétence. — II. Jugement
@@ -24466,8 +24473,8 @@
                             <p>En fait, pour se soustraire à l'obligation de payer les intérêts sur
                                 le montant de la condamnation, les appelants doivent entendre
                                 l'arrêt 18 décembre 1919 comme s'il ne contenait pas les mots
-                                >&amp;lt; en principal » et comme si au lieu de « confirme pour le
-                                surplus », il avait dit : « confirme quant aux frais ».</p>
+                                &gt;&amp;lt; en principal » et comme si au lieu de « confirme pour
+                                le surplus », il avait dit : « confirme quant aux frais ».</p>
                             <p>La thèse des appelants, d'après laquelle il suffirait à la partie
                                 condamnée de soulever un doute quelconque sur la portée d'un
                                 jugement exécutoire pour arrêter le cours des poursuites, aurait
@@ -24485,7 +24492,7 @@
                             <p>Par ces motifs : déclare l'appel irrecevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-19-50">
                         <head>25 mai 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Appel ; ordre ; taux : irrecevabilité. — II. Exception de paiement
@@ -24574,7 +24581,7 @@
                             <p>Par ces motifs: déclare l'appel irrecevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-19-60">
                         <head>23 mai 1920. — Pi•és. Bernardi.</head>
                         <div type="summary">
                             <p>I. Ordre ; créancier chirographaire ; forclusion ; défaut de
@@ -24672,7 +24679,7 @@
                         </div>
                     </div>
                     <pb n="337"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-19-70">
                         <head>26 mai 1920 — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Obligation naturelle; reconnaissance; novation; action. — II.
@@ -24800,7 +24807,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-19-80">
                         <head>1er juin 1920. — P réS. 1ÌEHNAKDI.</head>
                         <div type="summary">
                             <p>I. Rivage de la mer ; domaine public ; domaine privé de l'Etat ;
@@ -24945,10 +24952,11 @@
                             <p>De cette façon s'expliquent : 1" les demandes de location ou
                                 d'autorisation présentées par Kanakis au Gouvernorat ou à la
                                 Municipalité, sans qu'il soit nécessaire d'approfondir la question
-                                de l'identité des parcelles ; 2&amp;lt;> le fait que le Gouvernement
-                                a pu procéder à la délimitation des terrains de la plage et à la
-                                pose de bornes en maçonnerie sous la direction de Linant Pacha de
-                                Bellefonds, sans aucune objection de la part des appelants. </p>
+                                de l'identité des parcelles ; 2&amp;lt;&gt; le fait que le
+                                Gouvernement a pu procéder à la délimitation des terrains de la
+                                plage et à la pose de bornes en maçonnerie sous la direction de
+                                Linant Pacha de Bellefonds, sans aucune objection de la part des
+                                appelants. </p>
                             <pb n="341"/>
                             <p>Sur l'appel du Gouvernement.</p>
                             <p>Le Gouvernement se plaint cpie le jugement du 25 mai 19'15 n'ait
@@ -25012,7 +25020,7 @@
                         </div>
                     </div>
                     <pb n="342"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-19-90">
                         <head>1er juin 1920. — Prés. Beiino udì.</head>
                         <div type="summary">
                             <p>Machine agricole ; vente ; clause de « reservati domini! » ; portée ;
@@ -25132,7 +25140,7 @@
                             <p>Par ces motifs : confirme...............</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-19-100">
                         <head>i,r juin 1920. —• Prés. Bernardi</head>
                         <div type="summary">
                             <p>Ordres et contributions ; débiteur ; partie essentielle ;
@@ -25288,7 +25296,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-10">
                         <head>1er juin 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Droit musulman ; article 116 8. P. ; femme ; revendication ; djehaz ;
@@ -25360,7 +25368,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-20">
                         <head>2 juin 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Administration des chemins de fer ; passage à niveau ; collision ;
@@ -25461,7 +25469,7 @@
                         </div>
                     </div>
                     <pb n="348"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-30">
                         <head>2 juin 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Appel; jugement; vente de marchandises ; refus; recevabilité. —
@@ -25557,7 +25565,7 @@
                                 publiques des marchandises litigieuses.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-40">
                         <head>5 juin 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Biens indivis ; compte de gestion ; copropriétaires indigènes et
@@ -25644,7 +25652,7 @@
                             <p>Par ces motifs : avant .dire droit......</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-50">
                         <head>8 juin 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Requête civile ; « ultra petita » ; cas.</p>
@@ -25735,7 +25743,7 @@
                             <p>Par ces motifs : déclare la requête civile admissible.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-60">
                         <head>8 juin 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Saisie-arrêt ; validation ; attributions des deniers au saisissant;
@@ -25806,7 +25814,7 @@
                             <p>Par ces motifs: confirme ....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-70">
                         <head>9 juin 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Juridiction mixte ; nationalité réelle des parties ; compétence. —
@@ -25886,7 +25894,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-80">
                         <head>9 juin 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Chemins de fer ; gare; cour; accident; circonstances ; administration
@@ -25955,7 +25963,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-90">
                         <head>15 juin 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Femme musulmane ; saisie des meubles ; mari ; revendication ; preuve
@@ -26041,7 +26049,7 @@
                         </div>
                     </div>
                     <pb n="356"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-100">
                         <head>16 juin 1920. —Prés. Laloè.</head>
                         <div type="summary">
                             <p>Taxe ; appel ; évaluation de la demande.</p>
@@ -26091,7 +26099,7 @@
                             <p>Par ces motifs : rejette l'appel comme non recevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-110">
                         <head>16 juin 1920. — Prés. Lalok.</head>
                         <div type="summary">
                             <p>I. Art. 201 C.Co. ; prescription quinquennale ; facture reconnue ;
@@ -26160,7 +26168,7 @@
                             <p>_ Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-120">
                         <head>17 juin 1920. — Prés. Làrchbr.</head>
                         <div type="summary">
                             <p>I. Eviction ; prix ; non restitution ; condition essentielle. — II.
@@ -26411,7 +26419,7 @@
                             <p>... Confirme pour le surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-130">
                         <head>17 juin 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Action paulienne; condition essentielle.—11. Prescription
@@ -26506,7 +26514,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-140">
                         <head>22 juin 1920 — Prés. Hansson</head>
                         <div type="summary">
                             <p>I. Vente ; acte préliminaire ; différend ; menace de résiliation ;
@@ -26571,7 +26579,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-150">
                         <head>22 juin 1920 — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Arrêt ; erreur matérielle ; rectification.</p>
@@ -26731,7 +26739,7 @@
                         </div>
                     </div>
                     <pb n="366"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-160">
                         <head>23 juin 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Appel en défenses d'exécution; débat; limites. — II. Instance en
@@ -26838,7 +26846,7 @@
                             <p>Par ces motifs: fait défense.............</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-20-170">
                         <head>24 juin 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Jugement; interprétation.</p>
@@ -27013,7 +27021,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE &amp;lt;*)</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-21-10">
                         <head>3 février 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Vente ; défaut de transcription ; menace d'éviction ; prix; délai de
@@ -27100,7 +27108,7 @@
                             <p>Par ccs motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-21-20">
                         <head>4 février 1920. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Intermédiaire ; commission ; accord ; conclusion : ' inexécution.</p>
@@ -27141,7 +27149,7 @@
                             <p>Par ces motifs : réformant, emende.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-21-30">
                         <head>5 février 1920. — Prés. Larciikr.</head>
                         <div type="summary">
                             <p>Serment ; jugement ; signification ; citation ; demande de renvoi;
@@ -27215,7 +27223,7 @@
                             <p>Bar ces motifs : déclare l'appel non recevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-21-40">
                         <head>11 février 1920. —Prés. Laloë.</head>
                         <div type="summary">
                             <p>Avocat; bibliothèque; saisie; limite: appréciation ; tribunal du fond
@@ -27280,7 +27288,7 @@
                             <p>Par ces motifs : infirme en partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-21-50">
                         <head>12 février 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>Créancier hypothécaire ; vente des biens ; solde impayé ; jugement ;
@@ -27351,7 +27359,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-21-60">
                         <head>17 février 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>I. Titres au porteur ; obligations ; perte; vol; destruction ; preuve
@@ -27542,7 +27550,7 @@
                                 des trois faits par elle articulés.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-21-70">
                         <head>24 février 1920. — Prés. Bernardi.</head>
                         <div type="summary">
                             <p>Droit musulman ; donation entre vifs ; dépossession réelle et
@@ -27622,7 +27630,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-21-80">
                         <head>25 févier 1920. — Prés. Larguer.</head>
                         <div type="summary">
                             <p>Distribution par voie d'ordre ; affichage ; art. 593 C.Pr. ;
@@ -27713,7 +27721,7 @@
                                 collocations consacrées par le règlement définitif.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-21-90">
                         <head>28 février 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Séquestre ; taxe ; partie requérante ; action ; paiement. — II.
@@ -27828,7 +27836,7 @@
                             <p>Par ces motifs : infirme en partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-32-1920-21-100">
                         <head>28 février 1920. — Prés. Larcher.</head>
                         <div type="summary">
                             <p>I. Subrogation ; condition ; paiement. — II. Créancier ; hypothèque
@@ -32201,7 +32209,7 @@
                     cachés, doit être faite en des termes tout à fait clairs et sans ambiguïté; les
                     mots ajoutés à la commande « marchandise garantie saine à l'embarquement mais
                     voyageant aux risques et périls de l'acheteur »</p>
-                <p>et les mots imprimés en tête de la note &amp;lt;> la marchandise voyage aux
+                <p>et les mots imprimés en tête de la note &amp;lt;&gt; la marchandise voyage aux
                     risques et périls des commettants » ne répondent pas à cette condition. - 21
                     janvier 1920, 135.</p>
                 <p>11. - Le seul déplacement de la marchandise . n'entraîne pas toujours fatalement

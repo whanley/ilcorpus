@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?><?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/whanley/ILCorpus/master/out/TMCorpusSchema.rnc" type="application/relax-ng-compact-syntax"?> <?xml-stylesheet type="text/xsl" href="dig-eg-gaz.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -7,7 +7,9 @@
                 <editor>Will Hanley</editor>
             </titleStmt>
             <editionStmt>
-                <edition><date when="2026-03-10">March 10, 2026</date></edition>
+                <edition>
+                    <date when="2026-03-10">March 10, 2026</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>FSU History Department</publisher>
@@ -15,14 +17,19 @@
             </publicationStmt>
             <notesStmt>
                 <note>Source facsimile:</note>
-                <note><ref target="https://discover.llmc.com/LLMC-63487-0012-001">LLMC</ref></note>
+                <note>
+                    <ref target="https://discover.llmc.com/LLMC-63487-0012-001">LLMC</ref>
+                </note>
             </notesStmt>
-            <sourceDesc>
-                <bibl>
+            <sourceDesc default="false">
+                <bibl default="false" status="draft">
                     <title>Bulletin de législation et de jurisprudence égyptiennes = Bollettino di
-                        legislazione egiziana</title><date when="1900-01-01">1900</date><biblScope
-                        unit="volume">12</biblScope><extent><measure unit="pages" quantity="0"
-                            >0</measure>pages</extent></bibl>
+                        legislazione egiziana</title>
+                    <date when="1900-01-01">1900</date>
+                    <biblScope unit="volume">12</biblScope>
+                    <extent>
+                        <measure unit="pages" quantity="0">0</measure>pages</extent>
+                </bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -34,7 +41,7 @@
                         1</p>
                     <p>_________</p>
                     <p>BOLLETTINO BULLETIN</p>
-                    <p>- ' >' ...</p>
+                    <p>- ' &gt;' ...</p>
                     <p>IH. , . .</p>
                     <p>DI 7 DE</p>
                     <p>LEGISLAZIONE E GIURISPRUDENZA LEGISLATION ET DE JURISPRUDENCE.</p>
@@ -327,7 +334,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-1-10">
                         <head>2 novembre 1921. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Demandeur; demande de péremption d'instance ; inadmissibilité. —
@@ -419,7 +426,7 @@
                         </div>
                     </div>
                     <pb n="6"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-1-20">
                         <head>9 novembre 1921. — Prés, Laloë.</head>
                         <div type="summary">
                             <p>I. Vente cif; individualisation de la marchandise; connaissement;
@@ -553,7 +560,7 @@
                         </div>
                     </div>
                     <pb n="8"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-1-30">
                         <head>9 novembre 1921.—Prés.. Laloé.</head>
                         <div type="summary">
                             <p>I. Acquiescement tacite'; condition ; cas.—IL Sentence arbitrale
@@ -708,7 +715,7 @@
                             <p>Par ces- motifs : confirme, et émendant, condamne.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-1-40">
                         <head>12 novembre 1921. — Prés. Laloé.</head>
                         <div type="summary">
                             <p>Tanzim ; rue décrétée; alignement; construction non autorisée ;
@@ -804,7 +811,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-1-50">
                         <head>15 novembre 1921. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Expulsion sans titre ; huissier indigène ; tribunaux mixtes ;
@@ -836,8 +843,8 @@
                             <p>Mahmoud Abdel Ghani a, de son côté, déclaré faire appel incident.</p>
                             <p>La Cour estime qu'il y a lieu de confirmer le jugement appelé, quant
                                 au premier chef, ce surtout pour les motifs suivants.</p>
-                            <p>Il n'est pas exact de dire que l'expulsion dont > s'agit, opérée par
-                                l'intermédiaire </p>
+                            <p>Il n'est pas exact de dire que l'expulsion dont &gt; s'agit, opérée
+                                par l'intermédiaire </p>
                             <pb n="12"/>
                             <p>d'un huissier près la juridiction indigène, échappe à la compétence
                                 des tribunaux mixtes, car l'expulsion a été faite sans titre.</p>
@@ -910,7 +917,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-1-60">
                         <head>15 novembre 1921. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Loi de 1921 sur les loyers ; art. 28 al. 2 ; défense d'appel ;
@@ -980,7 +987,7 @@
                         </div>
                     </div>
                     <pb n="14"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-1-70">
                         <head>16 novembre 1921. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Chose jugée ; marché ; demande de résiliation ; rejet; livraison
@@ -1032,8 +1039,8 @@
                                 de la vente au sujet de la seconde partie de l'expédition, Gabriel
                                 Bouctor revint à nouveau sur la résiliation de la vente;</p>
                             <p>Que le tribunal à sa suite déclara qu'il n'y avait pas de chose jugée
-                                et résilia aux torts et griefs de Brandt et C>° la vente quant à sa
-                                seconde partie, en proclamant que si la clause (t au plus tôt
+                                et résilia aux torts et griefs de Brandt et C&gt;° la vente quant à
+                                sa seconde partie, en proclamant que si la clause (t au plus tôt
                                 possible » laisse à l'expéditeur une latitude raisonnable pour le
                                 choix de la date de l'expédition, en tenant compte des moyens de
                                 transport, elle traduit, commercialement interprétée, l'intention de
@@ -1078,7 +1085,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-1-80">
                         <head>22 novembre 4921. — Pré§. Hansson.</head>
                         <div type="summary">
                             <p>Saisie immobilière ; prétendu tiers détenteur : défaut de sommation ;
@@ -1159,7 +1166,7 @@
                             <p>Par ces motifs: confirme..</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-1-90">
                         <head>24 novembre 1921. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Obligation ; cause exprimée ; prétendue libéralité ;
@@ -1231,7 +1238,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-1-100">
                         <head>24 novembre 1921. — Prés. Eesian.</head>
                         <div type="summary">
                             <p>I. Débiteur; exercice des droits du créancier; inadmissibilité. — II.
@@ -1346,7 +1353,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-1-110">
                         <head>24 novembre 1921. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Droit français ; tuteur ; acte de disposition ; nullité. — II.
@@ -1659,7 +1666,7 @@
                         quelque cause que ce soit, exercer un droit de préemption sur les terrains
                         vendus directement par la Municipalité. Cette interdiction ne s'appliquera
                         pas aux ventes effectuées ultérieurement par les acquéreurs de celle-ci.
-                        ></p>
+                        &gt;</p>
                     <p>Art. 13. — Les antiquités trouvées dans les terrains vendus retiennent de
                         droit au Gouvernement. Si des monuments fixés au sol viennent à être
                         découverts et que, dans l'appréciation de la Commission, ils doivent être
@@ -1746,7 +1753,7 @@
                         soumissionnaire n'y'demeure pas. De meme ^'enchérisseur devenu adjudicataire
                         devra, s'il cessé de demeurer à Alexandrie, faire et communiquer une
                         élection de domicile eri la dite ville. Éaiite de ce faire, ét dans ces deux
-                        hypothèses, toute riotifi-> . . . !•. . I r. f lì , i > ■ a.</p>
+                        hypothèses, toute riotifi-&gt; . . . !•. . I r. f lì , i &gt; ■ a.</p>
                     <p>cation sera valablement faite par la Municipalité au Gouvernorat
                         d'Alexandrie.</p>
                     <p>Art. 21. — Les séances d'enchères ou d'ouverture de soumissions se tiendront
@@ -1794,7 +1801,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>cour d'appel mixte</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-2-10">
                         <head>29 novembre 1821. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Vente ; prix payable à terme : acheteur ; expropriation ;
@@ -1864,7 +1871,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-2-20">
                         <head>29 novembre 1921. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Vente en justice; déficit; clause de non garantie ; validité ;
@@ -1930,7 +1937,7 @@
                         </div>
                     </div>
                     <pb n="27"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-2-30">
                         <head>29 novembre 1921. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Appel ; matière indivisible ; effet. — II.Jugement; signification
@@ -2083,7 +2090,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-2-40">
                         <head>29 novembre 1921. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Préemption ; retrait d'indivision ; copropriétaires originaires;
@@ -2182,7 +2189,7 @@
                                 et de la dame Fariza Haddad.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-2-50">
                         <head>29 novembre 1921. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Revendication ; terrains ; titres du revendiquant; défaut de
@@ -2326,7 +2333,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-2-60">
                         <head>30 novembre 1921. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Opposition; délai ouvert; appel; non recevabilité-</p>
@@ -2381,7 +2388,7 @@
                                 Limited.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-2-70">
                         <head>6 décembre 192t. — Prés. IIasssox.</head>
                         <div type="summary">
                             <p>I. Référé ; ordonnance non déférée à la Cour ; nouveau référé ;
@@ -2510,7 +2517,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-2-80">
                         <head>ü décembre 1921. — Prés. IIansson.</head>
                         <div type="summary">
                             <p>Saisie immobilière ; bail ; acte de bonne administration ; condition
@@ -2545,7 +2552,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-2-90">
                         <head>6 décembre 1921. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Courtier ; mandat rempli ; échec ; faute d'une partie ;
@@ -2681,7 +2688,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-10">
                         <head>30 novembre 1921. — Prés. Laloë</head>
                         <div type="summary">
                             <p>Billet à ordre ; endossement irrégulier ; mandat pour recouvrement ;
@@ -2791,7 +2798,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-20">
                         <head>6 décembre 1921. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Loi sur les loyers ; taux d'appel ; affaires anterieures ;
@@ -2856,7 +2863,7 @@
                             <p>Par ces motifs : déclare l'appel irrecevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-30">
                         <head>6 décembre 1921. — Prés. Hanssox.</head>
                         <div type="summary">
                             <p>I. Juridiction mixte; incompétence. — II. Revendication entre
@@ -2930,7 +2937,7 @@
                                 juridiction mixte incompétente et infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-40">
                         <head>6 décembre 1921. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Adjudicataire défaillant ; non poursuite en folle enchère ;
@@ -3025,7 +3032,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-50">
                         <head>7 décembre 1921. — fiés. Laloë.</head>
                         <div type="summary">
                             <p>I. Travail; convention l'interdisant; ordre public.— II. Fonds de
@@ -3142,7 +3149,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-60">
                         <head>1 7 décembre 1921. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Marchandises; dépenses contestées; droit de rétention ; réalisation ;
@@ -3203,7 +3210,7 @@
                             <p>Par ces motifs : réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-70">
                         <head>7 décembre 192 t. — Prés Laloë.</head>
                         <div type="summary">
                             <p>I. Entrepôts publics : règlements ; commerçant ; connaissance. — II.
@@ -3262,7 +3269,7 @@
                                 sera payée à Mohamed Abdou El Gazzar.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-80">
                         <head>8 décembre 1921. - Prés. Eemax.</head>
                         <div type="summary">
                             <p>Chemins de fer de'l'Etat; objets à transporter : perte ; dommage ;
@@ -3376,7 +3383,7 @@
                             <p>Par ces motifs : confirme, émendant.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-90">
                         <head>8 décembre 1921. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Vente de coton ; prix à fixer par le vendeur ; fixation ; acheteur ;
@@ -3518,7 +3525,7 @@
                             <p>Par ces motifs : réformant, réduit.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-100">
                         <head>12 décembre 1921. —Prés. Laloé.</head>
                         <div type="summary">
                             <p>Avocat a la Cour ; stagiaire ; délivrance et usage de certificat de
@@ -3588,7 +3595,7 @@
                                 disciplinaire de la censure.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-110">
                         <head>13 décembre 1921. — Prés. IIxnsson.</head>
                         <div type="summary">
                             <p>I. Règlement définitif; litige; valeur par rapport à l'appelant;
@@ -3704,7 +3711,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-120">
                         <head>13 décembre 1921. - Prés. Haksson.</head>
                         <div type="summary">
                             <p>Droit d'affectation ; désignation des biens ; précision ;
@@ -3775,7 +3782,7 @@
                                 chirographaire.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-130">
                         <head>li^décenibre 1921. — Prés. Lalok.</head>
                         <div type="summary">
                             <p>I. Prévenu défaillant; débats; réouverture; refus; faculté du juge. —
@@ -3867,7 +3874,7 @@
                             <p>Par ces motifs : réduit.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-140">
                         <head>14 décembre 1921. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Code de procédure civile ; dispositions ; application au pénal ;
@@ -3942,7 +3949,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-150">
                         <head>14 décembre 1921. — Prés. Lvtoè.</head>
                         <div type="summary">
                             <p>I. Faillite : femme du failli ; donations ; immeubles ; acquisition;
@@ -4138,7 +4145,7 @@
                                 principal, annule le contrat de constitution d'hypothèque.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-160">
                         <head>15 décembre 1921. - Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Contrat hypothécaire ; clauses ; prétendue modification : preuve.
@@ -4225,7 +4232,7 @@
                             <p>Par ces motifs : confirme. '</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-170">
                         <head>15 décembre !92t. — Prés. Eemax.</head>
                         <div type="summary">
                             <p>I. Wakf ; créancier d'un bénéficiaire : droit. — il. Préjudice; faute
@@ -4382,7 +4389,7 @@
                             <p>Par ces motifs : confirme, émendant......</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-3-180">
                         <head>15 décembre 1921. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Garantie ; sous garantie ; paiement de la dette.</p>
@@ -4501,7 +4508,7 @@
                         du prix. — II. Ordre ; expropriation indigène ; créancier poursuivant ;
                         transfert du prix ; défaut de production ; forclusion; caractère général (p.
                         67).</p>
-                    <p>Appel; frais; taux >p. 68).</p>
+                    <p>Appel; frais; taux &gt;p. 68).</p>
                     <p>Louage de service ; terme à titre d'essai ; échec : renvoi ;
                         dommages-intérêts ; inexistence tp. 68).</p>
                     <p>Serment décisoire ; intention vexatoire ; pouvoir du juge</p>
@@ -4692,7 +4699,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-10">
                         <head>20 décembre 1921. — Prés. Haxssox.</head>
                         <div type="summary">
                             <p>I. Prêt à intérêts ; somme tenue à disposition ; intérêts : point de
@@ -4816,7 +4823,7 @@
                             <p>Par ces motifs : infirme en partie; confirme pour le surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-20">
                         <head>20 décembre 1021. — Prés. Ha.nsso.x.</head>
                         <div type="summary">
                             <p>I. Bail ; acte administratif ; jouissance convenue ; impossibilité;
@@ -4931,7 +4938,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-30">
                         <head>20' décembre 1921. — Prés. IIa.xsson.</head>
                         <div type="summary">
                             <p>I. Ordre; greffe mixte; sommation de produire; créanciers inscrits ;
@@ -5019,7 +5026,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-40">
                         <head>20 décembre 1921. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Appel ; frais ; taux.</p>
@@ -5044,7 +5051,7 @@
                             <note place="bottom">(1) V. T.D., III, vo Appel, n's 372 et suiv.</note>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-50">
                         <head>20 décembre 1921. — Prés. HaxsSon.</head>
                         <div type="summary">
                             <p>Louage de service; terme à titre d'essai; échec; renvoi ;
@@ -5116,7 +5123,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-60">
                         <head>21 décembre 1921. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Serment décisoire; intention vexatoire; pouvoir du juge.</p>
@@ -5156,12 +5163,12 @@
                             <p>Que pour ces motifs, la Cour estime qu'il y a lieu d'infirmer le
                                 jugement et d'accorder à l'appelant les fins de sa demande;</p>
                             <p>Par ces motifs : infirme.</p>
-                            <note place="bottom">(1) V. T.D., III, to Se> nitnt, n« 5920 et saiv.
+                            <note place="bottom">(1) V. T.D., III, to Se&gt; nitnt, n« 5920 et saiv.
                             </note>
                         </div>
                     </div>
                     <pb n="70"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-70">
                         <head>21 décembre 1921. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Juridiction mixte ; nationalité hellénique ; conflit diplomatique ;
@@ -5240,7 +5247,7 @@
                         </div>
                     </div>
                     <pb n="71"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-80">
                         <head>22 décembre 1921. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Contrat; arrhes ; compensation ; effet.— II. Vente; defaut de
@@ -5360,7 +5367,7 @@
                             <p>Par ces motifs : confirme; ordonne..........</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-90">
                         <head>22 décembre 192t. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Inscription de faux ; affaire principale ; sursis; condition.</p>
@@ -5426,7 +5433,7 @@
                             <p>Par ces natifs : renvoie.....................</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-100">
                         <head>23 décembre 1921. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Animaux hors d'état de travailler ; emploi ; propriétaire ;
@@ -5477,7 +5484,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-110">
                         <head>27 décembre 1921. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Société ; actions nominatives ; cession ; défaut de transfert
@@ -5560,7 +5567,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-120">
                         <head>27 décembre 1921. — Prés. Hansso.v.</head>
                         <div type="summary">
                             <p>I. Bail ; constructions par le locataire : hypothèque; cas. — 11.
@@ -5715,7 +5722,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-130">
                         <head>28 décembre 192!. — Prés. Lai.oë.</head>
                         <div type="summary">
                             <p>I. Seconde grosse; actes mixtes; juge des référés mixtes: compétence
@@ -5822,7 +5829,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-140">
                         <head>29 décembre 1921. — Prés. Eemax. </head>
                         <div type="summary">
                             <p>Immeubles par destination ; détermination ; vente ; droits de
@@ -5935,7 +5942,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-4-150">
                         <head>29 décembre 1921. - Prés. Eeman.</head>
                         <div type="summary">
                             <p>Péremption d'instance ; indivisibilité ; conditions ; instance
@@ -6207,7 +6214,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-5-10">
                         <head>24 février 1921. - Prés. Eeman (3).</head>
                         <div type="summary">
                             <p>Courtage matrimonial ; stipulation : validité.</p>
@@ -6329,7 +6336,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-5-20">
                         <head>29 décembre 1921. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>J. Vente volontaire en justice; art. 710 C.Pr. : application. — II.
@@ -6344,7 +6351,7 @@
                                 d'immeubles en justice, ne concerne que les majeurs (1); malgré la
                                 qualification de volontaire donnée par des exécuteurs testamentaires
                                 à la vente en justice , d'un immeuble successoral, poursuivie par
-                                eux conformément à >la volonté du testateur</p>
+                                eux conformément à &gt;la volonté du testateur</p>
                             <p>dans le but d'en partager .le prix entre les héritiers au nombre
                                 desquels il y a des mineurs, le dit art. 710 est inapplicable.</p>
                             <p>II. Si sachant qu'un immeuble successoral est impartageable en
@@ -6521,7 +6528,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-5-30">
                         <head>29 décembre 1921. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Intervention ; incident ; instance principale : radiation ; droits de
@@ -6610,7 +6617,7 @@
                         </div>
                     </div>
                     <pb n="89"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-5-40">
                         <head>3 janvier 1922. — Prés. Hanssox.</head>
                         <div type="summary">
                             <p>Terrain d'autrui ; constructions ; plus-value ; évaluation.</p>
@@ -6665,7 +6672,7 @@
                                 terrain; 2° la valeur au dît jour du terrain seul, de telle façon
                                 que « l'évaluation de la plus-value résultera d'une simple opération
                                 de soustraction » ;</p>
-                            <p>Que de cette décision le Ministère des wakfs a> relevé appel en
+                            <p>Que de cette décision le Ministère des wakfs a&gt; relevé appel en
                                 soulevant quatre griefs contre les termes de la mission
                                 complémentaire confiée à l'expert</p>
                             <p>1° que la plus-value à considérer ne doit pas être prise au jour de
@@ -6690,7 +6697,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-5-50">
                         <head>3 janvier 192-2. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Ordre entre créanciers ; collocation ; contestation tardive ; dol du
@@ -6764,7 +6771,7 @@
                         </div>
                     </div>
                     <pb n="91"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-5-60">
                         <head>3 janvier 1922. — Prés. Haxsson.</head>
                         <div type="summary">
                             <p>I. Concession administrative ; impôts ; recouvrement ; procédure;
@@ -7080,7 +7087,7 @@
                             <p>Par ces motifs : maintient.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-5-70">
                         <head>3 janvier 1922. - Prés. Haxs-on.</head>
                         <div type="summary">
                             <p>I. Distribution ; titre ; production : nécessité : instance sur
@@ -7206,7 +7213,7 @@
                     <p>DI ■ . • , ., ■ • *</p>
                     <p>LEGISLAZIONE E GWRISPRÙiÎÉNZA</p>
                     <p>BULLETIN ■</p>
-                    <p>.&amp;lt;;•> : -! >. "I .•■■■! ■ > D</p>
+                    <p>.&amp;lt;;•&gt; : -! &gt;. "I .•■■■! ■ &gt; D</p>
                     <p>î •!&amp;lt; ;-'r- &amp;lt;:'&amp;lt; : ; U? ■ t / r: *</p>
                     <p>LEGISLATION ET DE JURÏSPRÜDÊNCET</p>
                     <p>EGIZIANA</p>
@@ -7263,7 +7270,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE '</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-10">
                         <head>3 janvier 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Tiers détenteur ; vente simulée ; inexistence ; expropriation.</p>
@@ -7318,7 +7325,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-20">
                         <head>3 janvier 1922 — Près, ffx.vssm,.</head>
                         <div type="summary">
                             <p>I. Ordre et contestation ; contestations ; rejet ; intérêts;'
@@ -7430,7 +7437,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-30">
                         <head>4 janvier 1922. — Prés. Laloê.</head>
                         <div type="summary">
                             <p>Opérations de bourse; remisier; commission; responsabilité ;
@@ -7487,7 +7494,7 @@
                             <p>Par ccs motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-40">
                         <head>4 janvier 1922. — Prés. Laloé.</head>
                         <div type="summary">
                             <p>I. Wakf; nazir; sujets locaux; juridiction locale.— II. Wakf;
@@ -7554,7 +7561,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-50">
                         <head>4 janvier 1922. — Prés. Lalok. ,</head>
                         <div type="summary">
                             <p>I. Etablissements incommodes; contravention ; jugement ;
@@ -7631,7 +7638,7 @@
                                 l'appel...................................</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-60">
                         <head>4 janvier 1922 — Prés. Laloê.</head>
                         <div type="summary">
                             <p>I. Cassation; partis civile; pourvoi; inadmissibilité; intervention.
@@ -7677,7 +7684,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-70">
                         <head>5 janvier 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Tarif; droits . prescription ; simulation de prix; délai. — II.
@@ -7797,7 +7804,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-80">
                         <head>5 janvier 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Action paulienne ; créancier postérieur ; fraude organisée ;
@@ -7925,7 +7932,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-90">
                         <head>10 janvier 1922. — Prés. HansSon.</head>
                         <div type="summary">
                             <p>I. Distribution par contribution ; réglement provisoire ; contredit ;
@@ -7995,7 +8002,7 @@
                             <pb n="107 •"/>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-100">
                         <head>10 janvier 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Vente ; dernière maladie ; annulation ; biens du père; biens des
@@ -8159,7 +8166,7 @@
                         </div>
                     </div>
                     <pb n="109"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-110">
                         <head>11 janvier 1922. — Prés. Laloë. </head>
                         <div type="summary">
                             <p>Solidarité ; matière commerciale ; condition ; association en
@@ -8223,7 +8230,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-120">
                         <head>12 janvier 1922. — Prés, l'i max.</head>
                         <div type="summary">
                             <p>I. Intervention: rejet: appel. — II. Wakf: bénéfice; exclusion ;
@@ -8638,7 +8645,7 @@
                                 1</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-6-130">
                         <head>12 janvier 1922. — Prés. Eeman*.</head>
                         <div type="summary">
                             <p>Droits de greffe ; prétendu échange ; inexistence ; cas.</p>
@@ -8772,7 +8779,7 @@
                         fixation: moment &amp;lt;p. 124).</p>
                     <p>Péremption d'instance : interruption ; cas (p. 126).</p>
                     <p>I. Nullité pour incapacité . inadmissibilité ; cas —II. Immeuble; ventes:
-                        préférence: transcription.—>11. Appel ; demande subsidiaire : demande
+                        préférence: transcription.—&gt;11. Appel ; demande subsidiaire : demande
                         nouvelle; inadmissibilité (p. 128).</p>
                     <p>I. Contredit : défaut de motivation: non recevabilité. -</p>
                     <p>II. Contredit; succombance: intérêts (p. 13V).</p>
@@ -8814,12 +8821,12 @@
                         inconnue.</p>
                     <p>Art. 3. — Le piésent arrêté entrera en vigueur dès sa publication au Journal
                         Officiel.</p>
-                    <p>Le Caire, le Ivr mar-> 1922.</p>
+                    <p>Le Caire, le Ivr mar-&gt; 1922.</p>
                     <p>Avis du 6 mars 1922, relatif à la loi n" 4 de 1921 portant limitation des
                         loyers (2/.</p>
                     <p>L'Assemblée Législative prévue à l'article 12 du Code Civil Mixte a approuvé,
                         par délibération</p>
-                    <p>(1 et 2) Publiées an Journal Officiel «In 9 mars 1922 n > 24 </p>
+                    <p>(1 et 2) Publiées an Journal Officiel «In 9 mars 1922 n &gt; 24 </p>
                     <pb n="118"/>
                     <p>en date du 4 mars 1922, un projet de loi prorogeant pour la durée d'une année
                         à partir du 1er juillet 1922 la loi No. 4 de 1921 portant limitation des
@@ -8900,7 +8907,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-7-10">
                         <head>12 janvier 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Dettes; origine commune; mêmes débiteurs; instances; jonction. —
@@ -9063,7 +9070,7 @@
                             <p>Par ces motifs : confirme... émendant...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-7-20">
                         <head>17 janvier 1922. — Prés. Haxsson.</head>
                         <div type="summary">
                             <p>T. Courtier : vente : conclusion définitive : courtage: droit. — H.
@@ -9162,7 +9169,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-7-30">
                         <head>17 janvier 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Loi de 1921 sur les loyers ; caractère exceptionnel; conséquence;
@@ -9270,7 +9277,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-7-40">
                         <head>19 janvier 1 y'2'2. — Prés. Eem.vn.</head>
                         <div type="summary">
                             <p>I. Vente ; cotons ; recolte ; fixation du prix; déficit ;
@@ -9282,8 +9289,8 @@
                                 une clause exonérant le vendeur de tous dommages-intérêts au cas où
                                 la récolte réelle serait inférieure à celle vendue, la fixation du
                                 prix ne saurait, à défaut d'une stipulation formelle du contrat,
-                                avoir pour effet de lier définitivement >le vendeur à concurrence de
-                                la quantité fixée, à moins de circonstances spéciales (1).</p>
+                                avoir pour effet de lier définitivement &gt;le vendeur à concurrence
+                                de la quantité fixée, à moins de circonstances spéciales (1).</p>
                             <p>Constituent les circonstances spéciales, engageant la responsabilité
                                 du vendeur, le fait que la fixation a eu lieu à un moment où le1
                                 vendeur pouvait et devait connaître la quantité de coton produite
@@ -9332,7 +9339,7 @@
                             <note place="bottom">(1) V. arrêt 18 avril 1918 I/?»//., XXX, 3761. -
                                 Rapp. arrêt 14 mai 1913 (Bull., XXV, 376). - V. aussi arrêt 9
                                 janvier 1918 (Bufi., XXX, 137). /</note>
-                            <note place="bottom">(2) V. TJ> . III. v° Vente, nos 6529, 6536,
+                            <note place="bottom">(2) V. TJ&gt; . III. v° Vente, nos 6529, 6536,
                                 6537.</note>
                             <pb/>
                             <p>bilité, malgré la clause du contrat de vente l'exonérant de tous
@@ -9465,7 +9472,7 @@
                                 confirme pour le surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-7-50">
                         <head>19 janvier 1922. — Prés. Ekman.</head>
                         <div type="summary">
                             <p>Péremption d instance ; interruption ; cas.</p>
@@ -9571,7 +9578,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-7-60">
                         <head>24 janvier 1922. — Prés. ILvxssox.</head>
                         <div type="summary">
                             <p>I. Nullité pour incapacité; inadmissibilité; cas. — II. Immeuble:
@@ -9758,7 +9765,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-7-70">
                         <head>21 janvier 1922. — Prés. HansSon.</head>
                         <div type="summary">
                             <p>I. Contredit ; défaut de motivation ; non recevabilité. — H.
@@ -9964,7 +9971,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-7-80">
                         <head>25 janvier 1922. — Prés. Laxoè,</head>
                         <div type="summary">
                             <p>I. Art. 274 et 275 C. M. ; protestation ; demande en justice;
@@ -9994,7 +10001,7 @@
                         </div>
                         <div type="litigants">
                             <p>(G. Stagni e Figli</p>
-                            <p>c. Capitaine N. Ratios vapeur « Bitinia >).</p>
+                            <p>c. Capitaine N. Ratios vapeur « Bitinia &gt;).</p>
                         </div>
                         <div type="decision">
                             <p>La Cour : — Vu l'exploit en date du 7 février 1914, par lequel G.
@@ -10079,8 +10086,8 @@
                         </div>
                     </div>
                     <pb n="135"/>
-                    <div type="case" xml:lang="fr">
-                        <head>2.-> janvier 1922. — Prés. Lilok.</head>
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-7-90">
+                        <head>2.-&gt; janvier 1922. — Prés. Lilok.</head>
                         <div type="summary">
                             <p>I. Détournement d'objets saisis: élément constitutif du délit. — II.
                                 Art. 4'6 bis C.Pr. ; matière pénale : applicabilité.</p>
@@ -10150,7 +10157,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-7-100">
                         <head>SI janvier 1922. — t rès. Laloê.</head>
                         <div type="summary">
                             <p>Saisie immobilière : régularité en la forme : demande de mise sous
@@ -10312,7 +10319,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-8-10">
                         <head>23 janvier 1922. - Prés. Eeman.</head>
                         <div type="summary">
                             <p>Expropriation; débiteur; omission; nullité: instance séparée.</p>
@@ -10350,7 +10357,7 @@
                             <p>Par ces motifs : déclare irrecevable l'appel.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-8-20">
                         <head>26 janvier 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Chemins de fer; transport; «risk note»; expéditeur assureur ;
@@ -10442,7 +10449,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-8-30">
                         <head>31 janvier 1922. - Prés. Haxs.-on.</head>
                         <div type="summary">
                             <p>I. Mandat; décès; ignorance; actes de procédure; validité. — II.
@@ -10514,7 +10521,7 @@
                             <p>Pai' ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-8-40">
                         <head>31 janvier 1922.,— Prés. H^nsson.</head>
                         <div type="summary">
                             <p>I. Appel : commandement; chefs distincts: cumul. — II. Distribution
@@ -10544,7 +10551,8 @@
                                 les annuités non échues au moment du règlement définitif, et non pas
                                 pour celles échues 'entre la dernière annuité réglée par le débiteur
                                 et le règlement définitiî (3).</p>
-                            <note place="bottom">(1) V. arrêt 9 avril 1018 'Bull., XXX. 338>.</note>
+                            <note place="bottom">(1) V. arrêt 9 avril 1018 'Bull., XXX.
+                                338&gt;.</note>
                             <note place="bottom">(2) V. arrêt 12 juin 1919 tBull., XXXI.
                                 343,.</note>
                             <note place="bottom">(3) V. arrêts 8 mars 1899 (Bull., XI, 149) et 3 mai
@@ -10648,7 +10656,7 @@
                             <p>Par ces motifs : réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-8-50">
                         <head>1er février 1922 - Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Acheteur : prix non payé ; indemnité pour benêt fice manqué;
@@ -10750,7 +10758,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-8-60">
                         <head>1er lévrier 1922. — Prés. Laloè.</head>
                         <div type="summary">
                             <p>Juridiction mixte ; Suisse ; protection étrangère ; nationaux ;
@@ -10857,7 +10865,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-8-70">
                         <head>2 février 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Transaction; dette civile; preuve.—II. Avocat; saisie; biens
@@ -10984,7 +10992,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-8-80">
                         <head>2 février 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Cautionnement ; acceptation par le bénéficiaire ; contrat signé ;
@@ -11063,7 +11071,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-8-90">
                         <head>2 février 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Defendeur; domicile à l'étranger; exploits; signification ;
@@ -11095,8 +11103,8 @@
                                 1921, le tribunal civil du Caire a rejeté le dire fait par Berger au
                                 cahier des charges de l'expropriation poursuivie à son encontre par
                                 les hoirs Chaîne;</p>
-                            <note place="bottom">(1) V. arrêts 17 mal 1916 {Bui'., XXVIII, îî36>, 13
-                                inin 1918 Ululi., XXX, 173). </note>
+                            <note place="bottom">(1) V. arrêts 17 mal 1916 {Bui'., XXVIII, îî36&gt;,
+                                13 inin 1918 Ululi., XXX, 173). </note>
                             <pb n="148"/>
                             <p>Attendu que le dire était basé sur le fait que Berger, domicilié à
                                 Angora (Turquie d'Asie), n'avait reçu signification ni du
@@ -11170,7 +11178,7 @@
                         </div>
                     </div>
                     <pb n="J 49"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-8-100">
                         <head>2 février f922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Evocation du fond; cas.</p>
@@ -11234,7 +11242,7 @@
                             <p>Par ces motifs : infirme et renvoie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-8-110">
                         <head>2 février 1922. — Prés. Eemax.</head>
                         <div type="summary">
                             <p>Expropriation ; débiteur ; action principale en nullité; cas ;
@@ -11336,7 +11344,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-8-120">
                         <head>4 février 1922. — Prés. I.aloë.</head>
                         <div type="summary">
                             <p>I. Etablissement incommode; menuiserie à main ; conditions.— II.
@@ -11505,12 +11513,12 @@
                         nullité. — II. Partage ; lésion ; rescision (p. 165j.</p>
                     <p>L Demande d'expertise ; titres ; liberté de défense ; appel ; moyen nouveau.
                         — II. Acte d'appel ; moyen nouveau ; recevabilité (p. 167).</p>
-                    <p>--------------•£>---------------</p>
+                    <p>--------------•£&gt;---------------</p>
                 </div>
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-9-10">
                         <head>7 février 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Mandat; salaire: pouvoir du juge; cessation; courtier; cas.</p>
@@ -11600,7 +11608,7 @@
                             <p>Par ces motifs : faisant droit à l'appel principal, réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-9-20">
                         <head>7 février 19'2'2. — Prés. Hanssox.</head>
                         <div type="summary">
                             <p>Loyers; question de propriété; appel: recevabilité.</p>
@@ -11647,7 +11655,7 @@
                             <p>...Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-9-30">
                         <head>8 février 1922. — Prés. Læloè</head>
                         <div type="summary">
                             <p>Appel; désistement; avocat: mandat spécial.</p>
@@ -11682,7 +11690,7 @@
                             <p>Par ces motifs ; confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-9-40">
                         <head>9 février 1922 — Prés. L.m.ok.</head>
                         <div type="summary">
                             <p>I. Clause pénale ; préjudice ; pouvoir du juge ; détermination.— II.
@@ -11757,7 +11765,7 @@
                             <p>Par ces motifs : renvoie....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-9-50">
                         <head>9 février 1922. — Prés. Ekmax.</head>
                         <div type="summary">
                             <p>Sujet hellène ; commission de l'indigénat ; reconnaissance ;
@@ -11836,7 +11844,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-9-60">
                         <head>9 février 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Offre ; acceptation ; contrat ; formation. — II. Contrat;
@@ -11916,7 +11924,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-9-70">
                         <head>9 février 1922. — Prés. Eemax.</head>
                         <div type="summary">
                             <p>Créance ; domicile du créancier ; changement ; Compagnie du Canal de
@@ -12055,7 +12063,7 @@
                             <p>Par ces motifs : confirme,.... émendant.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-9-80">
                         <head>9 février 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Compagnie du Canal de Suez; société égyptienne; tribunaux
@@ -12289,7 +12297,7 @@
                             <p>Par ces motifs ; confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-9-90">
                         <head>14 février 1822. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Succession musulmane solvable ; prêts aux héritiers ; hypothèques
@@ -12428,7 +12436,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-9-100">
                         <head>14 février 1922. — Prés. IIaxssox.</head>
                         <div type="summary">
                             <p>I. Loi hellénique du 17 avril 1861 : contrat entre tuteur et pupille;
@@ -12552,7 +12560,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-9-110">
                         <head>14 février 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Demande d'expertise ; titres-; liberté de défanse; appel : moyen
@@ -12695,14 +12703,15 @@
                         chevaux, les tirs aux pigeons et autres jeux oii exercices sportifs (page
                         169).</p>
                     <p>Loi no 11 du 4 avril 192?, ajoutant un nouvel article (art. 22 bis) A la loi
-                        n-> 16 de 1916 snr les maladies nuisibles aux arbres fruitiers (p. 170).</p>
+                        n-&gt; 16 de 1916 snr les maladies nuisibles aux arbres fruitiers (p.
+                        170).</p>
                     <p>Loi no 12 du 4 avril 1922. ajoutant un nouvel article (art. 5 bis) il loi il»
                         22 de 19e5 portant Règlement sur la Rage 'p. 170).</p>
                     <p>Loi no 13 du 4 avril 1922, pour la protection des oiseaux utiles à
                         l'agriculture (p. 171).</p>
-                    <p>Loi n> 14 du 4 avril 1922. ajoutant un nouvel article (art. 10 bis) il la loi
-                        no 2t du 1921 portant restriction île la superficie il cultiver en coton en
-                        1922 et 1923 (p. 172).</p>
+                    <p>Loi n&gt; 14 du 4 avril 1922. ajoutant un nouvel article (art. 10 bis) il la
+                        loi no 2t du 1921 portant restriction île la superficie il cultiver en coton
+                        en 1922 et 1923 (p. 172).</p>
                     <p>Loi n“ 15 du 5 avril 1922. établissant une contribution temporaire de l'impôt
                         foncier dans In Moudlrleh de Guizeh (p. 172).</p>
                     <p>Arrêt du Ministère de l'Agriculture du 5 avril 1922, portant ■ mollification
@@ -13085,7 +13094,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-10-10">
                         <head>14 février 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Tierce opposition ; contredit ; wakf; nazir ; autre qualité. — IL
@@ -13186,7 +13195,7 @@
                             <p>Par ces motifs : confirme en partie, infirme pour le surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-10-20">
                         <head>14 février 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Appel ; exploit ; signification irrégulière ; nullité.</p>
@@ -13256,7 +13265,7 @@
                             <p>Par ces motifs : déclare nul l'exploit d'appel.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-10-30">
                         <head>14 février 1922. — Prés. Hanssox.</head>
                         <div type="summary">
                             <p>I. Comparution personnelle: juge commis.—IL Enquête ; contre-enquête:
@@ -13348,7 +13357,7 @@
                                 l'introduction de l'instance, ne saurait avoir plus de valeur que
                                 les déclarations par elle faites en cours d'instance </p>
                             <pb n="178"/>
-                            <p>sur >a sincérité de la vente dont se 'prévaut l'appelant;</p>
+                            <p>sur &gt;a sincérité de la vente dont se 'prévaut l'appelant;</p>
                             <p>Attendu par contre que l'intimé Mohamed Sayed El Tornisi produit son
                                 titre original, qu'on doit répuler sincère, malgré les contes-•
                                 aiions soulevées par l'appelant, puisqu'il n'a pas fait l'objet
@@ -13408,7 +13417,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-10-40">
                         <head>lo février 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Courtier chargé de vendre; procès-verbal; foi.— II. Prête-nom ;
@@ -13561,7 +13570,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-10-50">
                         <head>16 février 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Jugement d'adjudication; nature: effets; chose jugée; attaque:
@@ -13683,7 +13692,7 @@
                             <p>Par, ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-10-60">
                         <head>16 février 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Vente; prix; francs; interprétation ;( éléments ; intention des
@@ -13900,7 +13909,8 @@
                     <p>Bail ; avis de non renouvellement ; forme ; preuve (p. 191).</p>
                     <p>Préemption ; revente ; simulation (p. 192).</p>
                     <p>I. Juridiction mixte ; compétence: cas.—IL Vente; engagement de l'acheteur de
-                        ne pas transcrire ; violation ; conséquences : responsabilité >p. 192).</p>
+                        ne pas transcrire ; violation ; conséquences : responsabilité &gt;p.
+                        192).</p>
                     <p>Intervention ; effet ; appel ; demande de radiation ; droit de l'intervenant
                         (p. 194).</p>
                     <p>I. Co-acheteurs ; revente ; mandat réciproque ; tiers acquéreur ;
@@ -13916,7 +13926,7 @@
                         préjudice; application (p. 199).</p>
                     <p>I. Mineurs ; Méglis el Hasbi ; Musulmans. — II. Tutelle ; conflit d'autorités
                         ; tiers dépositaire ; devoirs.—III. Mineurs ottomans; chrétiens ; tutelle;
-                        autorité religieuse; Arméniens (p. 200>.</p>
+                        autorité religieuse; Arméniens (p. 200&gt;.</p>
                     <p>Location unique; locataires ; sommes réclamées ; cumul ; compétence (p.
                         202).</p>
                     <p>I. Contrat de gage ; transcription ; droits de vente perçus ; nature du
@@ -13961,7 +13971,7 @@
                     <p>Décret du 23 avril 1922, modifiant certaines dis-, positions du Décret du 25
                         juin 1921, taxant les alcools à l'importation (1)</p>
                     <p>Nous, Roi d'Egypte,</p>
-                    <p>Vu notre Décret du 25 juin 1921 taxant les alcools à l'importation; ></p>
+                    <p>Vu notre Décret du 25 juin 1921 taxant les alcools à l'importation; &gt;</p>
                     <p>Sur la proposition de Notre Ministre des Finances et l'avis conforme de Notre
                         Conseil des Ministres;</p>
                     <p>DÉCRÉTONS :</p>
@@ -14241,7 +14251,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-11-10">
                         <head>16 février 1922. — Prés. Eeman,</head>
                         <div type="summary">
                             <p>Wakf ; prescription de 33 ans ; caractère.</p>
@@ -14336,7 +14346,7 @@
                             <p>Par ces motifs : avant dire droit...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-11-20">
                         <head>21 février 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Bail; avis de non renouvellement; forme; preuve.</p>
@@ -14410,7 +14420,7 @@
                             <p>Par ces motifs : continue.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-11-30">
                         <head>21 février 1922. — Prés. Ha.xsso.n. ■</head>
                         <div type="summary">
                             <p>Préemption; revente; simulation.</p>
@@ -14424,7 +14434,7 @@
                                 fictivité de la revente est établie ou non.</p>
                         </div>
                         <div type="litigants">
-                            <p>(Hassan B> y Wassef et Cts.</p>
+                            <p>(Hassan B&gt; y Wassef et Cts.</p>
                             <p>c. Khaled Pacha Wassef et Cts.).</p>
                         </div>
                         <div type="decision">
@@ -14461,7 +14471,7 @@
                             <p>...Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-11-40">
                         <head>21 février 1922. — Prés. HanssON.</head>
                         <div type="summary">
                             <p>I. Juridiction mixte : compétence; cas.— II. Vente; engagement de
@@ -14577,7 +14587,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-11-50">
                         <head>21 février 1922. - Prés. IIaxsson.</head>
                         <div type="summary">
                             <p>Intervention ; effet ; appel ; demande de radiation ; droit de
@@ -14647,7 +14657,7 @@
                             <p>Par ces motifs : déclare l'appel irrecevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-11-60">
                         <head>21 février 1922. — Prés. Haxsson.</head>
                         <div type="summary">
                             <p>I. Co-acheteurs ; revente; mandat réciproque; tiers acquéreur;
@@ -14795,7 +14805,7 @@
                             <p>Par ces motifs : Sur l'exception d'irrecevabilité : confirme....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-11-70">
                         <head>23 février 'I92-*. — Prés. Keman.</head>
                         <div type="summary">
                             <p>I. Décès; changement d'état ou qualité ; interruption de procédure ;
@@ -14904,7 +14914,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-11-80">
                         <head>23 février 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Dépôt ; décès ; retrait ; condition ; dépositaire ; devoirs.</p>
@@ -14974,7 +14984,7 @@
                             <p>Par ces motifs et ceux des premiers juges : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-11-90">
                         <head>23 février 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Vente; récolte; coton; art. 330 0 0.—11. Vente; cotons ; prix à
@@ -15078,7 +15088,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-11-100">
                         <head>23 lévrier 1922. — Prés. Eemvn.</head>
                         <div type="summary">
                             <p>I. Mineurs; Méglis el Hasbi; Musulmans.— II. Tutelle ; conflit
@@ -15233,7 +15243,7 @@
                             <p>Par ces motifs : réformant en partie, condamne.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-11-110">
                         <head>28 février 1922. - Prés. Hansson.</head>
                         <div type="summary">
                             <p>Location unique ; locataires ; sommes réclamées ; cumul ;
@@ -15286,7 +15296,7 @@
                             <p>Evoque le fond et condamne...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-11-120">
                         <head>28 février 1922. — Prés. Hanssox.</head>
                         <div type="summary">
                             <p>I. Contrat de gage ; transcription ; droits de vente perçus ; nature
@@ -15672,7 +15682,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-12-10">
                         <head>28 février 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Contrat synallagmatique ; condition résolutoire tacite. — II.
@@ -15682,7 +15692,7 @@
                             <p>I. Tout contrat synallagmatique est résiliable dès qu'une des parties
                                 n'exécute pas son engagement, mais cette résolution ne s'opère pas
                                 de plein droit,en l'absence d'une convention formelle, et lorsque la
-                                condition résolutoire est tacite, le juge doit procéder avec >ld
+                                condition résolutoire est tacite, le juge doit procéder avec &gt;ld
                                 plus grande circonspection dans l'appréciation des circonstances qui
                                 peuvent amener à la résolution du contrat (2).</p>
                             <note place="bottom">(2) V. arrêt 3 février 1904 (Bull., XVI, 120). </note>
@@ -15818,7 +15828,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-12-20">
                         <head>28 février 1922. — Prés. «HansSon.</head>
                         <div type="summary">
                             <p>Folle enchère ; différence entre les prix ; intérêts à charge du fol
@@ -15892,7 +15902,7 @@
                             <p>Par ces motifs : confirme, dit pourtant....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-12-30">
                         <head>28 février 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Commerçant; lettre ; cop'e-lettres. — II. Vente; résiliation;
@@ -15979,7 +15989,7 @@
                             <p>Par ces motifs : réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-12-40">
                         <head>1er mars 1922. — Prés. Laloë;</head>
                         <div type="summary">
                             <p>I. Concordat préventif; homologation; décision antérieure;
@@ -16082,7 +16092,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-12-50">
                         <head>2 mars 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Dot ; paiement ; usage. — II. Dot ; acompte versé ; achat de
@@ -16133,7 +16143,7 @@
                             <p>Par ces motifs : réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-12-60">
                         <head>2 mars 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Patriarcats ; privilèges et pouvoirs juridictionnels ; étendue ;
@@ -16316,7 +16326,7 @@
                                 : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-12-70">
                         <head>2 mars 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Signature déniée ; procédure de vérification ; pouvoir du juge. —
@@ -16463,7 +16473,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-12-80">
                         <head>2 mars 1922. — Prés. Hanssox.</head>
                         <div type="summary">
                             <p>Assignation ; objet ; précision.</p>
@@ -16523,7 +16533,7 @@
                             <p>Par ces motifs : déclare l'action irrecevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-12-90">
                         <head>7 mars 1922. — Prés. Hanssox.</head>
                         <div type="summary">
                             <p>Jugement; prononcé; motifs; communication.</p>
@@ -16566,7 +16576,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-12-100">
                         <head>7 mars 1922. — Prés. Haxsson.</head>
                         <div type="summary">
                             <p>Wakf; nationalité indigène; bénéficiaire étranger; revendication de
@@ -16681,7 +16691,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-13-10">
                         <head>7 mars 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Saisie immobilière ; revendication incidente ; adjudication ;
@@ -16811,7 +16821,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-13-20">
                         <head>7 mars 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Distribution par voie d'ordre ; règlement ; contestation ;
@@ -17012,7 +17022,7 @@
                         </div>
                     </div>
                     <pb n="226"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-13-30">
                         <head>8 mars 1922. — l'rés.-Laloé.</head>
                         <div type="summary">
                             <p>I. Commissionnaire ; fabrique non dénommée ; responsabilité
@@ -17118,7 +17128,7 @@
                             <p>... Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-13-40">
                         <head>8 mars 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Commis-voyageur ; vente ; fabrique ; confirmation; lieu du
@@ -17207,7 +17217,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-13-50">
                         <head>8 mars 1922. — Prés. Lalok.</head>
                         <div type="summary">
                             <p>I. Contrat de transport passé en Egypte; faute contractuelle;
@@ -17372,7 +17382,7 @@
                             <p>Par ces motifs : confirme, émendant....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-13-60">
                         <head>14 mars 11)22. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Compagnie du Canal de Suez ; employé ; sujet ennemi ; internement
@@ -17499,7 +17509,7 @@
                             <p>Par ces motifs : réforme en partie- confirme pour le surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-13-70">
                         <head>15 mars 1922. — Prés. Lai.ok</head>
                         <div type="summary">
                             <p>I. Interprétation de jugement; cas. — II. Arrêt; erreur matérielle ;
@@ -17605,7 +17615,7 @@
                                 mesure d'instruction.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-13-80">
                         <head>15 mars 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Louage de services; renvoi ; inobservation du délai; dommage ;
@@ -17700,7 +17710,7 @@
                         </div>
                     </div>
                     <pb n=",235"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-13-90">
                         <head>15 mars 1922. — Prés. La lo f:.</head>
                         <div type="summary">
                             <p>Louage de service ; ouvrier à la journée ; définition; mode de
@@ -17785,7 +17795,7 @@
                             <p>Par ces motifs : émendant. réduit.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-13-100">
                         <head>15 mars 1922. — Prés. Laloê.</head>
                         <div type="summary">
                             <p>I. Louage ; travaux entrepris par le propriétaire ; diminution de
@@ -17900,7 +17910,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-14-10">
                         <head>9 mars 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Novation ; créancier hypothécaire ; vente ; substitution du
@@ -17989,7 +17999,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-14-20">
                         <head>16 mars 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Demande reconventionnelle: pluralité de chefs ; chose jugée; cas.</p>
@@ -18086,7 +18096,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-14-30">
                         <head>16 mars 1922. — Prés. Eema.n.</head>
                         <div type="summary">
                             <p>I. Responsabilité; commettant: préposé ; pharmacie ; propriétaire :
@@ -18179,7 +18189,7 @@
                                 légale de faute qui et consiste, non plus comme dans le cas de «
                                 parents ou institutioiis, à avoir mal suret veillé ou mal dirigé la
                                 personne qui a « commis le fait dommageable, mais à l'avoir « choisi
-                                à la légère >> ;</p>
+                                à la légère &gt;&gt; ;</p>
                             <p>Qu'à cet endroit on cite Bertrand de Graville. rapporteur au
                                 Tribunati « Les maî-« très et les commettants ne peuvent, dans «
                                 aucun cas, argumenter de l'impossibilité où « ils prétendraient
@@ -18281,7 +18291,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-14-40">
                         <head>16 mars 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Mauvaise foi ; preuve ; éléments.</p>
@@ -18370,7 +18380,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-14-50">
                         <head>16 mars 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Servitudes; acquisition: prescription; conditions; vue: jour: balcon;
@@ -18451,7 +18461,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-14-60">
                         <head>23 mars 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Assurance sur la vie ; point de départ ; paiement des primes ; clause
@@ -18538,7 +18548,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-14-70">
                         <head>25 mars 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Vente ; instance en revendication pendante ; transcription
@@ -18602,7 +18612,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-14-80">
                         <head>25 mars 1922 — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Immeuble ; contestation entre étrangers ; tribunaux mixtes ;
@@ -18810,7 +18820,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-14-90">
                         <head>25 mars 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Ordre et contribution ; intérêts ; folle enchère : débiteur ;
@@ -18904,7 +18914,7 @@
                             <p>....Par.ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-14-100">
                         <head>25 mars 1922. — Prés. Hanssox.</head>
                         <div type="summary">
                             <p>I. Appartement meublé; litige; loyer annuel; appel. — II. Loyers;
@@ -19220,7 +19230,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-15-10">
                         <head>25 mars 1922. — Prés. Hanssox.</head>
                         <div type="summary">
                             <p>I. Dispositions contraires; requête civile ; condition. — II. Appel ;
@@ -19333,7 +19343,7 @@
                             <p>Par ces motifs : déclare la requête civile non admissible.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-15-20">
                         <head>25 mars 1922. — Prés. Hàxsson.</head>
                         <div type="summary">
                             <p>I. Bail ; prorogation ; preuve. — II. Bail ; constructions acquises
@@ -19547,7 +19557,7 @@
                         </div>
                     </div>
                     <pb n="261"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-15-30">
                         <head>25 mars 1922. — Prés. HansSon.</head>
                         <div type="summary">
                             <p>I. Lésion; nullité; caractère relatif. — II. Takha-roug ; caractère
@@ -19769,7 +19779,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-15-40">
                         <head>28 mars 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Ordre entre créanciers; expiration du délai pour produire ; titre
@@ -19808,7 +19818,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-15-50">
                         <head>28 mars 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Biens kharadji ; décret du 15 avril 1891 ; expropriation ;
@@ -19955,7 +19965,7 @@
                             <p>Par ces motifs: infirme et condamne.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-15-60">
                         <head>29 mars 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Locataire ; bail expiré : occupation sans titre -expulsion ;
@@ -20019,7 +20029,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-15-70">
                         <head>29 mars 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Serment décisoire ; faits faux ; vexation ; refus.</p>
@@ -20433,13 +20443,13 @@
                         Ministres de l'intérieur, des Finances et de la Justice sont chargés, chacun
                         en ce qui le concerne, de l'exécution de la présente loi qui entrera en
                         vigueur dès sa publication au Journal Officiel.</p>
-                    <p> Fait an Palais d'AMine, le 14 Cliawal 1340 (10 juin 1922 >.</p>
+                    <p> Fait an Palais d'AMine, le 14 Cliawal 1340 (10 juin 1922 &gt;.</p>
                     <p>FOUAD.</p>
                 </div>
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-16-10">
                         <head>29 mars 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Endossement; régularité; loi du lieu.— II. Faillite ; effet de
@@ -20538,7 +20548,7 @@
                             <p>Par ces motifs infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-16-20">
                         <head>29 mars 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Tribunaux mixtes ; étrangers ; compétence ; distinction ; cas. —
@@ -20626,7 +20636,8 @@
                                 <p>Voir aussi au Bull., tome II, page 1, une étude sur la
                                     question.</p>
                                 <p>Voir aussi T.D. II, v« Compétence, nos 1003 et suivants, et T.D.
-                                    III, vo Compétence, n°s 1444-1445.</p></note>
+                                    III, vo Compétence, n°s 1444-1445.</p>
+                            </note>
                             <note place="bottom">(2) Bapp., arrêt 2 décembre 1915 (Bull., XXVIH,
                                 43). </note>
                             <pb n="276"/>
@@ -20696,7 +20707,7 @@
                         </div>
                     </div>
                     <pb n="277"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-16-30">
                         <head>30 mars 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Vente ; servitude déclarée ; acheteur ; aggravation; vendeur; non
@@ -20796,7 +20807,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-16-40">
                         <head>30 mars 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Prêt hypothécaire ; tiers ; renseignements sciemment inexacts ;
@@ -20874,7 +20885,7 @@
                             <p>Par ces motifs : réforme et condamne.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-16-50">
                         <head>30 mars 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Convention ; interprétation ; termes ; but proposé. — II. Contrat;
@@ -21100,7 +21111,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-16-60">
                         <head>■4 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Instance entre indigènes ; mise en cause d'un étranger : tribunaux
@@ -21288,7 +21299,7 @@
                         ; nazir ; qualité exclusive (p. 291).</p>
                     <p>Wakf ; revenus ; bénéficiaire ; propriété ; cession ; validité (p. 291).</p>
                     <p>Ordre et contribution ; affichage : créanciers chirographaires ; défaut de
-                        production ; forclusion (p. 292>.</p>
+                        production ; forclusion (p. 292&gt;.</p>
                     <p>I. Preuve littérale: copies: transcription; insuffisance.— II. Adjudication :
                         revendication ultérieure ; admissibilité; effets. — III. Adjudication; danse
                         « aux risques et périls » ; éviction ; conséquence (p. 293).</p>
@@ -21464,7 +21475,7 @@
                     <p>Le Président de la Commission Municipale d'Alexandrie,</p>
                     <p>Vu les articles 15 et 23 du décret du 5 janvier 1890 instituant la Commission
                         Municipale d'Alexandrie;</p>
-                    <p>Vu le décret du (26 août 1889, sur le Service du Tanzim; ></p>
+                    <p>Vu le décret du (26 août 1889, sur le Service du Tanzim; &gt;</p>
                     <p>Vu l'arrêté ministériel des travaux publics en date du 8 septembre 1889,
                         modifié par l'arrêté du 5 février 1899, portant règlement d'application du
                         Tanzim; ,</p>
@@ -21503,7 +21514,7 @@
                         autorisant le recouvrement par la voie administrative de la taxe sur la
                         propriété bâtie et de la taxe sur les loyers.</p>
                     <p>(Publié au Journal Officiel du 22 juin 1922. n° 58).</p>
-                    <p>---------->------------3S£----------------:------</p>
+                    <p>----------&gt;------------3S£----------------:------</p>
                     <p>Beserit Royal n° 55 du 21 juin 1922, déterminant la catégorie des membres de
                         la Famille Royale ayant droit au rang et titre de Nabil ou de Nabila
                         (1).</p>
@@ -21617,7 +21628,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-10">
                         <head>4 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Préemption ; constructions; démolition; appel ; délai.</p>
@@ -21701,7 +21712,7 @@
                         </div>
                     </div>
                     <pb n="291"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-20">
                         <head>4 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Wakf; institution locale; personnalité; compétence. — II. Wakf;
@@ -21748,7 +21759,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-30">
                         <head>4 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Wakf; revenus; bénéficiaire; propriété; cession ; validité.</p>
@@ -21834,7 +21845,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-40">
                         <head>4 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Ordre et contribution ; affichage ; créanciers chirographaires ;
@@ -21892,7 +21903,7 @@
                             <p>Par ces motifs : réformant...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-50">
                         <head>• 4 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Preuve littérale ; copies ; transcription ; insuffisance. — IL
@@ -21960,7 +21971,7 @@
                                 vente consentie à l'auteur des demanderesses ;</p>
                             <p>Qu'elles produisent enfin, à part l'Elam Charéi, les actes de vente à
                                 elles consentis</p>
-                            <note place="bottom">(1) Voir T.D. III, v° Saisie i >imobilière, nos
+                            <note place="bottom">(1) Voir T.D. III, v° Saisie i &gt;imobilière, nos
                                 5500 et suivants.</note>
                             <p>par les autres cohéritiers, un acte de partage et des wirds, pièces
                                 qui toutes établissent qu'elles sont devenues seules propriétaires
@@ -22016,7 +22027,7 @@
                             <p>Par ces motifs : infirme en partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-60">
                         <head>5 avril 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>I. Détournement d'objets saisis ; gardien judiciaire ; constatation.
@@ -22091,7 +22102,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-70">
                         <head>6 avril 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Wakf ; nazir ; mandataire ; honoraires.</p>
@@ -22157,7 +22168,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-80">
                         <head>6 avril 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Appel ; partie nouvelle ; conclusions ; irrecevabilité. — II.
@@ -22230,7 +22241,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-90">
                         <head>6 avril 1922. — Prés. Eeman. ;;</head>
                         <div type="summary">
                             <p>Voiturier : objets à transporter ; perte ; responsabilité ;
@@ -22238,7 +22249,7 @@
                                 transport à tarif réduit ; expéditeur-assureur; perte;
                                 Administration; non responsabilité ; exceptions.</p>
                             <p>D'après les principes généraux, le vòiturier est garant de la perte
-                                des objets à transporter> hors le cas de force majeure (art. i02
+                                des objets à transporter&gt; hors le cas de force majeure (art. i02
                                 C.Co.'); mais rien ne lui interdit de mitiger cette obligation en la
                                 restreignant, par des conventions spéciales appropriées, à son
                                 minimum légal.</p>
@@ -22330,7 +22341,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-100">
                         <head>Il avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Courtage ; opération accomplie; fixation ; ' pouvojr du luge.</p>
@@ -22384,7 +22395,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-110">
                         <head>11 avril 1922. — Prés. HanssonJ-</head>
                         <div type="summary">
                             <p>I. - Adjudication ; quantités vendues; addition; erreur. — II. Saisie
@@ -22506,7 +22517,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-120">
                         <head>11 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Cession de créance ; poursuites immobilières du . cédant ;
@@ -22666,7 +22677,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-17-130">
                         <head>12 avril 1922. — Prés.. Cambas.</head>
                         <div type="summary">
                             <p>Faillite; facture reconnue; jugement de condamnation.</p>
@@ -23021,7 +23032,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-18-10">
                         <head>11 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Mise hors de cause ; demande tardive ; frais ; compensation. — IL
@@ -23119,14 +23130,14 @@
                             <p>Attendu que l'identité des terrains ayant formé l'objet de la vente à
                                 Aly Omar Arram et de l'adjudication à la demoiselle Chaoul est
                                 prouvée par la comparaison des limites. Il est vrai qu'il y a
-                                diversité dans la dénomination duhod, indiqué comme «El Nattasse >>
-                                dans la vente, et comme «El Charki» dans l'adjudication ; mais,
-                                comme on l'a expliqué, le mot El Nahasse n'est que la dénomination
-                                vulgaire du Hod El Charki. D'ailleurs la moukallafa démontre que
-                                Mohamed Salem Abdel.Raouf ne possédait aucun terrain au hod El
-                                Nahasse. Enfin la circonstance que la banque a acquiescé, après
-                                vérification, à la revendication donne à la conviction de la Cour
-                                toute tranquillité ;</p>
+                                diversité dans la dénomination duhod, indiqué comme «El Nattasse
+                                &gt;&gt; dans la vente, et comme «El Charki» dans l'adjudication ;
+                                mais, comme on l'a expliqué, le mot El Nahasse n'est que la
+                                dénomination vulgaire du Hod El Charki. D'ailleurs la moukallafa
+                                démontre que Mohamed Salem Abdel.Raouf ne possédait aucun terrain au
+                                hod El Nahasse. Enfin la circonstance que la banque a acquiescé,
+                                après vérification, à la revendication donne à la conviction de la
+                                Cour toute tranquillité ;</p>
                             <p>Attendu que l'appelant n'apporte aucune preuve de ses assertions
                                 concernant l'exagération de l'indemnité allouée; au contraire,
                                 l'intimé a produit deux contrats de location de terrains avoisinants
@@ -23175,7 +23186,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-18-20">
                         <head>12 avril 1922. — Prés. Cxmba.s.</head>
                         <div type="summary">
                             <p>I. Compte-courant; commerçant; preuve. — II. Billets à ordre ;
@@ -23232,7 +23243,7 @@
                             <p>Pas ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-18-30">
                         <head>12 avril 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>I. Vente ; marchandise divisible ; prix unitaire ; vendeur ayant
@@ -23340,7 +23351,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-18-40">
                         <head>12 avril 1922. — Prés. Causas.</head>
                         <div type="summary">
                             <p>Vente ; expédition ; délai ; réserve de non responsabilité pour
@@ -23456,7 +23467,7 @@
                                 société Ebbo Guetta &amp; Co. mal fondée et l'en déboute.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-18-50">
                         <head>'13 avril 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Contestation entre indigènes; séquestre judiciaire mixte ; mise en
@@ -23587,7 +23598,7 @@
                                 ès q. et se déclare incompétente à statuer sur tout le litige.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-18-60">
                         <head>13 avril 1922. — Prés. Eemaw.</head>
                         <div type="summary">
                             <p>Instance possessore ; objet principal ; disparition ; frais ;
@@ -23630,7 +23641,7 @@
                             <p>Par ces motifs: confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-18-70">
                         <head>13 avril 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Tribunaux du statut personnel ; conflit; tribunaux mixtes. — IL
@@ -23969,7 +23980,7 @@
                         que soient les circonstances ».</p>
                     <p>Art. 2. — Cet arrêté entrera en vigueur quinze jours après sa publication au
                         Journal Officiel.</p>
-                    <p>f>e Caire, le 3 juillet 1922.</p>
+                    <p>f&gt;e Caire, le 3 juillet 1922.</p>
                     <p>-------------------------------------------------</p>
                     <p>Arrêté n° 6 du Ministère des Communications, du 13 juillet 1922, portant
                         modification des articles 33, 34 et 35 du Tarif pour le transport par petite
@@ -24195,7 +24206,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-19-10">
                         <head>13 avril 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Mesure administrative ; sujets locaux ; action pos sessoire ;
@@ -24313,7 +24324,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-19-20">
                         <head>13 avril 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Exequatur; jugement britannique: Aden ; conditions ; défaut de
@@ -24443,7 +24454,7 @@
                                 principale.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-19-30">
                         <head>13 avril 1922. — Prés. Eemax.</head>
                         <div type="summary">
                             <p>Mise sous séquestre indue; propriétaire; dommages-intérêts :
@@ -24525,7 +24536,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-19-40">
                         <head>13 avril 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Vente ; garantie ; troubles de droit ; locataires. — II.
@@ -24717,7 +24728,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-19-50">
                         <head>18 avril 1922. — Prés. Haxsson.</head>
                         <div type="summary">
                             <p>Saisie immobilière; créancier inscrit; adjudicataire; prix; créance;
@@ -24835,7 +24846,7 @@
                                 règlement provisoire additionnel.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-19-60">
                         <head>18 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Ordre ; créancier inscrit omis ; droits.</p>
@@ -24895,7 +24906,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-19-70">
                         <head>18 avril 1922. — Prés. Haxssox.</head>
                         <div type="summary">
                             <p>Action provocatoire ; exercice ; conditions ; cas.</p>
@@ -25287,7 +25298,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-20-10">
                         <head>19 avril 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>Coton ; convention d'égrenage et de vente ; art. 84 C. Co. ;
@@ -25339,7 +25350,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-20-20">
                         <head>19 avril 1922. — Prés. Cambas.</head>
                         <div type="summary">
                             <p>Billet à ordre ; endossement en garantie ; valeur; conséquences.</p>
@@ -25395,7 +25406,7 @@
                             <p>Par ces motifs : infirme à l'égard de l'appelant.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-20-30">
                         <head>19 avril 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>I. Concordat préventif sur concordat préventif ; possibilité. — II.
@@ -25497,7 +25508,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-20-40">
                         <head>19 avril 1922. — Prés. Cambas. *</head>
                         <div type="summary">
                             <p>Commissionnaire ; marchandise ; dégâts ; constatation ;
@@ -25582,7 +25593,7 @@
                             <p>Par ces motifs : confirme. .</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-20-50">
                         <head>19 avril 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>I. Assignation ; domicile inconnu ; Parquet ; conditions. — II.
@@ -25727,7 +25738,7 @@
                                 faillite.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-20-60">
                         <head>20 avril 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Automobile ; vente ; plaques retenues ; revente ; retard dans la
@@ -25799,7 +25810,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-20-70">
                         <head>20 avril 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Héritier; qualité ; contestation ; inadmissibilité; cas.</p>
@@ -25848,7 +25859,7 @@
                         </div>
                     </div>
                     <pb n="348"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-20-80">
                         <head>20 avril 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Biens successoraux; taklif ; inscription ; caractère; hypothèque ;
@@ -25933,7 +25944,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-20-90">
                         <head>25 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Créancier hypothécaire; débiteur; ayant cause; chose jugée ; moyen
@@ -26057,7 +26068,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-20-100">
                         <head>25 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Juridiction mixte; étranger; mise hors de cause; indigènes ;
@@ -26089,7 +26100,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-20-110">
                         <head>25 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Terrains; location; vente ; loyers; réduction; cas.</p>
@@ -26104,8 +26115,8 @@
                                 composée de terres inférieures marécageuses, en grande partie sous
                                 l'eau et incultivables, dont le loyer ne pourrait revenir au taux
                                 forfaitaire moyen convenu.</p>
-                            <note place="bottom">(1) V. T.D., III, vo Juridiction mixte, n&amp;lt;>«
-                                3163 ej s.</note>
+                            <note place="bottom">(1) V. T.D., III, vo Juridiction mixte,
+                                n&amp;lt;&gt;« 3163 ej s.</note>
                         </div>
                         <div type="litigants">
                             <p>(Mohamed Bey Badr et Ct.</p>
@@ -26577,7 +26588,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-21-10">
                         <head>25 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Débiteur; assignation en justice; exceptions; obligation de les
@@ -26622,7 +26633,7 @@
                             <p>Les premiers juges, après avoir constaté que tous les faits sur
                                 lesquels sont basées ces contestations sont antérieurs aux juge
                                 -ments en vertu desquels les dits créanciers se trouvent colloqués,
-                                ont rejeté le contredit > de l'appelant.</p>
+                                ont rejeté le contredit &gt; de l'appelant.</p>
                             <p>Cette décision est parfaitement bien fondée.</p>
                             <p>Vainement l'appelant a voulu « tout spécialement attirer l'attention
                                 de la Cour sur cette affaire », qui d'après lui représenterait un
@@ -26695,7 +26706,7 @@
                         </div>
                     </div>
                     <pb n="360"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-21-20">
                         <head>25 avril 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Ordre entre créanciers; contredit; désistement; intéressés ; droit
@@ -26795,7 +26806,7 @@
                                 recevable en son action.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-21-30">
                         <head>26 avril 1922. — Prés. Cambas.</head>
                         <div type="summary">
                             <p>Marchandises déposées; risques et périls; cas.</p>
@@ -26861,7 +26872,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-21-40">
                         <head>26 avril 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>Concordat ; homologation ; intérêt public ; refus ; cas.</p>
@@ -26934,7 +26945,7 @@
                                 confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-21-50">
                         <head>26 avril 1922. — Prés. Gambas .</head>
                         <div type="summary">
                             <p>I. Patriarche syrien-orthodoxe ; succession ; dévolution. — IL
@@ -27113,7 +27124,7 @@
                         </div>
                     </div>
                     <pb n="366"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-21-60">
                         <head>26 avril 1922. — Prés. Cambas.</head>
                         <div type="summary">
                             <p>Arrêt ; dispense de signification effet délais ; cours ; requête
@@ -27199,7 +27210,7 @@
                                 inadmissible.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-21-70">
                         <head>26 avril 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>I. Faillite; mineur de 21 ans; défaut d'autorisation; dettes civiles.
@@ -27339,7 +27350,7 @@
                         Défense d'aliéner ; transcription. — IV. Affectation hypothécaire ; tribunal
                         indigène ; inefficacité (p. 375).</p>
                     <p>Partage ; biens communs ; caractère déclaratif. — U. Partage ; éviction ;
-                        droit du communiste évincé ; dommages-intérêts (p. 377>.</p>
+                        droit du communiste évincé ; dommages-intérêts (p. 377&gt;.</p>
                     <p>Billet à ordre ; endossement ; saisies-arrêts ; ordre ; collocation du
                         cessionnaire ; somme à réserver ; distribution (p. 378).</p>
                     <p>Effets de commerce ; exception de prescription ; serment libératoire ;
@@ -27358,7 +27369,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-22-10">
                         <head>27 avril 1922. —Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Actes de procédure; nullité couverte. — II. Commandement
@@ -27457,7 +27468,7 @@
                         </div>
                     </div>
                     <pb n="371"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-22-20">
                         <head>27 avril 1922. —Prés. Eeman</head>
                         <div type="summary">
                             <p>I. Vente; défaut de livraison; mise en demeure ; résiliation ; droit
@@ -27604,7 +27615,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-22-30">
                         <head>27 avril 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Chose jugée; effet absolu. — II. Compensation; jugement; créance
@@ -27725,7 +27736,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-22-40">
                         <head>29 avril 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>Tribunal des contraventions ; jugement d'acquittement : ministère
@@ -27788,7 +27799,7 @@
                                 prononcent un acquittement.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-22-50">
                         <head>2 mai 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Action paulienne; jugement indigène ; créancier étrangers ;
@@ -27894,7 +27905,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-22-60">
                         <head>2 mai 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Partage ; biens communs ; caractère déclaratif.— II. Partage ;
@@ -27994,7 +28005,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-22-70">
                         <head>2 mai 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Billet à ordre ; endossement ; saisies-arrêts; ordre; collocation du
@@ -28065,7 +28076,7 @@
                                 d'une distribution spéciale ; confirme pour le surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-22-80">
                         <head>3 mai 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>Effets de commerce; exception de prescription; serment libératoire ;
@@ -28103,7 +28114,7 @@
                         </div>
                     </div>
                     <pb n="380"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-22-90">
                         <head>4 mai 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Vente ; éviction ; prix ; action. — II. Vente ; annulation ;
@@ -28170,7 +28181,7 @@
                                 incident, demandant L.E. 100 pour action vexatoire, et qu'est aussi
                                 intervenu le sieur Mirza, concessionnaire de Sékali ;</p>
                             <p>Attendu que l'appelant principal prétend:</p>
-                            <p>&amp;lt;■>) que la somme déposée est sa propriété, parce qu'elle
+                            <p>&amp;lt;■&gt;) que la somme déposée est sa propriété, parce qu'elle
                                 représente sa part dans la société dissoute Malhamé-Sékali ;</p>
                             <p>b) qu'en admettant même qu'elle représente le prix de la vente
                                 annulée, il a sur elle </p>
@@ -28227,7 +28238,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-22-100">
                         <head>4 mai 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Chose jugée ; dispositif: motifs. — II. Dommages-intérêts ;
@@ -28384,7 +28395,7 @@
                             <p>; ....Par ceS motifs : condamne.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-22-110">
                         <head>9 mai 1922. Prés. Hansson.</head>
                         <div type="summary">
                             <p>Immeubles hypothéqués ; vente partielle ; expropriation totale ;
@@ -28484,7 +28495,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-23-10">
                         <head>4 mai 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Conclusions communiquées ; passage supprimé ; requête civile; dol;
@@ -28568,7 +28579,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-23-20">
                         <head>9 mai 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Art. 370 0.0. ; prescription annale ; défaut de contenance ; non
@@ -28689,11 +28700,11 @@
                                 terrains effectivement consignés à l'acheteur, sa disposition
                                 n'étant pas extensive en cas de non consignation d'une parcelle
                                 vendue. Dans ce cas l'acheteur a le droit, conformément à l'art.
-                                34f> C. C., de poursuivre son vendeur en exécution intégrale de la
-                                vente, en réclamant la consignation de la parcelle qui ne lui avait
-                                été délivrée, et ce droit n'est prescriptible que dans le délai
-                                ordinaire de 15 ans (arrêts 14 novembre 1907, 26 décembre 1907, 24
-                                avril 1913, 15 mai 1913, 17 décembre 1913, etc.) ;</p>
+                                34f&gt; C. C., de poursuivre son vendeur en exécution intégrale de
+                                la vente, en réclamant la consignation de la parcelle qui ne lui
+                                avait été délivrée, et ce droit n'est prescriptible que dans le
+                                délai ordinaire de 15 ans (arrêts 14 novembre 1907, 26 décembre
+                                1907, 24 avril 1913, 15 mai 1913, 17 décembre 1913, etc.) ;</p>
                             <p>Et à supposer que les héritiers de Mohamed Farag Hussein soient
                                 rentrés en la possession de la parcelle litigieuse et que l'appelant
                                 en ait pris possession après la vente du 29 décembre 1915, ce qui ne
@@ -28736,7 +28747,7 @@
                             <p>Par ces motifs, et en écartant ceux des premiers juges, confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-23-30">
                         <head>10 mai 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>I. Appel ; action inchangée ; qualification modifiée ; recevabilité.
@@ -28862,7 +28873,7 @@
                             <p>.... Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-23-40">
                         <head>10 mai 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>Louage ; référé ; expulsion ; loi n° 4 de 1921 ; droit commun.</p>
@@ -28918,7 +28929,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-23-50">
                         <head>10 mai 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>Vente; marchandise flottante; risques; chargement non effectué;
@@ -29012,7 +29023,7 @@
                             <p>.... Par ces motifs: confirme .. . émen-dant.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-23-60">
                         <head>11 mai 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Saisie immobilière ; tiers détenteur ; sommation ; commandement
@@ -29100,7 +29111,7 @@
                             <p>Par ces motifs : émende.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-23-70">
                         <head>11 mai 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Sentence: interprétation; principes; cas.</p>
@@ -29234,7 +29245,7 @@
                                 entreprise.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-23-80">
                         <head>11 mai 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Reintegratale ; caractère urgent; nationalité; prétendu conflit;
@@ -29400,7 +29411,7 @@
                                 administrative conforme aux lois.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-23-90">
                         <head>11 mai 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Danger d'éviction ; rétention du prix ; action en restitution ;
@@ -29503,7 +29514,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-23-100">
                         <head>13 mai 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Recours ; qualification erronée ; recevabilité. — II.
@@ -29602,7 +29613,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-24-10">
                         <head>13 mai 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Objets saisis ; simple déplacement ; détournement ; intention;
@@ -29668,7 +29679,7 @@
                             <p>Par ces motifs : rejette.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-24-20">
                         <head>16 mai 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Loi de 1921 sur les loyers; compétence sommaire : instances
@@ -29776,7 +29787,7 @@
                             <p>Par ces motifs : infirme et renvoie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-24-30">
                         <head>16 mai 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Loi sur les loyers; juridiction ordinaire; exceptions ;
@@ -29881,8 +29892,8 @@
                             <p>Par ces motifs : confirme. J. '</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
-                        <head>>6 mai 1922. — Prés. Haxsson. ,</head>
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-24-40">
+                        <head>&gt;6 mai 1922. — Prés. Haxsson. ,</head>
                         <div type="summary">
                             <p>I. Vente de biens d'un interdit ; homologation consulaire ; retard
                                 considérable ; acheteur ; résilia^ lion. — II. Subrogé-curateur ;
@@ -30003,7 +30014,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-24-50">
                         <head>17 mai 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>I. Occupant sans titre ; expulsion ; référé ; compétence ; locataire
@@ -30092,7 +30103,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-24-60">
                         <head>17 mai 1922. — Prés. Cambas.</head>
                         <div type="summary">
                             <p>I. Appel ; évaluation ; chefs distincts ; offres ; distinction;
@@ -30170,7 +30181,7 @@
                             <p>Par ces motifs : ordonne.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-24-70">
                         <head>17 mai 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>Faillite ; jugement ; opposition; appel; différence.</p>
@@ -30256,7 +30267,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-24-80">
                         <head>18 mai 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Société civile; dissolution; immeuble social ; partage ;
@@ -30421,7 +30432,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-24-90">
                         <head>18 mai 1922. - Prés. Eeman.</head>
                         <div type="summary">
                             <p>Responsabilité; faute commune; compensation des fautes;
@@ -30566,7 +30577,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-24-100">
                         <head>18 mai 1922. — Prés. Eemax</head>
                         <div type="summary">
                             <p>Hypothèque : précision ; spécialité ; bordereau ; validité ;
@@ -30725,7 +30736,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-25-10">
                         <head>18 mai 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Chose jugée ; éléments ; identité d'objet ; inexistence ; cas.</p>
@@ -30812,7 +30823,7 @@
                                 l'exception de chose jugée.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-25-20">
                         <head>2!i mai 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Affectation hypothécaire ; désignation des biens ; inexactitude ;
@@ -30984,7 +30995,7 @@
                             <p>Par ces motifs : infirme pour partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-25-30">
                         <head>23 niai 1922. — Prés. Haxsson.</head>
                         <div type="summary">
                             <p>I. Appel incident; recevabilité.—II. Louage de service ; licenciement
@@ -31076,7 +31087,7 @@
                             <p>Par ces motifs: confirme.... amendant.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-25-40">
                         <head>23 mai 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Wakf; inaction de 33 ans ; action ; irrecevabilité.</p>
@@ -31145,10 +31156,10 @@
                                 droit musulman, tant en matière de succession qu'en matière de wakf
                                 et la jurisprudence mixte en a toujours fait l'application ; . ,
                                 .</p>
-                            <p>Par ces motifs: infirme. ></p>
+                            <p>Par ces motifs: infirme. &gt;</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-25-50">
                         <head>23 mai 1922. — Prés. IIansson.</head>
                         <div type="summary">
                             <p>I. Mur litigieux; revendication; charge de la preuve. — If. Murs
@@ -31250,7 +31261,7 @@
                             <p>Par ces motifs : réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-25-60">
                         <head>24 mai 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Appel; taux: calcul; moment.— II. Vente de marchandises; livraison
@@ -31323,7 +31334,7 @@
                                 parties devant les premiers juges, qu'en dehors des contestations
                                 relatives aux dommages-intérêts dont condamnation a été prononcée,
                                 il y a eu également contestation sur l'exécution de la commande
-                                relativement aux 4 tonnes >/» et au sujet desquelles l'appelante
+                                relativement aux 4 tonnes &gt;/» et au sujet desquelles l'appelante
                                 soutenait que la marchandise était livrable, de par le contrat. «
                                 franco port anglais » et que par rembarquement des 4 tonnes à
                                 Liverpool, elle avait exécuté ses engagements alors que l'intimée,
@@ -31361,7 +31372,7 @@
                             <p>Par ces motifs : infirme en partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-25-70">
                         <head>24 mai 1922. — Prés. Lai.oe.</head>
                         <div type="summary">
                             <p>Tramways; accident; responsabilité; enfant; parents ; faute.</p>
@@ -31426,7 +31437,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-25-80">
                         <head>24 mai 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Jugement ; partie décédée: nullité. — II. Partie: décès;
@@ -31509,7 +31520,7 @@
                             <p>Par ces motifs : admet l'inscription de faux.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-25-90">
                         <head>24 mai 1922. — Prés. I.aloë</head>
                         <div type="summary">
                             <p>I. Appel ; intimation ; parties. — II. Guerre ; débiteurs de sujets
@@ -31643,7 +31654,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-25-100">
                         <head>27 niai 1922. — Près. Laloë.</head>
                         <div type="summary">
                             <p>I. Jugement contraventionnel ; motivation. — II. Bar ; ouverture ;
@@ -31713,7 +31724,7 @@
                             <p>Par ces motifs : casse.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-25-110">
                         <head>27 mai 1922. — Prés. Eemax.</head>
                         <div type="summary">
                             <p>I. Délai ; signification ; calcul ; « dies a quo » : « dies ad quem
@@ -31886,7 +31897,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-26-10">
                         <head>27 mai 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Société étrangère ; juridiction mixte; compétence ; cas.—II.
@@ -32056,7 +32067,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-26-20">
                         <head>/■''' 31 mai 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Assurance maritime: transbordement; risque couvert ; cas. — H.
@@ -32066,9 +32077,9 @@
                                 provisoire; navire ; responsabilité.</p>
                             <p>I. Une assurance de marchandises charqées sur un navire pour tel
                                 voyage, stipulant k qu'elle est faite de terre à terre et qu'elle
-                                cou-> vre les risques d'un transbordement possible, couvre aussi le
-                                risque couru par les marchandises pendant leur transport d'une cale
-                                dans une autre cale du même navire, fait pour i ' /assurer la
+                                cou-&gt; vre les risques d'un transbordement possible, couvre aussi
+                                le risque couru par les marchandises pendant leur transport d'une
+                                cale dans une autre cale du même navire, fait pour i ' /assurer la
                                 navigabilité du navire. Si donc \/ le chaland, sur lequel ont été
                                 déchargées les f marchandises pour effectuer le dit transport, vient
                                 à couler au cours de l'opération, l'assurance est tenue de réparer
@@ -32264,7 +32275,7 @@
                                 déféré.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-26-30">
                         <head>31 mai 1922. — Prés. Lvloì':.</head>
                         <div type="summary">
                             <p>Convention des parties : ordre public : dérogation ; inadmissibilité;
@@ -32330,7 +32341,7 @@
                             <p>441</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-26-40">
                         <head>1er juin 1922. - Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Situation des lieux : eaux naturelles; servitude; eaux amenées
@@ -32519,7 +32530,7 @@
                             <p>...Par ces motifs : confirme... émendant...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-26-50">
                         <head>1er juin 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>Mur : mitoyenneté ; acquisition.</p>
@@ -32618,7 +32629,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-26-60">
                         <head>1er juin 1922. — Prés. Eemax.</head>
                         <div type="summary">
                             <p>Aveu; irrévocabilité; valeur; conditions.</p>
@@ -32767,7 +32778,7 @@
                             <p>..... Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-26-70">
                         <head>1er juin 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Succession musulmane; créances ; actions ; héritiers. — II.
@@ -32912,7 +32923,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-27-10">
                         <head>3 juin 1922. — Prés. IIansson.</head>
                         <div type="summary">
                             <p>Louage ; tacite reconduction ; effets ; conditions ; durée; préavis;
@@ -32937,7 +32948,7 @@
                                 que l'appelant prétend n'être tenu à payer que le montant stipulé
                                 dans le contrat de bail conclu entre parties pour une seule année en
                                 date du 16 mars 1912, soit L.E. 120 par an.</p>
-                            <p>Aux termes du bail qui entra en vigueur > le 1er juin 1912, le
+                            <p>Aux termes du bail qui entra en vigueur &gt; le 1er juin 1912, le
                                 locataire seul avait le droit de le renouveler pour une autre année
                                 aux mêmes conditions à charge par lui d'en aviser le bailleur au
                                 moyen d'une lettre re- </p>
@@ -33023,7 +33034,7 @@
                             <p>Par ces motifs : réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-27-20">
                         <head>3 juin 1922. — Prés. Haxsson.</head>
                         <div type="summary">
                             <p>Affectation hypothécaire; renouvellement; nécessité.</p>
@@ -33130,7 +33141,7 @@
                             <p>Par ces motifs : infirme en partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-27-30">
                         <head>3 juin 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Vente; dernière maladie; art. 320 C C.; statut personnel du
@@ -33260,7 +33271,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-27-40">
                         <head>3 juin 1922 — Prés. Haxsson.</head>
                         <div type="summary">
                             <p>Contredit ; péremption.</p>
@@ -33385,7 +33396,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-27-50">
                         <head>3 juin 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Vente volontaire; acheteur; prix; intérêts; taux. — II. Art. 692
@@ -33478,7 +33489,7 @@
                             <p>...Par ces motifs : confirme, émendant.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-27-60">
                         <head>3 juin 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Cession de créance : existence garantie ; retrait litigieux;
@@ -33655,7 +33666,7 @@
                         </div>
                     </div>
                     <pb n="460"/>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-27-70">
                         <head>6 juin 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Bail ; locataire ; responsabilité extraordinaire ; ambiguïté ;
@@ -33829,7 +33840,7 @@
                             <p>...Par ces motifs : réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-27-80">
                         <head>6 juin 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Inscription renouvelée; cession; subrogation ; ordre entre créanciers
@@ -33891,7 +33902,7 @@
                             <p>Par ces motifs : réforme en partie.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-27-90">
                         <head>6 juin 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Obligation civile ; obligation commerciale ; connexité ; preuve ;
@@ -34273,7 +34284,7 @@
                 <div type="section" feature="jurisprudence">
                     <head>JURISPRUDENCE</head>
                     <p>COUR D'APPEL MIXTE</p>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-10">
                         <head>6 juin 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Convention ; interprétation ; pouvoir du juge ; limites.</p>
@@ -34354,7 +34365,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-20">
                         <head>7 juin 1922. — Prés. Laloë.</head>
                         <div type="summary">
                             <p>I. Nationalité; conflit; tribunaux; compétence; cas: portée. — IL
@@ -34499,7 +34510,7 @@
                             <p>Attendu que les intimés se sont appuyés surtout sur la mention
                                 apposée au verso de l'acte d'autorisation et posant la condition que
                                 Garabed Melkonian ne rentrerait pas dans les territoires ottomans ;
-                                qu'ils ont versé au débat la copie d'un « mazbata -> (décision),
+                                qu'ils ont versé au débat la copie d'un « mazbata -&gt; (décision),
                                 daté du 25 Ramazan 1310 (12 avril 1893), qui aurait été sanctionné
                                 par iradé impérial du 28 du même mois, d'après lequel, après avoir
                                 statue sur la demande formulée par un sieur Ovadie de changer de
@@ -34584,7 +34595,7 @@
                                 déférée....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-30">
                         <head>7 juin 1922. — Prés. Gambas.</head>
                         <div type="summary">
                             <p>I. Créance commerciale ; billet à personne dénommée; cession;
@@ -34699,7 +34710,7 @@
                             <p>Par ces motifs : infirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-40">
                         <head>8 juin 1922. - Prés. Eeman.</head>
                         <div type="summary">
                             <p>Chemin de fer; règlement; art. 25 ; vol; inapplicabilité.</p>
@@ -34817,7 +34828,7 @@
                             <p>Par ces motifs : confirme.... émendant.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-50">
                         <head>8 juin 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Dénégation de signature; écrits privés. — II. Dénégation de
@@ -34915,7 +34926,7 @@
                                 février 1922.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-60">
                         <head>8 juin 1922. — Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Débiteur; interdiction; garant; action; validité. — II.
@@ -35049,7 +35060,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-70">
                         <head>8 juin 1922. — Prés. Ef.man.</head>
                         <div type="summary">
                             <p>Propriété ; construction ; voisinage.</p>
@@ -35121,7 +35132,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-80">
                         <head>13 juin 1922. - Prés. Hansson.</head>
                         <div type="summary">
                             <p>Jugement par défaut ; commandement ; paiement des condamnations;
@@ -35195,7 +35206,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-90">
                         <head>13 juin 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Construction; retard ; prétendue force majeure ; inexistence;
@@ -35358,7 +35369,7 @@
                             <p>Par ces motifs : réforme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-100">
                         <head>15 juin 1922. — Prés. Eemax.</head>
                         <div type="summary">
                             <p>J. Serment décisoire ; admissibilité. — II. Mandataire ; pouvoir
@@ -35461,7 +35472,7 @@
                             <p>Par ces motifs : confirme et ordonne....</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-110">
                         <head>20 juin 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Wakfieh ; validité ; tribunaux mixtes ; incompétence. — II.
@@ -35526,7 +35537,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-120">
                         <head>20 juin 1922. — Prés. Hanssôn.</head>
                         <div type="summary">
                             <p>I. Nationalité étrangère ; certificat consulaire. — II. Femme
@@ -35576,7 +35587,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-130">
                         <head>20 juin 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Contredit; appel; moyens nouveaux; irrecevabilité.</p>
@@ -35616,7 +35627,7 @@
                             <p>Par ces motifs: déclare l'appel irrecevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-140">
                         <head>20 juin 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>Copropriétaire originaire ; retrait d'indivision ;
@@ -35705,7 +35716,7 @@
                             <p>Par ces motifs : confirme.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-150">
                         <head>20 juin 1922. — Prés. IIanssox.</head>
                         <div type="summary">
                             <p>Prêt hypothécaire; remboursement; indemnité de remploi ; validité ;
@@ -35768,7 +35779,7 @@
                             <p>...Par ces motifs : confirme en précisant...</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-160">
                         <head>20 juin 1922. — Prés. Hansson.</head>
                         <div type="summary">
                             <p>I. Ordre entre créanciers ; hypothèque ; renouvellement; rang. — II.
@@ -35844,7 +35855,7 @@
                                 pouvait ignorer qu'elle porte en tête : « inscription d'hypothèque
                                 conventionnelle requise. . . . tant pour valoir à la date comme
                                 inscription nouvelle que pour servir de renouvellement. . . à celle
-                                prise au même greffe le 2 juin 1901 >>.</p>
+                                prise au même greffe le 2 juin 1901 &gt;&gt;.</p>
                             <p>D'ailleurs le bordereau de l'inscription de 1909 avec cet en-tête
                                 ainsi que le contrat de prêt que l'inscription garantissait et qui
                                 stipule également le renouvellement du prêt de 1907 étaient joints à
@@ -35950,7 +35961,7 @@
                             <p>le surplus.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-170">
                         <head>22 juin 1922. - Prés. Eeman.</head>
                         <div type="summary">
                             <p>Revendication incidente ; revendication principale ; distinction ;
@@ -36044,7 +36055,7 @@
                             <p>Par ces motifs : déclare l'appel irrecevable.</p>
                         </div>
                     </div>
-                    <div type="case" xml:lang="fr">
+                    <div type="case" xml:lang="fr" xml:id="blje-34-1922-28-180">
                         <head>22 juin 1922.—Prés. Eeman.</head>
                         <div type="summary">
                             <p>I. Sujets ennemis ; biens ; mise sous séquestre ; Public Custodian;
